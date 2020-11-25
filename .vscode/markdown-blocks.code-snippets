@@ -1,0 +1,65 @@
+{
+	// Place your markdown shorcut snippets here. Each snippet is defined under a snippet name and has a scope, prefix, body and 
+	// description. Add comma separated ids of the languages where the snippet is applicable in the scope field. If scope 
+	// is left empty or omitted, the snippet gets applied to all languages. The prefix is what is 
+	// used to trigger the snippet and the body will be expanded and inserted. Possible variables are: 
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. 
+	// Placeholders with the same IDs are connected.
+	// Example:
+	// "Print to console": {
+	// 	"scope": "javascript,typescript",
+	// 	"prefix": "log",
+	// 	"body": [
+	// 		"console.log('$1');",
+	// 		"$2"
+	// 	],
+	// 	"description": "Log output to console"
+	// }
+	// Mother of all code snippets
+	"Snippet block": {
+		"prefix": "snippet",
+		"body": [
+			","
+			"\"Title\": {"
+				"\"scope\": \"json, markdown\","
+				"\"prefix\": \"\","
+				"\"body\": [],"
+				"\"description\": \"\""
+			"}"
+		],
+		"description": "Adds an empty snippet block"
+	},
+	"SO insert image": {
+		"scope": "markdown",
+		"prefix": "image, media",
+		"body": [
+			"![ALT](./media/FILE.png)"
+		],
+		"description": "Image (superoffice-docs)"
+	},
+	"SO include": {
+		"scope": "markdown",
+		"prefix": "include, reuse",
+		"body": [
+			"[!include[ALT](./includes/FILE.md)]"
+		],
+		"description": "Include (superoffice-docs)"
+	},
+	"SO grid card": {
+		"scope": "markdown",
+		"prefix": "card, grid, block",
+		"body": [
+			"<div class=\"col mb-4\">"
+			"  <div class=\"card border-secondary h-100\">"
+			"    <div class=\"card-header\">HEADER</div>"
+			"    <div class=\"card-body text-secondary\">"
+			"      <p class=\"card-text\">"
+			"        <a href=\"FILE.md\">LABEL</a><br>"
+			"      </p>"
+			"   </div>"
+			"  </div>"
+			"</div>"
+		],
+		"description": ""
+	}
+}

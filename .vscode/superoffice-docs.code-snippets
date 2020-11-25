@@ -1,0 +1,236 @@
+{
+	// Place your planningdocs workspace snippets here. Each snippet is defined under a snippet name and has a scope, prefix, body and 
+	// description. Add comma separated ids of the languages where the snippet is applicable in the scope field. If scope 
+	// is left empty or omitted, the snippet gets applied to all languages. The prefix is what is 
+	// used to trigger the snippet and the body will be expanded and inserted. Possible variables are: 
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. 
+	// Placeholders with the same IDs are connected.
+	// Example:
+	// "Print to console": {
+	// 	"scope": "javascript,typescript",
+	// 	"prefix": "log",
+	// 	"body": [
+	// 		"console.log('$1');",
+	// 		"$2"
+	// 	],
+	// 	"description": "Log output to console"
+	// }
+	"SuperOffice": {
+		"prefix": "so",
+		"body": [
+			"SuperOffice"
+		],
+		"description": "Spells out SuperOffice with correct casing."
+	},
+	"SuperOffice CRM Online": {
+		"prefix": "superoffice, crm",
+		"body": [
+			"SuperOffice CRM Online"
+		],
+		"description": "Spells out SuperOffice CRM Online."
+	},
+	"SuperOffice Web Tools": {
+		"prefix": "superoffice, web tools",
+		"body": [
+			"SuperOffice Web Tools"
+		],
+		"description": "Spells out SuperOffice Web Tools."
+	},
+	"SuperOffice App Store": {
+		"prefix": "superoffice, app store",
+		"body": [
+			"SuperOffice App Store"
+		],
+		"description": "Spells out Refresh Token with correct casing."
+	},
+	"Settings and maintenance": {
+		"prefix": "superoffice, admin, settigs",
+		"body": [
+			"Settings and maintenance"
+		],
+		"description": "Spells out Settings and maintenance."
+	},
+	"Expander Services": {
+		"prefix": "Expander Services",
+		"body": [
+			"Expander Services"
+		],
+		"description": "Spells out Expander Services."
+	},
+	// acronyms
+	"PKCE": {
+		"prefix": "pkce",
+		"body": [
+			"Proof Key for Code Exchange"
+		],
+		"description": "Spells out PKCE with correct casing."
+	},
+	//APIs
+	"CRMScript": {
+		"prefix": "CRMScript",
+		"body": [
+			"CRMScript"
+		],
+		"description": "Spells out CRMScript."
+	},
+	"NetServer web services ": {
+		"prefix": "NetServer, ws, web services ",
+		"body": [
+			"NetServer web services "
+		],
+		"description": "NetServer web services ."
+	},
+	"access_token": {
+		"prefix": "access_token",
+		"body": [
+			"`access_token`"
+		],
+		"description": "Wraps access_token in code ticks."
+	},
+	"SuperIdTokenHandler": {
+		"prefix": "SuperIdTokenHandler, superID, token",
+		"body": [
+			"SuperIdTokenHandler"
+		],
+		"description": ""
+	},
+	// nuget
+	"NuGet packages link": {
+		"prefix": "nuget",
+		"body": [
+			"[NuGet packages](https://www.nuget.org/packages/SuperOffice.NetServer.Services)"
+		],
+		"description": "Adds a link to the SuperOffice NuGets"
+	},
+	"SuperOffice.NetServer.Core": {
+		"prefix": "NetServer.Core",
+		"body": [
+			"SuperOffice.NetServer.Core"
+		],
+		"description": ""
+	},
+	"SuperOffice.NetServer.Services": {
+		"prefix": "NetServer.Services",
+		"body": [
+			"SuperOffice.NetServer.Services"
+		],
+		"description": ""
+	},
+	"SuperOffice.Crm.Online.Core": {
+		"prefix": "Crm.Online.Core",
+		"body": [
+			"SuperOffice.Crm.Online.Core"
+		],
+		"description": ""
+	},
+	"SuperOffice.Crm.Online.Mirroring": {
+		"prefix": "Crm.Online.Mirroring",
+		"body": [
+			"SuperOffice.Crm.Online.Mirroring"
+		],
+		"description": ""
+	},
+	"SuperOffice.Crm.Web": {
+		"prefix": "Crm.Web",
+		"body": [
+			"SuperOffice.Crm.Web"
+		],
+		"description": ""
+	},
+	"SuperOffice.QuoteConnector": {
+		"prefix": "QuoteConnector",
+		"body": [
+			"SuperOffice.QuoteConnector"
+		],
+		"description": ""
+	},
+	// authentication and authorization
+	"OpenID Connect": {
+		"prefix": "openid, oidc",
+		"body": [
+			"OpenID Connect"
+		],
+		"description": "Spells out OpenID Connect with correct casing."
+	},
+	"Client Secret": {
+		"prefix": "secret",
+		"body": [
+			"Client Secret"
+		],
+		"description": "Spells out Client Secret with correct casing."
+	},
+	"Auth0 Authorization Server": {
+		"prefix": "auth0",
+		"body": [
+			"Auth0 Authorization Server"
+		],
+		"description": "Spells out Auth0 Authorization Server with correct casing."
+	},
+	"ID Token": {
+		"prefix": "ID token",
+		"body": [
+			"ID Token"
+		],
+		"description": "Spells out ID Token with correct casing."
+	},
+	"Access Token": {
+		"prefix": "acces token",
+		"body": [
+			"Access Token"
+		],
+		"description": "Spells out Access Token with correct casing."
+	},
+	"Refresh Token": {
+		"prefix": "refresh token",
+		"body": [
+			"Refresh Token"
+		],
+		"description": "Spells out Refresh Token with correct casing."
+	},
+	// response codes
+	"HTTP 200 response": {
+		"prefix": "200, response",
+		"body": [
+			"HTTP 200 response"
+		],
+		"description": ""
+	},
+	"HTTP 302 response": {
+		"prefix": "302, response",
+		"body": [
+			"HTTP 302 response"
+		],
+		"description": ""
+	},
+	"HTTP 500 response": {
+		"prefix": "500, response",
+		"body": [
+			"HTTP 500 response"
+		],
+		"description": ""
+	},
+	// applications
+	"Application Insight": {
+		"prefix": "Application Insights",
+		"body": [
+			"Application Insights"
+		],
+		"description": "A feature of Azure Monitor, is an extensible Application Performance Management (APM) service for developers."
+	},
+	"SQL Server Management Studio": {
+		"prefix": "SQL Server",
+		"body": [
+			"SQL Server Management Studio"
+		],
+		"description": "An easy-to-use graphical management tool for managing SQL Server."
+	},
+	// protocols
+	"SCIM": {
+		"scope": "",
+		"prefix": "SCIM, System for Cross-domain Identity Management",
+		"body": [
+			"System for Cross-domain Identity Management"
+		],
+		"description": ""
+	}
+}

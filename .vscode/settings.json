@@ -1,0 +1,7 @@
+{
+    "blueprint.templatesPath": [
+        "./blueprint-templates",
+        "~/templates/superoffice/blueprint",
+        "/C:/code/planningdocs/templates/superoffice/blueprint"
+    ]
+}
