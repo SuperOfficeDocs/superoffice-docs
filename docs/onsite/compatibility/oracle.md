@@ -15,13 +15,13 @@ so.envir: onsite                # cloud or onsite
 
 # Tested Oracle versions
 
-SuperOffice CRM has been officially tested on Oracle 11g, 12c and 18c.
+SuperOffice CRM has been officially tested on Oracle 11g, 12c, and 18c.
 
 <table>
 <thead>
   <th>Server</th>
   <th>Client</th>
-  <th>Version<th>
+  <th>Version</th>
   <th>ODBC driver</th>
 </thead>
 <tbody>
