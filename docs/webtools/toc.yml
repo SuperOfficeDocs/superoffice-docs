@@ -1,2 +1,4 @@
 - name: Page
   href: index.md
+- name: System requirements
+  href: system-requirements.md
