@@ -6,7 +6,7 @@ title: webtools_system_requirements # (Required) Very important for SEO. Intent 
 description: System requirements for WebTools # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
 author: {github-id}             # Your GitHub alias.
 keywords:
-so.topic:                       # article, howto, reference, concept, guide
+so.topic: reference             # article, howto, reference, concept, guide
 
 # Optional fields. Don't forget to remove # if you need a field.
 # so.envir:                     # cloud or onsite
@@ -33,5 +33,9 @@ It is necessary to make sure Web Extensions is set to automatically start when a
 
 To store Web Extensions configuration, we use folder *%localappdata%\\SuperOffice\\SuperOffice Web Extensions*.
 
+> [!NOTE]
+> The installation of the WebTools does not require administrative privileges, but the prerequisites do. For more information, see the [Web Tools installation documentation][2].
+
 <!-- Referenced links -->
-[1 ]: https://www.microsoft.com/en-US/download/details.aspx?id=40779
+[1]: https://www.microsoft.com/en-US/download/details.aspx?id=40779
+[2]: https://community.superoffice.com/en/technical/documentation/install-upgrade/superoffice-web-tools/superoffice-webtools-deployment/

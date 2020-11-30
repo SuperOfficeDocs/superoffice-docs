@@ -81,6 +81,9 @@ This is both incoming and outgoing. For example, one request (ticket) cannot hav
 
 ## WebTools
 
+> [!CAUTION]
+> Since 18th September, 2019 we have closed down access for old versions of WebTools for Windows for all Online users. The minimal required version is now 11.5. Please make sure you are running the [latest WebTools][1].
+
 * [System requirements][5]
 
 <!-- Referenced links-->
