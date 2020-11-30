@@ -1,0 +1,51 @@
+---
+# This basic template provides core metadata fields for Markdown articles on docs.superoffice.com.
+
+# Mandatory fields.
+title: about_crm_online # (Required) Very important for SEO. Intent in a unique string of 43-59 chars including spaces.
+description: About CRM Online # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
+author: {github-id}             # Your GitHub alias.
+keywords:
+so.topic: concept               # article, howto, reference, concept, guide
+
+# Optional fields. Don't forget to remove # if you need a field.
+so.envir: cloud              # cloud or onsite
+so.client: online               # online, web, win, pocket, or mobile
+---
+
+# About CRM Online
+
+## Overview
+
+SuperOffice CRM Online is our cloud offering. It gives you the freedom to access your CRM data – and be available – anywhere, everywhere and always. You can work from your office, from home, from a customer's office or from a hotel. In the cloud, you are always upgraded to the latest version.
+
+We take care of the hosting, back-ups, upgrades, security, and everything necessary to keep your solution available in the cloud. This gives you more time to focus on your business and less time to worry about IT operations. Your data is stored in our data center with world-class reliability and security.
+
+## SuperOffice App Store
+
+Our partners also deliver a growing number of apps, modules, and integrations to expand your SuperOffice CRM Online solution: [Go to App Store][1]
+
+## Technology platform
+
+SuperOffice CRM Online is based on the standard core product SuperOffice CRM web client. The user interface is similar to the one that comes out of the package when installing Sales & Marketing web, and has minor features added, such as links to SOLO (standard for all users) and a web panel for support.
+
+From version 8 we introduce our new software in the Online marked first.
+
+SuperOffice CRM Online is accessed through any [supported browser][2] and our [web tools][3] may be installed on your computer to get your email and documents integrated with SuperOffice.
+
+On the server side, the system runs on Windows web servers with a Microsoft SQL database. Web servers are resilient; they are all set up in an active/passive cluster. Several servers handle other services, such as file storage and batchtask service.
+
+### Sign-in services
+
+SuperOffice CRM Online platform includes features to help you handle how you sign in to SuperOffice Online.
+
+You may read our article [Everything you need to know about your SuperOffice CRM account][4].
+
+We offer more than one way of signing in - and [the Identity Management section][5]  gives you an overview of the available options, what is the features and benefits, and how each service is set up.
+
+<!-- Referenced links -->
+[1]: http://online.superoffice.com/appstore/
+[2]: https://community.superoffice.com/en/technical/documentation/prepare/crm-online/client-requirements-crmonline/
+[3]: https://community.superoffice.com/en/customer/learn/settings-maintenance/general/users/install-web-tools/
+[4]: https://community.superoffice.com/en/customer/learn/standard/account/
+[5]: https://community.superoffice.com/en/technical/documentation/identity-management/
