@@ -17,8 +17,7 @@ so.client: win                  # online, web, win, pocket, or mobile
 
 These apply to computers running the Sales, Marketing, and Service clients.
 
-> [!WARN]
-> The Win client is not available for SuperOffice 9 and later.
+[!include[Warning legacy](./includes/warn-win-client-discontinued.md)]
 
 ## Processor
 
