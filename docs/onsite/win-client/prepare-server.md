@@ -15,7 +15,7 @@ so.client: win                # online, web, win, pocket, or mobile
 
 # Prepare Win client computer
 
-[!include[Warning legacy](./includes/warn-win-client-discontinued.md)]
+[!include[Warning legacy](../includes/warn-win-client-discontinued.md)]
 
 **For Microsoft SQL Server:**
 

@@ -17,7 +17,7 @@ so.client: win                  # online, web, win, pocket, or mobile
 
 These apply to computers running the Sales, Marketing, and Service clients.
 
-[!include[Warning legacy](./includes/warn-win-client-discontinued.md)]
+[!include[Warning legacy](../includes/warn-win-client-discontinued.md)]
 
 ## Processor
 
