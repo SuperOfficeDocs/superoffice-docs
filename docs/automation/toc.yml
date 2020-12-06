@@ -1,2 +1,11 @@
-- name: Page
+items:
+- name: Automation
   href: index.md
+- name: SuperMacro
+  href: macro/
+- name: Event Triggers
+  href: trigger/
+- name: Webhooks
+  href: webhooks/
+- name: Zapier
+  href: zapier/

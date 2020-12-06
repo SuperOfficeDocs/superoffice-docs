@@ -5,6 +5,11 @@
 
 # Docfx generated files.
 _site/
+/**/DROP/
+/**/TEMP/
+/**/packages/
+/**/bin/
+/**/obj/
 
 # User-specific files
 *.rsuser

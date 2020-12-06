@@ -13,7 +13,7 @@ so.envir: cloud              # cloud or onsite
 so.client: online            # online, web, win, pocket, or mobile
 ---
 
-# SuperOffice for Outlook
+# SuperOffice for Outlook Overview
 
 [View in the SuperOffice App Store][1]
 
