@@ -14,7 +14,7 @@ so.date: 06.12.2020
 
 ### B
 
-* [Bulk Update](bulkupdate/index.md)
+* [Bulk Update](bulk-update/index.md)
 
 ### C
 
