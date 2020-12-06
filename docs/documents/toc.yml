@@ -1,2 +1,37 @@
-- name: Page
+- name: Documents
   href: index.md
+- name: Cloud Document Integrations
+  href: cloud-document-integrations.md
+- name: Configure Cloud Document Handling
+  href: configure-cloud-document-handling.md
+- name: GSuite Document integration
+  href: g-suite-document-integration/index.md
+  items:
+  - name: Requirements
+    href: g-suite-document-integration/requirements.md
+  - name: Quick Start
+    href: g-suite-document-integration/quick-start.md
+  - name: Set up
+    href: g-suite-document-integration/set-up.md
+  - name: Security
+    href: g-suite-document-integration/security.md
+- name: Office365 Document Integration
+  href: office-365-document-integration/index.md
+  items:
+  - name: Requirements
+    href: office-365-document-integration/requirements.md
+  - name: Preparation
+    href: office-365-document-integration/prepare-sharepoint-for-set-up.md
+  - name: Set up
+    href: office-365-document-integration/set-up.md
+  - name: Security
+    href: office-365-document-integration/security.md
+  - name: Troubleshooting
+    href: office-365-document-integration/troubleshooting.md
+- name: Office Ribbons
+  href: ribbons/index.md
+  items:
+  - name: Enable Debug
+    href: ribbons/enable-debug.md
+  - name: Troubleshooting
+    href: ribbons/troubleshooting.md

@@ -1,3 +1,5 @@
+- name: Email
+  href: index.md
 - name: SuperOffice for Outlook
   href: superoffice-for-outlook/index.md
   items:
