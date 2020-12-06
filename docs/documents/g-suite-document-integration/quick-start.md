@@ -57,7 +57,7 @@ This article explains in short terms how you can get G Suite document integratio
 
 **Setup of document integration done!**
 
-Now, you need to [configure templates](configure-cloud-document-handling.md) in SuperOffice Admin to start using the integration.
+Now, you need to [configure templates](../configure-cloud-document-handling.md) in SuperOffice Admin to start using the integration.
 
 <!-- Referenced links -->
 [1]: https://crm.superoffice.com/scripts/customer.fcgi?action=formFrame&formId=19

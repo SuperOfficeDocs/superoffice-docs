@@ -6,6 +6,6 @@ items:
 - name: Event Triggers
   href: trigger/
 - name: Webhooks
-  href: webhooks/
+  href: webhook/
 - name: Zapier
   href: zapier/

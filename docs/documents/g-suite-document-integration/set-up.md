@@ -125,7 +125,7 @@ Your SuperOffice Online installation is now able to talk to Google G Suite and u
 
 This step is the same for both MS Office 365 and Google G Suite document integration.
 
-[Configure Cloud Office document handling](configure-cloud-document-handling.md).
+[Configure Cloud Office document handling](../configure-cloud-document-handling.md).
 
 <!-- Referenced links -->
 [1]: https://community.superoffice.com/contentassets/2d8241a8afda467e92c55de45b34f05a/image58qub.png
