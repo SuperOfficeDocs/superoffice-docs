@@ -26,6 +26,8 @@ These requirements are specific to onsite installations of SuperOffice. They sup
 
 * For [direct NetServer connection][2], NetServer must be version 8.0 or higher.
 
+* Pocket version 8 running directly with Netserver must have remote web services.
+
 ### TLS
 
 * The site must allow TLS 1.0 if you are running on a Pocket CRM version lower than 8.0.32 which was released August 15th 2016.
