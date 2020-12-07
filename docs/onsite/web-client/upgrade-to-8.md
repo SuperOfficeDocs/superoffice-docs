@@ -20,8 +20,8 @@ These are the recommended steps for upgrading from SuperOffice 7 Web to SuperOff
 ## Before you begin
 
 * Check the [system requirements](system-requirements.md) for SuperOffice 8 Web
-* [upgrad your database][1] to version 8.1 using ServerSetup.exe
-* If using remote Netserver for Web: [upgrad the NetServer][2] used by Web to version 8.1
+* [Upgrade your database][1] to version 8.1 using ServerSetup.exe
+* If using remote Netserver for Web: [upgrade the NetServer][2] used by Web to version 8.1
 * Download and unzip the Web installer package on your server
 
 [!include[ALT](../includes/warn-upgrade-all-to-same-version.md)]
