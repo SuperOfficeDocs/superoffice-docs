@@ -31,4 +31,4 @@ Please note running Ribbon vsto file can cause issues and this should not be don
 
 <!-- Referenced links -->
 [1]: https://community.superoffice.com/en/technical/documentation/older-versions/documentation-7/SM/winclient/ini-files/superofficeini/
-[2: https://community.superoffice.com/en/technical/Forum/rooms/topic/superoffice-product-group/crm-windows-application/why-we-should-not-run-vsto-installer-manually/]
+[2]: https://community.superoffice.com/en/technical/Forum/rooms/topic/superoffice-product-group/crm-windows-application/why-we-should-not-run-vsto-installer-manually/
