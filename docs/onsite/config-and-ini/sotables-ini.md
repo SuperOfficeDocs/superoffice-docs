@@ -14,5 +14,3 @@ so.topic:                       # article, howto, reference, concept, guide
 ---
 
 # Heading 1
-
-Demo change...
