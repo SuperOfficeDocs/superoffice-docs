@@ -83,7 +83,7 @@ This service has a limited set of responsibilities:
 
 ## How to install only MailLink part of WebTools
 
-MailLink is now a separate downloadable installer (the lastest version) available on the Download Service so customers wishing to upgrade only MailLink can do so.
+MailLink is now a separate downloadable installer (the latest version) available on the Download Service so customers wishing to upgrade only MailLink can do so.
 
 <!-- Referenced links -->
 [1]: https://www3.superoffice.com/DownloadService/

@@ -1,2 +1,140 @@
-- name: Page
+- name: Onsite
   href: index.md
+  items:
+  - name: Migration guide
+    href: migration-guide.md
+  - name: System requirements
+    href: system-requirements.md
+  - name: Upgrade scenarios 75 to 8
+    href: upgrade-scenarios-75-to-8.md
+  - name: Upgrade to 8 1
+    href: upgrade-to-8-1.md
+  - name: Compatibility
+    href: compatibility/browser.md
+    items:
+    - name: Browser
+      href: compatibility/browser.md
+    - name: Client os
+      href: compatibility/client-os.md
+    - name: Database
+      href: compatibility/database.md
+    - name: Ms office
+      href: compatibility/ms-office.md
+    - name: Ms sql server
+      href: compatibility/ms-sql-server.md
+    - name: Oracle
+      href: compatibility/oracle.md
+    - name: Reports
+      href: compatibility/reports.md
+    - name: Server os
+      href: compatibility/server-os.md
+    - name: Includes
+      href: compatibility/includes/caution-odbc-drivers.md
+      items:
+      - name: Caution odbc drivers
+        href: compatibility/includes/caution-odbc-drivers.md
+      - name: Oracle 18c drivers
+        href: compatibility/includes/oracle-18c-drivers.md
+      - name: Test legend
+        href: compatibility/includes/test-legend.md
+      - name: Win unavailable
+        href: compatibility/includes/win-unavailable.md
+  - name: Config and ini
+    href: config-and-ini/index.md
+    items:
+    - name: Sotables ini
+      href: config-and-ini/sotables-ini.md
+  - name: Crm server
+    href: crm-server/create-ms-sql-server-db.md
+    items:
+    - name: Create ms sql server db
+      href: crm-server/create-ms-sql-server-db.md
+    - name: Create oracle db
+      href: crm-server/create-oracle-db.md
+    - name: Deploy on citrix
+      href: crm-server/deploy-on-citrix.md
+    - name: Install on citrix
+      href: crm-server/install-on-citrix.md
+    - name: Move
+      href: crm-server/move.md
+    - name: Setup guide
+      href: crm-server/setup-guide.md
+    - name: Silent serversetup
+      href: crm-server/silent-serversetup.md
+    - name: Sql server full text search
+      href: crm-server/sql-server-full-text-search.md
+    - name: System requirements
+      href: crm-server/system-requirements.md
+    - name: Upgrade to 8
+      href: crm-server/upgrade-to-8.md
+    - name: Iis web server
+      href: crm-server/iis-web-server/index.md
+      items:
+      - name: Prepare
+        href: crm-server/iis-web-server/prepare.md
+      - name: Sso
+        href: crm-server/iis-web-server/sso.md
+  - name: Pocket crm
+    href: pocket-crm/system-requirements.md
+    items:
+    - name: System requirements
+      href: pocket-crm/system-requirements.md
+  - name: Security
+    href: security/deployment-scenarios.md
+    items:
+    - name: Deployment scenarios
+      href: security/deployment-scenarios.md
+    - name: Network firewall config
+      href: security/network-firewall-config.md
+    - name: Secure deployment guide
+      href: security/secure-deployment-guide.md
+    - name: Secure https
+      href: security/secure-https.md
+    - name: Set up emet
+      href: security/set-up-emet.md
+    - name: Set up modsecurity
+      href: security/set-up-modsecurity.md
+    - name: Set up reverse proxy on iis
+      href: security/set-up-reverse-proxy-on-iis.md
+  - name: Service
+    href: service/index.md
+    items:
+    - name: Install manually
+      href: service/install-manually.md
+    - name: Set up guide
+      href: service/set-up-guide.md
+    - name: Upgrade
+      href: service/upgrade.md
+  - name: Superoffice mobile
+    href: superoffice-mobile/index.md
+    items:
+    - name: Intro
+      href: superoffice-mobile/index.md
+  - name: Web client
+    href: web-client/index.md
+    items:
+    - name: Install netserver
+      href: web-client/install-netserver.md
+    - name: Set up
+      href: web-client/set-up.md
+    - name: Set up web and report
+      href: web-client/set-up-web-and-report.md
+    - name: System requirements
+      href: web-client/system-requirements.md
+    - name: Upgrade netserver to 8
+      href: web-client/upgrade-netserver-to-8.md
+    - name: Upgrade to 8
+      href: web-client/upgrade-to-8.md
+  - name: Win client
+    href: win-client/index.md
+    items:
+    - name: Find superoffice ini file
+      href: win-client/find-superoffice-ini-file.md
+    - name: Install
+      href: win-client/install.md
+    - name: Prepare server
+      href: win-client/prepare-server.md
+    - name: System requirements
+      href: win-client/system-requirements.md
+    - name: Upgrade
+      href: win-client/upgrade.md

@@ -1,2 +1,21 @@
-- name: Page
+- name: Mobile
   href: index.md
+  items:
+  - name: Pocket crm
+    href: pocket-crm/configure.md
+    items:
+    - name: Configure
+      href: pocket-crm/configure.md
+    - name: Install online
+      href: pocket-crm/install-online.md
+    - name: Install onsite
+      href: pocket-crm/install-onsite.md
+    - name: System requirements
+      href: pocket-crm/system-requirements.md
+    - name: Upgrade to 8
+      href: pocket-crm/upgrade-to-8.md
+  - name: Superoffice mobile
+    href: superoffice-mobile/system-requirements.md
+    items:
+    - name: System requirements
+      href: superoffice-mobile/system-requirements.md

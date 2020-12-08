@@ -1,2 +1,19 @@
-- name: Page
-  href: index.md
+- name: Video meeting
+  href: configure-video-meetings.md
+  items:
+  - name: Configure video meetings
+    href: configure-video-meetings.md
+  - name: Connect provider
+    href: connect-provider.md
+  - name: Create video meeting
+    href: create-video-meeting.md
+  - name: Disconnect provider
+    href: disconnect-provider.md
+  - name: Join video meeting
+    href: join-video-meeting.md
+  - name: Overview
+    href: overview.md
+  - name: Pre requisites
+    href: pre-requisites.md
+  - name: Uninstall provider
+    href: uninstall-provider.md

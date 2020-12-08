@@ -1,11 +1,9 @@
 items:
-- name: Automation
-  href: index.md
-- name: SuperMacro
-  href: macro/
-- name: Event Triggers
-  href: trigger/
-- name: Webhooks
-  href: webhook/
+- name: Macro
+  href: macro/index.md
+- name: Trigger
+  href: trigger/index.md
+- name: Webhook
+  href: webhook/index.md
 - name: Zapier
-  href: zapier/
+  href: zapier/index.md

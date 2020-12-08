@@ -1,5 +1,32 @@
 - name: Email
   href: index.md
+- name: Mailgun
+  href: mailgun/index.md
+  items:
+  - name: Amount and speed
+    href: mailgun/amount-speed.md
+  - name: Reasons to customize
+    href: mailgun/reasons-to-customize.md
+  - name: mailgun/Security
+    href: mailgun/security.md
+  - name: Sub-processor Information
+    href: mailgun/sub-processor-info.md
+  - name: DKIM
+    items:
+      - name: What is DKIM
+        href: mailgun/dkim/index.md
+      - name: Setup DKIM
+        href: mailgun/dkim/set-up.md
+      - name: Order Key
+        href: mailgun/dkim/order-key.md
+      - name: Change from US to EU
+        href:  mailgun/dkim/change-us-to-eu.md
+  - name: SPF
+    items:
+      - name: What is SPF
+        href: mailgun/spf/index.md
+      - name: Setup
+        href: mailgun/spf/set-up.md
 - name: SuperOffice for Outlook
   href: superoffice-for-outlook/index.md
   items:

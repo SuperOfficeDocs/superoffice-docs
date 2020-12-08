@@ -1,4 +1,9 @@
-- name: Page
+- name: Webtools
   href: index.md
-- name: System requirements
-  href: system-requirements.md
+  items:
+  - name: Deploy
+    href: deploy.md
+  - name: System requirements
+    href: system-requirements.md
+  - name: Upgrade
+    href: upgrade.md
