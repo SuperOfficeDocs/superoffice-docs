@@ -61,5 +61,14 @@
 			"</div>"
 		],
 		"description": ""
+	},
+	"SO link section": {
+	"scope": "markdown",
+	"prefix": "reference, link",
+	"body": [
+		"<!-- Referenced links -->"
+		"[1]:"
+	],
+	"description": "Bottom link section"
 	}
 }
