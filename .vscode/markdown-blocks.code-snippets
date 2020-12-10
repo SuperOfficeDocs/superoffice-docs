@@ -70,5 +70,14 @@
 		"[1]:"
 	],
 	"description": "Bottom link section"
+	},
+	"Table header for params": {
+	"scope": "markdown",
+	"prefix": "tab, param",
+	"body": [
+		"| Parameter | Description |"
+		"|-----------|-------------|"
+	],
+	"description": "Table header for params"
 	}
 }
