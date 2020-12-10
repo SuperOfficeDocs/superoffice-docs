@@ -7,7 +7,7 @@ keywords:
 
 # Config and ini files
 
-Here's an overview of where you may find the different logfiles and how you enable debug or start up using command line switches for our windows applicaitons.
+Here's an overview of where you may find the different log files and how you enable debug or start-up using command line switches for our windows applications.
 
 ## SuperOffice Win
 
@@ -29,7 +29,7 @@ Here's an overview of where you may find the different logfiles and how you enab
 
 ## Outlook mail link
 
-[Enable debug for Outlook Mail Link](https://community.superoffice.com/en/technical/documentation/administration/config-ini/debugmaillink/) 
+[Enable debug for Outlook Mail Link](https://community.superoffice.com/en/technical/documentation/administration/config-ini/debugmaillink/)
 
 ## Notes link
 
@@ -48,3 +48,6 @@ Here's an overview of where you may find the different logfiles and how you enab
 [Service config](https://community.superoffice.com/en/technical/documentation/administration/config-ini/serviceconfig.config/)
 
 [Debug service tasks failing or not running](https://community.superoffice.com/en/technical/documentation/administration/config-ini/automatedtasksdebug.config/)
+
+<!-- Referenced links -->
+[1]: 
