@@ -27,7 +27,8 @@ EnableDebug = 1
 EnableRibbonLog = 1
 ```
 
-Please note running Ribbon vsto file can cause issues and this should not be done. Read more info on the [Community forum][2].
+> [!CAUTION]
+> Running Ribbon vsto file can cause issues and this should not be done. Read more info on the [Community forum][2].
 
 <!-- Referenced links -->
 [1]: https://community.superoffice.com/en/technical/documentation/older-versions/documentation-7/SM/winclient/ini-files/superofficeini/

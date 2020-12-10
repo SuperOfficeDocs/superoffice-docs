@@ -20,6 +20,12 @@ In the latter case MailLink has shipped with its own copy of NetServer and runs 
 
 This means that if you have a SuperOffice Windows installation and download the latest WebTools from the [SuperOffice Download Service][1] you may end up in a situation where your MailLink runs a newer version of NetServer and expects a different database schema than the one you actually have.
 
+### Technical overview over SuperOffice Web Tools
+
+This is a technical blog post written by one of the developers to describe the inner workings of SuperOffice Web Tools. The intended audience is technicians, developers and other special interested.
+
+[Blog by developer Hans Oluf Waaler][4]
+
 ## The solution
 
 If MailLink “borrows” NetServer from the Windows client installation instead of shipping its own the whole compatibility problem goes away. Having the Windows client installed is a prerequisite anyway so it’s not like we’re imposing any new demands.
@@ -89,3 +95,4 @@ MailLink is now a separate downloadable installer (the latest version) available
 [1]: https://www3.superoffice.com/DownloadService/
 [2]: https://community.superoffice.com/contentassets/8d93377a0cb14fa2aae09b3a73f6770a/webtools-old-schema.png
 [3]: https://community.superoffice.com/contentassets/8d93377a0cb14fa2aae09b3a73f6770a/webtools-new-schema.png
+[4]: https://community.superoffice.com/en/blog/technical-overview-over-superoffice-web-tools/
