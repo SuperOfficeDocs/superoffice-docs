@@ -1,5 +1,5 @@
 ---
-This basic template provides core metadata fields for Markdown articles on docs.superoffice.com
+# This basic template provides core metadata fields for Markdown articles on docs.superoffice.com
 # Mandatory fields.
 title: variables_for_int_address       # (Required) Very important for SEO. Intent in a unique string of 43-59 chars including spaces.
 description: Variables for international addresses # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.

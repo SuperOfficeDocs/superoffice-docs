@@ -12,21 +12,21 @@
     href: attachments/index.md
     items:
     - name: Location of
-      href: location.md
+      href: attachments/location.md
   - name: SMS
     href: sms/index.md
     items:
     - name: CM
-      href: cm.md
+      href: sms/cm.md
     - name: Compaya
-      href: compaya.md
+      href: sms/compaya.md
     - name: Intelecom
-      href: intelecom.md
+      href: sms/intelecom.md
     - name: PSWinCom
-      href: pswincom.md
+      href: sms/pswincom.md
     - name: SMSTeknik
-      href: smsteknik.md
+      href: sms/smsteknik.md
     - name: Twilio
-      href: twilio.md
+      href: sms/twilio.md
     - name: TxtLocal
-      href: txtlocal.md
+      href: sms/txtlocal.md

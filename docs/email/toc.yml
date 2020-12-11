@@ -35,7 +35,7 @@
   href: maillink/index.md
   items:
   - name: Debug
-    href: debug.md
+    href: maillink/debug.md
 - name: SuperOffice for Outlook
   href: superoffice-for-outlook/index.md
   items:
