@@ -62,5 +62,5 @@ To enable your script simply drop the script files (or assemblies) in the script
 For more information regarding scripting with .web, visit [DevNet][2]
 
 <!-- Referenced links -->
-[1]: https://community.superoffice.com/contentassets/c28f844a09544ea8997b051ec88f4e63/ns-web-scripting.jpg
+[1]: media/ns-web-scripting.jpg
 [2]: https://community.superoffice.com/en/content/content/webclient/Scripting-in-the-NetServer-World/

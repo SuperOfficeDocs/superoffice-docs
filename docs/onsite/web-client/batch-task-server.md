@@ -55,7 +55,7 @@ Whenever a task is running the area at the top right next to the freetext search
 Task execution can timeout. This is handled in the batch processor in NetServer. If the queue of waiting tasks becomes to big, the administrator of the system should either increase the number of simultaneous tasks that can run in this service, install multiple instances of the service on one machine,  or set up more than one server running batch processing services. Tasks will be found in the database table crm7.batchtask
 
 <!-- Referenced links -->
-[1]: https://community.superoffice.com/contentassets/a3d55f1ab93a4d69ad40f3376fff14bc/runtaskinprocess.png
+[1]: media/runtaskinprocess.png
 [2]: https://community.superoffice.com/en/content/content/webclient/Background-Computing-and-Batch-Processing/
-[3]: https://community.superoffice.com/contentassets/a3d55f1ab93a4d69ad40f3376fff14bc/batchtaskservice.png
-[4]: https://community.superoffice.com/contentassets/a3d55f1ab93a4d69ad40f3376fff14bc/webbatchprocessing1.png
+[3]: media/batchtaskservice.png
+[4]: media/webbatchprocessing1.png

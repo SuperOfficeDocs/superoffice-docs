@@ -53,6 +53,6 @@ For the Pocket user it is possible to verify the redirection by checking **Task 
 ![x][3]
 
 <!-- Referenced links -->
-[1]: https://community.superoffice.com/contentassets/f016ed7bcc5242008d0c54d9521a0c24/pocketservice.jpg
-[2]: https://community.superoffice.com/contentassets/f016ed7bcc5242008d0c54d9521a0c24/pocketreconfigure.png
-[3]: https://community.superoffice.com/globalassets/technical-club/images/pocket/pocket-netserver.png
+[1]: media/pocketservice.jpg
+[2]: media/pocketreconfigure.png
+[3]: media/pocket-netserver.png

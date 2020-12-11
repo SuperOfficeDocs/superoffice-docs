@@ -23,9 +23,9 @@
 ![x][7]
 
 <!-- Referenced links -->
-[2]: https://cs.superoffice.com/scripts/customer.fcgi/getAttachment/2886025-4hXUK5fjwk3H616M5sdAx5YP0MrLLRHlShaD44lj3FfTNpq1hGTMXZmb8OMw7Uyd-0/image.png
-[3]: https://cs.superoffice.com/scripts/customer.fcgi/getAttachment/2886027-alDgZ1UewuEB3tlQhu1E22eHuLHeEwmqUsm1H4IgA1pyCNjf9zxkfzl1HBK1BlkJ-0/image.png
-[4]: https://cs.superoffice.com/scripts/customer.fcgi/getAttachment/2889502-OWqOr2l3hO3HuCEd1iMzHB8jfIhHkSdQdqsLifLNq6mPBPpZINAdCKkonGQTEUZT-0/image.png
-[5]: https://cs.superoffice.com/scripts/customer.fcgi/getAttachment/2889505-ql4GAHhar3CbHjfJqiN8bFB0eS5LaFAaoKy5aIqEfeF9RWlbDYUpDhullOIsOPb9-0/image.png
-[6]: https://cs.superoffice.com/scripts/customer.fcgi/getAttachment/2886047-ZBjxDD2BIyE5EAw9MXIwBLlu3LFXokwpTgbZqxrBYSoybeJo2Ko1ACcpwnLhfAWC-0/image.png
+[2]: media/image.png
+[3]: media/image.png
+[4]: media/image.png
+[5]: media/image.png
+[6]: media/image.png
 [7]: https://cs.superoffice.com/scripts/customer.fcgi/getAttachment/

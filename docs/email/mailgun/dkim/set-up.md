@@ -99,10 +99,10 @@ Once the DKIM DNS record has been propagated and it tests OK, SuperOffice needs 
 <!-- Referenced links -->
 [1]: https://community.superoffice.com/en/technical/documentation/administration/mailgun-options-and-security/order-setup-dkim/order-dkim/
 [2]: http://www.enom.com/kb/kb/kb_1042-dkim-on-dns.htm
-[3]: https://community.superoffice.com/contentassets/82b4f8fa4d504029b3cb22e279051a89/enomdkimedit.png
-[4]: https://community.superoffice.com/contentassets/82b4f8fa4d504029b3cb22e279051a89/enomdkimadd.png
+[3]: media/enomdkimedit.png
+[4]: media/enomdkimadd.png
 [5]: https://mxtoolbox.com/dkim.aspx
 [6]: https://www.mail-tester.com/spf-dkim-check
 [7]: https://www.mxtoolbox.com/dkim.aspx
-[8]: https://community.superoffice.com/contentassets/82b4f8fa4d504029b3cb22e279051a89/mxtoolsboxdkim.png
-[9]: https://community.superoffice.com/contentassets/82b4f8fa4d504029b3cb22e279051a89/mxtoolsboxdkimresult.png
+[8]: media/mxtoolsboxdkim.png
+[9]: media/mxtoolsboxdkimresult.png

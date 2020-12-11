@@ -69,7 +69,7 @@ The status, number of attempts, and last error message + possibly a more compr
 ![x][4]
 
 <!-- Referenced links -->
-[1]: https://community.superoffice.com/contentassets/a7b66b59c47a4df6bf7d4507b6e6c973/320curl.jpg
-[2]: https://community.superoffice.com/contentassets/a7b66b59c47a4df6bf7d4507b6e6c973/e-mail.jpg
-[3]: https://community.superoffice.com/contentassets/a7b66b59c47a4df6bf7d4507b6e6c973/outboxitem.jpg
-[4]: https://community.superoffice.com/contentassets/a7b66b59c47a4df6bf7d4507b6e6c973/outboundlog.jpg
+[1]: media/320curl.jpg
+[2]: media/e-mail.jpg
+[3]: media/outboxitem.jpg
+[4]: media/outboundlog.jpg

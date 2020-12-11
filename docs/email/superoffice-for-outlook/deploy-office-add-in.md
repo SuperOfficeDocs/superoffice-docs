@@ -38,8 +38,8 @@ The deployment is now complete. The SuperOffice add-in for Outlook should now be
 
 <!-- Referenced links -->
 [1]: https://appsource.microsoft.com/en-us/product/office/WA200001597?src=office&tab=Overview
-[2]: https://community.superoffice.com/contentassets/4676af12ff874b618e0cfb3ec0f05c8c/image1ya58.png
-[3]: https://community.superoffice.com/contentassets/4676af12ff874b618e0cfb3ec0f05c8c/imageewib5.png
+[2]: media/image1ya58.png
+[3]: media/imageewib5.png
 [4]: https://community.superoffice.com/contentassets/4676af12ff874b618e0cfb3ec0f05c8c/
 quick-start-guide---superoffice-for-outlook.pdf
 [5]: https://docs.microsoft.com/en-us/microsoft-365/admin/manage/manage-deployment-of-add-ins?view=o365-worldwide

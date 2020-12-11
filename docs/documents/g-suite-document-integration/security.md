@@ -80,14 +80,14 @@ If your company and business structure use/cross multiple G Suite domains (ie. c
 The users belonging to other domains than the domain the service-account belongs to should now have access.
 
 <!-- Referenced links -->
-[1]: https://community.superoffice.com/contentassets/2d8241a8afda467e92c55de45b34f05a/gsiarc.png
-[2]: https://community.superoffice.com/contentassets/2d8241a8afda467e92c55de45b34f05a/gsiarc2.png
+[1]: media/gsiarc.png
+[2]: media/gsiarc2.png
 [3]: https://admin.google.com/AdminHome?hl=en#DomainsDetails:flyout=trustedDomains
 [4]: https://admin.google.com/AdminHome#GroupList:
 [5]: https://support.google.com/groups/answer/2464926
 [6]: https://admin.google.com/AdminHome?hl=en#GroupList:
-[7]: https://community.superoffice.com/contentassets/2d8241a8afda467e92c55de45b34f05a/imagehhza.png
+[7]: media/imagehhza.png
 [8]: https://support.google.com/groups/answer/2465464
 [9]: https://drive.google.com/drive/my-drive
-[10]: https://community.superoffice.com/contentassets/2d8241a8afda467e92c55de45b34f05a/googlesharearchive.png
-[11]: https://community.superoffice.com/contentassets/2d8241a8afda467e92c55de45b34f05a/imagerrxjg.png
+[10]: media/googlesharearchive.png
+[11]: media/imagerrxjg.png

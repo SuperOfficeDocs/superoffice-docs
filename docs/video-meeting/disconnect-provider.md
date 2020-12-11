@@ -33,4 +33,4 @@ Now you are able to start the configuration over.
 
 <!-- Referenced links -->
 [1]: ../media/icons/preferences.bmp
-[2]: https://community.superoffice.com/contentassets/ff7f0882643c42ba9181482ce59b2269/image67mh.png
+[2]: media/image67mh.png

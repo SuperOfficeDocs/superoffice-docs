@@ -86,4 +86,4 @@ Under configuration -> system.serviceModel -> bindings, add:
 
 <!-- Referenced links -->
 [1]: https://www.linkmobility.com/products/link-sms-gateway/
-[2]: https://community.superoffice.com/globalassets/technical-club/images/service/pswincomsmssettings.png
+[2]: media/pswincomsmssettings.png

@@ -72,9 +72,9 @@ We recommend "~all" (soft fail if no matches) vs "-all" (hard fail if no matches
 <!-- Referenced links -->
 [1]: https://support.office.com/en-us/article/general-instructions-for-creating-dns-records-for-office-365-e21a9a4a-7b14-42cb-b39b-03aee92da95f
 2886048-0ziPiPMBJl50dyrE4AuUcfWmuAGb4WexjzApsYr6iF3OwywNJfNLX7Eg1xRWTH76-0/image.png
-[8]: https://cs.superoffice.com/scripts/customer.fcgi/getAttachment/2886053-ncCTgbK1y6kOJ6PG3GwI1D1y8xytXfFKaQRaMiFs44xnHusWwW2ILezw7cYUIWPx-0/image.png
-[9]: https://community.superoffice.com/contentassets/339951e0b8a14eaea7bac5de6befb518/2a906f41-12d9-450b-b38f-9c6b62ed18ec.png
-[10]: https://community.superoffice.com/contentassets/339951e0b8a14eaea7bac5de6befb518/8e28749e-be90-498f-ad22-584bff9d37b5.png
+[8]: media/image.png
+[9]: media/2a906f41-12d9-450b-b38f-9c6b62ed18ec.png
+[10]: media/8e28749e-be90-498f-ad22-584bff9d37b5.png
 [11]: https://mxtoolbox.com/
-[12]: https://cs.superoffice.com/scripts/customer.fcgi/getAttachment/2889513-ZzjOj0KqPoGaGqNGhsjJdNdCfIQeCTrqEjOMQMDutyCbRyTohiOPZSRMQQN2xy1Y-0/image.png
-[13]: https://community.superoffice.com/contentassets/339951e0b8a14eaea7bac5de6befb518/image7mle8.png
+[12]: media/image.png
+[13]: media/image7mle8.png

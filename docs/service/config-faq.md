@@ -86,6 +86,6 @@ Example, a boolean field is created on the customer, called x\_access. When tick
 ```
 
 <!-- Referenced links -->
-[1]: https://community.superoffice.com/contentassets/f7d937d746c1498bb071252cfadc5109/reg_id198_199.png
-[2]: https://community.superoffice.com/contentassets/f7d937d746c1498bb071252cfadc5109/comments.png
+[1]: media/reg_id198_199.png
+[2]: media/comments.png
 [3]: http://support.superoffice.com/

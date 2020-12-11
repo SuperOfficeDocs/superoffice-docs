@@ -97,9 +97,9 @@ From 8.1 this preference will tell all clients where the Sales Web client is ins
 <!-- Referenced links -->
 [1]: https://community.superoffice.com/en/technical/documentation/prepare/security/deploy-securely/setting-up-a-reverse-proxy-on-iis8/
 [2]: https://community.superoffice.com/en/technical/documentation/install-upgrade/crm-server/move-to-new-server/#service
-[3]: https://community.superoffice.com/contentassets/30ffe2c8586c4a34be68a6c134c33058/baseurl81.png
-[4]: https://community.superoffice.com/contentassets/30ffe2c8586c4a34be68a6c134c33058/salestoservice.png
-[5]: https://community.superoffice.com/contentassets/30ffe2c8586c4a34be68a6c134c33058/exposenetserverwebservices.png
-[6]: https://community.superoffice.com/contentassets/30ffe2c8586c4a34be68a6c134c33058/servicetosales.png
-[7]: https://community.superoffice.com/contentassets/30ffe2c8586c4a34be68a6c134c33058/servicenoiis.png
-[8]: https://community.superoffice.com/contentassets/30ffe2c8586c4a34be68a6c134c33058/moveboth.png
+[3]: media/baseurl81.png
+[4]: media/salestoservice.png
+[5]: media/exposenetserverwebservices.png
+[6]: media/servicetosales.png
+[7]: media/servicenoiis.png
+[8]: media/moveboth.png

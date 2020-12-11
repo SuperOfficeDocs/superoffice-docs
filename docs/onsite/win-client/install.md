@@ -60,7 +60,7 @@ After the installation is completed both Mail Link and Windows Client are instal
 [2]: ../compatibility/browser.md
 [3]: ../compatibility/ms-sql-server.md
 [4]: ../compatibility/oracle.md
-[5]: https://community.superoffice.com/contentassets/e01d96f196b44910a96431d9bb57db99/crm-8-win-install1.png
-[6]: https://community.superoffice.com/contentassets/e01d96f196b44910a96431d9bb57db99/crm-8-win-install2.png
-[7]: https://community.superoffice.com/contentassets/e01d96f196b44910a96431d9bb57db99/crm-8-win-install3.png
-[8]: https://community.superoffice.com/contentassets/e01d96f196b44910a96431d9bb57db99/crm-8-win-install4.png
+[5]: media/crm-8-win-install1.png
+[6]: media/crm-8-win-install2.png
+[7]: media/crm-8-win-install3.png
+[8]: media/crm-8-win-install4.png

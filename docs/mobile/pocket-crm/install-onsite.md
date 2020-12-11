@@ -115,11 +115,11 @@ If you need to either reset the settings or configure the client with another co
 [1]: system-requirements.md
 [2]: https://community.superoffice.com/en/technical/documentation/administration/pocket-crm/
 [3]: https://community.superoffice.com/en/technical/documentation/prepare/security/deploy-securely/
-[4]: https://cs.superoffice.com/scripts/customer.fcgi/getAttachment/2681358-4muTHtEYjUZL0AxJnfkogbr1xcQcHyxPH7y6Niyw85XU32WFuE4TqJCS4nFBpguZ-0/image.png
-[5]: https://cs.superoffice.com/scripts/customer.fcgi/getAttachment/2681360-YD5Wm7q0wRcSUKYUMNTWW2jgewgpd9IaW6CSJjmeGa0MuThKrokFqHIp7CbQKRgg-0/image.png
+[4]: media/image.png
+[5]: media/image.png
 [6]: https://play.google.com/store/apps/details?id=no.superoffice.pocket.j2me.SuperOffice
 [7]: http://itunes.apple.com/no/app/superoffice/ce/id445355343
-[8]: https://online.superoffice.com/Login/Images/google-play-badge.png
-[9]: https://cs.superoffice.com/scripts/customer.fcgi/getAttachment/2656221-ES5RkGrQaawrJ63hSSkTx6wGWZKXgXzP1GmgLC3CBjb9njLIlBItaaIuWtsUFQP8-0/image.png
-[10]: https://cs.superoffice.com/scripts/customer.fcgi/getAttachment/2656220-pZXomaZ78QlUfKiKyXBSDn2MKRuYRzfpdyiqUZDyg3rjH4sTfDrto3yFQxhGkeHf-0/image.png
-[11]: https://cs.superoffice.com/scripts/customer.fcgi/getAttachment/2681015-s78Pn1om3NFm6i3ErjnGy4cUdZI4qW2KM3cI6EJYUYIXjutk64ZBMaPwPTAc6KJI-0/image.png
+[8]: media/google-play-badge.png
+[9]: media/image.png
+[10]: media/image.png
+[11]: media/image.png

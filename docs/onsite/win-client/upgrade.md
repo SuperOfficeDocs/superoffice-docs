@@ -74,6 +74,6 @@ You may now start SuperOffice by clicking *START > All Programs > SuperOffice*
 [4]: https://community.superoffice.com/Documentation/Help/EN/CRM/8.0/WebHelpAdmin/index.htm#t=chap06%2FSOLoader.htm
 [5]: https://community.superoffice.com/en/technical/documentation/install-upgrade/crm-server/Installation-of-prrequisites/
 [6]: https://community.superoffice.com/en/technical/documentation/install-upgrade/windows/sales/
-[7]: http://www.supertemplate.biz/CMS/images/stories/superoffice-ini_centralpath.png
-[8]: http://www.supertemplate.biz/CMS/images/stories/superoffice_six/windowsklienten/keyboard_windows_run.png
-[9]: http://www.supertemplate.biz/CMS/images/stories/run_centralpath.png
+[7]: media/superoffice-ini_centralpath.png
+[8]: media/keyboard_windows_run.png
+[9]: media/run_centralpath.png

@@ -23,4 +23,4 @@ In same folder you can also enable debug log by edit the **log\_settings.xml** 
 ![x][1]
 
 <!-- Referenced links -->
-[1]: https://community.superoffice.com/globalassets/technical-club/intsupport/maillink---enabledebuglog---web.png
+[1]: media/maillink---enabledebuglog---web.png

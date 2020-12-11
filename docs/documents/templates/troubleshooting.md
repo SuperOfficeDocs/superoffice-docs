@@ -135,9 +135,9 @@ Excel .**xlsx** (**sheet1.xml** is the actual Sheet 1):
 ![x][6]
 
 <!-- Referenced links -->
-[1]: https://community.superoffice.com/contentassets/aa1b9a07257b4dc98799013c78eaa624/unnamed.png
-[2]: https://community.superoffice.com/contentassets/aa1b9a07257b4dc98799013c78eaa624/unnamed-1.png
+[1]: media/unnamed.png
+[2]: media/unnamed-1.png
 [3]: https://community.superoffice.com/en/technical/documentation/administration/template-variables/
-[4]: https://community.superoffice.com/contentassets/aa1b9a07257b4dc98799013c78eaa624/unnamed-2.png
-[5]: https://community.superoffice.com/contentassets/aa1b9a07257b4dc98799013c78eaa624/unnamed-3.png
-[6]: https://community.superoffice.com/contentassets/aa1b9a07257b4dc98799013c78eaa624/unnamed-4.png
+[4]: media/unnamed-2.png
+[5]: media/unnamed-3.png
+[6]: media/unnamed-4.png

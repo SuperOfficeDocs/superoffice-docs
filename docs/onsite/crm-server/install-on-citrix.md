@@ -99,4 +99,4 @@ Windows Registry Editor Version 5.00
 
 <!-- Referenced links -->
 [1]: https://community.superoffice.com/en/product-releases/bugs-wishes/product-issue/?bid=58265
-[2]: https://community.superoffice.com/contentassets/8c99e4415a9e40158d3fe174960b8002/imagepcfj.png
+[2]: media/imagepcfj.png

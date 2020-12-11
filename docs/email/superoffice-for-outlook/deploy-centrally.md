@@ -71,12 +71,12 @@ You can use the following additional PowerShell cmdlets to manage the add-ins fo
 ![image2ha3f.png][8]
 
 <!-- Referenced links -->
-[1]: https://community.superoffice.com/contentassets/4676af12ff874b618e0cfb3ec0f05c8c/imageefsif.png
-[2]: https://community.superoffice.com/contentassets/4676af12ff874b618e0cfb3ec0f05c8c/imageg8a0i.png
-[3]: https://community.superoffice.com/contentassets/4676af12ff874b618e0cfb3ec0f05c8c/image9i9x1.png
-[4]: https://community.superoffice.com/contentassets/4676af12ff874b618e0cfb3ec0f05c8c/imageevshb.png
-[5]: https://community.superoffice.com/contentassets/4676af12ff874b618e0cfb3ec0f05c8c/imagep08e5.png
-[6]: https://community.superoffice.com/contentassets/4676af12ff874b618e0cfb3ec0f05c8c/image5t4dr.png
-[7]: https://community.superoffice.com/contentassets/4676af12ff874b618e0cfb3ec0f05c8c/image6dm4b.png
-[8]: https://community.superoffice.com/contentassets/4676af12ff874b618e0cfb3ec0f05c8c/image2ha3f.png
+[1]: media/imageefsif.png
+[2]: media/imageg8a0i.png
+[3]: media/image9i9x1.png
+[4]: media/imageevshb.png
+[5]: media/imagep08e5.png
+[6]: media/image5t4dr.png
+[7]: media/image6dm4b.png
+[8]: media/image2ha3f.png
 [9]: https://docs.microsoft.com/en-us/office/dev/add-ins/outlook/testing-and-tips#install-an-add-in-by-using-remote-powershell

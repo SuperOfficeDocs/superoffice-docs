@@ -61,6 +61,6 @@ If you are unsure which Web Tools version you have, right-click on any dll start
 ![x][3]
 
 <!-- Referenced links -->
-[1]: https://community.superoffice.com/contentassets/b965387d73574cedb3f323ecf2be535a/2018-06-11_11-46-02.png
-[2]: https://community.superoffice.com/contentassets/b965387d73574cedb3f323ecf2be535a/14503_31826.jpg
-[3]: https://community.superoffice.com/contentassets/b965387d73574cedb3f323ecf2be535a/2018-12-21_15-33-29.png
+[1]: media/2018-06-11_11-46-02.png
+[2]: media/14503_31826.jpg
+[3]: media/2018-12-21_15-33-29.png

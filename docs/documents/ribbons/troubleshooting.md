@@ -40,6 +40,6 @@ This example shows it was Office 2007 missing SO Ribbons. The solution is to ins
 Both SO Ribbons and MailLink write to log files in the folder *%APPDATA%\\SuperOffice*
 
 <!-- Referenced links -->
-[1]: https://community.superoffice.com/contentassets/779b3e23bf3e47e0a4b16963fb007be9/vsto1.png
-[2]: https://community.superoffice.com/contentassets/779b3e23bf3e47e0a4b16963fb007be9/vsto2.png
-[3]: https://community.superoffice.com/contentassets/779b3e23bf3e47e0a4b16963fb007be9/vsto3.png
+[1]: media/vsto1.png
+[2]: media/vsto2.png
+[3]: media/vsto3.png

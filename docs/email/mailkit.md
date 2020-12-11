@@ -71,7 +71,7 @@ Yet to be completed, please submit your experiences
 Read section [Mail logging][4]
 
 <!-- Referenced links -->
-[1]: https://community.superoffice.com/contentassets/69a9abf77f9a4038b77e9335fbb3d687/mailkit.jpg
+[1]: media/mailkit.jpg
 [2]: https://cs.superoffice.com/scripts/customer.fcgi?_sf=0&custSessionKey=&customerLang=en&noCookies=true&action=viewKbEntry&id=166
 [3]: https://cs.superoffice.com/
 [4]: https://community.superoffice.com/en/technical/documentation/administration/config-ini/debugweb/

@@ -24,4 +24,4 @@ The file is automatically created when the client first clicks the Travel icon w
 ![x][1]
 
 <!-- Referenced links -->
-[1]: https://community.superoffice.com/contentassets/36e42dafbbd84152b0a48f44a4e369f6/remotetravelini.png
+[1]: media/remotetravelini.png

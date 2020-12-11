@@ -120,5 +120,5 @@ See also [Diagnostics][3] section of the Web.config page.
 
 <!-- Referenced links -->
 [1]: https://community.superoffice.com/en/technical/documentation/prepare/security/deploy-securely/deployment-scenarios/
-[2]: https://community.superoffice.com/contentassets/f06ec7d2a872425a9cc32f2b22cf748e/image0sx5s.png
+[2]: media/image0sx5s.png
 [3]: https://community.superoffice.com/en/technical/documentation/administration/config-ini/webconfig/

@@ -33,6 +33,6 @@ With SuperOffice Inbox, you need to update the invitation template.
 ![imageloql6.png][2]]
 
 <!-- Referenced links -->
-[1]: https://community.superoffice.com/contentassets/ff7f0882643c42ba9181482ce59b2269/image99xdi.png
-[2]: https://community.superoffice.com/contentassets/ff7f0882643c42ba9181482ce59b2269/imageloql6.png
+[1]: media/image99xdi.png
+[2]: media/imageloql6.png
 [3]: https://community.superoffice.com/globalassets/technical-club/forum/video-meetings-in-superoffice---quick-start-v2.pdf

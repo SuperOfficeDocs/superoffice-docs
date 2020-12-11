@@ -32,4 +32,4 @@ twilio_auth_token =
 
 <!-- Referenced links -->
 [1]: https://www.twilio.com/sms
-[2]: https://community.superoffice.com/contentassets/5c0751634cc44c3696635daafd7492ba/imagec3rg.png
+[2]: media/imagec3rg.png

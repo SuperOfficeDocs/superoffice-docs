@@ -65,11 +65,11 @@ Zoom has one additional configuration required: set your own random password and
 If it says "Connected to Zoom. Logged in as xxx and connected to custxxxx", and password is filled under 'Set Configurations', you may close this browser window - to go back to SuperOffice "Settings and maintenance" to confirm the setup.
 
 <!-- Referenced links -->
-[1]: https://community.superoffice.com/contentassets/ff7f0882643c42ba9181482ce59b2269/imageq058q.png
-[2]: https://community.superoffice.com/contentassets/ff7f0882643c42ba9181482ce59b2269/imagekb02n.png
-[3]: https://community.superoffice.com/contentassets/ff7f0882643c42ba9181482ce59b2269/imageaos3n.png
-[4]: https://community.superoffice.com/contentassets/ff7f0882643c42ba9181482ce59b2269/imagezo47s.png
-[5]: https://community.superoffice.com/contentassets/ff7f0882643c42ba9181482ce59b2269/imageajbsc.png
-[6]: https://community.superoffice.com/contentassets/ff7f0882643c42ba9181482ce59b2269/imagewvl4y.png
-[7]: https://community.superoffice.com/contentassets/ff7f0882643c42ba9181482ce59b2269/imagecxj9r.png
-[8]: https://community.superoffice.com/contentassets/ff7f0882643c42ba9181482ce59b2269/image7yqg.png
+[1]: media/imageq058q.png
+[2]: media/imagekb02n.png
+[3]: media/imageaos3n.png
+[4]: media/imagezo47s.png
+[5]: media/imageajbsc.png
+[6]: media/imagewvl4y.png
+[7]: media/imagecxj9r.png
+[8]: media/image7yqg.png

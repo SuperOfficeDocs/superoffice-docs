@@ -60,5 +60,5 @@ Under configuration -> SuperOffice -> Factory -> DynamicLoad add:
 
 <!-- Referenced links -->
 [1]: http://www.compaya.dk/
-[2]: https://community.superoffice.com/globalassets/technical-club/images/service/compayasmssettings.png
+[2]: media/compayasmssettings.png
 [3]: https://community.superoffice.com/globalassets/technical-club/images/service/smsplugin8sr2/superoffice.messaging.compaya.dll

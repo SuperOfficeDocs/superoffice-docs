@@ -50,7 +50,7 @@ Learn more about the requirements for [Centralized Deployment][5] from Microsof
 If an add-in update significantly increases the scope of data access, you must re-approve it before the update is deployed.
 
 <!-- Referenced links -->
-[1]: https://community.superoffice.com/contentassets/4676af12ff874b618e0cfb3ec0f05c8c/imagecaqul.png
+[1]: media/imagecaqul.png
 [2]: https://apps.apple.com/us/app/microsoft-outlook/id951937596
 [3]: https://play.google.com/store/apps/details?id=com.microsoft.office.outlook
 [4]: https://community.superoffice.com/en/customer/forum/rooms/topic/pilot-program/superoffice-for-outlook/how-to-deploy-superoffice-for-outlook-during-pilot/

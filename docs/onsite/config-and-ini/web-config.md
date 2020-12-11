@@ -307,6 +307,6 @@ In this section you add the [Reverse proxy][4] override if you want to export la
 [8]: https://community.superoffice.com/webapi/rest
 [9]: https://online.superoffice.com/AppStore/superoffice-as/superoffice-gmail-link
 [10]: http://msdn.microsoft.com/en-us/library/1xtk877y(VS.80).aspx
-[11]: https://community.superoffice.com/contentassets/7179d43fbf284b7a866ed9cea365877a/imagef0sx9.png
-[12]: https://community.superoffice.com/contentassets/7179d43fbf284b7a866ed9cea365877a/images95t.png
-[13]: https://community.superoffice.com/contentassets/7179d43fbf284b7a866ed9cea365877a/image7tvjr.png
+[11]: media/imagef0sx9.png
+[12]: media/images95t.png
+[13]: media/image7tvjr.png

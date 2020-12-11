@@ -31,5 +31,5 @@ so.topic: reference           # article, howto, reference, concept, guide
 SuperOffice Remote Travel Server (SORTS.exe) must be run from the travel gateway to process this file. This will generate the *Copylist-username.txt* file with a list of documents that should be copied to the travel user next time they run the Remote Travel client.
 
 <!-- Referenced links -->
-[1]: https://community.superoffice.com/contentassets/2fd26942fec741f182b19e01d2f3c1f8/sort.png
-[2]: https://community.superoffice.com/contentassets/2fd26942fec741f182b19e01d2f3c1f8/sortotherdocuments.png
+[1]: media/sort.png
+[2]: media/sortotherdocuments.png

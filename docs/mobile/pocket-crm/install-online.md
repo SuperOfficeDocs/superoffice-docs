@@ -41,5 +41,5 @@ If you need to either reset the settings or configure the client with another co
 
 <!-- Referenced links -->
 [1]: https://online.superoffice.com/mobile
-[2]: https://cs.superoffice.com/scripts/customer.fcgi/getAttachment/2323419-JtEPwo0zo1e5U25SmTSmW4AXf5SUekQ6OWzxEPzcZMH9zoUkWSeTkHhzdBgUurad-0/MobileDownload.png
-[3]: https://cs.superoffice.com/scripts/customer.fcgi/getAttachment/2564497-RXPChsAG65AeW4ShTWTlzXiYYPlcxmxb4hZC45ecRTZUI33nGGamfKJqWtGHzfdA-0/1%20V.jpg
+[2]: media/MobileDownload.png
+[3]: media/1V.jpg

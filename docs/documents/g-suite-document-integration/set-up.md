@@ -128,12 +128,12 @@ This step is the same for both MS Office 365 and Google G Suite document integra
 [Configure Cloud Office document handling](../configure-cloud-document-handling.md).
 
 <!-- Referenced links -->
-[1]: https://community.superoffice.com/contentassets/2d8241a8afda467e92c55de45b34f05a/image58qub.png
+[1]: media/image58qub.png
 [2]: http://Make%20sure%20the%20user's%20user%20names%20in%20SuperOffice%20CRM%20Online%20is%20what%20the%20user's%20user%20name%20is%20in%20Google%C2%A0%20You%20see%20the%20Google%20user%20names%20here%20https/
 [3]: https://community.superoffice.com/en/technical/documentation/prepare/crm-online/superid/configureIDPforSuperID/
 [4]: https://admin.google.com/ac/users
 [5]: https://accounts.google.com/
 [6]: https://cloudintegration.superoffice.com/app
-[7]: https://community.superoffice.com/contentassets/2d8241a8afda467e92c55de45b34f05a/image0ox0s.png
-[8]: https://community.superoffice.com/contentassets/2d8241a8afda467e92c55de45b34f05a/image5avtq.png
-[9]: https://community.superoffice.com/contentassets/2d8241a8afda467e92c55de45b34f05a/imageu3rda.png
+[7]: media/image0ox0s.png
+[8]: media/image5avtq.png
+[9]: media/imageu3rda.png

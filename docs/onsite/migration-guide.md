@@ -151,20 +151,20 @@ Close the OMT when the client-side of migration has completed.
 
 <!-- Referenced links -->
 [1]: http://online.superoffice.com/appstore
-[2]: https://community.superoffice.com/contentassets/8584441d96724f47b510db1b40b8032c/mig_proc_duplicate.jpg
-[3]: https://community.superoffice.com/globalassets/technical-club/images/email-address-conversion.jpg
+[2]: media/mig_proc_duplicate.jpg
+[3]: media/email-address-conversion.jpg
 [4]: https://community.superoffice.com/en/customer/learn/settings-maintenance/service/inquiry/how-to-setup-mailboxes-for-superoffice/
 [5]: https://support.google.com/a/answer/33786?hl=en
-[6]: https://community.superoffice.com/contentassets/7a15f2d58a84479082f038d3a59183f3/1.png
-[7]: https://community.superoffice.com/contentassets/7a15f2d58a84479082f038d3a59183f3/2.png
-[8]: https://community.superoffice.com/contentassets/7a15f2d58a84479082f038d3a59183f3/3.png
-[9]: https://community.superoffice.com/contentassets/7a15f2d58a84479082f038d3a59183f3/4.png
-[10]: https://community.superoffice.com/contentassets/7a15f2d58a84479082f038d3a59183f3/5.png
-[11]: https://community.superoffice.com/contentassets/7a15f2d58a84479082f038d3a59183f3/6.png
-[12]: https://community.superoffice.com/contentassets/7a15f2d58a84479082f038d3a59183f3/blobid7.png
-[13]: https://community.superoffice.com/contentassets/7a15f2d58a84479082f038d3a59183f3/blobid8.png
-[14]: https://community.superoffice.com/contentassets/7a15f2d58a84479082f038d3a59183f3/blobid9.png
-[15]: https://community.superoffice.com/contentassets/7a15f2d58a84479082f038d3a59183f3/blobid10.png
-[16]: https://community.superoffice.com/contentassets/7a15f2d58a84479082f038d3a59183f3/blobid11.png
-[17]: https://community.superoffice.com/contentassets/7a15f2d58a84479082f038d3a59183f3/blobid12.png
-[18]: https://community.superoffice.com/contentassets/7a15f2d58a84479082f038d3a59183f3/blobid13.png
+[6]: media/1.png
+[7]: media/2.png
+[8]: media/3.png
+[9]: media/4.png
+[10]: media/5.png
+[11]: media/6.png
+[12]: media/blobid7.png
+[13]: media/blobid8.png
+[14]: media/blobid9.png
+[15]: media/blobid10.png
+[16]: media/blobid11.png
+[17]: media/blobid12.png
+[18]: media/blobid13.png

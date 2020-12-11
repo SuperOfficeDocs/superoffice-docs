@@ -70,7 +70,7 @@ Next time a user logs in to online.superoffice.com, after registering the IDP, S
 If some existing users do not get asked to switch to IDP authentication, a user may force this by completing a "reset password" in SuperOffice. Next time, after logging, after resetting password, user is asked to switch to IDP autentication.
 
 <!-- Referenced links -->
-[1]: https://community.superoffice.com/contentassets/50ae00dc36314ed8a94f49fde7a9a648/imagezj6n.png
+[1]: media/imagezj6n.png
 [2]: https://admin.microsoft.com/AdminPortal/Home#/users
 [3]: https://crm.superoffice.com/scripts/customer.fcgi?action=formFrame&formId=19
 [4]: https://community.superoffice.com/en/technical/documentation/prepare/crm-online/superid/

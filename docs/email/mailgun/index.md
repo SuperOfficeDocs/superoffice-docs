@@ -146,19 +146,19 @@ It is a good idea to allow (whitelist) access to your own SMTP server from our O
  ![x][16]
 
 <!-- Referenced links -->
-[1]: https://community.superoffice.com/contentassets/183219b0a1434aaaad2f0dd12ec84345/1.out_hi.gif
+[1]: media/1.out_hi.gif
 [2]: https://community.superoffice.com/contentassets/183219b0a1434aaaad2f0dd12ec84345/1.out_hi.mp4
-[3]: https://community.superoffice.com/contentassets/183219b0a1434aaaad2f0dd12ec84345/1.in_hi.gif
+[3]: media/1.in_hi.gif
 [4]: https://community.superoffice.com/contentassets/183219b0a1434aaaad2f0dd12ec84345/1.in_hi.mp4
-[5]: https://community.superoffice.com/contentassets/183219b0a1434aaaad2f0dd12ec84345/forwardservice.png
-[6]: https://community.superoffice.com/contentassets/183219b0a1434aaaad2f0dd12ec84345/2.out.nospf_hi.gif
+[5]: media/forwardservice.png
+[6]: media/2.out.nospf_hi.gif
 [7]: https://community.superoffice.com/contentassets/183219b0a1434aaaad2f0dd12ec84345/2.out.nospf_hi.mp4
-[8]: https://community.superoffice.com/contentassets/183219b0a1434aaaad2f0dd12ec84345/2.out.spf_hi.gif
+[8]: media/2.out.spf_hi.gif
 [9]: https://community.superoffice.com/contentassets/183219b0a1434aaaad2f0dd12ec84345/2.out.spf_hi.mp4
-[10]: https://community.superoffice.com/contentassets/183219b0a1434aaaad2f0dd12ec84345/2.out.dkim_hi.gif
+[10]: media/2.out.dkim_hi.gif
 [11]: https://community.superoffice.com/contentassets/183219b0a1434aaaad2f0dd12ec84345/2.out.dkim_hi.mp4
-[12]: https://community.superoffice.com/contentassets/183219b0a1434aaaad2f0dd12ec84345/2.in_hi.gif
+[12]: media/2.in_hi.gif
 [13]: https://community.superoffice.com/contentassets/183219b0a1434aaaad2f0dd12ec84345/2.in_hi.mp4
 [14]: https://community.superoffice.com/en/technical/documentation/administration/mailgun-options-and-security/how-to-set-up-spf/
 [15]: https://community.superoffice.com/en/technical/documentation/administration/mailgun-options-and-security/order-setup-dkim/
-[16]: https://community.superoffice.com/contentassets/183219b0a1434aaaad2f0dd12ec84345/guidelines.png
+[16]: media/guidelines.png

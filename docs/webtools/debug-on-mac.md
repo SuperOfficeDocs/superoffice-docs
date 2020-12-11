@@ -34,7 +34,7 @@ To get a WebTools for Mac log file for further troubleshooting:
 ![imagedo4c.png][4]
 
 <!-- Referenced links -->
-[1]: https://community.superoffice.com/contentassets/0e2fceba01764467a7457a650ae798a2/imagewukx.png
-[2]: https://community.superoffice.com/contentassets/0e2fceba01764467a7457a650ae798a2/imagew1mo6.png
-[3]: https://community.superoffice.com/contentassets/0e2fceba01764467a7457a650ae798a2/imagelzq97.png
-[4]: https://community.superoffice.com/contentassets/0e2fceba01764467a7457a650ae798a2/imagedo4c.png
+[1]: media/imagewukx.png
+[2]: media/imagew1mo6.png
+[3]: media/imagelzq97.png
+[4]: media/imagedo4c.png

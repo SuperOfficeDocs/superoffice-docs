@@ -82,4 +82,4 @@ Under configuration -> system.serviceModel -> bindings, add:
 
 <!-- Referenced links -->
 [1]: https://www.intele.com/contact-centre-solution/sms/
-[2]: https://community.superoffice.com/globalassets/technical-club/images/service/intelecomsmssettings.png
+[2]: media/intelecomsmssettings.png

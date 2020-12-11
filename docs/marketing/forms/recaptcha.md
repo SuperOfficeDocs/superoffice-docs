@@ -76,9 +76,9 @@ After you press Submit, your Site key and Secret key will be shown:
 ![imagehn8rh.png][6]
 
 <!-- Referenced links -->
-[1]: https://community.superoffice.com/contentassets/47fc398b6a304fe2813c451e7d72f6b3/imagehkoheq.png
+[1]: media/imagehkoheq.png
 [2]: https://www.google.com/recaptcha/admin
-[3]: https://community.superoffice.com/contentassets/47fc398b6a304fe2813c451e7d72f6b3/imagehekct.png
+[3]: media/imagehekct.png
 [4]: https://www.google.com/u/0/recaptcha/admin/create "https://www.google.com/u/0/recaptcha/admin/create
-[5]: https://community.superoffice.com/contentassets/47fc398b6a304fe2813c451e7d72f6b3/imagerlc6j.png
-[6]: https://community.superoffice.com/contentassets/47fc398b6a304fe2813c451e7d72f6b3/imagehn8rh.png
+[5]: media/imagerlc6j.png
+[6]: media/imagehn8rh.png

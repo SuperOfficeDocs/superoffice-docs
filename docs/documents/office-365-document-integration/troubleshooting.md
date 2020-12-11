@@ -157,19 +157,19 @@ You then see the permissions it ask for is also changing. Now you can click **Tr
 ![image8ses9u.png][16]
 
 <!-- Referenced links -->
-[1]: https://community.superoffice.com/contentassets/6172620ecdb4492292b5962b7c455735/o365rootsitecollection.png
-[2]: https://community.superoffice.com/contentassets/6172620ecdb4492292b5962b7c455735/o365erroraccessdenied.png
-[3]: https://community.superoffice.com/contentassets/138afe13308e4bdfa1cc567b3fb6048d/imagerlog.png
-[4]: https://community.superoffice.com/contentassets/138afe13308e4bdfa1cc567b3fb6048d/imageqvkbj.png
-[5]: https://community.superoffice.com/contentassets/138afe13308e4bdfa1cc567b3fb6048d/imagela1cd.png
-[6]: https://community.superoffice.com/contentassets/6172620ecdb4492292b5962b7c455735/sitecontents.png
-[7]: https://community.superoffice.com/contentassets/6172620ecdb4492292b5962b7c455735/siesettings.png
-[8]: https://community.superoffice.com/contentassets/6172620ecdb4492292b5962b7c455735/setsitesettings2.png
-[9]: https://community.superoffice.com/contentassets/6172620ecdb4492292b5962b7c455735/creategroup.png
-[10]: https://community.superoffice.com/contentassets/6172620ecdb4492292b5962b7c455735/givegrouppermissions.png
-[11]: https://community.superoffice.com/contentassets/6172620ecdb4492292b5962b7c455735/setsitesettings.png
-[12]: https://community.superoffice.com/contentassets/6172620ecdb4492292b5962b7c455735/addusers.png
-[13]: https://community.superoffice.com/contentassets/6172620ecdb4492292b5962b7c455735/appmanagepermissions.png
-[14]: https://community.superoffice.com/contentassets/6172620ecdb4492292b5962b7c455735/trustagain.png
-[15]: https://community.superoffice.com/contentassets/6172620ecdb4492292b5962b7c455735/o365errorcreatedocument.png
-[16]: https://community.superoffice.com/contentassets/138afe13308e4bdfa1cc567b3fb6048d/image8ses9u.png
+[1]: media/o365rootsitecollection.png
+[2]: media/o365erroraccessdenied.png
+[3]: media/imagerlog.png
+[4]: media/imageqvkbj.png
+[5]: media/imagela1cd.png
+[6]: media/sitecontents.png
+[7]: media/siesettings.png
+[8]: media/setsitesettings2.png
+[9]: media/creategroup.png
+[10]: media/givegrouppermissions.png
+[11]: media/setsitesettings.png
+[12]: media/addusers.png
+[13]: media/appmanagepermissions.png
+[14]: media/trustagain.png
+[15]: media/o365errorcreatedocument.png
+[16]: media/image8ses9u.png

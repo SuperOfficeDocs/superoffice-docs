@@ -34,4 +34,4 @@ After upgrading to a newer version of SuperOffice, if you experience strange beh
 <!-- Referenced links -->
 [1]: https://community.superoffice.com/en/technical/documentation/install-upgrade/web/netserver--web-services/
 [2]: https://community.superoffice.com/en/technical/documentation/administration/config-ini/debugweb/
-[3]: https://community.superoffice.com/contentassets/4f0b281f6f5e47deb34f60baaea5d10f/actiondebug.png
+[3]: media/actiondebug.png

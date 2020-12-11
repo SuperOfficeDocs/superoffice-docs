@@ -90,16 +90,16 @@ select cgi\_bin, cgi\_url, cgi\_url\_internal from crm7.config
 ![x][13]
 
 <!-- Referenced links -->
-[1]: https://community.superoffice.com/contentassets/63f7148dd5974ee7a414f67b043489c7/add-application-1.png
-[2]: https://community.superoffice.com/contentassets/63f7148dd5974ee7a414f67b043489c7/run-installer.png
-[3]: https://community.superoffice.com/contentassets/63f7148dd5974ee7a414f67b043489c7/uncheck-create-iis-web-site.png
-[4]: https://community.superoffice.com/contentassets/63f7148dd5974ee7a414f67b043489c7/change-app-paths.png
-[5]: https://community.superoffice.com/contentassets/63f7148dd5974ee7a414f67b043489c7/add-app-scripts.png
-[6]: https://community.superoffice.com/contentassets/63f7148dd5974ee7a414f67b043489c7/add-app-csplugins.png
+[1]: media/add-application-1.png
+[2]: media/run-installer.png
+[3]: media/uncheck-create-iis-web-site.png
+[4]: media/change-app-paths.png
+[5]: media/add-app-scripts.png
+[6]: media/add-app-csplugins.png
 [7]: https://community.superoffice.com/en/technical/documentation/install-upgrade/web/netserver--web-services/
-[8]: https://community.superoffice.com/contentassets/63f7148dd5974ee7a414f67b043489c7/verifyremotewebservices.png
-[9]: https://community.superoffice.com/contentassets/63f7148dd5974ee7a414f67b043489c7/hostpath-and-odbc.png
-[10]: https://community.superoffice.com/contentassets/63f7148dd5974ee7a414f67b043489c7/netserver-url-and-admin.png
-[11]: https://community.superoffice.com/contentassets/63f7148dd5974ee7a414f67b043489c7/loginservice.png
-[12]: https://community.superoffice.com/contentassets/63f7148dd5974ee7a414f67b043489c7/regid109wrong.png
-[13]: https://community.superoffice.com/contentassets/63f7148dd5974ee7a414f67b043489c7/cgibinurlsconfig.png
+[8]: media/verifyremotewebservices.png
+[9]: media/hostpath-and-odbc.png
+[10]: media/netserver-url-and-admin.png
+[11]: media/loginservice.png
+[12]: media/regid109wrong.png
+[13]: media/cgibinurlsconfig.png

@@ -62,8 +62,8 @@ This path must resolve to the same location for farms/clusters. -- >
 < add key="TemporaryPath" value="C:\\temp-path" / >
 ```
 
-[1]: https://community.superoffice.com/contentassets/7aeedd2a7deb4b7b826a9c5f97fb2d3e/sixwebreportconfig1.jpg
-[2]: https://community.superoffice.com/contentassets/7aeedd2a7deb4b7b826a9c5f97fb2d3e/sixwebreportconfig2.jpg
-[3]: https://community.superoffice.com/contentassets/7aeedd2a7deb4b7b826a9c5f97fb2d3e/sixwebreportconfig3.jpg
-[4]: https://community.superoffice.com/contentassets/7aeedd2a7deb4b7b826a9c5f97fb2d3e/allow-log-on-locally.png
+[1]: media/sixwebreportconfig1.jpg
+[2]: media/sixwebreportconfig2.jpg
+[3]: media/sixwebreportconfig3.jpg
+[4]: media/allow-log-on-locally.png
 [5]: https://community.superoffice.com/en/technical/documentation/administration/config-ini/webconfig/

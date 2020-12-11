@@ -68,4 +68,4 @@ SuperOffice CRM uses SID (security identifier) value to link an Active Directo
 [1]: https://community.superoffice.com/en/technical/documentation/install-upgrade/web/Install-web/
 [2]: https://community.superoffice.com/en/technical/documentation/prepare/security/deploy-securely/deployment-scenarios/
 [3]: https://community.superoffice.com/en/technical/documentation/prepare/security/deploy-securely/setting-up-a-reverse-proxy-on-iis8/
-[4]: https://community.superoffice.com/contentassets/7dac40439a4444019802b6d181de8562/ad-in-ns.png
+[4]: media/ad-in-ns.png

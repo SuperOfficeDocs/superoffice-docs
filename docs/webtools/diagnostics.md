@@ -53,6 +53,6 @@ The timeout value is from when a message is sent and until we expect a response.
 ![x][3]
 
 <!-- Referenced links -->
-[1]: https://community.superoffice.com/globalassets/technical-club/images/sales/webtoolslog.png
-[2]: https://community.superoffice.com/contentassets/2fb05ed1ad334a9f8eda1b4aa2850cf0/registrywebtoolsnetwork.png
-[3]: https://community.superoffice.com/contentassets/2fb05ed1ad334a9f8eda1b4aa2850cf0/registrywebtoolsnetwork.png
+[1]: media/webtoolslog.png
+[2]: media/registrywebtoolsnetwork.png
+[3]: media/registrywebtoolsnetwork.png

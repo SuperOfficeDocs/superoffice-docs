@@ -28,5 +28,5 @@ A file explorer window will open - and you will see the SuperOffice program file
 ![SuperOffice_ini][2]
 
 <!-- Referenced links -->
-[1]: http://www.supertemplate.biz/CMS/images/stories/Open_File_Location.jpg
-[2]: http://www.supertemplate.biz/CMS/images/stories/SuperOffice_ini.jpg
+[1]: media/Open_File_Location.jpg
+[2]: media/SuperOffice_ini.jpg

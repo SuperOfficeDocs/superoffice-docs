@@ -51,6 +51,6 @@ These new features should work in both Online and Onsite, and Onsite remote inst
 Now the REST calls will be compressed.
 
 <!-- Referenced links -->
-[1]: https://community.superoffice.com/contentassets/2f23fbf20efd40c7bdc2cf9712d61105/image0yyx.png
-[2]: https://community.superoffice.com/contentassets/2f23fbf20efd40c7bdc2cf9712d61105/imagehqgzohc.png
-[3]: https://community.superoffice.com/contentassets/2f23fbf20efd40c7bdc2cf9712d61105/imageeahwm.png
+[1]: media/image0yyx.png
+[2]: media/imagehqgzohc.png
+[3]: media/imageeahwm.png

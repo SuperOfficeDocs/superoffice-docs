@@ -176,7 +176,7 @@ Again, this technology relies upon the receiver's email server to use the toolsâ
 [1]: https://community.superoffice.com/en/technical/documentation/administration/mailgun-options-and-security/how-to-set-up-spf/
 [2]: https://community.superoffice.com/en/technical/documentation/administration/mailgun-options-and-security/order-setup-dkim/
 [3]: https://dmarc.postmarkapp.com/
-[4]:https://community.superoffice.com/contentassets/183219b0a1434aaaad2f0dd12ec84345/dmarkpolicy.png
+[4]: media/dmarkpolicy.png
 [5]: https://www.petekeen.net/fix-your-email-deliverability-with-dmarc
 [6]: https://www.valimail.com/blog/faq-dmarc-for-email-service-providers/
 [7]: http://www.superoffice.com/blog/5-killer-email-marketing-mistakes-to-avoid/

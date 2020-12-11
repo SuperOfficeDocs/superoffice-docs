@@ -42,7 +42,7 @@ However, we would recommend our customers that need to send large volumes of ema
 * [89% of Businesses Make the Same Email Marketing Mistake][4]
 
 <!-- Referenced links -->
-[1]: https://community.superoffice.com/globalassets/technical-club/documentation/mailgun_price.png
+[1]: media/mailgun_price.png
 [2]: https://www.superoffice.com/blog/successful-email-marketing-youll-reap-what-you-sow/
 [3]: https://www.superoffice.com/blog/are-you-spamming-your-customers/
 [4]: https://www.superoffice.com/blog/email-marketing-segmentation-mistake/

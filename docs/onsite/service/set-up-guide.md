@@ -219,4 +219,4 @@ You are now ready to log in and use Service by opening your client browser and g
 <!-- Referenced links -->
 [1]: HTTPs://community.superoffice.com/en/product-releases/
 [2]: https://community.superoffice.com/en/technical/documentation/install-upgrade/service/manual-steps-service/
-[3]: https://community.superoffice.com/contentassets/50de1f20bf364e96b3513ae4e5e10e22/image.png
+[3]: media/image.png

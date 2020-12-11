@@ -95,5 +95,5 @@ The attachment folder can potentially have hundreds of thousands of files, which
 <!-- Referenced links -->
 [1]: https://community.superoffice.com/en/technical/documentation/install-upgrade/crm-server/upgrade-crm-server/
 [2]: https://community.superoffice.com/en/technical/documentation/install-upgrade/web/upgradewebcs/
-[3]: https://community.superoffice.com/globalassets/technical-club/images/service/upgradeservice.png
-[4]: https://community.superoffice.com/contentassets/676f4d506f6c4947861f3710b0e6381f/capture.png
+[3]: media/upgradeservice.png
+[4]: media/capture.png

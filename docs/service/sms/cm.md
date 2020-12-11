@@ -57,5 +57,5 @@ Under configuration -> SuperOffice -> Factory -> DynamicLoad add:
 
 <!-- Referenced links -->
 [1]: https://www.cmtelecom.com/products/messaging/sms
-[2]: https://community.superoffice.com/globalassets/technical-club/images/service/cmsmssettings.png
+[2]: media/cmsmssettings.png
 [3]: https://community.superoffice.com/globalassets/technical-club/images/service/smsplugin8sr2/superoffice.messaging.cm.dll

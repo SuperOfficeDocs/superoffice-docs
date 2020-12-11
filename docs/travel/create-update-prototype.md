@@ -63,4 +63,4 @@ On the first page, fill in the name AREA and choose the correct SQL Server.
 
 <!-- Referenced links -->
 [1]: https://community.superoffice.com/en/search/#/xdocumentation/help/EN/CRM/8.2/WebHelpAdmin_XML/chap02/Generating_an_update_prototype.htm
-[2]: https://community.superoffice.com/contentassets/c08d0308e0824993bfd773f604967905/areaodbc.png
+[2]: media/areaodbc.png

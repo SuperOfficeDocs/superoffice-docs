@@ -109,5 +109,5 @@ Under configuration -> system.serviceModel -> bindings, add:
 
 <!-- Referenced links -->
 [1]: http://www3.smsteknik.se/tj%C3%A4nster/sms-gateway
-[2]: https://community.superoffice.com/globalassets/technical-club/images/service/smstekniksmssettings.png
+[2]: media/smstekniksmssettings.png
 [3]: https://community.superoffice.com/globalassets/technical-club/images/service/smsplugin8sr2/superoffice.messaging.smsteknik.dll
