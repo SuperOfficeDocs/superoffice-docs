@@ -17,7 +17,7 @@ so.client:   pocket         # online, web, win, pocket, or mobile
 
 ## Recommended configuration
 
-* Upgrade to SuperOffice 8 > Automatically update clients [from Pocket Server to Netserver](uprade-to-8.md)
+* Upgrade to SuperOffice 8 > Automatically update clients [from Pocket Server to Netserver](upgrade-to-8.md)
 * Setting up an email account for the client
 * Add a Template for incoming images (jpeg)
 * Add a Follow-up type for SMS

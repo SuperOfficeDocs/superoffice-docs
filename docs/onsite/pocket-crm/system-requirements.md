@@ -44,5 +44,5 @@ Business card scanner will work with all SuperOffice versions, both Onsite and O
 Pocket CRM will automatically pick up the correct Services folder.
 
 <!--Referenced links-->
-[1]: ../../pocket-crm/system-requirements.md
+[1]: ../../mobile/pocket-crm/system-requirements.md
 [2]: https://community.superoffice.com/en/technical/documentation/administration/pocket-crm/

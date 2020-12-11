@@ -11,7 +11,7 @@ The G Suite Integration app integrates the G Suite’s document management featu
 
 Simply sign in to SuperOffice using your G Suite login details and then open, edit, and store documents in G Suite directly from SuperOffice.
 
-![][1]
+![x][1]
 
 [View in App Store][2]
 
@@ -42,7 +42,7 @@ For SuperOffice Online to be able to use Google G Suite for storage, SuperOffice
 
 The authorization process will grant rights to an app registered with Google G Suite called “SuperOffice“. This is the SuperOffice Federation Gateway which handles secure communication between Google G Suite, SuperOffice Online and other parties (like SuperOffice Mail Link).
 
-Read the [technical description](cloud-document-integration.md).
+Read the [technical description](../cloud-document-integrations.md).
 
 ## What's the difference between a Google account and a G Suite account?
 
