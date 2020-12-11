@@ -34,6 +34,6 @@ If SuperOffice 7 Web runs on Remote NetServer, it is possible to merge CS NetSe
 
 <!-- Referenced links -->
 [1]: ../security/index.md
-[2]: ../crm-server/set-up-guide.md
+[2]: ../crm-server/setup-guide.md
 [3]: system-requirements.md
 [4]: https://community.superoffice.com/en/technical/documentation/older-versions/documentation-7/SM/sales-marketing-web/install-seven-web/

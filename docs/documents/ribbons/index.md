@@ -11,7 +11,7 @@ SuperOffice Ribbons are addons to MS Outlook, Word, Excel, and PowerPoint which 
 
 ## System requirements
 
-See complete overview in the [System Requirements](system-requirements.md).
+See complete overview in the System Requirements.
 
 ## Architecture and technology
 

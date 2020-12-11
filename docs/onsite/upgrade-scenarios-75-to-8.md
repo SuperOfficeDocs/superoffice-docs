@@ -119,5 +119,5 @@ SuperOffice 7.0 or 7.1 Server
 [4]: https://community.superoffice.com/en/technical/documentation/install-upgrade/service/
 [5]: https://community.superoffice.com/en/technical/documentation/install-upgrade/web/upgradewebcs/
 [6]: https://community.superoffice.com/en/technical/documentation/install-upgrade/service/upgradeService/
-[7]: upgrade-to-8.1.md
+[7]: upgrade-to-8-1.md
 [8]: https://community.superoffice.com/en/technical/documentation/older-versions/documentation-7/onpremise/upgrade/

@@ -20,7 +20,7 @@ SuperOffice uses Windows Communication Foundation (WCF). This means WCF must be 
 ## Preparing IIS for NetServer web services
 
 > [!TIP]
-> See [system requirements](system-requirements.md).
+> See [system requirements](../system-requirements.md).
 
 ### Make sure ASP.Net support is installed in IIS
 

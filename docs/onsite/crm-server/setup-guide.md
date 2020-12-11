@@ -69,7 +69,7 @@ For new customers, we recommend using [Unicode][1]. This removes all ambiguity o
 
 ## Prepare for Service
 
-* [Guide](prepare-for-service-md)
+* [Guide](../service/set-up-guide.md)
 
 ## Install CRM Server
 
