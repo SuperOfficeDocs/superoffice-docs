@@ -9,6 +9,8 @@
     href: upgrade-scenarios-75-to-8.md
   - name: Upgrade to 8 1
     href: upgrade-to-8-1.md
+  - name: Version history
+    href: version-history.md
   - name: Compatibility
     href: compatibility/browser.md
     items:
@@ -28,22 +30,25 @@
       href: compatibility/reports.md
     - name: Server os
       href: compatibility/server-os.md
-    - name: Includes
-      href: compatibility/includes/caution-odbc-drivers.md
-      items:
-      - name: Caution odbc drivers
-        href: compatibility/includes/caution-odbc-drivers.md
-      - name: Oracle 18c drivers
-        href: compatibility/includes/oracle-18c-drivers.md
-      - name: Test legend
-        href: compatibility/includes/test-legend.md
-      - name: Win unavailable
-        href: compatibility/includes/win-unavailable.md
   - name: Config and ini
     href: config-and-ini/index.md
     items:
     - name: Sotables ini
       href: config-and-ini/sotables-ini.md
+    - name: RemoteTravel.ini
+      href: config-and-ini/remotetravel-ini.md
+    - name: Service config
+      href: config-and-ini/service-config.md
+    - name: SOUser.ini
+      href: config-and-ini/souser-ini.md
+    - name: SuperOffice.config
+      href: config-and-ini/superoffice-config.md
+    - name: SuperOffice.ini
+      href: config-and-ini/superoffice-ini.md
+    - name: Username.ini
+      href: config-and-ini/username-ini.md
+    - name: Web.config
+      href: config-and-ini/web-config.md
   - name: Crm server
     href: crm-server/create-ms-sql-server-db.md
     items:
@@ -113,12 +118,24 @@
   - name: Web client
     href: web-client/index.md
     items:
-    - name: Install netserver
+    - name: Admin
+      href: admin.md
+    - name: Batch task server
+      href: batch-task-server.md
+    - name: Debug
+      href: debug.md
+    - name: Tickets and identity transfers
+      href: id-transfer-tickets.md
+    - name: Install NetServer
       href: web-client/install-netserver.md
+    - name: Scripting
+      href: scripting.md
     - name: Set up
       href: web-client/set-up.md
     - name: Set up web and report
       href: web-client/set-up-web-and-report.md
+    - name: Set up AD authentication
+      href: set-up-ad-auth.md
     - name: System requirements
       href: web-client/system-requirements.md
     - name: Upgrade netserver to 8
@@ -128,6 +145,12 @@
   - name: Win client
     href: win-client/index.md
     items:
+    - name: Admin
+      href: admin.md
+    - name: Command line swithches
+      href: command-line-switches.md
+    - name: Debug
+      href: debug.md
     - name: Find superoffice ini file
       href: win-client/find-superoffice-ini-file.md
     - name: Install

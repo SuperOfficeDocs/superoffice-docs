@@ -14,6 +14,8 @@
       href: pocket-crm/system-requirements.md
     - name: Upgrade to 8
       href: pocket-crm/upgrade-to-8.md
+    - name: ZIP compression on REST
+      href: pocket-crm/zip-on-rest.md
   - name: Superoffice mobile
     href: superoffice-mobile/system-requirements.md
     items:

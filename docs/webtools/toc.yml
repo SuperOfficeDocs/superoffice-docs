@@ -3,6 +3,12 @@
   items:
   - name: Deploy
     href: deploy.md
+  - name: Diagnostics
+    href: diagnostics.md
+  - name: Debug on Mac
+    href: debug-on-mac.md
+  - name: Proxy
+    href: proxy.md
   - name: System requirements
     href: system-requirements.md
   - name: Upgrade

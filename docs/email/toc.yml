@@ -1,5 +1,7 @@
 - name: Email
   href: index.md
+- name: Curl
+  href: curl.md
 - name: Mailgun
   href: mailgun/index.md
   items:
@@ -7,9 +9,9 @@
     href: mailgun/amount-speed.md
   - name: Reasons to customize
     href: mailgun/reasons-to-customize.md
-  - name: mailgun/Security
+  - name: Security
     href: mailgun/security.md
-  - name: Sub-processor Information
+  - name: Sub-processor information
     href: mailgun/sub-processor-info.md
   - name: DKIM
     items:
@@ -17,7 +19,7 @@
         href: mailgun/dkim/index.md
       - name: Setup DKIM
         href: mailgun/dkim/set-up.md
-      - name: Order Key
+      - name: Order key
         href: mailgun/dkim/order-key.md
       - name: Change from US to EU
         href:  mailgun/dkim/change-us-to-eu.md
@@ -25,8 +27,15 @@
     items:
       - name: What is SPF
         href: mailgun/spf/index.md
-      - name: Setup
+      - name: Set up
         href: mailgun/spf/set-up.md
+- name: mailkit
+  href: mailkit.md
+- name: MailLink
+  href: maillink/index.md
+  items:
+  - name: Debug
+    href: debug.md
 - name: SuperOffice for Outlook
   href: superoffice-for-outlook/index.md
   items:
@@ -34,7 +43,7 @@
     href: superoffice-for-outlook/overview.md
   - name: Deploy centrally
     href: superoffice-for-outlook/deploy-centrally.md
-  - name: Deploy Office Addin
+  - name: Deploy Office add-in
     href: superoffice-for-outlook/deploy-office-add-in.md
   - name: Requirements
     href: superoffice-for-outlook/requirements.md

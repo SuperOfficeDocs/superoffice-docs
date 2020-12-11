@@ -1,2 +1,32 @@
-- name: Page
+- name: Service
   href: index.md
+  expanded: true
+  items: # These items are navigation headers
+  - name: Configure FAQ
+    href: config-faq.md
+  - name: Set up Facebook integration
+    href: set-up-facebook-integration.md
+  - name: Time zones
+    href: time-zones.md
+  - name: Attachments
+    href: attachments/index.md
+    items:
+    - name: Location of
+      href: location.md
+  - name: SMS
+    href: sms/index.md
+    items:
+    - name: CM
+      href: cm.md
+    - name: Compaya
+      href: compaya.md
+    - name: Intelecom
+      href: intelecom.md
+    - name: PSWinCom
+      href: pswincom.md
+    - name: SMSTeknik
+      href: smsteknik.md
+    - name: Twilio
+      href: twilio.md
+    - name: TxtLocal
+      href: txtlocal.md
