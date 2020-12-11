@@ -47,11 +47,11 @@
   - name: Crm server
     href: crm-server/create-ms-sql-server-db.md
     items:
-    - name: Create ms sql server db
+    - name: Create MS SQL Server db
       href: crm-server/create-ms-sql-server-db.md
-    - name: Create oracle db
+    - name: Create Oracle DB
       href: crm-server/create-oracle-db.md
-    - name: Deploy on citrix
+    - name: Deploy on Citrix
       href: crm-server/deploy-on-citrix.md
     - name: Install on citrix
       href: crm-server/install-on-citrix.md
