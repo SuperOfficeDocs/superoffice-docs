@@ -2,14 +2,16 @@
   href: index.md
 - name: Cloud Document Integrations
   href: cloud-document-integrations.md
-- name: Configure Cloud Document Handling
+- name: Configure cloud document handling
   href: configure-cloud-document-handling.md
+- name: ODF support
+  href: odf.md
 - name: GSuite Document integration
   href: g-suite-document-integration/index.md
   items:
   - name: Requirements
     href: g-suite-document-integration/requirements.md
-  - name: Quick Start
+  - name: Quick-start
     href: g-suite-document-integration/quick-start.md
   - name: Set up
     href: g-suite-document-integration/set-up.md
@@ -31,7 +33,12 @@
 - name: Office Ribbons
   href: ribbons/index.md
   items:
-  - name: Enable Debug
+  - name: Enable debug
     href: ribbons/enable-debug.md
   - name: Troubleshooting
     href: ribbons/troubleshooting.md
+- name: Templates
+  href: templates/index.md
+  items:
+  -name: Variables for appointments
+  href: templates/variables/for-appointments.md

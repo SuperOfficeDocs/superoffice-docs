@@ -1,10 +1,10 @@
-name: Custom Fields
-href: index.md
-expanded: true
-items: # These items are navigation headers
-- name: Extra Fields
-  href: extra-field/index.md
-- name: Extra Tables
-  href: extra-table/index.md
-- name: User-Defined Fields
-  href: udef/index.md
+- name: Custom fields
+  href: index.md
+  expanded: true
+  items: # These items are navigation headers
+  - name: Extra fields
+    href: extra-field/index.md
+  - name: Extra tables
+    href: extra-table/index.md
+  - name: User-defined fields
+    href: udef/index.md
