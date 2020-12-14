@@ -114,7 +114,7 @@ Steps to configure in the web.config file:
 4. Apply the configuration changes related to bindings and WindowsAuth.
 
 <!-- Referenced links -->
-[1]: ../service/set-up-guide.md
+[1]: ../../service/set-up-guide.md
 
 <!-- Referenced images -->
 [img1]: ../media/imagegb896.png
