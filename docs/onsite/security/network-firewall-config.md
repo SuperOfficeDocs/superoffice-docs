@@ -40,8 +40,9 @@ The Web client is the most secure option, as it limits the connections between t
 
 Some of the server components needs to make outbound connections depending on which components are in use and what functionality is needed. For instance, the NetServer needs to be able to communicate out through the firewall on port 80 (HTTP) and 443 (HTTPS). To ensure that only web traffic is communicated using these ports, an application protocol-aware firewall between the internal server network and the Internet may be used to detect suspicious traffic leaving the NetServer and is recommended to be able to detect attacks, and in the worst case, compromises.
 
-We also recommend placing a Web Application Firewall (WAF) such as the open-source [ModSecurity][1] on a proxy server in front of the NetServer. The role of this server is to detect and/or stop any incoming web attacks. This provides your organization with another layer of protection and a source of information should you become subject to a cyber attack.  
+We also recommend placing a Web Application Firewall (WAF) such as the open-source [ModSecurity][1] on a proxy server in front of the NetServer. The role of this server is to detect and/or stop any incoming web attacks. This provides your organization with another layer of protection and a source of information should you become subject to a cyber attack.
+
 Keep in mind that this does introduce a single point of failure, which can be remediated by setting up multiple of these Web Application Firewalls in a cluster. There are also commercial WAFs that can do the same job and may require less work to set up.
 
 <!-- Referenced links -->
-[1]: https://community.superoffice.com/en/technical/documentation/prepare/security/deploy-securely/modsecurity-on-proxy-server/
+[1]: set-up-modsecurity.md

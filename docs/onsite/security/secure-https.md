@@ -19,22 +19,29 @@ To apply the best practice HTTPS configuration on a Windows server, we can run a
 
 [Download the script from NSMs website][1]
 
-Unzip the first ZIP file. Then inside the unpacked directory, unzip the second ZIP file *Schannel.zip* and enter the unpacked directory again. Holding shift and right-clicking gives us a menu where we can open a command window in the current directory. Note: The following must be done with administrator level-access.
+1. Unzip the first ZIP file. Then inside the unpacked directory, unzip the second ZIP file *Schannel.zip* and enter the unpacked directory again. Holding shift and right-clicking gives us a menu where we can open a command window in the current directory.
 
-![Zip file content](https://community.superoffice.com/contentassets/ece8f1b478f04f0f947d46401dd359bf/schannel.jpg)
+> [!NOTE]
+> The following must be done with administrator level-access.
 
-Get a Powershell prompt by typing “powershell”. Then import the NSM Powershell module by entering the following commands:
+![Zip file content][img1]
+
+2. Get a Powershell prompt by typing **powershell**. Then import the NSM Powershell module by entering the following commands:
 
 ```sh
 Import-Module ‘.\\NSM TLS Tools.psm1’ –force
 & ‘.\\Apply NSM Schannel Policy.ps1’
 ```
 
- ![Powershell](https://community.superoffice.com/contentassets/ece8f1b478f04f0f947d46401dd359bf/powershell.jpg)
+![Powershell][img2]
 
-Follow the instructions and the script will check for compliance with recommended settings, backup existing settings to a registry file, change the settings to comply and run a final test.
+3. Follow the instructions and the script will check for compliance with recommended settings, backup existing settings to a registry file, change the settings to comply and run a final test.
 
 To read more about the script, what it does and why, check out the PDF file in the unzipped directory called *U-03\_Sikring\_av\_Windows\_TLS.pdf*.
 
 <!-- Referenced links -->
 [1]: https://www.nsm.stat.no/globalassets/dokumenter/veiledninger/systemteknisk-sikkerhet/u-03\_sikring\_av\_windows\_tls.zip
+
+<!-- Referenced images -->
+[img1]: media/schannel.jpg
+[img2]: media/powershell.jpg

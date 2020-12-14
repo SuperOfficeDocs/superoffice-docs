@@ -59,7 +59,7 @@ The SuperOffice web application should use valid X.509 certificates. If SuperOff
 SuperOffice recommends using the latest Windows Server 2012 as your platform. Windows servers used in the SuperOffice deployment should be hardened as much as possible, and we recommend that you take the following into consideration:
 
 * Run the Security Configuration Wizard on the servers and apply SMB signing.
-* Install the Enhanced Mitigation Experience Toolkit ([EMET][7]) .
+* Install the Enhanced Mitigation Experience Toolkit ([EMET][7]).
 * Keep servers up to date with the latest updates from Windows.
 * Install a recognized and proven anti-malware solution on the server.
 * Set a strong password policy for the servers.
@@ -88,4 +88,4 @@ When SuperOffice is used from the Internet, it means clients are often outside o
 [5]: https://www.nsm.stat.no/globalassets/dokumenter/veiledninger/systemteknisk-sikkerhetu-03_sikring_av_windows_tls.pdf
 [6]: https://www.nsm.stat.no/globalassets/dokumenter/veiledninger/systemteknisk-sikkerhet/u-03_sikring_av_windows_tls.zip
 [7]: https://support.microsoft.com/en-us/kb/2458544
-[8]: https://community.superoffice.com/en/technical/documentation/prepare/security/deploy-securely/installing-emet/
+[8]: set-up-emet.md
