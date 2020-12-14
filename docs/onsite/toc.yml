@@ -11,8 +11,8 @@
     href: upgrade-to-8-1.md
   - name: Version history
     href: version-history.md
-  - name: Compatibility
-    href: compatibility/browser.md
+  - name: Compatibility reports
+    href: compatibility/index.md
     items:
     - name: Browser
       href: compatibility/browser.md
@@ -26,8 +26,6 @@
       href: compatibility/ms-sql-server.md
     - name: Oracle
       href: compatibility/oracle.md
-    - name: Reports
-      href: compatibility/reports.md
     - name: Server os
       href: compatibility/server-os.md
   - name: Config and ini
