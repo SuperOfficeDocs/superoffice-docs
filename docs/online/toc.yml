@@ -1,7 +1,5 @@
 - name: Index
   href: index.md
-- name: About
-  href: about.md
 - name: System requirements
   href: system-requirements.md
 - name: Version history

@@ -33,13 +33,13 @@ so.client: online            # online, web, win, pocket, or mobile
 
 Versions earlier than 2001 of the Outlook desktop app do not work in Send and Archive, because they miss APIs.
 
-![imagecaqul.png][1]
+![imagecaqul.png][img1]
 
 The current released add-on version (via the MS App Source) do not support Mobile phones (the mobile device API).
 
 To get the version that has support for the mobile devices, use one of these options:
 
-* option a: [centralized deployment](deploy-centrally.md)
+* option a: [centralized deployment][1]
 
 * option b: [use the pilot version][4]
 
@@ -50,8 +50,11 @@ Learn more about the requirements for [Centralized Deployment][5] from Microsof
 If an add-in update significantly increases the scope of data access, you must re-approve it before the update is deployed.
 
 <!-- Referenced links -->
-[1]: media/imagecaqul.png
+[1]: deploy-centrally.md
 [2]: https://apps.apple.com/us/app/microsoft-outlook/id951937596
 [3]: https://play.google.com/store/apps/details?id=com.microsoft.office.outlook
 [4]: https://community.superoffice.com/en/customer/forum/rooms/topic/pilot-program/superoffice-for-outlook/how-to-deploy-superoffice-for-outlook-during-pilot/
 [5]: https://aka.ms/centralized-deployment-guidance
+
+<!-- Referenced images -->
+[img1]: media/imagecaqul.png

@@ -18,29 +18,31 @@ so.client: online            # online, web, win, pocket, or mobile
 This will deploy SuperOffice for Outlook for a single user.
 
 > [!TIP]
-> Deploy centrally for all users instead? [Go to guide](deploy-centrally.md)
+> Deploy centrally for all users instead? [Go to guide][2]
 
-1. Go to ['SuperOffice for Outlook' at https://appsource.microsoft.com/][1].
+1. Go to [SuperOffice for Outlook at https://appsource.microsoft.com/][1].
 2. Click **Get it now**.
 3. In the dialog box, confirm that you are signed in to your correct Office 365 user account, then click **Continue**.
 
-![image1ya58.png][2]
+![image1ya58.png][img2]
 
 The deployment is now complete. The SuperOffice add-in for Outlook should now be available from the three dots (More actions) in the right corner of an email.
 
-![imageewib5.png][3]
+![imageewib5.png][img3]
 
 **Read more:**
 
-* The SuperOffice for Outlook [quick-start guide][4]
-* [Deploy an Office add-in][5] (Microsoft docs)
-* [Get an Office Add-in for Outlook][6] (Office support article)
+* The SuperOffice for Outlook [quick-start guide][2]
+* [Deploy an Office add-in][3] (Microsoft docs)
+* [Get an Office Add-in for Outlook][4] (Office support article)
 
 <!-- Referenced links -->
 [1]: https://appsource.microsoft.com/en-us/product/office/WA200001597?src=office&tab=Overview
-[2]: media/image1ya58.png
-[3]: media/imageewib5.png
-[4]: https://community.superoffice.com/contentassets/4676af12ff874b618e0cfb3ec0f05c8c/
-quick-start-guide---superoffice-for-outlook.pdf
-[5]: https://docs.microsoft.com/en-us/microsoft-365/admin/manage/manage-deployment-of-add-ins?view=o365-worldwide
-[6]: https://support.office.com/en-us/article/get-an-office-add-in-for-outlook-1ee261f9-49bf-4ba6-b3e2-2ba7bcab64c8
+[2]: https://community.superoffice.com/contentassets/4676af12ff874b618e0cfb3ec0f05c8c/quick-start-guide---superoffice-for-outlook.pdf
+[3]: https://docs.microsoft.com/en-us/microsoft-365/admin/manage/manage-deployment-of-add-ins?view=o365-worldwide
+[4]: https://support.office.com/en-us/article/get-an-office-add-in-for-outlook-1ee261f9-49bf-4ba6-b3e2-2ba7bcab64c8
+[5]: deploy-centrally.md
+
+<!-- Referenced images -->
+[img2]: media/image1ya58.png
+[img3]: media/imageewib5.png

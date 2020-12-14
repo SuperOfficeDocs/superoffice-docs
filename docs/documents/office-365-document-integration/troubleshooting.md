@@ -17,24 +17,24 @@ so.client: online             # online, web, win, pocket, or mobile
 
 ## Use correct site library type in SharePoint (a)
 
-The SuperOffice Archive needs to be a “Document library”, and located on the Root area of your SharePoint site.
+The SuperOffice Archive needs to be a **Document library**, and located on the Root area of your SharePoint site.
 
-There is no support for configuring the Office365 integration to use "sub-site" or a "virtual site".
+There is no support for configuring the Office365 integration to use sub-site or a virtual site.
 
-![x][1]
+![x][img1]
 
 (1) = Root
 
-(2) = Site collection ("sub-site" or a "virtual site")  
+(2) = Site collection (sub-site or a virtual site)
 
 > [!CAUTION]
-> A virtual site or "sub-site" will typically have an address of URL: `https://[your domain-name].sharepoint.com/sites/superoffice` **(not supported)**
+> A virtual site or sub-site will typically have an address of URL: `https://[your domain-name].sharepoint.com/sites/superoffice` **(not supported)**
 
 ### Archive path and Template Path is relative to Root of SharePoint
 
 * The address of the **SharePoint domain name URL** will most likely be `https://[your domain-name].sharepoint.com`
 
-A virtual site or subsite will typically have an address of URL: `https://[your domain-name].sharepoint.com/sites/superoffice` **(not supported)**
+A virtual site or sub-site will typically have an address of URL: `https://[your domain-name].sharepoint.com/sites/superoffice` **(not supported)**
 
 * The SuperOffice Archive needs to be a **Document library**, and located on the root area:
   * At the root of your SharePoint site, click **New** and choose **Document library**.
@@ -43,7 +43,7 @@ The address of “Archive Path URL" will most likely be: `https://[your domain-n
 
 A virtual site or subsite for the archive folder will typically have an address of URL: `https://[your domain-name].sharepoint.com/sites/superoffice/SuperOffice_Archive/` **(not supported)**
 
-* The **Template** folder is a **folder within** the SuperOffice Archive “Document library”. The address of “Template Path URL" will most likely be `https://[your domain-name].sharepoint.com/SuperOffice_Archive/Template/`
+* The *Template* folder is a **folder within** the SuperOffice Archive Document library. The address of Template Path URL will most likely be `https://[your domain-name].sharepoint.com/SuperOffice_Archive/Template/`
 or
 `https://[your domain-name].sharepoint.com/SuperOffice_Archive/Forms/AllItems.aspx?id=%2FSuperOffice_Archive%2FTemplate`
 (we will use the relative path to Root or the SuperOffice Archive  `/SuperOffice_Archive/Template/` for our setup)
@@ -62,7 +62,7 @@ There is no support in the SuperOffice Office365 SharePoint integration for usin
 
 * "We were unable to log you in through Office 365. Error: access\_denied."
 
-![x][2]
+![x][img2]
 
 This is due to users does not have sufficient read access to the SharePoint Group area where the Integration App is, and/or users do not have sufficient read access to the SharePoint root area
 
@@ -70,43 +70,43 @@ This is due to users does not have sufficient read access to the SharePoint Gro
 
 #### Error saving document
 
-![imagerlog.png][3]
+![imagerlog.png][img3]
 
 #### No access
 
-![imageqvkbj.png][4]
+![imageqvkbj.png][img4]
 
 #### An error ocurred while saving
 
-![imagela1cd.png][5]
+![imagela1cd.png][img5]
 
 1. Update access rights
 
-Either update access rights for the Root and/or the folder, or create a new Group with a minimum of "read" access, and add the users to this Group.
+Either update access rights for the Root and/or the folder, or create a new Group with a minimum of **read** access, and add the users to this Group.
 
-You need "Edit" for documents (in the document library), and "read" (in the area of the App) for using the App for logging in. Therefore, in this scenario (logging in) user needs "read" (in the area of the App).
+You need **Edit** for documents (in the document library), and **read** (in the area of the App) for using the App for logging in. Therefore, in this scenario (logging in) user needs **read** (in the area of the App).
 
 **Create a new Group:**
 
-Admin -> Admin centers -> SharePoint -> site collections -> Open the web Site Address (...sharepoint.com) -> Site contents -> Site settings -> \[Users and Permissions\] -> Site Permissions  -> Create Group -> add users to this group
+Admin > Admin centers > SharePoint > site collections > Open the web Site Address (...sharepoint.com) > Site contents > Site settings > \[Users and Permissions\] > Site Permissions  > Create Group > add users to this group
 
-![x][6]
+![x][img6]
 
-![x][7]
+![x][img7]
 
-![x][8]
+![x][img8]
 
-![x][9]
+![x][img9]
 
-"Read" for root and the “Document library” should be enough for the Integration App
+**Read** for root and the Document library should be enough for the Integration App.
 
-![x][10]
+![x][img10]
 
 **Modify existing groups:**
 
-!x[][11]
+!x[][img11]
 
-![x][12]
+![x][img12]
 
 2. Check Permissions
 
@@ -120,33 +120,33 @@ If the document library name or folder name has changes or was you submitted the
 
 * Adding trust to the app once more can resolve issues when there is something wrong with the app' permissions:
 
-Admin -> Admin centers -> SharePoint -> site collections -> Open the web Site Address (...sharepoint.com) -> Site contents -> \[...\] for the app -> Manage permissions -> click "click here to trust it again":
+Admin > Admin centers > SharePoint > site collections > Open the web Site Address (...sharepoint.com) > Site contents > \[...\] for the app > Manage permissions > click **click here to trust it again**:
 
-![x][13]
+![x][img13]
 
-![x][14]
+![x][img14]
 
 ## Check permissions (d)
 
-**Check permissions** under "Site Permissions" can also be helpful in making sure users have access.
+**Check permissions** under **Site Permissions** can also be helpful in making sure users have access.
 
 ### Error when creating a document in CRM Online
 
 * "Error saving document..."
 
-![x][15]
+![x][img15]
 
 This is due to users do not have sufficient read access to the SharePoint Root area or 'edit' access to the document library.
 
-Either update access rights for the Root or the document library, or create a new Group with a minimum of "Edit", and add the users to this Group:
+Either update access rights for the Root or the document library, or create a new Group with a minimum of **Edit**, and add the users to this Group:
 
-Admin -> Admin centers -> SharePoint -> site collections -> Web Site Address (...sharepoint.com) -> Settings for website -> Area access rights -> Permissions -> add group
+Admin > Admin centers > SharePoint > site collections > Web Site Address (...sharepoint.com) > Settings for website > Area access rights > Permissions > add group
 
- You need "Edit" for documents (in the document library), and "read" (in the area of the App) for using the App for logging in.
+You need **Edit** for documents (in the document library), and **read** (in the area of the App) for using the App for logging in.
 
 ## Edit scope of the app trust (e)
 
-If the app somehow asks for the wrong scope for what it trusts, the scope can be manually changed to "write" - to be able to have proper credentials when trying to create documents in SharePoint:
+If the app somehow asks for the wrong scope for what it trusts, the scope can be manually changed to **write** - to be able to have proper credentials when trying to create documents in SharePoint:
 
 When the approval dialog show, edit the URL to include scope=Web.Write:
 
@@ -154,22 +154,23 @@ from `&scope=&` to `&scope=Web.Write&` and click the **Enter** button to update 
 
 You then see the permissions it ask for is also changing. Now you can click **Trust it**.
 
-![image8ses9u.png][16]
+![image8ses9u.png][img16]
 
-<!-- Referenced links -->
-[1]: media/o365rootsitecollection.png
-[2]: media/o365erroraccessdenied.png
-[3]: media/imagerlog.png
-[4]: media/imageqvkbj.png
-[5]: media/imagela1cd.png
-[6]: media/sitecontents.png
-[7]: media/siesettings.png
-[8]: media/setsitesettings2.png
-[9]: media/creategroup.png
-[10]: media/givegrouppermissions.png
-[11]: media/setsitesettings.png
-[12]: media/addusers.png
-[13]: media/appmanagepermissions.png
-[14]: media/trustagain.png
-[15]: media/o365errorcreatedocument.png
-[16]: media/image8ses9u.png
+<!-- Referenced images -->
+
+[img1]: media/o365rootsitecollection.png
+[img2]: media/o365erroraccessdenied.png
+[img3]: media/imagerlog.png
+[img4]: media/imageqvkbj.png
+[img5]: media/imagela1cd.png
+[img6]: media/sitecontents.png
+[img7]: media/siesettings.png
+[img8]: media/setsitesettings2.png
+[img9]: media/creategroup.png
+[img10]: media/givegrouppermissions.png
+[img11]: media/setsitesettings.png
+[img12]: media/addusers.png
+[img13]: media/appmanagepermissions.png
+[img14]: media/trustagain.png
+[img15]: media/o365errorcreatedocument.png
+[img16]: media/image8ses9u.png

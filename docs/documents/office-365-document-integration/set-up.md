@@ -29,20 +29,20 @@ If you would like to get assistance configuring the integration, sign up for [Mi
 
 ## Before you begin
 
-Ensure you meet the [prerequisites](requirements.md) and read the [security considerations](security.md).
+Ensure you meet the [prerequisites][3] and read the [security considerations][7].
 
 * During set-up, some details must be collected. These details will be used as parameters for setting the new configurations for your SuperOffice CRM Online site.
   * Your SuperOffice Online customer-specific URL, Cust ID (found in the browser URL while logged into SuperOffice Online), for instance, `http://online.superoffice.com/cust8123/`
   * **Write down the number of the "cust"-part of the URL as “Cust ID”**
 
-* To create new content types (see step 2), you need the SharePoint settings to "allow user to run custom scripts" activated < 24 h. before setup. You may perform the other steps in the meantime / create new content types at a later time.
+* To create new content types (see step 2), you need the SharePoint settings to **allow user to run custom scripts** activated < 24 h. before setup. You may perform the other steps in the meantime / create new content types at a later time.
 
-* How to activate 'Custom Script':
+* How to activate Custom Script:
 
 1. Go to SharePoint admin center > settings tab > Custom Script section >
 2. Set settings to "Allow users to run custom script on self-service created sites"
 
-![x][3]
+![x][img3]
 
 For more information:
 
@@ -52,19 +52,19 @@ For more information:
 ## Step 1 - Create a document library in your Microsoft 365 SharePoint library
 
 > [!NOTE]
-> The *SuperOffice Archive* folder needs to be a **document library**, and this document library needs to be located on the root of the SharePoint site, and not as a sub-site or a virtual site. See [troubleshooting tips](troubleshooting.md) for more information.
+> The *SuperOffice Archive* folder needs to be a **document library**, and this document library needs to be located on the root of the SharePoint site, and not as a sub-site or a virtual site. See [troubleshooting tips][7] for more information.
 
 1. Open Microsoft 365 and log in as an admin user, go to Microsoft 365 “Admin”.
 
-![x][6]
+![x][img6]
 
 2. Go to SharePoint under “Microsoft 365 admin center” -> Admin centers
 
-![image18cb.png][7]
+![image18cb.png][img7]
 
 3. Open the root area of your SharePoint tenant – by choosing 'Sites' -> 'Active sites' from the left-hand menu.
 
-![imagesgm93.png][8]
+![imagesgm93.png][img8]
 
 **Write down this URL as “SharePoint domain name URL=”**
 
@@ -72,11 +72,11 @@ Example: `SharePoint domain name URL=https://[your_domain_name].sharepoint.com`
 
 4. Click the root address (`https://[your_domain_name].sharepoint.com`) from the **Active sites** list.
 
-![x][9]
+![x][img9]
 
 5. Open **Site contents** from the menu
 
-![imagetrxas.png][10]
+![imagetrxas.png][img10]
 
 6. Create a document library (used for SuperOffice documents) in the **root** area:
     1. Click **New** and choose **Document library**.
@@ -96,7 +96,7 @@ Make sure the document library exists on Root of SharePoint, and have correct ac
 
     **Write down this name as “Template Folder Name=”**
 
-![imageujv6m.png][11]
+![imageujv6m.png][img11]
 
 Folder for templates, created inside the SuperOffice Document library For example, *Template Folder Name=Template*
 
@@ -110,7 +110,7 @@ To create new content types, you need the SharePoint settings to "allow user to 
 
 This selection will fail if SuperOffice 'content types' are not set up in SharePoint:
 
-![x][12]
+![x][img12]
 
 1. Open Microsoft 365, and log in as an admin user, go to "Microsoft 365 admin center”
 2. Go to Sharepoint under “Admin centers”
@@ -119,11 +119,11 @@ This selection will fail if SuperOffice 'content types' are not set up in ShareP
 
 ![imageu49ea.png][13]
 
-![x][14]
+![x][img14]
 
-5. Click Create
+5. Click **Create**.
 
-![x][15]
+![x][img15]
 
 6. Set:
     1. Enter 'SuperOffice Blank Document' as name
@@ -131,35 +131,35 @@ This selection will fail if SuperOffice 'content types' are not set up in ShareP
     1. Choose “Document” under 'Parent Content Type'
     1. Enter SuperOffice as Group (Create the group if it's non-existing).
 
-![x][16]
+![x][img16]
 
-7. Click OK
+7. Click **OK**.
 
 8. Navigate the list to your newly created content type and open it. Click Advanced settings
 
-![x][17]
+![x][img17]
 
-9. Select 'Upload a new document template:'. Choose a blank document from your computer. (Either download a pre-created blank [.docx][18] document or create a blank document from Office and stored locally)
+9. Select 'Upload a new document template:'. Choose a blank document from your computer. (Either download a pre-created blank [.docx][8] document or create a blank document from Office and stored locally)
 
-10. Click OK
+10. Click **OK**.
 
 11. Repeat step 6 - 13 for
 
-* SuperOffice Blank Spreadsheet ([.xlsx][19]
-* SuperOffice Blank Presentation ([.pptx][20]
+* SuperOffice Blank Spreadsheet ([.xlsx][9]
+* SuperOffice Blank Presentation ([.pptx][10]
 
 ### If you get an access error
 
 **For new UI:**
 
-1. Read [New Microsoft 365 admin user interface][21]
+1. Read [New Microsoft 365 admin user interface][11]
 
-2. Go to the [Settings page of the new SharePoint admin center][22], and sign in with an account that has [admin permissions][23] for your organization. At the bottom of the page, select **classic settings page**.
+2. Go to the [Settings page of the new SharePoint admin center][12], and sign in with an account that has [admin permissions][13] for your organization. At the bottom of the page, select **classic settings page**.
 Confirm whether the settings are configured to "Allow users from running custom script".
 
 **For old UI:**
 
-1. Read [Office365 admin user interface][24]
+1. Read [Office365 admin user interface][14]
 
 2. Go to SharePoint admin center > settings tab > Custom Script section >
 confirm whether the settings are configured to "Allow users from running custom script".
@@ -175,24 +175,31 @@ Since we’re not in Office Store, we have to do this manually:
 1. In “SharePoint admin center” - click “apps” from the menu
 2. Open "Customer apps" from the “Active sites” page (click URL) or go via "Advanced" and choose “Apps” -> "Apps catalog"
 
-![imagedtyeq.png][25]
+![imagedtyeq.png][img25]
 
-![imagev7ojr.png][26]
+![imagev7ojr.png][img26]
 
-![image69pt4.png][27]
+![image69pt4.png][img27]
 
-If you don’t have an **App Catalog** from before – [choose to create a new one][28]
+If you don’t have an **App Catalog** from before – choose to create a new one, for example:
 
-3. Download the SuperOffice SharePoint App [SuperOffice.Office365.Integrator.app][29] locally
+    * Title: Custom apps
+    * Web Site Address: `https://[your_domain_name].sharepoint.com/sites/apps/`
+    * Administrator: [any admin/currently logged in user]
+    * Server Resource Quota: 20
 
-4. Choose “Apps for SharePoint” in the menu. ![imagekoepi.png][30]
+The App Catalog is now being created – and available to be used within about 5 minutes
+
+3. Download the SuperOffice SharePoint App [SuperOffice.Office365.Integrator.app][16] locally
+
+4. Choose “Apps for SharePoint” in the menu. ![imagekoepi.png][img30]
 5. Click upload and choose the local file *SuperOffice.Office365.Integrator.app*
 
-![imageydark.png][31]
+![imageydark.png][img31]
 
 6. Click ok. The App is now Uploaded – and available to be used on your SharePoint site within about 10 minutes.
 
-![imagem7t19.png][31]
+![imagem7t19.png][img31]
 
 ### To use the App on your SharePoint site - Add the App to the site
 
@@ -200,7 +207,7 @@ If you don’t have an **App Catalog** from before – [choose to create a new o
 
 2. Click **Site contents** in the menu:
 
-![image6e0ta.png][32]
+![image6e0ta.png][img32]
 
 3. Click **New** from the dropdown inside the Grup Area, and choose **App**
 
@@ -208,21 +215,21 @@ Inside “Your Apps” – Apps you can add – you should now see “SuperOffic
 
 4. Click on it to open the app details
 
-![imagebnc9j.png][33]
+![imagebnc9j.png][img33]
 
 (if you are not able to add it yet - it might take a few minutes before it is available to add. Try again in a few minutes)
 
-![imagezfo3m.png][34]
+![imagezfo3m.png][img34]
 
 5. Add it by clicking **Trust It** to approve.
 
-![image61nqk.png][35]
+![image61nqk.png][img35]
 
 Once added - the SuperOffice Integration app should now be in the Group Area.
 
-![x][36]
+![x][img36]
 
-6. SharePoint users who will use this app for logging in to CRM Online will need "read" access to the root folder of SharePoint (see [Troubleshooting tips](troubleshooting.md) for more information and options on how to enable it)
+6. SharePoint users who will use this app for logging in to CRM Online will need "read" access to the root folder of SharePoint (see [Troubleshooting tips][7] for more information and options on how to enable it)
 
 ## Step 4 – Notify SuperOffice to activate Microsoft 365 document integration
 
@@ -235,48 +242,52 @@ To turn on the Microsoft 365 SharePoint integration for your CRMOnline tenant, s
 
 **NOTE!** Once we receive the form submission, we will activate the feature as soon as we are able to, and the feature will then be ready to use the following day. (Your site must be ‘recycled’ to get the new configurations)
 
-**Use [this form][37] for submitting the details to us.**
+**Use [this form][17] for submitting the details to us.**
 
 You will get a notification from SuperOffice R&D Services when the Microsoft 365 SharePoint integration is activated.
 
-When it is ready to use, you may continue to set up the templates, to make use of the Microsoft 365 SharePoint integration (as described in [this article](../configure-cloud-document-handling.md))
+When it is ready to use, you may continue to set up the templates, to make use of the Microsoft 365 SharePoint integration (as described in [this article][1])
 
 <!-- Referenced links -->
 [1]: ../configure-cloud-document-handling.md
 [2]: https://online.superoffice.com/AppStore/superoffice-as/office-365-integration
-[3]: media/o365customscripts.png
+[3]: requirements.md
 [4]: https://docs.microsoft.com/en-us/sharepointallow-or-prevent-custom-scriptredirectSourcePath=%252fen-us%252farticle%252fAllow-or-prevent-custom-script-1f2c515f-5d7e-44a-9fd7-835da935584f
 [5]: https://social.technet.microsoft.com/wikicontents/articles/37533.sharepoint-online-how-to-enable-custom-script.aspx
-[6]: media/imagebx1f.png
-[7]: media/image18cb.png
-[8]: media/imagesgm93.png
-[9]: media/image4e5im.png
-[10]: media/imagetrxas.png
-[11]: media/imageujv6m.png
-[12]: media/o365createnewtemplate.png
-[13]: media/imageu49ea.png
-[14]: media/o365sitecontenttypes.png
-[15]: media/o365sitesettingscreatecontenttypes.png
-[16]: media/o365createdocumentcontenttype.png
-[17]: media/o365contenttypeadvanced.png
-[18]: https://community.superoffice.com/globalassets/technical-club/documentation/setup-cloud-office/blank.docx
-[19]: https://community.superoffice.com/globalassets/technical-club/documentation/setup-cloud-office/blank.xlsx
-[20]: https://community.superoffice.com/globalassets/technical-club/documentation/setup-cloud-office/blank.pptx
-[21]: https://docs.microsoft.com/en-us/sharepoint/allow-or-prevent-custom-script?redirectSourcePath=%252fen-us%252farticle%252fAllow-or-prevent-custom-script-1f2c515f-5d7e-448a-9fd7-835da935584f
-[22]: https://admin.microsoft.com/sharepoint?page=migrationCenter&modern=true
-[23]: https://docs.microsoft.com/en-us/sharepoint/sharepoint-admin-role
-[24]: https://social.technet.microsoft.com/wiki/contents/articles/37533.sharepoint-online-how-to-enable-custom-script.aspx
-[25]: media/imagedtyeq.png
-[26]: media/imagev7ojr.png
-[27]: media/image69pt4.png
-[28]: https://community.superoffice.com/en/technical/documentation/prepare/crm-online/office-365-google-apps/setup---o365-integration/#accordion033
-[29]: https://community.superoffice.com/globalassets/technical-club/documentation/setup-cloud-office/cloud-office-for-superoffice-crm-online---superoffice.app
-[30]: media/imagekoepi.png
-[31]: media/imageydark.png
-[31]: media/imagem7t19.png
-[32]: media/image6e0ta.png
-[33]: media/imagebnc9j.png
-[34]: media/imagezfo3m.png
-[35]: media/image61nqk.png
-[36]: media/o365appadded.png
-[37]: https://crm.superoffice.com/scripts/customer.fcgi?action=formFrame&formId=20
+[6]: security.md
+[7]: troubleshooting.md
+[8]: https://community.superoffice.com/globalassets/technical-club/documentation/setup-cloud-office/blank.docx
+[9]: https://community.superoffice.com/globalassets/technical-club/documentation/setup-cloud-office/blank.xlsx
+[10]: https://community.superoffice.com/globalassets/technical-club/documentation/setup-cloud-office/blank.pptx
+[11]: https://docs.microsoft.com/en-us/sharepoint/allow-or-prevent-custom-script?redirectSourcePath=%252fen-us%252farticle%252fAllow-or-prevent-custom-script-1f2c515f-5d7e-448a-9fd7-835da935584f
+[12]: https://admin.microsoft.com/sharepoint?page=migrationCenter&modern=true
+[13]: https://docs.microsoft.com/en-us/sharepoint/sharepoint-admin-role
+[14]: https://social.technet.microsoft.com/wiki/contents/articles/37533.sharepoint-online-how-to-enable-custom-script.aspx
+[16]: https://community.superoffice.com/globalassets/technical-club/documentation/setup-cloud-office/cloud-office-for-superoffice-crm-online---superoffice.app
+[17]: https://crm.superoffice.com/scripts/customer.fcgi?action=formFrame&formId=20
+
+<!-- Referenced images -->
+[img3]: media/o365customscripts.png
+[img6]: media/imagebx1f.png
+[img7]: media/image18cb.png
+[img8]: media/imagesgm93.png
+[img9]: media/image4e5im.png
+[img10]: media/imagetrxas.png
+[img11]: media/imageujv6m.png
+[img12]: media/o365createnewtemplate.png
+[img13]: media/imageu49ea.png
+[img14]: media/o365sitecontenttypes.png
+[img15]: media/o365sitesettingscreatecontenttypes.png
+[img16]: media/o365createdocumentcontenttype.png
+[img17]: media/o365contenttypeadvanced.png
+[img25]: media/imagedtyeq.png
+[img26]: media/imagev7ojr.png
+[img27]: media/image69pt4.png
+[img30]: media/imagekoepi.png
+[img31]: media/imageydark.png
+[img31]: media/imagem7t19.png
+[img32]: media/image6e0ta.png
+[img33]: media/imagebnc9j.png
+[img34]: media/imagezfo3m.png
+[img35]: media/image61nqk.png
+[img36]: media/o365appadded.png

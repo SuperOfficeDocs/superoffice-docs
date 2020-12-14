@@ -1,5 +1,5 @@
 - name: Video meeting
-  href: configure-video-meetings.md
+  href: index.md
   items:
   - name: Configure video meetings
     href: configure-video-meetings.md
@@ -11,8 +11,6 @@
     href: disconnect-provider.md
   - name: Join video meeting
     href: join-video-meeting.md
-  - name: Overview
-    href: overview.md
   - name: Pre requisites
     href: pre-requisites.md
   - name: Uninstall provider

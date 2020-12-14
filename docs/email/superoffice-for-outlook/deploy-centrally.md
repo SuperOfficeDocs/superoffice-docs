@@ -20,7 +20,7 @@ Centralized deployment can be performed either via O365 Admin GUI or via PowerSh
 The Centralized Deployment service lets you deploy ‎Office‎ Web add-ins to users of ‎Excel‎, ‎Outlook‎, ‎PowerPoint‎, and ‎Word‎.
 
 > [!TIP]
-> Deploy for a single user instead? [Go to guide](deploy-office-add-in.md)
+> Deploy for a single user instead? [Go to guide][2].
 
 ## Deploy via PowerShell
 
@@ -39,7 +39,7 @@ You can use the following additional PowerShell cmdlets to manage the add-ins fo
 * **Remove-App** - Removes a previously installed add-in from an Exchange server.
 
 > [!TIP]
-> Read how to [install an add-in by using remote powershell][9] in Microsoft docs.
+> Read how to [install an add-in by using remote powershell][1] in Microsoft docs.
 
 ## Deploy using the admin center
 
@@ -47,36 +47,40 @@ You can use the following additional PowerShell cmdlets to manage the add-ins fo
 2. Open Admin center (and set to use "old" O365 Admin GUI).
 3. Go to *Settings > Services & add-ins*.
 
-![imageefsif.png][1]
+![imageefsif.png][img1]
 
 4. Click **Deploy add-in**, then:
     * Choose add an add-in from the Office Store, or
     * Choose "upload custom app", Copy/paste in this URL to the dialog:
     `https://superofficeforoutlook.superoffice.com/manifest/manifest.xml`
 
-![imageg8a0i.png][2]
+![imageg8a0i.png][img2]
 
 5. Follow the steps and make your selections along the way.
 
-![image9i9x1.png][3]
+![image9i9x1.png][img3]
 
-![imageevshb.png][4]
+![imageevshb.png][img4]
 
-![imagep08e5.png][5]
+![imagep08e5.png][img5]
 
-![image5t4dr.png][6]
+![image5t4dr.png][img6]
 
-![image6dm4b.png][7]
+![image6dm4b.png][img7]
 
-![image2ha3f.png][8]
+![image2ha3f.png][img8]
+
 
 <!-- Referenced links -->
-[1]: media/imageefsif.png
-[2]: media/imageg8a0i.png
-[3]: media/image9i9x1.png
-[4]: media/imageevshb.png
-[5]: media/imagep08e5.png
-[6]: media/image5t4dr.png
-[7]: media/image6dm4b.png
-[8]: media/image2ha3f.png
-[9]: https://docs.microsoft.com/en-us/office/dev/add-ins/outlook/testing-and-tips#install-an-add-in-by-using-remote-powershell
+[1]: https://docs.microsoft.com/en-us/office/dev/add-ins/outlook/testing-and-tips#install-an-add-in-by-using-remote-powershell
+[2]: deploy-office-add-in.md
+
+<!-- Referenced images -->
+[img1]: media/imageefsif.png
+[img2]: media/imageg8a0i.png
+[img3]: media/image9i9x1.png
+[img4]: media/imageevshb.png
+[img5]: media/imagep08e5.png
+[img6]: media/image5t4dr.png
+[img7]: media/image6dm4b.png
+[img8]: media/image2ha3f.png

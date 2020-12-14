@@ -16,8 +16,8 @@ so.client: online            # online, web, win, pocket, or mobile
 # How to uninstall video provider
 
 1. Uninstalling the Zoom video meeting service.
-2. Sign in to your Zoom account and navigate to the [Zoom Markedplace][1]
-3. Search for SuperOffice CRM and click the app or navigate to your installed apps via *Manage > Installed Apps*.
+2. Sign in to your Zoom account and navigate to the [Zoom Markedplace][1].
+3. Search for SuperOffice CRM and click the app or navigate to your installed apps via **Manage > Installed Apps**.
 4. Click **Uninstall** next to SuperOffice CRM.
 5. Confirm the dialog and click **Uninstall**.
 

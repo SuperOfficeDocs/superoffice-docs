@@ -27,7 +27,7 @@ This will store the template in the O365 cloud or Google cloud, and when the use
 
 1. Open SuperOffice Admin, go to Lists, choose **Document - Template**
 
-![x][1]
+![x][img1]
 
 2. Click **Add**.
 
@@ -38,14 +38,14 @@ This will store the template in the O365 cloud or Google cloud, and when the use
     * Choose the source of the new template
     * Click **Save**
 
-![x][2]
+![x][img2]
 
 4. Choose where to store document created by this template
 
     * Set **Document stored in** to either  "Google" or "Office365"
     * Click **Save**
 
-![x][3]
+![x][img3]
 
 ## Considerations
 
@@ -89,7 +89,7 @@ All documents written in SuperOffice will be stored in the provider's cloud if t
 
 * Moving existing templates to or from SuperOffice and O365 SharePoint can be performed in the Admin client
 
-<!-- Referenced links -->
-[1]: media/template1.png
-[2]: media/template3.png
-[3]: media/template3b.png
+<!-- Referenced images -->
+[img1]: media/template1.png
+[img2]: media/template3.png
+[img3]: media/template3b.png

@@ -39,8 +39,6 @@
 - name: SuperOffice for Outlook
   href: superoffice-for-outlook/index.md
   items:
-  - name: Overview
-    href: superoffice-for-outlook/overview.md
   - name: Deploy centrally
     href: superoffice-for-outlook/deploy-centrally.md
   - name: Deploy Office add-in

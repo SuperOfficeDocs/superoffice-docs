@@ -17,7 +17,7 @@ so.client: online            # online, web, win, pocket, or mobile
 
 ## Before you begin
 
-* The administrator must first [configure](configure-video-meetings.md) the Zoom video meeting service in SuperOffice Settings and Maintenance.
+* The administrator must first [configure][1] the Zoom video meeting service in SuperOffice Settings and Maintenance.
 
 ## How to
 
@@ -51,7 +51,7 @@ When we get verified, you will be able to authorize the app:
 
 ![imageajbsc.png][5]
 
-When app is approved:  
+When app is approved:
 You will be forwarded to the provider's authentication portal to authenticate and validate your user and to confirm you allow to connect it to SuperOffice.
 
 ![imagewvl4y.png][6]
@@ -60,16 +60,19 @@ You will be forwarded to the provider's authentication portal to authenticate an
 
 Zoom has one additional configuration required: set your own random password and click **Save**.
 
-![][8]
+![x][8]
 
-If it says "Connected to Zoom. Logged in as xxx and connected to custxxxx", and password is filled under 'Set Configurations', you may close this browser window - to go back to SuperOffice "Settings and maintenance" to confirm the setup.
+If it says "Connected to Zoom. Logged in as xxx and connected to custxxxx", and password is filled under **Set Configurations**, you may close this browser window - to go back to SuperOffice Settings and maintenance to confirm the setup.
 
 <!-- Referenced links -->
-[1]: media/imageq058q.png
-[2]: media/imagekb02n.png
-[3]: media/imageaos3n.png
-[4]: media/imagezo47s.png
-[5]: media/imageajbsc.png
-[6]: media/imagewvl4y.png
-[7]: media/imagecxj9r.png
-[8]: media/image7yqg.png
+[1]: configure-video-meetings.md
+
+<!-- Referenced images -->
+[img1]: media/imageq058q.png
+[img2]: media/imagekb02n.png
+[img3]: media/imageaos3n.png
+[img4]: media/imagezo47s.png
+[img5]: media/imageajbsc.png
+[img6]: media/imagewvl4y.png
+[img7]: media/imagecxj9r.png
+[img8]: media/image7yqg.png

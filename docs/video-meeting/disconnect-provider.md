@@ -17,7 +17,7 @@ so.client: online            # online, web, win, pocket, or mobile
 
 The administrator must first configure the Zoom video meeting service in SuperOffice Settings and Maintenance.
 
-In the Video meetings tab you can disconnect the Zoom video meeting service.
+In the **Video meetings** tab you can disconnect the Zoom video meeting service.
 
 **To disconnect the Zoom video meeting service:**
 
@@ -31,6 +31,6 @@ In the Video meetings tab you can disconnect the Zoom video meeting 
 
 Now you are able to start the configuration over.
 
-<!-- Referenced links -->
+<!-- Referenced images -->
 [1]: ../media/icons/preferences.bmp
 [2]: media/image67mh.png

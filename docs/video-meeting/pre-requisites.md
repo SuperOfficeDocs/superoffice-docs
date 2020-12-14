@@ -17,11 +17,11 @@ so.client: online             # online, web, win, pocket, or mobile
 
 * Use CRM Online
 
-* Sign up for the ['Video Meetings in SuperOffice' pilot program][1] to enable the feature.
+* Sign up for the [Video Meetings in SuperOffice pilot program][1] to enable the feature.
 
 * An account at the video provider, for example, Zoom Pro
 
-* To be able to send and receive email invitations to video meetings (to/from external users), you must have configured your email setup in SuperOffice CRM (user client) or use SuperOffice Mail Link.
+* To be able to send and receive email invitations to video meetings (to/from external users), you must have configured your email setup in SuperOffice CRM (user client) or use SuperOffice MailLink.
 
 <!-- Referenced links -->
 [1]: https://community.superoffice.com/en/customer/news/pilot-programs/sign-up-pilot-programs/?action=formFrame&formId=F-MITXUrxp

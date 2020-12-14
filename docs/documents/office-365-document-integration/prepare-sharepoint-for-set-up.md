@@ -25,7 +25,7 @@ The O365 username (User Principal Name, UPN) is managed by your O365 AAD. Update
 **NOTE!**
 The Office365 username must be identical to login name in CRM Online:
 
-![imagezj6n.png][1]
+![imagezj6n.png][img1]
 
 You see the UPN username in the O365 admin -> users section: [https://admin.microsoft.com/AdminPortal/Home#/users][2]
 
@@ -39,9 +39,9 @@ Read more about [the New Login Experience here][4]
 
 Read how-to here: [How to configure IDP SuperID][5]
 
-If you are using multiple domain names for your users, all domain names must be registered.  
+If you are using multiple domain names for your users, all domain names must be registered:
 
-* if it is a custom domain name, inform support to add those to your registered domain name  
+* if it is a custom domain name, inform support to add those to your registered domain name
 * if it is separate main domain names, use the registration link above to register each of them
 
 ## Make sure your new O365 authentication works by logging in to CRM Online with O365
@@ -56,11 +56,11 @@ If you are using multiple domain names for your users, all domain names must be 
 
 ### For existing users (used to use password)
 
-Next time a user logs in to online.superoffice.com, after registering the IDP, SuperOffice will recognize the domain name and force the user to switch to IDP authentication.
+Next time a user logs in to `online.superoffice.com`, after registering the IDP, SuperOffice will recognize the domain name and force the user to switch to IDP authentication.
 
-1. Go to online.superoffice.com
+1. Go to `online.superoffice.com`.
 2. Type in the email address, click **Next**.
-3. Type in the current SuperOffice password, click **[Next**.
+3. Type in the current SuperOffice password, click **Next**.
 4. SuperOffice will recognize the domain name and force the user to switch to IDP authentication. click **O365** to enable O365 authentication for this user.
     * If your browser already has an active O365 session - it will re-use this session to log you automatically in.
     * If your browser has no active O365 session - it will redirect you to your O365 for authentication, before logging you into CRM Online.
@@ -70,8 +70,10 @@ Next time a user logs in to online.superoffice.com, after registering the IDP, S
 If some existing users do not get asked to switch to IDP authentication, a user may force this by completing a "reset password" in SuperOffice. Next time, after logging, after resetting password, user is asked to switch to IDP autentication.
 
 <!-- Referenced links -->
-[1]: media/imagezj6n.png
 [2]: https://admin.microsoft.com/AdminPortal/Home#/users
 [3]: https://crm.superoffice.com/scripts/customer.fcgi?action=formFrame&formId=19
 [4]: https://community.superoffice.com/en/technical/documentation/prepare/crm-online/superid/
 [5]: https://community.superoffice.com/en/technical/documentation/prepare/crm-online/superid/configureIDPforSuperID/
+
+<!-- Referenced images -->
+[img1]: media/imagezj6n.png
