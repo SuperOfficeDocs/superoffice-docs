@@ -47,20 +47,20 @@ The following process is carried out when a windows user is automatically signed
 1. Open Server Manager
 2. Make sure Windows Authentication is checked.
 
-![imagegb896.png](https://community.superoffice.com/contentassets/552f48ae192f44a79018c53c18175f45/imagegb896.png)
+![imagegb896.png][img1]
 
 3. Open Internet Information Server (IIS) Manager.
-4. Select the SuperOffice CRM Web site again and double-click on the 'Authentication' Feature:
+4. Select the SuperOffice CRM Web site again and double-click on the **Authentication** Feature:
 
-![imagef1ptl.png](https://community.superoffice.com/contentassets/552f48ae192f44a79018c53c18175f45/imagef1ptl.png)
+![imagef1ptl.png][img2]
 
 5. Make sure that only Windows Authentication is enabled. We do not recommend other authentication methods such as Basic and Digest.
 
 ## SuperOffice WebTools
 
-To enable Single sign-on for Web Tools (MailLink and Web Extensions) the bindingConfiguration must be changed to WindowsAuth (and WindowsAuths for https) in *Web.config*.
+To enable Single sign-on for Web Tools (MailLink and Web Extensions) the bindingConfiguration must be changed to WindowsAuth (and WindowsAuths for HTTPS) in *Web.config*.
 
- ![](https://community.superoffice.com/globalassets/technical-club/75sr1trayappwindowsauth.jpg)
+![x][img3]
 
 ## SuperOffice Service
 
@@ -76,7 +76,7 @@ Steps to configure in the web.config file:
 
 1. Configure the installation as SSO
 
-2. Make sure the [symmetricKey and symmetricSecret values are the same between SuperOffice Web and Customer Service config files](https://community.superoffice.com/en/technical/documentation/install-upgrade/service/Run-the-installer/)
+2. Make sure the [symmetricKey and symmetricSecret values are the same between SuperOffice Web and Customer Service config files][1]
 
 3. Add a `CustomerService` section in the `SuperOffice` section group:
 
@@ -112,3 +112,11 @@ Steps to configure in the web.config file:
 2. Select the Services folder in the CRM Web site.
 3. Enable Windows Authentication in Authentication. Disable other authentication methods.
 4. Apply the configuration changes related to bindings and WindowsAuth.
+
+<!-- Referenced links -->
+[1]: ../service/set-up-guide.md
+
+<!-- Referenced images -->
+[img1]: ../media/imagegb896.png
+[img2]: ../media/imagef1ptl.png
+[img3]: ../media/75sr1trayappwindowsauth.jpg

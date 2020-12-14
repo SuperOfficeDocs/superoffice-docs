@@ -34,15 +34,15 @@ For Win app users, this folder must be shared, the user must be able to create a
 
 ### Prepare IIS web server
 
-* [How to configure ISS](iis-web-server/prepare.md)
+* [How to configure ISS][3]
 
 ### Prepare the database
 
 The central database may be running on either Microsoft SQL Server or Oracle before you start the server installer. Please refer to the manufacturers' webpages for more information.
 
-* [list of supported databases](../compatibility/database.md)
-* [create Oracle database](create-oracle-db.md)
-* [create Microsoft SQL Server database](create-ms-sql-server-db.md)
+* [list of supported databases][4]
+* [create Oracle database][5]
+* [create Microsoft SQL Server database][6]
 
 > [!NOTE]
 > The ODBC data source must be set up as a 32-bit system DSN.
@@ -65,11 +65,11 @@ For new customers, we recommend using [Unicode][1]. This removes all ambiguity o
 
 ### Prepare Win client computer
 
-* [Guide](../win-client/prepare-server.md)
+* [Guide][7]
 
 ## Prepare for Service
 
-* [Guide](../service/set-up-guide.md)
+* [Guide][8]
 
 ## Install CRM Server
 
@@ -77,7 +77,7 @@ For new customers, we recommend using [Unicode][1]. This removes all ambiguity o
 
 Prerequisites are available in the installation package.
 
-After you start the SuperOffice CRM Server installer you will find the "Install prerequisites". Here you can click the Advanced button to see what will be installed, and select or unselect if you want to do it another way.
+After you start the SuperOffice CRM Server installer you will find the **Install prerequisites**. Here you can click the Advanced button to see what will be installed, and select or unselect if you want to do it another way.
 
 To install the .Net Framework an internet connection is required. If the server where the installation is done don't have an internet connection, the [correct][2] .Net framework must be installed from another source.
 
@@ -87,7 +87,7 @@ The reason is the prerequisites installation program on the installation package
 
 ### Automatic update of clients
 
-In the last screen of ServerSetup, "Installation is complete", you can select to use automated update for client installations.
+In the last screen of ServerSetup, **Installation is complete**, you can select to use automated update for client installations.
 
 The client setup file will be run from the location selected in ServerSetup, so this location must be available for the user and sufficient rights must have been granted.
 
@@ -112,3 +112,9 @@ If you are upgrading from an earlier version of SuperOffice, make sure to select
 <!-- Referenced links -->
 [1]: https://community.superoffice.com/en/technical/documentation/older-versions/documentation-7/onpremise/database-maintenance/unicode-vs-ansi/
 [2]: system-requirements.md
+[3]: iis-web-server/prepare.md
+[4]: ../compatibility/database.md
+[5]: create-oracle-db.md
+[6]: create-ms-sql-server-db.md
+[7]: ../win-client/prepare-server.md
+[8]: ../service/set-up-guide.md

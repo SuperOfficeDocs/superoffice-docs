@@ -20,7 +20,7 @@ SuperOffice uses Windows Communication Foundation (WCF). This means WCF must be 
 ## Preparing IIS for NetServer web services
 
 > [!TIP]
-> See [system requirements](../system-requirements.md).
+> See [system requirements][1].
 
 ### Make sure ASP.Net support is installed in IIS
 
@@ -29,13 +29,13 @@ SuperOffice uses Windows Communication Foundation (WCF). This means WCF must be 
 1. Go to the Control Panel > Programs and click **Turn Windows features on or off**.
 1. Then go to the **Role** for IIS and install ASP.Net support using **Add Role Services**.
 
-![asp](https://community.superoffice.com/contentassets/df78f43401444dc0a7ca4dc79ad41f20/asp.png)
+![asp][img1]
 
 ### Make sure IIS 6 Metabase Compatibility is installed in correct location
 
 **IIS 6 Metabase Compatibility** must be installed under **IIS 6 Management Compatibility** under **Management Tools**. This is needed in the web installer to choose sites.
 
-![metabase](https://community.superoffice.com/contentassets/df78f43401444dc0a7ca4dc79ad41f20/metabase.png)
+![metabase][img2]
 
 Plus any authentication methods that you wish to use.
 
@@ -53,14 +53,24 @@ Plus any authentication methods that you wish to use.
 3. Start **Internet Information Services (IIS) Manager**.
 4. Click the server name and double click **ISAPI and CGI Restrictions**.
 
-![](https://community.superoffice.com/contentassets/9f0f7a0f677f43e5a2c368bd438a2f9a/isapi_cgi_restricitons_1.png "IIS")
+![IIS][img3]
 
 5. Click **Edit Feature Settings..** and check **Allow unspecified CGI modules**.
 
-![Allow unspecified CGI modules](https://community.superoffice.com/contentassets/9f0f7a0f677f43e5a2c368bd438a2f9a/isapi_cgi_restricitons_2.png)
+![Allow unspecified CGI modules][img4]
 
 If you do not want to **Allow unspecified CGI modules** it is also possible to use “Add...” to add each CGI file separately. This, however, requires you to make sure any new CGI files from Customer Service is added here.
 
-6. Click Add..., navigate to the *\[Service installation\]\\www\\scripts* folder and add one by one all .exe files in this folder. For each write some description and tick **Allow extension path** to execute.
+6. Click **Add...**, navigate to the *\[Service installation\]\\www\\scripts* folder and add one by one all .exe files in this folder. For each write some description and tick **Allow extension path** to execute.
 
-![](https://community.superoffice.com/contentassets/df78f43401444dc0a7ca4dc79ad41f20/add-cgi.png)
+![add cgi][img5]
+
+<!-- Referenced links -->
+[1]: ../system-requirements.md
+
+<!-- Referenced images -->
+[img1]: ../media/asp.png
+[img2]: ../media/metabase.png
+[img3]: ../media/isapi-cgi-restricitons-1.png
+[img4]: ../media/isapi-cgi-restricitons-2.png
+[img5]: ../media/add-cgi.png

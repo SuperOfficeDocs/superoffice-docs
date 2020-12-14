@@ -18,7 +18,7 @@ so.envir: onsite             # cloud or onsite
 Full-text indexing is a database capability, and needs to be supported and enabled in the database.
 
 > [!TIP]
->Contact your database vendor for information on how to enable this on your database.
+> Contact your database vendor for information on how to enable this on your database.
 
 Service (formerly known as eJournal) has had this functionality available since version 4.7. From CRM 7, this functionality is now also available on some fields in Sales & Marketing win and web client.
 
@@ -32,14 +32,14 @@ If full-text search is enabled on the database, it will use special search synta
 
 **in Sales & Marketing:**
 
-* All long text fields like appointment text, yellow notes, descriptions. Note: This is not a replacement of our full-text search, since it only works on specific fields, as part of the ”structured” search system (Find)
+* All long text fields like appointment text, yellow notes, descriptions. Note: This is not a replacement of our full-text search, since it only works on specific fields, as part of the structured search system (Find)
 
 The new full-text search functionality works in a different way than ordinary (much slower) text search, and there are some differences in search behavior. Using the classic text search the database would match against any record that contains your text query anywhere. With the new full-text search capability, the text is portioned into words, and the words need to match – a part of a word will not match.
 
-This table illustrates the different search behavior when searching for “**enigma**”:
+This table illustrates the different search behavior when searching for "enigma":
 
 | Words in the database | Match classic text search | Match new full-text search |
-|-----|-----|-----
+|-----|-----|-----|
 | Enigma | Yes | Yes |
 | Enigmatic | Yes | No |
 | Unenigmatic | Yes | No |
@@ -57,8 +57,7 @@ To get full-text search capability, you need to enable the Microsoft Indexing Se
 
 ## Turn on full-text search on an existing database
 
-[Dbsetup][1] will detect if full-text search is set up or not. If you have turned on the full-text search on an existing database, you have to do a [rebuild][2] of the database to get the functionality working.
+[Dbsetup][1] will detect if full-text search is set up or not. If you have turned on the full-text search on an existing database, you have to do a rebuild of the database to get the functionality working.
 
 <!-- Referenced links -->
 [1]: https://community.superoffice.com/en/technical/documentation/older-versions/documentation-7/onpremise/database-maintenance/
-[2]: https://community.superoffice.com/en/technical/documentation/older-versions/documentation-7/onpremise/database-maintenance/

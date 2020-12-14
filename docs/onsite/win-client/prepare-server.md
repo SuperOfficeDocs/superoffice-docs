@@ -45,16 +45,21 @@ SORT.exe, SORTS.exe, SoTrvGate.exe, Reporter Studio - these use ODBC.
 
 DBSetup uses a mix of ODBC and ADO.NET connections. ODBC in DBsetup is mainly for historical reasons and is not actually used for database setup, upgrade, export and import; those have all been rewritten to C# and use ADO.net.
 
-### **Web client / Netserver**
+### **Web client / NetServer**
 
 NetServer use ADO.NET connection only. Web client doesn't have its own database connection and uses NetServer to connect to a database and so\_arc. The only part of a Web client which has its own connection is Web Reporter and it uses ODBC connection.
 
 ### Service
 
-Service uses both ODBC and Netserver connection.
+Service uses both ODBC and NetServer connection.
 
 ### Migration Tool
 
 Migration Tool uses ADO.NET to connect to the database. It also uses Win client to read some information from the SuperOffice database. If Win client is not installed a user will get the following dialog and will have to type in the answers manually.
 
-![Migration Tool](https://community.superoffice.com/contentassets/b6d48c57e3504618bb082d2e89cc7ae5/dd952b42-6d72-454f-a4de-8af1e500b04d.png)
+![Migration Tool][img1]
+
+<!-- Referenced links -->
+
+<!-- Referenced images -->
+[img1]: media/dd952b42-6d72-454f-a4de-8af1e500b04d.png
