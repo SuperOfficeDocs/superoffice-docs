@@ -146,7 +146,7 @@ Microsoft SQL Server 2016 have been tested successfully with SuperOffice 7.5 SR2
 [img4]: media/mssqlserver2019.png
 [img5]: media/moj.jpg
 [img6]: media/office2019.png
-[img7]: media/win-server-2019
+[img7]: media/win-server-2019.png
 [img8]: media/sqlserver2017.png
 [img9]: media/macoshighsierra.jpg
 [img10]: media/windows-server-2016.png

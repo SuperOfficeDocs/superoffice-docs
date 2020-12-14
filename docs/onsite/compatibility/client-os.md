@@ -55,7 +55,7 @@ Want to know if a newly released OS is compatible? Check your [compatibility re
 [!include[legend](./includes/test-legend.md)]
 
 <!--Referenced links-->
-[1]: reports.md
+[1]: index.md
 
 <!--Referenced icons-->
 [img1]: ../../media/icons/testedyes.png

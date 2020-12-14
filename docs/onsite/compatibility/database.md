@@ -50,7 +50,7 @@ For database specific system requirements, check the vendor [Microsoft][4] or 
 <!--Referenced links-->
 [1]: https://msdn.microsoft.com/en-us/library/ms143506.aspx
 [2]: https://docs.oracle.com/en/database/
-[3]: reports.md
+[3]: index.md
 
 <!--Referenced icons-->
 [img1]: ../../media/icons/testedyes.png

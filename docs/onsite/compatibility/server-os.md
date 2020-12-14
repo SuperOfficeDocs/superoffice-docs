@@ -17,7 +17,7 @@ so.envir: onsite                    # cloud or onsite
 
 Currently tested server operating systems if running SuperOffice Onsite.
 
-Want to know if a newly released operating system is compatible? Check your [compatibility reports](reports.md).
+Want to know if a newly released operating system is compatible? Check your [compatibility reports](index.md).
 
 | Operating system | 8.0 SR1 - SR3 | 8.0 SR4 - SR6 | 8.1 | 8.2 | 8.3 R01 - R03 | 8.3 R04 | 8.4 | 8.5 | 9.1 |
 |---------------------|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|

@@ -34,7 +34,7 @@ Want to know if a newly released Office version is compatible? Check your [comp
 [!include[legend](./includes/test-legend.md)]
 
 <!--Referenced links-->
-[img1]: reports.md
+[img1]: index.md
 
 <!--Referenced icons-->
 [img1]: ../../media/icons/testedyes.png
