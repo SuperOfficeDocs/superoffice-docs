@@ -6,7 +6,7 @@ title: tested_databases         # (Required) Very important for SEO. Intent in a
 description: Tested databases   # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
 author: {github-id}             # Your GitHub alias.
 keywords:
-so.topic:                       # article, howto, reference, concept, guide
+so.topic: reference             # article, howto, reference, concept, guide
 
 # Optional fields. Don't forget to remove # if you need a field.
 so.envir: onsite                    # cloud or onsite
@@ -19,21 +19,21 @@ Our experience tells us that other configurations also should work but SuperOffi
 
 [!include[ODBC driver caution](./includes/caution-odbc-drivers.md)]
 
-For database specific system requirements, check the vendor [Microsoft](https://msdn.microsoft.com/en-us/library/ms143506.aspx) or [Oracle](https://docs.oracle.com/en/database/).
+For database specific system requirements, check the vendor [Microsoft][4] or [Oracle][5].
 
 | Database |8.0, 8.0 SR1 | 8.0 SR2 - SR6 | 8.1 | 8.2 | 8.3 | 8.4 | 8.5 | 9.1 |
 |-------------------------|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
-| MS SQL Server 2019 | ![][3] | ![][3] | ![][3] | ![][3] | ![][3] | ![][3] | ![][1] | ![][1] |
-| MS SQL Server 2017 | ![][3] | ![][3]\* | ![][1] | ![][1] | ![][1] | ![][1] | ![][1] | ![][1] |
-| MS SQL Server 2016 | ![][3] | ![][1] | ![][1] | ![][1] | ![][1] | ![][1] | ![][1] | ![][1] |
-| MS SQL Server 2014 | ![][1] | ![][1] | ![][1] | ![][1] | ![][1] | ![][1] | ![][1] | ![][1] |
-| MS SQL Server 2012 SP1, SP2 | ![][1] | ![][1] | ![][1] | ![][1] | ![][1] | ![][1] | ![][1] | ![][1] |
-| MS SQL Server 2008 R2\*\*\* | ![][1] | ![][1] | ![][1] | ![][1] | ![][1] | ![][1] | ![][3] | ![][3] |
-| Oracle 18c | ![][3] | ![][3] | ![][3] | ![][3] | ![][3] | ![][3] | ![][1]\*\*| ![][1] |
-| Oracle 12c | ![][1] | ![][1] | ![][1] | ![][1] | ![][1] | ![][1] | ![][1] | ![][1] |
-| Oracle 11g | ![][1] | ![][1] | ![][1] | ![][1] | ![][1] | ![][1] | ![][3] | ![][3] |
+| MS SQL Server 2019 | ![i][img3] | ![i][img3] | ![i][img3] | ![i][img3] | ![i][img3] | ![i][img3] | ![i][img1] | ![i][img1] |
+| MS SQL Server 2017 | ![i][img3] | ![i][img3]\* | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] |
+| MS SQL Server 2016 | ![i][img3] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] |
+| MS SQL Server 2014 | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] |
+| MS SQL Server 2012 SP1, SP2 | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] |
+| MS SQL Server 2008 R2\*\*\* | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img3] | ![i][img3] |
+| Oracle 18c | ![i][img3] | ![i][img3] | ![i][img3] | ![i][img3] | ![i][img3] | ![i][img3] | ![i][img1]\*\*| ![i][img1] |
+| Oracle 12c | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] |
+| Oracle 11g | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img3] | ![i][img3] |
 
-\* See [compatibility reports](reports.md)
+\* See [compatibility reports][3]
 
 \*\* See Oracle 18c compatibility info
 
@@ -47,7 +47,12 @@ For database specific system requirements, check the vendor [Microsoft](https:/
 
 [!include[legend](./includes/test-legend.md)]
 
+<!--Referenced links-->
+[1]: https://msdn.microsoft.com/en-us/library/ms143506.aspx
+[2]: https://docs.oracle.com/en/database/
+[3]: reports.md
+
 <!--Referenced icons-->
-[1]: ../../media/icons/testedyes.png
-[2]: ../../media/icons/testedno.png
-[3]: ../../media/icons/testednotyet.png
+[img1]: ../../media/icons/testedyes.png
+[img2]: ../../media/icons/testedno.png
+[img3]: ../../media/icons/testednotyet.png

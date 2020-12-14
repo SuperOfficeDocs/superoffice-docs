@@ -6,7 +6,7 @@ title: tested_ms_sql_server  # (Required) Very important for SEO. Intent in a un
 description: Tested Microsoft SQL Server versions # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
 author: {github-id}             # Your GitHub alias.
 keywords:
-so.topic:                       # article, howto, reference, concept, guide
+so.topic: reference              # article, howto, reference, concept, guide
 
 # Optional fields. Don't forget to remove # if you need a field.
 so.envir: onsite                # cloud or onsite
@@ -23,11 +23,11 @@ SuperOffice CRM has officially been tested on MS SQL Server 2012, 2014, 2016, 20
 | SQL Server 2017 | 14.0.1000.169 | ODBC Driver 17 for SQL Server |2017.171.00.01
 | SQL Server 2016 | 13.0.1601.5   | ODBC Driver 13 for SQL Server | 2015.131.811.168 |
 | SQL Server 2014 | 12.0.2000.8   | ODBC Driver 13 for SQL Server | 2015.131.811.168 |
-| SQL Server 2012 | 11.0.2100.60  | SQL Native Client 11.0 | 2011.110.1750.32<br/>SQLNCLI11.DLL |
+| SQL Server 2012 | 11.0.2100.60  | SQL Native Client 11.0 | 2011.110.1750.32<br>SQLNCLI11.DLL |
 
 ## Compatibility
 
-Our compatibility tests have been performed on both Enterprise and Standard editions of [SQL Server 2012][1]. When looking at the specification for the different versions, the other versions of SQL Server 2012 should also work. The only functionality we "may" use (not required), is "Full-text and semantic search". So when choosing your SQL Server 2012 version, make sure it covers your needs.
+Our compatibility tests have been performed on both Enterprise and Standard editions of [SQL Server 2012][1]. When looking at the specification for the different versions, the other versions of SQL Server 2012 should also work. The only functionality we **may** use (not required), is **Full-text and semantic search**. So when choosing your SQL Server 2012 version, make sure it covers your needs.
 
 [!include[legend](./includes/caution-odbc-drivers.md)]
 

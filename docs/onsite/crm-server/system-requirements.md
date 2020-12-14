@@ -115,4 +115,4 @@ The preferred bandwidth for the web servers is 1 Mbit/sec for all installations 
 [!include[.NET v 4.8 required](../includes/req-dotnet-4-7-1.md)]
 
 <!-- Referenced links -->
-[1]: https://community.superoffice.com/en/technical/documentation/prepare/system-requirement/tested-databases/
+[1]: ../compatibility/database.md

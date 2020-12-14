@@ -1,7 +1,7 @@
 This requirement applies to:
 
-* All client computers that will run our **Windows client**
-* All servers running our web-based software (**Sales & Marketing Web, NetServer, Service**)
+* All client computers that will run our Windows client
+* All servers running our web-based software (Sales & Marketing Web, NetServer, Service)
 * The server hosting SuperOffice CRM Server (ServerSetup) to be able to run ServerSetup and *DBSetup.exe*
 
 SuperOffice WebTools (Web Extensions and MailLink) will not have this requirement yet. They will continue to run on .Net 4.5.1. This means that our CRM Online customers are not affected by this change for now.

@@ -25,7 +25,7 @@ so.topic: reference             # article, howto, reference, concept, guide
 
 ### MailLink
 
-MailLink stores its configuration in *%appdata% folder under SuperOffice\\MailLink*. This folder is part of a roaming profile so the MailLink configuration is not forgotten when the user signs out and back in again.
+MailLink stores its configuration in *%appdata%* folder under *SuperOffice\\MailLink*. This folder is part of a roaming profile so the MailLink configuration is not forgotten when the user signs out and back in again.
 
 ### Web Extensions
 
@@ -38,4 +38,4 @@ To store Web Extensions configuration, we use folder *%localappdata%\\SuperOffic
 
 <!-- Referenced links -->
 [1]: https://www.microsoft.com/en-US/download/details.aspx?id=40779
-[2]: https://community.superoffice.com/en/technical/documentation/install-upgrade/superoffice-web-tools/superoffice-webtools-deployment/
+[2]: deploy.md

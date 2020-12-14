@@ -6,7 +6,7 @@ title: tested_browsers # (Required) Very important for SEO. Intent in a unique s
 description: Tested browser versions # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
 author: {github-id}             # Your GitHub alias.
 keywords:
-so.topic:                       # article, howto, reference, concept, guide
+so.topic: reference               # article, howto, reference, concept, guide
 
 # Optional fields. Don't forget to remove # if you need a field.
 so.envir: onsite                # cloud or onsite
@@ -17,24 +17,27 @@ so.envir: onsite                # cloud or onsite
 
 Tested browsers to run both Win and Web applications.
 
-Want to know if a newly released browser is compatible? Check your [compatibility reports](reports.md).
+Want to know if a newly released browser is compatible? Check your [compatibility reports][1].
 
 | Browsers             | 8.0 | 8.1 | 8.2 | 8.3 | 8.4 | 8.5 |9.1 |
 |----------------------|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
-| Edge                 | ![][1] | ![][1] | ![][1] | ![][1] | ![][1] | ![][1] | ![][1] |
-| Internet Explorer 11 | ![][1] | ![][1] | ![][1] | ![][1] | ![][1] | ![][1] | ![][2] |
-| Internet Explorer 10 | ![][3] | ![][3] | ![][3] | ![][3] | ![][3] | ![][3] | ![][2] |
-| Chrome Win           | ![][1] | ![][1] | ![][1] | ![][1] | ![][1] | ![][1] | ![][1] |
-| FireFox Win          | ![][1] | ![][1] | ![][1] | ![][1] | ![][1] | ![][1] | ![][1] |
-| Chrome Mac           | ![][3] | ![][1] | ![][1] | ![][1] | ![][1] | ![][1] | ![][1] |
-| FireFox Mac          | ![][1] | ![][1] | ![][1] | ![][1] | ![][1] | ![][1] | ![][1] |
-| Safari Mac           | ![][1] | ![][1] | ![][1] | ![][1] | ![][1] | ![][1] | ![][1] |
+| Edge                 | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] |
+| Internet Explorer 11 | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img2] |
+| Internet Explorer 10 | ![i][img3] | ![i][img3] | ![i][img3] | ![i][img3] | ![i][img3] | ![i][img3] | ![i][img2] |
+| Chrome Win           | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] |
+| FireFox Win          | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] |
+| Chrome Mac           | ![i][img3] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] |
+| FireFox Mac          | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] |
+| Safari Mac           | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] |
 
 ## Legend
 
 [!include[legend](./includes/test-legend.md)]
 
+<!--Referenced links-->
+[1]: reports.md
+
 <!--Referenced icons-->
-[1]: ../../media/icons/testedyes.png
-[2]: ../../media/icons/testedno.png
-[3]: ../../media/icons/testednotyet.png
+[img1]: ../../media/icons/testedyes.png
+[img2]: ../../media/icons/testedno.png
+[img3]: ../../media/icons/testednotyet.png

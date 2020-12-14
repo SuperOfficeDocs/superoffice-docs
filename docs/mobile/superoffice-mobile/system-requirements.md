@@ -3,7 +3,7 @@
 
 # Mandatory fields.
 title: mobile_system_requirements # (Required) Very important for SEO. Intent in a unique string of 43-59 chars including spaces.
-description:                    # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
+description: System requirements for SuperOffice Mobile CRM client # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
 author: {github-id}             # Your GitHub alias.
 keywords:
 so.topic: reference             # article, howto, reference, concept, guide
