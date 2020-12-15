@@ -29,7 +29,7 @@ intele_username =
 intele_password =
 ```
 
-![x][2]
+![x][img1]
 
 Note - do not include the brackets.
 
@@ -82,4 +82,6 @@ Under configuration -> system.serviceModel -> bindings, add:
 
 <!-- Referenced links -->
 [1]: https://www.intele.com/contact-centre-solution/sms/
-[2]: media/intelecomsmssettings.png
+
+<!-- Referenced images -->
+[img1]: media/intelecomsmssettings.png

@@ -23,7 +23,7 @@ A typical first-time installation of SuperOffice Customer Service on Windows 201
 
 ### Domain name
 
-A domain name like **socrm.myorganization.com** must be created and registered in the DNS for SuperOffice Customer Service and CRM Web to be able to run.
+A domain name like `socrm.myorganization.com` must be created and registered in the DNS for SuperOffice Customer Service and CRM Web to be able to run.
 
 Default installation of Service does not allow you to install it in a sub application. With SuperOffice 8.1 both Sale and Service must be installed on the same root domain. It will be easier to create Application Routing Routing rules (ARR) if you do the manual installation and place Service in a sub application.
 
@@ -89,7 +89,7 @@ The installer will copy the necessary files to the Service program folder.
 
 You need to configure some startup data that is specific to your installation – among else you need to specify the mail server to use, default from address, the company name, the ODBC database user, NetServer system users and a few other things.
 
-1. Start cmd.exe as an administrator from the start menu and navigate to your installation directory, and then to the subdirectoy /bin under that.
+1. Start cmd.exe as an administrator from the start menu and navigate to your installation directory, and then to the sub directory */bin* under that.
 2. Run the application **ejtermsetup.exe**, and you will be prompted for the necessary settings (see below).
 3. When ejtermsetup.exe is done, it will tell you that your installation is ready to run and the address where it should be available in a web browser. You can log in with the administrator user you entered earlier, and start configuring the system.
 
@@ -198,7 +198,9 @@ As a consequence, you must verify that this communication system is working when
 * Make sure your network topology allows HTTP(s) communication from the NetServer installation to the Service installation.
 
 > [!CAUTION]
-> If you use encrypted Web.config you can't read the Symmetric key values directly. You need to open the SuperOffice Web Product configuration tool, go to the Security section and copy the keys from there.![image.png][3].
+> If you use encrypted Web.config you can't read the Symmetric key values directly. You need to open the SuperOffice Web Product configuration tool, go to the Security section and copy the keys from there.
+
+![image.png][img1].
 
 ### Start the scheduler
 
@@ -218,5 +220,7 @@ You are now ready to log in and use Service by opening your client browser and g
 
 <!-- Referenced links -->
 [1]: HTTPs://community.superoffice.com/en/product-releases/
-[2]: https://community.superoffice.com/en/technical/documentation/install-upgrade/service/manual-steps-service/
-[3]: media/image.png
+[2]: install-manually.md
+
+<!-- Referenced images -->
+[img1]: media/image.png

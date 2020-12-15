@@ -17,9 +17,9 @@ The following information applies to all SMS plugins.
 
 You can do this in Settings/E-mail/New SMS mailbox. This is where settings like category for incoming SMS messages are configured. This must be set up even though the plugin only supports outgoing SMS.
 
-![x][1]
+![x][img1]
 
-![x][2]
+![x][img2]
 
 ## From SuperOffice 8.0 SR3
 
@@ -27,9 +27,9 @@ We have made this easier to set up you no longer need to change the config file 
 
 ## SuperOffice versions up to 8.0 SR2
 
-In Settings/System/SMS tab, set SMS provider to “NetServer plugins” and select your plugin in NetServer module settings.
+In Settings/System/SMS tab, set SMS provider to **NetServer plugins** and select your plugin in NetServer module settings.
 
-![x][3]
+![x][img3]
 
 Configure a sender as well. The sender can be whatever the SMS provider allows, like your company name, a short number, or an international telephone number.
 
@@ -51,14 +51,16 @@ messages.pushBack(msg);
 NSMessageDeliveryStatus[] receipts = agent.SendMessages("MySmsPluginName", messages);
 ```
 
-This method of sending will not create any entries in the Settings/E-mail/SMS outbox pane, and the SMS will be sent immediately to NetServer and not when ejournalcron.exe runs (usually once every minute).
+This method of sending will not create any entries in the **Settings/E-mail/SMS outbox** pane, and the SMS will be sent immediately to NetServer and not when ejournalcron.exe runs (usually once every minute).
 
 ## How to use
 
-You may read more about how to use the SMS plugins in the [help file][4]. The information in the help file applies to all SMS plugins.
+You may read more about how to use the SMS plugins in the [help file][1]. The information in the help file applies to all SMS plugins.
 
 <!-- Referenced links -->
-[1]: media/newsmsinbox.png
-[2]: media/smsinboxsettings.png
-[3]: media/netserverpluginsms.png
-[4]: https://community.superoffice.com/Documentation/Help/en/CRM/8.0/UserHelp/index.htm#t=_top%2FWelcome_to_Help_for_SuperOffice.htm&ux=search&rhsearch=sms
+[1]: https://community.superoffice.com/Documentation/Help/en/CRM/8.0/UserHelp/index.htm#t=_top%2FWelcome_to_Help_for_SuperOffice.htm&ux=search&rhsearch=sms
+
+<!-- Referenced images -->
+[img1]: media/newsmsinbox.png
+[img2]: media/smsinboxsettings.png
+[img3]: media/netserverpluginsms.png

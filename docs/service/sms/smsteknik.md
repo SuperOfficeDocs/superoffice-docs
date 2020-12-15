@@ -29,13 +29,13 @@ smsteknik_username =
 smsteknik_password =
 ```
 
-![x][2]
+![x][img1]
 
 Note - do not include the brackets.
 
 ## Outgoing SMS Configuration in SR2 or earlier
 
-The file SupeOffice.Messaging.SMSTeknik.dll must be copied manually to the NetServer library folder (bin folder). You may download version 8.0 SR2 [here][3].
+The file SupeOffice.Messaging.SMSTeknik.dll must be copied manually to the NetServer library folder (bin folder). You may download version 8.0 SR2 [here][2].
 
 ### Web.config settings
 
@@ -109,5 +109,7 @@ Under configuration -> system.serviceModel -> bindings, add:
 
 <!-- Referenced links -->
 [1]: http://www3.smsteknik.se/tj%C3%A4nster/sms-gateway
-[2]: media/smstekniksmssettings.png
-[3]: https://community.superoffice.com/globalassets/technical-club/images/service/smsplugin8sr2/superoffice.messaging.smsteknik.dll
+[2]: https://community.superoffice.com/globalassets/technical-club/images/service/smsplugin8sr2/superoffice.messaging.smsteknik.dll
+
+<!-- Referenced images -->
+[img1]: media/smstekniksmssettings.png

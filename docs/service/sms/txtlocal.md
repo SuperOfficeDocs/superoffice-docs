@@ -27,7 +27,7 @@ In the **Plugin configuration** you add:
 txtlocal_username = txtlocal_password =
 ```
 
-![x][2]
+![x][img1]
 
 Note - do not include the brackets.
 
@@ -60,4 +60,6 @@ Under configuration -> SuperOffice -> Factory -> DynamicLoad add:
 
 <!-- Referenced links -->
 [1]: http://www.textlocal.com/
-[2]: media/txtlocalsmssettings.png
+
+<!-- Referenced images -->
+[img1]:media/txtlocalsmssettings.png

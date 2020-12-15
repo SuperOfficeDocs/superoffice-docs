@@ -28,14 +28,14 @@ compaya_username=[username]
 compaya_password=[password]
 ```
 
-![x][2]
+![x][img1]
 
 Note - do not include the brackets.
 
 ## Outgoing SMS Configuration in SR2 or earlier
 
-The file SupeOffice.Messaging.Compaya.dll must be copied manually to the NetServer library folder (bin folder).
-You may download version 8.0 SR2 [here][3].
+The file SupeOffice.Messaging.Compaya.dll must be copied manually to the NetServer library folder (*bin* folder).
+You may download version 8.0 SR2 [here][2].
 
 ### Web.config settings
 
@@ -60,5 +60,7 @@ Under configuration -> SuperOffice -> Factory -> DynamicLoad add:
 
 <!-- Referenced links -->
 [1]: http://www.compaya.dk/
-[2]: media/compayasmssettings.png
-[3]: https://community.superoffice.com/globalassets/technical-club/images/service/smsplugin8sr2/superoffice.messaging.compaya.dll
+[2]: https://community.superoffice.com/globalassets/technical-club/images/service/smsplugin8sr2/superoffice.messaging.compaya.dll
+
+<!-- Referenced images -->
+[img1]: media/compayasmssettings.png

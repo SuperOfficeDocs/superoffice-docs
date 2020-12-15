@@ -385,5 +385,5 @@ This template is displayed when entering the Customer Care Center.
 No other than the standard parser variables are available.
 
 <!-- Referenced links -->
-[1]: https://community.superoffice.com/en/technical/documentation/administration/service-reply-templates/
-[2]: https://community.superoffice.com/en/technical/documentation/install-upgrade/service/customer-center-configuration/edit-customer-templates/
+[1]: ../reply-templates/index.md
+[2]: edit-template.md

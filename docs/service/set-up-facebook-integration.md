@@ -39,29 +39,29 @@ First, you will need to create an application on Facebook with the user you want
 
 4. Under category choose **Apps for Pages**
 
-![x][6]
+![x][img6]
 
 5. After you click **Create App ID** you will be redirected to the **Add Product,** but move up to **Settings**.
 
-![x][7]
+![x][img7]
 
-  * Add Platform:
+    * Add Platform:
 
-![x][8]
+![x][img8]
 
-  * Choose Website:
+    * Choose Website:
 
-![x][9]
+![x][img9]
 
-  * Add a Site URL:
-    * Customer Service installation **with** FastCgi: `Https://support.yourdomain.com/scripts/admin.fcgi?action=registerFacebook`
-    * Customer Service installation **without** FastCgi: `https://support.yourdomain.com/scripts/admin.exe?action=registerFacebook`
+    * Add a Site URL:
+      * Customer Service installation **with** FastCgi: `Https://support.yourdomain.com/scripts/admin.fcgi?action=registerFacebook`
+      * Customer Service installation **without** FastCgi: `https://support.yourdomain.com/scripts/admin.exe?action=registerFacebook`
 
-![x][10]
+![x][img10]
 
 6. When you are done you will need to make your app available, this is done under **App Review** and change it to *Yes*.
 
-![x][11]
+![x][img11]
 
 > [!NOTE]
 > **The site URLs must be available on the internet since Facebook will be pushing changes to this URL.** And the URLs must be running on HTTPS since we are using WebHooks and Facebook will only allow this via the secure protocol.
@@ -70,7 +70,7 @@ First, you will need to create an application on Facebook with the user you want
 
 This is found under **Dashboard**. If the App secret is hidden, click to show and write it down. You will need these when you authenticate later.
 
- ![x][12]
+![x][img12]
 
 Note that the App ID in this screenshot is just an example.
 
@@ -78,7 +78,7 @@ Note that the App ID in this screenshot is just an example.
 
 You also need to provide a **Page ID**. The Page ID can be obtained by Going to the About screen for your page:
 
- ![x][13]
+![x][img1]
 
 ## Add new Facebook inbox in Service
 
@@ -86,17 +86,17 @@ You need to configure Service to retrieve messages from Facebook using the appli
 
 1. Go to Settings->E-mail and click the **New Facebook application** icon.
 
-![x][14]
+![x][img2]
 
 2. Enter the **Application ID** and **Page ID** which you noted earlier.
 
-![][15]
+![x][img3]
 
-3. Fill in the rest of the information and click **Ok**.
+3. Fill in the rest of the information and click **OK**.
 
 4. You will now be redirected to Facebook, where it will ask for some permission for the application you created.
 
-![x][16]
+![x][img4]
 
 5. You will now be asked for the Client secret which is the same as the App Secret from your Facebook application. Click **OK**.
 
@@ -107,7 +107,7 @@ By default, the integration will start to import messages the time when you add 
 > [!TIP]
 > To manually post messages to Facebook, add Facebook as one of the recipients on a ticket.
 
-![x][17]
+![x][img5]
 
 ## Troubleshooting
 
@@ -123,9 +123,9 @@ If you receive this error after you have added Application ID and Page ID inside
 
 * Make sure you are running Service on HTTPS:
 
-[From Facebook documentation:][18]
+[From Facebook documentation:][6]
 New Webhook subscriptions must use a secure HTTPS callback URL as of v2.5. With the next version of the Graph API we will stop sending updates to non-HTTPS callback URLs.
-If you need more information about setting up HTTPS for your callback URL, check out [the Getting Started guide][18] from Let's Encrypt and [the SSL Certificate Installation instructions][20] from Digicert.
+If you need more information about setting up HTTPS for your callback URL, check out [the Getting Started guide][7] from Let's Encrypt and [the SSL Certificate Installation instructions][8] from Digicert.
 
 <!-- Referenced links -->
 [1]:https://community.superoffice.com/en/technical/Forum/rooms/topic/superoffice-product-group/customer-service/our-facebook-integration-and-cambridge-analytica/
@@ -133,18 +133,20 @@ If you need more information about setting up HTTPS for your callback URL, check
 [3]: https://www.facebook.com/pages/create/
 [4]: http://support.superoffice.com/
 [5]: http://developers.facebook.com/apps
-[6]: media/facebooknewappid.png
-[7]: media/facebookappsettings.png
-[8]: media/facebookaddplatform.png
-[9]: media/facebookwebsite.png
-[10]: media/facebookregisterurl.png
-[11]: media/facebookappreview.png
-[12]: media/facebookappidandsecret.png
-[13]: media/facebookpageid.png
-[14]: media/facebookservicenewfbapp.png
-[15]: media/facebookserviceproperties.png
-[16]: media/2managepages.jpg
-[17]: media/facebookreply.png
-[18]: https://developers.facebook.com/docs/graph-api/webhooks
-[19]: https://letsencrypt.org/getting-started/
-[20]: https://www.digicert.com/ssl-certificate-installation.htm
+[6]: https://developers.facebook.com/docs/graph-api/webhooks
+[7]: https://letsencrypt.org/getting-started/
+[8]: https://www.digicert.com/ssl-certificate-installation.htm
+
+<!-- Referenced images -->
+[img1]: media/facebookpageid.png
+[img2]: media/facebookservicenewfbapp.png
+[img3]: media/facebookserviceproperties.png
+[img4]: media/2managepages.jpg
+[img5]: media/facebookreply.png
+[img6]: media/facebooknewappid.png
+[img7]: media/facebookappsettings.png
+[img8]: media/facebookaddplatform.png
+[img9]: media/facebookwebsite.png
+[img10]: media/facebookregisterurl.png
+[img11]: media/facebookappreview.png
+[img12]: media/facebookappidandsecret.png

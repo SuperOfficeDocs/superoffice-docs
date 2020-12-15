@@ -17,11 +17,11 @@ so.topic: article               # article, howto, reference, concept, guide
 
 This document is only meant as a short introduction to how to edit the customer templates.
 
-The templates are located inside the Templates directory in your Service install directory. Inside this directory there can be a number of folders, each containing templates for the different customer languages. Inside the language directory there should be only one directory called "customer", unless you have made any custom directories. This is where the templates are stored. To edit one, you simply open it in a text editor.
+The templates are located inside the Templates directory in your Service install directory. Inside this directory there can be a number of folders, each containing templates for the different customer languages. Inside the language directory there should be only one directory called *customer*, unless you have made any custom directories. This is where the templates are stored. To edit one, you simply open it in a text editor.
 
-What the various templates do is described on [Customer Center Configuration](config.md) page.
+What the various templates do is described on [Customer Center Configuration][1] page.
 
-The templates are composed of normal HTML code and some tags which are understood by the Service system. These tags are marked with the percent-symbol, for example: %GfxPath%. In Service jargon, these tags are called "parser variables". When accessed through the customer module in Service, the parser variables are replaced with understandable HTML code.
+The templates are composed of normal HTML code and some tags which are understood by the Service system. These tags are marked with the percent-symbol, for example: %GfxPath%. In Service jargon, these tags are called *parser variables*. When accessed through the customer module in Service, the parser variables are replaced with understandable HTML code.
 
 All templates can be customized to your own wishes and you should be safe when just editing the HTML code and preserving the parser variables. If you are certain that you do not need a parser variable you can remove it. Parser variables can also be moved to other places in the template to fix the order of information.
 
@@ -36,7 +36,7 @@ IF-construction:
 %ENDIF%
 ```
 
-The \<test> statement can either be a parser variable only (if it is located the test returns true), or it can be a comparison of a parser variable and a constant, for example `%IF:authenticated="true"%`.
+The `<test>` statement can either be a parser variable only (if it is located the test returns true), or it can be a comparison of a parser variable and a constant, for example `%IF:authenticated="true"%`.
 
 **Looping:**
 
@@ -69,13 +69,13 @@ You can also create your own custom templates, which for example can make a requ
 ## Creating web forms using special templates in Service
 
 1. Create a template for the webform under the templates directory in Service.
-Example: C:\\SuperOffice\\Customer Service\\templates\\special\\mytemplate.html
+Example: *C:\\SuperOffice\\Customer Service\\templates\\special\\mytemplate.html*
 
-2. Access the template from the www browser using the following address .../scripts/customer.exe?action=spec...
+2. Access the template from the www browser using the following address *.../scripts/customer.exe?action=spec...*
 
 3. Edit the content of the special template
 
-4. Create a template called ok.html in the same location. This will be called when the customer press the "Post" button.
+4. Create a template called *ok.html* in the same location. This will be called when the customer press the **Post** button.
 
 ### A simple template example
 
@@ -157,16 +157,35 @@ It is not possible to do it on the site. To sort requests on Customer Center, yo
 
 ## How can I update an extra table from the Customer Center?
 
-Writing to extra tables from the Customer center is done by using the parser functions extraTableUpdate and extraTableInsert. The functions take the table ID and the values to write as parameters. In addition extraTableUpdate takes the ID of the row wich is to be updated.
+Writing to extra tables from the Customer center is done by using the parser functions extraTableUpdate and extraTableInsert. The functions take the table ID and the values to write as parameters. In addition `extraTableUpdate` takes the ID of the row which is to be updated.
 
-Example extraTableUpdate: %extraTableUpdate("7").id("1").field("y\_7.x\_1=test").field("y\_7.x\_2=aValue")%. This call will update the entry with id 1 in extratable 7. The field x\_1 will be set to "test", and x\_2 will be set to "aValue".
+### Example extraTableUpdate
 
-Example extraTableInsert: %extraTableInsert("1").field("y\_1.x\_3=10").field("y\_1.x\_4=2002-01-01")% This insert will add a new row in extra table 1. The Field x\_3 will be set to 10 and the field x\_4 will get the value 2002-01-01. To facilitate input from a form it will be appropriate to use a variable starting with an underscore (\_). Form values starting with an underscore will be forwarded to the next form.
+`%extraTableUpdate("7").id("1").field("y_7.x_1=test").field("y_7.x_2=aValue")%`
 
-The file subscribe.html can then handle the writing to the extra table: %extraTableInsert("1").field("y\_1.x\_2=" + \_email)%. This will result in adding a new table to extra table 1, where the field x\_2 will be set to the value specified in the form.
+This call will update the entry with ID 1 in extratable 7. The field `x_1` will be set to "test", and `x_2` will be set to "aValue".
+
+### Example extraTableInsert
+
+`%extraTableInsert("1").field("y_1.x_3=10").field("y_1.x_4=2002-01-01")%`
+
+This insert will add a new row in extra table 1. The field `x_3` will be set to 10 and the field `x_4` will get the value 2002-01-01.
+
+To facilitate input from a form it will be appropriate to use a variable starting with an underscore (\_). Form values starting with an underscore will be forwarded to the next form.
+
+The file *subscribe.html* can then handle the writing to the extra table: `%extraTableInsert("1").field("y_1.x_2=" + _email)%`. This will result in adding a new table to extra table 1, where the field `x_2` will be set to the value specified in the form.
 
 ## How can I create drop downs on the customer pages where you can choose the category from a hierarchical view?
 
 Customer Center is default shipped with templates that lists the categories in a single drop down. If you want these to show the categories in a hierarchical manner, you have to make some small changes to the templates.
 
-In framework.html you have to add the following between the \<head> tags: %IF:category.head% %category.head% %ENDIF%. To use the category drop down, you enter the following into the right templates: %IF:category.body% %category.body% %ENDIF%
+In *framework.html* you have to add the following between the `<head>` tags:
+
+`%IF:category.head% %category.head% %ENDIF%`
+
+To use the category drop down, you enter the following into the right templates:
+
+`%IF:category.body% %category.body% %ENDIF%`
+
+<!-- Referenced links -->
+[1]: config.md

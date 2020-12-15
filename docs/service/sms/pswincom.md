@@ -22,18 +22,19 @@ This document describes how to set up the PSWinCom NetServer SMS plugin to use i
 Go to **System - SMS** inside the Service client or **Mailings - Settings** inside Sales & Marketing client. Choose PSWinCom SMS in the list of available modules
 
 In the **Plugin configuration** you add:
+
 ```text
 pswin_username =
 pswin_password =
 ```
 
-![x][2]
+![x][img1]
 
 Note - do not include the brackets.
 
 ## Outgoing SMS Configuration in SR2 or earlier
 
-From version 7.1 SR1 of NetServer, the SupeOffice.Messaging.PSWinCom.dll is included in the NetServer release. The plugin can also be used in 7.1, but the .dll must be copied manually to the NetServer library folder (bin folder).
+From version 7.1 SR1 of NetServer, the *SupeOffice.Messaging.PSWinCom.dll* is included in the NetServer release. The plugin can also be used in 7.1, but the .dll must be copied manually to the NetServer library folder (*bin* folder).
 
 ### Web.config settings
 
@@ -86,4 +87,6 @@ Under configuration -> system.serviceModel -> bindings, add:
 
 <!-- Referenced links -->
 [1]: https://www.linkmobility.com/products/link-sms-gateway/
-[2]: media/pswincomsmssettings.png
+
+<!-- Referenced images -->
+[img1]:media/pswincomsmssettings.png

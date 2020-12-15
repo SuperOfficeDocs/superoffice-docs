@@ -19,7 +19,7 @@ These are the recommended steps for upgrading SuperOffice Service / Customer Ser
 
 ## Before you begin
 
-* Check the [system requirements](../crm-server/system-requirements.md) for SuperOffice Service
+* Check the [system requirements][3] for SuperOffice Service
 * [Upgrade your database][1] using ServerSetup.exe
 * Upgrade CRM Win/Web
 * [Upgrade the NetServer][2] used by Customer Service
@@ -27,7 +27,7 @@ These are the recommended steps for upgrading SuperOffice Service / Customer Ser
 
 [!include[ALT](../includes/warn-upgrade-all-to-same-version.md)]
 
-**Using remote Netserver WebServices?**
+**Using remote NetServer WebServices?**
 
 We recommend using the same NetServer for both CRM Web and Service for a more lean administration.
 
@@ -42,7 +42,7 @@ You need IIS version 7.5 or a patched version of 7.0. The Microsoft implementati
 3. Select the particular installation you want to upgrade in the list.
 4. Click next.
 
-![x][3]
+![x][img1]
 
 > [!NOTE]
 > When the installer finishes, you will need to run the upgrade.exe command. This must be done after every Customer Service upgrade, and the particulars for upgrading from version 7.5 to version 8.0 is explained in the next section.
@@ -58,7 +58,7 @@ If you have made customizations to the customer center, you will need to update 
 When the installer is done upgrading the files to version 8.0, you need to run the command upgrade.exe from a shell prompt.
 
 > [!NOTE]
-> The command **upgrade.exe must always be run after an upgrade** as it might perform configuration or data transformation tasks. There is no harm in running upgrade.exe more than once as it will keep tabs on what is done already and what is not.<br/>It must be run **with elevated/admin rights**, or you might get errors during the upgrade process because upgrade.exe may not be allowed to do certain changes to the system.
+> The command **upgrade.exe must always be run after an upgrade** as it might perform configuration or data transformation tasks. There is no harm in running upgrade.exe more than once as it will keep tabs on what is done already and what is not.<br>It must be run **with elevated/admin rights**, or you might get errors during the upgrade process because upgrade.exe may not be allowed to do certain changes to the system.
 
 1. Run cmd.exe from the start menu.
     * Make sure the upgrade.exe process is run with elevated/admin rights!
@@ -67,7 +67,7 @@ When the installer is done upgrading the files to version 8.0, you need to run t
 3. The upgrade.exe program will ask you some questions of which there are 3 main new areas of interest: website name, FastCGI, and attachments (described below).
 4. Flush the cache: Navigate to `http://your-site/scripts/rms.exe?action=debug` and click **Flush caches** at the bottom.
 
- ![x][4]
+![x][img2]
 
 ### The web site name
 
@@ -93,7 +93,10 @@ Upgrade.exe will want to remap attachment files to sub folders and this might t
 The attachment folder can potentially have hundreds of thousands of files, which might make it inefficient and difficult to browse manually with a file manager, and we will now store them in sub directories with a maximum of 10.000 files in each. Which folder each file is allocated to depends on the file ID number, the first 10.000 numbers goes into the first folder and so on. This means that there may be less than 10.000 files in any attachment sub folder, if some of the IDs are not in use or if an attachment was deleted. You can opt to delay moving the attachments if you expect it to take a lot of time, so you can unfreeze your Customer Service site quicker. Run upgrade.exe later to complete this process.
 
 <!-- Referenced links -->
-[1]: https://community.superoffice.com/en/technical/documentation/install-upgrade/crm-server/upgrade-crm-server/
-[2]: https://community.superoffice.com/en/technical/documentation/install-upgrade/web/upgradewebcs/
-[3]: media/upgradeservice.png
-[4]: media/capture.png
+[1]: ../crm-server/upgrade-to-8.md
+[2]: ../web-client/upgrade-to-8.md
+[3]: ../crm-server/system-requirements.md
+
+<!-- Referenced images -->
+[img1]: media/upgradeservice.png
+[img2]: media/capture.png
