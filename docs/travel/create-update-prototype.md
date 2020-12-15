@@ -28,7 +28,7 @@ Make sure you start SOAdmin.exe elevated (as administrator) the first time you t
 
 The prototype is generated on a database server, and the actual database file must reside on the same server. If the archivepath file store and the database server run on different computers, the prototype will have to be created on the database server and not the archivepath file server – this is how SQL Server works.
 
-Two new variables have to be added to *superoffice.ini* in the \[SuperOffice\] section for this purpose, note that both should point to the same location on the same computer as the SQL prototype is generated:
+Two new variables have to be added to *superoffice.ini* in the `SuperOffice` section for this purpose, note that both should point to the same location on the same computer as the SQL prototype is generated:
 
 ```text
 ProtoServerPath=c:\SOProto
@@ -37,9 +37,10 @@ ProtoClientPath=c:\SOProto
 
 These two items has to be inserted into the *Superoffice.INI* manually, and they are read at start-up, so you need to restart SOAdmin.exe if you just added it and it's still complaining that the ProtoServerPath is missing.
 
-When the prototype has finished, the database files will be automatically zipped and copied to the ARCHIVEPATH, like \\\\SERVER\\SO\_Arc\\Template\\travel
+When the prototype has finished, the database files will be automatically zipped and copied to the `ARCHIVEPATH`, like *\\\\SERVER\\SO\_Arc\\Template\\travel*.
 
-Note: These are ONLY necessary for clients who are going to generate prototypes. The normal travel user does not need any of these paths to do a local update.
+> [!NOTE]
+> These are ONLY necessary for clients who are going to generate prototypes. The normal travel user does not need any of these paths to do a local update.
 
 ## ProtoServerPath
 
@@ -47,7 +48,7 @@ The full path (without filename) to the place you want the prototypes to be crea
 
 ## ProtoClientPath
 
-Originally this was the full path (without filename) to the central SO\_arc\\template\\travel folder where the prototype will be zipped and copied too so the client finds it late. Since we now always zip down the prototype to central so\_arc\\template\\travel, you specify the same path as in ProtoServerPath and the application will automatically copy the prototype to so\_arc\\template\\travel at the end of the prototype generation.
+Originally this was the full path (without filename) to the central *SO\_arc\\template\\travel* folder where the prototype will be zipped and copied too so the client finds it late. Since we now always zip down the prototype to central *so\_arc\\template\\travel*, you specify the same path as in ProtoServerPath and the application will automatically copy the prototype to so\_arc\\template\\travel at the end of the prototype generation.
 
 From SR1 these are only required on clients who are also going to generate prototypes.
 
@@ -59,8 +60,10 @@ When creating the AREA data source, you only need to go through the first page o
 
 On the first page, fill in the name AREA and choose the correct SQL Server.
 
-![x][2]
+![x][img1]
 
 <!-- Referenced links -->
 [1]: https://community.superoffice.com/en/search/#/xdocumentation/help/EN/CRM/8.2/WebHelpAdmin_XML/chap02/Generating_an_update_prototype.htm
-[2]: media/areaodbc.png
+
+<!-- Referenced links -->
+[img1]: media/areaodbc.png

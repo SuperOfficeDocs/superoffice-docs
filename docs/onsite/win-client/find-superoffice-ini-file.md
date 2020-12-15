@@ -15,9 +15,9 @@ so.client: win               # online, web, win, pocket, or mobile
 
 # How to find SUPEROFFICE.INI
 
-1. To find the configuration file for SuperOffice (SuperOffice.ini), right-click the SuperOffice icon on the desktop or in the start-menu, and choose **Properties**.
+1. To find the configuration file for SuperOffice (*SuperOffice.ini*), right-click the SuperOffice icon on the desktop or in the start-menu, and choose **Properties**.
 
-2. In the window the opens up - click **Open File Location**
+2. In the window the opens up - click **Open File Location**.
 
 ![Open_File_Location][1]
 
@@ -27,6 +27,6 @@ A file explorer window will open - and you will see the SuperOffice program file
 
 ![SuperOffice_ini][2]
 
-<!-- Referenced links -->
-[1]: media/Open_File_Location.jpg
-[2]: media/SuperOffice_ini.jpg
+<!-- Referenced images -->
+[1]: media/open-file-location.jpg
+[2]: media/superoffice-ini.jpg

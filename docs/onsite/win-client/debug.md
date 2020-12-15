@@ -85,7 +85,7 @@ Only permit this option while debugging a bug. This will be a severe performance
 </Diagnostics>
 ```
 
-When you use SuperOffice Win, the Scaffolding option is not in SuperOffice.config file at all.
+When you use SuperOffice Win, the Scaffolding option is not in *SuperOffice.config* file at all.
 
 If asked for even more extended logging, you may turn this on by adding:
 
@@ -100,4 +100,4 @@ See also [Diagnostics][3] section of the Web.config page.
 <!-- Referenced links -->
 [1]: ../config-and-ini/superoffice-ini.md
 [2]: ../config-and-ini/superoffice-config.md
-[3]: https://community.superoffice.com/en/technical/documentation/administration/config-ini/webconfig/
+[3]: ../config-and-ini/web-config.md
