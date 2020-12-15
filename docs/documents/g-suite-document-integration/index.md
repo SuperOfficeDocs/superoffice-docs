@@ -30,7 +30,7 @@ Integrating SuperOffice CRM Online against Google G Suite enables the following 
 The integration consists of four main components:
 
 * SuperOffice CRM Online
-* SuperOffice Federation Gateway (http://superid.superoffice.com/)
+* SuperOffice Federation Gateway (`http://superid.superoffice.com/`)
 * Google G Suite subscription
 * Google G Suite "Service account" with Google Drive
 
@@ -42,13 +42,13 @@ For SuperOffice Online to be able to use Google G Suite for storage, SuperOffice
 
 The authorization process will grant rights to an app registered with Google G Suite called “SuperOffice“. This is the SuperOffice Federation Gateway which handles secure communication between Google G Suite, SuperOffice Online and other parties (like SuperOffice Mail Link).
 
-Read the [technical description](../cloud-document-integrations.md).
+Read the [technical description][7].
 
 ## What's the difference between a Google account and a G Suite account?
 
 ### What is G Suite?
 
-G Suite is a set of Google applications that brings together essential services to help your business. This is a hosted service that lets businesses, schools, and institutions use a variety of Google products -- including Email, Google Docs, and Google Calendar - on a unique domain (www.yourcompany.com).
+G Suite is a set of Google applications that brings together essential services to help your business. This is a hosted service that lets businesses, schools, and institutions use a variety of Google products -- including Email, Google Docs, and Google Calendar - on a unique domain (`www.yourcompany.com`).
 
 For instance, if you own the domain example.com and you sign up for G Suite services, everyone at your organization will get:
 
@@ -92,3 +92,4 @@ You may also check the domain name via G Suite Toolbox Dig (Google MX record lo
 [4]: http://www.google.com/accounts/UpdateAccountRecoveryOptions
 [5]: https://toolbox.googleapps.com/apps/dig/
 [6]: https://online.superoffice.com/
+[7]: ../cloud-document-integrations.md

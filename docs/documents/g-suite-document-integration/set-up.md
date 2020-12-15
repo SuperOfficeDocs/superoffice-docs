@@ -27,7 +27,7 @@ Setting up G Suite Document Integration has 2 parts:
 
 ## Before you begin
 
-Ensure you meet the [prerequisites](requirements.md) and read the [security considerations](security.md).
+Ensure you meet the [prerequisites][1] and read the [security considerations][2].
 
 Due to the requirements of recycling the site, it is best practice to plan ahead:
 
@@ -49,9 +49,9 @@ When Google G Suite integration has been enabled in step 3, all users will be re
 
 Make sure the user's user names in SuperOffice CRM Online is what the user's user name is in Google:
 
-![image58qub.png][1]
+![image58qub.png][img1]
 
-You see the Google user names here: [https://admin.google.com/ac/users][2]
+You see the Google user names here: [https://admin.google.com/ac/users][4]
 
 ### 2. Make sure you have registered your IDP for your domain
 
@@ -63,7 +63,7 @@ Read how-to here: [How to configure IDP][3]
 
 To create a Google G Suite service-account for SuperOffice in your Google G Suite domain:
 
-1. Log into your Google G Suite installation as a Google G Suite administrator. In a browser, go to http://admin.google.com and navigate to the ['users' section.][4]
+1. Log into your Google G Suite installation as a Google G Suite administrator. In a browser, go to `http://admin.google.com` and navigate to the ['users' section.][4]
 
 2. Add a new user.
 
@@ -103,19 +103,19 @@ Supply your new Google G Suite Service-account (created in step 4 above)
 
 Click **Continue**.
 
-![image0ox0s.png][7]
+![image0ox0s.png][img2]
 
 If you are not logged into the G Suite account - you will be redirected to do so.
 
 If you have failed to register IDP correctly prior to this, you may get a warning both "This app has not been verified by google" and "SuperOffice.com wants to access your Google account". You may approve and continue.
 
-![image5avtq.png][8]
+![image5avtq.png][img3]
 
 Either leave settings as is - or change them to your preference.
 
-Click “Configure SuperOffice”.
+Click **Configure SuperOffice**.
 
-![imageu3rda.png][9]
+![imageu3rda.png][img4]
 
 If the linking of SuperOffice and Google is successful this will be reported. (If the linking fails - please contact SuperOffice Support.)
 
@@ -125,15 +125,19 @@ Your SuperOffice Online installation is now able to talk to Google G Suite and u
 
 This step is the same for both MS Office 365 and Google G Suite document integration.
 
-[Configure Cloud Office document handling](../configure-cloud-document-handling.md).
+[Configure Cloud Office document handling][7].
 
 <!-- Referenced links -->
-[1]: media/image58qub.png
-[2]: http://Make%20sure%20the%20user's%20user%20names%20in%20SuperOffice%20CRM%20Online%20is%20what%20the%20user's%20user%20name%20is%20in%20Google%C2%A0%20You%20see%20the%20Google%20user%20names%20here%20https/
+[1]: requirements.md
+[2]: security.md
 [3]: https://community.superoffice.com/en/technical/documentation/prepare/crm-online/superid/configureIDPforSuperID/
 [4]: https://admin.google.com/ac/users
 [5]: https://accounts.google.com/
 [6]: https://cloudintegration.superoffice.com/app
-[7]: media/image0ox0s.png
-[8]: media/image5avtq.png
-[9]: media/imageu3rda.png
+[7]: ../configure-cloud-document-handling.md
+
+<!-- Referenced images -->
+[img1]: media/image58qub.png
+[img2]: media/image0ox0s.png
+[img3]: media/image5avtq.png
+[img4]: media/imageu3rda.png

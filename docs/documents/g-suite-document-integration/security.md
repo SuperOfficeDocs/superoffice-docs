@@ -25,12 +25,12 @@ This default behavior can be changed to "inheritance to folder" by contacting Su
 Users of SuperOffice Online opening documents hosted in Google Drive will see these documents in their Google drive recent document list.  
 The owner name will be the one used for the Service Account when the service-account was created:
 
-![][1]
+![x][img1]
 
 This is how Google Drive collaboration works.  
 The actual SOARC document-tree will not be visible nor accessible in the end-users drive directory tree:
 
-![][2]
+![x][img2]
 
 This is not a bug. This is by design.
 
@@ -65,29 +65,31 @@ If your company and business structure use/cross multiple G Suite domains (ie. c
     * Modify the group settings to suit your needs (Posting options, who can join, Permissions, and so on)
     * For more info, see [Google Help: Create a Google Group][5]
 
-4. Add your other domain-users to this [group][6] by selecting the group (clicking check), and click **Add users to group**. For more info, see [Google Help: Add members to the group][8].
+4. Add your other domain-users to this [group][6] by selecting the group (clicking check), and click **Add users to group**. For more info, see [Google Help: Add members to the group][1].
 
-![x][7]
+![x][img3]
 
 5. Sign in as SO Google service-account.
 
-6. Edit Share settings for the folder in [Drive][9] to include this group (from step 3)
+6. Edit Share settings for the folder in [Drive][2] to include this group (from step 3)
 
-![x][10]
+![x][img4]
 
-![x][11]
+![x][img5]
 
 The users belonging to other domains than the domain the service-account belongs to should now have access.
 
 <!-- Referenced links -->
-[1]: media/gsiarc.png
-[2]: media/gsiarc2.png
+[1]: https://support.google.com/groups/answer/2465464
+[2]: https://drive.google.com/drive/my-drive
 [3]: https://admin.google.com/AdminHome?hl=en#DomainsDetails:flyout=trustedDomains
 [4]: https://admin.google.com/AdminHome#GroupList:
 [5]: https://support.google.com/groups/answer/2464926
 [6]: https://admin.google.com/AdminHome?hl=en#GroupList:
-[7]: media/imagehhza.png
-[8]: https://support.google.com/groups/answer/2465464
-[9]: https://drive.google.com/drive/my-drive
-[10]: media/googlesharearchive.png
-[11]: media/imagerrxjg.png
+
+<!-- Referenced images -->
+[img1]: media/gsiarc.png
+[img2]: media/gsiarc2.png
+[img3]: media/imagehhza.png
+[img4]: media/googlesharearchive.png
+[img5]: media/imagerrxjg.png

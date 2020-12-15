@@ -35,4 +35,4 @@ This feature is currently not supported if you use [Synchronizer for SuperOffice
 [2]: https://community.superoffice.com/documentation/help/EN/CRM/9.2/UserHelp/StandardCRM/chap07web/Inbox_CRM_web.htm
 [3]: https://community.superoffice.com/documentation/help/en/crm/9.2/webhelpadmin/chap08/Add_e-mail_template.htm
 [4]: https://community.superoffice.com/documentation/help/EN/CRM/9.2/UserHelp/index.htm#t=MailLink/topics/Introduction.htm
-[5]: connect-proveider.md
+[5]: connect-provider.md
