@@ -37,7 +37,7 @@ By setting ProxyUsesDefaultCredentials to 1 will Web Tools authenticate with th
 
 Since SuperOffice 8.0.6110 (8.0 SR4) we support proxy authentication with specified authentication type. Both Web Extensions and Mail Link support forcing a credential type for the proxy authentication.
 
-There are two new registry entries - one for Mail Link and one for Web Extenstions:
+There are two new registry entries - one for Mail Link and one for Web Extensions:
 
 Setting `HKCU\Software\SuperOffice\{DocLink|MailLink}\ProxyCredentialType` (type string) to either Windows, Ntlm, Digest or Basic will use the corresponding authentication schemes.
 

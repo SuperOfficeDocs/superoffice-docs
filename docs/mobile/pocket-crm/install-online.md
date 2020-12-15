@@ -23,7 +23,7 @@ To download the Pocket CRM to your mobile device, open a web browser on your dev
 
 Choose Google Play if you use an Android phone, choose App Store if you use an Apple device:
 
-![x][2]
+![x][img2]
 
 Follow the process in Play Store/App Store for downloading and installing the application and wait for the installation to finish before opening the application.
 
@@ -31,7 +31,7 @@ Open the installed application in your mobile.
 
 Configure and set the connection URL to the CRM Online site is done by choosing \[CRM Online\] on the first start up:
 
-![x][3]
+![x][img3]
 
 Log in with the same email address and password you use for the SuperOffice CRM Online and you are ready to use SuperOffice Pocket CRM!
 
@@ -41,5 +41,7 @@ If you need to either reset the settings or configure the client with another co
 
 <!-- Referenced links -->
 [1]: https://online.superoffice.com/mobile
-[2]: media/MobileDownload.png
-[3]: media/1V.jpg
+
+<!-- Referenced images -->
+[img2]: media/mobile-download.png
+[img3]: media/1v.jpg

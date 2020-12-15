@@ -19,22 +19,22 @@ To get a WebTools for Mac log file for further troubleshooting:
 
 1. Click **Go** then **Library**.
 
-![imagewukx.png][1]
+![imagewukx.png][img1]
 
 2. Navigate to **Application Support** folder then **SuperOffice Web Tools**. Then create a new text file without an extension, call it debug and move it to the folder **SuperOffice Web Tools**. Restart WebTools.
 
-![imagew1mo6.png][2]
+![imagew1mo6.png][img2]
 
 3. Open a **Console**
 
-![imagelzq97.png][3]
+![imagelzq97.png][img3]
 
 4. In the console dialog search field fill in **SuperOffice** and click **Save**. The information should be saved in the debugging file. If it doesn’t, select all the entries and right-click and click copy then paste it in the debugging file.
 
-![imagedo4c.png][4]
+![imagedo4c.png][img4]
 
-<!-- Referenced links -->
-[1]: media/imagewukx.png
-[2]: media/imagew1mo6.png
-[3]: media/imagelzq97.png
-[4]: media/imagedo4c.png
+<!-- Referenced images -->
+[img1]: media/imagewukx.png
+[img2]: media/imagew1mo6.png
+[img3]: media/imagelzq97.png
+[img4]: media/imagedo4c.png

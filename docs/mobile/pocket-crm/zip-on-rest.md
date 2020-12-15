@@ -10,7 +10,7 @@ so.topic: howto                # article, howto, reference, concept, guide
 
 # Optional fields. Don't forget to remove # if you need a field.
 # so.envir:                     # cloud or onsite
-# so.client:                    # online, web, win, pocket, or mobile
+so.client: pocket            # online, web, win, pocket, or mobile
 ---
 
 # ZIP compression on REST
@@ -32,25 +32,25 @@ These new features should work in both Online and Onsite, and Onsite remote inst
 
 1. Add/install required server role in Server Manager console.
 
-![image0yyx.png][1]
+![image0yyx.png][img1]
 
 2. Enable dynamic content compression in IIS on server level.
 
 * In IIS Manager click on the server name and choose Compression from the IIS section.
 
-![imagehqgzohc.png][2]
+![imagehqgzohc.png][img2]
 
 3. Configure compression for content type JSON.
 
-* In IIS Manager click on the server name and choose Configuration Editor from the Management section. From the drop down list on the top of the page select system.webServer and under that httpCompression.
-* Find the dynamicTypes option and click Edit item from the Actions menu on the right hand side.
-* In the new dialog click Add in the Actions menu, set Enabled to True and to the mimeType enter “application/json”.
+    1. In IIS Manager, click on the server name and choose **Configuration Editor** from the Management section. From the drop-down list on the top of the page, select **system.webServer** and under that **httpCompression**.
+    2. Find the **dynamicTypes** option and click **Edit item** from the **Actions** menu on the right side.
+    3. In the new dialog, click **Add** in the Actions menu, set **Enabled** to True and to the **mimeType** enter `application/json`.
 
-![imageeahwm.png][3]
+![imageeahwm.png][img3]
 
 Now the REST calls will be compressed.
 
 <!-- Referenced links -->
-[1]: media/image0yyx.png
-[2]: media/imagehqgzohc.png
-[3]: media/imageeahwm.png
+[img1]: media/image0yyx.png
+[img2]: media/imagehqgzohc.png
+[img3]: media/imageeahwm.png

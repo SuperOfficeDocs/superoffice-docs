@@ -10,21 +10,21 @@ so.topic: howto              # article, howto, reference, concept, guide
 
 # Optional fields. Don't forget to remove # if you need a field.
 so.envir: onsite              # cloud or onsite
-so.client:   pocket         # online, web, win, pocket, or mobile
+so.client: pocket         # online, web, win, pocket, or mobile
 ---
 
 # Pocket CRM configuration
 
 ## Recommended configuration
 
-* Upgrade to SuperOffice 8 > Automatically update clients [from Pocket Server to Netserver](upgrade-to-8.md)
+* Upgrade to SuperOffice 8 > Automatically update clients [from Pocket Server to NetServer][6]
 * Setting up an email account for the client
-* Add a Template for incoming images (jpeg)
-* Add a Follow-up type for SMS
+* Add a template for incoming images (jpeg)
+* Add a follow-up type for SMS
 
 ## Enable logging
 
-Enable [logging][1] in the web.config file like for CRM Web under SuperOffice->Diagnostics->LogToFile
+Enable [logging][1] in the web.config file like for CRM Web under SuperOffice>Diagnostics>LogToFile
 
 ## Netserver configuration - GSM formatted phone numbers
 
@@ -36,15 +36,15 @@ When initiating phone calls from Pocket CRM it is important that the numbers are
 
 ## Client configuration - Setting up an email account
 
-To use and be able to send an e-mail within Pocket CRM an e-mail account needs to be configured. This configuration needs to be performed in the SuperOffice 8.x Web Client.
+To use and be able to send an email within Pocket CRM an email account needs to be configured. This configuration needs to be performed in the SuperOffice 8.x Web Client.
 
 ## Admin configuration - Add a Template for incoming images (jpeg)
 
-Open SuperOffice Admin client and select Lists section -> Lists tab -> double click “Template” and select “+ Add” bottom of the “Lists items”. Add this List item where filename has extension **.jpg**. The file may be empty, we use the extension to look up the correct template when a new file is saved.
+Open SuperOffice Admin client and select Lists section > Lists tab > double click **Template** and select **+ Add** bottom of the **Lists items**. Add this List item where filename has extension **.jpg**. The file may be empty, we use the extension to look up the correct template when a new file is saved.
 
 ## Admin configuration - Add a Follow-up type for SMS
 
-Open SuperOffice Admin client and select Lists section -> Lists tab -> double click “Type (Follow-up)” and select “+ Add” bottom of the “Lists items”. Add this List item SMS as type **Appointment** and direction **Outgoing**.
+Open SuperOffice Admin client and select Lists section > Lists tab > double click **Type (Follow-up)** and select **+ Add** bottom of the **Lists items**. Add this List item SMS as type **Appointment** and direction **Outgoing**.
 
 See the admin [help file][2] for adding list items.
 
@@ -63,11 +63,11 @@ Both iOS and Android have default support for encrypting all content if a pin co
 
 ## Expose NetServer to Internet
 
-In order to connect Pocket CRM to NetServer's webservices, Netserver needs to be accessible from internet. If you have a [setup with remote NetServer on internal network and SuperOffice Web in DMZ][5], that means only Web server part is available on internet.
+In order to connect Pocket CRM to NetServer's web services, NetServer needs to be accessible from internet. If you have a [setup with remote NetServer on internal network and SuperOffice Web in DMZ][5], that means only Web server part is available on internet.
 
-A solution is to use [Reverse proxy][8] to make also Netserver available on Internet.
+A solution is to use [Reverse proxy][7] to make also NetServer available on Internet.
 
-Installing second Netserver in DMZ and connecting it via web services to the remote NetServer on internal LAN is not supported. The NetServer in DMZ will demand direct access to so\_arc and Pocket CRM using this setup will fail to save pictures and documents.
+Installing second NetServer in DMZ and connecting it via web services to the remote NetServer on internal LAN is not supported. The NetServer in DMZ will demand direct access to so\_arc and Pocket CRM using this setup will fail to save pictures and documents.
 
 ## Custom Pocket configuration URL
 
@@ -84,16 +84,17 @@ Example:
 > [!NOTE]
 > The template files we use to generate the email with Pocket configuration sent to users use two template variables:
 
-* **{pccu}** variable always points to \<CRM.web installation>\\PocketConfiguration.aspx and is not configurable.
+* `{pccu}` variable always points to *\<CRM.web installation>\\PocketConfiguration.aspx* and is not configurable.
     The reason this is not a direct configuration link for the Pocket client (soprotocol scheme), is that a lot of users experienced problems on Android, where mail clients did not handle the custom protocol link correctly
     The custom protocol redirect/configuration url that PocketConfiguration.aspx uses, is attempted retrieved from CRM.web installation web.config.
 
-* **{pcvu}** variable is used as the display name for the Pocket configuration URL.
+* `{pcvu}` variable is used as the display name for the Pocket configuration URL.
 
 <!-- Referenced links -->
-[1]: https://community.superoffice.com/en/technical/documentation/administration/config-ini/debugweb/
+[1]: ../../onsite/web-client/debug.md
 [2]: https://community.superoffice.com/documentation/help/en/crm/8.0/webhelpadmin/index.htm#t=chap08%2FAdding_items.htm
 [3]: https://www.apple.com/business/docs/iOS_Security_Guide.pdf
 [4]: https://source.android.com/security/encryption/full-disk
-[5]: https://community.superoffice.com/en/technical/documentation/prepare/security/deploy-securely/deployment-scenarios/
-[8]: https://community.superoffice.com/en/technical/documentation/prepare/security/deploy-securely/setting-up-a-reverse-proxy-on-iis8/
+[5]: ../../onsite/security/deployment-scenarios.md
+[6]: upgrade-to-8.md
+[7]: ../../onsite/security/set-up-reverse-proxy-on-iis.md

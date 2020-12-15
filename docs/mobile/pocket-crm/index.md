@@ -13,7 +13,7 @@ Apps are distributed via the respective OS' app store channels.
 
 ## Key benefits
 
-Install the Pocket CRM app to access the SuperOffice database when you are out and about. No matter where you are, you can view and update all your CRM data, including appointments, documents, e-mail and e-mail attachments, future sales, delayed sales, sale statuses, projects, project members, selections, your diary, and your colleagues' diaries. And all in real-time! Install the Pocket CRM app on your mobile phone, tablet or other supported devices.
+Install the Pocket CRM app to access the SuperOffice database when you are out and about. No matter where you are, you can view and update all your CRM data, including appointments, documents, email and email attachments, future sales, delayed sales, sale statuses, projects, project members, selections, your diary, and your colleagues' diaries. And all in real-time! Install the Pocket CRM app on your mobile phone, tablet or other supported devices.
 
 * Use and update customer data
 

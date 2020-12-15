@@ -10,7 +10,7 @@ so.topic: howto              # article, howto, reference, concept, guide
 
 # Optional fields. Don't forget to remove # if you need a field.
 so.envir: onsite              # cloud or onsite
-so.client:   pocket         # online, web, win, pocket, or mobile
+so.client: pocket         # online, web, win, pocket, or mobile
 ---
 
 # Pocket CRM installation
@@ -22,14 +22,14 @@ so.client:   pocket         # online, web, win, pocket, or mobile
   * Pocket client does not support AD authentication
 * Pocket version 8 does not support IIS schemas
 
-Read more in [our administration site here][2].
+[Read more][2].
 
 ## Deployment guide
 
 1. Make sure a connection to the server is available (NetServer)
 2. Make sure all Pocket CRM users have a Pocket CRM license
 3. Download and install the Pocket CRM App on all the devices
-4. Configure 'the connection path to the server' on each of the Pocket CRM App
+4. Configure **the connection path to the server** on each of the Pocket CRM App
 
 ## Prepare Server (NetServer)
 
@@ -50,7 +50,7 @@ Pocket CRM uses SuperOffice NetServer so we need to verify that the Pocket CRM c
 
 Open a browser and enter the domain name address to the remote NetServer installation. Example: `http://servername.youcompany.com/NetServer/sale.svc` Result should look like this:
 
-![x][4]
+![x][img1]
 
 Clients installed on mobile phones uses this address to communicate. This server address (URL) must be reachable from the mobile phones (from the internet)
 
@@ -58,15 +58,15 @@ Clients installed on mobile phones uses this address to communicate. This server
 
 This step is necessary only if you have Onsite Buy license type. For Onsite Subscription all users have the Pocket license included in the license plan. All Pocket CRM users need a Pocket CRM license. Admin needs to set this in the Admin client > users:
 
-![x][5]
+![x][img2]
 
 ## Download and install
 
 Installing the Pocket Client on the mobile device. Choose Google Play if you use an Android device or choose App Store if you use an Apple device:
 
-[![Get it on Google Play](https://online.superoffice.com/Login/Images/google-play-badge.png "Get it on Google Play")][6]
+[![Get it on Google Play](../../media/google-play-badge.png "Get it on Google Play")][4]
 
-[![Get it on Apple App Store](https://online.superoffice.com/Login/Images/Download_on_the_App_Store_Badge_US-UK_135x40.svg "Get it on Apple App Store")][7]
+[![Get it on Apple App Store](../../media/download-on-appstore.svg "Get it on Apple App Store")][5]
 
 Follow the process in Play Store/App Store for downloading and installing the application.
 
@@ -78,21 +78,21 @@ The first time you start the App, you will be asked to configure what type of en
 
 Choose \[SuperOffice CRM\].
 
-![x][9]
+![x][img3]
 
  You must now set the URL in the app to connect it to the server by setting the *connection url /connection string / URL to your Pocket server / NetServer installation*:
 
-![x][10]
+![x][img4]
 
 Your administrator should know where to find this URL.
 
 You can set this URL either by typing the address manually or by clicking a SOProtocol link on the device:
 
-* To make it easier to configure the URL for Pocket CRM it is recommended that the installation address, *http://pocket.mydomain.com/pocketcrm/services80/* is sent as an "SO protocol" to the end-user using SMS or email which is accessible on the device you are to connect to.
+* To make it easier to configure the URL for Pocket CRM it is recommended that the installation address, *http://pocket.mydomain.com/pocketcrm/services80/* is sent as an SO protocol to the end-user using SMS or email which is accessible on the device you are to connect to.
 
 You can send a predefined email with this URL by clicking "Pocket CRM settings" from the SuperOffice Web client:
 
-![x][11]
+![x][img5]
 
 > [!NOTE]
 > To change the URL that is sent out in this email, changes has to be done in *web.config* for NetServer under:
@@ -113,13 +113,14 @@ If you need to either reset the settings or configure the client with another co
 
 <!-- Referenced links -->
 [1]: system-requirements.md
-[2]: https://community.superoffice.com/en/technical/documentation/administration/pocket-crm/
-[3]: https://community.superoffice.com/en/technical/documentation/prepare/security/deploy-securely/
-[4]: media/image.png
-[5]: media/image.png
-[6]: https://play.google.com/store/apps/details?id=no.superoffice.pocket.j2me.SuperOffice
-[7]: http://itunes.apple.com/no/app/superoffice/ce/id445355343
-[8]: media/google-play-badge.png
-[9]: media/image.png
-[10]: media/image.png
-[11]: media/image.png
+[2]: configure.md
+[3]: ../../onsite/security/index.md
+[4]: https://play.google.com/store/apps/details?id=no.superoffice.pocket.j2me.SuperOffice
+[5]: http://itunes.apple.com/no/app/superoffice/ce/id445355343
+
+<!-- Referenced images -->
+[img1]: media/image.png
+[img2]: media/assign-licence.png
+[img3]: media/configure-envir.png
+[img4]: media/set-url.png
+[img5]: media/preferences.png

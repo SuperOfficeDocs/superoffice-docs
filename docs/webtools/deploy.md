@@ -25,7 +25,7 @@ Nevertheless, there are companies where users are not allowed to install softwar
 
 ## Install prerequisites
 
-Please note the installation of the Web Tools does not require administrative privileges but the Prerequisites do.If you are not the administrator, you get Web Tools installed in c:\\users\\\<yourname>\\appdata\\local\\SuperOffice. To install on C:/Program files, you need to be the local administrator.
+Please note the installation of the Web Tools does not require administrative privileges but the Prerequisites do.If you are not the administrator, you get Web Tools installed in *c:\\users\\\<yourname>\\appdata\\local\\SuperOffice*. To install on *C:/Program files*, you need to be the local administrator.
 
 The following libraries need to be installed before any SuperOffice plugins are installed:
 
@@ -38,7 +38,7 @@ The following libraries need to be installed before any SuperOffice plugins are 
 We can divide the problem into two areas:
 
 1. To distribute the MSI files to all machines that are going to use it.
-2. Autoconfigure the URL and Settings using a script.
+2. Auto-configure the URL and Settings using a script.
 
 The following MSIs need to be deployed to every SuperOffice user (AD group all SuperOffice users):
 
@@ -62,19 +62,19 @@ Since SuperOffice 8.1 the Web Tools installer is no longer distributed with Supe
 ### How to extract required files from the Web Tools installer
 
 * Download the Web Tools installer from the Download or from inside SuperOffice Web - Download menu.
-* Extract Mail Link and Web Extensions installers out of Web Tools installer: SuperOffice.Web.Tools.exe /k /d C:\\Temp
-* Run SuperOffice.MailLink.Setup.exe and do not finish the installation. While keeping the installer on-screen, go to the %temp% folder, locate a folder where the installer unpacked the Mail Link files and copy the SuperOffice.MailLink.Setup.msi out of it. After the installer is finished it will remove all of these files from the %temp% folder, including the msi, therefore it is important to copy the msi out of the temp folder.
-* Do the same for SuperOffice.Web.Extensions.exe to obtain SuperOffice.Web.Extensions.msi.
+* Extract Mail Link and Web Extensions installers out of Web Tools installer: `SuperOffice.Web.Tools.exe /k /d C:\Temp`
+* Run `SuperOffice.MailLink.Setup.exe` and do not finish the installation. While keeping the installer on-screen, go to the *%temp%* folder, locate a folder where the installer unpacked the MailLink files and copy the *SuperOffice.MailLink.Setup.msi* out of it. After the installer is finished it will remove all of these files from the *%temp%* folder, including the msi, therefore it is important to copy the msi out of the temp folder.
+* Do the same for `SuperOffice.Web.Extensions.exe` to obtain *SuperOffice.Web.Extensions.msi*.
 
-Since SuperOffice 8.3 Mail Link is now a separate downloadable installer (the lastest version) available on the Download Service so customers wishing to upgrade or extract MSI only MailLink can do so.
+Since SuperOffice 8.3 MailLink is now a separate downloadable installer (the latest version) available on the Download Service so customers wishing to upgrade or extract MSI only MailLink can do so.
 
-* To get SoCrossTableInstaller.msi, download CrossTable viewer from inside SuperOffice Web - Download menu and follow the same procedure as with the Mail Link to get the msi from the %temp% folder during CrossTable viewer installation.
+* To get *SoCrossTableInstaller.msi*, download CrossTable viewer from inside SuperOffice Web - Download menu and follow the same procedure as with the MailLink to get the msi from the *%temp%* folder during CrossTable viewer installation.
 
 ## How to deploy and configure MSI files
 
-1. Install all MSI packages with a help of the InstallWebTools.cmd script (see below). It also copies the SuperOfficeWebToolConfiguration.cmd script to the Start menu for all users and removes the default Web Extensions link.
+1. Install all MSI packages with a help of the `InstallWebTools.cmd` script (see below). It also copies the SuperOfficeWebToolConfiguration.cmd script to the Start menu for all users and removes the default Web Extensions link.
 
-2. Edit the script (see below) "SuperOfficeWebToolConfiguration.cmd" with correct settings:
+2. Edit the script (see below) `SuperOfficeWebToolConfiguration.cmd` with correct settings:
 
 ```text
 set SuperOfficeWebUrl=https://socrm.myorganization.com/sales
@@ -107,9 +107,9 @@ Save the below in Notepad or another text editor and save as *SuperOfficeWebTool
 
 ## Blocking applications
 
-There are several applications which need to be closed when Mail Link and Web Extensions are being installed.
+There are several applications which need to be closed when MailLink and Web Extensions are being installed.
 
-For the Mail Link the blocking applications are:
+For the MailLink the blocking applications are:
 
 * Outlook
 * SuperOffice CRM Win client
@@ -125,6 +125,6 @@ Make sure all of these are switched off when you deploy Web Tools.
 > Do not run Outlook.exe as administrator (then you do not run it as "your own local user") and that will not work for MailLink.
 
 <!-- Referenced links -->
-[1]: https://community.superoffice.com/en/blog/technical-overview-over-superoffice-web-tools/
+[1]: index.md
 [2]: upgrade.md
 [3]: https://www3.superoffice.com/DownloadService/
