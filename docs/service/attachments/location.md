@@ -17,11 +17,11 @@ so.envir: onsite             # cloud or onsite
 
 In 8.5 R09 (Onsite) we introduced a new table to support possibility for splitting attachments in Service over multiple locations.
 
-Before introducing this table, location of attachment was specified in config.attachment\_path. In versions after 8.5 R09 this is no longer used, but replaced with attachment\_location table. This table can contain 1 or more rows. Last row is considered by application as “current” path. We also introduced new field on attachment table pointing to which row in attachment\_location particular attachment is connected to.
+Before introducing this table, location of attachment was specified in `config.attachment_path`. In versions after 8.5 R09 this is no longer used, but replaced with `attachment_location` table. This table can contain 1 or more rows. Last row is considered by application as “current” path. We also introduced new field on attachment table pointing to which row in `attachment_location` particular attachment is connected to.
 
 ## Moving Service
 
-If moving Service and attachment location has changed you need to update last row in attachment\_location to point to new path, example:
+If moving Service and attachment location has changed you need to update last row in `attachment_location` to point to new path, example:
 
 ```text
 USE [SuperOffice]
@@ -45,7 +45,7 @@ WHERE attachment_location_id = (select max(attachment_location_id) from crm8.ATT
 
 ## Splitting attachment locations
 
-This is a more complex procedure and we do not offer any GUI for this but must be performed in SQL by adding a new row into attachment\_location.
+This is a more complex procedure and we do not offer any GUI for this but must be performed in SQL by adding a new row into `attachment_location`.
 
 NB: If you need to move attachments from one location to another this is even more complex as it would also require you to update attachment table etc. Do not recommend doing this without consultant.
 

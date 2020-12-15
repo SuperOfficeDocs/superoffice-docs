@@ -19,7 +19,7 @@ Since SuperOffice 8.5 R04 we have introduced a new feature in Forms - Google reC
 
 reCaptcha is found in Form - Fields - add element - Form elements:
 
-![imagehkoheq.png][1]
+![imagehkoheq.png][img1]
 
 > [!NOTE]
 > It is only possible to add one reCaptcha per form.
@@ -30,9 +30,9 @@ When the element is added you can decide how you'll use the Site and Secret keys
 
 In SuperOffice Online we, by default, provide you with our default keys. If you do not want to setup your own reCaptcha profile and do not need the statistics, you do not need to fill in anything to the Site key and Secret key. This way the reCaptcha element will work out-of-the-box using our predefined set of keys protecting your form from robots.
 
-If you are interested in the reCaptcha statistics, you can make your reCaptcha profile (see below) and enter your own Site key and Secret key. Statistics provide information like Requests passed & failed, Average Score, Sessions completed, Average Response Time (for more info see [https://www.google.com/recaptcha/admin][2].
+If you are interested in the reCaptcha statistics, you can make your reCaptcha profile (see below) and enter your own Site key and Secret key. Statistics provide information like Requests passed & failed, Average Score, Sessions completed, Average Response Time (for more info see [https://www.google.com/recaptcha/admin][1].
 
-![imagehekct.png][3]
+![imagehekct.png][img2]
 
 ## SuperOffice Onsite
 
@@ -62,23 +62,26 @@ If you add the keys to the web.config you still will be able to overwrite them a
 
 ## How to create Google reCaptcha profile
 
-To create custom keys, sign in with a Google account to [https://www.google.com/u/0/recaptcha/admin/create][4].
+To create custom keys, sign in with a Google account to [https://www.google.com/u/0/recaptcha/admin/create][2].
 
 1. Enter a site label
 2. Select "reCAPTCHA v2"
 3. And then the ""I'm not a robot" Checkbox"
 4. Add the domain. Under "domains", you must insert the domain that the Customer Center (customer.fcgi) is running on, or a parent domain of that sub domain.
 
-![imagerlc6j.png][4]
+![imagerlc6j.png][img3]
 
 After you press Submit, your Site key and Secret key will be shown:
 
-![imagehn8rh.png][6]
+![imagehn8rh.png][img4]
+
 
 <!-- Referenced links -->
-[1]: media/imagehkoheq.png
-[2]: https://www.google.com/recaptcha/admin
-[3]: media/imagehekct.png
-[4]: https://www.google.com/u/0/recaptcha/admin/create "https://www.google.com/u/0/recaptcha/admin/create
-[5]: media/imagerlc6j.png
-[6]: media/imagehn8rh.png
+[1]: https://www.google.com/recaptcha/admin
+[2]: https://www.google.com/u/0/recaptcha/admin/create
+
+<!-- Referenced images -->
+[img1]: media/imagehkoheq.png
+[img2]: media/imagehekct.png
+[img3]: media/imagerlc6j.png
+[img4]: media/imagehn8rh.png

@@ -16,7 +16,7 @@ so.topic: reference           # article, howto, reference, concept, guide
 
 | Variable | Description |
 |----------|-------------|
-| bate | Formatted list of people invited to an appointment, created for iCal<br/>ATTENDEE;RSVP=TRUE;CN="First Invited":MAILTO:;PARTSTAT=ACCEPTED<br/>ATTENDEE;RSVP=TRUE;CN="Test Testesen":MAILTO:test@superoffice.com;PARTSTAT=TENTATIVE |
+| bate | Formatted list of people invited to an appointment, created for iCal<br>ATTENDEE;RSVP=TRUE;CN="First Invited":MAILTO:;PARTSTAT=ACCEPTED<br>ATTENDEE;RSVP=TRUE;CN="Test Testesen":MAILTO:test@superoffice.com;PARTSTAT=TENTATIVE |
 | bpat | The main feature of the appointment's repeating pattern, formatted like the Daily pattern "FREQ=DAILY;", for example |
 | bprt | The priority of the appointment, converted to iCal format: our 1 = iCal 9, our 2 = iCal 5 (default), our 3 = iCal 1 |
 | brul | The entire appointment's repeating pattern, formatted as "RRULE:" + bpat + bsub + bunt |

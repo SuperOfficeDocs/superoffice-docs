@@ -9,7 +9,7 @@ keywords:
 
 Template variables, also known as parser variables, is the mechanism used by Customer Service to dynamically insert data into a text like a reply template, it is used throughout the whole system. The syntax for a parser variable is the name of the variable enclosed by the tags `<cs:parser> </cs:parser>`.
 
-To get a complete overview of template variables available for your database, [create a new reply template][1] with the plain text body %PARSER\_TREE% (case sensitive).
+To get a complete overview of template variables available for your database, [create a new reply template][1] with the plain text body `%PARSER_TREE%` (case sensitive).
 
 When this reply template is [used in a request][2], you will get a list of all available template variables by using the parser tree variable.
 
@@ -17,10 +17,10 @@ You will also find a complete list of all standard fields (this will not cover y
 
 ## Parser availability
 
-Not all parser variables are available in every context in SuperOffice Service. This section will describe which of the variables are available where in the solution. If you ever wonder which variables are available and the value of them, you can always user the special parser code %PARSER\_TREE%. This will be exchanged with all available variables and the values. This is especially useful when you want to debug why something is not working.
+Not all parser variables are available in every context in SuperOffice Service. This section will describe which of the variables are available where in the solution. If you ever wonder which variables are available and the value of them, you can always user the special parser code `%PARSER_TREE%`. This will be exchanged with all available variables and the values. This is especially useful when you want to debug why something is not working.
 
 > [!NOTE]
-> A parser variable may be available even if it has no value. One example is when creating a new request. If you use a reply template with the parser variable "ticket.id", it will contain no value since the request does not exist yet.
+> A parser variable may be available even if it has no value. One example is when creating a new request. If you use a reply template with the parser variable `ticket.id`, it will contain no value since the request does not exist yet.
 
 Some parser variables that exist will not be described. These are present only for backward compatibility.
 

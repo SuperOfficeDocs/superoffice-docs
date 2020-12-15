@@ -17,7 +17,7 @@ so.client: win              # online, web, win, pocket, or mobile
 
 Used for windows client settings, replication, scripting, advanced import, options/SoLoader.
 
-Links below are to the SuperOffice 8.0 admin helpfile
+Links below are to the SuperOffice 8.0 admin help file
 
 To distribute windows client software from third party vendors you may use the [Options - SOLoader][1]
 

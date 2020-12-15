@@ -19,7 +19,7 @@ so.topic: article               # article, howto, reference, concept, guide
 
 When we create a document in SuperOffice we extract all the content of the document as a plain text which our template substitution system uses to identify and replace template variables.
 
-We search for a start tag ( “**{**” or “**<**”) then for an end tag (“**}**” or “**\>**”). The text in between the tags is then checked to see if it is a template variable. For example {**atit**} will be recognized as the template variable **atit,** while **{thisisnotatag}** is not recognized as a valid tag, and will not be replaced.
+We search for a start tag ( `{` or `<`) then for an end tag (`}` or `>`). The text in between the tags is then checked to see if it is a template variable. For example {**atit**} will be recognized as the template variable **atit,** while **{thisisnotatag}** is not recognized as a valid tag, and will not be replaced.
 
 If a template variable is recognized, it will be replaced with its respective value, even when blank. If a template variable is still visible in the finished created document, it means that our system has not recognized it as a valid template variable.
 
@@ -29,13 +29,13 @@ For new Microsoft formats, however, this is not the case. Files of type docx, pp
 
 Example:
 
-A new PowerPoint file (.pptx) which contains one text box with the text {onam}.
+A new PowerPoint file (.pptx) which contains one text box with the text `{onam}`.
 
 This is how it looks in PowerPoint:
 
 ![x][1]
 
-This is the content of the xml file for slide 1: (Observe that {onam} should be recognized by us)
+This is the content of the xml file for slide 1: (Observe that `{onam}` should be recognized by us)
 
 ```xml
 <p:sld xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" xmlns:p="http://schemas.openxmlformats.org/presentationml/2006/main">
@@ -104,9 +104,9 @@ As you can see, the start “**{**“ and the end “**}**” tags are placed fa
 * Same goes for Excel: The cells containing template variables should otherwise be empty.
 * For Word documents: Turn ON ‘Show/Hide hidden characters' too see if Word has put something inside the template variable:
 
-![x][2]
+![x][img2]
 
-* Is the template variable spelled correctly and is it actually supported? See the [list of all of our supported template variables][3].
+* Is the template variable spelled correctly and is it actually supported? See the [list of all of our supported template variables][1].
 * Note that both Web and Win versions use the same engine for template substitution so the result should be the same no matter where you create the document.
 
 ### It still doesn’t work, could this be a bug?
@@ -124,20 +124,22 @@ If this happens, it is most probably another case of generated xml that messes u
 
 This is how a PowerPoint .**pptx** looks after unzipping (the **slide1.xml** is the actual slide 1):
 
-![x][4]
+![x][img4]
 
 Word .**docx** (**document.xml** is the actual document when shown to the user):
 
-![x    ][5]
+![x][img5]
 
 Excel .**xlsx** (**sheet1.xml** is the actual Sheet 1):
 
-![x][6]
+![x][img6]
 
 <!-- Referenced links -->
-[1]: media/unnamed.png
-[2]: media/unnamed-1.png
-[3]: https://community.superoffice.com/en/technical/documentation/administration/template-variables/
-[4]: media/unnamed-2.png
-[5]: media/unnamed-3.png
-[6]: media/unnamed-4.png
+[1]: variables/for-sales.md
+
+<!-- Referenced images -->
+[img1]: media/unnamed.png
+[img2]: media/unnamed-1.png
+[img4]: media/unnamed-2.png
+[img5]: media/unnamed-3.png
+[img6]: media/unnamed-4.png

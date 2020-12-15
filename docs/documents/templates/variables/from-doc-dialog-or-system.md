@@ -51,4 +51,4 @@ so.topic: reference             # article, howto, reference, concept, guide
 > [!NOTE]
 > The short and long date formats will be determined by your computer’s settings for the Windows client. You can edit the settings in Control Panel in Windows.
 
-For the web client, it's the web servers setting based on the Local settings that appears on the button beside Help where you choose Active Language, Number and Date format and E-mail client.
+For the web client, it's the web servers setting based on the Local settings that appears on the button beside Help where you choose Active Language, Number and Date format and Email client.

@@ -25,19 +25,19 @@ To enable comments:
 1. Run the following query first: `select * from crm7.registry where reg_id in (198, 199)`
 If nothing is returned by this query, first go to your Customer center and FAQs and the registry keys will be populated.
 
-![x][1]
+![x][img1]
 
 2. Now you can change comment field access. Below are possible options:
-* 0 = none
-* 1 = customer (these are people that are logged in to the customer portal)
-* 2 = all - also anonymous users
+    * 0 = none
+    * 1 = customer (these are people that are logged in to the customer portal)
+    * 2 = all - also anonymous users
 
 3. After you enable these settings you will see the comments show up
 
-![x][2]
+![x][img2]
 
 > [!NOTE]
-> If you use SuperOffice Online you need to contact [support][3].
+> If you use SuperOffice Online you need to contact [support][1].
 
 ## More access controll on FAQ entries
 
@@ -77,7 +77,7 @@ You may also control access to a FAQ folder by adding a small script that is eva
 
 In addition, all extra fields for contactperson are available via "customer." plus the name of the extra field eg. "customer.MyExtraField", and similarly for the company: "company.ExtraField". Boolean field has the value "1" when they are true.
 
-Example, a boolean field is created on the customer, called x\_access. When tick, the user will get access:
+Example, a boolean field is created on the customer, called `x_access`. When tick, the user will get access:
 
 ```text
 %IF:customer.x\_access="1"%
@@ -86,6 +86,8 @@ Example, a boolean field is created on the customer, called x\_access. When tick
 ```
 
 <!-- Referenced links -->
-[1]: media/reg_id198_199.png
-[2]: media/comments.png
-[3]: http://support.superoffice.com/
+[1]: http://support.superoffice.com/
+
+<!-- Referenced images -->
+[img1]: media/reg_id198_199.png
+[img2]: media/comments.png

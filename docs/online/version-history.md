@@ -110,4 +110,4 @@ It does NOT contain Red Alerts or [Onsite release versions][1]
 | 9.2 R03 - (2020.12.01-02) | 01.12.2020 |
 
 <!-- Referenced links -->
-[1]: https://community.superoffice.com/en/technical/documentation/administration/superoffice-version-history/
+[1]: ../onsite/version-history.md

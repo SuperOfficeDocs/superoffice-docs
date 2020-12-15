@@ -16,10 +16,10 @@ so.topic: reference        # article, howto, reference, concept, guide
 
 | Variable | Description |
 |----------|-------------|
-| csbu | BaseUrl e.g: http://systemtest.superoffice.com/scripts/ticket.fcgi |
-| csiu | CgiUrlInternal e.g: http://systemtest.superoffice.com |
+| csbu | BaseUrl e.g: `http://systemtest.superoffice.com/scripts/ticket.fcgi` |
+| csiu | CgiUrlInternal e.g: `http://systemtest.superoffice.com` |
 | csbn | CgiBin e.g: /scripts |
-| csre | RegistryExtension e.g: .fcgi<br/>These are template variables from Service which can be used in Sales & Marketing document templates. Service has also its own [template variables][1] used in reply templates. |
+| csre | RegistryExtension e.g: .fcgi<br>These are template variables from Service which can be used in Sales & Marketing document templates. Service has also its own [template variables][1] used in reply templates. |
 
 <!-- Referenced links -->
-[1]: https://community.superoffice.com/en/technical/documentation/administration/service-reply-templates/
+[1]: ../../../reply-templates/index.md
