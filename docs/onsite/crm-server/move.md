@@ -28,7 +28,7 @@ When you move SuperOffice CRM Server, there are essentially several parts that m
 
 ## SuperOffice document archive (so\_arc)
 
-Use file copy to copy the so\_arc with subfolders from the old location to the new location. The new location must be updated in both *SuperOffice.ini* and *web.config* so both SuperOffice windows clients and web clients will keep access to their documents and templates.
+Use file copy to copy the so\_arc with sub folders from the old location to the new location. The new location must be updated in both *SuperOffice.ini* and *web.config* so both SuperOffice windows clients and web clients will keep access to their documents and templates.
 
 ### Change details
 
@@ -38,33 +38,33 @@ There are also other 4 places where you will need to make a change to the new SO
 
 1. In the *SuperOffice.ini* file (Archivepath line) found in SuperOffice Server installation’s folder.
 
-![imageoa6c9.png][4]
+![imageoa6c9.png][img4]
 
-![imagei4ebl.png][5]
+![imagei4ebl.png][img5]
 
 2. In *SuperOffice.ini* file (Archivepath line) on all computers which have SuperOffice Windows application installed.
 
-![image7byzr.png][6]
+![image7byzr.png][img6]
 
-![imageitfv.png][7]
+![imageitfv.png][img7]
 
 3. In SuperOffice Web application's Product configuration, Document archive section, Archive path location.
 
-![image3bdb8.png][8]
+![image3bdb8.png][img8]
 
-![imageitk5g.png][9]
+![imageitk5g.png][img9]
 
 4. Finally you want to create a new .mst file and remove the old one so that all the new SuperOffice Windows application installations will automatically have the correct SO Arc reference.
 
-![imagep6lxc.png][10]
+![imagep6lxc.png][img10]
 
-![image3omzh.png][11]
+![image3omzh.png][img1]
 
 ## SuperOffice database on Microsoft SQL Server or Oracle
 
 If you have access to both the new and the old database server, then using DBsetup to [rebuild][1] the database from old to new datasource is the fastes option.
 
-If you do not have access to the new database server from the old database server, then you may [export][2] the database as an SDA file from DBSetup on the old server and use DBSetup to [import][3] the SDA file.
+If you do not have access to the new database server from the old database server, then you may [export][1] the database as an SDA file from DBSetup on the old server and use DBSetup to import the SDA file.
 
 ## SuperOffice Win clients must be updated
 
@@ -76,15 +76,15 @@ If you just change the name/address, you need to refresh *SuperOffice.mst* fil
 4. Navigate to SuperOffice.mst package (*SuperOffice.mst* file can be found in the *Client* folder on the server: `C:\[SuperOffice Server_adress]\Client\SuperOffice.mst`).
 5. Save the new .Mst file.
 
-All clients must be uninstalled, then run SuperOffice8.exe from the server\\client folder.
+All clients must be uninstalled, then run SuperOffice8.exe from the *server\\client* folder.
 
 ## SuperOffice Web and SuperOffice Web services / NetServer
 
 Run SuperOffice Product configuration and update the information either for the Database settings or Document Archive.
 
-![Make sure you update the database settings correct][12]
+![Make sure you update the database settings correct][img2]
 
-![Make sure you update the document archive settings correct][13]
+![Make sure you update the document archive settings correct][img3]
 
 ## Service
 
@@ -93,7 +93,7 @@ Run SuperOffice Product configuration and update the information either for the 
 > [!WARNING]
 > Do NOT run ejTermSetup.exe since you already have Service installed.
 
-2. Download and install **SuperOffice Web services / Netserver**, which is the second option when installing SuperOffice Web client. This is used by Service to connect to the database.
+2. Download and install **SuperOffice Web services / NetServer**, which is the second option when installing SuperOffice Web client. This is used by Service to connect to the database.
 
 3. Stop the current Service and the eJournal schedule service running the old server. As an extra precaution, edit the config file in the program folder and type "frozen" on a separate line at the bottom. Service will stop working on the old site.
 
@@ -101,8 +101,8 @@ You will need to manually change settings inside the database tables called **Co
 
 **In the config table:**
 
-* Make sure all paths are updated correctly to the new location: text\_path, attachment\_path, template\_path and warning.
-* Verify the correct URLs to cgi\_url (the external URL) and cgi\_url\_internal.
+* Make sure all paths are updated correctly to the new location: *text\_path*, *attachment\_path*, *template\_path* and *warning*.
+* Verify the correct URLs to *cgi\_url* (the external URL) and *cgi\_url\_internal*.
 
 **In the registry table:**
 
@@ -125,12 +125,12 @@ You will need to manually change settings inside the database tables called **Co
 
 4. Copy the Customer Service directory in the old environment over to the new environment. Under this directory you will by default find all of the directories that belong to Service, like attachments, templates and the Customer center.
 
-5. In the root directory you find a **config** file, open this in Notepad or another simple text editor. The **dbDatabase** points to the name of current ODBC source, create a new ODBC connection (32bit) on the new server with the same name that points to the SuperOffice [database][14].
+5. In the root directory you find a **config** file, open this in Notepad or another simple text editor. The **dbDatabase** points to the name of current ODBC source, create a new ODBC connection (32bit) on the new server with the same name that points to the SuperOffice [database][2].
 
 6. Change or verify that the path in **nsEndPoint** points to the new Netserver Web service you set up above. Note: Service supports only http connection to Netserver, https is not supported.
 
 7. Remove "frozen" from config file, so Service will work again.
-    * Sometimes it may be advantageous to run C:\\SuperOffice\\Customer Service\\bin\\upgrade.exe -d <hostname> after this move.
+    * Sometimes it may be advantageous to run `C:\SuperOffice\Customer Service\bin\upgrade.exe -d <hostname>` after this move.
 
 8. Inside the database there will be a lot of absolute URLs, pointing to attachments like pictures. To update the database you may run the following queries, replace oldUrl and newUrl with your paths.
 
@@ -151,29 +151,29 @@ update crm7.KB_ENTRY set answer = replace(answer,'/scripts/customer.exe/getAttac
 ```
 
 > [!NOTE]
-> The last 2 queries will set the current URLs in FAQ texts if Service have been moved manually to a service sub folder as described [here][15]. Make sure you use the correct extension, customer.fcgi or customer.exe.
+> The last 2 queries will set the current URLs in FAQ texts if Service have been moved manually to a service sub folder as described [here][3]. Make sure you use the correct extension, customer.fcgi or customer.exe.
 
 ## Links in eMarketing messages
 
 All the eMarketing messages sent out before the move will contain links pointing to the old site. There are 2 issues with it:
 
-* When sending out a link, it will have an absolute URL, for example: ``http://cs.mydomain.com/scripts/customer.fcgi?action=...`, so if you move Service to another domain or subfolder, that URL will not be available any more. <br/>To prevent loss of images and attachments in the sent mailings you need to make a redirect on the IIS from the old site to the new hostname. This way images and attachment links are redirected just fine, so mailings don't look crippled in the mail client of the recipient.
+* When sending out a link, it will have an absolute URL, for example: `http://cs.mydomain.com/scripts/customer.fcgi?action=...`, so if you move Service to another domain or subfolder, that URL will not be available any more. <br>To prevent loss of images and attachments in the sent mailings you need to make a redirect on the IIS from the old site to the new hostname. This way images and attachment links are redirected just fine, so mailings don't look crippled in the mail client of the recipient.
 
-* The second issue is with tracked links. A tracked link (also including the unsubscribe link) contains a hashed string which is based on the Customer Center domain. Even if you set up a redirect to catch old URLs, then it will be executed by Service but it will fail on the hash test.<br/>A workaround is to leave the Customer Center on the old URL running, at least till the messages with the tracked links become irrelevant.
+* The second issue is with tracked links. A tracked link (also including the unsubscribe link) contains a hashed string which is based on the Customer Center domain. Even if you set up a redirect to catch old URLs, then it will be executed by Service but it will fail on the hash test.<br>A workaround is to leave the Customer Center on the old URL running, at least till the messages with the tracked links become irrelevant.
 
 <!-- Referenced links -->
-[1]: https://community.superoffice.com/en/technical/documentation/administration/dbsetup/#rebuild
-[2]: https://community.superoffice.com/en/technical/documentation/administration/dbsetup/#export
-[3]: https://community.superoffice.com/en/technical/documentation/administration/dbsetup/#export
-[4]: media/imageoa6c9.png
-[5]: media/imagei4ebl.png
-[6]: media/image7byzr.png
-[7]: media/imageitfv.png
-[8]: media/image3bdb8.png
-[9]: media/imageitk5g.png
-[10]: media/imagep6lxc.png
-[11]: media/image3omzh.png
-[12]: media/productconfigurationdbsettings.png
-[13]: media/productconfigurationdocumentsettings.png
-[14]: https://community.superoffice.com/en/technical/documentation/prepare/prepare-crm-server/prepare-service/#odbc
-[15]: https://community.superoffice.com/en/technical/documentation/install-upgrade/service/manual-steps-service/
+[1]: ../dbsetup-exe.md
+[12]: ../service/set-up-guide.md
+[3]: ../service/install-manually.md
+
+<!-- Referenced images -->
+[img1]: media/image3omzh.png
+[img2]: media/productconfigurationdbsettings.png
+[img3]: media/productconfigurationdocumentsettings.png
+[img4]: media/imageoa6c9.png
+[img5]: media/imagei4ebl.png
+[img6]: media/image7byzr.png
+[img7]: media/imageitfv.png
+[img8]: media/image3bdb8.png
+[img9]: media/imageitk5g.png
+[img10]: media/imagep6lxc.png

@@ -21,15 +21,11 @@ ServerSetup can be installed silently without using the user interface. All func
 
 **Upgrade:**
 
-```text
-/I UPGA /L US /A c:\so_arc /W Word2007 /E Outlook2007 /P c:\installationpath  /D odbc /US dbuser /PW dbpassword /PR dbprefix
-```
+`/I UPGA /L US /A c:\so_arc /W Word2007 /E Outlook2007 /P c:\installationpath  /D odbc /US dbuser /PW dbpassword /PR dbprefix`
 
 **New installation:**
 
-```text
-/I NA /L US /A c:\so_arc /W Word2007 /E Outlook2007 /P c:\installationpath /D odbc /US dbuser /PW dbpassword /PR dbprefix /SN serialnumber /CN companyname /CI 826 /FN firstname /LN lastname /UN souser /UP sopassword /LP superlicense-complete /SU systemuser /SP systemuserpassword /AU C:\installationpath\Client
-```
+`/I NA /L US /A c:\so_arc /W Word2007 /E Outlook2007 /P c:\installationpath /D odbc /US dbuser /PW dbpassword /PR dbprefix /SN serialnumber /CN companyname /CI 826 /FN firstname /LN lastname /UN souser /UP sopassword /LP superlicense-complete /SU systemuser /SP systemuserpassword /AU C:\installationpath\Client`
 
 ## Available arguments
 

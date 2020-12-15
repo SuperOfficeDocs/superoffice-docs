@@ -81,7 +81,7 @@ If you don’t want to have Ribbons installed for all users, you can delete thes
 
 In some situations, you can experience that Web Extensions leave a permanent "shadow" and block programs running behind it.
 
-![imagepcfj.png][2]
+![imagepcfj.png][img1]
 
 To stop this happening you have to activate a registry key named **UseBorderedWindows**:
 
@@ -99,4 +99,6 @@ Windows Registry Editor Version 5.00
 
 <!-- Referenced links -->
 [1]: https://community.superoffice.com/en/product-releases/bugs-wishes/product-issue/?bid=58265
-[2]: media/imagepcfj.png
+
+<!-- Referenced links -->
+[img1]: media/imagepcfj.png

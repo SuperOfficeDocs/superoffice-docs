@@ -123,7 +123,7 @@ After upgrade of WebTools on the server remember to remove Web Extensions start
 
 ### How to change the language of MailLink
 
-SuperOffice Ribbons use the "HKEY\_CURRENT\_USER\\Software\\Microsoft\\Office\\16.0\\Common\\LanguageResources\\UIFallback" to determine which language to use (the example is for Office 2016).
+SuperOffice Ribbons use the *HKEY\_CURRENT\_USER\\Software\\Microsoft\\Office\\16.0\\Common\\LanguageResources\\UIFallback* to determine which language to use (the example is for Office 2016).
 
 Example: In Outlook the language is Norwegian, but the SuperOffice Ribbon is in German language.
 
