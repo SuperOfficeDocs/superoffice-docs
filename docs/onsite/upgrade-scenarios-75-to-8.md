@@ -24,7 +24,7 @@ so.envir: onsite            # cloud or onsite
 | SuperOffice 7.0 or<br>7.1 Server | Upgrade 7.0 or 7.1 SuperOffice |
 
 > [!NOTE]
-> SuperOffice 8 requires "full stack" of all main components.<br>If you run an older version then you must upgrade til SuperOffice 7.5 first.<br/>The Pocket Server.7 is not needed for SuperOffice 8. Uninstall Pocket Server.7 after the upgrade if it is installed.
+> SuperOffice 8 requires "full stack" of all main components.<br>If you run an older version then you must upgrade til SuperOffice 7.5 first.<br>The Pocket Server.7 is not needed for SuperOffice 8. Uninstall Pocket Server.7 after the upgrade if it is installed.
 
 ## Upgrade Windows Client
 
@@ -78,8 +78,8 @@ SuperOffice 7.5 Server, SuperOffice 7.5 Customer Service, and/or SuperOffice 7.5
 
 1. [Upgrade CRM Server][1]
 2. [Upgrade Windows Clients][2] (only if you are going to use "SuperOffice8 Windows App")
-3. [Upgrade SuperOffice7.5.Netserver to SuperOffice8.Netserver][5]
-    * If CS runs on Remote Netserver: It it possible to merge CS.netserver and Web.Netserver for a more lean administration
+3. [Upgrade SuperOffice7.5.NetServer to SuperOffice8.NetServer][5]
+    * If CS runs on Remote NetServer: It it possible to merge CS.NetServer and Web.NetServer for a more lean administration
 4. [Upgrade SuperOffice7.5.CS to SuperOffice8.CS][6]
 5. [Install SuperOffice8.Web][3]
 
@@ -97,7 +97,7 @@ SuperOffice 7.5 Server, SuperOffice 7.5 Customer Service, SuperOffice 7.5 Web, a
 1. [Upgrade CRM Server][1]
 2. [Upgrade Windows Clients][2] (only if you are going to use "SuperOffice8 Windows App")
 3. [Upgrade Netserver][5]
-    * If CS runs on Remote Netserver: It it possible to merge CS.netserver and Web.Netserver for a more lean administration
+    * If CS runs on Remote NetServer: It it possible to merge CS.NetServer and Web.NetServer for a more lean administration
 4. [Upgrade SuperOffice7.CS to SuperOffice8.Service][6]
 5. [Upgrade Web][3]
 
@@ -116,8 +116,8 @@ SuperOffice 7.0 or 7.1 Server
 [1]: crm-server/upgrade-to-8.md
 [2]: win-client/upgrade.md
 [3]: web-client/upgrade-to-8.md
-[4]: https://community.superoffice.com/en/technical/documentation/install-upgrade/service/
-[5]: https://community.superoffice.com/en/technical/documentation/install-upgrade/web/upgradewebcs/
-[6]: https://community.superoffice.com/en/technical/documentation/install-upgrade/service/upgradeService/
+[4]: service/set-up-guide.md
+[5]: web-client/upgrade-netserver-to-8.md
+[6]: service/upgrade.md
 [7]: upgrade-to-8-1.md
 [8]: https://community.superoffice.com/en/technical/documentation/older-versions/documentation-7/onpremise/upgrade/
