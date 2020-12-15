@@ -15,9 +15,9 @@ so.topic: howto              # article, howto, reference, concept, guide
 
 # Enable debug for Web Reporter
 
-Debug logging for Reporter in Web can be enabled in SoReporter.Executer.exe.config file which is located in \<Web installation>\\bin\\Reporter folder.
+Debug logging for Reporter in Web can be enabled in *SoReporter.Executer.exe.config* file which is located in *\<Web installation>\\bin\\Reporter* folder.
 
-Go to <system.diagnostics> section and uncomment the following lines:
+Go to `<system.diagnostics>` section and uncomment the following lines:
 
 ```xml
 <system.diagnostics>
@@ -34,4 +34,4 @@ Go to <system.diagnostics> section and uncomment the following lines:
 </system.diagnostics>
 ```
 
-Make sure the path in the initializeData parameter exists and Web can create Listener.log file there. After you save the config file, Web Reporter will be restarted and will start logging to the Listener.log file.
+Make sure the path in the initializeData parameter exists and Web can create *Listener.log* file there. After you save the config file, Web Reporter will be restarted and will start logging to the *Listener.log* file.

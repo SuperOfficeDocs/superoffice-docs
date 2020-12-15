@@ -15,16 +15,16 @@ so.topic: reference # article, howto, reference, concept, guide
 
 # SuperOffice.ini
 
-SuperOffice.ini - archive settings, datapath, templates override
+*SuperOffice.ini* - archive settings, datapath, templates override
 
 * extra info about the servers superoffice.ini
 * creating the ODBC if does not exist
 
-The configuration file for SuperOffice Win client has several parameters that describe the program’s database environment. From CRM 7 a SuperOffice.config file is also required since NetServer is used by windows client.
+The configuration file for SuperOffice Win client has several parameters that describe the program’s database environment. From CRM 7 a *SuperOffice.config* file is also required since NetServer is used by windows client.
 
 All connections between a database/archive and the program are governed by this configuration file.
 
-SUPEROFFICE.INI is created on installation and does not normally need to be changed but there are cases where it may be useful to change some of the parameters in it.
+*SUPEROFFICE.INI* is created on installation and does not normally need to be changed but there are cases where it may be useful to change some of the parameters in it.
 
 There are several sections of parameters and they are described below.
 
@@ -36,7 +36,7 @@ Description of the Database and Archive connections.
 |-----------|-------------|
 | archivepath= | Defines where documents in S&M will be saved. Documents may be read from the other archivepaths but saved in default only |
 | archivepath2= | Alternative document folder. Not needed but may be useful if satellites have access to the central SO\_ARC folder as well. You can have up to 8 alternative archive paths. |
-| Local\_ArchivePath= | Defines where documents in Sales & Marketing will be stored when user is on Travel<br/>Default value is: %localappdata%\\SuperOffice\\SO\_LOCAL |
+| Local\_ArchivePath= | Defines where documents in Sales & Marketing will be stored when user is on Travel<br>Default value is: %localappdata%\\SuperOffice\\SO\_LOCAL |
 | Local\_archivepath2= | Alternative document folder from which documents can be read while the user is on Travel. Not needed but may be useful if travelusers have access to the central SO\_ARC folder as well. By default only the traveluser's documents from the previous and current time period will be copied. |
 | Datapath= | ODBC source used by the S&M windows client. Defines the location of the database. |
 | Local\_DataPath= | Defines the location of the local database when on Travel. Not needed if build-in database is used. |
@@ -47,7 +47,7 @@ Description of the Database and Archive connections.
 | templatepath= | Defines where templates are located. Not needed, if not set defaults to SO\_ARC\\Template |
 | EnableHdbCache= | Setting it to 0 means SuperOffice does not cache writes |
 | LocalDbEngineParam= | If not present, it will default to '-c 16m' meaning 16 MB of local cache memory for the build-in database engine. |
-| ProtoServerPath= |Full path to the folder you want the prototypes to be created in (as viewed from the server). This should always be a local path (example: C:\\SuperOffie\\SO\_Proto). This path is going to be used when SuperOffice tells the SQL Server to create a new prototype database.<br/>This is needed only on computers used for generating prototypes other than for build-in database (MS SQL Express, Sybase). |
+| ProtoServerPath= |Full path to the folder you want the prototypes to be created in (as viewed from the server). This should always be a local path (example: C:\\SuperOffie\\SO\_Proto). This path is going to be used when SuperOffice tells the SQL Server to create a new prototype database.<br>This is needed only on computers used for generating prototypes other than for build-in database (MS SQL Express, Sybase). |
 | ProtoClientPath= | Full path to the folder where prototypes reside (as viewed from the client computer). This path should always be a network path (UNC path), or a mapped drive. If you choose mapped drive, be sure all clients have it mapped the same way. | Needed only if MS SQL Express or Sybase is used as a Travel database. |
 
 The only parameters that **must** be specified are `archivepath` and `datapath`.
@@ -59,13 +59,16 @@ templatepath= "archivepath"\\TEMPLATE
 ```
 
 > [!NOTE]
-> You can add further archive paths, e.g. archivepath2, archivepath3, and so on. The same goes for local\_archivepath2, local\_archivepath3.
+> You can add further archive paths, e.g. `archivepath2`, `archivepath3`, and so on. The same goes for `local_archivepath2`, `local_archivepath3`.
 
 ### Using the Datapath Parameter
 
 `Datapath for SQL`
 
-An ODBC data source must be defined, and *datapath* must begin with*_ODBC:,* followed by the Data Source Name. Note that you must enter ODBC in uppercase. If you have not already defined a Data Source Name for the database, use the name *SuperOffice*.
+An ODBC data source must be defined, and `datapath` must begin with*_ODBC:,* followed by the Data Source Name.
+
+> [!NOTE]
+> You must enter ODBC in uppercase. If you have not already defined a Data Source Name for the database, use the name *SuperOffice*.
 
 ## \[Error\]
 
@@ -122,8 +125,8 @@ In the central SuperOffice.ini file. Used to define how the default client is se
 | Parameter | Description |
 |-----------|-------------|
 | PrefLang | This is the suggested language when installing a new client. PrefLang=NO will suggest that you install a new client workstation with Norwegian language files. This may be overridden during setup. |
-| PrefMailClient | This is the suggested mail client used on new clients. Options are: <br>Outlook2007 – MS Outlook 2007 and newer<br/>Notes – Notes Mail Link<br/>Other – the default mail client/simple mapi solution. Note – Simple Mapi is ANSI compatible only (ref Microsoft) |
-| PrefWordProcessor | Default editor to use. Options are:<br>Word2007 – Microsoft Word 2007 and newer<br/>RTF – all other editors. Note - when you double click a document with this extension in Windows explorer it should open the editor you want to use.|
+| PrefMailClient | This is the suggested mail client used on new clients. Options are: <br>Outlook2007 – MS Outlook 2007 and newer<br>Notes – Notes Mail Link<br>Other – the default mail client/simple mapi solution. Note – Simple Mapi is ANSI compatible only (ref Microsoft) |
+| PrefWordProcessor | Default editor to use. Options are:<br>Word2007 – Microsoft Word 2007 and newer<br>RTF – all other editors. Note - when you double click a document with this extension in Windows explorer it should open the editor you want to use.|
 
 ## \[ServerSetup installation\]
 
@@ -135,4 +138,4 @@ In the central SuperOffice.ini file.
 | ServerSetup folder | For information only |
 
 <!-- Referenced links -->
-[1]: https://community.superoffice.com/en/technical/documentation/administration/dbsetup/#databaselog
+[1]: ../dbsetup-exe.md

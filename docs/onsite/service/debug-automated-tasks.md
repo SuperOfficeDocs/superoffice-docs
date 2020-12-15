@@ -17,9 +17,9 @@ so.topic: reference            # article, howto, reference, concept, guide
 
 In Service, there are several tasks that are automated and run on a set schedule on the server. These tasks are carried out by the executables located in the bin folder of your Service installation.
 
-This article will cover the most used executables and how to debug them. In addition to the parameters provided for the executables below, they all take the parameter **\--help** to display more information.
+This article will cover the most used executables and how to debug them. In addition to the parameters provided for the executables below, they all take the parameter `--help` to display more information.
 
-If you want to store the output of running the executable in the command line to a file, add **\>> <filename>** at the end of the command. Keep in mind that all output will be in the logfile and will not be shown in command prompt.
+If you want to store the output of running the executable in the command line to a file, add `>> <filename>` at the end of the command. Keep in mind that all output will be in the logfile and will not be shown in command prompt.
 
 Example: `ejournalCron -maxdebug >> ejournalcronlog.txt`
 
@@ -148,7 +148,7 @@ Responsible for importing mail into Service.
 * **-delay** Delay import for a random number of seconds.
 * **-noinbox** Do not import inbox files.
 * **-file** Import from a file.
-* **-filter** Set mail\_in\_filter.id. Required together with file.
+* **-filter** Set `mail_in_filter.id`. Required together with file.
 * **-about** Show about.
 
 **Example:** `importMail -file "C:\Customer Service\text\Inbox\inbox.298231" -filter 13 support.yourdomain.com`

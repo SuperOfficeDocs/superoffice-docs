@@ -32,7 +32,7 @@ There are some SuperOffice specific sections, defined under the SuperOffice sect
 | Cryptography | Cryptographic options, see table below. Note: change any of these keys at your own peril |
 | Sentry | Ignore the Sentry mechanism, everything will be allowed (default 'False')<br>Relates to the Sentry system in SuperOffice. |
 
-The sentry system can be thought of as the traffic cop, controlling access to the data in the database. Each object in Netserver has an associated sentry which is responsible for enforcing rules such as "private appointments are visible only to its owner". Sentry rules focus on ownership, group membership and user-level access.
+The sentry system can be thought of as the traffic cop, controlling access to the data in the database. Each object in NetServer has an associated sentry which is responsible for enforcing rules such as "private appointments are visible only to its owner". Sentry rules focus on ownership, group membership and user-level access.
 
 ### The *Cryptography* section is used for encrypting and decrypting user credentials
 
@@ -53,7 +53,7 @@ The sentry system can be thought of as the traffic cop, controlling access to th
 | User | Domain user to log on to the domain  - needs to be able to list and view users |
 | Password | Password of the domain user |
 
-Single Sign on (SSO) if you mean that the user should not be presented with the SuperOffice login dialog will not work when using the recommended installation scenario, but the user may still authenticate with his AD username and password. Also note that using Remote web services for Web (where web and netserver are on different servers) is not supported due to [Kerberos double-hop issues][5].
+Single Sign on (SSO) if you mean that the user should not be presented with the SuperOffice login dialog will not work when using the recommended installation scenario, but the user may still authenticate with his AD username and password. Also note that using Remote web services for Web (where web and NetServer are on different servers) is not supported due to [Kerberos double-hop issues][5].
 
 ## Mail
 
@@ -65,7 +65,7 @@ Configuration of mail parameters when using the SuperOffice Inbox. This is also 
 | Sender | The Key used for mail sender - default MailKit from 8.1, used to be EasyMail |
 | NumberOfDaysToDownload | Change how many days to past we should download and store emails. Defaults to 180 day |
 
-SuperOffice Inbox downloads emails from your mail box and stores them in the SuperOffice database.  
+SuperOffice Inbox downloads emails from your mail box and stores them in the SuperOffice database.
 If you want to change how many days to past we should download and store emails, you can add the following key `<add key="NumberOfDaysToDownload" value="XX" />` in Mail section:
 
 ```xml
@@ -94,7 +94,7 @@ Settings related to logging.
 | EnableStackTracing | Should stack traces be collected by various events |
 | LogError | Boolean value determines whether to log all error messages. Default = True |
 | LogFailureAudit | Boolean value determines whether to log when an access failure occurs / failed authentications (default 'True') |
-| LogFolder | Folder (e.g. UNC path) where the logfile is to reside. Note that the owner of the process needs to have access to manipulate files in this folder |
+| LogFolder | Folder (e.g. UNC path) where the log file is to reside. Note that the owner of the process needs to have access to manipulate files in this folder |
 | LoggedServices | List of services to be logged; default blank means all, otherwise comma-separated list of service names (without the Agent suffix, for instance: BLOB, Appointment) |
 | LogInformation | Log general information. This includes successful SQL's passed to the database. Only permit this option while debugging a bug. This will be a severe performance hit! (default 'False') |
 | LogLongQueries | Should long-running queries be logged in textual form to a special file? default false |
@@ -117,7 +117,7 @@ Settings related to logging.
 
 The Data section group contains three sections, Database, Explicit and ImplicitAnonymous. Combined, these sections define which server and database the caller will connect, as well as what state settings to use. Which state settings take affect are determined by how the caller decides to connect, Explicit or ImplicitAnonymous.
 
-The *Session* section relates to the lifetime of a Netserver communication session, such as the duration of a transaction, or group of transactions, and maintains the credentials defined in one of the following sections.
+The *Session* section relates to the lifetime of a NetServer communication session, such as the duration of a transaction, or group of transactions, and maintains the credentials defined in one of the following sections.
 
 | Parameter | Description |
 |-----------|-------------|
@@ -133,7 +133,7 @@ The *Session* section relates to the lifetime of a Netserver communication ses
 
 * Context: Session is stored in a context static manner. For further reference, see System.ContextStaticAttribute.
 
-* PartnerHttpContext: Helperclass for [SuperOffice.DevNet.Online.Login][6]
+* PartnerHttpContext: Helper class for [SuperOffice.DevNet.Online.Login][6]
 
 ### Database
 
@@ -142,7 +142,7 @@ The *Database* section relates to location and database-vendor specific settin
 | Parameter | Description |
 |-----------|-------------|
 | CommandTimeout | Integer value representing the command timeout in seconds. |
-| ConnectionString | String value representing the connection string . |
+| ConnectionString | String value representing the connection string. |
 | DatabaseMajor | String value representing the database. MSSQL and Oracle |
 | DatabaseMinor | Integer value representing the version number of Database |
 | DatabaseName | String value representing the name of the database. Also used for distinct service name. |
@@ -260,11 +260,11 @@ In this section you add the [Reverse proxy][4] override if you want to export la
 |-----------|-------------|
 | UrlSchemeOverride | http or https |
 | UrlPortOverride | 80 or 443 |
-| UrlHostOverride | In our examples this would be the external site; socrm.myorganization.com |
+| UrlHostOverride | In our examples this would be the external site; `socrm.myorganization.com` |
 | ExportPageSize | Export large selections from the web client has a default value of 10000 rows. PS! preference has to be added in Web.config |
 | ApplicationTitle | Change the title shown to the user, like My customized site name |
-| HelpFilesBaseUrl | String value representing the URL to helpfiles. E.g. in large server farm environments you may point to one helpfile location. |
-| HelpDispatcherUrl | Our SuperOffice helpfiles, showing correct help file language to the user. |
+| HelpFilesBaseUrl | String value representing the URL to help files. E.g. in large server farm environments you may point to one help file location. |
+| HelpDispatcherUrl | Our SuperOffice help files, showing correct help file language to the user. |
 
 ## WebServices
 
@@ -290,23 +290,25 @@ In this section you add the [Reverse proxy][4] override if you want to export la
 
 **MSDN** [Configuration files][10]
 
-![imagef0sx9.png][11]
+![imagef0sx9.png][img1]
 
-![images95t.png][12]
+![images95t.png][img2]
 
-![image7tvjr.png][13]
+![image7tvjr.png][img3]
 
 <!-- Referenced links -->
-[1]: https://community.superoffice.com/en/technical/documentation/install-upgrade/web/Install-web/
+[1]: ../web-client/set-up.md
 [2]: https://www.microsoft.com/en-us/download/details.aspx?id=55984
-[3]: https://community.superoffice.com/en/technical/documentation/prepare/security/deploy-securely/deployment-scenarios/
-[4]: https://community.superoffice.com/en/technical/documentation/prepare/security/deploy-securely/setting-up-a-reverse-proxy-on-iis8/
+[3]: ../security/deployment-scenarios.md
+[4]: ../security/set-up-reverse-proxy-on-iis.md
 [5]: https://blogs.technet.microsoft.com/askds/2008/06/13/understanding-kerberos-double-hop/
 [6]: https://community.superoffice.com/login/CMS/~/link/bf56431a96cb48a1ba5ab6f29ac77cb5.aspx
 [7]: https://community.superoffice.com/en/content/content/webclient/Scripting-in-the-NetServer-World/
 [8]: https://community.superoffice.com/webapi/rest
 [9]: https://online.superoffice.com/AppStore/superoffice-as/superoffice-gmail-link
 [10]: http://msdn.microsoft.com/en-us/library/1xtk877y(VS.80).aspx
-[11]: media/imagef0sx9.png
-[12]: media/images95t.png
-[13]: media/image7tvjr.png
+
+<!-- Referenced images -->
+[img1]: media/imagef0sx9.png
+[img2]: media/images95t.png
+[img3]: media/image7tvjr.png

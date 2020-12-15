@@ -19,17 +19,17 @@ so.topic: reference           # article, howto, reference, concept, guide
 
 ## Config file to say which additional documents the user wants copied from the central database
 
-![x][1]
+![x][img1]
 
 *Username.ini* is created by the SuperOffice CRM - Remote travel client, and all settings under My Documents, Other Documents and Exclude list is written to this file. The file is stored in *%localappdata%\\SuperOffice* and when the travel user syncs it is copied to the central archive *\\SO\_Arc\\Wishlist* folder.
 
-![x][2]
+![x][img2]
 
 > [!NOTE]
-> It adds the associate ID when you ask for other users and will check the database for this associate's current user group.<br/>Documents from other users are only copied down to the travel user, not from travel user to central.
+> It adds the associate ID when you ask for other users and will check the database for this associate's current user group.<br>Documents from other users are only copied down to the travel user, not from travel user to central.
 
 SuperOffice Remote Travel Server (SORTS.exe) must be run from the travel gateway to process this file. This will generate the *Copylist-username.txt* file with a list of documents that should be copied to the travel user next time they run the Remote Travel client.
 
-<!-- Referenced links -->
-[1]: media/sort.png
-[2]: media/sortotherdocuments.png
+<!-- Referenced images -->
+[img1]: media/sort.png
+[img2]: media/sortotherdocuments.png

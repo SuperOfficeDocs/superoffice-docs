@@ -26,7 +26,7 @@ Command line switches are used to add parameters to Windows applications to run 
 
 `SOCRM.EXE /lang= /inipath= /user= /password= ...`
 
-* /LANG=XX - Default US. Defines the language code (US, NO, SW etc.). Overrides the SOUSER.INI setting.
+* /LANG=XX - Default US. Defines the language code (US, NO, SW etc.). Overrides the *SOUSER.INI* setting.
 * /INIPATH=XXX - Defaults to folder that SOCRM.EXE is located in. Set path to load *SuperOffice.ini* from. See Registry keys section below for MailLink configuration.
 * /USER=XXX - Defaults to blank. Set username. Overrides integrated login.
 * /PASSWORD=XXX - Set password.
@@ -42,7 +42,7 @@ Command line switches are used to add parameters to Windows applications to run 
 
 `SOADMIN.EXE /lang= /inipath= /user= /password= /forcelogin`
 
-* /LANG=XX - Default US. Defines the language code (US, NO, SW etc.). Overrides the SOUSER.INI setting.
+* /LANG=XX - Default US. Defines the language code (US, NO, SW etc.). Overrides the *SOUSER.INI* setting.
 * /INIPATH=XXX - Defaults to folder that SOCRM.EXE is located in. Set path to load *SuperOffice.ini* from.
 * /USER=XXX - Defaults to blank. Set username. Overrides integrated login.
 * /PASSWORD=XXX - Set password.
@@ -65,4 +65,4 @@ The service is normally started by SOCRM.exe.
 
 `HKEY_CURRENT_USER\Software\SuperOffice\MailLink\UseIniPathForWindowsClient`
 
-The value of the key is a path to *SuperOffice.ini* which should be used by MailLink. Needed in scenarios when SoCRM.exe is started with **/IniPath** so you need to make sure MailLink will use the same configuration as SoCRM.exe. The key is a full path including *SuperOffice.ini*, for example, *E:\Config\SuperOffice.ini*.
+The value of the key is a path to *SuperOffice.ini* which should be used by MailLink. Needed in scenarios when SoCRM.exe is started with `/IniPath` so you need to make sure MailLink will use the same configuration as SoCRM.exe. The key is a full path including *SuperOffice.ini*, for example, *E:\Config\SuperOffice.ini*.

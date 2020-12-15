@@ -11,43 +11,54 @@ Here's an overview of where you may find the different log files and how you ena
 
 ## SuperOffice Win
 
-[Enable debug log (Win)](https://community.superoffice.com/en/technical/documentation/administration/config-ini/debugwin/)
+[Enable debug log (Win)][1]
 
-[SOUser.ini](https://community.superoffice.com/en/technical/documentation/administration/config-ini/souser.ini/) Used by SOCRM.exe, SOAdmin.exe and ReporterStudio.exe
+[SOUser.ini][2] Used by SOCRM.exe, SOAdmin.exe and ReporterStudio.exe
 
-[SuperOffice.config](https://community.superoffice.com/en/technical/documentation/administration/config-ini/superoffice.config/) Used by SOCRM.exe, SOAdmin.exe and ReporterStudio.exe
+[SuperOffice.config][3] Used by SOCRM.exe, SOAdmin.exe and ReporterStudio.exe
 
-[Command line](https://community.superoffice.com/en/technical/documentation/administration/config-ini/command-line-switches/) switches for SOCRM.exe, SOAdmin.exe 
+[Command line][4] switches for SOCRM.exe, SOAdmin.exe
 
 ## SuperOffice Web
 
-[Enable debug log (Web)](https://community.superoffice.com/en/technical/documentation/administration/config-ini/debugweb/)
+[Enable debug log (Web)][5]
 
-[Web.config](https://community.superoffice.com/en/technical/documentation/administration/config-ini/webconfig/)
+[Web.config][6]
 
-[Web Tools Diagnostics](https://community.superoffice.com/en/technical/documentation/administration/config-ini/webtools-diagnostics/)
+[Web Tools Diagnostics][7]
 
 ## Outlook mail link
 
-[Enable debug for Outlook Mail Link](https://community.superoffice.com/en/technical/documentation/administration/config-ini/debugmaillink/)
+[Enable debug for Outlook Mail Link][8]
 
 ## Notes link
 
-[Enable debug for Notes Mail Link](https://community.superoffice.com/en/technical/documentation/administration/config-ini/debugmaillink/)
+[Enable debug for Notes Mail Link][8]
 
 ## Ribbons
 
-[Enable debug for Ribbons](https://community.superoffice.com/en/technical/documentation/administration/config-ini/Enable-debug-Ribbon/)
+[Enable debug for Ribbons][9]
 
 ## Service
 
-[Web.config](https://community.superoffice.com/en/technical/documentation/administration/config-ini/webconfig/)
+[Web.config][6]
 
-[Service log files](https://community.superoffice.com/en/technical/documentation/administration/config-ini/enable-debug-logging/ "Customer Service log files")
+[Service log files][10]
 
-[Service config](https://community.superoffice.com/en/technical/documentation/administration/config-ini/serviceconfig.config/)
+[Service config][11]
 
-[Debug service tasks failing or not running](https://community.superoffice.com/en/technical/documentation/administration/config-ini/automatedtasksdebug.config/)
+[Debug service tasks failing or not running][12]
 
 <!-- Referenced links -->
-[1]: 
+[1]: ../win-client/debug.md
+[2]: souser-ini.md
+[3]: superoffice-config.md
+[4]: ../win-client/command-line-switches.md
+[5]: ../web-client/debug.md
+[6]: web-config.md
+[7]: ../../webtools/diagnostics.md
+[8]: ../../email/maillink/debug.md
+[9]: ../../documents/ribbons/enable-debug.md
+[10]: ../service/log-files.md
+[11]: service-config.md
+[12]: ../service/debug-automated-tasks.md

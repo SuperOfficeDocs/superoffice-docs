@@ -30,7 +30,7 @@ From 8.0 SR1 and CRM Online R14 we check the last active computer and open the d
 
 With web tools you may enable two different logfiles.
 
-### This is the file support usually will ask for - LogFile:
+### This is the file support usually will ask for - LogFile
 
 Open registry and add a new String value under *HKCU\\Software\\SuperOffice\\DocLink*
 

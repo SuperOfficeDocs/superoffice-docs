@@ -37,14 +37,14 @@ N/A.
 
 **OnSite:**
 
-Change the value for "reg\_id" = 320 in the table registry
+Change the value for `reg_id = 320` in the table registry
 
 Not using cURL: value = 2
 Using cURL: value = "0"
 
- ![x][1]
+![x][img1]
 
-This can be changed either by a SQL statement (requires access to SQL database) or by eJScript (requires access to "System design" and admin role).
+This can be changed either by a SQL statement (requires access to SQL database) or by eJScript (requires access to **System design** and admin role).
 
 ## How to troubleshoot mail when using cURL
 
@@ -52,13 +52,13 @@ Error information will appear in each of incoming mail's receiving log and outg
 
 How to open the incoming / outgoing log:
 
-1. Open "Mailboxes" by cicking on the wrench -> "E-mail". Note: only available to Admin users.
+1. Open **Mailboxes** by cicking on the wrench -> **E-mail**. Note: only available to Admin users.
 
-![x][2]
+![x][img2]
 
-2. Click on "Inbox for email" / "Outbox for e-mail"
+2. Click on **Inbox for email** / **Outbox for email**
 
-![x][3]
+![x][img3]
 
 Here you will see all items not sent / imported yet. (To also see already sent, check "show sent e-mails" bottom right.)
 
@@ -66,10 +66,10 @@ Here you will see all items not sent / imported yet. (To also see already sent, 
 
 The status, number of attempts, and last error message + possibly a more comprehensive error description below (big red square in picture) will help determine what has gone wrong sending the email.
 
-![x][4]
+![x][img4]
 
-<!-- Referenced links -->
-[1]: media/320curl.jpg
-[2]: media/e-mail.jpg
-[3]: media/outboxitem.jpg
-[4]: media/outboundlog.jpg
+<!-- Referenced images -->
+[img1]: media/320curl.jpg
+[img2]: media/e-mail.jpg
+[img3]: media/outboxitem.jpg
+[img4]: media/outboundlog.jpg

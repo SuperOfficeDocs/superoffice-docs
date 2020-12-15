@@ -21,7 +21,7 @@ so.topic: reference            # article, howto, reference, concept, guide
 
 The file is automatically created when the client first clicks the Travel icon while checked out from the database.
 
-![x][1]
+![x][img1]
 
 <!-- Referenced links -->
-[1]: media/remotetravelini.png
+[img1]: media/remotetravelini.png

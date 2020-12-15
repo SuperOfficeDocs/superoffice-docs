@@ -19,7 +19,7 @@ MailKit is cross-platform .NET library for IMAP, POP3, and SMTP.
 
 The main reason for using the MailKit library is a wider range of supported protocols, certificates and improved speed.
 
-MailKit is used by SuperOffice Netserver, e.g. Inbox in the Sales client.
+MailKit is used by SuperOffice NetServer, e.g. Inbox in the Sales client.
 
 MailKit is enabled for CRM Online from version 8.0 (R23), and can be enabled manually on Onsite from version SuperOffice 8.0 SR3.
 
@@ -40,7 +40,7 @@ On by default on 8.1
 3. Save the file web.config file
 4. Recycle the application pool
 
-![x][1]
+![x][img1]
 
 ## How to troubleshoot MailKit
 
@@ -68,10 +68,12 @@ Yet to be completed, please submit your experiences
 
 **OnSite:**
 
-Read section [Mail logging][4]
+Read section [Mail logging][1]
 
 <!-- Referenced links -->
-[1]: media/mailkit.jpg
+[1]: ../onsite/web-client/debug.md
 [2]: https://cs.superoffice.com/scripts/customer.fcgi?_sf=0&custSessionKey=&customerLang=en&noCookies=true&action=viewKbEntry&id=166
 [3]: https://cs.superoffice.com/
-[4]: https://community.superoffice.com/en/technical/documentation/administration/config-ini/debugweb/
+
+<!-- Referenced images -->
+[img1]: media/mailkit.jpg
