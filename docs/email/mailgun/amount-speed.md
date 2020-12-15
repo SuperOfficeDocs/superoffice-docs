@@ -15,7 +15,7 @@ so.topic: article             # article, howto, reference, concept, guide
 
 # Mailgun - amount and speed
 
-What is the maximum amount of e-mails I can send to the customers from SuperOffice Mailing and how long would it take?
+What is the maximum amount of emails I can send to the customers from SuperOffice Mailing and how long would it take?
 
 It is worth mentioning that the SuperOffice Mailing function is primarily made as an integral part of a CRM system and is not a specialized mailing service for handling large email volumes. SuperOffice Mailing is tightly integrated with the CRM functions and can therefore be utilized in an efficient and user-friendly manner.
 
@@ -31,7 +31,7 @@ You can send larger volumes of emails from SuperOffice Mailing if needed, but th
 
 Example: if you want to send out 160 000 emails, you should first divide them into a few selections and check the number of campaign email volume per month you have in your disposal. There is also a possibility to purchase an extra email package since SuperOffice has a very favorable price to offer:
 
-![MailGun Price][1]
+![MailGun Price][img1]
 
 However, we would recommend our customers that need to send large volumes of emails per month (>50,000 per month) to consider other, more specialized mailing services such as MailChimp, eMarketeer, or other.
 
@@ -42,7 +42,9 @@ However, we would recommend our customers that need to send large volumes of ema
 * [89% of Businesses Make the Same Email Marketing Mistake][4]
 
 <!-- Referenced links -->
-[1]: media/mailgun_price.png
 [2]: https://www.superoffice.com/blog/successful-email-marketing-youll-reap-what-you-sow/
 [3]: https://www.superoffice.com/blog/are-you-spamming-your-customers/
 [4]: https://www.superoffice.com/blog/email-marketing-segmentation-mistake/
+
+<!-- Referenced images -->
+[img1]: media/mailgun-price.png

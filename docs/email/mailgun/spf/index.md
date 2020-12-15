@@ -13,11 +13,11 @@ An SPF record is a type of [Domain Name Service][1] (DNS) record that identifi
 
 ## Why is it Important?
 
-Today, nearly all abusive e-mail messages carry fake sender addresses. Spammers send email from their mail servers but with your ‘domain’ as the sending email. The victims whose addresses are being abused often suffer from the consequences, because their reputation gets diminished and they have to disclaim liability for the abuse or waste their time sorting out misdirected bounce messages.
+Today, nearly all abusive email messages carry fake sender addresses. Spammers send email from their mail servers but with your *domain* as the sending email. The victims whose addresses are being abused often suffer from the consequences, because their reputation gets diminished and they have to disclaim liability for the abuse or waste their time sorting out misdirected bounce messages.
 
 ## What is the purpose of SPF record?
 
-The purpose of an SPF record is to prevent spammers from sending messages with forged ‘From Addresses’ at your domain. Recipients can refer to the SPF record to determine whether a message purporting to be from your domain comes from an authorized mail server.
+The purpose of an SPF record is to prevent spammers from sending messages with forged *From Addresses* at your domain. Recipients can refer to the SPF record to determine whether a message purporting to be from your domain comes from an authorized mail server.
 
 **More info:**
 

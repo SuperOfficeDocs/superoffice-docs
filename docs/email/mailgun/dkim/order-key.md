@@ -26,7 +26,7 @@ so.client: online              # online, web, win, pocket, or mobile
 4. Please reply back to us, confirming the DKIM is valid.
 5. We will update your CRM Online account to use the new settings.
 
-More information in this [article][1]
+[More information][1]
 
 ## Required info
 
@@ -38,4 +38,4 @@ More information in this [article][1]
 * Reply-to address
 
 <!-- Referenced links -->
-[1]: https://community.superoffice.com/en/technical/documentation/administration/mailgun-options-and-security/order-setup-dkim/
+[1]: set-up.md

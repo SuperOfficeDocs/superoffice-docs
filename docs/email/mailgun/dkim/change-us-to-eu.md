@@ -40,12 +40,12 @@ Please plan and schedule for this change as soon as possible, and no later than 
 3. Add new EU DKIM for Mailgun in your DNS.
 
 4. Notify SuperOffice new EU DKIM for Mailgun in your DNS is added (use this [form][1])
-    * SuperOffice will:  
+    * SuperOffice will:
       a) Configure the SMTP settings for your SuperOffice CRM Online solution to start to use the new EU DKIM for sending emails
       b) Send you a confirmation-email new settings is in place
 
 More information on setting up DKIM in this [article][2].
 
 <!-- Referenced links -->
-[1]: https://community.superoffice.com/en/technical/documentation/administration/mailgun-options-and-security/order-setup-dkim/change-dkim-from-us-to-eu/#form
-[2]: https://community.superoffice.com/en/technical/documentation/administration/mailgun-options-and-security/order-setup-dkim/
+[1]: change-us-to-eu.md
+[2]: order-key.md

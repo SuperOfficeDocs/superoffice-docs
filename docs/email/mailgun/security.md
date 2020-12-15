@@ -5,8 +5,8 @@
 title: mailgun_security       # (Required) Very important for SEO. Intent in a unique string of 43-59 chars including spaces.
 description:                    # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
 author: {github-id}             # Your GitHub alias.
-keywords:
-so.topic:                       # article, howto, reference, concept, guide
+keywords: email
+so.topic: reference              # article, howto, reference, concept, guide
 
 # Optional fields. Don't forget to remove # if you need a field.
 # so.envir:                     # cloud or onsite
@@ -36,14 +36,16 @@ Read more about SPF in [How to set up SPF?][1]
 
 ## DKIM
 
-DKIM (Domain Keys Identified Mail) should be considered a method to verify that the messages' content is trustworthy, meaning that they were not changed from the moment the message left the initial mail server. This additional layer of trustability is achieved by an implementation of the standard public/private key signing process. The owners of the domain add a DNS entry with the public DKIM key, which will be used by receivers to verify that the message DKIM signature is correct, while on the sender side the server will sign the entitled mail messages with the corresponding private key. Receiving email servers look up your public key and verify that nothing has changed in the email.  
+DKIM (Domain Keys Identified Mail) should be considered a method to verify that the messages' content is trustworthy, meaning that they were not changed from the moment the message left the initial mail server. This additional layer of trustability is achieved by an implementation of the standard public/private key signing process. The owners of the domain add a DNS entry with the public DKIM key, which will be used by receivers to verify that the message DKIM signature is correct, while on the sender side the server will sign the entitled mail messages with the corresponding private key. Receiving email servers look up your public key and verify that nothing has changed in the email.
+
 Not all receiving mail servers support the DKIM standard.
 
 Read more about DKIM in [How to order a DKIM key from SuperOffice, and how to set up DKIM?][2]
 
 ## DMARC
 
-Domain-based Message Authentication, Reporting & Conformance is an email authentication protocol. it builds on the widely deployed SPF and DKIM protocols, adding a reporting function that allows senders and receivers to improve and monitor the protection of the domain from fraudulent email. DMARC acts as a policy statement that declares what to do with emails that fail on SPF, DKIM, or both.  
+Domain-based Message Authentication, Reporting & Conformance is an email authentication protocol. it builds on the widely deployed SPF and DKIM protocols, adding a reporting function that allows senders and receivers to improve and monitor the protection of the domain from fraudulent email. DMARC acts as a policy statement that declares what to do with emails that fail on SPF, DKIM, or both.
+
 There are a few different modes that you can use with DMARC, but the most basic one is to receive reports from receiving email servers on 'pass' or 'fail' status, and receivers are given a simple way to check the legitimacy of the email.
 
 Monitoring on DMARC:
@@ -54,7 +56,7 @@ Postmark runs a [free DMARC aggregation service][3], which will aggregate all of
 
 Upon reception, the receiving mail server checks if there is any existing DMARC policy published in the domain used by the SPF and/or DKIM checks. If one or both the SPF and DKIM checks succeed while still being aligned with the policy set by DMARC, then the check is considered successful, otherwise, it's set as failed. If the check fails, based on the action published by the DMARC policy, different actions are taken:
 
-![x][4]
+![x][img1]
 
 **Read more about DMARC:**
 
@@ -99,7 +101,7 @@ Because there is no hard definition of "spam" it is also relatively easy to end 
 
 In many cases, this can be caused by the fact that the recipient’s mail server sees your email address as spam, because the Sender domain is different from the actual domain being received from.
 
-Creating a mailing in SuperOffice Online, you define a sender address ('from:'). You can use any email address for this, as there are no restrictions. Let's say you are using a sender email address which has the domain (email ending)“@yourdomain.com”. When the mailing reaches the recipient mail server it sees that the mailing is sent from “customer.suocrm.com” domain. This can cause your newsletter being identified as Spam.
+Creating a mailing in SuperOffice Online, you define a sender address ('from:'). You can use any email address for this, as there are no restrictions. Let's say you are using a sender email address which has the domain (email ending)“@yourdomain.com”. When the mailing reaches the recipient mail server it sees that the mailing is sent from `customer.suocrm.com` domain. This can cause your newsletter being identified as Spam.
 
 Read more about spam at [Wikipedia][10]
 
@@ -173,10 +175,9 @@ Again, this technology relies upon the receiver's email server to use the tools�
 * FAQ: [Why does Customer Service stop sending emails to a specific address?][17]
 
 <!-- Referenced links -->
-[1]: https://community.superoffice.com/en/technical/documentation/administration/mailgun-options-and-security/how-to-set-up-spf/
-[2]: https://community.superoffice.com/en/technical/documentation/administration/mailgun-options-and-security/order-setup-dkim/
+[1]: spf/set-up.md
+[2]: dkim/order-key.md
 [3]: https://dmarc.postmarkapp.com/
-[4]: media/dmarkpolicy.png
 [5]: https://www.petekeen.net/fix-your-email-deliverability-with-dmarc
 [6]: https://www.valimail.com/blog/faq-dmarc-for-email-service-providers/
 [7]: http://www.superoffice.com/blog/5-killer-email-marketing-mistakes-to-avoid/
@@ -190,3 +191,6 @@ Again, this technology relies upon the receiver's email server to use the tools�
 [15]: http://cs.superoffice.com/scripts/customer.fcgi?_sf=0&custSessionKey=&customerLang=en&noCookies=true&action=viewKbEntry&id=112899
 [16]: http://cs.superoffice.com/scripts/customer.fcgi?_sf=0&custSessionKey=&customerLang=en&noCookies=true&action=viewKbEntry&id=112768
 [17]: http://cs.superoffice.com/scripts/customer.fcgi?_sf=0&custSessionKey=&customerLang=en&noCookies=true&action=viewKbEntry&id=298
+
+<!-- Referenced images -->
+[img1]: media/dmarkpolicy.png

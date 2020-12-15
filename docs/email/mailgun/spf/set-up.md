@@ -23,7 +23,7 @@ Before creating the SPF record for your domain, it is important to find out what
 
 **How to create DNS records for Office 365 when you manage your DNS records:**
 
-You can follow the [general instructions from Microsoft for creating DNS records for Office 365][1].
+You can follow the [general instructions from Microsoft for creating DNS records for Office 365][2].
 
 ## Open the domain settings for the Google domain
 
@@ -33,33 +33,33 @@ You can follow the [general instructions from Microsoft for creating DNS records
 
 1. Go to **Host Records** in the DNS console. The existing SPF record for your Google account is there by default.
 
-![x][8]
+![x][img1]
 
-2. We want to add **\_spf.online.superoffice.com** which contains correct records for both Mailgun clusters (EU and US). Since there only should be one SPF record - we need to combine the existing one with the new. The actual TXT record to add is **"v=spf1 include:\_spf.online.superoffice.com ~all"**.
+2. We want to add `_spf.online.superoffice.com` which contains correct records for both Mailgun clusters (EU and US). Since there only should be one SPF record - we need to combine the existing one with the new. The actual TXT record to add is `"v=spf1 include:_spf.online.superoffice.com ~all"`.
 
   1. Click **Edit.** Update the existing record (text field) with the new combined record.
 
-![x][9]
+![x][img2]
 
   2. Click **Save** to update the information.
 
-![x][10]
+![x][img3]
 
 [!include[ALT](../includes/note-dns-propagation-time.md)]
 
 ## Test a new SPF record
 
-There are several tools online to use - to test your SPF record. Here we use [MX Toolbox][11].
+There are several tools online to use - to test your SPF record. Here we use [MX Toolbox][1].
 
 1. Open the SPF tool:
 
-![x][12]
+![x][img4]
 
 2. Add your domain (the one that you are going to send our mailings as) and click **SPF Record Lookup**.
 
-![x][13]
+![x][img5]
 
-3. The result should show that **\_spf.online.superoffice.com** is included and pass the test for 'allow'.
+3. The result should show that `_spf.online.superoffice.com` is included and pass the test for *allow*.
 
 ### What’s the difference between ~all and -all?
 
@@ -67,14 +67,16 @@ Given many receivers are not actively bouncing mail based on SPF pass/fail, ther
 
 What should I publish?
 
-We recommend "~all" (soft fail if no matches) vs "-all" (hard fail if no matches) as a conservative measure. A soft mail means that the message will be tagged with a header documenting the failure, but will still be accepted. If you prefer a hard failure, ie "-all", then feel free to use that instead. There’s not a huge benefit to publishing -all and sometimes mail gets forwarded around. The one time we recommend a -all record is when a domain is getting forged into spam. Domain forgery can cause a lot of bounces. The number of bounces can be bad enough to take down a mail server, particularly those with a small userbase. Many ISPs will check SPF before sending back a bounce and so a -all record can decrease the amount of blowback the domain owner has to deal with.
+We recommend "~all" (soft fail if no matches) vs "-all" (hard fail if no matches) as a conservative measure. A soft mail means that the message will be tagged with a header documenting the failure, but will still be accepted. If you prefer a hard failure, ie "-all", then feel free to use that instead. There’s not a huge benefit to publishing -all and sometimes mail gets forwarded around. The one time we recommend an -all record is when a domain is getting forged into spam. Domain forgery can cause a lot of bounces. The number of bounces can be bad enough to take down a mail server, particularly those with a small userbase. Many ISPs will check SPF before sending back a bounce and so an -all record can decrease the amount of blowback the domain owner has to deal with.
 
 <!-- Referenced links -->
-[1]: https://support.office.com/en-us/article/general-instructions-for-creating-dns-records-for-office-365-e21a9a4a-7b14-42cb-b39b-03aee92da95f
+[1]: https://mxtoolbox.com/
+[2]: https://support.office.com/en-us/article/general-instructions-for-creating-dns-records-for-office-365-e21a9a4a-7b14-42cb-b39b-03aee92da95f
 2886048-0ziPiPMBJl50dyrE4AuUcfWmuAGb4WexjzApsYr6iF3OwywNJfNLX7Eg1xRWTH76-0/image.png
-[8]: media/image.png
-[9]: media/2a906f41-12d9-450b-b38f-9c6b62ed18ec.png
-[10]: media/8e28749e-be90-498f-ad22-584bff9d37b5.png
-[11]: https://mxtoolbox.com/
-[12]: media/image.png
-[13]: media/image7mle8.png
+
+<!-- Referenced images -->
+[img1]: media/image.png
+[img2]: media/2a906f41-12d9-450b-b38f-9c6b62ed18ec.png
+[img3]: media/8e28749e-be90-498f-ad22-584bff9d37b5.png
+[img4]: media/image.png
+[img5]: media/image7mle8.png
