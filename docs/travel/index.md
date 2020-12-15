@@ -35,7 +35,7 @@ Our built-in database is Sybase 12 but is locked to the SuperOffice CRM client a
 
 <!-- Referenced links -->
 [1]: http://www.microsoft.com/
-[2]: create-an-update-prototype.md
+[2]: create-update-prototype.md
 [3]: https://community.superoffice.com/en/technical/documentation/older-versions/documentation-7/SM/winclient/travel-client/travel-with-sybase-12/
 [4]: https://community.superoffice.com/Documentation/Help/EN/CRM/8.0/WebHelpAdmin/index.htm#t=chap02%2FActivating_the_Travel_function.htm
 [5]: https://community.superoffice.com/Documentation/Help/EN/CRM/8.0/WebHelpAdmin/index.htm#t=chap02%2FGenerating_an_update_prototype.htm

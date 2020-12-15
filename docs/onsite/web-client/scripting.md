@@ -38,9 +38,9 @@ The first version of the scripting support will not support user interaction and
 
 When installing .web a scripting section is added to the SuperOffice Product Configuration application. If upgrading from a previous version, make sure you run the configuration.
 
- ![x][1]
+![x][img1]
 
-**The configuration options are:**
+**Configuration options:**
 
 * Enabling scripting overall.
 * The path to the folder where the scripts are stored.
@@ -59,8 +59,10 @@ Runtime errors are logged using the normal logging features.
 
 To enable your script simply drop the script files (or assemblies) in the script folder. Remember to flush in order to get .web aware of the new scripts.dll
 
-For more information regarding scripting with .web, visit [DevNet][2]
+For more information regarding scripting with .web, visit [DevNet][1]
 
 <!-- Referenced links -->
-[1]: media/ns-web-scripting.jpg
-[2]: https://community.superoffice.com/en/content/content/webclient/Scripting-in-the-NetServer-World/
+[1]: https://community.superoffice.com/en/content/content/webclient/Scripting-in-the-NetServer-World/
+
+<!-- Referenced images -->
+[img1]: media/ns-web-scripting.jpg

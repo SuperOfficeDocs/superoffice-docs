@@ -27,7 +27,7 @@ There are multiple ways how [SuperOffice can be deployed][1]. If SuperOffice We
 
 ## From the installation folder
 
-In the file explorer, navigate to the component's Config folder (example: C:\\SuperOffice\\SuperOffice Web\\Config) and double-click on the app SoAppConfig.exe.
+In the file explorer, navigate to the component's Config folder (example: *C:\\SuperOffice\\SuperOffice Web\\Config*) and double-click on the app SoAppConfig.exe.
 
 > [!CAUTION]
 > When you open the Product Configuration tool all SuperOffice Web users will be logged out from the SuperOffice CRM. They will be able to login right away and keep working, however, when you will save the changes made in the configuration tool, all users will be logged out again.
@@ -36,7 +36,7 @@ When you have the Product configuration application open:
 
 1. Click on **Diagnostics (1)** section. In the field (2) you can define a path where the log file should be saved. Then add a tick next to the **Display Advanced Settings (3)**, which will let you specify how much details you want in the debugging log file.
 
-![image0sx5s.png][2]
+![image0sx5s.png][img1]
 
 2. Click **Next** to go through the whole configuration wizard and click **Finish**. Once you finish the wizard, Report configuration product wizard will start automatically. You can close it if you don’t want to debug reports. Then the log file will be created and errors will start to be logged.
 
@@ -57,9 +57,9 @@ If you know that the debugging has been enabled and you just want to find a loca
 
 ## How do I enabling debugging directly in the config files?
 
-You can set the same logging parameters directly in the Web.config in <Diagnostics> section.
+You can set the same logging parameters directly in the Web.config in `<Diagnostics>` section.
 
-See Netserver Diagnostics section below.
+More about Netserver Diagnostics below.
 
 ## NetServer start-up and performance
 
@@ -67,9 +67,9 @@ SuperOffice Web always takes a long time to start up initially because IIS needs
 
 We do however also have some online services configurable in the web.config file. If you experience poor performance on the second login you may turn off *Logging to SuperOffice Research & Product Developement.* Go to Diagnostics and turn off Log to SuperOffice Research & Product Developement.
 
-## Netserver Diagnostics
+## NetServer Diagnostics
 
-You can turn on and off logging for NetServer for Web client directly in the Web.config file.
+You can turn on and off logging for NetServer for Web client directly in the *Web.config* file.
 
 ```xml
 <SuperOffice>
@@ -114,11 +114,13 @@ When you use SuperOffice Win the Scaffolding option is not in SuperOffice.config
 <add key="EnableScaffolding" value="true" />
 ```
 
-See also [Diagnostics][3] section of the Web.config page.
+See also [Diagnostics][2] section of the Web.config page.
 
 [!include[ALT](../includes/turn-off-logging.md)]
 
 <!-- Referenced links -->
-[1]: https://community.superoffice.com/en/technical/documentation/prepare/security/deploy-securely/deployment-scenarios/
-[2]: media/image0sx5s.png
-[3]: https://community.superoffice.com/en/technical/documentation/administration/config-ini/webconfig/
+[1]: ../security/deployment-scenarios.md
+[2]: ../config-and-ini/web-config.md
+
+<!-- Referenced images -->
+[img1]: media/image0sx5s.png

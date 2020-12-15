@@ -28,13 +28,13 @@ If you have users from different domains, then make sure that the domain you wan
 
 ## How to setup AD autentication
 
-You need to enable and setup AD authentication in Netserver:
+You need to enable and setup AD authentication in NetServer:
 
 1. Open the **Product configuration** application.
 
 2. Click on the **AD integration** section.
 
-![AD in NS.png][4]
+![AD in NS.png][img1]
 
 3. Tick the Enable AD Authentication checkbox
 
@@ -54,18 +54,20 @@ SuperOffice CRM uses SID (security identifier) value to link an Active Directo
 
 1. Make sure that the user object in Active Directory was populated with First Name, Last Name and Display Name attributes.
 
-2. Checked that the Security pane on the user object have "Allow inheritance" ticked on - on the actual object and all the corresponding OU's. (reqired for Active Directory authentication to work)
+2. Checked that the Security pane on the user object have **Allow inheritance** ticked on - on the actual object and all the corresponding OUs. (reqired for Active Directory authentication to work)
 
 3. Open user object and take a note of SID of the user in question.
 
-4. In SuperOffice database look up the associate\_id in the ASSOCIATE table
+4. In SuperOffice database, look up the `associate_id` in the `ASSOCIATE` table
 
 5. In CREDENTIALS table, make a search for the SID or check which SID associate has.
 
 6. If it is different, delete the row of this user in CREDENTIALS table and re-link the user in SuperOffice administration client.
 
 <!-- Referenced links -->
-[1]: https://community.superoffice.com/en/technical/documentation/install-upgrade/web/Install-web/
-[2]: https://community.superoffice.com/en/technical/documentation/prepare/security/deploy-securely/deployment-scenarios/
-[3]: https://community.superoffice.com/en/technical/documentation/prepare/security/deploy-securely/setting-up-a-reverse-proxy-on-iis8/
-[4]: media/ad-in-ns.png
+[1]: set-up.md
+[2]: ../security/deployment-scenarios.md
+[3]: ../security/set-up-reverse-proxy-on-iis.md
+
+<!-- Referenced images -->
+[img1]: media/ad-in-ns.png
