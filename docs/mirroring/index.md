@@ -29,8 +29,8 @@ Database Mirroring is an optional property of a registered App in the SuperOffic
 
 At the start of each mirroring cycle, the initial call to the Partner URL is a **mutual authentication**. SuperOffice calls the registered URL, sending a **signed token**; this is a standard security mechanism where the transmitting party bundles several pieces of information and adds a signature. The token contains:
 
-* The Customer context id, which uniquely identifies the Customer whose data will be mirrored
-* The application id, which uniquely identifies the intended recipient
+* The Customer context ID, which uniquely identifies the Customer whose data will be mirrored
+* The application ID, which uniquely identifies the intended recipient
 * A random number (“nonce”) unique to each token
 * A timestamp
 
@@ -40,9 +40,9 @@ The corresponding **public key** together with its signing chain is published to
 
 * Verifies that the incoming token has the correct signature (by SuperOffice)
 * Verifies that it is freshly generated (clocks must not be more than 5 minutes apart)
-* Verifies that the application id in the token is the same as the system receiving it
+* Verifies that the application ID in the token is the same as the system receiving it
 
-Having done so, the Customer context id can be extracted. Note that SuperOffice does not transmit any user id or access token that enables the Partner to call back to SuperOffice; mirroring is **strictly initiated by SuperOffice** and is always a request-response pattern where SuperOffice is the requestor.
+Having done so, the Customer context ID can be extracted. Note that SuperOffice does not transmit any user ID or access token that enables the Partner to call back to SuperOffice; mirroring is **strictly initiated by SuperOffice** and is always a request-response pattern where SuperOffice is the requestor.
 
 To complete the authentication handshake, the partner code creates a response that contains
 
