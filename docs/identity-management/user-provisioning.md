@@ -5,7 +5,7 @@
 title: user_provisioning       # (Required) Very important for SEO. Intent in a unique string of 43-59 chars including spaces.
 description:                    # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
 author: {github-id}             # Your GitHub alias.
-keywords:
+keywords:IDP
 so.topic: concept               # article, howto, reference, concept, guide
 
 # Optional fields. Don't forget to remove # if you need a field.
