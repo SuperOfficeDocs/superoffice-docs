@@ -91,13 +91,13 @@ By specifying the full name of this Organization Unit in the SuperOffice.config 
 ![image][10]
 
 <!-- Referenced images -->
-[img1]: https://community.superoffice.com/EPiServerCommunity/Modules/ImageGallery/Thumbnails/8/30508/1642_1987.jpg
-[img2]: https://community.superoffice.com/EPiServerCommunity/Modules/ImageGallery/Thumbnails/8/30508/1644_1989.jpg
-[img3]: https://community.superoffice.com/EPiServerCommunity/Modules/ImageGallery/Thumbnails/8/30508/1646_1991.jpg
-[img4]: https://community.superoffice.com/EPiServerCommunity/Modules/ImageGallery/Thumbnails/8/30508/1648_1993.jpg
-[img5]: https://community.superoffice.com/EPiServerCommunity/Modules/ImageGallery/Thumbnails/8/30508/1650_1995.jpg
-[img6]: https://community.superoffice.com/EPiServerCommunity/Modules/ImageGallery/Thumbnails/8/30508/1652_1997.jpg
-[img7]: https://community.superoffice.com/EPiServerCommunity/Modules/ImageGallery/Thumbnails/8/30508/1654_1999.jpg
-[img8]: https://community.superoffice.com/EPiServerCommunity/Modules/ImageGallery/Thumbnails/8/30508/1656_2001.jpg
-[img9]: https://community.superoffice.com/EPiServerCommunity/Modules/ImageGallery/Thumbnails/8/30508/1658_2003.jpg
-[img10]: https://community.superoffice.com/EPiServerCommunity/Modules/ImageGallery/Thumbnails/8/30508/1660_2005.jpg
+[img1]: media/1642-1987.jpg
+[img2]: media/1644-1989.jpg
+[img3]: media/1646-1991.jpg
+[img4]: media/1648-1993.jpg
+[img5]: media/1650-1995.jpg
+[img6]: media/1652-1997.jpg
+[img7]: media/1654-1999.jpg
+[img8]: media/1656-2001.jpg
+[img9]: media/1658-2003.jpg
+[img10]: media/1660-2005.jpg
