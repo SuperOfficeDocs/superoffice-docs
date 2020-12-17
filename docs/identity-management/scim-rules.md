@@ -16,13 +16,13 @@ so.topic: concepts                      # article, howto, reference, concept, gu
 
 A SCIM rule describes users in their SuperOffice CRM Online tenant.
 
-The [SuperOffice Identity Manager][img1] gives administrators access to a wizard where they can configure rules for how users shall be configured in our system.
+The [SuperOffice Identity Manager][1] gives administrators access to a wizard where they can configure rules for how users shall be configured in our system.
 
 * The Azure portal sets the mapping from Azure AD to the SCIM schema.
 
 * The SuperOffice Identity Manager sets the mapping from the SCIM schema to [SuperID user accounts][2]].
 
-![X][img1]
+![SCIM UI rule example][img1]
 
 ## Tasks
 
