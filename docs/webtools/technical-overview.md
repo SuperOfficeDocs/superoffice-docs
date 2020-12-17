@@ -98,4 +98,4 @@ SSO requires [configuration changes in IIS][2] and *web.config* file. Users must
 [img1]: media/11033-21660.jpg
 [img2]: media/11035-21656.jpg
 [img3]: media/11036-21654.jpg
-[img4]: media/cdraw.jpg
+[img4]: media/cdraw.png

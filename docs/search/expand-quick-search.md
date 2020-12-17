@@ -63,4 +63,4 @@ This would result in a search for the parameter provided on the Norwegian Yellow
 As long as you know the query string for a website you can use this functionality towards pretty much any page.
 
 <!-- Referenced images -->
-[img1]: media/5438_8684.jpg
+[img1]: media/5438-8684.jpg
