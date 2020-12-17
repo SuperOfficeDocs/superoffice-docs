@@ -6,3 +6,5 @@ items: # These items are navigation headers
   href: config.md
 - name: Edit template
   href: edit-template.md
+- name: Embed chat widget
+  href: embed-chat-widget-on-external-site.md

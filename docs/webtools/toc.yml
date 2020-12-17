@@ -1,15 +1,24 @@
 - name: Webtools
   href: index.md
   items:
+  - name: Technical overview
+    href: technical-overview.md
   - name: Deploy
     href: deploy.md
   - name: Diagnostics
     href: diagnostics.md
   - name: Debug on Mac
     href: debug-on-mac.md
+  - name: Troubleshooting
+    href: troubleshooting.md
   - name: Proxy
     href: proxy.md
   - name: System requirements
     href: system-requirements.md
   - name: Upgrade
     href: upgrade.md
+  - name: DocLink
+    href: doclink/index.md
+    items:
+    - name: Registry entries
+      href: doclink/registry-entries.md
