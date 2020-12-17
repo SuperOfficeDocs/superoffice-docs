@@ -5,7 +5,7 @@
 title: user_provisioning       # (Required) Very important for SEO. Intent in a unique string of 43-59 chars including spaces.
 description:                    # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
 author: {github-id}             # Your GitHub alias.
-keywords:IDP
+keywords: IDP
 so.topic: concept               # article, howto, reference, concept, guide
 
 # Optional fields. Don't forget to remove # if you need a field.
@@ -17,7 +17,8 @@ so.topic: concept               # article, howto, reference, concept, guide
 
 User provisioning is an important identity management process for handling information about users in multiple applications and systems.
 
->[!NOTE] When we talk about user provisioning, we refer to the data **object representing a person** and not the physical person. It is also distinct from [application provisioning][1].
+>[!NOTE]
+> When we talk about user provisioning, we refer to the data **object representing a person** and not the physical person. It is also distinct from [application provisioning][1].
 
 The user data object generally consist of:
 
@@ -64,7 +65,8 @@ The more users and applications your organization has, the greater is the risk o
 
 ## How does it work in SuperOffice?
 
->[!NOTE] To be able to sign in to SuperOffice, a person needs an active user account and a valid license.
+>[!NOTE]
+> To be able to sign in to SuperOffice, a person needs an active user account and a valid license.
 
 A user data object can enter the SuperOffice sphere in the following ways:
 
