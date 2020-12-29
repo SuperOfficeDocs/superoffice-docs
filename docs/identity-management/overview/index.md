@@ -4,9 +4,7 @@ description: All you need to know about identity management in SuperOffice CRM O
 author: {github-id}             # Your GitHub alias.
 keywords:
 ---
-
-
-# Introduction to SuperOffice identity management
+# Introduction to SuperOffice identity management#
 
 All you need to know about identity management in SuperOffice CRM Online. Creating new user accounts; resetting passwords; federated IDs; identity providers; single sign-on; automatic user provisioning with SCIM, and what's the fuzz about SuperID?
 
@@ -32,6 +30,9 @@ The trusted 3rd party is the **identity provider** (IdP). When accessing a new
 
 <!-- Referenced links -->
 [1]: https://community.superoffice.com/en/technical/documentation/identity-management/concepts/superid/
+
 [2]: https://community.superoffice.com/en/technical/documentation/identity-management/overview/sign-in-services/
+
 [3]: https://community.superoffice.com/en/technical/documentation/identity-management/overview/federated-id/
+
 [4]: https://community.superoffice.com/en/technical/documentation/identity-management/concepts/primary-tenant/
