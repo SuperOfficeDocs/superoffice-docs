@@ -4,7 +4,7 @@
 # Mandatory fields.
 title: user_accounts_roles       # (Required) Very important for SEO. Intent in a unique string of 43-59 chars including spaces.
 description: SuperOffice CRM Online enforces role-based access control, and each user must have a unique ID to sign in.     # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
-author: Frode             # Your GitHub alias.
+author: {frodeb@superoffice.com}             # Your GitHub alias.
 keywords:
 so.topic:                       # article, howto, reference, concept, guide
 

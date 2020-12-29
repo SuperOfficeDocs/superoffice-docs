@@ -4,7 +4,7 @@
 # Mandatory fields.
 title: identity_management_gw       # (Required) Very important for SEO. Intent in a unique string of 43-59 chars including spaces.
 description:  The Identity Management Gateway Architecture, User interface and Pre-requisites                # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
-author: {fbhub2}             # Your GitHub alias.
+author: {frodeb@superoffice.com}             # Your GitHub alias.
 keywords: Identity, Management, Gateway, Architecture, SuperId, 
 so.topic:               reference        # article, howto, reference, concept, guide
 

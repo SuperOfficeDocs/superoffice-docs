@@ -1,7 +1,7 @@
 ---
 title: overview       
 description: All you need to know about identity management in SuperOffice CRM Online.                   
-author: {github-id}             # Your GitHub alias.
+author: {frodeb@superoffice.com}             # Your GitHub alias.
 keywords:
 ---
 # Introduction to SuperOffice identity management#

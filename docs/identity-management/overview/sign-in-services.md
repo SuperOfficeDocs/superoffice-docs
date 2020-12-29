@@ -1,0 +1,61 @@
+---
+# This basic template provides core metadata fields for Markdown articles on docs.superoffice.com.
+
+# Mandatory fields.
+title: sign_in_services       # (Required) Very important for SEO. Intent in a unique string of 43-59 chars including spaces.
+description:                    # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
+author: {frodeb@superoffice.com}             # Your GitHub alias.
+keywords: SuperID
+so.topic:   concept                    # article, howto, reference, concept, guide
+
+# Optional fields. Don't forget to remove # if you need a field.
+so.envir:    cloud                 # cloud or onsite
+so.client:  online                 # online, web, win, pocket, or mobile
+---
+
+# Sign-in services
+
+The sign-in service determines **how** you get access to SuperOffice CRM Online and **who** manages your credentials.
+
+We currently support 2 models:
+
+* The **SuperID** sign-in service with password (standard)
+* The **SuperID** sign-in service with an IDP regeistered
+
+Each provides the administrator and the end-user with a set of features to administer the users. SuperOffice CRM Online will send users to the correct place to authenticate.
+
+## The SuperID sign-in service
+
+The [SuperID][1] sign-in service has 2 levels - basic and federated. Each CRM Online user accounts can belong to 1 SuperID user account. One CRM Online user account + password can belong to 1 or more sites.
+
+If you would like to use **SuperID - federated** features, you need to register an [identity provider][2].
+
+### SuperID - basic
+
+The basic level of the SuperID sign-in service uses a password to authenticate like the standard sign-in service. However, this centralized model doesn't store passwords in the CRM Online database. It actually uses SuperID as the identity provider.
+
+**Sign-in sequence:**
+
+* The user opens **online.superoffice.com** in a browser and enters their email address or username.
+* The username is inspected and forwarded to **id.superoffice.com**
+* The user is asked for a password, which is verified by authenticating towards SuperID. 
+* The user is signed in to the correct site (pick site if the user is connected to multiple sites).
+
+### SuperID - federated
+
+SuperID supports using 3rd-party federated sign-in services as an add-on. You can choose either Microsoft or Google to authenticate.
+
+To use federated sign-in, [register your domain name][3] (so the sign-in service knows which identity provider to send your users to).
+
+**Sign-in sequence:**
+
+* The user opens **online.superoffice.com** in a browser and enters their email address or username.
+* The username is inspected and forwarded to **id.superoffice.com**.
+* The user is verified by **delegating authenticating to Microsoft or Google**. 
+  * SuperID receives and **stores the sign-in session**.
+* The user is signed in to the correct site (pick site if the user is connected to multiple sites).
+
+<!-- Referenced links -->
+[1]: https://community.superoffice.com/en/technical/documentation/identity-management/concepts/superid/
+[2]: https://community.superoffice.com/en/technical/documentation/identity-management/overview/federated-id/
+[3]: https://community.superoffice.com/en/technical/documentation/identity-management/how-to/federated-sign-in-guide/register-idp/

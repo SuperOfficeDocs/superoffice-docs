@@ -4,7 +4,7 @@
 # Mandatory fields.
 title: scim_intro       # (Required) Very important for SEO. Intent in a unique string of 43-59 chars including spaces.
 description:    What is SCIM? Why use SCIM?                # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
-author: {fbhub2}             # Your GitHub alias.
+author: {frodeb@superoffice.com}             # Your GitHub alias.
 keywords: SCIM
 so.topic:   reference                    # article, howto, reference, concept, guide
 
