@@ -36,4 +36,4 @@ The [SuperOffice Identity Manager][1] gives administrators access to a wizard w
 [3]: https://community.superoffice.com/en/technical/documentation/identity-management/how-to/provision-users-with-scim/
 [4]: https://community.superoffice.com/en/technical/documentation/identity-management/concepts/scim-rules/
 
-[img1]: https://community.superoffice.com/contentassets/395a8cc239c745fcb52fff8f3f63fd15/scim-marketing-rule.png
+[img1]: media/scim-marketing-rule.png

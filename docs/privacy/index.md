@@ -41,5 +41,5 @@ SuperOffice CRM can support the [8 GDPR privacy rights][1] across the entire per
 [2]: https://ec.europa.eu/info/law/law-topic/data-protection_en
 
 <!-- Referenced images -->
-[img1]: https://community.superoffice.com/globalassets/customer/inspiration/articles/gdpr/gdpr-circel.jpg
-[img2]: https://community.superoffice.com/globalassets/customer/inspiration/articles/gdpr/8-privacy-rights-and-customer-lifecycle.jpg
+[img1]: media/gdpr-circel.jpg
+[img2]: media/8-privacy-rights-and-customer-lifecycle.jpg
