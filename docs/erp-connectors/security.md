@@ -5,8 +5,8 @@
 title: erp_security       # (Required) Very important for SEO. Intent in a unique string of 43-59 chars including spaces.
 description: Securing ERP Connectors for SuperOffice Online # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
 author: {github-id}             # Your GitHub alias.
-keywords:
-so.topic:                       # article, howto, reference, concept, guide
+keywords: sync
+so.topic: concept               # article, howto, reference, concept, guide
 
 # Optional fields. Don't forget to remove # if you need a field.
 so.envir: cloud           # cloud or onsite
@@ -48,4 +48,4 @@ So what is an application identifier? An application identifier is a unique ID t
 <!-- Referenced images -->
 [img1]: media/authenticationsequencediagram.png
 [img2]: media/editsyncconnector-new.png
-[img3]: media/autherpsyncconnector_600px.png
+[img3]: media/autherpsyncconnector-600px.png

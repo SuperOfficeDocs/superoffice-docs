@@ -17,10 +17,10 @@ so.client: online               # online, web, win, pocket, or mobile
 
 When it comes to the ERP Connector web service, the latest API changes do not affect the existing ERP Connector APIs. Rather, the API has added a new interface, `IIntegrationServiceConnectorAuth` that has one method, `Authenticate`.
 
-```cpp
+```csharp
 public interface IIntegrationServiceConnectorAuth
 {
-    AuthenticationResponse Authenticate(AuthenticationRequest request);
+  AuthenticationResponse Authenticate(AuthenticationRequest request);
 }
 ```
 
@@ -30,10 +30,11 @@ The interface exists in *SuperOffice.SuperID.Contracts.dll*, and a clean impleme
 
 The `IIntegrationServiceConnectorAuth` interface declares one method, `Authenticate`. It accepts one parameter, an `AuthenticationRequest`, which contains the signed JWT security token that must be validated by the ERP Connector web service.
 
-```cpp
+```csharp
+public class AuthenticationRequest
 public class AuthenticationRequest
 {
-    public string SignedToken { get; set; }
+  public string SignedToken { get; set; }
 }
 ```
 
@@ -45,12 +46,13 @@ The `Authenticate` method must return an `AuthenticationResponse`, which contain
 | Succeeded | indicates whether validation was successful or not
 | Reason | contains a message only if Succeeded is false, indicating why validation failed |
 
-```cpp
+```csharp
+public class AuthenticationResponse
 public class AuthenticationResponse
 {
-    public string Reason { get; set; }
-    public string SignedApplicationToken { get; set; }
-    public bool Succeeded { get; set; }
+  public string Reason { get; set; }
+  public string SignedApplicationToken { get; set; }
+  public bool Succeeded { get; set; }
 }
 ```
 
@@ -64,30 +66,27 @@ The biggest challenges with leveraging the new interface are:
 
 Lucky for you, that's already been done in our examples and is readily available for you to copy. Here's the code:
 
-```cpp
+```csharp
 public class ErpConnectorWS : IErpConnectorWS, SuperOffice.SuperID.Contracts.IIntegrationServiceConnectorAuth
 {
-    AuthenticationResponse IIntegrationServiceConnectorAuth.Authenticate(AuthenticationRequest request)
-    {
-        var applicationIdentifier = ConfigurationManager.AppSettings["ApplicationIdentifier"];
-        var applicationPrivateKey = GetPrivateKey();
-
-        var auth = new IntegrationServiceConnectorAuth(applicationIdentifier,  applicationPrivateKey);
-        var result = auth.Authenticate(request);
-
-        return result;
-    }
-    
-    public string GetPrivateKey()
-    { 
-        var fileName = ConfigurationManager.AppSettings["ApplicationPrivateKeyFile"];
-        if (!Path.IsPathRooted(fileName))
-            fileName = Path.Combine(HostingEnvironment.MapPath(@"~"), fileName);
-        return File.ReadAllText(fileName);
-    }
-
-    //...Remaining code left out for brevity
-}
+  AuthenticationResponse IIntegrationServiceConnectorAuth.Authenticate(AuthenticationRequest request)
+  {
+    var applicationIdentifier = ConfigurationManager.AppSettin["ApplicationIdentifier"];
+    var applicationPrivateKey = GetPrivateKey();
+    var auth = new IntegrationServiceConnectorAu(applicationIdentifier, applicationPrivateKey);
+    var result = auth.Authenticate(request);
+    return result;
+  }
+  
+  public string GetPrivateKey()
+  { 
+    var fileName = ConfigurationManager.AppSettin["ApplicationPrivateKeyFile"];
+    if (!Path.IsPathRooted(fileName))
+      fileName = Path.Combine(HostingEnvironment.MapPath(@"~")fileName);
+    return File.ReadAllText(fileName);
+  }
+  //...Remaining code left out for brevity
+} 
 ```
 
 The first thing you will noticed is a call to `AppSettings` to get the application identifier for the ERP Sync Connector. Next is a call to a helper method to read in the private key file associated with the ERP Syn Connector app. Those two pieces of information are passed into the `IntegrationServiceConnectorAuth` constructor and the `IntegrationServiceConnectorAuth.Authenticate` method is called to validate the request. Finally, the result is returned and that's all there is to it.
