@@ -6,7 +6,7 @@ title: expander_servives_subscription       # (Required) Very important for SEO.
 description: How do I get Expander Services? # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
 author: {github-id}             # Your GitHub alias.
 keywords:
-so.topic:                       # article, howto, reference, concept, guide
+so.topic: concept           # article, howto, reference, concept, guide
 
 # Optional fields. Don't forget to remove # if you need a field.
 so.envir: cloud           # cloud or onsite
@@ -15,7 +15,7 @@ so.client: online               # online, web, win, pocket, or mobile
 
 # How do I get Expander Services?
 
-The monthly subscription fee for Expander Services is 67,80€. Application developers get access to Expander Services when registering. Customers can contact their local SuperOffice partner or representative to get recommendations for their specific business needs.
+The monthly subscription fee for Expander Services is 67,80 EUR. Application developers get access to Expander Services when registering. Customers can contact their local SuperOffice partner or representative to get recommendations for their specific business needs.
 
 ## What is the cost of Expander Services?
 
@@ -25,7 +25,7 @@ The rates for the [Expander Services][] subscription license are as follows:
 |----------|---|---|---|---|---|---|
 | Subscription fee per month | 67,80 | 53,40 | 620 | 630 | 524 | 71,90 |
 
-If you are not subscribing to SuperOffice, but instead have a maintenance contract from before 2015, the prices are different from those listed here. Please [contact us][2] to find the exact price.  
+If you are not subscribing to SuperOffice, but instead have a maintenance contract from before 2015, the prices are different from those listed here. Please [contact us][2] to find the exact price.
 
 ## How to get Expander Services?
 
@@ -45,5 +45,5 @@ In addition to the standard applications, the Expander Services toolkit is also 
 [1]: index.md
 [2]: https://www.superoffice.com/company/contact/
 [3]: https://online.superoffice.com/appstore/
-[4]: ../apps/index.md
+[4]: ../../online/apps/index.md
 [5]: https://www.superoffice.com/company/partners/
