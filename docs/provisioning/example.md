@@ -3,10 +3,10 @@
 
 # Mandatory fields.
 title: provisioning_example       # (Required) Very important for SEO. Intent in a unique string of 43-59 chars including spaces.
-description: Example: provisioning # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
+description: Example provisioning # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
 author: {github-id}             # Your GitHub alias.
 keywords:
-so.topic:                       # article, howto, reference, concept, guide
+so.topic: article               # article, howto, reference, concept, guide
 
 # Optional fields. Don't forget to remove # if you need a field.
 so.envir: cloud           # cloud or onsite

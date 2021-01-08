@@ -117,14 +117,14 @@ There is no user or session concept in the mirroring client, so no session token
 The Mirroring Task sends the SuperOffice signed token with every call so that the client can validate each call independently.
 
 <!-- Referenced links -->
-[1]: ../online/apps/client-id-and-secret.md
+[1]: ../online/apps/client-id-secret.md
 [2]: mirroring-task.md
 [3]: ../tenants/index.md
 [4]: ../online/apps/index.md
 [5]: i-mirror-client-service.md
 [6]: sql-server-schema.md
 [7]: https://community.superoffice.com/contentassets/8c09bc95f03841cd87771bc367849cf5/mirroredtables.docx
-[8]: ../apps/custom.md
+[8]: ../online/apps/custom.md
 [9]: ../tenants/get-consent.md
 [10]: ../authentication/certificates/validate-security-tokens.md
 [11]: ../authentication/system-user/sign-system-user-token.md

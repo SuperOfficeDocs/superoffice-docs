@@ -22,12 +22,12 @@ In total you will have the following NuGet package dependencies:
 
 * [SuperOffice.Crm.Online.Core][1]
 * [SuperOffice.Crm.Online.IntegrationServices][2]
-* [SuperOffice.NetServer.Core][1]
+* [SuperOffice.NetServer.Core][9]
 * [SuperOffice.NetServer.Services][3]
 * [SuperOffice.ContinuousDatabase][4]
 * [System.IdentityModel.Tokens.Jwt][5]
 
-There is an example quote connector example included in our [SuperOffice.DevNet.Online][6] GitHub repository, located in the [IntegrationServer][7] folder. Take a look at the README.md markdown file for more information.
+There is an example quote connector example included in our [SuperOffice.DevNet.Online][6] GitHub repository, located in the [IntegrationServer][7] folder. Take a look at the *README.md*  markdown file for more information.
 
 [!include[ask questions](../includes/get-help.md)]
 
@@ -42,3 +42,4 @@ Have fun building quote connectors for SuperOffice CRM Online!
 [6]: https://github.com/SuperOffice/SuperOffice.DevNet.Online
 [7]: https://github.com/SuperOffice/SuperOffice.DevNet.Online/tree/master/Source/SuperOffice.DevNet.Online.IntegrationServer
 [8]: https://community.superoffice.com/en/developer/forum/rooms/superoffice-product-api-group/crm-online-application/
+[9]: https://www.nuget.org/packages/SuperOffice.NetServer.Core/

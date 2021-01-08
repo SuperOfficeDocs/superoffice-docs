@@ -55,4 +55,4 @@ if(orgNr.isEmpty()) {
 * Your SuperOffice user must have administrator permissions.
 
 <!-- Referenced links -->
-[1]: ../expander-services/index.md
+[1]: ../license/expander-services/index.md

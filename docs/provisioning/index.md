@@ -1,6 +1,6 @@
 ---
 title: provisioning       
-description:                    
+description: Provisioning
 author: {github-id}             # Your GitHub alias.
 keywords:
 ---
@@ -36,5 +36,5 @@ If you don't offer automatic provisioning from day 1, be prepared to do so soon 
 Manual provisioning might introduce potential errors. You also run the risk of the customer never getting the application going.
 
 <!-- Referenced links -->
-[1]: ../apps/index.md
+[1]: ../online/apps/index.md
 [2]: ../tenants/index.md
