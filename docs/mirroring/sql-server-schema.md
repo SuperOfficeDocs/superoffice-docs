@@ -39,15 +39,15 @@ If you need database indexes, you should create and maintain them before or afte
 In the NuGet implementation, you can do this in one of the event-handling methods in IMirrorAdmin:
 
 * In `OnBeforeReplicateTable`, which is called once for each table in each mirroring cycle
-* Inn `OnReplicationCompleted`, which is called once at the end of a complete cycle
+* In `OnReplicationCompleted`, which is called once at the end of a complete cycle
 
 ## Blacklisted tables
 
 Database tables that fall into one of the [following categories are not mirrored][2]:
 
-* irrelevant (travelgeneratedtransaction)
-* not useful (traveltransactionlog, countervalue)
-* confidential (credentials)
+* irrelevant (`travelgeneratedtransaction`)
+* not useful (`traveltransactionlog`, `countervalue`)
+* confidential (`credentials`)
 
 ## When mirroring schema changes fails
 

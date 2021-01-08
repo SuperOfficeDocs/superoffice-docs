@@ -19,8 +19,8 @@ Our database mirroring service has a pre-defined list of tables not replicated d
 
 To add tables to the mirroring service blacklist, create a user preference with:
 
-* `prefSection` \- Mirroring
-* `prefKey` \- SkipTables
+* `prefSection`: Mirroring
+* `prefKey`: SkipTables
 
 The `prefValue` is where you store a comma-separated string of table names that are added to the blacklisted list during the replication phase.
 
@@ -32,7 +32,7 @@ You must use the API to add a user preference. There is no built-in **Preferenc
 
 ### REST API
 
-```javascript
+```http
 POST https://sod.superoffice.com/Cust12345/api/v1/Preference/Mirroring/SkipTables HTTP/1.1
 Authorization: Bearer 8A:Cust12345.ARE...brevity...H8
 Accept: application/json; charset=utf-8
@@ -48,19 +48,16 @@ Content-Type: application/json; charset=utf-8
 ```csharp
 using (PreferenceAgent prefAgent = new PreferenceAgent())
 {
-    var preference = prefAgent.CreateDefaultPreference();
-    preference.Specification = new PreferenceSpec() 
-    { 
-        Section = "Mirroring",
-        Key = "SkipTable"
-    };
-
-    preference.Level = SuperOffice.Data.PreferenceLevel.Database;
-
-    // Comma-separated list of table names
-    preference.RawValue = "ej_message,y_table";
-
-    return prefAgent.SavePreferenceEntity(preference, true);
+  var preference = prefAgent.CreateDefaultPreference();
+  preference.Specification = new PreferenceSpec() 
+  { 
+    Section = "Mirroring",
+    Key = "SkipTable"
+  };
+  preference.Level = SuperOffice.Data.PreferenceLevel.Database;
+  // Comma-separated list of table names
+  preference.RawValue = "ej_message,y_table";
+  return prefAgent.SavePreferenceEntity(preference, true);
 }
 ```
 
@@ -70,7 +67,7 @@ If you require a UI for managing user preferences, consider creating a section t
 
 ![imageq9fi.png][img1]
 
-### Add a preference **section**
+### Add a preference section
 
 Adding a preference **section** makes it available as a selectable list item in the **Preferences** settings.
 
@@ -82,7 +79,7 @@ Adding a preference **section** makes it available as a selectable list item in 
 
 **REST:**
 
-```javascript
+```http
 POST https://sod.superoffice.com/Cust12345/api/v1/PreferenceDescription HTTP/1.1
 Authorization: Bearer 8A:Cust12345.AWd...brevity...4xr
 Accept: application/json; charset=utf-8
@@ -132,7 +129,7 @@ Adding a preference **setting** makes it available as an optional setting under 
 
 **REST:**
 
-```javascript
+```http
 POST https://sod.superoffice.com/Cust12345/api/v1/PreferenceDescription HTTP/1.1
 Authorization: Bearer 8A:Cust12345.AW...brevity...xr
 Accept: application/json; charset=utf-8

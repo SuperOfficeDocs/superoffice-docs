@@ -6,73 +6,130 @@ title: mirroring_intro # (Required) Very important for SEO. Intent in a unique s
 description: Database Mirroring Service for SuperOffice CRM Online # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
 author: {github-id}             # Your GitHub alias.
 keywords:
-so.topic:                       # article, howto, reference, concept, guide
+so.topic: concept               # article, howto, reference, concept, guide
 
 # Optional fields. Don't forget to remove # if you need a field.
 so.envir: cloud             # cloud or onsite
 so.client: online             # online, web, win, pocket, or mobile
 ---
 
-# Database Mirroring Service for SuperOffice CRM Online
 
-*This document will provide technical documentation about a specific area (Database Mirroring Service) of the SuperOffice CRM concept. The document is public and serves the purpose of documenting technology, architecture, security, and privacy matters.*
+# Database mirroring
 
-*SuperOffice AS*
+Database mirroring is an API feature that applications can use for local processing when **real-time data is not the most important consideration**. It's not a standalone product.
 
-## Description of the service
+Mirroring a customer's database gives partners a tremendous amount of flexibility to perform deep analysis on customer data - all without having to rely on web services subjected to latency or throughput issues.
 
-SuperOffice CRM Online offers an internet-based service that will allow a copy of the Customer’s Database to be created outside the SuperOffice CRM Online environment – i.e. to an external location not controlled by SuperOffice AS. The Database Mirroring service is available to the Customer either as a separate, payable service or as a service included in a certified Application in the SuperOffice App Store.
+Using NetServer web services, online applications have virtually unlimited access to customer databases for reading and writing data. However, when intensive or extensive data processing is needed, it's always best to have a local copy of a database.
 
-## Technical description of the service
+> [!CAUTION]
+> Database mirroring is **NOT** for customers who don't have the competence to set it up and maintain it themselves.
 
-Database Mirroring is an optional property of a registered App in the SuperOffice App Store. Each such app is entered in the OC systems (SuperOffice Online Operations Center – “OC”) with a unique **application identifier** (issued by SuperOffice) and a **public key** obtained from the App author (“Partner”). The corresponding **private key** of the pair is kept strictly secret by the Partner. The **URL** at which the Partner has the service that receives data is also entered. None of this information is present in the Customer database, nor in any user interface accessible to Customers.
+Imagine you are an online application vendor who has created the world's best trending software. You have created an application that can scan a database, mine it for patterns, and display trend reports. It would be nearly impossible to do this effectively with only web services.
 
-At the start of each mirroring cycle, the initial call to the Partner URL is a **mutual authentication**. SuperOffice calls the registered URL, sending a **signed token**; this is a standard security mechanism where the transmitting party bundles several pieces of information and adds a signature. The token contains:
+![trendsyapp][img1]
 
-* The Customer context ID, which uniquely identifies the Customer whose data will be mirrored
-* The application ID, which uniquely identifies the intended recipient
-* A random number (“nonce”) unique to each token
-* A timestamp
+## Primary components
 
-This token is signed using a private key that belongs to SuperOffice and is only installed on the specific computers that are intended to be originators of Database Mirroring calls. The private key is different for the Development, Stage, and Production environment.
+![trendsy][img2]
 
-The corresponding **public key** together with its signing chain is published to partners and installed on the computer intended to handle incoming mirroring calls. Using code published by SuperOffice, the partner
+### Registered application
 
-* Verifies that the incoming token has the correct signature (by SuperOffice)
-* Verifies that it is freshly generated (clocks must not be more than 5 minutes apart)
-* Verifies that the application ID in the token is the same as the system receiving it
+We keep a record of the applications you register in our Operations Center. This information includes your [client ID and client secret][1] (token) and whether mirroring has been activated.
 
-Having done so, the Customer context ID can be extracted. Note that SuperOffice does not transmit any user ID or access token that enables the Partner to call back to SuperOffice; mirroring is **strictly initiated by SuperOffice** and is always a request-response pattern where SuperOffice is the requestor.
+When we activate mirroring, we also store the mirroring URL, which is where the Mirroring Task will send the data.
 
-To complete the authentication handshake, the partner code creates a response that contains
+### Mirroring task
 
-* The nonce from the incoming request, to prove that this is a response to that request
-* A timestamp
+The [Mirroring task][2] is a background process in our Operation Center that transfers data from a [tenant database][3] to a partner's registered [application][4]. It is responsible for provisioning the change tracking in the customer database and it is managed by SuperOffice.
 
-This response is signed using the partner’s secret key and transmitted back to SuperOffice. At SuperOffice, the signature is verified using the registered public key (unique to the Partner and Environment), as well as verifying the nonce and the timestamp.
+### A web service implementing IMirrorClientService and IMirrorAdmin
 
-At this point the **mutual authentication** is considered complete, where the SuperOffice server and the Partner site are confident that the opposite party is the correct one. From here the actual mirroring process proceeds; SuperOffice initiates all calls (first to update the database schema, then to transmit data changed since the last update). Each call identifies itself using the same signed token mechanism so that the Partner can know which Customer the data belongs to.
+You must create and host the web service that receives the data. This web service must implement the [IMirroringClient interface][5]. The service interface is responsible for establishing a trusted connection, receiving the data, and performing the actual mirroring, such as provisioning of tables and performing schema updates.
 
-All communication uses SSL / HTTPS. Non-HTTPS URLs are not acceptable, and the certificate behind the HTTPS URL needs to be valid and from a known issuer (self-issued certificates are never valid, including in development/test environments).
+## Database management system
 
-## Partner database security
+Microsoft SQL Server is currently the only option for SuperOffice CRM Online and our implementation of `IMirrorClientService` in the NuGet package.
 
-Once the mirroring process is established, data flows to the Partner in a secure manner. Further security against unauthorized access to the data then falls on the Partner. SuperOffice requires Partners to undergo a security audit before they are authorized to implement Database Mirroring. The audit is performed by an accredited specialist company.
+The NuGet mirroring API uses SQL syntax, SQL Server dialect, for database column data types.
 
-## Data filtering and blacklisting
+This avoids the need to create a NetServer instance for database independence and reduces the complexity of the overall system. It also reduces storage requirements and processing load, by using the schema and change-tracking mechanisms built into so  SQL Server.
 
-A SuperOffice database contains, in addition to Customer data, various system tables that are used (among other things) to regulate access to the installation. The database mirroring mechanism contains an internal “blacklist” of tables that are never mirrored; these are either irrelevant (transient data related to a particular UI) or sensitive.
+## Is the mirror database an exact copy?
 
-In particular, the blacklist contains tables related to the configuration of other synchronization products (ERP Sync), session keys, credentials (password hashes, credentials for email), preferences, and other information considered private and sensitive.
+You don't get an exact copy of a tenant database, but a subset that contains more than enough data for what the application needs for offline processing.
 
-## Security & Privacy Aspects
+Primary key, data type, NULL / NOT NULL, and default value are mirrored, and of course the table and column names. [Read more about the schema][6].
 
-The  Customers’ database reside inside of the Online environment, where security is provided and guaranteed by SuperOffice and the vendors/partners that SuperOffice relies on to supply the infrastructure and services upon which CRM Online actually runs. The legal relationship between the Customer, SuperOffice and such third parties is set out and regulated by the contract between SuperOffice and the Customer.
+We remove data that is irrelevant, that would incur unnecessary stress between systems, and which would not make sense to replicate:
 
-The purpose of Database Mirroring is to **transfer Customer data to an external site**, either a Partner or the Customer. This raises issues about the legality and security of such a transfer, as well as the data security at its destination.
+* Window positions
+* DBI agent information
+* Search criteria information and operators
+* Area and travel tables
+* User credentials
+* Sensitive information
 
-The Customer is required to digitally sign (consent to) an Addendum to the standard contract, authorizing SuperOffice to transfer Customer’s data to the named third party. Responsibility for data security at the destination falls on the third party, while the transfer itself is secured by SuperOffice.
+A complete list of tables both replicated and not replicated with reason are listed in the [Mirrored Tables document][7].
 
-A Data Processing Agreement (Sub-Processor) is signed between SuperOffice and the named third party using the Mirroring Service securing Data Privacy aspects.
+You will not be able to connect to the mirror database using any SuperOffice client or API!
 
-SuperOffice certifies all software applications who uses the Database Mirroring Service in their Apps; the process includes a security audit by a qualified company chosen by SuperOffice. Only selected employees at SuperOffice Online Operations are authorized to register keys and other significant values, that set up and enable the transfer process.
+## When should I consider database mirroring?
+
+* Reporting
+* Pattern recognition
+* Trend processing
+
+## How do I use database mirroring?
+
+Database mirroring is an **option** that can be activated or deactivated for any online application. It is **not** a standalone, off-the-shelf application.
+
+You must first register a [custom application][8] and then build the feature in your environment. The NuGet package provided by SuperOffice includes methods to facilitate authentication and mirroring.
+
+The Mirroring Client service obtains access to the database by submitting the **Context Id** of the customer (“cust1234”), which uniquely identifies the customer in the online universe.
+
+Whoever sets up database mirroring, is responsible if it breaks or stops!If you restore your primary database from backup, you should discard the mirror. **Backup-and-restore cycles during a failed upgrade do not trigger a mirror wipe.**
+
+## Provisioning
+
+Even though most of the mirroring client service is written by SuperOffice in the NuGet package, the partner creating the application has the ultimate responsibility to provision the mirror database as well as to host the service. How this is done and where the database resides are **solely the partner’s concern**.
+
+There is no separate method to indicate that you have a new customer: calls simply start to come in.
+
+The 1st mirroring happens immediately after the customer [approves the application][9].  After that, the Online master scheduler controls mirroring.
+
+This mirroring service will provision mirror databases on 1 fixed SQL server. Each database will be named `Mirror_<contextId>`.
+
+Any test databases (tenants) that approve your application will receive a mirror shortly after authorization, and the mirror will be kept up to date as long as it stays authorized.
+
+## Hand-shake protocol for mirroring
+
+Before transferring any mirrored data, we need to establish a two-way trust. The Mirroring Task will only proceed if it gets a valid response from the client.
+
+1. SuperOffice initiates the handshake by sending a security token that contains a tenant's context identifier and timestamp to your mirroring web service.
+2. The `IMirroringClientService` **Authenticate** method at your end must [validate the security token][10] and then respond with **ApplicationToken** and **timestamp** [signed with a private key][11].
+3. SuperOffice validates the response.
+
+![authenticationsequencediagram][img3]
+
+There is no user or session concept in the mirroring client, so no session token is ever issued.
+
+The Mirroring Task sends the SuperOffice signed token with every call so that the client can validate each call independently.
+
+<!-- Referenced links -->
+[1]: ../online/apps/client-id-and-secret.md
+[2]: mirroring-task.md
+[3]: ../tenants/index.md
+[4]: ../online/apps/index.md
+[5]: i-mirror-client-service.md
+[6]: sql-server-schema.md
+[7]: https://community.superoffice.com/contentassets/8c09bc95f03841cd87771bc367849cf5/mirroredtables.docx
+[8]: ../apps/custom.md
+[9]: ../tenants/get-consent.md
+[10]: ../authentication/certificates/validate-security-tokens.md
+[11]: ../authentication/system-user/sign-system-user-token.md
+
+<!-- Referenced images -->
+[img1]: media/trendsyapp.png
+[img2]: media/trendsy.png
+[img3]: media/authenticationsequencediagram.png

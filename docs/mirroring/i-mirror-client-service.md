@@ -15,11 +15,11 @@ so.client: online               # online, web, win, pocket, or mobile
 
 # IMirrorClientService interface
 
-SuperOffice NuGet implementation of IMirrorClientService interface for Microsoft SQL Server.
+SuperOffice NuGet implementation of `IMirrorClientService` interface for Microsoft SQL Server.
 
 ## MirroringClientImplementation class
 
-The **MirroringClientService** class file is the [database mirroring][1] web service that SuperOffice will call to synchronize databases. The class inherits from the `MirroringClientImplementation` class, which resides in the `SuperOffice.Online.Mirroring` assembly.
+The `MirroringClientService` class file is the [database mirroring][1] web service that SuperOffice will call to synchronize databases. The class inherits from the `MirroringClientImplementation` class, which resides in the `SuperOffice.Online.Mirroring` assembly.
 
 * `MirroringClientImplementation` contains almost everything a database mirroring service needs to synchronize an online tenant database with a local SQL Server database server.
 * `MirroringClientImplementation` must:
@@ -27,11 +27,11 @@ The **MirroringClientService** class file is the [database mirroring][1] web ser
   * create the database if necessary
   * discover and provide the service's ApplicationToken and the private certificate key required to sign the token
 
-Luckily for you, these 3 tasks are implemented for you in the *MirroringClientService.cs* file. However, you still must provide those key pieces of information in the projects *web.config* file.
+Luckily for you, these 3 tasks are implemented in the *MirroringClientService.cs* file. However, you still must provide those key pieces of information in the projects *web.config* file.
 
 ## Methods
 
-The IMirrorClientService interface has 5 self-contained methods:
+The `IMirrorClientService` interface has 5 self-contained methods:
 
 * Authenticate
 * ReplicationCompleted
@@ -47,10 +47,10 @@ The NuGet implementation is for Microsoft SQL Server only!
 
 No state is carried over from a call to the next. However, multiple calls may be active at the same time, for multiple customers, tables, or both. The only guarantee is that:
 
-* there will not be multiple active calls for a specific combination of customer and table
-* each customer’s [mirroring cycle][2] will run in a linear timeline from start to end
+* There will not be multiple active calls for a specific combination of customer and table
+* Each customer’s [mirroring cycle][2] will run in a linear timeline from start to end
 
-All implementations of IMirrorClientService **must be multi-tenant and fully re-entrant**.
+All implementations of `IMirrorClientService` **must be multi-tenant and fully re-entrant**.
 
 ### Authenticate
 

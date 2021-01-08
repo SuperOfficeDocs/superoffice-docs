@@ -13,7 +13,7 @@ so.envir: cloud           # cloud or onsite
 so.client: online               # online, web, win, pocket, or mobile
 ---
 
-# About the database Mirroring Task
+# The database Mirroring Task
 
 The Operation Center schedules the database Mirroring Task, running it periodically for each customer and application instance.
 
@@ -45,7 +45,7 @@ This process will automatically set up change tracking on the SuperOffice CRM On
 
 ## When does the mirroring task run?
 
-The mirroring task is scheduled to run every 20 minutes. However, there are multiple tasks running in sequence on each [customer tenant][3]. If another task takes longer to complete than planned, the mirroring task might be delayed.
+The mirroring task is scheduled to run every 20 minutes. However, multiple tasks run in sequence on each customer tenant. If another task takes longer to complete than planned, the mirroring task might be delayed.
 
 We also stop the task completely from 23.00 to 06:00 every night.
 
@@ -55,7 +55,7 @@ Mirroring does not run during server maintenance, such as SuperOffice CRM Online
 
 One mirroring batch is equivalent to roughly up to 1 megabyte of data. The number of rows will vary widely depending on the actual size of the rows.
 
-Each batch refers to 1 table, but 1 call to the [IMirrorClientService][4] interface may reference multiple tables using multiple batches.
+Each batch refers to 1 table, but 1 call to the [IMirrorClientService][3] interface may reference multiple tables using multiple batches.
 
 The SuperOffice CRM Online server will limit the total call size by tracking content size.
 
@@ -64,8 +64,7 @@ Batches can in principle be processed in parallel, but doing so would probably s
 <!-- Referenced links -->
 [1]: index.md
 [2]: track-changes.md
-[3]: ../tenants/index.md
-[4]: https://community.superoffice.com/en/developer/create-apps/reference/imirrorclientservice/
+[3]: i-mirror-client-service.md
 
 <!-- Referenced images -->
 [img1]: media/mirroringprinciplessequencediagram.png

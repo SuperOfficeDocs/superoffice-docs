@@ -13,7 +13,7 @@ so.envir: cloud           # cloud or onsite
 so.client: online               # online, web, win, pocket, or mobile
 ---
 
-# Force mirroring re-sync in production database
+# Force mirroring re-sync in a production database
 
 You have set up database mirroring and data was synchronizing as expected, but now it seems to have stopped. What do you do?
 
@@ -26,13 +26,13 @@ This procedure is intended for a live system. If you want to debug mirroring in 
 ## Pre-requisites
 
 * your application is registered and has been deployed to the production environment
-* you have a publically available working service
+* you have a publicly available working service
 * your application has been [approved by the customer's tenant][2] administrator
 
 ## Restart synchronization
 
 1. Using **SQL Server Management Studio**, go to the `<context identifier>_mirroring` database table
-2. For each table that you have identified as having a problem, **set LSN  to** `**-1**` within the mirroring table.
+2. For each table that you have identified as having a problem, **set LSN  to `-1`** within the mirroring table.
 3. Shortly thereafter, the [Mirroring Task][3] will send an authentication request, which your client must respond to. After successful authentication, SuperOffice will begin to deliver periodic updates to your mirroring service.
 
 ## Hard reset the mirror
@@ -41,6 +41,6 @@ This procedure is intended for a live system. If you want to debug mirroring in 
 2. Shortly thereafter (the next mirroring cycle), the [Mirroring Task][3] will send an authentication request, which your client must respond to. After successful authentication, SuperOffice will begin to deliver periodic updates to your mirroring service.
 
 <!-- Referenced links -->
-[1]: https://community.superoffice.com/en/developer/create-apps/how-to/develop/synchronize-database-mirror-for-debug/
-[2]: ../tenants/give-consent.md
+[1]: sync-manually.md
+[2]: ../tenants/get-consent.md
 [3]: mirroring-task.md

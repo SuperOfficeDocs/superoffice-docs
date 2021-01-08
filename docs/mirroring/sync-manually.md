@@ -22,7 +22,7 @@ It's time to signal SuperOffice that your application is ready to be called.
 ## Pre-requisites
 
 * your application is registered
-* you have a publically available working service
+* you have a publicly available working service
 * you are testing this in SOD
 
 > [!NOTE]
@@ -32,9 +32,7 @@ It's time to signal SuperOffice that your application is ready to be called.
 
 1. Enter the following URL in a browser, using your own **client ID**:
 
-```csharp
-https://sod.superoffice.com/login/?app_id=YOUR_APPLICATION_ID
-```
+    `https://sod.superoffice.com/login/?app_id=YOUR_APPLICATION_ID`
 
 2. If the application has not yet been approved (in SOD), the SuperOffice Online sign-in page is shown. Sign in and approve the application with your SOD tenant credentials.
     1. If you defined a [Redirect URL][1] for your application, you will be redirected to that URL.
@@ -56,5 +54,5 @@ If this process fails for any reason, `ResolveConnection()` will not be called a
 > Because there is no GUI to check data in a mirror, **SQL Server Management Studio** must be used. Generally, it should be possible to do `select * from <sometable>` in both the customer table and the mirror, and get the same result.
 
 <!-- Referenced links -->
-[1]: ../redirect-url.md
+[1]: ../online/redirects/index.md
 [2]: mirroring-task.md

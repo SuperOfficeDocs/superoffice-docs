@@ -27,17 +27,17 @@ These steps were documented using Visual Studio 2015.
 
 2. In the **New Project** dialog, expand the **WCF** section and select to create a new **WCF Service Application**.
 
-![x][img1]
+    ![x][img1]
 
 3. In the **Solution Explorer**, delete the following files: *IService1.cs*, *Service1.svc*, and *Service1.cs*.
 
-Before:
+    Before:
 
-![x][img2]
+    ![x][img2]
 
-After:
+    After:
 
-![x][img3]
+    ![x][img3]
 
 ## Install the NuGet package
 
@@ -45,13 +45,9 @@ After:
 
     * Click **Tools**, then **NuGet Package Manager**, and then **Package Manager Console**.
 
-2. Start the installation by typing:
+2. Start the installation by typing: `Install-Package SuperOffice.Crm.Online.Mirroring`
 
-```csharp
-Install-Package SuperOffice.Crm.Online.Mirroring
-```
-
-![x][img4]
+    ![x][img4]
 
 3. Verify that the packages have been added:
 
@@ -60,17 +56,17 @@ Install-Package SuperOffice.Crm.Online.Mirroring
     2. Confirm that you have a new assembly references and that the following files have been added to your project: *MirroringClientService.svc*, *MirroringClientService.cs,* and *Private.txt*.
     3. Open the *package.config* file and check that you now have the new Mirroring package and its 2 dependencies. Your package versions may be different, and that is OK.
 
-![x][img5]
+    ![x][img5]
 
 > [!TIP]
-> During installation, you will see a lot of data scroll by in the NuGet **Package Manager Console**. The Package Manager inspects the **SuperOffice.Crm.Online.Mirroring** package and tries to download and add dependencies to your project.
+> During installation, you will see a lot of data scroll by in the NuGet **Package Manager Console**. The Package Manager inspects the `SuperOffice.Crm.Online.Mirroring` package and tries to download and add dependencies to your project.
 
 ### Key points during package installation
 
 * package name (`SuperOffice.Crm.Online.Mirroring`)
 * `System.IdentityModel.Tokens.Jwt` dependency
 * `SuperOffice.Crm.Online.Core` dependency
-* *successfully installed* message
+* **successfully installed** message
 
 These are underlined with red in the following screenshot:
 
@@ -78,7 +74,7 @@ These are underlined with red in the following screenshot:
 
 ## Update settings in the web.config file
 
-The functionality in the *MirroringClientService.cs* file helps you resolve a [tenant][2]'s context identifier to a particular database, create the database if necessary, discover and provide the service's **ApplicationToken**, as well as the private certificate key it must use to sign the token placed in the **AuthenticationResponse** message. However, you must still provide those key pieces of information in the project's *web.config* file.
+The functionality in the *MirroringClientService.cs* file helps you resolve a tenant's context identifier to a particular database, create the database if necessary, discover and provide the service's **ApplicationToken**, as well as the private certificate key it must use to sign the token placed in the **AuthenticationResponse** message. However, you must still provide those key pieces of information in the project's *web.config* file.
 
 ![x][img7]
 
@@ -112,7 +108,7 @@ Assuming everything is correctly in place, you will see the default IIS or IISEx
 
 ![x][img10]
 
-Finally, you will want to expose this service to a public HTTPS URL for the [SuperOffice Mirroring Task][3] to access it.
+Finally, you will want to expose this service to a public HTTPS URL for the [SuperOffice Mirroring Task][2] to access it.
 
 **This will be the URL you must give SuperOffice when registering your application.**
 Remember to specify this URL as the Database Mirror URL, not the Redirect URL.
@@ -121,8 +117,7 @@ Remember to specify this URL as the Database Mirror URL, not the Redirect URL.
 
 <!-- Referenced links -->
 [1]: https://www.nuget.org/packages/SuperOffice.Crm.Online.Mirroring
-[2]: ../tenants/index.md
-[3]: mirroring-task.md
+[2]: mirroring-task.md
 
 <!-- Referenced images -->
 [img1]: media/createwcfservice.png
@@ -135,4 +130,4 @@ Remember to specify this URL as the Database Mirror URL, not the Redirect URL.
 [img8]: media/webconfigpostinstall.png
 [img9]: media/webconfigpostinstallservermodel.png
 [img10]: media/wcfserviceiniis.png
-[img11]: media/wcfserviceiniis_https.png
+[img11]: media/wcfserviceiniis-https.png
