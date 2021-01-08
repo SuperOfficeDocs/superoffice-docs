@@ -2,10 +2,8 @@
 # This basic template provides core metadata fields for Markdown articles on docs.superoffice.com.
 
 # Mandatory fields.
-title: bulkupdate_appointment_table # (Required) Very important for SEO. Intent in a unique string of 43-59 chars
-including spaces.
-description: Bulk update Appointment table # (Required) Important for SEO. Recommended character length is 115-145
-characters including spaces.
+title: bulkupdate_appointment_table # (Required) Very important for SEO. Intent in a unique string of 43-59 chars including spaces.
+description: Bulk update Appointment table # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
 author: Tony Yates
 so.date: 06.23.2017
 keywords:
