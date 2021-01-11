@@ -5,9 +5,9 @@
 title: 91_r_3_date_time_changes       # (Required) Very important for SEO. Intent in a unique string of 43-59 chars including spaces.
 description:                    # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
 author: Marek Vokáč             # Your GitHub alias.
-so-date: 1 Oct 2020
+so-date: 10.01.2020
 keywords:
-so.topic:                       # article, howto, reference, concept, guide
+so.topic: article                # article, howto, reference, concept, guide
 
 # Optional fields. Don't forget to remove # if you need a field.
 so.envir: cloud           # cloud or onsite

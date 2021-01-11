@@ -5,7 +5,7 @@
 title: what_is_netserver_part_2       # (Required) Very important for SEO. Intent in a unique string of 43-59 chars including spaces.
 description: What is NetServer, part 2 # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
 author: Tony Yates             # Your GitHub alias.
-so.date: Published 23 Oct 2006. Updated 9 Dec 2011
+so.date: 10.23.2006
 keywords:
 so.topic: article        # article, howto, reference, concept, guide
 
@@ -187,7 +187,7 @@ The following figure displays a summary of performance using the different objec
 As you can see, there is a vast difference between the different approaches. Be aware though that just because one took longer to complete than the other, it does not mean it should not be used. Each query type has its place in the development world when used judiciously.
 
 <!-- Referenced images -->
-[img1]: https://community.superoffice.com/contentassets/8158408d085e4f539b95b67e47a95bb2/netserverhilevelview.png
-[img2]: https://community.superoffice.com/contentassets/8158408d085e4f539b95b67e47a95bb2/persontableinfo.gif
-[img3]: https://community.superoffice.com/contentassets/8158408d085e4f539b95b67e47a95bb2/personrowsobject.gif
-[img4]: https://community.superoffice.com/contentassets/8158408d085e4f539b95b67e47a95bb2/contactchart.png
+[img1]: media/netserverhilevelview.png
+[img2]: media/persontableinfo.gif
+[img3]: media/personrowsobject.gif
+[img4]: media/contactchart.png

@@ -5,7 +5,7 @@
 title: rest       # (Required) Very important for SEO. Intent in a unique string of 43-59 chars including spaces.
 description: SuperOffice RESTful WebAPI # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
 author: Tony Yates             # Your GitHub alias.
-so.date: Published 26 Nov 2015. Updated 14 Aug 2017
+so.date: 11.26.2015
 keywords:
 so.topic: article               # article, howto, reference, concept, guide
 
@@ -545,19 +545,19 @@ Take your time getting to know SuperOffice REST services, and if you happen to s
 [8]: https://community.superoffice.com/documentation/sdk/SO.NetServer.Web.Services/html/Reference-WebAPI-REST-Search.htm
 
 <!-- Referenced images -->
-[img1]: https://community.superoffice.com/globalassets/developer-club/articles/shared-images/iis-configuration.png
-[img2]: https://community.superoffice.com/globalassets/developer-club/articles/shared-images/websiteauthentication.png
-[img3]: https://community.superoffice.com/globalassets/developer-club/articles/shared-images/soapplicationauthentication.png
-[img4]: https://community.superoffice.com/globalassets/developer-club/articles/shared-images/rest-layers.png
-[img5]: https://community.superoffice.com/contentassets/2f95f1a9239b4cf7ba8ed78660087de7/imagebr9pi.png
-[img6]: https://community.superoffice.com/contentassets/2f95f1a9239b4cf7ba8ed78660087de7/image09ess.png
-[img7]: https://community.superoffice.com/contentassets/2f95f1a9239b4cf7ba8ed78660087de7/image8th4dv.png
-[img8]: https://community.superoffice.com/contentassets/2f95f1a9239b4cf7ba8ed78660087de7/image12qvq.png
-[img9]: https://community.superoffice.com/contentassets/265872412bdd4208b80cde5d545d4f6e
-[img10]: https://community.superoffice.com/contentassets/b91b86099b7e4a60aeb7430778bd0b71
-[img11]: https://community.superoffice.com/contentassets/9f67f542ffc64a14b9525b4f549b82f5
-[img12]: https://community.superoffice.com/contentassets/14fe8f412fdb4304b6beef03137257f0
-[img13]: https://community.superoffice.com/contentassets/0d4369a45d534c86a2b6ea0e94e6bb6a
-[img14]: https://community.superoffice.com/contentassets/4fb732a57cbb47cc8625d64b79e0ca98
-[img15]: https://community.superoffice.com/contentassets/2f95f1a9239b4cf7ba8ed78660087de7/imagesupload.png
-[img16]: https://community.superoffice.com/contentassets/31ce2159459742548389f6e8efb8a2e2
+[img1]: media/iis-configuration.png
+[img2]: media/websiteauthentication.png
+[img3]: media/soapplicationauthentication.png
+[img4]: media/rest-layers.png
+[img5]: media/imagebr9pi.png
+[img6]: media/image09ess.png
+[img7]: media/image8th4dv.png
+[img8]: media/image12qvq.png
+[img9]: media/rest-1.png
+[img10]: media/rest-2.png
+[img11]: media/rest-3.png
+[img12]: media/rest-4.png
+[img13]: media/rest-5.png
+[img14]: media/rest-6.png
+[img15]: media/imagesupload.png
+[img16]: media/rest-7.png

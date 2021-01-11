@@ -46,8 +46,8 @@ Your [application][7] is not allowed to place .net assemblies in a tenant web ap
 
 <!-- Referenced links -->
 [1]: ../tenants/index.md
-[2]: ../expander-services/index.md
-[3]: https://community.superoffice.com/en/content/content/online/online-integrations/
+[2]: ../license/expander-services/index.md
+[3]: ../apps/what-api-to-use.md
 [4]: https://www.nuget.org/packages/SuperOffice.NetServer.Services
 [5]: https://community.superoffice.com/documentation/sdk/SO.NetServer.Web.Services/html/Reference-WebAPI-REST-REST.htm
 [6]: https://community.superoffice.com/documentation/sdk/SO.NetServer.Web.Services/html/Reference-WebAPI-Agents-Agents.htm

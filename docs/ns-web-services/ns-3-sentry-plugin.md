@@ -5,7 +5,7 @@
 title: sentry_plugin       # (Required) Very important for SEO. Intent in a unique string of 43-59 chars including spaces.
 description: Sentry plugin with user-defined tables # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
 author: Tony Yates             # Your GitHub alias.
-so.date: Published 16 May 2008. Updated 9 Dec 2011
+so.date: 05.16.2008
 keywords:
 so.topic: article              # article, howto, reference, concept, guide
 
@@ -294,7 +294,7 @@ The following screenshots show the results of the same query run on the contact 
 [2]: http://devnet.superoffice.com/Library/Articles/NetServer-SDK/Archived-Articles/Generate-User-Defined-Table-Classes-For-Use-in-NetServer/
 
 <!-- Referenced images -->
-[img1]: https://community.superoffice.com/contentassets/244d5bb7dece41ad9d141ab0e91e8616/image002.gif
-[img2]: https://community.superoffice.com/contentassets/244d5bb7dece41ad9d141ab0e91e8616/image003.png
-[img3]: https://community.superoffice.com/contentassets/244d5bb7dece41ad9d141ab0e91e8616/image005.jpg
-[img4]: https://community.superoffice.com/contentassets/244d5bb7dece41ad9d141ab0e91e8616/image006.jpg
+[img1]: media/image002.gif
+[img2]: media/image003.png
+[img3]: media/image005.jpg
+[img4]: media/image006.jpg

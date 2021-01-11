@@ -5,7 +5,7 @@
 title: getting_started       # (Required) Very important for SEO. Intent in a unique string of 43-59 chars including spaces.
 description: Getting started with the SuperOffice web services # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
 author: Frode Lillerud             # Your GitHub alias.
-so-date: 28 Apr 2015
+so-date: 04.28.2015
 keywords:
 so.topic: article               # article, howto, reference, concept, guide
 
@@ -22,7 +22,7 @@ This blogpost is written for developers who want to manipulate the data in Super
 
 First, you’ll need Visual Studio - you can just grab the free version, like Visual Studio Community 2013 version. Next, the web services needs to be installed on the server. If you are responsible for the SuperOffice installation you can download SuperOffice 7.Web, and either just install the NetServer part (which is basically just the web services), or you can install the full 7.web and make sure you tick the checkbox that asks if you want to make the remote web services available. If you are an external developer that just wants to communicate with SuperOffice just ask the customer to contact their SuperOffice partner in order to get the web services installed.
 
-Once you’ve got Visual Studio up and running you’ll need to get a few .dlls that you are going to reference in your project. The files can for instance be found in the \\bin folder on the server where the web services are installed. The files you need are:
+Once you’ve got Visual Studio up and running you’ll need to get a few .dlls that you are going to reference in your project. The files can for instance be found in the *bin* folder on the server where the web services are installed. The files you need are:
 
 **Update!**
 
@@ -262,7 +262,7 @@ using (FindAgent find = new FindAgent())
 Hopefully, this is useful for anyone getting started with the SuperOffice web services.
 
 <!-- Referenced links -->
-[1]: https://community.superoffice.com/en/developer/blog/netserver-web-service-changes-v80-to-v80-sr1/
+[1]: 80-to-80-sr-1.md
 
 <!-- Referenced images -->
-[img1]: media/8183_24657.jpg
+[img1]: media/8183-24657.jpg

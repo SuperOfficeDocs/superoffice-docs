@@ -40,4 +40,4 @@ SO-AppToken: f2398a3a7wer3759d4b220e9a9c94321
 ```
 
 <!-- Referenced links -->
-[1]: https://community.superoffice.com/en/developer/create-apps/how-to/develop/get-system-user-ticket/
+[1]: ../authentication/system-user/get-system-user-ticket.md

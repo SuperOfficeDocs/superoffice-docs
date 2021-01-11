@@ -3,9 +3,9 @@
 
 # Mandatory fields.
 title: localized_address_field       # (Required) Very important for SEO. Intent in a unique string of 43-59 chars including spaces.
-description: Web services: LocalizedAddress and LocalizedField # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
+description: Web services LocalizedAddress and LocalizedField # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
 author: Tony Yates             # Your GitHub alias.
-so-date: 15 May 2017
+so-date: 05.15.2017
 keywords:
 so.topic: article             # article, howto, reference, concept, guide
 
@@ -364,6 +364,6 @@ Working with address information in SuperOffice CRM web services had never been 
 Happy Coding!
 
 <!-- Referenced img -->
-[img1]: media/12272_25218.jpg
-[igm2]: media/12279_25204.jpg
-[img3]: media/12280_25202.jpg
+[img1]: media/12272-25218.jpg
+[igm2]: media/12279-25204.jpg
+[img3]: media/12280-25202.jpg

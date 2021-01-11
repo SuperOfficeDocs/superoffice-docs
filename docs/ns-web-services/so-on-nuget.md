@@ -3,11 +3,11 @@
 
 # Mandatory fields.
 title: so_on_nuget # (Required) Very important for SEO. Intent in a unique string of 43-59 chars including spaces.
-description:# (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
+description: SuperOffice on NuGet # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
 author: Tony Yates # Your GitHub alias.
-so-date: 29 Feb 2016
+so.date: 02.29.2016
 keywords:
-so.topic: # article, howto, reference, concept, guide
+so.topic: article # article, howto, reference, concept, guide
 
 # Optional fields. Don't forget to remove # if you need a field.
 so.envir: cloud # cloud or onsite

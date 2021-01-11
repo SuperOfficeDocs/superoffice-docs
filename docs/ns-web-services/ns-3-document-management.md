@@ -5,7 +5,7 @@
 title: ns_3_document_management       # (Required) Very important for SEO. Intent in a unique string of 43-59 chars including spaces.
 description: Web service document management # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
 author: Tony Yates             # Your GitHub alias.
-so.date: Published 11 Jun 2008. Updated 9 Dec 2011
+so.date: 06.11.2008
 keywords:
 so.topic:                       # article, howto, reference, concept, guide
 

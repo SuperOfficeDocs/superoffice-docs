@@ -5,7 +5,7 @@
 title: what_is_netserver_part_1       # (Required) Very important for SEO. Intent in a unique string of 43-59 chars including spaces.
 description: What is NetServer, part 1 # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
 author: Tony Yates             # Your GitHub alias.
-so.date: Published 28 Jul 2006. Updated 9 Dec 2011
+so.date: 07.28.2006
 keywords:
 so.topic: article             # article, howto, reference, concept, guide
 
@@ -22,7 +22,7 @@ This article, the first of a planned two-part series, will cover the basic ove
 
 In a nutshell, NetServer is a layered, factory-driven library that enables developers to conduct Create, Read, Update and Delete (CRUD) operations to the SuperOffice database, and more. Whether deploying a solution to a local SuperOffice database installation, or operating in a distributed environment, NetServer exposes an array of application programming interface (API) approaches to facilitate a wide range of solution implementations. Although the terrain is vast and complex, and at first sight be can somewhat intimidating, the NetServer API tailors to a wide variety of developers by layering the architecture in various intuitive abstractions. In this article, I will guide you through the various regions of NetServer, show you the attractions, as well as point out the areas to avoid.
 
-When programming with the NetServer API, other than calling the webservices directly, every solution needs a SuperOffice-specific section group in your application configuration file. This means adding a SuperOffice-specific section groups to an app.config file for Windows Forms applications, or web.config file for an ASP.NET web application. The SuperOffice section group contains configuration options relevant NetServer operations, such as logging, document handling, security, database options, and so forth. Everything you need to know about the SuperOffice configuration options are well-defined in the [Hitchhikers Guide to the NetServer Configuration File][1].
+When programming with the NetServer API, other than calling the web services directly, every solution needs a SuperOffice-specific section group in your application configuration file. This means adding a SuperOffice-specific section groups to an app.config file for Windows Forms applications, or web.config file for an ASP.NET web application. The SuperOffice section group contains configuration options relevant NetServer operations, such as logging, document handling, security, database options, and so forth. Everything you need to know about the SuperOffice configuration options are well-defined in the [Hitchhikers Guide to the NetServer Configuration File][1].
 
 The layered aspect of NetServer invites developers to tap into the database from a number of facets. In the following sections each layer is simply defined with accompanying code samples.
 
@@ -56,7 +56,7 @@ Global access to SuperOffice data is easy to achieve through leveraging the serv
 
 There is flexibility in using SuperOffice proxies. Not only are all of the complexities involved with communicating with web services done for you, but also in the ability to code once and have your application work both local or remote simply by changing a single configuration setting - SuperOffice->Services->DefaultMode. Under the hood, however, there are significant differences between the different modes, Local, Remote, and Switch.
 
-Within the services layer, most development will involve IAgent-derived types and Carrier types. Agents are used to execute actions, e.g. call methods, while Carrier objects, such as Person and PersonEntity, are mere data containers. As your will soon come to realize, carrier entities better resemble Entity objects, where a entity property, such as the PersonEntity.Contact, is a populated object that contains all relational information pertaining to the corresponding contact - including name, address, contactid, phone collection, and more. In contrast, carrier objects (not ending in Entity) such as Contact and Person, are more similar to Row objects. Carrier object properties represent identity values correlating to the identity field in the corresponding table. For example, the Person.ContactId property is of type integer and correlates to the contact\_id field in the Contact table.
+Within the services layer, most development will involve IAgent-derived types and Carrier types. Agents are used to execute actions, e.g. call methods, while Carrier objects, such as Person and PersonEntity, are mere data containers. As your will soon come to realize, carrier entities better resemble Entity objects, where a entity property, such as the PersonEntity.Contact, is a populated object that contains all relational information pertaining to the corresponding contact - including name, address, contact ID, phone collection, and more. In contrast, carrier objects (not ending in Entity) such as Contact and Person, are more similar to Row objects. Carrier object properties represent identity values correlating to the identity field in the corresponding table. For example, the Person.ContactId property is of type integer and correlates to the contact\_id field in the Contact table.
 
 ### Service Communication Modes
 
@@ -327,9 +327,9 @@ Read: [What is NetServer, part 2][4]
 [1]: https://community.superoffice.com/en/content/content/netserver-sdk/archived-articles/hitchhikers-guide-to-the-netserver-configuration-file/
 [2]: https://msdn.microsoft.com/en-us/library/aa347733(v=vs.110).aspx
 [3]: http://java.sun.com/developer/technicalArticles/J2EE/j2ee_ws/index.html#use
-[4]: https://community.superoffice.com/en/content/content/netserver-sdk/archived-articles/what-is-netserver-part-ii/
+[4]: what-is-netserver-part-2.md
 
 <!-- Referenced images -->
-[img1]: https://community.superoffice.com/contentassets/a9d037cb22174d8da85d0b77ea7af6c3/netserverhilevelview.png
-[img2]: https://community.superoffice.com/contentassets/a9d037cb22174d8da85d0b77ea7af6c3/sm_serviceinterfaces.png
-[img3]: https://community.superoffice.com/contentassets/a9d037cb22174d8da85d0b77ea7af6c3/servicedatapath_sm.png
+[img1]: media/netserverhilevelview.png
+[img2]: media/sm-serviceinterfaces.png
+[img3]: media/servicedatapath-sm.png

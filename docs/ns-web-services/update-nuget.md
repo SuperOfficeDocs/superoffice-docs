@@ -25,9 +25,7 @@ so.client: online               # online, web, win, pocket, or mobile
 
 2. Run the NuGet update:
 
-```sh
-Update-Package <package_name>
-```
+    `Update-Package <package_name>`
 
 3. Restore the *web.config* file from the backup you just created.
 

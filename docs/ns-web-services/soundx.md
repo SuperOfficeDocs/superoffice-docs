@@ -5,9 +5,9 @@
 title: soundx       # (Required) Very important for SEO. Intent in a unique string of 43-59 chars including spaces.
 description: Soundex comes to NetServer # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
 author: Marek Vokáč             # Your GitHub alias.
-so-date: 7 May 2012
+so.date: 05.07.2012
 keywords:
-so.topic:                       # article, howto, reference, concept, guide
+so.topic: article          # article, howto, reference, concept, guide
 
 # Optional fields. Don't forget to remove # if you need a field.
 so.envir: cloud           # cloud or onsite
@@ -16,7 +16,7 @@ so.client: online               # online, web, win, pocket, or mobile
 
 # Soundex comes to NetServer
 
-As you may or may not know, we have a "sounds-like" algorithm in the SuperOffice products. It's our adaptation of a fairly well-known algorithm called *Metaphone* [1], which takes a string of arbitrary length and returns a transformed version of a fixed, shorter length. The transformation is such that strings that sound similar (are phonetically aproximatly equal) will result in identical transformed strings.
+As you may or may not know, we have a "sounds-like" algorithm in the SuperOffice products. It's our adaptation of a fairly well-known algorithm called [Metaphone][1], which takes a string of arbitrary length and returns a transformed version of a fixed, shorter length. The transformation is such that strings that sound similar (are phonetically approximately equal) will result in identical transformed strings.
 
 We apply this algorithm to contact.name, project.name and selection.name, and store the resulting string in the soundEx field in each of those tables. The application is done transparently by both NetServer and the C++ code, so unless you're messing with our database on your own, it should be up to date.
 

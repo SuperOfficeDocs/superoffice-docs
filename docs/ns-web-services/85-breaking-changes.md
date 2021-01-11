@@ -3,9 +3,9 @@
 
 # Mandatory fields.
 title: 85_breaking_changes       # (Required) Very important for SEO. Intent in a unique string of 43-59 chars including spaces.
-description: Heads up: Breaking database change in NetServer # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
+description: Heads up - Breaking database change in NetServer # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
 author: Marek Vokáč             # Your GitHub alias.
-so-date: 16 Apr 2019
+so-date: 04.16.2019
 keywords:
 so.topic: article            # article, howto, reference, concept, guide
 
