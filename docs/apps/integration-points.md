@@ -51,8 +51,8 @@ These services are either an independent application or augment an existing appl
 [4]: https://community.superoffice.com/documentation/sdk/SO.NetServer.Web.Services/html/Reference-WebAPI-WebAPI.htm
 [5]: ../automation/crmscript.md
 [6]: ../mirroring/index.md
-[7]: ../erp-sync/index.md
-[8]: ../quote-connector/index.md
+[7]: ../erp-connectors/index.md
+[8]: ../quote-connectors/index.md
 
 <!-- Referenced images -->
 [img1]: media/imagejcbmo.png

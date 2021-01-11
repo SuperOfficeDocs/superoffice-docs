@@ -140,7 +140,7 @@ When a user clicks **Install SuperOffice Maps**, the application checks to see i
 
 <!-- Referenced links -->
 [1]: ../../certificates/configure.md
-[2]: ../../getting-started/run-website-on-iis-localhost.md
+[2]: ../../apps/run-website-on-iis-localhost.md
 [3]: partner-db-library.md
 [4]: superoffice-devnet-online-login.md
 [5]: system-user-service-console.md

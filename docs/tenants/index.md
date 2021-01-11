@@ -51,8 +51,8 @@ The **change type** is a number value that corresponds to the operation perfor
 | 4 | Delete | This occurs when a tenant installation is deleted. |
 
 <!-- Referenced links -->
-[1]: ../getting-started/app-envir.md
+[1]: ../apps/app-envir.md
 [2]: ../apps/index.md
 [3]: production-test-tenants.md
-[4]: https://community.superoffice.com/en/developer/create-apps/how-to/develop/check-tenant-status/
-[5]: https://community.superoffice.com/en/developer/create-apps/reference/tenant-status/
+[4]: check-status.md
+[5]: tenant-status/.md

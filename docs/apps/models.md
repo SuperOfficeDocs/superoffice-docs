@@ -41,4 +41,4 @@ External applications are hidden integrations where most or all interaction happ
 Hybrid applications can, as the name suggests, have some UI components inside SuperOffice CRM Online and can operate or be configured on a partner web portal. The majority of applications are hybrids.
 
 <!-- Referenced links -->
-[1]: ../authentication/user-contexts/
+[1]: ../authentication/user-contexts.md

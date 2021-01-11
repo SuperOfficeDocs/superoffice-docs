@@ -19,7 +19,7 @@ The monthly subscription fee for Expander Services is 67,80 EUR. Application dev
 
 ## What is the cost of Expander Services?
 
-The rates for the [Expander Services][] subscription license are as follows:
+The rates for the [Expander Services][1] subscription license are as follows:
 
 | Currency | € | £ | NOK | SEK | DKK | CHF |
 |----------|---|---|---|---|---|---|
@@ -45,5 +45,5 @@ In addition to the standard applications, the Expander Services toolkit is also 
 [1]: index.md
 [2]: https://www.superoffice.com/company/contact/
 [3]: https://online.superoffice.com/appstore/
-[4]: ../../online/apps/index.md
+[4]: ../../apps/index.md
 [5]: https://www.superoffice.com/company/partners/

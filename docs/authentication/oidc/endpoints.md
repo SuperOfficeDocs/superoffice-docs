@@ -53,6 +53,6 @@ The JSON Web Key Set (JWKS) is a set of keys which contains the public keys used
 [1]: ../../apps/app-envir.md
 [2]: ../../tenants/get-consent.md
 [3]: ../id-token.md
-[4]: ..access-token.md
+[4]: ../access-token.md
 [5]: ../refresh-token.md
 [6]: https://openid.net/specs/openid-connect-session-1_0.html#RPLogout

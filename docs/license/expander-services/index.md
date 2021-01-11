@@ -59,6 +59,6 @@ The same goes for all [custom SuperOffice CRM Online applications][5].
 [2]: ../../automation/crmscript.md
 [3]: https://community.superoffice.com/en/developer/
 [4]: ../../tenants/index.md
-[5]: ../../online/apps/custom.md
-[6]: ../../online/apps/standard.md
+[5]: ../../apps/custom.md
+[6]: ../../apps/standard.md
 [7]: https://online.superoffice.com/appstore/

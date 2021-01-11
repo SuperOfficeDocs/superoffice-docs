@@ -34,5 +34,5 @@ GET https://ENVIR.superoffice.com/api/state/CONTEXTID
 2. Parse the response. Details in the [state value reference][2].
 
 <!-- Referenced links -->
-[1]: ../getting-started/app-envir.md
-[2]: https://community.superoffice.com/en/developer/create-apps/reference/tenant-status/
+[1]: ../apps/app-envir.md
+[2]: tenant-status/.md

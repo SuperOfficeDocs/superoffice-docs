@@ -85,4 +85,4 @@ As your needs grow, so the capabilities of your CRM solution can expand.
 [2]: ../../automation/trigger/index.md
 [3]: index.md
 [4]: ../user-plans.md
-[5]: ../../online/apps/custom.md
+[5]: ../../apps/custom.md

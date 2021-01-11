@@ -48,10 +48,10 @@ The system user has unlimited access to the [tenant][5] and is not restricted by
 See also [application models][6] and the [system user MVC example][7].
 
 <!-- Referenced links -->
-[1]: ../authentication/federated-authentication.md
-[2]: ../system-user/system-user-token.md
-[3]: ..//system-user/system-user-flow.md
+[1]: ../authentication/federated-auth.md
+[2]: ../authentication/system-user/system-user-token.md
+[3]: ../authentication/system-user/system-user-flow.md
 [4]: ../authentication/oidc/index.md
 [5]: ../tenants/index.md
 [6]: ../apps/models.md
-[7]: ../samples/minimal-csharp-app/index.md
+[7]: ../samples/minimal-csharp-app/overview.md
