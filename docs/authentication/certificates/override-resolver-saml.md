@@ -37,7 +37,7 @@ SuperOffice provides the `CertificateFileCertificateStoreTokenResolver` class. 
 ```csharp
 public SuperIdToken ValidateToken(string token)
 {
-    var tokenHandler = new SuperIdTokenHandler();
+  var tokenHandler = new SuperIdTokenHandler();
 ```
 
 The `ValidateToken` method will return a [SuperIdToken][2] populated with all the claims returned by SuperOffice CRM Online.
@@ -46,4 +46,4 @@ This operation will fail if the token is not SAML or if the certificate is missi
 
 <!-- Referenced links -->
 [1]: override-resolver.md
-[2]: https://community.superoffice.com/en/developer/create-apps/reference/superidtoken/
+[2]: ../superid-token.md

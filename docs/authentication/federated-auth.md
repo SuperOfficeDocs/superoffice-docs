@@ -75,9 +75,9 @@ The SuperOffice sign-in page receives the user’s email and security token from
 
 <!-- Referenced images -->
 [img1]: media/crm-log-in-page.png
-[img2]: media/diagram_user_superid_database.png
-[img3]: media/diagram_user_superid_database_googledata.png
-[img4]: media/diagram_user_superid_database_googledata_annotation.png
-[img5]: media/googlelogin_screen.png
+[img2]: media/diagram-user-superid-database.png
+[img3]: media/diagram-user-superid-database-googledata.png
+[img4]: media/diagram-user-superid-database-googledata-annotation.png
+[img5]: media/googlelogin-screen.png
 [img6]: media/googleapprove.png
-[img7]: media/diagram_user_superid_database_googledata_annotation_2.png
+[img7]: media/diagram-user-superid-database-googledata-annotation-2.png

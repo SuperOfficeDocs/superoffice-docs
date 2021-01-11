@@ -49,7 +49,7 @@ The certificate is not found:
 **Resolution:**
 
 1. Check the online certificates are installed on the local machine.
-2  Use the `CertificateFileCertificateStoreTokenResolver` to point to the location of the *SuperOfficeFederatedLogin.crt* certificate. Set the `CertificateValidator` to *X509.CertificateValidator.None*.
+2. Use the `CertificateFileCertificateStoreTokenResolver` to point to the location of the *SuperOfficeFederatedLogin.crt* certificate. Set the `CertificateValidator` to *X509.CertificateValidator.None*.
 
 ```csharp
 var tokenHandler = new SuperIdTokenHandler();
@@ -176,4 +176,4 @@ Ensure your web project contains the following files from the sample project `Su
 
 <!-- Referenced links -->
 [1]: https://community.superoffice.com/en/developer/create-apps/resources/change-application/
-[2]: ../certificates/configure.md
+[2]: certificates/configure.md

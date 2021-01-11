@@ -33,11 +33,11 @@ This procedure uses an [Implicit Flow][1] request. The **client ID** is necessar
 
 1. Forward the user to the SuperOffice CRM Online **sign-in page** to authenticate.
 
-```javascript
-https://{env}.superoffice.com/login/common/oauth/authorize?response_type=id_token token
-&client_id=YOUR-APP-ID&redirect_uri=YOUR-REDIRECT-URL&scope=openid&state=12345
-&nonce=7362CAEA-9CA5-4B43-9BA3-34D7C303EBA7
-```
+    ```javascript
+    https://{env}.superoffice.com/login/common/oauth/authorize?response_type=id_token token
+    &client_id=YOUR-APP-ID&redirect_uri=YOUR-REDIRECT-URL&scope=openid&state=12345
+    &nonce=7362CAEA-9CA5-4B43-9BA3-34D7C303EBA7
+    ```
 
 2. Receive the **authentication token** when the sign-in page redirects the user back to your application.
 
@@ -49,8 +49,8 @@ https://{env}.superoffice.com/login/common/oauth/authorize?response_type=id_toke
 **Next step:** implement your application-specific logic.
 
 <!-- Referenced links -->
-[1]: https://community.superoffice.com/en/developer/create-apps/concepts/authentication/oidc-flows/implicit-flow/
+[1]: oidc/implicit-flow.md
 [2]: ../apps/client-id-secret.md
-[3]: ../redirects/index.md
-[4]: ../getting-started/app-envir.md
-[5]: ../certificates/validate-security-tokens.md
+[3]: ../apps/redirects/index.md
+[4]: ../apps/app-envir.md
+[5]: certificates/validate-security-tokens.md

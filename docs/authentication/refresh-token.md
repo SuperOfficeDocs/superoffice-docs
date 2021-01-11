@@ -47,12 +47,12 @@ redirect_url=http://localhost/callback
 
 | Parameter | Required | Description |
 |-----------|:--------:|-------------|
-| grant\_type | yes | Must be set to `refresh_token` |
-| client\_id | yes | The client ID (application ID) assigned to your app when you registered it with SuperOffice. |
-| client\_secret | yes | The client secret (application token) assigned to your app when you registered it with SuperOffice. |
-| refresh\_token | yes | The refresh token issued as one of the response items in the authorization code flow. |
-| redirect\_uri | no | The redirect\_uri of your app, where authentication responses are sent and received by your app.<br>It must exactly match one of the redirect\_uris registered with SuperOffice. |
-| scope | no | SuperOffice only supports the scope `openid`, and is implicit for each flow. |
+| `grant_type` | yes | Must be set to `refresh_token` |
+| `client_id` | yes | The client ID (application ID) assigned to your app when you registered it with SuperOffice. |
+| `client_secret` | yes | The client secret (application token) assigned to your app when you registered it with SuperOffice. |
+| `refresh_token` | yes | The refresh token issued as one of the response items in the authorization code flow. |
+| `redirect_uri` | no | The redirect URL of your app, where authentication responses are sent and received by your app.<br>It must exactly match one of the redirect URLs registered with SuperOffice. |
+| `scope` | no | SuperOffice only supports the scope `openid`, and is implicit for each flow. |
 
 ### Response
 

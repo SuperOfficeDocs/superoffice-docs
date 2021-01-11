@@ -26,7 +26,7 @@ A quick-start guide for getting you up and running with an ASP.NET Core Razor Pa
 * You have [registered your application][2] with the following options:
   * OpenID Connect Authorization Code flow
 
-![imageb65a.png][img1]
+  ![imageb65a.png][img1]
 
   * Your application redirect URL list must include the example application default URL:
     * **SSL**: `https://localhost:44310/callback`
@@ -43,58 +43,58 @@ A quick-start guide for getting you up and running with an ASP.NET Core Razor Pa
 
 1. **Clone** or **download** the [SuperOffice.DevNet.RazorPages][7] from GitHub.
 
-`git clone https://github.com/SuperOffice/devnet-oidc-razor-pages-webapi.git`
+    `git clone https://github.com/SuperOffice/devnet-oidc-razor-pages-webapi.git`
 
 2. In Visual Studio, go to the *Source* directory and **open** the *SuperOffice.DevNet.RazorPages.sln* file.
 
-![image8z7wl.png][2]
+    ![image8z7wl.png][2]
 
 3. In the *appSettings.json* file, enter the **Environment**, **ClientId** and **ClientSecret** settings. The environment setting pertains to SuperOffice [online environment][8] where the application will be operating. The options are: sod, stage, or online.
 
-  * The ClientId and ClientSecret refer to the [application identifiers][3] used by OpenID Connect.
+    * The ClientId and ClientSecret refer to the [application identifiers][3] used by OpenID Connect.
 
-![image4oqhj.png][img3]
+        ![image4oqhj.png][img3]
 
-  * These settings populate the OpenID Connect configuration options during the application's initialization, and are defined in the *Startup.cs* file.
+    * These settings populate the OpenID Connect configuration options during the application's initialization, and are defined in the *Startup.cs* file.
 
-![imagetudj9.png][img4]
+        ![imagetudj9.png][img4]
 
-  * The default RedirectURL for this website is defined in the application property page. When you are ready to deploy this application to another web site, or URL, make sure to update your application redirectURL by filling in the [update application form][9]. These can be changed in two places. The first is in the applications **property pages**:
+    * The default RedirectURL for this website is defined in the application property page. When you are ready to deploy this application to another web site, or URL, make sure to update your application redirectURL by filling in the [update application form][9]. These can be changed in two places. The first is in the applications **property pages**:
 
-![image8m8u.png][img5]
+        ![image8m8u.png][img5]
 
-  * Alternatively, in the solutions *Properties* folder, open the *launchSettings.json* file and change the applicationUrl and sslPort values.
+    * Alternatively, in the solutions *Properties* folder, open the *launchSettings.json* file and change the applicationUrl and sslPort values.
 
-> [!NOTE]
-> The sslPort is only used if you enable SSL, seen in the previous image.
+    > [!NOTE]
+    > The sslPort is only used if you enable SSL, seen in the previous image.
 
-![imagecr9h.png][img6]
+    ![imagecr9h.png][img6]
 
-3. Under the **Build** menu, click **Build Solution**, or press the F6 key on the keyboard, to restore NuGet packages and build the solution file.
+4. Under the **Build** menu, click **Build Solution**, or press the F6 key on the keyboard, to restore NuGet packages and build the solution file.
 
-![imagewsa7m.png][img7]
+    ![imagewsa7m.png][img7]
 
-4. From the **Debug** menu, click **Start Debugging**, or press the F5 key. Observe that the application runs and opens in the browser.
+5. From the **Debug** menu, click **Start Debugging**, or press the F5 key. Observe that the application runs and opens in the browser.
 
-![imagem4ykq.png][img8]
+    ![imagem4ykq.png][img8]
 
-5. Click the **Login** or **Contacts** link. The browser navigates to the SuperOffice SuperID sign-in page.
+6. Click the **Login** or **Contacts** link. The browser navigates to the SuperOffice SuperID sign-in page.
 
-6. At this point, if you have multiple tenants, a list of available tenants appear. Choose **a tenant** to grant access to your application.
+7. At this point, if you have multiple tenants, a list of available tenants appear. Choose **a tenant** to grant access to your application.
 
-![imageanls.png][img9]
+    ![imageanls.png][img9]
 
-7. If this is the 1st time accessing this tenant via this application, a consent dialog appears asking for application approval to gain access to your web service resources. Click **I approve**.
+8. If this is the 1st time accessing this tenant via this application, a consent dialog appears asking for application approval to gain access to your web service resources. Click **I approve**.
 
-![imagepy4jr.png][img10]
+    ![imagepy4jr.png][img10]
 
-8. The browser callback is shown and navigates to the website's index page showing the list of claims and tokens.
+9. The browser callback is shown and navigates to the website's index page showing the list of claims and tokens.
 
-![imagexa6xa.png][img11]
+    ![imagexa6xa.png][img11]
 
-9. Click the **Contacts** link and a list of all the contacts in the tenant will appear. This provides the opportunity to create a new company, or edit the name and department values for the listed companies.
+10. Click the **Contacts** link and a list of all the contacts in the tenant will appear. This provides the opportunity to create a new company, or edit the name and department values for the listed companies.
 
-![image8ao5w.png][img12]
+    ![image8ao5w.png][img12]
 
 ## Next steps
 
@@ -113,14 +113,14 @@ The *SoHttpRestClient.cs* file is an `HttpClient` helper class to make REST req
 If you have any issues with the sample, please post an issue on the [repo issues page][10].
 
 <!-- Referenced links -->
-[1]: ../tenants/index.md
-[2]: get-app-keys.md
+[1]: ../../tenants/index.md
+[2]: ../../apps/get-app-keys.md
 [3]: ../../apps/client-id-secret.md
 [4]: index.md
 [5]: auth-code-flow.md
-[6]: ../apps/update.md
+[6]: ../../apps/update.md
 [7]: https://github.com/SuperOffice/devnet-oidc-razor-pages-webapi
-[8]: ../../getting-started/app-envir.md
+[8]: ../../apps/app-envir.md
 [9]: ../../apps/update.md
 [10]: https://github.com/SuperOffice/devnet-oidc-razor-pages-webapi/issues
 

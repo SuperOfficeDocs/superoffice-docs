@@ -99,12 +99,12 @@ Read more: [access tokens][4], [refresh tokens][5], [system user tokens][6], [be
 
 <!-- Referenced links -->
 [1]: https://tools.ietf.org/html/rfc7519
-[2]: https://community.superoffice.com/en/developer/create-apps/reference/oidc-claims/
+[2]: oidc/claims-reference.md
 [3]: id-token.md
 [4]: access-token.md
 [5]: refresh-token.md
-[6]: ../system-user/system-user-token.md
-[7]: https://community.superoffice.com/en/developer/create-apps/concepts/authentication/authorization-headers/
+[6]: system-user/system-user-token.md
+[7]: authorization-headers.md
 
 <!-- Referenced images -->
-[img1]: media/id_token.png
+[img1]: media/id-token.png

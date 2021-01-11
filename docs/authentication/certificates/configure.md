@@ -21,7 +21,7 @@ In this procedure, you will need the 3 SuperOffice [development environment ce
 
 ![x][img1]
 
-You find these in the [certificates download][2]. *SuperOfficeOnline.crt* is stored in the *RootCertificate* folder,  the 2 trusted people certificates are stored in the *environment* folder.
+You find these in the [certificates download][2]. *SuperOfficeOnline.crt* is stored in the *RootCertificate* folder, the 2 trusted people certificates are stored in the *environment* folder.
 
 This procedure **must be completed on all computers that will be hosting your application in all 3 environments**: [development, stage, and production][3]. If you don't have access to the certificate store, you need to implement a [programmatic override][4] to validate the certificates.
 
@@ -44,19 +44,19 @@ This procedure **must be completed on all computers that will be hosting your ap
     3. Select **Import**
     4. Click **Next**
 
-![x][img2]
+    ![x][img2]
 
 4. Select the certificate file from disk and click **Next**.
 
-![x][img3]
+    ![x][img3]
 
 5. Select **Place all certificates** and click **Next**.
 
-![x][img4]
+    ![x][img4]
 
 6. Click **Finish**.
 
-![x][img5]
+    ![x][img5]
 
 > [!NOTE]
 > Remember to step through this procedure for both *SuperOfficeRoot.crt* and the *SuperOffice{Environment}.crt* certificates!
@@ -100,14 +100,14 @@ On the computer in each hosting environment:
 
 ![x][img7]
 
-<!-- Referenced img -->
+<!-- Referenced links -->
 [1]: index.md
-[2]: https://community.superoffice.com/en/developer/create-apps/resources/downloads/
-[3]: ../getting-started/app-envir.md
+[2]: ../../downloads.md
+[3]: ../../apps/app-envir.md
 [4]: override-resolver.md
 [5]: add-certificate-snap-in.md
 
-<!-- Referenced links -->
+<!-- Referenced images -->
 [img1]: media/certificates.png
 [img2]: media/welcomewizard.png
 [img3]: media/certificateimport.png

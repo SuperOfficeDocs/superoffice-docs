@@ -64,7 +64,7 @@ The **Authorization Code** and **Implicit** OpenID Connect flows are based on th
 
 ![Implicit and authentication code flow][img2]
 
-In this illustration, _application I_ users the implicit flow while _application A_ uses the authorization code flow.
+In this illustration, *application I* users the implicit flow while *application A* uses the authorization code flow.
 
 The **Hybrid** flow is a combination of the authorization code and implicit flow. In this flow, the client can request ID tokens, [access tokens][11], or both from the [authorization endpoint][4], along with an authorization code.
 
@@ -74,14 +74,14 @@ The **Hybrid** flow is a combination of the authorization code and implicit flow
 The hybrid flow offers more flexibility with this token flow, but it’s **less secure than the authorization code flow** because some tokens are exposed directly to the user agent.
 
 <!-- Referenced links -->
-[1]: https://community.superoffice.com/en/developer/create-apps/concepts/authentication/oauth/
+[1]: ../oauth-2-intro.md
 [2]: iframe-idp-auth.md
 [3]: ../../apps/index.md
-[4]: https://community.superoffice.com/en/developer/create-apps/concepts/authentication/endpoints/
+[4]: endpoints.md
 [5]: ../id-token.md
-[6]: jwt-intro.md
+[6]: ../jwt-intro.md
 [7]: claims-scope.md
-[8]: authorization-code-flow.md
+[8]: auth-code-flow.md
 [9]: implicit-flow.md
 [10]: hybrid-flow.md
 [11]: ../access-token.md

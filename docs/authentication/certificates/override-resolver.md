@@ -37,27 +37,13 @@ The  X509Certificate2 constructor accepts a file name argument and is the file 
 
 The full path to the  *App\_Data* folder containing *SuperOfficeFederatedLogin.crt* is passed to the constructor.
 
-```csharp
-public SuperIdToken ValidateToken(string token)
-{
-    var tokenHandler = new SuperIdTokenHandler();
-    tokenHandler.JwtIssuerSigningCertificate = new X509Certificate2(
-       HttpContext.Current.Server.MapPath("~/App_Data/") + "SuperOfficeFederatedLogin.crt"
-    );
+[!code-csharp[ValidateToken()](includes/validate-token.cs)]
 
-    // Change subdomain for correct environment (sod, stage, online).
-    tokenHandler.ValidIssuer = "https://sod.superoffice.com";
-    tokenHandler.CertificateValidator = X509CertificateValidator.None;
-
-    return tokenHandler.ValidateToken(token, TokenType.Jwt);
-}
-```
-
-The **ValidateToken** method will return a [SuperIdToken][3] populated with all the claims returned by SuperOffice CRM Online.
+The `ValidateToken` method will return a [SuperIdToken][3] populated with all the claims returned by SuperOffice CRM Online.
 
 This operation will fail if the token is not JWT or if the certificate is missing.
 
 <!-- Referenced links -->
 [1]: validate-security-tokens.md
 [2]: index.md
-[3]: https://community.superoffice.com/en/developer/create-apps/reference/superidtoken/
+[3]: ../superid-token.md

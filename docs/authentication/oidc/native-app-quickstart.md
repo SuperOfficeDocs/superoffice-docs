@@ -24,7 +24,7 @@ A quick-start guide for getting you up and running with a native console applica
 * you have [registered your application][2] with the following options:
   * OpenID Connect native app flow
 
-![imaget19p.png][img1]
+    ![imaget19p.png][img1]
 
   * redirect URI of `^http://127.0.0.1\:\d{4,10}/desktop-callback$`
 
@@ -36,39 +36,39 @@ A quick-start guide for getting you up and running with a native console applica
 
 1. **Clone** or **download** the [SuperOffice.DevNet.OpenIDConnectNativeApp][4] from GitHub.
 
-`git clone https://github.com/SuperOffice/SuperOffice.DevNet.OpenIDConnectNativeApp.git​`
+    `git clone https://github.com/SuperOffice/SuperOffice.DevNet.OpenIDConnectNativeApp.git​`
 
 2. In Visual Studio, go to the *Source* directory and **open** the *SuperOffice.DevNet.OpenIDConnectNativeApp.sln* file.
 
-![imageybe5d.png][img2]
+    ![imageybe5d.png][img2]
 
 3. Under the **Build** menu, click **Build Solution**, or **press** the **F6** key on the keyboard, to restore NuGet packages and build the solution file.
 
-![x][img3]
+    ![x][img3]
 
 4. From the **Debug** menu,  click **Start Debugging**, or **press** the **F5** key. Observe that the application runs and opens a console window.
 
-![imagec4a0q.png][img4]
+    ![imagec4a0q.png][img4]
 
 5. **Press** any key. The default browser window opens to the SuperOffice sign-in page.
 
-![imagey4igu.png][img5]
+    ![imagey4igu.png][img5]
 
 6. At this point, if you have multiple tenants, a list of available tenants appear. Choose **a tenant** to grant access to your application.
 
-![imagel1y3j.png][img6]
+    ![imagel1y3j.png][img6]
 
 7. If this is the 1st time accessing this tenant via this application, a consent dialog appears asking for application approval to gain access to your web service resources. Click **I approve**.
 
-![imageppiks.png][img7]
+    ![imageppiks.png][img7]
 
 8. The browser callback is shown and eventually navigates to the SuperOffice community web site. This default behavior is defined in the console application code.  
 
-![x][img8]
+    ![x][img8]
 
 9. The console application continues and dumps the contents of the response, including the `id_token`, `claims` and `access_token`.
 
-![image6agno.png][img9]
+    ![image6agno.png][img9]
 
 ## Next steps
 
@@ -79,18 +79,17 @@ The following code represents a basic method to issue a GET request that is late
 ```csharp
 private static string GetData(string uri, string tokenType, string accessToken)
 {
-    HttpWebRequest httpWebRequest = WebRequest.CreateHttp(uri);
-    httpWebRequest.Method = "GET";
-    httpWebRequest.Accept = "application/json";
-    httpWebRequest.Headers.Add(HttpRequestHeader.Authorization, string.Concat(tokenType, " ", accessToken));
-
-    var httpResponse = (HttpWebResponse)httpWebRequest.GetResponse();
-    using (var streamReader = new StreamReader(httpResponse.GetResponseStream()))
-    {
-        var responseText = streamReader.ReadToEnd();
-        Console.WriteLine(responseText);
-        return responseText;
-    }
+  HttpWebRequest httpWebRequest = WebRequest.CreateHttp(uri);
+  httpWebRequest.Method = "GET";
+  httpWebRequest.Accept = "application/json";
+  httpWebRequest.Headers.Add(HttpRequestHeader.Authorization, string.Concat(tokenType, " ", accessToken));
+  var httpResponse = (HttpWebResponse)httpWebRequest.GetResponse();
+  using (var streamReader = new StreamReader(httpResponse.GetResponseStream()))
+  {
+    var responseText = streamReader.ReadToEnd();
+    Console.WriteLine(responseText);
+    return responseText;
+  }
 }
 ```
 

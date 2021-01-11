@@ -41,107 +41,107 @@ There are a couple of extra lines of code to be aware of for SuperOffice SuperID
 
 1. Create a redirect URI using an available port on the loopback address `"^http://127.0.0.1\\:\\d{4,10}/desktop-callback$"`. You are free to use any path text instead of *desktop-callback*.
 
-```csharp
-string redirectUri = string.Format("http://127.0.0.1:7890/desktop-callback/");
-```
+    ```csharp
+    string redirectUri = string.Format("http://127.0.0.1:7890/desktop-callback/");
+    ```
 
 2. Create an **HttpListener** to listen for requests at that redirect URI:
 
-```csharp
-var http = new HttpListener();
-http.Prefixes.Add(redirectUri);
-http.Start();
-```
+    ```csharp
+    var http = new HttpListener();
+    http.Prefixes.Add(redirectUri);
+    http.Start();
+    ```
 
 3. Set the OpenID Connect **client options**:
 
-```csharp
-var options = new OidcClientOptions
-{
-    Authority = "https://sod.superoffice.com/login",
-    LoadProfile = false,
-    ClientId = "YOUR\_APPLICATION\_ID",
-    ClientSecret = "YOUR\_APPLICATION\_TOKEN",
-    Scope = "openid profile api",
-    RedirectUri = "http://127.0.0.1:7890/desktop-callback",
-    ResponseMode = OidcClientOptions.AuthorizeResponseMode.FormPost,
-    Flow = OidcClientOptions.AuthenticationFlow.Hybrid,
-};
-```
+    ```csharp
+    var options = new OidcClientOptions
+    {
+        Authority = "https://sod.superoffice.com/login",
+        LoadProfile = false,
+        ClientId = "YOUR\_APPLICATION\_ID",
+        ClientSecret = "YOUR\_APPLICATION\_TOKEN",
+        Scope = "openid profile api",
+        RedirectUri = "http://127.0.0.1:7890/desktop-callback",
+        ResponseMode = OidcClientOptions.AuthorizeResponseMode.FormPost,
+        Flow = OidcClientOptions.AuthenticationFlow.Hybrid,
+    };
+    ```
 
 4. Set the following **policy options** to ensure a smooth experience:
     * Validates the issuer name
     * Requires the response includes a token hash
 
-```csharp
-options.Policy.Discovery.ValidateIssuerName = false;
-options.Policy.RequireAccessTokenHash = false;
-```
+    ```csharp
+    options.Policy.Discovery.ValidateIssuerName = false;
+    options.Policy.RequireAccessTokenHash = false;
+    ```
 
 5. Instantiate the OpenID Connect client, passing in the client options. Then call the `PrepareLoginAsync` method to validate the configuration options and set the nonce and state:
 
-```csharp
-var client = new OidcClient(options);
-var state = await client.PrepareLoginAsync();
-```
+    ```csharp
+    var client = new OidcClient(options);
+    var state = await client.PrepareLoginAsync();
+    ```
 
 6. Open a system browser and then wait for the authorization response:
 
-```csharp
-Process.Start(state.StartUrl);
-var context = await http.GetContextAsync();
-```
+    ```csharp
+    Process.Start(state.StartUrl);
+    var context = await http.GetContextAsync();
+    ```
 
 7. Get the request body:
 
-```csharp
-var formData = string.Empty;
-if (context.Request.HasEntityBody)
-{
-    using (var body = context.Request.InputStream)
+    ```csharp
+    var formData = string.Empty;
+    if (context.Request.HasEntityBody)
     {
-        using (var reader = new System.IO.StreamReader(
-            body,
-            context.Request.ContentEncoding))
+        using (var body = context.Request.InputStream)
         {
-            formData = reader.ReadToEnd();
+            using (var reader = new System.IO.StreamReader(
+                body,
+                context.Request.ContentEncoding))
+            {
+                formData = reader.ReadToEnd();
+            }
         }
     }
-}
-```
+    ```
 
 8. Send a useful reply to the browser before processing the JWT. For example, give a warning message informing that the browser is about to re-direct to the community site, and set the refresh properties to do so after 5 seconds.
 
-```csharp
-// sends an HTTP response to the browser.
-var response = context.Response;
-// create HTML to send to the browser
-string responseString =
-@"<html>
-    <head>
-        <meta http-equiv='refresh'
-              content='5;url=https://community.superoffice.com'>
-    </head>
-    <body>
-        <h1>Redirecting you to the SuperOffice Community...</h1>
-    </body>
-</html>";
-// convert the markup to byte\[\] format
-var buffer = Encoding.UTF8.GetByte(responseString);
-response.ContentLength64 = buffer.Length;
-// get the response output stream to write to
-var responseOutput = response.OutputStream;
-// write the HTML to the output stream
-// and then close the stream.
-await responseOutput.WriteAsync(buffer, 0,buffer.Length);
-responseOutput.Close();
-```
+    ```csharp
+    // sends an HTTP response to the browser.
+    var response = context.Response;
+    // create HTML to send to the browser
+    string responseString =
+    @"<html>
+        <head>
+            <meta http-equiv='refresh'
+                  content='5;url=https://community.superoffice.com'>
+        </head>
+        <body>
+            <h1>Redirecting you to the SuperOffice Community...</h1>
+        </body>
+    </html>";
+    // convert the markup to byte\[\] format
+    var buffer = Encoding.UTF8.GetByte(responseString);
+    response.ContentLength64 = buffer.Length;
+    // get the response output stream to write to
+    var responseOutput = response.OutputStream;
+    // write the HTML to the output stream
+    // and then close the stream.
+    await responseOutput.WriteAsync(buffer, 0,buffer.Length);
+    responseOutput.Close();
+    ```
 
 9. Process the result by sending the formData result to ProcessResponseAsync:
 
-```csharp
-var result = await client.ProcessResponseAsync(formData, state);
-```
+    ```csharp
+    var result = await client.ProcessResponseAsync(formData, state);
+    ```
 
 ## What do I get back from the server?
 
@@ -152,22 +152,16 @@ Other libraries may name their login result container something differently, but
 ```csharp
 namespace IdentityModel.OidcClient
 {
-    public class LoginResult : Result
-    {
-        public virtual ClaimsPrincipal User { get; internal set; }
-
-        public virtual string AccessToken { get; internal set; }
-
-        public virtual string IdentityToken { get; internal set; }
-
-        public virtual string RefreshToken { get; internal set; }
-
-        public virtual DateTime AccessTokenExpiration { get; internal set; }
-
-        public virtual DateTime AuthenticationTime { get; internal set; }
-
-        public virtual HttpMessageHandler RefreshTokenHandler { get; internal set; }
-    }
+  public class LoginResult : Result
+  {
+    public virtual ClaimsPrincipal User { get; internal set; }
+    public virtual string AccessToken { get; internal set; }
+    public virtual string IdentityToken { get; internal set; }
+    public virtual string RefreshToken { get; internal set; }
+    public virtual DateTime AccessTokenExpiration { get; internal set; }
+    public virtual DateTime AuthenticationTime { get; internal set; }
+    public virtual HttpMessageHandler RefreshTokenHandler { get; internal set; }
+  }
 }
 ```
 

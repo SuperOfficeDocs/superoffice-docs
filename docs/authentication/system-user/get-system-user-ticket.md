@@ -21,7 +21,7 @@ The [system user token][1] is embedded in the [SuperIdToken][2] that you receive
 
 **Download Sample**: [Sample Code][4]
 
-**Pre-requisites:**
+## Pre-requisites
 
 * [Client secret][5] (application is registered)
 * ContextIdentifier (application is [approved by customer's admin][6])
@@ -31,9 +31,7 @@ The [system user token][1] is embedded in the [SuperIdToken][2] that you receive
 
 SuperOffice CRM Online exposes one WCF SOAP endpoint for conducting the exchange:
 
-```javascript
-https://onlineenv.superoffice.com/login/services/PartnerSystemUserService.svc
-```
+`https://onlineenv.superoffice.com/login/services/PartnerSystemUserService.svc`
 
 The [SOAP envelope][7] should contain 2 headers plus an `AuthenticationRequest` element in the SOAP body.
 
@@ -53,18 +51,19 @@ The following example code has an extensive amount of logging to the console. Th
 
 ### package.json file
 
-[!include[ALT](./includes/package-json.md)]
+[!code-json[example 1](includes/package.json)]
+<!-- [!include[ALT](./includes/package-json.md)] -->
 
 ### index.js code
 
-[!include[ALT](./includes/index-js.md)]
+[!code-javascript[index.js](includes/index.js)]
 
 <!-- Referenced links -->
 [1]: system-user-token.md
-[2]: https://community.superoffice.com/en/developer/create-apps/reference/superidtoken/
+[2]: ../superid-token.md
 [3]: ../certificates/validate-security-tokens.md
 [4]: https://community.superoffice.com/contentassets/21dbc96303eb4a69a86279bb59ce1208/system-user-node-sample.zip
-[5]: ../apps/client-id-secret.md
-[6]: ../tenants/get-consent.md
+[5]: ../../apps/client-id-secret.md
+[6]: ../../tenants/get-consent.md
 [7]: https://community.superoffice.com/en/developer/create-apps/reference/soap-envelope/
 [8]: sign-system-user-token.md

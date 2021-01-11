@@ -38,9 +38,9 @@ Nearly all private applications perform their tasks using non-interactive server
 
 As stated in the previous section, an interactive installation sequence is performed using an OpenID Connect authentication flow. Once authentication is successful, the approval page is presented. When you click **I approve**, SuperOffice generates three OpenID Connect tokens and sends those back to your registered redirect URL. The three tokens are:
 
-* id\_token
-* access\_token
-* refresh\_token
+* `id_token`
+* `access_token`
+* `refresh_token`
 
 Contained in the `id_token` is the `system user token`. This claim is necessary to carry out non-interactive server-to-server communications.
 
@@ -90,7 +90,7 @@ Another useful feature of this application, is the possibility to convert an RSA
 
 When signed in, you can use the **Token to Ticket** wizard to sign your system user token and send that off to SuperOffice to obtain a system user ticket credential. This doesn’t really have any practical benefits, but is included in the sample application source code for NodeJS demonstration purposes.
 
-We also have samples that demonstrate how to exchange a system user token for a system user ticket in [.NET][3], [.NET Core][4], [PHP][5] and [Python][6].
+We also have samples that demonstrate how to exchange a system user token for a system user ticket in [.NET][3], [.NET Core][4], [PHP][5] and [Python][1].
 
 <!-- Referenced links -->
 [1]: https://devnet-tokens.azurewebsites.net/
@@ -106,5 +106,4 @@ We also have samples that demonstrate how to exchange a system user token for a 
 [img3]: media/selectenvironment.png
 [img4]: media/superidemail.png
 [img5]: media/selecttenant.png
-[img6]: media/allowscreen.png
 [img7]: media/accountpage.png

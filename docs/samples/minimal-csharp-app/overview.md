@@ -146,7 +146,7 @@ When a user clicks **Install SuperOffice Maps**, the application checks to see i
 [5]: system-user-service-console.md
 [6]: web-config.md
 [7]: ../../apps/client-id-secret.md
-[8]: ../../redirects/index.md
+[8]: ../../apps/redirects/index.md
 [9]: scenarios.md
 
 <!-- Referenced images -->

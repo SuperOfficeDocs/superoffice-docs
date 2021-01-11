@@ -3,7 +3,7 @@
 
 # Mandatory fields.
 title: oidc_claims_scope       # (Required) Very important for SEO. Intent in a unique string of 43-59 chars including spaces.
-description: # Claims and scope (OIDC) # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
+description: Claims and scope (OIDC) # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
 author: {github-id}             # Your GitHub alias.
 keywords:
 so.topic: concept               # article, howto, reference, concept, guide
@@ -26,7 +26,7 @@ SuperOffice Online supports 1 scope only: **openid**. However, this [scope inclu
 ![JWT Claims][img1]
 
 <!-- Referenced links -->
-[1]: https://community.superoffice.com/en/developer/create-apps/reference/oidc-claims/
+[1]: claims-reference.md
 
 <!-- Referenced images -->
 [img1]: media/jwt.png

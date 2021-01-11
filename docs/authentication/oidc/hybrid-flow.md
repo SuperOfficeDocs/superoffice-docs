@@ -40,4 +40,4 @@ The response type specified in the redirect URI determines where the tokens are 
 
 <!-- Referenced links -->
 [1]: implicit-flow.md
-[2]: authorization-code-flow.md
+[2]: auth-code-flow.md

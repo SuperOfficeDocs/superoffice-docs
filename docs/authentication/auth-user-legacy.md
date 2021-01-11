@@ -29,24 +29,22 @@ Before introducing OAuth 2.0, our web services used SuperOffice legacy federated
 
 1. Forward users to the SuperOffice online **sign-in page** to authenticate.
 
-```csharp
-http://{env}.superoffice.com/login/?app_id=YOUR-APP-ID
-```
+    `http://{env}.superoffice.com/login/?app_id=YOUR-APP-ID`
 
 2. Receive the **authentication token** when the sign-in page redirects the user back to your application. The HTTP response contains a form in the body:
 
-```csharp
-<form action=”redirecturl” method=”post”>
-   <input type=”hidden” name=”key” value=”<value>” />
-</form>
-```
+    ```csharp
+    <form action=”redirecturl” method=”post”>
+       <input type=”hidden” name=”key” value=”<value>” />
+    </form>
+    ```
 
-The hidden input type has **name** set to SAML or JWT. The value is set to the security token of the corresponding type.
+    The hidden input type has **name** set to SAML or JWT. The value is set to the security token of the corresponding type.
 
 3. [Validate the authentication token][4]. This is required *each time* a token is received to ensure that no attacks happened between sending the authentication request and receiving the authentication response.
 
 <!-- Referenced links -->
 [1]: auth-user.md
 [2]: ../apps/client-id-secret.md
-[3]: ../redirects/index.md
-[4]: ../certificates/validate-security-tokens.md
+[3]: ../apps/redirects/index.md
+[4]: certificates/validate-security-tokens.md

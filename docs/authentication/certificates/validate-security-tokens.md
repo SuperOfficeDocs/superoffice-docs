@@ -33,10 +33,11 @@ The main class for processing tokens is `SuperIdTokenHandler` in the *SuperOffi
 
 1. Decode the token from Base64 to a string. This results in a JSON string.
 
-1. Use an appropriate certificate validation library and the public SuperOffice certificate to validate the token:
+2. Use an appropriate certificate validation library and the public SuperOffice certificate to validate the token:
 
     1. Instantiate a `SuperIdTokenHandler`
     2. Invoke the `ValidateToken` method and pass a JWT token
+
 3. If and only if the token is valid, accept the claims and proceed accordingly:
 
     * Receive a [SuperIdToken][5] populated with the resulting claims
@@ -66,6 +67,6 @@ We also provide [.NET helper libraries][7], which you can download.
 [2]: https://tools.ietf.org/html/rfc7519
 [3]: override-resolver.md
 [4]: index.md
-[5]: https://community.superoffice.com/en/developer/create-apps/reference/superidtoken/
+[5]: ../superid-token.md
 [6]: https://www.nuget.org/packages/SuperOffice.Crm.Online.Core
-[7]: https://community.superoffice.com/en/developer/apps-partners/develop/online-sdk-downloads/
+[7]: ../../downloads.md

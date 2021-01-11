@@ -23,9 +23,9 @@ OpenID Connect describes a metadata document that contains most of the informati
 
 `https://{environment}.superoffice.com/login/.well-known/openid-configuration`
 
-The **environment** subdomain is unique for each [application environment][1]; development (sod), stage (qaonline) and production (online).
+The **environment** subdomain is unique for each [application environment][1]; development (sod), stage (qaonline), and production (online).
 
-## Common endpints
+## Common endpoints
 
 ### Authorization endpoint
 
@@ -50,7 +50,7 @@ The end session endpoint can be used to trigger single sign-out (see [spec][6].
 The JSON Web Key Set (JWKS) is a set of keys which contains the public keys used to verify any JSON Web Token (JWT) issued by the SuperID.
 
 <!-- Referenced links -->
-[1]: ../../getting-started/app-envir.md
+[1]: ../../apps/app-envir.md
 [2]: ../../tenants/get-consent.md
 [3]: ../id-token.md
 [4]: ..access-token.md
