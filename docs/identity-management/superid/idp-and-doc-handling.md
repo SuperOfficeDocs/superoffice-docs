@@ -9,7 +9,7 @@ keywords: IdP
 so.topic: concept                      # article, howto, reference, concept, guide
 
 # Optional fields. Don't forget to remove # if you need a field.
-# so.envir:                     # cloud or onsite
+so.envir: cloud             # cloud or onsite
 so.client: online                   # online, web, win, pocket, or mobile
 ---
 
@@ -36,5 +36,5 @@ Let's look at how SuperID changes how you use and set up identity providers and 
 * [Office 365 integration][2] must be set up manually for the time being, but self-service is planned for upcoming releases.
 
 <!-- Referenced links -->
-[1]: https://community.superoffice.com/en/technical/documentation/prepare/crm-online/office-365-google-apps/g-suite-setup/
-[2]: https://community.superoffice.com/en/technical/documentation/prepare/crm-online/office-365-google-apps/setup---o365-integration/
+[1]: ../../documents/g-suite-document-integration/set-up.md
+[2]: ../../documents/office-365-document-integration/set-up.md

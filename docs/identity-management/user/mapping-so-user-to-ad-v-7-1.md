@@ -5,9 +5,10 @@
 title: mapping_so_user_to_ad_v_7_1       # (Required) Very important for SEO. Intent in a unique string of 43-59 chars including spaces.
 description:                    # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
 author: Jens M. Glattetre             # Your GitHub alias.
+so.date: 03.30.2012
 keywords:
-so.topic:                       # article, howto, reference, concept, guide
-so.date: 30 Mar 2012
+so.topic: article             # article, howto, reference, concept, guide
+
 # Optional fields. Don't forget to remove # if you need a field.
 # so.envir:                     # cloud or onsite
 # so.client:                    # online, web, win, pocket, or mobile

@@ -3,7 +3,7 @@
 
 # Mandatory fields.
 title: singel_sign_on       # (Required) Very important for SEO. Intent in a unique string of 43-59 chars including spaces.
-description:                    # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
+description: Single sign-on     # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
 author: {github-id}             # Your GitHub alias.
 keywords: SSO
 so.topic: concept                      # article, howto, reference, concept, guide
@@ -43,13 +43,13 @@ Note that this is not the same as using the same username and password to sign i
 
 * CRM online SuperID password sign-in
 
-* CRM online SuperID wtih IdP; 3rd-party identity providers: Microsoft and Google
+* CRM online SuperID with IdP; 3rd-party identity providers: Microsoft and Google
 
 * [SuperOffice Onsite][2] with SSO
 
 [Read more about our sign-in services][3]
 
 <!-- Referenced links -->
-[1]: https://community.superoffice.com/en/technical/documentation/identity-management/overview/federated-id/
-[2]: https://community.superoffice.com/en/technical/documentation/prepare/prepare-crm-server/prepare-web-server/IIS_Authentication/
-[3]: https://community.superoffice.com/en/technical/documentation/identity-management/overview/sign-in-services/
+[1]: federated-id-and-identity-providers.md
+[2]: ../onsite/crm-server/iis-web-server/sso.md
+[3]: superid/sign-in-services.md

@@ -33,7 +33,7 @@ Administrators can add users one by one in the Admin client.
     * Assign groups and a [role][2]].
 
     * Select the licenses (user plans) you want to assign.
-     ![Add user ][img1]  
+        ![Add user ][img1]
 
 4. Click **Save**. Users will receive an invitation email in their inbox and need to click the activation link to enable the account.  
 
@@ -41,9 +41,9 @@ Administrators can add users one by one in the Admin client.
     ![invite o365][img3]
 
 <!-- Referenced links -->
-[1]: https://community.superoffice.com/en/technical/documentation/identity-management/overview/sign-in-services/
-[2]: https://community.superoffice.com/en/technical/documentation/identity-management/overview/user-accounts/
+[1]: ..superid/sign-in-services.md
+[2]: ../user-accounts-and-roles.md
 
-[img1]: ./media/soadm-add-user.png
-[img2]: ./media/googleinvite.png
-[img3]: ./media/o365invite.png
+[img1]: media/soadm-add-user.png
+[img2]: media/googleinvite.png
+[img3]: media/o365invite.png

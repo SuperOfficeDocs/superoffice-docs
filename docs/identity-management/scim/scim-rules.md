@@ -9,8 +9,8 @@ keywords: SCIM
 so.topic: concepts                      # article, howto, reference, concept, guide
 
 # Optional fields. Don't forget to remove # if you need a field.
-# so.envir:                     # cloud or onsite
-# so.client:                    # online, web, win, pocket, or mobile
+so.envir: cloud             # cloud or onsite
+so.client: online             # online, web, win, pocket, or mobile
 ---
 # SCIM rules
 
@@ -31,9 +31,10 @@ The [SuperOffice Identity Manager][1] gives administrators access to a wizard w
 * [Add SCIM rules][4]
 
 <!-- Referenced links -->
-[1]: https://community.superoffice.com/en/technical/documentation/identity-management/overview/identity-management-gw/
-[2]: https://community.superoffice.com/en/technical/documentation/identity-management/concepts/superid/user-accounts-and-passwords/
+[1]: identity-management-gw.md
+[2]: ../superid/user-accounts-and-passwords.md
 [3]: https://community.superoffice.com/en/technical/documentation/identity-management/how-to/provision-users-with-scim/
-[4]: https://community.superoffice.com/en/technical/documentation/identity-management/concepts/scim-rules/
+[4]: scim-rules.md
 
+<!-- Referenced images -->
 [img1]: media/scim-marketing-rule.png

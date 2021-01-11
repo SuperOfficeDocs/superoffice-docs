@@ -9,8 +9,8 @@ keywords:
 so.topic: howto                      # article, howto, reference, concept, guide
 
 # Optional fields. Don't forget to remove # if you need a field.
-# so.envir:                     # cloud or onsite
-# so.client:                    # online, web, win, pocket, or mobile
+so.envir: cloud            # cloud or onsite
+so.client: online               # online, web, win, pocket, or mobile
 ---
 
 # Enforce password policy
@@ -24,6 +24,6 @@ The password policy for SuperOffice CRM **Online** is enforced either by [SuperI
 You can read more about [policies for **onsite** installations][3] in our forums.
 
 <!-- Referenced links -->
-[1]: https://community.superoffice.com/en/technical/documentation/identity-management/concepts/superid/
-[2]: https://community.superoffice.com/en/technical/documentation/identity-management/overview/federated-id/
+[1]: ../superid/index.md
+[2]: ../superid/federated-id.md
 [3]: https://community.superoffice.com/en/search/#/faq/113578

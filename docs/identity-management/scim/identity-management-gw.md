@@ -3,14 +3,14 @@
 
 # Mandatory fields.
 title: identity_management_gw       # (Required) Very important for SEO. Intent in a unique string of 43-59 chars including spaces.
-description:  The Identity Management Gateway Architecture, User interface and Pre-requisites                # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
-author: {frodeb@superoffice.com}             # Your GitHub alias.
+description: The Identity Management Gateway Architecture, User interface and Pre-requisites                # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
+author:  # Your GitHub alias.
 keywords: Identity, Management, Gateway, Architecture, SuperId, 
 so.topic:               reference        # article, howto, reference, concept, guide
 
 # Optional fields. Don't forget to remove # if you need a field.
-so.envir:                     cloud
-so.client:                    online
+so.envir:  cloud
+so.client: online
 ---
 
 # The Identity Management Gateway
@@ -57,9 +57,9 @@ To access the Identity Manager, you will need:
 * A SuperOffice admin account for that tenant linked to an Azure AD account (AAD admin not required)
 
 <!-- Referenced links -->
-[1]: https://community.superoffice.com/en/developer/create-apps/how-to/set-up/get-access-to-sod/
+[1]: ../../apps/get-access-to-sod.md
 
 <!-- Referenced images-->
-[img1]: \media\scim-flow-ui.png
-[img2]: \media\scim-config-tab.png
-[img3]: \media\scim-preview-tab.png
+[img1]: media/scim-flow-ui.png
+[img2]: media/scim-config-tab.png
+[img3]: media/scim-preview-tab.png

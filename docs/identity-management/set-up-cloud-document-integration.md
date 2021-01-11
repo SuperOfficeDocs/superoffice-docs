@@ -19,11 +19,9 @@ SuperOffice CRM Online can integrate with Google G Suite and Microsoft Office 36
 
 1. Sign up for standard applications in our App Store:
     * [Office 365 Integration][1]  application
-
     * [G Suite Integration][2] application
 
 2. Set up the application specific to your service provider:
-
     * [Setup Office365 Integration][3]
     * [Setup G Suite Integration][4]
 
@@ -33,8 +31,8 @@ Read the [technical description][6].
 
 <!-- Referenced links -->
 [1]: https://online.superoffice.com/appstore/superoffice-as/office-365-integration
-[2]: https://online.superoffice.com/appstore/superoffice-as/g-suite-integration
-[3]: https://community.superoffice.com/en/technical/documentation/prepare/crm-online/office-365-google-apps/setup---o365-integration/
-[4]: https://community.superoffice.com/en/technical/documentation/prepare/crm-online/office-365-google-apps/g-suite-setup/
-[5]: https://community.superoffice.com/en/technical/documentation/prepare/crm-online/office-365-google-apps/configure---cloud-office-document-handling/
-[6]: https://community.superoffice.com/en/technical/documentation/prepare/crm-online/office-365-google-apps/
+[2]: ../documents/g-suite-integration/index.md
+[3]: ../documents/office-365-document-integration/set-up.md
+[4]: ../documents/g-suite-integration/set-up.md
+[5]: ../documents/cloud-office-document-handling.md
+[6]: ../documents/cloud-document-integrations.md

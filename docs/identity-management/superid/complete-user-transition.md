@@ -19,7 +19,7 @@ After registering the IdP, each existing password user has to sign in once to co
 
 The 1st time an existing password user tries to sign in after an [identity provider][1] has been registered for that domain, they have to complete a set of **transitional steps** from signing in with a password to signing in with the customer's IdP.
 
-**Pre-requisites:**
+## Pre-requisites
 
 * The user has signed in to SuperOffice account with password
 
@@ -31,9 +31,10 @@ The 1st time an existing password user tries to sign in after an [identity provi
 
 1. The user must **sign in with the old SuperOffice password** to prove their identity.
   
-    ![Sign in][img1]  
+    ![Sign in][img1]
 
     ![Use the old password][img2]
+
 2. The user is prompted to **sign in using the identity provider**.
 
     ![Sign in using identity provider][img3]
@@ -50,11 +51,11 @@ The 1st time an existing password user tries to sign in after an [identity provi
 **This completes the transition of the user account.**
 
 <!-- Referenced links -->
-[1]: https://community.superoffice.com/en/technical/documentation/identity-management/overview/federated-id/
-[2]: https://community.superoffice.com/en/technical/documentation/identity-management/how-to/federated-sign-in-guide/map-idp-usernames/
-[3]: https://community.superoffice.com/en/technical/documentation/identity-management/how-to/federated-sign-in-guide/register-idp/
+[1]: ../federated-id-and-identity-providers.md
+[2]: map-idp-usernames.md
+[3]: register-idp.md
 
-[img1]: ./media/sign-in-old.png
-[img2]: ./media/sign-in-old-password.png
-[img3]: ./media/authenticate-identityprovider.png
-[img4]: ./media/sign-in-idp.png
+[img1]: media/sign-in-old.png
+[img2]: media/sign-in-old-password.png
+[img3]: media/authenticate-identityprovider.png
+[img4]: media/sign-in-idp.png

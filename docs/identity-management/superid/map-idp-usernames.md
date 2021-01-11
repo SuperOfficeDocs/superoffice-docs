@@ -9,8 +9,8 @@ keywords:
 so.topic: guide                 # article, howto, reference, concept, guide
 
 # Optional fields. Don't forget to remove # if you need a field.
-# so.envir:                     # cloud or onsite
-# so.client:                    # online, web, win, pocket, or mobile
+so.envir: cloud           # cloud or onsite
+so.client: online              # online, web, win, pocket, or mobile
 ---
 
 # Update SuperOffice username to match IdP username
@@ -19,7 +19,7 @@ Before using a federated sign-in service, you must update each SuperOffice usern
 
 The username also known as the **User-Principal-Name** (UPN) set in your IdP must match the username set in SuperOffice Admin.
 
-**Pre-requisites:**
+## Pre-requisites
 
 * SuperOffice administrator account
 
@@ -35,13 +35,13 @@ You can find the username in the **admin>users** section.
 
 Go to [https://admin.microsoft.com/AdminPortal/Home#/users][1]
 
-    ![UPN O365][img1] 
+![UPN O365][img1]
 
 **For Google:**
 
 Go to  [https://admin.google.com/ac/users][2]
 
-    ![UPN Google][img2]
+![UPN Google][img2]
 
 ## Change username in SuperOffice Admin client
 
@@ -58,5 +58,6 @@ You **need to map each username** in SuperOffice Admin to the federated ID.
 [1]: https://admin.microsoft.com/AdminPortal/Home#/users
 [2]: https://admin.google.com/ac/users
 
-[img1]: ./media/upn_o365.png
-[img2]: ./media/upn_google.png
+<!-- Referenced images -->
+[img1]: media/upn_o365.png
+[img2]: media/upn_google.png

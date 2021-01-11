@@ -24,15 +24,15 @@ Before you start setting up federated sign-in with SuperID, you need to identify
 
 The **G Suite Toolbox** can be used to identify problems with G Suite services. **Dig** supports looking up MX records for both Google and Microsoft domains.
 
-1. Go to [https://toolbox.googleapps.com/apps/dig/]()
+1. Go to [https://toolbox.googleapps.com/apps/dig/][1]
 
 2. Enter your domain name and select **MX.**
 
 3. Look at the response: if you see **ANSWER** and that section lists at least 1 entry with **outlook**, **google**, or similar you should be good to go! For example:
 
-```text
-    ;ANSWER vg.no. 299 IN MX 5 ALT2.ASPMX.L.GOOGLE.COM.    
-```
+    ```text
+    ;ANSWER vg.no. 299 IN MX 5 ALT2.ASPMX.L.GOOGLE.COM.
+    ```
 
 ![DIG (DNS lookup)][img1]
 
@@ -43,13 +43,13 @@ This tool supports Microsoft domains only.
 1. Insert your domain name in the following URL and go to that page:
 
     ```text
-         https://login.microsoftonline.com/YOURDOMAIN/.well-known/openid-configuration
+    https://login.microsoftonline.com/YOURDOMAIN/.well-known/openid-configuration
     ```
 
 2. If the answer includes **authorization\_endpoint** or similar you should be good to go! For example:
 
     ```text
-        "authorization_endpoint":"https://login.microsoftonline.com/8e414aee-d6e1-4d13-98c8-d3876cd2b05/oauth2/authorize"
+    "authorization_endpoint":"https://login.microsoftonline.com/8e414aee-d6e1-4d13-98c8-d3876cd2b05/oauth2/authorize"
     ```
 
 ![orlok][img2]
@@ -61,6 +61,6 @@ This tool supports Microsoft domains only.
 <!-- Referenced links -->
 [1]: https://toolbox.googleapps.com/apps/dig/
 
-[img1]: ./media/dig.png
-[img2]: ./media/orlok.png
-[img3]: ./media/orlerror.png
+[img1]: media/dig.png
+[img2]: media/orlok.png
+[img3]: media/orlerror.png

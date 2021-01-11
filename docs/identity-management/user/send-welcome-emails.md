@@ -25,7 +25,7 @@ Enable automatic welcome emails from SuperOffice **if you don't plan to handle i
 
 1. Sign in to the SuperOffice Admin client.
 2. Go to the **Preferences** page and select the **Global preferences** tab.
-3. Scroll down to the **System** settings group and set **Send login emails to new users** to _Yes_`.`
+3. Scroll down to the **System** settings group and set **Send login emails to new users** to *Yes*.
 4. Click **Save**.
 
     ![Send welcome email - admin client][img1]
@@ -63,8 +63,9 @@ The sign-in link in the welcome email can only be used once. If the user has not
 
 <!-- Referenced links -->
 [1]: https://community.superoffice.com/en/technical/documentation/identity-management/how-to/provision-users-with-scim/sign-in-to-scim/
-[2]: https://community.superoffice.com/en/technical/documentation/identity-management/how-to/reset-password/
+[2]: reset-password.md
 
-[img1]: ./media/soadm-send-welcome-email.png
-[img2]: ./media/scim-send-welcome-email.png
-[img3]: ./media/task-send-welcome-email.png
+<!-- Referenced images -->
+[img1]: media/soadm-send-welcome-email.png
+[img2]: media/scim-send-welcome-email.png
+[img3]: media/task-send-welcome-email.png

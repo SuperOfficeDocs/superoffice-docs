@@ -4,13 +4,13 @@
 # Mandatory fields.
 title: known_challanges_with_superid       # (Required) Very important for SEO. Intent in a unique string of 43-59 chars including spaces.
 description: Known challenges with SuperID                   # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
-author: {frodeb@superoffice.com}             # Your GitHub alias.
-keywords: challenges, SuperID
+author:    # Your GitHub alias.
+keywords: 
 so.topic: reference                     # article, howto, reference, concept, guide
 
 # Optional fields. Don't forget to remove # if you need a field.
-so.envir:      cloud               # cloud or onsite
-so.client:   online                 # online, web, win, pocket, or mobile
+so.envir: cloud               # cloud or onsite
+so.client: online                 # online, web, win, pocket, or mobile
 ---
 
 # Known challenges with SuperID
@@ -25,7 +25,8 @@ A user might have multiple email addresses on their person record. Only 1 of the
 
 **Solution:**
 
-> [!NOTE] The admin can fix this by editing the **Username** field in the Admin client.
+> [!NOTE]
+> The admin can fix this by editing the **Username** field in the Admin client.
 
 Issues related to multiple associate records pointing to new/old username apply (see next scenario).
 
@@ -35,7 +36,8 @@ Issues related to multiple associate records pointing to new/old username apply 
 
 A person might have multiple associate records in the customer database. We observe that often only 1 of these has a valid license.
 
-> [!CAUTION] If the primary tenant does **not** have a license and you change the username, the user can no longer sign in.
+> [!CAUTION]
+> If the primary tenant does **not** have a license and you change the username, the user can no longer sign in.
 
 **Solution:**
 
@@ -53,4 +55,5 @@ Our consultants typically have users in many tenants. For them, the 1st tenant t
 
 When we move SuperOffice One to the cloud, this will become your primary tenant. Until then:
 
-> [!TIP]All consultants should contact R&D services or Operations to set up a test/demo tenant in CRM Online as their primary tenant to prevent being locked out.
+> [!TIP]
+> All consultants should contact R&D services or Operations to set up a test/demo tenant in CRM Online as their primary tenant to prevent being locked out.

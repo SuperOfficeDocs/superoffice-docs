@@ -9,8 +9,8 @@ keywords:
 so.topic: guide                      # article, howto, reference, concept, guide
 
 # Optional fields. Don't forget to remove # if you need a field.
-# so.envir:                     # cloud or onsite
-# so.client:                    # online, web, win, pocket, or mobile
+so.envir: cloud           # cloud or onsite
+so.client: online               # online, web, win, pocket, or mobile
 ---
 
 # Register identity provider (domain name)
@@ -20,26 +20,26 @@ Before using a federated sign-in service, you must register the domain with us. 
 >[!NOTE]
 >Any user that can authenticate with the customer's domain can register **Google** as an identity provider.<br>To register **Microsoft** as an IdP and grant the SuperOffice ID Azure AD application access to read user profile information, the user should be Global Admin or App Admin.
 
-**Pre-requisites:**
+## Pre-requisites
 
 * You have [mapped the usernames][1] to your IdP.
 
 * You are able to authenticate with the customer's domain. For Azure AD, Global Admin or Application Administrator is required.
 
-## **Start IdP registration**
+## Start IdP registration
 
 1. Go to [https://id.superoffice.com/identityprovider/register][2]
 
-2. Select your organization's identity provider (Google or Microsoft)  
+2. Select your organization's identity provider (Google or Microsoft)
 
     ![select identity provider][img1]
 
 ## Initialize and accept setup with your IdP
 
->[!NOTE]
->You are sent to the provider's sign-in page after starting registration.
+> [!NOTE]
+> You are sent to the provider's sign-in page after starting registration.
 
-**For Microsoft:**
+### For Microsoft
 
 1. Authenticate with your **Global admin** or **App admin** Azure AD account.
 
@@ -53,7 +53,7 @@ Before using a federated sign-in service, you must register the domain with us. 
 
     ![image95szq.png][img4]
 
-**For Google:**
+### For Google
 
 1. Authenticate with a Google account in the domain.
 
@@ -85,7 +85,7 @@ Organizations may have multiple domains. Additional domains used to sign in to S
 
 The Domain Name System (DNS) has a tree structure or hierarchy, which includes nodes on the tree being a domain name. A subdomain is a domain that is part of a larger domain. A custom domain is a unique branded name that identifies a website.
 
-You may want to set a new primary domain name for your Azure AD organization. When your organization is created in Azure AD, the initial domain name, such as ‘contoso.onmicrosoft.com,’ is also set as the primary domain name. The primary domain is the default domain name when you register the domain name. [Check out Microsoft's article on how to change the primary domain name.][4]
+You may want to set a new primary domain name for your Azure AD organization. When your organization is created in Azure AD, the initial domain name, such as `contoso.onmicrosoft.com`, is also set as the primary domain name. The primary domain is the default domain name when you register the domain name. [Check out Microsoft's article on how to change the primary domain name][4].
 
 You can find additional domains in your Azure Active Directory under **Custom domain names**.
 
@@ -103,7 +103,7 @@ You can find additional domains in your Azure Active Directory under **Custom d
 
 ![image9lq1a.png][img9]
 
-1. [https://id.superoffice.com/identityprovider/register][5]
+1. [Register identity provider][1]
 2. Your primary domain will be registered in SuperId
 3. Fill out the form for subdomains and custom domain names
 4. We will manually add those subdomains and custom domain names
@@ -112,18 +112,18 @@ You can find additional domains in your Azure Active Directory under **Custom d
 **Note:** For those who do not use a custom domain name or subdomain name for your UPN/SuperOffice usernames, do not need to fill out the form for subdomains and custom domain names below.
 
 <!-- Referenced links -->
-[1]: https://community.superoffice.com/en/technical/documentation/identity-management/how-to/federated-sign-in-guide/map-idp-usernames/
+[1]: map-idp-usernames.md
 [2]: https://id.superoffice.com/identityprovider/register
-[3]: https://community.superoffice.com/en/technical/documentation/identity-management/how-to/federated-sign-in-guide/complete-user-transition/
+[3]: complete-user-transition.md
 [4]: https://docs.microsoft.com/en-us/azure/active-directory/enterprise-users/domains-manage/
-[5]: https://id.superoffice.com/identityprovider/register
 
-[img1]: ./media/choose-idp.png
-[img2]: ./media/o365signin.png
-[img3]: ./media/o365confirm.png
-[img4]: ./media/confirm-all-users-o365.png
-[img5]: ./media/google-signin.png
-[img6]: ./media/confirm-all-users-google.png
-[img7]: ./media/confirmation.png
-[img8]: ./media/signin-domain.png
-[img9]: ./media/register-subdomains.png
+<!-- Referenced images -->
+[img1]: media/choose-idp.png
+[img2]: media/o365signin.png
+[img3]: media/o365confirm.png
+[img4]: media/confirm-all-users-o365.png
+[img5]: media/google-signin.png
+[img6]: media/confirm-all-users-google.png
+[img7]: media/confirmation.png
+[img8]: media/signin-domain.png
+[img9]: media/register-subdomains.png

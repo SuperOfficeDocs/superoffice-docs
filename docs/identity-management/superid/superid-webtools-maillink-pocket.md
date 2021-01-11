@@ -13,7 +13,7 @@ so.topic: concept      # article, howto, reference, concept, guide
 # so.client:                    # online, web, win, pocket, or mobile
 ---
 
-# Authentication with WebTools, MailLink and Pocket
+# Authentication with WebTools, MailLink, and Pocket
 
 Let's look at how SuperID changes authentication for WebTools, MailLink, and Pocket.
 
@@ -44,5 +44,5 @@ An invalid cached password will sometimes result in locking the user account.
 * Double-clicking the WebTools owl icon will send the user to the tenant. If the user is not signed in, the user will be redirected back to the sign-in dialog, must click **Next**, and then possibly authenticate to sign in.
 
 <!-- Referenced links -->
-[1]: https://community.superoffice.com/en/developer/create-apps/concepts/authentication/oauth/
+[1]: ../../authentication/oauth-2-intro.md
 [2]: https://tools.ietf.org/html/rfc5282

@@ -77,6 +77,6 @@ A user data object can enter the SuperOffice sphere in the following ways:
 * [Provision user from Azure Active Directory via SCIM][3].
 
 <!-- Referenced links -->
-[1]: https://community.superoffice.com/en/developer/create-apps/concepts/our-processes/provisioning/
+[1]: ../../provisioning/index.md
 [2]: https://community.superoffice.com/en/technical/documentation/identity-management/how-to/add-user-in-admin-client/
 [3]: https://community.superoffice.com/en/technical/documentation/identity-management/how-to/provision-users-with-scim/

@@ -9,8 +9,8 @@ keywords:
 so.topic: concept                      # article, howto, reference, concept, guide
 
 # Optional fields. Don't forget to remove # if you need a field.
-# so.envir:                     # cloud or onsite
-# so.client:                    # online, web, win, pocket, or mobile
+so.envir: cloud          # cloud or onsite
+so.client: online               # online, web, win, pocket, or mobile
 ---
 
 # User accounts and passwords
@@ -52,7 +52,7 @@ If the SuperID account is federated, the username must be the user principal nam
 **Passwords and user accounts:**
 
 | Model | Password granularity | Password type | Password storage | Password management | Authentication |
-|-----------|-------------|-----------|-------------|-----------|-------------|-------------|
+|-----------|-------------|-----------|-------------|-----------|-------------|
 | Standard (before) | one-to-one | text string or key phrase | in the database of a specific tenant | admin client of the tenant | email address or username + password for 1 specific tenant |
 | SuperID - basic | one-to-many | text string or key phrase | centrally | id.superoffice.com | SuperID user account |
 | SuperID - federated | one-to-many | up to the identity provider | Microsoft or Google | identity provider | Microsoft or Google account |
