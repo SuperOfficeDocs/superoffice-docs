@@ -3,10 +3,10 @@
 
 # Mandatory fields.
 title: integration_points       # (Required) Very important for SEO. Intent in a unique string of 43-59 chars including spaces.
-description:                    # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
+description: SuperOffice Online integration points # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
 author: {github-id}             # Your GitHub alias.
 keywords:
-so.topic:                       # article, howto, reference, concept, guide
+so.topic: concept            # article, howto, reference, concept, guide
 
 # Optional fields. Don't forget to remove # if you need a field.
 so.envir: cloud           # cloud or onsite
@@ -45,11 +45,11 @@ These services are either an independent application or augment an existing appl
 * [Quote Connector Service][8]
 
 <!-- Referenced links -->
-[1]: https://community.superoffice.com/en/developer/apps-partners/develop/building-your-first-application/provisioning/
-[2]: https://community.superoffice.com/en/content/content/netserver-sdk/netserver-8.x/superoffice-webhooks/
+[1]: ../provisioning/index.md
+[2]: ../automation/webhook/index.md
 [3]: https://community.superoffice.com/documentation/sdk/SO.NetServer.Web.Services/html/Reference-SOAP-SOAP.htm
 [4]: https://community.superoffice.com/documentation/sdk/SO.NetServer.Web.Services/html/Reference-WebAPI-WebAPI.htm
-[5]: https://community.superoffice.com/documentation/help/en/crm/8.4/webhelpadmin/topics_script/CRMScript.htm
+[5]: ../automation/crmscript.md
 [6]: ../mirroring/index.md
 [7]: ../erp-sync/index.md
 [8]: ../quote-connector/index.md

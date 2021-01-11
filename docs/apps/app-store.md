@@ -3,9 +3,9 @@
 
 # Mandatory fields.
 title: app_store       # (Required) Very important for SEO. Intent in a unique string of 43-59 chars including spaces.
-description:                    # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
+description: The App Store marketplace # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
 author: {github-id}             # Your GitHub alias.
-keywords:
+keywords: buy
 so.topic: concept         # article, howto, reference, concept, guide
 
 # Optional fields. Don't forget to remove # if you need a field.
@@ -19,18 +19,17 @@ The SuperOffice App Store is where SuperOffice customers find and buy applicatio
 
 Customers can browse the store to find a range of applications made available from both SuperOffice and our partners.
 
-## **Open to all SuperOffice CRM Online customers**
+## Open to all SuperOffice CRM Online customers
 
-The SuperOfficre App Store is transparent and open to any [applications][1] that represent a clear business value to your customers and users, SuperOffice, and partners.
+The SuperOffice App Store is transparent and open to any applications that represent a clear business value to your customers and users, SuperOffice, and partners.
 
 * Anonymous users may browse the marketplace (without login)
 * Signed-in users can view their purchased and installed applications
 * Signed-in users must have an active subscription to SuperOffice CRM Online to buy an application
 
-### **Marketplace, not a webshop**
+### Marketplace, not a webshop
 
-SuperOffice will not bill, [provision][2], or host partner applications. Instead, the App Store redirects to our partners' websites where customers buy directly from the partner.
+SuperOffice will not bill, [provision][1], or host partner applications. Instead, the App Store redirects to our partners' websites where customers buy directly from the partner.
 
 <!-- Referenced links -->
-[1]: index.md
-[2]: ../provisioning/index.md
+[1]: ../provisioning/index.md

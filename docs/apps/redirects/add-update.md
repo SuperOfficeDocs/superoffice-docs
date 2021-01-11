@@ -19,19 +19,19 @@ The redirection endpoints are specified and whitelisted when you register the ap
 
 All changes to whitelisted URLs have to go through SuperOffice.
 
-**Pre-requisite:**
+## Pre-requisite
 
 * You have registered your application idea
 * You are (or will be) handling web service requests at the new endpoints
 
-**To update:**
+## To update
 
 [Submit a change request][1] (form).
 
 * We ask for the [Client ID][2] (AppId)
 * Which environment do you want the change for ([SOD, stage, or production][3])
 * For each URL:
-  * is it new or replacing an existing redirect (specify old URL)
+  * is it new or replacing an existing redirect? (specify old URL)
   * is whitelisting sufficient or is it a CORS redirect?
 
 > [!CAUTION]
@@ -39,6 +39,6 @@ All changes to whitelisted URLs have to go through SuperOffice.
 
 <!-- Referenced links -->
 [1]: https://community.superoffice.com/en/developer/create-apps/resources/change-application/
-[2]: https://community.superoffice.com/en/developer/create-apps/concepts/client-id-and-secret/
-[3]: ../getting-started/app-envir.md
+[2]: ../client-id-and-secret/
+[3]: ../app-envir.md
 [4]: ../tenants/get-consent.md

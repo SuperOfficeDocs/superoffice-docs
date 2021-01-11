@@ -2,22 +2,22 @@
 # This basic template provides core metadata fields for Markdown articles on docs.superoffice.com.
 
 # Mandatory fields.
-title: custom       # (Required) Very important for SEO. Intent in a unique string of 43-59 chars including spaces.
+title: custom_app       # (Required) Very important for SEO. Intent in a unique string of 43-59 chars including spaces.
 description: About custom apps for SuperOffice CRM Online # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
 author: {github-id}             # Your GitHub alias.
-keywords:
+keywords: private app
 so.topic: concept          # article, howto, reference, concept, guide
 
 # Optional fields. Don't forget to remove # if you need a field.
 so.envir: cloud               # cloud or onsite
-# so.client:                    # online, web, win, pocket, or mobile
+so.client: online             # online, web, win, pocket, or mobile
 ---
 
-# About custom apps for SuperOffice CRM Online
+# Custom apps for SuperOffice CRM Online
 
 Custom applications are one-off customizations for your company or a customer's company only. These are not available in the SuperOffice App Store.
 
-A custom [application][1] can be the solution when your needs as a SuperOffice CRM Online customer are not met using either:
+A custom application can be the solution when your needs as a SuperOffice CRM Online customer are not met using either:
 
 * the standard configurations available in SuperOffice Settings and maintenance, or
 * a standard application available in the App Store
@@ -37,7 +37,7 @@ Custom applications require a subscription to [Expander Services][7] to get acce
   * either a totally new integration to a solution you currently use and that is specific to you
   * or a customized version of a standard application available in the App Store
 
-In addition, you can make extra tables and custom screens available to users of the Sales and Marketing [user plans][8] through web panels.
+Also, you can make extra tables and custom screens available to users of the Sales and Marketing [user plans][8] through web panels.
 
 When it is time to develop your application idea, you have 3 options:
 
@@ -46,11 +46,10 @@ When it is time to develop your application idea, you have 3 options:
 * Ask a vendor to create a tailored version of a standard application for you
 
 <!-- Referenced links -->
-[1]: index.md
 [2]: standard.md
 [3]: ../tenants/index.md
-[4]: https://community.superoffice.com/en/developer/create-apps/overview/application-environments/
+[4]: app-envir.md
 [5]: https://community.superoffice.com/en/developer/create-apps/concepts/our-processes/validation/
 [6]: https://community.superoffice.com/en/developer/create-apps/how-to/deploy/activate-custom-app/
-[7]: ../expander-services/index.md
-[8]: https://community.superoffice.com/en/developer/create-apps/concepts/user-plans-and-subscriptions/
+[7]: ../license/expander-services/index.md
+[8]: ../license/user-plans.md

@@ -1,8 +1,16 @@
 ---
-title: getting_started       
-description:                    
+# This basic template provides core metadata fields for Markdown articles on docs.superoffice.com.
+
+# Mandatory fields.
+title: getting_started       # (Required) Very important for SEO. Intent in a unique string of 43-59 chars including spaces.
+description: Building apps for SuperOffice # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
 author: {github-id}             # Your GitHub alias.
 keywords:
+so.topic: concept            # article, howto, reference, concept, guide
+
+# Optional fields. Don't forget to remove # if you need a field.
+so.envir: cloud           # cloud or onsite
+so.client: online               # online, web, win, pocket, or mobile
 ---
 
 # Building apps for SuperOffice
@@ -84,12 +92,12 @@ Creating an application for the SuperOffice App Store is not something to take l
 <!-- Referenced links -->
 [1]: app-envir.md
 [2]: ../tenants/index.md
-[3]: ../apps/client-id-secret.md
-[4]: ../redirects/index.md
-[5]: ../certificates/index.md
-[6]: ../certification/certify-app.md
-[7]: ../validation/validate-app.md
-[8]: ../apps/get-listed.md
-[9]: ../apps/activate-custom-app.md
+[3]: client-id-secret.md
+[4]: redirects/index.md
+[5]: certificates/index.md
+[6]: certification/certify-app.md
+[7]: validation/validate-app.md
+[8]: get-listed.md
+[9]: activate-custom-app.md
 [10]: ../authentication/oidc/native-app-quickstart.md
 [11]: ../authentication/oidc/auth-code-flow-quickstart.md

@@ -5,7 +5,7 @@
 title: redirect_endpoint_types       # (Required) Very important for SEO. Intent in a unique string of 43-59 chars including spaces.
 description: Types of redirection endpoints # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
 author: {github-id}             # Your GitHub alias.
-keywords:
+keywords: URL
 so.topic: reference               # article, howto, reference, concept, guide
 
 # Optional fields. Don't forget to remove # if you need a field.
@@ -53,7 +53,7 @@ so.client: online               # online, web, win, pocket, or mobile
 
 ## Database mirroring URL
 
-* Where the SuperOffice Mirroring Task sends data.
+* Where the [SuperOffice Mirroring Task][3] sends data.
 
 ## ERP Sync URL
 
@@ -64,5 +64,6 @@ so.client: online               # online, web, win, pocket, or mobile
 * Where we send [notifications when a tenant changes status][2]. Mandatory for standard applications.
 
 <!-- Referenced links -->
-[1]: ../apps/revoke.md
-[2]: https://community.superoffice.com/en/developer/create-apps/reference/tenant-notifications/
+[1]: ../revoke.md
+[2]: ../../tenants/online-tenant-status.md
+[3]: ../../mirroring/mirroring-task.md

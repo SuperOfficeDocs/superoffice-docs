@@ -5,7 +5,7 @@
 title: get_app_keys       # (Required) Very important for SEO. Intent in a unique string of 43-59 chars including spaces.
 description: Get application keys # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
 author: {github-id}             # Your GitHub alias.
-keywords:
+keywords: client ID, appId
 so.topic: howto             # article, howto, reference, concept, guide
 
 # Optional fields. Don't forget to remove # if you need a field.
@@ -17,7 +17,7 @@ so.client: online               # online, web, win, pocket, or mobile
 
 After signing up for a developer account, you need to register your application idea to get your own unique client ID and client secret so you can start coding.
 
-**Required info:**
+## Required info
 
 * Name of your company
 * Name and email of your technical contact
@@ -27,7 +27,7 @@ After signing up for a developer account, you need to register your application 
 * Which SuperOffice endpoints you need access to
 * User context (application user or non-interactive)
 
-**Relevant info:**
+## Relevant info
 
 * Which kind of authorization flow you plan to use
 * Whether you plan to access any restricted agents
@@ -43,7 +43,7 @@ After signing up for a developer account, you need to register your application 
     * We use SendSafely, an end-to-end encryption platform, to send you the client ID, the client secret, and any private encryption keys.
 3. Save the application keys in a secure location. The SendSafely-message will expire!
 
-**Next step:** Create an MVC  application at your redirection endpoint and implement your chosen authorization flow.
+**Next step:** Create an MVC application at your redirection endpoint and implement your chosen authorization flow.
 
 <!-- Referenced links -->
 [1]: https://community.superoffice.com/en/developer/create-apps/resources/application-registration/

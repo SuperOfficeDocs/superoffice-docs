@@ -13,7 +13,7 @@ so.envir: cloud           # cloud or onsite
 so.client: online               # online, web, win, pocket, or mobile
 ---
 
-# About application models
+# Application models
 
 How an application presents itself inside or outside of SuperOffice, and how customers interact with the application, determine the application model.
 
@@ -41,4 +41,4 @@ External applications are hidden integrations where most or all interaction happ
 Hybrid applications can, as the name suggests, have some UI components inside SuperOffice CRM Online and can operate or be configured on a partner web portal. The majority of applications are hybrids.
 
 <!-- Referenced links -->
-[1]: https://community.superoffice.com/en/developer/create-apps/concepts/authentication/user-contexts/
+[1]: ../authentication/user-contexts/

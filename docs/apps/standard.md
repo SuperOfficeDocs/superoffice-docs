@@ -2,18 +2,18 @@
 # This basic template provides core metadata fields for Markdown articles on docs.superoffice.com.
 
 # Mandatory fields.
-title: standard       # (Required) Very important for SEO. Intent in a unique string of 43-59 chars including spaces.
-description:                    # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
+title: standard_app       # (Required) Very important for SEO. Intent in a unique string of 43-59 chars including spaces.
+description: Standard apps for SuperOffice Online # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
 author: {github-id}             # Your GitHub alias.
 keywords:
 so.topic: concept           # article, howto, reference, concept, guide
 
 # Optional fields. Don't forget to remove # if you need a field.
 so.envir: cloud              # cloud or onsite
-# so.client:                    # online, web, win, pocket, or mobile
+so.client: online           # online, web, win, pocket, or mobile
 ---
 
-# About standard apps for SuperOffice Online
+# Standard apps for SuperOffice Online
 
 Standard applications are built to fit many and available in the SuperOffice App Store. In contrast, custom applications are one-off customizations for your company or a customer's company only.
 
@@ -23,6 +23,6 @@ All applications begin in our [sandbox environment][2]. Standard applications mu
 
 <!-- Referenced links -->
 [1]: index.md
-[2]: https://community.superoffice.com/en/developer/create-apps/overview/application-environments/
+[2]: app-envir.md
 [3]: https://community.superoffice.com/en/developer/create-apps/concepts/our-processes/certification/
 [4]: https://community.superoffice.com/en/developer/create-apps/how-to/test/secure-standard-app/

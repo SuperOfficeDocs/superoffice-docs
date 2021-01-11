@@ -2,11 +2,11 @@
 # This basic template provides core metadata fields for Markdown articles on docs.superoffice.com.
 
 # Mandatory fields.
-title: hosting       # (Required) Very important for SEO. Intent in a unique string of 43-59 chars including spaces.
-description:                    # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
+title: add_hosting       # (Required) Very important for SEO. Intent in a unique string of 43-59 chars including spaces.
+description: Application hosting # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
 author: {github-id}             # Your GitHub alias.
 keywords:
-so.topic:                       # article, howto, reference, concept, guide
+so.topic: concept              # article, howto, reference, concept, guide
 
 # Optional fields. Don't forget to remove # if you need a field.
 so.envir: cloud           # cloud or onsite
@@ -17,7 +17,7 @@ so.client: online               # online, web, win, pocket, or mobile
 
 You are responsible for hosting your own applications, regardless if you develop standard applications for the SuperOffice App Store or custom applications for a specific customer.
 
-SuperOffice will not bill, [provision][1], or host partner [applications][2]. Instead, the App Store redirects to our partners' websites where customers buy directly from the partner.
+SuperOffice will not bill, [provision][1], or host partner applications. Instead, the App Store redirects to our partners' websites where customers buy directly from the partner.
 
 As a partner, you will have to host your applications in **your own cloud** environment. This could be in an environment managed by a group of partners or for example in their Azure or Amazon cloud.
 
@@ -27,8 +27,7 @@ Before you get to authorization, you must sign up to get your unique [client IDs
 
 <!-- Referenced links -->
 [1]: ../provisioning/index.md
-[2]: ../apps/index.md
-[3]: https://community.superoffice.com/en/developer/create-apps/how-to/develop/validate-security-tokens/
-[4]: https://community.superoffice.com/en/developer/create-apps/concepts/client-id-and-secret/
-[5]: https://community.superoffice.com/en/developer/create-apps/concepts/redirect-url/
-[6]: https://community.superoffice.com/en/developer/create-apps/how-to/set-up/get-application-keys/
+[3]: ../authentication/certificates/validate-security-tokens.md
+[4]: client-id-secret.md
+[5]: redirects/index.md
+[6]: get-app-keys.md

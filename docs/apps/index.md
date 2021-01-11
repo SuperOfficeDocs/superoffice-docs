@@ -36,7 +36,7 @@ Applications are either developed by SuperOffice or one of our partners. The cre
 
 ### Integration services
 
-Standard and custom applications have the possibility to incorporate the following external-facing integrations:
+Standard and custom applications can incorporate the following external-facing integrations:
 
 * Database Mirroring
 * ERP Sync Connector
@@ -49,8 +49,8 @@ These integration types are referred to as Integration Services.
 Applications are either [built to fit many][4] and available in the SuperOffice App Store or [one-off customization][5] for your company or a customer's company only.
 
 <!-- Referenced links -->
-[1]: https://community.superoffice.com/en/developer/create-apps/concepts/client-id-and-secret/
-[2]: ../getting-started/hosting/index.md
+[1]: client-id-secret.md
+[2]: hosting.md
 [3]: ../provisioning/index.md
 [4]: standard.md
 [5]: custom.md

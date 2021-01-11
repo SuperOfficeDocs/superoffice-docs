@@ -48,10 +48,10 @@ The system user has unlimited access to the [tenant][5] and is not restricted by
 See also [application models][6] and the [system user MVC example][7].
 
 <!-- Referenced links -->
-[1]: https://community.superoffice.com/en/developer/create-apps/concepts/authentication/federated-authentication/
+[1]: ../authentication/federated-authentication.md
 [2]: ../system-user/system-user-token.md
 [3]: ..//system-user/system-user-flow.md
-[4]: https://community.superoffice.com/en/developer/create-apps/concepts/authentication/oidc-flows/
+[4]: ../authentication/oidc/index.md
 [5]: ../tenants/index.md
 [6]: ../apps/models.md
-[7]: https://community.superoffice.com/en/developer/create-apps/samples/minimal-c-app/
+[7]: ../samples/minimal-csharp-app/index.md

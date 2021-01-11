@@ -5,7 +5,7 @@
 title: what_api_to_use       # (Required) Very important for SEO. Intent in a unique string of 43-59 chars including spaces.
 description: What API to use? # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
 author: Tony Yates             # Your GitHub alias.
-so.date: 13 Sep 2018
+so.date: 09.13.2018
 keywords:
 so.topic: article               # article, howto, reference, concept, guide
 
@@ -16,9 +16,9 @@ so.client: online               # online, web, win, pocket, or mobile
 
 # What API to use?
 
-When partners build an online application, or a one-off integration, the first question I usually get is “what APIs are available?”.
+When partners build an online application, or a one-off integration, the first question I usually get is "what APIs are available?".
 
-I generally respond with we support both SOAP and REST web services. And then their follow-up question is generally “which API should I use?”. The answer is, well it depends.
+I generally respond with we support both SOAP and REST web services. And then their follow-up question is generally "which API should I use?". The answer is, well it depends.
 
 Our REST and SOAP APIs have different authentication and data access techniques, and which one you chose really depends on the type of integration you are building. This article highlights some of the differences of each, with respect to SuperOffice, and aims to clarify which API you should use.
 
@@ -87,11 +87,11 @@ While the old form and new OAuth 2.0 form have a different sequence of events th
 
 As for web service access, or authorization , when using the old form, then the claims also contain the administrator's Ticket credential. When using the OAuth 2.0 flow, in addition to the JWT token, the `access_token` is included in the response.
 
-Older online applications that use the old form were not required to include the `redirect_url`. It was optional. Application that needed to override the default `redirect_url` could supply a `redirect_url` as long as it was registered in the application's `redirect_url` whitelist. If an application supplies a `redirect_url` that does not exist in the white list, SuperID will simply redirect the users online tenant.
+Older online applications that use the old form were not required to include the `redirect_url`. It was optional. Application that needed to override the default `redirect_url` could supply a `redirect_url` as long as it was registered in the application's `redirect_url` whitelist. If an application supplies a `redirect_url` that does not exist in the white list, SuperID will simply redirect the user's online tenant.
 
 `http://sod.superoffice.com/login/?app_id=YOUR_APP_ID&redirect_url=YOUR_WHITELISTED_REDIRECT_URL`
 
-There is **no way to circumvent in the installation and consent process**… An application must receive consent to access a tenants resources! Any attempt to authenticate via the APIs without prior consent will fail.
+There is **no way to circumvent in the installation and consent process**… An application must receive consent to access a tenant's resources! Any attempt to authenticate via the APIs without prior consent will fail.
 
 ### Interactive and Non-Interactive Authentication
 
@@ -101,7 +101,7 @@ Therefore the results of an interactive authentication for a normal user is very
 
 Once authenticated, the interactive user is redirected to the applications `redirect_url` and the application can provision anything necessary for that user, and/or redirect the user back to SuperOffice.
 
-It’s not uncommon for users to interactively sign-in to an app when it is exposed in SuperOffice through a web panel. In that case, and when using OAuth 2.0, include the `<uctx>` template variable in the web panel URL to get the customers context identifier and include that in the endpoint.
+It’s not uncommon for users to interactively sign-in to an app when it is exposed in SuperOffice through a web panel. In that case, and when using OAuth 2.0, include the `<uctx>` template variable in the web panel URL to get the customer's context identifier and include that in the endpoint.
 
 `https://sod.superoffice.com/login/{contextIdentifier}/oauth/authorize?...`
 
@@ -109,7 +109,7 @@ It’s not uncommon for users to interactively sign-in to an app when it is expo
 
 `https://sod.superoffice.com/login/Cust12345/oauth/authorize?response_type=id_token token&client_id=YOUR-APP-ID&redirect_uri=YOUR-REDIRECT-URL&scope=openid&state=12345&nonce=7362CAEA-9CA5-4B43-9BA3-34D7C303EBA7`
 
-This will ensure the web panel application provides the user with seamless SSO experience.
+This will ensure the web panel application provides the user with a seamless SSO experience.
 
 **Normal users** are every-day users employed by the company that license SuperOffice, and use it to help accomplish their daily goals. **System users** are special accounts that have unlimited access to SuperOffice data, and are used to perform routine tasks that are not owned by normal users. System accounts used through web services **do not** support impersonation contexts, so they cannot do work on behalf of a normal user.
 
@@ -117,11 +117,11 @@ This will ensure the web panel application provides the user with seamless SSO e
 
 Most people who chose to use OpenID Connect, use one of the available OpenID Connect [frameworks provided][9] depending on their technology stack.
 
-While nearly impossible to cover homegrown solutions, SuperOffice has successfully tested OpenID Connect friendly frameworks; including [Microsoft ASPNET authentication services][10], as well as Identity Server’s [oidc-client][11]. In fact, the SuperOffice Online [Angular example][12] uses the oidc-client-js npm package.
+While nearly impossible to cover homegrown solutions, SuperOffice has successfully tested OpenID Connect friendly frameworks; including [Microsoft ASPNET authentication services][10], as well as Identity Server’s [oidc-client][11]. In fact, the SuperOffice Online [Angular example][12] uses the `oidc-client-js` npm package.
 
 SuperOffice supports interactive [OpenID Connect workflows][6], such as Authorization Code, Implicit and Hybrid Flow, but there is no support for non-interactive OAuth2 workflows; such as Client Credentials.
 
-SuperOffice does, however, issue `refresh_token`s, and in that way does support a non-interactive flow once the user has interactively signed in. Since it does require the user to first interactively authenticate to receive a `refresh_token`, we refer to this as **Semi-Interactive**. From that point on, each users’ refresh token can be securely stored and use toward the **tokens** endpoint to obtain an `access_token`, which is then used as a credential to perform API calls on behalf of a particular user.
+SuperOffice does, however, issue refresh tokens, and in that way does support a non-interactive flow once the user has interactively signed in. Since it does require the user to first interactively authenticate to receive a refresh token, we refer to this as **Semi-Interactive**. From that point on, each users’ refresh token can be securely stored and use toward the **tokens** endpoint to obtain an access token, which is then used as a credential to perform API calls on behalf of a particular user.
 
 ## Supported Scenarios
 
@@ -171,11 +171,11 @@ Applications that use OAuth2/OpenID Connect to authenticate users via the [Autho
 
 To use a refresh token, the application must issue a POST request to the **tokens** endpoint with the following details:
 
-1. client id
-2. cient
-3. redirect\_uri
-4. grant\_type specified as `refresh_token`
-5. the actual refresh token
+* client id
+* client
+* redirect\_uri
+* grant\_type specified as `refresh_token`
+* the actual refresh token
 
 An example POST request:
 
@@ -227,7 +227,7 @@ There are a lot of integration options, and I can understand if it’s been a he
 [3]: https://community.superoffice.com/documentation/sdk/SO.NetServer.Web.Services/html/Reference-SOAP-SOAP.htm
 [4]: https://www.nuget.org/packages/SuperOffice.NetServer.Services/
 [5]: https://github.com/SuperOffice/SuperOffice.DevNet.Online/tree/master/Source/SuperOffice.DevNet.Online.Login/SoPlugins
-[6]: https://community.superoffice.com/en/content/content/online/superoffice-online-open-id-connect/
+[6]: ../authentication/oidc/index.md
 [7]: https://online.superoffice.com/login/
 [8]: http://openid.net/connect/
 [9]: http://openid.net/developers/certified/
@@ -238,4 +238,4 @@ There are a lot of integration options, and I can understand if it’s been a he
 [14]: https://community.superoffice.com/documentation/sdk/SO.NetServer.Web.Services/html/Reference-SOAP-Services86-Contact-GetContactEntity.htm
 
 <!-- Referenced images -->
-[img1]: https://community.superoffice.com/globalassets/developer-club/articles/superofficeapis/onlineauthentication.png
+[img1]: media/onlineauthentication.png

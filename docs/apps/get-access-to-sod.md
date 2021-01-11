@@ -17,12 +17,12 @@ so.client: online               # online, web, win, pocket, or mobile
 
 Your 1st step to building an application for SuperOffice CRM Online is to register as a developer to get access to our sandbox environment.
 
-**Required info:**
+## Required info
 
 * Your name and email
 * Name of your company
 
-**Relevant info:**
+## Relevant info
 
 * Whether you are exploring our APIs or you already have an application idea
 * Whether you have prior experience with us
