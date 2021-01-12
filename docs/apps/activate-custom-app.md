@@ -6,7 +6,7 @@ title: activate_custom_app       # (Required) Very important for SEO. Intent in 
 description: Activate custom application # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
 author: {github-id}             # Your GitHub alias.
 keywords:
-so.topic:                       # article, howto, reference, concept, guide
+so.topic: howto            # article, howto, reference, concept, guide
 
 # Optional fields. Don't forget to remove # if you need a field.
 so.envir: cloud           # cloud or onsite
@@ -48,7 +48,7 @@ This is usually initiated by the customer.
 
 <!-- Referenced links -->
 [1]: validation/validate-app.md
-[2]: ../expander-services/index.md
+[2]: ../license/expander-services/index.md
 [3]: provisioning.md
 [4]: consent.md
 [5]: https://community.superoffice.com/en/developer/create-apps/resources/activate-custom-application/

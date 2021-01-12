@@ -59,7 +59,7 @@ A quick-start guide for getting you up and running with an ASP.NET Core Razor Pa
 
         ![imagetudj9.png][img4]
 
-    * The default RedirectURL for this website is defined in the application property page. When you are ready to deploy this application to another web site, or URL, make sure to update your application redirectURL by filling in the [update application form][9]. These can be changed in two places. The first is in the applications **property pages**:
+    * The default RedirectURL for this website is defined in the application property page. When you are ready to deploy this application to another web site, or URL, make sure to update your application redirectURL by filling in the [update application form][6]. These can be changed in two places. The first is in the applications **property pages**:
 
         ![image8m8u.png][img5]
 
@@ -118,10 +118,9 @@ If you have any issues with the sample, please post an issue on the [repo issues
 [3]: ../../apps/client-id-secret.md
 [4]: index.md
 [5]: auth-code-flow.md
-[6]: ../../apps/update.md
+[6]: ../../apps/update-app.md
 [7]: https://github.com/SuperOffice/devnet-oidc-razor-pages-webapi
 [8]: ../../apps/app-envir.md
-[9]: ../../apps/update.md
 [10]: https://github.com/SuperOffice/devnet-oidc-razor-pages-webapi/issues
 
 <!-- Referenced images -->

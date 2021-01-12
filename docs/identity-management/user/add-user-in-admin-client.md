@@ -41,7 +41,7 @@ Administrators can add users one by one in the Admin client.
     ![invite o365][img3]
 
 <!-- Referenced links -->
-[1]: ..superid/sign-in-services.md
+[1]: ../superid/sign-in-services.md
 [2]: ../user-accounts-and-roles.md
 
 [img1]: media/soadm-add-user.png

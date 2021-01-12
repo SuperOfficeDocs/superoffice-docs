@@ -43,4 +43,4 @@ The SOD tenant can be shared by multiple developers within a company. However, y
 [1]: https://community.superoffice.com/en/developer/create-apps/resources/developer-registration/
 [2]: ../tenants/index.md
 [3]: app-envir.md
-[4]: https://community.superoffice.com/en/customer/learn/settings-maintenance/general/users/how-to-create-a-new-user/
+[4]: ../identity-management/user/add-user-in-admin-client.md

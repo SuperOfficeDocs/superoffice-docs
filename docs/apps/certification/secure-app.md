@@ -53,7 +53,7 @@ We may send you multiple sets of keys at the same time. You will **not** be abl
 <!-- Referenced links -->
 [1]: certify-app.md
 [2]: ../client-id-secret.md
-[3]: ../getting-started/app-envir.md
+[3]: ../app-envir.md
 [4]: initial-watchcom-eval.md
 [5]: ../get-listed.md
 [6]: ../publish-standard-app.md

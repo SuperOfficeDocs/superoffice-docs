@@ -84,10 +84,10 @@ Both the REST and SOAP `base URL` endpoints are included as **claims** in the Op
 
 <!-- Referenced links -->
 [1]: standard.md
-[2]: https://community.superoffice.com/en/developer/create-apps/how-to/deploy/get-listed-in-app-store/
-[3]: https://community.superoffice.com/en/developer/create-apps/concepts/our-processes/validation/
-[4]: https://community.superoffice.com/en/developer/create-apps/concepts/our-processes/certification/
-[5]: https://community.superoffice.com/en/developer/create-apps/how-to/deploy/
+[2]: get-listed.md
+[3]: validation/index.md
+[4]: certification/index.md
+[5]: overview.md
 [6]: ../tenants/index.md
 [7]: app-store.md
 [8]: index.md

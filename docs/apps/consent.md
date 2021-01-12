@@ -42,7 +42,7 @@ During approval, the customer's administrator should accept the following change
 > to: full access to everything in a customer database
 
 <!-- Referenced links -->
-[1]: https://community.superoffice.com/en/developer/create-apps/reference/tenant-approval/
-[2]: https://community.superoffice.com/en/developer/create-apps/overview/application-environments/
-[3]: https://community.superoffice.com/en/developer/create-apps/concepts/authentication/user-contexts/
+[1]: ../tenants/approval-sequence.md
+[2]: app-envir.md
+[3]: user-contexts.md
 [4]: ../mirroring/index.md

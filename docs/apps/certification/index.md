@@ -1,5 +1,5 @@
 ---
-title: certification       
+title: app_certification       
 description:                    
 author: {github-id}             # Your GitHub alias.
 keywords:
@@ -37,9 +37,9 @@ The certification is free of charge except for a fee billed by Watchcom for thei
 Follow our [step-by-step guide][6], started by sending a certification request form.
 
 <!-- Referenced links -->
-[1]: ../apps/standard.md
+[1]: ../standard.md
 [2]: ../validation/index.md
-[3]: ../getting-started/app-envir.md
+[3]: ../app-envir.md
 [4]: initial-watchcom-eval.md
 [5]: ../requirements/index.md
 [6]: certify-app.md

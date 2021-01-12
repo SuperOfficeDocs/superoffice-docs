@@ -73,16 +73,16 @@ We recommend you also have a [staging environment][12].
 Always keep in mind the [OWASP top ten list][13].
 
 <!-- Referenced links -->
-[1]: https://community.superoffice.com/en/developer/create-apps/overview/intro/standard-apps/
+[1]: ../standard.md
 [2]: ../certification/certify-app.md
 [3]: ../certification/secure-app.md
-[4]: https://community.superoffice.com/en/developer/create-apps/overview/app-store/beta-app/
-[5]: https://community.superoffice.com/en/developer/create-apps/overview/intro/custom-apps/
-[6]: ../validation/validate-custom-app.md
-[7]: https://community.superoffice.com/en/developer/create-apps/concepts/authentication/federated-authentication/
-[8]: https://community.superoffice.com/en/developer/create-apps/concepts/application-models/
-[9]: https://community.superoffice.com/en/developer/create-apps/concepts/client-id-and-secret/
-[10]: https://community.superoffice.com/en/developer/create-apps/concepts/authentication/user-contexts/
-[11]: https://community.superoffice.com/en/developer/create-apps/concepts/redirect-url/
-[12]: https://community.superoffice.com/en/developer/create-apps/overview/application-environments/
+[4]: ../beta-period.md
+[5]: ../custom.md
+[6]: ../validation/validate-app.md
+[7]: ../..//authentication/federated-auth.md
+[8]: ../models.md
+[9]: ../client-id-secret.md
+[10]: ../user-contexts.md
+[11]: ../redirects/index.md
+[12]: ../app-envir.md
 [13]: https://www.owasp.org/index.php/Category:OWASP_Top_Ten_Project

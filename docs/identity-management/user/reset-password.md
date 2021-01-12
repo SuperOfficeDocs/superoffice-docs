@@ -34,4 +34,4 @@ SuperOffice administrators can't reset federated passwords on users' behalf. The
 Read more about [SuperID accounts and passwords][1].
 
 <!-- Referenced links -->
-[1]: user-accounts-and-passwords.md
+[1]: ../superid/user-accounts-and-passwords.md

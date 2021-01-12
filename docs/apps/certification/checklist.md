@@ -36,7 +36,7 @@ My application is ready, what should I consider before I ask for a certification
 
 ## Protect your web panels
 
-[!include[ALT](../includes/protect-web-panels.md)]
+[!include[ALT](../includes/protect-webpanels.md)]
 
 * Visibility is set to **all user groups** by default
 * The application name and/or your company name is part of the web panel's description
@@ -99,11 +99,11 @@ My application is ready, what should I consider before I ask for a certification
 
 <!-- Referenced links -->
 [6]: https://community.superoffice.com/documentation/help/en/crm/8.4/webhelpadmin/chap07/Visibility.htm
-[7]: ../tenants/get-consent.md
-[8]: revoke.md
-[9]: ../tenants/check-status.md
-[11]: https://community.superoffice.com/en/developer/create-apps/concepts/gdpr-intro/consent-management/
-[12]: https://community.superoffice.com/en/developer/create-apps/concepts/gdpr-intro/e-marketing-consent/
+[7]: ../../tenants/get-consent.md
+[8]: ../revoke-app.md
+[9]: ../../tenants/check-status.md
+[11]: ../../privacy/consent-management.md
+[12]: ../../privacy/e-marketing-consent.md
 [13]: ../requirements/localization.md
 [14]: ../requirements/security.md
 [15]: ../requirements/business.md

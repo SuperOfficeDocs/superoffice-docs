@@ -1,5 +1,5 @@
 ---
-title: validation       
+title: app_validation       
 description:                    
 author: {github-id}             # Your GitHub alias.
 keywords:
@@ -28,9 +28,9 @@ We are checking logs in Application Insight and our Operation Center.
 Follow our [step-by-step guide][6], started by sending a validation request form.
 
 <!-- Referenced links -->
-[1]: ../apps/standard.md
-[2]: ../apps/custom.md
-[3]: ../getting-started/app-envir.md
+[1]: ../standard.md
+[2]: ../custom.md
+[3]: ../app-envir.md
 [4]: ../activate-custom-app.md
 [5]: ../requirements/index.md
-[6]: https://community.superoffice.com/en/developer/create-apps/how-to/test/validate-custom-app/
+[6]: validate-app.md

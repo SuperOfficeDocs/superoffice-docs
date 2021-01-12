@@ -45,9 +45,9 @@ Your custom application is almost ready. Before we go live, we need to ensure th
     * We may contact you or schedule a time for either a phone call or WebEx meeting
 3. Fix issues if necessary.
 
-**Next step:** [activate the custom application][4].
+**Next step:** [activate the custom application][2].
 
 <!-- Referenced links -->
 [1]: checklist.md
+[2]: ../activate-custom-app.md
 [3]: https://community.superoffice.com/en/developer/create-apps/resources/start-application-validation/
-[4]: ../activate-custom-app.md

@@ -31,8 +31,8 @@ Read the [technical description][6].
 
 <!-- Referenced links -->
 [1]: https://online.superoffice.com/appstore/superoffice-as/office-365-integration
-[2]: ../documents/g-suite-integration/index.md
+[2]: ../documents/g-suite-document-integration/index.md
 [3]: ../documents/office-365-document-integration/set-up.md
-[4]: ../documents/g-suite-integration/set-up.md
-[5]: ../documents/cloud-office-document-handling.md
+[4]: ../documents/g-suite-document-integration/set-up.md
+[5]: ../documents/configure-cloud-document-handling.md
 [6]: ../documents/cloud-document-integrations.md

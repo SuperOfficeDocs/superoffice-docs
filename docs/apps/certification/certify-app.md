@@ -17,19 +17,19 @@ so.client: online               # online, web, win, pocket, or mobile
 
 Your standard application is almost ready. Before we go live, we need to ensure that it can be safely distributed via the SuperOffice App Store and that you have given thought to the cybersecurity of your company and the information security of your application.
 
-**Pre-requisites:**
+## Pre-requisites
 
 * You have gone through the [certification checklist][1]
 * You have appointed a designated certification contact who will be available during the test period
 
-**Required info:**
+## Required info
 
 * Name of application
 * Client ID in our SOD environment
 * Certification contact
 * List of endpoints
 
-**Relevant info:**
+## Relevant info
 
 * Technology stack
 * If using system user
@@ -39,7 +39,7 @@ Your standard application is almost ready. Before we go live, we need to ensure 
 * Test cases and test documents
   * If you have been running heavy testing in our SOD environment, please include the date and time for these tests since we may go back and check logs for the last 30 days inside Application Insight.
 
-**Process:**
+## Process
 
 1. [Submit a standard application for certification][2] (form).
 2. Provide additional info and clarify questions while we run certification tests in SOD and Stage.

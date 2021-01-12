@@ -24,5 +24,5 @@ All applications begin in our [sandbox environment][2]. Standard applications mu
 <!-- Referenced links -->
 [1]: index.md
 [2]: app-envir.md
-[3]: https://community.superoffice.com/en/developer/create-apps/concepts/our-processes/certification/
-[4]: https://community.superoffice.com/en/developer/create-apps/how-to/test/secure-standard-app/
+[3]: certification/index.md
+[4]: certification/secure-app.md

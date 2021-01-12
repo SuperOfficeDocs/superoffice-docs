@@ -104,7 +104,7 @@ Read more: [access tokens][4], [refresh tokens][5], [system user tokens][6], [be
 [4]: access-token.md
 [5]: refresh-token.md
 [6]: system-user/system-user-token.md
-[7]: authorization-headers.md
+[7]: auth-header-types.md
 
 <!-- Referenced images -->
 [img1]: media/id-token.png

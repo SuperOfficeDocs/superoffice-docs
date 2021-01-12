@@ -94,7 +94,7 @@ Creating an application for the SuperOffice App Store is not something to take l
 [2]: ../tenants/index.md
 [3]: client-id-secret.md
 [4]: redirects/index.md
-[5]: certificates/index.md
+[5]: ../authentication/certificates/index.md
 [6]: certification/certify-app.md
 [7]: validation/validate-app.md
 [8]: get-listed.md

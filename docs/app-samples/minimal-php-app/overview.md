@@ -54,8 +54,8 @@ Each application must also validate each token received by SuperId when exchangi
 The host running this example must have the [public certificates installed][2] for this example to work.
 
 <!-- Referenced links -->
-[1]: ../system-user/tokens/system-user-token.md
-[2]: ../certificates/configure.md
+[1]: ../../authentication/system-user/system-user-token.md
+[2]: ../../authentication/certificates/configure.md
 
 <!-- Referenced images -->
 [img1]: media/image001.png

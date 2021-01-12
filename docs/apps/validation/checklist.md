@@ -43,7 +43,7 @@ If the subscription is discontinued, any custom applications will lose access to
 
 ## Protect your web panels
 
-[!include[ALT](../includes/protect-web-panels.md)]
+[!include[ALT](../includes/protect-webpanels.md)]
 
 ## System user and important rules
 
@@ -62,7 +62,7 @@ If the subscription is discontinued, any custom applications will lose access to
 [Sign me up for validation][4]
 
 <!-- Referenced links -->
-[1]: ../expander-services/index.md
-[2]: consent.md
-[3]: ../tenants/check-status.md
+[1]: ../../license/expander-services/index.md
+[2]: ../consent.md
+[3]: ../../tenants/check-status.md
 [4]: validate-app.md

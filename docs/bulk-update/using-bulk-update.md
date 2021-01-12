@@ -94,7 +94,7 @@ Continue reading: [Field value info][2]
 
 <!-- Referenced links -->
 [1]: index.md
-[2]: field-value-info.md]
+[2]: field-value-info.md
 
 <!-- Referenced images -->
 [img1]: media/image006.png

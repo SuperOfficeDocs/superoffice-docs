@@ -54,4 +54,4 @@ See also [application models][6] and the [system user MVC example][7].
 [4]: ../authentication/oidc/index.md
 [5]: ../tenants/index.md
 [6]: models.md
-[7]: ../samples/minimal-csharp-app/overview.md
+[7]: ../app-samples/minimal-csharp-app/overview.md

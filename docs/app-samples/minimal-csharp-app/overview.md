@@ -6,7 +6,7 @@ title: minimal_csharp_app_overview       # (Required) Very important for SEO. In
 description: Minimal C# application # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
 author: {github-id}             # Your GitHub alias.
 keywords:
-so.topic:                       # article, howto, reference, concept, guide
+so.topic: guide            # article, howto, reference, concept, guide
 
 # Optional fields. Don't forget to remove # if you need a field.
 so.envir: cloud           # cloud or onsite
@@ -139,10 +139,10 @@ When a user clicks **Install SuperOffice Maps**, the application checks to see i
 * If not, the application redirects to the SuperID login page.
 
 <!-- Referenced links -->
-[1]: ../../certificates/configure.md
+[1]: ../../authentication/certificates/configure.md
 [2]: ../../apps/run-website-on-iis-localhost.md
 [3]: partner-db-library.md
-[4]: superoffice-devnet-online-login.md
+[4]: super-office-devnet-online-login.md
 [5]: system-user-service-console.md
 [6]: web-config.md
 [7]: ../../apps/client-id-secret.md

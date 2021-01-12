@@ -35,4 +35,4 @@ Each tenant has a status page where you can check its state to ensure your appli
 
 <!-- Referenced links -->
 [1]: ../apps/app-envir.md
-[2]: tenant-status/.md
+[2]: online-tenant-status.md

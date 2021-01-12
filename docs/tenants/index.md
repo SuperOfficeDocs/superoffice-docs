@@ -53,6 +53,6 @@ The **change type** is a number value that corresponds to the operation perfor
 <!-- Referenced links -->
 [1]: ../apps/app-envir.md
 [2]: ../apps/index.md
-[3]: production-test-tenants.md
+[3]: production-test-tenant.md
 [4]: check-status.md
-[5]: tenant-status/.md
+[5]: online-tenant-status.md

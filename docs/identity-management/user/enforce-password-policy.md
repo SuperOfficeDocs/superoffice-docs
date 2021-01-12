@@ -25,5 +25,5 @@ You can read more about [policies for **onsite** installations][3] in our forums
 
 <!-- Referenced links -->
 [1]: ../superid/index.md
-[2]: ../superid/federated-id.md
+[2]: ../federated-id-and-identity-providers.md
 [3]: https://community.superoffice.com/en/search/#/faq/113578

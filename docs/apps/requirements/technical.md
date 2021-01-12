@@ -80,6 +80,6 @@ These require different [installation URLs][1] and [client ID/secrets][3] (token
 You may continue to use web services from an earlier release until we announce EOL.
 
 <!-- Referenced links -->
-[1]: https://community.superoffice.com/en/developer/create-apps/concepts/redirect-url/
-[2]: https://community.superoffice.com/en/developer/create-apps/overview/application-environments/
-[3]: https://community.superoffice.com/en/developer/create-apps/concepts/client-id-and-secret/
+[1]: ../redirects/index.md
+[2]: ../app-envir.md
+[3]: ../client-id-secret.md

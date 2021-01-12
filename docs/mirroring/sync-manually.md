@@ -54,5 +54,5 @@ If this process fails for any reason, `ResolveConnection()` will not be called a
 > Because there is no GUI to check data in a mirror, **SQL Server Management Studio** must be used. Generally, it should be possible to do `select * from <sometable>` in both the customer table and the mirror, and get the same result.
 
 <!-- Referenced links -->
-[1]: ../online/redirects/index.md
+[1]: ../apps/redirects/index.md
 [2]: mirroring-task.md

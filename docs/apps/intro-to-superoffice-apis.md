@@ -244,7 +244,7 @@ Whether constructing a small internal automation routine, or building a complex 
 
 With the understanding that each SuperOffice platform provides a lot of integrations points, and knowing that any one problem can have multiple solutions, it's important to consider all options before you decide which approach to take. There is assistance and guidance available. Please use the [developer forums][20] to ask for recommendations, or you may submit integration questions directly to SuperOffice at [sdk@superoffice.com][21].
 
-Read more about each platform API in the [SDK documentation][22].
+Read more about each platform API in the SDK documentation.
 
 <!-- Referenced links -->
 [1]: https://community.superoffice.com/en/developer/forum/?clubId=3
@@ -268,7 +268,6 @@ Read more about each platform API in the [SDK documentation][22].
 [19]: http://devnet.superoffice.com/documentation/SDK/SO.Server.Services/Index.html
 [20]: https://community.superoffice.com/en/developer/forum/
 [21]: mailto:sdk@superoffice.com
-[22]: https://community.superoffice.com/en/developer/documentation/
 
 <!-- Referenced images -->
 [img1]: media/scriptingapibysuperofficeplatform.png

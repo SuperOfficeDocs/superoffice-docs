@@ -49,7 +49,7 @@ When it is time to develop your application idea, you have 3 options:
 [2]: standard.md
 [3]: ../tenants/index.md
 [4]: app-envir.md
-[5]: https://community.superoffice.com/en/developer/create-apps/concepts/our-processes/validation/
-[6]: https://community.superoffice.com/en/developer/create-apps/how-to/deploy/activate-custom-app/
+[5]: validation/index.md
+[6]: activate-custom-app.md
 [7]: ../license/expander-services/index.md
 [8]: ../license/user-plans.md
