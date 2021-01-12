@@ -27,9 +27,9 @@ Each tenant has a status page where you can check its state to ensure your appli
     * Set `ENVIR` to [sod, stage or online][1] depending on where your application runs.
     * Set `CONTEXTID` to your context identifier, for example, Cust00000.
 
-```csharp
-GET https://ENVIR.superoffice.com/api/state/CONTEXTID
-```
+    ```csharp
+    GET https://ENVIR.superoffice.com/api/state/CONTEXTID
+    ```
 
 2. Parse the response. Details in the [state value reference][2].
 
