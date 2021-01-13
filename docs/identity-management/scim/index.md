@@ -4,7 +4,7 @@
 # Mandatory fields.
 title: scim_intro       # (Required) Very important for SEO. Intent in a unique string of 43-59 chars including spaces.
 description: What is SCIM? Why use SCIM?                # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
-author: {frodeb@superoffice.com}             # Your GitHub alias.
+author:              # Your GitHub alias.
 keywords: SCIM
 so.topic: concept                    # article, howto, reference, concept, guide
 
@@ -16,6 +16,8 @@ so.client:  online                  # online, web, win, pocket, or mobile
 # System for Cross-domain Identity Management (SCIM)
 
 SCIM is a common language to describe what an identity is and how to handle it. With SuperOffice you can user SCIM to automate user provisioning from Azure AD.
+
+![cover image][1]
 
 ## What is SCIM?
 
@@ -146,3 +148,6 @@ SuperID is used for authenticating both the admin configuring the endpoint and u
 <!-- Referenced links -->
 [1]: https://tools.ietf.org/html/rfc7643
 [2]: https://tools.ietf.org/html/rfc7644
+
+<!-- Referenced images -->
+[img1]: media/scim-cover.png
