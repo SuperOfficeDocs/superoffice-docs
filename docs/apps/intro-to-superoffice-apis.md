@@ -110,8 +110,6 @@ A flagship CRM platform, the SuperOffice CRM client has been the leading SuperOf
 
 The Windows client exposes many hooks that make it easy for vendors to create a seamless experience with their applications. Integrations have full-duplex type communications, providing integrations the ability to receive notifications when users perform actions, immediately process the data concerned, and even switch the user's context and show important relevant information related to that action.
 
-There are several articles about using the integration points listed below in the Developer club articles section, [SuperOffice Windows][4].
-
 **Integration Points:**
 
 * COM API
@@ -157,7 +155,7 @@ Federated authentication is a way SuperOffice can provide a single sign-in exper
 
 The SuperOffice CRM Online environment hosts an app store with several partner integrations. These integrations are comprised of Business to Consumer (B2C) applications. Most applications expose functionality inside SuperOffice by adding web panels in relevant areas, while others add a button that opens a web page to the application. All application vendors have their own cloud platforms to manage customers and tenant users.
 
-You can find out more information about CRM Online integration points by reading the [CRM Online SDK pages][9].
+You can find out more information about CRM Online integration points by reading the CRM Online SDK pages.
 
 **Integration Points (Online)**:
 
@@ -174,7 +172,7 @@ You can find out more information about CRM Online integration points by reading
 
 ### Customer Service
 
-There are several articles available in both the [Technical][10] and [Developer][1] clubs that explain in detail many of the internal automation integrations points provided by SuperOffice CS. There are not, however, too many external integration points to discuss. The ones that do exist are primarily the CS legacy [SOAP services][11]. It must be said that these services have not evolved for quite some time, and do not appear to be on any road map. That said, there are a few major installations that do leverage these endpoints, and therefore they are not likely to fade away any time soon either. Similar to the Windows client COM APIs, these APIs are in the future not likely to change.
+There are several articles available that explain in detail many of the internal automation integrations points provided by SuperOffice CS. There are not, however, too many external integration points to discuss. The ones that do exist are primarily the CS legacy [SOAP services][11]. It must be said that these services have not evolved for quite some time, and do not appear to be on any road map. That said, there are a few major installations that do leverage these endpoints, and therefore they are not likely to fade away any time soon either. Similar to the Windows client COM APIs, these APIs are in the future not likely to change.
 
 There are no prebuilt SuperOffice proxies available for these APIs. You must use a proxy generator appropriate for your target technology platform, or use raw SOAP requests, to use these services.
 
@@ -213,7 +211,7 @@ Listed below are the different aspects of NetServer core APIs.
 * Web service endpoints based on WCF **SOAP** and **REST**ful WebAPI: IIS application used by SuperOffice Web and PocketCRM.
 * Web service proxies: Service agent pattern .NET assemblies used by clients to access the service endpoints.
 
-An important aspect of NetServer web service development is its [deployment flexibility][14]. It's capable of being embedded in a domain-centric fat client application, as well as a thin client deployed with NetServer service proxies for data access across the internet.
+An important aspect of NetServer web service development is its deployment flexibility. It's capable of being embedded in a domain-centric fat client application, as well as a thin client deployed with NetServer service proxies for data access across the internet.
 
 **Webhooks** are supported at both the low and high levels of NetServer.
 
@@ -250,18 +248,14 @@ Read more about each platform API in the SDK documentation.
 [1]: https://community.superoffice.com/en/developer/forum/?clubId=3
 [2]: https://msdn.microsoft.com/en-us/library/aa227633(v=vs.60).aspx
 [3]: https://community.superoffice.com/en/sdk-docs/
-[4]: https://community.superoffice.com/en/developer/articles/?clubId=3&catId=40
 [5]: https://community.superoffice.com/documentation/SDK/SO.WinGui/webframe.html
 [6]: http://devnet.superoffice.com/documentation/SDK/SO.WinData/webframe.html
 [7]: https://community.superoffice.com/Documentation/SDK/SO.WebGUI/Index.html
-[8]: https://community.superoffice.com/link/326108f3f714418fbc81bc83250a0935.aspx
-[9]: https://community.superoffice.com/link/8aa3a1a5bcda4f40bcdee65ae3d12fd2.aspx
-[10]: https://community.superoffice.com/en/technical/Articles/?clubId=2&catId=63
+[8]: ../authentication/federated-auth.md
 [11]: https://community.superoffice.com/documentation/sdk/SO.CustomerServiceSupport/Index.html
 [12]: ../ns-web-services/what-is-netserver-part-2.md
 [13]: ../ns-web-services/what-is-netserver-part-1.md
-[14]: https://community.superoffice.com/en/content/content/netserver-sdk/netserver-8.x/netserver-deployment-scenarios/
-[15]: https://community.superoffice.com/en/content/content/netserver-sdk/netserver-8.x/superoffice-webhooks/
+[15]: ../automation/webhook/index.md
 [16]: https://community.superoffice.com/documentation/sdk/SO.NetServer.Web.Services/html/Reference-SOAP-SOAP.htm
 [17]: https://community.superoffice.com/documentation/sdk/SO.NetServer.Web.Services/html/Reference-WebAPI-WebAPI.htm
 [18]: http://devnet.superoffice.com/documentation/SDK/SO.Server.Data/Index.html

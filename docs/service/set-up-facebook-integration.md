@@ -128,7 +128,7 @@ New Webhook subscriptions must use a secure HTTPS callback URL as of v2.5. With 
 If you need more information about setting up HTTPS for your callback URL, check out [the Getting Started guide][7] from Let's Encrypt and [the SSL Certificate Installation instructions][8] from Digicert.
 
 <!-- Referenced links -->
-[1]:https://community.superoffice.com/en/technical/Forum/rooms/topic/superoffice-product-group/customer-service/our-facebook-integration-and-cambridge-analytica/
+[1]: https://community.superoffice.com/en/technical/Forum/rooms/topic/superoffice-product-group/customer-service/our-facebook-integration-and-cambridge-analytica/
 [2]: https://developers.facebook.com/
 [3]: https://www.facebook.com/pages/create/
 [4]: http://support.superoffice.com/

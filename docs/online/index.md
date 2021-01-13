@@ -48,4 +48,4 @@ We offer more than one way of signing in - and [the Identity Management section]
 [2]: system-requirements.md
 [3]: https://community.superoffice.com/en/customer/learn/settings-maintenance/general/users/install-web-tools/
 [4]: https://community.superoffice.com/en/customer/learn/standard/account/
-[5]: https://community.superoffice.com/en/technical/documentation/identity-management/
+[5]: ../identity-management/index.md

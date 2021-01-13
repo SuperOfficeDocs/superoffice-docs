@@ -65,5 +65,5 @@ The following example code has an extensive amount of logging to the console. Th
 [4]: https://community.superoffice.com/contentassets/21dbc96303eb4a69a86279bb59ce1208/system-user-node-sample.zip
 [5]: ../../apps/client-id-secret.md
 [6]: ../../tenants/get-consent.md
-[7]: https://community.superoffice.com/en/developer/create-apps/reference/soap-envelope/
+[7]: ../../soap-envelope.md
 [8]: sign-system-user-token.md

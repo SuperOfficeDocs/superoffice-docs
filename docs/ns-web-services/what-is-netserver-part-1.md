@@ -324,7 +324,7 @@ In subsequent articles, I will provide a thorough introduction into Entities an
 Read: [What is NetServer, part 2][4]
 
 <!-- Referenced links -->
-[1]: https://community.superoffice.com/en/content/content/netserver-sdk/archived-articles/hitchhikers-guide-to-the-netserver-configuration-file/
+[1]: what-is-netserver-part-1.md
 [2]: https://msdn.microsoft.com/en-us/library/aa347733(v=vs.110).aspx
 [3]: http://java.sun.com/developer/technicalArticles/J2EE/j2ee_ws/index.html#use
 [4]: what-is-netserver-part-2.md

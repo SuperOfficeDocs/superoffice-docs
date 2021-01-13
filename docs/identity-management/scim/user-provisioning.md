@@ -78,5 +78,5 @@ A user data object can enter the SuperOffice sphere in the following ways:
 
 <!-- Referenced links -->
 [1]: ../../provisioning/index.md
-[2]: https://community.superoffice.com/en/technical/documentation/identity-management/how-to/add-user-in-admin-client/
-[3]: https://community.superoffice.com/en/technical/documentation/identity-management/how-to/provision-users-with-scim/
+[2]: ../user/add-user-in-admin-client.md
+[3]: index.md

@@ -62,7 +62,7 @@ The sign-in link in the welcome email can only be used once. If the user has not
 * The user didn't see the email in their inbox, either because they skipped it or it was labeled as spam.
 
 <!-- Referenced links -->
-[1]: https://community.superoffice.com/en/technical/documentation/identity-management/how-to/provision-users-with-scim/sign-in-to-scim/
+[1]: ../scim/sign-in-to-scim.md
 [2]: reset-password.md
 
 <!-- Referenced images -->

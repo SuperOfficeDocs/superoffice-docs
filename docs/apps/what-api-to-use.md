@@ -137,7 +137,7 @@ Interactive authentication is facilitated by the [SuperOffice Online sign-in pag
 
 ## Non-Interactive Scenario
 
-In order to conduct true background processing, applications must use the system user **token** that was issued to them during the installation process. Applications use the SOAP-based [PartnerSystemUserService][13] endpoint to exchange a system user token for a system-user **ticket**.
+In order to conduct true background processing, applications must use the system user **token** that was issued to them during the installation process. Applications use the SOAP-based `PartnerSystemUserService` endpoint to exchange a system user token for a system-user **ticket**.
 
 When used in a **SOAP** request, the system-user ticket is used as credentials, placed inside each SOAP header as seen in the [ContactAgent.GetContactEntity][14] method.
 
@@ -234,7 +234,6 @@ There are a lot of integration options, and I can understand if it’s been a he
 [10]: https://docs.microsoft.com/en-us/aspnet/core/security/authentication/social/?view=aspnetcore-2.1
 [11]: https://github.com/IdentityModel/oidc-client-js
 [12]: https://github.com/SuperOffice/DevNet-Angular-OpenID-REST
-[13]: https://community.superoffice.com/link/e8ce11c068384235a6970463ffa7e171.aspx
 [14]: https://community.superoffice.com/documentation/sdk/SO.NetServer.Web.Services/html/Reference-SOAP-Services86-Contact-GetContactEntity.htm
 
 <!-- Referenced images -->

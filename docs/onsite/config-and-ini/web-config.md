@@ -133,7 +133,7 @@ The *Session* section relates to the lifetime of a NetServer communication ses
 
 * Context: Session is stored in a context static manner. For further reference, see System.ContextStaticAttribute.
 
-* PartnerHttpContext: Helper class for [SuperOffice.DevNet.Online.Login][6]
+* PartnerHttpContext: Helper class for SuperOffice.DevNet.Online.Login
 
 ### Database
 
@@ -249,7 +249,7 @@ This section is used to specify whether an application is working locally or r
 | MaxTasks | Default = 16 |
 | CPUTreshold | Default = 100 |
 | PollingInterval | Default = 2 |
-| DiagnosticsWebUri | Default = http://localhost:8002 |
+| DiagnosticsWebUri | Default = `http://localhost:8002` |
 | RunTasksInProcess | Boolean value to start by IIS in the same process. Defaults to true |
 
 ## Client
@@ -302,7 +302,6 @@ In this section you add the [Reverse proxy][4] override if you want to export la
 [3]: ../security/deployment-scenarios.md
 [4]: ../security/set-up-reverse-proxy-on-iis.md
 [5]: https://blogs.technet.microsoft.com/askds/2008/06/13/understanding-kerberos-double-hop/
-[6]: https://community.superoffice.com/login/CMS/~/link/bf56431a96cb48a1ba5ab6f29ac77cb5.aspx
 [7]: https://community.superoffice.com/en/content/content/webclient/Scripting-in-the-NetServer-World/
 [8]: https://community.superoffice.com/webapi/rest
 [9]: https://online.superoffice.com/AppStore/superoffice-as/superoffice-gmail-link

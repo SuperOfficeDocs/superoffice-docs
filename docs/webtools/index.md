@@ -93,7 +93,7 @@ MailLink is now a separate downloadable installer (the latest version) available
 
 <!-- Referenced links -->
 [1]: https://www3.superoffice.com/DownloadService/
-[2]: https://community.superoffice.com/en/blog/technical-overview-over-superoffice-web-tools/
+[2]: technical-overview.md
 
 <!-- Referenced images -->
 [img1]: media/webtools-old-schema.png

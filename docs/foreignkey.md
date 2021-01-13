@@ -193,7 +193,7 @@ Do you have any different ideas? I’m interested in hearing them.
 [1]: http://en.wikipedia.org/wiki/Fluent_interface
 
 <!-- Referenced images -->
-[img1]: https://community.superoffice.com/EPiServerCommunity/Modules/ImageGallery/Thumbnails/8/35608/1095.jpg
-[img2]: https://community.superoffice.com/EPiServerCommunity/Modules/ImageGallery/Thumbnails/8/35608/1096.jpg
-[img3]: https://community.superoffice.com/EPiServerCommunity/Modules/ImageGallery/Thumbnails/8/35608/1097.jpg
-[img4]: https://community.superoffice.com/EPiServerCommunity/Modules/ImageGallery/Thumbnails/8/35608/1098.jpg
+[img1]: media/foreignkey-1095.jpg
+[img2]: media/foreignkey-1096.jpg
+[img3]: media/foreignkey-1097.jpg
+[img4]: media/foreignkey-1098.jpg

@@ -24,7 +24,7 @@ When you subscribe to Expander Services, you get access to the following [tools]
 * Custom screens: Create new screens in Service to support your specific processes
 * SuperOffice APIs: Create customizations by using developers' tools
 
-Information about SuperOffice APIs is available in our [Developer club on the Community site][3]. There you and your partners (regardless of whether you have Expander Services or not) can find extensive documentation, tips, examples, forum groups, and support tools related to various customizations. Feel free to register and sign in to the community.
+Information about SuperOffice APIs is available on this site, where you and your partners (regardless of whether you have Expander Services or not) can find extensive documentation, tips, examples, forum groups, and support tools related to various customizations. Feel free to register and sign in to the community.
 
 ## How does Expander Services work?
 
@@ -57,7 +57,6 @@ The same goes for all [custom SuperOffice CRM Online applications][5].
 <!-- Referenced links -->
 [1]: tool-box.md
 [2]: ../../automation/crmscript.md
-[3]: https://community.superoffice.com/en/developer/
 [4]: ../../tenants/index.md
 [5]: ../../apps/custom.md
 [6]: ../../apps/standard.md

@@ -72,8 +72,8 @@ If some existing users do not get asked to switch to IDP authentication, a user 
 <!-- Referenced links -->
 [2]: https://admin.microsoft.com/AdminPortal/Home#/users
 [3]: https://crm.superoffice.com/scripts/customer.fcgi?action=formFrame&formId=19
-[4]: https://community.superoffice.com/en/technical/documentation/prepare/crm-online/superid/
-[5]: https://community.superoffice.com/en/technical/documentation/prepare/crm-online/superid/configureIDPforSuperID/
+[4]: ../../identity-management/superid/index.md
+[5]: ../../identity-management/superid/register-idp.md
 
 <!-- Referenced images -->
 [img1]: media/imagezj6n.png

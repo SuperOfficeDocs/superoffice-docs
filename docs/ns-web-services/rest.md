@@ -244,7 +244,7 @@ Navigate to the **API root** and see available REST service versions.
 
 ![imagebr9pi.png][img5]
 
-While you can click on the links in the page to view the REST API endpoints, we recommend you use the published REST documentation here for the pure [REST API][5]; and one for the [RESTful Agents API][6].
+While you can click on the links in the page to view the REST API endpoints, we recommend you use the published REST documentation here for the pure [REST API][4]; and one for the [RESTful Agents API][6].
 
 ![image09ess.png][img6]
 
@@ -539,7 +539,6 @@ Take your time getting to know SuperOffice REST services, and if you happen to s
 [2]: https://www.getpostman.com/
 [3]: http://www.w3schools.com/jsref/met_win_btoa.asp
 [4]: https://community.superoffice.com/documentation/sdk/SO.NetServer.Web.Services/html/Reference-WebAPI-REST-REST.htm
-[5]: https://community.superoffice.com/documentation/sdk/SO.NetServer.Web.Services/html/Reference-WebAPI-REST-REST.htm
 [6]: https://community.superoffice.com/documentation/sdk/SO.NetServer.Web.Services/html/Reference-WebAPI-Agents-Agents.htm
 [7]: https://en.wikipedia.org/wiki/Open_Data_Protocol
 [8]: https://community.superoffice.com/documentation/sdk/SO.NetServer.Web.Services/html/Reference-WebAPI-REST-Search.htm

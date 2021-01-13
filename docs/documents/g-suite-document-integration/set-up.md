@@ -130,7 +130,7 @@ This step is the same for both MS Office 365 and Google G Suite document integra
 <!-- Referenced links -->
 [1]: requirements.md
 [2]: security.md
-[3]: https://community.superoffice.com/en/technical/documentation/prepare/crm-online/superid/configureIDPforSuperID/
+[3]: ../../identity-management/superid/register-idp.md
 [4]: https://admin.google.com/ac/users
 [5]: https://accounts.google.com/
 [6]: https://cloudintegration.superoffice.com/app

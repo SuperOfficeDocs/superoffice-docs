@@ -32,4 +32,4 @@ The test environment is a **dead end**. We will not make it possible to migrat
 <!-- Referenced links -->
 [1]: index.md
 [2]: replace-test-envir.md
-[3]: https://community.superoffice.com/en/developer/create-apps/concepts/user-plans-and-subscriptions/
+[3]: ../license/user-plans.md

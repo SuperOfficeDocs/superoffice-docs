@@ -51,4 +51,4 @@ Check out our [sample notification code][2].
 
 <!-- Referenced links -->
 [1]: index.md
-[2]: https://community.superoffice.com/en/developer/create-apps/samples/tenant-notifications-example/
+[2]: notifications-example.md

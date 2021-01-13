@@ -63,7 +63,7 @@ Now, you need to [configure templates][6] in SuperOffice Admin to start using th
 <!-- Referenced links -->
 [1]: https://crm.superoffice.com/scripts/customer.fcgi?action=formFrame&formId=19
 [2]: https://id.superoffice.com/identityprovider/register
-[3]: https://community.superoffice.com/en/technical/documentation/prepare/crm-online/superid/configureIDPforSuperID/
+[3]: ../../identity-management/superid/register-idp.md
 [4]: https://cloudintegration.superoffice.com/app
 [5]: set-up.md
 [6]: ../configure-cloud-document-handling.md
