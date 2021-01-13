@@ -135,6 +135,14 @@ User provisioning with SCIM is rapidly gaining popularity and adoption and it pu
 
 Manual entry by hand is time-consuming, labor-intensive, and error-prone in large organizations. You can also save money on licenses by automatically de-allocating them from former employees and updating license type when an employee switches department and work responsibilities.
 
+## Provision users with SCIM
+
+Azure AD will access a SCIM endpoint in SuperOffice Cloud Integration, aka the SuperOffice Identity Management Gateway (IMG). This is configured as part of an Enterprise Application in Azure AD.
+
+The Identity Management Gateway is configured with a set of rules describing users in their SuperOffice CRM Online tenant.
+
+SuperID is used for authenticating both the admin configuring the endpoint and users signing in to the system.
+
 <!-- Referenced links -->
 [1]: https://tools.ietf.org/html/rfc7643
 [2]: https://tools.ietf.org/html/rfc7644
