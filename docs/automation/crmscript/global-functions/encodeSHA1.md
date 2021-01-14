@@ -3,7 +3,8 @@ description: String encodeSHA1(String value)
 path: /EJScript/Global functions/String encodeSHA1(String value)
 intellisense: 1
 langref: 1
-keywords: encodeSHA1(String)---
+keywords: encodeSHA1(String)
+---
 
 
 This function generates and returns a hash from a specified value using the SHA1 encoding algorithm. This can be used to ensure data integrity. (The hash cannot be decrypted back)

@@ -3,7 +3,8 @@ description: IntegerArray saveAllCgiAttachments (String name)
 path: /EJScript/Global functions/IntegerArray saveAllCgiAttachments (String name)
 intellisense: 1
 langref: 1
-keywords: saveAllCgiAttachments (String)---
+keywords: saveAllCgiAttachments (String)
+---
 
 Saves all cgi attachments with the given name.
 

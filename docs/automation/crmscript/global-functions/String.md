@@ -3,7 +3,8 @@ description: String String(Byte[] byteArray)
 path: /EJScript/Global functions/String String(Byte[] byteArray)
 intellisense: 1
 langref: 1
-keywords: String(Byte[])---
+keywords: String(Byte[])
+---
 
 
 String constructor, which builds a string from a byte array.

@@ -3,7 +3,8 @@ description: NSStream decodeBase64AsStream(String base64)
 path: /EJScript/Global functions/NSStream decodeBase64AsStream(String base64)
 intellisense: 1
 langref: 1
-keywords: decodeBase64AsStream(String)---
+keywords: decodeBase64AsStream(String)
+---
 
 Decode a base64 encoded string into a NSStream.
 

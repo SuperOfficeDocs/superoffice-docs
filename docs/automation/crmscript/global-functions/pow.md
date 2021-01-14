@@ -3,7 +3,8 @@ description: Float pow(Float base, Float exp)
 path: /EJScript/Global functions/Float pow(Float base, Float exp)
 intellisense: 1
 langref: 1
-keywords: pow(Float,Float)---
+keywords: pow(Float,Float)
+---
 
 
 The pow function returns base raised to the expth power.

@@ -3,7 +3,8 @@ description: String getDefaultElementConfig(Integer type, String table, String l
 path: /EJScript/Global functions/String getDefaultElementConfig(Integer type, String table, String language)
 intellisense: 1
 langref: 1
-keywords: getDefaultElementConfig(Integer,String,String)---
+keywords: getDefaultElementConfig(Integer,String,String)
+---
 
 
 Returns the default config for an element type given a table and language.

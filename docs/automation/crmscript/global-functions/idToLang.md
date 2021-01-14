@@ -3,7 +3,8 @@ description: String idToLang(Integer langId)
 path: /EJScript/Global functions/String idToLang(Integer langId)
 intellisense: 1
 langref: 1
-keywords: idToLang(Integer)---
+keywords: idToLang(Integer)
+---
 
 
 Returns the code of the given language id.

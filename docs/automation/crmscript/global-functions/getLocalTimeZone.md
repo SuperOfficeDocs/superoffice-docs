@@ -3,7 +3,8 @@ description: TimeZone getLocalTimeZone()
 path: /EJScript/Global functions/TimeZone getLocalTimeZone()
 intellisense: 1
 langref: 1
-keywords: getLocalTimeZone()---
+keywords: getLocalTimeZone()
+---
 
 
 Return the local timezone.

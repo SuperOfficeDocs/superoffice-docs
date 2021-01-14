@@ -3,7 +3,8 @@ description: String getExternalProgramStat()
 path: /EJScript/Global functions/String getExternalProgramStat()
 intellisense: 1
 langref: 1
-keywords: getExternalProgramStat()---
+keywords: getExternalProgramStat()
+---
 
 
 Returns the external url of the program module specified after getProgram.

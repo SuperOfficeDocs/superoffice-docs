@@ -3,7 +3,8 @@ description: Void assertEquals(String string1, String string2)
 path: /EJScript/Global functions/Void assertEquals(String string1, String string2)
 intellisense: 1
 langref: 1
-keywords: assertEquals(String,String)---
+keywords: assertEquals(String,String)
+---
 
 
 This method is used primarily with unit testing.

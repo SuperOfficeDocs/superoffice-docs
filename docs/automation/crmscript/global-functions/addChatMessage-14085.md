@@ -3,7 +3,8 @@ description: Integer addChatMessage(Integer sessionId, String message, Integer t
 path: /EJScript/Global functions/Integer addChatMessage(Integer sessionId, String message, Integer type, String author, Integer specialType, String specialParams, DateTime whenPosted)
 intellisense: 1
 langref: 1
-keywords: addChatMessage(Integer,String,Integer,String,Integer,String,DateTime)---
+keywords: addChatMessage(Integer,String,Integer,String,Integer,String,DateTime)
+---
 
 
 This function allows you to add a message to a chat session. It is especially used for ChatBot-integrations, as it allows you to specify whenPosted, which is when the message will show up. All the rest of the parameters are the same as addChatMessage:

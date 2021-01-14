@@ -3,7 +3,8 @@ description: Void assertEquals(Bool bool1, Bool bool2)
 path: /EJScript/Global functions/Void assertEquals(Bool bool1, Bool bool2)
 intellisense: 1
 langref: 1
-keywords: assertEquals(Bool,Bool)---
+keywords: assertEquals(Bool,Bool)
+---
 
 
 This method is used primarily with unit testing.

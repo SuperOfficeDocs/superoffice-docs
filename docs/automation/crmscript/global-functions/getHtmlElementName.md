@@ -3,7 +3,8 @@ description: String getHtmlElementName(Integer index)
 path: /EJScript/Global functions/String getHtmlElementName(Integer index)
 intellisense: 1
 langref: 1
-keywords: getHtmlElementName(Integer)---
+keywords: getHtmlElementName(Integer)
+---
 
 
 Returns the name of the element with the given index

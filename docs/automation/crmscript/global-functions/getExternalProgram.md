@@ -3,7 +3,8 @@ description: String getExternalProgram(Integer progId)
 path: /EJScript/Global functions/String getExternalProgram(Integer progId)
 intellisense: 1
 langref: 1
-keywords: getExternalProgram(Integer)---
+keywords: getExternalProgram(Integer)
+---
 
 
 Returns the url of the program module specified by progId. As indicated by the name, this will return the external URL, ie when accessed from the Internet (if available).

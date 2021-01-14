@@ -3,7 +3,8 @@ description: String getParserVariable(String varName, Integer row)
 path: /EJScript/Global functions/String getParserVariable(String varName, Integer row)
 intellisense: 1
 langref: 1
-keywords: getParserVariable(String,Integer)---
+keywords: getParserVariable(String,Integer)
+---
 
 
 Returns the parservariable on the specified row of the parser query result set, rows are starting from 0.

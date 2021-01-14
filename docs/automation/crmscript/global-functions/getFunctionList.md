@@ -3,7 +3,8 @@ description: String[][] getFunctionList()
 path: /EJScript/Global functions/String[][] getFunctionList()
 intellisense: 1
 langref: 1
-keywords: getFunctionList()---
+keywords: getFunctionList()
+---
 
 
 This functions returns an array with description of all ejscript functions defined in the system.

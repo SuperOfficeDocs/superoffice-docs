@@ -3,7 +3,8 @@ description: License License(String host, String license)
 path: /EJScript/Global functions/License License(String host, String license)
 intellisense: 1
 langref: 1
-keywords: License(String,String)---
+keywords: License(String,String)
+---
 
 
 Deprecated in 7.1.

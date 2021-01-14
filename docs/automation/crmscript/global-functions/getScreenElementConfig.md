@@ -3,7 +3,8 @@ description: Map getScreenElementConfig(Integer index)
 path: /EJScript/Global functions/Map getScreenElementConfig(Integer index)
 intellisense: 1
 langref: 1
-keywords: getScreenElementConfig(Integer)---
+keywords: getScreenElementConfig(Integer)
+---
 
 
 This function can only be called from a screen definition, it will fail if called from a regular script.

@@ -3,7 +3,8 @@ description: String getCgiUrl()
 path: /EJScript/Global functions/String getCgiUrl()
 intellisense: 1
 langref: 1
-keywords: getCgiUrl()---
+keywords: getCgiUrl()
+---
 
 
 Return the cgiUrl value from the config table. Used for creating urls.

@@ -3,7 +3,8 @@ description: DateTime getCurrentDateTime()
 path: /EJScript/Global functions/DateTime getCurrentDateTime()
 intellisense: 1
 langref: 1
-keywords: getCurrentDateTime()---
+keywords: getCurrentDateTime()
+---
 
 
 Returns the current date and time.

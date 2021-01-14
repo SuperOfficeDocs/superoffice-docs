@@ -3,7 +3,8 @@ description: DateTime DateTime(String p0)
 path: /EJScript/Global functions/DateTime DateTime(String p_0)
 intellisense: 1
 langref: 1
-keywords: DateTime(String)---
+keywords: DateTime(String)
+---
 
 
 Parse string and create datetime object

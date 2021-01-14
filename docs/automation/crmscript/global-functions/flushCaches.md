@@ -3,7 +3,8 @@ description: Void flushCaches()
 path: /EJScript/Global functions/Void flushCaches()
 intellisense: 1
 langref: 1
-keywords: flushCaches()---
+keywords: flushCaches()
+---
 
 This will flush the caches in NetServer.
 

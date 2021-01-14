@@ -3,7 +3,8 @@ description: HtmlElement addHtmlElement(Integer id, String name, Integer type, S
 path: /EJScript/Global functions/HtmlElement addHtmlElement(Integer id, String name, Integer type, String config, Integer position)
 intellisense: 1
 langref: 1
-keywords: addHtmlElement(Integer,String,Integer,String,Integer)---
+keywords: addHtmlElement(Integer,String,Integer,String,Integer)
+---
 
 Adds an html element to the associated screen.
 

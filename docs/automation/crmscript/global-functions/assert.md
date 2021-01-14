@@ -3,7 +3,8 @@ description: Void assert(Bool condition)
 path: /EJScript/Global functions/Void assert(Bool condition)
 intellisense: 1
 langref: 1
-keywords: assert(Bool)---
+keywords: assert(Bool)
+---
 
 
 This method is used primarily with unit testing.

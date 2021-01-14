@@ -3,7 +3,8 @@ description: Void setVariable(String name, String value)
 path: /EJScript/Global functions/Void setVariable(String name, String value)
 intellisense: 1
 langref: 1
-keywords: setVariable(String,String)---
+keywords: setVariable(String,String)
+---
 
 
 Sets the value in the global environment (used for communication between the script the calling context).

@@ -3,7 +3,8 @@ description: String encodeBase64(NSStream data)
 path: /EJScript/Global functions/String encodeBase64(NSStream data)
 intellisense: 1
 langref: 1
-keywords: encodeBase64(NSStream)---
+keywords: encodeBase64(NSStream)
+---
 
 
 Encode an array of bytes to a base 64 string

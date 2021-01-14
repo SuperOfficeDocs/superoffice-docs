@@ -3,7 +3,8 @@ description: Integer Integer(Integer value)
 path: /EJScript/Global functions/Integer Integer(Integer value)
 intellisense: 1
 langref: 1
-keywords: Integer(Integer)---
+keywords: Integer(Integer)
+---
 
 
 Integer constructor

@@ -3,7 +3,8 @@ description: String getReplyTemplateBody(Integer id, Bool useHTML, Integer langI
 path: /EJScript/Global functions/String getReplyTemplateBody(Integer id, Bool useHTML, Integer langId)
 intellisense: 1
 langref: 1
-keywords: getReplyTemplateBody(Integer,Bool,Integer)---
+keywords: getReplyTemplateBody(Integer,Bool,Integer)
+---
 
 
 Returns reply template text as specified by the parameters.

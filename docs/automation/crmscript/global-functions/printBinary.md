@@ -3,7 +3,8 @@ description: Void printBinary(Byte[] bytes)
 path: /EJScript/Global functions/Void printBinary(Byte[] bytes)
 intellisense: 1
 langref: 1
-keywords: printBinary(Byte[])---
+keywords: printBinary(Byte[])
+---
 
 
 Output the bytes to standard output stream.

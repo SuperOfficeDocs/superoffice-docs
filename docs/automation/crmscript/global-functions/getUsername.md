@@ -3,7 +3,8 @@ description: String getUsername(Integer userId)
 path: /EJScript/Global functions/String getUsername(Integer userId)
 intellisense: 1
 langref: 1
-keywords: getUsername(Integer)---
+keywords: getUsername(Integer)
+---
 
 
 Get username from user id.

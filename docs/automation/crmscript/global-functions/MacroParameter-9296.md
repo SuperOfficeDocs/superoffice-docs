@@ -3,7 +3,8 @@ description: MacroParameter MacroParameter(String p0, String p1, Map p2, String 
 path: /EJScript/Global functions/MacroParameter MacroParameter(String p_0, String p_1, Map p_2, String p_3, String p_4, Bool p_5, String p_6, Bool p_7)
 intellisense: 1
 langref: 1
-keywords: MacroParameter(String,String,Map,String,String,Bool,String,Bool)---
+keywords: MacroParameter(String,String,Map,String,String,Bool,String,Bool)
+---
 
 
 This function constructs and returns a macroparameter set with the six parameters passed in.

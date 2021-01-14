@@ -3,7 +3,8 @@ description: String encodeBase64(Byte[] data, bool wrapLines)
 path: /EJScript/Global functions/String encodeBase64(Byte[] data, bool wrapLines)
 intellisense: 1
 langref: 1
-keywords: encodeBase64(Byte[],bool)---
+keywords: encodeBase64(Byte[],bool)
+---
 
 
 Encode an array of Byte's to a base 64 string

@@ -3,7 +3,8 @@ description: Void setSessionVariable(String name, String value)
 path: /EJScript/Global functions/Void setSessionVariable(String name, String value)
 intellisense: 1
 langref: 1
-keywords: setSessionVariable(String,String)---
+keywords: setSessionVariable(String,String)
+---
 
 
 This function makes it possible to store variables in the database which the web application can use

@@ -3,7 +3,8 @@ description: MainMenu getMainMenu()
 path: /EJScript/Global functions/MainMenu getMainMenu()
 intellisense: 1
 langref: 1
-keywords: getMainMenu()---
+keywords: getMainMenu()
+---
 
 
 Return a reference to the global MainMenu instance. This class is used for changing the left-hand menu in the system.
