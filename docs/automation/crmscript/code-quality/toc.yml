@@ -1,0 +1,6 @@
+- name: Coding conventions
+  href: coding-conventions.md
+- name: Best practices
+  href: best-practices.md
+- name: Intellisense
+  href: intellisense.md

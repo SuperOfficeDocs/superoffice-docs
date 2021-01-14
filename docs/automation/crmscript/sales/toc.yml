@@ -1,0 +1,13 @@
+- name: Leads
+  href: leads.md
+- name: Stakeholders
+  href: stakeholders.md
+- name: Pipeline
+  href: pipeline.md
+- name: Currency
+  href: currency.md
+- name: Sales guide
+  href: guides.md
+- name: Lost or sold
+  href: lost-or-sold.md
+  

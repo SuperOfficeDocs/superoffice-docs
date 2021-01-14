@@ -1,0 +1,32 @@
+- name: Fundamentals
+  href: index.md
+- name: Syntax
+  href: syntax.md
+- name: Reserved words
+  href: reserved.md
+- name: Variables
+  href: variables.md
+- name: Oprerators
+  href: operators.md
+- name: Datatypes (intro)
+  href: datatypes-intro.md
+- name: Functions
+  href: functions.md
+- name: Structs
+  href: structs.md
+- name: Arrays
+  href: arrays.md
+- name: Conditions
+  href: conditions.md
+- name: Try catch
+  href: try-catch.md
+- name: For loops
+  href: for-loops.md
+- name: Foreach loops
+  href: foreach-loops.md
+- name: While loops
+  href: while-loops.md
+- name: Loop control
+  href: loop-control.md
+- name: Output
+  href: output.md

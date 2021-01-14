@@ -1,0 +1,12 @@
+- name: Database basics
+  href: db-basics.md
+- name: Dot syntax
+  href: dot-syntax.md
+- name: Select
+  href: se-select.md
+- name: Run
+  href: se-run.md
+- name: Result
+  href: se-results.md
+- name: Insert, update, delete
+  href: se-insert-update-delete.md

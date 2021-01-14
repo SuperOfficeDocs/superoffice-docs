@@ -1,0 +1,8 @@
+- name: Welcome
+  href: index.md
+  expanded: true
+# items: # These items are navigation headers
+# - name: Admin
+#   href: admin/index.md
+# - name: Automation
+#   href: automation/index.md

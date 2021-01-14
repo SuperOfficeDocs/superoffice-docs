@@ -1,0 +1,1 @@
+[NetServer documentation](https://community.superoffice.com/documentation/sdk/SO.NetServer.Web.Services/html/Reference-Reference.htm)

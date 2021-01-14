@@ -1,0 +1,18 @@
+---
+title: Void SetTooltip(String Tooltip)
+path: /EJScript/Classes/NSAmountClassEntity/Member functions/Void SetTooltip(String p_0)
+intellisense: 1
+classref: 1
+sortOrder: 710
+keywords: SetTooltip(String)
+---
+
+
+Tooltip or other description
+
+
+
+* **Tooltip:** String
+* **Returns:** String
+
+
