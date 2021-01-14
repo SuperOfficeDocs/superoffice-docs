@@ -42,7 +42,7 @@ E-mail.............: [[ticket.custEmail]]
 Company.......: [[ticket.custCompany]]
 ```
 
-### Template components
+## Template components
 
 Reply templates have the following general components:
 
@@ -52,7 +52,7 @@ Reply templates have the following general components:
 * body
 * attachments
 
-You can [look up specific fields](https://community.superoffice.com/documentation/SDK/SO.Database/html/Tables-reply_template.htm) in the database reference.
+You can [look up specific fields][1] in the database reference.
 
 ### Translation
 
@@ -71,28 +71,28 @@ Many templates are available in several languages.
 
 A *template variable* is a named placeholder that you can put in a document- or email template. When the template is applied, the variable is substituted with the actual value. For example, {customer.firstname} translates to the customer's 1st name. This lets you automate the personalization of content.
 
-Use the embedded help to [look up specific template variables](https://community.superoffice.com/documentation/help/EN/CRM/8.5/UserHelp/index.htm#t=Service%2Ftopics%2FTemplate_variables.html)
+Use the embedded help to [look up specific template variables][2]
 
 > [!NOTE]
 > The date and time in template variables are controlled by the PC's system clock.
 
 ### Template types and entities
 
-| Template type              | Customer,<br/> Company | User | Ticket | Message | Config | Other |
+| Template type              | Customer,<br> Company | User | Ticket | Message | Config | Other |
 |----------------------------|:---------:|:----:|:------:|:-------:|:------:|:-------------------|
-| new request,<br/> edit request,<br/> add message | x   | x       | x      |      | x     |     |
+| new request,<br> edit request,<br> add message |       | x       | x      |      | x     |     |
 | autoreply                  | x         |      | x      |         |        |                    |
 | email filter               | x         |      | x      |         | x      |                    |
 | on incoming email          | x         |      | x      |         | x      | ticket.lastMessage |
 | notify: new request        | x         |      | x      | x       | x      | ticket.lastMessage |
 | notify: open requests      | x         |      | x      |         | x      | ticket.lastMessage |
 | notify: new message        | x         |      | x      | x       | x      |                    |
-| notify activated request,<br/>escalated request,<br/>re-assigned request | x | | x | | x |     |
-| new customer contacts      | x<br/> (customer only) |   |   |         |        | custPassword,<br/> to,<br/> from |
-| send password<br/> to customer contacts | x<br/> (customer only) | | | | x     | to,<br/> from      |
-| format FAQ questions       | x         |      | x      |         |        | faq.question,<br/> faq.answer |
+| notify activated request,<br>escalated request,<br>re-assigned request | x | | x | | x |     |
+| new customer contacts      | x<br> (customer only) |   |   |         |        | custPassword,<br> to,<br> from |
+| send password<br> to customer contacts | x<br> (customer only) | | | | x     | to,<br> from      |
+| format FAQ questions       | x         |      | x      |         |        | faq.question,<br> faq.answer |
 
-[List of parser variables](https://community.superoffice.com/en/technical/documentation/older-versions/documentation-7/cs/parser-variables/) for each entity.
+[List of parser variables][3] for each entity.
 
 ## How to use a reply template in CRMScript
 
@@ -178,10 +178,16 @@ c.toParser(p);
 
 ## Run template through the parser
 
-This is where the magic happens and the template variables are substituted. The [parser](./parser.md) is described in-depth elsewhere.
+This is where the magic happens and the template variables are substituted. The [parser][4] is described in-depth elsewhere.
 
 ```crmscript
 subject = p.parseString(subject);
 plainBody = p.parseString(plainBody);
 htmlBody = p.parseString(htmlBody);
 ```
+
+<!-- Referenced links -->
+[1]: https://community.superoffice.com/documentation/SDK/SO.Database/html/Tables-reply_template.htm
+[2]: https://community.superoffice.com/documentation/help/EN/CRM/8.5/UserHelp/index.htm#t=Service%2Ftopics%2FTemplate_variables.html
+[3]: https://community.superoffice.com/en/technical/documentation/older-versions/documentation-7/cs/parser-variables/
+[4]: parser.md

@@ -22,7 +22,7 @@ With regards
 {atit}
 ```
 
-For the end-user, these templates behave similar to the service [reply template](../parser-and-templates/reply-template.md). However, how you work with them in CRMScript is different.
+For the end-user, these templates behave similar to the service [reply template][1]. However, how you work with them in CRMScript is different.
 
 > [!CAUTION]
 > Template-based documents are only as good as the quality of your CRM data. It's vital that all customer details are kept up to date. A template won't fix bad input.
@@ -87,7 +87,7 @@ doc = agent.SaveDocumentEntity(doc);
 
 ## Filter documents by template
 
-Like many MDO lists, templates can be grouped by headings, which get their labels from the [Heading table](https://community.superoffice.com/documentation/SDK/SO.Database/html/Tables-Heading.htm).
+Like many MDO lists, templates can be grouped by headings, which get their labels from the [Heading table][2].
 
 Thus the methods ending in `ByTemplateHeading()` target a group of templates whereas methods ending in `ByTemplateType()` target a single template.
 
@@ -132,10 +132,10 @@ NSDocument[] docList = docAgent.GetContactDocumentsByTemplateType(4, start.addMo
 
 A *template variable* is a named placeholder that you can put in a document- or email template. When the template is applied, the variable is **substituted with the actual value**. For example, {name} translates to a company's name while {atln} is the last name of an associate. This lets you automate the personalization of content.
 
-[List of variables](https://community.superoffice.com/documentation/help/en/crm/8.5/userhelp/index.htm#t=StandardCRM%2Fchap02%2FTemplate_variables.htm)
+[List of variables][3]
 
 > [!NOTE]
-> The date and time in template variables are controlled by the PC's system clock.<br />The short and long date formats are determined by your computer’s settings.
+> The date and time in template variables are controlled by the PC's system clock.<br>The short and long date formats are determined by your computer’s settings.
 
 ### Substitute template variables
 
@@ -200,7 +200,7 @@ Types 1, 5, and 6 are not used for *document* templates.
 > [!NOTE]
 > `name` refers to the label displayed in the GUI and not the physical filename of the template.
 
-For a complete list of fields, see the [database reference](https://community.superoffice.com/documentation/SDK/SO.Database/html/Tables-DocTmpl.htm).
+For a complete list of fields, see the [database reference][4].
 
 ### Common encoding
 
@@ -212,4 +212,11 @@ For a complete list of fields, see the [database reference](https://community.su
 | 3     | Microsoft Word |
 | 10    | Adobe PDF      |
 
-See the [full list of encodings](https://community.superoffice.com/documentation/sdk/SO.NetServer.Web.Services/html/T_SuperOffice_Data_GeneratorEncoding.htm).
+See the [full list of encodings][5].
+
+<!-- Referenced links -->
+[1]: ../parser-and-templates/reply-template.md
+[2]: https://community.superoffice.com/documentation/SDK/SO.Database/html/Tables-Heading.htm
+[3]: https://community.superoffice.com/documentation/help/en/crm/8.5/userhelp/index.htm#t=StandardCRM%2Fchap02%2FTemplate_variables.htm
+[4]: https://community.superoffice.com/documentation/SDK/SO.Database/html/Tables-DocTmpl.htm
+[5]: https://community.superoffice.com/documentation/sdk/SO.NetServer.Web.Services/html/T_SuperOffice_Data_GeneratorEncoding.htm

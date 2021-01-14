@@ -24,7 +24,7 @@ This is very similar to the structured programming syntax of C. However, unlike 
 
 CRMScript is object-oriented *to some extent*. The language has a wide variety of **built-in classes**, which you can create objects from and use their methods to manipulate data. However, you can't define your own classes. Thus, think of these as **complex data types** rather than templates to extend or inherit from.
 
-You can still build custom data structures by defining [structs](fundamentals/structs.md).
+You can still build custom data structures by defining [structs][1].
 
 ## A statically and strongly typed language
 
@@ -39,3 +39,6 @@ The types are checked *before* runtime. As a bonus, type errors are detected bef
 At some point, the source code must be converted into something a computer can read. With CRMScript, the code is translated **on-the-fly**, during execution. You don't need a compilation stage before it can be run. This means that your scripts are portable and can run on all platforms.
 
 However, this also means that your scripts are "public", shared in a human-readable form. If you for some reason don't want to share your secret sauce, perhaps creating a custom application with our APIs is a better fit in your particular case.
+
+<!-- Referenced links -->
+[1]: fundamentals/structs.md

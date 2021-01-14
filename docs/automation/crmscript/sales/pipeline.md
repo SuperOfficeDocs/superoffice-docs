@@ -14,7 +14,7 @@ so.topic:
 Whether you're a sales rep who wants to see whether you have enough ongoing sales opportunities to reach their budget or a sales manager who wants to see how their team is performing, inspecting the pipeline provides valuable info.
 
 > [!TIP]
-> You can only retrieve sales for persons that are SuperOffice users ([associates](../persons-and-organizations/employees.md)). The signed-in user must also have permission to view those sales. Otherwise, an exception is thrown.
+> You can only retrieve sales for persons that are SuperOffice users ([associates][1]. The signed-in user must also have permission to view those sales. Otherwise, an exception is thrown.
 
 ### NSSale[] GetSalesByDate(DateTime fromDate, DateTime toDate, Integer amountLimit, Integer status)
 
@@ -194,3 +194,6 @@ When this happens, the next activity changes to the re-open date. The seller sho
 
 * `reasonStalled_id`: reference to why the sale is stalled
 * `reopenDate`: when the sale should be reopened
+
+<!-- Referenced links -->
+[1]: ../persons-and-organizations/employees.md

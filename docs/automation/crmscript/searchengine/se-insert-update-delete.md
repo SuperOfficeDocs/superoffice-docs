@@ -43,7 +43,7 @@ so.topic:
 
 Here's how you do it:
 
-1. Build a complete [select query](./se-select.md).
+1. Build a complete [select query][1].
 
 2. Optionally inspect the result set to check that you are deleting what you intend to.
 
@@ -86,8 +86,11 @@ A variant of `addDataField()` specifying an aggregate function to use for `field
 
 The following functions are available:
 
-* any of the functions you can use with `addField()` - listed in the reference section for the [select query](./se-select.md).
+* any of the functions you can use with `addField()` - listed in the reference section for the [select query][1].
 
 * castToVarchar
 * date
 * time
+
+<!-- Referenced links -->
+[1]: ./se-select.md

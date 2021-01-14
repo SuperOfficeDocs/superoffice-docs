@@ -47,7 +47,7 @@ printLine(jackO);
 
 ### String String(Byte[] byteArray, String codepage)
 
-Same as above, but also takes a [code page identifier](https://docs.microsoft.com/en-us/windows/win32/intl/code-page-identifiers).
+Same as above, but also takes a [code page identifier][1].
 
 ### String String(NSStream byteArray)
 
@@ -65,7 +65,7 @@ printLine("Insanely hot chili pepper: " + hotPepper);
 
 ### String String(NSStream byteArray, String codepage)
 
-Same as above, but also takes a [code page identifier](https://docs.microsoft.com/en-us/windows/win32/intl/code-page-identifiers).
+Same as above, but also takes a [code page identifier][1].
 
 ## Special characters
 
@@ -89,7 +89,7 @@ Some characters produce whitespace and can be used to structure your text. These
 
 ## Length
 
-The length of a text string is the number of characters in it, including whitespace. The 1st character is in position 0, similar to [arrays](../fundamentals/arrays.md).
+The length of a text string is the number of characters in it, including whitespace. The 1st character is in position 0, similar to [arrays][2].
 
 ### Integer getLength()
 
@@ -473,3 +473,7 @@ printLine(s.isEmpty().toString());
 ```
 
 The 1st output will be *true* because we haven't initialized s yet. The next call to `isNull()` will return **false** because s now has the value "". However, there are still no characters in s, thus ìsEmpty()` will return **true**.
+
+<!-- Referenced links -->
+[1]: https://docs.microsoft.com/en-us/windows/win32/intl/code-page-identifiers
+[2]: ../fundamentals/arrays.md

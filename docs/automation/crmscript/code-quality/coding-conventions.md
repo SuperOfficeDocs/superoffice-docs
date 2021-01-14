@@ -94,7 +94,7 @@ Don't use tabs for indentation.
 
 Avoid lines longer than 80 characters.
 
-If a statement doesn't fit on 1 line, you can break it after an [operator](../fundamentals/operators.md) or a comma. Use +4 spaces indentation for the wrapped (continued) lines.
+If a statement doesn't fit on 1 line, you can break it after an [operator][1] or a comma. Use +4 spaces indentation for the wrapped (continued) lines.
 
 **Exceptions:**
 
@@ -111,3 +111,6 @@ If a statement doesn't fit on 1 line, you can break it after an [operator](../fu
 * Put a space before and after the double slash // for comments
 * Omit trailing whitespace.
 * Don't align values horizontally.
+
+<!-- Referenced links -->
+[1]: ../fundamentals/operators.md

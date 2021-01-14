@@ -11,7 +11,7 @@ so.topic:
 
 ## An in-depth guide to working with persons and organizations
 
-For a better understanding of this section, we recommend that you read [SuperOffice view of the world](../domain.md).
+For a better understanding of this section, we recommend that you read [SuperOffice view of the world][1].
 
 It is important to keep in mind that there's not a 1:1 mapping of labels and that you have to take context into account.
 
@@ -23,3 +23,6 @@ It is important to keep in mind that there's not a 1:1 mapping of labels and tha
 The content is organized by CRMScript **classes**.
 
 1. autolist
+
+<!-- Referenced links -->
+[1]: ../domain.md

@@ -9,7 +9,7 @@ so.topic:
 
 # One quote per sale
 
-Quotes are what connects products to a sale. You must [record a sale](../sales/leads.md) **before** you can add a quote. Also, [products](./products.md) must have been registered before you can add them to a quote.
+Quotes are what connects products to a sale. You must [record a sale][1] **before** you can add a quote. Also, [products][2] must have been registered before you can add them to a quote.
 
 > [!NOTE]
 > Each quote belongs to a single sale. And there's only 1 quote per sale.
@@ -72,16 +72,16 @@ printLine(quote.GetSaleId().toString());
 ```
 
 > [!NOTE]
-> The sale you copy the quote **from** must have the same [currency](./index.md) as the sale you are copying it **to**.
+> The sale you copy the quote **from** must have the same [currency][3] as the sale you are copying it **to**.
 
 ## Update quote
 
-Updates to a quote mostly target the [alternatives and quote lines](./quote-alternatives.md). You will, however, see some changes to the quote properties when dealing with [quote documents](./quote-document.md) and [placing orders](./quote-order.md).
+Updates to a quote mostly target the [alternatives and quote lines][4]. You will, however, see some changes to the quote properties when dealing with [quote documents][5] and [placing orders][6].
 
 ## Versions
 
 There may be multiple versions of a quote, but only 1 of them is **active** at any time.
-Each version will have 1 or more [alternatives](./quote-alternatives.md), which in turn will have 1 or more quote lines.
+Each version will have 1 or more [alternatives][4], which in turn will have 1 or more quote lines.
 
 When updating quotes, you'll always be working on the latest version.
 
@@ -172,7 +172,7 @@ qa.DeleteQuote(quoteId);
 | DocumentId           | the quote document                        |
 | PoNumber             | the purchase order number                 |
 
-For a complete list of fields, see the [database reference](https://community.superoffice.com/documentation/SDK/SO.Database/html/Tables-Quote.htm).
+For a complete list of fields, see the [database reference][7].
 
 ### Frequently used QuoteVersion fields
 
@@ -181,13 +181,13 @@ For a complete list of fields, see the [database reference](https://community.su
 | quoteversion_id      | ID                                        |
 | QuoteId              | parent quote                              |
 | State                |                                           |
-| LikelyQuoteAlternativeId | alt. most likely to be accepted<br />used to calculate probable income |
+| LikelyQuoteAlternativeId | alt. most likely to be accepted<br>used to calculate probable income |
 | SentDate             | when the version was sent to the customer |
 | FollowupId           | the follow-up created when version was sent |
 | ExpirationDate       | the last date on which the offer is valid |
 | Rank                 | the version number                        |
 
-For a complete list of fields, see the [database reference](https://community.superoffice.com/documentation/SDK/SO.Database/html/Tables-QuoteVersion.htm).
+For a complete list of fields, see the [database reference][8].
 
 ### State
 
@@ -212,3 +212,13 @@ For a complete list of fields, see the [database reference](https://community.su
 | 1      | All is good, however the user should be made aware of something |
 | 2      | problem - notify user                     |
 | 3      | problem - action required                 |
+
+<!-- Referenced links -->
+[1]: ../sales/leads.md
+[2]: products.md
+[3]: index.md
+[4]: quote-alternatives.md
+[5]: quote-document.md
+[6]: quote-order.md
+[7]: https://community.superoffice.com/documentation/SDK/SO.Database/html/Tables-Quote.htm
+[8]: https://community.superoffice.com/documentation/SDK/SO.Database/html/Tables-QuoteVersion.htm

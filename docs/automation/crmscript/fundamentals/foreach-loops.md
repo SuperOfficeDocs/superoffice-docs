@@ -37,7 +37,7 @@ foreach (String s in mTwain) {
 
 The statement in the parenthesis initializes the iterator variable for the loop. The iterator must be declared as the same type as the collection. For example, if your array is of type String, then the iterator must be a string as well.
 
-You can loop through any type of collection with `foreach`, even your own [structs](./structs.md).
+You can loop through any type of collection with `foreach`, even your own [structs][1].
 
 ## Usage
 
@@ -52,4 +52,7 @@ for (Integer i = 0; i < array.length(); i++) {
 This is a more compact structure that and handles the indexing for you. It is also faster!
 
 > [!NOTE]
-> The foreach statement is used to iterate through the array to get the information that you want, but can not be used to add or remove items from the source array to avoid unpredictable side effects. <br/><br/> Arrays of intrinsic types, such as String or Integer, are passed by value, while an array or a struct is passed by reference. Therefore, while inside a `foreach` loop, you can update a struct property, but not a String value.
+> The foreach statement is used to iterate through the array to get the information that you want, but can not be used to add or remove items from the source array to avoid unpredictable side effects.<br>Arrays of intrinsic types, such as String or Integer, are passed by value, while an array or a struct is passed by reference. Therefore, while inside a `foreach` loop, you can update a struct property, but not a String value.
+
+<!-- Referenced links -->
+[1]: structs.md

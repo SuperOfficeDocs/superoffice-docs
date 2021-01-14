@@ -12,7 +12,7 @@ so.topic:
 A project always has a project manager or owner. In addition, it can have (and usually has) project members. These are stored in the **projectmember** table.
 
 > [!TIP]
-> Read about [working with persons](../persons-and-organizations/customer.md).
+> Read about [working with persons][1].
 
 ## View project member info
 
@@ -152,4 +152,8 @@ agent.DeleteProjectMembers(8,memberIds);
 | mtype_idx        | GetProjectMemberTypeId() | role (member type) |
 | person_id        | GetPersonId()            | ID of person       |
 
-For a complete list of fields, see the [database reference](https://community.superoffice.com/documentation/SDK/SO.Database/html/Tables-projectmember.htm).
+For a complete list of fields, see the [database reference][2].
+
+<!-- Referenced links -->
+[1]: ../persons-and-organizations/customer.md
+[2]: https://community.superoffice.com/documentation/SDK/SO.Database/html/Tables-projectmember.htm

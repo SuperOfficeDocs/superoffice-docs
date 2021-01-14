@@ -18,7 +18,7 @@ In the UI, both are closely linked to the **Diary** screen.
 
 ## Three types of follow-ups
 
-In SuperOffice CRM, *follow-up* is a collective term for **appointments**, **phone calls**, and **tasks** . These entities are always tied to an [associate](../persons-and-organizations/employees.md) and have some form of [time](../datatypes/datetime-type.md) reference.
+In SuperOffice CRM, *follow-up* is a collective term for **appointments**, **phone calls**, and **tasks** . These entities are always tied to an [associate][1] and have some form of [time][2] reference.
 
 | type        | start time | end time | duration   | deadline | displayed | description | example |
 |-------------|:----------:|:--------:|:----------:|:--------:|-----------|-------------|---------|
@@ -27,16 +27,16 @@ In SuperOffice CRM, *follow-up* is a collective term for **appointments**, **pho
 | call        | x          |          | x          |          | todo list | phone call  |         |
 
 > [!NOTE]
-> Overdue appointments will by default also appear in the todo list!<br />Logged phone calls will also appear in the calendar.
+> Overdue appointments will by default also appear in the todo list!<br>Logged phone calls will also appear in the calendar.
 
 ## Follow-ups vs. activities
 
 Follow-ups are part of a broader group of entities labeled **activities**:
 
 * follow-ups
-  * [appointment](./appointment.md)
-  * [task](./task.md)
-  * [call](./call.md)
+  * [appointment][3]
+  * [task][4]
+  * [call][5]
 * documents
   * document
   * email
@@ -44,17 +44,30 @@ Follow-ups are part of a broader group of entities labeled **activities**:
 * chat sessions
 
 > [!NOTE]
-> It is important to understand the distinction between activities and follow-ups. When you get data from the [appointment table](https://community.superoffice.com/documentation/SDK/SO.Database/html/Tables-appointment.htm) or use the CRMScript [NSAppointment class](https://community.superoffice.com/documentation/SDK/SO.Customer.Service.Support/html/EJScript-Classes-NSAppointment-NSAppointment.htm), it is crucial that you pay attention to the **type** field.
+> It is important to understand the distinction between activities and follow-ups. When you get data from the [appointment table][6] or use the CRMScript [NSAppointment class][7], it is crucial that you pay attention to the **type** field.
 
 ## Follow-ups vs. other entities
 
 When working with follow-ups, data will often intersect with the following entities:
 
-* [company](../persons-and-organizations/company.md) (contact table)
-* [contact](../persons-and-organizations/customer.md) (person table)
-* project
-* [sale](../sales/leads.md)
+* [company][8] (contact table)
+* [contact][9] (person table)
+* [project][11]
+* [sale][10]
 
 ## In this section
 
 1. autolist
+
+<!-- Referenced links -->
+[1]: ../persons-and-organizations/employees.md
+[2]: ../datatypes/datetime-type.md
+[3]: appointment.md
+[4]: task.md
+[5]: call.md
+[6]: https://community.superoffice.com/documentation/SDK/SO.Database/html/Tables-appointment.htm
+[7]: https://community.superoffice.com/documentation/SDK/SO.Customer.Service.Support/html/EJScript-Classes-NSAppointment-NSAppointment.htm
+[8]: ../persons-and-organizations/company.md
+[9]: ../persons-and-organizations/customer.md
+[10]: ../sales/leads.md
+[11]: ../projects/index.md

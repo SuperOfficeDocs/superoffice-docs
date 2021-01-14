@@ -1,6 +1,10 @@
 ---
 title: crmscript_data_types
 description: Data types
+author:
+so.date:
+keywords:
+so.topic:
 ---
 
 # Data types

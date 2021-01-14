@@ -13,11 +13,10 @@ so.topic:
 
 ### Void setValue(String colName, String value)
 
-Sets a named field to the given value. Look up names in the reference section down below, or check out the [class reference](https://community.superoffice.com/documentation/SDK/SO.Customer.Service.Support/html/CRMScript-Classes-Ticket-setValue.htm).
+Sets a named field to the given value. Look up names in the reference section down below, or check out the [class reference][1].
 
 > [!NOTE]
-> Both parameters are strings! Remember to use quotes even for IDs. <br>
-> You must call `save()` after setting all applicable values to actually create or update the ticket.
+> Both parameters are strings! Remember to use quotes even for IDs.<br>You must call `save()` after setting all applicable values to actually create or update the ticket.
 
 ```crmscript!
 Ticket t;
@@ -81,7 +80,7 @@ t.save("audio",true, true);
 Adds 1 or more customer IDs to the list of secondary customers.
 
 > [!TIP]
-> A [vector](https://community.superoffice.com/documentation/SDK/SO.Customer.Service.Support/html/CRMScript-Classes-Vector-Vector.htm) is a 1-dimensional list of String objects.
+> A [vector][2] is a 1-dimensional list of String objects.
 
 ```crmscript
 Ticket t;
@@ -105,7 +104,7 @@ t.load(1);
 
 ### String getValue(String colName)
 
-Fetches the value from a named field. Look up names in the reference section down below, or check out the [class reference](https://community.superoffice.com/documentation/SDK/SO.Customer.Service.Support/html/CRMScript-Classes-Ticket-getValue.htm).
+Fetches the value from a named field. Look up names in the reference section down below, or check out the [class reference][3].
 
 ```crmscript!
 Ticket t;
@@ -137,7 +136,7 @@ Sends a notification email to the owner of the ticket.
 
 Call `notifyEmail()` when you create a new ticket, add a new message to a ticket, and similar events.
 
-Pass the ID of a suitable [reply template](../parser-and-templates/reply-template.md).
+Pass the ID of a suitable [reply template][4].
 
 ```crmscript
 Ticket t;
@@ -205,7 +204,7 @@ printLine(t.getMailFrom());
 
 ### String getOwnerEmail()
 
-Creates a string with the ticket's owner formatted as *"Name" \<email-addr>*.
+Creates a string with the ticket's owner formatted as `"Name" <email-addr>`.
 
 ```crmscript!
 Ticket t;
@@ -258,7 +257,7 @@ String output = p.parseString(rt.getHtmlBody(2));
 print(output);
 ```
 
-Read more about [the parser](../parser-and-templates/parser.md) and [reply templates](../parser-and-templates/reply-template.md).
+Read more about [the parser][5] and [reply templates][4].
 
 ### Void toParserRaw(Parser theParser)
 
@@ -459,7 +458,7 @@ However, you may be required to delete a request to comply with your company's p
 | customers    | ticket_customers | A comma-separated list of customer IDs                      |
 | createdBy    | created_by       | The ID of the user who posted the ticket (1: system)        |
 
-For a complete list of fields, see the [database reference](https://community.superoffice.com/documentation/SDK/SO.Database/html/Tables-ticket.htm).
+For a complete list of fields, see the [database reference][6].
 
 ### Timestamp values
 
@@ -473,7 +472,7 @@ For a complete list of fields, see the [database reference](https://community.su
 | deadline       | deadline        | The deadline of the ticket                              |
 | timeToClose    | time_to_close   | Minutes between create and close                        |
 
-For a complete list of fields, see the [database reference](https://community.superoffice.com/documentation/SDK/SO.Database/html/Tables-ticket.htm).
+For a complete list of fields, see the [database reference][6].
 
 ### Status
 
@@ -485,3 +484,11 @@ For a complete list of fields, see the [database reference](https://community.su
 | 3      | Postponed             |
 | 4      | Deleted               |
 | 5      | Merged/Linked         |
+
+<!-- Referenced links -->
+[1]: https://community.superoffice.com/documentation/SDK/SO.Customer.Service.Support/html/CRMScript-Classes-Ticket-setValue.htm
+[2]: https://community.superoffice.com/documentation/SDK/SO.Customer.Service.Support/html/CRMScript-Classes-Vector-Vector.htm
+[3]: https://community.superoffice.com/documentation/SDK/SO.Customer.Service.Support/html/CRMScript-Classes-Ticket-getValue.htm
+[4]: ../parser-and-templates/reply-template.md
+[5]: ../parser-and-templates/parser.md
+[6]: https://community.superoffice.com/documentation/SDK/SO.Database/html/Tables-ticket.htm

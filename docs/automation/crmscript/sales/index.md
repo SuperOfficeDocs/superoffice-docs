@@ -9,7 +9,7 @@ so.topic:
 
 # Sales
 
-A sale process typically consists of different stages. For each stage, you have certain activities and perhaps documents that need to be completed. With every activity and every stage completed, you will get closer to [closing the sale](./lost-or-sold.md).
+A sale process typically consists of different stages. For each stage, you have certain activities and perhaps documents that need to be completed. With every activity and every stage completed, you will get closer to [closing the sale][1].
 
 ## Key info
 
@@ -59,7 +59,7 @@ print(se.executeTextTable());
 
 ## Sales guides
 
-[Using a *guide*](./guides.md) will simplify and structure the sales process for the sales staff with suggestions for which follow-ups to do and which documents to create at each stage.
+[Using a *guide*][2] will simplify and structure the sales process for the sales staff with suggestions for which follow-ups to do and which documents to create at each stage.
 
 ## Status of a sale
 
@@ -75,11 +75,19 @@ print(se.executeTextTable());
 
 When working with sales, data will often intersect with the following entities:
 
-* [follow-ups](../follow-ups/index.md) (appointment table)
-* [company](../persons-and-organizations/company.md) (contact table)
-* [contact](../persons-and-organizations/customer.md) (person table)
-* project
+* [follow-ups][3] (appointment table)
+* [company][4] (contact table)
+* [contact][5] (person table)
+* [project][6]
 
 ## In this section
 
 1. autolist
+
+<!-- Referenced links -->
+[1]: lost-or-sold.md
+[2]: guides.md
+[3]: ../follow-ups/index.md
+[4]: ../persons-and-organizations/company.md
+[5]: ../persons-and-organizations/customer.md
+[6]: ../projects/index.md

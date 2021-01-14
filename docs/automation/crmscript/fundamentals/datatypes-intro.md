@@ -29,7 +29,7 @@ CRMScript has 2 types of numbers:
 * Integer (without decimals)
 * Float (with decimals)
 
-You can the [arithmetic operators](../fundamentals/operators.md) to do basic math.
+You can the [arithmetic operators][1] to do basic math.
 
 ```crmscript
 Integer a = 5;
@@ -41,7 +41,7 @@ Integer sum = a + b;
 
 A text string is a sequence of characters written with quotes.
 
-You can use the [concatenation operator](../fundamentals/operators.md) to join multiple strings.
+You can use the [concatenation operator][1] to join multiple strings.
 
 ```crmscript
 String myCompany = "Super" + "Office";
@@ -50,3 +50,6 @@ String myCompany = "Super" + "Office";
 ## Logical
 
 The logical or boolean data type of CRMScript is **Bool**. Variables of this type can only have 2 values: **true** or **false** and are commonly used in comparisons and conditional statements.
+
+<!-- Referenced links -->
+[1]: operators.md

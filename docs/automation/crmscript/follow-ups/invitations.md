@@ -75,7 +75,7 @@ a = appointmentAgent.SaveAppointmentEntity(a);
 
 Before you can track responses, you need to fetch the main appointment and all its descendants. You can then explore the invitation status of each appointment.
 
-In this example, we check and print the response for each attendee using a String array. You can look up status codes in the reference section at the end of this page and on the [appointments page](./appointment.md).
+In this example, we check and print the response for each attendee using a String array. You can look up status codes in the reference section at the end of this page and on the [appointments page][1].
 
 ```crmscript!
 String[15] state;
@@ -96,7 +96,7 @@ if (rejects == 0) {
   printLine("There are currently no rejects.\n");
 }
 else {
-  printLine("There are " + rejects.toString() + " rejects.\n");  
+  printLine("There are " + rejects.toString() + " rejects.\n");
 }
 
 for (Integer i = 0; i < invites.length(); i++) {
@@ -152,7 +152,7 @@ appointmentAgent.Accept(242,0);
 
 ### Make changes
 
-Attendees may change only the priority, alarm, and completed fields. The rest is the responsibility of the meeting organizer. Updates are covered for [appointments](./appointment.md) in general.
+Attendees may change only the priority, alarm, and completed fields. The rest is the responsibility of the meeting organizer. Updates are covered for [appointments][1] in general.
 
 ## Reference
 
@@ -166,3 +166,6 @@ Attendees may change only the priority, alarm, and completed fields. The rest is
 | 8      | Meeting has been moved. User has seen, but not responded to the invite |
 | 9      | User has declined the meeting                          |
 | 10     | Meeting is canceled                                    |
+
+<!-- Referenced links -->
+[1]: appointment.md

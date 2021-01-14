@@ -13,12 +13,12 @@ A repeating follow-up is a series of appointments, tasks, or calls scheduled to 
 
 ## Frequency
 
-| Value   | Description                                  | Comment                | Example                        |
-|:--------|:---------------------------------------------|:-----------------------|:-------------------------------|
-| daily   | every working day<br />every day of the week | or custom              | every other day                |
-| weekly  | every week on given day                      | must set weekday       | every 3 weeks on Tuesday       |
-| monthly | every month on given day                     | must set day of month  | on the 5th of the month, every 4th month |
-| yearly  | every year on given date                     | must set day and month | every 23rd of September        |
+| Value   | Description                                | Comment                | Example                        |
+|:--------|:-------------------------------------------|:-----------------------|:-------------------------------|
+| daily   | every working day<br>every day of the week | or custom              | every other day                |
+| weekly  | every week on given day                    | must set weekday       | every 3 weeks on Tuesday       |
+| monthly | every month on given day                   | must set day of month  | on the 5th of the month, every 4th month |
+| yearly  | every year on given date                   | must set day and month | every 23rd of September        |
 
 A **cycle** is the number of days between each recurrence.
 
@@ -100,11 +100,11 @@ for(Integer i = 0; i < appointmentList.length(); i++) {
 ```
 
 > [!TIP]
-> Set `motherId` to **0** unless you're working with [meeting invitations](./invitations.md).
+> Set `motherId` to **0** unless you're working with [meeting invitations][1].
 
 ## Create repeating follow-ups
 
-1. Create the [appointment](./appointment.md), [call](./call.md), [meeting](./invitations.md), or [task](./task.md) as usual.
+1. Create the [appointment][2], [call][3], [meeting][1], or [task][4] as usual.
 2. Set recurrence info.
 3. Save the follow-up.
 
@@ -316,11 +316,11 @@ if (r.GetIsRecurrence()) {
 |:------------------|:-----------------|:------------------------------------|
 | IsRecurrence      | Bool             | whether it is a repeating follow-up |
 | RecurrenceId      | Integer          | unique ID of the rule               |
-| RecurrenceEndType | Integer          | 0 = unknown<br/>1 = end by date<br />2 = end after n repetitions                 |
-| RecurrenceCounter | Integer          | the number of repetitions<br />used only when the end is calculated from a count |
+| RecurrenceEndType | Integer          | 0 = unknown<br>1 = end by date<br>2 = end after n repetitions                 |
+| RecurrenceCounter | Integer          | the number of repetitions<br>used only when the end is calculated from a count |
 | StartDate         | DateTime         | when repetition starts              |
-| EndDate           | DateTime         | when repetition ends<br />used only when the end is calculated from a date       |
-| Dates             | RecurrenceDate[] | List of all dates the follow-up occurs<br />wraps a DateTime                     |
+| EndDate           | DateTime         | when repetition ends<br>used only when the end is calculated from a date       |
+| Dates             | RecurrenceDate[] | List of all dates the follow-up occurs<br>wraps a DateTime                     |
 | Pattern           | Integer          | the main pattern of recurrence      |
 
 ### Main patterns
@@ -342,10 +342,10 @@ if (r.GetIsRecurrence()) {
 | 1     | EveryWorkday   | daily  | Mon-Fri                         |
 | 2     | EveryWeekday   | daily  | Mon-Sun                         |
 | 3     | EveryCyclicDay | daily  | cyclic interval of days         |
-| 4     | DayOfMonth     | weekly | repeat on day n of the month<br />ex: the 17th day of every 2 months        |
-| 5     | WeekdayOfMonth | weekly | repeat on given weekday     <br />ex: the 3rd Thursday of every 3 months    |
+| 4     | DayOfMonth     | weekly | repeat on day n of the month<br>ex: the 17th day of every 2 months        |
+| 5     | WeekdayOfMonth | weekly | repeat on given weekday     <br>ex: the 3rd Thursday of every 3 months    |
 | 6     | DayOfMonth     | yearly | repeat on given date every year |
-| 7     | WeekdayOfMonth | yearly | repeat on given weekdays of month<br />ex: the 3rd Thursday of every August |
+| 7     | WeekdayOfMonth | yearly | repeat on given weekdays of month<br>ex: the 3rd Thursday of every August |
 
 ### Weekdays
 
@@ -373,3 +373,9 @@ if (r.GetIsRecurrence()) {
 | 3     | The 3rd week of the month  |
 | 4     | The 4th week of the month  |
 | 5     | The last week of the month |
+
+<!-- Referenced links -->
+[1]: invitations.md
+[2]: appointment.md
+[3]: call.md
+[4]: task.md

@@ -11,7 +11,7 @@ so.topic:
 
 ## Get NSArchiveListItem
 
-This example uses the **ContactActivity** archive provider to retrieve [appointments](./follow-ups/appointment.md).
+This example uses the **ContactActivity** archive provider to retrieve [appointments][1].
 
 ```crmscript!
 String[] columns;
@@ -39,3 +39,6 @@ foreach (NSArchiveListItem i in result) {
   }
 }
 ```
+
+<!-- Referenced links -->
+[1]: follow-ups/appointment.md

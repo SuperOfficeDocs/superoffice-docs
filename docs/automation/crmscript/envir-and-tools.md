@@ -60,7 +60,7 @@ For SuperOffice CRM Online, this is available in the Sales and Service admin cli
 
 ### How do I get a sandbox?
 
-You need to [!include[register as a developer](./includes/link-register-dev.md)] as a developer to get access to our online development environment.
+You need to [!include[register as a developer](includes/link-register-dev.md)] as a developer to get access to our online development environment.
 
 This signs you up for a developer user account and creates a test tenant in the SuperOffice Online Development (SOD) environment.
 

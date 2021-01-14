@@ -63,7 +63,7 @@ Here's how it works:
 * `DeleteEntity()`
 
 > [!TIP]
-> The corresponding CRMScript class is labeled NS\[Businessarea\]Agent. For example, NSPersonAgent, NSContactAgent, and NSAppointmentAgent.
+> The corresponding CRMScript class is labeled `NS[Businessarea]Agent`. For example, NSPersonAgent, NSContactAgent, and NSAppointmentAgent.
 
 ### Declaration
 
@@ -122,5 +122,8 @@ This is especially important for objects that use enumerations, because those ob
 
 Use Get and Set to access attributes of entities.
 
-* Get methods return another carrier or a [basic type](./fundamentals/index.md)
+* Get methods return another carrier or a [basic type][1]
 * Set methods take a carrier or basic type as argument
+
+<!-- Referenced links -->
+[1]: fundamentals/index.md

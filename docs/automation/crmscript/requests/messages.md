@@ -13,11 +13,10 @@ so.topic:
 
 ### Void setValue(String colName, String value)
 
-Sets a named field to the given value. Look up names in the reference section down below, or check out the [class reference](https://community.superoffice.com/documentation/SDK/SO.Customer.Service.Support/html/CRMScript-Classes-Message-setValue.htm).
+Sets a named field to the given value. Look up names in the reference section down below, or check out the [class reference][1].
 
 > [!NOTE]
-> Both parameters are strings! Remember to use quotes even for IDs. <br>
-> You must call `save()` after setting all applicable values to actually create or update the message.
+> Both parameters are strings! Remember to use quotes even for IDs.<br>You must call `save()` after setting all applicable values to actually create or update the message.
 
 ```crmscript!
 Message m;
@@ -137,7 +136,7 @@ m.setValue("bodyHtml" , p.parseString(htmlBody));
 printLine("\nHTML body of message after parsing:\n\n" + m.getValue("bodyHtml"));
 ```
 
-Read more about [the parser](../parser-and-templates/parser.md) and [reply templates](../parser-and-templates/reply-template.md).
+Read more about [the parser][2] and [reply templates][3].
 
 ### Void convertInlineImages()
 
@@ -264,7 +263,7 @@ Sends a Facebook version of the message.
 | bodyHtml     | html_body    | The html body for the message (if any)                      |
 | emailHeader  | email_header | Raw text header                                             |
 
-For a complete list of fields, see the [database reference](https://community.superoffice.com/documentation/SDK/SO.Database/html/Tables-ej_message.htm).
+For a complete list of fields, see the [database reference][4].
 
 ### Timestamp values
 
@@ -273,3 +272,9 @@ For a complete list of fields, see the [database reference](https://community.su
 | createdAt  | created_at  | When the message was posted             |
 | timeSpent  | time_spent  | Minutes used on this message            |
 | timeCharge | time_charge | Minutes to be invoiced for this message |
+
+<!-- Referenced links -->
+[1]: https://community.superoffice.com/documentation/SDK/SO.Customer.Service.Support/html/CRMScript-Classes-Message-setValue.htm
+[2]: ../parser-and-templates/parser.md
+[3]: ../parser-and-templates/reply-template.md
+[4]: https://community.superoffice.com/documentation/SDK/SO.Database/html/Tables-ej_message.htm

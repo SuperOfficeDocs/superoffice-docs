@@ -11,11 +11,11 @@ so.topic:
 
 Addresses are commonly formatted according to local conventions.
 
-Due to the dynamic nature of addresses, address fields in the SuperOffice UI appear differently depending on the selected country for any particular [company](./company.md) or [person](./customer.md).
+Due to the dynamic nature of addresses, address fields in the SuperOffice UI appear differently depending on the selected country for any particular [company][1] or [person][2].
 
 SuperOffice data structures are generic to support multiple address variants. All address fields belong to a structure called `NSLocalizedAddress`.
 
-![Localized address](../media/NSLocalizedAddress.png)
+![Localized address][img1]
 
 This is a multi-dimensional array of `NSLocalizedField`:
 
@@ -24,7 +24,7 @@ This is a multi-dimensional array of `NSLocalizedField`:
 
 Example: Norway and France have 4 and 3 lines respectively. Notice how it varies which lines have 1 or 2 elements.
 
-![Field array elements](../media/NSLocalizedFieldArray.png)
+![Field array elements][img2]
 
 > [!NOTE]
 > Some company addresses contain only a postal address while others contain both postal and street addresses. You need to check the `AddressType` to know which type of address information it is!
@@ -141,3 +141,11 @@ There are 2 separate groups of fields, 1 for person and 1 for company (contact).
 
 > [!TIP]
 > The **Postal** and **Street** prefix reflect the address type (ContactPostalAddress or ContactStreetAddress).
+
+<!-- Referenced links -->
+[1]: company.md
+[2]: customer.md
+
+<!-- Referenced images -->
+[img1]: media/NSLocalizedAddress.png
+[img1]: media/NSLocalizedFieldArray.png

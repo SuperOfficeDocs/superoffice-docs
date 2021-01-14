@@ -9,7 +9,7 @@ so.topic: concept
 
 # Document files
 
-The physical document is tied to the [**NSDocumentEntity**](./doc-properties.md) and stored in the document archive.
+The physical document is tied to the [NSDocumentEntity][1] and stored in the document archive.
 
 ## Create physical document from template
 
@@ -127,7 +127,7 @@ agent.CheckinDocument(2, returnTypes, "updated copyright", meta);
 File operations are unavailable in CRM Online. All updates happen through document plug-ins using a URL referring to the actual document.
 
 > [!TIP]
-> To update only the document properties, [update the NSDocumentEntity](./doc-properties.md).
+> To update only the document properties, [update the NSDocumentEntity][1].
 
 ### Get URL
 
@@ -257,3 +257,6 @@ The document plugin might need to request additional processing. When deleting, 
 * None
 * Other
 * SoProtocol
+
+<!-- Referenced links -->
+[1]: ./doc-properties.md

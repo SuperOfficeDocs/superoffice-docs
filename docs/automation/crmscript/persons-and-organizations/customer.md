@@ -22,11 +22,10 @@ The **Customer** CRMScript class represents the following entities:
 
 ### Void setValue(String field, String value)
 
-Sets a named field to the given value. Look up names in the reference section down below, or check out the [class reference](https://community.superoffice.com/documentation/SDK/SO.Customer.Service.Support/html/CRMScript-Classes-Customer-setValue.htm).
+Sets a named field to the given value. Look up names in the reference section down below, or check out the [class reference][1].
 
 > [!NOTE]
-> Both parameters are strings! Remember to use quotes even for IDs. <br>
-> You must call `save()` after setting all applicable values to actually create or update the customer.
+> Both parameters are strings! Remember to use quotes even for IDs.<br>You must call `save()` after setting all applicable values to actually create or update the customer.
 
 ```crmscript
 Customer c;
@@ -205,7 +204,7 @@ Logs out a customer.
 
 ## Parser variables
 
-Calling `toParser()` will load fields, prefix them with *customer*, and make them available to [templates](../parser-and-templates/reply-template.md).
+Calling `toParser()` will load fields, prefix them with *customer*, and make them available to [templates][2].
 
 > [!NOTE]
 > Repeated calls will overwrite rather than append the values in the Parser instance.
@@ -249,11 +248,11 @@ viewPersonInterests(5);
 | title         | title            | Title                             |
 | person_number | person_number    | Alphanumeric ID                   |
 | phone         | phone            | Phone number                      |
-| username<br/>password |          | For the external web.             |
+| username<br>password |          | For the external web.             |
 | email         | Email            | 1 or more                         |
 | company       | contact          | The ID of the related company     |
 | priority      | ticketPriorityId | The ID of the customer's priority |
-| language      | cust_lang        | The ID of the default customer language for this company.<br/>NULL or -1 if not set. |
+| language      | cust_lang        | The ID of the default customer language for this company.<br>NULL or -1 if not set. |
 
 ### Connected persons
 
@@ -262,4 +261,9 @@ viewPersonInterests(5);
 | ourContact         | associate_id       | The ID (`ejuser.id`) or username of the internal employee handling sale to this company |
 | supportAssociateId | supportAssociateId | The ID (`ejuser.id`) or username of the internal employee handling support to this company|
 
-For a complete list of fields, see the [database reference](https://community.superoffice.com/documentation/SDK/SO.Database/html/Tables-person.htm).
+For a complete list of fields, see the [database reference][3].
+
+<!-- Referenced links -->
+[1]: https://community.superoffice.com/documentation/SDK/SO.Customer.Service.Support/html/CRMScript-Classes-Customer-setValue.htm
+[2]: ../parser-and-templates/reply-template.md
+[3]: https://community.superoffice.com/documentation/SDK/SO.Database/html/Tables-person.htm

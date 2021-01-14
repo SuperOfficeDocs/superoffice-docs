@@ -38,7 +38,7 @@ if (stakeholder.GetPersonId() != 0) {
 }
 ```
 
-Read more about [working with organizations](../persons-and-organizations/company.md).
+Read more about [working with organizations][1].
 
 ## Individuals as stakeholders
 
@@ -66,7 +66,7 @@ if (stakeholder.GetPersonId() != 0) {
 }
 ```
 
-Read more about [working with persons](../persons-and-organizations/customer.md).
+Read more about [working with persons][2].
 
 ## List all stakeholders of a sale
 
@@ -137,4 +137,9 @@ sale = saleAgent.SaveSaleEntity(sale);
 | contact_id         | GetContactId()         | contact (person or org)         |
 | person_id          | GetPersonId()          | ID of person OR **0** if an org |
 
-For a complete list of fields, see the [database reference](https://community.superoffice.com/documentation/SDK/SO.Database/html/Tables-SaleStakeholder.htm).
+For a complete list of fields, see the [database reference][3].
+
+<!-- Referenced links -->
+[1]: ../persons-and-organizations/company.md
+[2]: ../persons-and-organizations/customer.md
+[3]: https://community.superoffice.com/documentation/SDK/SO.Database/html/Tables-SaleStakeholder.htm

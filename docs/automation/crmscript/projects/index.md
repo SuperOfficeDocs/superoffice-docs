@@ -45,7 +45,7 @@ printLine(p.GetProjectType().GetValue());
 A *project type* is a named set of reuseable info that will help you standardize the process. Aside from the name and ID, you'll find info such as:
 
 * the expected duration
-* whether a [project guide](./project-guides.md) is available
+* whether a [project guide][1] is available
 * stages
 
 **List available types:**
@@ -58,7 +58,7 @@ print(se.executeTextTable());
 
 ## Project guides
 
-Using a [*guide*](./project-guides.md) will simplify and structure the process for the project manager with suggestions for which [follow-ups](../follow-ups/index.md) to do and which [documents](../documents/index.md) to create at each stage.
+Using a [guide][1] will simplify and structure the process for the project manager with suggestions for which [follow-ups][3] to do and which [documents][2] to create at each stage.
 
 ## Status of a project
 
@@ -93,12 +93,20 @@ print(se.executeTextTable());
 
 When working with projects, data will often intersect with the following entities:
 
-* [company](../persons-and-organizations/company.md) (contact table)
-* [contact](../persons-and-organizations/customer.md) (person table)
-* [documents](../documents/index.md)
-* [follow-ups](../follow-ups/index.md) (appointment table)
-* [sales](../sales/index.md)
+* [company][4] (contact table)
+* [contact][5] (person table)
+* [documents][2]
+* [follow-ups][3] (appointment table)
+* [sales][6]
 
 ## In this section
 
 1. autolist
+
+<!-- Referenced links -->
+[1]: project-guides.md
+[2]: ../documents/index.md
+[3]: ../follow-ups/index.md
+[4]: ../persons-and-organizations/company.md
+[5]: ../persons-and-organizations/customer.md
+[6]: ../sales/index.md

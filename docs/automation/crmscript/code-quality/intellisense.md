@@ -11,7 +11,7 @@ so.topic: concept
 
 *Intellisense* is a code completion tool. Think of it as an embedded API reference.
 
-![Intellisense, print method](../media/crmscript-intellisense.png)
+![Intellisense, print method][img1]
 
 It can help you to:
 
@@ -96,3 +96,7 @@ When you save a CRMScript (click **Apply**), `ajax.fcgi?action=getScriptIntellis
 * Due to security concerns, you **may not use HTML** to style your comments. The displayed intellisense description will be plain text only.
 
 * Local function variables are not available because the CRMScript intellisense is not context-aware. It can't determine which local variables are available in your current scope.
+
+<!-- Referenced img -->
+
+[img1]: ../media/crmscript-intellisense.png

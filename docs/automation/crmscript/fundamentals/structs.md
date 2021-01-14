@@ -172,6 +172,7 @@ Only supports the following item datatypes:
 Date and DateTime is not supported. JSON does not support these either.
 
 Example:
+
 ```crmscript!
 struct Hello {
   String who;

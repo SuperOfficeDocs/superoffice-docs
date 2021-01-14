@@ -66,9 +66,9 @@ printLine("This sale will auto advance: " + type.GetIsAutoAdvance().toString());
 
 ## Suggested activities
 
-Suggested activities are just that  - **suggested**. They're blueprints that can be used to create actual [follow-ups](../follow-ups/index.md) and  [documents](../documents/index.md).
+Suggested activities are just that  - **suggested**. They're blueprints that can be used to create actual [follow-ups][1] and  [documents][2].
 
-The blueprints sit in the intersection between project types and stages. A project type can have many stages, and a stage can apply to multiple project types. The [ProjectTypeStatusLink table](https://community.superoffice.com/documentation/SDK/SO.Database/html/Tables-ProjectTypeStatusLink.htm) connects them all.
+The blueprints sit in the intersection between project types and stages. A project type can have many stages, and a stage can apply to multiple project types. The [ProjectTypeStatusLink table][3] connects them all.
 
 ### List available suggestions
 
@@ -93,8 +93,7 @@ newAppointment = appointmentAgent.SaveAppointmentEntity(newAppointment);
 ```
 
 > [!TIP]
-> You can also [create documents from suggestions](../documents/doc-properties.md).
-
+> You can also [create documents from suggestions][4].
 
 ### Create a suggestion and link it to a stage
 
@@ -148,7 +147,7 @@ myBlueprint = appointmentAgent.SaveSuggestedAppointmentEntity(myBlueprint);
 | duration                | in minutes                                |
 | text                    | The suggested text of the new appointment |
 
-For a complete list of fields, see the [database reference](https://community.superoffice.com/documentation/SDK/SO.Database/html/Tables-SuggestedAppointment.htm).
+For a complete list of fields, see the [database reference][5].
 
 ### SuggestedDocument
 
@@ -160,4 +159,12 @@ For a complete list of fields, see the [database reference](https://community.su
 | projectTypeStatusLinkId | anchor for sale guide items               |
 | doctmpl_id              | type of the suggested document            |
 
-For a complete list of fields, see the [database reference](https://community.superoffice.com/documentation/SDK/SO.Database/html/Tables-SuggestedDocument.htm).
+For a complete list of fields, see the [database reference][6].
+
+<!-- Referenced links -->
+[1]: ../follow-ups/index.md
+[2]: ../documents/index.md
+[3]: https://community.superoffice.com/documentation/SDK/SO.Database/html/Tables-ProjectTypeStatusLink.htm
+[4]: ../documents/doc-properties.md
+[5]: https://community.superoffice.com/documentation/SDK/SO.Database/html/Tables-SuggestedAppointment.htm
+[6]: https://community.superoffice.com/documentation/SDK/SO.Database/html/Tables-SuggestedDocument.htm

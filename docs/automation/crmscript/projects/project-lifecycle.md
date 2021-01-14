@@ -35,13 +35,13 @@ print(newProject.GetProjectId().toString());
 ## Get selected projects
 
 > [!TIP]
-> You can only retrieve projects for persons that are SuperOffice users ([associates](../persons-and-organizations/employees.md)).<br/>The signed-in user must also have permission to view those projects. Otherwise, an exception is thrown.
+> You can only retrieve projects for persons that are SuperOffice users ([associates][1]).<br>The signed-in user must also have permission to view those projects. Otherwise, an exception is thrown.
 
 ### NSProject[] GetProjectList(Integer[] p0)
 
 To call `GetProjectList()`, we need to create the list of **project IDs** first.
 
-In this example, we use [SearchEngine](../searchengine/index.md) to get the ID of all projects headed by a specific associate and not marked as *done*.
+In this example, we use [SearchEngine][2] to get the ID of all projects headed by a specific associate and not marked as *done*.
 
 ```crmscript
 String associateId = "5";
@@ -64,7 +64,7 @@ NSProject[] projectList = agent.GetProjectList(projectIds);
 
 ### NSProject[] GetProjectsFromContact(Integer contactId)
 
-A company is implicitly linked to a project when at least 1 [person](../persons-and-organizations/customer.md) in that [organization](../persons-and-organizations/company.md) is a [member](./project-members.md) of that project.
+A company is implicitly linked to a project when at least 1 [person][3] in that [organization][4] is a [member][5] of that project.
 
 ```crmscript!
 Integer contactId = 4;
@@ -97,7 +97,7 @@ p = agent.SaveProjectEntity(p);
 
 ## Ending a project
 
-In the end, regardless of whether you followed a [project guide](./project-guides.md) or not, a project is either **completed** or **stopped**. It is time to wrap things up and at the same time make sure the project manager and others can learn from it either way.
+In the end, regardless of whether you followed a [project guide][6] or not, a project is either **completed** or **stopped**. It is time to wrap things up and at the same time make sure the project manager and others can learn from it either way.
 
 | Status | Description |
 |:------:|:------------|
@@ -154,7 +154,7 @@ agent.DeleteProjectEntity(123);
 | status_idx     | status                                       |
 | done           | 0 = no, 1 = yes                              |
 
-For a complete list of fields, see the [database reference](https://community.superoffice.com/documentation/SDK/SO.Database/html/Tables-project.htm).
+For a complete list of fields, see the [database reference][7].
 
 ### Timestamp values
 
@@ -164,3 +164,12 @@ For a complete list of fields, see the [database reference](https://community.su
 | updated           | UtcDateTime of last update                                |
 | endDate           | expected closing time or when it was completed or stopped (DateTime) |
 | nextMilestoneDate | closest non-complete future milestone activity (DateTime) |
+
+<!-- Referenced links -->
+[1]: ../persons-and-organizations/employees.md
+[2]: ../searchengine/index.md
+[3]: ../persons-and-organizations/customer.md
+[4]: ../persons-and-organizations/company.md
+[5]: project-members.md
+[6]: project-guides.md
+[7]: https://community.superoffice.com/documentation/SDK/SO.Database/html/Tables-project.htm

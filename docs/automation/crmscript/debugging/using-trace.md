@@ -9,7 +9,7 @@ so.topic: howto
 
 # Using Trace
 
-SuperOffice CRM Online has a built-in tracing feature. When turned on, all details will be logged when the script is run. You can then investigate the behavior of the script step by step by rewinding and fast-forwarding the [log](./log-messages.md). You can also see all the variables at any given point.
+SuperOffice CRM Online has a built-in tracing feature. When turned on, all details will be logged when the script is run. You can then investigate the behavior of the script step by step by rewinding and fast-forwarding the [log][1]. You can also see all the variables at any given point.
 
 ## Starting a trace
 
@@ -48,3 +48,6 @@ Using the call-stack depth, you can do much more advanced stepping when inspecti
 * Step out: Exit current function and go to the next statement.
 
 * Step next: Go to the next statement at the same depth or higher in the stack.
+
+<!-- Referenced links -->
+[1]: ./log-messages.md

@@ -11,12 +11,12 @@ so.topic: concept
 
 A *user-defined* field (udef) is a custom field that you add to an existing SuperOffice database table. You can extend the following entities:
 
-* [company](../persons-and-organizations/company.md)
-* [contact](../persons-and-organizations/customer.md)
-* [documents](../documents/index.md)
-* [follow-up](../follow-ups/index.md)
+* [company][1]
+* [contact][2]
+* [documents][3]
+* [follow-up][4]
 * project
-* [sale](../sales/index.md)
+* [sale][5]
 
 There are 8 different types of user-defined fields: Number, Decimal, Short text, Long text, Date, Unlimited date, Checkbox, and List (drop-down).
 
@@ -47,7 +47,7 @@ Each entity that supports user-defined fields can have up to **119 custom fields
 | String[200] | 9        | long text                        |
 
 > [!NOTE]
-> When all String[40] fields are taken, the system will use String[200] from the corresponding UDXXXLarge table. This will decrease the available number of fields for the long text type fields.
+> When all String[40] fields are taken, the system will use String[200] from the corresponding `UDXXXLarge` table. This will decrease the available number of fields for the long text type fields.
 
 ## Indexed fields
 
@@ -75,7 +75,7 @@ For example, "[D:2020.08.27]".
 
 ### Convert DateTime to SuperDate
 
-For [DateTime](../datatypes/datetime-type.md), you can use its built-in formatting options of `toString()`.
+For [DateTime][6], you can use its built-in formatting options of `toString()`.
 
 ```crmscript!
 String toSuperDate( DateTime dt ) {
@@ -88,7 +88,7 @@ printLine(toSuperDate(now));
 
 ### Convert Date to SuperDate
 
-For [Date](../datatypes/date-type.md), you need to format the string yourself.
+For [Date][7], you need to format the string yourself.
 
 ```crmscript!
 String toSuperDate( Date d ) {
@@ -161,7 +161,7 @@ For example, a number can be converted to a decimal and a short text. (And it's 
 
 ## Get all user-defined fields from entity
 
-`GetUserDefinedFields()` retrieves all registered user-defined fields from an entity. Here, we use the [contact](../persons-and-organizations/customer.md) entity.
+`GetUserDefinedFields()` retrieves all registered user-defined fields from an entity. Here, we use the [contact][2] entity.
 
 > [!TIP]
 > **Map** is a collection of key-value pairs. The key is **not the label** you gave the field! It's the **prog ID**!
@@ -257,3 +257,11 @@ if (result.GetRowCount() > 0) {
   }
 }
 ```
+<!-- Referenced links -->
+[1]: ../persons-and-organizations/company.md
+[2]: ../persons-and-organizations/customer.md
+[3]: ../documents/index.md
+[4]: ../follow-ups/index.md
+[5]: ../sales/index.md
+[6]: ../datatypes/datetime-type.md
+[7]: ../datatypes/date-type.md

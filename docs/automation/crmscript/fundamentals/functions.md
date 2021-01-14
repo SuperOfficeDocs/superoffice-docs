@@ -108,7 +108,7 @@ Note that we are using the input parameter of `sayTheWord()` as a local variable
 
 ## Return
 
-Just like you can stop and jump out of for and while loops with a [break statement](./loop-control.md), you can stop and jump out of a function with a **return** statement. The control goes to the 1st statement after the function call.
+Just like you can stop and jump out of for and while loops with a [break statement][1], you can stop and jump out of a function with a **return** statement. The control goes to the 1st statement after the function call.
 
 ```crmscript!
 Void sayHello(){
@@ -152,3 +152,6 @@ The basic built-in data types are:
 * String
 
 Also, you can return objects of all the built-in classes, for example Company or Generic.
+
+<!-- Referenced links -->
+[1]: loop-control.md

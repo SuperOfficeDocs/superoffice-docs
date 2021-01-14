@@ -21,7 +21,7 @@ SuperOffice has 5 important things:
   * chat sessions
 * **Tickets** from Service are linked to persons who may or may not belong to a company.
 
-You can [read more about the main tables](https://community.superoffice.com/documentation/SDK/SO.Database/html/TheMainTables.htm) in the developer documentation.
+You can [read more about the main tables][1] in the developer documentation.
 
 ## Business rules
 
@@ -37,11 +37,14 @@ The appointment table contains foreign keys to all the other important tables, p
 
 ## Context-sensitive labels
 
-| Real-world term | UI        | Database table  | CRMScript class |
-|-----------------|-----------|-----------------|-----------------|
-| company<br/>organization | company | contact  | Company         |
-| person          | contact<br/>associate |     |                 |
-| customer        | contact   | person          | Customer        |
-| employee        | associate | associate       |                 |
-| user account    | user      | ejuser          | User            |
-| database owner  | tenant    | Company         |                 |
+| Real-world term | UI        | Database table | CRMScript class |
+|-----------------|-----------|----------------|-----------------|
+| company<br>organization | company | contact  | Company         |
+| person          | contact<br>associate |     |                 |
+| customer        | contact   | person         | Customer        |
+| employee        | associate | associate      |                 |
+| user account    | user      | ejuser         | User            |
+| database owner  | tenant    | Company        |                 |
+
+<!-- Referenced links -->
+[1]: https://community.superoffice.com/documentation/SDK/SO.Database/html/TheMainTables.htm

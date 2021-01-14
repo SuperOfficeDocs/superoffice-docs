@@ -33,13 +33,21 @@ print(se.executeTextTable());
 
 When working with quotes, data will often intersect with the following entities:
 
-* [documents](../documents/index.md)
-* [follow-ups](../follow-ups/index.md) (appointment table)
-* [company](../persons-and-organizations/company.md) (contact table)
-* [contact](../persons-and-organizations/customer.md) (person table)
-* project
-* [sale](../sales/index.md)
+* [documents][1]
+* [follow-ups][2] (appointment table)
+* [company][3] (contact table)
+* [contact][4] (person table)
+* [project][5]
+* [sale][6]
 
 ## In this section
 
 1. autolist
+
+<!-- Referenced links -->
+[1]: ../documents/index.md
+[2]: ../follow-ups/index.md
+[3]: ../persons-and-organizations/company.md
+[4]: ../persons-and-organizations/customer.md
+[5]: ../projects/index.md
+[6]: ../sales/index.md

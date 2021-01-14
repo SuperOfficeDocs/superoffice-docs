@@ -10,6 +10,7 @@ so.topic:
 # Bool data type
 
 The logical or boolean data type of CRMScript is **Bool**.
+
 Variables of this type can only have 2 values: **true** or **false** and are commonly used in comparisons and conditional statements.
 
 Aside from testing the value, you can't do much except to convert it to a number or a string.

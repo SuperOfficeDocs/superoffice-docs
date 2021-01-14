@@ -28,7 +28,7 @@ log("2020 is a leap year");
 Use `log()` as you would use `print()`.
 
 > [!TIP]
-> You can customize logging by adding the following URL fragment: <br/> */scripts/ticket.fcgi?_sf=0&action=searchTable&table=log_events*
+> You can customize logging by adding the following URL fragment: <br> `/scripts/ticket.fcgi?_sf=0&action=searchTable&table=log_events`
 
 **Read log:**
 

@@ -157,7 +157,7 @@ qa.RemoveProduct(productId);
 | UnitListPrice  | the basic price from which the discount is computed from |
 | InAssortment   | whether currently offered or out-of-stock/discontinued |
 
-For a complete list of fields, see the [database reference](https://community.superoffice.com/documentation/SDK/SO.Database/html/Tables-Product.htm).
+For a complete list of fields, see the [database reference][1].
 
 ### Frequently used price list fields
 
@@ -172,4 +172,8 @@ For a complete list of fields, see the [database reference](https://community.su
 | IsActive       | link to product information web page      |
 | IsERPCopy      | whether it's a cache and can't be changed in CRM |
 
-For a complete list of fields, see the [database reference](https://community.superoffice.com/documentation/SDK/SO.Database/html/Tables-PriceList.htm).
+For a complete list of fields, see the [database reference][2].
+
+<!-- Referenced links -->
+[1]: https://community.superoffice.com/documentation/SDK/SO.Database/html/Tables-Product.htm
+[2]: https://community.superoffice.com/documentation/SDK/SO.Database/html/Tables-PriceList.htm

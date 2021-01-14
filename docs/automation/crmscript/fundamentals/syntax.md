@@ -48,29 +48,29 @@ Structs and the built-in classes use pascal-case starting with an upper-case let
 ## Keywords
 
 Keywords are words that have special meaning in CRMScript and can't be used to name stuff in your code.
-Check the [list of reserved words](./reserved.md) if in doubt.
+Check the [list of reserved words][10] if in doubt.
 
 ## Statements
 
 Instructions are called *statements* and are separated by semicolons (`;`).
 Statements that should be executed together as a code block must be enclosed in a pair of curly braces {}.
 
-Expressions are combinations of values/[variables](./variables.md) and [operators](./operators.md).
+Expressions are combinations of values/[variables][1] and [operators][2].
 
 Types of statements:
 
-* [variable](./variables.md) declaration
-* [assignment](./operators.md)
-* [struct](./structs.md) definition
-* [function](.(functions.md) definition and call
-* [for](./for-loops.md) and [while](./while-loops.md) loops
-* [conditional statements](./conditions.md)
+* [variable][3] declaration
+* [assignment][2]
+* [struct][4] definition
+* [function][5] definition and call
+* [for][6] and [while][7] loops
+* [conditional statements][8]
 
 ## Text and numbers
 
 Text is written within double or single quotes. Numbers are written with or without decimals.
 
-Learn more about [data types](./datatypes-intro.md).
+Learn more about [data types][9].
 
 ## Comments
 
@@ -90,3 +90,15 @@ i = i * 2;
 */
 print(i.toString());
 ```
+
+<!-- Referenced links -->
+[1]: variables.md
+[2]: operators.md
+[3]: variables.md
+[4]: structs.md
+[5]: functions.md
+[6]: for-loops.md
+[7]: while-loops.md
+[8]: conditions.md
+[9]: datatypes-intro.md
+[10]: reserved.md

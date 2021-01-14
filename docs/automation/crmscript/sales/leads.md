@@ -38,7 +38,7 @@ print("Registered new sale with ID " + newSale.GetSaleId().toString());
 
 ## Find company ID from ticket ID
 
-You might be picking up leads such as up-sells to existing customers from service tickets. Here's how to get the contact ID from the [ticket](../requests/tickets.md):
+You might be picking up leads such as up-sells to existing customers from service tickets. Here's how to get the contact ID from the [ticket][1]:
 
 ```crmscript
 Integer ticketId = 123;
@@ -79,7 +79,7 @@ The generic procedure is like this. The details are up to you.
 > [!NOTE]
 > The follow-up you created is an **NSAppointmentEntity**, but `SetAppointment()` takes an **NSAppointment**. You can't pass the saved follow-up directly, but need to fetch the corresponding slim version by ID.
 
-In this example, we use info from the sale to populate the new [follow-up](../follow-ups/index.md).
+In this example, we use info from the sale to populate the new [follow-up][2].
 
 ```crmscript
 NSSaleAgent saleAgent;
@@ -124,7 +124,7 @@ Void DeleteSaleEntity(123);
 | status         | EnumSaleStatus 1 = open, 2 = sold, 3 = lost, 4 = stalled |
 | done           | EnumSaleDone 0 = unknown, 1 = no, 2 = yes    |
 
-For a complete list of fields, see the [database reference](https://community.superoffice.com/documentation/SDK/SO.Database/html/Tables-sale.htm).
+For a complete list of fields, see the [database reference][3].
 
 ### Timestamp values
 
@@ -133,4 +133,9 @@ For a complete list of fields, see the [database reference](https://community.su
 | registered    | UtcDateTime of registration                              |
 | updated       | UtcDateTime of last update                               |
 | saledate      | expected closing time or when it was lost/won (DateTime) |
-| nextDueDate   | closest future activity date<br />if nothing is planned: the most recent activity |
+| nextDueDate   | closest future activity date<br>if nothing is planned: the most recent activity |
+
+<!-- Referenced links -->
+[1]: ../requests/tickets.md
+[2]: ../follow-ups/index.md
+[3]: https://community.superoffice.com/documentation/SDK/SO.Database/html/Tables-sale.htm

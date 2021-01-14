@@ -29,7 +29,7 @@ An *appointment* is a type of **follow-up** with a defined start and end time, s
 ## Get appointments
 
 > [!TIP]
-> You can only retrieve appointments for persons that are SuperOffice users ([associates](../persons-and-organizations/employees.md)). The signed-in user must also have permission to view those appointments. Otherwise, an exception is thrown.
+> You can only retrieve appointments for persons that are SuperOffice users ([associates][1]. The signed-in user must also have permission to view those appointments. Otherwise, an exception is thrown.
 
 ### NSAppointment[] GetAppointmentList(Integer[] p0)
 
@@ -50,7 +50,7 @@ for(Integer i = 0; i < appointmentList.length(); i++) {
 ```
 
 > [!TIP]
-> You can also use the [archive agent](../crmscript-archiveagent.md) to fetch appointments.
+> You can also use the [archive agent][2] to fetch appointments.
 
 ### NSAppointment[] GetPersonDiary(Integer personId, DateTime startTime, DateTime endTime, Integer count)
 
@@ -214,7 +214,7 @@ for (Integer i = 0; i < redLetterDays.length(); i++)
 The `location` field is either a custom string or info from a booked resource.
 
 > [!TIP]
-> Remember that a **resource is an [associate of type 1](../persons-and-organizations/employees.md)** and that you should disregard the `person_id`.
+> Remember that a **resource is an [associate of type 1][2]** and that you should disregard the `person_id`.
 
 When you book a resource, it's appointment is linked to the person's appointment using the `mother_id` field. There will be 2 distinct appointment IDs: 1 for the person and 1 for the resource!
 
@@ -290,7 +290,7 @@ newAppointment = appointmentAgent.SaveAppointmentEntity(newAppointment);
 ```
 
 > [!TIP]
-> You can also [invite persons to the meeting](./invitations.md)).
+> You can also [invite persons to the meeting][3]).
 
 ## Delegation
 
@@ -360,7 +360,7 @@ Delegation is the act of assigning a follow-up **to someone else**. This means t
 | alldayEvent    | 0 = no; 1 = yes                              |
 | freeBusy       | 0 = busy; 1 =  free                          |
 
-For a complete list of fields, see the [database reference](https://community.superoffice.com/documentation/SDK/SO.Database/html/Tables-appointment.htm).
+For a complete list of fields, see the [database reference][4].
 
 ### Timestamp values
 
@@ -372,3 +372,9 @@ For a complete list of fields, see the [database reference](https://community.su
 | do_by         | Planned deadline for task (DateTime) |
 | activeDate    | Display date (DateTime)              |
 | endDate       | Planned completion time (DateTime)   |
+
+<!-- Referenced links -->
+[1]: ../persons-and-organizations/employees.md
+[2]: ../crmscript-archiveagent.md
+[3]: invitations.md
+[4]: https://community.superoffice.com/documentation/SDK/SO.Database/html/Tables-appointment.htm

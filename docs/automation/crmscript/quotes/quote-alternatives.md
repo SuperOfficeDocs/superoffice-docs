@@ -13,7 +13,7 @@ Each alternative can contain different products, numbers of products, prices, an
 
 The estimated sales amount for the sale (forecast) is obtained from the total amount for the **favorite alternative**.
 
-* Objects of type `NSQuoteAlternative` belonging to a specific quote [version](./quote-properties.md).
+* Objects of type `NSQuoteAlternative` belonging to a specific quote [version][1].
 * Objects of type `NSQuoteLine` belonging to a specific quote **alternative**.
 
 ## Get alternatives
@@ -260,7 +260,7 @@ The SuperOffice quote connector will calculate VAT **amount** of an alternative 
 | EarningAmount        | as amount                                 |
 | TotalPrice           | calculated                                |
 
-For a complete list of fields, see the [database reference](https://community.superoffice.com/documentation/SDK/SO.Database/html/Tables-QuoteAlternative.htm).
+For a complete list of fields, see the [database reference][2].
 
 ### Frequently used QuoteLine fields
 
@@ -274,4 +274,9 @@ For a complete list of fields, see the [database reference](https://community.su
 
 The line will also include **information duplicated from the product** (rather than referenced).
 
-For a complete list of fields, see the [database reference](https://community.superoffice.com/documentation/SDK/SO.Database/html/Tables-QuoteLine.htm).
+For a complete list of fields, see the [database reference][3].
+
+<!-- Referenced links -->
+[1]: ./quote-properties.md
+[2]: https://community.superoffice.com/documentation/SDK/SO.Database/html/Tables-QuoteAlternative.htm
+[3]: https://community.superoffice.com/documentation/SDK/SO.Database/html/Tables-QuoteLine.htm

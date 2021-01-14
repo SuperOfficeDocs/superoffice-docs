@@ -52,7 +52,7 @@ printLine(orderConfirmation.subString(0,20));
 This example prints the 1st 20 characters of the stream.
 
 > [!TIP]
-> Learn more about [strings](../datatypes/string-type.md) and [documents](../documents/index.md).
+> Learn more about [strings][1] and [documents][2].
 
 ## Order-related info you might want to set or check
 
@@ -101,3 +101,7 @@ NSSaleEntity sale = saleAgent.GetSaleEntity(quote.GetSaleId());
 sale.SetStatus(2);
 sale = saleAgent.SaveSaleEntity(sale);
 ```
+
+<!-- Referenced links -->
+[1]: ../datatypes/string-type.md
+[2]: ../documents/index.md

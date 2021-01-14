@@ -21,7 +21,7 @@ String output = p.parseString("Hello [[firstName]] [[lastName]]!\n");
 print(output);
 ```
 
-This example defines the template and its variables inline. You can also use a [reply template](./reply-template.md).
+This example defines the template and its variables inline. You can also use a [reply template][1].
 
 ## List available variables
 
@@ -94,3 +94,6 @@ Counts the occurrences of a named variable in the parser instance.
 ```crmscript
 print(p.getVariableCount("firstName").toString());
 ```
+
+<!-- Referenced links -->
+[1]: reply-template.md

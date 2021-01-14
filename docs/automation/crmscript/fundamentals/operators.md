@@ -72,11 +72,11 @@ Comparison operators are used to test for true or false. They are typically used
 
 The logical operators are commonly used with boolean values and variables (Bool).
 
-| Operator | Description | Use              |
-|:--------:|-------------|------------------|
-| &&       | logical AND | expr1 && expr2   |
-| ![or](../media/operator-logical-or.png)     | logical OR  | expr1 ![or](../media/operator-logical-or.png) expr2 |
-| !        | logical NOT | !expr            |
+| Operator | Description | Use            |
+|:--------:|-------------|----------------|
+| &&       | logical AND | expr1 && expr2 |
+| \|       | logical OR  | expr1 \| expr2 |
+| !        | logical NOT | !expr          |
 
 ## Operator precedence
 

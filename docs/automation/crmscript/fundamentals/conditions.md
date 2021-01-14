@@ -28,7 +28,7 @@ if (signupCount <= 50)
   print("Thank you for signing up! Your participant number is " + signupCount.toString() +".\n");
 ```
 
-You can use both [conditional and logical operators](./operators.md). You can also compare with the special values **true** and **false**.
+You can use both [conditional and logical operators][1]. You can also compare with the special values **true** and **false**.
 
 ```crmscript
 Bool waitingList = false;
@@ -78,3 +78,6 @@ else if (signupCount == 51) {
 else
   print("Adding to waiting list.\n");
 ```
+
+<!-- Referenced links -->
+[1]: operators.md

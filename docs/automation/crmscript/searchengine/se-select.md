@@ -236,7 +236,7 @@ Same as above, but you can specify the type of query:
 
 ## What's next?
 
-You now know how to build a SearchEngine query, look at the generated SQL, gauge the size of the search result, and limit it if need be. It is now time to turn to [executing the query](./se-run.md).
+You now know how to build a SearchEngine query, look at the generated SQL, gauge the size of the search result, and limit it if need be. It is now time to turn to [executing the query][1].
 
 ## Reference
 
@@ -290,3 +290,6 @@ Notice that all operators are specified as strings in the argument list.
 | OperatorEndsWith   |         | string ends with               |
 | OperatorIn         |         | column has entries in table    |
 | OperatorNotIn      |         | column has no entries in table |
+
+<!-- Referenced links -->
+[1]: se-run.md

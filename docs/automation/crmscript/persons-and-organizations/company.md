@@ -22,11 +22,10 @@ The **Company** CRMScript class represents the following entities:
 
 ### Void setValue(String column, String value)
 
-Sets a named field to the given value. Look up names in the reference section down below, or check out the [class reference](https://community.superoffice.com/documentation/SDK/SO.Customer.Service.Support/html/EJScript-Classes-Company-setValue.htm).
+Sets a named field to the given value. Look up names in the reference section down below, or check out the [class reference][1].
 
 > [!NOTE]
-> Both parameters are strings! Remember to use quotes even for IDs. <br />
-> You must call `save()` after setting all applicable values to actually create or update the company.
+> Both parameters are strings! Remember to use quotes even for IDs.<br>You must call `save()` after setting all applicable values to actually create or update the company.
 
 ```crmscript
 Company c;
@@ -125,7 +124,7 @@ print(b.toString());
 
 ## Parser variables
 
-Calling `toParser()` will load the following fields and make them available to [templates](../parser-and-templates/reply-template.md):
+Calling `toParser()` will load the following fields and make them available to [templates][2]:
 
 * company.id
 * company.name
@@ -149,11 +148,11 @@ printLine(p.getVariable("company.name", 0));
 ```
 
 > [!TIP]
-> Read more about [localized addresses](./addresses.md).
+> Read more about [localized addresses][3].
 
 ## Activities
 
-You can also use the [contact agent](../ns-agents-and-carriers.md) to check what's going on.
+You can also use the [contact agent][4] to check what's going on.
 
 ### GetMyActiveContacts
 
@@ -207,8 +206,8 @@ for (Integer i = 0; i < followups.length(); i++) {
 | name         | name            | The name of the company                   |
 | phone        | phone           | The company's phone number                |
 | domain       | company_domain  | A display-version of the company's domain |
-| priority     | ticket_priority | The ID of the default priority for this company.<br />NULL or -1 if not set. |
-| language     | cust_lang       | The ID of the default customer language for this company.<br/>NULL or -1 if not set. |
+| priority     | ticket_priority | The ID of the default priority for this company.<br>NULL or -1 if not set. |
+| language     | cust_lang       | The ID of the default customer language for this company.<br>NULL or -1 if not set. |
 
 ### Connected persons
 
@@ -216,9 +215,9 @@ for (Integer i = 0; i < followups.length(); i++) {
 |:-------------------|:-------------------|:------------------------------------------------------------------|
 | ourContact         | associate_id       | The ID (`ejuser.id`) of the internal employee handling sale to this company |
 | supportAssociateId | supportAssociateId | The ID (`ejuser.id`) or username of the internal employee handling support to this company |
-| primContact        | supportPerson      | The ID (`customer.id`) of the primary contact in this company<br/>the counterpart of supportAssociateId |
+| primContact        | supportPerson      | The ID (`customer.id`) of the primary contact in this company<br>the counterpart of supportAssociateId |
 
-For a complete list of fields, see the [database reference](https://community.superoffice.com/documentation/SDK/SO.Database/html/Tables-contact.htm).
+For a complete list of fields, see the [database reference][5].
 
 ### Action types
 
@@ -233,3 +232,10 @@ For a complete list of fields, see the [database reference](https://community.su
 
 > [!TIP]
 > To request more than 1 action type, summarize the values. **63** means **include all**.
+
+<!-- Referenced links -->
+[1]: https://community.superoffice.com/documentation/SDK/SO.Customer.Service.Support/html/EJScript-Classes-Company-setValue.htm
+[2]: ../parser-and-templates/reply-template.md
+[3]: addresses.md
+[4]: ../ns-agents-and-carriers.md
+[5]: https://community.superoffice.com/documentation/SDK/SO.Database/html/Tables-contact.htm

@@ -62,5 +62,9 @@ if (state == 6 || state == 8 || state == 9) {
 
 ## See also
 
-* [working with documents](../documents/index.md)
-* [template variables](../documents/doc-templates.md)
+* [working with documents][1]
+* [template variables][2]
+
+<!-- Referenced links -->
+[1]: ../documents/index.md
+[2]: ../documents/doc-templates.md

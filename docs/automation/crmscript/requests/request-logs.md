@@ -37,7 +37,7 @@ t.log("SuperStar RequestHandler", "I can handle anything and anyone!");
 
 ## Search the log
 
-When inspecting logs, the CRMScript [SearchEngine](../searchengine/index.md) is your best friend. Here's some info commonly filtered on:
+When inspecting logs, the CRMScript [SearchEngine][1] is your best friend. Here's some info commonly filtered on:
 
 * ticket_id
 * message_id
@@ -45,7 +45,7 @@ When inspecting logs, the CRMScript [SearchEngine](../searchengine/index.md) is 
 * customer_id
 * log_when (DateTime)
 
-Look up more options in the [database reference](https://community.superoffice.com/documentation/SDK/SO.Database/html/Tables-ticket_log.htm).
+Look up more options in the [database reference][2].
 
 **Example searches:**
 
@@ -73,5 +73,11 @@ For each change to a ticket, new entries are added to both the **ticket_log_acti
 
 | Table             | Entries                                 | Enum      |
 |:------------------|:----------------------------------------|:----------|
-| ticket_log_action | 1 entry with the timestamp              | [LogAction](https://community.superoffice.com/documentation/SDK/SO.Database/html/Tables-ticket_log_action.htm) |
-| ticket_log_change | 1 entry for each value that has changed | [LogChange](https://community.superoffice.com/documentation/SDK/SO.Database/html/Tables-ticket_log_change.htm) |
+| ticket_log_action | 1 entry with the timestamp              | [LogAction][3] |
+| ticket_log_change | 1 entry for each value that has changed | [LogChange][4] |
+
+<!-- Referenced links -->
+[1]: ../searchengine/index.md
+[2]: https://community.superoffice.com/documentation/SDK/SO.Database/html/Tables-ticket_log.htm
+[3]: https://community.superoffice.com/documentation/SDK/SO.Database/html/Tables-ticket_log_action.htm
+[4]: https://community.superoffice.com/documentation/SDK/SO.Database/html/Tables-ticket_log_change.htm

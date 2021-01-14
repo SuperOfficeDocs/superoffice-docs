@@ -28,7 +28,7 @@ The **Tables** screen is your tool for customizing the database schema. Here you
 ## Conventions
 
 > [!CAUTION]
-> Choose your database table and field names carefully. They cannot be changed later!<br />A logical name is best because it makes it easier to see what the database contains.
+> Choose your database table and field names carefully. They cannot be changed later!<br>A logical name is best because it makes it easier to see what the database contains.
 
 The prefixes ensure that what you create don't conflict with future SuperOffice table and field names. However, it doesn't guarantee a lack of naming conflicts between different 3rd parties.
 
@@ -54,7 +54,7 @@ The prefixes ensure that what you create don't conflict with future SuperOffice 
 3. Set table properties:
     * Enter a *name* to be used as label.
     * Enter a *database field* beginning with **y_** to identify it in the schema.
-    * Optionally set other properties. See the [user guide](https://community.superoffice.com/Documentation/Help/en/CRM/8.5/UserHelp/Service/topics/blogic.listExtraTables.editExtraTable.html) for details.
+    * Optionally set other properties. See the [user guide][1] for details.
 4. Click **OK** to save the new table (runs `create table y_mynewtable ...`).
 5. Add fields to your new table. (See next task for details.)
 6. Optionally adjust table properties such as sort order.
@@ -90,9 +90,9 @@ You can now open the table in the UI to add content to it **or** populate it via
 
 ### With CRMScript
 
-Using [SearchEngine](../searchengine/index.md) and `addData()`, you set up the row and then do an insert.
+Using [SearchEngine][2] and `addData()`, you set up the row and then do an insert.
 
-This example adds a row to the *y_equipment* table with values for the *x_label* and *x_manufacturer* fields.
+This example adds a row to the `y_equipment` table with values for the `x_label` and `x_manufacturer` fields.
 
 ```crmscript
 SearchEngine se;
@@ -112,9 +112,9 @@ se.insert();
 | Database table | for the schema, can't be changed after creation             |
 | Sort order     | which column the table will be sorted on, and the direction |
 | Display field  | for relations                                               |
-| SuperOffice CRM access | controls access to the table from web panels<br />no access, read access, or full access |
+| SuperOffice CRM access | controls access to the table from web panels<br>no access, read access, or full access |
 
-For a complete list of properties, see the [help files](https://community.superoffice.com/documentation/help/en/crm/8.5/userhelp/index.htm#t=Service%2Ftopics%2Fblogic.listExtraTables.editExtraTable.html).
+For a complete list of properties, see the [help files][1].
 
 ### Field properties
 
@@ -130,4 +130,9 @@ For a complete list of properties, see the [help files](https://community.supero
 
 In addition, each type has its own set of properties. For example, items for a list box and decimals in a number, or units for a time span.
 
-For a complete list of properties, see the [help files](https://community.superoffice.com/documentation/help/en/crm/8.5/userhelp/index.htm#t=Service%2Ftopics%2Fblogic.listExtraTables.listFields.editField.html).
+For a complete list of properties, see the [help files][3].
+
+<!-- Referenced links -->
+[1]: https://community.superoffice.com/Documentation/Help/en/CRM/8.5/UserHelp/Service/topics/blogic.listExtraTables.editExtraTable.html
+[2]: ../searchengine/index.md
+[3]: https://community.superoffice.com/documentation/help/en/crm/8.5/userhelp/index.htm#t=Service%2Ftopics%2Fblogic.listExtraTables.listFields.editField.html

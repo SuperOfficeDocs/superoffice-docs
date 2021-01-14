@@ -122,7 +122,7 @@ doc.SetPerson(p);
 doc = agent.SaveDocumentEntity(doc);
 ```
 
-Read more about [working with persons and organizations](../persons-and-organizations/index.md).
+Read more about [working with persons and organizations][4].
 
 ## Link document to an appointment
 
@@ -150,10 +150,10 @@ appAgent.SaveAppointmentEntity(a);
 
 ## Suggested documents
 
-Suggested documents are just that  - **suggested**. They're blueprints that can be used to create actual documents, and are commonly used for [sales guides](../sales/guides.md) and project guides.
+Suggested documents are just that  - **suggested**. They're blueprints that can be used to create actual documents, and are commonly used for [sales guides][2] and project guides.
 
 > [!NOTE]
-> Don't confuse suggested documents for [document templates](./doc-templates.md).
+> Don't confuse suggested documents for [document templates][1].
 
 ### List available suggestions
 
@@ -178,7 +178,7 @@ printLine(doc.GetDocumentId().toString() + "\t" + doc.GetHeader());
 ## Change document properties
 
 > [!NOTE]
-> The `NSDocumentEntity` can't be changed if the document is marked as **Completed**.<br />Use `GetCompleted()` to check the status. Toggle it to **0** to do your edits and then toggle it back if necessary.
+> The `NSDocumentEntity` can't be changed if the document is marked as **Completed**.<br>Use `GetCompleted()` to check the status. Toggle it to **0** to do your edits and then toggle it back if necessary.
 
 ```crmscript
 NSDocumentAgent agent;
@@ -212,7 +212,13 @@ agent.DeleteDocumentEntity(99);
 | your_ref       | your reference (external)               |
 | appointment_id | points back to owning appointment       |
 
-For a complete list of fields, see the [database reference](https://community.superoffice.com/documentation/SDK/SO.Database/html/Tables-document.htm).
+For a complete list of fields, see the [database reference][3].
 
 > [!TIP]
 > Both `our_ref` and `your_ref` are strings.
+
+<!-- Referenced links -->
+[1]: doc-templates.md
+[2]: ../sales/guides.md
+[3]: https://community.superoffice.com/documentation/SDK/SO.Database/html/Tables-document.htm
+[4]: ../persons-and-organizations/index.md

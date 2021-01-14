@@ -21,12 +21,12 @@ You may think of associates as the missing link that connects people.
 | Value | Type           | Description     |
 |:-----:|----------------|-----------------|
 | 0     | Employee       | Internal person |
-| 1     | Resource       | Not a person<br />Disregard `personId` |
+| 1     | Resource       | Not a person<br>Disregard `personId` |
 | 2     | Anonymous      | Not authenticated for SuperOffice |
-| 4     | ExternalPerson | External person<br/>No calendar |
-| 7     | Anonymous      | Unknown<br />(no person (1) + not authenticated (2) + no calendar (4) |
-| 8     | NoSentry       | Has full access rights<br />The Sentry mechanism is bypassed |
-| 13    | System         | System user<br />(no person (1) + no calendar (4) + full access/bypass sentry (8)|
+| 4     | ExternalPerson | External person<br>No calendar |
+| 7     | Anonymous      | Unknown<br>(no person (1) + not authenticated (2) + no calendar (4) |
+| 8     | NoSentry       | Has full access rights<br>The Sentry mechanism is bypassed |
+| 13    | System         | System user<br>(no person (1) + no calendar (4) + full access/bypass sentry (8)|
 
 ## Frequently used values
 
@@ -36,7 +36,7 @@ You may think of associates as the missing link that connects people.
 | person_id    | The person                                 |
 | name         | Initials, sign-in name, database user name |
 | group_idx    | Primary group membership                   |
-| ejuserId     | ID of the user account<br />0 if not connected to an account |
+| ejuserId     | ID of the user account<br>0 if not connected to an account |
 
 ## Important timestamps
 
@@ -56,4 +56,7 @@ Resources are typically meeting rooms or equipment such as projectors.
 | isLocation       | True if it represents a location |
 | locationAddress  | The address, if it's a location  |
 
-[Database reference](https://community.superoffice.com/documentation/SDK/SO.Database/html/Tables-associate.htm)
+[Database reference][1]
+
+<!-- Referenced links -->
+[1]: https://community.superoffice.com/documentation/SDK/SO.Database/html/Tables-associate.htm

@@ -78,7 +78,7 @@ se.execute();
 
 If you need formatting, consider using one of the following methods instead.
 
-When you have your result, it is time to [explore the data](./se-results.md).
+When you have your result, it is time to [explore the data][8].
 
 ## Run and format the result
 
@@ -193,3 +193,6 @@ This example will produce JSON looking something like this:
             "amount": 500.000000
         },...
 ```
+
+<!-- Referenced links -->
+[1]: se-results.md

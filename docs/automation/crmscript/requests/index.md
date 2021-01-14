@@ -70,7 +70,7 @@ Priority is tied to:
 * read status
 * actions and escalation chain
 
-[Database reference](https://community.superoffice.com/documentation/SDK/SO.Database/html/Tables-ticket_priority.htm)
+[Database reference][1]
 
 ## Response time and time spent
 
@@ -81,3 +81,6 @@ All other calculations are happening in the background. We use `time_counter` to
 ## Topics
 
 1. autolist
+
+<!-- Referenced links -->
+[1]: https://community.superoffice.com/documentation/SDK/SO.Database/html/Tables-ticket_priority.htm

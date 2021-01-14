@@ -22,11 +22,10 @@ The **User** CRMScript class represents the following entities:
 
 ### Void setValue(String column, String Value)
 
-Sets a named field to the given value. Look up names in the reference section down below, or check out the [class reference](https://community.superoffice.com/documentation/SDK/SO.Customer.Service.Support/html/CRMScript-Classes-User-setValue.htm).
+Sets a named field to the given value. Look up names in the reference section down below, or check out the [class reference][1].
 
 > [!NOTE]
-> Both parameters are strings! Remember to use quotes even for IDs. <br>
-> You must call `save()` after setting all applicable values to actually create or update the company.
+> Both parameters are strings! Remember to use quotes even for IDs.<br>You must call `save()` after setting all applicable values to actually create or update the company.
 
 ```crmscript
 User u;
@@ -116,7 +115,7 @@ The **activeuser** table holds info about currently signed-in users. Use it to l
 
 ## Parser variables
 
-Calling `toParser()` will load fields, prefix them with *user*, and make them available to [templates](../parser-and-templates/reply-template.md).
+Calling `toParser()` will load fields, prefix them with *user*, and make them available to [templates][2].
 
 ```crmscript!
 Parser p;
@@ -130,18 +129,18 @@ printLine(p.getVariable("user.username", 0));
 
 ### Frequently used values
 
-| Parameter     | Db field         | Description                       |
-|:--------------|:-----------------|:----------------------------------|
-| id            | id               | ID (primary key)                  |
-| username      | username         | Unique username or uid            |
-| profileId     | profoile_id      | The user's profile (profile.id)   |
-| firstname     | firstname        | The first name of the person      |
-| lastname      | lastname         | The last name of the person       |
-| email         | Email            | 1 or more                         |
-| ownerCompany  |                  | The ID of the company linked to user's person entity |
-| group         | usergroup        | The primary group for the user    |
-| status        | status           | Status<br />active (1), not present(2), deleted (3) |
-| language      | language         | The user's language<br />("no" or "en") |
+| Parameter    | Db field    | Description                       |
+|:-------------|:------------|:----------------------------------|
+| id           | id          | ID (primary key)                  |
+| username     | username    | Unique username or uid            |
+| profileId    | profoile_id | The user's profile (profile.id)   |
+| firstname    | firstname   | The first name of the person      |
+| lastname     | lastname    | The last name of the person       |
+| email        | Email       | 1 or more                         |
+| ownerCompany |             | The ID of the company linked to user's person entity |
+| group        | usergroup   | The primary group for the user    |
+| status       | status      | Status<br>active (1), not present(2), deleted (3) |
+| language     | language    | The user's language<br>("no" or "en") |
 
 ### Sign-in info
 
@@ -172,4 +171,9 @@ Notifications (pop-up warnings) to the user are controlled by a bit mask.
 | 9     | Hotlist (filter)       |
 | 10    | Custom                 |
 
-Learn more about [tickets](../requests/tickets.md).
+Learn more about [tickets][3].
+
+<!-- Referenced links -->
+[1]: https://community.superoffice.com/documentation/SDK/SO.Customer.Service.Support/html/CRMScript-Classes-User-setValue.htm
+[2]: ../parser-and-templates/reply-template.md
+[3]: ../requests/tickets.md

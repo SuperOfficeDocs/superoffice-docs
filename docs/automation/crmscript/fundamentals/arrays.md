@@ -110,7 +110,7 @@ userPlans.insert(1, "Marketing");
 
 ## Looping indexed collections
 
-You can use both [for](./for-loops.md) and [while](./while-loops.md) loops to iterate the collection.
+You can use both [for][1] and [while][2] loops to iterate the collection.
 
 > [!TIP]
 > Remember that you can use the `length()` function to determine the number of elements.
@@ -239,7 +239,7 @@ printLine("Current length: " + userPlans.length().toString());
 ```
 
 > [!NOTE]
->If the collection is empty, you will get an out-of-range exception
+> If the collection is empty, you will get an out-of-range exception
 
 ### Deleting all elements
 
@@ -257,3 +257,7 @@ printLine("Current length: " + userPlans.length().toString());
 If you want to do something with these elements before deletion, you should loop through and pop them instead.
 
 To repopulate, you must use push since it is now uninitialized.
+
+<!-- Referenced links -->
+[1]: for-loops.md
+[2]: while-loops.md

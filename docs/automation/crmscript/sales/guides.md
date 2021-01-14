@@ -85,7 +85,7 @@ printLine("This sale will auto advance: " + type.GetIsAutoAdvance().toString());
 
 Suggested activities are just that  - **suggested**. They're blueprints that can be used to create actual follow-ups and documents.
 
-The blueprints sit in the intersection between sale types and stages. A sale type can have many stages, and a stage can apply to multiple sale types. The [SaleTypeStageLink table](https://community.superoffice.com/documentation/SDK/SO.Database/html/Tables-SaleTypeStageLink.htm) connects them all.
+The blueprints sit in the intersection between sale types and stages. A sale type can have many stages, and a stage can apply to multiple sale types. The [SaleTypeStageLink table][1] connects them all.
 
 ### List available suggestions
 
@@ -110,7 +110,7 @@ newAppointment = appointmentAgent.SaveAppointmentEntity(newAppointment);
 ```
 
 > [!TIP]
-> You can also [create documents from suggestions](../documents/doc-properties.md).
+> You can also [create documents from suggestions][2].
 
 ### Create a suggestion and link it to a stage
 
@@ -164,4 +164,9 @@ myBlueprint = appointmentAgent.SaveSuggestedAppointmentEntity(myBlueprint);
 | duration                | in minutes                                |
 | text                    | The suggested text of the new appointment |
 
-For a complete list of fields, see the [database reference](https://community.superoffice.com/documentation/SDK/SO.Database/html/Tables-SuggestedAppointment.htm).
+For a complete list of fields, see the [database reference][3].
+
+<!-- Referenced links -->
+[1]: https://community.superoffice.com/documentation/SDK/SO.Database/html/Tables-SaleTypeStageLink.htm
+[2]: ../documents/doc-properties.md
+[3]: https://community.superoffice.com/documentation/SDK/SO.Database/html/Tables-SuggestedAppointment.htm

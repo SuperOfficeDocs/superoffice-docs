@@ -45,7 +45,7 @@ for (;i < 10; i++) {
 
 The 2nd statement is the condition that determines if the code inside the block will be run or not. It is tested at the beginning of each loop cycle. In the previous example, the counter must be less than 10.
 
-You can use [conditional operators](./operators.md) and also statements that evaluate to true or false.
+You can use [conditional operators][1] and also statements that evaluate to true or false.
 
 In contrast to the initialization and update, the condition **must** be set.
 
@@ -78,8 +78,12 @@ It is also a more compact and explicit structure, which can be easier and safer 
 
 ## For versus while
 
-You might have noticed that `for` looks a lot like the [while loop](./while-loops.md). And you are absolutely right! In fact, `for` is a very common use of `while` that formalizes the initialization and update statements. They are both loops and can produce the same result. Whichever you use comes down to personal preference. But keep these factors in mind when choosing:
+You might have noticed that `for` looks a lot like the [while loop][2]. And you are absolutely right! In fact, `for` is a very common use of `while` that formalizes the initialization and update statements. They are both loops and can produce the same result. Whichever you use comes down to personal preference. But keep these factors in mind when choosing:
 
 * Do you know the number of iterations ahead of time?
 * Do you update the counter in a fixed pattern?
 * How much programming experience do you have?
+
+<!-- Referenced links -->
+[1]: operators.md
+[2]: while-loops.md
