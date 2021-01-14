@@ -1,8 +1,13 @@
 ---
-title: Globalization and localization
-uid: crmscript_localization
-SortOrder: 50
+title: crmscript_localization
+description: Globalization and localization
+author:
+so.date:
+keywords:
+so.topic:
 ---
+
+# Globalization and localization
 
 SuperOffice has great support for globalization by providing a culture-neutral and language-neutral user interface.
 

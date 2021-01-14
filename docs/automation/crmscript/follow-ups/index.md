@@ -1,8 +1,13 @@
 ---
-title: Calendar and todo list
-SortOrder: 20
-uid: crmscript_followups
+title: crmscript_followups
+description: Calendar and todo list
+author:
+so.date:
+keywords:
+so.topic:
 ---
+
+# Calendar and todo list
 
 The diary in SuperOffice CRM is fundamentally a personal diary. It consists of a calendar and a todo list and is used similar to a Filofax with separate pages for every day, week, and month.
 

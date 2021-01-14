@@ -1,8 +1,13 @@
 ---
-title: String data type
-uid: crmscript_datatypes_string
-sortOrder: 40
+title: crmscript_datatypes_string
+description: String data type
+author:
+so.date:
+keywords:
+so.topic:
 ---
+
+# String data type
 
 A text string is a sequence of characters written with quotes.
 You can use single or double quotes, but they must always come in pairs. Quotes can also be nested, by alternating between single and double quotes.

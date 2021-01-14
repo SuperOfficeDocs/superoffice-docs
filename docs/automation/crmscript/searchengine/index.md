@@ -1,8 +1,13 @@
 ---
-title: SearchEngine
-uid: crmscript_search_engine
-SortOrder: 20
+title: crmscript_search_engine
+description: SearchEngine
+author:
+so.date:
+keywords:
+so.topic:
 ---
+
+# SearchEngine
 
 ## An in-depth guide to the CRMScript SearchEngine
 

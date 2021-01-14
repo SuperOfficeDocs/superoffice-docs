@@ -1,8 +1,13 @@
 ---
-title: Todo list
-SortOrder: 20
-uid: crmscript_tasks
+title: crmscript_tasks
+description: Todo list
+author:
+so.date:
+keywords:
+so.topic:
 ---
+
+# Todo list
 
 A **task** is a follow-up without a start time. It usually doesn't have a duration either, but it always has a **deadline**.
 Tasks are typically used for things you have to remember to do by a certain time.

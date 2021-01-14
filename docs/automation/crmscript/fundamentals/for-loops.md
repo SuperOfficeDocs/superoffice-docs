@@ -1,8 +1,13 @@
 ---
-title: Loops - for
-uid: crmscript_fundamentals_loops_for
-sortOrder: 110
+title: crmscript_fundamentals_loops_for
+description: Loops - for
+author:
+so.date:
+keywords:
+so.topic:
 ---
+
+# Loops - for
 
 A `for` loop is a control structure for repeating a block of code a number of times. It will run as long as the condition given is true.
 

@@ -1,8 +1,13 @@
 ---
-title: Address localization
-uid: crmscript_addresses
-SortOrder: 50
+title: crmscript_addresses
+description: Address localization
+author:
+so.date:
+keywords:
+so.topic:
 ---
+
+# Address localization
 
 Addresses are commonly formatted according to local conventions.
 

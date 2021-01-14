@@ -1,8 +1,13 @@
 ---
-title: Alternatives and quote lines
-uid: crmscript_quote_alternatives
-SortOrder: 20
+title: crmscript_quote_alternatives
+description: Alternatives and quote lines
+author:
+so.date:
+keywords:
+so.topic:
 ---
+
+# Alternatives and quote lines
 
 Each alternative can contain different products, numbers of products, prices, and discounts.
 

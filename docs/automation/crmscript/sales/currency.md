@@ -1,8 +1,13 @@
 ---
-title: Currency
-uid: crmscript_currency
-SortOrder: 60
+title: crmscript_currency
+description: Currency
+author:
+so.date:
+keywords:
+so.topic:
 ---
+
+# Currency
 
 Currency options depend on a couple of things:
 

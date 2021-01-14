@@ -1,8 +1,13 @@
 ---
-title: Stakeholders
-uid: crmscript_sale-stakeholders
-SortOrder: 20
+title: crmscript_sale-stakeholders
+description: Stakeholders
+author:
+so.date:
+keywords:
+so.topic:
 ---
+
+# Stakeholders
 
 A sale has a main contact, but partners and subcontractors may also be involved in the sale. These are referred to as **stakeholders** and can be either individuals, organizations, or a mix.
 

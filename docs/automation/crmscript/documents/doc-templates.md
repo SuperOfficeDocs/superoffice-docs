@@ -1,8 +1,13 @@
 ---
-title: Document templates
-SortOrder: 30
-uid: crmscript_doc_templates
+title: crmscript_doc_templates
+description: Document templates
+author:
+so.date:
+keywords:
+so.topic:
 ---
+
+# Document templates
 
 A *document template* is a blueprint consisting of regular text and template variables. It's pre-made for a specific task and covers both content and design.
 

@@ -1,8 +1,13 @@
 ---
-title: Place order
-uid: crmscript_quote_order
-SortOrder: 50
+title: crmscript_quote_order
+description: 
+author:
+so.date:
+keywords:
+so.topic:
 ---
+
+# Place order
 
 Once the customer has accepted the quote, you can place the order.
 

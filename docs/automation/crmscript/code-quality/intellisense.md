@@ -1,8 +1,13 @@
 ---
-title: CRMScript intellisense
-uid: crmscript_intellisense
-SortOrder: 30
+title: crmscript_intellisense
+description: CRMScript intellisense
+author:
+so.date:
+keywords:
+so.topic: concept
 ---
+
+# CRMScript intellisense
 
 *Intellisense* is a code completion tool. Think of it as an embedded API reference.
 

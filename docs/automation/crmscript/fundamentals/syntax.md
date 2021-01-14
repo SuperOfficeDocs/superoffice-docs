@@ -1,8 +1,13 @@
 ---
-title: Code structure (syntax)
-uid: crmscript_fundamentals_syntax
-sortOrder: 10
+title: crmscript_fundamentals_syntax
+description: Code structure (syntax)
+author:
+so.date:
+keywords:
+so.topic:
 ---
+
+# Code structure (syntax)
 
 CRMScript has a set of rules that dictate how you can and can't write your code. Conventions and best practices expand on the formal syntax.
 

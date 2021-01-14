@@ -1,8 +1,13 @@
 ---
-title: Persons and organizations
-uid: crmscript_persons_and_org
-SortOrder: 10
+title: crmscript_persons_and_org
+description: Persons and organizations
+author:
+so.date:
+keywords:
+so.topic:
 ---
+
+# Persons and organizations
 
 ## An in-depth guide to working with persons and organizations
 

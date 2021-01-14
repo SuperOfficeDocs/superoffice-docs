@@ -1,8 +1,13 @@
 ---
-title: How do I create and run CRMScripts?
-uid: crmscript_howto
-SortOrder: 30
+title: crmscript_howto
+description: How do I create and run CRMScripts?
+author:
+so.date:
+keywords:
+so.topic: howto
 ---
+
+# How do I create and run CRMScripts?
 
 To use CRMScripts in your SuperOffice environment, you need a subscription to Expander Services.
 

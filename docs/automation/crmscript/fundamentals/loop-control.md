@@ -1,8 +1,13 @@
 ---
-title: Loops - break and continue
-uid: crmscript_fundamentals_loops_break_continue
-sortOrder: 130
+title: crmscript_fundamentals_loops_break_continue
+description: Loops - break and continue
+author:
+so.date:
+keywords:
+so.topic:
 ---
+
+# Loops - break and continue
 
 CRMScript has several statements that can alter the flow of `for` and `while` loops. This comes in addition to the loop conditions.
 

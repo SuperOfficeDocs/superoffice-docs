@@ -1,8 +1,13 @@
 ---
-title: Quotes
-uid: crmscript_quotes
-SortOrder: 50
+title: crmscript_quotes
+description: Quotes
+author:
+so.date:
+keywords:
+so.topic:
 ---
+
+# Quotes
 
 In sales, a quote allows a prospective buyer to see the **costs of selected products and/or services**. It can contain multiple **alternatives** for the customer to choose between.
 

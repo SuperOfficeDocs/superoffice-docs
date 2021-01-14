@@ -1,9 +1,12 @@
 ---
-title: Fundamentals of CRMScript
-uid: crmscript_fundamentals
-sortOrder: 20
+title: crmscript_fundamentals
+description: Fundamentals of CRMScript
+author:
+so.date:
+keywords:
+so.topic:
 ---
 
-# Fundamentals
+# Fundamentals of CRMScript
 
 A guide to CRMScript basics.

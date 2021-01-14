@@ -1,8 +1,13 @@
 ---
-title: Loops - while
-uid: crmscript_fundamentals_loops_while
-sortOrder: 120
+title: crmscript_fundamentals_loops_while
+description: Loops - while
+author:
+so.date:
+keywords:
+so.topic:
 ---
+
+# Loops - while
 
 A `while` loop is a control structure for repeating a block of code as long as the condition given is true.
 

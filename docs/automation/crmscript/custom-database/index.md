@@ -1,8 +1,13 @@
 ---
-title: Database customizations
-uid: crmscript_custom_db
-SortOrder: 40
+title: crmscript_custom_db
+description: Database customizations
+author:
+so.date:
+keywords:
+so.topic: concept
 ---
+
+# Database customizations
 
 ## Ways to customize
 

@@ -1,8 +1,13 @@
 ---
-title: Functions
-uid: crmscript_fundamentals_functions
-sortOrder: 60
+title: crmscript_fundamentals_functions
+description: Functions
+author:
+so.date:
+keywords:
+so.topic:
 ---
+
+# Functions
 
 ## What is a function
 

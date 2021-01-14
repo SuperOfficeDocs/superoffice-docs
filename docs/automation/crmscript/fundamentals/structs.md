@@ -1,8 +1,13 @@
 ---
-title: Structs
-uid: crmscript_fundamentals_structs
-sortOrder: 70
+title: crmscript_fundamentals_structs
+description: Structs
+author:
+so.date:
+keywords:
+so.topic: concept
 ---
+
+# Structs
 
 A **struct** defines the kinds of data and the functionality their objects will have. This data structure enables you to create your own custom types by grouping together variables of other types and methods.
 

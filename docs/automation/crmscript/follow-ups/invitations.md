@@ -1,8 +1,13 @@
 ---
-title: Meeting invitations
-SortOrder: 40
-uid: crmscript_invitations
+title: crmscript_invitations
+description: Meeting invitations
+author:
+so.date:
+keywords:
+so.topic:
 ---
+
+# Meeting invitations
 
 Meetings have multiple **participants**: you **invite** several associates or resources to join.
 

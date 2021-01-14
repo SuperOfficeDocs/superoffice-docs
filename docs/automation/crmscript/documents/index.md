@@ -1,8 +1,13 @@
 ---
-title: Documents
-SortOrder: 30
-uid: crmscript_docs
+title: crmscript_docs
+description: Documents
+author:
+so.date:
+keywords:
+so.topic:
 ---
+
+# Documents
 
 Letters, memos, sale proposals, order confirmations, terms & conditions - there's a huge amount of **documents** pertaining to customer relations. This section takes a deep dive into how to manage those documents with CRMScript.
 

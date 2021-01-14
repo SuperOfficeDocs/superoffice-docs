@@ -1,8 +1,13 @@
 ---
-title: Generic data type
-uid: crmscript_datatypes_generic
-sortOrder: 80
+title: crmscript_datatypes_generic
+description: Generic data type
+author:
+so.date:
+keywords:
+so.topic:
 ---
+
+# Generic data type
 
 Generic is the base type of all other intrinsic CRMScript data types. Any variable can be up-casted to Generic.
 

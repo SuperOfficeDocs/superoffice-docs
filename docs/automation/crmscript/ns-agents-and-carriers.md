@@ -1,8 +1,13 @@
 ---
-title: NetServer agents and carriers
-SortOrder: 01
-uid: crmscript_netserver
+title: crmscript_netserver
+description: NetServer agents and carriers
+author:
+so.date:
+keywords:
+so.topic:
 ---
+
+# NetServer agents and carriers
 
 **NetServer** is a layered library that enables developers to work with the SuperOffice database without having to know the details of how data is stored. Think of it as a set of high-level APIs where all the hard work of language decoding, security checks, database selects, and joining tables are handled for you.
 

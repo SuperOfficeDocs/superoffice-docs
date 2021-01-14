@@ -1,8 +1,13 @@
 ---
-title: Projects
-uid: crmscript_projects
-SortOrder: 35
+title: crmscript_projects
+description: Projects
+author:
+so.date:
+keywords:
+so.topic:
 ---
+
+# Projects
 
 A project typically consists of different stages. For each stage, you have certain activities and perhaps documents that need to be completed. With every activity and every stage completed, you will get closer to completing the project.
 

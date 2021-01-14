@@ -1,8 +1,13 @@
 ---
-title: Control - if else and else if
-uid: crmscript_fundamentals_if_else
-sortOrder: 90
+title: crmscript_fundamentals_if_else
+description: Control - if else and else if
+author:
+so.date:
+keywords:
+so.topic:
 ---
+
+# Control - if else and else if
 
 **Conditional statements** are one of the key control structures in CRMScript. They are used do different tasks based on whether the condition evaluates as true or false.
 

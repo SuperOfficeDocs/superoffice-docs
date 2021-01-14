@@ -1,8 +1,13 @@
 ---
-title: What is CRMScript?
-uid: crmscript_def
-SortOrder: 10
+title: crmscript_def
+description: What is CRMScript?
+author:
+so.date:
+keywords:
+so.topic:
 ---
+
+# What is CRMScript?
 
 CRMScript is a light-weight, interpreted programming language with curly-bracket syntax. It is statically typed and supports object-oriented and imperative styles.
 

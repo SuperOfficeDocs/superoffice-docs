@@ -1,8 +1,13 @@
 ---
-title: Reserved words
-uid: crmscript_fundamentals_reserved_words
-sortOrder: 20
+title: crmscript_fundamentals_reserved_words
+description: Reserved words
+author:
+so.date:
+keywords:
+so.topic: referene
 ---
+
+# Reserved words
 
 The following reserved words can't be used in CRMScript as variables, structs, or function names:
 

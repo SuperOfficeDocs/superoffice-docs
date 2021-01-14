@@ -1,8 +1,13 @@
 ---
-title: Print debug
-uid: crmscript_debug_print_debug
-SortOrder: 30
+title: crmscript_debug_print_debug
+description: Print debug
+author:
+so.date:
+keywords:
+so.topic: howto
 ---
+
+# Print debug
 
 ## printDebug()
 

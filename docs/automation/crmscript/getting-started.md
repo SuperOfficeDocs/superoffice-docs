@@ -1,8 +1,13 @@
 ---
-title: Getting started with CRMScript
-uid: crmscript_start
-SortOrder: 40
+title: crmscript_start
+description: Getting started with CRMScript
+author:
+so.date:
+keywords:
+so.topic: guide
 ---
+
+# Getting started with CRMScript
 
 When you are ready to start learning CRMScript:
 

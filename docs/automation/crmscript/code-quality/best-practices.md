@@ -1,8 +1,13 @@
 ---
-title: CRMScript best practices
-uid: crmscript_best_practice
-SortOrder: 20
+title: crmscript_best_practice
+description: CRMScript best practices
+author:
+so.date:
+keywords:
+so.topic: reference
 ---
+
+# CRMScript best practices
 
 ## Prefer readability
 

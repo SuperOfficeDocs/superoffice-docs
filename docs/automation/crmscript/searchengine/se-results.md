@@ -1,8 +1,13 @@
 ---
-title: Exploring search results
-uid: search_engine_results
-SortOrder: 50
+title: search_engine_results
+description: 
+author:
+so.date:
+keywords:
+so.topic:
 ---
+
+# Exploring search results
 
 After building the SearchEngine query and calling `execute()`, it is time to look at the returned data.
 

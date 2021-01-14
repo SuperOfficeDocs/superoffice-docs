@@ -1,8 +1,13 @@
 ---
-title: Guides
-uid: crmscript_sale-guide
-SortOrder: 40
+title: crmscript_sale-guide
+description: Guides
+author:
+so.date:
+keywords:
+so.topic:
 ---
+
+# Guides
 
 Some sale types have an associated sales guide. For those types, it's important to understand stages and working with suggested activities.
 

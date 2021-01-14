@@ -1,8 +1,13 @@
 ---
-title: User-defined fields explained
-uid: crmscript_udef
-SortOrder: 10
+title: crmscript_udef
+description: User-defined fields explained
+author:
+so.date:
+keywords:
+so.topic: concept
 ---
+
+# User-defined fields explained
 
 A *user-defined* field (udef) is a custom field that you add to an existing SuperOffice database table. You can extend the following entities:
 

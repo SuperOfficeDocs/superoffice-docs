@@ -1,8 +1,13 @@
 ---
-title: Projects from start to end
-uid: crmscript_project_lifecycle
-SortOrder: 10
+title: crmscript_project_lifecycle
+description: Projects from start to end
+author:
+so.date:
+keywords:
+so.topic:
 ---
+
+# Projects from start to end
 
 ## Register a project
 

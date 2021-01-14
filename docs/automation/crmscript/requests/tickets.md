@@ -1,8 +1,13 @@
 ---
-title: Tickets
-uid: crmscript_tickets
-SortOrder: 10
+title: crmscript_tickets
+description: Tickets
+author:
+so.date:
+keywords:
+so.topic:
 ---
+
+# Tickets
 
 ## Create and update requests
 

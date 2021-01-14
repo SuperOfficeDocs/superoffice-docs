@@ -1,6 +1,9 @@
 ---
-title: Data types
+title: crmscript_data_types
+description: Data types
 ---
+
+# Data types
 
 An in-depth guide to CRMScript data types.
 

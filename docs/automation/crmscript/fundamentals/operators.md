@@ -1,8 +1,13 @@
 ---
-title: Operators
-uid: crmscript_fundamentals_operators
-sortOrder: 40
+title: crmscript_fundamentals_operators
+description: Operators
+author:
+so.date:
+keywords:
+so.topic:
 ---
+
+# Operators
 
 ## CRMScript assignment operators
 

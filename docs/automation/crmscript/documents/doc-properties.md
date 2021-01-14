@@ -1,8 +1,13 @@
 ---
-title: Document properties
-SortOrder: 10
-uid: crmscript_doc_properties
+title: crmscript_doc_properties
+description: Document properties
+author:
+so.date:
+keywords:
+so.topic:
 ---
+
+# Document properties
 
 ## Retrieve document info
 

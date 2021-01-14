@@ -1,8 +1,13 @@
 ---
-title: CRMScript coding conventions
-uid: crmscript_conventions
-SortOrder: 10
+title: crmscript_conventions
+description: CRMScript coding conventions
+author:
+so.date:
+keywords:
+so.topic: reference
 ---
+
+# CRMScript coding conventions
 
 Always use the same conventions for all your CRMScripts. This will:
 

@@ -1,8 +1,13 @@
 ---
-title: Built-in debugger
-uid: crmscript_debug_built_in_debugger
-SortOrder: 10
+title: crmscript_debug_built_in_debugger
+description: Built-in debugger
+author:
+so.date:
+keywords:
+so.topic: howto
 ---
+
+# Built-in debugger
 
 SuperOffice CRM has an integrated graphic debugger. Use it to step through scripts.
 

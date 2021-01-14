@@ -1,8 +1,13 @@
 ---
-title: Dot-syntax
-uid: search_engine_dot_syntax
-SortOrder: 20
+title: search_engine_dot_syntax
+description: Dot-syntax
+author:
+so.date:
+keywords:
+so.topic:
 ---
+
+# Dot-syntax
 
 **Universal access** to the SuperOffice database has been dubbed **dot-syntax**. This is a way of specifying columns, tables, and joins across the entire data dictionary (including partner tables). It is extremely powerful and almost unlimited.
 

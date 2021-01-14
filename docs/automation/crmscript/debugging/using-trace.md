@@ -1,8 +1,13 @@
 ---
-title: Using Trace
-uid: crmscript_debug_using_trace
-sortOrder: 50
+title: crmscript_debug_using_trace
+description: Using Trace
+author:
+so.date:
+keywords:
+so.topic: howto
 ---
+
+# Using Trace
 
 SuperOffice CRM Online has a built-in tracing feature. When turned on, all details will be logged when the script is run. You can then investigate the behavior of the script step by step by rewinding and fast-forwarding the [log](./log-messages.md). You can also see all the variables at any given point.
 

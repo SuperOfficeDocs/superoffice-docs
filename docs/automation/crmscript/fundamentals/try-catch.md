@@ -1,8 +1,13 @@
 ---
-title: Control - try...catch 
-uid: crmscript_fundamentals_try_catch
-sortOrder: 100
+title: crmscript_fundamentals_try_catch
+description: Control - try...catch
+author:
+so.date:
+keywords:
+so.topic:
 ---
+
+# Control - try...catch
 
 CRMScript has a set of special statements to handle error-situations in your own scripts and react accordingly. This gives you the opportunity to recover, or fail gracefully instead of crashing.
 

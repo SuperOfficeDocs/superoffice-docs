@@ -1,8 +1,13 @@
 ---
-title: extra fields
-uid: crmscript_extra_fields
-SortOrder: 30
+title: crmscript_extra_fields
+description: Extra fields
+author:
+so.date:
+keywords:
+so.topic: concept
 ---
+
+# Extra fields
 
 An *extra field* is a custom field that you add to an existing SuperOffice database table **in Service**. You can extend the following entities:
 

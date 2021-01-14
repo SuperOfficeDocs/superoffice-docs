@@ -1,8 +1,13 @@
 ---
-title: Float data type
-uid: crmscript_datatypes_float
-sortOrder: 30
+title: crmscript_datatypes_float
+description: Float data type
+author:
+so.date:
+keywords:
+so.topic:
 ---
+
+# Float data type
 
 Floats are approximations of real numbers written with decimals. If you don't need to work with decimals, use the Integer data type.
 

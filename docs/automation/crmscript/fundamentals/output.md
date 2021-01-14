@@ -1,8 +1,13 @@
 ---
-title: Write output
-uid: crmscript_fundamentals_write_output
-sortOrder: 140
+title: crmscript_fundamentals_write_output
+description: Write output
+author:
+so.date:
+keywords:
+so.topic:
 ---
+
+# Write output
 
 CRMScript can display data in different ways:
 

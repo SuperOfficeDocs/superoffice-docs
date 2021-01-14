@@ -1,8 +1,13 @@
 ---
-title: Leads 
-uid: crmscript_sale-leads
-SortOrder: 10
+title: crmscript_sale-leads
+description: Leads
+author:
+so.date:
+keywords:
+so.topic:
 ---
+
+# Leads
 
 One way of reaching your sales target is to increase the number of activities you start and complete. But it all starts with registering leads.
 

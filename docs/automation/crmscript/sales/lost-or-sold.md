@@ -1,8 +1,13 @@
 ---
-title: Lost or sold sales 
-uid: crmscript_sale-done
-SortOrder: 60
+title: crmscript_sale-done
+description: Lost or sold sales
+author:
+so.date:
+keywords:
+so.topic:
 ---
+
+# Lost or sold sales
 
 In the end, regardless of whether you followed a sales guide or not, a sale is either **sold** or **lost**. It is time to wrap things up and at the same time make sure the seller and others can learn from it either way.
 

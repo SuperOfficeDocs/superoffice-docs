@@ -1,8 +1,13 @@
 ---
-title: Integer data type
-uid: crmscript_datatypes_int
-sortOrder: 20
+title: crmscript_datatypes_int
+description: Integer data type
+author:
+so.date:
+keywords:
+so.topic:
 ---
+
+# Integer data type
 
 Integers are positive and negative whole numbers without decimals. If you need to work with decimals, use the Float data type.
 

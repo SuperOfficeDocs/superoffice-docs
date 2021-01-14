@@ -1,8 +1,13 @@
 ---
-title: Database basics
-uid: search_engine_basics
-SortOrder: 10
+title: search_engine_basics
+description: Database basics
+author:
+so.date:
+keywords:
+so.topic:
 ---
+
+# Database basics
 
 A quick intro to relational database terms in general and the SuperOffice database in particular.
 

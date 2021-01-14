@@ -1,8 +1,13 @@
 ---
-title: Logs
-uid: crmscript_request_logs
-SortOrder: 30
+title: crmscript_request_logs
+description: Logs
+author:
+so.date:
+keywords:
+so.topic:
 ---
+
+# Logs
 
 The system logs all noteworthy actions and changes pertaining to tickets. You can also add your own log entries.
 

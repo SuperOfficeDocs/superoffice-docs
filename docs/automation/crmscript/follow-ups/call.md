@@ -1,8 +1,13 @@
 ---
-title: Phone calls
-SortOrder: 30
-uid: crmscript_calls
+title: crmscript_calls
+description: Phone calls
+author:
+so.date:
+keywords:
+so.topic:
 ---
+
+# Phone calls
 
 A **call** is a follow-up representing a very specific action - the phone call.
 

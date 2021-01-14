@@ -1,8 +1,13 @@
 ---
-title: Map data type
-uid: crmscript_datatypes_map
-sortOrder: 40
+title: crmscript_datatypes_map
+description: Map data type
+author:
+so.date:
+keywords:
+so.topic:
 ---
+
+# Map data type
 
 A map is a collection of key-value pairs. Both the key and the value are strings.
 

@@ -1,8 +1,13 @@
 ---
-title: DateTime data type
-uid: crmscript_datatypes_datetime
-sortOrder: 70
+title: crmscript_datatypes_datetime
+description: DateTime data type
+author:
+so.date:
+keywords:
+so.topic:
 ---
+
+# DateTime data type
 
 **DateTime** is a complex data type representing a timestamp with both date and time elements on ISO format. The default value is now.
 

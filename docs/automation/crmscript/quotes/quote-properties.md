@@ -1,8 +1,13 @@
 ---
-title: One quote per sale
-uid: crmscript_quote_properties
-SortOrder: 10
+title: crmscript_quote_properties
+description: One quote per sale
+author:
+so.date:
+keywords:
+so.topic:
 ---
+
+# One quote per sale
 
 Quotes are what connects products to a sale. You must [record a sale](../sales/leads.md) **before** you can add a quote. Also, [products](./products.md) must have been registered before you can add them to a quote.
 

@@ -1,8 +1,13 @@
 ---
-title: Company (class)
-uid: crmscript-class-company
-SortOrder: 10
+title: crmscript-class-company
+description: Company (class)
+author:
+so.date:
+keywords:
+so.topic:
 ---
+
+# Company (class)
 
 The **Company** CRMScript class represents the following entities:
 

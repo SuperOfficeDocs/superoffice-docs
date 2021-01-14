@@ -1,8 +1,13 @@
 ---
-title: Date data type
-uid: crmscript_datatypes_date
-sortOrder: 50
+title: crmscript_datatypes_date
+description: Date data type
+author:
+so.date:
+keywords:
+so.topic:
 ---
+
+# Date data type
 
 **Date** is a complex data type representing a day, month, and year on ISO format. The default value is now.
 

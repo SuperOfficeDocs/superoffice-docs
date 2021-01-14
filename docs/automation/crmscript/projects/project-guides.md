@@ -1,8 +1,13 @@
 ---
-title: Guides
-uid: crmscript_project-guides
-SortOrder: 30
+title: crmscript_project-guides
+description: Guides
+author:
+so.date:
+keywords:
+so.topic:
 ---
+
+# Guides
 
 Some **project types** have an associated project guide. For those types, it's important to understand stages and working with suggested activities.
 

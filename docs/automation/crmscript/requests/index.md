@@ -1,8 +1,13 @@
 ---
-title: Requests
-uid: crmscript_requests
-SortOrder: 10
+title: crmscript_requests
+description: Requests
+author:
+so.date:
+keywords:
+so.topic:
 ---
+
+# Requests
 
 **Requests** are the core of SuperOffice Service. You:
 

@@ -1,8 +1,13 @@
 ---
-title: Document files
-SortOrder: 20
-uid: crmscript_doc_files
+title: crmscript_doc_files
+description: Document files
+author:
+so.date:
+keywords:
+so.topic: concept
 ---
+
+# Document files
 
 The physical document is tied to the [**NSDocumentEntity**](./doc-properties.md) and stored in the document archive.
 

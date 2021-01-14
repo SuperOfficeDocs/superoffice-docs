@@ -1,8 +1,13 @@
 ---
-title: Log Messages
-uid: crmscript_debug_log_messages
-SortOrder: 20
+title: crmscript_debug_log_messages
+description: Log Messages
+author:
+so.date:
+keywords:
+so.topic: concept
 ---
+
+# Log Messages
 
 ## Online - database log
 

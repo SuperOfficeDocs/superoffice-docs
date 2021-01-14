@@ -1,8 +1,13 @@
 ---
-title: Pipeline 
-uid: crmscript_sale-pipeline
-SortOrder: 30
+title: crmscript_sale-pipeline
+description: Pipeline
+author:
+so.date:
+keywords:
+so.topic:
 ---
+
+# Pipeline
 
 ## View sales
 

@@ -1,10 +1,15 @@
 ---
-title: Insert, update, and delete
-uid: search_engine_db_actions
-SortOrder: 60
+title: search_engine_db_actions
+description: Insert, update, and delete
+author:
+so.date:
+keywords:
+so.topic:
 ---
 
-Other query types.
+# Insert, update, and delete
+
+## Other query types
 
 ### Integer insert()
 

@@ -1,8 +1,13 @@
 ---
-title: Basic troubleshooting
-uid: crmscript_debug_troubleshooting
-sortOrder: 60
+title: crmscript_debug_troubleshooting
+description: Basic troubleshooting
+author:
+so.date:
+keywords:
+so.topic:
 ---
+
+# Basic troubleshooting
 
 ## When an error occurs
 

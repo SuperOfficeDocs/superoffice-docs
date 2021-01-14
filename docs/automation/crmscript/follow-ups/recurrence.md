@@ -1,14 +1,19 @@
 ---
-title: Recurrence
-SortOrder: 50
-uid: crmscript_recurrence
+title: crmscript_recurrence
+description: Recurrence
+author:
+so.date:
+keywords:
+so.topic:
 ---
+
+# Recurrence
 
 A repeating follow-up is a series of appointments, tasks, or calls scheduled to occur at regular intervals. For example, a weekly status meeting.
 
 ## Frequency
 
-| Value   | Description  f                                | Comment                | Example                        |
+| Value   | Description                                  | Comment                | Example                        |
 |:--------|:---------------------------------------------|:-----------------------|:-------------------------------|
 | daily   | every working day<br />every day of the week | or custom              | every other day                |
 | weekly  | every week on given day                      | must set weekday       | every 3 weeks on Tuesday       |

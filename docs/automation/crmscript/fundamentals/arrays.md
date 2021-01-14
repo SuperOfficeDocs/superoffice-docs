@@ -1,8 +1,13 @@
 ---
-title: Arrays
-uid: crmscript_fundamentals_arrays
-sortOrder: 80
+title: crmscript_fundamentals_arrays
+description: Arrays
+author:
+so.date:
+keywords:
+so.topic:
 ---
+
+# Arrays
 
 An array is a special variable that can store more than 1 value at the same time. It can be 1-dimensional like a list, 2-dimensional like a spreadsheet, 3-dimensional like a cube, or multidimensional. The length and number of dimensions is virtually unlimited.
 

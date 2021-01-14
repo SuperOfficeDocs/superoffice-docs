@@ -1,8 +1,13 @@
 ---
-title: Messages
-uid: crmscript_messages
-SortOrder: 20
+title: crmscript_messages
+description: Messages
+author:
+so.date:
+keywords:
+so.topic:
 ---
+
+# Messages
 
 ## Create and update messages
 

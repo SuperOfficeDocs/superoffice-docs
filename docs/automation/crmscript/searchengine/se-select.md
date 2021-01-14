@@ -1,8 +1,13 @@
 ---
-title: Building a query
-uid: search_engine_select
-SortOrder: 30
+title: search_engine_select
+description: Building a query
+author:
+so.date:
+keywords:
+so.topic:
 ---
+
+# Building a query
 
 ## Select from
 

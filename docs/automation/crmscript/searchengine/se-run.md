@@ -1,8 +1,13 @@
 ---
-title: Running a query
-uid: search_engine_run
-SortOrder: 40
+title: search_engine_run
+description: Running a query
+author:
+so.date:
+keywords:
+so.topic:
 ---
+
+# Running a query
 
 ## Pre-run preparations
 

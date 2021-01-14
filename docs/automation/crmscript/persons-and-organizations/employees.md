@@ -1,8 +1,13 @@
 ---
-title: Employees (internal)
-uid: crmscript-employees
-SortOrder: 30
+title: crmscript-employees
+description: Employees (internal)
+author:
+so.date:
+keywords:
+so.topic:
 ---
+
+# Employees (internal)
 
 The **associate** database table represents employees, resources, and other users - except for external persons.
 It is an MDO list item table and has therefore not a corresponding CRMScript class.

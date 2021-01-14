@@ -1,8 +1,13 @@
 ---
-title: Sales
-uid: crmscript_sales
-SortOrder: 40
+title: crmscript_sales
+description: Sales
+author:
+so.date:
+keywords:
+so.topic:
 ---
+
+# Sales
 
 A sale process typically consists of different stages. For each stage, you have certain activities and perhaps documents that need to be completed. With every activity and every stage completed, you will get closer to [closing the sale](./lost-or-sold.md).
 

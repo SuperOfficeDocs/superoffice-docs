@@ -1,8 +1,13 @@
 ---
-title: Debugging CRMScript modules
-uid: crmscript_debug_development_mode
-SortOrder: 40
+title: crmscript_debug_development_mode
+description: Debugging CRMScript modules
+author:
+so.date:
+keywords:
+so.topic: howto
 ---
+
+# Debugging CRMScript modules
 
 CRMScript modules are scripts imported into other scripts files by using the `#included` directive.
 

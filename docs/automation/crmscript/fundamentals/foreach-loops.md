@@ -1,8 +1,13 @@
 ---
-title: Loops - foreach
-uid: crmscript_fundamentals_loops_foreach
-sortOrder: 115
+title: crmscript_fundamentals_loops_foreach
+description: Loops - foreach
+author:
+so.date:
+keywords:
+so.topic:
 ---
+
+# Loops - foreach
 
 A `foreach` loop is a control structure for repeating a block of code a number of times. It will run as long as there are more elements in the collection.
 

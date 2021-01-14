@@ -1,8 +1,13 @@
 ---
-title: Customer (class)
-uid: crmscript-class-customer
-SortOrder: 20
+title: crmscript-class-customer
+description: Customer (class)
+author:
+so.date:
+keywords:
+so.topic:
 ---
+
+# Customer (class)
 
 The **Customer** CRMScript class represents the following entities:
 

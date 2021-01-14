@@ -1,8 +1,13 @@
 ---
-title: Samples
-uid: crmscript_request_samples
-SortOrder: 40
+title: crmscript_request_samples
+description: Samples
+author:
+so.date:
+keywords:
+so.topic:
 ---
+
+# Samples
 
 ## List available categories
 

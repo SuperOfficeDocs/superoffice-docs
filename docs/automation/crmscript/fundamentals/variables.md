@@ -1,8 +1,13 @@
 ---
-title: Variables
-uid: crmscript_fundamentals_variables
-sortOrder: 30
+title: crmscript_fundamentals_variables
+description: Variables
+author:
+so.date:
+keywords:
+so.topic:
 ---
+
+# Variables
 
 A variable is a box for storing data values. The label you put on that box represents the variable **name** and **type**. It identifies what is or can be put in there.
 

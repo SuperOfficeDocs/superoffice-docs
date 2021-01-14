@@ -1,7 +1,13 @@
 ---
-title: Parser
-uid: crmscript_parser
+title: crmscript_parser
+description: Parser
+author:
+so.date:
+keywords:
+so.topic:
 ---
+
+# Parser
 
 The `Parser` class is a **template engine**. Use an instance to set template variable values, then parse a formatted string containing template variable placeholders to replace their values.
 

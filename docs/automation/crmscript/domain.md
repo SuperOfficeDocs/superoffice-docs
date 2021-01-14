@@ -1,8 +1,13 @@
 ---
-title: SuperOffice view of the world
-uid: crmscript-domain
-SortOrder: 15
+title: crmscript-domain
+description: SuperOffice view of the world
+author:
+so.date:
+keywords:
+so.topic:
 ---
+
+# SuperOffice view of the world
 
 SuperOffice has 5 important things:
 

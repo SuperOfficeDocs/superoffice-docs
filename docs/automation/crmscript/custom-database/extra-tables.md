@@ -1,8 +1,13 @@
 ---
-title: Third-party tables
-uid: crmscript_extra_tables
-SortOrder: 20
+title: crmscript_extra_tables
+description: Third-party tables
+author:
+so.date:
+keywords:
+so.topic: concept
 ---
+
+# Third-party tables
 
 SuperOffice Expander Service License gives you the possibility to create extra tables in the database. Instantly, these third-party tables will be available for standard CRUD operations in SuperOffice Service. You need to set up a web panel to access them from the Sales client.
 

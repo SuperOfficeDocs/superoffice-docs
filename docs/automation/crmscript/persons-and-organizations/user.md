@@ -1,8 +1,13 @@
 ---
-title: User (class)
-uid: crmscript-class-user
-SortOrder: 40
+title: crmscript-class-user
+description: User (class)
+author:
+so.date:
+keywords:
+so.topic:
 ---
+
+# User (class)
 
 The **User** CRMScript class represents the following entities:
 

@@ -1,8 +1,13 @@
 ---
-title: Quote document
-uid: crmscript_quote_document
-SortOrder: 40
+title: crmscript_quote_document
+description: Quote document
+author:
+so.date:
+keywords:
+so.topic:
 ---
+
+# Quote document
 
 Quote documents will be saved as **activities on a sale**.
 They're tied to a specific **quote version**.

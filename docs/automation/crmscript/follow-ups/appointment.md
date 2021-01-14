@@ -1,8 +1,13 @@
 ---
-title: Calendar appointments
-SortOrder: 10
-uid: crmscript_appointments
+title: crmscript_appointments
+description: Calendar appointments
+author:
+so.date:
+keywords:
+so.topic:
 ---
+
+# Calendar appointments
 
 An *appointment* is a type of **follow-up** with a defined start and end time, such as a meeting. It will be shown in the calendar of the owner's diary.
 
