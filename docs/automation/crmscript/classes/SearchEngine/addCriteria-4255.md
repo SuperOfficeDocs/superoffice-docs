@@ -3,7 +3,6 @@ title: Void addCriteria(String p0, String p1, String p2)
 path: /EJScript/Classes/SearchEngine/member functions/Void addCriteria(String p_0, String p_1, String p_2)
 intellisense: 1
 classref: 1
-sortOrder: 9005
 keywords: addCriteria(String,String,String)
 ---
 

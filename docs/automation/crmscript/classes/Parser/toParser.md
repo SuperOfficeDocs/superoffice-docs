@@ -3,7 +3,6 @@ title: Void toParser(Parser parser)
 path: /EJScript/Classes/Parser/Member functions/Void toParser(Parser parser)
 intellisense: 1
 classref: 1
-sortOrder: 8963
 keywords: toParser(Parser)
 ---
 

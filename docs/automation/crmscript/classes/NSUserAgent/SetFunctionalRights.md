@@ -3,7 +3,6 @@ title: Void SetFunctionalRights(Integer roleId, Integer[] functionalRightIds)
 path: /EJScript/Classes/NSUserAgent/Member functions/Void SetFunctionalRights(Integer p_0, Integer[] p_1)
 intellisense: 1
 classref: 1
-sortOrder: 8541
 keywords: SetFunctionalRights(Integer,Integer[])
 ---
 

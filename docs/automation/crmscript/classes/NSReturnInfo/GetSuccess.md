@@ -3,7 +3,6 @@ title: Bool GetSuccess()
 path: /EJScript/Classes/NSReturnInfo/Member functions/Bool GetSuccess()
 intellisense: 1
 classref: 1
-sortOrder: 6796
 keywords: GetSuccess()
 ---
 

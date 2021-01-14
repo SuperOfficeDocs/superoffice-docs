@@ -3,7 +3,6 @@ title: NSProject[] GetProjectsFromPerson(Integer personId)
 path: /EJScript/Classes/NSProjectAgent/Member functions/NSProject[] GetProjectsFromPerson(Integer p_0)
 intellisense: 1
 classref: 1
-sortOrder: 5580
 keywords: GetProjectsFromPerson(Integer)
 ---
 

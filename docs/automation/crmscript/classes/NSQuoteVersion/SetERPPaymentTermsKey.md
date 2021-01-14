@@ -3,7 +3,6 @@ title: Void SetERPPaymentTermsKey(String ERPPaymentTermsKey)
 path: /EJScript/Classes/NSQuoteVersion/Member functions/Void SetERPPaymentTermsKey(String p_0)
 intellisense: 1
 classref: 1
-sortOrder: 6385
 keywords: SetERPPaymentTermsKey(String)
 ---
 

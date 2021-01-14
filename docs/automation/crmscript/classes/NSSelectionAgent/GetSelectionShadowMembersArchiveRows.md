@@ -3,7 +3,6 @@ title: NSArchiveListItem[] GetSelectionShadowMembersArchiveRows(Integer selectio
 path: /EJScript/Classes/NSSelectionAgent/Member functions/NSArchiveListItem[] GetSelectionShadowMembersArchiveRows(Integer p_0, String p_1)
 intellisense: 1
 classref: 1
-sortOrder: 7357
 keywords: GetSelectionShadowMembersArchiveRows(Integer,String)
 ---
 

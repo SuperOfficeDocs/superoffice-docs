@@ -3,7 +3,6 @@ title: Integer GetDeleted()
 path: /EJScript/Classes/NSUserGroup/Member functions/Integer GetDeleted()
 intellisense: 1
 classref: 1
-sortOrder: 8655
 keywords: GetDeleted()
 ---
 

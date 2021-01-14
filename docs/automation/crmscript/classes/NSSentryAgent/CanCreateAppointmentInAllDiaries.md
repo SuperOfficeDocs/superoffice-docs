@@ -3,7 +3,6 @@ title: Bool CanCreateAppointmentInAllDiaries()
 path: /EJScript/Classes/NSSentryAgent/Member functions/Bool CanCreateAppointmentInAllDiaries()
 intellisense: 1
 classref: 1
-sortOrder: 7511
 keywords: CanCreateAppointmentInAllDiaries()
 ---
 

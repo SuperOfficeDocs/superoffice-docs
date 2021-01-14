@@ -3,7 +3,6 @@ title: NSUserDefinedFieldInfo[] GetUserDefinedPageOneFields(Integer ownerType, I
 path: /EJScript/Classes/NSUserDefinedFieldInfoAgent/Member functions/NSUserDefinedFieldInfo[] GetUserDefinedPageOneFields(Integer p_0, Integer p_1)
 intellisense: 1
 classref: 1
-sortOrder: 8643
 keywords: GetUserDefinedPageOneFields(Integer,Integer)
 ---
 

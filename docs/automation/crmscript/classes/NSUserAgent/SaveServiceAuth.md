@@ -3,7 +3,6 @@ title: NSServiceAuth SaveServiceAuth(NSServiceAuth serviceAuth)
 path: /EJScript/Classes/NSUserAgent/Member functions/NSServiceAuth SaveServiceAuth(NSServiceAuth p_0)
 intellisense: 1
 classref: 1
-sortOrder: 8489
 keywords: SaveServiceAuth(NSServiceAuth)
 ---
 

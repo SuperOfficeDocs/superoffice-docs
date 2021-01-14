@@ -3,7 +3,6 @@ title: Void SetCompleted(Integer Completed)
 path: /EJScript/Classes/NSSale/Member functions/Void SetCompleted(Integer p_0)
 intellisense: 1
 classref: 1
-sortOrder: 6906
 keywords: SetCompleted(Integer)
 ---
 

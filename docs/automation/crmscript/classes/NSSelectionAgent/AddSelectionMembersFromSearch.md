@@ -3,7 +3,6 @@ title: Integer AddSelectionMembersFromSearch(Integer selectionId, String storage
 path: /EJScript/Classes/NSSelectionAgent/Member functions/Integer AddSelectionMembersFromSearch(Integer p_0, String p_1)
 intellisense: 1
 classref: 1
-sortOrder: 7351
 keywords: AddSelectionMembersFromSearch(Integer,String)
 ---
 

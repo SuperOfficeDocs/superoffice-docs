@@ -3,7 +3,6 @@ title: String GetProgId()
 path: /EJScript/Classes/NSWebPanelEntity/Member functions/String GetProgId()
 intellisense: 1
 classref: 1
-sortOrder: 8831
 keywords: GetProgId()
 ---
 

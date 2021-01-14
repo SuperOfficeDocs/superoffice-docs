@@ -3,7 +3,6 @@ title: Void SetConnectId(Integer ConnectId)
 path: /EJScript/Classes/NSTicketEntity/Member functions/Void SetConnectId(Integer p_0)
 intellisense: 1
 classref: 1
-sortOrder: 8135
 keywords: SetConnectId(Integer)
 ---
 

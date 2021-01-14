@@ -3,7 +3,6 @@ title: NSQuickReply[] GetQuickReplies()
 path: /EJScript/Classes/NSListAgent/Member functions/NSQuickReply[] GetQuickReplies()
 intellisense: 1
 classref: 1
-sortOrder: 4274
 keywords: GetQuickReplies()
 ---
 

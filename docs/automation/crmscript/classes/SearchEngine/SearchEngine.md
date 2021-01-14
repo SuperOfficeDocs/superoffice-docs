@@ -3,7 +3,6 @@ title: SearchEngine
 path: /EJScript/Classes/SearchEngine
 intellisense: 1
 classref: 1
-sortOrder: 8979
 ---
 
 The SearchEngine is originally made for searching and fetching data from the eJournal database. Thereby its name.

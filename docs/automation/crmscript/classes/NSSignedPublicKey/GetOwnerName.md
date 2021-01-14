@@ -3,7 +3,6 @@ title: String GetOwnerName()
 path: /EJScript/Classes/NSSignedPublicKey/Member functions/String GetOwnerName()
 intellisense: 1
 classref: 1
-sortOrder: 7536
 keywords: GetOwnerName()
 ---
 

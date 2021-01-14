@@ -3,7 +3,6 @@ title: Bool caseBeginsWith(String s)
 path: /EJScript/Classes/String/Member functions/Bool caseBeginsWith(String s)
 intellisense: 1
 classref: 1
-sortOrder: 9098
 keywords: caseBeginsWith(String)
 ---
 

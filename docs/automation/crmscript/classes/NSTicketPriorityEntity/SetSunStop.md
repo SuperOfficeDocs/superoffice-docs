@@ -3,7 +3,6 @@ title: Void SetSunStop(DateTime SunStop)
 path: /EJScript/Classes/NSTicketPriorityEntity/Member functions/Void SetSunStop(DateTime p_0)
 intellisense: 1
 classref: 1
-sortOrder: 8290
 keywords: SetSunStop(DateTime)
 ---
 

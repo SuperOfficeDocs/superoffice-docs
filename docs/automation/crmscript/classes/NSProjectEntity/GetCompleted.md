@@ -3,7 +3,6 @@ title: Bool GetCompleted()
 path: /EJScript/Classes/NSProjectEntity/Member functions/Bool GetCompleted()
 intellisense: 1
 classref: 1
-sortOrder: 5618
 keywords: GetCompleted()
 ---
 

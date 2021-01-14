@@ -3,7 +3,6 @@ title: NSTableRight GetNewTableRight(String tableName)
 path: /EJScript/Classes/NSSentryAgent/Member functions/NSTableRight GetNewTableRight(String p_0)
 intellisense: 1
 classref: 1
-sortOrder: 7514
 keywords: GetNewTableRight(String)
 ---
 

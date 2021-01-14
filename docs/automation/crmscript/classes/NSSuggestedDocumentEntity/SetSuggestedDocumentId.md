@@ -3,7 +3,6 @@ title: Void SetSuggestedDocumentId(Integer SuggestedDocumentId)
 path: /EJScript/Classes/NSSuggestedDocumentEntity/Member functions/Void SetSuggestedDocumentId(Integer p_0)
 intellisense: 1
 classref: 1
-sortOrder: 7805
 keywords: SetSuggestedDocumentId(Integer)
 ---
 

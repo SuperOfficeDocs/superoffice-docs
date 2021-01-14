@@ -3,7 +3,6 @@ title: Void SetTimeZoneSTDRules(NSTimeZoneRuleDictionary TimeZoneSTDRules)
 path: /EJScript/Classes/NSTimeZoneData/Member functions/Void SetTimeZoneSTDRules(NSTimeZoneRuleDictionary p_0)
 intellisense: 1
 classref: 1
-sortOrder: 8360
 keywords: SetTimeZoneSTDRules(NSTimeZoneRuleDictionary)
 ---
 

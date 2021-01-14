@@ -3,7 +3,6 @@ title: NSFormSubmissionEntity CreateDefaultFormSubmissionEntity()
 path: /EJScript/Classes/NSMarketingAgent/Member functions/NSFormSubmissionEntity CreateDefaultFormSubmissionEntity()
 intellisense: 1
 classref: 1
-sortOrder: 4551
 keywords: CreateDefaultFormSubmissionEntity()
 ---
 

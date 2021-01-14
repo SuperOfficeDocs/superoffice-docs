@@ -3,7 +3,6 @@ title: String GetRawExtraInfo()
 path: /EJScript/Classes/NSProduct/Member functions/String GetRawExtraInfo()
 intellisense: 1
 classref: 1
-sortOrder: 5449
 keywords: GetRawExtraInfo()
 ---
 

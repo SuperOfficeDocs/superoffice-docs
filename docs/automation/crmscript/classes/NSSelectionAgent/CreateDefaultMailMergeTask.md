@@ -3,7 +3,6 @@ title: NSMailMergeTask CreateDefaultMailMergeTask()
 path: /EJScript/Classes/NSSelectionAgent/Member functions/NSMailMergeTask CreateDefaultMailMergeTask()
 intellisense: 1
 classref: 1
-sortOrder: 7365
 keywords: CreateDefaultMailMergeTask()
 ---
 

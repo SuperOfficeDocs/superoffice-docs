@@ -3,7 +3,6 @@ title: NSSelectionEntity CreateContactSelectionFromShadowSelection(Integer selec
 path: /EJScript/Classes/NSSelectionAgent/Member functions/NSSelectionEntity CreateContactSelectionFromShadowSelection(Integer p_0, String p_1)
 intellisense: 1
 classref: 1
-sortOrder: 7370
 keywords: CreateContactSelectionFromShadowSelection(Integer,String)
 ---
 

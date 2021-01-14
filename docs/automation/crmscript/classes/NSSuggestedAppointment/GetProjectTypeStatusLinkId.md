@@ -3,7 +3,6 @@ title: Integer GetProjectTypeStatusLinkId()
 path: /EJScript/Classes/NSSuggestedAppointment/Member functions/Integer GetProjectTypeStatusLinkId()
 intellisense: 1
 classref: 1
-sortOrder: 7729
 keywords: GetProjectTypeStatusLinkId()
 ---
 

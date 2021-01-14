@@ -3,7 +3,6 @@ title: Integer GetQuoteDocumentId()
 path: /EJScript/Classes/NSQuotePublishDocuments/Member functions/Integer GetQuoteDocumentId()
 intellisense: 1
 classref: 1
-sortOrder: 6317
 keywords: GetQuoteDocumentId()
 ---
 

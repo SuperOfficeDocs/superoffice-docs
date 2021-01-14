@@ -3,7 +3,6 @@ title: Void SetRepliedAt(DateTime RepliedAt)
 path: /EJScript/Classes/NSTicketEntity/Member functions/Void SetRepliedAt(DateTime p_0)
 intellisense: 1
 classref: 1
-sortOrder: 8160
 keywords: SetRepliedAt(DateTime)
 ---
 

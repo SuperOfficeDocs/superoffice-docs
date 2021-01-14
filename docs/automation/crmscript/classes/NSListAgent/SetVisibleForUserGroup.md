@@ -3,7 +3,6 @@ title: Void SetVisibleForUserGroup(Integer udListDefinitionId, Integer listItemI
 path: /EJScript/Classes/NSListAgent/Member functions/Void SetVisibleForUserGroup(Integer p_0, Integer p_1, Integer[] p_2, Bool p_3)
 intellisense: 1
 classref: 1
-sortOrder: 4401
 keywords: SetVisibleForUserGroup(Integer,Integer,Integer[],Bool)
 ---
 

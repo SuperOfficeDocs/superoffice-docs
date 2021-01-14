@@ -3,7 +3,6 @@ title: NSPhoneListItem[] SearchWithPreferences(String searchString, NSPhoneListP
 path: /EJScript/Classes/NSPhoneListAgent/Member functions/NSPhoneListItem[] SearchWithPreferences(String p_0, NSPhoneListPreferences p_1)
 intellisense: 1
 classref: 1
-sortOrder: 5122
 keywords: SearchWithPreferences(String,NSPhoneListPreferences)
 ---
 

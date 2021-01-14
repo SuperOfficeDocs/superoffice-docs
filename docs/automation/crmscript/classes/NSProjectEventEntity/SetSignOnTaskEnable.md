@@ -3,7 +3,6 @@ title: Void SetSignOnTaskEnable(Bool SignOnTaskEnable)
 path: /EJScript/Classes/NSProjectEventEntity/Member functions/Void SetSignOnTaskEnable(Bool p_0)
 intellisense: 1
 classref: 1
-sortOrder: 5783
 keywords: SetSignOnTaskEnable(Bool)
 ---
 

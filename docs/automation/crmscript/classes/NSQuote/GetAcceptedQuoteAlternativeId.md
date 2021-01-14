@@ -3,7 +3,6 @@ title: Integer GetAcceptedQuoteAlternativeId()
 path: /EJScript/Classes/NSQuote/Member functions/Integer GetAcceptedQuoteAlternativeId()
 intellisense: 1
 classref: 1
-sortOrder: 5919
 keywords: GetAcceptedQuoteAlternativeId()
 ---
 

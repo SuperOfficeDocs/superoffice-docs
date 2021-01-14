@@ -3,7 +3,6 @@ title: NSConsentInfo[] GetConsents()
 path: /EJScript/Classes/NSPersonEntity/Member functions/NSConsentInfo[] GetConsents()
 intellisense: 1
 classref: 1
-sortOrder: 5001
 keywords: GetConsents()
 ---
 

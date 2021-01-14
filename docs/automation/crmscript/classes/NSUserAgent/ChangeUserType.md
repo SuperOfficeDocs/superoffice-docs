@@ -3,7 +3,6 @@ title: NSUser ChangeUserType(NSUser user, Integer p1)
 path: /EJScript/Classes/NSUserAgent/Member functions/NSUser ChangeUserType(NSUser p_0, Integer p_1)
 intellisense: 1
 classref: 1
-sortOrder: 8493
 keywords: ChangeUserType(NSUser,Integer)
 ---
 

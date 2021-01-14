@@ -3,7 +3,6 @@ title: Void SetThuStart(DateTime ThuStart)
 path: /EJScript/Classes/NSTicketPriorityEntity/Member functions/Void SetThuStart(DateTime p_0)
 intellisense: 1
 classref: 1
-sortOrder: 8291
 keywords: SetThuStart(DateTime)
 ---
 

@@ -3,7 +3,6 @@ title: NSSale GetCRMSale()
 path: /EJScript/Classes/NSQuoteContext/Member functions/NSSale GetCRMSale()
 intellisense: 1
 classref: 1
-sortOrder: 6147
 keywords: GetCRMSale()
 ---
 

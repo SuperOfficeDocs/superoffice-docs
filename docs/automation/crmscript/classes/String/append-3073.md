@@ -3,7 +3,6 @@ title: Void append(String appendString)
 path: /EJScript/Classes/String/Member functions/Void append(String appendString)
 intellisense: 1
 classref: 1
-sortOrder: 9159
 keywords: append(String)
 ---
 

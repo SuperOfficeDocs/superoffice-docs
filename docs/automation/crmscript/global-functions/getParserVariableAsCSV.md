@@ -1,11 +1,9 @@
 ---
-title: String getParserVariableAsCSV(String paramName, Bool forceQuoting)
+description: String getParserVariableAsCSV(String paramName, Bool forceQuoting)
 path: /EJScript/Global functions/String getParserVariableAsCSV(String paramName, Bool forceQuoting)
 intellisense: 1
 langref: 1
-sortOrder: 9449
-keywords: getParserVariableAsCSV(String,Bool)
----
+keywords: getParserVariableAsCSV(String,Bool)---
 
 
 Return a variable from the global Parser instance as a comma separated string.

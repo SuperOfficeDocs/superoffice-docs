@@ -3,7 +3,6 @@ title: Integer GetConfirmationLinesTemplate()
 path: /EJScript/Classes/NSSaleTypeEntity/Member functions/Integer GetConfirmationLinesTemplate()
 intellisense: 1
 classref: 1
-sortOrder: 7216
 keywords: GetConfirmationLinesTemplate()
 ---
 

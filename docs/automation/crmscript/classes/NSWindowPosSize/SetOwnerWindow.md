@@ -3,7 +3,6 @@ title: Void SetOwnerWindow(String OwnerWindow)
 path: /EJScript/Classes/NSWindowPosSize/Member functions/Void SetOwnerWindow(String p_0)
 intellisense: 1
 classref: 1
-sortOrder: 8875
 keywords: SetOwnerWindow(String)
 ---
 

@@ -3,7 +3,6 @@ title: String GetProgId()
 path: /EJScript/Classes/NSUserDefinedFieldInfo/Member functions/String GetProgId()
 intellisense: 1
 classref: 1
-sortOrder: 8576
 keywords: GetProgId()
 ---
 

@@ -3,7 +3,6 @@ title: NSMarketingAgent
 path: /EJScript/Classes/NSMarketingAgent
 intellisense: 1
 classref: 1
-sortOrder: 4545
 ---
 
 

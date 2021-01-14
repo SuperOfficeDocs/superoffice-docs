@@ -3,7 +3,6 @@ title: Void SetCurrentOverdueTotalOwnCurrency(Float CurrentOverdueTotalOwnCurren
 path: /EJScript/Classes/NSSaleSummary/Member functions/Void SetCurrentOverdueTotalOwnCurrency(Float p_0)
 intellisense: 1
 classref: 1
-sortOrder: 7152
 keywords: SetCurrentOverdueTotalOwnCurrency(Float)
 ---
 

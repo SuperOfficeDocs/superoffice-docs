@@ -3,7 +3,6 @@ title: NSFieldInfoBase[] GetCustomFieldInfoList(String tableName, Bool includeSt
 path: /EJScript/Classes/NSUserDefinedFieldInfoAgent/Member functions/NSFieldInfoBase[] GetCustomFieldInfoList(String p_0, Bool p_1)
 intellisense: 1
 classref: 1
-sortOrder: 8627
 keywords: GetCustomFieldInfoList(String,Bool)
 ---
 

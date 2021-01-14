@@ -3,7 +3,6 @@ title: Void SetDiscountAmount(Float DiscountAmount)
 path: /EJScript/Classes/NSQuoteLine/Member functions/Void SetDiscountAmount(Float p_0)
 intellisense: 1
 classref: 1
-sortOrder: 6239
 keywords: SetDiscountAmount(Float)
 ---
 

@@ -3,7 +3,6 @@ title: Void SetTimeToReply(Integer TimeToReply)
 path: /EJScript/Classes/NSTicket/Member functions/Void SetTimeToReply(Integer p_0)
 intellisense: 1
 classref: 1
-sortOrder: 8035
 keywords: SetTimeToReply(Integer)
 ---
 

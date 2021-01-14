@@ -3,7 +3,6 @@ title: Void addComparison(String field1, String compOperator, String field2, Str
 path: /EJScript/Classes/SearchEngine/member functions/Void addComparison(String field1, String compOperator, String field2, String rowOperator, Integer priority)
 intellisense: 1
 classref: 1
-sortOrder: 9001
 keywords: addComparison(String,String,String,String,Integer)
 ---
 

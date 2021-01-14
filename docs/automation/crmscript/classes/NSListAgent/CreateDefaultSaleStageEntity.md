@@ -3,7 +3,6 @@ title: NSSaleStageEntity CreateDefaultSaleStageEntity()
 path: /EJScript/Classes/NSListAgent/Member functions/NSSaleStageEntity CreateDefaultSaleStageEntity()
 intellisense: 1
 classref: 1
-sortOrder: 4295
 keywords: CreateDefaultSaleStageEntity()
 ---
 

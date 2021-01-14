@@ -3,7 +3,6 @@ title: Void SetOrderComment(String OrderComment)
 path: /EJScript/Classes/NSQuote/Member functions/Void SetOrderComment(String p_0)
 intellisense: 1
 classref: 1
-sortOrder: 5940
 keywords: SetOrderComment(String)
 ---
 

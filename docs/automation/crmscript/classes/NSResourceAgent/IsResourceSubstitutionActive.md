@@ -3,7 +3,6 @@ title: NSResourceOverride[] IsResourceSubstitutionActive(String[] resourceNames,
 path: /EJScript/Classes/NSResourceAgent/Member functions/NSResourceOverride[] IsResourceSubstitutionActive(String[] p_0, String p_1)
 intellisense: 1
 classref: 1
-sortOrder: 6764
 keywords: IsResourceSubstitutionActive(String[],String)
 ---
 

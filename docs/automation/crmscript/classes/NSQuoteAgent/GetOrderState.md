@@ -3,7 +3,6 @@ title: NSPluginUrlResponse GetOrderState(Integer quoteVersionId)
 path: /EJScript/Classes/NSQuoteAgent/Member functions/NSPluginUrlResponse GetOrderState(Integer p_0)
 intellisense: 1
 classref: 1
-sortOrder: 5967
 keywords: GetOrderState(Integer)
 ---
 

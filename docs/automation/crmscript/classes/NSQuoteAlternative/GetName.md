@@ -3,7 +3,6 @@ title: String GetName()
 path: /EJScript/Classes/NSQuoteAlternative/Member functions/String GetName()
 intellisense: 1
 classref: 1
-sortOrder: 6073
 keywords: GetName()
 ---
 

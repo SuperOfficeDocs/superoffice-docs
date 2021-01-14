@@ -3,7 +3,6 @@ title: String GetDescription()
 path: /EJScript/Classes/NSPersonEntity/Member functions/String GetDescription()
 intellisense: 1
 classref: 1
-sortOrder: 5022
 keywords: GetDescription()
 ---
 

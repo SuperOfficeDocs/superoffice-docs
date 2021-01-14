@@ -3,7 +3,6 @@ title: Void SetSignOff(Bool SignOff)
 path: /EJScript/Classes/NSProjectEvent/Member functions/Void SetSignOff(Bool p_0)
 intellisense: 1
 classref: 1
-sortOrder: 5713
 keywords: SetSignOff(Bool)
 ---
 

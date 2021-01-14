@@ -3,7 +3,6 @@ title: Integer GetRoleType()
 path: /EJScript/Classes/NSRoleEntity/Member functions/Integer GetRoleType()
 intellisense: 1
 classref: 1
-sortOrder: 6823
 keywords: GetRoleType()
 ---
 

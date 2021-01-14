@@ -3,7 +3,6 @@ title: Float GetERPDiscountAmount()
 path: /EJScript/Classes/NSQuoteLine/Member functions/Float GetERPDiscountAmount()
 intellisense: 1
 classref: 1
-sortOrder: 6192
 keywords: GetERPDiscountAmount()
 ---
 

@@ -1,11 +1,9 @@
 ---
-title: Integer langToId(String langCode)
+description: Integer langToId(String langCode)
 path: /EJScript/Global functions/Integer langToId(String langCode)
 intellisense: 1
 langref: 1
-sortOrder: 9378
-keywords: langToId(String)
----
+keywords: langToId(String)---
 
 
 Returns the id of the given language code.

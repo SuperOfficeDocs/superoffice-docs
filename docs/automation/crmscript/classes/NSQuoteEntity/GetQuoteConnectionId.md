@@ -3,7 +3,6 @@ title: Integer GetQuoteConnectionId()
 path: /EJScript/Classes/NSQuoteEntity/Member functions/Integer GetQuoteConnectionId()
 intellisense: 1
 classref: 1
-sortOrder: 6160
 keywords: GetQuoteConnectionId()
 ---
 

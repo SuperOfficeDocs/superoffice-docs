@@ -1,11 +1,9 @@
 ---
-title: Bool invoiceTypesExists()
+description: Bool invoiceTypesExists()
 path: /EJScript/Global functions/Bool invoiceTypesExists()
 intellisense: 1
 langref: 1
-sortOrder: 9319
-keywords: invoiceTypesExists()
----
+keywords: invoiceTypesExists()---
 
 
 Checks if invoice types exists in the database

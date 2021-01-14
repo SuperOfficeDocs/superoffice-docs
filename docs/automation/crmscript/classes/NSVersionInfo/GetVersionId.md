@@ -3,7 +3,6 @@ title: String GetVersionId()
 path: /EJScript/Classes/NSVersionInfo/Member functions/String GetVersionId()
 intellisense: 1
 classref: 1
-sortOrder: 8714
 keywords: GetVersionId()
 ---
 

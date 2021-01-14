@@ -3,7 +3,6 @@ title: Void SetParentMessagingId(Integer ParentMessagingId)
 path: /EJScript/Classes/NSOutgoingMessage/Member functions/Void SetParentMessagingId(Integer p_0)
 intellisense: 1
 classref: 1
-sortOrder: 4734
 keywords: SetParentMessagingId(Integer)
 ---
 

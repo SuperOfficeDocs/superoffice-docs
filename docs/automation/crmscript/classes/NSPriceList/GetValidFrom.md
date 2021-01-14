@@ -3,7 +3,6 @@ title: DateTime GetValidFrom()
 path: /EJScript/Classes/NSPriceList/Member functions/DateTime GetValidFrom()
 intellisense: 1
 classref: 1
-sortOrder: 5394
 keywords: GetValidFrom()
 ---
 

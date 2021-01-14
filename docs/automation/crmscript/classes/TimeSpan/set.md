@@ -3,7 +3,6 @@ title: Void set(Integer years, Integer days, Integer hours, Integer minutes, Int
 path: /EJScript/Classes/TimeSpan/Member functions/Void set(Integer years, Integer days, Integer hours, Integer minutes, Integer seconds)
 intellisense: 1
 classref: 1
-sortOrder: 9231
 keywords: set(Integer,Integer,Integer,Integer,Integer)
 ---
 

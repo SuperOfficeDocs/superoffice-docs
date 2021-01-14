@@ -3,7 +3,6 @@ title: Void SetEndDate(DateTime EndDate)
 path: /EJScript/Classes/NSProjectEntity/Member functions/Void SetEndDate(DateTime p_0)
 intellisense: 1
 classref: 1
-sortOrder: 5658
 keywords: SetEndDate(DateTime)
 ---
 

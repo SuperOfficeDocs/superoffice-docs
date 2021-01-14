@@ -3,7 +3,6 @@ title: Void setFolderId(Integer folderId)
 path: /EJScript/Classes/SpmMessage/Member functions/Void setFolderId(Integer folderId)
 intellisense: 1
 classref: 1
-sortOrder: 9042
 keywords: setFolderId(Integer)
 ---
 

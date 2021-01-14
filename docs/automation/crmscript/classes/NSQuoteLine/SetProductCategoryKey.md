@@ -3,7 +3,6 @@ title: Void SetProductCategoryKey(String ProductCategoryKey)
 path: /EJScript/Classes/NSQuoteLine/Member functions/Void SetProductCategoryKey(String p_0)
 intellisense: 1
 classref: 1
-sortOrder: 6257
 keywords: SetProductCategoryKey(String)
 ---
 

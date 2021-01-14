@@ -3,7 +3,6 @@ title: String utf8Encode()
 path: /EJScript/Classes/String/Member functions/String utf8Encode()
 intellisense: 1
 classref: 1
-sortOrder: 9150
 keywords: utf8Encode()
 ---
 

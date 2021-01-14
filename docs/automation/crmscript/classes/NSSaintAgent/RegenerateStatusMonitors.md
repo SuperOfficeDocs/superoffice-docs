@@ -3,7 +3,6 @@ title: NSBatchTaskInfo RegenerateStatusMonitors(Bool runAsBatch)
 path: /EJScript/Classes/NSSaintAgent/Member functions/NSBatchTaskInfo RegenerateStatusMonitors(Bool p_0)
 intellisense: 1
 classref: 1
-sortOrder: 6845
 keywords: RegenerateStatusMonitors(Bool)
 ---
 

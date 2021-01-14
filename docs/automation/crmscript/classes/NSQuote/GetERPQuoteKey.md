@@ -3,7 +3,6 @@ title: String GetERPQuoteKey()
 path: /EJScript/Classes/NSQuote/Member functions/String GetERPQuoteKey()
 intellisense: 1
 classref: 1
-sortOrder: 5929
 keywords: GetERPQuoteKey()
 ---
 

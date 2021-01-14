@@ -3,7 +3,6 @@ title: TimeSpan getDifference(DateTime from, DateTime to)
 path: /EJScript/Classes/YearSchedule/Member functions/TimeSpan getDifference(DateTime from, DateTime to)
 intellisense: 1
 classref: 1
-sortOrder: 9312
 keywords: getDifference(DateTime,DateTime)
 ---
 

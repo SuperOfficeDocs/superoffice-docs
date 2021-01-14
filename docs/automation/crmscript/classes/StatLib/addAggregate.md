@@ -3,7 +3,6 @@ title: Void addAggregate(Integer groupColumn, Integer column, String name, Strin
 path: /EJScript/Classes/StatLib/Member functions/Void addAggregate(Integer groupColumn, Integer column, String name, String type, Integer decimals)
 intellisense: 1
 classref: 1
-sortOrder: 9071
 keywords: addAggregate(Integer,Integer,String,String,Integer)
 ---
 

@@ -1,11 +1,9 @@
 ---
-title: Float Float(Float value)
+description: Float Float(Float value)
 path: /EJScript/Global functions/Float Float(Float value)
 intellisense: 1
 langref: 1
-sortOrder: 9341
-keywords: Float(Float)
----
+keywords: Float(Float)---
 
 
 Float constructor

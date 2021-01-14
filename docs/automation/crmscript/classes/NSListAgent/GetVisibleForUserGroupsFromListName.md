@@ -3,7 +3,6 @@ title: NSSelectableMDOListItem[] GetVisibleForUserGroupsFromListName(String udLi
 path: /EJScript/Classes/NSListAgent/Member functions/NSSelectableMDOListItem[] GetVisibleForUserGroupsFromListName(String p_0, Integer p_1)
 intellisense: 1
 classref: 1
-sortOrder: 4314
 keywords: GetVisibleForUserGroupsFromListName(String,Integer)
 ---
 

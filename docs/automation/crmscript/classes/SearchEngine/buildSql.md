@@ -3,7 +3,6 @@ title: String buildSql()
 path: /EJScript/Classes/SearchEngine/member functions/String buildSql()
 intellisense: 1
 classref: 1
-sortOrder: 8990
 keywords: buildSql()
 ---
 

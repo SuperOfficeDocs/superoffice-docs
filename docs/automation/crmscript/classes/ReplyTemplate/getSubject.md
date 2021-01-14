@@ -3,7 +3,6 @@ title: String getSubject(Integer language)
 path: /EJScript/Classes/ReplyTemplate/Member functions/String getSubject(Integer language)
 intellisense: 1
 classref: 1
-sortOrder: 8978
 keywords: getSubject(Integer)
 ---
 

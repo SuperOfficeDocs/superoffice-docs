@@ -3,7 +3,6 @@ title: String stripLeading(String characters)
 path: /EJScript/Classes/String/Member functions/String stripLeading(String characters)
 intellisense: 1
 classref: 1
-sortOrder: 9139
 keywords: stripLeading(String)
 ---
 

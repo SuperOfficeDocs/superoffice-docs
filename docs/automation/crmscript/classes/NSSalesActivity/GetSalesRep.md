@@ -3,7 +3,6 @@ title: NSPerson GetSalesRep()
 path: /EJScript/Classes/NSSalesActivity/Member functions/NSPerson GetSalesRep()
 intellisense: 1
 classref: 1
-sortOrder: 7061
 keywords: GetSalesRep()
 ---
 

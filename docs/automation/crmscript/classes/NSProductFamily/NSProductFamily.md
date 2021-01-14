@@ -3,7 +3,6 @@ title: NSProductFamily
 path: /EJScript/Classes/NSProductFamily
 intellisense: 1
 classref: 1
-sortOrder: 5507
 ---
 
 

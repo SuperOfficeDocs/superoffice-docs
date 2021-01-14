@@ -3,7 +3,6 @@ title: Bool GetIsHidden()
 path: /EJScript/Classes/NSModuleLicense/Member functions/Bool GetIsHidden()
 intellisense: 1
 classref: 1
-sortOrder: 4614
 keywords: GetIsHidden()
 ---
 

@@ -3,7 +3,6 @@ title: Void toParser(Parser theParser)
 path: /EJScript/Classes/Ticket/Member functions/Void toParser(Parser theParser)
 intellisense: 1
 classref: 1
-sortOrder: 9194
 keywords: toParser(Parser)
 ---
 

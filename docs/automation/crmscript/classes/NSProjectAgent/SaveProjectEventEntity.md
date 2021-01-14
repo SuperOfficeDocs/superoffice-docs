@@ -3,7 +3,6 @@ title: NSProjectEventEntity SaveProjectEventEntity(NSProjectEventEntity projectE
 path: /EJScript/Classes/NSProjectAgent/Member functions/NSProjectEventEntity SaveProjectEventEntity(NSProjectEventEntity p_0)
 intellisense: 1
 classref: 1
-sortOrder: 5594
 keywords: SaveProjectEventEntity(NSProjectEventEntity)
 ---
 

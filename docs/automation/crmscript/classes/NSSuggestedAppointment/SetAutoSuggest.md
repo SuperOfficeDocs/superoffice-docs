@@ -3,7 +3,6 @@ title: Void SetAutoSuggest(Integer AutoSuggest)
 path: /EJScript/Classes/NSSuggestedAppointment/Member functions/Void SetAutoSuggest(Integer p_0)
 intellisense: 1
 classref: 1
-sortOrder: 7740
 keywords: SetAutoSuggest(Integer)
 ---
 

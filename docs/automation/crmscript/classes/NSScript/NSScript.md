@@ -3,7 +3,6 @@ title: NSScript
 path: /EJScript/Classes/NSScript
 intellisense: 1
 classref: 1
-sortOrder: 7291
 ---
 
 

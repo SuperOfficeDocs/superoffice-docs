@@ -3,7 +3,6 @@ title: Bool GetIsReadOnly()
 path: /EJScript/Classes/NSUserDefinedFieldInfo/Member functions/Bool GetIsReadOnly()
 intellisense: 1
 classref: 1
-sortOrder: 8548
 keywords: GetIsReadOnly()
 ---
 

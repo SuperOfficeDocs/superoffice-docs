@@ -3,7 +3,6 @@ title: String getLine()
 path: /EJScript/Classes/String/Member functions/String getLine()
 intellisense: 1
 classref: 1
-sortOrder: 9132
 keywords: getLine()
 ---
 

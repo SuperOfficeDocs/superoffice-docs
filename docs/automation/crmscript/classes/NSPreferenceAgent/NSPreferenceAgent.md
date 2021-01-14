@@ -3,7 +3,6 @@ title: NSPreferenceAgent
 path: /EJScript/Classes/NSPreferenceAgent
 intellisense: 1
 classref: 1
-sortOrder: 5294
 ---
 
 

@@ -3,7 +3,6 @@ title: Void addYear(Integer num)
 path: /EJScript/Classes/TimeSpan/Member functions/Void addYear(Integer num)
 intellisense: 1
 classref: 1
-sortOrder: 9230
 keywords: addYear(Integer)
 ---
 

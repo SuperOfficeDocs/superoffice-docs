@@ -3,7 +3,6 @@ title: Void SetUnitCost(Float UnitCost)
 path: /EJScript/Classes/NSQuoteLine/Member functions/Void SetUnitCost(Float p_0)
 intellisense: 1
 classref: 1
-sortOrder: 6279
 keywords: SetUnitCost(Float)
 ---
 

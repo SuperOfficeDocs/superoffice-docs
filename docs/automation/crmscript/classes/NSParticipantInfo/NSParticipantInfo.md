@@ -3,7 +3,6 @@ title: NSParticipantInfo
 path: /EJScript/Classes/NSParticipantInfo
 intellisense: 1
 classref: 1
-sortOrder: 4737
 ---
 
 

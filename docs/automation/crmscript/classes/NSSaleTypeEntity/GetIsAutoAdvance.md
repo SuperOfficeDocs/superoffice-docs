@@ -3,7 +3,6 @@ title: Bool GetIsAutoAdvance()
 path: /EJScript/Classes/NSSaleTypeEntity/Member functions/Bool GetIsAutoAdvance()
 intellisense: 1
 classref: 1
-sortOrder: 7213
 keywords: GetIsAutoAdvance()
 ---
 

@@ -3,7 +3,6 @@ title: String GetLicenseUrl()
 path: /EJScript/Classes/NSLicenseInfo/Member functions/String GetLicenseUrl()
 intellisense: 1
 classref: 1
-sortOrder: 4062
 keywords: GetLicenseUrl()
 ---
 

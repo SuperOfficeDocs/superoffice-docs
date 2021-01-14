@@ -3,7 +3,6 @@ title: Bool GetAllAccess()
 path: /EJScript/Classes/NSQuoteConnection/Member functions/Bool GetAllAccess()
 intellisense: 1
 classref: 1
-sortOrder: 6111
 keywords: GetAllAccess()
 ---
 

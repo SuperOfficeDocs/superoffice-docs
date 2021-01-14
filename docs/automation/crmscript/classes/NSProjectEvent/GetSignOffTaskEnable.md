@@ -3,7 +3,6 @@ title: Bool GetSignOffTaskEnable()
 path: /EJScript/Classes/NSProjectEvent/Member functions/Bool GetSignOffTaskEnable()
 intellisense: 1
 classref: 1
-sortOrder: 5686
 keywords: GetSignOffTaskEnable()
 ---
 

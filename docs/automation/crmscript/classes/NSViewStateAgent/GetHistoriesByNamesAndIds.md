@@ -3,7 +3,6 @@ title: NSHistory[] GetHistoriesByNamesAndIds(NSHistoryRequest[] requests)
 path: /EJScript/Classes/NSViewStateAgent/Member functions/NSHistory[] GetHistoriesByNamesAndIds(NSHistoryRequest[] p_0)
 intellisense: 1
 classref: 1
-sortOrder: 8737
 keywords: GetHistoriesByNamesAndIds(NSHistoryRequest[])
 ---
 

@@ -3,7 +3,6 @@ title: Void update()
 path: /EJScript/Classes/SearchEngine/member functions/Void update()
 intellisense: 1
 classref: 1
-sortOrder: 9026
 keywords: update()
 ---
 

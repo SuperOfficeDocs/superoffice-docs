@@ -3,7 +3,6 @@ title: NSDocumentTemplateEntity SetDocumentTemplateFromDocumentTemplate(Integer 
 path: /EJScript/Classes/NSListAgent/Member functions/NSDocumentTemplateEntity SetDocumentTemplateFromDocumentTemplate(Integer p_0, NSDocumentTemplateEntity p_1)
 intellisense: 1
 classref: 1
-sortOrder: 4185
 keywords: SetDocumentTemplateFromDocumentTemplate(Integer,NSDocumentTemplateEntity)
 ---
 

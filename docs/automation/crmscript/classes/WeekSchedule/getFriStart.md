@@ -3,7 +3,6 @@ title: Time getFriStart()
 path: /EJScript/Classes/WeekSchedule/Member functions/Time getFriStart()
 intellisense: 1
 classref: 1
-sortOrder: 9263
 keywords: getFriStart()
 ---
 

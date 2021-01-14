@@ -3,7 +3,6 @@ title: String GetFormalName()
 path: /EJScript/Classes/NSPerson/Member functions/String GetFormalName()
 intellisense: 1
 classref: 1
-sortOrder: 4866
 keywords: GetFormalName()
 ---
 

@@ -3,7 +3,6 @@ title: NSReportEntity SaveReportEntity(NSReportEntity reportEntity)
 path: /EJScript/Classes/NSReportAgent/Member functions/NSReportEntity SaveReportEntity(NSReportEntity p_0)
 intellisense: 1
 classref: 1
-sortOrder: 6696
 keywords: SaveReportEntity(NSReportEntity)
 ---
 

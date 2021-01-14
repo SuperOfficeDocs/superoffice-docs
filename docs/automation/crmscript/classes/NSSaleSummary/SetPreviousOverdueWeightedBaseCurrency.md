@@ -3,7 +3,6 @@ title: Void SetPreviousOverdueWeightedBaseCurrency(Float PreviousOverdueWeighted
 path: /EJScript/Classes/NSSaleSummary/Member functions/Void SetPreviousOverdueWeightedBaseCurrency(Float p_0)
 intellisense: 1
 classref: 1
-sortOrder: 7172
 keywords: SetPreviousOverdueWeightedBaseCurrency(Float)
 ---
 

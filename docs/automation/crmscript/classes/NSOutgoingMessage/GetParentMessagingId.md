@@ -3,7 +3,6 @@ title: Integer GetParentMessagingId()
 path: /EJScript/Classes/NSOutgoingMessage/Member functions/Integer GetParentMessagingId()
 intellisense: 1
 classref: 1
-sortOrder: 4725
 keywords: GetParentMessagingId()
 ---
 

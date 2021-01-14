@@ -3,7 +3,6 @@ title: Void SetExtraInfo(NSProductExtraDataField[] ExtraInfo)
 path: /EJScript/Classes/NSQuoteLine/Member functions/Void SetExtraInfo(NSProductExtraDataField[] p_0)
 intellisense: 1
 classref: 1
-sortOrder: 6252
 keywords: SetExtraInfo(NSProductExtraDataField[])
 ---
 

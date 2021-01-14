@@ -3,7 +3,6 @@ title: NSMessagingAgent
 path: /EJScript/Classes/NSMessagingAgent
 intellisense: 1
 classref: 1
-sortOrder: 4604
 ---
 
 

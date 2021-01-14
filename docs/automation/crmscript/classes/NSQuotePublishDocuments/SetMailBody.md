@@ -3,7 +3,6 @@ title: Void SetMailBody(String MailBody)
 path: /EJScript/Classes/NSQuotePublishDocuments/Member functions/Void SetMailBody(String p_0)
 intellisense: 1
 classref: 1
-sortOrder: 6326
 keywords: SetMailBody(String)
 ---
 

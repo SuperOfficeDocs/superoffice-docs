@@ -3,7 +3,6 @@ title: Void SetDisplayValue(String DisplayValue)
 path: /EJScript/Classes/NSPreference/Member functions/Void SetDisplayValue(String p_0)
 intellisense: 1
 classref: 1
-sortOrder: 5284
 keywords: SetDisplayValue(String)
 ---
 

@@ -3,7 +3,6 @@ title: Void SetListItemsForHeadingFromListName(String udListDefinitionName, Inte
 path: /EJScript/Classes/NSListAgent/Member functions/Void SetListItemsForHeadingFromListName(String p_0, Integer p_1, Integer[] p_2, Bool p_3)
 intellisense: 1
 classref: 1
-sortOrder: 4393
 keywords: SetListItemsForHeadingFromListName(String,Integer,Integer[],Bool)
 ---
 

@@ -3,7 +3,6 @@ title: NSPocketNotificationMessage
 path: /EJScript/Classes/NSPocketNotificationMessage
 intellisense: 1
 classref: 1
-sortOrder: 5218
 ---
 
 

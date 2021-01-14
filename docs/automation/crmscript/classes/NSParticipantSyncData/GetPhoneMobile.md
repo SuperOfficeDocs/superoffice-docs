@@ -3,7 +3,6 @@ title: String[] GetPhoneMobile()
 path: /EJScript/Classes/NSParticipantSyncData/Member functions/String[] GetPhoneMobile()
 intellisense: 1
 classref: 1
-sortOrder: 4784
 keywords: GetPhoneMobile()
 ---
 

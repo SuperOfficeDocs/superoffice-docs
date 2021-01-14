@@ -3,7 +3,6 @@ title: Void setThuStart(Time t)
 path: /EJScript/Classes/WeekSchedule/Member functions/Void setThuStart(Time t)
 intellisense: 1
 classref: 1
-sortOrder: 9288
 keywords: setThuStart(Time)
 ---
 

@@ -3,7 +3,6 @@ title: Integer GetTimeSpentQueue()
 path: /EJScript/Classes/NSTicketEntity/Member functions/Integer GetTimeSpentQueue()
 intellisense: 1
 classref: 1
-sortOrder: 8108
 keywords: GetTimeSpentQueue()
 ---
 

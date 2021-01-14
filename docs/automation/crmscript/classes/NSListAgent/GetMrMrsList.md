@@ -3,7 +3,6 @@ title: NSMrMrs[] GetMrMrsList(Integer[] p0)
 path: /EJScript/Classes/NSListAgent/Member functions/NSMrMrs[] GetMrMrsList(Integer[] p_0)
 intellisense: 1
 classref: 1
-sortOrder: 4243
 keywords: GetMrMrsList(Integer[])
 ---
 

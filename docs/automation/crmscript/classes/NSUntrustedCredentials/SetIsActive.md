@@ -3,7 +3,6 @@ title: Void SetIsActive(Bool IsActive)
 path: /EJScript/Classes/NSUntrustedCredentials/Member functions/Void SetIsActive(Bool p_0)
 intellisense: 1
 classref: 1
-sortOrder: 8402
 keywords: SetIsActive(Bool)
 ---
 

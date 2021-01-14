@@ -3,7 +3,6 @@ title: NSSelectableMDOListItem[] GetListItemsForUserGroup(Integer udListDefiniti
 path: /EJScript/Classes/NSListAgent/Member functions/NSSelectableMDOListItem[] GetListItemsForUserGroup(Integer p_0, Integer p_1)
 intellisense: 1
 classref: 1
-sortOrder: 4311
 keywords: GetListItemsForUserGroup(Integer,Integer)
 ---
 

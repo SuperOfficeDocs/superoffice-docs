@@ -3,7 +3,6 @@ title: NSPreference
 path: /EJScript/Classes/NSPreference
 intellisense: 1
 classref: 1
-sortOrder: 5268
 ---
 
 

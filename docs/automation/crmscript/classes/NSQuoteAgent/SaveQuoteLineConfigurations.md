@@ -3,7 +3,6 @@ title: NSQuoteLineConfiguration[] SaveQuoteLineConfigurations(NSQuoteLineConfigu
 path: /EJScript/Classes/NSQuoteAgent/Member functions/NSQuoteLineConfiguration[] SaveQuoteLineConfigurations(NSQuoteLineConfiguration[] p_0)
 intellisense: 1
 classref: 1
-sortOrder: 6017
 keywords: SaveQuoteLineConfigurations(NSQuoteLineConfiguration[])
 ---
 

@@ -3,7 +3,6 @@ title: String GetFromAddress()
 path: /EJScript/Classes/NSTicketEntity/Member functions/String GetFromAddress()
 intellisense: 1
 classref: 1
-sortOrder: 8126
 keywords: GetFromAddress()
 ---
 

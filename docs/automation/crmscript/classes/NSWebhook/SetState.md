@@ -3,7 +3,6 @@ title: Void SetState(Integer State)
 path: /EJScript/Classes/NSWebhook/Member functions/Void SetState(Integer p_0)
 intellisense: 1
 classref: 1
-sortOrder: 8790
 keywords: SetState(Integer)
 ---
 

@@ -3,7 +3,6 @@ title: Void SetCurrencyName(String CurrencyName)
 path: /EJScript/Classes/NSPriceList/Member functions/Void SetCurrencyName(String p_0)
 intellisense: 1
 classref: 1
-sortOrder: 5404
 keywords: SetCurrencyName(String)
 ---
 

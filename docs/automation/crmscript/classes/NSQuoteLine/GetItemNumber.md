@@ -3,7 +3,6 @@ title: String GetItemNumber()
 path: /EJScript/Classes/NSQuoteLine/Member functions/String GetItemNumber()
 intellisense: 1
 classref: 1
-sortOrder: 6219
 keywords: GetItemNumber()
 ---
 

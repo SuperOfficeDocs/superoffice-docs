@@ -3,7 +3,6 @@ title: String GetPocketVersion()
 path: /EJScript/Classes/NSPocketDeviceInfo/Member functions/String GetPocketVersion()
 intellisense: 1
 classref: 1
-sortOrder: 5210
 keywords: GetPocketVersion()
 ---
 

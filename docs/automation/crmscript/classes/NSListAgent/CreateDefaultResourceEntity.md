@@ -3,7 +3,6 @@ title: NSResourceEntity CreateDefaultResourceEntity()
 path: /EJScript/Classes/NSListAgent/Member functions/NSResourceEntity CreateDefaultResourceEntity()
 intellisense: 1
 classref: 1
-sortOrder: 4292
 keywords: CreateDefaultResourceEntity()
 ---
 

@@ -3,7 +3,6 @@ title: Integer GetCompleted()
 path: /EJScript/Classes/NSSale/Member functions/Integer GetCompleted()
 intellisense: 1
 classref: 1
-sortOrder: 6886
 keywords: GetCompleted()
 ---
 

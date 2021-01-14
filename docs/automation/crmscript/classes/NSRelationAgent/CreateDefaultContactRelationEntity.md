@@ -3,7 +3,6 @@ title: NSContactRelationEntity CreateDefaultContactRelationEntity()
 path: /EJScript/Classes/NSRelationAgent/Member functions/NSContactRelationEntity CreateDefaultContactRelationEntity()
 intellisense: 1
 classref: 1
-sortOrder: 6647
 keywords: CreateDefaultContactRelationEntity()
 ---
 

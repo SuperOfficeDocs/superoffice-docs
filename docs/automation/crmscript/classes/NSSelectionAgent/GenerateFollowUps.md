@@ -3,7 +3,6 @@ title: Void GenerateFollowUps(Integer selectionId, NSAppointmentEntity appointme
 path: /EJScript/Classes/NSSelectionAgent/Member functions/Void GenerateFollowUps(Integer p_0, NSAppointmentEntity p_1, Integer p_2, Bool p_3, Bool p_4)
 intellisense: 1
 classref: 1
-sortOrder: 7389
 keywords: GenerateFollowUps(Integer,NSAppointmentEntity,Integer,Bool,Bool)
 ---
 

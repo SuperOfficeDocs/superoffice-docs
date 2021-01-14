@@ -3,7 +3,6 @@ title: Bool GetSilent()
 path: /EJScript/Classes/NSPocketNotificationMessage/Member functions/Bool GetSilent()
 intellisense: 1
 classref: 1
-sortOrder: 5220
 keywords: GetSilent()
 ---
 

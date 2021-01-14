@@ -3,7 +3,6 @@ title: NSMessageDeliveryStatus[] SendMessages(String plugin, NSOutgoingMessage[]
 path: /EJScript/Classes/NSMessagingAgent/Member functions/NSMessageDeliveryStatus[] SendMessages(String p_0, NSOutgoingMessage[] p_1)
 intellisense: 1
 classref: 1
-sortOrder: 4607
 keywords: SendMessages(String,NSOutgoingMessage[])
 ---
 

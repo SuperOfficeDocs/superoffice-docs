@@ -3,7 +3,6 @@ title: Integer GetValueType()
 path: /EJScript/Classes/NSPreferenceDescription/Member functions/Integer GetValueType()
 intellisense: 1
 classref: 1
-sortOrder: 5338
 keywords: GetValueType()
 ---
 

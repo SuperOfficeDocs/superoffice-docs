@@ -3,7 +3,6 @@ title: Void set(Integer index, String value)
 path: /EJScript/Classes/Vector/Member functions/Void set(Integer index, String value)
 intellisense: 1
 classref: 1
-sortOrder: 9258
 keywords: set(Integer,String)
 ---
 

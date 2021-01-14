@@ -3,7 +3,6 @@ title: Integer GetVersion()
 path: /EJScript/Classes/NSUserDefinedFieldInfo/Member functions/Integer GetVersion()
 intellisense: 1
 classref: 1
-sortOrder: 8570
 keywords: GetVersion()
 ---
 

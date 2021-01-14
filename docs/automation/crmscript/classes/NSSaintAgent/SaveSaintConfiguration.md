@@ -3,7 +3,6 @@ title: NSSaintConfiguration SaveSaintConfiguration(NSSaintConfiguration saintCon
 path: /EJScript/Classes/NSSaintAgent/Member functions/NSSaintConfiguration SaveSaintConfiguration(NSSaintConfiguration p_0)
 intellisense: 1
 classref: 1
-sortOrder: 6847
 keywords: SaveSaintConfiguration(NSSaintConfiguration)
 ---
 

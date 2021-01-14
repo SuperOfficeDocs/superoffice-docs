@@ -3,7 +3,6 @@ title: Void SetCRMQuoteLine(NSQuoteLine CRMQuoteLine)
 path: /EJScript/Classes/NSQuoteContext/Member functions/Void SetCRMQuoteLine(NSQuoteLine p_0)
 intellisense: 1
 classref: 1
-sortOrder: 6151
 keywords: SetCRMQuoteLine(NSQuoteLine)
 ---
 

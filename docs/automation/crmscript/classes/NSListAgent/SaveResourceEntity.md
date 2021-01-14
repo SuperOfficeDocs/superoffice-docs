@@ -3,7 +3,6 @@ title: NSResourceEntity SaveResourceEntity(NSResourceEntity resourceEntity)
 path: /EJScript/Classes/NSListAgent/Member functions/NSResourceEntity SaveResourceEntity(NSResourceEntity p_0)
 intellisense: 1
 classref: 1
-sortOrder: 4294
 keywords: SaveResourceEntity(NSResourceEntity)
 ---
 

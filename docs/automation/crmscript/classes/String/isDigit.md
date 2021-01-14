@@ -3,7 +3,6 @@ title: Bool isDigit()
 path: /EJScript/Classes/String/Member functions/Bool isDigit()
 intellisense: 1
 classref: 1
-sortOrder: 9105
 keywords: isDigit()
 ---
 

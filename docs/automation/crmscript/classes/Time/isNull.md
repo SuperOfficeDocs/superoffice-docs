@@ -3,7 +3,6 @@ title: Bool isNull()
 path: /EJScript/Classes/Time/Member functions/Bool isNull()
 intellisense: 1
 classref: 1
-sortOrder: 9198
 keywords: isNull()
 ---
 

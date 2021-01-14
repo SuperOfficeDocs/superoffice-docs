@@ -3,7 +3,6 @@ title: Void SetCreatedAt(DateTime CreatedAt)
 path: /EJScript/Classes/NSTicket/Member functions/Void SetCreatedAt(DateTime p_0)
 intellisense: 1
 classref: 1
-sortOrder: 8006
 keywords: SetCreatedAt(DateTime)
 ---
 

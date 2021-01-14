@@ -3,7 +3,6 @@ title: Void SetPluginId(Integer PluginId)
 path: /EJScript/Classes/NSTemplateInfo/Member functions/Void SetPluginId(Integer p_0)
 intellisense: 1
 classref: 1
-sortOrder: 7914
 keywords: SetPluginId(Integer)
 ---
 

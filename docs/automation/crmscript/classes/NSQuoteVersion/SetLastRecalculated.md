@@ -3,7 +3,6 @@ title: Void SetLastRecalculated(DateTime LastRecalculated)
 path: /EJScript/Classes/NSQuoteVersion/Member functions/Void SetLastRecalculated(DateTime p_0)
 intellisense: 1
 classref: 1
-sortOrder: 6398
 keywords: SetLastRecalculated(DateTime)
 ---
 

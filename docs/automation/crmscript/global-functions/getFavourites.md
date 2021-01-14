@@ -1,11 +1,9 @@
 ---
-title: IntegerArray getFavourites(String table)
+description: IntegerArray getFavourites(String table)
 path: /EJScript/Global functions/IntegerArray getFavourites(String table)
 intellisense: 1
 langref: 1
-sortOrder: 9383
-keywords: getFavourites(String)
----
+keywords: getFavourites(String)---
 
 
 Returns an array containing the ids of all favourites in the given table.

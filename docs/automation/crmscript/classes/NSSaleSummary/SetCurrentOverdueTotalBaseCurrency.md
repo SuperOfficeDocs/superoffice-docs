@@ -3,7 +3,6 @@ title: Void SetCurrentOverdueTotalBaseCurrency(Float CurrentOverdueTotalBaseCurr
 path: /EJScript/Classes/NSSaleSummary/Member functions/Void SetCurrentOverdueTotalBaseCurrency(Float p_0)
 intellisense: 1
 classref: 1
-sortOrder: 7151
 keywords: SetCurrentOverdueTotalBaseCurrency(Float)
 ---
 

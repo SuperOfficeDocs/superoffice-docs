@@ -3,7 +3,6 @@ title: String GetPriceUnit()
 path: /EJScript/Classes/NSQuoteLine/Member functions/String GetPriceUnit()
 intellisense: 1
 classref: 1
-sortOrder: 6221
 keywords: GetPriceUnit()
 ---
 

@@ -3,7 +3,6 @@ title: Void SetPost2(String Post2)
 path: /EJScript/Classes/NSPersonEntity/Member functions/Void SetPost2(String p_0)
 intellisense: 1
 classref: 1
-sortOrder: 5083
 keywords: SetPost2(String)
 ---
 

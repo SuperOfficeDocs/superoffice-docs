@@ -3,7 +3,6 @@ title: Void SetSearchLastname(Bool SearchLastname)
 path: /EJScript/Classes/NSPhoneListPreferences/Member functions/Void SetSearchLastname(Bool p_0)
 intellisense: 1
 classref: 1
-sortOrder: 5160
 keywords: SetSearchLastname(Bool)
 ---
 

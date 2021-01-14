@@ -3,7 +3,6 @@ title: NSSaleType[] GetAllSaleType()
 path: /EJScript/Classes/NSListAgent/Member functions/NSSaleType[] GetAllSaleType()
 intellisense: 1
 classref: 1
-sortOrder: 4300
 keywords: GetAllSaleType()
 ---
 

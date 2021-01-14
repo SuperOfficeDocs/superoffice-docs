@@ -3,7 +3,6 @@ title: String GetLicenseVersion()
 path: /EJScript/Classes/NSLicenseInfo/Member functions/String GetLicenseVersion()
 intellisense: 1
 classref: 1
-sortOrder: 4063
 keywords: GetLicenseVersion()
 ---
 

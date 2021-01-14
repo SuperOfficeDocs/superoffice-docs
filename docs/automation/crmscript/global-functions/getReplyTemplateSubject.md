@@ -1,11 +1,9 @@
 ---
-title: String getReplyTemplateSubject(Integer id, Integer langId)
+description: String getReplyTemplateSubject(Integer id, Integer langId)
 path: /EJScript/Global functions/String getReplyTemplateSubject(Integer id, Integer langId)
 intellisense: 1
 langref: 1
-sortOrder: 9464
-keywords: getReplyTemplateSubject(Integer,Integer)
----
+keywords: getReplyTemplateSubject(Integer,Integer)---
 
 
 Returns reply template subject.

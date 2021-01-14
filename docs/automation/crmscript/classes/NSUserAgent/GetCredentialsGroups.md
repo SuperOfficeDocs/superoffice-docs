@@ -3,7 +3,6 @@ title: NSCredentialsGroup[] GetCredentialsGroups(String type)
 path: /EJScript/Classes/NSUserAgent/Member functions/NSCredentialsGroup[] GetCredentialsGroups(String p_0)
 intellisense: 1
 classref: 1
-sortOrder: 8471
 keywords: GetCredentialsGroups(String)
 ---
 

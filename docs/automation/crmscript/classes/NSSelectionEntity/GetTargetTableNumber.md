@@ -3,7 +3,6 @@ title: Integer GetTargetTableNumber()
 path: /EJScript/Classes/NSSelectionEntity/Member functions/Integer GetTargetTableNumber()
 intellisense: 1
 classref: 1
-sortOrder: 7421
 keywords: GetTargetTableNumber()
 ---
 

@@ -3,7 +3,6 @@ title: String GetConnectorName()
 path: /EJScript/Classes/NSQuoteConnection/Member functions/String GetConnectorName()
 intellisense: 1
 classref: 1
-sortOrder: 6121
 keywords: GetConnectorName()
 ---
 

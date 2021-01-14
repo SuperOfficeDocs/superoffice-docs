@@ -1,11 +1,9 @@
 ---
-title: String getParserVariable(String varName)
+description: String getParserVariable(String varName)
 path: /EJScript/Global functions/String getParserVariable(String varName)
 intellisense: 1
 langref: 1
-sortOrder: 9447
-keywords: getParserVariable(String)
----
+keywords: getParserVariable(String)---
 
 
 Returns the first value for the given variable from the global Parser instance.

@@ -3,7 +3,6 @@ title: String BeginReadStream(String taskId, String parentModuleName, String par
 path: /EJScript/Classes/NSTrayAppAgent/Member functions/String BeginReadStream(String p_0, String p_1, String p_2, String p_3, String p_4, String p_5, String p_6)
 intellisense: 1
 classref: 1
-sortOrder: 8386
 keywords: BeginReadStream(String,String,String,String,String,String,String)
 ---
 

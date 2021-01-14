@@ -3,7 +3,6 @@ title: Void addWS(WeekSchedule ws, Integer mStop, Integer dStop)
 path: /EJScript/Classes/YearSchedule/Member functions/Void addWS(WeekSchedule ws, Integer mStop, Integer dStop)
 intellisense: 1
 classref: 1
-sortOrder: 9313
 keywords: addWS(WeekSchedule,Integer,Integer)
 ---
 

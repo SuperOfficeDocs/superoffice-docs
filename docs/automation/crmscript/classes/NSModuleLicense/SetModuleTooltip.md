@@ -3,7 +3,6 @@ title: Void SetModuleTooltip(String ModuleTooltip)
 path: /EJScript/Classes/NSModuleLicense/Member functions/Void SetModuleTooltip(String p_0)
 intellisense: 1
 classref: 1
-sortOrder: 4640
 keywords: SetModuleTooltip(String)
 ---
 

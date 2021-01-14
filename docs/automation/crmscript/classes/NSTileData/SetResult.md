@@ -3,7 +3,6 @@ title: Void SetResult(NSArchiveListResult Result)
 path: /EJScript/Classes/NSTileData/Member functions/Void SetResult(NSArchiveListResult p_0)
 intellisense: 1
 classref: 1
-sortOrder: 8330
 keywords: SetResult(NSArchiveListResult)
 ---
 

@@ -3,7 +3,6 @@ title: String GetDisplayName()
 path: /EJScript/Classes/NSUser/Member functions/String GetDisplayName()
 intellisense: 1
 classref: 1
-sortOrder: 8427
 keywords: GetDisplayName()
 ---
 

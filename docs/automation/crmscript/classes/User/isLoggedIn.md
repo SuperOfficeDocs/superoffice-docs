@@ -3,7 +3,6 @@ title: Bool isLoggedIn(Integer origin)
 path: /EJScript/Classes/User/Member functions/Bool isLoggedIn(Integer origin)
 intellisense: 1
 classref: 1
-sortOrder: 9241
 keywords: isLoggedIn(Integer)
 ---
 

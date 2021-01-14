@@ -3,7 +3,6 @@ title: Void SetSaleTypeCatId(Integer SaleTypeCatId)
 path: /EJScript/Classes/NSSaleTypeEntity/Member functions/Void SetSaleTypeCatId(Integer p_0)
 intellisense: 1
 classref: 1
-sortOrder: 7250
 keywords: SetSaleTypeCatId(Integer)
 ---
 

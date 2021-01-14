@@ -3,7 +3,6 @@ title: Integer saveAsResult(Integer column, Integer ownerId, Integer maxRows)
 path: /EJScript/Classes/StatResult/Member functions/Integer saveAsResult(Integer column, Integer ownerId, Integer maxRows)
 intellisense: 1
 classref: 1
-sortOrder: 9090
 keywords: saveAsResult(Integer,Integer,Integer)
 ---
 

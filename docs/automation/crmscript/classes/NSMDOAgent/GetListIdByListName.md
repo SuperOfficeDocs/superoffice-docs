@@ -3,7 +3,6 @@ title: Integer GetListIdByListName(String name)
 path: /EJScript/Classes/NSMDOAgent/Member functions/Integer GetListIdByListName(String p_0)
 intellisense: 1
 classref: 1
-sortOrder: 4558
 keywords: GetListIdByListName(String)
 ---
 

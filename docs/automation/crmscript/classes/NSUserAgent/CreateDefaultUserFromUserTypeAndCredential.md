@@ -3,7 +3,6 @@ title: NSUser CreateDefaultUserFromUserTypeAndCredential(Integer userType, Integ
 path: /EJScript/Classes/NSUserAgent/Member functions/NSUser CreateDefaultUserFromUserTypeAndCredential(Integer p_0, Integer p_1, String p_2, String p_3, String p_4)
 intellisense: 1
 classref: 1
-sortOrder: 8496
 keywords: CreateDefaultUserFromUserTypeAndCredential(Integer,Integer,String,String,String)
 ---
 

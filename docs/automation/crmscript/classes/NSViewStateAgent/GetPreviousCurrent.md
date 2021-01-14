@@ -3,7 +3,6 @@ title: NSHistory GetPreviousCurrent(String historyName, Integer id)
 path: /EJScript/Classes/NSViewStateAgent/Member functions/NSHistory GetPreviousCurrent(String p_0, Integer p_1)
 intellisense: 1
 classref: 1
-sortOrder: 8732
 keywords: GetPreviousCurrent(String,Integer)
 ---
 

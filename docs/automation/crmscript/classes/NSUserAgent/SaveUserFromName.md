@@ -3,7 +3,6 @@ title: NSUser SaveUserFromName(String userName, NSUser user)
 path: /EJScript/Classes/NSUserAgent/Member functions/NSUser SaveUserFromName(String p_0, NSUser p_1)
 intellisense: 1
 classref: 1
-sortOrder: 8501
 keywords: SaveUserFromName(String,NSUser)
 ---
 

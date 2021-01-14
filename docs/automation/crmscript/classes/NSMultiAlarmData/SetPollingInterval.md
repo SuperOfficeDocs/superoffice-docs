@@ -3,7 +3,6 @@ title: Void SetPollingInterval(Integer PollingInterval)
 path: /EJScript/Classes/NSMultiAlarmData/Member functions/Void SetPollingInterval(Integer p_0)
 intellisense: 1
 classref: 1
-sortOrder: 4690
 keywords: SetPollingInterval(Integer)
 ---
 

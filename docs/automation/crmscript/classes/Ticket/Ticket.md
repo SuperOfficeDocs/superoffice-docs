@@ -3,7 +3,6 @@ title: Ticket
 path: /EJScript/Classes/Ticket
 intellisense: 1
 classref: 1
-sortOrder: 9172
 ---
 
 

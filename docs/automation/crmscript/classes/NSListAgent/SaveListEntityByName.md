@@ -3,7 +3,6 @@ title: NSListEntity SaveListEntityByName(String name, NSListEntity listEntity)
 path: /EJScript/Classes/NSListAgent/Member functions/NSListEntity SaveListEntityByName(String p_0, NSListEntity p_1)
 intellisense: 1
 classref: 1
-sortOrder: 4218
 keywords: SaveListEntityByName(String,NSListEntity)
 ---
 

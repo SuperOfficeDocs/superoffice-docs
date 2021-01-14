@@ -3,7 +3,6 @@ title: NSSaleEntity CreateDefaultSaleEntity()
 path: /EJScript/Classes/NSSaleAgent/Member functions/NSSaleEntity CreateDefaultSaleEntity()
 intellisense: 1
 classref: 1
-sortOrder: 6943
 keywords: CreateDefaultSaleEntity()
 ---
 

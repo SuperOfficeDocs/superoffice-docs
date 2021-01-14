@@ -3,7 +3,6 @@ title: String GetCountry()
 path: /EJScript/Classes/NSParticipantSyncData/Member functions/String GetCountry()
 intellisense: 1
 classref: 1
-sortOrder: 4767
 keywords: GetCountry()
 ---
 

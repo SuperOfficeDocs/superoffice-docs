@@ -3,7 +3,6 @@ title: String getField(Integer column)
 path: /EJScript/Classes/StatResult/Member functions/String getField(Integer column)
 intellisense: 1
 classref: 1
-sortOrder: 9092
 keywords: getField(Integer)
 ---
 

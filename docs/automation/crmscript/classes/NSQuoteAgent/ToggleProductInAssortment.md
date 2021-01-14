@@ -3,7 +3,6 @@ title: Void ToggleProductInAssortment(Integer productId)
 path: /EJScript/Classes/NSQuoteAgent/Member functions/Void ToggleProductInAssortment(Integer p_0)
 intellisense: 1
 classref: 1
-sortOrder: 6048
 keywords: ToggleProductInAssortment(Integer)
 ---
 

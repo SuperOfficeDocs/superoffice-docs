@@ -3,7 +3,6 @@ title: NSQuoteConnection[] GetAllInstalledQuoteConnections()
 path: /EJScript/Classes/NSQuoteAgent/Member functions/NSQuoteConnection[] GetAllInstalledQuoteConnections()
 intellisense: 1
 classref: 1
-sortOrder: 5999
 keywords: GetAllInstalledQuoteConnections()
 ---
 

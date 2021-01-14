@@ -3,7 +3,6 @@ title: Void setSatStop(Time t)
 path: /EJScript/Classes/WeekSchedule/Member functions/Void setSatStop(Time t)
 intellisense: 1
 classref: 1
-sortOrder: 9285
 keywords: setSatStop(Time)
 ---
 

@@ -3,7 +3,6 @@ title: String GetAuthor()
 path: /EJScript/Classes/NSTicketEntity/Member functions/String GetAuthor()
 intellisense: 1
 classref: 1
-sortOrder: 8125
 keywords: GetAuthor()
 ---
 

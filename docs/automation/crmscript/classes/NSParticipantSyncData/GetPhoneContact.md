@@ -3,7 +3,6 @@ title: String[] GetPhoneContact()
 path: /EJScript/Classes/NSParticipantSyncData/Member functions/String[] GetPhoneContact()
 intellisense: 1
 classref: 1
-sortOrder: 4781
 keywords: GetPhoneContact()
 ---
 

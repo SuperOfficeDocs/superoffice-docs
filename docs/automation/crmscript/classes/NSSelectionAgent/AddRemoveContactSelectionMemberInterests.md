@@ -3,7 +3,6 @@ title: Void AddRemoveContactSelectionMemberInterests(Integer selectionId, Intege
 path: /EJScript/Classes/NSSelectionAgent/Member functions/Void AddRemoveContactSelectionMemberInterests(Integer p_0, Integer[] p_1, Integer[] p_2, Integer[] p_3, Integer[] p_4)
 intellisense: 1
 classref: 1
-sortOrder: 7381
 keywords: AddRemoveContactSelectionMemberInterests(Integer,Integer[],Integer[],Integer[],Integer[])
 ---
 

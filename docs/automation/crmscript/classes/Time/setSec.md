@@ -3,7 +3,6 @@ title: Void setSec(Integer sec)
 path: /EJScript/Classes/Time/Member functions/Void setSec(Integer sec)
 intellisense: 1
 classref: 1
-sortOrder: 9205
 keywords: setSec(Integer)
 ---
 

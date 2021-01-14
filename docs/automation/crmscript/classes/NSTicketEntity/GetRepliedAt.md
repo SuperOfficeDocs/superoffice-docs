@@ -3,7 +3,6 @@ title: DateTime GetRepliedAt()
 path: /EJScript/Classes/NSTicketEntity/Member functions/DateTime GetRepliedAt()
 intellisense: 1
 classref: 1
-sortOrder: 8095
 keywords: GetRepliedAt()
 ---
 

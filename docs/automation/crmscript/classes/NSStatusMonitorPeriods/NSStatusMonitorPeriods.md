@@ -3,7 +3,6 @@ title: NSStatusMonitorPeriods
 path: /EJScript/Classes/NSStatusMonitorPeriods
 intellisense: 1
 classref: 1
-sortOrder: 7711
 ---
 
 

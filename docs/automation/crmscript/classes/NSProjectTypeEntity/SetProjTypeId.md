@@ -3,7 +3,6 @@ title: Void SetProjTypeId(Integer ProjTypeId)
 path: /EJScript/Classes/NSProjectTypeEntity/Member functions/Void SetProjTypeId(Integer p_0)
 intellisense: 1
 classref: 1
-sortOrder: 5871
 keywords: SetProjTypeId(Integer)
 ---
 

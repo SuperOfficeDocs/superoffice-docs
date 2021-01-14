@@ -3,7 +3,6 @@ title: String BeginWriteStream(String taskId, String communicationModuleName, St
 path: /EJScript/Classes/NSTrayAppAgent/Member functions/String BeginWriteStream(String p_0, String p_1, String p_2, String p_3)
 intellisense: 1
 classref: 1
-sortOrder: 8387
 keywords: BeginWriteStream(String,String,String,String)
 ---
 

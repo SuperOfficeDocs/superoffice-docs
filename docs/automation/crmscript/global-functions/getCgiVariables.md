@@ -1,11 +1,9 @@
 ---
-title: Map getCgiVariables()
+description: Map getCgiVariables()
 path: /EJScript/Global functions/Map getCgiVariables()
 intellisense: 1
 langref: 1
-sortOrder: 9390
-keywords: getCgiVariables()
----
+keywords: getCgiVariables()---
 
 
 Returns a map of all cgi variables

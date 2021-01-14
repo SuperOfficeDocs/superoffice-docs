@@ -3,7 +3,6 @@ title: Integer GetAccessFlags()
 path: /EJScript/Classes/NSPreferenceDescription/Member functions/Integer GetAccessFlags()
 intellisense: 1
 classref: 1
-sortOrder: 5329
 keywords: GetAccessFlags()
 ---
 

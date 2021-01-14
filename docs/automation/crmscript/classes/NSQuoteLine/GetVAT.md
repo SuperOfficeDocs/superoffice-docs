@@ -3,7 +3,6 @@ title: Float GetVAT()
 path: /EJScript/Classes/NSQuoteLine/Member functions/Float GetVAT()
 intellisense: 1
 classref: 1
-sortOrder: 6201
 keywords: GetVAT()
 ---
 

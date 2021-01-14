@@ -3,7 +3,6 @@ title: NSUser CreateDefaultUserFromUserType(Integer userType)
 path: /EJScript/Classes/NSUserAgent/Member functions/NSUser CreateDefaultUserFromUserType(Integer p_0)
 intellisense: 1
 classref: 1
-sortOrder: 8495
 keywords: CreateDefaultUserFromUserType(Integer)
 ---
 

@@ -3,7 +3,6 @@ title: Void SetHasOwnInvoiceAddress(Bool HasOwnInvoiceAddress)
 path: /EJScript/Classes/NSQuoteVersion/Member functions/Void SetHasOwnInvoiceAddress(Bool p_0)
 intellisense: 1
 classref: 1
-sortOrder: 6396
 keywords: SetHasOwnInvoiceAddress(Bool)
 ---
 

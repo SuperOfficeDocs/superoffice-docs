@@ -3,7 +3,6 @@ title: String GetProductImage(Integer quoteConnectionId, String eRPProductKey, I
 path: /EJScript/Classes/NSQuoteAgent/Member functions/String GetProductImage(Integer p_0, String p_1, Integer p_2)
 intellisense: 1
 classref: 1
-sortOrder: 6032
 keywords: GetProductImage(Integer,String,Integer)
 ---
 

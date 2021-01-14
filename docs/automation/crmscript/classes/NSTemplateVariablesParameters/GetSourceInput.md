@@ -3,7 +3,6 @@ title: String GetSourceInput()
 path: /EJScript/Classes/NSTemplateVariablesParameters/Member functions/String GetSourceInput()
 intellisense: 1
 classref: 1
-sortOrder: 7930
 keywords: GetSourceInput()
 ---
 

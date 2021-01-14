@@ -3,7 +3,6 @@ title: NSPaymentTerm
 path: /EJScript/Classes/NSPaymentTerm
 intellisense: 1
 classref: 1
-sortOrder: 4821
 ---
 
 

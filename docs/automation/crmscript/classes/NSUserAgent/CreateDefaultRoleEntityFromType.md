@@ -3,7 +3,6 @@ title: NSRoleEntity CreateDefaultRoleEntityFromType(Integer type)
 path: /EJScript/Classes/NSUserAgent/Member functions/NSRoleEntity CreateDefaultRoleEntityFromType(Integer p_0)
 intellisense: 1
 classref: 1
-sortOrder: 8481
 keywords: CreateDefaultRoleEntityFromType(Integer)
 ---
 

@@ -3,7 +3,6 @@ title: NSWebPanelEntity CreateDefaultWebPanelEntity()
 path: /EJScript/Classes/NSListAgent/Member functions/NSWebPanelEntity CreateDefaultWebPanelEntity()
 intellisense: 1
 classref: 1
-sortOrder: 4353
 keywords: CreateDefaultWebPanelEntity()
 ---
 

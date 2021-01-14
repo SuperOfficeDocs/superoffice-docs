@@ -3,7 +3,6 @@ title: Bool GetIsAssociate()
 path: /EJScript/Classes/NSPersonEntity/Member functions/Bool GetIsAssociate()
 intellisense: 1
 classref: 1
-sortOrder: 4973
 keywords: GetIsAssociate()
 ---
 

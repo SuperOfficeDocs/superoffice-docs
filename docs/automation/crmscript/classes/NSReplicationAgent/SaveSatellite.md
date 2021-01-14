@@ -3,7 +3,6 @@ title: NSSatellite SaveSatellite(NSSatellite satellite)
 path: /EJScript/Classes/NSReplicationAgent/Member functions/NSSatellite SaveSatellite(NSSatellite p_0)
 intellisense: 1
 classref: 1
-sortOrder: 6686
 keywords: SaveSatellite(NSSatellite)
 ---
 

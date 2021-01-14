@@ -3,7 +3,6 @@ title: Profile
 path: /EJScript/Classes/Profile
 intellisense: 1
 classref: 1
-sortOrder: 8967
 ---
 
 

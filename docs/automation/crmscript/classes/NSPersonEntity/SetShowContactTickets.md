@@ -3,7 +3,6 @@ title: Void SetShowContactTickets(Integer ShowContactTickets)
 path: /EJScript/Classes/NSPersonEntity/Member functions/Void SetShowContactTickets(Integer p_0)
 intellisense: 1
 classref: 1
-sortOrder: 5090
 keywords: SetShowContactTickets(Integer)
 ---
 

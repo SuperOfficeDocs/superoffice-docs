@@ -3,7 +3,6 @@ title: NSDocumentTemplateEntity SaveDocumentTemplateEntity(NSDocumentTemplateEnt
 path: /EJScript/Classes/NSListAgent/Member functions/NSDocumentTemplateEntity SaveDocumentTemplateEntity(NSDocumentTemplateEntity p_0)
 intellisense: 1
 classref: 1
-sortOrder: 4184
 keywords: SaveDocumentTemplateEntity(NSDocumentTemplateEntity)
 ---
 

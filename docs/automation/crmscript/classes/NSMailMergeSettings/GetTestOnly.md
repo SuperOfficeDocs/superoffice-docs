@@ -3,7 +3,6 @@ title: Bool GetTestOnly()
 path: /EJScript/Classes/NSMailMergeSettings/Member functions/Bool GetTestOnly()
 intellisense: 1
 classref: 1
-sortOrder: 4486
 keywords: GetTestOnly()
 ---
 

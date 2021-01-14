@@ -3,7 +3,6 @@ title: NSUserDefinedFieldInfo GetUserDefinedFieldFromFieldLabel(String fieldLabe
 path: /EJScript/Classes/NSUserDefinedFieldInfoAgent/Member functions/NSUserDefinedFieldInfo GetUserDefinedFieldFromFieldLabel(String p_0, Integer p_1)
 intellisense: 1
 classref: 1
-sortOrder: 8633
 keywords: GetUserDefinedFieldFromFieldLabel(String,Integer)
 ---
 

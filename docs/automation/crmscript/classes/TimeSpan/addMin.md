@@ -3,7 +3,6 @@ title: Void addMin(Integer num)
 path: /EJScript/Classes/TimeSpan/Member functions/Void addMin(Integer num)
 intellisense: 1
 classref: 1
-sortOrder: 9228
 keywords: addMin(Integer)
 ---
 

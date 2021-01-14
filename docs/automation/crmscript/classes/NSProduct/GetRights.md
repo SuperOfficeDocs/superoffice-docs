@@ -3,7 +3,6 @@ title: String GetRights()
 path: /EJScript/Classes/NSProduct/Member functions/String GetRights()
 intellisense: 1
 classref: 1
-sortOrder: 5450
 keywords: GetRights()
 ---
 

@@ -3,7 +3,6 @@ title: Void SetFutureOpenTotalBaseCurrency(Float FutureOpenTotalBaseCurrency)
 path: /EJScript/Classes/NSSaleSummary/Member functions/Void SetFutureOpenTotalBaseCurrency(Float p_0)
 intellisense: 1
 classref: 1
-sortOrder: 7156
 keywords: SetFutureOpenTotalBaseCurrency(Float)
 ---
 

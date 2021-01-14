@@ -3,7 +3,6 @@ title: Bool GetSendEmail()
 path: /EJScript/Classes/NSParticipantInfo/Member functions/Bool GetSendEmail()
 intellisense: 1
 classref: 1
-sortOrder: 4739
 keywords: GetSendEmail()
 ---
 

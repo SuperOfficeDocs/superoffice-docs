@@ -3,7 +3,6 @@ title: NSMDOListItem[] GetTicketCategoriesForUserGroups(Integer[] userGroupIds)
 path: /EJScript/Classes/NSListAgent/Member functions/NSMDOListItem[] GetTicketCategoriesForUserGroups(Integer[] p_0)
 intellisense: 1
 classref: 1
-sortOrder: 4240
 keywords: GetTicketCategoriesForUserGroups(Integer[])
 ---
 

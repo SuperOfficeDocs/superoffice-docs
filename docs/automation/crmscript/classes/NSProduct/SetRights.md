@@ -3,7 +3,6 @@ title: Void SetRights(String Rights)
 path: /EJScript/Classes/NSProduct/Member functions/Void SetRights(String p_0)
 intellisense: 1
 classref: 1
-sortOrder: 5480
 keywords: SetRights(String)
 ---
 

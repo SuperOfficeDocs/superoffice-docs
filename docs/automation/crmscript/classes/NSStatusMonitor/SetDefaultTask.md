@@ -3,7 +3,6 @@ title: Void SetDefaultTask(Integer DefaultTask)
 path: /EJScript/Classes/NSStatusMonitor/Member functions/Void SetDefaultTask(Integer p_0)
 intellisense: 1
 classref: 1
-sortOrder: 7696
 keywords: SetDefaultTask(Integer)
 ---
 

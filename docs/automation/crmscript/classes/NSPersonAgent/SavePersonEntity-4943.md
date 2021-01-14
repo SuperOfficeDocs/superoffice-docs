@@ -3,7 +3,6 @@ title: Void SavePersonEntity(NSPersonEntity personEntity)
 path: /EJScript/Classes/NSPersonAgent/Member functions/Void SavePersonEntity(NSPersonEntity p_0)
 intellisense: 1
 classref: 1
-sortOrder: 4966
 keywords: SavePersonEntity(NSPersonEntity)
 ---
 

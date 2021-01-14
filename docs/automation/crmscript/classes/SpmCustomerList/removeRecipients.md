@@ -3,7 +3,6 @@ title: Void removeRecipients()
 path: /EJScript/Classes/SpmCustomerList/Member functions/Void removeRecipients()
 intellisense: 1
 classref: 1
-sortOrder: 9033
 keywords: removeRecipients()
 ---
 

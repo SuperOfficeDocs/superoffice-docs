@@ -3,7 +3,6 @@ title: NSUserDefinedFieldInfo[] GetUserDefinedFieldFromProgIds(String[] progIds,
 path: /EJScript/Classes/NSUserDefinedFieldInfoAgent/Member functions/NSUserDefinedFieldInfo[] GetUserDefinedFieldFromProgIds(String[] p_0, Integer p_1)
 intellisense: 1
 classref: 1
-sortOrder: 8641
 keywords: GetUserDefinedFieldFromProgIds(String[],Integer)
 ---
 

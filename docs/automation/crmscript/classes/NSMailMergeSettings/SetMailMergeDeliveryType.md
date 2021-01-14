@@ -3,7 +3,6 @@ title: Void SetMailMergeDeliveryType(Integer MailMergeDeliveryType)
 path: /EJScript/Classes/NSMailMergeSettings/Member functions/Void SetMailMergeDeliveryType(Integer p_0)
 intellisense: 1
 classref: 1
-sortOrder: 4512
 keywords: SetMailMergeDeliveryType(Integer)
 ---
 

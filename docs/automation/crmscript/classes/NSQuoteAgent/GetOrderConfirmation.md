@@ -3,7 +3,6 @@ title: String GetOrderConfirmation(Integer quoteVersionId, Integer confirmationT
 path: /EJScript/Classes/NSQuoteAgent/Member functions/String GetOrderConfirmation(Integer p_0, Integer p_1)
 intellisense: 1
 classref: 1
-sortOrder: 6031
 keywords: GetOrderConfirmation(Integer,Integer)
 ---
 

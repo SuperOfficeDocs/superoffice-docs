@@ -3,7 +3,6 @@ title: NSTicketReadStatus GetReadStatus()
 path: /EJScript/Classes/NSTicket/Member functions/NSTicketReadStatus GetReadStatus()
 intellisense: 1
 classref: 1
-sortOrder: 7993
 keywords: GetReadStatus()
 ---
 

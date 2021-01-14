@@ -3,7 +3,6 @@ title: Integer GetLastVersionId()
 path: /EJScript/Classes/NSUserDefinedFieldInfo/Member functions/Integer GetLastVersionId()
 intellisense: 1
 classref: 1
-sortOrder: 8560
 keywords: GetLastVersionId()
 ---
 

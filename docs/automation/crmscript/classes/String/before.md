@@ -3,7 +3,6 @@ title: String before(String searchText)
 path: /EJScript/Classes/String/Member functions/String before(String searchText)
 intellisense: 1
 classref: 1
-sortOrder: 9127
 keywords: before(String)
 ---
 

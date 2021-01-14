@@ -3,7 +3,6 @@ title: NSPersonEntity
 path: /EJScript/Classes/NSPersonEntity
 intellisense: 1
 classref: 1
-sortOrder: 4971
 ---
 
 

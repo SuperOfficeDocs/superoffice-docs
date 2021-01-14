@@ -3,7 +3,6 @@ title: Integer GetMinEarningPercent()
 path: /EJScript/Classes/NSSaleTypeEntity/Member functions/Integer GetMinEarningPercent()
 intellisense: 1
 classref: 1
-sortOrder: 7221
 keywords: GetMinEarningPercent()
 ---
 

@@ -3,7 +3,6 @@ title: Bool hasTicketAccess(Integer ticketId, Integer accessLevel)
 path: /EJScript/Classes/User/Member functions/Bool hasTicketAccess(Integer ticketId, Integer accessLevel)
 intellisense: 1
 classref: 1
-sortOrder: 9239
 keywords: hasTicketAccess(Integer,Integer)
 ---
 

@@ -3,7 +3,6 @@ title: Void checkEscalating(Integer action)
 path: /EJScript/Classes/Ticket/Member functions/Void checkEscalating(Integer action)
 intellisense: 1
 classref: 1
-sortOrder: 9188
 keywords: checkEscalating(Integer)
 ---
 

@@ -3,7 +3,6 @@ title: Void SetSearchModeDepartment(Integer SearchModeDepartment)
 path: /EJScript/Classes/NSPhoneListPreferences/Member functions/Void SetSearchModeDepartment(Integer p_0)
 intellisense: 1
 classref: 1
-sortOrder: 5162
 keywords: SetSearchModeDepartment(Integer)
 ---
 

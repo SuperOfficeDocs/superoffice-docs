@@ -3,7 +3,6 @@ title: NSProjectMember CreateDefaultProjectMember()
 path: /EJScript/Classes/NSProjectAgent/Member functions/NSProjectMember CreateDefaultProjectMember()
 intellisense: 1
 classref: 1
-sortOrder: 5597
 keywords: CreateDefaultProjectMember()
 ---
 

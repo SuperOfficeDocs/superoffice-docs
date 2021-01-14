@@ -3,7 +3,6 @@ title: String GetModuleName()
 path: /EJScript/Classes/NSModuleLicense/Member functions/String GetModuleName()
 intellisense: 1
 classref: 1
-sortOrder: 4625
 keywords: GetModuleName()
 ---
 

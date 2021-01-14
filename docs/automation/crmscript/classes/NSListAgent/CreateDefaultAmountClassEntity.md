@@ -3,7 +3,6 @@ title: NSAmountClassEntity CreateDefaultAmountClassEntity()
 path: /EJScript/Classes/NSListAgent/Member functions/NSAmountClassEntity CreateDefaultAmountClassEntity()
 intellisense: 1
 classref: 1
-sortOrder: 4122
 keywords: CreateDefaultAmountClassEntity()
 ---
 

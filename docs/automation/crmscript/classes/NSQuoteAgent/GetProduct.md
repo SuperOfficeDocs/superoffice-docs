@@ -3,7 +3,6 @@ title: NSProduct GetProduct(Integer quoteConnectionId, String eRPProductKey)
 path: /EJScript/Classes/NSQuoteAgent/Member functions/NSProduct GetProduct(Integer p_0, String p_1)
 intellisense: 1
 classref: 1
-sortOrder: 5979
 keywords: GetProduct(Integer,String)
 ---
 

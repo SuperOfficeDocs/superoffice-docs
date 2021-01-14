@@ -3,7 +3,6 @@ title: Float GetOpenWeightedBaseCurrency()
 path: /EJScript/Classes/NSSaleSummary/Member functions/Float GetOpenWeightedBaseCurrency()
 intellisense: 1
 classref: 1
-sortOrder: 7133
 keywords: GetOpenWeightedBaseCurrency()
 ---
 

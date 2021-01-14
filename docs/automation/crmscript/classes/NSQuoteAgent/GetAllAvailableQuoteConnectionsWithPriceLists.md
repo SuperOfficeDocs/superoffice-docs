@@ -3,7 +3,6 @@ title: NSQuoteConnection[] GetAllAvailableQuoteConnectionsWithPriceLists()
 path: /EJScript/Classes/NSQuoteAgent/Member functions/NSQuoteConnection[] GetAllAvailableQuoteConnectionsWithPriceLists()
 intellisense: 1
 classref: 1
-sortOrder: 5998
 keywords: GetAllAvailableQuoteConnectionsWithPriceLists()
 ---
 

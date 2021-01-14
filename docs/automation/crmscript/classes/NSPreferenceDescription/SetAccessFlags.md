@@ -3,7 +3,6 @@ title: Void SetAccessFlags(Integer AccessFlags)
 path: /EJScript/Classes/NSPreferenceDescription/Member functions/Void SetAccessFlags(Integer p_0)
 intellisense: 1
 classref: 1
-sortOrder: 5348
 keywords: SetAccessFlags(Integer)
 ---
 

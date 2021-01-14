@@ -3,7 +3,6 @@ title: NSUserDefinedFieldInfo CreateUserDefinedFieldInfo(Integer ownerType, Inte
 path: /EJScript/Classes/NSUserDefinedFieldInfoAgent/Member functions/NSUserDefinedFieldInfo CreateUserDefinedFieldInfo(Integer p_0, Integer p_1)
 intellisense: 1
 classref: 1
-sortOrder: 8630
 keywords: CreateUserDefinedFieldInfo(Integer,Integer)
 ---
 

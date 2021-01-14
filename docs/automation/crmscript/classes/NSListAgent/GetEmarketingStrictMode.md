@@ -3,7 +3,6 @@ title: Bool GetEmarketingStrictMode()
 path: /EJScript/Classes/NSListAgent/Member functions/Bool GetEmarketingStrictMode()
 intellisense: 1
 classref: 1
-sortOrder: 4119
 keywords: GetEmarketingStrictMode()
 ---
 

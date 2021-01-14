@@ -3,7 +3,6 @@ title: NSTask[] GetDocumentTemplatesTasks()
 path: /EJScript/Classes/NSListAgent/Member functions/NSTask[] GetDocumentTemplatesTasks()
 intellisense: 1
 classref: 1
-sortOrder: 4329
 keywords: GetDocumentTemplatesTasks()
 ---
 

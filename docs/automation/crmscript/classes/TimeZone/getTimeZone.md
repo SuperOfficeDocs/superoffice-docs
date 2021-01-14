@@ -3,7 +3,6 @@ title: String getTimeZone()
 path: /EJScript/Classes/TimeZone/Member functions/String getTimeZone()
 intellisense: 1
 classref: 1
-sortOrder: 9236
 keywords: getTimeZone()
 ---
 

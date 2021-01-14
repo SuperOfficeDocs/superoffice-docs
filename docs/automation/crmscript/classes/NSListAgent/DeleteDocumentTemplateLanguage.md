@@ -3,7 +3,6 @@ title: Void DeleteDocumentTemplateLanguage(Integer documentTemplateId, String la
 path: /EJScript/Classes/NSListAgent/Member functions/Void DeleteDocumentTemplateLanguage(Integer p_0, String p_1)
 intellisense: 1
 classref: 1
-sortOrder: 4374
 keywords: DeleteDocumentTemplateLanguage(Integer,String)
 ---
 

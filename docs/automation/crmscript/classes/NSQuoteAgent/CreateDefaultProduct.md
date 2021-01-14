@@ -3,7 +3,6 @@ title: NSProduct CreateDefaultProduct()
 path: /EJScript/Classes/NSQuoteAgent/Member functions/NSProduct CreateDefaultProduct()
 intellisense: 1
 classref: 1
-sortOrder: 5978
 keywords: CreateDefaultProduct()
 ---
 

@@ -3,7 +3,6 @@ title: Bool GetHasImage()
 path: /EJScript/Classes/NSProjectEntity/Member functions/Bool GetHasImage()
 intellisense: 1
 classref: 1
-sortOrder: 5619
 keywords: GetHasImage()
 ---
 

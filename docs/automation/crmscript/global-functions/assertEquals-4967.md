@@ -1,11 +1,9 @@
 ---
-title: Void assertEquals(Integer integer1, Integer integer2)
+description: Void assertEquals(Integer integer1, Integer integer2)
 path: /EJScript/Global functions/Void assertEquals(Integer integer1, Integer integer2)
 intellisense: 1
 langref: 1
-sortOrder: 9499
-keywords: assertEquals(Integer,Integer)
----
+keywords: assertEquals(Integer,Integer)---
 
 
 This method is used primarily with unit testing.

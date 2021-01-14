@@ -3,7 +3,6 @@ title: NSStatusMonitor[] GetStatusMonitors(Integer id, String type)
 path: /EJScript/Classes/NSSaintAgent/Member functions/NSStatusMonitor[] GetStatusMonitors(Integer p_0, String p_1)
 intellisense: 1
 classref: 1
-sortOrder: 6852
 keywords: GetStatusMonitors(Integer,String)
 ---
 

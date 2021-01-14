@@ -3,7 +3,6 @@ title: NSPersonEntity CreateDefaultFromCredential(Integer contactId, String cred
 path: /EJScript/Classes/NSPersonAgent/Member functions/NSPersonEntity CreateDefaultFromCredential(Integer p_0, String p_1, String p_2, String p_3)
 intellisense: 1
 classref: 1
-sortOrder: 4947
 keywords: CreateDefaultFromCredential(Integer,String,String,String)
 ---
 

@@ -3,7 +3,6 @@ title: Integer compare(String p0)
 path: /EJScript/Classes/String/Member functions/Integer compare(String p_0)
 intellisense: 1
 classref: 1
-sortOrder: 9119
 keywords: compare(String)
 ---
 

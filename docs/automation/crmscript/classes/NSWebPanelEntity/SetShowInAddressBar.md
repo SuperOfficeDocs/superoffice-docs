@@ -3,7 +3,6 @@ title: Void SetShowInAddressBar(Bool ShowInAddressBar)
 path: /EJScript/Classes/NSWebPanelEntity/Member functions/Void SetShowInAddressBar(Bool p_0)
 intellisense: 1
 classref: 1
-sortOrder: 8846
 keywords: SetShowInAddressBar(Bool)
 ---
 

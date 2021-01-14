@@ -3,7 +3,6 @@ title: Void SetTabOrder(Integer TabOrder)
 path: /EJScript/Classes/NSUserDefinedFieldInfo/Member functions/Void SetTabOrder(Integer p_0)
 intellisense: 1
 classref: 1
-sortOrder: 8607
 keywords: SetTabOrder(Integer)
 ---
 

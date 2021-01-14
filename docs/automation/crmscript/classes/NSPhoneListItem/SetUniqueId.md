@@ -3,7 +3,6 @@ title: Void SetUniqueId(String UniqueId)
 path: /EJScript/Classes/NSPhoneListItem/Member functions/Void SetUniqueId(String p_0)
 intellisense: 1
 classref: 1
-sortOrder: 5146
 keywords: SetUniqueId(String)
 ---
 

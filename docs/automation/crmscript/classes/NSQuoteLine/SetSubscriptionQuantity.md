@@ -3,7 +3,6 @@ title: Void SetSubscriptionQuantity(Float SubscriptionQuantity)
 path: /EJScript/Classes/NSQuoteLine/Member functions/Void SetSubscriptionQuantity(Float p_0)
 intellisense: 1
 classref: 1
-sortOrder: 6271
 keywords: SetSubscriptionQuantity(Float)
 ---
 

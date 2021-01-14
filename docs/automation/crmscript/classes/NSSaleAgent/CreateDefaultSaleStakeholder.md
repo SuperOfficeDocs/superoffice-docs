@@ -3,7 +3,6 @@ title: NSSaleStakeholder CreateDefaultSaleStakeholder()
 path: /EJScript/Classes/NSSaleAgent/Member functions/NSSaleStakeholder CreateDefaultSaleStakeholder()
 intellisense: 1
 classref: 1
-sortOrder: 6947
 keywords: CreateDefaultSaleStakeholder()
 ---
 

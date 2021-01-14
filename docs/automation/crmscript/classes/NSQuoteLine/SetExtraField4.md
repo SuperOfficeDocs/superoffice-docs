@@ -3,7 +3,6 @@ title: Void SetExtraField4(String ExtraField4)
 path: /EJScript/Classes/NSQuoteLine/Member functions/Void SetExtraField4(String p_0)
 intellisense: 1
 classref: 1
-sortOrder: 6250
 keywords: SetExtraField4(String)
 ---
 

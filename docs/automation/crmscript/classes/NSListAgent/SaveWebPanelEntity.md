@@ -3,7 +3,6 @@ title: NSWebPanelEntity SaveWebPanelEntity(NSWebPanelEntity webPanelEntity)
 path: /EJScript/Classes/NSListAgent/Member functions/NSWebPanelEntity SaveWebPanelEntity(NSWebPanelEntity p_0)
 intellisense: 1
 classref: 1
-sortOrder: 4356
 keywords: SaveWebPanelEntity(NSWebPanelEntity)
 ---
 

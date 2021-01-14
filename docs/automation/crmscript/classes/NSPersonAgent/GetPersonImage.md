@@ -3,7 +3,6 @@ title: NSImage GetPersonImage(Integer personId)
 path: /EJScript/Classes/NSPersonAgent/Member functions/NSImage GetPersonImage(Integer p_0)
 intellisense: 1
 classref: 1
-sortOrder: 4933
 keywords: GetPersonImage(Integer)
 ---
 

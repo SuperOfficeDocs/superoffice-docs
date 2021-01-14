@@ -3,7 +3,6 @@ title: Integer GetScope()
 path: /EJScript/Classes/NSSystemEventEntity/Member functions/Integer GetScope()
 intellisense: 1
 classref: 1
-sortOrder: 7821
 keywords: GetScope()
 ---
 

@@ -3,7 +3,6 @@ title: NSTicketPriorityEntity
 path: /EJScript/Classes/NSTicketPriorityEntity
 intellisense: 1
 classref: 1
-sortOrder: 8247
 ---
 
 

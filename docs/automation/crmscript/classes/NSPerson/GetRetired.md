@@ -3,7 +3,6 @@ title: Integer GetRetired()
 path: /EJScript/Classes/NSPerson/Member functions/Integer GetRetired()
 intellisense: 1
 classref: 1
-sortOrder: 4848
 keywords: GetRetired()
 ---
 

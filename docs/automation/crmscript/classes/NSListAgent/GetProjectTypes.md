@@ -3,7 +3,6 @@ title: NSProjectType[] GetProjectTypes()
 path: /EJScript/Classes/NSListAgent/Member functions/NSProjectType[] GetProjectTypes()
 intellisense: 1
 classref: 1
-sortOrder: 4269
 keywords: GetProjectTypes()
 ---
 

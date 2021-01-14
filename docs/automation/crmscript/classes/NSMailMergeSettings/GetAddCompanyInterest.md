@@ -3,7 +3,6 @@ title: Integer GetAddCompanyInterest()
 path: /EJScript/Classes/NSMailMergeSettings/Member functions/Integer GetAddCompanyInterest()
 intellisense: 1
 classref: 1
-sortOrder: 4487
 keywords: GetAddCompanyInterest()
 ---
 

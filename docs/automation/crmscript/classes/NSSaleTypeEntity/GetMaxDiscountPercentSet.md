@@ -3,7 +3,6 @@ title: Bool GetMaxDiscountPercentSet()
 path: /EJScript/Classes/NSSaleTypeEntity/Member functions/Bool GetMaxDiscountPercentSet()
 intellisense: 1
 classref: 1
-sortOrder: 7214
 keywords: GetMaxDiscountPercentSet()
 ---
 

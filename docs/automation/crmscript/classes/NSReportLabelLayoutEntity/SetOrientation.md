@@ -3,7 +3,6 @@ title: Void SetOrientation(Integer Orientation)
 path: /EJScript/Classes/NSReportLabelLayoutEntity/Member functions/Void SetOrientation(Integer p_0)
 intellisense: 1
 classref: 1
-sortOrder: 6743
 keywords: SetOrientation(Integer)
 ---
 

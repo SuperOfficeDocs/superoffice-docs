@@ -3,7 +3,6 @@ title: NSCountry[] GetCountries()
 path: /EJScript/Classes/NSListAgent/Member functions/NSCountry[] GetCountries()
 intellisense: 1
 classref: 1
-sortOrder: 4149
 keywords: GetCountries()
 ---
 

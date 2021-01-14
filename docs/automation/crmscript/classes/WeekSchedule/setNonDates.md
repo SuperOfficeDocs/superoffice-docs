@@ -3,7 +3,6 @@ title: Void setNonDates(String dates)
 path: /EJScript/Classes/WeekSchedule/Member functions/Void setNonDates(String dates)
 intellisense: 1
 classref: 1
-sortOrder: 9283
 keywords: setNonDates(String)
 ---
 

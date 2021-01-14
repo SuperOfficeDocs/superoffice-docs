@@ -3,7 +3,6 @@ title: Void SetStartRulePattern(String StartRulePattern)
 path: /EJScript/Classes/NSTimeZoneRule/Member functions/Void SetStartRulePattern(String p_0)
 intellisense: 1
 classref: 1
-sortOrder: 8378
 keywords: SetStartRulePattern(String)
 ---
 

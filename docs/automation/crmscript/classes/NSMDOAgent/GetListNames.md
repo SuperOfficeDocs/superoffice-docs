@@ -3,7 +3,6 @@ title: String[] GetListNames()
 path: /EJScript/Classes/NSMDOAgent/Member functions/String[] GetListNames()
 intellisense: 1
 classref: 1
-sortOrder: 4569
 keywords: GetListNames()
 ---
 

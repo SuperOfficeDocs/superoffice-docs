@@ -3,7 +3,6 @@ title: Integer GetAlertLevel()
 path: /EJScript/Classes/NSTicketEntity/Member functions/Integer GetAlertLevel()
 intellisense: 1
 classref: 1
-sortOrder: 8096
 keywords: GetAlertLevel()
 ---
 

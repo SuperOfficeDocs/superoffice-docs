@@ -3,7 +3,6 @@ title: String GetERPProductKey()
 path: /EJScript/Classes/NSProduct/Member functions/String GetERPProductKey()
 intellisense: 1
 classref: 1
-sortOrder: 5436
 keywords: GetERPProductKey()
 ---
 

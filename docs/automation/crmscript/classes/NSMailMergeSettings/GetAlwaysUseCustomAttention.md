@@ -3,7 +3,6 @@ title: Bool GetAlwaysUseCustomAttention()
 path: /EJScript/Classes/NSMailMergeSettings/Member functions/Bool GetAlwaysUseCustomAttention()
 intellisense: 1
 classref: 1
-sortOrder: 4479
 keywords: GetAlwaysUseCustomAttention()
 ---
 

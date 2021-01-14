@@ -3,7 +3,6 @@ title: Bool toBool()
 path: /EJScript/Classes/String/Member functions/Bool toBool()
 intellisense: 1
 classref: 1
-sortOrder: 9113
 keywords: toBool()
 ---
 

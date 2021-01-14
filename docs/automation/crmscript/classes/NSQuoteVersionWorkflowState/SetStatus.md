@@ -3,7 +3,6 @@ title: Void SetStatus(NSQuoteVersionStatusInformation Status)
 path: /EJScript/Classes/NSQuoteVersionWorkflowState/Member functions/Void SetStatus(NSQuoteVersionStatusInformation p_0)
 intellisense: 1
 classref: 1
-sortOrder: 6469
 keywords: SetStatus(NSQuoteVersionStatusInformation)
 ---
 

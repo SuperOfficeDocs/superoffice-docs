@@ -3,7 +3,6 @@ title: NSConsentPurpose SaveConsentPurpose(NSConsentPurpose consentPurpose)
 path: /EJScript/Classes/NSListAgent/Member functions/NSConsentPurpose SaveConsentPurpose(NSConsentPurpose p_0)
 intellisense: 1
 classref: 1
-sortOrder: 4138
 keywords: SaveConsentPurpose(NSConsentPurpose)
 ---
 

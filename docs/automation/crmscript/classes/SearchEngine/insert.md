@@ -3,7 +3,6 @@ title: Integer insert()
 path: /EJScript/Classes/SearchEngine/member functions/Integer insert()
 intellisense: 1
 classref: 1
-sortOrder: 8988
 keywords: insert()
 ---
 

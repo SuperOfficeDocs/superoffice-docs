@@ -3,7 +3,6 @@ title: Timer
 path: /EJScript/Classes/Timer
 intellisense: 1
 classref: 1
-sortOrder: 9206
 ---
 
 

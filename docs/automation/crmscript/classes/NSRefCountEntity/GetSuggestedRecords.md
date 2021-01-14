@@ -3,7 +3,6 @@ title: NSMDOListItem[] GetSuggestedRecords()
 path: /EJScript/Classes/NSRefCountEntity/Member functions/NSMDOListItem[] GetSuggestedRecords()
 intellisense: 1
 classref: 1
-sortOrder: 6632
 keywords: GetSuggestedRecords()
 ---
 

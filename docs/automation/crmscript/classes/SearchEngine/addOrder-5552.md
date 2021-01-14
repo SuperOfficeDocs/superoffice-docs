@@ -3,7 +3,6 @@ title: Void addOrder(String field, String function, Bool ascending)
 path: /EJScript/Classes/SearchEngine/member functions/Void addOrder(String field, String function, Bool ascending)
 intellisense: 1
 classref: 1
-sortOrder: 9016
 keywords: addOrder(String,String,Bool)
 ---
 

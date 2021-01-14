@@ -3,7 +3,6 @@ title: Bool first()
 path: /EJScript/Classes/SearchEngine/member functions/Bool first()
 intellisense: 1
 classref: 1
-sortOrder: 8982
 keywords: first()
 ---
 

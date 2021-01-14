@@ -3,7 +3,6 @@ title: NSPhoneListPreferences GetPreferences()
 path: /EJScript/Classes/NSPhoneListAgent/Member functions/NSPhoneListPreferences GetPreferences()
 intellisense: 1
 classref: 1
-sortOrder: 5123
 keywords: GetPreferences()
 ---
 

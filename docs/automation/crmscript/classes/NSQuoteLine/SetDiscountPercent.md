@@ -3,7 +3,6 @@ title: Void SetDiscountPercent(Float DiscountPercent)
 path: /EJScript/Classes/NSQuoteLine/Member functions/Void SetDiscountPercent(Float p_0)
 intellisense: 1
 classref: 1
-sortOrder: 6240
 keywords: SetDiscountPercent(Float)
 ---
 

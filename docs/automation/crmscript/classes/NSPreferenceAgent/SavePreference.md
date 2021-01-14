@@ -3,7 +3,6 @@ title: Void SavePreference(NSPreference preference)
 path: /EJScript/Classes/NSPreferenceAgent/Member functions/Void SavePreference(NSPreference p_0)
 intellisense: 1
 classref: 1
-sortOrder: 5320
 keywords: SavePreference(NSPreference)
 ---
 

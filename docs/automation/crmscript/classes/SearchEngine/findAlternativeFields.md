@@ -3,7 +3,6 @@ title: String[] findAlternativeFields(String fieldBeginsWith)
 path: /EJScript/Classes/SearchEngine/member functions/String[] findAlternativeFields(String fieldBeginsWith)
 intellisense: 1
 classref: 1
-sortOrder: 8999
 keywords: findAlternativeFields(String)
 ---
 

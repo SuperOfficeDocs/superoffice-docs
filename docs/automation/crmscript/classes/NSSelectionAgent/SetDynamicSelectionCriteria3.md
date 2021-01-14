@@ -3,7 +3,6 @@ title: NSArchiveRestrictionInfo[] SetDynamicSelectionCriteria3(Integer selection
 path: /EJScript/Classes/NSSelectionAgent/Member functions/NSArchiveRestrictionInfo[] SetDynamicSelectionCriteria3(Integer p_0, NSArchiveRestrictionInfo[] p_1, String p_2)
 intellisense: 1
 classref: 1
-sortOrder: 7361
 keywords: SetDynamicSelectionCriteria3(Integer,NSArchiveRestrictionInfo[],String)
 ---
 

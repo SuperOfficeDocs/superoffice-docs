@@ -3,7 +3,6 @@ title: NSFormEntity CreateDefaultFormEntity()
 path: /EJScript/Classes/NSMarketingAgent/Member functions/NSFormEntity CreateDefaultFormEntity()
 intellisense: 1
 classref: 1
-sortOrder: 4548
 keywords: CreateDefaultFormEntity()
 ---
 

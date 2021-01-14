@@ -3,7 +3,6 @@ title: Void SetBusiness(NSBusiness Business)
 path: /EJScript/Classes/NSPersonEntity/Member functions/Void SetBusiness(NSBusiness p_0)
 intellisense: 1
 classref: 1
-sortOrder: 5044
 keywords: SetBusiness(NSBusiness)
 ---
 

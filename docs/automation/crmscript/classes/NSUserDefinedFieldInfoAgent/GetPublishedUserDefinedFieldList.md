@@ -3,7 +3,6 @@ title: NSUserDefinedFieldInfo[] GetPublishedUserDefinedFieldList(Integer ownerTy
 path: /EJScript/Classes/NSUserDefinedFieldInfoAgent/Member functions/NSUserDefinedFieldInfo[] GetPublishedUserDefinedFieldList(Integer p_0)
 intellisense: 1
 classref: 1
-sortOrder: 8638
 keywords: GetPublishedUserDefinedFieldList(Integer)
 ---
 

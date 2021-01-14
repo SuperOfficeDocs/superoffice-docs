@@ -3,7 +3,6 @@ title: NSProjectStatus GetProjectStatus()
 path: /EJScript/Classes/NSProjectEntity/Member functions/NSProjectStatus GetProjectStatus()
 intellisense: 1
 classref: 1
-sortOrder: 5642
 keywords: GetProjectStatus()
 ---
 

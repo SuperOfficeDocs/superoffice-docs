@@ -3,7 +3,6 @@ title: NSTicketPriorityEntity CreateDefaultTicketPriorityEntity()
 path: /EJScript/Classes/NSListAgent/Member functions/NSTicketPriorityEntity CreateDefaultTicketPriorityEntity()
 intellisense: 1
 classref: 1
-sortOrder: 4343
 keywords: CreateDefaultTicketPriorityEntity()
 ---
 

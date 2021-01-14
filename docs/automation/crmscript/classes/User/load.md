@@ -3,7 +3,6 @@ title: Bool load(Integer p\_id)
 path: /EJScript/Classes/User/Member functions/Bool load(Integer p_id)
 intellisense: 1
 classref: 1
-sortOrder: 9242
 keywords: load(Integer)
 ---
 

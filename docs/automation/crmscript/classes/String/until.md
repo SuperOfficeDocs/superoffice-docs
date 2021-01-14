@@ -3,7 +3,6 @@ title: String until(String s)
 path: /EJScript/Classes/String/Member functions/String until(String s)
 intellisense: 1
 classref: 1
-sortOrder: 9146
 keywords: until(String)
 ---
 

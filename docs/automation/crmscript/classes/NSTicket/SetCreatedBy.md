@@ -3,7 +3,6 @@ title: Void SetCreatedBy(Integer CreatedBy)
 path: /EJScript/Classes/NSTicket/Member functions/Void SetCreatedBy(Integer p_0)
 intellisense: 1
 classref: 1
-sortOrder: 8007
 keywords: SetCreatedBy(Integer)
 ---
 

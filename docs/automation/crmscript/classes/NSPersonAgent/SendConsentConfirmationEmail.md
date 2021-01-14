@@ -3,7 +3,6 @@ title: Void SendConsentConfirmationEmail(Integer personId, String emailAddress, 
 path: /EJScript/Classes/NSPersonAgent/Member functions/Void SendConsentConfirmationEmail(Integer p_0, String p_1, Integer p_2, Integer p_3, String p_4)
 intellisense: 1
 classref: 1
-sortOrder: 4967
 keywords: SendConsentConfirmationEmail(Integer,String,Integer,Integer,String)
 ---
 

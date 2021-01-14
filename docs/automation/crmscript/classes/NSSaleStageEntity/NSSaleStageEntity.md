@@ -3,7 +3,6 @@ title: NSSaleStageEntity
 path: /EJScript/Classes/NSSaleStageEntity
 intellisense: 1
 classref: 1
-sortOrder: 7065
 ---
 
 

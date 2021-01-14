@@ -3,7 +3,6 @@ title: String GetKanafname()
 path: /EJScript/Classes/NSPerson/Member functions/String GetKanafname()
 intellisense: 1
 classref: 1
-sortOrder: 4868
 keywords: GetKanafname()
 ---
 

@@ -3,7 +3,6 @@ title: Bool GetIsAvailable()
 path: /EJScript/Classes/NSQuoteConnection/Member functions/Bool GetIsAvailable()
 intellisense: 1
 classref: 1
-sortOrder: 6113
 keywords: GetIsAvailable()
 ---
 

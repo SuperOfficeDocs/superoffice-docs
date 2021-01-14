@@ -3,7 +3,6 @@ title: Bool IncludeQuoteVersionAttachment(Integer quoteVersionId, Integer docume
 path: /EJScript/Classes/NSQuoteAgent/Member functions/Bool IncludeQuoteVersionAttachment(Integer p_0, Integer p_1, Bool p_2)
 intellisense: 1
 classref: 1
-sortOrder: 5950
 keywords: IncludeQuoteVersionAttachment(Integer,Integer,Bool)
 ---
 

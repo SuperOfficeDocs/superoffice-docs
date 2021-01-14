@@ -3,7 +3,6 @@ title: NSUser
 path: /EJScript/Classes/NSUser
 intellisense: 1
 classref: 1
-sortOrder: 8407
 ---
 
 

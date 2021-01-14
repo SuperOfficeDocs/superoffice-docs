@@ -3,7 +3,6 @@ title: String urlDecode()
 path: /EJScript/Classes/String/Member functions/String urlDecode()
 intellisense: 1
 classref: 1
-sortOrder: 9147
 keywords: urlDecode()
 ---
 

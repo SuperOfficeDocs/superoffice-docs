@@ -1,11 +1,9 @@
 ---
-title: Void setParserVariable(String name, String value)
+description: Void setParserVariable(String name, String value)
 path: /EJScript/Global functions/Void setParserVariable(String name, String value)
 intellisense: 1
 langref: 1
-sortOrder: 9528
-keywords: setParserVariable(String,String)
----
+keywords: setParserVariable(String,String)---
 
 
 Set (add) a variable to the global Parser instance.

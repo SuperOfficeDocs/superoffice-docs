@@ -3,7 +3,6 @@ title: NSBusiness GetBusiness()
 path: /EJScript/Classes/NSPersonEntity/Member functions/NSBusiness GetBusiness()
 intellisense: 1
 classref: 1
-sortOrder: 4999
 keywords: GetBusiness()
 ---
 

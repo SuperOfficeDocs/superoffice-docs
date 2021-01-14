@@ -3,7 +3,6 @@ title: NSSelectableMDOListItem[] GetSelectableListWithRestriction(String name, S
 path: /EJScript/Classes/NSMDOAgent/Member functions/NSSelectableMDOListItem[] GetSelectableListWithRestriction(String p_0, String p_1, String p_2)
 intellisense: 1
 classref: 1
-sortOrder: 4566
 keywords: GetSelectableListWithRestriction(String,String,String)
 ---
 

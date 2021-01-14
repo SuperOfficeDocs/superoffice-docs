@@ -3,7 +3,6 @@ title: Integer[] FindRolesWithFunctionalRights(String[] functionalRightNames)
 path: /EJScript/Classes/NSUserAgent/Member functions/Integer[] FindRolesWithFunctionalRights(String[] p_0)
 intellisense: 1
 classref: 1
-sortOrder: 8468
 keywords: FindRolesWithFunctionalRights(String[])
 ---
 

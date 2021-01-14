@@ -3,7 +3,6 @@ title: NSLegalBase GetLegalBase(Integer legalBaseId)
 path: /EJScript/Classes/NSListAgent/Member functions/NSLegalBase GetLegalBase(Integer p_0)
 intellisense: 1
 classref: 1
-sortOrder: 4207
 keywords: GetLegalBase(Integer)
 ---
 

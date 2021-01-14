@@ -3,7 +3,6 @@ title: NSReasonSold[] GetReasonSoldList(Integer[] p0)
 path: /EJScript/Classes/NSListAgent/Member functions/NSReasonSold[] GetReasonSoldList(Integer[] p_0)
 intellisense: 1
 classref: 1
-sortOrder: 4284
 keywords: GetReasonSoldList(Integer[])
 ---
 

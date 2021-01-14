@@ -3,7 +3,6 @@ title: Void SetAssociate(NSAssociate Associate)
 path: /EJScript/Classes/NSSaleEntity/Member functions/Void SetAssociate(NSAssociate p_0)
 intellisense: 1
 classref: 1
-sortOrder: 7016
 keywords: SetAssociate(NSAssociate)
 ---
 

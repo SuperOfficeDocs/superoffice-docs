@@ -3,7 +3,6 @@ title: Void SetDbiLastModified(DateTime DbiLastModified)
 path: /EJScript/Classes/NSPersonEntity/Member functions/Void SetDbiLastModified(DateTime p_0)
 intellisense: 1
 classref: 1
-sortOrder: 5057
 keywords: SetDbiLastModified(DateTime)
 ---
 

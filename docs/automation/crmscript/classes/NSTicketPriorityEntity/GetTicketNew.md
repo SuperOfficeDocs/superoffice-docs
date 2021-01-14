@@ -3,7 +3,6 @@ title: NSTicketPriorityEscalateEvent GetTicketNew()
 path: /EJScript/Classes/NSTicketPriorityEntity/Member functions/NSTicketPriorityEscalateEvent GetTicketNew()
 intellisense: 1
 classref: 1
-sortOrder: 8270
 keywords: GetTicketNew()
 ---
 

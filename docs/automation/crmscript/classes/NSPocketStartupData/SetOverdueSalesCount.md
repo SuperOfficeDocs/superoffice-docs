@@ -3,7 +3,6 @@ title: Void SetOverdueSalesCount(Integer OverdueSalesCount)
 path: /EJScript/Classes/NSPocketStartupData/Member functions/Void SetOverdueSalesCount(Integer p_0)
 intellisense: 1
 classref: 1
-sortOrder: 5255
 keywords: SetOverdueSalesCount(Integer)
 ---
 

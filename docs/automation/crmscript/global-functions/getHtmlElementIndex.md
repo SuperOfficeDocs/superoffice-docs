@@ -1,11 +1,9 @@
 ---
-title: Integer getHtmlElementIndex(String p\_name)
+description: Integer getHtmlElementIndex(String p\_name)
 path: /EJScript/Global functions/Integer getHtmlElementIndex(String p_name)
 intellisense: 1
 langref: 1
-sortOrder: 9364
-keywords: getHtmlElementIndex(String)
----
+keywords: getHtmlElementIndex(String)---
 
 
 This function can only be called from a screen definition, it will fail if called from a regular script.

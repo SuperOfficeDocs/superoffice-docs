@@ -3,7 +3,6 @@ title: Float GetSubscriptionQuantity()
 path: /EJScript/Classes/NSQuoteLine/Member functions/Float GetSubscriptionQuantity()
 intellisense: 1
 classref: 1
-sortOrder: 6195
 keywords: GetSubscriptionQuantity()
 ---
 

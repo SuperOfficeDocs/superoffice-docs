@@ -1,11 +1,9 @@
 ---
-title: String encodeBase64(Byte[] data)
+description: String encodeBase64(Byte[] data)
 path: /EJScript/Global functions/String encodeBase64(Byte[] data)
 intellisense: 1
 langref: 1
-sortOrder: 9407
-keywords: encodeBase64(Byte[])
----
+keywords: encodeBase64(Byte[])---
 
 Encode an array of Byte's to a base 64 string
 

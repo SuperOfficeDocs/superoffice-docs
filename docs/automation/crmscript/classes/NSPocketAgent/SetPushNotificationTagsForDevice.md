@@ -3,7 +3,6 @@ title: Void SetPushNotificationTagsForDevice(String deviceIdentifier, String tag
 path: /EJScript/Classes/NSPocketAgent/Member functions/Void SetPushNotificationTagsForDevice(String p_0, String p_1)
 intellisense: 1
 classref: 1
-sortOrder: 5200
 keywords: SetPushNotificationTagsForDevice(String,String)
 ---
 

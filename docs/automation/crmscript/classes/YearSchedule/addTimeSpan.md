@@ -3,7 +3,6 @@ title: DateTime addTimeSpan(DateTime dt, TimeSpan sp)
 path: /EJScript/Classes/YearSchedule/Member functions/DateTime addTimeSpan(DateTime dt, TimeSpan sp)
 intellisense: 1
 classref: 1
-sortOrder: 9311
 keywords: addTimeSpan(DateTime,TimeSpan)
 ---
 

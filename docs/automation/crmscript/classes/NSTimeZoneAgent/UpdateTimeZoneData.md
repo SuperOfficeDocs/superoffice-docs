@@ -3,7 +3,6 @@ title: Bool UpdateTimeZoneData()
 path: /EJScript/Classes/NSTimeZoneAgent/Member functions/Bool UpdateTimeZoneData()
 intellisense: 1
 classref: 1
-sortOrder: 8339
 keywords: UpdateTimeZoneData()
 ---
 

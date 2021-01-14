@@ -3,7 +3,6 @@ title: Void RestoreConnection(Integer quoteConnectionId)
 path: /EJScript/Classes/NSQuoteAgent/Member functions/Void RestoreConnection(Integer p_0)
 intellisense: 1
 classref: 1
-sortOrder: 6046
 keywords: RestoreConnection(Integer)
 ---
 

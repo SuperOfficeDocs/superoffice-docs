@@ -3,7 +3,6 @@ title: Void SaveQuoteLineImage(Integer quoteLineId, NSImage image, Integer rank)
 path: /EJScript/Classes/NSQuoteAgent/Member functions/Void SaveQuoteLineImage(Integer p_0, NSImage p_1, Integer p_2)
 intellisense: 1
 classref: 1
-sortOrder: 6047
 keywords: SaveQuoteLineImage(Integer,NSImage,Integer)
 ---
 

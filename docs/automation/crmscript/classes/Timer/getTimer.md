@@ -3,7 +3,6 @@ title: Float getTimer()
 path: /EJScript/Classes/Timer/Member functions/Float getTimer()
 intellisense: 1
 classref: 1
-sortOrder: 9210
 keywords: getTimer()
 ---
 

@@ -3,7 +3,6 @@ title: NSUntrustedCredentials[] GetUntrustedCredentialsForAssociate(Integer asso
 path: /EJScript/Classes/NSUserAgent/Member functions/NSUntrustedCredentials[] GetUntrustedCredentialsForAssociate(Integer p_0, String p_1)
 intellisense: 1
 classref: 1
-sortOrder: 8492
 keywords: GetUntrustedCredentialsForAssociate(Integer,String)
 ---
 

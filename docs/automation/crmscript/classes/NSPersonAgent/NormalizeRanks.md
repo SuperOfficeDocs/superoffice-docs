@@ -3,7 +3,6 @@ title: Bool NormalizeRanks(Integer contactId)
 path: /EJScript/Classes/NSPersonAgent/Member functions/Bool NormalizeRanks(Integer p_0)
 intellisense: 1
 classref: 1
-sortOrder: 4923
 keywords: NormalizeRanks(Integer)
 ---
 

@@ -3,7 +3,6 @@ title: DateTime GetThuStart()
 path: /EJScript/Classes/NSTicketPriorityEntity/Member functions/DateTime GetThuStart()
 intellisense: 1
 classref: 1
-sortOrder: 8257
 keywords: GetThuStart()
 ---
 

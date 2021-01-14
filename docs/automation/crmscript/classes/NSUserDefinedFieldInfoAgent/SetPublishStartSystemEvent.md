@@ -3,7 +3,6 @@ title: Void SetPublishStartSystemEvent(Integer ownerType)
 path: /EJScript/Classes/NSUserDefinedFieldInfoAgent/Member functions/Void SetPublishStartSystemEvent(Integer p_0)
 intellisense: 1
 classref: 1
-sortOrder: 8649
 keywords: SetPublishStartSystemEvent(Integer)
 ---
 

@@ -3,7 +3,6 @@ title: String[][] GetCustomTags()
 path: /EJScript/Classes/NSTemplateVariablesParameters/Member functions/String[][] GetCustomTags()
 intellisense: 1
 classref: 1
-sortOrder: 7931
 keywords: GetCustomTags()
 ---
 

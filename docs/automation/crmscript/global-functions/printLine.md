@@ -1,11 +1,9 @@
 ---
-title: Void printLine(String p\_line)
+description: Void printLine(String p\_line)
 path: /EJScript/Global functions/Void printLine(String p_line)
 intellisense: 1
 langref: 1
-sortOrder: 9514
-keywords: printLine(String)
----
+keywords: printLine(String)---
 
 
 * **p\_line::** The line to print.

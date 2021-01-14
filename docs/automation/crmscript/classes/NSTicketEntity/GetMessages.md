@@ -3,7 +3,6 @@ title: NSTicketMessage[] GetMessages()
 path: /EJScript/Classes/NSTicketEntity/Member functions/NSTicketMessage[] GetMessages()
 intellisense: 1
 classref: 1
-sortOrder: 8119
 keywords: GetMessages()
 ---
 

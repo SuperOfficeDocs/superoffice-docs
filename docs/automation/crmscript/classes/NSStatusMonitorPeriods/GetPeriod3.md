@@ -3,7 +3,6 @@ title: Integer GetPeriod3()
 path: /EJScript/Classes/NSStatusMonitorPeriods/Member functions/Integer GetPeriod3()
 intellisense: 1
 classref: 1
-sortOrder: 7715
 keywords: GetPeriod3()
 ---
 

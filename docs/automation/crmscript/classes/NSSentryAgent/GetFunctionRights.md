@@ -3,7 +3,6 @@ title: String[] GetFunctionRights()
 path: /EJScript/Classes/NSSentryAgent/Member functions/String[] GetFunctionRights()
 intellisense: 1
 classref: 1
-sortOrder: 7516
 keywords: GetFunctionRights()
 ---
 

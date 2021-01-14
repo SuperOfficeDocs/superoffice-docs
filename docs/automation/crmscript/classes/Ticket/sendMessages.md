@@ -3,7 +3,6 @@ title: Bool sendMessages(String subject, StringMatrix recipients, Bool fromCust,
 path: /EJScript/Classes/Ticket/Member functions/Bool sendMessages(String subject, StringMatrix recipients, Bool fromCust, String messages, Integer msgId, String comment)
 intellisense: 1
 classref: 1
-sortOrder: 9176
 keywords: sendMessages(String,StringMatrix,Bool,String,Integer,String)
 ---
 

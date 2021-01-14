@@ -3,7 +3,6 @@ title: NSPriceList CopySuperOfficePriceList(Integer originalPriceListId, String 
 path: /EJScript/Classes/NSQuoteAgent/Member functions/NSPriceList CopySuperOfficePriceList(Integer p_0, String p_1, DateTime p_2, DateTime p_3, Integer p_4, Bool p_5)
 intellisense: 1
 classref: 1
-sortOrder: 5970
 keywords: CopySuperOfficePriceList(Integer,String,DateTime,DateTime,Integer,Bool)
 ---
 

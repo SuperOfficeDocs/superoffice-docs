@@ -3,7 +3,6 @@ title: Void setVariable(String name, String value)
 path: /EJScript/Classes/Parser/Member functions/Void setVariable(String name, String value)
 intellisense: 1
 classref: 1
-sortOrder: 8962
 keywords: setVariable(String,String)
 ---
 

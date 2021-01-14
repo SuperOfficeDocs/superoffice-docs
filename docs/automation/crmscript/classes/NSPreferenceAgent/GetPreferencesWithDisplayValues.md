@@ -3,7 +3,6 @@ title: NSPreference[] GetPreferencesWithDisplayValues(NSPreferenceSpec[] specifi
 path: /EJScript/Classes/NSPreferenceAgent/Member functions/NSPreference[] GetPreferencesWithDisplayValues(NSPreferenceSpec[] p_0)
 intellisense: 1
 classref: 1
-sortOrder: 5302
 keywords: GetPreferencesWithDisplayValues(NSPreferenceSpec[])
 ---
 

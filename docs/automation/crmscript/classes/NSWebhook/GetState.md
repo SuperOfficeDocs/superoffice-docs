@@ -3,7 +3,6 @@ title: Integer GetState()
 path: /EJScript/Classes/NSWebhook/Member functions/Integer GetState()
 intellisense: 1
 classref: 1
-sortOrder: 8776
 keywords: GetState()
 ---
 

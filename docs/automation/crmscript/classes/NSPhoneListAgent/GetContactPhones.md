@@ -3,7 +3,6 @@ title: NSPhoneListItem[] GetContactPhones(Integer contactId)
 path: /EJScript/Classes/NSPhoneListAgent/Member functions/NSPhoneListItem[] GetContactPhones(Integer p_0)
 intellisense: 1
 classref: 1
-sortOrder: 5118
 keywords: GetContactPhones(Integer)
 ---
 

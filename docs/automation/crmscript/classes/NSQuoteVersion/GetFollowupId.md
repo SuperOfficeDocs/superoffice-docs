@@ -3,7 +3,6 @@ title: Integer GetFollowupId()
 path: /EJScript/Classes/NSQuoteVersion/Member functions/Integer GetFollowupId()
 intellisense: 1
 classref: 1
-sortOrder: 6347
 keywords: GetFollowupId()
 ---
 

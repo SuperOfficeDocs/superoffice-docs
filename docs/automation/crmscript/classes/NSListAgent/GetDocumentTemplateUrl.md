@@ -3,7 +3,6 @@ title: String GetDocumentTemplateUrl(Integer documentTemplateId, Bool writableUr
 path: /EJScript/Classes/NSListAgent/Member functions/String GetDocumentTemplateUrl(Integer p_0, Bool p_1, String p_2)
 intellisense: 1
 classref: 1
-sortOrder: 4361
 keywords: GetDocumentTemplateUrl(Integer,Bool,String)
 ---
 

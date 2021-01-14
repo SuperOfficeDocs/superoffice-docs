@@ -3,7 +3,6 @@ title: Void SetTZOffset(Integer TZOffset)
 path: /EJScript/Classes/NSTimeZoneRule/Member functions/Void SetTZOffset(Integer p_0)
 intellisense: 1
 classref: 1
-sortOrder: 8379
 keywords: SetTZOffset(Integer)
 ---
 

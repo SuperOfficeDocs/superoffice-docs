@@ -3,7 +3,6 @@ title: NSResolvedUser
 path: /EJScript/Classes/NSResolvedUser
 intellisense: 1
 classref: 1
-sortOrder: 6755
 ---
 
 

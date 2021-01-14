@@ -3,7 +3,6 @@ title: NSWebhook CreateDefaultWebhook()
 path: /EJScript/Classes/NSWebhookAgent/Member functions/NSWebhook CreateDefaultWebhook()
 intellisense: 1
 classref: 1
-sortOrder: 8798
 keywords: CreateDefaultWebhook()
 ---
 

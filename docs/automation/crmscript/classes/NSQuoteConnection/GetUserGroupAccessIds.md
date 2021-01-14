@@ -3,7 +3,6 @@ title: Integer[] GetUserGroupAccessIds()
 path: /EJScript/Classes/NSQuoteConnection/Member functions/Integer[] GetUserGroupAccessIds()
 intellisense: 1
 classref: 1
-sortOrder: 6118
 keywords: GetUserGroupAccessIds()
 ---
 

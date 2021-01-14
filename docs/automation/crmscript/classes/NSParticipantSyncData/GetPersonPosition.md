@@ -3,7 +3,6 @@ title: String GetPersonPosition()
 path: /EJScript/Classes/NSParticipantSyncData/Member functions/String GetPersonPosition()
 intellisense: 1
 classref: 1
-sortOrder: 4776
 keywords: GetPersonPosition()
 ---
 

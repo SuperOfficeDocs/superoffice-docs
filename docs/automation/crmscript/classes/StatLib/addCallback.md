@@ -3,7 +3,6 @@ title: Void addCallback(Integer column, String script)
 path: /EJScript/Classes/StatLib/Member functions/Void addCallback(Integer column, String script)
 intellisense: 1
 classref: 1
-sortOrder: 9073
 keywords: addCallback(Integer,String)
 ---
 

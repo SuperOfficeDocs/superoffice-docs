@@ -3,7 +3,6 @@ title: NSTicketCategoryClosingStatus GetClosingStatus()
 path: /EJScript/Classes/NSTicketCategoryEntity/Member functions/NSTicketCategoryClosingStatus GetClosingStatus()
 intellisense: 1
 classref: 1
-sortOrder: 8060
 keywords: GetClosingStatus()
 ---
 

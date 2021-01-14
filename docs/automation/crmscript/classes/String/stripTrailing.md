@@ -3,7 +3,6 @@ title: String stripTrailing(String characters)
 path: /EJScript/Classes/String/Member functions/String stripTrailing(String characters)
 intellisense: 1
 classref: 1
-sortOrder: 9141
 keywords: stripTrailing(String)
 ---
 

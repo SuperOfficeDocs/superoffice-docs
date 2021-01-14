@@ -3,7 +3,6 @@ title: String GetFullName()
 path: /EJScript/Classes/NSPerson/Member functions/String GetFullName()
 intellisense: 1
 classref: 1
-sortOrder: 4867
 keywords: GetFullName()
 ---
 

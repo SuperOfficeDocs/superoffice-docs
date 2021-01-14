@@ -3,7 +3,6 @@ title: Void DeleteUserGroup(Integer userGroupToDelete, Integer userGroupToMoveTo
 path: /EJScript/Classes/NSUserAgent/Member functions/Void DeleteUserGroup(Integer p_0, Integer p_1)
 intellisense: 1
 classref: 1
-sortOrder: 8530
 keywords: DeleteUserGroup(Integer,Integer)
 ---
 

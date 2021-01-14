@@ -3,7 +3,6 @@ title: Void SetHasAttachment(Bool HasAttachment)
 path: /EJScript/Classes/NSTicket/Member functions/Void SetHasAttachment(Bool p_0)
 intellisense: 1
 classref: 1
-sortOrder: 8012
 keywords: SetHasAttachment(Bool)
 ---
 

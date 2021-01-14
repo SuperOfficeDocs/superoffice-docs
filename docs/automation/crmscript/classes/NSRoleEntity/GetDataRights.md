@@ -3,7 +3,6 @@ title: NSDataRights GetDataRights()
 path: /EJScript/Classes/NSRoleEntity/Member functions/NSDataRights GetDataRights()
 intellisense: 1
 classref: 1
-sortOrder: 6827
 keywords: GetDataRights()
 ---
 

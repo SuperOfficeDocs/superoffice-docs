@@ -3,7 +3,6 @@ title: Void sendNewTicket(Integer ticketId)
 path: /EJScript/Classes/Notify/Member functions/Void sendNewTicket(Integer ticketId)
 intellisense: 1
 classref: 1
-sortOrder: 563
 keywords: sendNewTicket(Integer)
 ---
 

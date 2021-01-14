@@ -3,7 +3,6 @@ title: NSIntStringDictionary GetDocumentTypesForPlugin(Integer pluginId)
 path: /EJScript/Classes/NSListAgent/Member functions/NSIntStringDictionary GetDocumentTypesForPlugin(Integer p_0)
 intellisense: 1
 classref: 1
-sortOrder: 4202
 keywords: GetDocumentTypesForPlugin(Integer)
 ---
 

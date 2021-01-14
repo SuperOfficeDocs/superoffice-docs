@@ -3,7 +3,6 @@ title: NSTemporaryKeyInfo CheckTemporaryKey(String temporaryKey)
 path: /EJScript/Classes/NSPersonAgent/Member functions/NSTemporaryKeyInfo CheckTemporaryKey(String p_0)
 intellisense: 1
 classref: 1
-sortOrder: 4956
 keywords: CheckTemporaryKey(String)
 ---
 

@@ -3,7 +3,6 @@ title: NSContactRelationEntity SaveContactRelation(NSContactRelationEntity conta
 path: /EJScript/Classes/NSRelationAgent/Member functions/NSContactRelationEntity SaveContactRelation(NSContactRelationEntity p_0)
 intellisense: 1
 classref: 1
-sortOrder: 6649
 keywords: SaveContactRelation(NSContactRelationEntity)
 ---
 

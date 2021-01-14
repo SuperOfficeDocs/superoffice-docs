@@ -3,7 +3,6 @@ title: NSChangedData GetChanges()
 path: /EJScript/Classes/NSPluginUrlResponse/Member functions/NSChangedData GetChanges()
 intellisense: 1
 classref: 1
-sortOrder: 5180
 keywords: GetChanges()
 ---
 

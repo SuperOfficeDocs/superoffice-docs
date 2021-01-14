@@ -3,7 +3,6 @@ title: Void SetPhonePrivate(String[] PhonePrivate)
 path: /EJScript/Classes/NSParticipantSyncData/Member functions/Void SetPhonePrivate(String[] p_0)
 intellisense: 1
 classref: 1
-sortOrder: 4816
 keywords: SetPhonePrivate(String[])
 ---
 

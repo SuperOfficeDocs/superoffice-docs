@@ -3,7 +3,6 @@ title: Integer GetUpperY()
 path: /EJScript/Classes/NSWindowPosSize/Member functions/Integer GetUpperY()
 intellisense: 1
 classref: 1
-sortOrder: 8864
 keywords: GetUpperY()
 ---
 

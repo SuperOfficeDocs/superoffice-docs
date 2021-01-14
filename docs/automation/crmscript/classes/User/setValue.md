@@ -3,7 +3,6 @@ title: Void setValue(String column, String Value)
 path: /EJScript/Classes/User/Member functions/Void setValue(String column, String Value)
 intellisense: 1
 classref: 1
-sortOrder: 9246
 keywords: setValue(String,String)
 ---
 

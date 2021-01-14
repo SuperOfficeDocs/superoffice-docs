@@ -3,7 +3,6 @@ title: NSCurrency GetOwnerCompanysCurrency()
 path: /EJScript/Classes/NSListAgent/Member functions/NSCurrency GetOwnerCompanysCurrency()
 intellisense: 1
 classref: 1
-sortOrder: 4158
 keywords: GetOwnerCompanysCurrency()
 ---
 

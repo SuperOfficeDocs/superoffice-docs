@@ -3,7 +3,6 @@ title: Void SetFieldType(Integer FieldType)
 path: /EJScript/Classes/NSUserDefinedFieldInfo/Member functions/Void SetFieldType(Integer p_0)
 intellisense: 1
 classref: 1
-sortOrder: 8586
 keywords: SetFieldType(Integer)
 ---
 

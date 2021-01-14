@@ -3,7 +3,6 @@ title: Void SetAssocId(Integer AssocId)
 path: /EJScript/Classes/NSWebAppUsage/Member functions/Void SetAssocId(Integer p_0)
 intellisense: 1
 classref: 1
-sortOrder: 8763
 keywords: SetAssocId(Integer)
 ---
 

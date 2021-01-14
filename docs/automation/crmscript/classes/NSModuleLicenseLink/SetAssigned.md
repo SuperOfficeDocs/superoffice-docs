@@ -3,7 +3,6 @@ title: Void SetAssigned(Bool Assigned)
 path: /EJScript/Classes/NSModuleLicenseLink/Member functions/Void SetAssigned(Bool p_0)
 intellisense: 1
 classref: 1
-sortOrder: 4663
 keywords: SetAssigned(Bool)
 ---
 

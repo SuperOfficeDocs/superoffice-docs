@@ -3,7 +3,6 @@ title: Integer GetTimeToClose()
 path: /EJScript/Classes/NSTicket/Member functions/Integer GetTimeToClose()
 intellisense: 1
 classref: 1
-sortOrder: 7989
 keywords: GetTimeToClose()
 ---
 

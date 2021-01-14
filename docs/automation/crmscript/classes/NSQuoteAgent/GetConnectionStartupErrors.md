@@ -3,7 +3,6 @@ title: NSPluginResponse[] GetConnectionStartupErrors()
 path: /EJScript/Classes/NSQuoteAgent/Member functions/NSPluginResponse[] GetConnectionStartupErrors()
 intellisense: 1
 classref: 1
-sortOrder: 5966
 keywords: GetConnectionStartupErrors()
 ---
 

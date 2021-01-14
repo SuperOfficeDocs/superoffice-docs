@@ -3,7 +3,6 @@ title: NSTicketMessageEntity SaveTicketMessageEntity(NSTicketMessageEntity ticke
 path: /EJScript/Classes/NSTicketAgent/Member functions/NSTicketMessageEntity SaveTicketMessageEntity(NSTicketMessageEntity p_0)
 intellisense: 1
 classref: 1
-sortOrder: 8046
 keywords: SaveTicketMessageEntity(NSTicketMessageEntity)
 ---
 

@@ -3,7 +3,6 @@ title: Void wrap(Integer length, Bool ignoreQuote)
 path: /EJScript/Classes/String/Member functions/Void wrap(Integer length, Bool ignoreQuote)
 intellisense: 1
 classref: 1
-sortOrder: 9161
 keywords: wrap(Integer,Bool)
 ---
 

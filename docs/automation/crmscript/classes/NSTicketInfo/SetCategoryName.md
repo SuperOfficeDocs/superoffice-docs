@@ -3,7 +3,6 @@ title: Void SetCategoryName(String CategoryName)
 path: /EJScript/Classes/NSTicketInfo/Member functions/Void SetCategoryName(String p_0)
 intellisense: 1
 classref: 1
-sortOrder: 8181
 keywords: SetCategoryName(String)
 ---
 

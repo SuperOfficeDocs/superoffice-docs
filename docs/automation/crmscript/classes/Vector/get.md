@@ -3,7 +3,6 @@ title: String get(Integer index)
 path: /EJScript/Classes/Vector/Member functions/String get(Integer index)
 intellisense: 1
 classref: 1
-sortOrder: 9253
 keywords: get(Integer)
 ---
 

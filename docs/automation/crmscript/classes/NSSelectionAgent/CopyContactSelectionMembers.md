@@ -3,7 +3,6 @@ title: Void CopyContactSelectionMembers(Integer fromSelectionId, Integer toSelec
 path: /EJScript/Classes/NSSelectionAgent/Member functions/Void CopyContactSelectionMembers(Integer p_0, Integer p_1)
 intellisense: 1
 classref: 1
-sortOrder: 7382
 keywords: CopyContactSelectionMembers(Integer,Integer)
 ---
 

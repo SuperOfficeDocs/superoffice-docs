@@ -3,7 +3,6 @@ title: StringDictionary GetPluginCapabilities(Integer pluginId)
 path: /EJScript/Classes/NSListAgent/Member functions/StringDictionary GetPluginCapabilities(Integer p_0)
 intellisense: 1
 classref: 1
-sortOrder: 4366
 keywords: GetPluginCapabilities(Integer)
 ---
 

@@ -3,7 +3,6 @@ title: NSResourceOverride[] GetResourceSubstitutions(String[] resourceNames, Str
 path: /EJScript/Classes/NSResourceAgent/Member functions/NSResourceOverride[] GetResourceSubstitutions(String[] p_0, String p_1, Bool p_2)
 intellisense: 1
 classref: 1
-sortOrder: 6763
 keywords: GetResourceSubstitutions(String[],String,Bool)
 ---
 

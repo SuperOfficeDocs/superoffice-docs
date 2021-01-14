@@ -3,7 +3,6 @@ title: NSLicenseInfo
 path: /EJScript/Classes/NSLicenseInfo
 intellisense: 1
 classref: 1
-sortOrder: 4049
 ---
 
 

@@ -3,7 +3,6 @@ title: String EndWriteStream(String streamId, String parentModuleName, String pa
 path: /EJScript/Classes/NSTrayAppAgent/Member functions/String EndWriteStream(String p_0, String p_1, String p_2, String p_3, String p_4, String p_5, String p_6)
 intellisense: 1
 classref: 1
-sortOrder: 8389
 keywords: EndWriteStream(String,String,String,String,String,String,String)
 ---
 

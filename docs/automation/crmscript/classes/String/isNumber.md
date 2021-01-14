@@ -3,7 +3,6 @@ title: Bool isNumber()
 path: /EJScript/Classes/String/Member functions/Bool isNumber()
 intellisense: 1
 classref: 1
-sortOrder: 9110
 keywords: isNumber()
 ---
 

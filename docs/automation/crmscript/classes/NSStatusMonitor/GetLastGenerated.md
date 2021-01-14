@@ -3,7 +3,6 @@ title: DateTime GetLastGenerated()
 path: /EJScript/Classes/NSStatusMonitor/Member functions/DateTime GetLastGenerated()
 intellisense: 1
 classref: 1
-sortOrder: 7685
 keywords: GetLastGenerated()
 ---
 

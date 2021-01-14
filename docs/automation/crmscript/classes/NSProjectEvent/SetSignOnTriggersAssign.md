@@ -3,7 +3,6 @@ title: Void SetSignOnTriggersAssign(Bool SignOnTriggersAssign)
 path: /EJScript/Classes/NSProjectEvent/Member functions/Void SetSignOnTriggersAssign(Bool p_0)
 intellisense: 1
 classref: 1
-sortOrder: 5726
 keywords: SetSignOnTriggersAssign(Bool)
 ---
 

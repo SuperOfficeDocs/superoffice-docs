@@ -3,7 +3,6 @@ title: NSFieldInfoBase GetCustomFieldInfo(String tableName, String fieldName)
 path: /EJScript/Classes/NSUserDefinedFieldInfoAgent/Member functions/NSFieldInfoBase GetCustomFieldInfo(String p_0, String p_1)
 intellisense: 1
 classref: 1
-sortOrder: 8626
 keywords: GetCustomFieldInfo(String,String)
 ---
 

@@ -3,7 +3,6 @@ title: NSQuoteVersionAttachment[] CreateOrUpdateQuoteVersionAttachments(Integer 
 path: /EJScript/Classes/NSQuoteAgent/Member functions/NSQuoteVersionAttachment[] CreateOrUpdateQuoteVersionAttachments(Integer p_0)
 intellisense: 1
 classref: 1
-sortOrder: 6024
 keywords: CreateOrUpdateQuoteVersionAttachments(Integer)
 ---
 

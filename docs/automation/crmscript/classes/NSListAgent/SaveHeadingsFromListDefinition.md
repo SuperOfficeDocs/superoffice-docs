@@ -3,7 +3,6 @@ title: NSHeadingEntity[] SaveHeadingsFromListDefinition(Integer id, NSHeadingEnt
 path: /EJScript/Classes/NSListAgent/Member functions/NSHeadingEntity[] SaveHeadingsFromListDefinition(Integer p_0, NSHeadingEntity[] p_1)
 intellisense: 1
 classref: 1
-sortOrder: 4200
 keywords: SaveHeadingsFromListDefinition(Integer,NSHeadingEntity[])
 ---
 

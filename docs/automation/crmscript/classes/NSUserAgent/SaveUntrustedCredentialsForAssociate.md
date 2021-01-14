@@ -3,7 +3,6 @@ title: Void SaveUntrustedCredentialsForAssociate(Integer associateId, String typ
 path: /EJScript/Classes/NSUserAgent/Member functions/Void SaveUntrustedCredentialsForAssociate(Integer p_0, String p_1, NSUntrustedCredentials p_2)
 intellisense: 1
 classref: 1
-sortOrder: 8537
 keywords: SaveUntrustedCredentialsForAssociate(Integer,String,NSUntrustedCredentials)
 ---
 

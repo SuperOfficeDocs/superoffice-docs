@@ -3,7 +3,6 @@ title: Void SetVATInfo(String VATInfo)
 path: /EJScript/Classes/NSQuoteLine/Member functions/Void SetVATInfo(String p_0)
 intellisense: 1
 classref: 1
-sortOrder: 6286
 keywords: SetVATInfo(String)
 ---
 

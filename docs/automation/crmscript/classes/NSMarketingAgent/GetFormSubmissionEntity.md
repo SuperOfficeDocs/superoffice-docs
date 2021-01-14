@@ -3,7 +3,6 @@ title: NSFormSubmissionEntity GetFormSubmissionEntity(Integer formSubmissionEnti
 path: /EJScript/Classes/NSMarketingAgent/Member functions/NSFormSubmissionEntity GetFormSubmissionEntity(Integer p_0)
 intellisense: 1
 classref: 1
-sortOrder: 4552
 keywords: GetFormSubmissionEntity(Integer)
 ---
 

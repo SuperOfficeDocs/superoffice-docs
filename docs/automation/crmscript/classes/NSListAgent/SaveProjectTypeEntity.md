@@ -3,7 +3,6 @@ title: NSProjectTypeEntity SaveProjectTypeEntity(NSProjectTypeEntity projectType
 path: /EJScript/Classes/NSListAgent/Member functions/NSProjectTypeEntity SaveProjectTypeEntity(NSProjectTypeEntity p_0)
 intellisense: 1
 classref: 1
-sortOrder: 4272
 keywords: SaveProjectTypeEntity(NSProjectTypeEntity)
 ---
 

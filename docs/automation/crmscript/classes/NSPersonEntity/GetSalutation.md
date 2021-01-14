@@ -3,7 +3,6 @@ title: String GetSalutation()
 path: /EJScript/Classes/NSPersonEntity/Member functions/String GetSalutation()
 intellisense: 1
 classref: 1
-sortOrder: 5035
 keywords: GetSalutation()
 ---
 

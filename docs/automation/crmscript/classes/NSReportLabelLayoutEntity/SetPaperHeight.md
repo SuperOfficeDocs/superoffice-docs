@@ -3,7 +3,6 @@ title: Void SetPaperHeight(Integer PaperHeight)
 path: /EJScript/Classes/NSReportLabelLayoutEntity/Member functions/Void SetPaperHeight(Integer p_0)
 intellisense: 1
 classref: 1
-sortOrder: 6744
 keywords: SetPaperHeight(Integer)
 ---
 

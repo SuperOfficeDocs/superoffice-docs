@@ -3,7 +3,6 @@ title: Integer GetIncludePerson()
 path: /EJScript/Classes/NSSelectionEntity/Member functions/Integer GetIncludePerson()
 intellisense: 1
 classref: 1
-sortOrder: 7412
 keywords: GetIncludePerson()
 ---
 

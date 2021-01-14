@@ -3,7 +3,6 @@ title: NSPersonAgent
 path: /EJScript/Classes/NSPersonAgent
 intellisense: 1
 classref: 1
-sortOrder: 4919
 ---
 
 

@@ -3,7 +3,6 @@ title: Void DeleteFromSectionAndKey(String section, String key)
 path: /EJScript/Classes/NSPreferenceAgent/Member functions/Void DeleteFromSectionAndKey(String p_0, String p_1)
 intellisense: 1
 classref: 1
-sortOrder: 5316
 keywords: DeleteFromSectionAndKey(String,String)
 ---
 

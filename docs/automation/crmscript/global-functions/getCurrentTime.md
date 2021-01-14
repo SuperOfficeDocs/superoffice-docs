@@ -1,11 +1,9 @@
 ---
-title: Time getCurrentTime()
+description: Time getCurrentTime()
 path: /EJScript/Global functions/Time getCurrentTime()
 intellisense: 1
 langref: 1
-sortOrder: 9488
-keywords: getCurrentTime()
----
+keywords: getCurrentTime()---
 
 
 Get the current time.

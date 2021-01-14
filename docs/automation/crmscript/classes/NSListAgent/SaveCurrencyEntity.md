@@ -3,7 +3,6 @@ title: NSCurrencyEntity SaveCurrencyEntity(NSCurrencyEntity currencyEntity)
 path: /EJScript/Classes/NSListAgent/Member functions/NSCurrencyEntity SaveCurrencyEntity(NSCurrencyEntity p_0)
 intellisense: 1
 classref: 1
-sortOrder: 4164
 keywords: SaveCurrencyEntity(NSCurrencyEntity)
 ---
 

@@ -3,7 +3,6 @@ title: Void AddBounce(String emailAddress)
 path: /EJScript/Classes/NSPersonAgent/Member functions/Void AddBounce(String p_0)
 intellisense: 1
 classref: 1
-sortOrder: 4958
 keywords: AddBounce(String)
 ---
 

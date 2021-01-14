@@ -3,7 +3,6 @@ title: Void SetAllowedUserType(Integer AllowedUserType)
 path: /EJScript/Classes/NSModuleLicense/Member functions/Void SetAllowedUserType(Integer p_0)
 intellisense: 1
 classref: 1
-sortOrder: 4631
 keywords: SetAllowedUserType(Integer)
 ---
 

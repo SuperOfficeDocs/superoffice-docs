@@ -3,7 +3,6 @@ title: NSQuoteVersionButtonState GetQuoteVersionWorkflowImageState(Integer quote
 path: /EJScript/Classes/NSQuoteAgent/Member functions/NSQuoteVersionButtonState GetQuoteVersionWorkflowImageState(Integer p_0)
 intellisense: 1
 classref: 1
-sortOrder: 6025
 keywords: GetQuoteVersionWorkflowImageState(Integer)
 ---
 

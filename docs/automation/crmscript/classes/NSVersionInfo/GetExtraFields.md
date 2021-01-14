@@ -3,7 +3,6 @@ title: String[] GetExtraFields()
 path: /EJScript/Classes/NSVersionInfo/Member functions/String[] GetExtraFields()
 intellisense: 1
 classref: 1
-sortOrder: 8715
 keywords: GetExtraFields()
 ---
 

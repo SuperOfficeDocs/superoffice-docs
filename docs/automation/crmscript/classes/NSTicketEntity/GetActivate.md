@@ -3,7 +3,6 @@ title: DateTime GetActivate()
 path: /EJScript/Classes/NSTicketEntity/Member functions/DateTime GetActivate()
 intellisense: 1
 classref: 1
-sortOrder: 8086
 keywords: GetActivate()
 ---
 

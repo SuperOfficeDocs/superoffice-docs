@@ -3,7 +3,6 @@ title: String getWord(Integer num)
 path: /EJScript/Classes/String/Member functions/String getWord(Integer num)
 intellisense: 1
 classref: 1
-sortOrder: 9133
 keywords: getWord(Integer)
 ---
 

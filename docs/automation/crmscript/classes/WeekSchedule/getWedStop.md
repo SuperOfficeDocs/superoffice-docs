@@ -3,7 +3,6 @@ title: Time getWedStop()
 path: /EJScript/Classes/WeekSchedule/Member functions/Time getWedStop()
 intellisense: 1
 classref: 1
-sortOrder: 9276
 keywords: getWedStop()
 ---
 

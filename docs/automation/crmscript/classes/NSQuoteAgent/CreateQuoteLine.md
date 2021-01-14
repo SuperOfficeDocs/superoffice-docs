@@ -3,7 +3,6 @@ title: NSQuoteLine CreateQuoteLine(Integer quoteAlternativeId, String eRPProduct
 path: /EJScript/Classes/NSQuoteAgent/Member functions/NSQuoteLine CreateQuoteLine(Integer p_0, String p_1)
 intellisense: 1
 classref: 1
-sortOrder: 6006
 keywords: CreateQuoteLine(Integer,String)
 ---
 

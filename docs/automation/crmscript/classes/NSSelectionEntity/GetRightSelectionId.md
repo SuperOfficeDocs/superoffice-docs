@@ -3,7 +3,6 @@ title: Integer GetRightSelectionId()
 path: /EJScript/Classes/NSSelectionEntity/Member functions/Integer GetRightSelectionId()
 intellisense: 1
 classref: 1
-sortOrder: 7416
 keywords: GetRightSelectionId()
 ---
 

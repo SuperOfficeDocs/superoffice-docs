@@ -3,7 +3,6 @@ title: NSPluginUrlResponse PlaceOrder(Integer quoteAlternativeId, Bool markSaleA
 path: /EJScript/Classes/NSQuoteAgent/Member functions/NSPluginUrlResponse PlaceOrder(Integer p_0, Bool p_1, String p_2, String p_3, String p_4)
 intellisense: 1
 classref: 1
-sortOrder: 5968
 keywords: PlaceOrder(Integer,Bool,String,String,String)
 ---
 

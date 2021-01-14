@@ -3,7 +3,6 @@ title: Bool GetRetired()
 path: /EJScript/Classes/NSPersonEntity/Member functions/Bool GetRetired()
 intellisense: 1
 classref: 1
-sortOrder: 4975
 keywords: GetRetired()
 ---
 

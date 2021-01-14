@@ -3,7 +3,6 @@ title: String escape(String chars)
 path: /EJScript/Classes/String/Member functions/String escape(String chars)
 intellisense: 1
 classref: 1
-sortOrder: 9129
 keywords: escape(String)
 ---
 

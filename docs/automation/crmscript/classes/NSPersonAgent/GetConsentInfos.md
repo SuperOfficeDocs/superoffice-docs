@@ -3,7 +3,6 @@ title: NSConsentInfo[] GetConsentInfos(Integer personId)
 path: /EJScript/Classes/NSPersonAgent/Member functions/NSConsentInfo[] GetConsentInfos(Integer p_0)
 intellisense: 1
 classref: 1
-sortOrder: 4928
 keywords: GetConsentInfos(Integer)
 ---
 

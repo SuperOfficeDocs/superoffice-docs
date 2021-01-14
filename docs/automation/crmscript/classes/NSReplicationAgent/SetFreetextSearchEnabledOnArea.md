@@ -3,7 +3,6 @@ title: Void SetFreetextSearchEnabledOnArea(Integer areaId, Bool freetextEnabled)
 path: /EJScript/Classes/NSReplicationAgent/Member functions/Void SetFreetextSearchEnabledOnArea(Integer p_0, Bool p_1)
 intellisense: 1
 classref: 1
-sortOrder: 6688
 keywords: SetFreetextSearchEnabledOnArea(Integer,Bool)
 ---
 

@@ -3,7 +3,6 @@ title: DateTime GetNextDueDate()
 path: /EJScript/Classes/NSSaleEntity/Member functions/DateTime GetNextDueDate()
 intellisense: 1
 classref: 1
-sortOrder: 6970
 keywords: GetNextDueDate()
 ---
 

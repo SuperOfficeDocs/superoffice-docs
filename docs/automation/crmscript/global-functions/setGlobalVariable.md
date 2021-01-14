@@ -1,11 +1,9 @@
 ---
-title: Void setGlobalVariable(String name, String value)
+description: Void setGlobalVariable(String name, String value)
 path: /EJScript/Global functions/Void setGlobalVariable(String name, String value)
 intellisense: 1
 langref: 1
-sortOrder: 9522
-keywords: setGlobalVariable(String,String)
----
+keywords: setGlobalVariable(String,String)---
 
 
 Sets the value of a global variable (used for communication between different scripts).

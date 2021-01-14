@@ -3,7 +3,6 @@ title: Bool delete()
 path: /EJScript/Classes/SpmStaticList/Member functions/Bool delete()
 intellisense: 1
 classref: 1
-sortOrder: 9061
 keywords: delete()
 ---
 

@@ -3,7 +3,6 @@ title: String GetSupplierCode()
 path: /EJScript/Classes/NSQuoteLine/Member functions/String GetSupplierCode()
 intellisense: 1
 classref: 1
-sortOrder: 6232
 keywords: GetSupplierCode()
 ---
 

@@ -3,7 +3,6 @@ title: Void SetRankOnSaleActivity(Integer saleTypeStageLinkId, Integer[] itemsId
 path: /EJScript/Classes/NSListAgent/Member functions/Void SetRankOnSaleActivity(Integer p_0, Integer[] p_1)
 intellisense: 1
 classref: 1
-sortOrder: 4399
 keywords: SetRankOnSaleActivity(Integer,Integer[])
 ---
 

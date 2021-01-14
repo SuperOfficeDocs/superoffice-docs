@@ -1,11 +1,9 @@
 ---
-title: String getProgram(Integer progId)
+description: String getProgram(Integer progId)
 path: /EJScript/Global functions/String getProgram(Integer progId)
 intellisense: 1
 langref: 1
-sortOrder: 9450
-keywords: getProgram(Integer)
----
+keywords: getProgram(Integer)---
 
 
 Returns the url of the program module specified by progId.

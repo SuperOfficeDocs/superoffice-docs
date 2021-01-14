@@ -3,7 +3,6 @@ title: Bool SetPersonRank(Integer personId, Integer desiredRank)
 path: /EJScript/Classes/NSPersonAgent/Member functions/Bool SetPersonRank(Integer p_0, Integer p_1)
 intellisense: 1
 classref: 1
-sortOrder: 4924
 keywords: SetPersonRank(Integer,Integer)
 ---
 

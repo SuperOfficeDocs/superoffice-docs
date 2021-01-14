@@ -3,7 +3,6 @@ title: NSProduct[] FindProduct(Integer quoteAlternativeId, String userInput, Str
 path: /EJScript/Classes/NSQuoteAgent/Member functions/NSProduct[] FindProduct(Integer p_0, String p_1, String p_2)
 intellisense: 1
 classref: 1
-sortOrder: 5982
 keywords: FindProduct(Integer,String,String)
 ---
 

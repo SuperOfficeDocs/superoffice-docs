@@ -3,7 +3,6 @@ title: NSUserDefinedFieldInfo ChangeFieldType(NSUserDefinedFieldInfo info, Integ
 path: /EJScript/Classes/NSUserDefinedFieldInfoAgent/Member functions/NSUserDefinedFieldInfo ChangeFieldType(NSUserDefinedFieldInfo p_0, Integer p_1, Bool p_2)
 intellisense: 1
 classref: 1
-sortOrder: 8628
 keywords: ChangeFieldType(NSUserDefinedFieldInfo,Integer,Bool)
 ---
 

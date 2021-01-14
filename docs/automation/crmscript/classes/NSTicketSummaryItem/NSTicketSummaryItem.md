@@ -3,7 +3,6 @@ title: NSTicketSummaryItem
 path: /EJScript/Classes/NSTicketSummaryItem
 intellisense: 1
 classref: 1
-sortOrder: 8315
 ---
 
 

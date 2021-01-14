@@ -3,7 +3,6 @@ title: Void SetChangedQuoteAlternatives(NSQuoteAlternativeRecalculated[] Changed
 path: /EJScript/Classes/NSQuoteVersionValidated/Member functions/Void SetChangedQuoteAlternatives(NSQuoteAlternativeRecalculated[] p_0)
 intellisense: 1
 classref: 1
-sortOrder: 6454
 keywords: SetChangedQuoteAlternatives(NSQuoteAlternativeRecalculated[])
 ---
 

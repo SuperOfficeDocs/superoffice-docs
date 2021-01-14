@@ -3,7 +3,6 @@ title: NSResolvedPerson ResolvePersonFromInfo(Integer contactId, String personNa
 path: /EJScript/Classes/NSPersonAgent/Member functions/NSResolvedPerson ResolvePersonFromInfo(Integer p_0, String p_1, String[] p_2, String[] p_3)
 intellisense: 1
 classref: 1
-sortOrder: 4955
 keywords: ResolvePersonFromInfo(Integer,String,String[],String[])
 ---
 

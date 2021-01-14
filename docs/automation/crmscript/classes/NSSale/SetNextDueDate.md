@@ -3,7 +3,6 @@ title: Void SetNextDueDate(DateTime NextDueDate)
 path: /EJScript/Classes/NSSale/Member functions/Void SetNextDueDate(DateTime p_0)
 intellisense: 1
 classref: 1
-sortOrder: 6913
 keywords: SetNextDueDate(DateTime)
 ---
 

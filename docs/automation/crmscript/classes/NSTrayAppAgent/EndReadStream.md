@@ -3,7 +3,6 @@ title: String EndReadStream(String streamId, String communicationModuleName, Str
 path: /EJScript/Classes/NSTrayAppAgent/Member functions/String EndReadStream(String p_0, String p_1, String p_2, String p_3)
 intellisense: 1
 classref: 1
-sortOrder: 8388
 keywords: EndReadStream(String,String,String,String)
 ---
 

@@ -3,7 +3,6 @@ title: Void SetWedStop(DateTime WedStop)
 path: /EJScript/Classes/NSTicketPriorityEntity/Member functions/Void SetWedStop(DateTime p_0)
 intellisense: 1
 classref: 1
-sortOrder: 8302
 keywords: SetWedStop(DateTime)
 ---
 

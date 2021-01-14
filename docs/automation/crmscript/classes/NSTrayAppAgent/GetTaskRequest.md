@@ -3,7 +3,6 @@ title: NSXmlDocument GetTaskRequest(String parameters)
 path: /EJScript/Classes/NSTrayAppAgent/Member functions/NSXmlDocument GetTaskRequest(String p_0)
 intellisense: 1
 classref: 1
-sortOrder: 8385
 keywords: GetTaskRequest(String)
 ---
 

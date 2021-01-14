@@ -3,7 +3,6 @@ title: Bool GetIsTemporarySelection()
 path: /EJScript/Classes/NSMailMergeSettings/Member functions/Bool GetIsTemporarySelection()
 intellisense: 1
 classref: 1
-sortOrder: 4483
 keywords: GetIsTemporarySelection()
 ---
 

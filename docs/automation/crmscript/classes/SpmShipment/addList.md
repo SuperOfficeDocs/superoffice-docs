@@ -3,7 +3,6 @@ title: Void addList(Integer list)
 path: /EJScript/Classes/SpmShipment/Member functions/Void addList(Integer list)
 intellisense: 1
 classref: 1
-sortOrder: 9048
 keywords: addList(Integer)
 ---
 

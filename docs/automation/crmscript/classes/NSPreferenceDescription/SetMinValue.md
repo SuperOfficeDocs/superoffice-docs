@@ -3,7 +3,6 @@ title: Void SetMinValue(Integer MinValue)
 path: /EJScript/Classes/NSPreferenceDescription/Member functions/Void SetMinValue(Integer p_0)
 intellisense: 1
 classref: 1
-sortOrder: 5356
 keywords: SetMinValue(Integer)
 ---
 

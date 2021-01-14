@@ -3,7 +3,6 @@ title: String getText()
 path: /EJScript/Classes/XMLNode/Member functions/String getText()
 intellisense: 1
 classref: 1
-sortOrder: 9298
 keywords: getText()
 ---
 

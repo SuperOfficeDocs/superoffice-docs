@@ -3,7 +3,6 @@ title: Void MoveAllTickets(Integer fromTicketCategoryId, Integer toTicketCategor
 path: /EJScript/Classes/NSListAgent/Member functions/Void MoveAllTickets(Integer p_0, Integer p_1)
 intellisense: 1
 classref: 1
-sortOrder: 4386
 keywords: MoveAllTickets(Integer,Integer)
 ---
 

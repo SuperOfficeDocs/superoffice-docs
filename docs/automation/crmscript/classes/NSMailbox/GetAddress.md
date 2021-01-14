@@ -3,7 +3,6 @@ title: String GetAddress()
 path: /EJScript/Classes/NSMailbox/Member functions/String GetAddress()
 intellisense: 1
 classref: 1
-sortOrder: 4470
 keywords: GetAddress()
 ---
 

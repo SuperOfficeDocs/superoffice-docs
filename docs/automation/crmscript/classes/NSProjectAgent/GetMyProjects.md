@@ -3,7 +3,6 @@ title: NSProject[] GetMyProjects(Bool includeMemberProjects)
 path: /EJScript/Classes/NSProjectAgent/Member functions/NSProject[] GetMyProjects(Bool p_0)
 intellisense: 1
 classref: 1
-sortOrder: 5576
 keywords: GetMyProjects(Bool)
 ---
 

@@ -3,7 +3,6 @@ title: String GenerateReport(Integer reportId, Integer labelLayoutId, String fil
 path: /EJScript/Classes/NSReportAgent/Member functions/String GenerateReport(Integer p_0, Integer p_1, String p_2, String p_3, String p_4, NSArchiveRestrictionInfo[] p_5)
 intellisense: 1
 classref: 1
-sortOrder: 6701
 keywords: GenerateReport(Integer,Integer,String,String,String,NSArchiveRestrictionInfo[])
 ---
 

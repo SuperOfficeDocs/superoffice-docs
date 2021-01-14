@@ -3,7 +3,6 @@ title: NSStatusMonitorPeriods CreateDefaultStatusMonitorPeriods()
 path: /EJScript/Classes/NSSaintAgent/Member functions/NSStatusMonitorPeriods CreateDefaultStatusMonitorPeriods()
 intellisense: 1
 classref: 1
-sortOrder: 6853
 keywords: CreateDefaultStatusMonitorPeriods()
 ---
 

@@ -3,7 +3,6 @@ title: Integer toDays()
 path: /EJScript/Classes/TimeSpan/Member functions/Integer toDays()
 intellisense: 1
 classref: 1
-sortOrder: 9221
 keywords: toDays()
 ---
 

@@ -3,7 +3,6 @@ title: Void SetRule(String Rule)
 path: /EJScript/Classes/NSProduct/Member functions/Void SetRule(String p_0)
 intellisense: 1
 classref: 1
-sortOrder: 5481
 keywords: SetRule(String)
 ---
 

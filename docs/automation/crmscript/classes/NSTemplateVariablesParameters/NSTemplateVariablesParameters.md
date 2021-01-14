@@ -3,7 +3,6 @@ title: NSTemplateVariablesParameters
 path: /EJScript/Classes/NSTemplateVariablesParameters
 intellisense: 1
 classref: 1
-sortOrder: 7915
 ---
 
 

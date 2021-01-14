@@ -3,7 +3,6 @@ title: Void addDay(Integer num)
 path: /EJScript/Classes/TimeSpan/Member functions/Void addDay(Integer num)
 intellisense: 1
 classref: 1
-sortOrder: 9226
 keywords: addDay(Integer)
 ---
 

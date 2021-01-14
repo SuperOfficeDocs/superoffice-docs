@@ -3,7 +3,6 @@ title: NSQuoteListItem[] GetQuoteList(String quoteListType)
 path: /EJScript/Classes/NSQuoteAgent/Member functions/NSQuoteListItem[] GetQuoteList(String p_0)
 intellisense: 1
 classref: 1
-sortOrder: 6018
 keywords: GetQuoteList(String)
 ---
 

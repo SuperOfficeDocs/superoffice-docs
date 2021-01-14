@@ -3,7 +3,6 @@ title: NSDocumentEntity GetDocumentEntity()
 path: /EJScript/Classes/NSTemplateVariablesParameters/Member functions/NSDocumentEntity GetDocumentEntity()
 intellisense: 1
 classref: 1
-sortOrder: 7927
 keywords: GetDocumentEntity()
 ---
 

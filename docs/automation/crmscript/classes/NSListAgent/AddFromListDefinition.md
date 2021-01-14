@@ -3,7 +3,6 @@ title: NSListItemEntity AddFromListDefinition(Integer udListDefinitionId, NSList
 path: /EJScript/Classes/NSListAgent/Member functions/NSListItemEntity AddFromListDefinition(Integer p_0, NSListItemEntity p_1)
 intellisense: 1
 classref: 1
-sortOrder: 4220
 keywords: AddFromListDefinition(Integer,NSListItemEntity)
 ---
 

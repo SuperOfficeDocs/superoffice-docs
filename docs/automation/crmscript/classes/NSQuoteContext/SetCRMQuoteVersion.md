@@ -3,7 +3,6 @@ title: Void SetCRMQuoteVersion(NSQuoteVersion CRMQuoteVersion)
 path: /EJScript/Classes/NSQuoteContext/Member functions/Void SetCRMQuoteVersion(NSQuoteVersion p_0)
 intellisense: 1
 classref: 1
-sortOrder: 6152
 keywords: SetCRMQuoteVersion(NSQuoteVersion)
 ---
 

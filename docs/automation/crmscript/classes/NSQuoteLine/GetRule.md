@@ -3,7 +3,6 @@ title: String GetRule()
 path: /EJScript/Classes/NSQuoteLine/Member functions/String GetRule()
 intellisense: 1
 classref: 1
-sortOrder: 6229
 keywords: GetRule()
 ---
 

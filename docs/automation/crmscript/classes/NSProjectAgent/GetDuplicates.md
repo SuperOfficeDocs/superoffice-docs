@@ -3,7 +3,6 @@ title: NSDuplicateEntry[] GetDuplicates(String name)
 path: /EJScript/Classes/NSProjectAgent/Member functions/NSDuplicateEntry[] GetDuplicates(String p_0)
 intellisense: 1
 classref: 1
-sortOrder: 5570
 keywords: GetDuplicates(String)
 ---
 

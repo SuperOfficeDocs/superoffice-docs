@@ -3,7 +3,6 @@ title: Void SetTimeSpentInternally(Integer TimeSpentInternally)
 path: /EJScript/Classes/NSTicketEntity/Member functions/Void SetTimeSpentInternally(Integer p_0)
 intellisense: 1
 classref: 1
-sortOrder: 8166
 keywords: SetTimeSpentInternally(Integer)
 ---
 

@@ -3,7 +3,6 @@ title: Integer GetTimeSpentExternally()
 path: /EJScript/Classes/NSTicket/Member functions/Integer GetTimeSpentExternally()
 intellisense: 1
 classref: 1
-sortOrder: 7986
 keywords: GetTimeSpentExternally()
 ---
 

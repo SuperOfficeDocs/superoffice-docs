@@ -3,7 +3,6 @@ title: String GetSignature()
 path: /EJScript/Classes/NSModuleLicense/Member functions/String GetSignature()
 intellisense: 1
 classref: 1
-sortOrder: 4630
 keywords: GetSignature()
 ---
 

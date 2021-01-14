@@ -3,7 +3,6 @@ title: Void sendTicketTakenOver(Integer ticketId, Integer oldUserId, Integer new
 path: /EJScript/Classes/Notify/Member functions/Void sendTicketTakenOver(Integer ticketId, Integer oldUserId, Integer newUserId)
 intellisense: 1
 classref: 1
-sortOrder: 566
 keywords: sendTicketTakenOver(Integer,Integer,Integer)
 ---
 

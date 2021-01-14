@@ -3,7 +3,6 @@ title: Void SetExternalUserInfo(Integer associateId, String userName, String pas
 path: /EJScript/Classes/NSUserAgent/Member functions/Void SetExternalUserInfo(Integer p_0, String p_1, String p_2, Bool p_3, Integer p_4, Integer p_5)
 intellisense: 1
 classref: 1
-sortOrder: 8540
 keywords: SetExternalUserInfo(Integer,String,String,Bool,Integer,Integer)
 ---
 

@@ -3,7 +3,6 @@ title: Void Merge(Integer sourcePersonId, Integer destinationPersonId, DateTime 
 path: /EJScript/Classes/NSPersonAgent/Member functions/Void Merge(Integer p_0, Integer p_1, DateTime p_2, Bool p_3, Bool p_4)
 intellisense: 1
 classref: 1
-sortOrder: 4963
 keywords: Merge(Integer,Integer,DateTime,Bool,Bool)
 ---
 

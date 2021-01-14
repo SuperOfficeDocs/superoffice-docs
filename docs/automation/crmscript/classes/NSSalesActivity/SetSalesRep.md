@@ -3,7 +3,6 @@ title: Void SetSalesRep(NSPerson SalesRep)
 path: /EJScript/Classes/NSSalesActivity/Member functions/Void SetSalesRep(NSPerson p_0)
 intellisense: 1
 classref: 1
-sortOrder: 7064
 keywords: SetSalesRep(NSPerson)
 ---
 

@@ -3,7 +3,6 @@ title: NSRefCountEntity SaveRefCountEntity(NSRefCountEntity refCountEntity)
 path: /EJScript/Classes/NSNumberAllocationAgent/Member functions/NSRefCountEntity SaveRefCountEntity(NSRefCountEntity p_0)
 intellisense: 1
 classref: 1
-sortOrder: 4711
 keywords: SaveRefCountEntity(NSRefCountEntity)
 ---
 

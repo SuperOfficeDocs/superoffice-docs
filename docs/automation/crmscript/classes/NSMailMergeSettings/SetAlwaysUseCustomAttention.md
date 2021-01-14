@@ -3,7 +3,6 @@ title: Void SetAlwaysUseCustomAttention(Bool AlwaysUseCustomAttention)
 path: /EJScript/Classes/NSMailMergeSettings/Member functions/Void SetAlwaysUseCustomAttention(Bool p_0)
 intellisense: 1
 classref: 1
-sortOrder: 4502
 keywords: SetAlwaysUseCustomAttention(Bool)
 ---
 

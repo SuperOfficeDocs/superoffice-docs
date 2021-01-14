@@ -3,7 +3,6 @@ title: NSDocumentTemplateEntity SetDocumentTemplateStream(NSDocumentTemplateEnti
 path: /EJScript/Classes/NSListAgent/Member functions/NSDocumentTemplateEntity SetDocumentTemplateStream(NSDocumentTemplateEntity p_0, NSStream p_1, String p_2, Integer p_3)
 intellisense: 1
 classref: 1
-sortOrder: 4186
 keywords: SetDocumentTemplateStream(NSDocumentTemplateEntity,NSStream,String,Integer)
 ---
 

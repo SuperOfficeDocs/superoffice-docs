@@ -3,7 +3,6 @@ title: NSListItemEntity[] GetAllFromListDefinition(Integer udListDefinitionId, B
 path: /EJScript/Classes/NSListAgent/Member functions/NSListItemEntity[] GetAllFromListDefinition(Integer p_0, Bool p_1)
 intellisense: 1
 classref: 1
-sortOrder: 4228
 keywords: GetAllFromListDefinition(Integer,Bool)
 ---
 

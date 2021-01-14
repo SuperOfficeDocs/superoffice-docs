@@ -3,7 +3,6 @@ title: NSApproveRejectResponse ApproveQuoteVersion(Integer quoteVersionId, Strin
 path: /EJScript/Classes/NSQuoteAgent/Member functions/NSApproveRejectResponse ApproveQuoteVersion(Integer p_0, String p_1, Integer p_2, String p_3)
 intellisense: 1
 classref: 1
-sortOrder: 5958
 keywords: ApproveQuoteVersion(Integer,String,Integer,String)
 ---
 

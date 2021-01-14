@@ -3,7 +3,6 @@ title: Void setChildren(XMLNode[] children)
 path: /EJScript/Classes/XMLNode/Member functions/Void setChildren(XMLNode[] children)
 intellisense: 1
 classref: 1
-sortOrder: 9303
 keywords: setChildren(XMLNode[])
 ---
 

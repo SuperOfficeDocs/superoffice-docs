@@ -3,7 +3,6 @@ title: Void SetRankOnStatusMonitors(String type, Integer[] itemsIds)
 path: /EJScript/Classes/NSSaintAgent/Member functions/Void SetRankOnStatusMonitors(String p_0, Integer[] p_1)
 intellisense: 1
 classref: 1
-sortOrder: 6857
 keywords: SetRankOnStatusMonitors(String,Integer[])
 ---
 

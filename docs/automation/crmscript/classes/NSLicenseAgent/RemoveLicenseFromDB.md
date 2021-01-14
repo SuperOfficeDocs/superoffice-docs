@@ -3,7 +3,6 @@ title: NSLicenseResult RemoveLicenseFromDB(String moduleOwner)
 path: /EJScript/Classes/NSLicenseAgent/Member functions/NSLicenseResult RemoveLicenseFromDB(String p_0)
 intellisense: 1
 classref: 1
-sortOrder: 4040
 keywords: RemoveLicenseFromDB(String)
 ---
 

@@ -3,7 +3,6 @@ title: Void SetIsOk(Bool IsOk)
 path: /EJScript/Classes/NSQuoteVersionValidated/Member functions/Void SetIsOk(Bool p_0)
 intellisense: 1
 classref: 1
-sortOrder: 6458
 keywords: SetIsOk(Bool)
 ---
 

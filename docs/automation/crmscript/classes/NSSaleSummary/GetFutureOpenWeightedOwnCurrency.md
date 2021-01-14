@@ -3,7 +3,6 @@ title: Float GetFutureOpenWeightedOwnCurrency()
 path: /EJScript/Classes/NSSaleSummary/Member functions/Float GetFutureOpenWeightedOwnCurrency()
 intellisense: 1
 classref: 1
-sortOrder: 7128
 keywords: GetFutureOpenWeightedOwnCurrency()
 ---
 

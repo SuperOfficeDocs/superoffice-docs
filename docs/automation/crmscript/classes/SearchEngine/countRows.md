@@ -3,7 +3,6 @@ title: Integer countRows()
 path: /EJScript/Classes/SearchEngine/member functions/Integer countRows()
 intellisense: 1
 classref: 1
-sortOrder: 8985
 keywords: countRows()
 ---
 

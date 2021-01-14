@@ -3,7 +3,6 @@ title: DateTime[] GetNonDates()
 path: /EJScript/Classes/NSTicketPriorityEntity/Member functions/DateTime[] GetNonDates()
 intellisense: 1
 classref: 1
-sortOrder: 8263
 keywords: GetNonDates()
 ---
 

@@ -3,7 +3,6 @@ title: NSDeliveryType[] GetDeliveryTypes()
 path: /EJScript/Classes/NSListAgent/Member functions/NSDeliveryType[] GetDeliveryTypes()
 intellisense: 1
 classref: 1
-sortOrder: 4174
 keywords: GetDeliveryTypes()
 ---
 

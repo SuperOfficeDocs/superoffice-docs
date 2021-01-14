@@ -3,7 +3,6 @@ title: Void SetTargetTableNumber(Integer TargetTableNumber)
 path: /EJScript/Classes/NSSelectionEntity/Member functions/Void SetTargetTableNumber(Integer p_0)
 intellisense: 1
 classref: 1
-sortOrder: 7456
 keywords: SetTargetTableNumber(Integer)
 ---
 

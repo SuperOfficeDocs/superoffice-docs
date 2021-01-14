@@ -1,11 +1,9 @@
 ---
-title: HtmlElement addHtmlElement(Integer id, String name, Integer type, String config)
+description: HtmlElement addHtmlElement(Integer id, String name, Integer type, String config)
 path: /EJScript/Global functions/HtmlElement addHtmlElement(Integer id, String name, Integer type, String config)
 intellisense: 1
 langref: 1
-sortOrder: 9351
-keywords: addHtmlElement(Integer,String,Integer,String)
----
+keywords: addHtmlElement(Integer,String,Integer,String)---
 
 Adds an html element to the associated screen, i.e. when this script is excuted as the load script for a screen.
 

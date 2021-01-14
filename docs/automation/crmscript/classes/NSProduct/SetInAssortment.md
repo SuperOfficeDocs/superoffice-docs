@@ -3,7 +3,6 @@ title: Void SetInAssortment(Bool InAssortment)
 path: /EJScript/Classes/NSProduct/Member functions/Void SetInAssortment(Bool p_0)
 intellisense: 1
 classref: 1
-sortOrder: 5468
 keywords: SetInAssortment(Bool)
 ---
 

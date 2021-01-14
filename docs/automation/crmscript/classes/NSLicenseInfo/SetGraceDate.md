@@ -3,7 +3,6 @@ title: Void SetGraceDate(DateTime GraceDate)
 path: /EJScript/Classes/NSLicenseInfo/Member functions/Void SetGraceDate(DateTime p_0)
 intellisense: 1
 classref: 1
-sortOrder: 4076
 keywords: SetGraceDate(DateTime)
 ---
 

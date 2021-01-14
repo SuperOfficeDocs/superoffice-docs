@@ -3,7 +3,6 @@ title: NSSelectionEntity CreateTemporaryContactSelectionFromContactPersonIds(NSC
 path: /EJScript/Classes/NSSelectionAgent/Member functions/NSSelectionEntity CreateTemporaryContactSelectionFromContactPersonIds(NSContactPersonId[] p_0)
 intellisense: 1
 classref: 1
-sortOrder: 7374
 keywords: CreateTemporaryContactSelectionFromContactPersonIds(NSContactPersonId[])
 ---
 

@@ -1,11 +1,9 @@
 ---
-title: String getProgramDocument()
+description: String getProgramDocument()
 path: /EJScript/Global functions/String getProgramDocument()
 intellisense: 1
 langref: 1
-sortOrder: 9456
-keywords: getProgramDocument()
----
+keywords: getProgramDocument()---
 
 
 Returns the url of the program module specified after getProgram.

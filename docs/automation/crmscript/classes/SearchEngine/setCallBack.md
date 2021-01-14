@@ -3,7 +3,6 @@ title: Void setCallBack(String functionName)
 path: /EJScript/Classes/SearchEngine/member functions/Void setCallBack(String functionName)
 intellisense: 1
 classref: 1
-sortOrder: 9021
 keywords: setCallBack(String)
 ---
 

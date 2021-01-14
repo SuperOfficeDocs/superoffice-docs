@@ -3,7 +3,6 @@ title: Void setSubject(String subject)
 path: /EJScript/Classes/SpmMessage/Member functions/Void setSubject(String subject)
 intellisense: 1
 classref: 1
-sortOrder: 9044
 keywords: setSubject(String)
 ---
 

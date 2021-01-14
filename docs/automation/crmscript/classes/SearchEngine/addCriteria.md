@@ -3,7 +3,6 @@ title: Void addCriteria(String field, String compOperator, String value, String 
 path: /EJScript/Classes/SearchEngine/member functions/Void addCriteria(String field, String compOperator, String value, String rowOperator, Integer priority)
 intellisense: 1
 classref: 1
-sortOrder: 9003
 keywords: addCriteria(String,String,String,String,Integer)
 ---
 

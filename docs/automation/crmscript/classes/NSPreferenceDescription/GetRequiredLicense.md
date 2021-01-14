@@ -3,7 +3,6 @@ title: String GetRequiredLicense()
 path: /EJScript/Classes/NSPreferenceDescription/Member functions/String GetRequiredLicense()
 intellisense: 1
 classref: 1
-sortOrder: 5344
 keywords: GetRequiredLicense()
 ---
 

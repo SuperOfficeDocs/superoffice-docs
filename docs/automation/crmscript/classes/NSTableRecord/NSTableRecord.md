@@ -3,7 +3,6 @@ title: NSTableRecord
 path: /EJScript/Classes/NSTableRecord
 intellisense: 1
 classref: 1
-sortOrder: 7837
 ---
 
 

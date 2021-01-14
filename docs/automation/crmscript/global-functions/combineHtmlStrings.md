@@ -1,11 +1,9 @@
 ---
-title: String combineHtmlStrings(Vector htmlStrings)
+description: String combineHtmlStrings(Vector htmlStrings)
 path: /EJScript/Global functions/String combineHtmlStrings(Vector htmlStrings)
 intellisense: 1
 langref: 1
-sortOrder: 9403
-keywords: combineHtmlStrings(Vector)
----
+keywords: combineHtmlStrings(Vector)---
 
 
 This function will take several strings, each containing a html document, and combine them into one html string.

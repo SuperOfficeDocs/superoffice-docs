@@ -3,7 +3,6 @@ title: Void execute(StatResult sr)
 path: /EJScript/Classes/StatLib/Member functions/Void execute(StatResult sr)
 intellisense: 1
 classref: 1
-sortOrder: 9078
 keywords: execute(StatResult)
 ---
 

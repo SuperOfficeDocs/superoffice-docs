@@ -3,7 +3,6 @@ title: Void setBody(String body)
 path: /EJScript/Classes/SpmMessage/Member functions/Void setBody(String body)
 intellisense: 1
 classref: 1
-sortOrder: 9039
 keywords: setBody(String)
 ---
 

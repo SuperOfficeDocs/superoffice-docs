@@ -3,7 +3,6 @@ title: Void DeleteTicketCategoryEntity(Integer ticketCategoryEntityId)
 path: /EJScript/Classes/NSListAgent/Member functions/Void DeleteTicketCategoryEntity(Integer p_0)
 intellisense: 1
 classref: 1
-sortOrder: 4381
 keywords: DeleteTicketCategoryEntity(Integer)
 ---
 

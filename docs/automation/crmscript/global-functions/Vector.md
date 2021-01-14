@@ -1,11 +1,9 @@
 ---
-title: Vector Vector(IntegerArray values)
+description: Vector Vector(IntegerArray values)
 path: /EJScript/Global functions/Vector Vector(IntegerArray values)
 intellisense: 1
 langref: 1
-sortOrder: 9494
-keywords: Vector(IntegerArray)
----
+keywords: Vector(IntegerArray)---
 
 
 A Vector constructor that converts an IntegerArray into a Vector.

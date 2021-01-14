@@ -3,7 +3,6 @@ title: Void SetDirection(Integer p0)
 path: /EJScript/Classes/NSTaskListItem/Member functions/Void SetDirection(Integer p_0)
 intellisense: 1
 classref: 1
-sortOrder: 7893
 keywords: SetDirection(Integer)
 ---
 

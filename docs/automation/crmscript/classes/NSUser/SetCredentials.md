@@ -3,7 +3,6 @@ title: Void SetCredentials(NSCredential[] Credentials)
 path: /EJScript/Classes/NSUser/Member functions/Void SetCredentials(NSCredential[] p_0)
 intellisense: 1
 classref: 1
-sortOrder: 8433
 keywords: SetCredentials(NSCredential[])
 ---
 

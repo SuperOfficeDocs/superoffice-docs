@@ -3,7 +3,6 @@ title: Void setFrom(String from)
 path: /EJScript/Classes/SpmShipment/Member functions/Void setFrom(String from)
 intellisense: 1
 classref: 1
-sortOrder: 9055
 keywords: setFrom(String)
 ---
 

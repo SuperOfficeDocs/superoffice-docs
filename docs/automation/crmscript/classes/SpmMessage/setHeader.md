@@ -3,7 +3,6 @@ title: Void setHeader(String header)
 path: /EJScript/Classes/SpmMessage/Member functions/Void setHeader(String header)
 intellisense: 1
 classref: 1
-sortOrder: 9043
 keywords: setHeader(String)
 ---
 

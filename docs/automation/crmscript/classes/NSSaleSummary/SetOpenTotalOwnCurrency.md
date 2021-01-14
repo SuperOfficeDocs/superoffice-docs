@@ -3,7 +3,6 @@ title: Void SetOpenTotalOwnCurrency(Float OpenTotalOwnCurrency)
 path: /EJScript/Classes/NSSaleSummary/Member functions/Void SetOpenTotalOwnCurrency(Float p_0)
 intellisense: 1
 classref: 1
-sortOrder: 7165
 keywords: SetOpenTotalOwnCurrency(Float)
 ---
 

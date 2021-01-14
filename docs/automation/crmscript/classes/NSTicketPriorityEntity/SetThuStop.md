@@ -3,7 +3,6 @@ title: Void SetThuStop(DateTime ThuStop)
 path: /EJScript/Classes/NSTicketPriorityEntity/Member functions/Void SetThuStop(DateTime p_0)
 intellisense: 1
 classref: 1
-sortOrder: 8292
 keywords: SetThuStop(DateTime)
 ---
 

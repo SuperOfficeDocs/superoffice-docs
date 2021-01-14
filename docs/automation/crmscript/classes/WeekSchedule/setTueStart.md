@@ -3,7 +3,6 @@ title: Void setTueStart(Time p0)
 path: /EJScript/Classes/WeekSchedule/Member functions/Void setTueStart(Time p_0)
 intellisense: 1
 classref: 1
-sortOrder: 9290
 keywords: setTueStart(Time)
 ---
 

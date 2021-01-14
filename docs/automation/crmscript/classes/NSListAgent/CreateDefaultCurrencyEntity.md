@@ -3,7 +3,6 @@ title: NSCurrencyEntity CreateDefaultCurrencyEntity()
 path: /EJScript/Classes/NSListAgent/Member functions/NSCurrencyEntity CreateDefaultCurrencyEntity()
 intellisense: 1
 classref: 1
-sortOrder: 4161
 keywords: CreateDefaultCurrencyEntity()
 ---
 

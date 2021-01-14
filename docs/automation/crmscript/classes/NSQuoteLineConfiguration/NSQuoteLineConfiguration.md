@@ -3,7 +3,6 @@ title: NSQuoteLineConfiguration
 path: /EJScript/Classes/NSQuoteLineConfiguration
 intellisense: 1
 classref: 1
-sortOrder: 6287
 ---
 
 

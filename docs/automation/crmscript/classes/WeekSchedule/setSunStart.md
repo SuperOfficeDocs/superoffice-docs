@@ -3,7 +3,6 @@ title: Void setSunStart(Time t)
 path: /EJScript/Classes/WeekSchedule/Member functions/Void setSunStart(Time t)
 intellisense: 1
 classref: 1
-sortOrder: 9286
 keywords: setSunStart(Time)
 ---
 

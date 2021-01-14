@@ -3,7 +3,6 @@ title: Void RemoveUntrustedCredentials(String type, String publicValue)
 path: /EJScript/Classes/NSUserAgent/Member functions/Void RemoveUntrustedCredentials(String p_0, String p_1)
 intellisense: 1
 classref: 1
-sortOrder: 8534
 keywords: RemoveUntrustedCredentials(String,String)
 ---
 

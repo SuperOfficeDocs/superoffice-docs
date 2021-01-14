@@ -3,7 +3,6 @@ title: Void SetValidTo(DateTime ValidTo)
 path: /EJScript/Classes/NSPriceList/Member functions/Void SetValidTo(DateTime p_0)
 intellisense: 1
 classref: 1
-sortOrder: 5412
 keywords: SetValidTo(DateTime)
 ---
 

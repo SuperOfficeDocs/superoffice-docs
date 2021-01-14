@@ -3,7 +3,6 @@ title: Void SetReadStatus(NSTicketReadStatus ReadStatus)
 path: /EJScript/Classes/NSTicket/Member functions/Void SetReadStatus(NSTicketReadStatus p_0)
 intellisense: 1
 classref: 1
-sortOrder: 8021
 keywords: SetReadStatus(NSTicketReadStatus)
 ---
 

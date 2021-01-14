@@ -3,7 +3,6 @@ title: Float GetERPDiscountPercent()
 path: /EJScript/Classes/NSQuoteAlternative/Member functions/Float GetERPDiscountPercent()
 intellisense: 1
 classref: 1
-sortOrder: 6056
 keywords: GetERPDiscountPercent()
 ---
 

@@ -3,7 +3,6 @@ title: Void SetValidFrom(DateTime ValidFrom)
 path: /EJScript/Classes/NSUntrustedCredentials/Member functions/Void SetValidFrom(DateTime p_0)
 intellisense: 1
 classref: 1
-sortOrder: 8405
 keywords: SetValidFrom(DateTime)
 ---
 

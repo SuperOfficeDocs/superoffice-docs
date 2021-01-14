@@ -3,7 +3,6 @@ title: Void DeleteSaleTypeQuoteAttachment(Integer saleTypeQuoteAttachmentId)
 path: /EJScript/Classes/NSQuoteAgent/Member functions/Void DeleteSaleTypeQuoteAttachment(Integer p_0)
 intellisense: 1
 classref: 1
-sortOrder: 6043
 keywords: DeleteSaleTypeQuoteAttachment(Integer)
 ---
 

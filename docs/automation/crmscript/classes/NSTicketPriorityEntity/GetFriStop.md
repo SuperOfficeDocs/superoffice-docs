@@ -3,7 +3,6 @@ title: DateTime GetFriStop()
 path: /EJScript/Classes/NSTicketPriorityEntity/Member functions/DateTime GetFriStop()
 intellisense: 1
 classref: 1
-sortOrder: 8250
 keywords: GetFriStop()
 ---
 

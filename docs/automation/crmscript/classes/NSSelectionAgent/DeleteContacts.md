@@ -3,7 +3,6 @@ title: Void DeleteContacts(Integer selectionId)
 path: /EJScript/Classes/NSSelectionAgent/Member functions/Void DeleteContacts(Integer p_0)
 intellisense: 1
 classref: 1
-sortOrder: 7384
 keywords: DeleteContacts(Integer)
 ---
 

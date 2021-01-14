@@ -3,7 +3,6 @@ title: Void loadFromPriority(Integer p\_id)
 path: /EJScript/Classes/WeekSchedule/Member functions/Void loadFromPriority(Integer p_id)
 intellisense: 1
 classref: 1
-sortOrder: 9278
 keywords: loadFromPriority(Integer)
 ---
 

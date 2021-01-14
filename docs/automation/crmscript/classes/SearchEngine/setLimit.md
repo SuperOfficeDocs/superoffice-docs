@@ -3,7 +3,6 @@ title: Void setLimit(Integer number)
 path: /EJScript/Classes/SearchEngine/member functions/Void setLimit(Integer number)
 intellisense: 1
 classref: 1
-sortOrder: 9025
 keywords: setLimit(Integer)
 ---
 

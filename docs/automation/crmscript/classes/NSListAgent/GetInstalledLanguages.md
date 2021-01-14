@@ -3,7 +3,6 @@ title: NSLanguageInfo[] GetInstalledLanguages()
 path: /EJScript/Classes/NSListAgent/Member functions/NSLanguageInfo[] GetInstalledLanguages()
 intellisense: 1
 classref: 1
-sortOrder: 4204
 keywords: GetInstalledLanguages()
 ---
 

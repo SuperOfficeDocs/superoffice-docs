@@ -3,7 +3,6 @@ title: Bool next()
 path: /EJScript/Classes/SearchEngine/member functions/Bool next()
 intellisense: 1
 classref: 1
-sortOrder: 8983
 keywords: next()
 ---
 

@@ -3,7 +3,6 @@ title: NSServiceAuth CreateDefaultServiceAuth()
 path: /EJScript/Classes/NSUserAgent/Member functions/NSServiceAuth CreateDefaultServiceAuth()
 intellisense: 1
 classref: 1
-sortOrder: 8487
 keywords: CreateDefaultServiceAuth()
 ---
 

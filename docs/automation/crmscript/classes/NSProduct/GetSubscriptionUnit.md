@@ -3,7 +3,6 @@ title: String GetSubscriptionUnit()
 path: /EJScript/Classes/NSProduct/Member functions/String GetSubscriptionUnit()
 intellisense: 1
 classref: 1
-sortOrder: 5452
 keywords: GetSubscriptionUnit()
 ---
 

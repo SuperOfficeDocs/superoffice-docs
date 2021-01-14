@@ -3,7 +3,6 @@ title: String getCell(Integer row, Integer column)
 path: /EJScript/Classes/StringMatrix/Member functions/String getCell(Integer row, Integer column)
 intellisense: 1
 classref: 1
-sortOrder: 9166
 keywords: getCell(Integer,Integer)
 ---
 

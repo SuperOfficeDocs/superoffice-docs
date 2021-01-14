@@ -1,11 +1,9 @@
 ---
-title: Void printBinary(NSStream bytes)
+description: Void printBinary(NSStream bytes)
 path: /EJScript/Global functions/Void printBinary(NSStream bytes)
 intellisense: 1
 langref: 1
-sortOrder: 9512
-keywords: printBinary(NSStream)
----
+keywords: printBinary(NSStream)---
 
 
 Output the bytes to standard output stream.

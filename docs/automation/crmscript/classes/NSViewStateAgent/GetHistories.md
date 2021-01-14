@@ -3,7 +3,6 @@ title: NSHistory[] GetHistories()
 path: /EJScript/Classes/NSViewStateAgent/Member functions/NSHistory[] GetHistories()
 intellisense: 1
 classref: 1
-sortOrder: 8734
 keywords: GetHistories()
 ---
 

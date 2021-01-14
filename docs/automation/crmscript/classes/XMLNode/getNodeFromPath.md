@@ -3,7 +3,6 @@ title: XMLNode getNodeFromPath(String)
 path: /EJScript/Classes/XMLNode/Member functions/XMLNode getNodeFromPath(String)
 intellisense: 1
 classref: 1
-sortOrder: 9307
 keywords: getNodeFromPath(String)
 ---
 

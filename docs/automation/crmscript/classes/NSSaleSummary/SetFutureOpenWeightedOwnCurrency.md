@@ -3,7 +3,6 @@ title: Void SetFutureOpenWeightedOwnCurrency(Float FutureOpenWeightedOwnCurrency
 path: /EJScript/Classes/NSSaleSummary/Member functions/Void SetFutureOpenWeightedOwnCurrency(Float p_0)
 intellisense: 1
 classref: 1
-sortOrder: 7159
 keywords: SetFutureOpenWeightedOwnCurrency(Float)
 ---
 

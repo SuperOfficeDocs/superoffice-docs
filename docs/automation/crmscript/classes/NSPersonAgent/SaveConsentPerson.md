@@ -3,7 +3,6 @@ title: NSConsentPerson SaveConsentPerson(NSConsentPerson consentPerson)
 path: /EJScript/Classes/NSPersonAgent/Member functions/NSConsentPerson SaveConsentPerson(NSConsentPerson p_0)
 intellisense: 1
 classref: 1
-sortOrder: 4931
 keywords: SaveConsentPerson(NSConsentPerson)
 ---
 

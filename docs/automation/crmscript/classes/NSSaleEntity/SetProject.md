@@ -3,7 +3,6 @@ title: Void SetProject(NSProject Project)
 path: /EJScript/Classes/NSSaleEntity/Member functions/Void SetProject(NSProject p_0)
 intellisense: 1
 classref: 1
-sortOrder: 7037
 keywords: SetProject(NSProject)
 ---
 

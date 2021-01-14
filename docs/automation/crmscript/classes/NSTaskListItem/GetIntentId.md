@@ -3,7 +3,6 @@ title: Integer GetIntentId()
 path: /EJScript/Classes/NSTaskListItem/Member functions/Integer GetIntentId()
 intellisense: 1
 classref: 1
-sortOrder: 7883
 keywords: GetIntentId()
 ---
 

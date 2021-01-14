@@ -3,7 +3,6 @@ title: Bool GetSearchDepartment()
 path: /EJScript/Classes/NSPhoneListPreferences/Member functions/Bool GetSearchDepartment()
 intellisense: 1
 classref: 1
-sortOrder: 5150
 keywords: GetSearchDepartment()
 ---
 

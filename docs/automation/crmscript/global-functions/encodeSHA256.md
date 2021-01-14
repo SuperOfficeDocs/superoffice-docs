@@ -1,11 +1,9 @@
 ---
-title: String encodeSHA256(String key, String value)
+description: String encodeSHA256(String key, String value)
 path: /EJScript/Global functions/String encodeSHA256(String key, String value)
 intellisense: 1
 langref: 1
-sortOrder: 9414
-keywords: encodeSHA256(String,String)
----
+keywords: encodeSHA256(String,String)---
 
 This function generates and returns a hash from a specified key-value pair using the SHA256 encoding algorithm. This can be used to ensure data integrity. (The hash cannot be decrypted back)
 

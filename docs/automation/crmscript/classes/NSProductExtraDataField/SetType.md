@@ -3,7 +3,6 @@ title: Void SetType(Integer Type)
 path: /EJScript/Classes/NSProductExtraDataField/Member functions/Void SetType(Integer p_0)
 intellisense: 1
 classref: 1
-sortOrder: 5505
 keywords: SetType(Integer)
 ---
 

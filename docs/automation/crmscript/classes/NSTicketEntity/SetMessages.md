@@ -3,7 +3,6 @@ title: Void SetMessages(NSTicketMessage[] Messages)
 path: /EJScript/Classes/NSTicketEntity/Member functions/Void SetMessages(NSTicketMessage[] p_0)
 intellisense: 1
 classref: 1
-sortOrder: 8145
 keywords: SetMessages(NSTicketMessage[])
 ---
 

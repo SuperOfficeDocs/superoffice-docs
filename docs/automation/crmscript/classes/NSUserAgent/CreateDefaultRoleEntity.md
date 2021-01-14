@@ -3,7 +3,6 @@ title: NSRoleEntity CreateDefaultRoleEntity()
 path: /EJScript/Classes/NSUserAgent/Member functions/NSRoleEntity CreateDefaultRoleEntity()
 intellisense: 1
 classref: 1
-sortOrder: 8480
 keywords: CreateDefaultRoleEntity()
 ---
 

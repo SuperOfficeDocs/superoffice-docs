@@ -3,7 +3,6 @@ title: Void SetRole(NSRole Role)
 path: /EJScript/Classes/NSUser/Member functions/Void SetRole(NSRole p_0)
 intellisense: 1
 classref: 1
-sortOrder: 8449
 keywords: SetRole(NSRole)
 ---
 

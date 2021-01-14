@@ -3,7 +3,6 @@ title: NSRedLetterInformationListItem
 path: /EJScript/Classes/NSRedLetterInformationListItem
 intellisense: 1
 classref: 1
-sortOrder: 6607
 ---
 
 

@@ -3,7 +3,6 @@ title: Float GetFutureOpenTotalOwnCurrency()
 path: /EJScript/Classes/NSSaleSummary/Member functions/Float GetFutureOpenTotalOwnCurrency()
 intellisense: 1
 classref: 1
-sortOrder: 7126
 keywords: GetFutureOpenTotalOwnCurrency()
 ---
 

@@ -3,7 +3,6 @@ title: Void SetExtraFlags(Integer ExtraFlags)
 path: /EJScript/Classes/NSModuleLicense/Member functions/Void SetExtraFlags(Integer p_0)
 intellisense: 1
 classref: 1
-sortOrder: 4633
 keywords: SetExtraFlags(Integer)
 ---
 

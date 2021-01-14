@@ -3,7 +3,6 @@ title: Void SetSaleTypeStageLinkId(Integer SaleTypeStageLinkId)
 path: /EJScript/Classes/NSSuggestedAppointment/Member functions/Void SetSaleTypeStageLinkId(Integer p_0)
 intellisense: 1
 classref: 1
-sortOrder: 7748
 keywords: SetSaleTypeStageLinkId(Integer)
 ---
 

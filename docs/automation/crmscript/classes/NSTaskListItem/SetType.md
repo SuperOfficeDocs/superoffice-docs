@@ -3,7 +3,6 @@ title: Void SetType(Integer p0)
 path: /EJScript/Classes/NSTaskListItem/Member functions/Void SetType(Integer p_0)
 intellisense: 1
 classref: 1
-sortOrder: 7902
 keywords: SetType(Integer)
 ---
 

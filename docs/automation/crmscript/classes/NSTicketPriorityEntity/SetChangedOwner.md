@@ -3,7 +3,6 @@ title: Void SetChangedOwner(NSTicketPriorityEscalateEvent ChangedOwner)
 path: /EJScript/Classes/NSTicketPriorityEntity/Member functions/Void SetChangedOwner(NSTicketPriorityEscalateEvent p_0)
 intellisense: 1
 classref: 1
-sortOrder: 8276
 keywords: SetChangedOwner(NSTicketPriorityEscalateEvent)
 ---
 

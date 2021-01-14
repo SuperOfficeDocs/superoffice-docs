@@ -3,7 +3,6 @@ title: Bool GetRestrictEdit()
 path: /EJScript/Classes/NSQuoteLineConfiguration/Member functions/Bool GetRestrictEdit()
 intellisense: 1
 classref: 1
-sortOrder: 6292
 keywords: GetRestrictEdit()
 ---
 

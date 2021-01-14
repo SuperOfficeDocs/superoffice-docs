@@ -3,7 +3,6 @@ title: String GetEndRulePattern()
 path: /EJScript/Classes/NSTimeZoneRule/Member functions/String GetEndRulePattern()
 intellisense: 1
 classref: 1
-sortOrder: 8371
 keywords: GetEndRulePattern()
 ---
 

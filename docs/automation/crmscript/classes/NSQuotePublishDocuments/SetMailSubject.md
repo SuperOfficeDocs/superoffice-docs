@@ -3,7 +3,6 @@ title: Void SetMailSubject(String MailSubject)
 path: /EJScript/Classes/NSQuotePublishDocuments/Member functions/Void SetMailSubject(String p_0)
 intellisense: 1
 classref: 1
-sortOrder: 6327
 keywords: SetMailSubject(String)
 ---
 

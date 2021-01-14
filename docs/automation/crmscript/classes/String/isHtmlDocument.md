@@ -3,7 +3,6 @@ title: Bool isHtmlDocument()
 path: /EJScript/Classes/String/Member functions/Bool isHtmlDocument()
 intellisense: 1
 classref: 1
-sortOrder: 9107
 keywords: isHtmlDocument()
 ---
 

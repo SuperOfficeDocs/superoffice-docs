@@ -3,7 +3,6 @@ title: NSWebPanelEntity[] GetSystemWebPanels()
 path: /EJScript/Classes/NSPocketStartupData/Member functions/NSWebPanelEntity[] GetSystemWebPanels()
 intellisense: 1
 classref: 1
-sortOrder: 5249
 keywords: GetSystemWebPanels()
 ---
 

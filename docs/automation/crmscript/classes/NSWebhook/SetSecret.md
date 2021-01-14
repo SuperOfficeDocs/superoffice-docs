@@ -3,7 +3,6 @@ title: Void SetSecret(String Secret)
 path: /EJScript/Classes/NSWebhook/Member functions/Void SetSecret(String p_0)
 intellisense: 1
 classref: 1
-sortOrder: 8789
 keywords: SetSecret(String)
 ---
 

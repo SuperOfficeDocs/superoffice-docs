@@ -3,7 +3,6 @@ title: Integer AddToFavorites(Integer contactId)
 path: /EJScript/Classes/NSPhoneListAgent/Member functions/Integer AddToFavorites(Integer p_0)
 intellisense: 1
 classref: 1
-sortOrder: 5117
 keywords: AddToFavorites(Integer)
 ---
 

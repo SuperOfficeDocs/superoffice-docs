@@ -3,7 +3,6 @@ title: Bool ChangePasswordFromName(String associateName, String oldPassword, Str
 path: /EJScript/Classes/NSUserAgent/Member functions/Bool ChangePasswordFromName(String p_0, String p_1, String p_2)
 intellisense: 1
 classref: 1
-sortOrder: 8460
 keywords: ChangePasswordFromName(String,String,String)
 ---
 

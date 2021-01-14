@@ -3,7 +3,6 @@ title: NSExtAppEntity CreateDefaultExtAppEntity()
 path: /EJScript/Classes/NSListAgent/Member functions/NSExtAppEntity CreateDefaultExtAppEntity()
 intellisense: 1
 classref: 1
-sortOrder: 4189
 keywords: CreateDefaultExtAppEntity()
 ---
 

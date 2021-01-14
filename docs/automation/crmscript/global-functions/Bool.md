@@ -1,11 +1,9 @@
 ---
-title: Bool Bool(Bool value)
+description: Bool Bool(Bool value)
 path: /EJScript/Global functions/Bool Bool(Bool value)
 intellisense: 1
 langref: 1
-sortOrder: 9315
-keywords: Bool(Bool)
----
+keywords: Bool(Bool)---
 
 Bool constructor
 

@@ -3,7 +3,6 @@ title: String GetPersonName()
 path: /EJScript/Classes/NSTicketInfo/Member functions/String GetPersonName()
 intellisense: 1
 classref: 1
-sortOrder: 8177
 keywords: GetPersonName()
 ---
 

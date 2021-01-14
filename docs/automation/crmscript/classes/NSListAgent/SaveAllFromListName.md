@@ -3,7 +3,6 @@ title: NSListItemEntity[] SaveAllFromListName(String udListDefinitionName, NSLis
 path: /EJScript/Classes/NSListAgent/Member functions/NSListItemEntity[] SaveAllFromListName(String p_0, NSListItemEntity[] p_1)
 intellisense: 1
 classref: 1
-sortOrder: 4231
 keywords: SaveAllFromListName(String,NSListItemEntity[])
 ---
 

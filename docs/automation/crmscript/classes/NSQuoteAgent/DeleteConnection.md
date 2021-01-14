@@ -3,7 +3,6 @@ title: Void DeleteConnection(Integer quoteConnectionId)
 path: /EJScript/Classes/NSQuoteAgent/Member functions/Void DeleteConnection(Integer p_0)
 intellisense: 1
 classref: 1
-sortOrder: 6037
 keywords: DeleteConnection(Integer)
 ---
 

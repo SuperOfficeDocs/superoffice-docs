@@ -3,7 +3,6 @@ title: String GetPrerequisiteModuleName()
 path: /EJScript/Classes/NSModuleLicense/Member functions/String GetPrerequisiteModuleName()
 intellisense: 1
 classref: 1
-sortOrder: 4629
 keywords: GetPrerequisiteModuleName()
 ---
 

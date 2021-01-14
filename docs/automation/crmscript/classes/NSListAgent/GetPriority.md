@@ -3,7 +3,6 @@ title: NSPriority GetPriority(Integer priorityId)
 path: /EJScript/Classes/NSListAgent/Member functions/NSPriority GetPriority(Integer p_0)
 intellisense: 1
 classref: 1
-sortOrder: 4253
 keywords: GetPriority(Integer)
 ---
 

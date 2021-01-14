@@ -3,7 +3,6 @@ title: Void Move(Integer personId, Integer destinationContactId, DateTime moveAf
 path: /EJScript/Classes/NSPersonAgent/Member functions/Void Move(Integer p_0, Integer p_1, DateTime p_2)
 intellisense: 1
 classref: 1
-sortOrder: 4964
 keywords: Move(Integer,Integer,DateTime)
 ---
 

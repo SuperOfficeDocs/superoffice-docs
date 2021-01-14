@@ -3,7 +3,6 @@ title: String getPlainBody(Integer language)
 path: /EJScript/Classes/ReplyTemplate/Member functions/String getPlainBody(Integer language)
 intellisense: 1
 classref: 1
-sortOrder: 8976
 keywords: getPlainBody(Integer)
 ---
 

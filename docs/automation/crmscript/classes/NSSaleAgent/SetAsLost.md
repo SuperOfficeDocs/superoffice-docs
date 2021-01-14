@@ -3,7 +3,6 @@ title: Void SetAsLost(Integer[] saleIds)
 path: /EJScript/Classes/NSSaleAgent/Member functions/Void SetAsLost(Integer[] p_0)
 intellisense: 1
 classref: 1
-sortOrder: 6964
 keywords: SetAsLost(Integer[])
 ---
 

@@ -3,7 +3,6 @@ title: Void SetSignOnPersonId(Integer SignOnPersonId)
 path: /EJScript/Classes/NSProjectEvent/Member functions/Void SetSignOnPersonId(Integer p_0)
 intellisense: 1
 classref: 1
-sortOrder: 5722
 keywords: SetSignOnPersonId(Integer)
 ---
 

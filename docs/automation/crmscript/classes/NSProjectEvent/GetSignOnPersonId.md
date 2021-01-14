@@ -3,7 +3,6 @@ title: Integer GetSignOnPersonId()
 path: /EJScript/Classes/NSProjectEvent/Member functions/Integer GetSignOnPersonId()
 intellisense: 1
 classref: 1
-sortOrder: 5696
 keywords: GetSignOnPersonId()
 ---
 

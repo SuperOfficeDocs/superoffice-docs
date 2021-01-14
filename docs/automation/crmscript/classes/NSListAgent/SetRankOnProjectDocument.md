@@ -3,7 +3,6 @@ title: Void SetRankOnProjectDocument(Integer projectTypeStatusLinkId, Integer[] 
 path: /EJScript/Classes/NSListAgent/Member functions/Void SetRankOnProjectDocument(Integer p_0, Integer[] p_1)
 intellisense: 1
 classref: 1
-sortOrder: 4398
 keywords: SetRankOnProjectDocument(Integer,Integer[])
 ---
 

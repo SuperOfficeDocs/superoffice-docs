@@ -3,7 +3,6 @@ title: Float GetFutureOpenTotalBaseCurrency()
 path: /EJScript/Classes/NSSaleSummary/Member functions/Float GetFutureOpenTotalBaseCurrency()
 intellisense: 1
 classref: 1
-sortOrder: 7125
 keywords: GetFutureOpenTotalBaseCurrency()
 ---
 

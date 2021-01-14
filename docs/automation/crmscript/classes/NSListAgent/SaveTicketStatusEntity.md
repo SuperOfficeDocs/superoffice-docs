@@ -3,7 +3,6 @@ title: NSTicketStatusEntity SaveTicketStatusEntity(NSTicketStatusEntity ticketSt
 path: /EJScript/Classes/NSListAgent/Member functions/NSTicketStatusEntity SaveTicketStatusEntity(NSTicketStatusEntity p_0)
 intellisense: 1
 classref: 1
-sortOrder: 4350
 keywords: SaveTicketStatusEntity(NSTicketStatusEntity)
 ---
 

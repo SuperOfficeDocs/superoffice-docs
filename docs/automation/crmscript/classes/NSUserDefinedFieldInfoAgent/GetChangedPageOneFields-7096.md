@@ -3,7 +3,6 @@ title: NSBoolean[] GetChangedPageOneFields(Integer ownerType, Integer userGroupI
 path: /EJScript/Classes/NSUserDefinedFieldInfoAgent/Member functions/NSBoolean[] GetChangedPageOneFields(Integer p_0, Integer p_1)
 intellisense: 1
 classref: 1
-sortOrder: 8625
 keywords: GetChangedPageOneFields(Integer,Integer)
 ---
 

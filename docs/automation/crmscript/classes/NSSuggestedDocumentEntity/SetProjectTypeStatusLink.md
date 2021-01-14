@@ -3,7 +3,6 @@ title: Void SetProjectTypeStatusLink(NSProjectTypeStatusLink ProjectTypeStatusLi
 path: /EJScript/Classes/NSSuggestedDocumentEntity/Member functions/Void SetProjectTypeStatusLink(NSProjectTypeStatusLink p_0)
 intellisense: 1
 classref: 1
-sortOrder: 7802
 keywords: SetProjectTypeStatusLink(NSProjectTypeStatusLink)
 ---
 

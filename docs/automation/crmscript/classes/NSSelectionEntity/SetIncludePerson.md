@@ -3,7 +3,6 @@ title: Void SetIncludePerson(Integer IncludePerson)
 path: /EJScript/Classes/NSSelectionEntity/Member functions/Void SetIncludePerson(Integer p_0)
 intellisense: 1
 classref: 1
-sortOrder: 7442
 keywords: SetIncludePerson(Integer)
 ---
 

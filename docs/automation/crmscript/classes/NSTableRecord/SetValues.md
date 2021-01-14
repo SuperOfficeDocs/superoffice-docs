@@ -3,7 +3,6 @@ title: Void SetValues(StringDictionary Values)
 path: /EJScript/Classes/NSTableRecord/Member functions/Void SetValues(StringDictionary p_0)
 intellisense: 1
 classref: 1
-sortOrder: 7840
 keywords: SetValues(StringDictionary)
 ---
 

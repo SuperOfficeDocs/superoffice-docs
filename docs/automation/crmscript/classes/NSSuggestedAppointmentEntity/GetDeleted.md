@@ -3,7 +3,6 @@ title: Bool GetDeleted()
 path: /EJScript/Classes/NSSuggestedAppointmentEntity/Member functions/Bool GetDeleted()
 intellisense: 1
 classref: 1
-sortOrder: 7757
 keywords: GetDeleted()
 ---
 

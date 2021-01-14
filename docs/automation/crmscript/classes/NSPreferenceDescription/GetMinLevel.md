@@ -3,7 +3,6 @@ title: Integer GetMinLevel()
 path: /EJScript/Classes/NSPreferenceDescription/Member functions/Integer GetMinLevel()
 intellisense: 1
 classref: 1
-sortOrder: 5332
 keywords: GetMinLevel()
 ---
 

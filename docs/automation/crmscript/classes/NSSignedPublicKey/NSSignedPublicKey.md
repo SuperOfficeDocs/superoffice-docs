@@ -3,7 +3,6 @@ title: NSSignedPublicKey
 path: /EJScript/Classes/NSSignedPublicKey
 intellisense: 1
 classref: 1
-sortOrder: 7531
 ---
 
 

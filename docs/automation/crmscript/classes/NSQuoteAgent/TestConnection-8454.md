@@ -3,7 +3,6 @@ title: NSPluginResponse TestConnection(String connectorName, StringDictionary co
 path: /EJScript/Classes/NSQuoteAgent/Member functions/NSPluginResponse TestConnection(String p_0, StringDictionary p_1)
 intellisense: 1
 classref: 1
-sortOrder: 5965
 keywords: TestConnection(String,StringDictionary)
 ---
 

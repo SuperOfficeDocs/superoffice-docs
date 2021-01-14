@@ -3,7 +3,6 @@ title: Void SetStatus(Integer Status)
 path: /EJScript/Classes/NSQuoteVersionStatusInformation/Member functions/Void SetStatus(Integer p_0)
 intellisense: 1
 classref: 1
-sortOrder: 6442
 keywords: SetStatus(Integer)
 ---
 

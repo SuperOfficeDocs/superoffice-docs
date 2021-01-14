@@ -3,7 +3,6 @@ title: String GetValue()
 path: /EJScript/Classes/NSProductExtraDataField/Member functions/String GetValue()
 intellisense: 1
 classref: 1
-sortOrder: 5503
 keywords: GetValue()
 ---
 

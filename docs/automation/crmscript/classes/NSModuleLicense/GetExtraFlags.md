@@ -3,7 +3,6 @@ title: Integer GetExtraFlags()
 path: /EJScript/Classes/NSModuleLicense/Member functions/Integer GetExtraFlags()
 intellisense: 1
 classref: 1
-sortOrder: 4617
 keywords: GetExtraFlags()
 ---
 

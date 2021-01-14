@@ -3,7 +3,6 @@ title: String GetNetServerSmsProvider()
 path: /EJScript/Classes/NSSmsConfig/Member functions/String GetNetServerSmsProvider()
 intellisense: 1
 classref: 1
-sortOrder: 7546
 keywords: GetNetServerSmsProvider()
 ---
 

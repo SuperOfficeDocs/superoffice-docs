@@ -3,7 +3,6 @@ title: Integer RemoveSelectionMembersFromSearch(Integer selectionId, String stor
 path: /EJScript/Classes/NSSelectionAgent/Member functions/Integer RemoveSelectionMembersFromSearch(Integer p_0, String p_1)
 intellisense: 1
 classref: 1
-sortOrder: 7354
 keywords: RemoveSelectionMembersFromSearch(Integer,String)
 ---
 

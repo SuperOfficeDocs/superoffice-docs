@@ -3,7 +3,6 @@ title: Void setCell(Integer row, Integer column, String value)
 path: /EJScript/Classes/StringMatrix/Member functions/Void setCell(Integer row, Integer column, String value)
 intellisense: 1
 classref: 1
-sortOrder: 9171
 keywords: setCell(Integer,Integer,String)
 ---
 

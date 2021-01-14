@@ -3,7 +3,6 @@ title: Void DeleteListEntityByName(String name)
 path: /EJScript/Classes/NSListAgent/Member functions/Void DeleteListEntityByName(String p_0)
 intellisense: 1
 classref: 1
-sortOrder: 4378
 keywords: DeleteListEntityByName(String)
 ---
 

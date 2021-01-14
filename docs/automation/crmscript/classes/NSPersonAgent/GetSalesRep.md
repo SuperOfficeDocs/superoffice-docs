@@ -3,7 +3,6 @@ title: NSPersonEntity GetSalesRep(String contactName, String personFirstname, St
 path: /EJScript/Classes/NSPersonAgent/Member functions/NSPersonEntity GetSalesRep(String p_0, String p_1, String p_2, String p_3, String p_4)
 intellisense: 1
 classref: 1
-sortOrder: 4951
 keywords: GetSalesRep(String,String,String,String,String)
 ---
 

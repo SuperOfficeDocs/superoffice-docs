@@ -3,7 +3,6 @@ title: Void addHaving(String field, String func, String compOperator, String val
 path: /EJScript/Classes/SearchEngine/member functions/Void addHaving(String field, String func, String compOperator, String value, String rowOperator, Integer priority)
 intellisense: 1
 classref: 1
-sortOrder: 9013
 keywords: addHaving(String,String,String,String,String,Integer)
 ---
 

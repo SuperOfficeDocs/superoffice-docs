@@ -3,7 +3,6 @@ title: Void setText(String text)
 path: /EJScript/Classes/XMLNode/Member functions/Void setText(String text)
 intellisense: 1
 classref: 1
-sortOrder: 9306
 keywords: setText(String)
 ---
 

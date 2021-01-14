@@ -3,7 +3,6 @@ title: NSQuoteEntity CreateAndSaveQuote(Integer saleId, Integer connectionId, St
 path: /EJScript/Classes/NSQuoteAgent/Member functions/NSQuoteEntity CreateAndSaveQuote(Integer p_0, Integer p_1, String p_2)
 intellisense: 1
 classref: 1
-sortOrder: 6001
 keywords: CreateAndSaveQuote(Integer,Integer,String)
 ---
 

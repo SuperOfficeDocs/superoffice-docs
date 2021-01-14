@@ -3,7 +3,6 @@ title: Bool notifyEmail(Integer replyTemplateId)
 path: /EJScript/Classes/Ticket/Member functions/Bool notifyEmail(Integer replyTemplateId)
 intellisense: 1
 classref: 1
-sortOrder: 9175
 keywords: notifyEmail(Integer)
 ---
 

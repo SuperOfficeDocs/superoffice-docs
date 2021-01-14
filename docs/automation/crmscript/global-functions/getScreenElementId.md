@@ -1,11 +1,9 @@
 ---
-title: Integer getScreenElementId(Integer index)
+description: Integer getScreenElementId(Integer index)
 path: /EJScript/Global functions/Integer getScreenElementId(Integer index)
 intellisense: 1
 langref: 1
-sortOrder: 9370
-keywords: getScreenElementId(Integer)
----
+keywords: getScreenElementId(Integer)---
 
 
 This function can only be called from a screen definition, it will fail if called from a regular script.

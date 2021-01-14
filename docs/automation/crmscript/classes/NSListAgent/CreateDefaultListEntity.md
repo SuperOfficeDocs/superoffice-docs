@@ -3,7 +3,6 @@ title: NSListEntity CreateDefaultListEntity()
 path: /EJScript/Classes/NSListAgent/Member functions/NSListEntity CreateDefaultListEntity()
 intellisense: 1
 classref: 1
-sortOrder: 4214
 keywords: CreateDefaultListEntity()
 ---
 

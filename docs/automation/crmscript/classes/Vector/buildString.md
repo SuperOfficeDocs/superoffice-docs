@@ -3,7 +3,6 @@ title: String buildString(String delimiter)
 path: /EJScript/Classes/Vector/Member functions/String buildString(String delimiter)
 intellisense: 1
 classref: 1
-sortOrder: 9252
 keywords: buildString(String)
 ---
 

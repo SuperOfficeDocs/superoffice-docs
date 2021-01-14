@@ -3,7 +3,6 @@ title: String ReadStreamPart(String streamId, String communicationModuleName, St
 path: /EJScript/Classes/NSTrayAppAgent/Member functions/String ReadStreamPart(String p_0, String p_1, String p_2, String p_3, Integer p_4)
 intellisense: 1
 classref: 1
-sortOrder: 8391
 keywords: ReadStreamPart(String,String,String,String,Integer)
 ---
 

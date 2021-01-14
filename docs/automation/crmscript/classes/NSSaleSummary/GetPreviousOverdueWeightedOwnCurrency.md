@@ -3,7 +3,6 @@ title: Float GetPreviousOverdueWeightedOwnCurrency()
 path: /EJScript/Classes/NSSaleSummary/Member functions/Float GetPreviousOverdueWeightedOwnCurrency()
 intellisense: 1
 classref: 1
-sortOrder: 7138
 keywords: GetPreviousOverdueWeightedOwnCurrency()
 ---
 

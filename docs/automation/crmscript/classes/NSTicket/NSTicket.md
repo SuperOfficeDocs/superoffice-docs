@@ -3,7 +3,6 @@ title: NSTicket
 path: /EJScript/Classes/NSTicket
 intellisense: 1
 classref: 1
-sortOrder: 7957
 ---
 
 

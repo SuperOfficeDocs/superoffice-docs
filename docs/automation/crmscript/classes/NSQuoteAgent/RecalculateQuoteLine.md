@@ -3,7 +3,6 @@ title: NSQuoteLine RecalculateQuoteLine(NSQuoteLine quoteLine, String[] changedF
 path: /EJScript/Classes/NSQuoteAgent/Member functions/NSQuoteLine RecalculateQuoteLine(NSQuoteLine p_0, String[] p_1)
 intellisense: 1
 classref: 1
-sortOrder: 6009
 keywords: RecalculateQuoteLine(NSQuoteLine,String[])
 ---
 

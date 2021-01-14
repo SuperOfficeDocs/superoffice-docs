@@ -3,7 +3,6 @@ title: Void SetAdditionalInfo(String AdditionalInfo)
 path: /EJScript/Classes/NSReturnInfo/Member functions/Void SetAdditionalInfo(String p_0)
 intellisense: 1
 classref: 1
-sortOrder: 6802
 keywords: SetAdditionalInfo(String)
 ---
 

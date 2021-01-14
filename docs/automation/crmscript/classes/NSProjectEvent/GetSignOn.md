@@ -3,7 +3,6 @@ title: Bool GetSignOn()
 path: /EJScript/Classes/NSProjectEvent/Member functions/Bool GetSignOn()
 intellisense: 1
 classref: 1
-sortOrder: 5688
 keywords: GetSignOn()
 ---
 

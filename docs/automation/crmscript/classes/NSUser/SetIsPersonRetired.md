@@ -3,7 +3,6 @@ title: Void SetIsPersonRetired(Bool IsPersonRetired)
 path: /EJScript/Classes/NSUser/Member functions/Void SetIsPersonRetired(Bool p_0)
 intellisense: 1
 classref: 1
-sortOrder: 8440
 keywords: SetIsPersonRetired(Bool)
 ---
 

@@ -3,7 +3,6 @@ title: NSMessageDeliveryStatus[] SendMessagesWithConfig(String plugin, NSOutgoin
 path: /EJScript/Classes/NSMessagingAgent/Member functions/NSMessageDeliveryStatus[] SendMessagesWithConfig(String p_0, NSOutgoingMessage[] p_1, StringDictionary p_2)
 intellisense: 1
 classref: 1
-sortOrder: 4608
 keywords: SendMessagesWithConfig(String,NSOutgoingMessage[],StringDictionary)
 ---
 

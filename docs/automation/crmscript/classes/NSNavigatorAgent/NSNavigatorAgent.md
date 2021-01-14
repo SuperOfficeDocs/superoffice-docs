@@ -3,7 +3,6 @@ title: NSNavigatorAgent
 path: /EJScript/Classes/NSNavigatorAgent
 intellisense: 1
 classref: 1
-sortOrder: 4692
 ---
 
 

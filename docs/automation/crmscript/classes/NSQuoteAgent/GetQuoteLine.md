@@ -3,7 +3,6 @@ title: NSQuoteLine GetQuoteLine(Integer quoteLineId)
 path: /EJScript/Classes/NSQuoteAgent/Member functions/NSQuoteLine GetQuoteLine(Integer p_0)
 intellisense: 1
 classref: 1
-sortOrder: 6008
 keywords: GetQuoteLine(Integer)
 ---
 

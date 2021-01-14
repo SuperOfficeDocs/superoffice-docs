@@ -3,7 +3,6 @@ title: Void SetConsent(Integer personId, String purpose, String source, String l
 path: /EJScript/Classes/NSPersonAgent/Member functions/Void SetConsent(Integer p_0, String p_1, String p_2, String p_3, String p_4)
 intellisense: 1
 classref: 1
-sortOrder: 4968
 keywords: SetConsent(Integer,String,String,String,String)
 ---
 

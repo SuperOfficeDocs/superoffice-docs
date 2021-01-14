@@ -3,7 +3,6 @@ title: String GetFrom()
 path: /EJScript/Classes/NSOutgoingMessage/Member functions/String GetFrom()
 intellisense: 1
 classref: 1
-sortOrder: 4728
 keywords: GetFrom()
 ---
 

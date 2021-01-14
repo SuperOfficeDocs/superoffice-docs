@@ -3,7 +3,6 @@ title: Void DeleteAppWebPanels()
 path: /EJScript/Classes/NSListAgent/Member functions/Void DeleteAppWebPanels()
 intellisense: 1
 classref: 1
-sortOrder: 4373
 keywords: DeleteAppWebPanels()
 ---
 

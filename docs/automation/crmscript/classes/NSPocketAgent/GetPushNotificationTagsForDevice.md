@@ -3,7 +3,6 @@ title: String GetPushNotificationTagsForDevice(String deviceIdentifier)
 path: /EJScript/Classes/NSPocketAgent/Member functions/String GetPushNotificationTagsForDevice(String p_0)
 intellisense: 1
 classref: 1
-sortOrder: 5196
 keywords: GetPushNotificationTagsForDevice(String)
 ---
 

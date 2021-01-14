@@ -3,7 +3,6 @@ title: String GetERPOrderKey()
 path: /EJScript/Classes/NSQuoteEntity/Member functions/String GetERPOrderKey()
 intellisense: 1
 classref: 1
-sortOrder: 6165
 keywords: GetERPOrderKey()
 ---
 

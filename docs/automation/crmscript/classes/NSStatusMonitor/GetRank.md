@@ -3,7 +3,6 @@ title: Integer GetRank()
 path: /EJScript/Classes/NSStatusMonitor/Member functions/Integer GetRank()
 intellisense: 1
 classref: 1
-sortOrder: 7691
 keywords: GetRank()
 ---
 

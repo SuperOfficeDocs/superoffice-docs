@@ -3,7 +3,6 @@ title: Void SetUpdatedCount(Integer UpdatedCount)
 path: /EJScript/Classes/NSSystemEventEntity/Member functions/Void SetUpdatedCount(Integer p_0)
 intellisense: 1
 classref: 1
-sortOrder: 7836
 keywords: SetUpdatedCount(Integer)
 ---
 

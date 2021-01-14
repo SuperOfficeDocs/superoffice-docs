@@ -3,7 +3,6 @@ title: NSTicketPriorityEntity[] GetAllTicketPriorities(Bool includeDeleted)
 path: /EJScript/Classes/NSListAgent/Member functions/NSTicketPriorityEntity[] GetAllTicketPriorities(Bool p_0)
 intellisense: 1
 classref: 1
-sortOrder: 4346
 keywords: GetAllTicketPriorities(Bool)
 ---
 

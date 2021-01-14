@@ -3,7 +3,6 @@ title: NSMailMergeSettings CreateDefaultMailMergeSettings()
 path: /EJScript/Classes/NSSelectionAgent/Member functions/NSMailMergeSettings CreateDefaultMailMergeSettings()
 intellisense: 1
 classref: 1
-sortOrder: 7364
 keywords: CreateDefaultMailMergeSettings()
 ---
 

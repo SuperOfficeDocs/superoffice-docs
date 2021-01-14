@@ -3,7 +3,6 @@ title: Bool CanChangePassword(Integer associateId)
 path: /EJScript/Classes/NSUserAgent/Member functions/Bool CanChangePassword(Integer p_0)
 intellisense: 1
 classref: 1
-sortOrder: 8457
 keywords: CanChangePassword(Integer)
 ---
 

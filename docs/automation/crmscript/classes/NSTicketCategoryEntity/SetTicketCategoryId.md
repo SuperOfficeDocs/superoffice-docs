@@ -3,7 +3,6 @@ title: Void SetTicketCategoryId(Integer TicketCategoryId)
 path: /EJScript/Classes/NSTicketCategoryEntity/Member functions/Void SetTicketCategoryId(Integer p_0)
 intellisense: 1
 classref: 1
-sortOrder: 8082
 keywords: SetTicketCategoryId(Integer)
 ---
 

@@ -3,7 +3,6 @@ title: NSLicenseOwner[] GetLicenseOwners()
 path: /EJScript/Classes/NSSatellite/Member functions/NSLicenseOwner[] GetLicenseOwners()
 intellisense: 1
 classref: 1
-sortOrder: 7282
 keywords: GetLicenseOwners()
 ---
 

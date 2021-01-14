@@ -3,7 +3,6 @@ title: NSQuoteAlternative CreateDefaultQuoteAlternative()
 path: /EJScript/Classes/NSQuoteAgent/Member functions/NSQuoteAlternative CreateDefaultQuoteAlternative()
 intellisense: 1
 classref: 1
-sortOrder: 5988
 keywords: CreateDefaultQuoteAlternative()
 ---
 

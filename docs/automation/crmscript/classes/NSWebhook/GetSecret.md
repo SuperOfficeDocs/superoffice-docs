@@ -3,7 +3,6 @@ title: String GetSecret()
 path: /EJScript/Classes/NSWebhook/Member functions/String GetSecret()
 intellisense: 1
 classref: 1
-sortOrder: 8778
 keywords: GetSecret()
 ---
 

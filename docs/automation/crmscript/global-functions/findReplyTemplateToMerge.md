@@ -1,11 +1,9 @@
 ---
-title: Integer findReplyTemplateToMerge(Integer p\_categoryId)
+description: Integer findReplyTemplateToMerge(Integer p\_categoryId)
 path: /EJScript/Global functions/Integer findReplyTemplateToMerge(Integer p_categoryId)
 intellisense: 1
 langref: 1
-sortOrder: 9357
-keywords: findReplyTemplateToMerge(Integer)
----
+keywords: findReplyTemplateToMerge(Integer)---
 
 
 * **p\_categoryId:** - The categoryId to locate the replytemplate for.

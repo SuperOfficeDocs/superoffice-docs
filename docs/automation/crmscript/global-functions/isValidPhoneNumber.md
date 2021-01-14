@@ -1,11 +1,9 @@
 ---
-title: Bool isValidPhoneNumber(String p\_nr, Bool p\_isMultiple)
+description: Bool isValidPhoneNumber(String p\_nr, Bool p\_isMultiple)
 path: /EJScript/Global functions/Bool isValidPhoneNumber(String p_nr, Bool p_isMultiple)
 intellisense: 1
 langref: 1
-sortOrder: 9320
-keywords: isValidPhoneNumber(String,Bool)
----
+keywords: isValidPhoneNumber(String,Bool)---
 
 
 

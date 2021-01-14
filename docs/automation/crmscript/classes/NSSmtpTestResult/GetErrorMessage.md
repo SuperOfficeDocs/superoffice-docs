@@ -3,7 +3,6 @@ title: String GetErrorMessage()
 path: /EJScript/Classes/NSSmtpTestResult/Member functions/String GetErrorMessage()
 intellisense: 1
 classref: 1
-sortOrder: 7556
 keywords: GetErrorMessage()
 ---
 

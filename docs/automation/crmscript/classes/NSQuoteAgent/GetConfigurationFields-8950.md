@@ -3,7 +3,6 @@ title: NSFieldMetadataDictionary GetConfigurationFields(Integer connectionId, St
 path: /EJScript/Classes/NSQuoteAgent/Member functions/NSFieldMetadataDictionary GetConfigurationFields(Integer p_0, String p_1)
 intellisense: 1
 classref: 1
-sortOrder: 5960
 keywords: GetConfigurationFields(Integer,String)
 ---
 

@@ -3,7 +3,6 @@ title: Void SetScope(Integer Scope)
 path: /EJScript/Classes/NSSystemEventEntity/Member functions/Void SetScope(Integer p_0)
 intellisense: 1
 classref: 1
-sortOrder: 7834
 keywords: SetScope(Integer)
 ---
 

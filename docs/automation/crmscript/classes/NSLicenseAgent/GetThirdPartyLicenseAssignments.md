@@ -3,7 +3,6 @@ title: NSModuleLicenseLink[] GetThirdPartyLicenseAssignments(Integer associateId
 path: /EJScript/Classes/NSLicenseAgent/Member functions/NSModuleLicenseLink[] GetThirdPartyLicenseAssignments(Integer p_0, String p_1)
 intellisense: 1
 classref: 1
-sortOrder: 4044
 keywords: GetThirdPartyLicenseAssignments(Integer,String)
 ---
 

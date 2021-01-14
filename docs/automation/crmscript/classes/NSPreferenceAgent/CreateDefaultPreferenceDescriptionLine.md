@@ -3,7 +3,6 @@ title: NSPreferenceDescriptionLine CreateDefaultPreferenceDescriptionLine()
 path: /EJScript/Classes/NSPreferenceAgent/Member functions/NSPreferenceDescriptionLine CreateDefaultPreferenceDescriptionLine()
 intellisense: 1
 classref: 1
-sortOrder: 5310
 keywords: CreateDefaultPreferenceDescriptionLine()
 ---
 

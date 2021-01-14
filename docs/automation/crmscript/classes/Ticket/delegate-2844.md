@@ -3,7 +3,6 @@ title: Void delegate(Integer notUser)
 path: /EJScript/Classes/Ticket/Member functions/Void delegate(Integer notUser)
 intellisense: 1
 classref: 1
-sortOrder: 9190
 keywords: delegate(Integer)
 ---
 

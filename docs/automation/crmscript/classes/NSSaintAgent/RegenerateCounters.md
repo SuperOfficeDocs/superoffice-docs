@@ -3,7 +3,6 @@ title: NSBatchTaskInfo RegenerateCounters(Bool runAsBatch)
 path: /EJScript/Classes/NSSaintAgent/Member functions/NSBatchTaskInfo RegenerateCounters(Bool p_0)
 intellisense: 1
 classref: 1
-sortOrder: 6844
 keywords: RegenerateCounters(Bool)
 ---
 

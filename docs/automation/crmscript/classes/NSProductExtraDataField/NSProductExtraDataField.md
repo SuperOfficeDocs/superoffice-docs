@@ -3,7 +3,6 @@ title: NSProductExtraDataField
 path: /EJScript/Classes/NSProductExtraDataField
 intellisense: 1
 classref: 1
-sortOrder: 5499
 ---
 
 

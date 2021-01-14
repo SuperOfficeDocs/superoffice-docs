@@ -3,7 +3,6 @@ title: String GetFormatMask()
 path: /EJScript/Classes/NSUserDefinedFieldInfo/Member functions/String GetFormatMask()
 intellisense: 1
 classref: 1
-sortOrder: 8574
 keywords: GetFormatMask()
 ---
 

@@ -3,7 +3,6 @@ title: NSQuoteVersionWorkflowState
 path: /EJScript/Classes/NSQuoteVersionWorkflowState
 intellisense: 1
 classref: 1
-sortOrder: 6461
 ---
 
 

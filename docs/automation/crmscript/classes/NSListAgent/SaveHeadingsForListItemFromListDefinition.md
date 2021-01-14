@@ -3,7 +3,6 @@ title: NSSelectableMDOListItem[] SaveHeadingsForListItemFromListDefinition(Integ
 path: /EJScript/Classes/NSListAgent/Member functions/NSSelectableMDOListItem[] SaveHeadingsForListItemFromListDefinition(Integer p_0, Integer p_1, NSSelectableMDOListItem[] p_2)
 intellisense: 1
 classref: 1
-sortOrder: 4315
 keywords: SaveHeadingsForListItemFromListDefinition(Integer,Integer,NSSelectableMDOListItem[])
 ---
 

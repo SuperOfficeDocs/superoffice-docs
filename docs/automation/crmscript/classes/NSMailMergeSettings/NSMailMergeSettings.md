@@ -3,7 +3,6 @@ title: NSMailMergeSettings
 path: /EJScript/Classes/NSMailMergeSettings
 intellisense: 1
 classref: 1
-sortOrder: 4477
 ---
 
 

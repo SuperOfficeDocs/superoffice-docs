@@ -3,7 +3,6 @@ title: NSPreferenceSpec
 path: /EJScript/Classes/NSPreferenceSpec
 intellisense: 1
 classref: 1
-sortOrder: 5382
 ---
 
 

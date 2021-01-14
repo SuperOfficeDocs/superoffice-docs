@@ -3,7 +3,6 @@ title: NSProjectStatus[] GetProjectStatuses()
 path: /EJScript/Classes/NSListAgent/Member functions/NSProjectStatus[] GetProjectStatuses()
 intellisense: 1
 classref: 1
-sortOrder: 4264
 keywords: GetProjectStatuses()
 ---
 

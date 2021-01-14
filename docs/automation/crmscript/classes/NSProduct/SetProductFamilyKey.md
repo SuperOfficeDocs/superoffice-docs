@@ -3,7 +3,6 @@ title: Void SetProductFamilyKey(String ProductFamilyKey)
 path: /EJScript/Classes/NSProduct/Member functions/Void SetProductFamilyKey(String p_0)
 intellisense: 1
 classref: 1
-sortOrder: 5475
 keywords: SetProductFamilyKey(String)
 ---
 

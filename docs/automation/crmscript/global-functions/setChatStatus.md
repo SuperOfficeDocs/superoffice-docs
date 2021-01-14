@@ -1,11 +1,9 @@
 ---
-title: Void setChatStatus(Integer sessionId, Integer status)
+description: Void setChatStatus(Integer sessionId, Integer status)
 path: /EJScript/Global functions/Void setChatStatus(Integer sessionId, Integer status)
 intellisense: 1
 langref: 1
-sortOrder: 9517
-keywords: setChatStatus(Integer,Integer)
----
+keywords: setChatStatus(Integer,Integer)---
 
 
    

@@ -3,7 +3,6 @@ title: Integer caseCompare(String p0)
 path: /EJScript/Classes/String/Member functions/Integer caseCompare(String p_0)
 intellisense: 1
 classref: 1
-sortOrder: 9118
 keywords: caseCompare(String)
 ---
 

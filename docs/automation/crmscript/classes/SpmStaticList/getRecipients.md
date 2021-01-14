@@ -3,7 +3,6 @@ title: Map getRecipients()
 path: /EJScript/Classes/SpmStaticList/Member functions/Map getRecipients()
 intellisense: 1
 classref: 1
-sortOrder: 9064
 keywords: getRecipients()
 ---
 

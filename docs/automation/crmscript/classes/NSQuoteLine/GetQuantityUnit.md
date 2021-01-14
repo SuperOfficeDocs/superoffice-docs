@@ -3,7 +3,6 @@ title: String GetQuantityUnit()
 path: /EJScript/Classes/NSQuoteLine/Member functions/String GetQuantityUnit()
 intellisense: 1
 classref: 1
-sortOrder: 6225
 keywords: GetQuantityUnit()
 ---
 

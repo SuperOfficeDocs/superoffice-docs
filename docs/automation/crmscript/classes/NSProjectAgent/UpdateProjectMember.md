@@ -3,7 +3,6 @@ title: NSProjectMember UpdateProjectMember(NSProjectMember projectMember)
 path: /EJScript/Classes/NSProjectAgent/Member functions/NSProjectMember UpdateProjectMember(NSProjectMember p_0)
 intellisense: 1
 classref: 1
-sortOrder: 5600
 keywords: UpdateProjectMember(NSProjectMember)
 ---
 

@@ -3,7 +3,6 @@ title: NSPriceList[] GetAllPriceLists(Integer quoteConnectionId, String currency
 path: /EJScript/Classes/NSQuoteAgent/Member functions/NSPriceList[] GetAllPriceLists(Integer p_0, String p_1)
 intellisense: 1
 classref: 1
-sortOrder: 5976
 keywords: GetAllPriceLists(Integer,String)
 ---
 

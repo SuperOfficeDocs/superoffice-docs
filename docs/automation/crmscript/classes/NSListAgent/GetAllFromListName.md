@@ -3,7 +3,6 @@ title: NSListItemEntity[] GetAllFromListName(String udListDefinitionName, Bool i
 path: /EJScript/Classes/NSListAgent/Member functions/NSListItemEntity[] GetAllFromListName(String p_0, Bool p_1)
 intellisense: 1
 classref: 1
-sortOrder: 4229
 keywords: GetAllFromListName(String,Bool)
 ---
 

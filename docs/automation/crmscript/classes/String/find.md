@@ -3,7 +3,6 @@ title: Integer find(String subStr)
 path: /EJScript/Classes/String/Member functions/Integer find(String subStr)
 intellisense: 1
 classref: 1
-sortOrder: 9120
 keywords: find(String)
 ---
 

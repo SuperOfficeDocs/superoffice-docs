@@ -3,7 +3,6 @@ title: Void SetNonDates(DateTime[] NonDates)
 path: /EJScript/Classes/NSTicketPriorityEntity/Member functions/Void SetNonDates(DateTime[] p_0)
 intellisense: 1
 classref: 1
-sortOrder: 8284
 keywords: SetNonDates(DateTime[])
 ---
 

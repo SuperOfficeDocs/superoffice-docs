@@ -3,7 +3,6 @@ title: NSReportLabelLayoutEntity CreateDefaultReportLabelLayoutEntity()
 path: /EJScript/Classes/NSReportAgent/Member functions/NSReportLabelLayoutEntity CreateDefaultReportLabelLayoutEntity()
 intellisense: 1
 classref: 1
-sortOrder: 6698
 keywords: CreateDefaultReportLabelLayoutEntity()
 ---
 

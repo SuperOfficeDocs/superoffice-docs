@@ -3,7 +3,6 @@ title: String[] GetOwnCountryDayTexts()
 path: /EJScript/Classes/NSRedLetterDetails/Member functions/String[] GetOwnCountryDayTexts()
 intellisense: 1
 classref: 1
-sortOrder: 6604
 keywords: GetOwnCountryDayTexts()
 ---
 

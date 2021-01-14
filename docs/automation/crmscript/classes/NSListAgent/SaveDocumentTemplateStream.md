@@ -3,7 +3,6 @@ title: NSTemplateInfo SaveDocumentTemplateStream(Integer documentTemplateId, NSS
 path: /EJScript/Classes/NSListAgent/Member functions/NSTemplateInfo SaveDocumentTemplateStream(Integer p_0, NSStream p_1, String p_2, Integer p_3)
 intellisense: 1
 classref: 1
-sortOrder: 4334
 keywords: SaveDocumentTemplateStream(Integer,NSStream,String,Integer)
 ---
 

@@ -3,7 +3,6 @@ title: Void SetERPPaymentTypeKey(String ERPPaymentTypeKey)
 path: /EJScript/Classes/NSQuoteVersion/Member functions/Void SetERPPaymentTypeKey(String p_0)
 intellisense: 1
 classref: 1
-sortOrder: 6386
 keywords: SetERPPaymentTypeKey(String)
 ---
 

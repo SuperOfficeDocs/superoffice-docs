@@ -3,7 +3,6 @@ title: Void SetFormat(String Format)
 path: /EJScript/Classes/NSOutgoingMessage/Member functions/Void SetFormat(String p_0)
 intellisense: 1
 classref: 1
-sortOrder: 4732
 keywords: SetFormat(String)
 ---
 

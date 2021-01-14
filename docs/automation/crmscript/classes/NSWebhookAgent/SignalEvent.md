@@ -3,7 +3,6 @@ title: Void SignalEvent(String eventName, Integer primaryKey, NSStringObjectDict
 path: /EJScript/Classes/NSWebhookAgent/Member functions/Void SignalEvent(String p_0, Integer p_1, NSStringObjectDictionary p_2)
 intellisense: 1
 classref: 1
-sortOrder: 8805
 keywords: SignalEvent(String,Integer,NSStringObjectDictionary)
 ---
 

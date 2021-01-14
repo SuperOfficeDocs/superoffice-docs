@@ -3,7 +3,6 @@ title: NSAmountClassEntity SaveAmountClassEntity(NSAmountClassEntity amountClass
 path: /EJScript/Classes/NSListAgent/Member functions/NSAmountClassEntity SaveAmountClassEntity(NSAmountClassEntity p_0)
 intellisense: 1
 classref: 1
-sortOrder: 4124
 keywords: SaveAmountClassEntity(NSAmountClassEntity)
 ---
 

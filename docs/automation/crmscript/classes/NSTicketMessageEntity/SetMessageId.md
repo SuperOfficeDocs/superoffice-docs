@@ -3,7 +3,6 @@ title: Void SetMessageId(String MessageId)
 path: /EJScript/Classes/NSTicketMessageEntity/Member functions/Void SetMessageId(String p_0)
 intellisense: 1
 classref: 1
-sortOrder: 8232
 keywords: SetMessageId(String)
 ---
 

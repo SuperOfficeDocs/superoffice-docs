@@ -3,7 +3,6 @@ title: NSReportEntity CreateFavorite(Integer sourceId, String name, String descr
 path: /EJScript/Classes/NSReportAgent/Member functions/NSReportEntity CreateFavorite(Integer p_0, String p_1, String p_2)
 intellisense: 1
 classref: 1
-sortOrder: 6694
 keywords: CreateFavorite(Integer,String,String)
 ---
 

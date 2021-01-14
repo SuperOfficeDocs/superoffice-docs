@@ -3,7 +3,6 @@ title: Vector getEmails()
 path: /EJScript/Classes/String/Member functions/Vector getEmails()
 intellisense: 1
 classref: 1
-sortOrder: 9157
 keywords: getEmails()
 ---
 

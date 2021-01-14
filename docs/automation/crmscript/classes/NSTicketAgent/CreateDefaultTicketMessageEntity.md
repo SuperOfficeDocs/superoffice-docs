@@ -3,7 +3,6 @@ title: NSTicketMessageEntity CreateDefaultTicketMessageEntity()
 path: /EJScript/Classes/NSTicketAgent/Member functions/NSTicketMessageEntity CreateDefaultTicketMessageEntity()
 intellisense: 1
 classref: 1
-sortOrder: 8044
 keywords: CreateDefaultTicketMessageEntity()
 ---
 

@@ -3,7 +3,6 @@ title: Void addSec(Integer num)
 path: /EJScript/Classes/TimeSpan/Member functions/Void addSec(Integer num)
 intellisense: 1
 classref: 1
-sortOrder: 9229
 keywords: addSec(Integer)
 ---
 

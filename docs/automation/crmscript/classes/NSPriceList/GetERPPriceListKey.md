@@ -3,7 +3,6 @@ title: String GetERPPriceListKey()
 path: /EJScript/Classes/NSPriceList/Member functions/String GetERPPriceListKey()
 intellisense: 1
 classref: 1
-sortOrder: 5401
 keywords: GetERPPriceListKey()
 ---
 

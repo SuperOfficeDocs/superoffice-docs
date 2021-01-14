@@ -3,7 +3,6 @@ title: Void addDataField(String field1, String field2)
 path: /EJScript/Classes/SearchEngine/member functions/Void addDataField(String field1, String field2)
 intellisense: 1
 classref: 1
-sortOrder: 9007
 keywords: addDataField(String,String)
 ---
 

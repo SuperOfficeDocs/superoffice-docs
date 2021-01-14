@@ -3,7 +3,6 @@ title: Void SetExpirationDate(DateTime ExpirationDate)
 path: /EJScript/Classes/NSQuoteVersion/Member functions/Void SetExpirationDate(DateTime p_0)
 intellisense: 1
 classref: 1
-sortOrder: 6388
 keywords: SetExpirationDate(DateTime)
 ---
 

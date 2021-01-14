@@ -3,7 +3,6 @@ title: Void SetListItemsForHeading(Integer udListDefinitionId, Integer headingId
 path: /EJScript/Classes/NSListAgent/Member functions/Void SetListItemsForHeading(Integer p_0, Integer p_1, Integer[] p_2, Bool p_3)
 intellisense: 1
 classref: 1
-sortOrder: 4392
 keywords: SetListItemsForHeading(Integer,Integer,Integer[],Bool)
 ---
 

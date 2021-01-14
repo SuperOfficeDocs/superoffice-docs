@@ -3,7 +3,6 @@ title: NSProjectStatus GetProjectStatus(Integer projectStatusId)
 path: /EJScript/Classes/NSListAgent/Member functions/NSProjectStatus GetProjectStatus(Integer p_0)
 intellisense: 1
 classref: 1
-sortOrder: 4263
 keywords: GetProjectStatus(Integer)
 ---
 

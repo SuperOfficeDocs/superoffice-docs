@@ -3,7 +3,6 @@ title: NSArchiveListItem[] GetSelectionMembersArchiveRows(Integer selectionId, S
 path: /EJScript/Classes/NSSelectionAgent/Member functions/NSArchiveListItem[] GetSelectionMembersArchiveRows(Integer p_0, String p_1)
 intellisense: 1
 classref: 1
-sortOrder: 7356
 keywords: GetSelectionMembersArchiveRows(Integer,String)
 ---
 

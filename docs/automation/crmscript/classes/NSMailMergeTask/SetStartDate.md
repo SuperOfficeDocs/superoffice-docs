@@ -3,7 +3,6 @@ title: Void SetStartDate(DateTime StartDate)
 path: /EJScript/Classes/NSMailMergeTask/Member functions/Void SetStartDate(DateTime p_0)
 intellisense: 1
 classref: 1
-sortOrder: 4542
 keywords: SetStartDate(DateTime)
 ---
 

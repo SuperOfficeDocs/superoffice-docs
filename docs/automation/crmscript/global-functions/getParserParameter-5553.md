@@ -1,11 +1,9 @@
 ---
-title: String getParserParameter(String paramName, Integer index)
+description: String getParserParameter(String paramName, Integer index)
 path: /EJScript/Global functions/String getParserParameter(String paramName, Integer index)
 intellisense: 1
 langref: 1
-sortOrder: 9446
-keywords: getParserParameter(String,Integer)
----
+keywords: getParserParameter(String,Integer)---
 
 
 Returns the value at the given index for the given parameter in the global Parser instance.

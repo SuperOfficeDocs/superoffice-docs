@@ -3,7 +3,6 @@ title: Void SetERPProductKey(String ERPProductKey)
 path: /EJScript/Classes/NSQuoteLine/Member functions/Void SetERPProductKey(String p_0)
 intellisense: 1
 classref: 1
-sortOrder: 6245
 keywords: SetERPProductKey(String)
 ---
 

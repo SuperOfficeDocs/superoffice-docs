@@ -3,7 +3,6 @@ title: NSUser CreateDefaultUser()
 path: /EJScript/Classes/NSUserAgent/Member functions/NSUser CreateDefaultUser()
 intellisense: 1
 classref: 1
-sortOrder: 8494
 keywords: CreateDefaultUser()
 ---
 

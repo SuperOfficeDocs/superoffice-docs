@@ -3,7 +3,6 @@ title: Integer GetUserDefinedListId()
 path: /EJScript/Classes/NSPreferenceDescription/Member functions/Integer GetUserDefinedListId()
 intellisense: 1
 classref: 1
-sortOrder: 5337
 keywords: GetUserDefinedListId()
 ---
 

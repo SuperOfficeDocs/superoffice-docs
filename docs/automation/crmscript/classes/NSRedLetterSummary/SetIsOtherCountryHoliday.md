@@ -3,7 +3,6 @@ title: Void SetIsOtherCountryHoliday(Bool IsOtherCountryHoliday)
 path: /EJScript/Classes/NSRedLetterSummary/Member functions/Void SetIsOtherCountryHoliday(Bool p_0)
 intellisense: 1
 classref: 1
-sortOrder: 6619
 keywords: SetIsOtherCountryHoliday(Bool)
 ---
 

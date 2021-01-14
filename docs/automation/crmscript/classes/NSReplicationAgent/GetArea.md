@@ -3,7 +3,6 @@ title: NSArea GetArea(Integer areaId)
 path: /EJScript/Classes/NSReplicationAgent/Member functions/NSArea GetArea(Integer p_0)
 intellisense: 1
 classref: 1
-sortOrder: 6679
 keywords: GetArea(Integer)
 ---
 

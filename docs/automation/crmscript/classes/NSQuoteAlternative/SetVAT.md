@@ -3,7 +3,6 @@ title: Void SetVAT(Float VAT)
 path: /EJScript/Classes/NSQuoteAlternative/Member functions/Void SetVAT(Float p_0)
 intellisense: 1
 classref: 1
-sortOrder: 6099
 keywords: SetVAT(Float)
 ---
 

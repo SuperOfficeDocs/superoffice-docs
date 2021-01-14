@@ -3,7 +3,6 @@ title: NSReportLabelLayoutEntity SaveReportLabelLayoutEntity(NSReportLabelLayout
 path: /EJScript/Classes/NSReportAgent/Member functions/NSReportLabelLayoutEntity SaveReportLabelLayoutEntity(NSReportLabelLayoutEntity p_0)
 intellisense: 1
 classref: 1
-sortOrder: 6700
 keywords: SaveReportLabelLayoutEntity(NSReportLabelLayoutEntity)
 ---
 

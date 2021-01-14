@@ -3,7 +3,6 @@ title: Float GetSubTotal()
 path: /EJScript/Classes/NSQuoteLine/Member functions/Float GetSubTotal()
 intellisense: 1
 classref: 1
-sortOrder: 6196
 keywords: GetSubTotal()
 ---
 

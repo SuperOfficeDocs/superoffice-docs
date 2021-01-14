@@ -3,7 +3,6 @@ title: Void SetLicenseOwners(NSLicenseOwner[] LicenseOwners)
 path: /EJScript/Classes/NSUser/Member functions/Void SetLicenseOwners(NSLicenseOwner[] p_0)
 intellisense: 1
 classref: 1
-sortOrder: 8443
 keywords: SetLicenseOwners(NSLicenseOwner[])
 ---
 

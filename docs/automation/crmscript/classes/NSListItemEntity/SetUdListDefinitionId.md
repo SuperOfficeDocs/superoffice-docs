@@ -3,7 +3,6 @@ title: Void SetUdListDefinitionId(Integer UdListDefinitionId)
 path: /EJScript/Classes/NSListItemEntity/Member functions/Void SetUdListDefinitionId(Integer p_0)
 intellisense: 1
 classref: 1
-sortOrder: 4438
 keywords: SetUdListDefinitionId(Integer)
 ---
 

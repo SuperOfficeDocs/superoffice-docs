@@ -3,7 +3,6 @@ title: Float GetEarningAmount()
 path: /EJScript/Classes/NSQuoteLine/Member functions/Float GetEarningAmount()
 intellisense: 1
 classref: 1
-sortOrder: 6190
 keywords: GetEarningAmount()
 ---
 

@@ -3,7 +3,6 @@ title: Void SetPersonPrivatePhone(String PersonPrivatePhone)
 path: /EJScript/Classes/NSPhoneListItem/Member functions/Void SetPersonPrivatePhone(String p_0)
 intellisense: 1
 classref: 1
-sortOrder: 5144
 keywords: SetPersonPrivatePhone(String)
 ---
 

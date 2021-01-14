@@ -3,7 +3,6 @@ title: NSLocalizedText GetLocalizedTextByType(Integer textType, Integer resource
 path: /EJScript/Classes/NSListAgent/Member functions/NSLocalizedText GetLocalizedTextByType(Integer p_0, Integer p_1, Integer p_2)
 intellisense: 1
 classref: 1
-sortOrder: 4233
 keywords: GetLocalizedTextByType(Integer,Integer,Integer)
 ---
 

@@ -3,7 +3,6 @@ title: NSSaleStakeholder SaveSaleStakeholder(NSSaleStakeholder saleStakeholder)
 path: /EJScript/Classes/NSSaleAgent/Member functions/NSSaleStakeholder SaveSaleStakeholder(NSSaleStakeholder p_0)
 intellisense: 1
 classref: 1
-sortOrder: 6949
 keywords: SaveSaleStakeholder(NSSaleStakeholder)
 ---
 

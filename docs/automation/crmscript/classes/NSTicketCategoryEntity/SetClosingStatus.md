@@ -3,7 +3,6 @@ title: Void SetClosingStatus(NSTicketCategoryClosingStatus ClosingStatus)
 path: /EJScript/Classes/NSTicketCategoryEntity/Member functions/Void SetClosingStatus(NSTicketCategoryClosingStatus p_0)
 intellisense: 1
 classref: 1
-sortOrder: 8070
 keywords: SetClosingStatus(NSTicketCategoryClosingStatus)
 ---
 

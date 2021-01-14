@@ -3,7 +3,6 @@ title: NSQuoteAlternative SaveQuoteAlternative(NSQuoteAlternative quoteAlternati
 path: /EJScript/Classes/NSQuoteAgent/Member functions/NSQuoteAlternative SaveQuoteAlternative(NSQuoteAlternative p_0)
 intellisense: 1
 classref: 1
-sortOrder: 5991
 keywords: SaveQuoteAlternative(NSQuoteAlternative)
 ---
 

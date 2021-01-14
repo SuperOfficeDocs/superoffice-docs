@@ -3,7 +3,6 @@ title: Void SetNextMilestoneDate(DateTime NextMilestoneDate)
 path: /EJScript/Classes/NSProjectEntity/Member functions/Void SetNextMilestoneDate(DateTime p_0)
 intellisense: 1
 classref: 1
-sortOrder: 5666
 keywords: SetNextMilestoneDate(DateTime)
 ---
 

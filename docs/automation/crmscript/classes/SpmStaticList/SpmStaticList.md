@@ -3,7 +3,6 @@ title: SpmStaticList
 path: /EJScript/Classes/SpmStaticList
 intellisense: 1
 classref: 1
-sortOrder: 9059
 ---
 
 

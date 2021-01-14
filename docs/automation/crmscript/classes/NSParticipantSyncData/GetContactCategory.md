@@ -3,7 +3,6 @@ title: String GetContactCategory()
 path: /EJScript/Classes/NSParticipantSyncData/Member functions/String GetContactCategory()
 intellisense: 1
 classref: 1
-sortOrder: 4762
 keywords: GetContactCategory()
 ---
 

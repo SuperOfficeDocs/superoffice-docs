@@ -3,7 +3,6 @@ title: Void SetAlertLevel(Integer AlertLevel)
 path: /EJScript/Classes/NSTicket/Member functions/Void SetAlertLevel(Integer p_0)
 intellisense: 1
 classref: 1
-sortOrder: 7999
 keywords: SetAlertLevel(Integer)
 ---
 

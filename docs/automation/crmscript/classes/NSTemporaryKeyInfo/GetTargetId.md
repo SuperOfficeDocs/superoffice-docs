@@ -3,7 +3,6 @@ title: Integer GetTargetId()
 path: /EJScript/Classes/NSTemporaryKeyInfo/Member functions/Integer GetTargetId()
 intellisense: 1
 classref: 1
-sortOrder: 7952
 keywords: GetTargetId()
 ---
 

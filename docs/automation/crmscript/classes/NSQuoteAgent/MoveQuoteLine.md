@@ -3,7 +3,6 @@ title: Void MoveQuoteLine(Integer quoteLineId, Bool direction)
 path: /EJScript/Classes/NSQuoteAgent/Member functions/Void MoveQuoteLine(Integer p_0, Bool p_1)
 intellisense: 1
 classref: 1
-sortOrder: 6044
 keywords: MoveQuoteLine(Integer,Bool)
 ---
 

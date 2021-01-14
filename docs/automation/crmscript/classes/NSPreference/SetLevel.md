@@ -3,7 +3,6 @@ title: Void SetLevel(Integer p0)
 path: /EJScript/Classes/NSPreference/Member functions/Void SetLevel(Integer p_0)
 intellisense: 1
 classref: 1
-sortOrder: 5285
 keywords: SetLevel(Integer)
 ---
 

@@ -3,7 +3,6 @@ title: Void GlobalChangeTicketStatus(Integer fromTicketStatusId, Integer toTicke
 path: /EJScript/Classes/NSListAgent/Member functions/Void GlobalChangeTicketStatus(Integer p_0, Integer p_1)
 intellisense: 1
 classref: 1
-sortOrder: 4385
 keywords: GlobalChangeTicketStatus(Integer,Integer)
 ---
 

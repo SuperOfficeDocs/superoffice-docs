@@ -3,7 +3,6 @@ title: Void SetMdoListName(String MdoListName)
 path: /EJScript/Classes/NSUserDefinedFieldInfo/Member functions/Void SetMdoListName(String p_0)
 intellisense: 1
 classref: 1
-sortOrder: 8602
 keywords: SetMdoListName(String)
 ---
 

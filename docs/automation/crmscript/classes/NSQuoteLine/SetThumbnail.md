@@ -3,7 +3,6 @@ title: Void SetThumbnail(String Thumbnail)
 path: /EJScript/Classes/NSQuoteLine/Member functions/Void SetThumbnail(String p_0)
 intellisense: 1
 classref: 1
-sortOrder: 6277
 keywords: SetThumbnail(String)
 ---
 

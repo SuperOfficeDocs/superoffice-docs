@@ -3,7 +3,6 @@ title: Integer getHour()
 path: /EJScript/Classes/Time/Member functions/Integer getHour()
 intellisense: 1
 classref: 1
-sortOrder: 9199
 keywords: getHour()
 ---
 

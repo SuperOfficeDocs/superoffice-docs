@@ -3,7 +3,6 @@ title: NSSaintAgent
 path: /EJScript/Classes/NSSaintAgent
 intellisense: 1
 classref: 1
-sortOrder: 6842
 ---
 
 

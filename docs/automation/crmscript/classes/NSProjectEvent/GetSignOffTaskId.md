@@ -3,7 +3,6 @@ title: Integer GetSignOffTaskId()
 path: /EJScript/Classes/NSProjectEvent/Member functions/Integer GetSignOffTaskId()
 intellisense: 1
 classref: 1
-sortOrder: 5695
 keywords: GetSignOffTaskId()
 ---
 

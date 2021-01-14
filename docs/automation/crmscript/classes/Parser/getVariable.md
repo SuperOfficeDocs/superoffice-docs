@@ -3,7 +3,6 @@ title: String getVariable(String name, Integer row)
 path: /EJScript/Classes/Parser/Member functions/String getVariable(String name, Integer row)
 intellisense: 1
 classref: 1
-sortOrder: 8959
 keywords: getVariable(String,Integer)
 ---
 

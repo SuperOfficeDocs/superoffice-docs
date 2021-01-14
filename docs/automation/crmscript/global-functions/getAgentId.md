@@ -1,11 +1,9 @@
 ---
-title: Integer getAgentId(String idString)
+description: Integer getAgentId(String idString)
 path: /EJScript/Global functions/Integer getAgentId(String idString)
 intellisense: 1
 langref: 1
-sortOrder: 9359
-keywords: getAgentId(String)
----
+keywords: getAgentId(String)---
 
 
 Returns the id of the agent matching the idString parameter

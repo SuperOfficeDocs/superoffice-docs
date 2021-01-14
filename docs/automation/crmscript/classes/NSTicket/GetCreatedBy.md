@@ -3,7 +3,6 @@ title: Integer GetCreatedBy()
 path: /EJScript/Classes/NSTicket/Member functions/Integer GetCreatedBy()
 intellisense: 1
 classref: 1
-sortOrder: 7973
 keywords: GetCreatedBy()
 ---
 

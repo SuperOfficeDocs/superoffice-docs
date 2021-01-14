@@ -1,11 +1,9 @@
 ---
-title: Integer addChatMessage(Integer sessionId, String message, Integer type, String author, Integer specialType, String specialParams)
+description: Integer addChatMessage(Integer sessionId, String message, Integer type, String author, Integer specialType, String specialParams)
 path: /EJScript/Global functions/Integer addChatMessage(Integer sessionId, String message, Integer type, String author, Integer specialType, String specialParams)
 intellisense: 1
 langref: 1
-sortOrder: 9354
-keywords: addChatMessage(Integer,String,Integer,String,Integer,String)
----
+keywords: addChatMessage(Integer,String,Integer,String,Integer,String)---
 
 
 This function allows you to add a message to a chat session.

@@ -3,7 +3,6 @@ title: Integer GetDeleted()
 path: /EJScript/Classes/NSRoleEntity/Member functions/Integer GetDeleted()
 intellisense: 1
 classref: 1
-sortOrder: 6820
 keywords: GetDeleted()
 ---
 

@@ -1,11 +1,9 @@
 ---
-title: String getLanguageVariable(String langVar, String langCode)
+description: String getLanguageVariable(String langVar, String langCode)
 path: /EJScript/Global functions/String getLanguageVariable(String langVar, String langCode)
 intellisense: 1
 langref: 1
-sortOrder: 9443
-keywords: getLanguageVariable(String,String)
----
+keywords: getLanguageVariable(String,String)---
 
 
 This function returns the string of the given language variable in the given language.

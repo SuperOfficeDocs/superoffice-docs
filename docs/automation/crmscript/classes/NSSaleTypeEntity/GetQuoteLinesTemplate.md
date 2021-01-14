@@ -3,7 +3,6 @@ title: Integer GetQuoteLinesTemplate()
 path: /EJScript/Classes/NSSaleTypeEntity/Member functions/Integer GetQuoteLinesTemplate()
 intellisense: 1
 classref: 1
-sortOrder: 7222
 keywords: GetQuoteLinesTemplate()
 ---
 

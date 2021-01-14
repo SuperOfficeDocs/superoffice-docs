@@ -3,7 +3,6 @@ title: NSPluginUrlResponse SendQuoteVersion(Integer quoteVersionId, DateTime exp
 path: /EJScript/Classes/NSQuoteAgent/Member functions/NSPluginUrlResponse SendQuoteVersion(Integer p_0, DateTime p_1, DateTime p_2, String p_3, String p_4)
 intellisense: 1
 classref: 1
-sortOrder: 5969
 keywords: SendQuoteVersion(Integer,DateTime,DateTime,String,String)
 ---
 

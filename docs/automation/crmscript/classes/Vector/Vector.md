@@ -3,7 +3,6 @@ title: Vector
 path: /EJScript/Classes/Vector
 intellisense: 1
 classref: 1
-sortOrder: 9248
 ---
 
 

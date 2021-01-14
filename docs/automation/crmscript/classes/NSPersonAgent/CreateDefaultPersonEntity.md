@@ -3,7 +3,6 @@ title: NSPersonEntity CreateDefaultPersonEntity()
 path: /EJScript/Classes/NSPersonAgent/Member functions/NSPersonEntity CreateDefaultPersonEntity()
 intellisense: 1
 classref: 1
-sortOrder: 4948
 keywords: CreateDefaultPersonEntity()
 ---
 

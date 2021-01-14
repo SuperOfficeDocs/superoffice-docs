@@ -3,7 +3,6 @@ title: String[] SanitizeMailContents(String[] contents)
 path: /EJScript/Classes/NSTicketAgent/Member functions/String[] SanitizeMailContents(String[] p_0)
 intellisense: 1
 classref: 1
-sortOrder: 8048
 keywords: SanitizeMailContents(String[])
 ---
 

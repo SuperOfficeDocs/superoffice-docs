@@ -3,7 +3,6 @@ title: Void SetAssociateAccessIds(Integer[] AssociateAccessIds)
 path: /EJScript/Classes/NSQuoteConnection/Member functions/Void SetAssociateAccessIds(Integer[] p_0)
 intellisense: 1
 classref: 1
-sortOrder: 6127
 keywords: SetAssociateAccessIds(Integer[])
 ---
 

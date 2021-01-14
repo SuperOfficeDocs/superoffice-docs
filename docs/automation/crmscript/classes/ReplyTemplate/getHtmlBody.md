@@ -3,7 +3,6 @@ title: String getHtmlBody(Integer language)
 path: /EJScript/Classes/ReplyTemplate/Member functions/String getHtmlBody(Integer language)
 intellisense: 1
 classref: 1
-sortOrder: 8974
 keywords: getHtmlBody(Integer)
 ---
 

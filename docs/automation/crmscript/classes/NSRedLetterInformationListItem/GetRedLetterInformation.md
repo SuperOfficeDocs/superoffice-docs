@@ -3,7 +3,6 @@ title: NSRedLetterSummary GetRedLetterInformation()
 path: /EJScript/Classes/NSRedLetterInformationListItem/Member functions/NSRedLetterSummary GetRedLetterInformation()
 intellisense: 1
 classref: 1
-sortOrder: 6611
 keywords: GetRedLetterInformation()
 ---
 

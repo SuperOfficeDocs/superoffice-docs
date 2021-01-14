@@ -3,7 +3,6 @@ title: String GetUserLanguageCode()
 path: /EJScript/Classes/NSQuoteContext/Member functions/String GetUserLanguageCode()
 intellisense: 1
 classref: 1
-sortOrder: 6148
 keywords: GetUserLanguageCode()
 ---
 

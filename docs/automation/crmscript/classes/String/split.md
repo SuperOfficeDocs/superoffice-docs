@@ -3,7 +3,6 @@ title: String[] split(String delimiter)
 path: /EJScript/Classes/String/Member functions/String[] split(String delimiter)
 intellisense: 1
 classref: 1
-sortOrder: 9155
 keywords: split(String)
 ---
 

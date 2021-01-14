@@ -3,7 +3,6 @@ title: NSProductFamily GetProductFamily(Integer productFamilyId)
 path: /EJScript/Classes/NSListAgent/Member functions/NSProductFamily GetProductFamily(Integer p_0)
 intellisense: 1
 classref: 1
-sortOrder: 4259
 keywords: GetProductFamily(Integer)
 ---
 

@@ -1,11 +1,9 @@
 ---
-title: Integer Integer(String value)
+description: Integer Integer(String value)
 path: /EJScript/Global functions/Integer Integer(String value)
 intellisense: 1
 langref: 1
-sortOrder: 9377
-keywords: Integer(String)
----
+keywords: Integer(String)---
 
 
 Integer constructor. Will parse a String value and create an Integer object.

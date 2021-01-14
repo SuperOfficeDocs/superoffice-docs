@@ -3,7 +3,6 @@ title: Void SetRealTimeToClose(Integer RealTimeToClose)
 path: /EJScript/Classes/NSTicket/Member functions/Void SetRealTimeToClose(Integer p_0)
 intellisense: 1
 classref: 1
-sortOrder: 8025
 keywords: SetRealTimeToClose(Integer)
 ---
 

@@ -3,7 +3,6 @@ title: Void SetContactId(Integer ContactId)
 path: /EJScript/Classes/NSProjectMember/Member functions/Void SetContactId(Integer p_0)
 intellisense: 1
 classref: 1
-sortOrder: 5816
 keywords: SetContactId(Integer)
 ---
 

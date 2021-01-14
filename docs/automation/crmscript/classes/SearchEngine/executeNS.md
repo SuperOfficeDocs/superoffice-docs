@@ -3,7 +3,6 @@ title: Integer executeNS()
 path: /EJScript/Classes/SearchEngine/member functions/Integer executeNS()
 intellisense: 1
 classref: 1
-sortOrder: 8987
 keywords: executeNS()
 ---
 

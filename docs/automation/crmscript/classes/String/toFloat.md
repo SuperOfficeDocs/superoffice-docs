@@ -3,7 +3,6 @@ title: Float toFloat()
 path: /EJScript/Classes/String/Member functions/Float toFloat()
 intellisense: 1
 classref: 1
-sortOrder: 9117
 keywords: toFloat()
 ---
 

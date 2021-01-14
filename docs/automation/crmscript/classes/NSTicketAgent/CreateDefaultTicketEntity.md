@@ -3,7 +3,6 @@ title: NSTicketEntity CreateDefaultTicketEntity()
 path: /EJScript/Classes/NSTicketAgent/Member functions/NSTicketEntity CreateDefaultTicketEntity()
 intellisense: 1
 classref: 1
-sortOrder: 8040
 keywords: CreateDefaultTicketEntity()
 ---
 

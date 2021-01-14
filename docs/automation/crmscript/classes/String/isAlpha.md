@@ -3,7 +3,6 @@ title: Bool isAlpha()
 path: /EJScript/Classes/String/Member functions/Bool isAlpha()
 intellisense: 1
 classref: 1
-sortOrder: 9103
 keywords: isAlpha()
 ---
 

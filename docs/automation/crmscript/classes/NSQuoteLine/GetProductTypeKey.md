@@ -3,7 +3,6 @@ title: String GetProductTypeKey()
 path: /EJScript/Classes/NSQuoteLine/Member functions/String GetProductTypeKey()
 intellisense: 1
 classref: 1
-sortOrder: 6224
 keywords: GetProductTypeKey()
 ---
 

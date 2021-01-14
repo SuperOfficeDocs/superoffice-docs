@@ -3,7 +3,6 @@ title: Integer GetTimeToReply()
 path: /EJScript/Classes/NSTicketEntity/Member functions/Integer GetTimeToReply()
 intellisense: 1
 classref: 1
-sortOrder: 8110
 keywords: GetTimeToReply()
 ---
 

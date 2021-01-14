@@ -3,7 +3,6 @@ title: String GetCultureName()
 path: /EJScript/Classes/NSTemplateVariablesParameters/Member functions/String GetCultureName()
 intellisense: 1
 classref: 1
-sortOrder: 7928
 keywords: GetCultureName()
 ---
 

@@ -3,7 +3,6 @@ title: NSResolvedPerson
 path: /EJScript/Classes/NSResolvedPerson
 intellisense: 1
 classref: 1
-sortOrder: 6749
 ---
 
 

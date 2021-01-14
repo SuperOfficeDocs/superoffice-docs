@@ -3,7 +3,6 @@ title: Void SetType(String Type)
 path: /EJScript/Classes/NSMDOListItem/Member functions/Void SetType(String p_0)
 intellisense: 1
 classref: 1
-sortOrder: 4595
 keywords: SetType(String)
 ---
 

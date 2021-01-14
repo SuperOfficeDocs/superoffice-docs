@@ -3,7 +3,6 @@ title: String GetPostit()
 path: /EJScript/Classes/NSSelectionEntity/Member functions/String GetPostit()
 intellisense: 1
 classref: 1
-sortOrder: 7431
 keywords: GetPostit()
 ---
 

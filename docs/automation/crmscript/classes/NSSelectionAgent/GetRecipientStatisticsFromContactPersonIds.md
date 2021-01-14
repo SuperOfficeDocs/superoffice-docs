@@ -3,7 +3,6 @@ title: NSRecipientStatistics GetRecipientStatisticsFromContactPersonIds(NSContac
 path: /EJScript/Classes/NSSelectionAgent/Member functions/NSRecipientStatistics GetRecipientStatisticsFromContactPersonIds(NSContactPersonId[] p_0)
 intellisense: 1
 classref: 1
-sortOrder: 7367
 keywords: GetRecipientStatisticsFromContactPersonIds(NSContactPersonId[])
 ---
 

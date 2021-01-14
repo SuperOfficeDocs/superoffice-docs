@@ -3,7 +3,6 @@ title: Void setDescription(String description)
 path: /EJScript/Classes/SpmMessage/Member functions/Void setDescription(String description)
 intellisense: 1
 classref: 1
-sortOrder: 9041
 keywords: setDescription(String)
 ---
 

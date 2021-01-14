@@ -3,7 +3,6 @@ title: Void SetStages(NSSelectableMDOListItem[] Stages)
 path: /EJScript/Classes/NSProjectTypeEntity/Member functions/Void SetStages(NSSelectableMDOListItem[] p_0)
 intellisense: 1
 classref: 1
-sortOrder: 5873
 keywords: SetStages(NSSelectableMDOListItem[])
 ---
 

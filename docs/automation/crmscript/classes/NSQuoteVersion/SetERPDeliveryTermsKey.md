@@ -3,7 +3,6 @@ title: Void SetERPDeliveryTermsKey(String ERPDeliveryTermsKey)
 path: /EJScript/Classes/NSQuoteVersion/Member functions/Void SetERPDeliveryTermsKey(String p_0)
 intellisense: 1
 classref: 1
-sortOrder: 6383
 keywords: SetERPDeliveryTermsKey(String)
 ---
 

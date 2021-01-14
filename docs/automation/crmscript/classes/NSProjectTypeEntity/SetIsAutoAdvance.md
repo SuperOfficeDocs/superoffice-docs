@@ -3,7 +3,6 @@ title: Void SetIsAutoAdvance(Bool IsAutoAdvance)
 path: /EJScript/Classes/NSProjectTypeEntity/Member functions/Void SetIsAutoAdvance(Bool p_0)
 intellisense: 1
 classref: 1
-sortOrder: 5868
 keywords: SetIsAutoAdvance(Bool)
 ---
 

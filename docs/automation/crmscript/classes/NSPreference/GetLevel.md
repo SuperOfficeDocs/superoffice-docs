@@ -3,7 +3,6 @@ title: Integer GetLevel()
 path: /EJScript/Classes/NSPreference/Member functions/Integer GetLevel()
 intellisense: 1
 classref: 1
-sortOrder: 5271
 keywords: GetLevel()
 ---
 

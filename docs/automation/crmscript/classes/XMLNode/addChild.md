@@ -3,7 +3,6 @@ title: Void addChild(XMLNode node)
 path: /EJScript/Classes/XMLNode/Member functions/Void addChild(XMLNode node)
 intellisense: 1
 classref: 1
-sortOrder: 9302
 keywords: addChild(XMLNode)
 ---
 

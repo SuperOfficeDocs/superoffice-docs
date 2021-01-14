@@ -3,7 +3,6 @@ title: NSReportLabelLayoutEntity GetReportLabelLayoutEntity(Integer reportLabelL
 path: /EJScript/Classes/NSReportAgent/Member functions/NSReportLabelLayoutEntity GetReportLabelLayoutEntity(Integer p_0)
 intellisense: 1
 classref: 1
-sortOrder: 6699
 keywords: GetReportLabelLayoutEntity(Integer)
 ---
 

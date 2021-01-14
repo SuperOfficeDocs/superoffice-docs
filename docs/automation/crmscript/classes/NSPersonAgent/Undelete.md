@@ -3,7 +3,6 @@ title: Void Undelete(Integer id)
 path: /EJScript/Classes/NSPersonAgent/Member functions/Void Undelete(Integer p_0)
 intellisense: 1
 classref: 1
-sortOrder: 4970
 keywords: Undelete(Integer)
 ---
 

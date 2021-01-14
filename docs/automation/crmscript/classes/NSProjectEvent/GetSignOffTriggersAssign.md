@@ -3,7 +3,6 @@ title: Bool GetSignOffTriggersAssign()
 path: /EJScript/Classes/NSProjectEvent/Member functions/Bool GetSignOffTriggersAssign()
 intellisense: 1
 classref: 1
-sortOrder: 5687
 keywords: GetSignOffTriggersAssign()
 ---
 

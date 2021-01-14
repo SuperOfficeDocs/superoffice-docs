@@ -3,7 +3,6 @@ title: Void SetProgId(String ProgId)
 path: /EJScript/Classes/NSUserDefinedFieldInfo/Member functions/Void SetProgId(String p_0)
 intellisense: 1
 classref: 1
-sortOrder: 8605
 keywords: SetProgId(String)
 ---
 

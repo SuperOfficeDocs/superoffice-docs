@@ -3,7 +3,6 @@ title: NSProject GetProject(Integer projectId)
 path: /EJScript/Classes/NSProjectAgent/Member functions/NSProject GetProject(Integer p_0)
 intellisense: 1
 classref: 1
-sortOrder: 5573
 keywords: GetProject(Integer)
 ---
 

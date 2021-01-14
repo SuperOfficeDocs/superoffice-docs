@@ -3,7 +3,6 @@ title: Integer GetRecordId()
 path: /EJScript/Classes/NSRefCountEntity/Member functions/Integer GetRecordId()
 intellisense: 1
 classref: 1
-sortOrder: 6628
 keywords: GetRecordId()
 ---
 

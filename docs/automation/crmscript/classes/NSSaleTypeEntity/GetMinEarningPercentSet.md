@@ -3,7 +3,6 @@ title: Bool GetMinEarningPercentSet()
 path: /EJScript/Classes/NSSaleTypeEntity/Member functions/Bool GetMinEarningPercentSet()
 intellisense: 1
 classref: 1
-sortOrder: 7215
 keywords: GetMinEarningPercentSet()
 ---
 

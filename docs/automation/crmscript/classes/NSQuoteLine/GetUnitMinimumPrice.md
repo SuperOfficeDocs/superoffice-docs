@@ -3,7 +3,6 @@ title: Float GetUnitMinimumPrice()
 path: /EJScript/Classes/NSQuoteLine/Member functions/Float GetUnitMinimumPrice()
 intellisense: 1
 classref: 1
-sortOrder: 6200
 keywords: GetUnitMinimumPrice()
 ---
 

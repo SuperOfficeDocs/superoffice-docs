@@ -3,7 +3,6 @@ title: Void SetChangedSale(NSSale ChangedSale)
 path: /EJScript/Classes/NSQuoteVersionValidated/Member functions/Void SetChangedSale(NSSale p_0)
 intellisense: 1
 classref: 1
-sortOrder: 6456
 keywords: SetChangedSale(NSSale)
 ---
 

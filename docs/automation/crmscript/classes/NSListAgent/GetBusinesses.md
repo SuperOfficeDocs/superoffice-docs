@@ -3,7 +3,6 @@ title: NSBusiness[] GetBusinesses()
 path: /EJScript/Classes/NSListAgent/Member functions/NSBusiness[] GetBusinesses()
 intellisense: 1
 classref: 1
-sortOrder: 4126
 keywords: GetBusinesses()
 ---
 

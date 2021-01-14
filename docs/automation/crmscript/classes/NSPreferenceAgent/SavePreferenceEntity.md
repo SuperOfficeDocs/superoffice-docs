@@ -3,7 +3,6 @@ title: NSPreference SavePreferenceEntity(NSPreference preference, Bool removeLow
 path: /EJScript/Classes/NSPreferenceAgent/Member functions/NSPreference SavePreferenceEntity(NSPreference p_0, Bool p_1)
 intellisense: 1
 classref: 1
-sortOrder: 5300
 keywords: SavePreferenceEntity(NSPreference,Bool)
 ---
 

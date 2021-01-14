@@ -3,7 +3,6 @@ title: String GetTargetTableName()
 path: /EJScript/Classes/NSSelectionEntity/Member functions/String GetTargetTableName()
 intellisense: 1
 classref: 1
-sortOrder: 7433
 keywords: GetTargetTableName()
 ---
 

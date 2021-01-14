@@ -3,7 +3,6 @@ title: Void SetTicketPriorityId(Integer TicketPriorityId)
 path: /EJScript/Classes/NSTicketPriorityEntity/Member functions/Void SetTicketPriorityId(Integer p_0)
 intellisense: 1
 classref: 1
-sortOrder: 8297
 keywords: SetTicketPriorityId(Integer)
 ---
 

@@ -3,7 +3,6 @@ title: String GetCustomMailSubject()
 path: /EJScript/Classes/NSMailMergeSettings/Member functions/String GetCustomMailSubject()
 intellisense: 1
 classref: 1
-sortOrder: 4498
 keywords: GetCustomMailSubject()
 ---
 

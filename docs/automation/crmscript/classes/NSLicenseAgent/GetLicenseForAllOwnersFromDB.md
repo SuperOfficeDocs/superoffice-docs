@@ -3,7 +3,6 @@ title: NSExtendedLicenseInfo[] GetLicenseForAllOwnersFromDB()
 path: /EJScript/Classes/NSLicenseAgent/Member functions/NSExtendedLicenseInfo[] GetLicenseForAllOwnersFromDB()
 intellisense: 1
 classref: 1
-sortOrder: 4035
 keywords: GetLicenseForAllOwnersFromDB()
 ---
 

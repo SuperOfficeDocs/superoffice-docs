@@ -3,7 +3,6 @@ title: NSProjectEvent[] GetMyProjectEvents()
 path: /EJScript/Classes/NSProjectAgent/Member functions/NSProjectEvent[] GetMyProjectEvents()
 intellisense: 1
 classref: 1
-sortOrder: 5588
 keywords: GetMyProjectEvents()
 ---
 

@@ -3,7 +3,6 @@ title: NSMDOAgent
 path: /EJScript/Classes/NSMDOAgent
 intellisense: 1
 classref: 1
-sortOrder: 4556
 ---
 
 

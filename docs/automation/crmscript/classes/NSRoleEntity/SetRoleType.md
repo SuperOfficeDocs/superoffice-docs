@@ -3,7 +3,6 @@ title: Void SetRoleType(Integer RoleType)
 path: /EJScript/Classes/NSRoleEntity/Member functions/Void SetRoleType(Integer p_0)
 intellisense: 1
 classref: 1
-sortOrder: 6837
 keywords: SetRoleType(Integer)
 ---
 

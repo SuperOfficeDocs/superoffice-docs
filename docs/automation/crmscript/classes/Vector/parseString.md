@@ -3,7 +3,6 @@ title: Void parseString(String text, String delimiter)
 path: /EJScript/Classes/Vector/Member functions/Void parseString(String text, String delimiter)
 intellisense: 1
 classref: 1
-sortOrder: 9255
 keywords: parseString(String,String)
 ---
 

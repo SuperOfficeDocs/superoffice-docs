@@ -3,7 +3,6 @@ title: NSSelectableMDOListItem[] SetSelected(String name, String additionalInfo,
 path: /EJScript/Classes/NSMDOAgent/Member functions/NSSelectableMDOListItem[] SetSelected(String p_0, String p_1, NSSelectableMDOListItem[] p_2)
 intellisense: 1
 classref: 1
-sortOrder: 4568
 keywords: SetSelected(String,String,NSSelectableMDOListItem[])
 ---
 

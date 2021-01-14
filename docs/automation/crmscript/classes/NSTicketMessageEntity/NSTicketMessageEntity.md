@@ -3,7 +3,6 @@ title: NSTicketMessageEntity
 path: /EJScript/Classes/NSTicketMessageEntity
 intellisense: 1
 classref: 1
-sortOrder: 8199
 ---
 
 

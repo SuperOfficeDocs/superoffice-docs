@@ -3,7 +3,6 @@ title: Void setGroup(Bool set)
 path: /EJScript/Classes/SearchEngine/member functions/Void setGroup(Bool set)
 intellisense: 1
 classref: 1
-sortOrder: 9024
 keywords: setGroup(Bool)
 ---
 

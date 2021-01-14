@@ -3,7 +3,6 @@ title: StringDictionary GetValues()
 path: /EJScript/Classes/NSTableRecord/Member functions/StringDictionary GetValues()
 intellisense: 1
 classref: 1
-sortOrder: 7839
 keywords: GetValues()
 ---
 

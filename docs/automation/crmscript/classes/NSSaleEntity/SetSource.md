@@ -3,7 +3,6 @@ title: Void SetSource(NSSource Source)
 path: /EJScript/Classes/NSSaleEntity/Member functions/Void SetSource(NSSource p_0)
 intellisense: 1
 classref: 1
-sortOrder: 7051
 keywords: SetSource(NSSource)
 ---
 

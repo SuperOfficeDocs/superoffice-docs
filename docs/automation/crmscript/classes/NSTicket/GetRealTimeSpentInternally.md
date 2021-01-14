@@ -3,7 +3,6 @@ title: Integer GetRealTimeSpentInternally()
 path: /EJScript/Classes/NSTicket/Member functions/Integer GetRealTimeSpentInternally()
 intellisense: 1
 classref: 1
-sortOrder: 7980
 keywords: GetRealTimeSpentInternally()
 ---
 

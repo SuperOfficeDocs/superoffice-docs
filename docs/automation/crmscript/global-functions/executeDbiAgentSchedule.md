@@ -1,11 +1,9 @@
 ---
-title: Void executeDbiAgentSchedule(Integer scheduleId, Map values)
+description: Void executeDbiAgentSchedule(Integer scheduleId, Map values)
 path: /EJScript/Global functions/Void executeDbiAgentSchedule(Integer scheduleId, Map values)
 intellisense: 1
 langref: 1
-sortOrder: 9503
-keywords: executeDbiAgentSchedule(Integer,Map)
----
+keywords: executeDbiAgentSchedule(Integer,Map)---
 
 
 Manually start a DBI agent schedule. Its possible to supply a map of parameter values used by the schedule.

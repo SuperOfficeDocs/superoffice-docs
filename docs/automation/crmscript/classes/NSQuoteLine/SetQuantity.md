@@ -3,7 +3,6 @@ title: Void SetQuantity(Float Quantity)
 path: /EJScript/Classes/NSQuoteLine/Member functions/Void SetQuantity(Float p_0)
 intellisense: 1
 classref: 1
-sortOrder: 6260
 keywords: SetQuantity(Float)
 ---
 

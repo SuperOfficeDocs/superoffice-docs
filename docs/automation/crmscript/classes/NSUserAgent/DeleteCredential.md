@@ -3,7 +3,6 @@ title: Bool DeleteCredential(Integer userId, String credentialType)
 path: /EJScript/Classes/NSUserAgent/Member functions/Bool DeleteCredential(Integer p_0, String p_1)
 intellisense: 1
 classref: 1
-sortOrder: 8461
 keywords: DeleteCredential(Integer,String)
 ---
 

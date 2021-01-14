@@ -3,7 +3,6 @@ title: Integer GetDeleted()
 path: /EJScript/Classes/NSSuggestedAppointment/Member functions/Integer GetDeleted()
 intellisense: 1
 classref: 1
-sortOrder: 7727
 keywords: GetDeleted()
 ---
 

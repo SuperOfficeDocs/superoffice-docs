@@ -3,7 +3,6 @@ title: Void SetQuoteLinesHasChanged(Bool QuoteLinesHasChanged)
 path: /EJScript/Classes/NSQuoteAlternativeRecalculated/Member functions/Void SetQuoteLinesHasChanged(Bool p_0)
 intellisense: 1
 classref: 1
-sortOrder: 6108
 keywords: SetQuoteLinesHasChanged(Bool)
 ---
 

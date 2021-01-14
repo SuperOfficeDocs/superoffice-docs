@@ -3,7 +3,6 @@ title: StringDictionary GetDocumentTemplateProperties(Integer documentTemplateId
 path: /EJScript/Classes/NSListAgent/Member functions/StringDictionary GetDocumentTemplateProperties(Integer p_0, String[] p_1)
 intellisense: 1
 classref: 1
-sortOrder: 4365
 keywords: GetDocumentTemplateProperties(Integer,String[])
 ---
 

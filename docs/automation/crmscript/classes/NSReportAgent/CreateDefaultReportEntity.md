@@ -3,7 +3,6 @@ title: NSReportEntity CreateDefaultReportEntity()
 path: /EJScript/Classes/NSReportAgent/Member functions/NSReportEntity CreateDefaultReportEntity()
 intellisense: 1
 classref: 1
-sortOrder: 6693
 keywords: CreateDefaultReportEntity()
 ---
 

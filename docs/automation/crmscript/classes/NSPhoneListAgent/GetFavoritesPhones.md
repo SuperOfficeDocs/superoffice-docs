@@ -3,7 +3,6 @@ title: NSPhoneListItem[] GetFavoritesPhones()
 path: /EJScript/Classes/NSPhoneListAgent/Member functions/NSPhoneListItem[] GetFavoritesPhones()
 intellisense: 1
 classref: 1
-sortOrder: 5120
 keywords: GetFavoritesPhones()
 ---
 

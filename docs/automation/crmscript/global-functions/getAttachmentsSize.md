@@ -1,11 +1,9 @@
 ---
-title: Integer getAttachmentsSize(Integer[] attachmentIds)
+description: Integer getAttachmentsSize(Integer[] attachmentIds)
 path: /EJScript/Global functions/Integer getAttachmentsSize(Integer[] attachmentIds)
 intellisense: 1
 langref: 1
-sortOrder: 9361
-keywords: getAttachmentsSize(Integer[])
----
+keywords: getAttachmentsSize(Integer[])---
 
 
 This method will get the total byte size of the specified attachments.

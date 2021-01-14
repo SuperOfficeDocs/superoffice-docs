@@ -3,7 +3,6 @@ title: Void SetLeftSelectionId(Integer LeftSelectionId)
 path: /EJScript/Classes/NSSelectionEntity/Member functions/Void SetLeftSelectionId(Integer p_0)
 intellisense: 1
 classref: 1
-sortOrder: 7443
 keywords: SetLeftSelectionId(Integer)
 ---
 

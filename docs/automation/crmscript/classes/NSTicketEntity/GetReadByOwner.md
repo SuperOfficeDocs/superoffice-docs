@@ -3,7 +3,6 @@ title: DateTime GetReadByOwner()
 path: /EJScript/Classes/NSTicketEntity/Member functions/DateTime GetReadByOwner()
 intellisense: 1
 classref: 1
-sortOrder: 8094
 keywords: GetReadByOwner()
 ---
 

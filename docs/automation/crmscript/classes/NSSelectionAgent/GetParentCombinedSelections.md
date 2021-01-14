@@ -3,7 +3,6 @@ title: Integer[] GetParentCombinedSelections(Integer selectionId)
 path: /EJScript/Classes/NSSelectionAgent/Member functions/Integer[] GetParentCombinedSelections(Integer p_0)
 intellisense: 1
 classref: 1
-sortOrder: 7355
 keywords: GetParentCombinedSelections(Integer)
 ---
 

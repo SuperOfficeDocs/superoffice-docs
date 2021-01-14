@@ -3,7 +3,6 @@ title: Bool beginsWith(String s)
 path: /EJScript/Classes/String/Member functions/Bool beginsWith(String s)
 intellisense: 1
 classref: 1
-sortOrder: 9097
 keywords: beginsWith(String)
 ---
 

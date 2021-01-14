@@ -3,7 +3,6 @@ title: Float GetDeliveredQuantity()
 path: /EJScript/Classes/NSQuoteLine/Member functions/Float GetDeliveredQuantity()
 intellisense: 1
 classref: 1
-sortOrder: 6187
 keywords: GetDeliveredQuantity()
 ---
 

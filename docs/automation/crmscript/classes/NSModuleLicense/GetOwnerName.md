@@ -3,7 +3,6 @@ title: String GetOwnerName()
 path: /EJScript/Classes/NSModuleLicense/Member functions/String GetOwnerName()
 intellisense: 1
 classref: 1
-sortOrder: 4628
 keywords: GetOwnerName()
 ---
 

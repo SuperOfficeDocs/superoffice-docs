@@ -3,7 +3,6 @@ title: NSListItemEntity AddFromListName(String udListDefinitionName, NSListItemE
 path: /EJScript/Classes/NSListAgent/Member functions/NSListItemEntity AddFromListName(String p_0, NSListItemEntity p_1)
 intellisense: 1
 classref: 1
-sortOrder: 4221
 keywords: AddFromListName(String,NSListItemEntity)
 ---
 

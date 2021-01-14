@@ -3,7 +3,6 @@ title: NSTicketBaseStatus GetBaseStatus()
 path: /EJScript/Classes/NSTicket/Member functions/NSTicketBaseStatus GetBaseStatus()
 intellisense: 1
 classref: 1
-sortOrder: 7991
 keywords: GetBaseStatus()
 ---
 

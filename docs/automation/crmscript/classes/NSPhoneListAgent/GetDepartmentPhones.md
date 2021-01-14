@@ -3,7 +3,6 @@ title: NSPhoneListItem[] GetDepartmentPhones(Integer departmentId)
 path: /EJScript/Classes/NSPhoneListAgent/Member functions/NSPhoneListItem[] GetDepartmentPhones(Integer p_0)
 intellisense: 1
 classref: 1
-sortOrder: 5119
 keywords: GetDepartmentPhones(Integer)
 ---
 

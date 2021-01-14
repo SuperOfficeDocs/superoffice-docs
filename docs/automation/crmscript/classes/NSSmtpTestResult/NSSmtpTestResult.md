@@ -3,7 +3,6 @@ title: NSSmtpTestResult
 path: /EJScript/Classes/NSSmtpTestResult
 intellisense: 1
 classref: 1
-sortOrder: 7553
 ---
 
 

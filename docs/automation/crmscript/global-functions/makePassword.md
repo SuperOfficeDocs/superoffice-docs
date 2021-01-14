@@ -1,11 +1,9 @@
 ---
-title: String makePassword(Integer p\_len)
+description: String makePassword(Integer p\_len)
 path: /EJScript/Global functions/String makePassword(Integer p_len)
 intellisense: 1
 langref: 1
-sortOrder: 9474
-keywords: makePassword(Integer)
----
+keywords: makePassword(Integer)---
 
 
 Create random password of length p, with the given seed characters.

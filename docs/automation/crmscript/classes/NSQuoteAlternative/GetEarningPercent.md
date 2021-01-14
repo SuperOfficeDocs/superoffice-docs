@@ -3,7 +3,6 @@ title: Float GetEarningPercent()
 path: /EJScript/Classes/NSQuoteAlternative/Member functions/Float GetEarningPercent()
 intellisense: 1
 classref: 1
-sortOrder: 6054
 keywords: GetEarningPercent()
 ---
 

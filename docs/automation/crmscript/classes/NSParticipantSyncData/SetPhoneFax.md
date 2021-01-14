@@ -3,7 +3,6 @@ title: Void SetPhoneFax(String[] PhoneFax)
 path: /EJScript/Classes/NSParticipantSyncData/Member functions/Void SetPhoneFax(String[] p_0)
 intellisense: 1
 classref: 1
-sortOrder: 4814
 keywords: SetPhoneFax(String[])
 ---
 

@@ -1,11 +1,9 @@
 ---
-title: Parser faqSearch(Integer root, Integer access, String message, Parser p, Integer max)
+description: Parser faqSearch(Integer root, Integer access, String message, Parser p, Integer max)
 path: /EJScript/Global functions/Parser faqSearch(Integer root, Integer access, String message, Parser p, Integer max)
 intellisense: 1
 langref: 1
-sortOrder: 9400
-keywords: faqSearch(Integer,Integer,String,Parser,Integer)
----
+keywords: faqSearch(Integer,Integer,String,Parser,Integer)---
 
 
 This method will do a faq search, using the same search engine as the customer pages do. It will fill the parser with the result. The following parser variables are available (sorted, where the top most is the best hit):

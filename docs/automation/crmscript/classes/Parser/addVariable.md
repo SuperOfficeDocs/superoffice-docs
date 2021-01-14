@@ -3,7 +3,6 @@ title: Void addVariable(String field, String value)
 path: /EJScript/Classes/Parser/Member functions/Void addVariable(String field, String value)
 intellisense: 1
 classref: 1
-sortOrder: 8961
 keywords: addVariable(String,String)
 ---
 

@@ -3,7 +3,6 @@ title: StringDictionary GetDataRights(Integer roleId, String tableName)
 path: /EJScript/Classes/NSUserAgent/Member functions/StringDictionary GetDataRights(Integer p_0, String p_1)
 intellisense: 1
 classref: 1
-sortOrder: 8523
 keywords: GetDataRights(Integer,String)
 ---
 

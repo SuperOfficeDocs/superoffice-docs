@@ -3,7 +3,6 @@ title: Void SetDeliveryStatus(String plugin, String externalMessageId, Integer s
 path: /EJScript/Classes/NSMessagingAgent/Member functions/Void SetDeliveryStatus(String p_0, String p_1, Integer p_2, String p_3)
 intellisense: 1
 classref: 1
-sortOrder: 4611
 keywords: SetDeliveryStatus(String,String,Integer,String)
 ---
 

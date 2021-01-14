@@ -3,7 +3,6 @@ title: Void SetVisibleForPersonInterests(NSMDOListItem[] VisibleForPersonInteres
 path: /EJScript/Classes/NSProjectEventEntity/Member functions/Void SetVisibleForPersonInterests(NSMDOListItem[] p_0)
 intellisense: 1
 classref: 1
-sortOrder: 5790
 keywords: SetVisibleForPersonInterests(NSMDOListItem[])
 ---
 

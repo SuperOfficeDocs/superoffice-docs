@@ -3,7 +3,6 @@ title: Integer GetDeliveryCountryId()
 path: /EJScript/Classes/NSQuoteVersion/Member functions/Integer GetDeliveryCountryId()
 intellisense: 1
 classref: 1
-sortOrder: 6346
 keywords: GetDeliveryCountryId()
 ---
 

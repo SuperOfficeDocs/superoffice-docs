@@ -3,7 +3,6 @@ title: String GetPublicValue()
 path: /EJScript/Classes/NSUntrustedCredentials/Member functions/String GetPublicValue()
 intellisense: 1
 classref: 1
-sortOrder: 8399
 keywords: GetPublicValue()
 ---
 

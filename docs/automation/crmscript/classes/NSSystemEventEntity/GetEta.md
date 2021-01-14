@@ -3,7 +3,6 @@ title: DateTime GetEta()
 path: /EJScript/Classes/NSSystemEventEntity/Member functions/DateTime GetEta()
 intellisense: 1
 classref: 1
-sortOrder: 7817
 keywords: GetEta()
 ---
 

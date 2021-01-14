@@ -3,7 +3,6 @@ title: DateTime GetSunStop()
 path: /EJScript/Classes/NSTicketPriorityEntity/Member functions/DateTime GetSunStop()
 intellisense: 1
 classref: 1
-sortOrder: 8256
 keywords: GetSunStop()
 ---
 

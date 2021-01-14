@@ -3,7 +3,6 @@ title: NSPocketStartupData GetPocketStartupData(String[] tables, DateTime curren
 path: /EJScript/Classes/NSPocketAgent/Member functions/NSPocketStartupData GetPocketStartupData(String[] p_0, DateTime p_1)
 intellisense: 1
 classref: 1
-sortOrder: 5195
 keywords: GetPocketStartupData(String[],DateTime)
 ---
 

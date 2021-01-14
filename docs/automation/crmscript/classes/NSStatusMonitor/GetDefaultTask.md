@@ -3,7 +3,6 @@ title: Integer GetDefaultTask()
 path: /EJScript/Classes/NSStatusMonitor/Member functions/Integer GetDefaultTask()
 intellisense: 1
 classref: 1
-sortOrder: 7686
 keywords: GetDefaultTask()
 ---
 

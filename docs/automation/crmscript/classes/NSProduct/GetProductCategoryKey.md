@@ -3,7 +3,6 @@ title: String GetProductCategoryKey()
 path: /EJScript/Classes/NSProduct/Member functions/String GetProductCategoryKey()
 intellisense: 1
 classref: 1
-sortOrder: 5445
 keywords: GetProductCategoryKey()
 ---
 

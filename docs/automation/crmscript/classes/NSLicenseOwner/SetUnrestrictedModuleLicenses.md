@@ -3,7 +3,6 @@ title: Void SetUnrestrictedModuleLicenses(NSModuleLicenseLink[] UnrestrictedModu
 path: /EJScript/Classes/NSLicenseOwner/Member functions/Void SetUnrestrictedModuleLicenses(NSModuleLicenseLink[] p_0)
 intellisense: 1
 classref: 1
-sortOrder: 4098
 keywords: SetUnrestrictedModuleLicenses(NSModuleLicenseLink[])
 ---
 

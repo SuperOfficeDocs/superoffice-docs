@@ -3,7 +3,6 @@ title: NSHeadingEntity[] SaveHeadingsFromName(String name, NSHeadingEntity[] ent
 path: /EJScript/Classes/NSListAgent/Member functions/NSHeadingEntity[] SaveHeadingsFromName(String p_0, NSHeadingEntity[] p_1)
 intellisense: 1
 classref: 1
-sortOrder: 4201
 keywords: SaveHeadingsFromName(String,NSHeadingEntity[])
 ---
 

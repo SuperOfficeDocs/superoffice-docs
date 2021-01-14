@@ -3,7 +3,6 @@ title: NSUserDefinedFieldInfo
 path: /EJScript/Classes/NSUserDefinedFieldInfo
 intellisense: 1
 classref: 1
-sortOrder: 8542
 ---
 
 

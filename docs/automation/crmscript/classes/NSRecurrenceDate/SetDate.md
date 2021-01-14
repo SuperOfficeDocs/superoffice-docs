@@ -3,7 +3,6 @@ title: Void SetDate(DateTime p0)
 path: /EJScript/Classes/NSRecurrenceDate/Member functions/Void SetDate(DateTime p_0)
 intellisense: 1
 classref: 1
-sortOrder: 6524
 keywords: SetDate(DateTime)
 ---
 

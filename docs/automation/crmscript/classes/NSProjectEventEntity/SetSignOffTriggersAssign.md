@@ -3,7 +3,6 @@ title: Void SetSignOffTriggersAssign(Bool SignOffTriggersAssign)
 path: /EJScript/Classes/NSProjectEventEntity/Member functions/Void SetSignOffTriggersAssign(Bool p_0)
 intellisense: 1
 classref: 1
-sortOrder: 5780
 keywords: SetSignOffTriggersAssign(Bool)
 ---
 

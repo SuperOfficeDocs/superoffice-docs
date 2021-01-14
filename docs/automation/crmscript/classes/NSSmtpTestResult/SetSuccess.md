@@ -3,7 +3,6 @@ title: Void SetSuccess(Bool Success)
 path: /EJScript/Classes/NSSmtpTestResult/Member functions/Void SetSuccess(Bool p_0)
 intellisense: 1
 classref: 1
-sortOrder: 7558
 keywords: SetSuccess(Bool)
 ---
 

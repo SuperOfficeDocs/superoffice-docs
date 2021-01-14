@@ -3,7 +3,6 @@ title: NSLocalizedText GetLocalizedText(Integer localizedTextId)
 path: /EJScript/Classes/NSListAgent/Member functions/NSLocalizedText GetLocalizedText(Integer p_0)
 intellisense: 1
 classref: 1
-sortOrder: 4232
 keywords: GetLocalizedText(Integer)
 ---
 

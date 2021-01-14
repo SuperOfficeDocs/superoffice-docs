@@ -3,7 +3,6 @@ title: Void SetDate(DateTime Date)
 path: /EJScript/Classes/NSRedLetterInformationListItem/Member functions/Void SetDate(DateTime p_0)
 intellisense: 1
 classref: 1
-sortOrder: 6612
 keywords: SetDate(DateTime)
 ---
 

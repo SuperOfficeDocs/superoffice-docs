@@ -3,7 +3,6 @@ title: String getInvolvedOnly()
 path: /EJScript/Classes/Ticket/Member functions/String getInvolvedOnly()
 intellisense: 1
 classref: 1
-sortOrder: 9182
 keywords: getInvolvedOnly()
 ---
 

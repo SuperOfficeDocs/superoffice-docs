@@ -3,7 +3,6 @@ title: Void SetChanges(NSChangedData Changes)
 path: /EJScript/Classes/NSQuoteAlternativeRecalculated/Member functions/Void SetChanges(NSChangedData p_0)
 intellisense: 1
 classref: 1
-sortOrder: 6107
 keywords: SetChanges(NSChangedData)
 ---
 

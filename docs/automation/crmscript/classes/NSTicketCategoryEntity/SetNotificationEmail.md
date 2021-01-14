@@ -3,7 +3,6 @@ title: Void SetNotificationEmail(String NotificationEmail)
 path: /EJScript/Classes/NSTicketCategoryEntity/Member functions/Void SetNotificationEmail(String p_0)
 intellisense: 1
 classref: 1
-sortOrder: 8079
 keywords: SetNotificationEmail(String)
 ---
 

@@ -3,7 +3,6 @@ title: NSSelectableMDOListItem[] GetFunctionalRights(Integer roleId)
 path: /EJScript/Classes/NSUserAgent/Member functions/NSSelectableMDOListItem[] GetFunctionalRights(Integer p_0)
 intellisense: 1
 classref: 1
-sortOrder: 8486
 keywords: GetFunctionalRights(Integer)
 ---
 

@@ -3,7 +3,6 @@ title: NSHistory[] SaveHistories(String p0, NSHistory[] history)
 path: /EJScript/Classes/NSViewStateAgent/Member functions/NSHistory[] SaveHistories(String p_0, NSHistory[] p_1)
 intellisense: 1
 classref: 1
-sortOrder: 8739
 keywords: SaveHistories(String,NSHistory[])
 ---
 

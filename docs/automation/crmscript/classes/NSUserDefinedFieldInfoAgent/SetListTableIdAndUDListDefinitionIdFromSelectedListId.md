@@ -3,7 +3,6 @@ title: NSUserDefinedFieldInfo SetListTableIdAndUDListDefinitionIdFromSelectedLis
 path: /EJScript/Classes/NSUserDefinedFieldInfoAgent/Member functions/NSUserDefinedFieldInfo SetListTableIdAndUDListDefinitionIdFromSelectedListId(NSUserDefinedFieldInfo p_0, Integer p_1)
 intellisense: 1
 classref: 1
-sortOrder: 8637
 keywords: SetListTableIdAndUDListDefinitionIdFromSelectedListId(NSUserDefinedFieldInfo,Integer)
 ---
 

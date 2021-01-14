@@ -3,7 +3,6 @@ title: Void SetTimeSpentQueue(Integer TimeSpentQueue)
 path: /EJScript/Classes/NSTicketEntity/Member functions/Void SetTimeSpentQueue(Integer p_0)
 intellisense: 1
 classref: 1
-sortOrder: 8167
 keywords: SetTimeSpentQueue(Integer)
 ---
 

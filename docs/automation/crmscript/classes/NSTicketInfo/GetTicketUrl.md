@@ -3,7 +3,6 @@ title: String GetTicketUrl()
 path: /EJScript/Classes/NSTicketInfo/Member functions/String GetTicketUrl()
 intellisense: 1
 classref: 1
-sortOrder: 8179
 keywords: GetTicketUrl()
 ---
 

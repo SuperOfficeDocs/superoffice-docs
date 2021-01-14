@@ -3,7 +3,6 @@ title: Void SetEarning(Float Earning)
 path: /EJScript/Classes/NSSaleEntity/Member functions/Void SetEarning(Float p_0)
 intellisense: 1
 classref: 1
-sortOrder: 7025
 keywords: SetEarning(Float)
 ---
 

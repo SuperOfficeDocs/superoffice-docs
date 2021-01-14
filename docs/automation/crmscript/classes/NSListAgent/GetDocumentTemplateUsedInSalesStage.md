@@ -3,7 +3,6 @@ title: String[] GetDocumentTemplateUsedInSalesStage(Integer documentTemplateId)
 path: /EJScript/Classes/NSListAgent/Member functions/String[] GetDocumentTemplateUsedInSalesStage(Integer p_0)
 intellisense: 1
 classref: 1
-sortOrder: 4364
 keywords: GetDocumentTemplateUsedInSalesStage(Integer)
 ---
 

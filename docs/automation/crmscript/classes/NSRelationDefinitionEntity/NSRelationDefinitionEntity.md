@@ -3,7 +3,6 @@ title: NSRelationDefinitionEntity
 path: /EJScript/Classes/NSRelationDefinitionEntity
 intellisense: 1
 classref: 1
-sortOrder: 6651
 ---
 
 

@@ -3,7 +3,6 @@ title: String beforeLast(String needle)
 path: /EJScript/Classes/String/Member functions/String beforeLast(String needle)
 intellisense: 1
 classref: 1
-sortOrder: 9128
 keywords: beforeLast(String)
 ---
 

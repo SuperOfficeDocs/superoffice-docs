@@ -3,7 +3,6 @@ title: Void SetCurrentOverdueWeightedOwnCurrency(Float CurrentOverdueWeightedOwn
 path: /EJScript/Classes/NSSaleSummary/Member functions/Void SetCurrentOverdueWeightedOwnCurrency(Float p_0)
 intellisense: 1
 classref: 1
-sortOrder: 7154
 keywords: SetCurrentOverdueWeightedOwnCurrency(Float)
 ---
 

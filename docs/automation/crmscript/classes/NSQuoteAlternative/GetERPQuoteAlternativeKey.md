@@ -3,7 +3,6 @@ title: String GetERPQuoteAlternativeKey()
 path: /EJScript/Classes/NSQuoteAlternative/Member functions/String GetERPQuoteAlternativeKey()
 intellisense: 1
 classref: 1
-sortOrder: 6067
 keywords: GetERPQuoteAlternativeKey()
 ---
 

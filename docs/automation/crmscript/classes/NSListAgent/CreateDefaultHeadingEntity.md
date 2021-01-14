@@ -3,7 +3,6 @@ title: NSHeadingEntity CreateDefaultHeadingEntity()
 path: /EJScript/Classes/NSListAgent/Member functions/NSHeadingEntity CreateDefaultHeadingEntity()
 intellisense: 1
 classref: 1
-sortOrder: 4192
 keywords: CreateDefaultHeadingEntity()
 ---
 

@@ -3,7 +3,6 @@ title: String[] regexp(String pattern)
 path: /EJScript/Classes/String/Member functions/String[] regexp(String pattern)
 intellisense: 1
 classref: 1
-sortOrder: 9154
 keywords: regexp(String)
 ---
 

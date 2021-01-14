@@ -3,7 +3,6 @@ title: Integer GetTargetId()
 path: /EJScript/Classes/NSPreference/Member functions/Integer GetTargetId()
 intellisense: 1
 classref: 1
-sortOrder: 5273
 keywords: GetTargetId()
 ---
 

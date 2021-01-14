@@ -3,7 +3,6 @@ title: Float GetPreviousOverdueTotalBaseCurrency()
 path: /EJScript/Classes/NSSaleSummary/Member functions/Float GetPreviousOverdueTotalBaseCurrency()
 intellisense: 1
 classref: 1
-sortOrder: 7135
 keywords: GetPreviousOverdueTotalBaseCurrency()
 ---
 

@@ -3,7 +3,6 @@ title: NSCategory GetCategory(Integer categoryId)
 path: /EJScript/Classes/NSListAgent/Member functions/NSCategory GetCategory(Integer p_0)
 intellisense: 1
 classref: 1
-sortOrder: 4129
 keywords: GetCategory(Integer)
 ---
 

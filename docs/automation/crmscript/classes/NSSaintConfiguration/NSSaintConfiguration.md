@@ -3,7 +3,6 @@ title: NSSaintConfiguration
 path: /EJScript/Classes/NSSaintConfiguration
 intellisense: 1
 classref: 1
-sortOrder: 6858
 ---
 
 

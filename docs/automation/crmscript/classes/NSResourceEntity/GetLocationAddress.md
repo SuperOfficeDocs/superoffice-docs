@@ -3,7 +3,6 @@ title: String GetLocationAddress()
 path: /EJScript/Classes/NSResourceEntity/Member functions/String GetLocationAddress()
 intellisense: 1
 classref: 1
-sortOrder: 6774
 keywords: GetLocationAddress()
 ---
 

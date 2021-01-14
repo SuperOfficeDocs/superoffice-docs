@@ -3,7 +3,6 @@ title: NSPersonEntity SavePersonEntity(NSPersonEntity personEntity)
 path: /EJScript/Classes/NSPersonAgent/Member functions/NSPersonEntity SavePersonEntity(NSPersonEntity p_0)
 intellisense: 1
 classref: 1
-sortOrder: 4952
 keywords: SavePersonEntity(NSPersonEntity)
 ---
 

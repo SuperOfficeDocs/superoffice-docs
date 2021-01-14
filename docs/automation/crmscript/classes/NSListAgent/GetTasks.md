@@ -3,7 +3,6 @@ title: NSTask[] GetTasks()
 path: /EJScript/Classes/NSListAgent/Member functions/NSTask[] GetTasks()
 intellisense: 1
 classref: 1
-sortOrder: 4331
 keywords: GetTasks()
 ---
 

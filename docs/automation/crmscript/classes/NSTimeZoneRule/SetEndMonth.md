@@ -3,7 +3,6 @@ title: Void SetEndMonth(Integer EndMonth)
 path: /EJScript/Classes/NSTimeZoneRule/Member functions/Void SetEndMonth(Integer p_0)
 intellisense: 1
 classref: 1
-sortOrder: 8374
 keywords: SetEndMonth(Integer)
 ---
 

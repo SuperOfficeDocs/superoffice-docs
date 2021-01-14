@@ -3,7 +3,6 @@ title: Bool GetNeedsUpdate()
 path: /EJScript/Classes/NSStatusMonitor/Member functions/Bool GetNeedsUpdate()
 intellisense: 1
 classref: 1
-sortOrder: 7683
 keywords: GetNeedsUpdate()
 ---
 

@@ -3,7 +3,6 @@ title: NSQuoteLine SaveQuoteLine(NSQuoteLine quoteLine)
 path: /EJScript/Classes/NSQuoteAgent/Member functions/NSQuoteLine SaveQuoteLine(NSQuoteLine p_0)
 intellisense: 1
 classref: 1
-sortOrder: 6010
 keywords: SaveQuoteLine(NSQuoteLine)
 ---
 

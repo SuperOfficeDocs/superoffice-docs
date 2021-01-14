@@ -3,7 +3,6 @@ title: Void SetOwnerTable(Integer OwnerTable)
 path: /EJScript/Classes/NSSaintConfiguration/Member functions/Void SetOwnerTable(Integer p_0)
 intellisense: 1
 classref: 1
-sortOrder: 6871
 keywords: SetOwnerTable(Integer)
 ---
 

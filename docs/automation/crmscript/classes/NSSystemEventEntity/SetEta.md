@@ -3,7 +3,6 @@ title: Void SetEta(DateTime Eta)
 path: /EJScript/Classes/NSSystemEventEntity/Member functions/Void SetEta(DateTime p_0)
 intellisense: 1
 classref: 1
-sortOrder: 7828
 keywords: SetEta(DateTime)
 ---
 

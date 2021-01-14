@@ -3,7 +3,6 @@ title: Void setSendRate(Integer sendRate)
 path: /EJScript/Classes/SpmShipment/Member functions/Void setSendRate(Integer sendRate)
 intellisense: 1
 classref: 1
-sortOrder: 9057
 keywords: setSendRate(Integer)
 ---
 

@@ -3,7 +3,6 @@ title: NSQuoteLine GetCRMQuoteLine()
 path: /EJScript/Classes/NSQuoteContext/Member functions/NSQuoteLine GetCRMQuoteLine()
 intellisense: 1
 classref: 1
-sortOrder: 6145
 keywords: GetCRMQuoteLine()
 ---
 

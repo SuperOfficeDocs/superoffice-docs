@@ -3,7 +3,6 @@ title: Integer GetStatus()
 path: /EJScript/Classes/NSSaleSummaryItem/Member functions/Integer GetStatus()
 intellisense: 1
 classref: 1
-sortOrder: 7186
 keywords: GetStatus()
 ---
 

@@ -3,7 +3,6 @@ title: Integer GetTimeSpentInternally()
 path: /EJScript/Classes/NSTicket/Member functions/Integer GetTimeSpentInternally()
 intellisense: 1
 classref: 1
-sortOrder: 7987
 keywords: GetTimeSpentInternally()
 ---
 

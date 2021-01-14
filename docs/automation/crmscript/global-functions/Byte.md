@@ -1,11 +1,9 @@
 ---
-title: Byte Byte(Integer value)
+description: Byte Byte(Integer value)
 path: /EJScript/Global functions/Byte Byte(Integer value)
 intellisense: 1
 langref: 1
-sortOrder: 9323
-keywords: Byte(Integer)
----
+keywords: Byte(Integer)---
 
 
 Byte constructor

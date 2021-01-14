@@ -3,7 +3,6 @@ title: Void SetChildItems(NSMDOListItem[] ChildItems)
 path: /EJScript/Classes/NSMDOListItem/Member functions/Void SetChildItems(NSMDOListItem[] p_0)
 intellisense: 1
 classref: 1
-sortOrder: 4584
 keywords: SetChildItems(NSMDOListItem[])
 ---
 

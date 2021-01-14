@@ -3,7 +3,6 @@ title: Void SetTueStop(DateTime TueStop)
 path: /EJScript/Classes/NSTicketPriorityEntity/Member functions/Void SetTueStop(DateTime p_0)
 intellisense: 1
 classref: 1
-sortOrder: 8300
 keywords: SetTueStop(DateTime)
 ---
 

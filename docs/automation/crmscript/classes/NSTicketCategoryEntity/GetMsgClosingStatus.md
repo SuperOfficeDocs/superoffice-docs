@@ -3,7 +3,6 @@ title: NSTicketCategoryClosingStatus GetMsgClosingStatus()
 path: /EJScript/Classes/NSTicketCategoryEntity/Member functions/NSTicketCategoryClosingStatus GetMsgClosingStatus()
 intellisense: 1
 classref: 1
-sortOrder: 8061
 keywords: GetMsgClosingStatus()
 ---
 

@@ -3,7 +3,6 @@ title: Void SetIsPublished(Bool IsPublished)
 path: /EJScript/Classes/NSProjectEventEntity/Member functions/Void SetIsPublished(Bool p_0)
 intellisense: 1
 classref: 1
-sortOrder: 5765
 keywords: SetIsPublished(Bool)
 ---
 

@@ -3,7 +3,6 @@ title: Bool ChangePassword(Integer associateId, String oldPassword, String newPa
 path: /EJScript/Classes/NSUserAgent/Member functions/Bool ChangePassword(Integer p_0, String p_1, String p_2)
 intellisense: 1
 classref: 1
-sortOrder: 8459
 keywords: ChangePassword(Integer,String,String)
 ---
 

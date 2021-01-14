@@ -3,7 +3,6 @@ title: Void SetDeleted(Bool Deleted)
 path: /EJScript/Classes/NSSaleTypeEntity/Member functions/Void SetDeleted(Bool p_0)
 intellisense: 1
 classref: 1
-sortOrder: 7235
 keywords: SetDeleted(Bool)
 ---
 

@@ -3,7 +3,6 @@ title: Bool load(Integer id)
 path: /EJScript/Classes/Ticket/Member functions/Bool load(Integer id)
 intellisense: 1
 classref: 1
-sortOrder: 9174
 keywords: load(Integer)
 ---
 

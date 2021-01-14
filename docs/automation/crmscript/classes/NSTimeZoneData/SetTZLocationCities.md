@@ -3,7 +3,6 @@ title: Void SetTZLocationCities(String TZLocationCities)
 path: /EJScript/Classes/NSTimeZoneData/Member functions/Void SetTZLocationCities(String p_0)
 intellisense: 1
 classref: 1
-sortOrder: 8361
 keywords: SetTZLocationCities(String)
 ---
 

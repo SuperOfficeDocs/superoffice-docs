@@ -3,7 +3,6 @@ title: Integer GetEjUserId()
 path: /EJScript/Classes/NSUser/Member functions/Integer GetEjUserId()
 intellisense: 1
 classref: 1
-sortOrder: 8415
 keywords: GetEjUserId()
 ---
 

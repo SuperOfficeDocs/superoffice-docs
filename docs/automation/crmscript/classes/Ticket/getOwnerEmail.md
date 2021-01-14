@@ -3,7 +3,6 @@ title: String getOwnerEmail()
 path: /EJScript/Classes/Ticket/Member functions/String getOwnerEmail()
 intellisense: 1
 classref: 1
-sortOrder: 9184
 keywords: getOwnerEmail()
 ---
 

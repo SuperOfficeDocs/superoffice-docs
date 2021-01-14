@@ -3,7 +3,6 @@ title: Void delete()
 path: /EJScript/Classes/SearchEngine/member functions/Void delete()
 intellisense: 1
 classref: 1
-sortOrder: 9018
 keywords: delete()
 ---
 

@@ -3,7 +3,6 @@ title: NSQuoteVersionValidated
 path: /EJScript/Classes/NSQuoteVersionValidated
 intellisense: 1
 classref: 1
-sortOrder: 6443
 ---
 
 

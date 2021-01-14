@@ -3,7 +3,6 @@ title: Bool GetOnSalesMarketingWeb()
 path: /EJScript/Classes/NSWebPanelEntity/Member functions/Bool GetOnSalesMarketingWeb()
 intellisense: 1
 classref: 1
-sortOrder: 8817
 keywords: GetOnSalesMarketingWeb()
 ---
 

@@ -3,7 +3,6 @@ title: String GetUrl()
 path: /EJScript/Classes/NSPluginUrlResponse/Member functions/String GetUrl()
 intellisense: 1
 classref: 1
-sortOrder: 5183
 keywords: GetUrl()
 ---
 

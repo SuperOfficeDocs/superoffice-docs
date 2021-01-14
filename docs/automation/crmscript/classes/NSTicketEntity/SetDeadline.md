@@ -3,7 +3,6 @@ title: Void SetDeadline(DateTime Deadline)
 path: /EJScript/Classes/NSTicketEntity/Member functions/Void SetDeadline(DateTime p_0)
 intellisense: 1
 classref: 1
-sortOrder: 8139
 keywords: SetDeadline(DateTime)
 ---
 

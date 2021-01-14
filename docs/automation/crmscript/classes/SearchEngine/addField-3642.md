@@ -3,7 +3,6 @@ title: Void addField(String field, String func)
 path: /EJScript/Classes/SearchEngine/member functions/Void addField(String field, String func)
 intellisense: 1
 classref: 1
-sortOrder: 9010
 keywords: addField(String,String)
 ---
 

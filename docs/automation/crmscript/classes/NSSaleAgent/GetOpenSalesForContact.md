@@ -3,7 +3,6 @@ title: NSSale[] GetOpenSalesForContact(Integer contactId)
 path: /EJScript/Classes/NSSaleAgent/Member functions/NSSale[] GetOpenSalesForContact(Integer p_0)
 intellisense: 1
 classref: 1
-sortOrder: 6938
 keywords: GetOpenSalesForContact(Integer)
 ---
 

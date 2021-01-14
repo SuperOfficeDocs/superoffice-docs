@@ -1,11 +1,9 @@
 ---
-title: String getSessionVariable(String name)
+description: String getSessionVariable(String name)
 path: /EJScript/Global functions/String getSessionVariable(String name)
 intellisense: 1
 langref: 1
-sortOrder: 9466
-keywords: getSessionVariable(String)
----
+keywords: getSessionVariable(String)---
 
 
 This function makes it possible to store variables in the database which the web application can use

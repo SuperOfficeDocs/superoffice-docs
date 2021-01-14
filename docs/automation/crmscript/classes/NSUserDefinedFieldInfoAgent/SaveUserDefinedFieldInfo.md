@@ -3,7 +3,6 @@ title: NSUserDefinedFieldInfo SaveUserDefinedFieldInfo(NSUserDefinedFieldInfo us
 path: /EJScript/Classes/NSUserDefinedFieldInfoAgent/Member functions/NSUserDefinedFieldInfo SaveUserDefinedFieldInfo(NSUserDefinedFieldInfo p_0)
 intellisense: 1
 classref: 1
-sortOrder: 8636
 keywords: SaveUserDefinedFieldInfo(NSUserDefinedFieldInfo)
 ---
 

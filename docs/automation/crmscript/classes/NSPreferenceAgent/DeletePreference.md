@@ -3,7 +3,6 @@ title: Void DeletePreference(Integer id)
 path: /EJScript/Classes/NSPreferenceAgent/Member functions/Void DeletePreference(Integer p_0)
 intellisense: 1
 classref: 1
-sortOrder: 5317
 keywords: DeletePreference(Integer)
 ---
 

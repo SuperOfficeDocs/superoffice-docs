@@ -3,7 +3,6 @@ title: String GetExternalReference()
 path: /EJScript/Classes/NSVersionInfo/Member functions/String GetExternalReference()
 intellisense: 1
 classref: 1
-sortOrder: 8713
 keywords: GetExternalReference()
 ---
 

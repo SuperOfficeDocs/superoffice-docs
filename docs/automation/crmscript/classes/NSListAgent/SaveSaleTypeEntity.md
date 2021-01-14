@@ -3,7 +3,6 @@ title: NSSaleTypeEntity SaveSaleTypeEntity(NSSaleTypeEntity saleTypeEntity)
 path: /EJScript/Classes/NSListAgent/Member functions/NSSaleTypeEntity SaveSaleTypeEntity(NSSaleTypeEntity p_0)
 intellisense: 1
 classref: 1
-sortOrder: 4304
 keywords: SaveSaleTypeEntity(NSSaleTypeEntity)
 ---
 

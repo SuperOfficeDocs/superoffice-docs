@@ -3,7 +3,6 @@ title: NSEntityElement[] GetOfficePhones()
 path: /EJScript/Classes/NSPersonEntity/Member functions/NSEntityElement[] GetOfficePhones()
 intellisense: 1
 classref: 1
-sortOrder: 5010
 keywords: GetOfficePhones()
 ---
 

@@ -3,7 +3,6 @@ title: NSProject GetProject()
 path: /EJScript/Classes/NSSaleEntity/Member functions/NSProject GetProject()
 intellisense: 1
 classref: 1
-sortOrder: 6999
 keywords: GetProject()
 ---
 

@@ -3,7 +3,6 @@ title: String GenerateNavigationUrl(Integer visibleIn, String windowName)
 path: /EJScript/Classes/NSListAgent/Member functions/String GenerateNavigationUrl(Integer p_0, String p_1)
 intellisense: 1
 classref: 1
-sortOrder: 4359
 keywords: GenerateNavigationUrl(Integer,String)
 ---
 

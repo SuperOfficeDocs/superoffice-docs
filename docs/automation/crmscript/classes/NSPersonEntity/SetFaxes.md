@@ -3,7 +3,6 @@ title: Void SetFaxes(NSEntityElement[] Faxes)
 path: /EJScript/Classes/NSPersonEntity/Member functions/Void SetFaxes(NSEntityElement[] p_0)
 intellisense: 1
 classref: 1
-sortOrder: 5062
 keywords: SetFaxes(NSEntityElement[])
 ---
 

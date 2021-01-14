@@ -3,7 +3,6 @@ title: NSResourceOverride
 path: /EJScript/Classes/NSResourceOverride
 intellisense: 1
 classref: 1
-sortOrder: 6784
 ---
 
 

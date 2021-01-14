@@ -3,7 +3,6 @@ title: Void setStartDate(DateTime start)
 path: /EJScript/Classes/SpmShipment/Member functions/Void setStartDate(DateTime start)
 intellisense: 1
 classref: 1
-sortOrder: 9058
 keywords: setStartDate(DateTime)
 ---
 

@@ -3,7 +3,6 @@ title: NSPreference GetPreferenceByName(String prefSection, String prefKey, Inte
 path: /EJScript/Classes/NSPreferenceAgent/Member functions/NSPreference GetPreferenceByName(String p_0, String p_1, Integer p_2)
 intellisense: 1
 classref: 1
-sortOrder: 5298
 keywords: GetPreferenceByName(String,String,Integer)
 ---
 

@@ -3,7 +3,6 @@ title: String GetDescription()
 path: /EJScript/Classes/NSQuoteLine/Member functions/String GetDescription()
 intellisense: 1
 classref: 1
-sortOrder: 6211
 keywords: GetDescription()
 ---
 

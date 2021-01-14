@@ -3,7 +3,6 @@ title: Void SetQuoteConnectionId(Integer QuoteConnectionId)
 path: /EJScript/Classes/NSQuote/Member functions/Void SetQuoteConnectionId(Integer p_0)
 intellisense: 1
 classref: 1
-sortOrder: 5943
 keywords: SetQuoteConnectionId(Integer)
 ---
 

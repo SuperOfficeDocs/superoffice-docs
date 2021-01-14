@@ -3,7 +3,6 @@ title: NSPersonEntity CreateDefaultByContactId(Integer contactId)
 path: /EJScript/Classes/NSPersonAgent/Member functions/NSPersonEntity CreateDefaultByContactId(Integer p_0)
 intellisense: 1
 classref: 1
-sortOrder: 4946
 keywords: CreateDefaultByContactId(Integer)
 ---
 

@@ -3,7 +3,6 @@ title: Void SetRankOnFields(Integer ownerType, Integer[] rankedFieldsIds)
 path: /EJScript/Classes/NSUserDefinedFieldInfoAgent/Member functions/Void SetRankOnFields(Integer p_0, Integer[] p_1)
 intellisense: 1
 classref: 1
-sortOrder: 8650
 keywords: SetRankOnFields(Integer,Integer[])
 ---
 

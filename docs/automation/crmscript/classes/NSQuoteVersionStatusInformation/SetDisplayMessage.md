@@ -3,7 +3,6 @@ title: Void SetDisplayMessage(String DisplayMessage)
 path: /EJScript/Classes/NSQuoteVersionStatusInformation/Member functions/Void SetDisplayMessage(String p_0)
 intellisense: 1
 classref: 1
-sortOrder: 6439
 keywords: SetDisplayMessage(String)
 ---
 

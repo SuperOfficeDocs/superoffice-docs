@@ -3,7 +3,6 @@ title: NSQuotePublishDocuments GenerateQuoteDocuments(Integer quoteVersionId, In
 path: /EJScript/Classes/NSQuoteAgent/Member functions/NSQuotePublishDocuments GenerateQuoteDocuments(Integer p_0, Integer p_1, Bool p_2, Integer p_3, Bool p_4, String p_5)
 intellisense: 1
 classref: 1
-sortOrder: 6019
 keywords: GenerateQuoteDocuments(Integer,Integer,Bool,Integer,Bool,String)
 ---
 

@@ -3,7 +3,6 @@ title: Void SetFriStart(DateTime FriStart)
 path: /EJScript/Classes/NSTicketPriorityEntity/Member functions/Void SetFriStart(DateTime p_0)
 intellisense: 1
 classref: 1
-sortOrder: 8279
 keywords: SetFriStart(DateTime)
 ---
 

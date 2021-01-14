@@ -1,11 +1,9 @@
 ---
-title: Void sleep(Float seconds)
+description: Void sleep(Float seconds)
 path: /EJScript/Global functions/Void sleep(Float seconds)
 intellisense: 1
 langref: 1
-sortOrder: 9532
-keywords: sleep(Float)
----
+keywords: sleep(Float)---
 
 
 Sleep (give up cpu) for some time.

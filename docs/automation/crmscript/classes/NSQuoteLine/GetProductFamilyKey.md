@@ -3,7 +3,6 @@ title: String GetProductFamilyKey()
 path: /EJScript/Classes/NSQuoteLine/Member functions/String GetProductFamilyKey()
 intellisense: 1
 classref: 1
-sortOrder: 6223
 keywords: GetProductFamilyKey()
 ---
 

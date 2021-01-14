@@ -3,7 +3,6 @@ title: String toString(Integer mode, Integer lang, Integer maxMode, Bool short)
 path: /EJScript/Classes/TimeSpan/Member functions/String toString(Integer mode, Integer lang, Integer maxMode, Bool short)
 intellisense: 1
 classref: 1
-sortOrder: 9225
 keywords: toString(Integer,Integer,Integer,Bool)
 ---
 

@@ -3,7 +3,6 @@ title: NSTask
 path: /EJScript/Classes/NSTask
 intellisense: 1
 classref: 1
-sortOrder: 7867
 ---
 
 

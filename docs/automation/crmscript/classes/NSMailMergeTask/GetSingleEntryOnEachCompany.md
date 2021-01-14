@@ -3,7 +3,6 @@ title: Bool GetSingleEntryOnEachCompany()
 path: /EJScript/Classes/NSMailMergeTask/Member functions/Bool GetSingleEntryOnEachCompany()
 intellisense: 1
 classref: 1
-sortOrder: 4523
 keywords: GetSingleEntryOnEachCompany()
 ---
 

@@ -3,7 +3,6 @@ title: NSAreaList[] GetAreaList(Integer[] areaIds)
 path: /EJScript/Classes/NSReplicationAgent/Member functions/NSAreaList[] GetAreaList(Integer[] p_0)
 intellisense: 1
 classref: 1
-sortOrder: 6681
 keywords: GetAreaList(Integer[])
 ---
 

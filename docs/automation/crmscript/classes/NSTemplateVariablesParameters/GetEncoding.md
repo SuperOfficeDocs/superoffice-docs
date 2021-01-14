@@ -3,7 +3,6 @@ title: Integer GetEncoding()
 path: /EJScript/Classes/NSTemplateVariablesParameters/Member functions/Integer GetEncoding()
 intellisense: 1
 classref: 1
-sortOrder: 7920
 keywords: GetEncoding()
 ---
 

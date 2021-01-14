@@ -3,7 +3,6 @@ title: NSQuoteAgent
 path: /EJScript/Classes/NSQuoteAgent
 intellisense: 1
 classref: 1
-sortOrder: 5947
 ---
 
 

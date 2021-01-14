@@ -3,7 +3,6 @@ title: Integer GetAssignmentLag()
 path: /EJScript/Classes/NSTicketCategoryEntity/Member functions/Integer GetAssignmentLag()
 intellisense: 1
 classref: 1
-sortOrder: 8053
 keywords: GetAssignmentLag()
 ---
 

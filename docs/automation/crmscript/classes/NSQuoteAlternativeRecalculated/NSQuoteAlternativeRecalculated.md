@@ -3,7 +3,6 @@ title: NSQuoteAlternativeRecalculated
 path: /EJScript/Classes/NSQuoteAlternativeRecalculated
 intellisense: 1
 classref: 1
-sortOrder: 6101
 ---
 
 

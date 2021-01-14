@@ -3,7 +3,6 @@ title: NSCheckLicenseStatusResult GetLicenseStatusFromLicenseServer(String owner
 path: /EJScript/Classes/NSLicenseAgent/Member functions/NSCheckLicenseStatusResult GetLicenseStatusFromLicenseServer(String p_0)
 intellisense: 1
 classref: 1
-sortOrder: 4030
 keywords: GetLicenseStatusFromLicenseServer(String)
 ---
 

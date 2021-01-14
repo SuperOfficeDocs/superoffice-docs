@@ -3,7 +3,6 @@ title: String getValueFromPath(String path)
 path: /EJScript/Classes/XMLNode/Member functions/String getValueFromPath(String path)
 intellisense: 1
 classref: 1
-sortOrder: 9299
 keywords: getValueFromPath(String)
 ---
 

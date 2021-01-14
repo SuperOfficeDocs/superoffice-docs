@@ -3,7 +3,6 @@ title: Void SetListTableId(Integer ListTableId)
 path: /EJScript/Classes/NSUserDefinedFieldInfo/Member functions/Void SetListTableId(Integer p_0)
 intellisense: 1
 classref: 1
-sortOrder: 8601
 keywords: SetListTableId(Integer)
 ---
 

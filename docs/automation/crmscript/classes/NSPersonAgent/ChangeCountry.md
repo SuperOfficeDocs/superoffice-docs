@@ -3,7 +3,6 @@ title: NSPersonEntity ChangeCountry(NSPersonEntity personEntity, Integer toCount
 path: /EJScript/Classes/NSPersonAgent/Member functions/NSPersonEntity ChangeCountry(NSPersonEntity p_0, Integer p_1)
 intellisense: 1
 classref: 1
-sortOrder: 4945
 keywords: ChangeCountry(NSPersonEntity,Integer)
 ---
 

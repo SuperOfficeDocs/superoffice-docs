@@ -3,7 +3,6 @@ title: String GetPreferredEmailCulture()
 path: /EJScript/Classes/NSQuoteEntity/Member functions/String GetPreferredEmailCulture()
 intellisense: 1
 classref: 1
-sortOrder: 6169
 keywords: GetPreferredEmailCulture()
 ---
 

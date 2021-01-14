@@ -3,7 +3,6 @@ title: Void DeleteAllFromListDefinition(Integer udListDefinitionId)
 path: /EJScript/Classes/NSListAgent/Member functions/Void DeleteAllFromListDefinition(Integer p_0)
 intellisense: 1
 classref: 1
-sortOrder: 4369
 keywords: DeleteAllFromListDefinition(Integer)
 ---
 

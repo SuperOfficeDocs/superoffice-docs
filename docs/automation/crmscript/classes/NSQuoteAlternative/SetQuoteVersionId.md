@@ -3,7 +3,6 @@ title: Void SetQuoteVersionId(Integer QuoteVersionId)
 path: /EJScript/Classes/NSQuoteAlternative/Member functions/Void SetQuoteVersionId(Integer p_0)
 intellisense: 1
 classref: 1
-sortOrder: 6091
 keywords: SetQuoteVersionId(Integer)
 ---
 

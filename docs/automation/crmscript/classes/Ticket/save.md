@@ -3,7 +3,6 @@ title: Integer save()
 path: /EJScript/Classes/Ticket/Member functions/Integer save()
 intellisense: 1
 classref: 1
-sortOrder: 9177
 keywords: save()
 ---
 

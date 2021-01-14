@@ -3,7 +3,6 @@ title: NSTableRight GetTableRightByOwnership(String tableName, Integer contactGr
 path: /EJScript/Classes/NSSentryAgent/Member functions/NSTableRight GetTableRightByOwnership(String p_0, Integer p_1, Integer p_2)
 intellisense: 1
 classref: 1
-sortOrder: 7515
 keywords: GetTableRightByOwnership(String,Integer,Integer)
 ---
 

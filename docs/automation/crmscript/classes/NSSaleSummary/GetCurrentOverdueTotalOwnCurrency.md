@@ -3,7 +3,6 @@ title: Float GetCurrentOverdueTotalOwnCurrency()
 path: /EJScript/Classes/NSSaleSummary/Member functions/Float GetCurrentOverdueTotalOwnCurrency()
 intellisense: 1
 classref: 1
-sortOrder: 7122
 keywords: GetCurrentOverdueTotalOwnCurrency()
 ---
 

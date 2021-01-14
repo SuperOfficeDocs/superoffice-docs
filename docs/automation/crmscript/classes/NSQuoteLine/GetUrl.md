@@ -3,7 +3,6 @@ title: String GetUrl()
 path: /EJScript/Classes/NSQuoteLine/Member functions/String GetUrl()
 intellisense: 1
 classref: 1
-sortOrder: 6234
 keywords: GetUrl()
 ---
 

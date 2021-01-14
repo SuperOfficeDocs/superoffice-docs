@@ -3,7 +3,6 @@ title: Void SetProjectStatus(NSProjectStatus ProjectStatus)
 path: /EJScript/Classes/NSProjectEntity/Member functions/Void SetProjectStatus(NSProjectStatus p_0)
 intellisense: 1
 classref: 1
-sortOrder: 5672
 keywords: SetProjectStatus(NSProjectStatus)
 ---
 

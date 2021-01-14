@@ -3,7 +3,6 @@ title: NSPreferenceDescription SavePreferenceDescription(NSPreferenceDescription
 path: /EJScript/Classes/NSPreferenceAgent/Member functions/NSPreferenceDescription SavePreferenceDescription(NSPreferenceDescription p_0)
 intellisense: 1
 classref: 1
-sortOrder: 5307
 keywords: SavePreferenceDescription(NSPreferenceDescription)
 ---
 

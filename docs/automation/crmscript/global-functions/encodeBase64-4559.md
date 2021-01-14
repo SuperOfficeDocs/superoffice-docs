@@ -1,11 +1,9 @@
 ---
-title: String encodeBase64(NSStream data, bool wrapLines)
+description: String encodeBase64(NSStream data, bool wrapLines)
 path: /EJScript/Global functions/String encodeBase64(NSStream data, bool wrapLines)
 intellisense: 1
 langref: 1
-sortOrder: 9410
-keywords: encodeBase64(NSStream,bool)
----
+keywords: encodeBase64(NSStream,bool)---
 
 
 Encode an array of bytes to a base 64 string

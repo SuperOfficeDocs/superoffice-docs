@@ -3,7 +3,6 @@ title: NSSale[] GetMyOpportunities(Integer count)
 path: /EJScript/Classes/NSSaleAgent/Member functions/NSSale[] GetMyOpportunities(Integer p_0)
 intellisense: 1
 classref: 1
-sortOrder: 6937
 keywords: GetMyOpportunities(Integer)
 ---
 

@@ -3,7 +3,6 @@ title: Time getTueStop()
 path: /EJScript/Classes/WeekSchedule/Member functions/Time getTueStop()
 intellisense: 1
 classref: 1
-sortOrder: 9274
 keywords: getTueStop()
 ---
 

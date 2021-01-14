@@ -3,7 +3,6 @@ title: Void SetPrefDescId(Integer PrefDescId)
 path: /EJScript/Classes/NSPreference/Member functions/Void SetPrefDescId(Integer p_0)
 intellisense: 1
 classref: 1
-sortOrder: 5287
 keywords: SetPrefDescId(Integer)
 ---
 

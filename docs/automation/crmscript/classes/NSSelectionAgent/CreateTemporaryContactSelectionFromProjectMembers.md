@@ -3,7 +3,6 @@ title: NSSelectionEntity CreateTemporaryContactSelectionFromProjectMembers(Integ
 path: /EJScript/Classes/NSSelectionAgent/Member functions/NSSelectionEntity CreateTemporaryContactSelectionFromProjectMembers(Integer p_0)
 intellisense: 1
 classref: 1
-sortOrder: 7375
 keywords: CreateTemporaryContactSelectionFromProjectMembers(Integer)
 ---
 

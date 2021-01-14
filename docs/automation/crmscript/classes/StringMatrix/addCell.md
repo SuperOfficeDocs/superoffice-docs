@@ -3,7 +3,6 @@ title: Void addCell(String value)
 path: /EJScript/Classes/StringMatrix/Member functions/Void addCell(String value)
 intellisense: 1
 classref: 1
-sortOrder: 9167
 keywords: addCell(String)
 ---
 

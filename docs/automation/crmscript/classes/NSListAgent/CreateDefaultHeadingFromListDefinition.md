@@ -3,7 +3,6 @@ title: NSHeadingEntity CreateDefaultHeadingFromListDefinition(Integer udListDefi
 path: /EJScript/Classes/NSListAgent/Member functions/NSHeadingEntity CreateDefaultHeadingFromListDefinition(Integer p_0)
 intellisense: 1
 classref: 1
-sortOrder: 4193
 keywords: CreateDefaultHeadingFromListDefinition(Integer)
 ---
 

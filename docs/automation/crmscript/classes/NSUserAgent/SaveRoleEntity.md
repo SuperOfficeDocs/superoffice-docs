@@ -3,7 +3,6 @@ title: NSRoleEntity SaveRoleEntity(NSRoleEntity roleEntity)
 path: /EJScript/Classes/NSUserAgent/Member functions/NSRoleEntity SaveRoleEntity(NSRoleEntity p_0)
 intellisense: 1
 classref: 1
-sortOrder: 8483
 keywords: SaveRoleEntity(NSRoleEntity)
 ---
 

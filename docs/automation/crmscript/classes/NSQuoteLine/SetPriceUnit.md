@@ -3,7 +3,6 @@ title: Void SetPriceUnit(String PriceUnit)
 path: /EJScript/Classes/NSQuoteLine/Member functions/Void SetPriceUnit(String p_0)
 intellisense: 1
 classref: 1
-sortOrder: 6256
 keywords: SetPriceUnit(String)
 ---
 

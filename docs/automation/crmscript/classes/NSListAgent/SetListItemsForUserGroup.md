@@ -3,7 +3,6 @@ title: Void SetListItemsForUserGroup(Integer udListDefinitionId, Integer usergro
 path: /EJScript/Classes/NSListAgent/Member functions/Void SetListItemsForUserGroup(Integer p_0, Integer p_1, Integer[] p_2, Bool p_3)
 intellisense: 1
 classref: 1
-sortOrder: 4394
 keywords: SetListItemsForUserGroup(Integer,Integer,Integer[],Bool)
 ---
 

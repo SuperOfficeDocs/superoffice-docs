@@ -3,7 +3,6 @@ title: Integer GetSortOrder()
 path: /EJScript/Classes/NSModuleLicense/Member functions/Integer GetSortOrder()
 intellisense: 1
 classref: 1
-sortOrder: 4620
 keywords: GetSortOrder()
 ---
 

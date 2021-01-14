@@ -3,7 +3,6 @@ title: Void SetERPDiscountPercent(Float ERPDiscountPercent)
 path: /EJScript/Classes/NSQuoteLine/Member functions/Void SetERPDiscountPercent(Float p_0)
 intellisense: 1
 classref: 1
-sortOrder: 6244
 keywords: SetERPDiscountPercent(Float)
 ---
 

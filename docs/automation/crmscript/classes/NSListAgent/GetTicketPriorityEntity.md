@@ -3,7 +3,6 @@ title: NSTicketPriorityEntity GetTicketPriorityEntity(Integer ticketPriorityEnti
 path: /EJScript/Classes/NSListAgent/Member functions/NSTicketPriorityEntity GetTicketPriorityEntity(Integer p_0)
 intellisense: 1
 classref: 1
-sortOrder: 4344
 keywords: GetTicketPriorityEntity(Integer)
 ---
 

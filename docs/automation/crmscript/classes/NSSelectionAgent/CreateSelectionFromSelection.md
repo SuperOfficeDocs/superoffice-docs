@@ -3,7 +3,6 @@ title: NSSelectionEntity CreateSelectionFromSelection(Integer selectionId, Strin
 path: /EJScript/Classes/NSSelectionAgent/Member functions/NSSelectionEntity CreateSelectionFromSelection(Integer p_0, String p_1, Integer p_2, Bool p_3)
 intellisense: 1
 classref: 1
-sortOrder: 7372
 keywords: CreateSelectionFromSelection(Integer,String,Integer,Bool)
 ---
 

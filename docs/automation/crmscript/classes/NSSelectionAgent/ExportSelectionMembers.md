@@ -3,7 +3,6 @@ title: Byte[] ExportSelectionMembers(Integer selectionId, String templateName, B
 path: /EJScript/Classes/NSSelectionAgent/Member functions/Byte[] ExportSelectionMembers(Integer p_0, String p_1, Bool p_2)
 intellisense: 1
 classref: 1
-sortOrder: 7347
 keywords: ExportSelectionMembers(Integer,String,Bool)
 ---
 

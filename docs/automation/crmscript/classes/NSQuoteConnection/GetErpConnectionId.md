@@ -3,7 +3,6 @@ title: Integer GetErpConnectionId()
 path: /EJScript/Classes/NSQuoteConnection/Member functions/Integer GetErpConnectionId()
 intellisense: 1
 classref: 1
-sortOrder: 6114
 keywords: GetErpConnectionId()
 ---
 

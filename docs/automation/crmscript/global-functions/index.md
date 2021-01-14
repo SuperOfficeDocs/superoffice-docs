@@ -1,5 +1,5 @@
 ---
-title: Global functions
+description: Global functions
 ---
 
 # Global functions

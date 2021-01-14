@@ -3,7 +3,6 @@ title: Void SetERPPriceListKey(String ERPPriceListKey)
 path: /EJScript/Classes/NSProduct/Member functions/Void SetERPPriceListKey(String p_0)
 intellisense: 1
 classref: 1
-sortOrder: 5460
 keywords: SetERPPriceListKey(String)
 ---
 

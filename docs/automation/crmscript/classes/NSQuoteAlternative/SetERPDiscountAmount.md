@@ -3,7 +3,6 @@ title: Void SetERPDiscountAmount(Float ERPDiscountAmount)
 path: /EJScript/Classes/NSQuoteAlternative/Member functions/Void SetERPDiscountAmount(Float p_0)
 intellisense: 1
 classref: 1
-sortOrder: 6081
 keywords: SetERPDiscountAmount(Float)
 ---
 

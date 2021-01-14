@@ -3,7 +3,6 @@ title: String prettyChop(Integer length)
 path: /EJScript/Classes/String/Member functions/String prettyChop(Integer length)
 intellisense: 1
 classref: 1
-sortOrder: 9138
 keywords: prettyChop(Integer)
 ---
 

@@ -3,7 +3,6 @@ title: Void SetChangeCompanyNumber(Bool p0)
 path: /EJScript/Classes/NSSelectionMemberEditValues/Member functions/Void SetChangeCompanyNumber(Bool p_0)
 intellisense: 1
 classref: 1
-sortOrder: 7493
 keywords: SetChangeCompanyNumber(Bool)
 ---
 

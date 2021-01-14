@@ -3,7 +3,6 @@ title: NSAssociate GetAssociate()
 path: /EJScript/Classes/NSPersonEntity/Member functions/NSAssociate GetAssociate()
 intellisense: 1
 classref: 1
-sortOrder: 4994
 keywords: GetAssociate()
 ---
 

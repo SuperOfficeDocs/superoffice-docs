@@ -3,7 +3,6 @@ title: Float GetUnitCost()
 path: /EJScript/Classes/NSProduct/Member functions/Float GetUnitCost()
 intellisense: 1
 classref: 1
-sortOrder: 5427
 keywords: GetUnitCost()
 ---
 

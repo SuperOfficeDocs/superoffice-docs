@@ -3,7 +3,6 @@ title: Void SetERPOrderKey(String ERPOrderKey)
 path: /EJScript/Classes/NSQuoteEntity/Member functions/Void SetERPOrderKey(String p_0)
 intellisense: 1
 classref: 1
-sortOrder: 6173
 keywords: SetERPOrderKey(String)
 ---
 

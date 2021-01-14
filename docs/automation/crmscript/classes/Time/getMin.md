@@ -3,7 +3,6 @@ title: Integer getMin()
 path: /EJScript/Classes/Time/Member functions/Integer getMin()
 intellisense: 1
 classref: 1
-sortOrder: 9200
 keywords: getMin()
 ---
 

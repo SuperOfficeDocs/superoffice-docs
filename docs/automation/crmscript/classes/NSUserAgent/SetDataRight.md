@@ -3,7 +3,6 @@ title: Void SetDataRight(Integer roleId, String tableName, Integer relationToOwn
 path: /EJScript/Classes/NSUserAgent/Member functions/Void SetDataRight(Integer p_0, String p_1, Integer p_2, String p_3)
 intellisense: 1
 classref: 1
-sortOrder: 8539
 keywords: SetDataRight(Integer,String,Integer,String)
 ---
 

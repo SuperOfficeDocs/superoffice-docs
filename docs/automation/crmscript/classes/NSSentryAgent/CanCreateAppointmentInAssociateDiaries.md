@@ -3,7 +3,6 @@ title: Bool CanCreateAppointmentInAssociateDiaries(Integer[] associateIds)
 path: /EJScript/Classes/NSSentryAgent/Member functions/Bool CanCreateAppointmentInAssociateDiaries(Integer[] p_0)
 intellisense: 1
 classref: 1
-sortOrder: 7512
 keywords: CanCreateAppointmentInAssociateDiaries(Integer[])
 ---
 

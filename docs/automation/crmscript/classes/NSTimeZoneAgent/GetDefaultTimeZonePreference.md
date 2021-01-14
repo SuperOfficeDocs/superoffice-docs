@@ -3,7 +3,6 @@ title: Integer GetDefaultTimeZonePreference()
 path: /EJScript/Classes/NSTimeZoneAgent/Member functions/Integer GetDefaultTimeZonePreference()
 intellisense: 1
 classref: 1
-sortOrder: 8342
 keywords: GetDefaultTimeZonePreference()
 ---
 

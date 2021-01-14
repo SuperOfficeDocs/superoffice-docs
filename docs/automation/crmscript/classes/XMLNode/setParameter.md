@@ -3,7 +3,6 @@ title: Void setParameter(String name, String value)
 path: /EJScript/Classes/XMLNode/Member functions/Void setParameter(String name, String value)
 intellisense: 1
 classref: 1
-sortOrder: 9305
 keywords: setParameter(String,String)
 ---
 

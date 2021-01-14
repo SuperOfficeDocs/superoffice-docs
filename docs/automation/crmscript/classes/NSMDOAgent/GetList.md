@@ -3,7 +3,6 @@ title: NSMDOListItem[] GetList(String name, Bool forceFlatList, String additiona
 path: /EJScript/Classes/NSMDOAgent/Member functions/NSMDOListItem[] GetList(String p_0, Bool p_1, String p_2, Bool p_3)
 intellisense: 1
 classref: 1
-sortOrder: 4560
 keywords: GetList(String,Bool,String,Bool)
 ---
 

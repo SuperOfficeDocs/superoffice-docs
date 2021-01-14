@@ -3,7 +3,6 @@ title: NSTicketCategoryEntity SaveTicketCategoryEntity(NSTicketCategoryEntity ti
 path: /EJScript/Classes/NSListAgent/Member functions/NSTicketCategoryEntity SaveTicketCategoryEntity(NSTicketCategoryEntity p_0)
 intellisense: 1
 classref: 1
-sortOrder: 4337
 keywords: SaveTicketCategoryEntity(NSTicketCategoryEntity)
 ---
 

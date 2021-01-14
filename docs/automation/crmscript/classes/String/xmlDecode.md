@@ -3,7 +3,6 @@ title: String xmlDecode()
 path: /EJScript/Classes/String/Member functions/String xmlDecode()
 intellisense: 1
 classref: 1
-sortOrder: 9151
 keywords: xmlDecode()
 ---
 

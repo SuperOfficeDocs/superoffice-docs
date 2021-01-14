@@ -3,7 +3,6 @@ title: Void RemoveContactSelectionMembers(Integer selectionId, NSContactPersonId
 path: /EJScript/Classes/NSSelectionAgent/Member functions/Void RemoveContactSelectionMembers(Integer p_0, NSContactPersonId[] p_1)
 intellisense: 1
 classref: 1
-sortOrder: 7390
 keywords: RemoveContactSelectionMembers(Integer,NSContactPersonId[])
 ---
 

@@ -3,7 +3,6 @@ title: String GetSubGroup()
 path: /EJScript/Classes/NSPreferenceDescription/Member functions/String GetSubGroup()
 intellisense: 1
 classref: 1
-sortOrder: 5346
 keywords: GetSubGroup()
 ---
 

@@ -3,7 +3,6 @@ title: Float GetTotalPrice()
 path: /EJScript/Classes/NSQuoteLine/Member functions/Float GetTotalPrice()
 intellisense: 1
 classref: 1
-sortOrder: 6197
 keywords: GetTotalPrice()
 ---
 

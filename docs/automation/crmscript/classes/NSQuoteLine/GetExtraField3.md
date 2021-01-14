@@ -3,7 +3,6 @@ title: String GetExtraField3()
 path: /EJScript/Classes/NSQuoteLine/Member functions/String GetExtraField3()
 intellisense: 1
 classref: 1
-sortOrder: 6216
 keywords: GetExtraField3()
 ---
 

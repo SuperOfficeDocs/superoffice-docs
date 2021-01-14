@@ -3,7 +3,6 @@ title: NSImage GetQuoteLineImage(Integer quoteLineId, Integer rank)
 path: /EJScript/Classes/NSQuoteAgent/Member functions/NSImage GetQuoteLineImage(Integer p_0, Integer p_1)
 intellisense: 1
 classref: 1
-sortOrder: 5961
 keywords: GetQuoteLineImage(Integer,Integer)
 ---
 

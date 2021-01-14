@@ -3,7 +3,6 @@ title: NSUserInfo GetUserInfo()
 path: /EJScript/Classes/NSPersonEntity/Member functions/NSUserInfo GetUserInfo()
 intellisense: 1
 classref: 1
-sortOrder: 5020
 keywords: GetUserInfo()
 ---
 

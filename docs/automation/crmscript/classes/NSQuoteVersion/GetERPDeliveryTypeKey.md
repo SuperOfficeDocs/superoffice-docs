@@ -3,7 +3,6 @@ title: String GetERPDeliveryTypeKey()
 path: /EJScript/Classes/NSQuoteVersion/Member functions/String GetERPDeliveryTypeKey()
 intellisense: 1
 classref: 1
-sortOrder: 6364
 keywords: GetERPDeliveryTypeKey()
 ---
 

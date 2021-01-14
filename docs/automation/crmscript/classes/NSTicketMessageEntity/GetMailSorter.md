@@ -3,7 +3,6 @@ title: String GetMailSorter()
 path: /EJScript/Classes/NSTicketMessageEntity/Member functions/String GetMailSorter()
 intellisense: 1
 classref: 1
-sortOrder: 8217
 keywords: GetMailSorter()
 ---
 

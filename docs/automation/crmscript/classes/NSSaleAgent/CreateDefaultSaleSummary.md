@@ -3,7 +3,6 @@ title: NSSaleSummary CreateDefaultSaleSummary()
 path: /EJScript/Classes/NSSaleAgent/Member functions/NSSaleSummary CreateDefaultSaleSummary()
 intellisense: 1
 classref: 1
-sortOrder: 6954
 keywords: CreateDefaultSaleSummary()
 ---
 

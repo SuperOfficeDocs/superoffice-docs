@@ -3,7 +3,6 @@ title: Void RebuildFullnames()
 path: /EJScript/Classes/NSListAgent/Member functions/Void RebuildFullnames()
 intellisense: 1
 classref: 1
-sortOrder: 4388
 keywords: RebuildFullnames()
 ---
 

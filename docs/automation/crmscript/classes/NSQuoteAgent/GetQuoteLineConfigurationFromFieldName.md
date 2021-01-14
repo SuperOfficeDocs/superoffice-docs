@@ -3,7 +3,6 @@ title: NSQuoteLineConfiguration GetQuoteLineConfigurationFromFieldName(String fi
 path: /EJScript/Classes/NSQuoteAgent/Member functions/NSQuoteLineConfiguration GetQuoteLineConfigurationFromFieldName(String p_0)
 intellisense: 1
 classref: 1
-sortOrder: 6013
 keywords: GetQuoteLineConfigurationFromFieldName(String)
 ---
 

@@ -3,7 +3,6 @@ title: Integer GetType()
 path: /EJScript/Classes/NSUser/Member functions/Integer GetType()
 intellisense: 1
 classref: 1
-sortOrder: 8417
 keywords: GetType()
 ---
 

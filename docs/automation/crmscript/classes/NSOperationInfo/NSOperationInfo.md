@@ -3,7 +3,6 @@ title: NSOperationInfo
 path: /EJScript/Classes/NSOperationInfo
 intellisense: 1
 classref: 1
-sortOrder: 4715
 ---
 
 

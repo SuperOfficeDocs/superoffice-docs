@@ -3,7 +3,6 @@ title: Float GetCurrentOverdueWeightedBaseCurrency()
 path: /EJScript/Classes/NSSaleSummary/Member functions/Float GetCurrentOverdueWeightedBaseCurrency()
 intellisense: 1
 classref: 1
-sortOrder: 7123
 keywords: GetCurrentOverdueWeightedBaseCurrency()
 ---
 

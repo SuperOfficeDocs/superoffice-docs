@@ -3,7 +3,6 @@ title: Integer getSec()
 path: /EJScript/Classes/Time/Member functions/Integer getSec()
 intellisense: 1
 classref: 1
-sortOrder: 9201
 keywords: getSec()
 ---
 

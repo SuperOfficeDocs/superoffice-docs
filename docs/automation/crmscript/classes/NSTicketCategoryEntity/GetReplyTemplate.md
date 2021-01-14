@@ -3,7 +3,6 @@ title: Integer GetReplyTemplate()
 path: /EJScript/Classes/NSTicketCategoryEntity/Member functions/Integer GetReplyTemplate()
 intellisense: 1
 classref: 1
-sortOrder: 8056
 keywords: GetReplyTemplate()
 ---
 

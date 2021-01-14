@@ -3,7 +3,6 @@ title: NSRedLetterSummary
 path: /EJScript/Classes/NSRedLetterSummary
 intellisense: 1
 classref: 1
-sortOrder: 6615
 ---
 
 

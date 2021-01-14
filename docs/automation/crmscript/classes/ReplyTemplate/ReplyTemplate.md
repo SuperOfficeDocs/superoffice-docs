@@ -3,7 +3,6 @@ title: ReplyTemplate
 path: /EJScript/Classes/ReplyTemplate
 intellisense: 1
 classref: 1
-sortOrder: 8970
 ---
 
 This class represents a reply template.

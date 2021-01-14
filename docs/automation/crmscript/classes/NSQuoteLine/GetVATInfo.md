@@ -3,7 +3,6 @@ title: String GetVATInfo()
 path: /EJScript/Classes/NSQuoteLine/Member functions/String GetVATInfo()
 intellisense: 1
 classref: 1
-sortOrder: 6235
 keywords: GetVATInfo()
 ---
 

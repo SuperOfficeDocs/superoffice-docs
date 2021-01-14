@@ -3,7 +3,6 @@ title: Void SetSatStop(DateTime SatStop)
 path: /EJScript/Classes/NSTicketPriorityEntity/Member functions/Void SetSatStop(DateTime p_0)
 intellisense: 1
 classref: 1
-sortOrder: 8286
 keywords: SetSatStop(DateTime)
 ---
 

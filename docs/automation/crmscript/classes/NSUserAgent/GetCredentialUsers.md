@@ -3,7 +3,6 @@ title: NSCredentialsGroupUsers GetCredentialUsers(String type, String groupName)
 path: /EJScript/Classes/NSUserAgent/Member functions/NSCredentialsGroupUsers GetCredentialUsers(String p_0, String p_1)
 intellisense: 1
 classref: 1
-sortOrder: 8473
 keywords: GetCredentialUsers(String,String)
 ---
 

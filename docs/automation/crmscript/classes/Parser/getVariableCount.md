@@ -3,7 +3,6 @@ title: Integer getVariableCount(String name)
 path: /EJScript/Classes/Parser/Member functions/Integer getVariableCount(String name)
 intellisense: 1
 classref: 1
-sortOrder: 8957
 keywords: getVariableCount(String)
 ---
 

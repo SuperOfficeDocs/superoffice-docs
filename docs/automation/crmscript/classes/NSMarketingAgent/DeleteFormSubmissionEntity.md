@@ -3,7 +3,6 @@ title: Void DeleteFormSubmissionEntity(Integer formSubmissionEntityId)
 path: /EJScript/Classes/NSMarketingAgent/Member functions/Void DeleteFormSubmissionEntity(Integer p_0)
 intellisense: 1
 classref: 1
-sortOrder: 4555
 keywords: DeleteFormSubmissionEntity(Integer)
 ---
 

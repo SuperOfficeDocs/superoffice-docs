@@ -3,7 +3,6 @@ title: Integer GetOwnerAssociateId()
 path: /EJScript/Classes/NSMailMergeTask/Member functions/Integer GetOwnerAssociateId()
 intellisense: 1
 classref: 1
-sortOrder: 4527
 keywords: GetOwnerAssociateId()
 ---
 

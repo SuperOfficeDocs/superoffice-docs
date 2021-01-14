@@ -3,7 +3,6 @@ title: NSHeadingEntity[] GetHeadingsFromListDefinition(Integer id)
 path: /EJScript/Classes/NSListAgent/Member functions/NSHeadingEntity[] GetHeadingsFromListDefinition(Integer p_0)
 intellisense: 1
 classref: 1
-sortOrder: 4198
 keywords: GetHeadingsFromListDefinition(Integer)
 ---
 

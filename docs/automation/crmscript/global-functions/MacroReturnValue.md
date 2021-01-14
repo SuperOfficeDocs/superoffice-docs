@@ -1,11 +1,9 @@
 ---
-title: MacroReturnValue MacroReturnValue(String p0, String p1)
+description: MacroReturnValue MacroReturnValue(String p0, String p1)
 path: /EJScript/Global functions/MacroReturnValue MacroReturnValue(String p_0, String p_1)
 intellisense: 1
 langref: 1
-sortOrder: 9388
-keywords: MacroReturnValue(String,String)
----
+keywords: MacroReturnValue(String,String)---
 
 
 This function creates and returns a macro return value.

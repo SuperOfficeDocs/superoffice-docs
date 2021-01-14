@@ -3,7 +3,6 @@ title: Bool loadFromAgentAndKey(Integer id, String Key)
 path: /EJScript/Classes/User/Member functions/Bool loadFromAgentAndKey(Integer id, String Key)
 intellisense: 1
 classref: 1
-sortOrder: 9243
 keywords: loadFromAgentAndKey(Integer,String)
 ---
 

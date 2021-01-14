@@ -3,7 +3,6 @@ title: NSTicketCategoryEntity CreateDefaultTicketCategoryEntity()
 path: /EJScript/Classes/NSListAgent/Member functions/NSTicketCategoryEntity CreateDefaultTicketCategoryEntity()
 intellisense: 1
 classref: 1
-sortOrder: 4335
 keywords: CreateDefaultTicketCategoryEntity()
 ---
 

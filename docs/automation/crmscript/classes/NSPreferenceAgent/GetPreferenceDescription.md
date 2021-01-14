@@ -3,7 +3,6 @@ title: NSPreferenceDescription GetPreferenceDescription(Integer preferenceDescri
 path: /EJScript/Classes/NSPreferenceAgent/Member functions/NSPreferenceDescription GetPreferenceDescription(Integer p_0)
 intellisense: 1
 classref: 1
-sortOrder: 5305
 keywords: GetPreferenceDescription(Integer)
 ---
 

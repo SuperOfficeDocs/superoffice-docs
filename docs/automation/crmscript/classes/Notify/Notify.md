@@ -3,7 +3,6 @@ title: Notify
 path: /EJScript/Classes/Notify
 intellisense: 1
 classref: 1
-sortOrder: 560
 ---
 
 

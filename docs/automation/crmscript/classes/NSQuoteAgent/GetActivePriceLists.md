@@ -3,7 +3,6 @@ title: NSPriceList[] GetActivePriceLists(Integer quoteConnectionId, String curre
 path: /EJScript/Classes/NSQuoteAgent/Member functions/NSPriceList[] GetActivePriceLists(Integer p_0, String p_1)
 intellisense: 1
 classref: 1
-sortOrder: 5974
 keywords: GetActivePriceLists(Integer,String)
 ---
 

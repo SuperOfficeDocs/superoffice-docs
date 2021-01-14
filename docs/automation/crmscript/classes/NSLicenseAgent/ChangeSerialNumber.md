@@ -3,7 +3,6 @@ title: NSLicenseResult ChangeSerialNumber(String newCompanyName, String newSeria
 path: /EJScript/Classes/NSLicenseAgent/Member functions/NSLicenseResult ChangeSerialNumber(String p_0, String p_1)
 intellisense: 1
 classref: 1
-sortOrder: 4039
 keywords: ChangeSerialNumber(String,String)
 ---
 

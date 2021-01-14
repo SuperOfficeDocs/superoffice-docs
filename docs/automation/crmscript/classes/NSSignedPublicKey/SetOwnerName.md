@@ -3,7 +3,6 @@ title: Void SetOwnerName(String OwnerName)
 path: /EJScript/Classes/NSSignedPublicKey/Member functions/Void SetOwnerName(String p_0)
 intellisense: 1
 classref: 1
-sortOrder: 7540
 keywords: SetOwnerName(String)
 ---
 

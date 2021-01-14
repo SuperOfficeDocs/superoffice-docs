@@ -3,7 +3,6 @@ title: Void SetQuoteLinesTemplate(Integer QuoteLinesTemplate)
 path: /EJScript/Classes/NSSaleTypeEntity/Member functions/Void SetQuoteLinesTemplate(Integer p_0)
 intellisense: 1
 classref: 1
-sortOrder: 7247
 keywords: SetQuoteLinesTemplate(Integer)
 ---
 

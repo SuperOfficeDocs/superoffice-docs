@@ -3,7 +3,6 @@ title: Void SetUnitMinimumPrice(Float UnitMinimumPrice)
 path: /EJScript/Classes/NSProduct/Member functions/Void SetUnitMinimumPrice(Float p_0)
 intellisense: 1
 classref: 1
-sortOrder: 5487
 keywords: SetUnitMinimumPrice(Float)
 ---
 

@@ -3,7 +3,6 @@ title: Integer[] toIntegerArray()
 path: /EJScript/Classes/Vector/Member functions/Integer[] toIntegerArray()
 intellisense: 1
 classref: 1
-sortOrder: 9251
 keywords: toIntegerArray()
 ---
 

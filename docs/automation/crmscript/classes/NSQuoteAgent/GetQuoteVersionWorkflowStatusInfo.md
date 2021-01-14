@@ -3,7 +3,6 @@ title: NSQuoteVersionStatusInformation GetQuoteVersionWorkflowStatusInfo(Integer
 path: /EJScript/Classes/NSQuoteAgent/Member functions/NSQuoteVersionStatusInformation GetQuoteVersionWorkflowStatusInfo(Integer p_0)
 intellisense: 1
 classref: 1
-sortOrder: 6026
 keywords: GetQuoteVersionWorkflowStatusInfo(Integer)
 ---
 

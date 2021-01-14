@@ -3,7 +3,6 @@ title: String GetOrderComment()
 path: /EJScript/Classes/NSQuoteEntity/Member functions/String GetOrderComment()
 intellisense: 1
 classref: 1
-sortOrder: 6167
 keywords: GetOrderComment()
 ---
 

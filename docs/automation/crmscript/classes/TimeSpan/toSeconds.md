@@ -3,7 +3,6 @@ title: Integer toSeconds()
 path: /EJScript/Classes/TimeSpan/Member functions/Integer toSeconds()
 intellisense: 1
 classref: 1
-sortOrder: 9224
 keywords: toSeconds()
 ---
 

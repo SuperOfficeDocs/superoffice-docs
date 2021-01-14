@@ -3,7 +3,6 @@ title: NSStream GetDocumentTemplateStreamFromId(Integer documentTemplateId, Stri
 path: /EJScript/Classes/NSListAgent/Member functions/NSStream GetDocumentTemplateStreamFromId(Integer p_0, String p_1)
 intellisense: 1
 classref: 1
-sortOrder: 4326
 keywords: GetDocumentTemplateStreamFromId(Integer,String)
 ---
 

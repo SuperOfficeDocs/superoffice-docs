@@ -3,7 +3,6 @@ title: NSUntrustedCredentials CreateDefaultUntrustedCredentials()
 path: /EJScript/Classes/NSUserAgent/Member functions/NSUntrustedCredentials CreateDefaultUntrustedCredentials()
 intellisense: 1
 classref: 1
-sortOrder: 8490
 keywords: CreateDefaultUntrustedCredentials()
 ---
 

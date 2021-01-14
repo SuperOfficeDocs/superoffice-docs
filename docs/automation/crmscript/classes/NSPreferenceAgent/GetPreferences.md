@@ -3,7 +3,6 @@ title: NSPreference[] GetPreferences(NSPreferenceSpec[] specifications)
 path: /EJScript/Classes/NSPreferenceAgent/Member functions/NSPreference[] GetPreferences(NSPreferenceSpec[] p_0)
 intellisense: 1
 classref: 1
-sortOrder: 5301
 keywords: GetPreferences(NSPreferenceSpec[])
 ---
 

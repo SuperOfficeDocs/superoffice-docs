@@ -3,7 +3,6 @@ title: Integer GetParentId()
 path: /EJScript/Classes/NSTicketCategoryEntity/Member functions/Integer GetParentId()
 intellisense: 1
 classref: 1
-sortOrder: 8055
 keywords: GetParentId()
 ---
 

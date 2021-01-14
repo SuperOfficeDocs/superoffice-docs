@@ -3,7 +3,6 @@ title: String GetModuleLicenseHistoryFromLicenseServer(NSExtendedLicenseInfo lic
 path: /EJScript/Classes/NSLicenseAgent/Member functions/String GetModuleLicenseHistoryFromLicenseServer(NSExtendedLicenseInfo p_0, NSExtendedModuleLicense p_1)
 intellisense: 1
 classref: 1
-sortOrder: 4047
 keywords: GetModuleLicenseHistoryFromLicenseServer(NSExtendedLicenseInfo,NSExtendedModuleLicense)
 ---
 

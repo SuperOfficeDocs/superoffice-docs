@@ -3,7 +3,6 @@ title: Void SetDeleted(Integer Deleted)
 path: /EJScript/Classes/NSSuggestedAppointment/Member functions/Void SetDeleted(Integer p_0)
 intellisense: 1
 classref: 1
-sortOrder: 7742
 keywords: SetDeleted(Integer)
 ---
 

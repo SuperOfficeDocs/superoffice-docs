@@ -3,7 +3,6 @@ title: Integer GetActiveQuoteVersionId()
 path: /EJScript/Classes/NSQuote/Member functions/Integer GetActiveQuoteVersionId()
 intellisense: 1
 classref: 1
-sortOrder: 5920
 keywords: GetActiveQuoteVersionId()
 ---
 

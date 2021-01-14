@@ -3,7 +3,6 @@ title: Bool GetIsBuiltin()
 path: /EJScript/Classes/NSPreferenceDescription/Member functions/Bool GetIsBuiltin()
 intellisense: 1
 classref: 1
-sortOrder: 5328
 keywords: GetIsBuiltin()
 ---
 

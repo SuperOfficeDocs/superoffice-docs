@@ -3,7 +3,6 @@ title: Void addGroup(Integer p0, Bool p1, Bool compareAsNumber)
 path: /EJScript/Classes/StatLib/Member functions/Void addGroup(Integer p_0, Bool p_1, Bool compareAsNumber)
 intellisense: 1
 classref: 1
-sortOrder: 9075
 keywords: addGroup(Integer,Bool,Bool)
 ---
 

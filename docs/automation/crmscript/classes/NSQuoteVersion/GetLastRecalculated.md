@@ -3,7 +3,6 @@ title: DateTime GetLastRecalculated()
 path: /EJScript/Classes/NSQuoteVersion/Member functions/DateTime GetLastRecalculated()
 intellisense: 1
 classref: 1
-sortOrder: 6339
 keywords: GetLastRecalculated()
 ---
 

@@ -3,7 +3,6 @@ title: Void DeleteProjectStatus(Integer projectStatusId)
 path: /EJScript/Classes/NSListAgent/Member functions/Void DeleteProjectStatus(Integer p_0)
 intellisense: 1
 classref: 1
-sortOrder: 4379
 keywords: DeleteProjectStatus(Integer)
 ---
 

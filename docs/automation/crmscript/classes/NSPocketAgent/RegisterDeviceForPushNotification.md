@@ -3,7 +3,6 @@ title: Void RegisterDeviceForPushNotification(NSPocketDeviceInfo deviceInfo)
 path: /EJScript/Classes/NSPocketAgent/Member functions/Void RegisterDeviceForPushNotification(NSPocketDeviceInfo p_0)
 intellisense: 1
 classref: 1
-sortOrder: 5197
 keywords: RegisterDeviceForPushNotification(NSPocketDeviceInfo)
 ---
 

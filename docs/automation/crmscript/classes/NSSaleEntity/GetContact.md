@@ -3,7 +3,6 @@ title: NSContact GetContact()
 path: /EJScript/Classes/NSSaleEntity/Member functions/NSContact GetContact()
 intellisense: 1
 classref: 1
-sortOrder: 6994
 keywords: GetContact()
 ---
 

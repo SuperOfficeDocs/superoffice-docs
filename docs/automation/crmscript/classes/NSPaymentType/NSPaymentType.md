@@ -3,7 +3,6 @@ title: NSPaymentType
 path: /EJScript/Classes/NSPaymentType
 intellisense: 1
 classref: 1
-sortOrder: 4829
 ---
 
 

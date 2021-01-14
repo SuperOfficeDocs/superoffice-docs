@@ -3,7 +3,6 @@ title: Void RegenerateStatusMonitor(Integer statusMonitorId)
 path: /EJScript/Classes/NSSaintAgent/Member functions/Void RegenerateStatusMonitor(Integer p_0)
 intellisense: 1
 classref: 1
-sortOrder: 6856
 keywords: RegenerateStatusMonitor(Integer)
 ---
 

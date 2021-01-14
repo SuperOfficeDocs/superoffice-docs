@@ -3,7 +3,6 @@ title: Integer GetMaxDiscountPercent()
 path: /EJScript/Classes/NSSaleTypeEntity/Member functions/Integer GetMaxDiscountPercent()
 intellisense: 1
 classref: 1
-sortOrder: 7220
 keywords: GetMaxDiscountPercent()
 ---
 

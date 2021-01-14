@@ -3,7 +3,6 @@ title: NSSelectableMDOListItem[] GetAllRoles(Integer roleType)
 path: /EJScript/Classes/NSUserAgent/Member functions/NSSelectableMDOListItem[] GetAllRoles(Integer p_0)
 intellisense: 1
 classref: 1
-sortOrder: 8485
 keywords: GetAllRoles(Integer)
 ---
 

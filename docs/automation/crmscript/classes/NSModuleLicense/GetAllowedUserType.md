@@ -3,7 +3,6 @@ title: Integer GetAllowedUserType()
 path: /EJScript/Classes/NSModuleLicense/Member functions/Integer GetAllowedUserType()
 intellisense: 1
 classref: 1
-sortOrder: 4616
 keywords: GetAllowedUserType()
 ---
 

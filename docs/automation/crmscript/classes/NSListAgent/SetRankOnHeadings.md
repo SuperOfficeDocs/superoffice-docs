@@ -3,7 +3,6 @@ title: Void SetRankOnHeadings(Integer udListDefinitionId, Integer[] headingIds)
 path: /EJScript/Classes/NSListAgent/Member functions/Void SetRankOnHeadings(Integer p_0, Integer[] p_1)
 intellisense: 1
 classref: 1
-sortOrder: 4396
 keywords: SetRankOnHeadings(Integer,Integer[])
 ---
 

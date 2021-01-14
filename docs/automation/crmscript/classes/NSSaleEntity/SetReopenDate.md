@@ -3,7 +3,6 @@ title: Void SetReopenDate(DateTime ReopenDate)
 path: /EJScript/Classes/NSSaleEntity/Member functions/Void SetReopenDate(DateTime p_0)
 intellisense: 1
 classref: 1
-sortOrder: 7045
 keywords: SetReopenDate(DateTime)
 ---
 

@@ -3,7 +3,6 @@ title: String GetDisplayDescription()
 path: /EJScript/Classes/NSQuoteConnection/Member functions/String GetDisplayDescription()
 intellisense: 1
 classref: 1
-sortOrder: 6122
 keywords: GetDisplayDescription()
 ---
 

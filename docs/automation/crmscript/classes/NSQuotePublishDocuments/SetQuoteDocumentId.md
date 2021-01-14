@@ -3,7 +3,6 @@ title: Void SetQuoteDocumentId(Integer QuoteDocumentId)
 path: /EJScript/Classes/NSQuotePublishDocuments/Member functions/Void SetQuoteDocumentId(Integer p_0)
 intellisense: 1
 classref: 1
-sortOrder: 6329
 keywords: SetQuoteDocumentId(Integer)
 ---
 

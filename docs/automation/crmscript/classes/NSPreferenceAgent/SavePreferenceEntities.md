@@ -3,7 +3,6 @@ title: Void SavePreferenceEntities(NSPreference[] preferences, Bool removeLowerL
 path: /EJScript/Classes/NSPreferenceAgent/Member functions/Void SavePreferenceEntities(NSPreference[] p_0, Bool p_1)
 intellisense: 1
 classref: 1
-sortOrder: 5321
 keywords: SavePreferenceEntities(NSPreference[],Bool)
 ---
 

@@ -3,7 +3,6 @@ title: NSTicketStatusEntity CreateDefaultTicketStatusEntity()
 path: /EJScript/Classes/NSListAgent/Member functions/NSTicketStatusEntity CreateDefaultTicketStatusEntity()
 intellisense: 1
 classref: 1
-sortOrder: 4348
 keywords: CreateDefaultTicketStatusEntity()
 ---
 

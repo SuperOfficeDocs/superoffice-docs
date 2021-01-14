@@ -3,7 +3,6 @@ title: Void CreateDefaultDocumentTemplateLanguage(Integer documentTemplateId, St
 path: /EJScript/Classes/NSListAgent/Member functions/Void CreateDefaultDocumentTemplateLanguage(Integer p_0, String p_1)
 intellisense: 1
 classref: 1
-sortOrder: 4368
 keywords: CreateDefaultDocumentTemplateLanguage(Integer,String)
 ---
 

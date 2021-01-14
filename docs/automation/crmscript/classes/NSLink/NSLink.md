@@ -3,7 +3,6 @@ title: NSLink
 path: /EJScript/Classes/NSLink
 intellisense: 1
 classref: 1
-sortOrder: 4105
 ---
 
 

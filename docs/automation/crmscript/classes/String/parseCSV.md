@@ -3,7 +3,6 @@ title: String[] parseCSV(String delim)
 path: /EJScript/Classes/String/Member functions/String[] parseCSV(String delim)
 intellisense: 1
 classref: 1
-sortOrder: 9153
 keywords: parseCSV(String)
 ---
 

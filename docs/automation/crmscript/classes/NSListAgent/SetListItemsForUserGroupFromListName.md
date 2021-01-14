@@ -3,7 +3,6 @@ title: Void SetListItemsForUserGroupFromListName(String udListDefinitionName, In
 path: /EJScript/Classes/NSListAgent/Member functions/Void SetListItemsForUserGroupFromListName(String p_0, Integer p_1, Integer[] p_2, Bool p_3)
 intellisense: 1
 classref: 1
-sortOrder: 4395
 keywords: SetListItemsForUserGroupFromListName(String,Integer,Integer[],Bool)
 ---
 

@@ -3,7 +3,6 @@ title: String GetSerialNr()
 path: /EJScript/Classes/NSLicenseInfo/Member functions/String GetSerialNr()
 intellisense: 1
 classref: 1
-sortOrder: 4068
 keywords: GetSerialNr()
 ---
 

@@ -3,7 +3,6 @@ title: String getField(String field, String function)
 path: /EJScript/Classes/SearchEngine/member functions/String getField(String field, String function)
 intellisense: 1
 classref: 1
-sortOrder: 8996
 keywords: getField(String,String)
 ---
 

@@ -3,7 +3,6 @@ title: Void SetDataRights(NSDataRights DataRights)
 path: /EJScript/Classes/NSRoleEntity/Member functions/Void SetDataRights(NSDataRights p_0)
 intellisense: 1
 classref: 1
-sortOrder: 6832
 keywords: SetDataRights(NSDataRights)
 ---
 

@@ -3,7 +3,6 @@ title: Void SetSourceInput(String SourceInput)
 path: /EJScript/Classes/NSTemplateVariablesParameters/Member functions/Void SetSourceInput(String p_0)
 intellisense: 1
 classref: 1
-sortOrder: 7946
 keywords: SetSourceInput(String)
 ---
 

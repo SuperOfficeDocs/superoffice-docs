@@ -3,7 +3,6 @@ title: DateTime GetNextCheckDate()
 path: /EJScript/Classes/NSLicenseInfo/Member functions/DateTime GetNextCheckDate()
 intellisense: 1
 classref: 1
-sortOrder: 4055
 keywords: GetNextCheckDate()
 ---
 

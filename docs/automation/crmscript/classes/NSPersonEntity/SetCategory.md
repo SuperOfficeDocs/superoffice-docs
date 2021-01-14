@@ -3,7 +3,6 @@ title: Void SetCategory(NSCategory Category)
 path: /EJScript/Classes/NSPersonEntity/Member functions/Void SetCategory(NSCategory p_0)
 intellisense: 1
 classref: 1
-sortOrder: 5045
 keywords: SetCategory(NSCategory)
 ---
 

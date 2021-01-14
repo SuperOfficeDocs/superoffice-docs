@@ -3,7 +3,6 @@ title: NSListItemEntity[] SaveAllFromListDefinition(Integer udListDefinitionId, 
 path: /EJScript/Classes/NSListAgent/Member functions/NSListItemEntity[] SaveAllFromListDefinition(Integer p_0, NSListItemEntity[] p_1)
 intellisense: 1
 classref: 1
-sortOrder: 4230
 keywords: SaveAllFromListDefinition(Integer,NSListItemEntity[])
 ---
 

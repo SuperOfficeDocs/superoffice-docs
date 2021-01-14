@@ -3,7 +3,6 @@ title: Void SetStatusDescription(String StatusDescription)
 path: /EJScript/Classes/NSMessageDeliveryStatus/Member functions/Void SetStatusDescription(String p_0)
 intellisense: 1
 classref: 1
-sortOrder: 4603
 keywords: SetStatusDescription(String)
 ---
 

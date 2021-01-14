@@ -3,7 +3,6 @@ title: Byte[] ExportSelectionMembersWithOrderBy(Integer selectionId, String temp
 path: /EJScript/Classes/NSSelectionAgent/Member functions/Byte[] ExportSelectionMembersWithOrderBy(Integer p_0, String p_1, Bool p_2, String p_3)
 intellisense: 1
 classref: 1
-sortOrder: 7348
 keywords: ExportSelectionMembersWithOrderBy(Integer,String,Bool,String)
 ---
 

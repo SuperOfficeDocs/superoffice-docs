@@ -3,7 +3,6 @@ title: NSUserDefinedFieldInfo CreateDefaultUserDefinedFieldInfo()
 path: /EJScript/Classes/NSUserDefinedFieldInfoAgent/Member functions/NSUserDefinedFieldInfo CreateDefaultUserDefinedFieldInfo()
 intellisense: 1
 classref: 1
-sortOrder: 8629
 keywords: CreateDefaultUserDefinedFieldInfo()
 ---
 

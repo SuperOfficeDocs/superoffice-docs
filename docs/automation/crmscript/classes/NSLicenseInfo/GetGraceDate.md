@@ -3,7 +3,6 @@ title: DateTime GetGraceDate()
 path: /EJScript/Classes/NSLicenseInfo/Member functions/DateTime GetGraceDate()
 intellisense: 1
 classref: 1
-sortOrder: 4053
 keywords: GetGraceDate()
 ---
 

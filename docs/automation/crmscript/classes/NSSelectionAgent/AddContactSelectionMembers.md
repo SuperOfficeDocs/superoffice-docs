@@ -3,7 +3,6 @@ title: Void AddContactSelectionMembers(Integer selectionId, NSContactPersonId[] 
 path: /EJScript/Classes/NSSelectionAgent/Member functions/Void AddContactSelectionMembers(Integer p_0, NSContactPersonId[] p_1)
 intellisense: 1
 classref: 1
-sortOrder: 7380
 keywords: AddContactSelectionMembers(Integer,NSContactPersonId[])
 ---
 

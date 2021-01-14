@@ -1,11 +1,9 @@
 ---
-title: XMLNode parseJSON(String jsonDocument)
+description: XMLNode parseJSON(String jsonDocument)
 path: /EJScript/Global functions/XMLNode parseJSON(String jsonDocument)
 intellisense: 1
 langref: 1
-sortOrder: 9533
-keywords: parseJSON(String)
----
+keywords: parseJSON(String)---
 
 
 Parse an JSON document and generate a tree of XMLNode's.

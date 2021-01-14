@@ -3,7 +3,6 @@ title: DateTime GetMonStart()
 path: /EJScript/Classes/NSTicketPriorityEntity/Member functions/DateTime GetMonStart()
 intellisense: 1
 classref: 1
-sortOrder: 8251
 keywords: GetMonStart()
 ---
 

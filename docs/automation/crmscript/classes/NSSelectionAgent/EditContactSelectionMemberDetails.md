@@ -3,7 +3,6 @@ title: Void EditContactSelectionMemberDetails(Integer selectionId, NSSelectionMe
 path: /EJScript/Classes/NSSelectionAgent/Member functions/Void EditContactSelectionMemberDetails(Integer p_0, NSSelectionMemberEditValues p_1)
 intellisense: 1
 classref: 1
-sortOrder: 7388
 keywords: EditContactSelectionMemberDetails(Integer,NSSelectionMemberEditValues)
 ---
 

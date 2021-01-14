@@ -3,7 +3,6 @@ title: Void setFriStop(Time t)
 path: /EJScript/Classes/WeekSchedule/Member functions/Void setFriStop(Time t)
 intellisense: 1
 classref: 1
-sortOrder: 9280
 keywords: setFriStop(Time)
 ---
 

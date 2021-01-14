@@ -3,7 +3,6 @@ title: Bool isLower()
 path: /EJScript/Classes/String/Member functions/Bool isLower()
 intellisense: 1
 classref: 1
-sortOrder: 9108
 keywords: isLower()
 ---
 

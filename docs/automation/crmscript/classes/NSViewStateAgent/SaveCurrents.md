@@ -3,7 +3,6 @@ title: NSHistory[] SaveCurrents(NSHistory[] currents)
 path: /EJScript/Classes/NSViewStateAgent/Member functions/NSHistory[] SaveCurrents(NSHistory[] p_0)
 intellisense: 1
 classref: 1
-sortOrder: 8738
 keywords: SaveCurrents(NSHistory[])
 ---
 

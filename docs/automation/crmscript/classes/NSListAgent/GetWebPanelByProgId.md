@@ -3,7 +3,6 @@ title: NSWebPanelEntity GetWebPanelByProgId(String progId)
 path: /EJScript/Classes/NSListAgent/Member functions/NSWebPanelEntity GetWebPanelByProgId(String p_0)
 intellisense: 1
 classref: 1
-sortOrder: 4354
 keywords: GetWebPanelByProgId(String)
 ---
 

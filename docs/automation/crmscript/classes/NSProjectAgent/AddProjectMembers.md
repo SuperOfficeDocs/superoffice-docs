@@ -3,7 +3,6 @@ title: Void AddProjectMembers(Integer projectEntityId, NSProjectMember[] project
 path: /EJScript/Classes/NSProjectAgent/Member functions/Void AddProjectMembers(Integer p_0, NSProjectMember[] p_1)
 intellisense: 1
 classref: 1
-sortOrder: 5603
 keywords: AddProjectMembers(Integer,NSProjectMember[])
 ---
 

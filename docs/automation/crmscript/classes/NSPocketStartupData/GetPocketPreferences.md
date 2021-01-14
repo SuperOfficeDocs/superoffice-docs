@@ -3,7 +3,6 @@ title: NSPreference[] GetPocketPreferences()
 path: /EJScript/Classes/NSPocketStartupData/Member functions/NSPreference[] GetPocketPreferences()
 intellisense: 1
 classref: 1
-sortOrder: 5246
 keywords: GetPocketPreferences()
 ---
 

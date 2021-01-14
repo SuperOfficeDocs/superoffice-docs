@@ -3,7 +3,6 @@ title: String getValue(String colName)
 path: /EJScript/Classes/Ticket/Member functions/String getValue(String colName)
 intellisense: 1
 classref: 1
-sortOrder: 9186
 keywords: getValue(String)
 ---
 

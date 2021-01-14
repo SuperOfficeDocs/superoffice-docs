@@ -3,7 +3,6 @@ title: Void SetDuration(Integer Duration)
 path: /EJScript/Classes/NSSuggestedAppointment/Member functions/Void SetDuration(Integer p_0)
 intellisense: 1
 classref: 1
-sortOrder: 7743
 keywords: SetDuration(Integer)
 ---
 

@@ -3,7 +3,6 @@ title: Void sendNewTicketMessage(Integer ticketId, Bool onlyToHotLlist)
 path: /EJScript/Classes/Notify/Member functions/Void sendNewTicketMessage(Integer ticketId, Bool onlyToHotLlist)
 intellisense: 1
 classref: 1
-sortOrder: 564
 keywords: sendNewTicketMessage(Integer,Bool)
 ---
 

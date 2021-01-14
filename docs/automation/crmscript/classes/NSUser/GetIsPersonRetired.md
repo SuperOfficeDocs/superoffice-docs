@@ -3,7 +3,6 @@ title: Bool GetIsPersonRetired()
 path: /EJScript/Classes/NSUser/Member functions/Bool GetIsPersonRetired()
 intellisense: 1
 classref: 1
-sortOrder: 8411
 keywords: GetIsPersonRetired()
 ---
 

@@ -3,7 +3,6 @@ title: NSTicketMessageEntity GetTicketMessageEntity(Integer ticketMessageEntityI
 path: /EJScript/Classes/NSTicketAgent/Member functions/NSTicketMessageEntity GetTicketMessageEntity(Integer p_0)
 intellisense: 1
 classref: 1
-sortOrder: 8045
 keywords: GetTicketMessageEntity(Integer)
 ---
 

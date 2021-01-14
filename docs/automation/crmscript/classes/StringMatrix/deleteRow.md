@@ -3,7 +3,6 @@ title: Void deleteRow(Integer row)
 path: /EJScript/Classes/StringMatrix/Member functions/Void deleteRow(Integer row)
 intellisense: 1
 classref: 1
-sortOrder: 9170
 keywords: deleteRow(Integer)
 ---
 

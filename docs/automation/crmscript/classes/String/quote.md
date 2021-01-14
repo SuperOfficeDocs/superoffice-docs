@@ -3,7 +3,6 @@ title: Void quote(String quoteString)
 path: /EJScript/Classes/String/Member functions/Void quote(String quoteString)
 intellisense: 1
 classref: 1
-sortOrder: 9160
 keywords: quote(String)
 ---
 

@@ -3,7 +3,6 @@ title: Void SetEndRulePattern(String EndRulePattern)
 path: /EJScript/Classes/NSTimeZoneRule/Member functions/Void SetEndRulePattern(String p_0)
 intellisense: 1
 classref: 1
-sortOrder: 8375
 keywords: SetEndRulePattern(String)
 ---
 

@@ -3,7 +3,6 @@ title: DateTime GetTueStop()
 path: /EJScript/Classes/NSTicketPriorityEntity/Member functions/DateTime GetTueStop()
 intellisense: 1
 classref: 1
-sortOrder: 8260
 keywords: GetTueStop()
 ---
 

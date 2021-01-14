@@ -3,7 +3,6 @@ title: Void SetPreferredEmailCulture(String PreferredEmailCulture)
 path: /EJScript/Classes/NSQuote/Member functions/Void SetPreferredEmailCulture(String p_0)
 intellisense: 1
 classref: 1
-sortOrder: 5942
 keywords: SetPreferredEmailCulture(String)
 ---
 

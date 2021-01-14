@@ -3,7 +3,6 @@ title: Void SetIncludeNoMailingsRecipient(Bool IncludeNoMailingsRecipient)
 path: /EJScript/Classes/NSMailMergeSettings/Member functions/Void SetIncludeNoMailingsRecipient(Bool p_0)
 intellisense: 1
 classref: 1
-sortOrder: 4508
 keywords: SetIncludeNoMailingsRecipient(Bool)
 ---
 

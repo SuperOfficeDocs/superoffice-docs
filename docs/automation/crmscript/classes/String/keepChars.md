@@ -3,7 +3,6 @@ title: String keepChars(String charsToKeep)
 path: /EJScript/Classes/String/Member functions/String keepChars(String charsToKeep)
 intellisense: 1
 classref: 1
-sortOrder: 9136
 keywords: keepChars(String)
 ---
 

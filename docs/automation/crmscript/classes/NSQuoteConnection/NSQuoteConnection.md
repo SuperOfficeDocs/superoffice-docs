@@ -3,7 +3,6 @@ title: NSQuoteConnection
 path: /EJScript/Classes/NSQuoteConnection
 intellisense: 1
 classref: 1
-sortOrder: 6109
 ---
 
 

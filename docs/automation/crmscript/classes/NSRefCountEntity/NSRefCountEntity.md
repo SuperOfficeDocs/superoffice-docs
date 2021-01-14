@@ -3,7 +3,6 @@ title: NSRefCountEntity
 path: /EJScript/Classes/NSRefCountEntity
 intellisense: 1
 classref: 1
-sortOrder: 6621
 ---
 
 

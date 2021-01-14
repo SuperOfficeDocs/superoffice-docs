@@ -3,7 +3,6 @@ title: Bool GetIsOtherCountryHoliday()
 path: /EJScript/Classes/NSRedLetterSummary/Member functions/Bool GetIsOtherCountryHoliday()
 intellisense: 1
 classref: 1
-sortOrder: 6617
 keywords: GetIsOtherCountryHoliday()
 ---
 

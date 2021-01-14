@@ -3,7 +3,6 @@ title: Void SetSoldTotalBaseCurrency(Float SoldTotalBaseCurrency)
 path: /EJScript/Classes/NSSaleSummary/Member functions/Void SetSoldTotalBaseCurrency(Float p_0)
 intellisense: 1
 classref: 1
-sortOrder: 7175
 keywords: SetSoldTotalBaseCurrency(Float)
 ---
 

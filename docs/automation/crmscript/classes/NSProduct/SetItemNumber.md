@@ -3,7 +3,6 @@ title: Void SetItemNumber(String ItemNumber)
 path: /EJScript/Classes/NSProduct/Member functions/Void SetItemNumber(String p_0)
 intellisense: 1
 classref: 1
-sortOrder: 5471
 keywords: SetItemNumber(String)
 ---
 

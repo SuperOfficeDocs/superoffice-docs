@@ -3,7 +3,6 @@ title: NSProjectEntity CreateDefaultProjectEntity()
 path: /EJScript/Classes/NSProjectAgent/Member functions/NSProjectEntity CreateDefaultProjectEntity()
 intellisense: 1
 classref: 1
-sortOrder: 5583
 keywords: CreateDefaultProjectEntity()
 ---
 

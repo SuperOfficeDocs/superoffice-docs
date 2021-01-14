@@ -3,7 +3,6 @@ title: DateTime GetEventDate()
 path: /EJScript/Classes/NSProjectEventEntity/Member functions/DateTime GetEventDate()
 intellisense: 1
 classref: 1
-sortOrder: 5741
 keywords: GetEventDate()
 ---
 

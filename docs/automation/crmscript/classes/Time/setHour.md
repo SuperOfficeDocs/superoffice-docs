@@ -3,7 +3,6 @@ title: Void setHour(Integer hour)
 path: /EJScript/Classes/Time/Member functions/Void setHour(Integer hour)
 intellisense: 1
 classref: 1
-sortOrder: 9203
 keywords: setHour(Integer)
 ---
 

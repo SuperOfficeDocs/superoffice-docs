@@ -3,7 +3,6 @@ title: Void addRecipient(String address, String name)
 path: /EJScript/Classes/SpmStaticList/Member functions/Void addRecipient(String address, String name)
 intellisense: 1
 classref: 1
-sortOrder: 9065
 keywords: addRecipient(String,String)
 ---
 

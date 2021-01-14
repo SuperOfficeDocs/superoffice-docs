@@ -1,11 +1,9 @@
 ---
-title: Date getCurrentDate()
+description: Date getCurrentDate()
 path: /EJScript/Global functions/Date getCurrentDate()
 intellisense: 1
 langref: 1
-sortOrder: 9331
-keywords: getCurrentDate()
----
+keywords: getCurrentDate()---
 
 
 Returns the current date.

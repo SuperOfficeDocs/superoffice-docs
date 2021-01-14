@@ -3,7 +3,6 @@ title: NSWebPanelEntity[] GetAppWebPanels()
 path: /EJScript/Classes/NSListAgent/Member functions/NSWebPanelEntity[] GetAppWebPanels()
 intellisense: 1
 classref: 1
-sortOrder: 4357
 keywords: GetAppWebPanels()
 ---
 

@@ -3,7 +3,6 @@ title: Void SetHasImage(Bool HasImage)
 path: /EJScript/Classes/NSProjectEntity/Member functions/Void SetHasImage(Bool p_0)
 intellisense: 1
 classref: 1
-sortOrder: 5660
 keywords: SetHasImage(Bool)
 ---
 

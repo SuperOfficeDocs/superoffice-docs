@@ -3,7 +3,6 @@ title: NSTicketOrigin GetOrigin()
 path: /EJScript/Classes/NSTicket/Member functions/NSTicketOrigin GetOrigin()
 intellisense: 1
 classref: 1
-sortOrder: 7992
 keywords: GetOrigin()
 ---
 

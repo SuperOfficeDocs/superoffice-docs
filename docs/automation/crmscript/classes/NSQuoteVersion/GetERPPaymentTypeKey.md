@@ -3,7 +3,6 @@ title: String GetERPPaymentTypeKey()
 path: /EJScript/Classes/NSQuoteVersion/Member functions/String GetERPPaymentTypeKey()
 intellisense: 1
 classref: 1
-sortOrder: 6366
 keywords: GetERPPaymentTypeKey()
 ---
 

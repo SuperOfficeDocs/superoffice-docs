@@ -3,7 +3,6 @@ title: Void RemoveSelectionMembersById(Integer selectionId, Integer[] ids)
 path: /EJScript/Classes/NSSelectionAgent/Member functions/Void RemoveSelectionMembersById(Integer p_0, Integer[] p_1)
 intellisense: 1
 classref: 1
-sortOrder: 7393
 keywords: RemoveSelectionMembersById(Integer,Integer[])
 ---
 

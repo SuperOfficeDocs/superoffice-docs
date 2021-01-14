@@ -3,7 +3,6 @@ title: NSProjectEventEntity CreateDefaultProjectEventEntity()
 path: /EJScript/Classes/NSProjectAgent/Member functions/NSProjectEventEntity CreateDefaultProjectEventEntity()
 intellisense: 1
 classref: 1
-sortOrder: 5591
 keywords: CreateDefaultProjectEventEntity()
 ---
 

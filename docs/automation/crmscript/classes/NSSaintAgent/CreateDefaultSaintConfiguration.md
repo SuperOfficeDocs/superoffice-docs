@@ -3,7 +3,6 @@ title: NSSaintConfiguration CreateDefaultSaintConfiguration()
 path: /EJScript/Classes/NSSaintAgent/Member functions/NSSaintConfiguration CreateDefaultSaintConfiguration()
 intellisense: 1
 classref: 1
-sortOrder: 6846
 keywords: CreateDefaultSaintConfiguration()
 ---
 

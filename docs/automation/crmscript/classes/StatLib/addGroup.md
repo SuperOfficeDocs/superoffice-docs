@@ -3,7 +3,6 @@ title: Void addGroup(Integer column, Bool desc)
 path: /EJScript/Classes/StatLib/Member functions/Void addGroup(Integer column, Bool desc)
 intellisense: 1
 classref: 1
-sortOrder: 9074
 keywords: addGroup(Integer,Bool)
 ---
 

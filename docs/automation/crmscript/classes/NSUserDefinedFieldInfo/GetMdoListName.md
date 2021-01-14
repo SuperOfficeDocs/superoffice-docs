@@ -3,7 +3,6 @@ title: String GetMdoListName()
 path: /EJScript/Classes/NSUserDefinedFieldInfo/Member functions/String GetMdoListName()
 intellisense: 1
 classref: 1
-sortOrder: 8575
 keywords: GetMdoListName()
 ---
 

@@ -3,7 +3,6 @@ title: Void addSecondaryCustomers(Vector ids)
 path: /EJScript/Classes/Ticket/Member functions/Void addSecondaryCustomers(Vector ids)
 intellisense: 1
 classref: 1
-sortOrder: 9187
 keywords: addSecondaryCustomers(Vector)
 ---
 

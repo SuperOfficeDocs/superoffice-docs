@@ -3,7 +3,6 @@ title: NSStatusMonitor CreateDefaultStatusMonitor()
 path: /EJScript/Classes/NSSaintAgent/Member functions/NSStatusMonitor CreateDefaultStatusMonitor()
 intellisense: 1
 classref: 1
-sortOrder: 6849
 keywords: CreateDefaultStatusMonitor()
 ---
 

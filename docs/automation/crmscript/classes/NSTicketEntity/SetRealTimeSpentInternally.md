@@ -3,7 +3,6 @@ title: Void SetRealTimeSpentInternally(Integer RealTimeSpentInternally)
 path: /EJScript/Classes/NSTicketEntity/Member functions/Void SetRealTimeSpentInternally(Integer p_0)
 intellisense: 1
 classref: 1
-sortOrder: 8156
 keywords: SetRealTimeSpentInternally(Integer)
 ---
 

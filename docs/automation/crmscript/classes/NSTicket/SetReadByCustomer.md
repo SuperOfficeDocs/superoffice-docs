@@ -3,7 +3,6 @@ title: Void SetReadByCustomer(DateTime ReadByCustomer)
 path: /EJScript/Classes/NSTicket/Member functions/Void SetReadByCustomer(DateTime p_0)
 intellisense: 1
 classref: 1
-sortOrder: 8019
 keywords: SetReadByCustomer(DateTime)
 ---
 

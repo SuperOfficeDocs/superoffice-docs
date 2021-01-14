@@ -3,7 +3,6 @@ title: NSConsentPerson CreateDefaultConsentPerson()
 path: /EJScript/Classes/NSPersonAgent/Member functions/NSConsentPerson CreateDefaultConsentPerson()
 intellisense: 1
 classref: 1
-sortOrder: 4929
 keywords: CreateDefaultConsentPerson()
 ---
 

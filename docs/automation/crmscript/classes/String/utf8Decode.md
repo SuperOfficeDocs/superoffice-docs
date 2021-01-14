@@ -3,7 +3,6 @@ title: String utf8Decode()
 path: /EJScript/Classes/String/Member functions/String utf8Decode()
 intellisense: 1
 classref: 1
-sortOrder: 9149
 keywords: utf8Decode()
 ---
 

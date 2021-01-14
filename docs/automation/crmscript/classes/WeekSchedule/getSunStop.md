@@ -3,7 +3,6 @@ title: Time getSunStop()
 path: /EJScript/Classes/WeekSchedule/Member functions/Time getSunStop()
 intellisense: 1
 classref: 1
-sortOrder: 9270
 keywords: getSunStop()
 ---
 

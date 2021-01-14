@@ -3,7 +3,6 @@ title: Bool GetUsePersonAddress()
 path: /EJScript/Classes/NSPerson/Member functions/Bool GetUsePersonAddress()
 intellisense: 1
 classref: 1
-sortOrder: 4839
 keywords: GetUsePersonAddress()
 ---
 

@@ -3,7 +3,6 @@ title: NSSelectableMDOListItem[] GetSelectableList(String name, Bool forceFlatLi
 path: /EJScript/Classes/NSMDOAgent/Member functions/NSSelectableMDOListItem[] GetSelectableList(String p_0, Bool p_1, String p_2, Bool p_3)
 intellisense: 1
 classref: 1
-sortOrder: 4564
 keywords: GetSelectableList(String,Bool,String,Bool)
 ---
 

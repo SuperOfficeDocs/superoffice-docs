@@ -1,11 +1,9 @@
 ---
-title: String getHttpHeader(String headerName)
+description: String getHttpHeader(String headerName)
 path: /EJScript/Global functions/String getHttpHeader(String headerName)
 intellisense: 1
 langref: 1
-sortOrder: 9441
-keywords: getHttpHeader(String headerName)
----
+keywords: getHttpHeader(String headerName)---
 
 Returns the value of the specified header name.
 

@@ -3,7 +3,6 @@ title: NSPriceList SavePriceList(NSPriceList priceList)
 path: /EJScript/Classes/NSQuoteAgent/Member functions/NSPriceList SavePriceList(NSPriceList p_0)
 intellisense: 1
 classref: 1
-sortOrder: 5973
 keywords: SavePriceList(NSPriceList)
 ---
 

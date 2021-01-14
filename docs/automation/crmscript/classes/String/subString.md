@@ -3,7 +3,6 @@ title: String subString(Integer pos, Integer len)
 path: /EJScript/Classes/String/Member functions/String subString(Integer pos, Integer len)
 intellisense: 1
 classref: 1
-sortOrder: 9143
 keywords: subString(Integer,Integer)
 ---
 

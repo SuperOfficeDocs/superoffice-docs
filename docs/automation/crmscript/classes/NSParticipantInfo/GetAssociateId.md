@@ -3,7 +3,6 @@ title: Integer GetAssociateId()
 path: /EJScript/Classes/NSParticipantInfo/Member functions/Integer GetAssociateId()
 intellisense: 1
 classref: 1
-sortOrder: 4741
 keywords: GetAssociateId()
 ---
 

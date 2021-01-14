@@ -3,7 +3,6 @@ title: Void setDistinct(String field)
 path: /EJScript/Classes/SearchEngine/member functions/Void setDistinct(String field)
 intellisense: 1
 classref: 1
-sortOrder: 9023
 keywords: setDistinct(String)
 ---
 

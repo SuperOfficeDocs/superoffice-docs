@@ -3,7 +3,6 @@ title: Float GetOpenTotalOwnCurrency()
 path: /EJScript/Classes/NSSaleSummary/Member functions/Float GetOpenTotalOwnCurrency()
 intellisense: 1
 classref: 1
-sortOrder: 7132
 keywords: GetOpenTotalOwnCurrency()
 ---
 

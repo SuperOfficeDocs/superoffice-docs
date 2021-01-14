@@ -3,7 +3,6 @@ title: String stripLeadingAndTrailing(String characters)
 path: /EJScript/Classes/String/Member functions/String stripLeadingAndTrailing(String characters)
 intellisense: 1
 classref: 1
-sortOrder: 9140
 keywords: stripLeadingAndTrailing(String)
 ---
 

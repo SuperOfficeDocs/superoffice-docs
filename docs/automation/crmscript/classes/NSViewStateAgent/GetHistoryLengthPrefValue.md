@@ -3,7 +3,6 @@ title: Integer GetHistoryLengthPrefValue()
 path: /EJScript/Classes/NSViewStateAgent/Member functions/Integer GetHistoryLengthPrefValue()
 intellisense: 1
 classref: 1
-sortOrder: 8728
 keywords: GetHistoryLengthPrefValue()
 ---
 

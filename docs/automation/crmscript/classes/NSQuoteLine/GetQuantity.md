@@ -3,7 +3,6 @@ title: Float GetQuantity()
 path: /EJScript/Classes/NSQuoteLine/Member functions/Float GetQuantity()
 intellisense: 1
 classref: 1
-sortOrder: 6194
 keywords: GetQuantity()
 ---
 

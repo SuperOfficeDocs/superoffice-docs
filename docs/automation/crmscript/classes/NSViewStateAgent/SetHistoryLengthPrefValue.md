@@ -3,7 +3,6 @@ title: Void SetHistoryLengthPrefValue(Integer length)
 path: /EJScript/Classes/NSViewStateAgent/Member functions/Void SetHistoryLengthPrefValue(Integer p_0)
 intellisense: 1
 classref: 1
-sortOrder: 8741
 keywords: SetHistoryLengthPrefValue(Integer)
 ---
 

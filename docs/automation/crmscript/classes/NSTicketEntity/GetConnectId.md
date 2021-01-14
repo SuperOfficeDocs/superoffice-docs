@@ -3,7 +3,6 @@ title: Integer GetConnectId()
 path: /EJScript/Classes/NSTicketEntity/Member functions/Integer GetConnectId()
 intellisense: 1
 classref: 1
-sortOrder: 8097
 keywords: GetConnectId()
 ---
 

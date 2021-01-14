@@ -3,7 +3,6 @@ title: Void SetMailSorter(String MailSorter)
 path: /EJScript/Classes/NSTicketMessageEntity/Member functions/Void SetMailSorter(String p_0)
 intellisense: 1
 classref: 1
-sortOrder: 8230
 keywords: SetMailSorter(String)
 ---
 

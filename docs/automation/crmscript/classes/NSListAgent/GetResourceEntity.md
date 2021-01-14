@@ -3,7 +3,6 @@ title: NSResourceEntity GetResourceEntity(Integer resourceEntityId)
 path: /EJScript/Classes/NSListAgent/Member functions/NSResourceEntity GetResourceEntity(Integer p_0)
 intellisense: 1
 classref: 1
-sortOrder: 4293
 keywords: GetResourceEntity(Integer)
 ---
 

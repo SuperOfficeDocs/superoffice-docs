@@ -3,7 +3,6 @@ title: Bool atGroupBegin(Integer column)
 path: /EJScript/Classes/StatResult/Member functions/Bool atGroupBegin(Integer column)
 intellisense: 1
 classref: 1
-sortOrder: 9086
 keywords: atGroupBegin(Integer)
 ---
 

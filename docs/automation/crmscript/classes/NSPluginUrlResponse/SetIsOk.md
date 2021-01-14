@@ -3,7 +3,6 @@ title: Void SetIsOk(Bool IsOk)
 path: /EJScript/Classes/NSPluginUrlResponse/Member functions/Void SetIsOk(Bool p_0)
 intellisense: 1
 classref: 1
-sortOrder: 5187
 keywords: SetIsOk(Bool)
 ---
 

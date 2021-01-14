@@ -3,7 +3,6 @@ title: Void SetSecretValue(String SecretValue)
 path: /EJScript/Classes/NSUntrustedCredentials/Member functions/Void SetSecretValue(String p_0)
 intellisense: 1
 classref: 1
-sortOrder: 8404
 keywords: SetSecretValue(String)
 ---
 

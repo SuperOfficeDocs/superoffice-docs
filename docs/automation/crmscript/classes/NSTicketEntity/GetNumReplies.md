@@ -3,7 +3,6 @@ title: Integer GetNumReplies()
 path: /EJScript/Classes/NSTicketEntity/Member functions/Integer GetNumReplies()
 intellisense: 1
 classref: 1
-sortOrder: 8099
 keywords: GetNumReplies()
 ---
 

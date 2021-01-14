@@ -3,7 +3,6 @@ title: Void SetNetServerSmsProvider(String NetServerSmsProvider)
 path: /EJScript/Classes/NSSmsConfig/Member functions/Void SetNetServerSmsProvider(String p_0)
 intellisense: 1
 classref: 1
-sortOrder: 7550
 keywords: SetNetServerSmsProvider(String)
 ---
 

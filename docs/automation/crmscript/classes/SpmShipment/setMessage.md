@@ -3,7 +3,6 @@ title: Void setMessage(Integer messageId)
 path: /EJScript/Classes/SpmShipment/Member functions/Void setMessage(Integer messageId)
 intellisense: 1
 classref: 1
-sortOrder: 9056
 keywords: setMessage(Integer)
 ---
 

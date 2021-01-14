@@ -3,7 +3,6 @@ title: String getParameter(String name)
 path: /EJScript/Classes/XMLNode/Member functions/String getParameter(String name)
 intellisense: 1
 classref: 1
-sortOrder: 9297
 keywords: getParameter(String)
 ---
 

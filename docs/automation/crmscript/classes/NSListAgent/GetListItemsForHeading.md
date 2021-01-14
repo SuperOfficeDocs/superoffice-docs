@@ -3,7 +3,6 @@ title: NSSelectableMDOListItem[] GetListItemsForHeading(Integer udListDefinition
 path: /EJScript/Classes/NSListAgent/Member functions/NSSelectableMDOListItem[] GetListItemsForHeading(Integer p_0, Integer p_1)
 intellisense: 1
 classref: 1
-sortOrder: 4309
 keywords: GetListItemsForHeading(Integer,Integer)
 ---
 

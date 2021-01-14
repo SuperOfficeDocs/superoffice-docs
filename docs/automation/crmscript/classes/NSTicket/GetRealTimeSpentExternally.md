@@ -3,7 +3,6 @@ title: Integer GetRealTimeSpentExternally()
 path: /EJScript/Classes/NSTicket/Member functions/Integer GetRealTimeSpentExternally()
 intellisense: 1
 classref: 1
-sortOrder: 7979
 keywords: GetRealTimeSpentExternally()
 ---
 

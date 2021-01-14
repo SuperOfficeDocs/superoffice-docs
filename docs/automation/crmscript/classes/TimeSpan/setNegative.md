@@ -3,7 +3,6 @@ title: Void setNegative(Bool negative)
 path: /EJScript/Classes/TimeSpan/Member functions/Void setNegative(Bool negative)
 intellisense: 1
 classref: 1
-sortOrder: 9232
 keywords: setNegative(Bool)
 ---
 

@@ -3,7 +3,6 @@ title: Void SetAsSold(Integer[] saleIds)
 path: /EJScript/Classes/NSSaleAgent/Member functions/Void SetAsSold(Integer[] p_0)
 intellisense: 1
 classref: 1
-sortOrder: 6965
 keywords: SetAsSold(Integer[])
 ---
 

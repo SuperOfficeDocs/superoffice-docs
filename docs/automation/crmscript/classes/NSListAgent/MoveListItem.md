@@ -3,7 +3,6 @@ title: Void MoveListItem(Integer udListDefinitionId, Integer listItemId, Integer
 path: /EJScript/Classes/NSListAgent/Member functions/Void MoveListItem(Integer p_0, Integer p_1, Integer p_2)
 intellisense: 1
 classref: 1
-sortOrder: 4387
 keywords: MoveListItem(Integer,Integer,Integer)
 ---
 

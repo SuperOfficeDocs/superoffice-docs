@@ -3,7 +3,6 @@ title: Void DeleteHistory(String historyName, Integer id)
 path: /EJScript/Classes/NSViewStateAgent/Member functions/Void DeleteHistory(String p_0, Integer p_1)
 intellisense: 1
 classref: 1
-sortOrder: 8740
 keywords: DeleteHistory(String,Integer)
 ---
 

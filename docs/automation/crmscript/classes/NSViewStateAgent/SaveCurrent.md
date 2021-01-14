@@ -3,7 +3,6 @@ title: NSHistory SaveCurrent(NSHistory current)
 path: /EJScript/Classes/NSViewStateAgent/Member functions/NSHistory SaveCurrent(NSHistory p_0)
 intellisense: 1
 classref: 1
-sortOrder: 8733
 keywords: SaveCurrent(NSHistory)
 ---
 

@@ -3,7 +3,6 @@ title: NSExtendedLicenseInfo GetLicenseFromDB(String ownerName)
 path: /EJScript/Classes/NSLicenseAgent/Member functions/NSExtendedLicenseInfo GetLicenseFromDB(String p_0)
 intellisense: 1
 classref: 1
-sortOrder: 4032
 keywords: GetLicenseFromDB(String)
 ---
 

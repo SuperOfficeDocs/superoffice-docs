@@ -3,7 +3,6 @@ title: Float GetDiscountAmount()
 path: /EJScript/Classes/NSQuoteAlternative/Member functions/Float GetDiscountAmount()
 intellisense: 1
 classref: 1
-sortOrder: 6051
 keywords: GetDiscountAmount()
 ---
 

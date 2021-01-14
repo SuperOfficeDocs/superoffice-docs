@@ -3,7 +3,6 @@ title: Integer AddSelectionMembers(Integer selectionId, Integer[] ids)
 path: /EJScript/Classes/NSSelectionAgent/Member functions/Integer AddSelectionMembers(Integer p_0, Integer[] p_1)
 intellisense: 1
 classref: 1
-sortOrder: 7350
 keywords: AddSelectionMembers(Integer,Integer[])
 ---
 

@@ -3,7 +3,6 @@ title: String GetReason()
 path: /EJScript/Classes/NSQuoteAlternative/Member functions/String GetReason()
 intellisense: 1
 classref: 1
-sortOrder: 6074
 keywords: GetReason()
 ---
 

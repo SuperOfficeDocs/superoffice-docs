@@ -3,7 +3,6 @@ title: Void SetAddress(NSAddress Address)
 path: /EJScript/Classes/NSPersonEntity/Member functions/Void SetAddress(NSAddress p_0)
 intellisense: 1
 classref: 1
-sortOrder: 5039
 keywords: SetAddress(NSAddress)
 ---
 

@@ -3,7 +3,6 @@ title: Void addRecipient(Integer customerId)
 path: /EJScript/Classes/SpmCustomerList/Member functions/Void addRecipient(Integer customerId)
 intellisense: 1
 classref: 1
-sortOrder: 9032
 keywords: addRecipient(Integer)
 ---
 

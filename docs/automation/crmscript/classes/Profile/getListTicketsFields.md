@@ -3,7 +3,6 @@ title: String[] getListTicketsFields(Integer p\_user)
 path: /EJScript/Classes/Profile/Member functions/String[] getListTicketsFields(Integer p_user)
 intellisense: 1
 classref: 1
-sortOrder: 8969
 keywords: getListTicketsFields(Integer)
 ---
 

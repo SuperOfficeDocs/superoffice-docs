@@ -3,7 +3,6 @@ title: String GetMailSubject()
 path: /EJScript/Classes/NSQuotePublishDocuments/Member functions/String GetMailSubject()
 intellisense: 1
 classref: 1
-sortOrder: 6322
 keywords: GetMailSubject()
 ---
 

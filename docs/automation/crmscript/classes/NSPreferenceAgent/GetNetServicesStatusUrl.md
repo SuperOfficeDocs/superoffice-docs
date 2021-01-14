@@ -3,7 +3,6 @@ title: String GetNetServicesStatusUrl()
 path: /EJScript/Classes/NSPreferenceAgent/Member functions/String GetNetServicesStatusUrl()
 intellisense: 1
 classref: 1
-sortOrder: 5315
 keywords: GetNetServicesStatusUrl()
 ---
 

@@ -3,7 +3,6 @@ title: Void SetOwnerDescription(String OwnerDescription)
 path: /EJScript/Classes/NSLicenseInfo/Member functions/Void SetOwnerDescription(String p_0)
 intellisense: 1
 classref: 1
-sortOrder: 4082
 keywords: SetOwnerDescription(String)
 ---
 

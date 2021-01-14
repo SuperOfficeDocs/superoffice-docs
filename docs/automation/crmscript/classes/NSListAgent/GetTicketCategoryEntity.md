@@ -3,7 +3,6 @@ title: NSTicketCategoryEntity GetTicketCategoryEntity(Integer ticketCategoryEnti
 path: /EJScript/Classes/NSListAgent/Member functions/NSTicketCategoryEntity GetTicketCategoryEntity(Integer p_0)
 intellisense: 1
 classref: 1
-sortOrder: 4336
 keywords: GetTicketCategoryEntity(Integer)
 ---
 

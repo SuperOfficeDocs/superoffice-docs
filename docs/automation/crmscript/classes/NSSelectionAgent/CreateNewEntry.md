@@ -3,7 +3,6 @@ title: Integer CreateNewEntry(NSDuplicateEntry duplicate)
 path: /EJScript/Classes/NSSelectionAgent/Member functions/Integer CreateNewEntry(NSDuplicateEntry p_0)
 intellisense: 1
 classref: 1
-sortOrder: 7352
 keywords: CreateNewEntry(NSDuplicateEntry)
 ---
 

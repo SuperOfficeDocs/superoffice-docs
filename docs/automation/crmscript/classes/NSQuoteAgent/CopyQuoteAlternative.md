@@ -3,7 +3,6 @@ title: NSQuoteAlternative CopyQuoteAlternative(Integer quoteVersionId, Integer q
 path: /EJScript/Classes/NSQuoteAgent/Member functions/NSQuoteAlternative CopyQuoteAlternative(Integer p_0, Integer p_1, String p_2)
 intellisense: 1
 classref: 1
-sortOrder: 5987
 keywords: CopyQuoteAlternative(Integer,Integer,String)
 ---
 

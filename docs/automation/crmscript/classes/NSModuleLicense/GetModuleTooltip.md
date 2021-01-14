@@ -3,7 +3,6 @@ title: String GetModuleTooltip()
 path: /EJScript/Classes/NSModuleLicense/Member functions/String GetModuleTooltip()
 intellisense: 1
 classref: 1
-sortOrder: 4626
 keywords: GetModuleTooltip()
 ---
 

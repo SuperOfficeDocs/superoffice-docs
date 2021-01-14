@@ -3,7 +3,6 @@ title: Void setStringMatrix(StringMatrix sm)
 path: /EJScript/Classes/StatLib/Member functions/Void setStringMatrix(StringMatrix sm)
 intellisense: 1
 classref: 1
-sortOrder: 9083
 keywords: setStringMatrix(StringMatrix)
 ---
 

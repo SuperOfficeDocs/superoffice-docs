@@ -1,11 +1,9 @@
 ---
-title: String getCookie(String name)
+description: String getCookie(String name)
 path: /EJScript/Global functions/String getCookie(String name)
 intellisense: 1
 langref: 1
-sortOrder: 9421
-keywords: getCookie(String)
----
+keywords: getCookie(String)---
 
 
 Return the CGI cookie with the given name.

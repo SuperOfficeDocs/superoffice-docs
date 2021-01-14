@@ -3,7 +3,6 @@ title: Void SetSignOnText(String SignOnText)
 path: /EJScript/Classes/NSProjectEvent/Member functions/Void SetSignOnText(String p_0)
 intellisense: 1
 classref: 1
-sortOrder: 5725
 keywords: SetSignOnText(String)
 ---
 

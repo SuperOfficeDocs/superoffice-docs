@@ -3,7 +3,6 @@ title: Integer GetType()
 path: /EJScript/Classes/NSTaskListItem/Member functions/Integer GetType()
 intellisense: 1
 classref: 1
-sortOrder: 7886
 keywords: GetType()
 ---
 

@@ -3,7 +3,6 @@ title: Void SendPushNotification(Integer[] associateIds, NSPocketNotificationMes
 path: /EJScript/Classes/NSPocketAgent/Member functions/Void SendPushNotification(Integer[] p_0, NSPocketNotificationMessage p_1)
 intellisense: 1
 classref: 1
-sortOrder: 5199
 keywords: SendPushNotification(Integer[],NSPocketNotificationMessage)
 ---
 

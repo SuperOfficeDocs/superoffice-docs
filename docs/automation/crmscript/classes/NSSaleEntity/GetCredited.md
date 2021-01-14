@@ -3,7 +3,6 @@ title: NSCredited GetCredited()
 path: /EJScript/Classes/NSSaleEntity/Member functions/NSCredited GetCredited()
 intellisense: 1
 classref: 1
-sortOrder: 6995
 keywords: GetCredited()
 ---
 

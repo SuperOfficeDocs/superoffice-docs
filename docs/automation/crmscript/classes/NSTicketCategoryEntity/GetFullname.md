@@ -3,7 +3,6 @@ title: String GetFullname()
 path: /EJScript/Classes/NSTicketCategoryEntity/Member functions/String GetFullname()
 intellisense: 1
 classref: 1
-sortOrder: 8065
 keywords: GetFullname()
 ---
 

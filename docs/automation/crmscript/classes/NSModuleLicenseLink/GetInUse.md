@@ -3,7 +3,6 @@ title: Integer GetInUse()
 path: /EJScript/Classes/NSModuleLicenseLink/Member functions/Integer GetInUse()
 intellisense: 1
 classref: 1
-sortOrder: 4655
 keywords: GetInUse()
 ---
 

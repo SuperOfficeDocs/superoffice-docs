@@ -3,7 +3,6 @@ title: Void ActivateResourceSubstitution(String resourceName, String culture, Bo
 path: /EJScript/Classes/NSResourceAgent/Member functions/Void ActivateResourceSubstitution(String p_0, String p_1, Bool p_2)
 intellisense: 1
 classref: 1
-sortOrder: 6765
 keywords: ActivateResourceSubstitution(String,String,Bool)
 ---
 

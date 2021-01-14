@@ -3,7 +3,6 @@ title: Bool GetSaveDocument()
 path: /EJScript/Classes/NSMailMergeSettings/Member functions/Bool GetSaveDocument()
 intellisense: 1
 classref: 1
-sortOrder: 4484
 keywords: GetSaveDocument()
 ---
 

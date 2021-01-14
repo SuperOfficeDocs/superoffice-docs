@@ -3,7 +3,6 @@ title: DateTime TimeOfLastTimeZoneUpdate()
 path: /EJScript/Classes/NSTimeZoneAgent/Member functions/DateTime TimeOfLastTimeZoneUpdate()
 intellisense: 1
 classref: 1
-sortOrder: 8340
 keywords: TimeOfLastTimeZoneUpdate()
 ---
 

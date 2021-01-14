@@ -3,7 +3,6 @@ title: Void SetFirstReadByUser(DateTime FirstReadByUser)
 path: /EJScript/Classes/NSTicket/Member functions/Void SetFirstReadByUser(DateTime p_0)
 intellisense: 1
 classref: 1
-sortOrder: 8010
 keywords: SetFirstReadByUser(DateTime)
 ---
 
