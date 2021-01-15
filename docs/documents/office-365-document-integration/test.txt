@@ -1,0 +1,41 @@
+https://community.superoffice.com/en/content/resources/ https://community.superoffice.com/en/content/resources/expander-world-resources/expander-world-2009/
+https://community.superoffice.com/en/content/resources/expander-world-resources/expander-world-2011/
+https://community.superoffice.com/en/content/resources/superoffice-expander-sdk/
+https://community.superoffice.com/en/content/resources/superoffice-expander-sdk/devnet-toolbox/
+https://community.superoffice.com/en/content/resources/web-client-resources/interactive-netserver-scripts/
+https://community.superoffice.com/en/content/resources/web-client-resources/Page-Templates/
+https://community.superoffice.com/en/content/resources/windows-client-resources/SuperOffice-Roles-and-Rights-Video/ https://community.superoffice.com/en/developer/resource/
+https://community.superoffice.com/en/technical/Resource/superoffice-software/
+
+And links to:
+
+https://community.superoffice.com/globalassets/technical-club/documentation/setup-cloud-office/blank.docx
+https://community.superoffice.com/globalassets/technical-club/documentation/setup-cloud-office/blank.xlsx
+https://community.superoffice.com/globalassets/technical-club/documentation/setup-cloud-office/blank.pptx
+https://community.superoffice.com/globalassets/technical-club/documentation/setup-cloud-office/cloud-office-for-superoffice-crm-online---superoffice.app
+https://crm.superoffice.com/scripts/customer.fcgi?action=formFrame&formId=20
+
+https://community.superoffice.com/globalassets/developer-club/apps-and-partners/publish/app-naming-description-and-images/superoffice-logo-for-download.zip
+https://community.superoffice.com/contentassets/21dbc96303eb4a69a86279bb59ce1208/system-user-node-sample.zip
+https://community.superoffice.com/en/developer/apps-partners/develop/online-sdk-downloads/
+https://community.superoffice.com/en/help-center/
+https://crm.superoffice.com/scripts/customer.fcgi?action=formFrame&formId=19
+https://community.superoffice.com/contentassets/4676af12ff874b618e0cfb3ec0f05c8c/quick-start-guide---superoffice-for-outlook.pdf
+https://community.superoffice.com/globalassets/technical-club/downloads.png
+https://community.superoffice.com/contentassets/8c09bc95f03841cd87771bc367849cf5/mirroredtables.docx
+https://community.superoffice.com/en/content/content/netserver-sdk/archived-articles/the-definitive-netserver-user-defined-field-lookup-class/%7BEPsUploadDir%7D993/TestDevNetUDF.zip
+https://crm.superoffice.com/scripts/customer.fcgi?_sf=0&custSessionKey=&customerLang=en&noCookies=true&action=viewKbEntry&id=111721
+https://www3.superoffice.com/DownloadService/
+https://community.superoffice.com/globalassets/technical-club/forum/video-meetings-in-superoffice---quick-start-v2.pdf
+https://community.superoffice.com/globalassets/technical-club/images/service/smsplugin8sr2/superoffice.messaging.smsteknik.dll
+https://community.superoffice.com/globalassets/technical-club/images/service/smsplugin8sr2/superoffice.messaging.compaya.dll
+https://community.superoffice.com/globalassets/technical-club/images/service/smsplugin8sr2/superoffice.messaging.cm.dll
+
+https://community.superoffice.com/contentassets/79f595706cba4bfcbaaabed5f522c6df/installdocplugin.bat.txt
+https://community.superoffice.com/contentassets/79f595706cba4bfcbaaabed5f522c6df/soarcdocumentplugin.net.zip
+https://community.superoffice.com/contentassets/79f595706cba4bfcbaaabed5f522c6df/soarcdocumentplugin.net7.5.zip
+https://community.superoffice.com/contentassets/79f595706cba4bfcbaaabed5f522c6df/documentplugins-winweb-7.5.zip
+https://community.superoffice.com/contentassets/79f595706cba4bfcbaaabed5f522c6df/superoffice.testdocplugin-v8.zip
+https://community.superoffice.com/globalassets/developer-club/superoffice.testdocplugin_withcheckincheckout.zip
+
+https://community.superoffice.com/contentassets/e6449d2931be42c3ad8a81296c981626/webvalidation.zip
