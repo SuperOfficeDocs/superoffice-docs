@@ -1,0 +1,52 @@
+%EJSCRIPT_START%
+<h1>Groups</h1>
+<select id="groups">
+<%
+SearchEngine seGroups;
+seGroups.addField("y_groups.id");
+seGroups.addField("y_groups.x_name");
+
+String insertGroups = "<option value='-1'>Choose</option>";
+
+for(seGroups.select(); !seGroups.eof(); seGroups.next())
+  insertGroups += "<option value='" + seGroups.getField(0) + "'>" + seGroups.getField(1) + "</option>";
+print(insertGroups);
+%>
+</select>
+
+
+<h1>Companies</h1>
+<select id="companies"><option value='-1'>Choose</option></select>
+
+<script type="text/javascript">
+var xmlhttp;
+
+var url = '<% print(getParserVariable("AuthProgram") + "&action=parse&includeId=listCompanies&key=YjKJdpjFt6AdCc7B"); %>';
+%EJSCRIPT_END%
+
+function callAjax() {
+  if(xmlhttp != undefined)
+    xmlhttp.abort();
+  if(window.XMLHttpRequest) { //code for IE7+, Firefox, Chrome, Opera, Safari
+    xmlhttp = new XMLHttpRequest();
+  }
+  else { //code for IE6, IE5
+    xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
+  }
+  xmlhttp.onreadystatechange=function() { 
+    if(xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+      $('#companies').empty().append(xmlhttp.responseText);
+    }
+  }
+}
+
+$(document).ready(function(){
+  callAjax();
+  $('#groups').change(function(){
+    console.log("run");
+    xmlhttp.open("POST", url, true);
+    xmlhttp.setRequestHeader("Content-type","application/x-www-pform-urlencoded");
+    xmlhttp.send("groupId=" + $('#groups').val());
+  });
+});
+</script>
