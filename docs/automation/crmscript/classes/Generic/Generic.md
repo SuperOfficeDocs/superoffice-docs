@@ -15,5 +15,4 @@ There's a close connection between Generic and structs:
 * easier to access and set new variables in structs
 * possible to change which variables are members without having to hard-code each field
 
-
 1. autolist

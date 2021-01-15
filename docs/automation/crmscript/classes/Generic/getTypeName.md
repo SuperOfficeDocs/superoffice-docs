@@ -8,9 +8,26 @@ keywords: getTypeName(Generic)
 ---
 
 
-Returns the type name of any variable (will automatically be up-casted to generic). For example, printLine(getTypeName(getCurrentDateTime()));
+Returns the type name of any variable (will automatically be up-casted to generic).
 
+For example:
 
+```crmscript
+printLine(getTypeName(getCurrentDateTime()));
+```
+
+```crmscript
+Void printDebugGeneric(Generic g)
+{
+  String type = getTypeName(g);
+  if(type == "String")
+    printLine("Debug " + GenericToString(g));
+  else if(type == "Integer")
+    printLine("Debug " + GenericToInteger(g).toString());
+  else if(type == "Float")
+    printLine("Debug " + GenericToFloat(g).toString(2));
+}
+```
 
 * **generic:** Variable to get type of
 * **Returns:** String name of type

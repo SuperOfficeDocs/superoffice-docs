@@ -8,16 +8,16 @@ keywords: getGenericValue(String)
 ---
 
 
-Get a variable from the run-time environment given its name. The variable is returned as a Generic, independent of its type. If the name is unknown, an exception is thrown.
+Get a variable from the run-time environment given its name. The variable is returned as a Generic, independent of its type.
 
+If the name is unknown, an exception is thrown.
 
 For example:
 
-    Integer age = 42;
-    Generic g = getGenericValue("age");
-    
-
-
+```crmscript
+Integer age = 42;
+Generic g = getGenericValue("age");
+```
 
 * **name:** String Name of variable to get
 * **Returns:** Generic The generic variable

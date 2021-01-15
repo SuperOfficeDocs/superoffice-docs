@@ -8,16 +8,16 @@ keywords: getTypeDimensions(Generic)
 ---
 
 
-Get the number of array dimensions for any variable (will automatically be up-casted to a Generic). Note: this is the number of dimensions, not the length of the arrays.
+Get the number of array dimensions for any variable (will automatically be up-casted to a Generic).
 
+Note: this is the number of dimensions, not the length of the arrays.
 
 For example:
 
-    Integer[][] i;
-    getTypeDimensions(i); // Returns 2
-    
-
-
+```crmscript
+Integer[][] i;
+getTypeDimensions(i); // Returns 2
+```
 
 * **generic:** Generic The value to get the dimensions for
 * **Returns:** Integer number of dimensions.

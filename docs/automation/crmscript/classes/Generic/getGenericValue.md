@@ -8,22 +8,32 @@ keywords: getGenericValue(Generic,String)
 ---
 
 
-Get a variable from the run-time environment given its name, inside a given struct. The variable is returned as a Generic, independent of its type. If the name is unknown, an exception is thrown. If struct is not a struct, an exception is thrown.
+Get a variable from the run-time environment given its name, inside a given struct. The variable is returned as a Generic, independent of its type.
 
+If the name is unknown, an exception is thrown.
+
+If struct is not a struct, an exception is thrown.
 
 For example:
 
-    struct Person {
-      String name;
-      Integer age;
-    };
-    
-    Person person;
-    person.age = 42;
-    Generic g = getGenericValue(person, "age");
-    
+```crmscript
+struct Person {
+  String name;
+  Integer age;
+};
 
+Person person;
+person.age = 42;
+Generic g = getGenericValue(person, "age");
+```
 
+```crmscript
+String[] fields = getStructMembers("Building");
+for(Integer i = 0; i < fields.length(); i++) {
+  Generic g = getGenericValue(this, fields[i]);
+  printLine(fields[i] + ": " + convertGenericToString(g));
+}
+```
 
 * **struct:** Generic Struct to get variable in
 * **name:** String Name of variable to get
