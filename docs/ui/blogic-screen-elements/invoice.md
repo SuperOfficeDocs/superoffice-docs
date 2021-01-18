@@ -44,6 +44,6 @@ It has a grid for the lines, and some input fields for adding a new line.
 
 | Action     | Map keys      | Description                                 |
 |:-----------|:--------------|:--------------------------------------------|
-| add        | id<br/>type<br/>description<br/>price<br/>quantity<br/>discount<br/>discountMoney<br/>date | Adds a line of values to the grid |
+| add        | id<br>type<br>description<br>price<br>quantity<br>discount<br>discountMoney<br>date | Adds a line of values to the grid |
 | addCurrent |               | Adds the current line to the grid           |
 | default    | default       | Sets the default invoice type to show by ID |

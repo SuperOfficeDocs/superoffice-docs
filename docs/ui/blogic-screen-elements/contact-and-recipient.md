@@ -18,7 +18,7 @@ This is a complex element used to represent customers connected to a request. It
 | label           | UI label                                                                                               |
 | ticketId        |                                                                                                        |
 | noDefaultFields | Whether to override the default fields (name, email, and company)                                      |
-| controlVersion  | The version of this element (1 or 2)<br/>Determines the fields you can retrieve with `getFieldValue()` |
+| controlVersion  | The version of this element (1 or 2)<br>Determines the fields you can retrieve with `getFieldValue()` |
 
 ## Example
 
@@ -49,7 +49,7 @@ Repeat populating the map and calling `setFieldValue()` for each column you want
 | cc             | 1 and 2      | A string of all email addresses with type = cc  |
 | bcc            | 1 and 2      | A string of all email addresses with type = bcc |
 | sms            | 1 and 2      | A string of all email addresses with type = sms |
-| contacts       | 1 and 2      | A string array with the IDs of all customers.<br/> [0] is the primary customer |
+| contacts       | 1 and 2      | A string array with the IDs of all customers.<br> [0] is the primary customer |
 | copyToFacebook | 1 and 2      |                                                 |
 | json           | 1 and 2      |                                                 |
 | recipientCount | 1 and 2      | The number of recipients                        |

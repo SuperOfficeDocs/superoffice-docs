@@ -11,10 +11,13 @@ so.topic: reference
 
 This is a **group element**. It defines the beginning of a group of elements and requires a matching group end element.
 
-A pane must be placed directly inside [`Panes`](./panes.md).
+A pane must be placed directly inside [`Panes`][1].
 
 ## Configuration
 
 | Setting | Description          |
 |:--------|:---------------------|
 | title   | The title of the tab |
+
+<!-- Referenced links -->
+[1]: panes.md

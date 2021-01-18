@@ -24,7 +24,7 @@ A typical scenario is the selection of fields in related extra tables.
 | labels.n.label   | The UI label of the nth list                                  |
 | labels.length    | The number of labels                                          |
 | notEmptyDropdown | The last menu that can't be empty. Numbering starts at 0      |
-| printDownwards   | How to list drop-down menus<br/>true = list one per row<br/>false = list all in one row |
+| printDownwards   | How to list drop-down menus<br>true = list one per row<br>false = list all in one row |
 | selectFromTree   | Whether to show drop-down menus as a tree chooser (Bool)      |
 
 > [!NOTE]
@@ -93,9 +93,9 @@ Returns all IDs of the resulting drop-down menus in a comma-separated string.
 
 | Action   | Map keys                             | Description                               |
 |:---------|:-------------------------------------|:------------------------------------------|
-| addNode  | id<br/>parent<br/>value<br/>isFolder | Adds node to the drop-down.<br/>If parent is set, place node in the menu to the right of the parent<br/>If no parent, place node in the 1st menu |
+| addNode  | id<br>parent<br>value<br>isFolder | Adds node to the drop-down.<br>If parent is set, place node in the menu to the right of the parent<br>If no parent, place node in the 1st menu |
 | addLabel | label                                |                                           |
-| set      | notEmptyDropdown<br/>printDownwards  |                                           |
+| set      | notEmptyDropdown<br>printDownwards  |                                           |
 
 ```crmscript
 Map map;

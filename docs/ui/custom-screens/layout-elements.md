@@ -40,7 +40,7 @@ The available space for each element is calculated each time a user opens a cust
 
 How you **nest** elements determines the structure of your screen. It is crucial that you place **GroupEnd** elements after the last child in a container. A missing or misplaced `GroupEnd` will mess up your hierarchy.
 
-```html
+```xml
 <ElementTable>
   <Panes>
     <Pane>
@@ -59,17 +59,17 @@ When viewing the definition of a screen, you can hover an element in the tree an
 * Duplicate an element
 * Move an element
 
-![Screen capture of move element button](../../images/move-element.png)
+![Screen capture of move element button][img1]
 
 ## Element group (Fieldset)
 
-An [element group](../blogic-screen-elements/fieldset.md) creates a small inset frame around its children in the browser.
+An [element group][1] creates a small inset frame around its children in the browser.
 
 Use it to group related elements in a form.
 
 ## Panes and Pane
 
-A [Pane](../blogic-screen-elements/pane.md) creates a tab. The [`Panes` element](../blogic-screen-elements/blogic-panes.md) is a container for 1 or more `Pane` elements. A pane must be placed directly inside `Panes`.
+A [Pane][2] creates a tab. The [`Panes` element][3] is a container for 1 or more `Pane` elements. A pane must be placed directly inside `Panes`.
 
 You can set the title of individual tabs.
 
@@ -93,7 +93,7 @@ title = %lang("lang_ticket_viewCompany_tickets")%
 
 ## Panel
 
-A [Panel](../blogic-screen-elements/panel.md) adds a white background to the screen. Also known as the **white sheet**.
+A [Panel][4] adds a white background to the screen. Also known as the **white sheet**.
 
 Use panels to **improve readability**. Without a parent Panel or Pane, screen elements are placed directly on the default gray background.
 
@@ -102,7 +102,7 @@ Use panels to **improve readability**. Without a parent Panel or Pane, screen el
 
 ## Element table
 
-[Element table](../blogic-screen-elements/element-table.md) is one of the most central layout controls. It places its children in a 1-row grid.
+[Element table][5] is one of the most central layout controls. It places its children in a 1-row grid.
 
 It does a double-pass over its children, figuring out how much space they require and allows the remaining to be dynamically resized to the remaining space.
 
@@ -120,7 +120,7 @@ Use the `verticalSpace` setting for example if you have a `Text area` or editor 
 
 ## Element table v2
 
-[Element table v2](../blogic-screen-elements/element-table-2.md) is an improved version of `Element table` that lets you lay out elements in a 2-dimensional grid.
+[Element table v2][6] is an improved version of `Element table` that lets you lay out elements in a 2-dimensional grid.
 
 It allocates how much space each child gets. It **does not adjust** depending on how much space its children require.
 
@@ -147,6 +147,18 @@ You can also set `layout.colspan` and `layout.rowspan` on the **child** elements
 
 ## Form page
 
-A [Form page](../blogic-screen-elements/form-page.md) is a standard root frame used in a lot of screens.
+A [Form page][7] is a standard root frame used in a lot of screens.
 
 Use it to add a button to a form.
+
+<!-- Referenced links -->
+[1]: ../blogic-screen-elements/fieldset.md
+[2]: ../blogic-screen-elements/pane.md
+[3]: ../blogic-screen-elements/panes.md
+[4]: ../blogic-screen-elements/panel.md
+[5]: ../blogic-screen-elements/element-table.md
+[6]: ../blogic-screen-elements/element-table-2.md
+[7]: ../blogic-screen-elements/form-page.md
+
+<!-- Referenced images -->
+[img1]: media/move-element.png

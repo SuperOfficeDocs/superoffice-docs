@@ -68,6 +68,6 @@ folder.setFieldValue("set", m);
 
 | Action    | Map keys                                                                    | Description                             |
 |:----------|:----------------------------------------------------------------------------|:----------------------------------------|
-| add2Entry | id<br/>parent.id<br/>onclick<br/>href<br/>name<br/>tooltip<br/>target<br/>order<br/>leaf<br/>icon<br/>icon.contentType<br/>icon.filename | Adds an entry to the tree |
-| addLink   | href<br/>target<br/>tooltip<br/>icon<br/>icon.contentType<br/>icon.filename | Adds a new link to the last added entry |
-| set       | sortbyName<br/>expandId<br/>pruneEmptyFolders                               | Sets various fields                     |
+| add2Entry | id<br>parent.id<br>onclick<br>href<br>name<br>tooltip<br>target<br>order<br>leaf<br>icon<br>icon.contentType<br>icon.filename | Adds an entry to the tree |
+| addLink   | href<br>target<br>tooltip<br>icon<br>icon.contentType<br>icon.filename | Adds a new link to the last added entry |
+| set       | sortbyName<br>expandId<br>pruneEmptyFolders                               | Sets various fields                     |

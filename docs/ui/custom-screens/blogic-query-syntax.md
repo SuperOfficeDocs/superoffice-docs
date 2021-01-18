@@ -37,7 +37,7 @@ starttablename.fieldname
 ticket.title
 ```
 
-Read more about [joins and relations](../../CRMScript/advanced/searchengine/dot-syntax.md).
+Read more about [joins and relations][1].
 
 ## Criteria
 
@@ -74,7 +74,7 @@ These lines will construct the following SQL:
 | where.n.critPriority | The indent of the row              |
 | order.length         | The number of order fields         |
 | order.n.field        | The field to order by              |
-| order.n.direction    | The sort order<br/>"asc" or "desc" |
+| order.n.direction    | The sort order<br>"asc" or "desc" |
 | limit                | Limits the number of found rows    |
 
 ### Indents
@@ -131,3 +131,6 @@ criteria.1.indent = 1
 order.length = 1
 order.0.direction = asc
 ```
+
+<!-- Referenced links -->
+[1]: ../../CRMScript/advanced/searchengine/dot-syntax.md

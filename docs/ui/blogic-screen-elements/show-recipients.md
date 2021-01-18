@@ -17,8 +17,8 @@ This is a control that lists all recipients.
 
 | Action | Map keys                   | Description |
 |:-------|:---------------------------|:------------|
-| set    | to<br />cc<br/>bcc<br/>sms |             |
-| add    | to<br />cc<br/>bcc<br/>sms |             |
+| set    | to<br>cc<br>bcc<br>sms |             |
+| add    | to<br>cc<br>bcc<br>sms |             |
 
 ## Example
 

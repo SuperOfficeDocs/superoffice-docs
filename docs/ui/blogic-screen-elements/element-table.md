@@ -30,8 +30,8 @@ You can set and position a labels, config vertical space, and config dynamic res
 | Setting                       | Description                                       |
 |:------------------------------|:--------------------------------------------------|
 | label                         | UI label in grid                                  |
-| labelPos                      | positions element<br/>above or left (default)     |
-| verticalSpace                 | full: unlimited (full-size)<br/>rest: resize element to remaining v. space |
+| labelPos                      | positions element<br>above or left (default)     |
+| verticalSpace                 | full: unlimited (full-size)<br>rest: resize element to remaining v. space |
 | sizeAttributes_blockSetHeight | Set to true to prevent vertical resizing          |
 | sizeAttributes_blockSetWidth  | Set to true to prevent horizontal resizing        |
 | sizeAttributes_minHeight      | Sets the min height the element can be resized to |
@@ -42,4 +42,4 @@ You can set and position a labels, config vertical space, and config dynamic res
 | sizeAttributes_absoluteWidth  | Sets a fixed width for this element               |
 
 > [!NOTE]
-> If multiple child elements have verticalSpace=rest, the remaining space will be divided equally.<br/>Size attributes apply only to child elements that support dynamic resizing. If not supported, these attributes will be ignored.
+> If multiple child elements have verticalSpace=rest, the remaining space will be divided equally.<br>Size attributes apply only to child elements that support dynamic resizing. If not supported, these attributes will be ignored.

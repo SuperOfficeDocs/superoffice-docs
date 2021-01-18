@@ -49,7 +49,7 @@ Returns the value of the checked button.
 
 | Action     | Map keys                    | Description                  |
 |:-----------|:----------------------------|:-----------------------------|
-| addButton  | label<br/>value<br/>checked | Adds a button                |
+| addButton  | label<br>value<br>checked | Adds a button                |
 | setChecked | buttonValue                 | Sets a button value (0 or 1) |
 
 ```crmscript

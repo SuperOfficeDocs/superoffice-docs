@@ -79,7 +79,7 @@ The **display location** of a web panel is selected as *Visible in* when you def
 
 ### In Service
 
-In Service, web panels are called **extra browser tabs**. You can add the same type of content as for [extra menus](./extra-menus.md).
+In Service, web panels are called **extra browser tabs**. You can add the same type of content as for [extra menus][1].
 
 1. Sign in to SuperOffice Service.
 2. From the hamburger menu, select **System Design** and then select **Web panels**.
@@ -91,7 +91,7 @@ In Service, web panels are called **extra browser tabs**. You can add the same t
 8. Test the result.
 
 > [!TIP]
-> Read more about [base programs and URL parameters](./url-parameters.md).
+> Read more about [base programs and URL parameters][2].
 
 ## Url encoding
 
@@ -109,18 +109,18 @@ Conversion replaces unsafe characters with a percent (%) followed by 2 hexadecim
 
 ### Unicode
 
-Conversion transforms all characters to UTF-8 and then prefixes each character's 1–3 byte hexadecimal value with % according to [RFC 2279](http://www.ietf.org/rfc/rfc2279.txt).
+Conversion transforms all characters to UTF-8 and then prefixes each character's 1–3 byte hexadecimal value with % according to [RFC 2279][3].
 
 ## Passing data with template variables
 
 You can use template variables to pass data to the destination page to tailor it to the client context. This could be information about the current contact, person, or project.
 
-For example, instead of `http://www.search.com/search?q=SuperOffice`, we can use the template variable for *company name* - which is \<name> - and type `http://www.search.com/search?q=<name>`
+For example, instead of `http://www.search.com/search?q=SuperOffice`, we can use the template variable for *company name* - which is `<name>` - and type `http://www.search.com/search?q=<name>`
 
 **Available variables:**
 
-* [for CRM](https://community.superoffice.com/documentation/help/EN/CRM/8.5/UserHelp/index.htm#t=StandardCRM%2Fchap02%2FTemplate_variables.htm)
-* [for Service](https://community.superoffice.com/documentation/help/EN/CRM/8.5/UserHelp/index.htm#t=Service%2Ftopics%2FTemplate_variables.html)
+* [for CRM][4]
+* [for Service][5]
 
 Here's how it works:
 
@@ -131,7 +131,7 @@ Here's how it works:
 2. Write the code of the target webpage so that it does something useful with the template variables.
 
 > [!TIP]
-> You can also pass template variables as **hidden variables** in your [custom screens](./custom-screens/custom-screens.md). And then do something like this in the suitable load or creation script:
+> You can also pass template variables as **hidden variables** in your [custom screens][6]. And then do something like this in the suitable load or creation script:
 
 ```crmscript
 User u;
@@ -142,7 +142,7 @@ u.load(getVariable("activeUser").toInteger());
 
 You can **add a link** in your web panel that will load another panel when pressed.
 
-The HTML \<a> tag has multiple attributes. In addition to the **href** attribute, we can set the **target** attribute to specify *where* to open the link.
+The HTML `<a>` tag has multiple attributes. In addition to the **href** attribute, we can set the **target** attribute to specify *where* to open the link.
 
 Syntax:
 
@@ -160,10 +160,18 @@ For example, `target="project.pdetails"` with link text *Show project info*.
 | Setting      | Description                                                           |
 |:-------------|:----------------------------------------------------------------------|
 | Name         | UI label                                                              |
-| Window name  | ID of the panel, used in the HTML you load into the panels<br/>Must be unique, use prefixes |
+| Window name  | ID of the panel, used in the HTML you load into the panels<br>Must be unique, use prefixes |
 | Description  | Tool-tip text                                                         |
 | URL          | Location of web page                                                  |
 | URL encoding | None, ANSI, or Unicode                                                |
 | Visible in   | The display location                                                  |
 | Available on | Device type (web, mobile)                                             |
 | Show         | Whether to show the menu bar, toolbar, address bar, and/or status bar |
+
+<!-- Referenced links -->
+[1]: extra-menus.md
+[2]: url-parameters.md
+[3]: http://www.ietf.org/rfc/rfc2279.txt
+[4]: https://community.superoffice.com/documentation/help/EN/CRM/8.5/UserHelp/index.htm#t=StandardCRM%2Fchap02%2FTemplate_variables.htm
+[5]: https://community.superoffice.com/documentation/help/EN/CRM/8.5/UserHelp/index.htm#t=Service%2Ftopics%2FTemplate_variables.html
+[6]: custom-screens/index.md

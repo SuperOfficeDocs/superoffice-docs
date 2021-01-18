@@ -15,7 +15,7 @@ This element will display a horizontal line of clickable URLs.
 
 | Setting          | Description                                       |
 |:-----------------|:--------------------------------------------------|
-| table            | Set to get a default set of URLs (v.4.0)<br/>ticket, customer, person, company, cust_company, contact |
+| table            | Set to get a default set of URLs (v.4.0)<br>ticket, customer, person, company, cust_company, contact |
 | items            | Array of items to display                         |
 | items.length     | Number of items                                   |
 | items.n.label    | The label of item n                               |
@@ -50,11 +50,11 @@ items.0.iconUrl = /doc/icons/clickme.gif
 | entry.n.url            | The URL of entry n                                 |
 | entry.n.target         | The target of entry n                              |
 | entry.n.warningMessage | The warning message of entry n                     |
-| entry.n.disabled       | Whether the entry n is deactivated<br/>1=yes, 0=no |
+| entry.n.disabled       | Whether the entry n is deactivated<br>1=yes, 0=no |
 
 ### setFieldValue(String action, Map values)
 
 | Action   | Map keys               | Description                         |
 |:---------|:-----------------------|:------------------------------------|
-| addEntry | label<br/>url<br/>target<br/>alt<br/>icon<br/>index<br/>warningMessage<br/>disabled<br/>onClick | Adds an entry |
-| delEntry | index<br/>group        | Deletes the entry or group          |
+| addEntry | label<br>url<br>target<br>alt<br>icon<br>index<br>warningMessage<br>disabled<br>onClick | Adds an entry |
+| delEntry | index<br>group        | Deletes the entry or group          |

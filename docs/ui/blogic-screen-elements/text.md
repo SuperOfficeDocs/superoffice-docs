@@ -16,7 +16,7 @@ This element is a single-line text input field.
 | Setting         | Description                                           |
 |:----------------|:------------------------------------------------------|
 | label           | UI label                                              |
-| maxLength       | The maximum length of the field<br/>Default is 255    |
+| maxLength       | The maximum length of the field<br>Default is 255    |
 | size            | The number of displayable characters                  |
 | placeholder     | A temporary string (v. 8.4R08)                        |
 | isPassword      | Whether the input should be a valid password          |

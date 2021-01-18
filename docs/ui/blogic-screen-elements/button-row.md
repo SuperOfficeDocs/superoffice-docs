@@ -17,10 +17,10 @@ This element adds a row of clickable buttons to your screen.
 |:------------------|:------------------------------------------------------------------------|
 | buttons.n.name    | Adds a name to the nth button                                           |
 | buttons.n.label   | Adds a value to the nth button                                          |
-| buttons.n.warning | Adds a warning message<br/>Shown in a pop-up when the button is pressed |
+| buttons.n.warning | Adds a warning message<br>Shown in a pop-up when the button is pressed |
 | buttons.n.iconurl | Custom icon to use                                                      |
 | buttons.n.style   | *See list of styles*                                                    |
-| align             | Justifies the row<br/>left, center, or right (default)                  |
+| align             | Justifies the row<br>left, center, or right (default)                  |
 
 ### Styles
 
@@ -52,7 +52,7 @@ buttons.length = 3
 
 | Action    | Map keys               | Description                                            |
 |:----------|:-----------------------|:-------------------------------------------------------|
-| addButton | name<br/>label<br/>warning<br/>iconUrl<br/>className | Adds a button to the row |
+| addButton | name<br>label<br>warning<br>iconUrl<br>className | Adds a button to the row |
 
 > [!NOTE]
 > The name of the buttons **must be mapped to scripts** that might be run for the current screen.

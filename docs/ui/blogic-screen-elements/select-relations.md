@@ -11,14 +11,14 @@ so.topic: reference
 
 This element is used for selecting the primary ID from multiple tables.
 
-It is similar to [Select relation](./select-relation.md). However, it is used when **more than 1 relation** is required, and displays these in a **grid**.
+It is similar to [Select relation][1]. However, it is used when **more than 1 relation** is required, and displays these in a **grid**.
 
 ## Configuration
 
 | Setting             | Description                                                                                |
 |:--------------------|:-------------------------------------------------------------------------------------------|
 | idField             | The field containing the ID of the relation                                                |
-| limit               | Limits the search results<br/>Default is 25                                                |
+| limit               | Limits the search results<br>Default is 25                                                |
 | FlagRadioForPrimary | Whether to add a left-most column with radio buttons for selecting the primary entry       |
 | FlagCheckbox        | Whether to add a left-most column with checkboxes for each row                             |
 | FlagOnlyOne         | Restricts the control to 1 entry (use this control instead of *Select relation*). (v. 4.0) |
@@ -33,7 +33,7 @@ It is similar to [Select relation](./select-relation.md). However, it is used wh
 | column.n.label        | The header for this column                            |
 | column.n.displayField | The database field to display in this column          |
 | column.n.searchField  | The database field to search for this column's values |
-| column.n.operator     | The operator used when searching this column<br/>For example, OperatorBeginsWith, OperatorEquals, OperatorContains |
+| column.n.operator     | The operator used when searching this column<br>For example, OperatorBeginsWith, OperatorEquals, OperatorContains |
 
 ### Criteria
 
@@ -41,7 +41,7 @@ Criteria constrain which data to have in the grid.
 
 | Value                  | Description                                                         |
 |:-----------------------|:--------------------------------------------------------------------|
-| criteria.n.operator    | The operator for this criterion<br/>For example,OperatorEquals      |
+| criteria.n.operator    | The operator for this criterion<br>For example,OperatorEquals      |
 | criteria.n.field       | The database field for this criterion                               |
 | criteria.n.rowOperator | The operator between this and the next criterion                    |
 | criteria.n.indent      | How many parentheses surround this criterion                        |
@@ -53,7 +53,7 @@ Criteria constrain which data to have in the grid.
 | Value         | Description                                      |
 |:--------------|:-------------------------------------------------|
 | order.n.field | The database field to sort on                    |
-| order.n.desc  | The sort order<br/>0 = ascending, 1 = descending |
+| order.n.desc  | The sort order<br>0 = ascending, 1 = descending |
 | order.length  | Number of columns to sort on                     |
 
 ## Example
@@ -117,8 +117,11 @@ getVariable("limit." + X);
 
 | Action          | Map keys                              | Description                                                               |
 |:----------------|:--------------------------------------|:--------------------------------------------------------------------------|
-| addId           | id<br/>checked                        | Adds a row to the table with the entry with the given ID.<br/>The rest of the values are looked up in the database. |
-| addRow          | id<br/>checked<br/>hidden<br/>field.n | Adds a row to the table with n ranging from 0 to the number of columns -1 |
-| addCriteria     | field<br/>operator<br/>value<br/>rowOperator<br/>indent | Adds a criteria                                         |
-| addColumn       | displayField<br/>searchField<br/>operator<br/>label     | Adds a column                                           |
+| addId           | id<br>checked                        | Adds a row to the table with the entry with the given ID.<br>The rest of the values are looked up in the database. |
+| addRow          | id<br>checked<br>hidden<br>field.n | Adds a row to the table with n ranging from 0 to the number of columns -1 |
+| addCriteria     | field<br>operator<br>value<br>rowOperator<br>indent | Adds a criteria                                         |
+| addColumn       | displayField<br>searchField<br>operator<br>label     | Adds a column                                           |
 | clearCheckedIds |                                       | Clears the checked rows (v. 4.2.21)                                       |
+
+<!-- Referenced links -->
+[1]: select-relation.md

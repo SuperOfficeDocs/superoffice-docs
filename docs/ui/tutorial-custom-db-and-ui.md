@@ -14,11 +14,11 @@ Then we'll create a custom screen in SuperOffice Service and finally make the ta
 
 **View equipment:**
 
-![Screen capture of view Equipment](../images/tutorial-eqpt-view-equipment.png)
+![Screen capture of view Equipment][img1]
 
 **Selecting company on equipment:**
 
-![Screen capture of edit Equipment](../images/tutorial-eqpt-select-company.png)
+![Screen capture of edit Equipment][img2]
 
 > [!NOTE]
 > This requires a valid SuperOffice Expander Services license.
@@ -33,12 +33,12 @@ Then we'll create a custom screen in SuperOffice Service and finally make the ta
 
 | Name         | Database field | Type         | Other settings         | Description                                               |
 |:-------------|:---------------|:-------------|:-----------------------|:----------------------------------------------------------|
-| Label        | x_label        | Text (short) | Cannot be empty<br/>Show in table<br/>View in rel. choosers | A label for the unit |
+| Label        | x_label        | Text (short) | Cannot be empty<br>Show in table<br>View in rel. choosers | A label for the unit |
 | Acquired     | x_acquired     | Date         | Show in table          | When the unit was acquired                                |
 | Disposed     | x_disposed     | Date         | Show in table          | When (if ever) the unit was disposed                      |
 | Memory       | x_memory       | Text (short) | Show in table          | Amount of memory                                          |
 | Disk         | x_disk         | Text (short) | Show in table          | Amount of disk space                                      |
-| Manufacturer | x_manufacturer | Text (short) | Show in table<br/>Choose values from list      | The manufacturer (drop-down)      |
+| Manufacturer | x_manufacturer | Text (short) | Show in table<br>Choose values from list      | The manufacturer (drop-down)      |
 
 1. Sign in to SuperOffice Service and open the **Tables** screen.
 2. Click **New table**.
@@ -53,16 +53,16 @@ Then we'll create a custom screen in SuperOffice Service and finally make the ta
 7. Click **Restart NetServer**.
 
 > [!TIP]
-> You can find detailed instructions and conventions in the [database customization](../CRMScript/advanced/custom-database/extra-tables.md) section.
+> You can find detailed instructions and conventions in the [database customization][1] section.
 
 **Table properties:**
-![Screen capture of Equipment table properties](../images/tutorial-eqpt-table-properties.png)
+![Screen capture of Equipment table properties][img3]
 
 **Element properties:**
-![Screen capture of Label element properties](../images/tutorial-eqpt-field-properties.png)
+![Screen capture of Label element properties][img4]
 
 **Choose values from list:**
-![Screen capture of Manufacturer element values](../images/tutorial-eqpt-manufacturer.png)
+![Screen capture of Manufacturer element values][img5]
 
 ## Step2: relate equipment to requests and company
 
@@ -81,7 +81,7 @@ We also want to register all equipment owned by a company. This is the opposite 
 4. Set element properties and click **OK**.
 5. Click **Restart NetServer**.
 
-![Screen capture of Equipment FK](../images/tutorial-eqpt-foreign-key-request.png)
+![Screen capture of Equipment FK][img6]
 
 ### Company
 
@@ -93,14 +93,14 @@ We also want to register all equipment owned by a company. This is the opposite 
 4. Set element properties and click **OK**.
 5. Click **Restart NetServer**.
 
-![Screen capture of Company FK](../images/tutorial-eqpt-foreign-key-company.png)
+![Screen capture of Company FK][img7]
 
 ### Fields
 
 | Name      | Database field | Type                 | Add to table | Other settings         |
 |:----------|:---------------|:---------------------|:-------------|:-----------------------|
-| Equipment | x_equipment    | Extra table relation | Requests     | Enter *Requests* in **Header for list**<br/>Select your Equipment table under **Target table** |
-| Company   | x_company      | Company relation     | Equipment    | Enter *Equipment* in **Header for list**<br/>Select **Show in table** |
+| Equipment | x_equipment    | Extra table relation | Requests     | Enter *Requests* in **Header for list**<br>Select your Equipment table under **Target table** |
+| Company   | x_company      | Company relation     | Equipment    | Enter *Equipment* in **Header for list**<br>Select **Show in table** |
 
 ## Step 3: add default Equipment screen to the Service navigator
 
@@ -120,10 +120,10 @@ menu.addItem("List equipment", getProgram(1) + "&action=listExtraTable&extraTabl
 menu.addItem("New unit", getProgram(1) + "&action=editExtraTableEntry&extraTable=y_equipment", 1, 1);
 ```
 
-![Screen capture of Equipment navigator button](../images/tutorial-eqpt-navigator-button.png)
+![Screen capture of Equipment navigator button][img8]
 
 > [!TIP]
-> Read more about the [main menu](./mainmenu.md).
+> Read more about the [main menu][2].
 
 ## Step 4 (optional): create a custom screen
 
@@ -131,7 +131,7 @@ Rather than using the default generated Equipment screen, we can design our own.
 
 When you're done, the tree should look like this:
 
-![Screen capture of Equipment screen elements](../images/tutorial-eqpt-element-nesting.png)
+![Screen capture of Equipment screen elements][img9]
 
 1. Open the **Screens** page and click **New screen**.
 2. Enter screen properties (name = Equipment) and click **OK**.
@@ -141,9 +141,9 @@ When you're done, the tree should look like this:
     3. Copy the corresponding config into the **Simple values** tab.
     4. Click **Apply**. Then click **OK**.
 4. Toggle preview to test your current screen.
-5. Set up a [screen chooser](./screen-choosers.md).
+5. Set up a [screen chooser][3].
 
-![Screen capture of Equipment screen preview](../images/tutorial-eqpt-screen-preview.png)
+![Screen capture of Equipment screen preview][img10]
 
 ### Elements
 
@@ -211,7 +211,7 @@ url = ticket.exe?action=listTicket&ticketId=
 ```
 
 > [!TIP]
-> Read more about [custom screens](./custom-screens/custom-screens.md) and [adding elements](./custom-screens/add-screen-element.md).
+> Read more about [custom screens][4] and [adding elements][5].
 
 ## Step 5: add the table to Sales as a web panel
 
@@ -225,9 +225,9 @@ url = ticket.exe?action=listTicket&ticketId=
 7. Click **Save**.
 8. Test the result.
 
-![Screen capture of Equipment web panel spec](../images/tutorial-eqpt-web-panel-spec.png)
+![Screen capture of Equipment web panel spec][img11]
 
-![Screen capture of Equipment web panel](../images/tutorial-eqpt-web-panel.png)
+![Screen capture of Equipment web panel][img12]
 
 **Parameters in this URL:**
 
@@ -237,8 +237,31 @@ url = ticket.exe?action=listTicket&ticketId=
 | action=listTableEntries       | The method in ticket.exe for listing table entries     |
 | table=y_equipment             | Our Equipment table                                    |
 | field.0=y_equipment.x_company | The 1st field in the where-criteria of our query       |
-| value.0=\<cuid>               | The corresponding value for field.0<br/>Template variable for the ID of the current company |
+| value.0=\<cuid>               | The corresponding value for field.0<br>Template variable for the ID of the current company |
 | x_company=\<cuid>             | Pre-fills the company ID value in the New entry dialog |
 
 > [!TIP]
-> Read more about [web panels](./web-panels.md) and [URL parameters](./url-parameters.md).
+> Read more about [web panels][6] and [URL parameters][7].
+
+<!-- Referenced links -->
+[1]: ../CRMScript/advanced/custom-database/extra-tables.md
+[2]: mainmenu.md
+[3]: screen-choosers.md
+[4]: custom-screens/index.md
+[5]: custom-screens/add-screen-element.md
+[6]: web-panels.md
+[7]: url-parameters.md
+
+<!-- Referenced images -->
+[img1]: media/tutorial-eqpt-view-equipment.png
+[img2]: media/tutorial-eqpt-select-company.png
+[img3]: media/tutorial-eqpt-table-properties.png
+[img4]: media/tutorial-eqpt-field-properties.png
+[img5]: media/tutorial-eqpt-manufacturer.png
+[img6]: media/tutorial-eqpt-foreign-key-request.png
+[img7]: media/tutorial-eqpt-foreign-key-company.png
+[img8]: media/tutorial-eqpt-navigator-button.png
+[img9]: media/tutorial-eqpt-element-nesting.png
+[img10]: media/tutorial-eqpt-screen-preview.png
+[img11]: media/tutorial-eqpt-web-panel-spec.png
+[img12]: media/tutorial-eqpt-web-panel.png

@@ -16,17 +16,17 @@ so.topic:
 
 ## Visual components
 
-* [Header](../blogic-screen-elements/header.md): adds a sub-header (can be made into a link)
+* [Header][1]: adds a sub-header (can be made into a link)
 
-* [Link row (Anchor line)](../blogic-screen-elements/anchor-line.md): adds a horizontal line of clickable URLs (breadcrumbs)
+* [Link row (Anchor line)][2]: adds a horizontal line of clickable URLs (breadcrumbs)
 
-* [BR](../blogic-screen-elements/br.md): adds an HTML line-break (vertical space)
+* [BR][3]: adds an HTML line-break (vertical space)
 
-* [HR](../blogic-screen-elements/hr.md): adds a horizontal line
+* [HR][4]: adds a horizontal line
 
 ## Info fields v2
 
-[Info fields v2](../blogic-screen-elements/info-fields-2.md) adds a grid of information fields.
+[Info fields v2][5] adds a grid of information fields.
 
 ### Example config
 
@@ -63,13 +63,13 @@ In this example, there's 1 group with 2 fields.
 
 ## HTML text with parser and database
 
-Adds HTML-formatted text, including data from the database as [parser variables](../../CRMScript/advanced/parser-and-templates/parser.md).
+Adds HTML-formatted text, including data from the database as [parser variables][6].
 
-This element also supports AJAX. See examples in the [element reference](../blogic-screen-elements/parser-code.md).
+This element also supports AJAX. See examples in the [element reference][7].
 
 ## Data table
 
-A [data table](../blogic-screen-elements/data-table.md) adds a dynamic grid (table) **automatically filled with data**. The information is based on a query to the database.
+A [data table][8] adds a dynamic grid (table) **automatically filled with data**. The information is based on a query to the database.
 
 ### Example with simple values
 
@@ -177,25 +177,25 @@ String formatDisplayField(SearchEngine se, String field) {
 
 ## Static grid
 
-[Static grid](../blogic-screen-elements/static-grid.md) adds an empty static grid (table). You must add content manually!
+[Static grid][9] adds an empty static grid (table). You must add content manually!
 
 ## Chart
 
-[Chart](../blogic-screen-elements/chart.md) adds a chart using the JavaScript **charts** library.
+[Chart][10] adds a chart using the JavaScript **charts** library.
 
 ## Context-specific elements
 
-* [Dependency graph](../blogic-screen-elements/dependency-graph.md) (for project)
+* [Dependency graph][11] (for project)
 
-* [Messages](../blogic-screen-elements/messages.md): display the messages for a ticket
+* [Messages][12]: display the messages for a ticket
 
-* [Recipients](../blogic-screen-elements/recipients.md): shows email recipients
+* [Recipients][13]: shows email recipients
 
-* [Planner (diary)](../blogic-screen-elements/planner.md): shows a day schedule
+* [Planner (diary)][14]: shows a day schedule
 
 ## Scripts
 
-The [Ejscript element](../blogic-screen-elements/ejscript-element.md) adds a completely custom element to your screen. Use CRMScript to set content and behavior.
+The [Ejscript element][15] adds a completely custom element to your screen. Use CRMScript to set content and behavior.
 
 ### Example: add a heading
 
@@ -253,3 +253,20 @@ Void element_setFieldValue(String field, Map map) {
     message = map.get("message");
 }
 ```
+
+<!-- Referenced links -->
+[1]: ../blogic-screen-elements/header.md
+[2]: ../blogic-screen-elements/anchor-line.md
+[3]: ../blogic-screen-elements/br.md
+[4]: ../blogic-screen-elements/hr.md
+[5]: ../blogic-screen-elements/info-fields-2.md
+[6]: ../../CRMScript/advanced/parser-and-templates/parser.md
+[7]: ../blogic-screen-elements/parser-code.md
+[8]: ../blogic-screen-elements/data-table.md
+[9]: ../blogic-screen-elements/static-grid.md
+[10]: ../blogic-screen-elements/chart.md
+[11]: ../blogic-screen-elements/dependency-graph.md
+[12]: ../blogic-screen-elements/messages.md
+[13]: ../blogic-screen-elements/recipients.md
+[14]: ../blogic-screen-elements/planner.md
+[15]: ../blogic-screen-elements/ejscript-element.md

@@ -128,7 +128,7 @@ superoffice:contact.personarchive.main.activate?db_id=98765&contact_id=5
 
 ## Using SOProtocol in CRMScript
 
-In CRMScript, you can use `setNavigateTo()` and `getNavigateTo()` of the [EventData](./eventdata.md) object to work with SOProtocol URLs.
+In CRMScript, you can use `setNavigateTo()` and `getNavigateTo()` of the [EventData][1] object to work with SOProtocol URLs.
 
 ```crmscript
 EventData ed = getEventData();
@@ -139,7 +139,7 @@ ed.setNavigateTo("soprotocol:sale.document?document_id=0");
 
 ### Go to web panel
 
-Let's say we've added a [web panel](./web-panels.md) with window name *erpinfo* to the Contact card, To reference it:
+Let's say we've added a [web panel][2] with window name *erpinfo* to the Contact card, To reference it:
 
 ```html
 superoffice:contact.www.erpinfo?contact_id=2
@@ -161,7 +161,7 @@ Webpages shown in web panels can also use SOProtocol links. For example, to disp
 
 However, this link also reloads the page, showing a blank page in addition to the dialog.
 
-To get rid of the blank page, we can use the **target** attribute on the link and a hidden **iframe** to put the result of the click outside the user's view. The \<iframe> tag specifies an inline frame, which embeds another document within the current HTML document.
+To get rid of the blank page, we can use the **target** attribute on the link and a hidden **iframe** to put the result of the click outside the user's view. The `<iframe>` tag specifies an inline frame, which embeds another document within the current HTML document.
 
 ```html
 <a href="superoffice:contact.appointment" target="hiddenframe">Show Appointment dialog</a>
@@ -171,4 +171,9 @@ To get rid of the blank page, we can use the **target** attribute on the link an
 You can now click the link - the **Appointment** dialog appears, and the web page remains unchanged.
 
 > [!TIP]
-> You can also issue an SoProtocol from a web panel use the [CrossMessaging API](https://github.com/SuperOffice/DevNet/tree/master/CrossMessaging).
+> You can also issue an SoProtocol from a web panel use the [CrossMessaging API][3].
+
+<!-- Referenced links -->
+[1]: eventdata.md
+[2]: web-panels.md
+[3]: https://github.com/SuperOffice/DevNet/tree/master/CrossMessaging

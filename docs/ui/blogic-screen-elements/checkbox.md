@@ -17,7 +17,7 @@ Adds a checkbox to your screen.
 |:------------|:---------------------------------------------------------------------|
 | label       | UI label, displayed to the left of the box                           |
 | suffixLabel | Optional description, displayed to the right of the box              |
-| warning     | Adds a warning message<br/>Shown in a pop-up when the box is checked |
+| warning     | Adds a warning message<br>Shown in a pop-up when the box is checked |
 
 ## Functions
 

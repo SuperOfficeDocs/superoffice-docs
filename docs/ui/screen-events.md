@@ -28,22 +28,22 @@ For example, *HtmlPage.lang_ticket_editCompany.afterSetFromCgi*.
 
 ### When to use a hook script
 
-Hook scripts are useful when you want to tweak a standard SuperOffice Service screen, but [building a custom screen](./custom-screens/custom-screen.md) is overkill for your minor modifications.
+Hook scripts are useful when you want to tweak a standard SuperOffice Service screen, but [building a custom screen][1] is overkill for your minor modifications.
 
 > [!NOTE]
 > Hook scripts are run **every single time a particular screen loads!** Carefully consider the overhead you are introducing.
 
 ### When NOT to use a hook script
 
-* You need to [add or remove elements](./custom-screens/add-screen-element.md) (controls) on the screen
-* You need to [change the layout](./custom-screens/layout-elements.md) of elements
+* You need to [add or remove elements][2] (controls) on the screen
+* You need to [change the layout][3] of elements
 * You're tailoring SuperOffice CRM
 
 ## Screen names and HTML elements
 
-All screens in the system have a **unique name (ID)**, for example, *lang_ticket_editCompany*. It can easily be identified by looking at the source of the page.
+All screens in the system have a **unique name (ID)**, for example, `lang_ticket_editCompany`. It can easily be identified by looking at the source of the page.
 
-You can interact with standard SuperOffice Service screens using [HtmlElement](./htmlelement.md) methods. To access an element, call `getHtmlElement()`.
+You can interact with standard SuperOffice Service screens using [HtmlElement][4] methods. To access an element, call `getHtmlElement()`.
 
 > [!CAUTION]
 > The names of screens as well as HTML elements **might change over time**. Stay up to date with UI changes to prevent your scripts from breaking. If you call `getHtmlElement()` with an unknown name, it returns a dummy element not used on that screen.
@@ -72,13 +72,13 @@ for (Integer i = 0; i < getNumHtmlElements(); i++) {
 ```
 
 > [!TIP]
-> Read more about [using printDebug()](../CRMScript/debugging/print-debug.md).
+> Read more about [using printDebug()][5].
 
 ## beforeSetFromCgi event
 
 Event to hook into to do stuff **before** all elements on the screen set their values from the CGI-data.
 
-Normally called only for [screens containing forms](./custom-screens/form-elements.md).
+Normally called only for [screens containing forms][6].
 
 **Include-ID:** *HtmlPage.SCREEN.beforeSetFromCgi*
 
@@ -86,7 +86,7 @@ Normally called only for [screens containing forms](./custom-screens/form-elemen
 
 Event to hook into to do stuff **after** all elements on the screen have set their values from the CGI-data.
 
-Normally called only for [screens containing forms](./custom-screens/form-elements.md).
+Normally called only for [screens containing forms][6].
 
 **Include-ID:** *HtmlPage.SCREEN.afterSetFromCgi*
 
@@ -142,3 +142,11 @@ if (activeTab.toInteger() > 0) {
 ```
 
 This lets you go to the standard screen with `&action=viewTableEntry&table=ticket&id=123&activePane=2`.
+
+<!-- Referenced links -->
+[1]: custom-screens/index.md
+[2]: custom-screens/add-screen-element.md
+[3]: custom-screens/layout-elements.md
+[4]: htmlelement.md
+[5]: ../CRMScript/debugging/print-debug.md
+[6]: custom-screens/form-elements.md

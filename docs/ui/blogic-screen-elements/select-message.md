@@ -24,7 +24,7 @@ This element lets the user select a message from a ticket.
 
 | Action   | Map keys       | Description                              |
 |:---------|:---------------|:-----------------------------------------|
-| add      | name<br/>value |                                          |
+| add      | name<br>value |                                          |
 | remove   | value          | Removes all options with the given value |
 | clear    |                | Removes all options                      |
 

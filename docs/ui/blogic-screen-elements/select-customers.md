@@ -9,7 +9,7 @@ so.topic: reference
 
 # Select contacts
 
-A variant of ./blogic-screen-elements/select-contact that lets you select more than 1 contact person.
+A variant of [select contact][1] that lets you select more than 1 contact person.
 
 Previously called *Select customer*.
 
@@ -34,3 +34,6 @@ No settings.
 ### toString()
 
 Returns a comma-separated list of the IDs of the customers.
+
+<!-- Referenced links -->
+[1]: select-customers.md

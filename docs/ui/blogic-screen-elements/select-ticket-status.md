@@ -38,7 +38,7 @@ This element adds **radio buttons** with all statuses. It also adds a calendar f
 
 | Action | Map keys            | Description         |
 |:-------|:--------------------|:--------------------|
-| set    | activate<br/>status | Sets various values |
+| set    | activate<br>status | Sets various values |
 
 ### toString()
 

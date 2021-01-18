@@ -24,7 +24,7 @@ This element is a standard root frame used in a lot of screens.
 
 | Action    | Map keys               | Description                             |
 |:----------|:-----------------------|:----------------------------------------|
-| addButton | name<br/>label<br/>style<br/>warning | Adds a button to the form |
+| addButton | name<br>label<br>style<br>warning | Adds a button to the form |
 
 #### Styles
 

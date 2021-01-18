@@ -9,7 +9,7 @@ so.topic: howto
 
 # Add screen element
 
-**Screen elements** (controls) are the building blocks of custom screens. They determine the [layout](./layout-elements.md), display [read-only info](./view-elements.md), and provide [user interaction](./form-elements.md).
+**Screen elements** (controls) are the building blocks of custom screens. They determine the [layout][1], display [read-only info][2], and provide [user interaction][3].
 
 **Element properties** are a combination of settings (simple values) and CRMScripts.
 
@@ -31,7 +31,7 @@ so.topic: howto
 Most elements have configuration options. These are specific to the different types of elements (for example, title and name).
 
 > [!TIP]
-> You can look up available settings for a specific element under the *Configuration* heading in the [element reference](../blogic-screen-elements/blogic-screen-elements.md).
+> You can look up available settings for a specific element under the *Configuration* heading in the [element reference][4].
 
 Each option is written as a **key-value** pair in the **Simple values** tab of the element.
 
@@ -41,7 +41,7 @@ key2 = value2
 key3 = value3
 ```
 
-Each line is interpreted independently of the other lines. You can use our [line-based query syntax](./blogic-query-syntax.md) to specify values.
+Each line is interpreted independently of the other lines. You can use our [line-based query syntax][5] to specify values.
 
 > [!NOTE]
 > There's **no semicolon or comma at the end** of simple value lines.
@@ -77,16 +77,28 @@ To extend the default code, you'll be using database queries and the functions s
 
 It might look something like this:
 
-1. Get a reference to the element by declaring a variable of type [`HtmlElement`](../htmlelement.md) and assigning the object returned by `addHtmlElement()`
+1. Get a reference to the element by declaring a variable of type [`HtmlElement`][6] and assigning the object returned by `addHtmlElement()`
 
-2. Create a `SearchEngine` object and [specify your query](../../CRMScript/advanced/searchengine/se-select.md).
+2. Create a `SearchEngine` object and [specify your query][7].
 
-3. [Run the query](../../CRMScript/advanced/searchengine/se-run.md).
+3. [Run the query][8].
 
-4. [Loop over the result](../../CRMScript/advanced/searchengine/se-results.md). For each row:
-    * Create a [Map](../../CRMScript/datatypes/map-type.md).
+4. [Loop over the result][9]. For each row:
+    * Create a [Map][10].
     * Add key-value pairs to the map.
     * Add the map to the element using one of the element's functions.
 
 > [!TIP]
-> You can look up available functions for a specific element under the *Functions* heading in the [element reference](../blogic-screen-elements/blogic-screen-elements.md).
+> You can look up available functions for a specific element under the *Functions* heading in the [element reference][4].
+
+<!-- Referenced links -->
+[1]: layout-elements.md
+[2]: view-elements.md
+[3]: form-elements.md
+[4]: ../blogic-screen-elements/index.md
+[5]: blogic-query-syntax.md
+[6]: ../htmlelement.md
+[7]: ../../CRMScript/advanced/searchengine/se-select.md
+[8]: ../../CRMScript/advanced/searchengine/se-run.md
+[9]: ../../CRMScript/advanced/searchengine/se-results.md
+[10]: ../../CRMScript/datatypes/map-type.md

@@ -11,13 +11,13 @@ so.topic: reference
 
 This element is a hierarchical drop-down menu that lets you select a ticket category.
 
-### Configuration
+## Configuration
 
 | Setting          | Description                                                             |
 |:-----------------|:------------------------------------------------------------------------|
 | empty            | Adds "(none)" as a choice                                               |
 | onlyLeafCategory | Whether only leaf categories are valid choices                          |
-| parentCategory   | The root category of the tree<br/>Default is -1                         |
+| parentCategory   | The root category of the tree<br>Default is -1                         |
 | includeCategory  | Forces a category to be included, even if it was not chosen by the user |
 
 ## Functions

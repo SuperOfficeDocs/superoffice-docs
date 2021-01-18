@@ -4,7 +4,7 @@ description: UI interaction and customization
 author:
 so.date:
 keywords:
-so.topic:
+so.topic: concept
 ---
 
 # UI interaction and customization
@@ -13,29 +13,29 @@ A guide to interacting with and customizing the SuperOffice UI through CRMScript
 
 ## Screen events and hook scripts
 
-* [Screen events](./screen-events.md) represent steps in the process of loading Service screens.
+* [Screen events][1] represent steps in the process of loading Service screens.
 
 * *Hook scripts* are event-driven CRMScripts that do stuff at a specific point during loading.
 
 ## Extra menus and button scripts
 
-* [Extra menus](./extra-menus.md) let you make something easily available in SuperOffice Service. For example, a button that takes the user directly to a specific screen or a menu option that triggers a script.
+* [Extra menus][2] let you make something easily available in SuperOffice Service. For example, a button that takes the user directly to a specific screen or a menu option that triggers a script.
 
-* [Button scripts](./button-scripts.md) are CRMScripts that are referenced by their **includeId** and run when the user clicks a custom button.
+* [Button scripts][3] are CRMScripts that are referenced by their **includeId** and run when the user clicks a custom button.
 
 ## Custom screens (bLogic)
 
-**bLogic** is a system for [designing screens](./custom-screens/custom-screens.md) and displaying content in SuperOffice Service.
+**bLogic** is a system for [designing screens][4] and displaying content in SuperOffice Service.
 
-Custom screens are based on a set of [screen elements](./custom-screens/add-screen-element.md) (controls) such as text, date, grid, and CRMScript.
+Custom screens are based on a set of [screen elements][5] (controls) such as text, date, grid, and CRMScript.
 
 There are 3 types of screen elements:
 
-* [View elements](./custom-screens/view-elements.md): display info (read-only)
-* [Form elements](./custom-screens/form-elements.md): create user interaction with input fields
-* [Group elements](./custom-screens/layout-elements.md): create a hierarchy of elements and determine the layout of the screen
+* [View elements][6]: display info (read-only)
+* [Form elements][7]: create user interaction with input fields
+* [Group elements][8]: create a hierarchy of elements and determine the layout of the screen
 
-These are listed in the [element reference](./blogic-screen-elements/blogic-screen-elements.md).
+These are listed in the [element reference][9].
 
 With scripts, you can:
 
@@ -45,22 +45,40 @@ With scripts, you can:
 
 ## Screen choosers
 
-[Screen choosers](./screen-choosers.md) are CRMScripts that redirect to a custom screen (or perform other actions before loading a standard screen).
+[Screen choosers][10] are CRMScripts that redirect to a custom screen (or perform other actions before loading a standard screen).
 
 ## URL parameters
 
-[URL parameters](./url-parameters.md) let you control SuperOffice Service using simple HTTP commands.
+[URL parameters][11] let you control SuperOffice Service using simple HTTP commands.
 
 ## Web panels
 
-[Web panels](./web-panels.md) let you add webpages inside SuperOffice CRM.
+[Web panels][12] let you add webpages inside SuperOffice CRM.
 
 ## SOProtocol
 
-[SOProtocol](./so-protocol.md) is a standard for defining URL short-cuts to SuperOffice entities. It lets you control the user interface without scripting and send users directly to the entry in question.
+[SOProtocol]813] is a standard for defining URL short-cuts to SuperOffice entities. It lets you control the user interface without scripting and send users directly to the entry in question.
 
 ## Classes
 
-* [EventData](./eventdata.md)
-* [HtmlElement](./htmlelement.md)
-* [MainMenu](./mainmenu.md)
+* [EventData][14]
+* [HtmlElement][15]
+* [MainMenu][16]
+
+<!-- Referenced links -->
+[1]: screen-events.md
+[2]: extra-menus.md
+[3]: button-scripts.md
+[4]: custom-screens/index.md
+[5]: custom-screens/add-screen-element.md
+[6]: custom-screens/view-elements.md
+[7]: custom-screens/form-elements.md
+[8]: custom-screens/layout-elements.md
+[9]: blogic-screen-elements/index.md
+[10]: screen-choosers.md
+[11]: url-parameters.md
+[12]: web-panels.md
+[13]: so-protocol.md
+[14]: eventdata.md
+[15]: htmlelement.md
+[16]: mainmenu.md

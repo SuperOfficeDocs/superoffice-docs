@@ -19,7 +19,7 @@ This element will display a grid of information fields where the values can be o
 | header                      | The header (value or field)                                  |
 | headerIsField               | Whether the header is a field (Bool)                         |
 | headerChop                  | Max number of characters to shown in the header              |
-| width                       | Width of element as HTML style<br/>For example 100% or 300px |
+| width                       | Width of element as HTML style<br>For example 100% or 300px |
 | autoBreaks                  | Whether to break columns (Bool)                              |
 | autoUrl                     | Whether to create automatic URLs for relevant fields (Bool)  |
 | iconUrl                     | Custom icon to use                                           |

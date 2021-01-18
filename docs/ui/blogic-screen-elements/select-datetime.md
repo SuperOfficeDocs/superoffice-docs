@@ -9,7 +9,7 @@ so.topic: reference
 
 # Select DateTime
 
-This element is used to input a [DateTime](../../crmscript/datatypes/datetime-type.md).
+This element is used to input a [DateTime][1].
 
 ## Configuration
 
@@ -27,3 +27,6 @@ Sets the selected `DateTime`. The value must be formatted in a standard way, for
 ### toString()
 
 Returns the date as a string formatted as **YYYY-MM-DD HH:MI:SS**.
+
+<!-- Referenced links -->
+[1]: ../../crmscript/datatypes/datetime-type.md

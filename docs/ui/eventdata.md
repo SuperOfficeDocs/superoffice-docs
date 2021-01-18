@@ -11,7 +11,7 @@ so.topic:
 
 **EventData** gives you access to contextual information in an **event handler**. For example, the name of a created company or the amount of a sale.
 
-You can also check EventData properties after the event handler has run, to for example display a message or prevent an entity from being saved.
+You can also check `EventData` properties after the event handler has run, to for example display a message or prevent an entity from being saved.
 
 ## Fetch variables used in the current context
 
@@ -24,7 +24,7 @@ EventData ed = getEventData();
 
 ## Type
 
-The types of events that can occur pertain to either [Service screen events](./screen-events.md) (beforeSetFromCgi, afterSetFromCgi, beforePrint) or triggers.
+The types of events that can occur pertain to either [Service screen events][1] (`beforeSetFromCgi`, `afterSetFromCgi`, `beforePrint`) or triggers.
 
 ### Integer getType()
 
@@ -35,7 +35,7 @@ printLine(ed.getType().toString());
 
 ## Input values
 
-**Input values** are for getting available data - a **read** operation. You can either fetch a specific value or a [Map](../CRMScript/datatypes/map-type.md) with all values.
+**Input values** are for getting available data - a **read** operation. You can either fetch a specific value or a Map with all values.
 
 ### String getInputValue(String inputValue)
 
@@ -187,7 +187,7 @@ if (sourceIds.exists(sourceId.toString())){
 
 ## Navigation
 
-Navigation uses [SOProtocol](./so-protocol.md) and [URL parameters](./url-parameters.md).
+Navigation uses [SOProtocol][2] and [URL parameters][3].
 
 ### String getNavigateTo()
 
@@ -201,3 +201,8 @@ Sets which page to load next.
 EventData ed = getEventData();
 ed.setNavigateTo("soprotocol:sale.document?document_id=0");
 ```
+
+<!-- Referenced links -->
+[1]: screen-events.md
+[2]: so-protocol.md
+[3]: url-parameters.md

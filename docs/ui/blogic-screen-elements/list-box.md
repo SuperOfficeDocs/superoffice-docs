@@ -34,7 +34,7 @@ JavaScript = onblur="alert('Wow! You changed it!');"
 
 | Action | Map keys       | Description                              |
 |:-------|:---------------|:-----------------------------------------|
-| add    | name<br/>value | Adds an option                           |
+| add    | name<br>value | Adds an option                           |
 | remove | value          | Removes all options with the given value |
 | clear  |                | Removes all options                      |
 

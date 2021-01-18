@@ -10,7 +10,7 @@ so.topic: reference
 # Parser code
 
 This element lets you **display HTML text**, including data from the database as parser variables.
-The database query is defined using a [line-based query syntax](@crmscript_blogic_query_syntax).
+The database query is defined using a [line-based query syntax][1].
 
 The body fields contain the HTML text to use for the element.
 
@@ -74,3 +74,6 @@ for (Integer i = 0; i < getVariable("nodes.length").toInteger(); i++) {
   print("  </result>\n");
 }
 ```
+
+<!-- Referenced links -->
+[1]: ../custom-screens/crmscript-blogic-query-syntax.md

@@ -16,7 +16,7 @@ This element is used to specify email recipients.
 | Setting  | Description                                                        |
 |:---------|:-------------------------------------------------------------------|
 | label    | UI label                                                           |
-| ticketId | The related ticket<br/>Affects the values in the *copyTo* settings |
+| ticketId | The related ticket<br>Affects the values in the *copyTo* settings |
 
 ### Which lines to show
 
@@ -52,7 +52,7 @@ copyToSelf = true
 | cc                     | CC recipients                                                   |
 | bcc                    | Bcc recipients                                                  |
 | sms                    | Comma-separated SMS recipients                                  |
-| isCopyToAnyCustomerSet | Whether 1 or more recipients are customers<br />1 = yes, 0 = no |
+| isCopyToAnyCustomerSet | Whether 1 or more recipients are customers<br>1 = yes, 0 = no |
 
 ### setFieldValue(String action, Map values)
 

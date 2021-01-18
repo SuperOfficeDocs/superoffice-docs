@@ -13,13 +13,13 @@ Some form elements are specific to SuperOffice entities.
 
 ## Select entity fields
 
-There's a wide range of elements that add a drop-down to select an entity of a specific type. For example, [select company](../blogic-screen-elements/select-company.md) and [select sale](../blogic-screen-elements/select-sale.md).
+There's a wide range of elements that add a drop-down to select an entity of a specific type. For example, [select company][1] and [select sale][2].
 
-![Screen capture of select entity drop-downs](../../images/select-entity-dropdown.png)
+![Screen capture of select entity drop-downs][img1]
 
 ## Edit entity menu element
 
-Adds an [entity menu](../blogic-screen-elements/edit-entity-menu.md).
+Adds an [entity menu][3].
 
 ### Default menu for customer
 
@@ -31,7 +31,7 @@ entityMenu = customer
 label = Entitymenu
 ```
 
-![Screen capture of entity menu element](../../images/entity-menu-element.png)
+![Screen capture of entity menu element][img2]
 
 ### Custom menu
 
@@ -63,22 +63,22 @@ em.setFieldValue("addMenu", m);
 m.clear();
 ```
 
-![Screen capture of custom entity menu](../../images/entity-menu-custom.png)
+![Screen capture of custom entity menu][img3]
 
 ## Persons and organizations
 
 **Selection drop-downs:**
 
-* [Select agent](../blogic-screen-elements/select-agent.md)
-* [Select company](../blogic-screen-elements/select-company.md)
-* [Select contact business](../blogic-screen-elements/select-contact_business.md)
-* [Select contact category](../blogic-screen-elements/select-contact_category.md)
-* [Select contact](../blogic-screen-elements/select-contact.md) and [Select contacts](../blogic-screen-elements/select-contacts.md)
-* [Select user](../blogic-screen-elements/select-user.md)
+* [Select agent][4]
+* [Select company][1]
+* [Select contact business][5]
+* [Select contact category][6]
+* [Select contact][7] and [Select contacts][8]
+* [Select user][9]
 
 ### Category membership element (for user)
 
-Used to visualize (and change) [which category a user belongs to](../blogic-screen-elements/category_membership.md).
+Used to visualize (and change) [which category a user belongs to][10].
 
 ```crmscript
 categoryId = 2
@@ -86,47 +86,47 @@ label = Category
 noWeights = false
 ```
 
-![Screen capture of category membership element](../../images/category-membership.png)
+![Screen capture of category membership element][img4]
 
 > [!TIP]
-> Read more about [working with users](../CRMScript/working-with/persons-and-organizations/user.md).
+> Read more about [working with users][11].
 
 ## Follow-ups, dates, and time
 
 **Selection drop-downs:**
 
-* [Select appointment](../blogic-screen-elements/select-appointment.md)
-* [Select date](../blogic-screen-elements/select-date.md)
-* [Select datetime](../blogic-screen-elements/select-datetime.md)
-* [Select time](../blogic-screen-elements/select-time.md)
-* [Select timespan](../blogic-screen-elements/select-timespan.md)
+* [Select appointment][12]
+* [Select date][13]
+* [Select datetime][14]
+* [Select time][15]
+* [Select timespan][16]
 
 ## Requests
 
 **Selection drop-downs:**
 
-* [Select category](../blogic-screen-elements/select-category.md) (for ticket)
-* [Select priority](../blogic-screen-elements/select-priority.md) (for ticket)
-* [Select message](../blogic-screen-elements/select-message.md) (from ticket)
-* [Select request status](../blogic-screen-elements/select-request_status.md)
-* [Select FAQ](../blogic-screen-elements/select-faq.md)
-* [Select reply template](../blogic-screen-elements/select-reply_template.md)
-* [Select insert text](../blogic-screen-elements/select-insert_text.md)
+* [Select category][17] (for ticket)
+* [Select priority][18] (for ticket)
+* [Select message][19] (from ticket)
+* [Select request status][20]
+* [Select FAQ][21]
+* [Select reply template][22]
+* [Select insert text][23]
 
 ### Message grid
 
-A [message grid](../blogic-screen-elements/message_grid.md) displays the messages of a ticket in a grid. Each message has a check-box.
+A [message grid][24] displays the messages of a ticket in a grid. Each message has a check-box.
 
 ```crmscript
 label = Messages
 ticketId = 3
 ```
 
-![Screen capture of message grid element](../../images/message-grid.png)
+![Screen capture of message grid element][img5]
 
 ### Contact and recipient
 
-Represent [customers connected to a request](../blogic-screen-elements/contact-and-recipient.md).
+Represent [customers connected to a request][25].
 
 **Creation script to set the ticket ID dynamically:**
 
@@ -178,11 +178,15 @@ colMap.insert("label", "Phone");
 recipients.setFieldValue("addColumn", colMap)
 ```
 
-![Screen capture of contact and recipients element](../../images/contact-and-recipients-element.png)
+![Screen capture of contact and recipients element][img8]
 
-### [Request status](../blogic-screen-elements/select-ticket-status.md) element
+### Request status element
 
-### [Recipients](../blogic-screen-elements/recipients.md) element
+[Request status][27] element
+
+### Recipients element
+
+[Recipients][28] element
 
 ```crmscript
 copyToAll = false
@@ -196,15 +200,15 @@ label = Recipients 3
 ticketId = 1
 ```
 
-![Screen capture of recipients element](../../images/recipients-element.png)
+![Screen capture of recipients element][img6]
 
-### [Address book](../blogic-screen-elements/address-book.md) element
+### Address book element
 
-Organizes addresses in a tree view
+[Address book][29] organizes addresses in a tree view
 
 ### Attachment element
 
-Adds an [attachment field](../blogic-screen-elements/attachment.md) to the screen.
+Adds an [attachment field][30] to the screen.
 
 ```crmscript
 label = Attachments
@@ -212,24 +216,74 @@ multiple = true
 noHardDelete = true
 ```
 
-![Screen capture of attachment element](../../images/attachment-element.png)
+![Screen capture of attachment element][img7]
 
 ## Sales and projects
 
 **Selection drop-downs:**
 
-* [Select sale](../blogic-screen-elements/select-sale.md)
-* [Select project](../blogic-screen-elements/select-project.md)
+* [Select sale][2]
+* [Select project][31]
 
-### [Invoice rows](../blogic-screen-elements/invoice.md) element
+### Invoice rows element
 
+[Invoice rows][32]
 ## Security and database
 
 **Selection drop-downs:**
 
-* [Select slevel](../blogic-screen-elements/select-slevel.md)
-* [Select CRM selection](../blogic-screen-elements/select-crm_selection.md)
-* [Select extra field](../blogic-screen-elements/select-extra_field.md)
-* [Select table](../blogic-screen-elements/select-table.md)
-* [Select relation](../blogic-screen-elements/select-relation.md)
-* [Select relations](../blogic-screen-elements/select-multiple-relations.md)
+* [Select slevel][33]
+* [Select CRM selection][34]
+* [Select extra field][35]
+* [Select table][36]
+* [Select relation][37]
+* [Select relations][38]
+
+<!-- Referenced links -->
+[1]: ../blogic-screen-elements/select-company.md
+[2]: ../blogic-screen-elements/select-sale.md
+[3]: ../blogic-screen-elements/edit-entity-menu.md
+[4]: ../blogic-screen-elements/select-agent.md
+[5]: ../blogic-screen-elements/select-contact-business.md
+[6]: ../blogic-screen-elements/select-contact-category.md
+[7]: ../blogic-screen-elements/select-customer.md
+[8]: ../blogic-screen-elements/select-customers.md
+[9]: ../blogic-screen-elements/select-user.md
+[10]: ../blogic-screen-elements/category-membership.md
+[11]: ../CRMScript/working-with/persons-and-organizations/user.md
+[12]: ../blogic-screen-elements/select-appointment.md
+[13]: ../blogic-screen-elements/select-date.md
+[14]: ../blogic-screen-elements/select-datetime.md
+[15]: ../blogic-screen-elements/select-time.md
+[16]: ../blogic-screen-elements/select-timespan.md
+[17]: ../blogic-screen-elements/select-category.md
+[18]: ../blogic-screen-elements/select-priority.md
+[19]: ../blogic-screen-elements/select-message.md
+[20]: ../blogic-screen-elements/select-request-status.md
+[21]: ../blogic-screen-elements/select-faq.md
+[22]: ../blogic-screen-elements/select-reply-template.md
+[23]: ../blogic-screen-elements/select-insert-text.md
+[24]: ../blogic-screen-elements/message-grid.md
+[25]: ../blogic-screen-elements/contact-and-recipient.md
+[27]: ../blogic-screen-elements/select-ticket-status.md
+[28]: ../blogic-screen-elements/recipients.md
+[29]: ../blogic-screen-elements/address-book.md
+[30]: ../blogic-screen-elements/attachment.md
+[31]: ../blogic-screen-elements/select-project.md
+[32]: ../blogic-screen-elements/invoice.md
+[33]: ../blogic-screen-elements/select-slevel.md
+[34]: ../blogic-screen-elements/select-crm-selection.md
+[35]: ../blogic-screen-elements/select-extra-field.md
+[36]: ../blogic-screen-elements/select-table.md
+[37]: ../blogic-screen-elements/select-relation.md
+[38]: ../blogic-screen-elements/select-multiple-relations.md
+
+<!-- Referenced images -->
+[img1]: media/select-entity-dropdown.png
+[img2]: media/entity-menu-element.png
+[img3]: media/entity-menu-custom.png
+[img4]: media/category-membership.png
+[img5]: media/message-grid.png
+[img6]: media/recipients-element.png
+[img7]: media/attachment-element.png
+[img8]: media/contact-and-recipients-element.png

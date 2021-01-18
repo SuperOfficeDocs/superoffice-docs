@@ -81,21 +81,21 @@ Config for column headers.
 
 | Action               | Map keys             | Description                                    |
 |:---------------------|:---------------------|:-----------------------------------------------|
-| addHeader            | label<br/>flags<br/>chop<br />width | Adds a header                   |
-| addRow               | id<br/>url<br/>target<br/>flags<br/>color<br/>toolTip<br/>selected | Adds a row |
+| addHeader            | label<br>flags<br>chop<br>width | Adds a header                   |
+| addRow               | id<br>url<br>target<br>flags<br>color<br>toolTip<br>selected | Adds a row |
 | addRowUnique         | same as addRow       | Adds a row with a unique ID                    |
-| addCell              | label<br/>sort<br/>url<br/>target<br/>flags<br/>toolTip | Adds a cell |
+| addCell              | label<br>sort<br>url<br>target<br>flags<br>toolTip | Adds a cell |
 | deleteSelectedRows   |                      | Deletes the selected rows                      |
 | clearSelectedRows    |                      | Removes selected mark on the selected rows     |
 | deleteRows           |                      | Deletes all rows                               |
-| set                  | pageSize<br/>flags<br/>maxHeight<br/>width<br/>allRowsCount<br/>selectedRows | Sets various fields |
-| defaultOrder         | column<br/>direction | Sets the column that by default orders the rows<br/>"asc" or "desc" |
+| set                  | pageSize<br>flags<br>maxHeight<br>width<br>allRowsCount<br>selectedRows | Sets various fields |
+| defaultOrder         | column<br>direction | Sets the column that by default orders the rows<br>"asc" or "desc" |
 | setDropDownOptions.n |                      | Sets the drop-down options for column n        |
-| addCommand           | title<br/>url<br/>returnUrl<br/>idString<br/>menuIndex<br/>commandIndex | Adds a menu command with parameters (v. 4.5) |
-| addCommandMenu       | label<br/>title<br/>iconUrl<br/>idString<br>/url(v. 7.1) | Adds a menu (for commands) with parameters (v. 4.5)  |
+| addCommand           | title<br>url<br>returnUrl<br>idString<br>menuIndex<br>commandIndex | Adds a menu command with parameters (v. 4.5) |
+| addCommandMenu       | label<br>title<br>iconUrl<br>idString<br>/url(v. 7.1) | Adds a menu (for commands) with parameters (v. 4.5)  |
 | deleteCommand        | idString            | Deletes commands (v. 4.5)                       |
 | deleteCommandMenu    | idString            | Deletes menus (v. 4.5)                          |
-| addGroup             | column<br/>order    | Adds groups (v. 8.4R07)<br/>descending or ascending (default) |
+| addGroup             | column<br>order    | Adds groups (v. 8.4R07)<br>descending or ascending (default) |
 
 menuIndex and commandIndex are optional zero-based indexes for placement.
 

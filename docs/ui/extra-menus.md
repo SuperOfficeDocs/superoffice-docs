@@ -29,7 +29,7 @@ so.topic:
 **Navigator - additional options:**
 
 * On the navigator buttons
-* Under  *System settings > System design*
+* Under  **System settings > System design***
 * On the **New** button in the top bar.
 
 ## Add function to menu button (actions)
@@ -78,19 +78,22 @@ If you link to an external website:
 * Set Target to "_blank".
 
 > [!TIP]
-> Read more about the [main menu](./mainmenu.md)
+> Read more about the [main menu][1]
 
 ## Reference
 
 ### Menu properties
 
-| Property              | Description                                                                  |
-|:----------------------|:-----------------------------------------------------------------------------|
-| Base program          | Adds URL to the selected base program.<br/>URL must start with &action=      |
-| URL                   | The URL to be executed when the menu is clicked                              |
-| Append ID             | Appends the ID of the current entry to the end of the URL (bool)             |
-| Return to same screen | Whether to return the users to the screen where the action was clicked<br/> If unchecked, users must do this manually |
-| Append usec           | Includes the NetServer session key<br/>Required for web panel authentication |
-| Target                | Which window the URL should open in<br/>"main": the html frame to which the output goes <br/>"_blank" : always open a new window/tab<br/>"customer" : open a separate window for this menu option or a group of menu options     |
-| URL to icon           | Location of a custom icon for the extra menu                                 |
-| Position              | The position of the extra menu<br/> 0 = top                                  |
+| Property              | Description                                                                 |
+|:----------------------|:----------------------------------------------------------------------------|
+| Base program          | Adds URL to the selected base program.<br>URL must start with `&action=`      |
+| URL                   | The URL to be executed when the menu is clicked                             |
+| Append ID             | Appends the ID of the current entry to the end of the URL (bool)            |
+| Return to same screen | Whether to return the users to the screen where the action was clicked<br> If unchecked, users must do this manually |
+| Append usec           | Includes the NetServer session key<br>Required for web panel authentication |
+| Target                | Which window the URL should open in<br>"main": the html frame to which the output goes <br>"_blank" : always open a new window/tab<br>"customer" : open a separate window for this menu option or a group of menu options     |
+| URL to icon           | Location of a custom icon for the extra menu                                |
+| Position              | The position of the extra menu<br> 0 = top                                  |
+
+<!-- Referenced links -->
+[1]: mainmenu.md

@@ -18,7 +18,7 @@ The CRMScript **HtmlElement** class represents HTML elements in the SuperOffice 
 Returns the element type.
 
 > [!TIP]
-> Look up specific elements in the [bLogic screen element](./blogic-screen-elements/blogic-screen-elements.md) reference.
+> Look up specific elements in the [bLogic screen element][1] reference.
 
 ### Type conversion
 
@@ -32,7 +32,7 @@ You can convert the value of an `HtmlElement` object to a string, number, or boo
 
 ### Void setFromCgi()
 
-Called when the element should find its values from the CGI variables. Commonly used for [screens containing forms](./custom-screens/form-elements.md).
+Called when the element should find its values from the CGI variables. Commonly used for [screens containing forms][3].
 
 ### String getFieldValue(String field)
 
@@ -108,7 +108,7 @@ Toggles whether the element can be edited (for those elements that support this 
 
 ### Integer getNextTabIndex()
 
-The HTML **tabindex** attribute specifies the tab order of an element. It determines the sequence of entering fields with **Tab** or **Shift+Tab**.
+The HTML `tabindex` attribute specifies the tab order of an element. It determines the sequence of entering fields with Tab or Shift+Tab.
 
 `getNextTabIndex()` increments the counter and returns the next valid index.
 
@@ -119,3 +119,7 @@ Returns the tabulator index string of the element.
 ### String getTabIndexString(Bool noId)
 
 A variant of `getTabIndexString()` that omits element ID if it is the 1st element.
+
+<!-- Referenced links -->
+[1]: blogic-screen-elements/index.md
+[2]: custom-screens/form-elements.md

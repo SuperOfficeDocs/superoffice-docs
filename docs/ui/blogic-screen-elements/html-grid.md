@@ -54,7 +54,7 @@ This element is the oldest grid version that allows you to create an HTML grid.
 
 | Action        | Map keys                           | Description   |
 |:--------------|:-----------------------------------|:--------------|
-| addHeader     | label<br/>url<br/>flags<br/>width  | Adds a header |
-| addRow        | unique<br/>id<br/>checked          | Adds a row    |
-| addCell       | label<br/>url<br/>flags<br/>target | Adds a cell   |
+| addHeader     | label<br>url<br>flags<br>width  | Adds a header |
+| addRow        | unique<br>id<br>checked          | Adds a row    |
+| addCell       | label<br>url<br>flags<br>target | Adds a cell   |
 | deleteChecked |                                    |               |

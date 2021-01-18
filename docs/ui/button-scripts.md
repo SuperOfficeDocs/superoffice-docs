@@ -86,11 +86,11 @@ Next, you construct the URL, which specifies to run bLogic, invoke the **doScrip
 `<site>/<custId>/CS/scripts/blogic.exe?action=doScript&includeId=<myScript>`
 
 > [!TIP]
-> Read more about [URL parameters](./url-parameters.md).
+> Read more about [URL parameters][1].
 
 ## Adding the button
 
-To add the button, you must create an [extra menu](./extra-menus.md) in SuperOffice Service:
+To add the button, you must create an [extra menu][2] in SuperOffice Service:
 
 1. From the hamburger menu, select **System Design** and then select **Extra menus**.
 2. Expand *Top menu*, point to one of the folders, and click **New menu**.
@@ -103,8 +103,16 @@ To add the button, you must create an [extra menu](./extra-menus.md) in SuperOff
 
 Continuing our example, we'll label our button *Get next request* and select the CRMScript, here named *Requests as queue*.
 
-![Screen capture of create extra menu](../images/req-as-q-setup.png)
+![Screen capture of create extra menu][img1]
 
 After saving, the new button is available on the **View request** screen. Clicking the button will run the script and assign the next request according to our call-center model.
 
-![Screen capture of view request screen with button script](../images/req-as-q-result.png)
+![Screen capture of view request screen with button script][img2]
+
+<!-- Referenced links -->
+[1]: url-parameters.md
+[2]: extra-menus.md
+
+<!-- Referenced images -->
+[img1]: media/req-as-q-setup.png
+[img2]: media/req-as-q-result.png

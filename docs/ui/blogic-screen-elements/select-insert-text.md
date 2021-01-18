@@ -42,7 +42,7 @@ Returns the ID of the selected entry. The ID is prefixed depending on the type o
 
 | Action                 | Map keys               | Description                                                        |
 |:-----------------------|:-----------------------|:-------------------------------------------------------------------|
-| selectInsertTextValues | ticketId<br/>faqAccess<br/>customerId<br/>userId<br/>attachmentIds | Sets different values. |
+| selectInsertTextValues | ticketId<br>faqAccess<br>customerId<br>userId<br>attachmentIds | Sets different values. |
 
 These keys are used to determine which entries can be selected.
 

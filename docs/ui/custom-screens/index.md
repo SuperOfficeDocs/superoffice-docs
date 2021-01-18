@@ -9,7 +9,7 @@ so.topic:
 
 # Custom screens
 
-**Custom screens** are based on a set of [screen elements](../blogic-screen-elements/blogic-screen-elements.md) (controls) such as text, date, grid, and CRMScript.
+**Custom screens** are based on a set of [screen elements][1] (controls) such as text, date, grid, and CRMScript.
 
 **Screen properties** are a combination of settings and CRMScripts.
 
@@ -19,10 +19,10 @@ so.topic:
 2. From the hamburger menu, select **System Design** and then select **Screens**.
 3. Click **New screen**.
 4. Enter screen properties (name is mandatory) and click **OK**.
-5. [Add elements](./add-screen-element.md).
+5. [Add elements][2].
 6. Click **OK** to save your screen.
 7. Toggle preview to test your current screen.
-8. Set up a [screen chooser](../screen-choosers.md).
+8. Set up a [screen chooser][3].
 
 > [!TIP]
 > You can set **hidden variables** to be saved when the screen is submitted so the next screen has access to them.
@@ -59,7 +59,7 @@ After you've created a copy of a system screen, you can edit the copy:
 
 ### Example
 
-Let's say we want to display some text at the top of the **Edit request** screen. To do this, we can add a **view** element of type [`Info fields v2`](../blogic-screen-elements/info-fields-2.md).
+Let's say we want to display some text at the top of the **Edit request** screen. To do this, we can add a **view** element of type [`Info fields v2`][4].
 
 1. While in edit mode, point to the main table and click **+** to add an element directly inside it.
 
@@ -69,15 +69,15 @@ Let's say we want to display some text at the top of the **Edit request** screen
 
 4. Save and preview the screen.
 
-![Screen capture of add element button](../../images/add-element.png)
+![Screen capture of add element button][img1]
 
 ## Settings
 
 | Setting            | Description                                                                    |
 |:-------------------|:-------------------------------------------------------------------------------|
 | Folder             | Optional for organizing screens                                                |
-| Name               | A descriptive name: mandatory<br/>Keep in mind that it becomes the heading on your screen |
-| ID string          | A unique ID for the screen, referenced in URLs<br/>It's considered best practice to set it |
+| Name               | A descriptive name: mandatory<br>Keep in mind that it becomes the heading on your screen |
+| ID string          | A unique ID for the screen, referenced in URLs<br>It's considered best practice to set it |
 | Authentication key | Required when running a custom screen without being logged in as a user        |
 | Warn on navigate   | Whether to give a warning when the user leaves a page with unsaved data (Bool) |
 | Use auto-save      | Whether to turn on automatic save (Bool)                                       |
@@ -92,4 +92,14 @@ You can use scripts to precalculate variables from for example a form entry or C
 | after setFromCgi          | A script run after the screen elements are assigned their values              |
 | run after everything else | A script run at the end, after code and scripts for any buttons have been run |
 
-Read more about [screen events](../screen-events.md).
+Read more about [screen events][5].
+
+<!-- Referenced links -->
+[1]: ../blogic-screen-elements/index.md
+[2]: add-screen-element.md
+[3]: ../screen-choosers.md
+[4]: ../blogic-screen-elements/info-fields-2.md
+[5]: ../screen-events.md
+
+<!-- Referenced images -->
+[img1]: media/add-element.png

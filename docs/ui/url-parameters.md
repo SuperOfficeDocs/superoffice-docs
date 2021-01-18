@@ -36,9 +36,9 @@ For example, `action=listTickets` or `action=doScript&id=123`.
 
 | Action               | Parameters                                   |
 |:---------------------|:---------------------------------------------|
-| doScript             | id - The ID of the script<br/>includeId - The include ID of the script |
+| doScript             | id - The ID of the script<br>includeId - The include ID of the script |
 | editScript           | Same as doScript                             |
-| doScreenDefintion    | id - The ID of the screen<br/>idString - the ID string of the screen   |
+| doScreenDefintion    | id - The ID of the screen<br>idString - the ID string of the screen   |
 | editScreenDefinition | Same as doScreenDefintion                    |
 
 > [!NOTE]
@@ -54,7 +54,7 @@ For example, `action=listTickets` or `action=doScript&id=123`.
 | listTickets | pageSize - The number of tickets per page                                |
 | addMessage  | ticketId                                                                 |
 | changeCust  |                                                                          |
-| safeParse   | includeId - The ID string of the script<br/>key - The authentication key |
+| safeParse   | includeId - The ID string of the script<br>key - The authentication key |
 | specialForm | template - The name of the template to use                               |
 
 **Global parameters** common to all customer actions:
@@ -76,10 +76,10 @@ For example, `action=listTickets` or `action=doScript&id=123`.
 | newTicket            | custId - The customer to connect the ticket to |
 | editTicket           | ticketId - The ticket to edit                  |
 | listTicketLog2       | ticketId                                       |
-| doScreenDefinition   | id - The ID of the screen<br/>idString - the ID string of the screen |
-| viewTableEntry       | table<br/>extraTable<br/>id                    |
+| doScreenDefinition   | id - The ID of the screen<br>idString - the ID string of the screen |
+| viewTableEntry       | table<br>extraTable<br>id                    |
 | editTableEntry       |                                                |
-| searchTable          | table<br/>selectionIncludeId - the ID string of a selection<br/>selection - the ID of a selection |
+| searchTable          | table<br>selectionIncludeId - the ID string of a selection<br>selection - the ID of a selection |
 | mainMenu             |                                                |
 | editCompany          | id                                             |
 | editCustomer         | id                                             |
@@ -94,10 +94,10 @@ For example, `action=listTickets` or `action=doScript&id=123`.
 | Action         | Parameters              |
 |:---------------|:------------------------|
 | find           |                         |
-| listFolders    | focus<br/>expandId      |
-| editDocument   | documentId<br/>folderId |
-| editKbCategory | parentId<br/>id         |
-| editKbEntry    | categoryId<br/>id       |
+| listFolders    | focus<br>expandId      |
+| editDocument   | documentId<br>folderId |
+| editKbCategory | parentId<br>id         |
+| editKbEntry    | categoryId<br>id       |
 | viewKbEntry    | id                      |
 
 ## Rms

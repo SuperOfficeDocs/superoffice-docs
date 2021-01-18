@@ -9,13 +9,13 @@ so.topic: reference
 
 # Select Time
 
-This element is used to get [Time](../../crmscript/datatypes/time-type.md). as input.
+This element is used to get [Time][1]. as input.
 
 ## Configuration
 
 | Setting | Description                                                                                                 |
 |:--------|:------------------------------------------------------------------------------------------------------------|
-| minInc  | Sets the gap in minutes between each allowable entry<br/>Fewer options per hour makes the drop-down smaller |
+| minInc  | Sets the gap in minutes between each allowable entry<br>Fewer options per hour makes the drop-down smaller |
 
 ## Example
 
@@ -34,3 +34,6 @@ Sets the selected `Time`. The value must be formatted as **HH:MI:SS**.
 ### toString()
 
 Returns the time as a string formatted as **HH:MI:SS**.
+
+<!-- Referenced links -->
+[1]: ../../crmscript/datatypes/time-type.md

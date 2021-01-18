@@ -57,7 +57,7 @@ Criteria constrain which data to have in the table.
 | Value                   | Description                                      |
 |:------------------------|:-------------------------------------------------|
 | orders.n.column         | The database field to sort on                    |
-| orders.n.direction      | The sort order<br/>0 = ascending, 1 = descending |
+| orders.n.direction      | The sort order<br>0 = ascending, 1 = descending |
 | orders.n.orderByInteger |                                                  |
 | orders.length           | Number of columns to sort on                     |
 | groups.n.column         | The database field to group by                   |
@@ -77,11 +77,11 @@ Criteria constrain which data to have in the table.
 | distinct            | The database field that will be distinct in the result                             |
 | dbDistinct          | Same as distinct, but the calculation is done by the database.                     |
 | orderColumn         | The database field that will have the default order                                |
-| orderAsc            | The sort order<br/>true = ascending, false = descending                            |
+| orderAsc            | The sort order<br>true = ascending, false = descending                            |
 | showTicketStatus    | Whether to visually indicate ticket status                                         |
-| showContactColors   | Whether to user text color (Bool)<br/>grey = deleted, red/black = stopped          |
-| showPersonColors    | Whether to user text color (Bool)<br/> grey = retired                              |
-| newItemCommandField | Adds a button at the bottom of the table. For the company screen:<br/>ticket.cust_id (action add new request to customer )<br/>person.contact_id (action add new person to company)                                                      |
+| showContactColors   | Whether to user text color (Bool)<br>grey = deleted, red/black = stopped          |
+| showPersonColors    | Whether to user text color (Bool)<br> grey = retired                              |
+| newItemCommandField | Adds a button at the bottom of the table. For the company screen:<br>ticket.cust_id (action add new request to customer )<br>person.contact_id (action add new person to company)                                                      |
 | colorField          | Information about the color of the row                                             |
 | colorFieldCodes     |                                                                                    |
 | profileBaseTable    |                                                                                    |
@@ -90,9 +90,9 @@ Criteria constrain which data to have in the table.
 | linkAppendField     | The database field to append to the end of the URL. Must be a field in a column    |
 | baseUrl             |                                                                                    |
 | appendField         |                                                                                    |
-| callbackInit        | The name of the function that initializes the SearchEngine<br/>Located in Body tab |
-| callbackDisplay     | The name of the function that processes the result<br/>Located in Body tab         |
-| callbackSort        | The name of the function that sorts the result<br/>Located in Body tab             |
+| callbackInit        | The name of the function that initializes the SearchEngine<br>Located in Body tab |
+| callbackDisplay     | The name of the function that processes the result<br>Located in Body tab         |
+| callbackSort        | The name of the function that sorts the result<br>Located in Body tab             |
 
 **A word about ticket status:**
 If your table contains a column ticket.status and showTicketStatus is set, each ticket will have an icon showing its status. Urgent tickets are also highlighted.
@@ -136,7 +136,7 @@ callbackInit = init
 callbackDisplay = formatDisplayField
 ```
 
-[Learn more about callbacks](../custom-screens/view-elements.md) in the CRMScript documentation
+[Learn more about callbacks][1] in the CRMScript documentation
 
 ## Functions
 
@@ -170,22 +170,26 @@ callbackDisplay = formatDisplayField
 
 | Action               | Map keys             | Description                                    |
 |:---------------------|:---------------------|:-----------------------------------------------|
-| addHeader            | label<br/>flags<br/>chop<br />width | Adds a header                   |
-| addRow               | id<br/>url<br/>target<br/>flags<br/>color<br/>toolTip<br/>selected | Adds a row |
+| addHeader            | label<br>flags<br>chop<br>width | Adds a header                   |
+| addRow               | id<br>url<br>target<br>flags<br>color<br>toolTip<br>selected | Adds a row |
 | addRowUnique         | same as addRow       | Adds a row with a unique ID                    |
-| addCell              | label<br/>sort<br/>url<br/>target<br/>flags<br/>toolTip | Adds a cell |
+| addCell              | label<br>sort<br>url<br>target<br>flags<br>toolTip | Adds a cell |
 | deleteSelectedRows   |                      | Deletes the selected rows                      |
 | clearSelectedRows    |                      | Removes selected mark on the selected rows     |
 | deleteRows           |                      | Deletes all rows                               |
-| set                  | pageSize<br/>flags<br/>maxHeight<br/>width<br/>allRowsCount<br/>selectedRows | Sets various fields |
-| defaultOrder         | column<br/>direction | Sets the column that by default orders the rows<br/>"asc" or "desc" |
+| set                  | pageSize<br>flags<br>maxHeight<br>width<br>allRowsCount<br>selectedRows | Sets various fields |
+| defaultOrder         | column<br>direction | Sets the column that by default orders the rows<br>"asc" or "desc" |
 | setDropDownOptions.n |                      | Sets the drop-down options for column n        |
-| addCommand           | title<br/>url<br/>returnUrl<br/>idString<br/>menuIndex<br/>commandIndex | Adds a menu command with parameters (v. 4.5) |
-| addCommandMenu       | label<br/>title<br/>iconUrl<br/>idString<br>/url(v. 7.1) | Adds a menu (for commands) with parameters (v. 4.5)  |
+| addCommand           | title<br>url<br>returnUrl<br>idString<br>menuIndex<br>commandIndex | Adds a menu command with parameters (v. 4.5) |
+| addCommandMenu       | label<br>title<br>iconUrl<br>idString<br>/url(v. 7.1) | Adds a menu (for commands) with parameters (v. 4.5)  |
 | deleteCommand        | idString            | Deletes commands (v. 4.5)                       |
 | deleteCommandMenu    | idString            | Deletes menus (v. 4.5)                          |
-| addGroup             | column<br/>order    | Adds groups (v. 8.4R07)<br/>descending or ascending (default) |
+| addGroup             | column<br>order    | Adds groups (v. 8.4R07)<br>descending or ascending (default) |
 
 menuIndex and commandIndex are optional zero-based indexes for placement.
 
-**Flags** are the same as described for [StaticGrid](./static-grid.md).
+**Flags** are the same as described for [StaticGrid][2].
+
+<!-- Referenced links -->
+[1]: ../custom-screens/view-elements.md
+[2]: static-grid.md

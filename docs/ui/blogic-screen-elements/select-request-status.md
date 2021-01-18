@@ -20,7 +20,7 @@ It is available in version 3.1.7.5
 | default           | The ID of the status you want as default                      |
 | ticketId          | Whether to use the status of the ticket as the default status |
 | valueId           | Whether to use entryId as ticketId                            |
-| defaultAddMessage | Whether to use the default status for adding messages for this user<br/>Used in combination with ticketId or valueId. |
+| defaultAddMessage | Whether to use the default status for adding messages for this user<br>Used in combination with ticketId or valueId. |
 | category          | Whether to set the  default status to the one for new ticket for this user for the given category                     |
 
 ### Default status
@@ -46,7 +46,7 @@ defaultAddMessage applies only if ticketId or valueId is set.
 
 | Action | Map keys            | Description         |
 |:-------|:--------------------|:--------------------|
-| set    | activate<br/>status | Sets various values |
+| set    | activate<br>status | Sets various values |
 
 1. Set the default status by inserting key = status and value = ID to the map.
 2. Set the calendar field by inserting key = activate and value = DateTime to the map.

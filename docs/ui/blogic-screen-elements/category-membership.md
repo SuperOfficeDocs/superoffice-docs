@@ -34,7 +34,7 @@ noWeights = false
 | Field   | Description                                                    |
 |:--------|:---------------------------------------------------------------|
 | members | A comma-separated string with the user ID of each member       |
-| user ID | The weight of a user ID<br/>**-1** if the user is not a member |
+| user ID | The weight of a user ID<br>**-1** if the user is not a member |
 
 ### setFieldValue(String action, Map values)
 

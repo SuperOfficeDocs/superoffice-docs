@@ -12,7 +12,7 @@ so.topic: reference
 This element is completely script-able.
 
 1. The system loads a script and executes the global code of the script at instantiation time.
-2. You create CRMScript functions for all the standard functions in [HtmlElement](@crmscript_htmlelement) and place those in the **Body** tab.
+2. You create CRMScript functions for all the standard functions in [HtmlElement][1] and place those in the **Body** tab.
     * You can call `print()` to create output, or perform other actions on the element.
 
 ## Example
@@ -51,7 +51,7 @@ All config variables are available using `getVariable()`.
 |:----------------------------|:---------|:-----------------------------------------------------|
 | element_getJsIncludes       | String[] | Adds a list of JavaScript include files for the page |
 | element_getCssIncludes      | String[] | Adds a list of CSS include files for the page        |
-| element_getSetSizeStatement | String   | Returns the opening part of a JavaScript statement that will be executed by the resizing model.<br/>The available width, height, and closing parenthesis will be appended to this statement before it is evaluated (executed). |
+| element_getSetSizeStatement | String   | Returns the opening part of a JavaScript statement that will be executed by the resizing model.<br>The available width, height, and closing parenthesis will be appended to this statement before it is evaluated (executed). |
 
 ### Values
 
@@ -63,3 +63,6 @@ All config variables are available using `getVariable()`.
 | element_setFieldValue          | Void   | String, Map | Sets a value or attribute for your element     |
 | element_getFieldValue          | String |             | Returns a value or attribute from your element |
 | element_toString               | String |             | Converts a simple value to a string            |
+
+<!-- Referenced links -->
+[1]: ../htmlelement.md

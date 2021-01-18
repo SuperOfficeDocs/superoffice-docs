@@ -9,7 +9,7 @@ so.topic: reference
 
 # Panes
 
-The `Panes` element is a container for 1 or more [`Pane`](../pane.md) elements.
+The `Panes` element is a container for 1 or more [`Pane`][2] elements.
 
 This is a **group element**. It defines the beginning of a group of elements and requires a matching group end element.
 
@@ -30,3 +30,6 @@ This is a **group element**. It defines the beginning of a group of elements and
 | noPadding      |                                                         |
 
 Padding was introduced in v. 8.0.
+
+<!-- Referenced links -->
+[1]: pane.md
