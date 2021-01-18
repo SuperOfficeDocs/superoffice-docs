@@ -36,4 +36,4 @@ Sets the selected `Time`. The value must be formatted as **HH:MI:SS**.
 Returns the time as a string formatted as **HH:MI:SS**.
 
 <!-- Referenced links -->
-[1]: ../../crmscript/datatypes/time-type.md
+[1]: https://github.com/SuperOfficeDocs/crmscript/blob/main/docs/datatypes/time-type.md

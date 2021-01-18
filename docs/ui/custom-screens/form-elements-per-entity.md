@@ -250,7 +250,7 @@ noHardDelete = true
 [8]: ../blogic-screen-elements/select-customers.md
 [9]: ../blogic-screen-elements/select-user.md
 [10]: ../blogic-screen-elements/category-membership.md
-[11]: ../CRMScript/working-with/persons-and-organizations/user.md
+[11]: https://github.com/SuperOfficeDocs/crmscript/blob/main/docs/persons-and-organizations/user.md
 [12]: ../blogic-screen-elements/select-appointment.md
 [13]: ../blogic-screen-elements/select-date.md
 [14]: ../blogic-screen-elements/select-datetime.md
@@ -276,7 +276,7 @@ noHardDelete = true
 [35]: ../blogic-screen-elements/select-extra-field.md
 [36]: ../blogic-screen-elements/select-table.md
 [37]: ../blogic-screen-elements/select-relation.md
-[38]: ../blogic-screen-elements/select-multiple-relations.md
+[38]: ../blogic-screen-elements/select-relations.md
 
 <!-- Referenced images -->
 [img1]: media/select-entity-dropdown.png

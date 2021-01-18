@@ -148,5 +148,5 @@ This lets you go to the standard screen with `&action=viewTableEntry&table=ticke
 [2]: custom-screens/add-screen-element.md
 [3]: custom-screens/layout-elements.md
 [4]: htmlelement.md
-[5]: ../CRMScript/debugging/print-debug.md
+[5]: https://github.com/SuperOfficeDocs/crmscript/blob/main/docs/debugging/print-debug.md
 [6]: custom-screens/form-elements.md

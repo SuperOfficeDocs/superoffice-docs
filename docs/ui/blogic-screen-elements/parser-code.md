@@ -76,4 +76,4 @@ for (Integer i = 0; i < getVariable("nodes.length").toInteger(); i++) {
 ```
 
 <!-- Referenced links -->
-[1]: ../custom-screens/crmscript-blogic-query-syntax.md
+[1]: ../custom-screens/blogic-query-syntax.md

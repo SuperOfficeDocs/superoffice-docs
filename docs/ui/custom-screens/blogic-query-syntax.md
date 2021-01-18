@@ -133,4 +133,4 @@ order.0.direction = asc
 ```
 
 <!-- Referenced links -->
-[1]: ../../CRMScript/advanced/searchengine/dot-syntax.md
+[1]: https://github.com/SuperOfficeDocs/crmscript/blob/main/docs/searchengine/dot-syntax.md

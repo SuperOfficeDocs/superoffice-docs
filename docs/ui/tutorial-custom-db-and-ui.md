@@ -244,7 +244,7 @@ url = ticket.exe?action=listTicket&ticketId=
 > Read more about [web panels][6] and [URL parameters][7].
 
 <!-- Referenced links -->
-[1]: ../CRMScript/advanced/custom-database/extra-tables.md
+[1]: https://github.com/SuperOfficeDocs/crmscript/blob/main/docs/custom-database/extra-tables.md
 [2]: mainmenu.md
 [3]: screen-choosers.md
 [4]: custom-screens/index.md

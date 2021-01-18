@@ -98,7 +98,7 @@ It might look something like this:
 [4]: ../blogic-screen-elements/index.md
 [5]: blogic-query-syntax.md
 [6]: ../htmlelement.md
-[7]: ../../CRMScript/advanced/searchengine/se-select.md
-[8]: ../../CRMScript/advanced/searchengine/se-run.md
-[9]: ../../CRMScript/advanced/searchengine/se-results.md
-[10]: ../../CRMScript/datatypes/map-type.md
+[7]: https://github.com/SuperOfficeDocs/crmscript/blob/main/docs/searchengine/se-select.md
+[8]: https://github.com/SuperOfficeDocs/crmscript/blob/main/docs/searchengine/se-run.md
+[9]: https://github.com/SuperOfficeDocs/crmscript/blob/main/docs/se-results.md
+[10]: https://github.com/SuperOfficeDocs/crmscript/blob/main/docs/datatypes/map-type.md
