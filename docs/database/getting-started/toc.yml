@@ -1,2 +1,14 @@
-- name: Page
+- name: Getting started
   href: index.md
+- name: SuperOffice view of the world
+  href: so-view-of-the-world.md
+- name: The main tables
+  href: main-tables.md
+- name: Overview of tables
+  href: overview.md
+- name: Naming conventions
+  href: naming-conventions.md
+- name: Special tables
+  href: special-tables.md
+- name: Cached tables
+  href: cached-tables.md
