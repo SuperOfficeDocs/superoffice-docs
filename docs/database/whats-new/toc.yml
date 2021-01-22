@@ -1,0 +1,36 @@
+- name: Overview
+  href: index.md
+- name: From 8.0 to 8.1
+  href: changes-81.md
+- name: From 7.5 to 8.0
+  href: changes-75-80.md
+- name: From 7.1 to 7.5
+  href: changes-71-75.md
+- name: From 7.0 to 7.1
+  href: changes-70-71.md
+- name: From 6 to 7
+  href: changes-6-7.md
+  items:
+  - name: Authentication
+    href: changes-in-7/authentication.md
+  - name: DateTime
+    href: changes-in-7/datetime.md
+  - name: Encryption
+    href: changes-in-7/encryption.md
+  - name: Full-text search
+    href: changes-in-7/full-text-search.md
+  - name: Licensing
+    href: changes-in-7/licesning.md
+  - name: Longer fields
+    href: changes-in-7/longer-fields.md
+  - name: Obsolete tables and fields
+    href: changes-in-7/obsolete.md
+  - name: Sales
+    href: changes-in-7/sales.md
+  - name: Selection
+    href: changes-in-7/selection.md
+  - name: Service
+    href: changes-in-7/service.md
+  - name: Database user
+    href: changes-in-7/single-database-user.md
+    
