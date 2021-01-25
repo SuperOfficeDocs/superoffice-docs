@@ -1,0 +1,10 @@
+- name: Diary
+  href: index.md
+- name: Create appointment
+  href: create-appointment.md
+- name: Recurring appointments
+  href: recurring-appointments.md
+- name: Create invitation
+  href: create-invitation.md
+- name: Accept invitation
+  href: accept-invitation.md
