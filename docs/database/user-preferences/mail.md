@@ -52,7 +52,7 @@ Email synchronization and mail sending and receiving. These preferences control 
 | MailSmtpAuthorize | The SMTP server requires authentication before you can send email. | NO | Bool | Admin, Admin users, Wizard |
 | MailSyncTimer | Number of seconds between each synchronization | | Number | Admin, Crm, Admin users, Wizard |
 | MarkAsReadInPreview | Marks the email as read once it has been displayed in the preview pane. If you set this to No, you need to open the email before it is marked as read. | NO | Bool | Admin, Admin users, Wizard |
-| NameDeleted | Specifies the name if the IMAP folder that contains your deleted email. | Deleted items | Text | Admin, Admin users, Wizard |
+| NameDeleted | Specifies the name of the IMAP folder that contains your deleted email. | Deleted items | Text | Admin, Admin users, Wizard |
 | NameDrafts | Specifies the name of the IMAP folder that is used to store email drafts. | Drafts | Text | Admin, Admin users, Wizard |
 | NameInbox | Specifies the name of the IMAP folder used as your email inbox. | Inbox | Text | Admin, Admin users, Wizard |
 | NameSent | Specifies the name of the IMAP folder that is used to store sent email. | Sent Items | Text | Admin, Admin users, Wizard |
@@ -63,12 +63,12 @@ Email synchronization and mail sending and receiving. These preferences control 
 | SaveLogonInfo | Saves an encrypted version of your user name and password for the email server in the database. This saves you having to enter your user name and password each time you want to access your inbox. | NO | Bool | Admin, Admin users, Wizard |
 | SendFaxPrefix | Format for fax numbers to be sent by email. &lt;faxs&gt; is the fax number and &lt;name&gt; is the company name, e.g. FAX:&lt;name&gt;@&lt;faxs&gt; produces FAX:SuperOffice ASA@22517001 | | Text | Admin, Admin users, Wizard |
 | SendFaxProtocol | Protocol used by your email server to send a fax. | FAX | Text | Admin, Crm, Admin users, Wizard |
-| SmtpServerName | Name of the SMTP Mail server used by SIX.web. Enter the DNS name or the IP address (e.g. mail.server.com or 10.0.0.100) | | Text | Admin, Admin users, Wizard |
+| SmtpServerName | Name of the SMTP Mail server used by SuperOffice. Enter the DNS name or the IP address (e.g. mail.server.com or 10.0.0.100) | | Text | Admin, Admin users, Wizard |
 | SmtpServerPass | If you want to use a different password from the one you use to log in to your IMAP server, you can enter it here. | | Text | Admin, Admin users, Wizard |
 | SmtpServerPort | The port number your mail server uses to send email using the SMTP protocol. | 25 | Number | Admin, Admin users, Wizard |
 | SmtpServerUser | If you want to use a different user name from the one you use to log in to your IMAP server, you can enter it here. | |Text | Admin, Admin users, Wizard |
 | Timeout | Number of seconds that SuperOffice will wait for the mail server to finish processing a request. If you experience problems with slow response times from your mail server, you should increase this value to 30 seconds or more. | 15 seconds | Number | Admin, Admin users, Wizard |
-| UseMapiReaderAnyway | Use the SIX inbox even if SIX has other email integration installed | NO | Bool | Wizard |
+| UseMapiReaderAnyway | Use the SuperOffice inbox even if other email integration are installed | NO | Bool | Wizard |
 | UseSoMailBody | Use "mail.htm" as body of new emails. The file is looked for in "so\_arc\\username\\mail.htm" and if not found in "so\_arc\\template\\mail.htm" | | | |
 | MoveDeletedToDeletedItems | If enabled emails that get deleted are moved to the deleted items folder | | | |
 | SaveSentInSentItems | If enabled sent emails are saved in the sent items folder | | | |

@@ -29,7 +29,7 @@ The above selection's corresponding `Selection` table’s row can be seen as fol
 The actual criteria are stored in the `searchCriteria` table:
 
 ```SQL
-SELECT * FROM CRM5.searchcriteria WHERE ownerTable = 23 AND ownerId = 56
+SELECT * FROM CRM.searchcriteria WHERE ownerTable = 23 AND ownerId = 56
 ```
 
 ![x][img2]
@@ -37,7 +37,7 @@ SELECT * FROM CRM5.searchcriteria WHERE ownerTable = 23 AND ownerId = 56
 This criteria contains one criteria group:
 
 ```SQL
-SELECT * FROM CRM5.searchcriteriagroup WHERE SearchCriteria_id = 14
+SELECT * FROM CRM.searchcriteriagroup WHERE SearchCriteria_id = 14
 ```
 
 ![x][img3]
@@ -45,7 +45,7 @@ SELECT * FROM CRM5.searchcriteriagroup WHERE SearchCriteria_id = 14
 This group contains one or more search criterion records: each criterion corresponds to a field.
 
 ```SQL
-SELECT * FROM CRM5.searchcriterion WHERE SearchCriteriaGroup_id = 11
+SELECT * FROM CRM.searchcriterion WHERE SearchCriteriaGroup_id = 11
 ```
 
 ![x][img4]
@@ -56,7 +56,7 @@ SELECT * FROM CRM5.searchcriterion WHERE SearchCriteriaGroup_id = 11
 The actual value that we want to search for is stored in a separate table, which enables us to use multiple values for each search criterion.
 
 ```SQL
-SELECT * FROM CRM5.searchcriterionvalue WHERE SearchCriterion_id = 12
+SELECT * FROM CRM.searchcriterionvalue WHERE SearchCriterion_id = 12
 ```
 
 ![x][img5]

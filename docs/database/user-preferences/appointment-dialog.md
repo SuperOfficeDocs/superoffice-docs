@@ -21,8 +21,9 @@ so.topic: reference              # article, howto, reference, concept, guide
 SELECT * FROM UserPreference WHERE prefsection='AppointmentDialog'
 ```
 
-Follow-up dialog - used in CRM5 - obsolete in SIX.
-
 | Preference | Description | Default | Control type | Access |
 |---|---|---|---|---|
 | AppointmentDialogExpanded | Preference used to remember the setup/state of the Filter dialog | | Bool | Wizard |
+
+> [!NOTE]
+> **Follow-up** dialog pertains to SuperOffice 5. It is obsolete in version 6.

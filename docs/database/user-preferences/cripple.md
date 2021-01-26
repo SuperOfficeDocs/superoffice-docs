@@ -9,7 +9,7 @@ keywords: database
 so.topic: reference              # article, howto, reference, concept, guide
 
 # Optional fields. Don't forget to remove # if you need a field.
-# so.envir:                     # cloud or onsite
+so.envir: onsite               # cloud or onsite
 # so.client:                    # online, web, win, pocket, or mobile
 ---
 
@@ -21,8 +21,8 @@ so.topic: reference              # article, howto, reference, concept, guide
 SELECT * FROM UserPreference WHERE prefsection='Cripple'
 ```
 
-Remove groups of functionality from SIX.
-Obsolete in SIX - replaced by corresponding FunctionRights on Role instead.
+> [!NOTE]
+> This section applies to SuperOffice versions 5 and lower. It is obsolete from version 6 and replaced by corresponding FunctionRights on Role.
 
 | Preference | Description | Control type | Access |
 |---|---|---|---|

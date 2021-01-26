@@ -3,7 +3,7 @@
 
 # Mandatory fields.
 title:  changes_6_to_7       # (Required) Very important for SEO. Intent in a unique string of 43-59 chars including spaces.
-description:  Table changes from SIX to Seven # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
+description:  Table changes from SuperOffice 6 to 7 # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
 author:  {github-id}             # Your GitHub alias.
 keywords:  database
 so.topic: reference              # article, howto, reference, concept, guide
@@ -13,11 +13,11 @@ so.envir:  onsite           # cloud or onsite
 # so.client :                     # online, web, win, pocket, or mobile
 ---
 
-# Table changes from SIX to Seven
+# Table changes from SuperOffice 6 to 7
 
 ## Renamed tables
 
-| Table no | SIX | Seven |
+| Table no | v.6 | v.7 |
 |---|---|---|
 | 37 | recordlink | [MergeMoveLog](../tables/mergemovelog.md) |
 | 115 | OptCat | [ReasonSold](../tables/reasonsold.md) |
@@ -48,7 +48,7 @@ so.envir:  onsite           # cloud or onsite
 
 ## Obsolete database tables
 
-| Table no | SIX | Seven |
+| Table no | v.6 | v.7 |
 |---|---|---|
 | 25 | selectionTask | obsolete\_1 |
 | 26 | selTaskChain | obsolete\_2 |

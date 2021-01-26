@@ -15,7 +15,7 @@ so.envir: onsite           # cloud or onsite
 
 # Customer Service
 
-Service (formerly known as Customer Service or eJournal) was merged in to the database with version 7.0
+Service (formerly known as Customer Service or eJournal) was merged in to the database with SuperOffice version 7.0
 DB integration is gone; you can edit contact and person records in each system and directly see the changes in the other
 eJournal can insert person records with `contact_id` = 0; these are invisible in CRM
 

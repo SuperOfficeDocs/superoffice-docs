@@ -22,7 +22,7 @@ These pages describe the user-preferences used in SuperOffice.
 
 Preferences are stored in the `UserPreference` table in the database.
 
-Preferences can be defined at six different levels:
+Preferences can be defined at 6 different levels:
 
 | Level | Description |
 |---|---|

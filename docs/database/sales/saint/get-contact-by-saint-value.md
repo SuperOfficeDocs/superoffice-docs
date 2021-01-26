@@ -21,13 +21,13 @@ The following example shows how we can retrieve a Contact by using a SAINT value
 Following are some of the Counter values for a Contact
 
 ```SQL
-SELECT * FROM CRM5.countervalue WHERE sale_status = 2 AND amountClassId = 0 AND totalReg > 2
+SELECT * FROM CRM.countervalue WHERE sale_status = 2 AND amountClassId = 0 AND totalReg > 2
 ```
 
 If we want to find all Contacts with no Sales registered in the particular period, we could write the SQL statements as follows.
 
 ```SQL
-SELECT * FROM CRM5.countervalue WHERE contact_id > 0 AND sale_Status = 4 AND amountClassId = 0 AND totalRegInPeriod = 0
+SELECT * FROM CRM.countervalue WHERE contact_id > 0 AND sale_Status = 4 AND amountClassId = 0 AND totalRegInPeriod = 0
 ```
 
 * Sale\_Status = 4 -&gt; All Statuses
@@ -36,13 +36,13 @@ SELECT * FROM CRM5.countervalue WHERE contact_id > 0 AND sale_Status = 4 AND amo
 If we want to find Contacts who have more than 5 sales register the following code can be used.
 
 ```SQL
-SELECT * FROM CRM5.CounterValue WHERE contact_id > 0 AND sale_Status = 4 AND amountClassId = 0 AND totalReg > 5
+SELECT * FROM CRM.CounterValue WHERE contact_id > 0 AND sale_Status = 4 AND amountClassId = 0 AND totalReg > 5
 ```
 
 If we want to find Contacts with more than 4 phone-call appointments (`record_type` = 5 )registered in this period.
 
 ```SQL
-SELECT * FROM CRM5.CounterValue WHERE contact_id > 0 AND record_type = 5 AND direction > 0 AND intent_id = 0 AND totalReg > 4
+SELECT * FROM CRM.CounterValue WHERE contact_id > 0 AND record_type = 5 AND direction > 0 AND intent_id = 0 AND totalReg > 4
 ```
 
 > [!NOTE]

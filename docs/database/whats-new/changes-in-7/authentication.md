@@ -15,7 +15,7 @@ so.envir: onsite           # cloud or onsite
 
 # Authentication
 
-Authentication was totally redesigned and rewritten in Seven.
+Authentication was redesigned and rewritten in SuperOffice 7.
 
 This impacts all our applications – Win, Web, Modules, Web Services, partner apps ... Everything
 A breaking change – simple recompilation will in many cases not be enough.

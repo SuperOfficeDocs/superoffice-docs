@@ -17,7 +17,7 @@ so.envir: onsite           # cloud or onsite
 
 ## Renamed tables
 
-| Table no | SIX | Seven |
+| Table no | 7.1 | 7.5 |
 |---|---|---|
 | 25 | obsolete\_1 | [SORPublishGroupLink](../tables/sorpublishgrouplink.md) |
 | 26 | obsolete\_2 | [QuoteConnection](../tables/quoteconnection.md) |

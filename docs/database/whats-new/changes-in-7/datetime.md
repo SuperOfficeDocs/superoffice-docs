@@ -13,9 +13,9 @@ so.envir: onsite           # cloud or onsite
 # so.client:                    # online, web, win, pocket, or mobile
 ---
 
-# DateTime - new from Seven
+# DateTime - new from SuperOffice v.7
 
-Up to Seven we stored date as an integer, 1-1-1970 + n seconds, giving us the "end of the world" in 19.1.2038 at 03:14:07.
+Up to version 7, we stored date as an integer, 1-1-1970 + n seconds, giving us the "end of the world" in 19.1.2038 at 03:14:07.
 
 Now use the built-in datetime datatype in the database which makes things a lot more legible, and makes it possible to search for things like dateparts (year). NetServer has new low-level functions to do this, not yet used in our own code.
 One problem: How do you say "unknown" without saying "NULL"?

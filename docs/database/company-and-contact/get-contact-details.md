@@ -55,10 +55,10 @@ This inner join assumes that the contact has at least one phone number.
 If we want to handle contacts that have no phone numbers, we need to use an outer-join:
 
 ```SQL
-SELECT c.name, cat.name, bus.name, p.* FROM CRM5.contact c
-LEFT OUTER JOIN CRM5.phone p ON c.contact_id = p.owner_id
-INNER JOIN CRM5.category cat ON c.category_idx = cat.category_id
-INNER JOIN CRM5.business bus ON c.business_idx = bus.business_id
+SELECT c.name, cat.name, bus.name, p.* FROM CRM.contact c
+LEFT OUTER JOIN CRM.phone p ON c.contact_id = p.owner_id
+INNER JOIN CRM.category cat ON c.category_idx = cat.category_id
+INNER JOIN CRM.business bus ON c.business_idx = bus.business_id
 WHERE c.name = 'Client System AS'
 AND p.ptype_idx = 1
 AND p.rank = 1
@@ -74,12 +74,12 @@ We can use an inner join to get the country ID. The list item should always be s
 
 ```SQL
 SELECT c.name, cat.name, bus.name, p.phone, cou.name, a.*
-FROM CRM5.contact c
-LEFT OUTER JOIN CRM5.address a ON c.contact_id = a.owner_id
-LEFT OUTER JOIN CRM5.phone p ON c.contact_id = p.owner_id
-INNER JOIN CRM5.category cat ON c.category_idx = cat.category_id
-INNER JOIN CRM5.business bus ON c.business_idx = bus.business_id
-INNER JOIN CRM5.country cou ON c.country_id = cou.country_id
+FROM CRM.contact c
+LEFT OUTER JOIN CRM.address a ON c.contact_id = a.owner_id
+LEFT OUTER JOIN CRM.phone p ON c.contact_id = p.owner_id
+INNER JOIN CRM.category cat ON c.category_idx = cat.category_id
+INNER JOIN CRM.business bus ON c.business_idx = bus.business_id
+INNER JOIN CRM.country cou ON c.country_id = cou.country_id
 WHERE c.name = 'Client System AS'
 AND p.ptype_idx = 1
 AND p.rank = 1
