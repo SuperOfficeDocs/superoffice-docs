@@ -1,0 +1,11 @@
+- name: Search
+  href: index.md
+- name: Selections
+  href: selection/index.md
+  items:
+  - name: Dynamic selections
+    href: selection/dynamic-selections.md
+  - name: Create dynamic selection
+    href: selection/create-dynamic-sel.md
+  - name: Add person to selection
+    href: selection/add-person-to-selection.md
