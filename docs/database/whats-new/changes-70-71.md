@@ -135,16 +135,16 @@ so.envir: onsite           # cloud or onsite
 | outgoing\_message\_id | int | Reference to the outgoing message entry created by NetServer for sending and status update |
 
 <!-- Referenced links -->
-[1]: ../Tables/OUTGOING_MESSAGE.md
-[2]: ../Tables/APPOINTMENT.md
-[3]: ../Tables/PROJECT.md
-[4]: ../Tables/PROJTYPE.md
-[5]: ../Tables/SUGGESTEDAPPOINTMENT.md
-[6]: ../Tables/SALETYPE.md
-[7]: ../Tables/TICKET.md
-[8]: ../Tables/EXTRA_MENUS.md
-[9]: ../Tables/S_LINK.md
-[10]: ../Tables/S_SHIPMENT_ADDR.md
-[11]: ../Tables/S_LIST_SHIPMENT.md
-[12]: ../Tables/INBOX.md
-[13]: ../Tables/SMS.md
+[1]: ../tables/outgoing-message.md
+[2]: ../tables/appointment.md
+[3]: ../tables/project.md
+[4]: ../tables/projtype.md
+[5]: ../tables/suggestedappointment.md
+[6]: ../tables/saletype.md
+[7]: ../tables/ticket.md
+[8]: ../tables/extra-menus.md
+[9]: ../tables/s-link.md
+[10]: ../tables/s-shipment-addr.md
+[11]: ../tables/s-list-shipment.md
+[12]: ../tables/inbox.md
+[13]: ../tables/sms.md

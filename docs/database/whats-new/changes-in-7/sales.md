@@ -58,12 +58,12 @@ Done by:
 * Each type of sale may have different sales processes
 
 <!-- Referenced links -->
-[1]: ../Tables/SaleTypeCat.md
-[2]: ../Tables/SaleType.md
-[3]: ../Tables/ReasonStalled.md
-[4]: ../Tables/ReasonSold.md
-[5]: ../Tables/SaleStakeholder.md
-[6]: ../Tables/SaleTypeStageLink.md
-[7]: ../Tables/StakeholderRole.md
-[8]: ../Tables/SuggestedAppointment.md
-[9]: ../Tables/SuggestedDocument.md
+[1]: ../../tables/saletypecat.md
+[2]: ../../tables/saletype.md
+[3]: ../../tables/reasonstalled.md
+[4]: ../../tables/reasonsold.md
+[5]: ../../tables/salestakeholder.md
+[6]: ../../tables/saletypestagelink.md
+[7]: ../../tables/stakeholderrole.md
+[8]: ../../tables/suggestedappointment.md
+[9]: ../../tables/suggesteddocument.md

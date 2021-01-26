@@ -43,6 +43,6 @@ Individual moduleLicense rows are also signed and all rows are also hash-checked
 Hackers can hack the DLLs, but not make a keycode generator that works with unhacked code
 
 <!-- Referenced links -->
-[1]: ../../Tables/ModuleOwner.md
-[2]: ../../Tables/ModuleLicense.md
-[3]: ../../Tables/LicenseAssocLink.md
+[1]: ../../tables/ModuleOwner.md
+[2]: ../../tables/ModuleLicense.md
+[3]: ../../tables/LicenseAssocLink.md

@@ -166,4 +166,4 @@ INSERT INTO CRM5."countervalue" ("CounterValue_id", "contact_id", "person_id", "
 ```
 
 <!-- Referenced images -->
-[img1]: media/newcontact.gif
+[img1]: media/new-contact.gif
