@@ -37,7 +37,7 @@ Different types of selections
   * Navigate selection
 
 * Work efficient with collections of different entities
-* “Transforming selections”
+* "Transforming selections"
 * Closer connection between search and selections
 * Use selections as an overview and grouping of activities etc
 * Power features on groups of entities

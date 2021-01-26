@@ -27,6 +27,6 @@ Will create all tables, both SuperOffice and Customer Service. In addition Custo
 
 DbSetup will export & import all standard tables & fields for both products.
 
-DbSetup does not see eJournal ”extra tables” and ”extra fields”; we will have a separate solution for that. eJournal has its own dictionary and way of specifying extension fields and tables. The C++ code is not very fond of dynamically-changing tables and we have chosen to ”no go there” in this first release.
+DbSetup does not see eJournal "extra tables" and "extra fields"; we will have a separate solution for that. eJournal has its own dictionary and way of specifying extension fields and tables. The C++ code is not very fond of dynamically-changing tables and we have chosen to "no go there" in this first release.
 
-The new ”dynamic” archive provider in NetServer does see these fields & tables. NetServer is inherently designed to be more flexible, so it sees all the new fields and tables with no problems.  However, the Web Service APIs are still fairly static and transporting new data there presents a challenge. On the main entities this is solved using the existing name/value extrafields dictionary.
+The new "dynamic" archive provider in NetServer does see these fields & tables. NetServer is inherently designed to be more flexible, so it sees all the new fields and tables with no problems.  However, the Web Service APIs are still fairly static and transporting new data there presents a challenge. On the main entities this is solved using the existing name/value extrafields dictionary.

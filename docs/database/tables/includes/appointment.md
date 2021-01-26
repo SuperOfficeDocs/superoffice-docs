@@ -13,7 +13,7 @@ This table must contain special values that would be difficult to guess correctl
  | Undefined | 0 | The appointment type is not defined- used when initializing |
  | Appointment in Diary |  1 | Show in diary. If overdue or done today, show in checklist also |
  | Appointment in Check list | 2 | Appointment is a followup with no specific starttime |
- | Note shown as a paper clip on e.g. contacts | 3 | Paper clip on diary, expands to “post-it” note when clicked |
+ | Note shown as a paper clip on e.g. contacts | 3 | Paper clip on diary, expands to "post-it" note when clicked |
  | Incoming Document | 4 | Document |
  | Saved report | 5 | Saved Report (i.e., not a Report Definition but the result of an actual report run) |
  | Booking, made for diary | 6 | When accepted this will change type = 1 |

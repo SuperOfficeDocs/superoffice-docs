@@ -28,7 +28,7 @@ During evaluation of credentials, exactly one identity must result, and no-one m
 
 **The standard flow of authentication/identity:**
 
-* Try to authenticate without parameters I.e., rely on ”environment”, such as your current Windows login
+* Try to authenticate without parameters I.e., rely on "environment", such as your current Windows login
 * If this does not work, present a login dialog; then try to authenticate using this username and password If success, then we’re in, otherwise, retry a few times and then give up
 
 > [!NOTE]
