@@ -12,3 +12,9 @@
   href: special-tables.md
 - name: Cached tables
   href: cached-tables.md
+- name: Sequence
+  href: table-id-sequence.md
+- name: Activity links
+  href: activity-links.md
+- name: Foreign keys
+  href: foreign-keys.md
