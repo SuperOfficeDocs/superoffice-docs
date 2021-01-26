@@ -51,5 +51,5 @@ We have also added new fields on several tables and increased field length on ot
 Read more about changes in the database from [7.5 to 8.0][2].
 
 <!-- Referenced links -->
-[1]: ../dictionary/continuousdatabase.md
+[1]: ../dictionary/continuous-database-81.md
 [2]: changes-75-80.md
