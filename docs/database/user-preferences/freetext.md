@@ -21,12 +21,12 @@ so.topic: reference              # article, howto, reference, concept, guide
 SELECT * FROM UserPreference WHERE prefsection='Freetext'
 ```
 
-Freetext search settings. These are usually edited in the admin tool.
+Free-text search settings. These are usually edited in the admin tool.
 
 | Preference | Description | Control type | Access |
 |---|---|---|---|
 | AutoEnableTravel | Automatically enables free-text search on Travel databases. This will increase the size of local databases and the time required to generate prototypes | Bool| Wizard |
-| Enabled | Enables freetext search | Bool|  Wizard |
+| Enabled | Enables free.text search | Bool|  Wizard |
 | MaxSuggestWords | Maximum number of different words to be suggested as stopwords in stopword maintenance | Number| Admin, Admin users, Wizard |
 | MultiWordFTHitLimit | Maximum number of hits returned by a multi-word free-text search<br>0 = no limit | Number|  Admin, Admin users, Wizard |
 | MultiWordFTOperator | Criteria for free-text search on multiple words<br>1 = contains<br>2 = starts with<br>3 = exact match | List|  Wizard |

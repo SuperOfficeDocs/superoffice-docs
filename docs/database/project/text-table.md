@@ -17,7 +17,7 @@ so.topic:                       # article, howto, reference, concept, guide
 
 Let’s find these records in the database.
 
-```sql
+```SQL
 SELECT * FROM project WHERE name = 'client sdk work'
 ```
 
@@ -31,7 +31,7 @@ Now let us find the text description for this project:
 SELECT * FROM text WHERE text_id = 1234
 ```
 
-Replace the value 1234  with the `text_id` you recorded above.
+Replace the value 1234 with the `text_id` you recorded above.
 
 If you get back a blank result, it is because you did not type a description when entering the project in the client.
 

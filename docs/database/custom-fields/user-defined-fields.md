@@ -17,7 +17,7 @@ Every time the admin publishes a new layout of fields, a new version of the layo
 
 This is the part of the publishing process that takes time.
 
-```sql
+```SQL
 SELECT * FROM udeffield
 ORDER BY ownerTable_id, updatedCount, version
 ```
@@ -36,7 +36,7 @@ The travel system uses these old versions to handle travelers who return home af
 
 ## Column IDs
 
-```sql
+```SQL
 SELECT columnId, fieldLabel, fieldType, version, udefidentity
 FROM udeffield
 WHERE ownerTable_id = 9
@@ -45,13 +45,13 @@ ORDER BY udefidentity, version
 
 ![x][img1]
 
-`udefidentity` is a unique identifier for the field allocated by the udef system when a field is created.  You can change the tab-order, the name of the field or the type – the `udefidentity` remains the same.
+`udefidentity` is a unique identifier for the field allocated by the udef system when a field is created. You can change the tab-order, the name of the field, or the type – the `udefidentity` remains the same.
 
-This value used to be stored in updatedCount in CRM 5.
+This value used to be stored in updatedCount in SuperOffice.
 
 The **column ID** is the dictionary ID of the table and field used for storing the value.
 
-* 36358 = `UdProjSmall.Long06` (not indexed --&gt; not fast to search)
+* 36358 = `UdProjSmall.Long06` (not indexed, not fast to search)
 * 36353 = `UdProjSmall.Long01` (indexed field)
 
 ## Value tables
@@ -72,7 +72,7 @@ The same structure applies to all the user-defined fields.
 
 ![x][img2]
 
-```sql
+```SQL
 SELECT userdef_id FROM project WHERE name='Client SDK Work'
 
 SELECT * FROM udprojectsmall WHERE udprojectsmall_id = 2345
@@ -82,7 +82,7 @@ SELECT * FROM udprojectsmall WHERE udprojectsmall_id = 2345
 
 If you change a field from non-searchable to searchable, its values are moved from a non-indexed to indexed field when you publish the change. For example, from `long05` to `long01`
 
-The only thing that has changed is that the new field is indexed. Unfortunately we can’t just add an index on the table – we have to move the data into the indexed field.
+The only thing that has changed is that the new field is indexed. Unfortunately, we can’t just add an index on the table – we have to move the data into the indexed field.
 
 ## See also
 

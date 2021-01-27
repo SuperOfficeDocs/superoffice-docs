@@ -48,7 +48,7 @@ SELECT * FROM countervalue WHERE project_id = 56 AND sale_status in (1,4) AND am
 
 The `lastRegistered` and `lastDoBy` values are all equal because these match the sale we just registered on this contact.
 
-Here is a larger extraction for the same project, but now also with sale-status 2 (sold) and amountclass 1 (small)
+Here is a larger extraction for the same project, but now also with `sale_status` 2 (sold) and `amountclass` 1 (small)
 
 ```SQL
 SELECT * FROM countervalue where project_id =47 and sale_status in (1,2,4) and amountclassid in (2,1,0)

@@ -31,11 +31,11 @@ To find the project type:
 SELECT * FROM projtype WHERE projtype_id = 1234
 ```
 
-Replace the 1234 with the `type_idx` you made a note of earlier.
+Replace 1234 with the `type_idx` you made a note of earlier.
 
 Here you will note that we get one record with a text and a tooltip description. The tooltip is displayed when you hover the mouse over the text, and when you are editing the record.
 
-Later, we will look at components which do all this hard work of joining different tables for us.
+Later, we will look at components that do all this hard work of joining different tables for us.
 
 ## URL records
 

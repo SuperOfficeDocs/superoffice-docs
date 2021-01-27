@@ -13,12 +13,12 @@ This API corresponds to the Role panel in the Admin client:
 
 * Each cell equals one row in the `DataRight` table. The "data-owned-by" values are stored in the `DataRight.RelationshipToOwner` field.
 
-* The rights for the different data objects are stored by varying the table ID stored in the` DataRight.TableId`.
+* The rights for the different data objects are stored by varying the table ID stored in the `DataRight.TableId`.
 
 * The dropdown value in each cell is stored as a CRUD value. Delete = CRUD, while Create = CR.
 
 ```SQL
-Select * from dataright where roleid = 4
+SELECT * FROM dataright WHERE roleid = 4
 ```
 
 ![x][img2]

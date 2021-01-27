@@ -17,7 +17,7 @@ A recurring appointment is stored in two parts:
 > [!CAUTION]
 > Modifying the start/end dates on recurring appointment after it has been saved is a bad idea. Changing the start/end time on a recurring appointment will work fine, but changing the date will only lead to confusion. **Changing the start time on an appointment will trigger an update on all subsequence recurrences** if you have set the update mode to this-and-forward.
 
-## Recurrence Pattern
+## Recurrence pattern
 
 **enum `Pattern`:**
 
@@ -46,7 +46,7 @@ The enum values correspond to what you see in the **Pattern** dialog.
 The system generates appointment records for all the recurrence instances:
 
 ```SQL
-SELECT appointment\_id, associate\_id, activeDate, type, status, recurrenceRuleId 
+SELECT appointment_id, associate_id, activeDate, type, status, recurrenceRuleId 
 FROM appointment WHERE recurrenceRuleId = 5
 ```
 
@@ -55,7 +55,7 @@ FROM appointment WHERE recurrenceRuleId = 5
 Taking a look at the rule itself:
 
 ```SQL
-SELECT \* FROM recurrencerule WHERE recurrencerule\_id = 5
+SELECT * FROM recurrencerule WHERE recurrencerule_id = 5
 ```
 
 ![x][img3]
@@ -75,7 +75,7 @@ If you change the start-time for a single appointment, the rule is not affected.
 
 ## See also
 
-[recurrencerule table][1]
+* [recurrencerule table][1]
 
 <!-- Referenced links -->
 [1]: ../tables/recurrencerule.md

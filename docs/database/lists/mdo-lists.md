@@ -46,12 +46,8 @@ To make coding simpler, the List tables are defined in a specific order so that 
 ### Filter without heading
 
 ```SQL
-select l.category\_id, l.name
-from Category l, CategoryGroupLink gl, UserGroupLink ugl
-where l.deleted = 0
-and l.category\_id = gl.category\_id
-and gl.group\_id = ugl.usergroup\_id
-and ugl.assoc\_id = &lt;my assoc\_id&gt;
+SELECT l.category_id, l.name FROM Category l, CategoryGroupLink gl, UserGroupLink ugl
+WHERE l.deleted = 0 AND l.category_id = gl.category_id AND gl.group_id = ugl.usergroup_id AND ugl.assoc_id = <my assoc_id>;
 ```
 
 The result is a set of list names, filtered via the user's group membership. Items that the user is not allowed to see will not be returned.

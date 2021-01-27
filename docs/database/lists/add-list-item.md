@@ -17,7 +17,7 @@ Adding a list item to a list requires 2, possibly 3, possibly 4 things:
 3. Optional: Insert a heading item in the heading table.
 4. Optional: Insert one or more heading-link items into the heading-link table (e.g. CategoryHL).
 
-We edit lists in  the SOAdmin Maintentance client. Here we add a new category item to the category list:
+We edit lists in the SOAdmin Maintentance client. Here we add a new category item to the category list:
 
 ![x][img1]
 

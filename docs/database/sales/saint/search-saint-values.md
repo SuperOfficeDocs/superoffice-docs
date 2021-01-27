@@ -15,13 +15,13 @@ so.topic: howto          # article, howto, reference, concept, guide
 
 When SAINT is enabled, whenever a contact or a project is created, a bunch of counter rows are created.
 
-Whenever an appointment, document or sale is created, then the corresponding counter rows are updated.
+Whenever an appointment, document, or sale is created, then the corresponding counter rows are updated.
 
 Each `counterValue` row points to the `contact_id` or `project_id` it is linked to.  The counter values themselves are stored in the `totalReg`, `totalRegInPeriod`, `notCompleted`, `notCompletedInPeriod`, and so on fields.
 
 Here is a some of the counter values for a project:
 
-```sql 
+```SQL
 SELECT * FROM countervalue where project_id =47 and sale_status in (1,2,4) and amountclassid in (2,1,0)
 ```
 

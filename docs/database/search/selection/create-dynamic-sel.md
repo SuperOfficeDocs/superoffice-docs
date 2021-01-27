@@ -64,9 +64,9 @@ SELECT * FROM CRM.searchcriterionvalue WHERE SearchCriterion_id = 12
 > [!NOTE]
 > The fields that need to be filled depend on the field used in the `criterionId`. `Contact.Name` is a string value, so the `StringValue` field in the `criterionValue` should be filled out.
 
-## Find Dialog
+## Find dialog
 
-The search criteria tables are also used when defining extra fields in the find dialog. This is where the active flag is used. Un-checking a search field in the find dialog corresponds to setting active = 0.
+The search criteria tables are also used when defining extra fields in the **Find** dialog. This is where the active flag is used. Un-checking a search field in the **Find** dialog corresponds to setting active = 0.
 
 <!-- Referenced images -->
 [img1]: media/dynamic-selection-dialog.jpg

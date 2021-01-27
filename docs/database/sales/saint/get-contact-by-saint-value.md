@@ -30,8 +30,8 @@ If we want to find all Contacts with no Sales registered in the particular perio
 SELECT * FROM CRM.countervalue WHERE contact_id > 0 AND sale_Status = 4 AND amountClassId = 0 AND totalRegInPeriod = 0
 ```
 
-* Sale\_Status = 4 -&gt; All Statuses
-* Amount\_Class = 0 -&gt; All sizes
+* Sale\_Status = 4 includes all statuses
+* Amount\_Class = 0 includes all sizes
 
 If we want to find Contacts who have more than 5 sales register the following code can be used.
 
@@ -46,7 +46,7 @@ SELECT * FROM CRM.CounterValue WHERE contact_id > 0 AND record_type = 5 AND dire
 ```
 
 > [!NOTE]
-> We are required to specify the `intent_id` for Appointments/Documents to avoid duplicates ids in the result. `intent_id` = 0 includes all intents.
+> We are required to specify the `intent_id` for Appointments/Documents to avoid duplicates IDs in the result. `intent_id` = 0 includes all intents.
 
 If we want to find all contacts with more than 4 phone-call appointments (`record_type=5` on task) registered in this period:
 

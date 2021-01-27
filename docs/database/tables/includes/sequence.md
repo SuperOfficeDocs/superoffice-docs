@@ -11,9 +11,9 @@ Reading and updating the next id-value should always be performed as a single tr
 
 **Example:**
 
-Allocate an ID for Contact table
+Allocate an ID for `Contact` table
 
-([Contact](../contact.md) is table 5, + 10 = 15)
+([Contact][1] is table 5, + 10 = 15)
 
 ```SQL
 BEGIN TRANSACTION
@@ -21,3 +21,6 @@ UPDATE Sequence SET next_id = next_id + 1 WHERE id = 15;
 SELECT next_id - 1 FROM Sequence WHERE id = 15;
 COMMIT TRANSACTION
 ```
+
+<!-- Referenced links -->
+[1]: ../contact.md

@@ -20,12 +20,12 @@ The company card uses the `Contact` table and its related tables:
 ![Company tables][img1]
 
 > [!NOTE]
-> There are multiple Person records for any one contact. A classic many-to-one relationship.
+> There are multiple Person records for any contact. A classic many-to-one relationship.
 
 * A Person can only belong to one Contact.
 * A Contact can have zero or more Persons.
 
-It is this relationship which drives the first to fields in the appointment, sale and document dialogs. Every time you select a new company, the person list below it has to be re-populated.
+It is this relationship that drives the first to fields in the appointment, sale, and document dialogs. Every time you select a new company, the person list below it has to be re-populated.
 
 ## Address and Phone: owner-id and type
 
@@ -63,7 +63,7 @@ SELECT * FROM phone WHERE owner_id=123 AND type_idx=3 ORDER BY rank
 ```
 
 > [!NOTE]
-> These are many to one relations, so you can still pick up more than one phone number per owner. Phone numbers are further sorted by rank. For addresses this is a theoretical proposition. The CRM client will not define more than one address per type for each owner.
+> These are many-to-one relationships, so you can still pick up more than one phone number per owner. Phone numbers are further sorted by rank. For addresses, this is a theoretical proposition. The CRM client will not define more than one address per type for each owner.
 
 ## Email and URL
 
@@ -75,9 +75,9 @@ SELECT * FROM url WHERE contact_id = 123 ORDER BY rank
 SELECT * FROM email WHERE contact_id = 123 ORDER BY rank
 ```
 
-There may be several urls all referencing the same `project_id`. This is ok. The URLs will be presented in rank order. The first rank will always be 1.
+There may be several URLs all referencing the same `project_id`. This is OK. The URLs will be presented in rank order. The first rank will always be 1.
 
-These are simpler relationships than the owner-id + type relations used on phone and address.
+These are simpler relationships than the owner ID + type relations used on phone and address.
 
 ## Person list
 

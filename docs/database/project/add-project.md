@@ -44,7 +44,7 @@ It has generated unique numbers for us (not just `record_id` numbers) and put th
 
 It has updated a transaction log to allow synchronizing remote databases. We’ll see more about this in a bit.
 
-It has generated a soundex value based on the project’s name field. This value is used for detecting duplicates.
+It has generated a soundex value based on the project’s `name` field. This value is used for detecting duplicates.
 
  | Project name | Soundex value |
  |---|---|

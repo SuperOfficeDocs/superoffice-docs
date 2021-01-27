@@ -28,7 +28,7 @@ The corresponding Selection table row looks like this:
 
 The actual criteria are stored in the `searchCriteria` table:
 
-```sql
+```SQL
 SELECT * FROM searchcriteria WHERE ownertable=23 and ownerid=76
 ```
 
@@ -36,7 +36,7 @@ SELECT * FROM searchcriteria WHERE ownertable=23 and ownerid=76
 
 This criteria contains one criteria group (the group concept is there to support more complex searches using AND/OR operators and so on - nothing is implemented yet though).
 
-```sql
+```SQL
 SELECT * FROM searchcriteriagroup WHERE searchcriteria_id = 24
 ```
 
@@ -44,7 +44,7 @@ SELECT * FROM searchcriteriagroup WHERE searchcriteria_id = 24
 
 The group contains one or more search criterion records: each criterion corresponds to a field.
 
-```sql
+```SQL
 SELECT * FROM searchcriterion WHERE searchcriteriagroup_id = 20
 ```
 
@@ -57,7 +57,7 @@ Operator 18 = Begins with
 
 The actual value that we want to search for is stored in a separate table so that we can support multiple values per search criterion (for the is-one-of searches).
 
-```sql
+```SQL
 SELECT * FROM searchcriterionvalue WHERE searchCriterion_id = 24
 ```
 
@@ -67,7 +67,7 @@ Which of the fields you need to fill in depends on the field used in the `criter
 
 ## Find dialog
 
-The search criteria tables are also used when defining extra fields in the find dialog. This is where the active flag is used. Unchecking a search field in the find dialog corresponds to setting `active=0`.
+The search criteria tables are also used when defining extra fields in the find dialog. This is where the active flag is used. Un-checking a search field in the find dialog corresponds to setting `active=0`.
 
 ## See also
 

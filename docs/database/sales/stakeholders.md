@@ -17,7 +17,7 @@ so.topic: concept              # article, howto, reference, concept, guide
 
 New from 7.1: A sale may now have one or more stakeholders, a contact or person with an extra interest or role in the sale. This may be turned off using the preference in **SOAdmin - Preferences - Sale - Enable Stakeholders (default yes)**
 
-With this preference turned on a new archive is presented for sales of type
+With this preference turned on a new archive is presented for sales of type.
 
 ![Stakeholders][img1]
 
@@ -27,19 +27,19 @@ This will also make the sale visible on more than one company salesarchive if **
 
 Use your favorite query tool and try this query:
 
-```sql
+```SQL
 SELECT * FROM saletype where hasStakeholders = 1
 ```
 
-If there are sales defined which may have stakeholders, you may search the database for these sales:
+If there are sales defined with stakeholders, you may search the database for these sales:
 
-```sql
+```SQL
 SELECT * FROM sale where saletype_id in (select saletype_id from saletype where hasStakeholders = 1)
 ```
 
 For these sales we may look up the stakeholders, this will present the stakeholders for sale_id = 4
 
-```sql
+```SQL
 SELECT * FROM salestakeholder where sale_id = 4
 ```
 

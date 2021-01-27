@@ -17,7 +17,7 @@ so.topic: reference              # article, howto, reference, concept, guide
 
 [!include[SQL](./includes/to-view-pref.md)]
 
-```sql
+```SQL
 SELECT * FROM UserPreference WHERE prefsection='FieldLabels'
 ```
 

@@ -11,11 +11,11 @@ so.topic: howto
 
 Adding a contact to the database - this is roughly what happens:
 
-1. Get a contact id from sequence.
-2. Get address id from sequence
-3. Get travel transaction log ids from sequence
+1. Get a contact ID from sequence.
+2. Get address ID from sequence
+3. Get travel transaction log IDs from sequence
 4. Save the address with a pointer to the contact record.
-5. Save the contact record with the given contact id.
+5. Save the contact record with the given contact ID.
 6. Add records to travel transaction-log for the new contact and address records.
 
 The reality is a bit more detailed. Below is a transcript of the database updates that occur when **OK** is clicked in the **Company** card:
@@ -107,10 +107,10 @@ INSERT INTO CRM."traveltransactionlog" ("traveltransactionlog_id", "ttime", "pre
 INSERT INTO CRM."traveltransactionlog" ("traveltransactionlog_id", "ttime", "prev_record_id", "type", "associate_id", "tablenumber", "record_id") VALUES (110219, 1163105228, 8, 4352, 13, 36, 36)
 ```
 
-## Freetext indexing
+## Free-text indexing
 
 > [!NOTE]
-> The words used have all been used before, so the freetext indexer just inserts pointers to the records (`table_id`+`record_id`) where the particular word (`freetextwords_id`) occurs. The words themselves don't have to be added to the `freetextwords` table again.
+> The words used have all been used before, so the free-text indexer just inserts pointers to the records (`table_id`+`record_id`) where the particular word (`freetextwords_id`) occurs. The words themselves don't have to be added to the `freetextwords` table again.
 
 **Address words:**
 

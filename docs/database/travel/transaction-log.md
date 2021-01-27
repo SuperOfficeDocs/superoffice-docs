@@ -29,7 +29,7 @@ Let’s take a look at what was stored in the log when we create the project *Cl
 
 First we need the project ID for the project we created:
 
-```sql
+```SQL
 SELECT project_id FROM project WHERE name='Client SDK Work'
 ```
 
@@ -37,7 +37,7 @@ Make a note of the ID.
 
 Now let us get a list of all the transactions that have happened since midnight this morning:
 
-```sql
+```SQL
 SELECT * FROM traveltransactionlog WHERE ttime > '2003.8.7'
 ```
 
@@ -64,21 +64,21 @@ These are the ones relevant to the new project
 
 So we need to scroll down the list of transactions until we find the traces of our new project.
 
-First we see the project being created (`table=11`, `type=4352`). Then the text description is added to the project (`table=18`, `type=4352`).
+First, we see the project being created (`table=11`, `type=4352`). Then the text description is added to the project (`table=18`, `type=4352`).
 
 You might also see the user-def table having a record inserted (`table=142`, `type=4352`)
 
-This table is very useful if you want to monitor updates to the database, or replicate changes to another system. You create a database trigger to replicate changes. SuperOffice does not use triggers or stored-procs because of its database independence. There is nothing to prevent you adding your own, as long as they do not affect SuperOffice’s access to the tables. Adding constraints or throwing exceptions at SuperOffice will cause the CRM client to stop working.
+This table is very useful if you want to monitor updates to the database or replicate changes to another system. You create a database trigger to replicate changes. SuperOffice does not use triggers or stored-procs because of its database independence. There is nothing to prevent you from adding your own, as long as they do not affect SuperOffice’s access to the tables. Adding constraints or throwing exceptions at SuperOffice will cause the CRM client to stop working.
 
-When a traveller returns, all his updates are added to the end of the transaction log, but the timestamps are maintained. The timestamps should be kept in UTC/GMT time - same as the registered and updated fields on the records themselves. This makes conflict resolution easier to handle.
+When a traveler returns, all his updates are added to the end of the transaction log, but the timestamps are maintained. The timestamps should be kept in UTC/GMT time - same as the registered and updated fields on the records themselves. This makes conflict resolution easier to handle.
 
-If there are two concurrent updates, then the last update wins. This is rarely a problem in practice, since people tend to "own" a subset of the data that only they modify.
+If there are two concurrent updates, then the last update wins. This is rarely a problem in practice since people tend to "own" a subset of the data that only they modify.
 
 ## Example
 
 ![x][img2]
 
-When the user leaves on travel, his transactions are logged in a separate range of ids. When he returns, the transactions are mapped back into the main sequence.
+When the user leaves on travel, his transactions are logged in a separate range of IDs. When he returns, the transactions are mapped back into the main sequence.
 
 ## See also
 

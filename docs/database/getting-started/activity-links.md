@@ -11,7 +11,7 @@ so.topic: concept
 
 Appointments, documents, sales can link to each other
 
-The system uses the relation table (same table that originally was used only for person/contact relations use).
+The system uses the relation table (originally used only for person/contact relations).
 
 This replaced the old single-value `DocumentLink` property that `Appointment` and `Sale` used to have before SuperOffice 6.
 
@@ -25,7 +25,7 @@ This appointment is saved with `appointment_id = 24`
 
 To find all the links from this appointment:
 
-```sql
+```SQL
 select * from relations where source_table=9 and source_record=24
 ```
 
@@ -33,7 +33,7 @@ select * from relations where source_table=9 and source_record=24
 
 These links are all defined by `reldef_id` = 8 (appointment), 9 (document), and 10 (sale), which looks like this:
 
-```sql
+```SQL
 Select * from relationdefinition
 ```
 
@@ -44,7 +44,7 @@ Select * from relationdefinition
 
 In this case, the link can be to appointments, documents, or sales:
 
-```sql
+```SQL
 Select * from relationtarget where reldef_id in (8, 9, 10)
 ```
 

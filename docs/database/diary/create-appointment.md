@@ -17,7 +17,7 @@ so.topic: howto
 
 ## Create the appointment
 
-```sql
+```SQL
 INSERT INTO CRM."appointment" ("appointment_id", "contact_id", "person_id", "associate_id", "group_idx", "registered", "registered_associate_id", "done", "do_by", "leadtime", "task_idx", "priority_idx", "type", "status", "private", "alarm", "text_id", "project_id", "mother_id", "document_id", "color_index", "opportunity_id", "invitedPersonId", "activeDate", "endDate", "lagTime", "source", "userdef_id", "userdef2_id", "updated", "updated_associate_id", "updatedCount", "activeLinks", "recurrenceRuleId", "location", "alldayEvent", "freeBusy", "rejectCounter", "emailId", "rejectReason", "hasAlarm", "assignedBy") VALUES (738, 29, 74, 13, 1, 1164196048, 13, 0, 1164114540, 0, 8, 0, 1, 1, 0, 0, 388, 0, 0, 0, 0, 0, 149, 1164114540, 1164118140, 0, 0, 0, 0, 0, 0, 0, 0, 0, '', 0, 0, 0, 0, '', 0, 0)
 
 INSERT INTO CRM."traveltransactionlog" ("traveltransactionlog_id", "ttime", "prev_record_id", "type", "associate_id", "tablenumber", "record_id") VALUES (110418, 1164199648, 0, 4352, 13, 9, 738)
@@ -25,7 +25,7 @@ INSERT INTO CRM."traveltransactionlog" ("traveltransactionlog_id", "ttime", "pre
 
 ## Update affected SAINT counters
 
-```sql
+```SQL
 UPDATE CRM."countervalue" SET "CounterValue_id" = 19344, "contact_id" = 29, "person_id" = 0, "project_id" = 0, "extra1_id" = 0, "extra2_id" = 0, "record_type" = 1, "direction" = 3, "intent_id" = 0, "sale_status" = 0, "amountClassId" = 0, "totalReg" = 2, "totalRegInPeriod" = 2, "notCompleted" = 2, "notCompletedInPeriod" = 2, "lastRegistered" = 1164114540, "lastCompleted" = 0, "lastDoBy" = 1164114540, "extra1_count" = 0, "extra2_count" = 0, "extra3_count" = 0, "extra4_count" = 0, "registered" = 0, "registered_associate_id" = 0, "updated" = 1164196049, "updated_associate_id" = 13, "updatedCount" = 0 WHERE "CounterValue_id" = 19344
 
 UPDATE CRM."countervalue" SET "CounterValue_id" = 19348, "contact_id" = 29, "person_id" = 0, "project_id" = 0, "extra1_id" = 0, "extra2_id" = 0, "record_type" = 1, "direction" = 3, "intent_id" = 5, "sale_status" = 0, "amountClassId" = 0, "totalReg" = 1, "totalRegInPeriod" = 1, "notCompleted" = 1, "notCompletedInPeriod" = 1, "lastRegistered" = 1164114540, "lastCompleted" = 0, "lastDoBy" = 1164114540, "extra1_count" = 0, "extra2_count" = 0, "extra3_count" = 0, "extra4_count" = 0, "registered" = 0, "registered_associate_id" = 0, "updated" = 1164196049, "updated_associate_id" = 13, "updatedCount" = 0 WHERE "CounterValue_id" = 19348
@@ -37,7 +37,7 @@ UPDATE CRM."countervalue" SET "CounterValue_id" = 19537, "contact_id" = 29, "per
 
 ## Add the text record
 
-```sql
+```SQL
 INSERT INTO CRM."text" ("text_id", "type", "owner_id", "registered", "registered_associate_id", "updated", "updated_associate_id", "updatedCount", "text", "lcid", "seqno") VALUES (388, 4, 738, 1164196049, 13, 0, 0, 0, 'A nice toasted bagel with lox and cream-cheese.', 1044, 0)
 
 INSERT INTO CRM."traveltransactionlog" ("traveltransactionlog_id", "ttime", "prev_record_id", "type", "associate_id", "tablenumber", "record_id") VALUES (110419, 1164199649, 0, 4352, 13, 18, 388)
@@ -75,7 +75,7 @@ INSERT INTO CRM."freetextindex" ("freetextindex_id", "freetextwords_id", "table_
 
 ## Add the visible-for record for the appointment
 
-```sql
+```SQL
 INSERT INTO CRM."visiblefor" ("VisibleFor_id", "tableId", "recordId", "forAll", "forGroupId", "forAssocId", "encryptedCheck", "registered", "registered_associate_id", "updated", "updated_associate_id", "updatedCount") VALUES (914, 9, 738, 1, 0, 0, 'hQMC78oTMlGiFhgQyTEIuYatA57qbFEo', 1164196049, 13, 0, 0, 0)
 
 INSERT INTO CRM."traveltransactionlog" ("traveltransactionlog_id", "ttime", "prev_record_id", "type", "associate_id", "tablenumber", "record_id") VALUES (110420, 1164199649, 0, 4352, 13, 196, 914)

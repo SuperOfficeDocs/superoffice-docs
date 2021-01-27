@@ -21,13 +21,13 @@ There are several different types of users.
 
 * Internal users (a.k.a. employees) have type=0. These users can log in to the client. They have a diary that contains their appointments. An internal user is always linked to a person belonging to a contact listed in the [ownercontactlink][1] table.
 
-* External users have type=4. These users cannot log in to the client, and do not have diaries containing appointments. They can log in to NetServer and access information there, but their access is usually restricted to their own company and to projects that they are members of. External users have access to published information - in other words, the internal users determine what the external users can see.
+* External users have type=4. These users cannot log in to the client and do not have diaries containing appointments. They can log in to NetServer and access information there, but their access is usually restricted to their own company and to projects that they are members of. External users have access to published information - in other words, the internal users determine what the external users can see.
 
 * Anonymous users have type=7. Anonymous users can be anyone. They cannot log into the client. They must use the NetServer API to access the database. The site must have an Expander Collaboration license to enable anonymous users.
 
 * System users have type=13. System users are used for integrating different systems. System users cannot log in to the client. They must use the NetServer API. System users by-pass the security checks, allowing full access to all data in SuperOffice. The site must have an Expander Collaboration license.
 
-```sql
+```SQL
 SELECT * FROM associate
 ```
 
@@ -47,13 +47,13 @@ Internal Users are members of one or more usergroups.
 
 External users, anonymous and system users do not have usergroup memberships. The `associate.group_id` field should be 0 for these types.
 
-```sql
+```SQL
 SELECT * FROM usergroup
 ```
 
 ![UserGroup][img3]
 
-```sql
+```SQL
 SELECT * FROM usergrouplink
 ```
 
@@ -83,7 +83,7 @@ The reason for this is that resources can also be meeting participants, and thus
 
 Resources have type=1, while internal users have type=0.
 
-```sql
+```SQL
 SELECT * FROM associate WHERE type = 1
 ```
 

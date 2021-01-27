@@ -43,7 +43,7 @@ So to set RedLetterDay for September 1995, do as follows:
 
 Get unique ID for RedLetterDay table (id = 27 in Sequence), and increment.
 
-```sql
+```SQL
 INSERT INTO RedLetterDay (redletterday_id, reddate, country_id, reds) VALUES (next_id, 809913600, mycountry, 12665348)
 ```
 

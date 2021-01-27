@@ -17,12 +17,12 @@ so.topic: reference              # article, howto, reference, concept, guide
 
 [!include[SQL](./includes/to-view-pref.md)]
 
-```sql
+```SQL
 SELECT * FROM UserPreference WHERE prefsection='Associates'
 ```
 
 Associate preferences like which radiobutton did I select the last time I used this dialog/control
-or which item did I select last time I used this drop-down list
+or which item did I select last time I used this drop-down list.
 
 | Preference | Description | Default | Control type | Access |
 |---|---|---|---|---|

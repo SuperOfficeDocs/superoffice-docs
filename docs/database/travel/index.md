@@ -42,9 +42,9 @@ The record definition looks like this:
 
 ### id
 
-This field identifies the record in the traveltransactionlog (not the record changed).  Its value is taken from sequence, using sequence row 39.  The standard SQL statement used to get new IDs is:
+This field identifies the record in the `traveltransactionlog` (not the record changed).  Its value is taken from sequence, using sequence row 39.  The standard SQL statement used to get new IDs is:
 
-```sql
+```SQL
 BEGIN TRANSACTION
 UPDATE so.sequence SET next_id = next_id + 1 WHERE id = 39
 SELECT next_id - 1 FROM so.sequence WHERE id = 39
@@ -65,34 +65,34 @@ This is a standard SuperOffice date/time value, i.e., number of seconds since 1.
 This field is now used for additional information. It is normally set to "0", except in these situations:
 
 * Type = 5120 kTrtRecUpdateOwner (see below).  In that case, the mode field contains the previous owner ID.
-* The owner id is an associate id that contains the owner of a record; it refers to these tables and fields:
+* The owner ID is an associate id that contains the owner of a record; it refers to these tables and fields:
 
 | Table | Field |
 |---|---|
-| Contact     | associate\_id |
-| Project     | associate\_id |
-| Appointment | associate\_id |
-| Sale        | associate\_id |
+| Contact     | `associate_id` |
+| Project     | `associate_id` |
+| Appointment | `associate_id` |
+| Sale        | `associate_id` |
 
 The logic is:
 
-1. prepare and write normal traveltransactionlog record
+1. prepare and write normal `traveltransactionlog` record
 2. if operation = update
-    * if associate\_id is changed and table in (contact, project, appointment, sale)
-      * mode = previous associate\_id
-      * type = kTrtRecUpdateOwner
-      * set id, time, tabno, rec\_id
-      * write traveltransactionlog
+    * if `associate_id` is changed and table in (contact, project, appointment, sale)
+      * mode = `previous associate_id`
+      * type = `kTrtRecUpdateOwner`
+      * set `id`, `time`, `tabno`, `rec_id`
+      * write `traveltransactionlog`
     end
   end
 
 This functionality is only relevant if you are using Area Management. Area Management uses the owner associate id as one of the criteria for determining which area a record belongs to.  If the owner id is changed it might trigger the transfer of that record from one area (satellite) to another, translating an update operation into a delete/insert pair on separate areas.
 
-The extra traveltransactionlog record contains the previous owner ID (which is not available anywhere else) so that the area management system can determine what to do.
+The extra `traveltransactionlog` record contains the previous owner ID (which is not available anywhere else) so that the area management system can determine what to do.
 
 | Type | Description |
 |---|---|
-| 5888 | User (Associate\_id) removed from Area user inclusion |
-| 6144 | User (Associate\_id) deleted from Area user assignment |
-| 6400 | Prev\_record\_id= version of user defined fields that’s been published (udeffield.version)<br>Tablenumber: contact = 7, person = 8, project = 9, sale = 10. |
-| 8192 - 8200 | Used with Field level replication. It’s a bit mask of which fields in the record that has been changed, 1 means fields been changed. This means if the second field in a record has been changed, then pref\_record\_id=2. |
+| 5888 | User (`Associate_id`) removed from Area user inclusion |
+| 6144 | User (`Associate_id`) deleted from Area user assignment |
+| 6400 | `Prev_record_id` = version of user defined fields that’s been published (`udeffield.version`)<br>Tablenumber: contact = 7, person = 8, project = 9, sale = 10. |
+| 8192 - 8200 | Used with Field level replication. It’s a bit mask of which fields in the record that has been changed, 1 means fields been changed. This means if the second field in a record has been changed, then `pref_record_id=2`. |

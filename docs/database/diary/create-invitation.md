@@ -130,5 +130,5 @@ UPDATE CRM."countervalue" SET "CounterValue_id" = 16595, "contact_id" = 13, "per
 <!-- Referenced links -->
 [1]: ../tables/appointment.md
 
-<!-- Referenced imagess -->
+<!-- Referenced images -->
 [img1]: media/invitation-dlg.png

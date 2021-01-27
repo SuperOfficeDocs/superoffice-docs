@@ -68,7 +68,7 @@ Email synchronization and mail sending and receiving. These preferences control 
 | SmtpServerPort | The port number your mail server uses to send email using the SMTP protocol. | 25 | Number | Admin, Admin users, Wizard |
 | SmtpServerUser | If you want to use a different user name from the one you use to log in to your IMAP server, you can enter it here. | |Text | Admin, Admin users, Wizard |
 | Timeout | Number of seconds that SuperOffice will wait for the mail server to finish processing a request. If you experience problems with slow response times from your mail server, you should increase this value to 30 seconds or more. | 15 seconds | Number | Admin, Admin users, Wizard |
-| UseMapiReaderAnyway | Use the SuperOffice inbox even if other email integration are installed | NO | Bool | Wizard |
+| UseMapiReaderAnyway | Use the SuperOffice inbox even if other email integrations are installed | NO | Bool | Wizard |
 | UseSoMailBody | Use "mail.htm" as body of new emails. The file is looked for in "so\_arc\\username\\mail.htm" and if not found in "so\_arc\\template\\mail.htm" | | | |
 | MoveDeletedToDeletedItems | If enabled emails that get deleted are moved to the deleted items folder | | | |
 | SaveSentInSentItems | If enabled sent emails are saved in the sent items folder | | | |

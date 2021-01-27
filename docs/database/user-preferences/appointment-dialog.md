@@ -23,7 +23,7 @@ SELECT * FROM UserPreference WHERE prefsection='AppointmentDialog'
 
 | Preference | Description | Default | Control type | Access |
 |---|---|---|---|---|
-| AppointmentDialogExpanded | Preference used to remember the setup/state of the Filter dialog | | Bool | Wizard |
+| AppointmentDialogExpanded | Preference used to remember the setup/state of the **Filter** dialog | | Bool | Wizard |
 
 > [!NOTE]
 > **Follow-up** dialog pertains to SuperOffice 5. It is obsolete in version 6.
