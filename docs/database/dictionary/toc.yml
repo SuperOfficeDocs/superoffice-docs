@@ -1,8 +1,16 @@
-- name: Data dictionary
+- name: Continuos Database
   href: index.md
-- name: Continuous database v8.1
-  href: continuous-database-81.md
 - name: Dictionary steps
   href: dictionary-steps.md
-- name: Implementation
-  href: implementation.md
+- name: IMP file
+  href: imp-file-format.md
+- name: Methods
+  items:
+  - name: Structure
+    href: structure-method.md
+  - name: ImpFileName
+    href: impfilenames-method.md
+  - name: CustomPriming'
+    href: custompriming-method.md
+- name: How to change tables
+  href: howto-make-db-changes.md
