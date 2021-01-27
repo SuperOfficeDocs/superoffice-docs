@@ -63,7 +63,7 @@ SELECT record_id FROM foreignkey
 WHERE foreigndevice_id = 461 AND table_id = 5 AND subkey='erp-id' AND subvalue='1234'
 ```
 
-We can find the ERP id using the SuperOffice contact ID 56200 like this:
+We can find the ERP ID using the SuperOffice contact ID 56200 like this:
 
 ```SQL
 SELECT subvalue FROM foreignkey

@@ -25,7 +25,7 @@ If you are adding your own records to the database, you must update the sequence
 
 ## Number ranges
 
-There are ranges of ID in use when it comes to the SuperOffice database, and the range depends on where in the hierarchy this database is. We refer to the central database as the mother, and this database id range starts from 1.
+There are ranges of ID in use when it comes to the SuperOffice database, and the range depends on where in the hierarchy this database is. We refer to the central database as the mother, and this database ID range starts from 1.
 
 At some point, we need to start the range for the satellites, and we've said the first satellite starts at 0x1000000 (16777216), the second satellite starts ID range at 0x2000000 (33554432), and so on. These high IDs may live in all databases, so you'll find both central and satellite IDs in all types of SO databases.
 

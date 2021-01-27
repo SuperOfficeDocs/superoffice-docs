@@ -58,7 +58,7 @@ The meaning of the `owner_id` depends on the deflevel value.
 |---|---|
 | 1 | 0 |
 | 2 | 0 |
-| 3 | satellite id (travelcurrent\_id) |
+| 3 | satellite ID (travelcurrent\_id) |
 | 4 | usergroup\_id |
 | 5 | associate\_id |
 | 6 | not stored in database; stored in registry |

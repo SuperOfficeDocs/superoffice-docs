@@ -80,7 +80,7 @@ so.envir: onsite           # cloud or onsite
 
 | Field | Type | Description |
 |---|---|---|
-| base\_program | short | Base program used in url (ticket, rms, ...) |
+| base\_program | short | Base program used in URL (ticket, rms, ...) |
 | extra\_table | int | ExtraTable that the menu is connected to |
 
 ### [s\_link][9]

@@ -147,7 +147,7 @@ so.envir: onsite           # cloud or onsite
 
 | Field | Type | Description |
 |---|---|---|
-| longid | inbox | The id of the inbox entry which created this message. Note: inbox entries are regularily deleted. |
+| longid | inbox | The ID of the inbox entry which created this message. Note: inbox entries are regularily deleted. |
 
 ### [ticket](../tables/ticket.md)
 
@@ -196,7 +196,7 @@ so.envir: onsite           # cloud or onsite
 | Field | Type | Description |
 |---|---|---|
 | wchar\_t | extra\_info\[256\] | Field used for various extra information depending on menu type |
-| ushort | base\_program | Base program used in url (ticket, rms, ...) |
+| ushort | base\_program | Base program used in URL (ticket, rms, ...) |
 | longid | extra\_table | ExtraTable that the menu is connected to |
 | longid | group\_id | Link to extra\_menus table if this menu item is to be shown in a custom menu group |
 

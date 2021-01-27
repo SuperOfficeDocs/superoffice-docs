@@ -58,14 +58,14 @@ If an application requires new IDs for several tables it will be able to group a
 
 ### ttime
 
-This is a standard SuperOffice date/time value, i.e., number of seconds since 1.1.1970 00:00.  The PC's local clock is used, which may introduce some inaccuracies in the update logic if two users make near-simultaneous updates to the same record and their PCs do not have synchronised clocks.  Ideally, the PC clock should be synchronised with an external source when using Travel functions.  The time field is a timestamp that shows when the record update (or insertion or deletion) was done (i.e. when the traveltransactionlog record was created).
+This is a standard SuperOffice date/time value, i.e., number of seconds since 1.1.1970 00:00.  The PC's local clock is used, which may introduce some inaccuracies in the update logic if two users make near-simultaneous updates to the same record and their PCs do not have synchronised clocks.  Ideally, the PC clock should be synchronized with an external source when using Travel functions.  The time field is a timestamp that shows when the record update (or insertion or deletion) was done (i.e. when the traveltransactionlog record was created).
 
 ### Prev\_record\_id
 
 This field is now used for additional information. It is normally set to "0", except in these situations:
 
 * Type = 5120 kTrtRecUpdateOwner (see below).  In that case, the mode field contains the previous owner ID.
-* The owner ID is an associate id that contains the owner of a record; it refers to these tables and fields:
+* The owner ID is an associate ID that contains the owner of a record; it refers to these tables and fields:
 
 | Table | Field |
 |---|---|
@@ -86,7 +86,7 @@ The logic is:
     end
   end
 
-This functionality is only relevant if you are using Area Management. Area Management uses the owner associate id as one of the criteria for determining which area a record belongs to.  If the owner id is changed it might trigger the transfer of that record from one area (satellite) to another, translating an update operation into a delete/insert pair on separate areas.
+This functionality is only relevant if you are using Area Management. Area Management uses the owner associate ID as one of the criteria for determining which area a record belongs to.  If the owner ID is changed it might trigger the transfer of that record from one area (satellite) to another, translating an update operation into a delete/insert pair on separate areas.
 
 The extra `traveltransactionlog` record contains the previous owner ID (which is not available anywhere else) so that the area management system can determine what to do.
 
@@ -95,4 +95,4 @@ The extra `traveltransactionlog` record contains the previous owner ID (which is
 | 5888 | User (`Associate_id`) removed from Area user inclusion |
 | 6144 | User (`Associate_id`) deleted from Area user assignment |
 | 6400 | `Prev_record_id` = version of user defined fields that’s been published (`udeffield.version`)<br>Tablenumber: contact = 7, person = 8, project = 9, sale = 10. |
-| 8192 - 8200 | Used with Field level replication. It’s a bit mask of which fields in the record that has been changed, 1 means fields been changed. This means if the second field in a record has been changed, then `pref_record_id=2`. |
+| 8192 - 8200 | Used with Field level replication. It’s a bit mask of which fields in the record that has been changed, 1 means fields have been changed. This means if the second field in a record has been changed, then `pref_record_id=2`. |

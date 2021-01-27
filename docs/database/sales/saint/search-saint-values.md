@@ -63,7 +63,7 @@ SELECT * FROM CounterValue WHERE contact_id > 0 AND record_type = 5  AND direct
 ```
 
 > [!NOTE]
-> We must specify `intent_id` for appointments/documents to avoid duplicate ids in the result. intent = 0 implies all intents.
+> We must specify `intent_id` for appointments/documents to avoid duplicate IDs in the result. intent = 0 implies all intents.
 
 ## See also
 

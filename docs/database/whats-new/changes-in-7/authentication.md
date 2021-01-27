@@ -17,12 +17,12 @@ so.envir: onsite           # cloud or onsite
 
 Authentication was redesigned and rewritten in SuperOffice 7.
 
-This impacts all our applications – Win, Web, Modules, Web Services, partner apps ... Everything
+This impacts all our applications – Win, Web, modules, web services, partner apps ... Everything
 A breaking change – simple recompilation will in many cases not be enough.
 
 Authentication is based on credentials – evidence that the user must provide to prove identity
 
-Credentials must prove an identity (be verifiable) and the identity must be mapped to an associate id. In SuperOffice, an identity is an associate ID.
+Credentials must prove an identity (be verifiable) and the identity must be mapped to an associate ID. In SuperOffice, an identity is an associate ID.
 
 During evaluation of credentials, exactly one identity must result, and no-one must vote against admittance. Evaluation is performed by NetServer and trusted plugins – only. No other code has the authority to authenticate.
 
@@ -48,18 +48,18 @@ The full potential of this system is not yet leveraged. The grey parts are pres
 SuperOffice is much more than one application:
 
 * Web -> Batch ->  Reporter ->  OLE DB Provider
-* Win ->  Portal ->  Web Panel ->  Partner app
+* Windows ->  Portal ->  Web Panel ->  Partner app
 * Web ->  request ->  next request ->  next request ...
 
 We need to "bring with us" the authenticated users’ identity, in a way that does not reveal too much. **The ticket**, a string that proves that you are currently authenticated, without revealing who you are or how you got there.
 
 * Like a paper ticket, it is only valid if it has a "stub"
-* The stub is in the database, and is put there when the ticket is issued.
+* The stub is in the database and is put there when the ticket is issued.
 * A ticket itself does not contain a user ID
 * If you can see the database, then you still can’t falsify valid tickets. A ticket cannot be deduced from the database.
 * If you can write to the database ... But if you can do that, then you already have all the access you need.
 
-A ticket does not contain the users’ password, or anything else that is intelligible – it’s just a ticket
+A ticket does not contain the users’ password or anything else that is intelligible – it’s just a ticket
 
 It’s base-64 encoded. If you unpack it, you will see something like {3F2504E0-4F89-11D3-9A0C-0305E82C3301};1254895 – and that is all. Essentially we have two random numbers – one is very large (the [GUID][1]), the other is smaller.
 
@@ -75,7 +75,7 @@ Later on, you can pass in the ticket in a WebRequest header
 You can also send it in, as the username
 
 This means that anyplace that takes username/password, ticket/blank will work
-This applies to Win and Web equally – main clients, OLE DB, URL authentication, etc etc
+This applies to Windows and Web equally – main clients, OLE DB, URL authentication, etc.
 
 Multiple GetSafeCredentials() calls within the same process and validity period will return the same ticket. Remember that a ticket represents an identity, NOT a particular session (again, that is by design). It is quite OK for multiple sessions to share one ticket, they will just push the validity ahead of them.
 

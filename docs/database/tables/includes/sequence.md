@@ -1,13 +1,13 @@
 
 ### Use of the Sequence table
 
-The sequence table contains the next unallocated id for each SuperOffice table.
+The sequence table contains the next unallocated ID for each SuperOffice table.
 
-Each sequential row has its own id number, which is 10 + the table number in the table listing.
+Each sequential row has its own ID number, which is 10 + the table number in the table listing.
 
-When inserting a new row in a table you will need to allocate the id-value to use for this record.
+When inserting a new row in a table you will need to allocate the ID value to use for this record.
 
-Reading and updating the next id-value should always be performed as a single transaction because if someone else reads and updates this information simultaneously, a database error will occur when inserting the new row.
+Reading and updating the next ID value should always be performed as a single transaction because if someone else reads and updates this information simultaneously, a database error will occur when inserting the new row.
 
 **Example:**
 

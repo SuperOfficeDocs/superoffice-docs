@@ -35,7 +35,7 @@ SELECT * FROM associate
 
 The reserved field contains the password and license information. This information is encrypted and can only be edited using the SuperOffice APIs.
 
-The name field contains the login id - a corresponding database login is created for each internal user when the user is created in the SuperOffice Admin tool, to allow database admins more detailed logs of user activity.
+The name field contains the login ID - a corresponding database login is created for each internal user when the user is created in the SuperOffice Admin tool, to allow database admins more detailed logs of user activity.
 
 The person-id field points to the user's corresponding person. This is where the user's full name, title, and phone number information is stored.
 

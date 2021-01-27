@@ -55,7 +55,7 @@ The sub-tables are:
 | selection   | SelectionMember                                                             |
 | relation    |                                                                             |
 
-Rights overrides may be applied to any table or field that is a main table, or a subtable of a main table.
+Rights overrides may be applied to any table or field that is a main table, or a sub-table of a main table.
 
 Override levels (**what** is allowed)
 

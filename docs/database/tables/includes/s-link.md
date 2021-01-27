@@ -8,10 +8,10 @@ Bitmask defininig what action should be taken. This enumeration consists of flag
 | 2 | Remove an interest from the recipient-who-is-a-person |
 | 4 | Set an interest on the recipient-who-is-a-contact |
 | 8 | Remove an interest from the recipient-who-is-a-contact |
-| 16 | Add person id of recipient to a static S&M selection |
-| 32 | Remove person id of recipient from a static S&M selection |
-| 64 | Add person id of recipient as a member of an S&M project |
-| 128 | Remove person id of recipient as a member of an S&M project |
+| 16 | Add person ID of recipient to a static S&M selection |
+| 32 | Remove person ID of recipient from a static S&M selection |
+| 64 | Add person ID of recipient as a member of an S&M project |
+| 128 | Remove person ID of recipient as a member of an S&M project |
 | 254 | Add a task in an S&M diary |
 | 512 | Add a request (ticket) in CS |
 | 1024 | Add person to a Customer Support selection |

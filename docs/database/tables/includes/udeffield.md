@@ -7,9 +7,9 @@ The version that is currently used by the SOCRM client is stored in a user prefe
 
 ### OwnerTable
 
-UDefField contains an ownerTable id, which table is this user defined field for.
+UDefField contains an ownerTable ID, which table is this user defined field for.
 
-This field is an enum, unlike all other owner Table ids in the database. It does not use the table id listed in the dictionary.
+This field is an enum, unlike all other owner Table IDs in the database. It does not use the table ID listed in the dictionary.
 
 * UDefContact = 7
 * UDefPerson = 8
@@ -27,8 +27,8 @@ This field is an enum, unlike all other owner Table ids in the database. It does
 * 4 = Date (for dates 1970 - 2036, stored as Long value)
 * 5 = Unlimited date (for dates 0001 - 9999, stored as string)
 * 6 = Check box (stored as 0/1 in long field)
-* 7 = Drop-down (listtableid determines which list. If listTableId = 136 then this is a userdefined list and all items are stored in the UDList table with UDList.UDListDefinition\_ID = udeffield.UDListDefinition\_id)
-* 8 = Decimal  - acutally double - that is 80 bits IEEE floating point.
+* 7 = Drop-down (listtableid determines which list. If listTableId = 136 then this is a user-defined list and all items are stored in the UDList table with UDList.UDListDefinition\_ID = udeffield.UDListDefinition\_id)
+* 8 = Decimal  - actually double - that is 80 bits IEEE floating point.
 
 ### ProgId
 

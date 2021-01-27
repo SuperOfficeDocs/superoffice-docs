@@ -70,7 +70,7 @@ Is either template\_idx (DocTmpl\_id in DocTmpl) or task\_idx (Task\_id in Task)
  | &gt; 0 | mother\_id not like appointment\_id | This is a booking, and the appointment is the slave booking (someone who is invited) |
 
 Bookings share a single text record. In SuperOffice the person doing the inviting is the only one allowed to change the text of this booking (appointment).
-A booking may have associate\_id = 0, if it is an invitation to an external participant; in that case the InvitedPersonId is the person ID of the participant. Person\_id is always the id of the person the meeting is with (not of the person who is invited to it).
+A booking may have associate\_id = 0, if it is an invitation to an external participant; in that case the InvitedPersonId is the person ID of the participant. Person\_id is always the ID of the person the meeting is with (not of the person who is invited to it).
 
 #### FreeBusy
 

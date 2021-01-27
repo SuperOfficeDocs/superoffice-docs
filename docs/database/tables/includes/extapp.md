@@ -27,7 +27,7 @@ The enums here may be combined.
 | Maximized | 1 | Start application in maximized state |
 | Default | 2 | Start application with default window size and position |
 | Toolbar | 256 | Show the Browser toolbar |
-| AddressBar | 512 | Show the Browser addressbar (where the user can type URL's and stuff) |
+| AddressBar | 512 | Show the Browser addressbar (where the user can type URLs) |
 | StatusBar | 1024 | Show the Browser statusbar |
 | MenuBar | 2048 | Show the Browser Menu bar (currently not implemeted) |
 

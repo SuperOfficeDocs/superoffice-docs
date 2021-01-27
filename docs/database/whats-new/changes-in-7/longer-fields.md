@@ -25,11 +25,11 @@ so.envir: onsite           # cloud or onsite
 
 We now use nvarchar(max) instead of text as our large-string datatype. This is more efficient and functionally much more compatible and capable datatype.
 
-This will not make the database bigger, unless the new space is actually used. SQL Server has a mechanism to put long strings into out-of-record pages so the max record limit is waived.
+This will not make the database bigger unless the new space is actually used. SQL Server has a mechanism to put long strings into out-of-record pages so the max record limit is waived.
 
 **We have extended just about all fields that needed or looked like they might need it. Further extensions are still possible between alpha and beta; after that – finito.**
 
-SQL Server has a little-publicised limitation: Index nodes cannot be more than 900 bytes (even in 2008)
+SQL Server has a little-publicized limitation: Index nodes cannot be more than 900 bytes (even in 2008)
 A unicode string consumes 2 bytes/char
 
 A multi-field index creates nodes from the sum of all fields
