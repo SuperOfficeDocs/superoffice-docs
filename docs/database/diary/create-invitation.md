@@ -22,7 +22,7 @@ The co-worker (Ingrid Istad) will get an invitation dialog next time she logs in
 
 In this example the following `associate_id`s are useful to know:
 
-| associate\_id | associate type | person\_id | contact\_id | name |
+| `associate_id` | associate type | `person_id` | `contact_id` | name |
 |---|---|---|---|---|
 | 7  | 0 | 15 | 2 | Frode Freestad       |
 | 10 | 0 | 18 | 2 | Ingrid Istad         |

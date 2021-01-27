@@ -27,7 +27,7 @@ The one good thing about the old posix datetime was that there was an obvious "b
 
 In the code, we convert from 1.1.1760 to 1.1.1970 (c++) or DateTime.MinValue (C\#) automatically. The code and applications dependent on it see no change from what things were like earlier.
 
-Since the C++ still works with posix `date_t` internally, we still have the same limitations. Overcoming these is a big project that relates to all our C++ and Windows Gui code; and it just was not worth the risk and effort in this round.
+Since the C++ still works with posix `date_t` internally, we still have the same limitations. Overcoming these is a big project that relates to all our C++ and Windows GUI code; and it just was not worth the risk and effort in this round.
 
 User-defined fields are not being changed in 7.0 and here Datetime is still mapped to an int.
 UnlimitedDate also stays the same, as a string internally (YYYYMMDD).

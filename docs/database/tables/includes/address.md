@@ -14,7 +14,7 @@ This table must contain special values that would be difficult to guess correctl
  | Street | 2 | 0x0002 |
  | Private | 3 | 0x0003 |
 
-For example: A person’s private address will have Address type Person 16384 + Subtype private 3 = 16387 as atype\_idx in the address table.
+For example: A person’s private address will have Address type Person 16384 + Subtype private 3 = 16387 as `atype_idx` in the address table.
 Use a bitwise OR to get the final address type value.
 
 **New for quote:**

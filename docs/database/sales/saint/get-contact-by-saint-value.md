@@ -30,8 +30,8 @@ If we want to find all Contacts with no Sales registered in the particular perio
 SELECT * FROM CRM.countervalue WHERE contact_id > 0 AND sale_Status = 4 AND amountClassId = 0 AND totalRegInPeriod = 0
 ```
 
-* Sale\_Status = 4 includes all statuses
-* Amount\_Class = 0 includes all sizes
+* `Sale_Status`= 4 includes all statuses
+* `Amount_Class` = 0 includes all sizes
 
 If we want to find Contacts who have more than 5 sales register the following code can be used.
 

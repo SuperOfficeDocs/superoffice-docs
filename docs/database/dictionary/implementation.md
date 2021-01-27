@@ -45,11 +45,11 @@ In addition to fluent methods for tables, there are fluent methods that make it 
 
 `AddRegisteredUpdated` adds five fields, all with standard settings.
 
-* registered
-* registered\_associate\_id
-* updated
-* updated\_associate\_id
-* updatedCount
+* `registered`
+* `registered_associate_id`
+* `updated`
+* `updated_associate_id`
+* `updatedCount`
 
 ## ImpFileNames method
 

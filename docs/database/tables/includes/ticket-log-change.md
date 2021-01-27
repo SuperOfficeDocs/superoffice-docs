@@ -1,5 +1,5 @@
 
-The field ticket\_log\_change.log\_change has an enum from this list:
+The field `ticket_log_change.log_change` has an enum from this list:
 
 ### enum LogChange
 
@@ -7,61 +7,61 @@ The field ticket\_log\_change.log\_change has an enum from this list:
 
 | Name | Value |
 |---|---|
-| LogChange\_Ticket\_CreatedAt | 1 |
-| LogChange\_Ticket\_Title | 2 |
-| LogChange\_Ticket\_LastChanged | 3 |
-| LogChange\_Ticket\_ReadByOwner | 4 |
-| LogChange\_Ticket\_ReadByCustomer | 5 |
-| LogChange\_Ticket\_ClosedAt | 6 |
-| LogChange\_Ticket\_TimeToClose | 7 |
-| LogChange\_Ticket\_RealTimeToClose | 8 |
-| LogChange\_Ticket\_TimeToReply | 9 |
-| LogChange\_Ticket\_RealTimeToReply | 10 |
-| LogChange\_Ticket\_Author | 11 |
-| LogChange\_Ticket\_CreatedBy | 12 |
-| LogChange\_Ticket\_AlertLevel | 13 |
-| LogChange\_Ticket\_AlertTimeout | 14 |
-| LogChange\_Ticket\_ConnectId | 15 |
-| LogChange\_Ticket\_FilterId | 16 |
-| LogChange\_Ticket\_ReadStatus | 17 |
-| LogChange\_Ticket\_HasAttachment | 18 |
-| LogChange\_Ticket\_DisplayFilter | 19 |
-| LogChange\_Ticket\_AlertStop | 20 |
-| LogChange\_Ticket\_RepliedAt | 21 |
-| LogChange\_Ticket\_SLevel | 22 |
-| LogChange\_Ticket\_Category | 23 |
-| LogChange\_Ticket\_Priority | 24 |
-| LogChange\_Ticket\_CustId | 25 |
-| LogChange\_Ticket\_Status | 26 |
-| LogChange\_Ticket\_FirstReadByUser | 27 |
-| LogChange\_Ticket\_Activate | 28 |
-| LogChange\_Ticket\_OwnedBy | 29 |
-| LogChange\_Ticket\_AgentId | 30 |
-| LogChange\_Ticket\_DbiKey | 31 |
-| LogChange\_Ticket\_DbiLastSyncronized | 32 |
-| LogChange\_Ticket\_ExtraField | 33 |
-| LogChange\_Ticket\_FirstReadByOwner | 34 |
-| LogChange\_Ticket\_TicketStatus | 35 |
-| LogChange\_Ticket\_Deadline | 36 |
-| LogChange\_Ticket\_FilterAddress | 37 |
+| `LogChange_Ticket_CreatedAt` | 1 |
+| `LogChange_Ticket_Title` | 2 |
+| `LogChange_Ticket_LastChanged` | 3 |
+| `LogChange_Ticket_ReadByOwner` | 4 |
+| `LogChange_Ticket_ReadByCustomer` | 5 |
+| `LogChange_Ticket_ClosedAt` | 6 |
+| `LogChange_Ticket_TimeToClose` | 7 |
+| `LogChange_Ticket_RealTimeToClose` | 8 |
+| `LogChange_Ticket_TimeToReply` | 9 |
+| `LogChange_Ticket_RealTimeToReply` | 10 |
+| `LogChange_Ticket_Author` | 11 |
+| `LogChange_Ticket_CreatedBy` | 12 |
+| `LogChange_Ticket_AlertLevel` | 13 |
+| `LogChange_Ticket_AlertTimeout` | 14 |
+| `LogChange_Ticket_ConnectId` | 15 |
+| `LogChange_Ticket_FilterId`| 16 |
+| `LogChange_Ticket_ReadStatus` | 17 |
+| `LogChange_Ticket_HasAttachment` | 18 |
+| `LogChange_Ticket_DisplayFilter` | 19 |
+| `LogChange_Ticket_AlertStop` | 20 |
+| `LogChange_Ticket_RepliedAt` | 21 |
+| `LogChange_Ticket_SLevel` | 22 |
+| `LogChange_Ticket_Category` | 23 |
+| `LogChange_Ticket_Priority` | 24 |
+| `LogChange_Ticket_CustId` | 25 |
+| `LogChange_Ticket_Status` | 26 |
+| `LogChange_Ticket_FirstReadByUser` | 27 |
+| `LogChange_Ticket_Activate` | 28 |
+| `LogChange_Ticket_OwnedBy` | 29 |
+| `LogChange_Ticket_AgentId` | 30 |
+| `LogChange_Ticket_DbiKey` | 31 |
+| `LogChange_Ticket_DbiLastSyncronized` | 32 |
+| `LogChange_Ticket_ExtraField` | 33 |
+| `LogChange_Ticket_FirstReadByOwner` | 34 |
+| `LogChange_Ticket_TicketStatus` | 35 |
+| `LogChange_Ticket_Deadline` | 36 |
+| `LogChange_Ticket_FilterAddress` | 37 |
 
 **Message:**
 
 | Name | Value |
 |---|---|
-| LogChange\_Message\_TicketId | 10001 |
-| LogChange\_Message\_CreatedAt | 10002 |
-| LogChange\_Message\_CreatedBy | 10003 |
-| LogChange\_Message\_Author | 10004 |
-| LogChange\_Message\_SLevel | 10005 |
-| LogChange\_Message\_Type | 10006 |
-| LogChange\_Message\_MessageId | 10007 |
-| LogChange\_Message\_TimeSpent | 10008 |
-| LogChange\_Message\_Body | 10009 |
-| LogChange\_Message\_BodyHtml | 10010 |
-| LogChange\_Message\_Header | 10011 |
-| LogChange\_Message\_ExtraField | 10012 |
-| LogChange\_Message\_MailSorter | 10013 |
-| LogChange\_Message\_MessageCategory | 10014 |
-| LogChange\_Message\_CustomerId | 10015 |
-| LogChange\_Message\_DebugInfo | 10016 |
+| `LogChange_Message_TicketId` | 10001 |
+| `LogChange_Message_CreatedAt` | 10002 |
+| `LogChange_Message_CreatedBy` | 10003 |
+| `LogChange_Message_Author` | 10004 |
+| `LogChange_Message_SLevel` | 10005 |
+| `LogChange_Message_Type` | 10006 |
+| `LogChange_Message_MessageId` | 10007 |
+| `LogChange_Message_TimeSpent` | 10008 |
+| `LogChange_Message_Body` | 10009 |
+| `LogChange_Message_BodyHtml` | 10010 |
+| `LogChange_Message_Header` | 10011 |
+| `LogChange_Message_ExtraField` | 10012 |
+| `LogChange_Message_MailSorter` | 10013 |
+| `LogChange_Message_MessageCategory` | 10014 |
+| `LogChange_Message_CustomerId` | 10015 |
+| `LogChange_Message_DebugInfo` | 10016 |

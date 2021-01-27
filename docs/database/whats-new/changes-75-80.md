@@ -21,13 +21,13 @@ so.envir: onsite           # cloud or onsite
 
 | Field | Type | Description |
 |---|---|---|
-| id | int | Primary key |
-| table\_id | short | SuperOffice table reference |
-| record\_id | int | Record in the referenced table |
-| associate\_id |  int | The user who has marked this favorited |
-| extra\_info\[255\] | nvarchar | Optional extra information |
-| registered | DateTime | Registered datetime |
-| registered\_by | int | Registered by whom |
+| `id` | int | Primary key |
+| `table_id` | short | SuperOffice table reference |
+| `record_id` | int | Record in the referenced table |
+| `associate_id` |  int | The user who has marked this favourited |
+| `extra_info[255]` | nvarchar | Optional extra information |
+| `registered` | DateTime | Registered datetime |
+| `registered_by` | int | Registered by whom |
 
 ## New fields on existing tables
 
@@ -35,32 +35,32 @@ so.envir: onsite           # cloud or onsite
 
 | Field | Type | Description |
 |---|---|---|
-| Flags | ushort | extra information about the operation, as a bit-masked enum |
-| Application\_Id | | mainly online, used to track the execution context (who did this?) |
+| `Flags` | ushort | extra information about the operation, as a bit-masked enum |
+| `Application_Id` | | mainly online, used to track the execution context (who did this?) |
 
 ### UdListDefinition
 
 | Field | Type | Description |
 |---|---|---|
-| RequiredLicense | string 255 | contains name(s) of license(s) needed for this list to become visible |
+| `RequiredLicense` | string 255 | contains names of licenses needed for this list to become visible |
 
 ### PrefDesc
 
 | Field | Type | Description |
 |---|---|---|
-| RequiredLicense | string 255 | contains name(s) of license(s) needed for this preference to become visible |
+| `RequiredLicense` | string 255 | contains names of licenses needed for this preference to become visible |
 
 ### SearchCriteria
 
 | Field | Type | Description |
 |---|---|---|
-| DisplayName | string 255 | Display name when these criteria are a saved filter |
+| `DisplayName` | string 255 | Display name when these criteria are a saved filter |
 
 ### Ticket
 
 | Field | Type | Description |
 |---|---|---|
-| Ticket\_type | | supports new functionality for requests |
+| `Ticket_type` | | supports new functionality for requests |
 
 ### Hierarchy
 
@@ -74,16 +74,16 @@ so.envir: onsite           # cloud or onsite
 
 | Field | Type | Description |
 |---|---|---|
-| Filter\_Field | string 255 | supports new filtering functionality in Service product |
-| Filter\_Value | string 255 | supports new filtering functionality in Service product |
+| `Filter_Field` | string 255 | supports new filtering functionality in Service product |
+| `Filter_Value` | string 255 | supports new filtering functionality in Service product |
 
 ### S\_Shipment
 
 | Field | Type | Description |
 |---|---|---|
-| Selection\_id | | set if this shipment should be related to a selection |
-| Project\_id | | set if this shipment should be related to a project |
-| Generated\_Document\_id | | ID of the merged document that is the result of the shipment |
+| `selection_id` | | set if this shipment should be related to a selection |
+| `project_id` | | set if this shipment should be related to a project |
+| `generated_document_id` | | ID of the merged document that is the result of the shipment |
 | Registered date/associate | | |
 | Updated date/associate | | |
 | UpdatedCount | | |
@@ -124,7 +124,7 @@ so.envir: onsite           # cloud or onsite
 
 | Field | Type | Description |
 |---|---|---|
-| Bounce\_Reason | string 1k | reason text received from mailing system |
+| `Bounce_Reason` | string 1k | reason text received from mailing system |
 
 ### ResourceOverride
 
@@ -161,9 +161,9 @@ so.envir: onsite           # cloud or onsite
 
 ## Tables that support new functionality in Service
 
-* Ticket\_Type
-* Ticket\_Relation\_Type
-* Ticket\_Relation\_Action
-* Ticket\_Relation
+* `Ticket_Type`
+* `Ticket_Relation_Type`
+* `Ticket_Relation_Action`
+* `Ticket_Relation`
 
 These tables support new functionality in Service, where you can define request types, relations between requests of certain types, and actions to be taken.

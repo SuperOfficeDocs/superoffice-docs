@@ -1,7 +1,7 @@
 
 Bitmask defininig what action should be taken. This enumeration consists of flag values that can be combined.
 
-| action\_flags | Comment |
+| `action_flags` | Comment |
 |---|---|
 | 0 | No action |
 | 1 | Set an interest on the recipient-who-is-a-person |
@@ -20,9 +20,9 @@ Bitmask defininig what action should be taken. This enumeration consists of flag
 
 Flags that control how the task is created. This enumeration consists of flag values that can be combined.
 
-| task\_flags | Comment |
+| `task_flags` | Comment |
 |---|---|
 | 0 | No special options, values taken from other fields |
 | 1 | Assign task to contact owner |
-| 2 | Use the soonest-available working time slot (after the task-creation evcent is triggered) |
+| 2 | Use the soonest-available working time slot (after the task-creation event is triggered) |
 | 4 | Create as an assignment (shown in Invitation dialog) |

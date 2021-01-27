@@ -50,15 +50,15 @@ so.envir:  onsite           # cloud or onsite
 
 | Table no | v.6 | v.7 |
 |---|---|---|
-| 25 | selectionTask | obsolete\_1 |
-| 26 | selTaskChain | obsolete\_2 |
-| 27 | PDALink | obsolete\_3 |
-| 34 | TrgdbAssocLink | obsolete\_4 |
-| 39 | AreaCatLink | obsolete\_9 |
-| 47 | freetextsynonyms | obsolete\_5 |
-| 127 | OptDec | obsolete\_6 |
-| 128 | OptDecGroupLink | obsolete\_7 |
-| 129 | OptDecHeadingLink | obsolete\_8 |
+| 25 | selectionTask | `obsolete_1` |
+| 26 | selTaskChain | `obsolete_2` |
+| 27 | PDALink | `obsolete_3` |
+| 34 | TrgdbAssocLink | `obsolete_4` |
+| 39 | AreaCatLink | `obsolete_9` |
+| 47 | freetextsynonyms | `obsolete_5` |
+| 127 | OptDec | `obsolete_6` |
+| 128 | OptDecGroupLink | `obsolete_7` |
+| 129 | OptDecHeadingLink | `obsolete_8` |
 
 These are now single-field tables in the dictionary, but they are not physically created in the database. This keeps the table numbers unchanged.
 

@@ -38,10 +38,10 @@ There are several changes in the 8.0 database.  Five new tables are added duri
 * There is a new table that will support a generic "favorite" (yellow star) functionality across clients.
 
 * We have planned new functionality and there are 4 new tables created for this:
-  * Ticket\_Type
-  * Ticket\_Relation\_Type
-  * Ticket\_Relation\_Action
-  * Ticket\_Relation
+  * `Ticket_Type`
+  * `Ticket_Relation_Type`
+  * `Ticket_Relation_Action`
+  * `Ticket_Relation`
   These tables support new functionality in Service, where you can define request types, relations between requests of certain types, and actions to be taken.
 
 ## New and changed fields on existing tables

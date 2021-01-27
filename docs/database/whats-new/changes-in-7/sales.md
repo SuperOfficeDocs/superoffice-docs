@@ -36,14 +36,14 @@ Database change:
 
 ## New fields in Sale/SaleHist
 
-* saleType\_id
-* postitText\_id
-* reasonStalled\_id
-* reopenDate
-* nextDueDate
-* nddAppointment\_id
-* reasonSold\_id
-* saleTypeCat\_id
+* `saleType_id`
+* `postitText_id`
+* `reasonStalled_id`
+* `reopenDate`
+* `nextDueDate`
+* `nddAppointment_id`
+* `reasonSold_id`
+* `saleTypeCat_id`
 
 The motivation behind this is:
 

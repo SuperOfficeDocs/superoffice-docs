@@ -9,14 +9,14 @@ keywords:
 
 SuperOffice makes it possible to update databases in different locations using transaction logs. This functionality is sold under the names Travel, Satellite and Area Management.
 
-The logs are updated when a SuperOffice user changes data. They will not be automatically updated by the database when inserting, updating or deleting from outside SuperOffice.
+The logs are updated when a SuperOffice user changes data. They will not be automatically updated by the database when inserting, updating, or deleting from outside SuperOffice.
 
 > [!NOTE]
 > They are updated when data manipulation is done through SuperCOM, SuperOffice OleDB provider, or NetServer to SuperOffice. We therefore recommend that you use our tools to make updates to the database.
 
 ## Purpose of the log
 
-The table `traveltransactionlog` (`crm7.traveltransactionlog` in ODBC databases, also referred to as the "log") is used to keep track of all updates, that is, insertions, deletions and changes to all data records in SuperOffice.  It is used by the update functions in Travel (local update, async update, central update) and Satellite (up, down files) to determine what to send.
+The table `traveltransactionlog` (`crm7.traveltransactionlog` in ODBC databases, also referred to as the "log") is used to keep track of all updates, that is, insertions, deletions, and changes to all data records in SuperOffice.  It is used by the update functions in Travel (local update, async update, central update) and Satellite (up, down files) to determine what to send.
 
 The log contains one record for each change.  The record does not actually contain the data that was changed, only a reference to the table and record id of the changed record.
 
@@ -30,13 +30,13 @@ The record definition looks like this:
 
 | C++ DataType | C++ Name | DB DataType | DB Name |
 |---|---|---|---|
-| Longid  | id        | int      | traveltransactionlog\_id |
-| date\_t | time      | int      | ttime                    |
-| longid  | mode      | int      | prev\_record\_id         |
-| Ushort  | type      | smallint | type                     |
-| LongId  | assoc\_id | int      | associate\_id            |
-| Ushort  | tabno     | smallint | tablenumber              |
-| LongId  | rec\_id   | int      | record\_id               |
+| Longid  | id        | int      | `traveltransactionlog_id` |
+| date\_t | time      | int      | `ttime` |
+| longid  | mode      | int      | `prev_record_id` |
+| Ushort  | type      | smallint | `type` |
+| LongId  | assoc\_id | int      | `associate_id` |
+| Ushort  | tabno     | smallint | `tablenumber` |
+| LongId  | rec\_id   | int      | `record_id` |
 
 ## Use of fields
 
@@ -58,7 +58,7 @@ If an application requires new IDs for several tables it will be able to group a
 
 ### ttime
 
-This is a standard SuperOffice date/time value, i.e., number of seconds since 1.1.1970 00:00.  The PC's local clock is used, which may introduce some inaccuracies in the update logic if two users make near-simultaneous updates to the same record and their PCs do not have synchronised clocks.  Ideally, the PC clock should be synchronized with an external source when using Travel functions.  The time field is a timestamp that shows when the record update (or insertion or deletion) was done (i.e. when the traveltransactionlog record was created).
+This is a standard SuperOffice date/time value, i.e., number of seconds since 1.1.1970 00:00.  The PC's local clock is used, which may introduce some inaccuracies in the update logic if two users make near-simultaneous updates to the same record and their PCs do not have synchronized clocks.  Ideally, the PC clock should be synchronized with an external source when using Travel functions.  The time field is a timestamp that shows when the record update (or insertion or deletion) was done (i.e. when the traveltransactionlog record was created).
 
 ### Prev\_record\_id
 

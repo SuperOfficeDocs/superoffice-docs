@@ -31,11 +31,11 @@ This table must contain special values that would be difficult to guess correctl
  | Completed | 3 | Completed is set to avoid changes to the appointment |
  | Hidden | 4 | Appointment is hidden |
  | Booking | 5 | Appointment is a booking invitation (initial status for a booking) |
- | Booking has moved | 6 | You may have seen, declined or accepted the booking, but it has been moved, so you will be asked again. |
+ | Booking has moved | 6 | You may have seen, declined, or accepted the booking, but it has been moved, so you will be asked again. |
  | Booking seen | 7 | You have seen the booking, but not declined or accepted it. |
  | Booking moved seen | 8 | The booking has been moved and you have seen the change, but not declined or accepted it. |
  | Booking declined | 9 | You have declined the booking. |
- | Booking deleted | 10 | Status of "child" appointment whose "mother" has been deleted (the meeting is cancelled) |
+ | Booking deleted | 10 | Status of "child" appointment whose "mother" has been deleted (the meeting is canceled) |
  | Assignment | 11 | You are assigned this appointment (initial status, like Booking(5) ) |
  | Assignment seen | 12 | You have seen the assignment, but not accepted or declined it |
  | Assignment declined | 13 | You have declined the appointment assigned to you. |
@@ -50,27 +50,27 @@ This table must contain special values that would be difficult to guess correctl
 
 #### Task\_idx
 
-Is either template\_idx (DocTmpl\_id in DocTmpl) or task\_idx (Task\_id in Task), depending on the type value.
+Is either `template_idx` (`DocTmpl_id` in `DocTmpl`) or `task_idx` (`Task_id` in `Task`), depending on the type value.
 
- | Type | Task\_Idx | Status |
+ | Type | `Task_Idx` | Status |
  |---|---|---|
- | Appointment in diary | task\_idx | 1 = not started, 2 = started, 3 = done |
- | Appointment in check list | task\_idx | 1 = not started, 2 = started, 3 = done |
- | Booking, made for diary | task\_idx | booking (mother\_id &gt; 0) |
- | Booking\_made for check list | task\_idx | booking (mother\_id &gt; 0) |
+ | Appointment in diary | `task_idx` | 1 = not started, 2 = started, 3 = done |
+ | Appointment in check list | `task_idx` | 1 = not started, 2 = started, 3 = done |
+ | Booking, made for diary | `task_idx` | booking (`mother_id` > 0) |
+ | Booking\_made for check list | `task_idx` | booking (`mother_id` > 0) |
  | Note – post it |  |  |
- | Document in | template\_idx | 1 = not started, 2 = started, 3 = done |
+ | Document in | `template_idx` | 1 = not started, 2 = started, 3 = done |
 
 #### Mother\_id
 
- | Mother\_id | Appointment\_id | Comment |
+ | `mother_id` | `appointment_id` | Comment |
  |---|---|---|
  | 0 | | This is a simple appointment |
- | &gt; 0 | mother\_id = appointment\_id | This is a booking, and the appointment is the master booking (the one that is inviting) |
- | &gt; 0 | mother\_id not like appointment\_id | This is a booking, and the appointment is the slave booking (someone who is invited) |
+ | > 0 | `mother_id` = `appointment_id` | This is a booking, and the appointment is the master booking (the one that is inviting) |
+ | > 0 | `mother_id` not like `appointment_id` | This is a booking, and the appointment is the slave booking (someone who is invited) |
 
 Bookings share a single text record. In SuperOffice the person doing the inviting is the only one allowed to change the text of this booking (appointment).
-A booking may have associate\_id = 0, if it is an invitation to an external participant; in that case the InvitedPersonId is the person ID of the participant. Person\_id is always the ID of the person the meeting is with (not of the person who is invited to it).
+A booking may have `associate_id = 0`, if it is an invitation to an external participant; in that case the InvitedPersonId is the person ID of the participant. `Person_id` is always the ID of the person the meeting is with (not of the person who is invited to it).
 
 #### FreeBusy
 
@@ -79,7 +79,7 @@ A booking may have associate\_id = 0, if it is an invitation to an external part
  | Busy | 0 | This appointment is marked as busy in the diary |
  | Free | 1 | This appointment is marked as free in the diary |
 
-Documents linked to an appointment are linked in the Relations table. There is no special marking in appointment so always check if the active appointment has valid entries in the Relations table. The relationdefinition table holds the reldef\_id for "Link to follow-up", "Link to document" and "Link to sale". Our GUI currently only supports links do documents.
+Documents linked to an appointment are linked in the Relations table. There is no special marking in appointment so always check if the active appointment has valid entries in the Relations table. The `relationdefinition` table holds the `reldef_id` for "Link to follow-up", "Link to document", and "Link to sale". Our GUI currently only supports links to documents.
 
 ### To assign an appointment to someone
 

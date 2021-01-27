@@ -39,7 +39,7 @@ We always use the most specific preference for the logged in user.
 
 ## UserPreference sample table
 
-| id | deflevel | maxlevel | owner\_id | prefsection | prefkey | prefvalue |
+| `id` | `deflevel` | `maxlevel` | `owner_id` | `prefsection` | `prefkey` | `prefvalue` |
 |---|---|---|---|---|---|---|
 | 1 | 2 | 5 | 0   | MyThing | Volume | quiet  |
 | 2 | 4 | 5 | 123 | MyThing | Volume | off    |
@@ -52,15 +52,15 @@ The `deflevel` value defines which level this preference value is defined at. Th
 
 The `maxLevel` value defines the max level at which a preference should be shown in the GUI. Some preferences are not controlled by the user, and can only be edited in the admin tool.
 
-The meaning of the `owner_id` depends on the deflevel value.
+The meaning of the `owner_id` depends on the `deflevel` value.
 
-| deflevel | owner\_id |
+| `deflevel` | `owner_id` |
 |---|---|
 | 1 | 0 |
 | 2 | 0 |
-| 3 | satellite ID (travelcurrent\_id) |
-| 4 | usergroup\_id |
-| 5 | associate\_id |
+| 3 | satellite ID (`travelcurrent_id`) |
+| 4 | `usergroup_id` |
+| 5 | `associate_id` |
 | 6 | not stored in database; stored in registry |
 
 Given the sample data above, a typical user would have the default value for the preference
@@ -71,9 +71,9 @@ since this is the system-wide default.
 
 A user who is in primary usergroup 123 would get the value "off" for the same preference, since row ID 2 overrides the more general preference in row ID 1.
 
-The user with associate\_id 456 (even if he was in usergroup 123) would get his user-specific preference, which is "loud".
+The user with `associate_id` 456 (even if he was in usergroup 123) would get his user-specific preference, which is "loud".
 
-The user with assoicate\_id 789 would get the value "quiet" because of the preference with ID 4. The user-specific preference has a higher priority than any of the others, so it is the one which applies.
+The user with `assoicate_id` 789 would get the value "quiet" because of the preference with ID 4. The user-specific preference has a higher priority than any of the others, so it is the one which applies.
 
 > [!NOTE]
 > You can define whatever section and keynames you want. You do not need to register your section with SuperOffice. Just start using the section and key names directly.<br>If there is no value defined, you won't find a userpreference value in the table. Your code should take care to handle empty preferences in a sensible way.

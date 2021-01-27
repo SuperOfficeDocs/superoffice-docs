@@ -27,9 +27,9 @@ This field is an enum, unlike all other owner Table IDs in the database. It does
 * 4 = Date (for dates 1970 - 2036, stored as Long value)
 * 5 = Unlimited date (for dates 0001 - 9999, stored as string)
 * 6 = Check box (stored as 0/1 in long field)
-* 7 = Drop-down (listtableid determines which list. If listTableId = 136 then this is a user-defined list and all items are stored in the UDList table with UDList.UDListDefinition\_ID = udeffield.UDListDefinition\_id)
+* 7 = Drop-down (listtableid determines which list. If listTableId = 136 then this is a user-defined list and all items are stored in the `UDList` table with `UDList.UDListDefinition_ID = udeffield.UDListDefinition_id`)
 * 8 = Decimal  - actually double - that is 80 bits IEEE floating point.
 
 ### ProgId
 
-The Prog-id can be used to tag fields that are used by your application with a known value, so that you can easily find the udef fields you need. This may also be set from the Admin client. Must be unique pr version+ownertable
+The Prog-id can be used to tag fields that are used by your application with a known value, so that you can easily find the udef fields you need. This may also be set from the Admin client. Must be unique per version+ownertable

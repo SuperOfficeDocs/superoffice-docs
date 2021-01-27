@@ -45,14 +45,14 @@ First we need to create a foreign key application for the ERP system.
 
 ![x][img2]
 
-* App\_id = 461
-* name = "erp"
+* `App_id` = 461
+* `name` = "erp"
 
 Then we create a dummy device - since the ERP system does not travel around on mobile phones.
 
 ![x][img3]
 
-Finally we add a foreign key entry for the ERP ID for the contact
+Finally, we add a foreign key entry for the ERP ID for the contact
 
 ![x][img4]
 
