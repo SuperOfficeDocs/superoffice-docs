@@ -13,7 +13,7 @@ so.topic: howto
 SELECT p.Firstname + " " + p.Lastname FROM CRM.person p WHERE (p.person_id = 16) 
 ```
 
-```csharp
+```c#
 SoConnection _con = ConnectionFactory.GetConnection();
 SoCommand _cmd = _con.CreateCommand();
 _con.Open();

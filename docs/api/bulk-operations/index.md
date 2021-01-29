@@ -19,5 +19,4 @@ Mass operations are different in that they involve inserting, updating or deleti
 
 <!-- Referenced links -->
 [1]: bulk-update.md
-<!-- Referenced links -->
 [2]: mass-operations.md

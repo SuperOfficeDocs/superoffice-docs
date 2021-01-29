@@ -22,6 +22,8 @@ so.date:
 
 ### B
 
+[Bulk Operations][3]
+
 ### C
 
 <!-- * [Company and contact](company-and-contact/index.md)
@@ -100,3 +102,4 @@ so.date:
 <!-- Referenced links -->
 [1]: whats-new/index.md
 [2]: getting-started/index.md
+[3]: bulk-operations/index.md
