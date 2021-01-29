@@ -13,7 +13,7 @@ The SO Data Reader class implements the `IDataReader` interface. Therefore, SO R
 
 Let’s take the SO Date Reader code snippet of the select example.
 
-[!code-csharp[CS](includes/select-2.cs?range=38-50)]
+[!code-csharp[CS](howto/includes/select-2.cs?range=38-50)]
 
 After we have executed the reader, the data will be returned and they will be held in the reader. You can see that the fields returned from the database to the reader are retrieved using the specific data type methods just as you would do if you are using ADO.Net reader.
 

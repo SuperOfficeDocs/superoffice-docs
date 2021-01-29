@@ -58,6 +58,8 @@ so.date:
 
 ### O
 
+* [Objectified SQL](osql/index.md)
+
 ### P
 
 <!-- * [Project](project/index.md) -->

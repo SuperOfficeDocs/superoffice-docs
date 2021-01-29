@@ -36,46 +36,5 @@ For us to use OSQL, the following three namespaces are necessary.
 
 Additional namespaces may be required based on your requirements.
 
-## How to create a new connection
-
-Before you write queries, first you must create a new connection. This is the basic of SuperOffice Objectified SQL.
-
-The following example demonstrates how this is done. This is used in all other OSQL examples.
-
-```csharp
-using SuperOffice.Data;
-using SuperOffice.CRM.Data;
-using SuperOffice.Data.SQL;
-using SuperOffice;
-
-using(SoSession newSession = SoSession.Authenticate ("SAL0", ""))
-{
-  //Create a new connection
-  SoConnection con = ConnectionFactory.GetConnection ();
-  if(con.Equals (null))
-  {
-    MessageBox.Show ("Connection is not created");
-  }
-  else
-  {
-    MessageBox.Show ("Connection is successfully created");
-  }
-
-  con.Open ();
-  //Here you can have all your database queries
-  //Once all the queries are made you can close the connection
-  con.Close ();
-}
-```
-
-To use OSQL, we need to import the namespaces `SuperOffice.CRM.Data`, `SuperOffice.Data`, and `SuperOffice.Data.SQL`. This has been done with the use of the `using` keyword.
-
-Next, a session is created and authenticated.
-
-Initially, we create a connection through the `GetConnection` method of the `ConnectionFactory`. If the connection is successfully created, the new `SoConnection` instance will be returned.
-
-* Once a new connection is created, you must first open the connection before writing any queries.
-* When you finish with querying, you must close the connection just as you do when writing SQL queries.
-
 <!-- Referenced links -->
-[1]: syntax/and-clause.md
+[1]: and-clause.md
