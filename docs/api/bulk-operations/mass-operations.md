@@ -10,18 +10,20 @@ keywords: data-access, bulk-update
 
 Integrations use mass operations to perform insert, updates and deletes for large volumes of data. The API is intentionally generic to perform an operation towards one table at a time. Operations is an extremely fast and powerful, and therefore is only accessible to system user accounts. This implies there are no security checks for any mass operation.
 
-> [!NOTE] Only for system user accounts. Read more about [system user accounts][1].
+> [!NOTE] 
+> Only for system user accounts. Read more about [system user accounts][1].
 
 ## Functions
 
-| Function  | Purpose            | Target            | Comment                         |
-|-----------|--------------------|-------------------|---------------------------------|
-| Delete    | Delete multiple rows by primary key    | extra tables, system tables  | More efficient that deleting rows one by one, less efficient than truncate. |
-| Insert    | Add new rows.      | extra tables only | No primary key (needs to be) specified, all rows are simply added. Any collision with unique indexes causes an exception. |
-| Truncate  | Delete all rows in table, reset next primary key value to 1 | extra tables only | Unconditional and non-recoverable (even at Sql Server level) truncation of table. Very fast, near-instant. |
-| Upsert    | Add or update rows, by key | extra tables and extrafields on system tables | User-defined key column designates target rows. Input rows that have no key match cause an **insert**. Key match causes an update of designated columns |
+| Function  | Purpose            | Comment                         |
+|-----------|--------------------|---------------------------------|
+| Delete    | Delete multiple rows by primary key | More efficient that deleting rows one by one, less efficient than truncate. |
+| Insert    | Add new rows.      | No primary key (needs to be) specified, all rows are simply added. Any collision with unique indexes causes an exception. |
+| Truncate  | Delete all rows in table, reset next primary key value to 1 | Unconditional and non-recoverable (even at Sql Server level) truncation of table. Very fast, near-instant. |
+| Upsert    | Add or update rows, by key | User-defined key column designates target rows. Input rows that have no key match cause an **insert**. Key match causes an update of designated columns |
 
-> [!NOTE] Target Table – any except blacklisted tables are acceptable.
+> [!NOTE] 
+> Target Table – any except blacklisted tables are acceptable.
 
 ## Data format
 
