@@ -35,3 +35,11 @@ Following is a list of the existing entities and their relevant Collection Entit
 | ProjectMember | ProjectMemberCollection |
 | Sale | SaleCollection |
 | Selection | SelectionCollection |
+
+## Basic CRUD operations
+
+To **create** a basic Entity, you have to use the `CreateNew` method of the `Entity` class (that you are going to create). Then you will want to populate its properties with data.
+
+**Retrieving** data from a particular Entity in the database is done either by using the `GetFromIdx` class or the `CustomSearch`.
+
+When data is retrieved through an Entity, it is temporarily stored (**cashed**) in the instance. This instance can be used to make changes to the data, but the database is not affected until those changes are **updated** using the `Save()` method.
