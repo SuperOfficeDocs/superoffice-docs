@@ -36,6 +36,8 @@ so.date:
 
 ### E
 
+* [Entities][5]
+
 ### F
 
 ### G
@@ -74,6 +76,8 @@ so.date:
 
 <!-- * [Request Management](request-management/index.md) -->
 
+* [Rows][4]
+
 ### S
 
 <!-- * [Saint / Sales Intelligence](sales/saint/index.md)
@@ -103,3 +107,5 @@ so.date:
 [1]: whats-new/index.md
 [2]: getting-started/index.md
 [3]: bulk-operations/index.md
+[4]: rows/index.md
+[5]: entities/index.md
