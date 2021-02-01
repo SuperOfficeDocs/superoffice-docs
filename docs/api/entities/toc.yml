@@ -4,7 +4,15 @@
   items:
   - name: Create
     href: create-entity.md
+  - name: Retrieve
+    href: get-entity.md
+  - name: Update
+    href: update-entity.md
 - name: Entities as properties in entities
   items:
   - name: Create
     href: create-entity-in-entity.md
+  - name: Retrieve
+    href: get-entity-from-entity.md
+  - name: Update
+    href: update-entity-in-entity.md
