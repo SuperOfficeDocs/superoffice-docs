@@ -20,3 +20,15 @@
     href: update-entity-in-entity.md
   - name: Delete
     href: delete-entity-from-entity.md
+- name: Collections
+  href: collections.md
+- name: CustomSearch
+  href: using-customsearch.md
+- name: Examples
+  items:
+  - name: Create contact
+    href: examples/create-contact.md
+  - name: Udef on contacts
+    href: examples/udef-on-contact.md
+  - name: AppointmentMatrix
+    href: examples/appointment-matrix.md
