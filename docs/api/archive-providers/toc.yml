@@ -1,0 +1,16 @@
+- name: Archive providers
+  href: index.md
+  expanded: true
+  items: # These items are navigation headers
+  - name: How to query
+    href: how-to-query.md
+  - name: Encoded values
+    href: encoded-values.md
+  - name: Data aggregation
+    href: data-aggregation.md
+  - name: GroupBy
+    href: aggregate-groupby.md
+  - name: Nested aggregate functions
+    href: nested-aggregate-functions.md
+  - name: How to add columns
+    href: add-columns.md
