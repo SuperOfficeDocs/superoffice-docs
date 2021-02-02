@@ -1,9 +1,7 @@
 ---
-# This basic template provides core metadata fields for Markdown articles on docs.superoffice.com.
-
 # Mandatory fields.
-title: aggregate_groupby       # (Required) Very important for SEO. Intent in a unique string of 43-59 chars including spaces.
-description: Structured aggregation output with groupby # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
+title: aggregate_groupby       # (Required)
+description: Structured aggregation output with groupby # (Required) Important for SEO. 
 author: Tony Yates
 so.date: 11.17.2017
 keywords:
@@ -20,7 +18,7 @@ Probably the most powerful aggregate function, GroupBy provides the capability t
 
 ## Aggregation only
 
-Strict aggregation-only use is most similar to the SQL **GROUP BY** statement, where it arranges the query results into groups of rows, usually to perform one or more aggregations on each group. Nearly all widgets in SuperOffice Dashboards use this form of aggregation to display results.
+Strict aggregation-only use is most similar to the **SQL GROUP BY** statement, where it arranges the query results into groups of rows, usually to perform one or more aggregations on each group. Nearly all widgets in SuperOffice Dashboards use this form of aggregation to display results.
 
 Using the archive provider `appointmentdynamicselection`, construct a query that will count all activities for the current user for the past month and group them by type.
 
@@ -60,9 +58,9 @@ To demonstrate the concepts, create a query that uses the person archive provide
 
 [!code-csharp[scenario 2](includes/aggregate-rowtype.cs)]
 
-### Sample data - company name: Superosom, 5 employees
+### Sample data - company name: Superoso, 5 employees
 
-| First Name | Middle Name | Last Name | Rank |
+| First name | Middle name | Last name | Rank |
 |---|---|---|---|
 | Jane | Ray | Doe | 1 |
 | Billy | Ray | Doe | 2 |
@@ -97,11 +95,11 @@ If the `provider.GetRows` method included the `GrandTotal` option, the last row 
 ```csharp
 foreach (var row in provider.GetRows(AggregationProvider2.GrandTotalOption + "=True"))
 {
-    if (row.RowType == "grandtotal")
-    {
-        int totalNameCount = (int)row.ColumnData["CountAll(firstName)"].RawValue;
-        int totalRankSum   = (int)row.ColumnData["Sum(rank)"].RawValue;
-    }
+  if (row.RowType == "grandtotal")
+  {
+    int totalNameCount = (int)row.ColumnData["CountAll(firstName)"].RawValue;
+    int totalRankSum   = (int)row.ColumnData["Sum(rank)"].RawValue;
+  }
 }
 ```
 
@@ -139,3 +137,10 @@ It’s easy to specify an additional group level with the integer modifier. Buil
 | 15 (1) | \[grandtotal\] | 2 | 5 | | | | | 15 |
 
 The output includes two first-level groups; one for each of the two different middle names. The first band is grouped by `middleName` and contains two people with the middle name Ray. Because both of these people share the same last name, there are no nested levels grouped by `lastName`. The second group contains three people with the same second name. However, only two share the same last name and so there becomes two nested groups; one for `lastName` Doe and one for last name Smith.
+
+## Continue reading
+
+* [Nested aggregate functions][1]
+
+<!-- Referenced links -->
+[1]: nested-aggregate-functions.md

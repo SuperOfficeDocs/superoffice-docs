@@ -14,3 +14,7 @@
     href: nested-aggregate-functions.md
   - name: How to add columns
     href: add-columns.md
+  - name: Reference
+    items:
+    - name: Restriction types
+      href: reference/restriction-types.md

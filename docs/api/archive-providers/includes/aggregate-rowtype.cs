@@ -1,13 +1,13 @@
 var provider = ArchiveProviderFactory.Create(PersonProvider.ProviderName);
 
 provider.SetDesiredColumns(
-   "firstName", 
-   "middleName", 
-   "lastName", 
-   "rank", 
-   "Sum(rank)",
-   "CountAll(firstName)", 
-   "GroupBy(middleName):Header,Footer"
+ "firstName",
+ "middleName",
+ "lastName",
+ "rank",
+ "Sum(rank)",
+ "CountAll(firstName)",
+ "GroupBy(middleName):Header,Footer"
 );
 
 provider.SetDesiredEntities("person");
@@ -17,5 +17,5 @@ provider.SetRestriction(new ArchiveRestrictionInfo("contactId", "=", CultureData
 
 foreach (var row in provider.GetRows(string.Empty))
 {
-   //parse the results.
+  //parse the results.
 }

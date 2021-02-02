@@ -1,9 +1,7 @@
 ---
-# This basic template provides core metadata fields for Markdown articles on docs.superoffice.com.
-
 # Mandatory fields.
-title: data_aggregation       # (Required) Very important for SEO. Intent in a unique string of 43-59 chars including spaces.
-description: Data aggregation # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
+title: data_aggregation       # (Required)
+description: Data aggregation # (Required) Important for SEO.
 author: Tony Yates
 so.date: 11.17.2017.
 keywords:
@@ -27,16 +25,16 @@ Aggregate columns are extremely useful when the results need to be transformed i
 | Avg | Average of all values. | Avg(amount) |
 | Count | Count unique values | Count(saleId) |
 | CountAll | Count all values, even duplicates | CountAll(appointmentId) |
-| CurrencyConvert | Convert numbers in amountcol, understood to be in currency set by currencycol to the Base currency, users Own currency, or don’t convert. | CurrencyConvert(amountcol;currencycol):Base or Own or None |
-| DatePart | DateModifiers:, - Year, Quarter, Month, Day, DayOfYear - simple numbers,- ISODate, ISODateHour : formatted strings, - DayOfWeek, DayOfWeekFromMonday, Weekno, YearWeekno, YearWeekAsISODate : week functions, - YearQuarter, YearMonth : string: number/number | DatePart(date):YearMonth |
+| CurrencyConvert | Convert numbers in amountcol (in currency set by currencycol to the Base currency, user's Own currency, or don’t convert) | CurrencyConvert(amountcol;currencycol):Base or Own or None |
+| DatePart | DateModifiers:<br>Year, Quarter, Month, Day, DayOfYear<br>simple numbers<br>ISODate, ISODateHour : formatted strings<br>DayOfWeek, DayOfWeekFromMonday, Weekno, YearWeekno, YearWeekAsISODate : week functions<br>YearQuarter, YearMonth : string: number/number | DatePart(date):YearMonth |
 | Expression | Expects two or more fields, only supports Multiply modifier. | Expression(amount;probabilityPercent):Multiply |
 | GroupBy | Controls processing and is independent of query OrderBy | GroupBy(stage) |
-| Median | Returns the middle number. Values expect to be integer or double type. | Median(quantity) |
-| Percent | Returns a percentage of the accumulated value of a field. Values can be integer or double. | Percent(progProbability) |
-| Sum | Total accumulated amount of a field. Values can be integer or double. | Sum(quantity) |
+| Median | Returns the middle number (integer or double) | Median(quantity) |
+| Percent | Returns a percentage of the accumulated value of a field. (integer or double) | Percent(progProbability) |
+| Sum | Total accumulated amount of a field. (integer or double) | Sum(quantity) |
 | Weighted | Multiply numbers in amountcol by the percentage in the weightcol | Weighted(amountcol;weightcol) |
 
-Data transformations can be as simple returning a running count of a column, or as complex as including nested groups; with the use of multiple GroupBy functions. The default output of every archive provider are rows that include the specified detail columns.
+Data transformations can be as simple as returning a running count of a column, or as complex as including nested groups; with the use of multiple GroupBy functions. The default output of every archive provider are rows that include the specified detail columns.
 
 ## Default row output
 
@@ -50,7 +48,7 @@ When specified in a providers GetRows method, i.e. `provider.GetRows("GrandTotal
 
 Detail Row1 => \| Column1 \| Column2 \| Column3 \| Column4<br>
 Detail Row2 => \| Column1 \| Column2 \| Column3 \| Column4<br>
-*GrandTotal Row* \=> \| Function1 \| Function2
+*GrandTotal Row* => \| Function1 \| Function2
 
 ## Aggregate function modifiers
 
@@ -58,7 +56,7 @@ Detail Row2 => \| Column1 \| Column2 \| Column3 \| Column4<br>
 
 `FunctionName(columnName)[:Modifer[,Modifier]...]`
 
-| Modifer | Description | Used by |
+| Modifier | Description | Used by |
 |---|---|---|
 | HideDetail | Removes running value in the detail rows | All Functions |
 | Base | Use the base currency | ConvertCurrency |
@@ -89,7 +87,7 @@ Below are two examples that demonstrate how to use the count function to:
 * display the accumulative sale count.
 * use with a `HideDetail` modifier to save the output for the `GrantTotal` row.
 
-## Example: Using Count(“saleId”)
+## Example: Using Count("saleId")
 
 [!code-csharp[scenario 1](includes/aggregate-count-saleid.cs)]
 
@@ -112,11 +110,11 @@ Below are two examples that demonstrate how to use the count function to:
 14) SaleId: 51, Heading: Salg0GG0
 ```
 
-Each row includes the result of the `Count(saleId)` function, and is accessed just like normal detail columns in the `row.ColumnData` collection.
+Each row includes the result of the `Count(saleId)` function and is accessed just like normal detail columns in the `row.ColumnData` collection.
 
-The following example includes the `GrandTotal=True` option in the GetRows method. This acts as a signal to save the results of all functions with the HideDetail modifier and include them as available columns in the final row output. When set, the final row RowType is “grandtotal”.
+The following example includes the `GrandTotal=True` option in the `GetRows` method. This acts as a signal to save the results of all functions with the `HideDetail` modifier and include them as available columns in the final row output. When set, the final row `RowType` is "grandtotal".
 
-## Example: Using Count(“saleId”):HideDetail with GrandTotal
+## Example: Using Count("saleId"):HideDetail with GrandTotal
 
 [!code-csharp[scenario 2](includes/aggregate-count-grandtotal.cs)]
 
@@ -140,7 +138,14 @@ SaleId: 51, Heading: Salg0GG0
 Total Project 47 Sales: 14
 ```
 
-When using the `GrandTotal` option, the results outputs a final row that facilitates access to all aggregate functions that were specified with the `HideDetails` modifier. This becomes useful for displaying a summary of the query results.
+When using the `GrandTotal` option, the results output a final row that facilitates access to all aggregate functions that were specified with the `HideDetails` modifier. This becomes useful for displaying a summary of the query results.
 
 > [!NOTE]
-> A detail RowType will **not** say `row.RowType=detail`. Instead, then RowType of a detail row is equal to the entity name that the row represents, i.e. contact, project, sale, etc.
+> A detail RowType will **not** say `row.RowType=detail`. Instead, then RowType of a detail row is equal to the entity name that the row represents, for example contact, project, or sale.
+
+## Continue reading
+
+* [Structured aggregation output with GroupBy][1]
+
+<!-- Referenced links -->
+[1]: aggregate-groupby.md

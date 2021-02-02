@@ -1,9 +1,7 @@
 ---
-# This basic template provides core metadata fields for Markdown articles on docs.superoffice.com.
-
 # Mandatory fields.
-title: nested_aggregate_functions       # (Required) Very important for SEO. Intent in a unique string of 43-59 chars including spaces.
-description:                    # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
+title: nested_aggregate_functions       # (Required) 
+description:                    # (Required) Important for SEO.
 author: Tony Yates
 so.date: 11.17.2017
 keywords:
@@ -30,7 +28,7 @@ To demonstrate the concept, construct a query that displays the top sales repres
 [!code-csharp[scenario 1](includes/nested-aggregate-1.cs)]
 
 > [!NOTE]
-> The use of `CultureDataFormatter` to format the summed amount into local currency in both the footer and grandtotal rows.
+> The `CultureDataFormatter` method is used to format the summed amount into local currency in both the footer and grandtotal rows.
 
 ### Query results
 

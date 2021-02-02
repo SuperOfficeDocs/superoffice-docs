@@ -20,9 +20,11 @@ so.date:
 
 ### A
 
+* [Archive providers][6]
+
 ### B
 
-[Bulk Operations][3]
+* [Bulk Operations][3]
 
 ### C
 
@@ -109,3 +111,4 @@ so.date:
 [3]: bulk-operations/index.md
 [4]: rows/index.md
 [5]: entities/index.md
+[6]: archive-providers/index.md

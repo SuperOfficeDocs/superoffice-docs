@@ -22,12 +22,9 @@ provider.SetRestriction(new ArchiveRestrictionInfo("projectId", "=", "47"));
 
 foreach (ArchiveRow row in provider.GetRows(""))
 {
-    int saleId     = (int)row.ColumnData["saleId"].RawValue;
-    string heading =      row.ColumnData["heading"].RawValue.ToString();
-
-    Console.WriteLine("SaleId {0}, Heading {1}",
-                saleId,
-                heading);
+  int saleId = (int)row.ColumnData["saleId"].RawValue;
+  string heading =  row.ColumnData["heading"].RawValue.ToString();
+  Console.WriteLine("SaleId {0}, Heading {1}", saleId, heading);
 }
 
 // remember to close the provider to release resources

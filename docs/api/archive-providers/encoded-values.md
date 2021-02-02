@@ -1,9 +1,7 @@
 ---
-# This basic template provides core metadata fields for Markdown articles on docs.superoffice.com.
-
 # Mandatory fields.
-title: encoded_values       # (Required) Very important for SEO. Intent in a unique string of 43-59 chars including spaces.
-description: Encoded values # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
+title: encoded_values       # (Required) 
+description: Encoded values # (Required) Important for SEO.
 author: Tony Yates
 so.date: 11.17.2017
 keywords:
@@ -20,9 +18,9 @@ With core NetServer, the archive row column data contains a `RawValue` property 
 
 Using NetServer web services, it depends on whether you are using SuperOffice proxies or not. If you are, the `RawValue` property contains the column value. If not, only the `DisplayValue` exists.
 
-With the exception of string column values, `DisplayValue` always contains an encoded string that represents the column values. We recommend you use the `SuperOffice.CRM.Globalization.CultureDataFormatter` class to handle these encoded values. SuperOffice.CRM.Globalization.CultureDataFormatter easily parses and returns the column value in the correct data type.
+Except for string column values, `DisplayValue` always contains an encoded string that represents the column values. We recommend you use the `SuperOffice.CRM.Globalization.CultureDataFormatter` class to handle these encoded values. SuperOffice.CRM.Globalization.CultureDataFormatter easily parses and returns the column value in the correct data type.
 
-An encoded value is always a string of characters in the format: \[data-type-marker : value\], i.e. \[I:3\]. Columns that are of type string will never be in an encoded format.
+An encoded value is always a string of characters in the format: \[data-type-marker : value\], for example, \[I:3\]. Columns that are of type string will never be in an encoded format.
 
 The data type marker indicates the column data type followed by a colon, then the column data value. The following table lists all encodings.
 
@@ -35,7 +33,7 @@ The data type marker indicates the column data type followed by a colon, then th
 | Int | I | \[I:123\] |
 | Money | M | \[M:123.45\] |
 | Time | T | \[T:14:52\] |
-| String | | “Not encoded” |
+| String | | "Not encoded" |
 
 For each data type, `CultureDataFormatter` has a static `Encode` and `ParseEncoded` method, for example:
 
@@ -43,3 +41,10 @@ For each data type, `CultureDataFormatter` has a static `Encode` and `ParseEncod
 * `int = CultureDataFormatter.ParseEncodedInt(string)`
 
 Although query restrictions do not have to encode parameter values when settings each restriction, they are allowed and NetServer knows how to detect and process them accordingly.
+
+## Continue reading
+
+* [Aggregation][1]
+
+<!-- Referenced links -->
+[1]: data-aggregation.md
