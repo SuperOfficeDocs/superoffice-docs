@@ -8,9 +8,9 @@ keywords: data-access, bulk-update
 
 # Mass Operations
 
-Integrations use mass operations to perform insert, updates and deletes for large volumes of data. The API is intentionally generic to perform an operation towards one table at a time. Operations is an extremely fast and powerful, and therefore is only accessible to system user accounts. This implies there are no security checks for any mass operation.
+Integrations use mass operations to perform insert, updates and deletes for large volumes of data. The API is intentionally generic to perform an operation towards one table at a time. Operations are extremely fast and powerful, and therefore only accessible to system user accounts. As is with system user accounts, there are no sentry security checks for any mass operation.
 
-> [!NOTE] 
+> [!NOTE]
 > Only for system user accounts. Read more about [system user accounts][1].
 
 ## Functions
@@ -22,7 +22,7 @@ Integrations use mass operations to perform insert, updates and deletes for larg
 | Truncate  | Delete all rows in table, reset next primary key value to 1 | Unconditional and non-recoverable (even at Sql Server level) truncation of table. Very fast, near-instant. |
 | Upsert    | Add or update rows, by key | User-defined key column designates target rows. Input rows that have no key match cause an **insert**. Key match causes an update of designated columns |
 
-> [!NOTE] 
+> [!NOTE]
 > Target Table – any except blacklisted tables are acceptable.
 
 ## Data format
@@ -110,15 +110,26 @@ Insert may or may not specify primary keys. If the primary key column is not spe
 Insert(string tableName, string[] fieldNames, object[][] data) 
 ```
 
+# [REST](#tab/insert-1)
+
 #### REST API Insert
 
 ```http
 POST /api/v1/Table/y_foobar 
 
-{ fields: [ ‘x_col_a’, ‘x_col_b’ ], 
-  data: [[ ‘x’, 123 ], [‘y’, 234], [‘z’, 345], [‘æ’, 456] ] 
+{ 
+  fields: [ "x_col_a", "x_col_b" ],
+  data: [[ "x", 123 ], ["y", 234], ["z", 345], ["æ", 456] ] 
 } 
 ```
+
+# [Agent](#tab/insert-2)
+
+#### Agent API Insert
+
+[!code-csharp[CS](../includes/mass-operation-insert.cs)]
+
+***
 
 This will insert 4 rows into the y_foobar table. Other unspecified columns in the table will be set to default values. The primary key y_foobar.id will be automatically allocated by the database (since extra tables does not use sequence, but auto-increment).
 
@@ -134,37 +145,56 @@ Errors are returned as a Bad Request error with an explanatory exception text th
 
 This method has three main parameters: An array of field names to be updated; an array of field names that together constitute a unique key for identifying rows; and a matrix of values with both the key and data fields specified for each row. In addition, one can specify the action to be taken for unmatched rows, and how much return information is desired (detailed row-by-row status takes time and resources).
 
+# [REST](#tab/Upsert-1)
+
+
+
+# [Agent](#tab/Upsert-2)
+
+***
+
 ```c#
 Upsert(string tableName, string[] fieldNamesToUpdate, string[] keyFieldNames, object[][] data)
 ```
 
 The key field may be the database primary key, but it can also be any other (combination of) field(s) that uniquely identifies a row. If the combination of values in an input row does not match any rows in the database, an insert operation results; otherwise the matching row is updated. If there is a multiple match, the operation is aborted. [or should we use this as a way of allow multiple rows to be efficiently updated to the same values?]
 
+# [REST](#tab/upsert-1)
 #### REST API Upsert
 
 ```javascript
 PUT /api/v1/Table/y_foobar 
 
-{ fields: [ ‘id’, ‘x_col_a’, ‘x_col_b’ ], 
-  key: [ ‘id’ ], 
-  data: [[0, ‘x’, 123], [42, ‘y’, 234], [null, ‘z’, 345], [0,‘æ’,456]] 
+{ 
+  fields: [ "id", "x_col_a", "x_col_b" ], 
+  key: [ "id" ], 
+  data: [[0, "x", 123], [42, "y", 234], [null, "z", 345], [0,"æ",456]] 
 } 
 ```
 
-This will update 1 row and insert 3 rows into the y_foobar table. Other unspecified columns in the table will be set to default values. (Assuming row 42 already exists in the table. If it doesn’t then it becomes an insert)
+# [Agent](#tab/upsert-2)
+
+#### Agent API Upsert
+
+[!code-csharp[CS](../includes/mass-operation-upsert.cs)]
+
+***
+
+This will update 1 row and insert 3 rows into the y_foobar table. Other unspecified columns in the table will be set to default values. (Assuming row 42 already exists in the table. If it doesn't then it becomes an insert)
 
 ```javascript
 PUT /api/v1/Table/y_foobar 
 
-{ fields: [ ‘x_col_a’, ‘x_col_b’ ], 
-  key: [ ‘x_col_a’ ], 
-  data: [[‘x’, 123], [‘y’, 234], [‘z’, 345], [‘æ’,null]] 
+{ 
+  fields: [ "x_col_a", "x_col_b" ], 
+  key: [ "x_col_a" ], 
+  data: [["x", 123], ["y", 234], ["z", 345], ["æ",null]] 
 } 
 ```
 
-Here the bulk upsert is using x_col_a as the key field, and so if a row already exists with value ‘x’, then it gets updated with x_col_b = 123. If such a row does not exist, it gets inserted instead.
+Here the bulk upsert is using x_col_a as the key field, and so if a row already exists with value "x", then it gets updated with x_col_b = 123. If such a row does not exist, it gets inserted instead.
 
-If row ‘æ’ does not exist, it will be inserted, but x_col_b will be set to its default value.
+If row "æ" does not exist, it will be inserted, but x_col_b will be set to its default value.
 
 Rows that are already in the target table, but do not match any of the incoming keys, can be left unchanged; deleted; or have the data columns (the non-key columns specified in the Upsert call) zeroed.
 
@@ -184,7 +214,7 @@ All rows in the table are deleted using TRUNCATE TABLE or a corresponding SQL co
 DELETE /api/v1/Table/y_foobar 
 ```
 
-This will truncate the whole table, but won’t delete the table itself. (That would be a schema change, and is handled elsewhere).
+This will truncate the whole table, but won"t delete the table itself. (That would be a schema change, and is handled elsewhere).
 
 Truncate is only allowed on extra tables. Attempts to truncate built-in tables like Contact or Person will fail with not-allowed error.
 
