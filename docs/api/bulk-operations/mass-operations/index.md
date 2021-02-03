@@ -22,8 +22,8 @@ Integrations use mass operations to perform insert, updates and deletes for larg
 | Truncate  | Delete all rows in table, reset next primary key value to 1 | Unconditional and non-recoverable (even at Sql Server level) truncation of table. Very fast, near-instant. |
 | Upsert    | Add or update rows, by key | User-defined key column designates target rows. Input rows that have no key match cause an **insert**. Key match causes an update of designated columns |
 
-> [!NOTE]
-> Target Table – any except blacklisted tables are acceptable.
+> [!NOTE] 
+> Target Table – all tables except [in-valid tables](invalid-tables.md).
 
 ## Data format
 
@@ -106,7 +106,7 @@ This results in 0 webhook calls: extra tables do not have webhooks (yet).
 
 Insert may or may not specify primary keys. If the primary key column is not specified in the field name array, all rows will have primary key values allocated according to standard methods. If the primary key column is specified, blank and [I:0] cells indicate that a primary key should be allocated; other integer values are used as-is. If there is a collision, the operation aborts.
 
-```c#
+```csharp
 Insert(string tableName, string[] fieldNames, object[][] data) 
 ```
 
@@ -114,12 +114,12 @@ Insert(string tableName, string[] fieldNames, object[][] data)
 
 #### REST API Insert
 
-```http
+```javascript
 POST /api/v1/Table/y_foobar 
 
 { 
-  fields: [ "x_col_a", "x_col_b" ],
-  data: [[ "x", 123 ], ["y", 234], ["z", 345], ["æ", 456] ] 
+  fields: [ ‘x_col_a’, ‘x_col_b’ ], 
+  data: [[ ‘x’, 123 ], [‘y’, 234], [‘z’, 345], [‘æ’, 456] ] 
 } 
 ```
 
@@ -222,7 +222,7 @@ Truncate is only allowed on extra tables. Attempts to truncate built-in tables l
 
 The specified rows are deleted in an efficient way, subject to Sentry permissions. The time taken is proportional to the number of rows deleted.
 
-```c#
+```csharp
 BulkDelete(string tableName, int[] primaryKeys) 
 ```
 
