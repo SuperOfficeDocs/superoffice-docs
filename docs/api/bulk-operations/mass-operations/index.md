@@ -23,7 +23,7 @@ Integrations use mass operations to perform insert, updates and deletes for larg
 | Upsert    | Add or update rows, by key | User-defined key column designates target rows. Input rows that have no key match cause an **insert**. Key match causes an update of designated columns |
 
 > [!NOTE] 
-> Target Table – any except blacklisted tables are acceptable.
+> Target Table – all tables except [in-valid tables](invalid-tables.md).
 
 ## Data format
 
@@ -106,16 +106,17 @@ This results in 0 webhook calls: extra tables do not have webhooks (yet).
 
 Insert may or may not specify primary keys. If the primary key column is not specified in the field name array, all rows will have primary key values allocated according to standard methods. If the primary key column is specified, blank and [I:0] cells indicate that a primary key should be allocated; other integer values are used as-is. If there is a collision, the operation aborts.
 
-```c#
+```csharp
 Insert(string tableName, string[] fieldNames, object[][] data) 
 ```
 
 #### REST API Insert
 
-```http
+```javascript
 POST /api/v1/Table/y_foobar 
 
-{ fields: [ ‘x_col_a’, ‘x_col_b’ ], 
+{ 
+  fields: [ ‘x_col_a’, ‘x_col_b’ ], 
   data: [[ ‘x’, 123 ], [‘y’, 234], [‘z’, 345], [‘æ’, 456] ] 
 } 
 ```
@@ -134,7 +135,7 @@ Errors are returned as a Bad Request error with an explanatory exception text th
 
 This method has three main parameters: An array of field names to be updated; an array of field names that together constitute a unique key for identifying rows; and a matrix of values with both the key and data fields specified for each row. In addition, one can specify the action to be taken for unmatched rows, and how much return information is desired (detailed row-by-row status takes time and resources).
 
-```c#
+```csharp
 Upsert(string tableName, string[] fieldNamesToUpdate, string[] keyFieldNames, object[][] data)
 ```
 
@@ -145,7 +146,8 @@ The key field may be the database primary key, but it can also be any other (com
 ```javascript
 PUT /api/v1/Table/y_foobar 
 
-{ fields: [ ‘id’, ‘x_col_a’, ‘x_col_b’ ], 
+{ 
+  fields: [ ‘id’, ‘x_col_a’, ‘x_col_b’ ], 
   key: [ ‘id’ ], 
   data: [[0, ‘x’, 123], [42, ‘y’, 234], [null, ‘z’, 345], [0,‘æ’,456]] 
 } 
@@ -156,7 +158,8 @@ This will update 1 row and insert 3 rows into the y_foobar table. Other unspecif
 ```javascript
 PUT /api/v1/Table/y_foobar 
 
-{ fields: [ ‘x_col_a’, ‘x_col_b’ ], 
+{ 
+  fields: [ ‘x_col_a’, ‘x_col_b’ ], 
   key: [ ‘x_col_a’ ], 
   data: [[‘x’, 123], [‘y’, 234], [‘z’, 345], [‘æ’,null]] 
 } 
@@ -192,7 +195,7 @@ Truncate is only allowed on extra tables. Attempts to truncate built-in tables l
 
 The specified rows are deleted in an efficient way, subject to Sentry permissions. The time taken is proportional to the number of rows deleted.
 
-```c#
+```csharp
 BulkDelete(string tableName, int[] primaryKeys) 
 ```
 
