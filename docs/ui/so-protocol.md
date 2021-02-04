@@ -16,6 +16,8 @@ SOProtocol URLs have a navigation part and a content part.
 ```html
 superoffice:where.where...?what=id&what=id&...
 ```
+what here: is a History Item.
+
 
 For example, to go to the contact with contact_id=2:
 
@@ -25,6 +27,9 @@ superoffice:contact.main?contact_id=2
 
 > [!TIP]
 > You can get a URL that reflects the current state of the application by selecting **Copy shortcut** either from the hamburger menu, the **Task** menu in dialogs for follow-ups and documents, or by right-clicking an item in a section tab,
+
+> [!TIP]
+> Can get from address bar, and from Developer Tools: (SuperOffice.Environment.SoProtocol)
 
 For example:
 
@@ -99,15 +104,8 @@ To go to a specific company card, set the active archive, and open an appointmen
 superoffice:contact.main.activityarchive.appointment?contact_id=2&appointment_id=1
 ```
 
-### Preserving context
 
-It is good practice to add the serial number of the database ID to the URL to prevent users from getting lost when different databases are involved.
-
-```html
-db_id=12345
-```
-
-## Page control and cache
+## Page control and cache (Windows Only)
 
 | Mode     | Description                              |
 |:---------|:-----------------------------------------|
@@ -126,6 +124,15 @@ db_id=12345
 superoffice:contact.personarchive.main.activate?db_id=98765&contact_id=5
 ```
 
+## Page control (Web Only)
+
+| Mode     | Description                              |
+|:---------|:-----------------------------------------|
+| Flush    | QueryString parameter (...?flush)        |
+
+
+
+
 ## Using SOProtocol in CRMScript
 
 In CRMScript, you can use `setNavigateTo()` and `getNavigateTo()` of the [EventData][1] object to work with SOProtocol URLs.
@@ -140,6 +147,8 @@ ed.setNavigateTo("soprotocol:sale.document?document_id=0");
 ### Go to web panel
 
 Let's say we've added a [web panel][2] with window name *erpinfo* to the Contact card, To reference it:
+
+__DOES NOT WORK IN WEB__
 
 ```html
 superoffice:contact.www.erpinfo?contact_id=2
@@ -172,6 +181,40 @@ You can now click the link - the **Appointment** dialog appears, and the web pag
 
 > [!TIP]
 > You can also issue an SoProtocol from a web panel use the [CrossMessaging API][3].
+
+## Web Stuff
+
+[dialog=stop]
+
+[mode=display|edit] (issues via crossmessaging, in app javascript)
+* info[mode=edit]
+
+[refresh=false]
+[usesuperstatecopy=true] (disconnect dialog from current updates)
+
+* Only for dialogs use.
+
+Normal operation is to refresh card, but refresh is used to stop
+rerendering card, but still update the current (superstate).
+
+Can force card refresh by setting to true.
+
+webPaneName[refresh=false].minipreview?appointment_id=245
+
+Use SoProtocol to set the currents...
+
+Currents are History Items:
+person_id => 
+
+person:
+ * id
+ * name: shortcut to reduce access to the DB, list items contain IDs and name.
+ * type: used for different things. i.e. differenciate 
+   * associate or resource
+
+Explain how to use soprotocol elements/parameters to pre-set fields in new entities, i.e.
+soprotocol:document?contact_id=395678&person_id=1198581&document_id=0&task_idx=123
+
 
 <!-- Referenced links -->
 [1]: eventdata.md
