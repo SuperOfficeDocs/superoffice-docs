@@ -21,6 +21,7 @@ so.date:
 ### A
 
 * [Archive providers][6]
+* [Authentication][7]
 
 ### B
 
@@ -112,3 +113,4 @@ so.date:
 [4]: rows/index.md
 [5]: entities/index.md
 [6]: archive-providers/index.md
+[7]: authentication/index.md

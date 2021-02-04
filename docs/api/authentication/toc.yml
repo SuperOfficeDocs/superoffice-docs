@@ -1,0 +1,18 @@
+- name: Authentication
+  href: index.md
+  items: 
+  - name: Terminology
+    href: terminology.md
+  - name: Changes in v. 7
+    href: auth-in-7.md
+  - name: What's in a username
+    href: what-is-username.md
+  - name: Session handling
+    href: session-handling/index.md
+    items:
+    - name: Create a new session
+      href: session-handling/create-session.md
+    - name: Suspend a session
+      href: session-handling/suspend-session.md
+    - name: Switch between sessions
+      href: session-handling/switch-sessions.md
