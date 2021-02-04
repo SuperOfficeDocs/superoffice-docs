@@ -63,6 +63,8 @@ so.date:
 
 ### N
 
+* [NetServer][8]
+
 ### O
 
 * [Objectified SQL](osql/index.md)
@@ -114,3 +116,4 @@ so.date:
 [5]: entities/index.md
 [6]: archive-providers/index.md
 [7]: authentication/index.md
+[8]: netserver/index.md
