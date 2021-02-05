@@ -57,7 +57,7 @@ so.date:
 
 ### L
 
-<!-- * [Lists](lists/index.md) -->
+* [Lists][9]
 
 ### M
 
@@ -117,3 +117,4 @@ so.date:
 [6]: archive-providers/index.md
 [7]: authentication/index.md
 [8]: netserver/index.md
+[9]: lists/index.md
