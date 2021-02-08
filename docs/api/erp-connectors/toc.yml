@@ -1,0 +1,24 @@
+- name: ERP connectors
+  href: index.md
+- name: Terminology
+  herf: terminology.md
+- name: Architecture
+  href: architecture/index.md
+  items:
+  - name: .NET
+    href: architecture/dotnet.md
+  - name: SOAP
+    href: architecture/soap.md
+  - name: WFC host
+    href: architecture/wfc.md
+- name: API
+  href: api/index.md
+  items:
+  - name: IErpConnector
+    href: api/ierpconnector.md
+  - name: Field meta-data carrier
+    href: api/field-meta-data-carrier.md
+  - name: ERP actor data carrier
+    href: api/erp-actor-carrier.md
+  - name: PluginResponseInfo
+    href: api/pluginresponseinfo.md

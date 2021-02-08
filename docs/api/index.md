@@ -40,6 +40,7 @@ so.date:
 ### E
 
 * [Entities][5]
+* [ERP connectors][10]
 
 ### F
 
@@ -118,3 +119,4 @@ so.date:
 [7]: authentication/index.md
 [8]: netserver/index.md
 [9]: lists/index.md
+[10]: erp-connectors/index.md
