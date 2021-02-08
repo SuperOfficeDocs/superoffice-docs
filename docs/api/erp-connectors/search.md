@@ -44,7 +44,7 @@ Describes a search restriction using 3 properties:
 |---|---|---|
 | FieldKey | string | Describes which field should be searched (will always be one of the fields the connector exposes through `GetSearchableFields`). |
 | Operator | string | Describes which operator to use for the search. See SearchOperators below. |
-| Values | string[] | The values to search for. This array will usually only have a single value unless the operator describes otherwise (`OneOf` and `NotOneOf`)<br>These values will be encoded in the same way as normal field values elsewhere (see Field value formats and conventions) |
+| Values | string[] | The values to search for. This array will usually only have a single value unless the operator describes otherwise (`OneOf` and `NotOneOf`)<br>These values will be encoded in the same way as normal [field values][2] elsewhere |
 
 Each field type will require supporting a different set of search operators (equals, not equals, one of, contains, and so on). These operators are conveniently available as string constants in the following classes in the `SuperOffice.ErpSync.Contract` assembly:
 
@@ -68,6 +68,7 @@ In addition to the required operators, there are a couple of special values that
 
 <!-- Referenced links -->
 [1]: search-operators.md
+[2]: api/field-value-formats-and-conventions.md
 
 <!-- Referenced images -->
 [img1]: media/image002.png

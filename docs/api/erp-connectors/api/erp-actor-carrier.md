@@ -25,7 +25,7 @@ The `ErpActor` class describes the primary carrier that is passed to and from a 
 | LastModified | string | Describes when the actor was last changed/modified. 100% mandatory. Used for timestamp comparison and sync loop retrieval. (see below) |
 | ParentActorType | string | If the actor has a parent, the parent’s actor type is specified here<br>For example, if the actor is a contact person it will probably have a parent actor that might be a customer or vendor |
 | ParentErpKey | string | The local identifier (primary key) for the parent  actor in the given connection |
-|  FieldValues | Dictionary \<string,string> | Key-value pairs of field keys and field values. Field keys are supplied as specified by the given connection in the method GetAvailableActorFields. See also Field value formats and conventions. |
+|  FieldValues | Dictionary \<string,string> | Key-value pairs of field keys and [field values][1]. Field keys are supplied as specified by the given connection in the method `GetAvailableActorFields`. |
 
 `LastModified` can be "any" timestamp, but there are 2 basic requirements:
 
@@ -56,19 +56,7 @@ For example, an `ErpActorType` value of *Customer* and `ErpKey` value of *12345*
 > [!NOTE]
 > Employee and Sale are not currently supported in Erp Sync, but the connector may choose to offer these types for future compatibility.
 
-## Field value formats and conventions
+See also [field-value formats and conventions][1].
 
-Because field values are all transferred as strings, they should be formatted in a way the connector and the ERP sync can agree on. Although the ERP sync will attempt to parse any value it receives to the best of its abilities, most developers will know the pains of trying to reliably parse things like textual date values with no reference to culture or format. For this reason, we **highly** recommend encoding all values using the provided copy of `CultureDataFormatter` in the **SuperOffice.ErpSync.Contract** assembly, and we will **require** the connector to be able to parse field values sent from the ERP sync in the same format.
-
-The `CultureDataFormatter` will encode any supported field type inside brackets and with a prefix that determines what data type we’re dealing with.
-
-> [!NOTE]
-> Strings do not need to be encoded; they can be sent "as is".
-
-| Type | Parsing/format information |
-|---|---|
-| Date/Datetime | `CultureDataFormatter.EncodeDateTime` will encode a given DateTime values in the format "[DT:12/31/2013 23:59:59.0000000]" |
-| Double/Decimal/Float | `CultureDataFormatter.EncodeDouble` will encode a double in the format "[F:12345.6789]". It also has an overload which allows you to specify the number of decimals. |
-| Integer | `CultureDataFormatter.EncodeInt` will encode an integer value in the format "[I:12345]". |
-| List | List values should use the internal list item ID (as recognized by the connector). Erp Sync will then use `GetList()` or `GetListItems()` to retrieve the list itself and get the "readable" value. This value will always be read by and sent from ERP sync as a string (without any encoding or brackets). |
-| Checkbox/Boolean | There is no designated method in `CultureDataFormatter` for encoding a Boolean value, so you should use `CultureDataFormatter.EncodeInt` and send in 1 for True or 0 for False.<br>Boolean values will be encoded as "[I:1]" or "[I:0]" |
+<!-- Referenced links -->
+[1]: field-value-formats-and-conventions.md
