@@ -14,8 +14,6 @@ so.date: 06.12.2020
 
 ### B
 
-* [Bulk Update](bulk-update/index.md)
-
 ### C
 
 * [Chat](chat/index.md)
