@@ -1,14 +1,14 @@
 ---
-title: Invalid Mass Operation Tables
+title: Protected Mass Operation Tables
 description: Lists tables that cannot be used for mass operations.
 author: AnthonyYates             # Your GitHub alias.
 so.date: 01.02.2021
 keywords: data-access, bulk-update, mass-operations
 ---
 
-# Invalid Mass Operation Tables
+# Protected Mass Operation Tables
 
-These are tables that cannot be used by the mass operations API.
+These tables are protected and therefore cannot be used by the mass operations API. An `SoDbAccessException` is thrown if any of these tables are targeted.
 
 ## Non-bulk tables
 
