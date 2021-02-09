@@ -1,0 +1,39 @@
+- name: ERP connectors
+  href: index.md
+- name: Terminology
+  herf: terminology.md
+- name: Getting started
+  href: getting-started.md
+- name: Architecture
+  href: architecture/index.md
+  items:
+  - name: .NET
+    href: architecture/dotnet.md
+  - name: SOAP
+    href: architecture/soap.md
+  - name: WFC host
+    href: architecture/wfc.md
+- name: API
+  href: api/index.md
+  items:
+  - name: IErpConnector
+    href: api/ierpconnector.md
+  - name: Field meta-data carrier
+    href: api/field-meta-data-carrier.md
+  - name: ERP actor data carrier
+    href: api/erp-actor-carrier.md
+  - name: PluginResponseInfo
+    href: api/pluginresponseinfo.md
+  - name: Field-value formats and conventions
+    href: api/field-value-formats-and-conventions.md
+- name: Search
+  href: search.md
+  items:
+  - name: Operators
+    href: search-operators.md
+- name: Helper methods and classes
+  href: helpers.md
+- name: Automatic field-mapping
+  href: automatic-field-mapping.md
+- name: Client GUI
+  href: client-gui.md

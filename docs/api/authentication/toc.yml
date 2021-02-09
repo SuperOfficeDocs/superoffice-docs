@@ -3,6 +3,16 @@
   items: 
   - name: Terminology
     href: terminology.md
+  - name: Pipeline
+    href: pipeline.md
+  - name: Plugins
+    href: plugins.md
+  - name: Config files
+    href: config-files.md
+  - name: Credentials table
+    href: credentials-table.md
+  - name: Active Directory
+    href: active-directory.md
   - name: Changes in v. 7
     href: auth-in-7.md
   - name: What's in a username
@@ -16,3 +26,10 @@
       href: session-handling/suspend-session.md
     - name: Switch between sessions
       href: session-handling/switch-sessions.md
+  - name: Identity transfer tickets
+    href: tickets/index.md
+    items:
+    - name: Issue
+      href: tickets/issue-ticket.md
+    - name: Renewal
+      href: tickets/renew-ticket.md 

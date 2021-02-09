@@ -1,0 +1,21 @@
+- name: Lists
+  href: index.md
+- name: Types
+  items:
+  - name: TypedMDOProviders
+    href: typed-list.md
+  - name: UserDefinedListProvider
+    href: udef-list.md
+  - name: GroupViewProviders
+    href: group-view.md
+  - name: GenericMDOProviders
+    href: generic-list.md
+- name: How to 
+  items:
+  - name: Retrieve a list
+    href: get-list.md
+  - name: Create list plugin
+    href: create-list-plugin.md
+- name: Associate list and cache
+  href: associate-list-and-cache.md
+  

@@ -1,2 +1,7 @@
-- name: Page
+- name: Geting started
   href: index.md
+  items:
+  - name: Understanding layers
+    href: understanding-layers.md
+  - name: Factory and Plugin patterns
+    href: patterns.md

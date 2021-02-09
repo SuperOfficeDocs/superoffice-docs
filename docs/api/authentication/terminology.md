@@ -23,4 +23,4 @@ One important characteristic of the new system is that it tries to separate thes
 
 * Identity defines who you are, and nothing else
 
-* Authorization derives from identity, and defines what you can do, whoever you are
+* Authorization derives from identity, and defines what you can do, whomever you are
