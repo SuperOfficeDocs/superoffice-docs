@@ -14,6 +14,8 @@
     href: nested-aggregate-functions.md
   - name: How to add columns
     href: add-columns.md
+  - name: Create plugin
+    href: create-plugin.md
   - name: Architecture
     href: architecture.md
     items:
