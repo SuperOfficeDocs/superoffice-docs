@@ -1,0 +1,18 @@
+- name: Globalization and localization
+  href: index.md
+- name: Address formats (intro)
+  href: intro-to-address-formats.md
+- name: Resource providers
+  href: resource-providers.md
+- name: CultureSettingHelper
+  href: culturesettinghelper.md
+- name: Localization classes
+  items:
+  - name: AddressFormatter
+    href: addressformatter.md
+  - name: CultureDataFormatter
+    href: culturedataformatter.md
+  - name: PersonNameFormatter
+    href: personnameformatter.md
+  - name: PhoneFormatter
+    href: phoneformatter.md

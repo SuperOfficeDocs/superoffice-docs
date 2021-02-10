@@ -47,6 +47,7 @@ so.date:
 ### G
 
 * [Getting started][2]
+* [Globalization][11]
 
 ### H
 
@@ -59,6 +60,7 @@ so.date:
 ### L
 
 * [Lists][9]
+* [Localization][11]
 
 ### M
 
@@ -120,3 +122,4 @@ so.date:
 [8]: netserver/index.md
 [9]: lists/index.md
 [10]: erp-connectors/index.md
+[11]: globalization-and-localization/index.md
