@@ -13,7 +13,6 @@ so.topic: concept            # article, howto, reference, concept, guide
 # so.client:                    # online, web, win, pocket, or mobile
 ---
 
-
 # Field-value formats and conventions
 
 Because field values are all transferred as strings, they should be formatted in a way the connector and the ERP sync can agree on. Although the ERP sync will attempt to parse any value it receives to the best of its abilities, most developers will know the pains of trying to reliably parse things like textual date values with no reference to culture or format. For this reason, we **highly** recommend encoding all values using the provided copy of `CultureDataFormatter` in the **SuperOffice.ErpSync.Contract** assembly, and we will **require** the connector to be able to parse field values sent from the ERP sync in the same format.

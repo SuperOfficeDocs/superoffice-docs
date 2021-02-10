@@ -68,7 +68,7 @@ In addition to the required operators, there are a couple of special values that
 
 <!-- Referenced links -->
 [1]: search-operators.md
-[2]: api/field-value-formats-and-conventions.md
+[2]: ../api/field-value-formats-and-conventions.md
 
 <!-- Referenced images -->
 [img1]: media/image002.png

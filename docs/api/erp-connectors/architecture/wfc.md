@@ -146,7 +146,7 @@ The client can specify the name of the connector (not the name of the DLL) in th
   Will look for a connector named "SAP", and failing to find one, will return an error: the connector 'SAP' was not found.
 
 <!-- Referenced links -->
-[1]: ../Tips%20for%20Development.md
+[1]: ../getting-started.md
 
 <!-- Referenced images -->
 [img1]: media/slide1.png

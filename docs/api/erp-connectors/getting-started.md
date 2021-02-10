@@ -50,5 +50,24 @@ Having the connector loaded directly can make debugging simpler since there are 
 
 If you attempt to use this connection from the windows client you will get an error. The windows client and the Travel Gateway both require that you use a URL to connect to the sync service.
 
+## Set up sync
+
+Because every ERP system and every customer operate slightly (and sometimes very) differently, the field mapping must be configurable.
+
+Each connection will have to be able to inform ERP Sync about which actor types it supports (for example, customer and supplier, but not person and project). Once this information is retrieved, ERP Sync can ask the connection for a collection of what fields are available for each actor type (using the same `FieldMetaDataInfo` class as for the connection details).
+
+* [Configure sync connection][1]
+* [Show fields in GUI and search][2]
+* [Set up mapping of ERP fields][3]
+* [Set up default values][4]
+* [Rank fields][5]
+
+<!-- Referenced links -->
+[1]: set-up-connection.md
+[2]: 
+[3]: set-up-mapping.md
+[4]: set-up-defaults.md
+[5]:
+
 <!-- Referenced images -->
 [img1]: media/sync-connector-plugin.png

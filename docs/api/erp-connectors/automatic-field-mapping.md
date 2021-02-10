@@ -14,7 +14,7 @@ so.topic: reference    # article, howto, reference, concept, guide
 
 # ERP Sync engine automatic field mapping
 
-The Erp Sync engine will try to map ERP fields to CRM fields automatically if the CRM field naming is matched by the connector. Below is a list of CRM fields the engine will recognize and try to map automatically.
+The ERP Sync engine will try to map ERP fields to CRM fields automatically if the CRM field naming is matched by the connector. Below is a list of CRM fields the engine will recognize and try to map automatically.
 
 When fields are mapped, **sync direction is not set**, so no actual sync will occur before this is explicitly enabled. The field name matching is **case insensitive**. The actual mapping will occur when a connection is created or updated.
 
