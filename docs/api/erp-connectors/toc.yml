@@ -5,6 +5,8 @@
   items: 
   - name: Terminology
     herf: terminology.md
+  - name: Tutorial
+    href: tutorial.md
   - name: Sample connector
     href: sample.md
 - name: Architecture
