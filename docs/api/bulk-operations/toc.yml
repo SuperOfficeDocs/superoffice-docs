@@ -2,8 +2,18 @@
   href: mass-operations/index.md
   expanded: true
   items:
-  - name: Invalid tables
-    href: mass-operations/invalid-tables.md
+  - name: Delete Method
+    href: mass-operations/delete.md
+  - name: Insert Method
+    href: mass-operations/insert.md
+  - name: Truncate Method
+    href: mass-operations/truncate.md
+  - name: Upsert Method
+    href: mass-operations/upsert.md
+  - name: Notifications
+    href: mass-operations/notifications.md
+  - name: Protected tables
+    href: mass-operations/protected-tables.md
 - name: Bulk update
   href: bulk-update/index.md
   expanded: true

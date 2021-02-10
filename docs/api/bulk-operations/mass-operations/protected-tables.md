@@ -10,7 +10,7 @@ keywords: data-access, bulk-update, mass-operations
 
 These tables are protected and therefore cannot be used by the mass operations API. An `SoDbAccessException` is thrown if any of these tables are targeted.
 
-## Non-bulk tables
+## Tables List
 
 | Area                        | Tables                                                                 |
 |-----------------------------|------------------------------------------------------------------------|

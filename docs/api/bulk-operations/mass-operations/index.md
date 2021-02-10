@@ -9,91 +9,105 @@ version: 9.2 R04
 
 # Mass Operations
 
-SuperOffice APIs supports the import and update of large datasets via the Mass Operations API. These APIs leverage target database server bulk copy features and are therefore optimized for speed.
+SuperOffice APIs support the import and update of large datasets via the Mass Operations API. These APIs leverage database server bulk copy features optimized for speed.
 
-Mass Operation functions are intentionally generic, and operate towards one table at a time. To be fast, mass operations must bypass all sentry security checks and therefore require an authenticated system user accounts to work.
+Mass Operation functions are intentionally generic, and operate towards one table at a time. They bypass all sentry security checks and therefore when called require an authenticated system user account.
 
 > [!NOTE]
-> Must be a system user. Read more about [system user accounts][1].
-> Supported database servers are SQL Server and Oracle. Oracle does not support the `Upsert` method.
+> Must be a system user. Read about [system user accounts][1].
+> Supported database servers are Microsoft SQL Server and Oracle Database Servers.
 
-## MassOperation API Functions
+## Functions
 
 | Function  | Purpose            | Comment                         |
 |-----------|--------------------|---------------------------------|
-| [Delete](delete.md)    | Delete multiple rows by primary key | More efficient that deleting rows one by one, less efficient than truncate. |
-| [Insert](insert.md)    | Add new rows.      | No primary key (needs to be) specified, all rows are simply added. Any collision with unique indexes causes an exception. |
-| [Truncate](truncate.md)  | Delete all rows in table, reset next primary key value to 1 | Unconditional and non-recoverable truncation of table. Very fast, near-instant. |
-| [Upsert](upsert.md)    | Add or update rows, by key | Key column(s) designate target rows. Rows that have *no* key match are treated as **insert** rows. |
+| [Delete](delete.md)    | Delete multiple rows by primary key | More efficient that deleting rows one by one but less efficient than truncate. |
+| [Insert](insert.md)    | Add new rows.      | No primary key need be specified, all rows are simply added. Any collision with unique indexes causes an exception. |
+| [Truncate](truncate.md)  | Delete all rows in a table. | Unconditional, non-recoverable truncation of table. Very fast, near-instant. Resets primary key value to 1. |
+| [Upsert](upsert.md)    | Add or update rows by key | Key column(s) designate target rows. Rows that have *no* key match are treated as **insert** rows. **Not supported for Oracle**. |
 
-> [!NOTE]
-> Mass operations do not work on these [protected-tables](invalid-tables.md).
+> [!CAUTION]
+> Mass operations do not work on these [protected-tables](protected-tables.md).
 
 ## Working with Mass Operations
 
-The data format used by our CultureDataFormatter serialization, ensuring an unambiguous interpretation.
-
-Use `CultureDataFormatter.Encode(object)` to format non-string values.
-
-### Field Names
-
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;margin:0px auto;}
-.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-@media screen and (max-width: 767px) {.tg {width: auto !important;}.tg col {width: auto !important;}.tg-wrap {overflow-x: auto;-webkit-overflow-scrolling: touch;margin: auto 0px;}}</style>
-<div class="tg-wrap"><table class="tg">
-<thead>
-  <tr>
-    <th class="tg-0pky">"x_name"</th>
-    <th class="tg-0pky">"x_description"</th>
-    <th class="tg-0lax">"x_price"</th>
-    <th class="tg-0lax">""x_weight"</th>
-  </tr>
-</thead>
-</table><div>
-
 ### Field Values
 
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;margin:0px auto;}
-.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-@media screen and (max-width: 767px) {.tg {width: auto !important;}.tg col {width: auto !important;}.tg-wrap {overflow-x: auto;-webkit-overflow-scrolling: touch;margin: auto 0px;}}</style>
-<div class="tg-wrap"><table class="tg">
-<tbody>
-  <tr>
-    <td class="tg-0lax">"cat"</td>
-    <td class="tg-0lax">"in a hat"</td>
-    <td class="tg-0lax">123</td>
-    <td class="tg-0lax">4.5</td>
-  </tr>
-  <tr>
-    <td class="tg-0lax">"Foozle"</td>
-    <td class="tg-0lax">"Not woozels"</td>
-    <td class="tg-0lax">"[I:123]"</td>
-    <td class="tg-0lax">"[F:4.56]"</td>
-  </tr>
-  <tr>
-    <td class="tg-0lax">"Screwdriver"</td>
-    <td class="tg-0lax">"Philips head"</td>
-    <td class="tg-0lax">"[I:69]"</td>
-    <td class="tg-0lax">42</td>
-  </tr>
-</tbody>
-</table></div>
+Data input row columns must match the same number of specified columns. That means when five columns are defined, each data rows is expected to also contain five columns. The following example demonstrates a contact table insert, and specified the five fields: contact ID, name, country, business and category. Notice the data input contains rows with matching five columns. An `SoMassOperationException` is thrown when the number of specified columns do not match the number of data row columns.
 
-CultureDataFormatter accepts un-encoded values also, as a convenience, but beware of date-time formatting pain.
+```csharp
+// specified column 
+string[] columns = { "contact_id", "name", "country_id", "business_idx", "category_idx" };
 
-Nullable fields are defaulted if not specified. Not-Null fields must be specified.
+// data rows and column data
+
+string[][] data = 
+{
+    new [] { "0", "Red A",    "220", "6", "3" },
+    new [] { "0", "Orange A", "98",  "1", "2" },
+    new [] { "0", "Yellow A", "27",  "4", "1" },
+    new [] { "0", "Green A",  "61",  "0", "0" },
+    new [] { "0", "Blue A",   "104", "9", "1" },
+    new [] { "0", "Indigo A", "109", "8", "4" },
+    new [] { "0", "Violet A", "186", "5", "4" }
+};
+
+```
+
+Primary keys must always be the first column in the list. When targeting extra tables, the primary key fields must always be specified. When the `Insert` method is used, specifying the primary key column for built-in Sales and Service tables is optional, but recommended. A primary key column value must be a positive number. For both an `Insert` and `Upsert`, 0 means "please assign".
+
+Most tables have non-nullable fields that must be included as specified columns with default values. Use the [Database Reference documentation][2] to determine which fields are required. For a complete list, see the [Tables](https://github.com/SuperOfficeDocs/database/blob/main/docs/tables/index.md) section.
+
+The following non-nullable columns are handled by NetServer:
+
+* registered and updated fields
+* DBI related fields in extra tables
+* user-defined fields; if only those are missing from the incoming then we'll supply them
+
+Nullable fields, if not specified, are set to their intrinsic data type default values.
+
+Make sure string field values do not exceed the database string length, or other data type limitations are enforced, otherwise a `SoMassOperationException` is thrown.
+
+### Data Formats
+
+To avoid any serialization problems, or database data type conflicts, it's recommended to encode all non-string values. NetServer uses the following monikers to encode the various data types:
+
+**CultureDataFormatter monikers**
+
+|Data type |Marker|
+|----------|------|
+|Date      | D    |
+|DateTime  | DT   |
+|Time      | T    |
+|TimeSpan  | TS   |
+|Double    | F    |
+|Int       | I    |
+|Money     | M    |
+|Binary    | B    |
+|IntArr    | A    |
+
+When used, the data row columns appear as follows:
+
+**Data rows and column values**
+
+|       |             |             |         |           |
+|-------|-------------|-------------|---------|-----------|
+|"[I:0]"|"cat"        |"in a hat"   |"[I:123]"|"[F:321.4]"|
+|"[I:0]"|"Foozle"     |"Not woozels"|"[I:69]" |"[F:123.5]"|
+|"[I:0]"|"Screwdriver"|"Phiips head"|"[I:54]" |"[F:345.3]"|
+
+Use `SuperOffice.CRM.Globalization.CultureDataFormatter.Encode(object)` to format non-string values. This outputs an encoded string representation for each input. As a convenience, CultureDataFormatter accepts un-encoded values also, but beware of date-time formatting is often a source of problems.
+
+
+### Handling Errors
 
 Errors are returned as a Bad Request error with an explanatory exception text that generally tries to pinpoint the problem, row and column.
 
+Each input column must exist in the target table.
+
+Input columns and the number of row fields much match, otherwise a `SoMassOperationException` is thrown.
+
+
 <!-- Referenced links -->
-[1]: ../../../superoffice-docs/docs/authentication/system-user/index.md
+[1]: https://github.com/SuperOfficeDocs/superoffice-docs/docs/authentication/system-user/index.md
+[2]: https://github.com/SuperOfficeDocs/database/blob/main/docs/index.md
