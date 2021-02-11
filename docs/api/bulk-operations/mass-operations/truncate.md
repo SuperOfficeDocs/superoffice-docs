@@ -1,5 +1,5 @@
 ---
-title: Mass Operations - Truncate
+title: Truncate table
 description: How to truncate a table.
 author: AnthonyYates             # Your GitHub alias.
 so.date: 29.02.2021
@@ -8,6 +8,8 @@ version: 9.2 R04
 ---
 
 # Mass Operations - Truncate
+
+Used when there is a need to remove all records in a table.
 
 ### Working with Truncate
 

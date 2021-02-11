@@ -1,12 +1,12 @@
 ---
-title: Protected Mass Operation Tables
+title: Protected Tables
 description: Lists tables that cannot be used for mass operations.
 author: AnthonyYates             # Your GitHub alias.
 so.date: 01.02.2021
 keywords: data-access, bulk-update, mass-operations
 ---
 
-# Protected Mass Operation Tables
+# Protected Tables
 
 These tables are protected and therefore cannot be used by the mass operations API. An `SoDbAccessException` is thrown if any of these tables are targeted.
 

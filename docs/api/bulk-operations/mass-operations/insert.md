@@ -1,5 +1,5 @@
 ---
-title: Mass Operations - Insert
+title: Insert records
 description: How to insert large numbers of records in bulk.
 author: AnthonyYates             # Your GitHub alias.
 so.date: 29.02.2021
@@ -8,6 +8,8 @@ version: 9.2 R04
 ---
 
 # Mass Operations - Insert
+
+Used when there is a need to insert multiple records in a table.
 
 ## Working with Mass Operations
 

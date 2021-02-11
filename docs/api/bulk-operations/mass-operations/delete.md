@@ -1,5 +1,5 @@
 ---
-title: Mass Operations - Delete
+title: Delete records
 description: How to delete large numbers of records in bulk.
 author: AnthonyYates             # Your GitHub alias.
 so.date: 29.02.2021
@@ -7,28 +7,34 @@ keywords: data-access, mass-operations, bulk-update
 version: 9.2 R04
 ---
 
-# Mass Operations - Delete
+# Working with Delete
 
-## Working with Delete
+Used to remove multiple records from a table, delete requires a table name and an array of primary key values. To avoid any unnecessary database server side-affects, i.e. long locks, NetServer internally processes the array of primary keys in batches of 1000.
 
-Delete requires an array of primary key values, which has no size limit. To avoid any unnecessary database server side-affects, i.e. long locks, NetServer processes the operation in batches of 1000.
+Rules that govern **soft-delete** entities are still respected. This means delete doesn't physically remove the database record, but instead updates the SoftDeletedDate column.
 
-Rules that govern soft-delete entities are still respected. This means the delete operation doesn't physically remove the database record, but instead updates the SoftDeletedDate column.
-
-### Delete
-
-The specified rows are deleted in an efficient way, subject to Sentry permissions. The time taken is proportional to the number of rows deleted.
+The specified rows are deleted in an efficient way yet the time taken is proportional to the number of rows deleted.
 
 ```csharp
-BulkDelete(string tableName, int[] primaryKeys) 
+Delete(string tableName, int[] primaryKeys) 
 ```
 
-#### REST API Delete
+> [!CAUTION]
+> Mass operations do not work on these [protected-tables][1].
+> 
+#### Example
 
-```http
-DELETE /api/v1/Table/y_foobar/1,2,3,5,8,13,21 
-```
+# [Agent RESTful API](#tab/delete-1)
 
-This will delete the specified rows from the table. A URL is typically allowed to be somewhere between 1 and 4kB – so the REST API could accept 250 to 1000 ids per call.
+[!code-csharp[CS](../includes/mass-operation-delete-agent.cs)]
 
-Bulk Delete is allowed on extra tables and on the built-in tables.
+
+# [NetServer Core](#tab/delete-2)
+
+[!code-csharp[CS](../includes/mass-operation-delete-core.cs)]
+
+***
+
+<!-- Referenced links -->
+
+[1]: protected-tables.md

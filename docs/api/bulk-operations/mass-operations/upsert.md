@@ -1,5 +1,5 @@
 ---
-title: Mass Operations - Upsert
+title: Upsert records
 description: How to insert/update large numbers of records in bulk.
 author: AnthonyYates             # Your GitHub alias.
 so.date: 29.02.2021
@@ -8,6 +8,8 @@ version: 9.2 R04
 ---
 
 # Mass Operations - Upsert
+
+Used when there is a need to both insert and update multiple records in a table.
 
 ## Working with Upsert
 
