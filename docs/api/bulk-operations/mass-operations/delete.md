@@ -21,8 +21,8 @@ Delete(string tableName, int[] primaryKeys)
 
 > [!CAUTION]
 > Mass operations do not work on these [protected-tables][1].
-> 
-#### Example
+
+## Example
 
 # [Agent RESTful API](#tab/delete-1)
 

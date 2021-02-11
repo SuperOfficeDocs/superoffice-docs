@@ -13,7 +13,7 @@ Used when there is a need to both insert and update multiple records in a table.
 
 ## Working with Upsert
 
-`Upsert` is notably the most complex method. It can perform any combination of inserts, updates and deletes. It requires the same parameters as the `Insert` method, as well as an array of key columns and a boolean used to determine whether unmatched records are deleted.
+`Upsert` is notably the most complex method. It can perform any combination of inserts, updates and deletes. It requires the same parameters as the [Insert][1] method, as well as an array of key columns and a boolean used to determine whether unmatched records are deleted.
 
 Key column values are generally either:
 
@@ -85,3 +85,7 @@ This results in 4 webhook calls: 3 contact.created events, 1 contact.changed eve
 We Upsert 4 rows on extra table y_bicycle: 3 inserts and 1 update.  
 
 This results in 0 webhook calls: extra tables do not have webhooks (yet).
+
+<!-- reference links -->
+
+[1]: insert.md
