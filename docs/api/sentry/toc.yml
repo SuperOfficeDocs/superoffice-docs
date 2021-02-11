@@ -1,0 +1,15 @@
+- name: Sentry
+  href: index.md
+- name: Handle access denied
+  href: scenarios.md
+- name: VisibleFor flag
+  href: visible-for-flag.md
+- name: Distinct
+  href: distinct-and-sentry.md
+- name: Overrides
+  href: overrides.md
+  items:
+  - name: SQL
+    href: set-override-sql.md
+  - name: COM
+    href: set-override-com.md

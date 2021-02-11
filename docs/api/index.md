@@ -88,6 +88,8 @@ so.date:
 
 ### S
 
+* [Sentry][12]
+
 <!-- * [Saint / Sales Intelligence](sales/saint/index.md)
 * [Sale](sales/index.md)
 * [Search](search/index.md)
@@ -123,3 +125,4 @@ so.date:
 [9]: lists/index.md
 [10]: erp-connectors/index.md
 [11]: globalization-and-localization/index.md
+[12]: sentry/index.md
