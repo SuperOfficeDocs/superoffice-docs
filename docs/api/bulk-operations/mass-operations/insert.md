@@ -34,7 +34,7 @@ Used when there is a need to insert multiple records in a table, Insert requires
 > [!CAUTION]
 > Extra tables **must not** specify a primary key column.
 
-## Example
+## Insert Example
 
 # [Agent RESTful API](#tab/insert-1)
 #### Insert example

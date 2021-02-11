@@ -24,4 +24,4 @@ var data = new string[][]
 
 var mo = MassOperations.GetCurrent();
 
-var massResult = mo.Insert("y_rental", columns, data);
+MassOperationResult massResult = mo.Insert(tableName, columns, data);

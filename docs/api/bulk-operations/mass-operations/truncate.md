@@ -7,20 +7,20 @@ keywords: data-access, mass-operations, bulk-update
 version: 9.2 R04
 ---
 
-# Mass Operations - Truncate
+# Working with Truncate
 
-Used when there is a need to remove all records in a table.
+This method is used to remove all records in a table. All records afterwards are irrecoverable. It is extremely fast, dependent on table size.
 
-### Working with Truncate
+> [!WARNING]
+> This will truncate the whole table, but won't delete the table itself.
 
-All rows in the table are deleted using TRUNCATE TABLE or a corresponding SQL commands. This is typically an irrecoverable deletion of all rows in the table. It is extremely fast and almost independent of table size.
+## Truncate Examples
 
-#### REST API Truncate
+# [Agent RESTful API](#tab/truncate-1)
 
-```http
-DELETE /api/v1/Table/y_foobar 
-```
+[!code-csharp[CS](../includes/mass-operation-truncate-agent.cs)]
 
-This will truncate the whole table, but won"t delete the table itself. (That would be a schema change, and is handled elsewhere).
+# [Core API](#tab/truncate-2)
 
-Truncate is only allowed on extra tables. Attempts to truncate built-in tables like Contact or Person will fail with not-allowed error.
+[!code-csharp[CS](../includes/mass-operation-truncate-core.cs)]
+***

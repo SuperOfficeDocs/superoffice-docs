@@ -47,8 +47,10 @@ This method has three main parameters: An array of field names to be updated; an
 The key field may be the database primary key, or a combination of one or more field(s) that uniquely identifies a row. 
 When the combination of key values match a row, an update operation is performed; otherwise the matching row is updated. If there is a multiple match, the operation is aborted. [or should we use this as a way of allow multiple rows to be efficiently updated to the same values?]
 
+## Upsert example
+
 # [Agent API](#tab/upsert-2)
-#### Upsert method example
+
 [!code-csharp[CS](../includes/mass-operation-upsert.cs)]
 
 ***
