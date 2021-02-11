@@ -1,5 +1,11 @@
 - name: Intro
   href: index.md
+- name: Best practices
+  items:
+  - name: SetDefaults()
+    href: setdefaults-method.md
+  - name: Use collections correctly
+    href: using-collections.md
 - name: Configuration
   href: config/index.md
   items:
