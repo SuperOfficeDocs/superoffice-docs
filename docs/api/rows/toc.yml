@@ -20,6 +20,8 @@
     href: update-row-in-entity.md
   - name: Delete
     href: delete-row-from-entity.md
+- name: Events (hooks)
+  href: events.md
 - name: Sentry
   href: sentry.md
 - name: Examples
