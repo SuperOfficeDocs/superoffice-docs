@@ -1,0 +1,13 @@
+- name: Cache
+  href: index.md
+- name: SuperOffice.CRM.Cache
+  href: superoffice-crm-cache.md
+- name: SuperOffice.CRM.Security
+  href: superoffice-crm-security.md
+- name: Lists
+  href: lists.md
+- name: Preferences
+  href: preferences.md
+  items:
+  - name: Get and set
+    href: get-set-preferences.md

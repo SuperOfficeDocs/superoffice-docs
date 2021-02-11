@@ -29,6 +29,8 @@ so.date:
 
 ### C
 
+* [Caching][13]
+
 <!-- * [Company and contact](company-and-contact/index.md)
 * [Custom fields](custom-fields/index.md) -->
 
@@ -126,3 +128,4 @@ so.date:
 [10]: erp-connectors/index.md
 [11]: globalization-and-localization/index.md
 [12]: sentry/index.md
+[13]: caching/index.md
