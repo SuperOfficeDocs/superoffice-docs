@@ -7,45 +7,64 @@ keywords: data-access, mass-operations, bulk-update
 version: 9.2 R04
 ---
 
-# Mass Operations - Upsert
+# Working with Upsert
 
-Used when there is a need to both insert and update multiple records in a table.
+Notably the most complex mass operation method, Upsert performs any combination of inserts, updates and, in some cases, deletes. It requires the same parameters as the [Insert][1] method, but adds a string array *keys*, and a boolean *deleteUnmatched*.
 
-## Working with Upsert
+```csharp
+Upsert(tableName, columns, keys, deleteUnmatched, data);
+```
 
-`Upsert` is notably the most complex method. It can perform any combination of inserts, updates and deletes. It requires the same parameters as the [Insert][1] method, as well as an array of key columns and a boolean used to determine whether unmatched records are deleted.
+|Parameter   | Description                                                  |
+|------------|--------------------------------------------------------------|
+|TableName   | The name of the table to update.                             |
+|Columns     | Array of *ordered* column names, same number as incoming data columns.              |
+|Keys        | Array of **key** column names used to match one or more *ordered* column names.|
+|Delete Unmatched | Determines set operation behavior. If true, unmatched rows are deleted. Must be false when columns include a **user-defined field**. |
+|Data        | Two-dimension array of row and ordered column data.          |
 
-Key column values are generally either:
+Use the deleteUnmatched to determined whether Upsert should keep or remove unmatched records in the table. When true, any rows that have **not** been matched or inserted are deleted. In this case the end result is that the table mirrors the incoming data. If that is the intent, it might be faster to perform a `Truncate` and then an `Insert`.
+
+## Key fields
+
+A key is a column name, and keys are either:
 
 1. The primary key column name.
 2. One or more table column names
    1. Primary key is not required, but the combination must match one unique database record.
    2. Matching multiple non-unique records is not supported.
 
-When the key equals the primary key column name, the operation iterates over all records in the dataset and determines whether it should perform an UPDATE and an INSERT in the database for that row. Records in the dataset with a matching primary key are updated while records with a primary key value of `0` are inserted.
+When the key parameter contains just the primary key column name, the operation iterates over all records in the dataset and determines whether it should perform an UPDATE and an INSERT in the database for that row. Records in the dataset with a matching primary key are updated while records with a primary key value of `0` are inserted.
 
-When the key array contains one or more columns, the Upsert operation finds the first database row that matches the dataset key record data and performs an Update. Non-unique matches are not supported.
+When the key parameter contains one or more column names, the Upsert operation finds the first database row where there is a matching dataset key record data and performs an Update. Matches must be unique.
 
-The deleteUnmatched parameter is used to determined whether Upsert should keep or remove records in the database table. When true, any rows that have **not** been matched or inserted are deleted; the table then mirrors the incoming data. If that is the intent, it might be faster to perform a `Truncate` and then an `Insert`.
+## User-defined fields
 
-When updating user-defined fields, the DeleteUnmatched must be not be set.
+Upsert is still oriented towards one table. Therefore when specifying user-defined fields, only specify ProgID's for either xxxSmall or xxxLarge. Do not mix columns from both tables in one Upsert.
 
-A failed Upsert can leave the database in a *partially* updated state. There is extensive validation to catch things, such as badly formatted fields or too-long strings, but there are ultimately no guarantees. Make sure to inspect the `MassResults` return type to action results and/or errors.
+> [!CAUTION]
+> When updating **user-defined fields**, DeleteUnmatched must be false.
 
-### Example
+## Data rows and column values
 
-This method has three main parameters: An array of field names to be updated; an array of field names that together constitute a unique key for identifying rows; and a matrix of values with both the key and data fields specified for each row. In addition, one can specify the action to be taken for unmatched rows, and how much return information is desired (detailed row-by-row status takes time and resources).
+**Built-in table**
 
-|Parameter   | Description                                                  |
-|------------|--------------------------------------------------------------|
-|TableName   | The name of the table to update.                             |
-|Columns     | List of ordered columns, same as incoming data.              |
-|Keys        | List of key columns that must match one or more column values.|
-|Delete Unmatched | Determines set operation behavior. If true, unmatched rows are deleted. If false, unmatched rows are inserted. |
-|Data        | Two-dimension array of row and ordered column data.          |
+|*Columns*:|contact_id |name       |country_id|business_idx|category_idx|SuperOffice:2|
+|----------|-----------|-----------|----------|------------|------------|-------------|
+|_**Row update**_ |"1"        |"Company1" |"220"     |"[I:6]"     |"[I:3]"     |"Phase Two"  |
+|_**Row insert**_ |"0"        |"Company2" |"98"      |"[I:1]"     |"[I:2]"     |"Phase One"  |
+|_**Row update**_ |"4"        |"Company3" |"27"      |"[I:4]"     |"[I:1]"     |"Phase Two"  |
 
-The key field may be the database primary key, or a combination of one or more field(s) that uniquely identifies a row. 
-When the combination of key values match a row, an update operation is performed; otherwise the matching row is updated. If there is a multiple match, the operation is aborted. [or should we use this as a way of allow multiple rows to be efficiently updated to the same values?]
+**Extra table**
+
+|*Columns*:|id  |x_name       |x_description |x_height   |x_width    |
+|----------|----|-------------|--------------|-----------|-----------|
+|_**Row insert**_ |"0" |"cat"        |"in a hat"    |"[I:123]"  |"[F:321.4]"|
+|_**Row update**_ |"1" |"Foozle"     |"Not woozels" |"[I:69]"   |"[F:123.5]"|
+|_**Row update**_ |"4" |"Screwdriver"|"Philips head"|"[I:54]"   |"[F:345.3]"|
+
+> [!WARNING] 
+> A failed Upsert can leave the database in a *partially* updated state. There is extensive validation, but there are no guarantees. Make sure to inspect the `MassResults` return type and review what changes have occurred.
 
 ## Upsert example
 
