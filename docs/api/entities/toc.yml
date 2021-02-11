@@ -24,6 +24,8 @@
   href: collections.md
 - name: CustomSearch
   href: using-customsearch.md
+- name: Events (hooks)
+  href: events.md
 - name: Examples
   items:
   - name: Create contact
