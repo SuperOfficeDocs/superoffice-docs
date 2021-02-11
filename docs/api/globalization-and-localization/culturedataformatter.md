@@ -9,7 +9,9 @@ keywords:
 
 # CultureDataFormatter
 
-This is a helper class used to encode, parse and reformat culturally sensitive data used throughout SuperOffice. Additionally, MDO lists such as Business and Category often contain delimited multicultural strings that require parsing. In the administration pages of SuperOffice, an MDO Item is easily edited in an MDO Item dialog.
+This is a helper class used to encode, parse and reformat culturally sensitive data used throughout SuperOffice. The most common case is when working with [Archive Providers][1] and performing [Mass Operations][2].
+
+Additionally, MDO lists such as Business and Category often contain delimited multicultural strings that require parsing. In the administration pages of SuperOffice, an MDO Item is easily edited in an MDO Item dialog.
 
 ![MDOListItem Dialog][img1]
 
@@ -51,19 +53,21 @@ With core NetServer, the archive row column data contains a `RawValue` property 
 
 Except for string column values, `DisplayValue` always contains an encoded string. The `SuperOffice.CRM.Globalization.CultureDataFormatter` class knows how to handle these values and simply parses and returns the column value in the correct data type.
 
-An encoded value is always a string of characters in the format: `[data-type-marker : value]`, for example, [I:3]. Columns that are of type string will never be in an encoded format.
+An encoded value is always a string of characters in the format: `[data-type-moniker : value]`, for example, [I:3]. Columns that are of type string are not encoded.
 
-The data type marker indicates the column data type followed by a colon, then the column data value. The following table lists all encodings.
+The data type moniker indicates the column data type followed by a colon, then the column data value. The following table lists all encodings with examples.
 
-|Data type |Marker |Example|
+|Data type |Moniker |Example|
 |---|---|---|
 |Binary |B  |[B:X98…]|
 |Date   |D  |[D:09.11.2017]|
 |DateTime|DT    |[DT:11/09/2017 14:53:18]|
 |Double, Decimal|F  |[F:123.4]|
 |Int    |I  |[I:123]|
+|IntArr |A  |[A:3,4,5]|
 |Money  |M  |[M:123.45]|
 |Time   |T  |[T:14:52]|
+|TimeSpan|TS|[TS:500]|
 |String |   |“Not encoded”|
 
 For each data type, `CultureDataFormatter` has a static `Encode` and `ParseEncoded` method, for example:
@@ -76,8 +80,31 @@ string = CultureDataFormatter.EncodeInt(int);
 int = CultureDataFormatter.ParseEncodedInt(string);
 ```
 
-Data values passed into NetServer do not need to be encoded, NetServer knows how to detect and process them accordingly.
+Additional encode methods on the CultureDataFormatter class include:
+
+* EncodeBinary
+* EncodeDate
+* EncodeDateTime
+* EncodeDouble
+* EncodeInt
+* EncodeIntArr
+* EncodeMoney
+* EncodeTime
+* EncodeTimeSpan
+* ParseEncodedBinary
+* ParseEncodedDate
+* ParseEncodedDateTime
+* ParseEncodedDouble
+* ParseEncodedInt
+* ParseEncodedIntArr
+* ParseEncodedMoney
+* ParseEncodedTime
+* ParseEncodedTimeSpan
+
+As these methods are more optimal, we recommend you chose to use these over the plain Encode method.
 
 <!-- Referenced images -->
 [img1]: media/mdolistitemdialog.png
 [img2]: media/mdolistitemdatabaserow.png
+[1]: ../archive-providers/index.md
+[2]: ../bulk-operations/mass-operations/index.md
