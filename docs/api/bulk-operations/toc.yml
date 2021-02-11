@@ -10,8 +10,6 @@
     href: mass-operations/truncate.md
   - name: Upsert Method
     href: mass-operations/upsert.md
-  - name: Notifications
-    href: mass-operations/notifications.md
   - name: Protected tables
     href: mass-operations/protected-tables.md
 - name: Bulk update
