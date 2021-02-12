@@ -26,7 +26,6 @@ The following example shows how to create a typed list provider.
 ```csharp
 using SuperOffice;
 using SuperOffice.CRM.Lists;
-
 using(SoSession newSession = SoSession.Authenticate("SAL0", ""))
 {
   //Retrieve a typed list provider of type Associate

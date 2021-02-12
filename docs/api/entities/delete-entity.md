@@ -3,7 +3,7 @@ title: delete_entity
 description: Delete an entity
 author: {github-id}
 so.date: 11.05.2016
-keywords: 
+keywords:
 so.topic: howto
 ---
 
@@ -18,7 +18,6 @@ To delete an Entity, we have to use the `Delete()` method of that entity.
 using SuperOffice.CRM.Entities;
 using SuperOffice.CRM.Rows;
 using SuperOffice;
-
 using (SoSession mySession = SoSession.Authenticate("SAL0", ""))
 {
   //Retrieve an entity

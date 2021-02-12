@@ -65,21 +65,16 @@ In this example, we are going to override the `GetSimpleListQuery` method of the
 ```csharp
 private TableInfo tableInfo = null;
 private ListInfo listInfo = null;
-
 protected override ListTableRows.CustomSearch GetSimpleListQuery()
 {
   //get the table info
   tableInfo = TablesInfo.GetTableInfo("country");
-
   //get the list info
   listInfo = tableInfo.Definition.MDOListInfo;
-
   //declare a query of type ListTableRows.CustomSearch
   ListTableRows.CustomSearch query = new ListTableRows.CustomSearch(tableInfo);
-
   //we have to set a common alias for the list item ID
   tableInfo.Definition.MDOListInfo.PrimaryKey.Alias = new Alias("ListItemId");
-
   //we are retrieving all the fields in the list table
   query.AdditionalReturnFields.Add(listInfo.ListTable.All);
   //lets distinct the results
@@ -112,7 +107,7 @@ Below is an example of how we have to configure our plugin in the *app.config* f
 ```XML
 <Factory>
   <DynamicLoad>
-    <add key="PluginDemos" 
+    <add key="PluginDemos"
     value="C:\\TestApps\\Pulgin\\Pulgin\\bin\\Debug\\Pulgin.dll" />
   </DynamicLoad>
 </Factory>
@@ -130,7 +125,6 @@ Here we will use the plugin that we developed to extend the functionality of the
 using SuperOffice.CRM.Services;
 using SuperOffice.CRM.Lists;
 using SuperOffice;
-
 using(SoSession session = SoSession.Authenticate("SAL0", ""))
 {
   //get the country list. Notice that even though you have not written

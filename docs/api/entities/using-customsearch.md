@@ -29,7 +29,6 @@ using SuperOffice.CRM.Rows;
 using SuperOffice.CRM.Data;
 using SuperOffice.Data;
 using SuperOffice;
-
 using(SoSession mySession = SoSession.Authenticate("SAL0", ""))
 {
   PersonCollection.CustomSearch newSearch = new PersonCollection.CustomSearch();
@@ -38,9 +37,10 @@ using(SoSession mySession = SoSession.Authenticate("SAL0", ""))
   PersonCollection perColl = PersonCollection.GetFromCustomSearch(newSearch);
   string[] perFirstName = new string[perColl.Count];
   int i = 0;
+
   foreach (Person per in perColl)
   {
-    //Retriving First and Last names from the Collection
+    //Retrieving First and Last names from the Collection
     perFirstName[i] = per.Firstname + " " + per.Lastname;
     i = i + 1;
   }

@@ -23,7 +23,6 @@ If `SetDefault()` was not used, the programmer would have to make use of flow-co
 ```csharp
 using SuperOffice.CRM.Entities;
 using SuperOffice.CRM.Rows;
-
 using(SuperOffice.SoSession mySession = SuperOffice.SoSession.Authenticate("sam", "sam"))
 {
   //Creating a Contact Entity
@@ -31,20 +30,20 @@ using(SuperOffice.SoSession mySession = SuperOffice.SoSession.Authenticate("sam"
 
   //Sets default values - Good Practice
   newContact.SetDefaults();
-
   newContact.Name = "Jazz";
-  
+
   //Creating instances of Row types
   EmailRow newEmail1 = EmailRow.CreateNew();
   newEmail1.EmailAddress = "ally@alley.com";
   newEmail1.Description = "Ally's E mail";
+
   EmailRow newEmail2 = EmailRow.CreateNew();
   newEmail2.EmailAddress = "Anakin@star.com";
   newEmail2.Description = "Anakin's test email";
 
   PhoneRow newPhone = PhoneRow.CreateNew();
   newPhone.Description = "Jazz's phone number";
-   newPhone.Phone = "9771252307";
+  newPhone.Phone = "9771252307";
 
   //Adding the Row types to the Contact
   newContact.Emails.Add(newEmail1);

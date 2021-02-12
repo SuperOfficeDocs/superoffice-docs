@@ -3,7 +3,7 @@ title: get_entity
 description: How to retrieve an Entity
 author: {github-id}
 so.date: 11.05.2016
-keywords: 
+keywords:
 so.topic: howto
 ---
 
@@ -18,7 +18,6 @@ The following example shows the use of the `GetFromIdx` function to retrieve an 
 ```csharp
 using SuperOffice.CRM.Entities;
 using SuperOffice;
-
 using(SoSession mySession = SoSession.Authenticate("SAL0", ""))
 {
   //Retrieving a Property of PersonEntity
@@ -37,7 +36,6 @@ The following example demonstrates how to retrieve properties of **basic data ty
 using SuperOffice.CRM.Entities;
 using SuperOffice.CRM.Rows;
 using SuperOffice;
-
 using(SoSession mySession = SoSession.Authenticate("SAL0", ""))
 {
   //Retrieving an Entity

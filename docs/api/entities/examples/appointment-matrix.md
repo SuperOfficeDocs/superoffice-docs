@@ -26,6 +26,7 @@ using (SoSession.Authenticate("tje3", "tje3"))
   int appointmentId = 123;
   Appointment appointment = Appointment.GetFromIdxAppointmentId( appointmentId );
   AppointmentMatrix matrix = new AppointmentMatrix(appointment, RecurrenceUpdateMode.ThisAndForward);
+
   // Get participant information for user to assign-to
   AssociateCache  associateCache  = AssociateCache.GetCurrent();
   AssociateRow    jimbo           = associateCache.GetAssociate(associateCache.GetAssociateId("jimbo"));
@@ -37,6 +38,7 @@ using (SoSession.Authenticate("tje3", "tje3"))
 
 ```csharp
 using SuperOffice.CRM.Entities;
+
 // Let the participant accept this one
 using (SoSession.Authenticate("tje3", "tje3"))
 {

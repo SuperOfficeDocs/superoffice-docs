@@ -3,7 +3,7 @@ title: delete_entity_from_entity
 description: Delete an Entity through an Entity
 author: {github-id}
 so.date: 11.05.2016
-keywords: 
+keywords:
 so.topic: howto
 ---
 
@@ -17,7 +17,6 @@ This example shows the use of the `Delete()` method to delete an Entity property
 using SuperOffice.CRM.Entities;
 using SuperOffice.CRM.Rows;
 using SuperOffice;
-
 using(SoSession mySession = SoSession.Authenticate("SAL0", ""))
 {
   //Retrieve an entity
@@ -26,7 +25,7 @@ using(SoSession mySession = SoSession.Authenticate("SAL0", ""))
   //Deleting a Contact through a Sale
   newSale.Contact.Delete();
 
-  //Using IsDelete to check whether the Contact has being     deleted
+  //Using IsDelete to check whether the Contact has been deleted
   if (newSale.Contact.IsDeleted == true)
   {
     string test2 = "Contact has being deleted";

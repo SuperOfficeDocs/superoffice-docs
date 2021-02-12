@@ -10,7 +10,7 @@
     href: group-view.md
   - name: GenericMDOProviders
     href: generic-list.md
-- name: How to 
+- name: How to
   items:
   - name: Retrieve a list
     href: get-list.md

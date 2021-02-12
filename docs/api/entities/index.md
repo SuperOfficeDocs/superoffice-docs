@@ -1,6 +1,6 @@
 ---
-title: entities       
-description:                    
+title: entities      
+description:                   
 author: {github-id}             # Your GitHub alias.
 keywords:
 ---

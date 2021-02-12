@@ -1,5 +1,5 @@
 ---
-title: lists       
+title: lists      
 description: Lists (SoListProviders)
 author: {github-id}             # Your GitHub alias.
 so.date: 05.11.2016

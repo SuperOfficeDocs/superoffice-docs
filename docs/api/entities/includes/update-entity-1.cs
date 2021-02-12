@@ -1,7 +1,6 @@
 using SuperOffice.CRM.Entities;
 using SuperOffice.CRM.Rows;
 using SuperOffice;
-
 using(SoSession mySession = SoSession.Authenticate("SAL0", ""))
 {
   //Retrieving a Sale using the index of a Sale
@@ -30,9 +29,11 @@ using(SoSession mySession = SoSession.Authenticate("SAL0", ""))
   int posPersonRow = newSale.Contact.Persons.Add(newPers);
   newSale.Contact.Persons[posPersonRow].Firstname = "Will";
   newSale.Contact.Persons[posPersonRow].Lastname = "Turner";
+
   URLRow newUrl = URLRow.CreateNew();
   int posURLRow = newSale.Contact.Persons[posPersonRow].Urls.Add(newUrl);
   newSale.Contact.Persons[posPersonRow].Urls[posURLRow].UrlAddress1 = "www.testSuperOffice.com";
+
   if (newSale.IsDirty == true)
   {
     //Saving the Sale Entity

@@ -3,7 +3,7 @@ title: update_entity_in_entity
 description: How to update an Entity
 author: {github-id}
 so.date: 11.05.2016
-keywords: 
+keywords:
 so.topic: howto
 ---
 

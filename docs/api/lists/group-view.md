@@ -1,5 +1,5 @@
 ---
-title: group_view_providers    
+title: group_view_providers   
 description: Group view providers
 author: {github-id}             # Your GitHub alias.
 so.date: 05.11.2016
@@ -20,7 +20,6 @@ using(SoSession mySession = SoSession.Authenticate("SAL0", ""))
 {
   //Retrieve a Group View Provider
   ISoListProvider mdoProvider = SoLists.GetGroupViewList();
-
   //If it contains any HistoryItems display them in the history list view
   if (mdoProvider.HistoryItems.Count > 0)
   {

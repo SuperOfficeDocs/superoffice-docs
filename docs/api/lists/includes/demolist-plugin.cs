@@ -1,11 +1,9 @@
 usingSystem;
 usingSystem.Collections.Generic;
 usingSystem.Text;
-
 using SuperOffice.CRM.Lists;
 using SuperOffice.Factory;
 using SuperOffice.Data;
-
 namespace Plugin
 {
   [MDOProviderPlugin("country")]

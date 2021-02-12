@@ -27,7 +27,6 @@ Let’s look at some examples. They are only one usage of the associate list, bu
 using SuperOffice.CRM.Services;
 using SuperOffice.CRM.Lists;
 using SuperOffice;
-
 using(SoSession session = SoSession.Authenticate("SAL0", ""))
 {
 //get the associate list as a flat list by passing the bool
@@ -64,7 +63,6 @@ In the next example let’s try out how we can get a list grouped on user groups
 using SuperOffice.CRM.Services;
 using SuperOffice.CRM.Lists;
 using SuperOffice;
-
 using(SoSession session = SoSession.Authenticate("SAL0", ""))
 {
 //get the associate list asa grouped list by not providing a
@@ -83,7 +81,7 @@ using(SoSession session = SoSession.Authenticate("SAL0", ""))
         listView2.ShowItemToolTips = true;
         int i = 0;
         //loop through the items of the heading items to
-        //access the individual information of the 
+        //access the individual information of the
 
         //associates
         foreach (SoListItem item in headingItem.Items)
@@ -114,7 +112,6 @@ First, let’s look at how we can retrieve the associate list from the cache.
 ```csharp
 using SuperOffice.CRM.Cache;
 using SuperOffice;
-
 using(SoSession session = SoSession.Authenticate("SAL0", ""))
 {
   AssociateCache assoCache = AssociateCache.GetCurrent();
@@ -149,30 +146,22 @@ using(SuperOffice.SoSession session =
 SuperOffice.SoSession.Authenticate("SAL0", ""))
 {
 AssociateCache assoCache = AssociateCache.GetCurrent();
-
 //get the full details of the associate ID 4 as an Associate Row object
 AssociateRow assoRow = assoCache.GetAssociate(4);
-
 //get the full details of the contact of associate ID 4 as a Contact Row object
 ContactRow assoContact =  assoCache.GetAssociateContact(4);
-
 //get the first name of the associate ID 4 as a string
 string assoFirstName = assoCache.GetAssociateFirstName(4);
-
 //get the full name of the associate ID 4 as a string
 string assoFullName = assoCache.GetAssociateFullName(4);
-
 //get the person ID of the associate ID 4 as a int
 int assoPersonID = assoCache.GetAssociatePersonId(4);
-
 //check the associate ID 4 is retired or not this will return bool value
 //true if the associate is retired and false otherwise
 bool isRetired = assoCache.IsAssociateRetired(4);
-
 //check the person ID 5 to see if the person is an associate this will return
 //true if the person is an associate and false otherwise
 bool isAssociate = assoCache.IsPersonAssociate(5);
-
 //this method will check if the associate ID 4 actually exists this will
 //return true if the associate exists and false otherwise
 bool isAssoExists = assoCache.ValidateAndTestAssociate(4);

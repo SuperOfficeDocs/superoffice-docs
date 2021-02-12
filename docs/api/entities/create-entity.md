@@ -3,7 +3,7 @@ title: create_entity
 description: Create entity with basic properties
 author: {github-id}
 so.date: 11.05.2016
-keywords: 
+keywords:
 so.topic: howto
 ---
 
@@ -19,7 +19,6 @@ To create a new instance of an Entity, we use the `CreateNew` method (of the `En
 ```csharp
 using SuperOffice.CRM.Entities;
 using SuperOffice;
-
 using(SoSession mySession = SoSession.Authenticate("SAL0", ""))
 {
   //Create a New Entity
@@ -47,7 +46,6 @@ In the following example, we create a `Sale` Entity and populate it with some ve
 using SuperOffice;
 using SuperOffice.CRM.Entities;
 using SuperOffice.CRM.Rows;
-
 using(SoSession newSession = SoSession.Authenticate("SAL0", ""))
 {
   //create an entity
@@ -62,6 +60,7 @@ using(SoSession newSession = SoSession.Authenticate("SAL0", ""))
   mySale.Earning = 10000;
   mySale.EarningPercent = 50;
   mySale.Probability = 30;
+
   //finally save the entity
   mySale.Save();
 }

@@ -3,7 +3,7 @@ title: update_entity
 description: How to update an Entity
 author: {github-id}
 so.date: 11.05.2016
-keywords: 
+keywords:
 so.topic: howto
 ---
 
@@ -17,10 +17,9 @@ Updating a **basic property** of an Entity means changing the values that are st
 using SuperOffice.CRM.Entities;
 using SuperOffice.CRM.Rows;
 using SuperOffice;
-
 using(SoSession mySession = SoSession.Authenticate("SAL0", ""))
 {
-  //Retriving a Sale using the index of a Sale
+  //Retrieving a Sale using the index of a Sale
   Sale newSale = Sale.GetFromIdxSaleId(2);
 
   //Update Sale properties directly
@@ -31,7 +30,7 @@ using(SoSession mySession = SoSession.Authenticate("SAL0", ""))
   newSale.Heading = "Test edited for testing.";
   newSale.Status = SuperOffice.Data.SaleStatus.Sold;
 
-  if (newSale.IsDirty == true)
+if (newSale.IsDirty == true)
   {
     //Saving the Sale Entity
     newSale.Save();

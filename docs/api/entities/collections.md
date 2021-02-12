@@ -28,7 +28,6 @@ There are two major types of Collections: Collection of Entity types and Collect
 using SuperOffice;
 using SuperOffice.CRM.Entities;
 using SuperOffice.CRM.Rows;
-
 using(SoSession newSession = SoSession.Authenticate("SAL0", ""))
 {
   //Creating a new Contact Entity and assigning values to some of its properties
@@ -47,6 +46,7 @@ using(SoSession newSession = SoSession.Authenticate("SAL0", ""))
   Appointment newAppointment = Appointment.CreateNew();
   newAppointment.SetDefaults();
   newAppointment.Alarm = 7;
+
   //Adding the Appointment Entity to the Appointment Collection in the Person Entity
   newPerson.Appointments.Add(newAppointment);
 
@@ -86,7 +86,6 @@ To retrieve elements of a Collection, we can use the `GetFromIdx` function.
 ```csharp
 using SuperOffice;
 using SuperOffice.CRM.Entities;
-
 using(SoSession mySession = SoSession.Authenticate("SAL0", ""))
 {
   //Retrieving a Property of PersonEntity
@@ -114,11 +113,11 @@ Here we delete the references to the Entities of an Entity Collection.
 using SuperOffice.CRM.Entities;
 using SuperOffice.CRM.Rows;
 using SuperOffice;
-
 using(SoSession mySession = SoSession.Authenticate("SAL0", ""))
 {
   //Retrieve an entity
   Contact newContact = Contact.GetFromIdxContactId(25);
+
   //Deleting an Entity Collection through a Contact
   newContact.Persons.Delete();
 }
@@ -138,7 +137,6 @@ Rows, which consist of Row types, are another type which can be a property of an
 using SuperOffice.CRM.Entities;
 using SuperOffice.CRM.Rows;
 using SuperOffice;
-
 using(SoSession mySession = SoSession.Authenticate("SAL0", ""))
 {
   //Retrieve an entity

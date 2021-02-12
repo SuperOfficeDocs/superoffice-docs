@@ -1,5 +1,5 @@
 ---
-title: generic_list_providers       
+title: generic_list_providers      
 description: Generic list providers
 author: {github-id}             # Your GitHub alias.
 so.date: 05.11.2016
@@ -18,7 +18,6 @@ The following example shows how generic list providers are used to create lists.
 ```csharp
 using SuperOffice;
 using SuperOffice.CRM.Lists;
-
 using(SoSession mySession = SoSession.Authenticate("SAL0", ""))
 {
   string[] listsToTest = new string[] {

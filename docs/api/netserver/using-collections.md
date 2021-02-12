@@ -36,13 +36,12 @@ Let's look at some examples of bad practice of using the Entity collection, and 
 ```csharp
 using SuperOffice.CRM.Entities;
 using SuperOffice.CRM.Rows;
-
 using(SuperOffice.SoSession mySession = SuperOffice.SoSession.Authenticate("sam", "sam"))
 {
   //Retrieving an Entity
   Contact newContact = new Contact.IdxContactId(2);
 
-  //Retrieving Properties of a Row through an Entity
+//Retrieving Properties of a Row through an Entity
   if (newContact.Persons.Count != 0)
   {
     string conPerName = newContact.Persons[0].Firstname + " " + newContact.Persons[0].Lastname;
@@ -72,6 +71,7 @@ using(SuperOffice.SoSession mySession = SuperOffice.SoSession.Authenticate("sam"
         i = i + 1;
       }
     }
+
     //Entity Collection properties within an Entity Collection
     if (newContact.Persons[0].Sales.Count != 0)
     {
@@ -93,7 +93,6 @@ In the `Contact` Entity, the property `Person` is of `PersonCollection` type. Th
 
 ```csharp
 Contact newContact = new Contact.IdxContactId(2);
-
 //Retrieving Properties of a Row through an Entity
 if(newContact.Persons.Count != 0)
 {
@@ -109,7 +108,6 @@ Though this can be easy to program, it can be a slow way to use the database. Th
 ```csharp
 using SuperOffice.CRM.Entities;
 using SuperOffice.CRM.Rows;
-
 using(SuperOffice.SoSession mySession = SuperOffice.SoSession.Authenticate("sam", "sam"))
 {
   PersonCollection newPerColl = PersonCollection.GetFromIdxContactId(2);
@@ -163,7 +161,6 @@ The above code creates a `PersonCollection` with all person whose contact ID is 
 
 ```csharp
 using SuperOffice.CRM.Entities;
-
 using(SuperOffice.SoSession mySession = SuperOffice.SoSession.Authenticate("JR", "jr"))
 {
   //Retrieving a Property of PersonEntity
@@ -187,7 +184,6 @@ The above code could be done as follows with the use of `PersonRows`, which is m
 
 ```csharp
 singSuperOffice.CRM.Rows;
-
 using(SuperOffice.SoSession mySession = SuperOffice.SoSession.Authenticate("JR", "jr"))
 {
   //Retrieving a Property of PersonRow
@@ -214,13 +210,11 @@ When this happens the relevant Entities will be updated which will change its la
 ```csharp
 using SuperOffice.CRM.Entities;
 using SuperOffice.CRM.Rows;
-
 using(SuperOffice.SoSession mySession =
 SuperOffice.SoSession.Authenticate("sam", "sam"))
 {
   //Retrieving a Contact Entity
   Contact newContact = new Contact.GetFromIdxContactId(159);
-
   //Creating anEntity and adding it to the Collection
   Person newPerson1 = Person.CreateNew();
   newPerson1.Firstname = "Tom";
@@ -230,16 +224,13 @@ SuperOffice.SoSession.Authenticate("sam", "sam"))
   newPerson2.Lastname = "Jorja";
   newContact.Persons.Add(newPerson1);
   newContact.Persons.Add(newPerson2);
-
   EmailRow newEmail = EmailRow.CreateNew();
   newEmail.EmailAddress = "tom@test.com";
   newEmail.Description = "Tom's email address";
   newContact.Persons[0].Emails.Add(newEmail);
-
   //Modifying the Values Contained in the Entities Collection type properties
   newContact.Persons[0].Lastname = "Cruise";
   newContact.Persons[0].Emails[0].Description = "Email has was modified";
-
   //Saving the Entity
   newContact.Save();
 }
@@ -259,7 +250,6 @@ Following example shows how we use the `Delete` method to delete a couple of row
 ```csharp
 using SuperOffice.CRM.Entities;
 using SuperOffice.CRM.Rows;
-
 using(SuperOffice.SoSession mySession = SuperOffice.SoSession.Authenticate("JR", "jr"))
 {
   //Retrieve an entity

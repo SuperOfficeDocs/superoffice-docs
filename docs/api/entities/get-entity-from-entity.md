@@ -3,7 +3,7 @@ title: get_entity_from_entity
 description: Retrieve an Entity property through an Entity
 author: {github-id}
 so.date: 11.05.2016
-keywords: 
+keywords:
 so.topic: howto
 ---
 
@@ -15,7 +15,6 @@ The `Sale` Entity contains a property that in itself is an Entity. Examples of s
 using SuperOffice.CRM.Entities;
 using SuperOffice.CRM.Rows;
 using SuperOffice;
-
 using(SoSession mySession = SoSession.Authenticate("SAL0", ""))
 {
   //Retrieving an Entity
@@ -26,6 +25,7 @@ using(SoSession mySession = SoSession.Authenticate("SAL0", ""))
   string salePerName = newSale.Person.Firstname + " " + newSale.Person.Lastname;
   string salePerDOB = newSale.Person.DayOfBirth.ToString();
   string salePerDept = newSale.Person.Department;
+
   //Row properties
   string salePerAdd = newSale.Person.Address.Address1;
   string salePerAddCoun = newSale.Person.Address.County;

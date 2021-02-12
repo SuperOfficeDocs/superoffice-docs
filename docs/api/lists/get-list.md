@@ -20,15 +20,11 @@ The following example retrieves 2 typed lists and prints them using the `PrintMd
 ```csharp
 using SuperOffice;
 using SuperOffice.CRM.Lists;
-
 SoSession _session = SoSession.Authenticate( "SAL1", "" );
-
 ISoListProvider mdoProvider = SoLists.GetCurrencyList();
 PrintMdoProvider( "Currency", mdoProvider );
-
 mdoProvider = SoLists.GetCategoryList();
 PrintMdoProvider( "Category", mdoProvider );
-
 _session.Close();
 ```
 
@@ -41,14 +37,11 @@ Here we search for projects beginning with S. As in the previous example, we use
 ```csharp
 using SuperOffice;
 using SuperOffice.CRM.Lists;
-
 SoSession _session = SoSession.Authenticate( "SAL1", "" );
-
 ISoListProvider provider = SoLists.GetProjectList( "S" );
 Assert.IsEmpty( provider.HistoryItems, "There should be no items in the history list" );
 Assert.IsNotEmpty( provider.RootItems, "There should be items in the project list" );
 PrintMdoProvider( "Projects beginning with S", provider );
-
 _session.Close();
 ```
 
@@ -59,20 +52,13 @@ The archives are also available in list form.
 ```csharp
 using SuperOffice;
 using SuperOffice.CRM.Lists;
-
 SoSession _session = SoSession.Authenticate( "SAL1", "" );
-
 ArchiveRestrictionInfo contactId = new ArchiveRestrictionInfo( "contactId", "equals", "51" );
-
-ISoListProvider provider = SoLists.GetArchiveList( 
+ISoListProvider provider = SoLists.GetArchiveList(
     ContactActivityArchiveProvider.ProviderName,
-    ArchiveActivityRow.ColumnIcon + "," +
-    ArchiveActivityRow.ColumnDate + "," + 
-    ArchiveActivityRow.ColumnText,
+    ArchiveActivityRow.ColumnIcon + "," +     ArchiveActivityRow.ColumnDate + "," +     ArchiveActivityRow.ColumnText,
     contactId );
-
 PrintMdoProvider( ContactActivityArchiveProvider.ProviderName, provider );
-
 _session.Close();
 ```
 

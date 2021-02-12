@@ -1,7 +1,6 @@
 using SuperOffice;
 using SuperOffice.CRM.Entities;
 using SuperOffice.CRM.Rows;
-
 using(SoSession newSession = SoSession.Authenticate("SAL0", ""))
 {
   //create an entity
@@ -15,9 +14,11 @@ using(SoSession newSession = SoSession.Authenticate("SAL0", ""))
   mySale.Person.MonthOfBirth = 06;
   mySale.Person.YearOfBirth = 1963;
   mySale.Person.Gender = 2;
+
   PhoneRow numerOne = PhoneRow.CreateNew();
   numerOne.PhoneNumber = "123456";
   numerOne.Rank = 1;
+
   PhoneRow numbrerTwo = PhoneRow.CreateNew();
   numbrerTwo.PhoneNumber = "890112";
   numbrerTwo.Rank = 2;

@@ -3,7 +3,7 @@ title: create_entity_in_entity
 description: Create an Entity through an Entity
 author: {github-id}
 so.date: 11.05.2016
-keywords: 
+keywords:
 so.topic: howto
 ---
 
@@ -84,11 +84,13 @@ Instead of assigning data directly to the `Address` row, you can create an `Addr
 //create a new AddressRow
 AddressRow postalAddress = AddressRow.CreateNew();
 postalAddress.SetDefaults();
+
 //Assign values to its properties
 postalAddress.Address1 = "P.O.Box 345";
 postalAddress.Address2 = "Kalbakken";
 postalAddress.Zipcode = "0901";
 postalAddress.City = "OSLO";
+
 //assign the new address to the PostalAddress property of Contact Entity
 myContact.PostalAddress = postalAddress;
 ```

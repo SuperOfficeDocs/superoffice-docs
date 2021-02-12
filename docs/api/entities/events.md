@@ -29,15 +29,14 @@ The following example demonstrates how to callback these events.
 using SuperOffice;
 using SuperOffice.CRM.Entities;
 using SuperOffice.Data;
-
 using(SoSession newSession = SoSession.Authenticate("SAL0", ""))
 {
   //Retrieve a Contact Entity
   Contact myContact = Contact.GetFromIdxContactId(12);
+
   //Adding Events
   myContact.OnElementSaved += new OnSaved(myContact_OnElementSaved);
   myContact.OnGetRelatedObjects += new GetRelatedObjects(myContact_OnGetRelatedObjects);
-
   myContact.Name = "Elan Hop";
 
   if (myContact.IsDirty)

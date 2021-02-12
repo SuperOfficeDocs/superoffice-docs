@@ -2,7 +2,6 @@ using SuperOffice.CRM.Entities;
 
 //Anonymous user has no righst to check out this stuff!
 SuperOffice.SoSession session = SuperOffice.SoSession.Authenticate("Sal1", "" );
-
 Contact contact = Contact.CreateNew();
 
 // Verify flags on RDB

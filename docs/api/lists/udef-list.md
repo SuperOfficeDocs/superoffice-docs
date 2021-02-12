@@ -16,12 +16,10 @@ The following example demonstrates how this is done.
 ```csharp
 using SuperOffice;
 using SuperOffice.CRM.Lists;
-
 using(SoSession mySession = SoSession.Authenticate("SAL0", ""))
 {
   //Retrieve a userDifined list provider
   ISoListProvider mdoProvider = SoLists.GetUserDefinedList(4);
-
   //Check whether it contains any history items
   if (mdoProvider.HistoryItems.Count > 0)
   {

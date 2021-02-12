@@ -1,6 +1,5 @@
 using SuperOffice.CRM.Entities;
 using SuperOffice;
-
 using(SoSession newSession = SoSession.Authenticate("SAL0", ""))
 {
   //create a contact entity and assign some of its properties with data
@@ -40,7 +39,6 @@ using(SoSession newSession = SoSession.Authenticate("SAL0", ""))
   //create a sale entity and assign the above created entities to the respective properties
   Sale mySale = Sale.CreateNew();
   mySale.SetDefaults();
-
   mySale.Contact = myContact;
   mySale.Project = myProject;
   mySale.Save();

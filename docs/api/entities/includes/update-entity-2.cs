@@ -1,7 +1,6 @@
 using SuperOffice.CRM.Entities;
 using SuperOffice.CRM.Rows;
 using SuperOffice;
-
 using(SuperOffice.SoSession mySession =
 SuperOffice.SoSession.Authenticate("SAL0", ""))
 {
@@ -41,7 +40,6 @@ SuperOffice.SoSession.Authenticate("SAL0", ""))
 
   //Assigning the Person property to the Sale
   newSale.Person = newPerson;
-
   if (newSale.IsDirty == true)
   {
     //Saving the Sale Entity
