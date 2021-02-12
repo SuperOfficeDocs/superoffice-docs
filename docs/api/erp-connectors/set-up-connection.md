@@ -94,7 +94,7 @@ StringArrayPluginResponse response = GetSupportedActorTypes({3aef3af6-8642-4fc1-
 The supported types can for example be:
 
 ```csharp
-[0] = "Customer" 
+[0] = "Customer"
 [1] = "Supplier"
 [2] = "Project"
 ```

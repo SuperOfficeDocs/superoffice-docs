@@ -60,21 +60,17 @@ using SuperOffice.CRM.Globalization;
 using SuperOffice.CRM.Security;
 using SuperOffice.CRM.Rows;
 using SuperOffice;
-
 using(SoSession session = SoSession.Authenticate("SAL0", ""))
 {
   // retrive the contact row no 4
 
   ContactRow conRow = ContactRow.GetFromIdxContactId(4);
-
   // get the postal address of the contact row no 4
 
   AddressRow postalAddress = AddressRow.GetFromIdxOwnerIdAtypeIdx(4, SuperOffice.Data.AddressType.ContactPostalAddress);
-
   // get the street address of the contact row no 4
 
   AddressRow streetAddress = AddressRow.GetFromIdxOwnerIdAtypeIdx(4, SuperOffice.Data.AddressType.ContactStreetAddress);
-
   // format the address according to the country that the contact belongs to
 
   FormattedAddress formatedAddress = AddressFormatter.FormatContact(conRow, postalAddress, streetAddress);
@@ -111,7 +107,6 @@ person.Address.Address1 = "A-gata 23";
 person.Address.City     = "OSLO";
 person.Address.Zipcode  = "0123";
 person.Save();
-
 // Example Contact Address
 Contact contact = Contact.GetFromIdxContactId(3);
 contact.PostalAddress.Address1 = "";

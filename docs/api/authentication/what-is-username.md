@@ -3,7 +3,7 @@ title: auth_username
 description: What's in a user name
 author: {github-id}
 so.date: 11.05.2016
-keywords: 
+keywords:
 so.topic: concept
 ---
 

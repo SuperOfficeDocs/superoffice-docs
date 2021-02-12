@@ -54,8 +54,8 @@ To connect a SuperOffice entity :
 
     ```csharp
     [0] = { ActorType = "Customer", ErpKey = "erp831",
-            LastModified = "103423595", 
-            FieldValues = { 
+            LastModified = "103423595",
+            FieldValues = {
                ["NAME"] = "Orkdal Senter AS",
                ["NUMBER1"] = "4343321",
                ["ADDRESS1"] = "x2" }
@@ -84,8 +84,8 @@ To connect a SuperOffice entity :
 
   ```csharp
   [0] = { ActorType = "Customer", ErpKey = "erp831",
-          LastModified = "103423595", 
-          FieldValues = { 
+          LastModified = "103423595",
+          FieldValues = {
             ["NAME"] = "Orkdal Senter AS",
             ["NUMBER1"] = "4343321",
             ["STDTERMS"] = "60",
@@ -115,8 +115,8 @@ The actor now looks like this:
 
 ```csharp
 [0] = { ActorType = "Customer", ErpKey = "erp831",
-        LastModified = "103423595", 
-        FieldValues = { 
+        LastModified = "103423595",
+        FieldValues = {
           ["NAME"] = "Orkdal Senter AS",
           ["NUMBER1"] = "4343321",
           ["STDTERMS"] = "60",
@@ -150,8 +150,8 @@ If the user can't find a match in the ERP system, they can create a company in E
 
     ```csharp
     actor = { ActorType = "Customer", ErpKey = "",
-      LastModified = "", 
-      FieldValues = { 
+      LastModified = "",
+      FieldValues = {
         ["NAME"] = "Orkdal Eldresenter AS",
         ["NUMBER1"] = "4343321",
         ["ADDRESS1"] = "x2" }
@@ -161,8 +161,8 @@ If the user can't find a match in the ERP system, they can create a company in E
 
     ```csharp
     actor = { ActorType = "Customer", ErpKey = "erp831",
-      LastModified = "103423595", 
-      FieldValues = { 
+      LastModified = "103423595",
+      FieldValues = {
         ["NAME"] = "Orkdal Eldresenter AS",
         ["NUMBER1"] = "4343321",
         ["ADDRESS1"] = "x2" }
@@ -191,8 +191,8 @@ The connection links the SuperOffice ID with the ERP's actor type and ERP key. O
 
     ```csharp
     [0] = { ActorType = "Customer", ErpKey = "erp831",
-      LastModified = "103423595", 
-      FieldValues = { 
+      LastModified = "103423595",
+      FieldValues = {
         ["CUSTGR"] = "G4",
         ["NUMBER1"] = "[I:0]",
         ["DOUBLE"] = "[D:0.0]",

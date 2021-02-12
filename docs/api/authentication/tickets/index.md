@@ -1,5 +1,5 @@
 ---
-title: id_transfer_tickets       
+title: id_transfer_tickets      
 description: Identity transfer tickets
 author: {github-id}             # Your GitHub alias.
 so.date: 05.08.2018

@@ -1,5 +1,5 @@
 ---
-title: globalization_culturesettinghelper     
+title: globalization_culturesettinghelper    
 description: CultureSettingHelper class
 author: {github-id}             # Your GitHub alias.
 so.date: 05.08.2018

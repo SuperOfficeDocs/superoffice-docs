@@ -1,5 +1,5 @@
 ---
-title: globalization_resource_providers    
+title: globalization_resource_providers   
 description: Resource providers
 author: {github-id}             # Your GitHub alias.
 so.date: 05.08.2018

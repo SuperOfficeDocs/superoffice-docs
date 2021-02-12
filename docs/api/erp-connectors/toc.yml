@@ -2,7 +2,7 @@
   href: index.md
 - name: Getting started
   href: getting-started.md
-  items: 
+  items:
   - name: Terminology
     herf: terminology.md
   - name: Tutorial

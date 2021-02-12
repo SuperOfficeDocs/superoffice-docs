@@ -3,7 +3,7 @@ title: ns_suspend_session
 description: How to suspend a session
 author: {github-id}
 so.date: 11.05.2016
-keywords: 
+keywords:
 so.topic: howto
 ---
 
@@ -22,7 +22,6 @@ In the following example, we have demonstrated how this is done.
 using SuperOffice;
 
 SoSession newSession = SoSession.Authenticate("SAL0", "");
-
 using(newSession)
 {
   if (SoContext.CurrentIdentity != null)

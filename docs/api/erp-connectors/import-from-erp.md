@@ -52,15 +52,15 @@ The returned actors could look something like this:
 
 ```csharp
 [0] = { ActorType = "Supplier", ErpKey = "erp123",
-  LastModified = "103423423", 
-  FieldValues = { 
+  LastModified = "103423423",
+  FieldValues = {
     ["NAME"] = "SuperOffice AS",
     ["NUMBER1"] = "4343321",
     ["SUPPLIERLIMIT"] = "x2" }
 
 [1] = { ActorType = "Supplier", ErpKey = "erp594",
-  LastModified = "1034232063", 
-  FieldValues = { 
+  LastModified = "1034232063",
+  FieldValues = {
     ["NAME"] = "Sandtander SA",
     ["NUMBER1"] = "865421",
     ["STDTERMS"] = "30",
@@ -91,8 +91,8 @@ For example:
 
 ```csharp
 ActorArrayPluginResponse response = GetActors(3aef3af6-8642-4fc1-8dc9-4e08bd76a6bf,
-        "Supplier", 
-        { "erp123","erp594"}, 
+        "Supplier",
+        { "erp123","erp594"},
         {"NAME","NUMBER1","SUPPLIERLIMIT","STDTERMS"}
         );
 ```

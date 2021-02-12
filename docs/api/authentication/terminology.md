@@ -3,7 +3,7 @@ title: auth_terminology
 description: Authentication terminology
 author: {github-id}
 so.date: 11.05.2016
-keywords: 
+keywords:
 so.topic: concept
 ---
 

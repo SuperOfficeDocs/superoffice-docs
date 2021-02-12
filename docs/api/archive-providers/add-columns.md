@@ -57,7 +57,6 @@ protected override TableInfo SetJoin()
         parentPersonInfo.PersonId.Equal(_info.ForeignKeyInfo.RecordId),
         _info.ForeignKeyInfo.TableId.Equal(parentPersonInfo.Definition.TableNumber)
         .And(_info.ForeignKeyInfo.ForeigndeviceId.Equal(_info.ForeignDeviceId)));
-
 }
 ```
 

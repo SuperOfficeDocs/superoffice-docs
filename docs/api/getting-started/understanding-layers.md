@@ -3,7 +3,7 @@ title: understanding_ns_layers
 description: Understanding SuperOffice NetServer layers
 author: {github-id}
 so.date: 11.05.2016
-keywords: 
+keywords:
 so.topic: concept
 ---
 
@@ -32,15 +32,17 @@ A typical service call looks like this when using the NetServer helper classes:
 ```csharp
 using SuperOffice.CRM.Services;
 using SuperOffice;
-
 using(SoSession mySession = SoSession.Authenticate("SAL0", ""))
 {
   //Create a Contact Agent
   IContactAgent myContactAgent = AgentFactory.GetContactAgent();
+
   //Get a Contact carrier through the Contact Agent
   ContactEntity myContact = myContactAgent.GetContactEntity(1234);
+
   //Retrieving the Name Property of the Contact
   string name = myContact.Name;
+
   // warning: hard-coded address layout assumption!
   string city = myContact.Address[2][1];
 }
@@ -60,7 +62,6 @@ The example below shows how we can read the name+department as one field, and th
 using SuperOffice;
 using SuperOffice.CRM.ArchiveLists;
 using SuperOffice.Util;
-
 using(SoSession newSession = SoSession.Authenticate("SAL0", ""))
 {
   IArchiveProvider contactArchive = ArchiveProviderFactory.CreateFindContactProvider();
@@ -71,10 +72,10 @@ using(SoSession newSession = SoSession.Authenticate("SAL0", ""))
   //set the paging properties of the provider.
   contactArchive.SetPagingInfo(10, 0);
 
-  //An array of restrictions with an implicit and inbetween them.
+  //An array of restrictions with an implicit and in between them.
   contactArchive.SetRestriction(new ArchiveRestrictionInfo("contactId", "=", "1234"));
 
-  //Display the retreived data in another list box
+  //Display the retrieved data in another list box
   foreach (ArchiveRow row in contactArchive.GetRows())
   {
     foreach (KeyValuePair<string, ArchiveColumnData> column in row.ColumnData)
@@ -100,15 +101,17 @@ You can use an entity's properties without worrying about the relationship detai
 ```csharp
 using SuperOffice;
 using SuperOffice.CRM.Entities;
-
 using(SoSession mySession = SoSession.Authenticate("SAL0", ""))
 {
   //Get a contact through Idx class
   Contact theContact = Contact.GetFromIdxContactId(1234);
+
   //Access the Name property
   string name = theContact.Name;
+
   //Update the postal address
   theContact.PostalAddress.City = "Oslo";
+
   // Saves the address row
   theContact.Save();
 }
@@ -125,19 +128,22 @@ You can use row objects to read and update the database. Each row object support
 ```csharp
 using SuperOffice.CRM.Rows;
 using SuperOffice;
-
 using(SoSession mySession = SoSession.Authenticate("SAL0", ""))
 {
   //retrieve the contact row that we want to change
   ContactRow theContact = ContactRow.GetFromIdxContactId(1234);
+
   //get the name
   String name = theContact.Name;
+
   //retrieve the address of the contact using the address type
   // and the contact ID
   AddressRow theAddressRow = AddressRow.GetFromIdxAtypeIdxOwnerId(
       SuperOffice.Data.AddressType.ContactPostalAddress, 1234);
-  //change the address 
+
+  //change the address
   theAddressRow.City = "Oslo";
+
   //save the changed address row
   theAddressRow.Save();
 }
@@ -164,15 +170,16 @@ using SuperOffice.CRM.Data;
 using SuperOffice.Data.SQL;
 using SuperOffice.Data;
 using SuperOffice;
-
 using(SoSession mySession = SoSession.Authenticate("SAL0", ""))
 {
   //retrieve the table info
   ContactTableInfo c = TablesInfo.GetContactTableInfo();
+
   //Creating an Instance of the Update Class of the person table
   Select contactQuery = S.NewSelect();
   contactQuery.ReturnFields.Add( c.ContactId, c.Name, c.Department );
   contactQuery.Restriction = c.ContactId.Equal( S.Parameter(1234) );
+
   using( QueryExecutionHelper qeh = new QueryExecutionHelper(contactQuery) )
   {
     while( qeh.Reader.Read() )

@@ -64,7 +64,7 @@ Each connection will have to be able to inform ERP Sync about which actor types 
 
 <!-- Referenced links -->
 [1]: set-up-connection.md
-[2]: 
+[2]:
 [3]: set-up-mapping.md
 [4]: set-up-defaults.md
 [5]:

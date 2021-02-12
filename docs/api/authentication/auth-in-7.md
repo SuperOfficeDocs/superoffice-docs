@@ -3,7 +3,7 @@ title: auth_in_7
 description: Authentication in SuperOffice 7
 author: {github-id}
 so.date: 11.05.2016
-keywords: 
+keywords:
 so.topic: concept
 ---
 

@@ -1,7 +1,7 @@
 ---
 # Mandatory fields.
 title: aggregate_groupby       # (Required)
-description: Structured aggregation output with groupby # (Required) Important for SEO. 
+description: Structured aggregation output with groupby # (Required) Important for SEO.
 author: Tony Yates
 so.date: 11.17.2017
 keywords:

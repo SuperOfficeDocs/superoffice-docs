@@ -1,10 +1,10 @@
 [ArchiveExtenderExtender("MySaleTableExtender", typeof(SaleExtenderBase), int.MaxValue / 2)]
 public class MySaleTablelSystem : TableExtenderBase<TableInfo>
 {
-  private ArchiveColumnInfo _colMySaleId = 
+  private ArchiveColumnInfo _colMySaleId =
     new ArchiveColumnInfo("mySaleId", "My Sale Record Identifier", "My Sale Record Identifer Tooltip",
     Constants.DisplayTypes.Int, true, true, "5c", Constants.RestrictionTypes.Int);
-  private ArchiveColumnInfo _colMySaleName = 
+  private ArchiveColumnInfo _colMySaleName =
     new ArchiveColumnInfo("mySaleName", "My Sale Name", "My Sale Name Tooltip",
     Constants.DisplayTypes.String, true, true, "10%", Constants.RestrictionTypes.String);
   public MySaleTablelSystem()

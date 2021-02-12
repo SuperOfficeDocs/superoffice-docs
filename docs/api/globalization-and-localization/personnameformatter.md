@@ -35,19 +35,21 @@ using SuperOffice.CRM.Globalization;
 using SuperOffice.CRM.Security;
 using SuperOffice.CRM.Entities;
 using SuperOffice;
-
 using(SoSession session = SoSession.Authenticate("SAL0", ""))
 {
   // retrieve a person entity through a person ID
   Person person = Person.GetFromIdxPersonId(59);
   PersonRow personRow = PersonRow.GetFromIdxPersonId(60);
-  // format the name of the retrieved person according to the name format
+
+  // format the name of the retrieved person according to the name format 
   // of the country the person belongs to
   string formatedName1 = PersonNameFormatter.GetFormalName(person);
   string formatedName2 = PersonNameFormatter.GetFormalName(personRow);
+
   // or use the extension method on the person directly
   string formatedName3 = person.GetFormalName();
   string formatedName4 = personRow.GetFormalName();
+
   // outputs:
   // Kent Larsen Karlsen
   // Kjell Kristiansen
@@ -62,21 +64,26 @@ using SuperOffice.CRM.Security;
 using SuperOffice.CRM.Entities;
 using SuperOffice.CRM.Rows;
 using SuperOffice;
-
 using(SoSession session = SoSession.Authenticate("SAL0", ""))
 {
-  // retrieve a person entity through a person ID 
+  // retrieve a person entity through a person ID
   Person formatPerson = Person.GetFromIdxPersonId(59);
+
   //get the country of the new country lest take Germany
   CountryRow newCountry = CountryRow.GetFromIdxCountryId(276);
+
   //assign it to the country property of the person entity
   formatPerson.Country = newCountry;
+
   //save the person entity
   formatPerson.Save();
+
   //we have to retrieve it again so that the new changes are visible
   formatPerson = Person.GetFromIdxPersonId(59);
+
   //now lets format the name and see what happens
   string formatedName = PersonNameFormatter.GetFormalName(formatPerson);
+
   // output:
   // Mr Kent Larsen Karlsen\nDr
 }
@@ -93,15 +100,16 @@ using SuperOffice.CRM.Globalization;
 using SuperOffice.CRM.Security;
 using SuperOffice.CRM.Entities;
 using SuperOffice;
-
 using(SoSession session = SoSession.Authenticate("SAL0", ""))
 {
   // retrieve a person entity through a person ID
   Person    person    = Person.GetFromIdxPersonId(59);
   PersonRow personRow = PersonRow.GetFromIdxPersonId(59);
+
   // extension method usage
   var formattedNamea = person.GetFullName();
   var formattedNameb = personRow.GetFullName(PersonNameFormatter.NameFormatStylePreference.LastNameFirstName);
+
   //retrieve the full name of the person according to the style stored
   //in the user Preference cache if not in the cache will be pulled
   //from the DB
@@ -114,6 +122,7 @@ using(SoSession session = SoSession.Authenticate("SAL0", ""))
   string formatedName5 = PersonNameFormatter.GetFullName("Kent", "Larsen", "Karlsen");
   string formatedName6 = PersonNameFormatter.GetFullName("Kent", "Larsen", "Karlsen",
         PersonNameFormatter.NameFormatStylePreference.LastNameOnly);
+
   // outputs:
   // 1: Kent Larsen Karlsen
   // 2: Kent Larsen Karlsen

@@ -1,5 +1,5 @@
 ---
-title: session_handling       
+title: session_handling      
 description: NetServer session handling
 author: {github-id}             # Your GitHub alias.
 keywords: authentication,principal

@@ -1,15 +1,11 @@
 IArchiveProvider provider = ArchiveProviderFactory.Create("FindSale");
-
 provider.SetDesiredColumns("Count(saleId):HideDetail", "saleId", "heading");
 provider.SetDesiredEntities("sale");
 provider.SetPagingInfo(50, 0);
-
 ArchiveRestrictionInfo[] restrictions = {
   new ArchiveRestrictionInfo("projectId", "=", "47")
 };
-
 provider.SetRestriction(restrictions);
-
 foreach (ArchiveRow row in provider.GetRows("GrandTotal=True"))
 {
   if(row.RowType == "grandtotal")

@@ -3,7 +3,7 @@ title: ns_create_session
 description: How to create a new session
 author: {github-id}
 so.date: 11.05.2016
-keywords: 
+keywords:
 so.topic: howto
 ---
 

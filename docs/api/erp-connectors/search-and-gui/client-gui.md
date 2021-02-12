@@ -4,7 +4,7 @@ title: erp_sync_client_gui       # (Required) Very important for SEO.
 description: ERP sync client GUI # (Required) Important for SEO.
 author: {github-id}             # Your GitHub alias.
 so.date: 05.11.2016
-keywords: 
+keywords:
 so.topic: concept    # article, howto, reference, concept, guide
 
 # Optional fields. Don't forget to remove # if you need a field.

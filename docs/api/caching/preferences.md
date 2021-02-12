@@ -33,7 +33,6 @@ The example below shows how we may change the calendar start date (Sunday or Mon
 ```csharp
 using SuperOffice.Data;
 using SuperOffice;
-
 using(SoSession mySession = SoSession.Authenticate("sam", "sam"))
 {
     SoPreference.SetPreference("Visual", "SundayFirstDay", true);

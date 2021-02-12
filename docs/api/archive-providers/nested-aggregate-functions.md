@@ -1,6 +1,6 @@
 ---
 # Mandatory fields.
-title: nested_aggregate_functions       # (Required) 
+title: nested_aggregate_functions       # (Required)
 description:                    # (Required) Important for SEO.
 author: Tony Yates
 so.date: 11.17.2017

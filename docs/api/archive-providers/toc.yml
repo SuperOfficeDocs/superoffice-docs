@@ -34,7 +34,7 @@
     - name: Joiners
       href: joiners.md
     - name: Base and helper classes
-      href: base-and-helper-classes.md 
+      href: base-and-helper-classes.md
   - name: Reference
     items:
     - name: Restriction types

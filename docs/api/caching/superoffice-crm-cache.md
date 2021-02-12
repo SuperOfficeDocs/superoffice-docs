@@ -1,6 +1,6 @@
 ---
 title: superoffice_crm_cache
-description: SuperOffice.CRM.Cache 
+description: SuperOffice.CRM.Cache
 author: {github-id}             # Your GitHub alias.
 so.date: 05.11.2016
 keywords: cache

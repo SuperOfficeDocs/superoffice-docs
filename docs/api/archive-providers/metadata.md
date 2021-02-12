@@ -1,7 +1,7 @@
 ---
 # Mandatory fields.
 title: archive_provider_metadata       # (Required) Very important for SEO.
-description: Archive provider metadata  # (Required) Important for SEO. 
+description: Archive provider metadata  # (Required) Important for SEO.
 author: {github-id}             # Your GitHub alias.
 keywords:
 so.topic: concept              # article, howto, reference, concept, guide

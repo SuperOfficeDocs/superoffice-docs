@@ -3,7 +3,7 @@ title: netserver_patterns
 description: SuperOffice NetServer patterns
 author: {github-id}
 so.date: 11.05.2016
-keywords: 
+keywords:
 so.topic: concept
 ---
 
@@ -44,8 +44,7 @@ If you create your own provider, it can do anything and add it to the tooltip. T
 ```csharp
 using SuperOffice.CRM.Tooltips;
 using SuperOffice.CRM.Rows;
-
-//TooltipPlugin is the Attribute used to indicate that the class is a 
+//TooltipPlugin is the Attribute used to indicate that the class is a
 //Tooltip Provider Plugin. The class needs to implement the
 //SuperOffice.CRM>Tooltips.ITooltipProviderPlugin interface.
 [TooltipPlugin( "TotalSales:Person", PersonTooltipPlugin.PersonKey)]
@@ -123,21 +122,17 @@ Below is an example of the use of the get ConnectionFactory.
 ```csharp
 using SuperOffice.Data;
 using SuperOffice.Data.SQL;
-
-//Create a DataSet of the Contact table           
+//Create a DataSet of the Contact table          
 ContactTableInfo conTableInfo = TablesInfo.GetContactTableInfo();
-
 //SQL Statement
 Select newSelect = S.NewSelect();
 newSelect.ReturnFields.Add(conTableInfo.Name,
 conTableInfo.Department);
 newSelect.Restriction = conTableInfo.ContactId.In(S.Parameter(10));
-
 using(SuperOffice.SoSession mySession =
 SuperOffice.SoSession.Authenticate("SAM", "sam"))
 {
   if (mySession == null) return;
-
   //Establish a Connection with the Database
   SoConnection newConn = ConnectionFactory.GetConnection();
   SoCommand newComm = newConn.CreateCommand();

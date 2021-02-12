@@ -1,6 +1,6 @@
 - name: Authentication
   href: index.md
-  items: 
+  items:
   - name: Terminology
     href: terminology.md
   - name: Pipeline

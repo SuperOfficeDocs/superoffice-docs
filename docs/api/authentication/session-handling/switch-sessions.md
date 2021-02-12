@@ -3,7 +3,7 @@ title: ns_switch_sessions
 description: Switching between sessions
 author: {github-id}
 so.date: 11.05.2016
-keywords: 
+keywords:
 so.topic: howto
 ---
 
@@ -40,8 +40,7 @@ is not yet suspened");
 SoSession newSession2 = SoSession.Authenticate("SAL1", "");
 if (SoContext.CurrentIdentity != null)
 {
-  MessageBox.Show("Newly Loggedin user is : " +
-SoContext.CurrentIdentity.Name);
+  MessageBox.Show("Newly Loggedin user is : " + SoContext.CurrentIdentity.Name);
 }
 else
   MessageBox.Show("Pending new Session");

@@ -3,22 +3,18 @@ using SuperOffice.ErpSync.Contract;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-
 namespace SuperOffice.Erp Sync.DummyConnector
 {
   public class DummyArguments
   {
     [ConfigField("A String", FieldMetadataTypeInfo.Text, DisplayDescription = "This is just a string")] public string AString;
-
     [ConfigField("A Date", FieldMetadataTypeInfo.Datetime, DisplayDescription = "This is just a string")] public DateTime ADate;
-
     [ConfigField("A Password", FieldMetadataTypeInfo.Password, DisplayDescription = "This is just a string")] public string APassword;
-
     [ConfigField("Mandatory Int", FieldMetadataTypeInfo.Integer, DisplayDescription = "This is just a string", Access = FieldAccessInfo.Mandatory)]
 
     public int MandatoryInt;
   }
- 
+
   [ErpConnector("DummyConnector")] public class DummyConnector : IErpConnector
   {
     public FieldMetadataInfoArrayPluginResponse GetConfigData()

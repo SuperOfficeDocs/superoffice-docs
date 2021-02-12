@@ -4,7 +4,7 @@ title: erp_auto_field_mapping       # (Required) Very important for SEO.
 description: ERP Sync engine automatic field mapping # (Required) Important for SEO.
 author: {github-id}             # Your GitHub alias.
 so.date: 05.11.2016
-keywords: 
+keywords:
 so.topic: reference    # article, howto, reference, concept, guide
 
 # Optional fields. Don't forget to remove # if you need a field.

@@ -19,7 +19,6 @@ The following example shows how we may change the calendar start date, i.e. whet
 ```csharp
 using SuperOffice;
 using SuperOffice.Data;
-
 using(SoSession mySession = SoSession.Authenticate("sam", "sam"))
 {
   SoPreference.SetPreference("Visual", "SundayFirstDay", true);
@@ -67,7 +66,6 @@ The `SetPreference` method has 4 overloads depending on the value passed (string
 ```csharp
 using SuperOffice;
 using SuperOffice.Data;
-
 using(SoSession mySession = SoSession.Authenticate("sam", "sam"))
 {
   bool value = SoPreference.GetBool("Visual", "SundayFirstDay", false);

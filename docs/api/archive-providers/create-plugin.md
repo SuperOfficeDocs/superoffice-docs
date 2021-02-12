@@ -35,7 +35,6 @@ In the example below the written provider, which is called `MyPlugin`, is used i
 
 ```csharp
 using SuperOffice.Util;
-
 namespace MyPlugin
 {
   //Indicates that this is an externally visible provider
@@ -44,6 +43,7 @@ namespace MyPlugin
   {
     //Declaration of Variables
     public const string ProviderName = "SelectionStaticContactAddMembers";
+
     //Declaration of Archive Restrictions
     ArchiveRestrictionInfo tname = new ArchiveRestrictionInfo("name", "begins", "StateZero");
     ArchiveRestrictionInfo allPerson = new ArchiveRestrictionInfo("includePersonRestriction", "=", "all");

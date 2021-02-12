@@ -1,5 +1,5 @@
 ---
-title: authentication       
+title: authentication      
 description: Authentication overview
 author: {github-id}             # Your GitHub alias.
 keywords:

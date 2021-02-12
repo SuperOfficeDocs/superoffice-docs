@@ -1,6 +1,6 @@
 ---
 # Mandatory fields.
-title: how_to_query_with_archive_providers       # (Required) 
+title: how_to_query_with_archive_providers       # (Required)
 description: How to perform an archive provider query # (Required) Important for SEO.
 author: Tony Yates
 so.date: 11.17.2017

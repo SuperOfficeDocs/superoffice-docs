@@ -1,6 +1,6 @@
 ---
 title: caching_lists
-description: Caching lists 
+description: Caching lists
 author: {github-id}             # Your GitHub alias.
 so.date: 05.11.2016
 keywords:
@@ -26,12 +26,11 @@ The following code shows how we may use the different classes grouped as lists r
 using SuperOffice.CRM.Rows;
 using SuperOffice.CRM.Cache;
 using SuperOffice;
-
 using(SoSession mySession = SoSession.Authenticate("SAM", "sam"))
 {
   //Retrieve the Category from the cache
   CategoryCache newCatCache = CategoryCache.GetCurrent();
- 
+
   //Using of methods which are available in the Category Cache
   string catName = newCatCache.GetNameFromId(2);
   CategoryRow myCat = newCatCache.GetRowFromId(2);
@@ -42,7 +41,7 @@ using(SoSession mySession = SoSession.Authenticate("SAM", "sam"))
   //Modifying values in the CategoryCache
   myCat.Name = "Tester";
   myCat.Save();
-             
+
   //Disposes the cache
   newCatCache. Dispose();
 }

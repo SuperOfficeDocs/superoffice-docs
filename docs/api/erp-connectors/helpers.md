@@ -4,7 +4,7 @@ title: erp_connector_helpers       # (Required) Very important for SEO.
 description: ERP connector Helper methods and classes # (Required) Important for SEO.
 author: {github-id}             # Your GitHub alias.
 so.date: 05.11.2016
-keywords: 
+keywords:
 so.topic: concept     # article, howto, reference, concept, guide
 
 # Optional fields. Don't forget to remove # if you need a field.

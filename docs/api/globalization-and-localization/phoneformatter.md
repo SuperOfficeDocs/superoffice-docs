@@ -20,12 +20,12 @@ The `GetInternationalNumber` method returns the international number of the spec
 ```csharp
 using SuperOffice.CRM.Globalization;
 using SuperOffice;
-
 using(SoSession session = SoSession.Authenticate("SAL0", ""))
 {
   // get the international number of the specified country for the given
   // phone number Country ID 578 == Norway
   string formatedPhoneNumber = PhoneFormatter.GetInternationalNumber(578, "96458551");
+
   // outputs
   // 4796458551
 }
@@ -38,14 +38,13 @@ using(SoSession session = SoSession.Authenticate("SAL0", ""))
 ```csharp
 using SuperOffice.CRM.Globalization;
 using SuperOffice;
-
 using(SoSession session = SoSession.Authenticate("SAL0", ""))
 {
   // format the phone number to the base number format of the
   // specified country this will get rid of the additional
   // number and characters
-  
   string formatedPhoneNumber = PhoneFormatter.GetBaseNumber(578, "+47 779 645 855");
+
   // output:
   // 779645855
 }
@@ -58,13 +57,11 @@ This method returns the GSM compliant phone number formatted according to the co
 ```csharp
 using SuperOffice.CRM.Globalization;
 using SuperOffice;
-
 using(SoSession session = SoSession.Authenticate("SAL0", ""))
 {
   // format the phone number to GSM compliant format of the given
   // country the letters of the phone number will be resolved
   string formatedPhoneNumber = PhoneFormatter.GetGSMNumber(578,"077748VISTA");
-  
   // output:
   // +4707774884782
 }
@@ -77,12 +74,11 @@ This method is designed to format a number to the long country number format. He
 ```csharp
 using SuperOffice.CRM.Globalization;
 using SuperOffice;
-
 using(SoSession session = SoSession.Authenticate("SAL0", ""))
 {
   // get the long display number formatted according to the country
   // specified the method will add the country code and the area
-  // code to the number  
+  // code to the number 
   string formatedPhoneNumber = PhoneFormatter.GetLongDisplayNumber(578,"678657856");
   // output:
   // +47 678657856
@@ -96,13 +92,11 @@ The above method is a very simple method designed to return the country prefix o
 ```csharp
 using SuperOffice.CRM.Globalization;
 using SuperOffice;
-
 using(SoSession session = SoSession.Authenticate("SAL0", ""))
 {
   // get the country prefix of the country we specify
 
   string formatedPhoneNumber = PhoneFormatter.GetPrefix(578);
-
   // output:
   // +47
 }
@@ -124,7 +118,6 @@ using(SoSession session = SoSession.Authenticate("SAL0", ""))
   // output:
   // 077 74884782
 }
-```
-
+```XML
 <!-- Referenced images -->
 [img1]: media/image004.gif

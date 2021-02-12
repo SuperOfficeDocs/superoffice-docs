@@ -1,6 +1,6 @@
 ---
 # Mandatory fields.
-title: encoded_values       # (Required) 
+title: encoded_values       # (Required)
 description: Encoded values # (Required) Important for SEO.
 author: Tony Yates
 so.date: 11.17.2017

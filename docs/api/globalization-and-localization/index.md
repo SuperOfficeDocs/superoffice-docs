@@ -1,5 +1,5 @@
 ---
-title: globalization_and_localization       
+title: globalization_and_localization      
 description: Globalization and Localization
 author: {github-id}             # Your GitHub alias.
 so.date: 05.08.2018
