@@ -36,8 +36,9 @@ so.date:
 
 ### D
 
-<!-- * [Diary](diary/index.md)
-* [Documents](documents/index.md) -->
+* [Diary][14]
+
+<!-- * [Documents](documents/index.md) -->
 
 ### E
 
@@ -129,3 +130,4 @@ so.date:
 [11]: globalization-and-localization/index.md
 [12]: sentry/index.md
 [13]: caching/index.md
+[14]: diary/index.md

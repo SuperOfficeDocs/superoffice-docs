@@ -1,0 +1,28 @@
+- name: Diary
+  href: index.md
+- name: Create appointment
+  items:
+  - name: With OSQL
+    href: create-apt-osql.md
+  - name: With Row
+    href: create-apt-row.md
+  - name: With Row collection (Rows)
+    href: create-apt-rows.md
+  - name: With Entity
+    href: create-apt-entity.md
+  - name: As entity in Enity
+    href: create-apt-entity-in-entity.md
+  - name: As entity in collection
+    href: create-apt-entity-in-collection.md
+- name: Invitations
+  href: invitations/index.md
+  items:
+  - name: Create
+    href: invitations/create-invitation.md
+  - name: Accept
+    href: invitations/accept-invitation.md
+- name: Recurrence
+  href: recurrence/index.md
+  items:
+  - name: Create recurring appointment
+    href: recurrence/create-recurring-appointment.md
