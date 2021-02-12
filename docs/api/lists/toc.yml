@@ -14,6 +14,8 @@
   items:
   - name: Retrieve a list
     href: get-list.md
+  - name: Add list item
+    href: add-list-item.md
   - name: Create list plugin
     href: create-list-plugin.md
 - name: Associate list and cache
