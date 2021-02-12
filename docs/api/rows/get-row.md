@@ -3,7 +3,7 @@ title: get_row
 description: SuperOffice database get row with basic properties
 author: {github-id}
 so.date: 11.05.2016
-keywords: 
+keywords:
 so.topic: howto
 ---
 
@@ -12,11 +12,11 @@ so.topic: howto
 ```csharp
 using SuperOffice;
 using SuperOffice.CRM.Rows;
-
 using(SoSession newSession = SoSession.Authenticate("SAL0", ""))
 {
   //Create a New Row
   ContactRow myContactRow = ContactRow.GetFromIdxContactId(4);
+
   //Retrieve properties of basic data type
   string name = myContactRow.Name;
   string department = myContactRow.Department;

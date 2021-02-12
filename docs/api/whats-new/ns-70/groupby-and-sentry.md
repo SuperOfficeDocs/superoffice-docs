@@ -3,7 +3,7 @@ title: whats_new_70_
 description: NetServer 7.0
 author: {github-id}
 so.date: 11.05.2016
-keywords: 
+keywords:
 so.topic: reference
 ---
 
@@ -18,10 +18,10 @@ Remember that in a grouped query, all return fields must either be aggregates or
 `IgnoreSentry` turns off Sentry, so your query is generated "untouched"
 
 ```SQL
-/* DatePartsIgnoreSentry */ 
-SELECT T0."do_by", 
-  DATEPART(day, T0."do_by") as "dbd" 
-FROM  CRM5."APPOINTMENT" T0  
+/* DatePartsIgnoreSentry */
+SELECT T0."do_by",
+  DATEPART(day, T0."do_by") as "dbd"
+FROM  CRM5."APPOINTMENT" T0 
 WHERE DATEPART(year, T0."do_by") = 2010
 ```
 

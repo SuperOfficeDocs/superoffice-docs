@@ -21,15 +21,12 @@ ORDER BY a.Associate_id DESC
 SoConnection _con = ConnectionFactory.GetConnection();
 SoCommand _cmd = _con.CreateCommand();
 _con.Open();
-
 AssociateTableInfo a = TablesInfo.GetAssociateTableInfo();
-
 Select select = S.NewSelect();
 select.ReturnFields.Add( a.AssociateId, a.Name );
 select.Restriction = a.AssociateId.Between( S.Parameter( 10), S.Parameter( 20 ) );
 select.OrderBy.Add( a.AssociateId, OrderBySortType.DESC );
 _cmd.SqlCommand = select;
-
 SoDataReader reader = _cmd.ExecuteReader();
 int i = 0;
 while( reader.Read() )
@@ -38,7 +35,6 @@ while( reader.Read() )
   ++i;
 }
 reader.Close();
-
 _con.Close();
 _con = null;
 _cmd = null;

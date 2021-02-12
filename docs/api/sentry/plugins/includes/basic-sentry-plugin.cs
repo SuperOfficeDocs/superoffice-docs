@@ -1,13 +1,11 @@
 using System;
 using System.Collections.Generic;
 using System.Text;
-
 using SuperOffice.CRM.Security;
 using SuperOffice.Data.SQL;
 using SuperOffice.CRM.Data;
 using SuperOffice.CRM.Rows;
 using SuperOffice.CRM.Entities;
-
 namespace Sentry_Plugin
 {
   [SentryPlugin("contact")]

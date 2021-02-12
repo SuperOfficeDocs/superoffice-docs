@@ -3,7 +3,7 @@ title: osql_update
 description: SuperOffice Objectified SQL - UPDATE
 author: {github-id}
 so.date: 11.05.2016
-keywords: 
+keywords:
 so.topic: concept
 ---
 
@@ -22,7 +22,6 @@ using SuperOffice.Data;
 using SuperOffice.CRM.Data;
 using SuperOffice.Data.SQL;
 using SuperOffice;
-
 using(SoSession newSession = SoSession.Authenticate ("SAL0", ""))
 {
 
@@ -34,16 +33,16 @@ using(SoSession newSession = SoSession.Authenticate ("SAL0", ""))
   //Create a transaction
   SoTransaction Trans = connection.BeginTransaction ();
   command.Transaction = Trans;
-
   AssociateTableInfo a = TablesInfo.GetAssociateTableInfo ();
-
   Update update = S.NewUpdate ();
+
   //Set the row that needs to be updated
   update.SetPrimaryKey (a.AssociateId);
   update.SetPrimaryKeyValue (S.Parameter (103));
   update.FieldValuePairs.Add (a.Name, S.Parameter ("Test Update"));
   command.SqlCommand = update;
   command.ExecuteNonQuery ();
+
   //Commit the transaction. The database will not be updated till then.
   Trans.Commit ();
 }

@@ -3,7 +3,7 @@ title: rows_and_sentry
 description: SuperOffice database Using Sentry with rows
 author: {github-id}
 so.date: 11.05.2016
-keywords: 
+keywords:
 so.topic: concept
 ---
 
@@ -20,7 +20,7 @@ Sentry is automatically applied to rows as well as entities.
   string lastname = "Hansen";
   PersonRows persons = PersonRows.GetFromIdxLastname(lastname);
 
-  // modifications will fail. Anon user will not be allowed
+// modifications will fail. Anon user will not be allowed
   foreach(PersonRow person in persons)
   {
     person.DayOfBirth = 0; // throws exception!

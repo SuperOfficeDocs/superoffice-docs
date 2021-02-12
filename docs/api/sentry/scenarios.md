@@ -26,7 +26,6 @@ In the code below, the logged-in user is accessing data that the particular user
 ```csharp
 using SuperOffice;
 using SuperOffice.CRM.Entities;
-
 using(SoSession newSession = SoSession.Authenticate("PB", "pb"))
 {
   //get a sale entity
@@ -51,11 +50,13 @@ using SuperOffice.CRM.Security;
 using(SoSession newSession = SoSession.Authenticate("PB", "pb"))
 {
   //get the sale table info
-  SaleTableInfo saleTabInfo = TablesInfo.GetSaleTableInfo(); 
+  SaleTableInfo saleTabInfo = TablesInfo.GetSaleTableInfo();
   Sale mySale = Sale.GetFromIdxSaleId(9);
+
   //get the field rights of the heading field using the
   //saletableinfo object we created
   FieldRight headingRight = mySale.Row.Sentries.FieldRight(saleTabInfo.Heading);
+
   //check to determine that the user has a fieldright other than
   //None. Any other right will ensure that the user has rights to read
   if (headingRight.IsActive)
@@ -64,7 +65,7 @@ using(SoSession newSession = SoSession.Authenticate("PB", "pb"))
   }
   else
   {
-  //show the user why he can not perform this operation
+    //show the user why he can not perform this operation
     MessageBox.Show("You don’t have access rights to perform this operation");
   }
 }
@@ -79,7 +80,6 @@ Now let’s discuss what happens when you **try to modify data that you don’t 
 ```csharp
 using SuperOffice;
 using SuperOffice.CRM.Entities;
-
 using(SoSession newSession = SoSession.Authenticate("PB", "pb"))
 {
   //get the sale id 9
@@ -109,17 +109,19 @@ Catch the error in a try-catch block and show the user the reason using a messag
 ```csharp
 using SuperOffice;
 using SuperOffice.CRM.Entities;
-
 using(SoSession newSession = SoSession.Authenticate("PB", "pb"))
 {
   try
   {
     //get the sale id 9
     Sale mySale = Sale.GetFromIdxSaleId(9);
+
     //retrieve the heading
     string saleHeading = mySale.Heading;
+
     //change the heading
     mySale.Heading = "This is a very good sale";
+
     //save the sale
     mySale.Save();
   }
@@ -144,15 +146,16 @@ using SuperOffice.CRM.Rows;
 using SuperOffice.Data;
 using SuperOffice.CRM.Data;
 using SuperOffice.CRM.Security;
-
 using(SoSession newSession = SoSession.Authenticate("PB", "pb"))
 {
   //get the sale table info
   SaleTableInfo saleTabInfo = TablesInfo.GetSaleTableInfo();
   Sale mySale = Sale.GetFromIdxSaleId(9);
+
   //get the field rights of the heading field using the saletableinfo object
   //we created
   FieldRight headingRight = mySale.Row.Sentries.FieldRight(saleTabInfo.Heading);
+
   //check to determine that the user has a fieldright other than None. Any other
   //right will ensure that the user has rights to read
   if (headingRight.IsActive)

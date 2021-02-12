@@ -1,9 +1,7 @@
 ---
-# This basic template provides core metadata fields for Markdown articles on docs.superoffice.com.
-
 # Mandatory fields.
-title: visiblefor_flag       # (Required) Very important for SEO. Intent in a unique string of 43-59 chars including spaces.
-description: VisibleFor flag # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
+title: visiblefor_flag       # (Required) Very important for SEO.
+description: VisibleFor flag # (Required) Important for SEO.
 author: {github-id}             # Your GitHub alias.
 keywords: sentry
 so.topic: concept              # article, howto, reference, concept, guide

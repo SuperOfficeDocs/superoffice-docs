@@ -3,7 +3,7 @@ title: osql_sodatareader
 description: SuperOffice Objectified SQL - SoDataReader
 author: {github-id}
 so.date: 11.05.2016
-keywords: 
+keywords:
 so.topic: concept
 ---
 
@@ -30,7 +30,6 @@ First, let’s look at how you can retrieve data using the column index.
 ```csharp
 //Loading the Data into the DataReader
 SoDataReader myReader = myComm.ExecuteReader();
-
 //Retrieving the Data from the Reader
 while(myReader.Read())
 {
@@ -63,7 +62,6 @@ Now let’s look at how we can retrieve data using the column name.
 ```csharp
 //Loading the Data into the DataReader
 SoDataReader myReader = myComm.ExecuteReader();
-
 //Retrieving the Data from the Reader
 while(myReader.Read())
 {

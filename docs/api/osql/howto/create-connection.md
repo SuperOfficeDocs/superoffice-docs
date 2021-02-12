@@ -3,7 +3,7 @@ title: osql_create_connection
 description: SuperOffice Objectified SQL - create a connection to the database
 author: {github-id}
 so.date: 11.05.2016
-keywords: 
+keywords:
 so.topic: howto
 ---
 
@@ -18,7 +18,6 @@ using SuperOffice.Data;
 using SuperOffice.CRM.Data;
 using SuperOffice.Data.SQL;
 using SuperOffice;
-
 using(SoSession newSession = SoSession.Authenticate ("SAL0", ""))
 {
   //Create a new connection

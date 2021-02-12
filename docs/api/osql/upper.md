@@ -22,9 +22,7 @@ ORDER BY firstname asc
 SoConnection _con = ConnectionFactory.GetConnection();
 SoCommand _cmd = _con.CreateCommand();
 _con.Open();
-
 PersonTableInfo p = TablesInfo.GetPersonTableInfo();
-
 Select query = S.NewSelect();
 Parameter spaceParam = S.Parameter( " " );
 spaceParam.DataType = FieldDataType.dbString;
@@ -32,7 +30,6 @@ query.ReturnFields.Add( S.ArgumentFunctions.Upper( S.Math.NewAdd( p.Firstname, s
 query.Restriction = p.PersonId.Between( S.Parameter( 10 ), S.Parameter( 30 ) );
 query.OrderBy.Add( p.Firstname, OrderBySortType.ASC );
 _cmd.SqlCommand = query;
-
 SoDataReader reader = _cmd.ExecuteReader();
 int result = 0;
 string arjan = "";      // person number 1
@@ -49,12 +46,10 @@ while( reader.Read() )
   ++result;
 }
 reader.Close();
-
 Assert.AreEqual( "ARJAN ABELSEN", arjan , "Name of Arjan was wrong!" );
 Assert.AreEqual( "CATO CARLSSON", cato , "Name of Cato was wrong!" );
 Assert.AreEqual( "HANS HANSEN", hans , "Name of Hans was wrong!" );
 Assert.AreEqual( 21, result, "Number of persons was not correct!" );
-
 _con.Close();
 _con = null;
 _cmd = null;

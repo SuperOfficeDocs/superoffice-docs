@@ -1,14 +1,12 @@
 using System;
 using System.Collections.Generic;
 using System.Text;
-
 using SuperOffice.CRM.Security;
 using SuperOffice.Data.SQL;
 using SuperOffice.CRM.Data;
 using SuperOffice.CRM.Rows;
 using SuperOffice.CRM.Entities;
 using MyNetServerCode.Data;
-
 namespace SentryForCustomTableDll
 {
   [SentryPlugin("contact")] public class CustomSentryPlugin : ISentryPlugin
@@ -17,7 +15,6 @@ namespace SentryForCustomTableDll
     /// Storing reference to the sentry the plugin works on behalf of.
     /// </summary>
     SuperOffice.CRM.Security.Sentry _sentry = null;
-
     /// <summary>
     /// Default constructor, we do nothing here.
     /// </summary>
@@ -91,10 +88,8 @@ namespace SentryForCustomTableDll
       // Get the ContactTableInfo and SuperOfficeTrainingTableTableInfo
       ContactTableInfo newConTable = (ContactTableInfo)tableInfo;
       SuperOfficeTrainingTableTableInfo newCustomTable = MyNetServerCode.Data.CustomTablesInfo.GetSuperOfficeTrainingTableTableInfo();
-
       // Set the restriction
       sql.RestrictionAnd(newCustomTable.AssociateId.Equal(SuperOffice.Data.S.Parameter(SuperOffice.SoContext.CurrentPrincipal.AssociateId)));
-
       // Join the tables Contact and the custom table
       sql.JoinRestriction.InnerJoin(newConTable.BusinessIdx.Equal(newCustomTable.BusinessId));
     }

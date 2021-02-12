@@ -3,7 +3,7 @@ title: create_row
 description: Create row with basic properties
 author: {github-id}
 so.date: 11.05.2016
-keywords: 
+keywords:
 so.topic: howto
 ---
 
@@ -14,7 +14,6 @@ This example shows how to create a Row and populate some very basic properties.
 ```csharp
 using SuperOffice;
 using SuperOffice.CRM.Rows;
-
 using(SoSession newSession = SoSession.Authenticate("SAL0", ""))
 {
   //Create a New Row

@@ -19,19 +19,15 @@ WHERE (s.sale_id = 32)
 SoConnection _con = ConnectionFactory.GetConnection();
 SoCommand _cmd = _con.CreateCommand();
 _con.Open();
-
 SaleTableInfo s = TablesInfo.GetSaleTableInfo();
-
 Select query = S.NewSelect();
 query.ReturnFields.Add( S.Math.NewAdd( s.SaleId, s.AssociateId, s.GroupIdx, s.ContactId, s.PersonId ) );
 query.Restriction = s.SaleId.Equal( S.Parameter( 32 ) );
 _cmd.SqlCommand = query;
-
 SoDataReader reader = _cmd.ExecuteReader();
 reader.Read();
 long l = Convert.ToInt32( reader[0] );
 reader.Close();
-
 _con.Close();
 _con = null;
 _cmd = null;

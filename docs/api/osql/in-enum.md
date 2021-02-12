@@ -3,7 +3,7 @@ title: osql_in
 description: SuperOffice Objectified SQL - Enum values with IN
 author: {github-id}
 so.date: 11.05.2016
-keywords: 
+keywords:
 so.topic: concept
 ---
 
@@ -20,34 +20,32 @@ using SuperOffice.Data;
 using SuperOffice.CRM.Data;
 using SuperOffice.Data.SQL;
 using SuperOffice;
-
 using(SoSession newSession = SoSession.Authenticate ("SAL0", ""))
 {
   //Create a new connection
   SoConnection connection = ConnectionFactory.GetConnection ();
   SoCommand command = connection.CreateCommand ();
-
   connection.Open ();
   SaleTableInfo salesInfo = TablesInfo.GetSaleTableInfo ();
+
   //Write the query
   Select query = S.NewSelect ();
+
   //Add the return fields
   query.ReturnFields.Add (salesInfo.SaleId, salesInfo.Status,salesInfo.Saledate);
+
   //Add enum-values with IN
   Argument [] args = new Argument [2];
   args [0] = S.Parameter (SaleStatus.Open);
   args [1] = S.Parameter(SaleStatus.Sold);
   query.Restriction = salesInfo.Status.In (args);
-
   command.SqlCommand = query;
 
   //Execute the query
   SoDataReader reader = command.ExecuteReader ();
-
   while(reader.Read ())
-    listBox1.Items.Add (reader [0].ToString () + " " + reader 
+    listBox1.Items.Add (reader [0].ToString () + " " + reader
         [1].ToString () + " " + reader [2].ToString ());
-
   reader.Close ();
   connection.Close ();
 }

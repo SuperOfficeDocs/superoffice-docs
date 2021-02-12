@@ -3,7 +3,7 @@ title: osql_update_howto
 description: SuperOffice Objectified SQL - UPDATE
 author: {github-id}
 so.date: 11.05.2016
-keywords: 
+keywords:
 so.topic: howto
 ---
 

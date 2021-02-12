@@ -3,7 +3,7 @@ title: sentry_plugins
 description: Sentry plugins
 author: {github-id}
 so.date: 11.05.2016
-keywords: 
+keywords:
 so.topic: concept
 so.envir: onsite
 ---

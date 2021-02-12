@@ -3,7 +3,7 @@ title: row_sample_collection
 description: SuperOffice database Collection
 author: {github-id}
 so.date: 11.05.2016
-keywords: 
+keywords:
 so.topic: sample
 ---
 

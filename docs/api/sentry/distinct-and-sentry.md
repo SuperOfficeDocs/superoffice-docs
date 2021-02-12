@@ -20,8 +20,8 @@ The `ProjectMember` sentry will also add extra joins, making the query more comp
 To avoid this, we turn off automatic sentry for the `ProjectMember` table. This leaves the table alone (which is what we want) while avoiding extra joins caused by the sentry.
 
 ```SQL
-SELECT DISTINCT p.* FROM Project p 
-INNER JOIN ProjectMember pm 
+SELECT DISTINCT p.* FROM Project p
+INNER JOIN ProjectMember pm
 ON p.ProjectId = pm.ProjectId
 WHERE pm.PersonId = 20 OR p.AssociateId = 29
 ```

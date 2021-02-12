@@ -3,7 +3,7 @@ title: osql_sentry
 description: SuperOffice Objectified SQL - Sentry
 author: {github-id}
 so.date: 11.05.2016
-keywords: 
+keywords:
 so.topic: howto
 ---
 
@@ -19,16 +19,13 @@ _session = SoSession.Authenticate("SAL1","");
 _con = ConnectionFactory.GetConnection();
 _cmd = _con.CreateCommand();
 _con.Open();
-
 ContactTableInfo c = TablesInfo.GetContactTableInfo();  //the contact table
 OwnerContactLinkTableInfo own = TablesInfo.GetOwnerContactLinkTableInfo();
-
 Select select = S.NewSelect();
 // The fields we want to see
 select.ReturnFields.Add( c.ContactId, c.Name, c.AssociateId, c.CountryId, c.CategoryIdx, c.BusinessIdx );
 select.JoinRestriction.InnerJoin( c.ContactId.Equal( own.ContactId ) );
 _cmd.SqlCommand = select;
-
 SoDataReader reader = _cmd.ExecuteReader();
 bool isReadable = false;
 bool isWriteable= false;
@@ -51,7 +48,6 @@ Assert.IsTrue( isWriteable, "The owner contact data is updateable" );
 Assert.IsTrue( isInsable, "The owner contact data is insertable" );
 Assert.IsFalse( isDelable, "The owner contact data is not deleteable" );
 Assert.IsFalse( isNameWrite, "The owner contact name is not writeable" );
-
 _con.Close();
 _con = null;
 _cmd = null;

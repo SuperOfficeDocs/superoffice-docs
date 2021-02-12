@@ -3,7 +3,7 @@ title: update_row_in_entity
 description: Update a Row through an Entity
 author: {github-id}
 so.date: 11.05.2016
-keywords: 
+keywords:
 so.topic: howto
 ---
 
@@ -23,6 +23,7 @@ using(SoSession mySession = SoSession.Authenticate("SAL0", ""))
 {
   //Retrieving a Sale using the index of a Sale
   Sale newSale = Sale.GetFromIdxSaleId(2);
+
   //Changing the values of the Currency Row through the Sale entity
   newSale.SetDefaults();
   newSale.Currency.Name = "DAS";
@@ -47,12 +48,12 @@ Create `CurrencyRow` object and then assign it to the `Currency` property of the
 using SuperOffice.CRM.Entities;
 using SuperOffice.CRM.Rows;
 using SuperOffice;
-
 using(SoSession mySession = SoSession.Authenticate("SAL0", ""))
 {
   //Retriving a Sale using the index of a Sale
 
   Sale newSale = Sale.GetFromIdxSaleId(2);
+
   //Creating a Currency Row and assigning values
   CurrencyRow newCurrency = CurrencyRow.CreateNew();
   newCurrency.Name = "SAD";

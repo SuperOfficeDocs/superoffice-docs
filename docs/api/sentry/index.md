@@ -1,5 +1,5 @@
 ---
-title: sentry       
+title: sentry      
 description: Sentry
 author: {github-id}             # Your GitHub alias.
 keywords:

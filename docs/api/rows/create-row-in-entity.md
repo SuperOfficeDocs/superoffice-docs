@@ -3,7 +3,7 @@ title: create_row_in_entity
 description: Create a row as a property of another entity
 author: {github-id}
 so.date: 11.05.2016
-keywords: 
+keywords:
 so.topic: howto
 ---
 
@@ -24,7 +24,6 @@ using SuperOffice.CRM.Rows;
 
 using(SoSession newSession = SoSession.Authenticate("jr", "jr"))
 {
-
   //Creating a new Sale Entity
   Sale newSale = Sale.CreateNew();
   newSale.SetDefaults();
@@ -64,13 +63,12 @@ using(SoSession newSession = SoSession.Authenticate("SAL0", ""))
   //Creating a new Currency Row and assigning it values
   CurrencyRow newCurrency = CurrencyRow.CreateNew();
   newCurrency.SetDefaults();
-
   newCurrency.Name = "Riyal";
   newCurrency.Rank = 5;
   newCurrency.Units = 52.25;
   newSale.Currency = newCurrency;
 
- //Saving the Sale Entity
+  //Saving the Sale Entity
   newSale.Save();
 }
 ```

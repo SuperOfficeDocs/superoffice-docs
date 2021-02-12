@@ -1,5 +1,5 @@
 ---
-title: rows       
+title: rows      
 description: SuperOffice database Rows layer
 author: {github-id}             # Your GitHub alias.
 keywords:
@@ -26,3 +26,10 @@ By using the `Delete()` method, we can delete a Row as well. In this case, it wi
 An Entity may have properties that are of the type Row. A property of row type directly refers to a particular row of a table.
 
 For example, in the `Sale` Entity, the `Associate` property would refer to the `Associate` table and would contain the columns that are in the `Associate` table as its properties.
+
+## Examples
+
+* [Add list item using rows][1]
+
+<!-- Referenced links -->
+[1]: ../lists/add-list-item.md

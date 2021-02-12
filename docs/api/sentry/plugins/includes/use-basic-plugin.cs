@@ -2,9 +2,7 @@ using SuperOffice.CRM.Security;
 using SuperOffice.CRM.Rows;
 using SuperOffice.CRM.Entities;
 using SuperOffice;
-
 int contactId;
-
 using (SoSession mySession = SoSession.Authenticate("SAL0",""))
 {
   //Create a New Contact entity

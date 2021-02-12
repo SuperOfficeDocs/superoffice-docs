@@ -22,22 +22,23 @@ using SuperOffice.Data;
 using SuperOffice.CRM.Data;
 using SuperOffice.Data.SQL;
 using SuperOffice;
- 
 using(SoSession newSession = SoSession.Authenticate ("SAL0", ""))
 {
   //Create a new connection
   SoConnection _con = null;
   SoCommand _cmd = null;
-
   _con = ConnectionFactory.GetConnection ();
   _cmd = _con.CreateCommand ();
   _con.Open ();
 
   AssociateTableInfo associateInfo = TablesInfo.GetAssociateTableInfo ();
+
   //Create a Select
   Select select = S.NewSelect ();
+
   //Setting the fields need to be returned
   select.ReturnFields.Add (associateInfo.AssociateId,associateInfo.Name);
+
   //setting the restrictions.
   select.Restriction = associateInfo.AssociateId.GreaterThan
       (S.Parameter (10)).And (associateInfo.AssociateId.LessThan
@@ -45,8 +46,10 @@ using(SoSession newSession = SoSession.Authenticate ("SAL0", ""))
   select.OrderBy.Add (S.FieldExpression.Count (associateInfo.AssociateId), "asc");
   select.GroupBy.Grouping.Add (associateInfo.AssociateId, associateInfo.Name);
   _cmd.SqlCommand = select;
+
   //Create a Reader
   SoDataReader reader = _cmd.ExecuteReader ();
+
   //Read Data
   while(reader.Read ())
   {

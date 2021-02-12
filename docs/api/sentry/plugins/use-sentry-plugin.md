@@ -3,7 +3,7 @@ title: use_sentry_plugin
 description: Use a Sentry plugin
 author: {github-id}
 so.date: 11.05.2016
-keywords: 
+keywords:
 so.topic: howto
 so.envir: onsite
 ---
@@ -42,8 +42,6 @@ Then we have retrieved `TableRight` object for the contact entity. This is where
 Now if we check for the rights of the table, it should be `HasUpdate` true. Below is a screenshot of the watch window of the Visual Studio IDE for the variables `hasUpdate` and `info`. As we can see `hasUpdate` is true.
 
 ![01][img1]
-
-
 Now let’s log in with a different user and retrieve the earlier created contact entity. When we check the update rights we get picture like this:
 
 ![02][img2]

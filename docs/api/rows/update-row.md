@@ -3,7 +3,7 @@ title: update_row
 description: SuperOffice database update row with basic properties
 author: {github-id}
 so.date: 11.05.2016
-keywords: 
+keywords:
 so.topic: howto
 ---
 
@@ -16,7 +16,6 @@ This example shows how the properties of a Row are updated.
 ```csharp
 using SuperOffice;
 using SuperOffice.CRM.Rows;
-
 using(SoSession newSession = SoSession.Authenticate("SAL0", ""))
 {
   //Create a New Row

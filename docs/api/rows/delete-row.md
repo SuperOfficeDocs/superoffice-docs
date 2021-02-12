@@ -3,7 +3,7 @@ title: delete_row
 description: SuperOffice database delete row
 author: {github-id}
 so.date: 11.05.2016
-keywords: 
+keywords:
 so.topic: howto
 ---
 
@@ -16,11 +16,11 @@ The following example shows you how easily this can be done.
 ```csharp
 using SuperOffice;
 using SuperOffice.CRM.Rows;
-
 using(SoSession newSession = SoSession.Authenticate("SAL0", ""))
 {
   //Retrieve the row to be deleted
   ContactRow myContactRow = ContactRow.GetFromIdxContactId(125);
+
   //Delete the row
   myContactRow.Delete();
 }

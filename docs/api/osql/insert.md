@@ -3,7 +3,7 @@ title: osql_insert
 description: SuperOffice Objectified SQL - INSERT
 author: {github-id}
 so.date: 11.05.2016
-keywords: 
+keywords:
 so.topic: concept
 ---
 
@@ -28,7 +28,6 @@ using SuperOffice.Data;
 using SuperOffice.CRM.Data;
 using SuperOffice.Data.SQL;
 using SuperOffice;
-
 using(SoSession mySession = SoSession.Authenticate("SAL0", ""))
 {
   //Create a new connection
@@ -58,7 +57,6 @@ using(SoSession mySession = SoSession.Authenticate("SAL0", ""))
 
   //Execute the query
   int res = command.ExecuteNonQuery();
-
 }
 ```
 

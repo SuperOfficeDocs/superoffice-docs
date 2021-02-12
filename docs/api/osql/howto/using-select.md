@@ -3,7 +3,7 @@ title: osql_select_howto
 description: SuperOffice Objectified SQL - SELECT
 author: {github-id}
 so.date: 11.05.2016
-keywords: 
+keywords:
 so.topic: howto
 ---
 

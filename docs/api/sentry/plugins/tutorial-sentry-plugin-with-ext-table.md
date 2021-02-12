@@ -3,7 +3,7 @@ title: create_sentry_plugin
 description: Sentry plugin with external table
 author: {github-id}
 so.date: 11.05.2016
-keywords: 
+keywords:
 so.topic: guide
 so.envir: onsite
 ---

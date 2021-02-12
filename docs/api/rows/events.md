@@ -22,11 +22,11 @@ Here we are using `ContactRow` to demonstrate how events are called back from Ro
 using SuperOffice;
 using SuperOffice.Data;
 using SuperOffice.CRM.Rows;
-
 using(SoSession newSession = SoSession.Authenticate("SAL0", ""))
 {
   //Retrieve a Contact Row
   ContactRow myContactRow = ContactRow.GetFromIdxContactId(122);
+
   //Generating the events
   myContactRow.OnElementSaved += new OnSaved(myContactRow_OnElementSaved);
 

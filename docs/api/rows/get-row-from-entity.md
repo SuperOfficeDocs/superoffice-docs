@@ -3,7 +3,7 @@ title: get_row_from_entity
 description: Retrieve a row through an entity
 author: {github-id}
 so.date: 11.05.2016
-keywords: 
+keywords:
 so.topic: howto
 ---
 
@@ -19,13 +19,12 @@ This example shows how to retrieve the properties of a `Currency` Row through a 
 using SuperOffice;
 using SuperOffice.CRM.Entities;
 using SuperOffice.CRM.Rows;
-
 using(SoSession mySession = SoSession.Authenticate("SAL0", ""))
 {
   //Retrieving an Entity
   Sale newSale = Sale.GetFromIdxSaleId(2);
 
-  //Retrieving Properties of a Row through an Entity
+//Retrieving Properties of a Row through an Entity
   string saleCurname = newSale.Currency.Name;
   if (newSale.Currency.Deleted == 0)
   {

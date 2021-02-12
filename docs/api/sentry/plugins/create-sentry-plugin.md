@@ -3,7 +3,7 @@ title: create_sentry_plugin
 description: Create a Sentry plugin
 author: {github-id}
 so.date: 11.05.2016
-keywords: 
+keywords:
 so.topic: howto
 so.envir: onsite
 ---

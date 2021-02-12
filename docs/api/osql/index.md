@@ -1,5 +1,5 @@
 ---
-title: osql       
+title: osql      
 description: SuperOffice Objectified SQL
 author: {github-id}             # Your GitHub alias.
 so.date: 11.05.2016

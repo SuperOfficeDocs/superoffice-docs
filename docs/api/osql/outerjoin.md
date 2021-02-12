@@ -3,7 +3,7 @@ title: osql_join_outer
 description: SuperOffice Objectified SQL - RIGHT OUTER JOIN
 author: {github-id}
 so.date: 11.05.2016
-keywords: 
+keywords:
 so.topic: concept
 ---
 
@@ -26,10 +26,8 @@ WHERE (p.Firstname LIKE 'F%' OR p.Lastname LIKE 'E%')
 SoConnection _con = ConnectionFactory.GetConnection();
 SoCommand _cmd = _con.CreateCommand();
 _con.Open();
-
 PersonTableInfo p = TablesInfo.GetPersonTableInfo();
 AssociateTableInfo a = TablesInfo.GetAssociateTableInfo();
-
 Select select = S.NewSelect();
 select.ReturnFields.Add( p.Firstname );
 select.ReturnFields.Add( p.Lastname );
@@ -37,10 +35,8 @@ select.ReturnFields.Add( a.AssociateId );
 select.ReturnFields.Add( a.Name );
 select.JoinRestriction.RightOuterJoin( p.PersonId.Equal( a.PersonId ), p.Firstname.Like("F%").Or(p.Lastname.Like("E%")) );
 _cmd.SqlCommand = select;
-
 SoDataReader reader = _cmd.ExecuteReader();
 reader.Close();
-
 _con.Close();
 _con = null;
 _cmd = null;
@@ -58,35 +54,25 @@ using SuperOffice.Data;
 using SuperOffice.CRM.Data;
 using SuperOffice.Data.SQL;
 using SuperOffice;
-
 using(SoSession newSession = SoSession.Authenticate ("SAL0", ""))
 {
   //Create a new connection
   SoConnection connection = ConnectionFactory.GetConnection ();
   SoCommand command = connection.CreateCommand ();
-
   connection.Open ();
-
   AppointmentTableInfo a = TablesInfo.GetAppointmentTableInfo ();
   TextTableInfo t = TablesInfo.GetTextTableInfo ();
   DocumentTableInfo d = TablesInfo.GetDocumentTableInfo ();
-
   Select select = S.NewSelect ();
-
   select.ReturnFields.Add(S.FieldExpression.Count(d.AppointmentId));
-
   //a Right Outer Join d where a.AppointmentId = d.AppointmentId
   select.JoinRestriction.RightOuterJoin (a.AppointmentId.Equal(d.AppointmentId));
-
   //d Right Outer Join t where d.TextId = t.TextId
   select.JoinRestriction.RightOuterJoin (d.TextId.Equal(t.TextId));
-
   command.SqlCommand = select;
   SoDataReader reader = command.ExecuteReader ();
-
   while(reader.Read ())
     listBox1.Items.Add (reader [0].ToString ());
-
   reader.Close ();
   connection.Close ();
 }

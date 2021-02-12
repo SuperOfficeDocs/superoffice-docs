@@ -3,7 +3,7 @@ title: osql_join
 description: SuperOffice Objectified SQL - JOIN
 author: {github-id}
 so.date: 11.05.2016
-keywords: 
+keywords:
 so.topic: concept
 ---
 
@@ -27,26 +27,20 @@ AND(T0.associate_id = 5)
 ```csharp
 SoConnection _con = null;
 SoCommand _cmd = null;
-
 _con = ConnectionFactory.GetConnection();
 _cmd = _con.CreateCommand();
 _con.Open();
-
-AssociateTableInfo a = TablesInfo.GetAssociateTableInfo(); 
-
+AssociateTableInfo a = TablesInfo.GetAssociateTableInfo();
 ContactTableInfo c = TablesInfo.GetContactTableInfo();
 Select select = S.NewSelect();
 // The fields to see
 select.ReturnFields.Add( a.AssociateId, c.CategoryIdx, a.Lastlogin, a.Lastlogout );
 select.Restriction = a.AssociateId.Equal( c.AssociateId).And( a.AssociateId.Equal( S.Parameter( 5 ) ) );
 _cmd.SqlCommand = select;
-
 SoDataReader reader = _cmd.ExecuteReader();
 bool hasData = reader.Read();
 reader.Close();
-
 Assert.IsTrue( hasData, "There are data in the associate table" );
-
 _con.Close();
 _con = null;
 _cmd = null;
@@ -66,28 +60,22 @@ AND(T1.associate_id = T2.associate_id)
 ```csharp
 SoConnection _con = null;
 SoCommand _cmd = null;
-
 _con = ConnectionFactory.GetConnection();
 _cmd = _con.CreateCommand();
 _con.Open();
-
-AssociateTableInfo a = TablesInfo.GetAssociateTableInfo(); 
+AssociateTableInfo a = TablesInfo.GetAssociateTableInfo();
 ContactTableInfo c = TablesInfo.GetContactTableInfo();
 SelectionTableInfo s = TablesInfo.GetSelectionTableInfo();
-
 Select select = S.NewSelect();
 // The fields to see
 select.ReturnFields.Add( a.AssociateId, c.CategoryIdx,s.Name );
 // The restriction
 select.Restriction = a.AssociateId.Equal( c.AssociateId).And( c.AssociateId.Equal( s.AssociateId ) );
 _cmd.SqlCommand = select;
-
 SoDataReader reader = _cmd.ExecuteReader();
 bool hasData = reader.Read();
 reader.Close();
-
 Assert.IsTrue( hasData, "There are data in the associate table" );
-
 _con.Close();
 _con = null;
 _cmd = null;
