@@ -1,0 +1,13 @@
+- name: Sales
+  href: index.md
+- name: Link sale to appointment
+  href: link-sale-to-appointment.md
+- name: SAINT
+  href: saint/index.md
+  items:
+  - name: Change SAINT values for company
+    href: saint/change-saint-values-for-company.md
+  - name: Find contacts by SAINT counter - FindContactProvider
+    href: saint/search-saint-findcontactprovider.md
+  - name: Find contacts by SAINT counter - ContactRow.CustomSearch
+    href: saint/search-saint-contactrow-customsearch.md
