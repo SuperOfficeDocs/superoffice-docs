@@ -19,6 +19,13 @@ You can create a contact at multiple levels of NetServer:
 * [Create a contact through row collection (Rows)][5]
 * [Create a contact through OSQL][6]
 
+## Get contact entity
+
+You can get a `Contact` entity either by using the classes provided in the entities layer or by using the agents in the services layer.
+
+* [Get a contact through Entities layer][7]
+* [Get a contact through Services layer][8]
+
 <!-- Referenced links -->
 [1]: create-contact-entity.md
 [2]: create-contact-entity-in-entity.md
@@ -26,3 +33,5 @@ You can create a contact at multiple levels of NetServer:
 [4]: create-contact-row.md
 [5]: create-contact-rows.md
 [6]: create-contact-osql.md
+[7]: get-contact-via-entities-layer.md
+[8]: get-contact-via-services-layer.md

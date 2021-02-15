@@ -34,3 +34,29 @@
     href: create-contact-entity-in-entity.md
   - name: As entity in collection
     href: create-contact-entity-in-collection.md
+- name: Get contact
+  items:
+  - name: Via entities layer
+    href: get-contact-via-entities-layer.md
+  - name: Via services layer
+    href: get-contact-via-services-layer.md
+- name: Persons
+  items:
+  - name: Get list of persons from contact
+    items:
+    - name: With SoDataReader
+      href: person/get-persons-from-contact-sodatareader.md
+    - name: With Rows
+      href: person/get-persons-from-contact-rows.md
+    - name: With Entities
+      href: person/get-persons-from-contact-entities.md
+  - name: Update person
+    items:
+    - name: With OSQL
+      href: person/update-person-osql.md
+    - name: With Row
+      href: person/update-person-rows.md
+    - name: With Entity
+      href: person/update-person-entity.md
+  - name: Display image from Blob table
+    href: person/display-image-from-blob-table.md

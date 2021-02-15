@@ -14,7 +14,11 @@ so.topic: howto            # article, howto, reference, concept, guide
 
 # Get the CategoryList through SODataReader
 
-[SODataReader][1] also facilitates us in obtaining category lists. Here you have to query the database to retrieve the `CategoryList`. The following example demonstrates how it is done.
+[SODataReader][1] also facilitates us in obtaining category lists. Here you have to query the database to retrieve the `CategoryList`.
+
+[!include[ALT](../../includes/note-using-sodatareader.md)]
+
+The following example demonstrates how it is done.
 
 ```csharp
 using SuperOffice.Data;
