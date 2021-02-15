@@ -30,9 +30,10 @@ so.date:
 ### C
 
 * [Caching][13]
+* [Category][16]
+* [Company and contact][15]
 
-<!-- * [Company and contact](company-and-contact/index.md)
-* [Custom fields](custom-fields/index.md) -->
+<!-- * [Custom fields](custom-fields/index.md) -->
 
 ### D
 
@@ -131,3 +132,5 @@ so.date:
 [12]: sentry/index.md
 [13]: caching/index.md
 [14]: diary/index.md
+[15]: company-and-contact/index.md
+[16]: company-and-contact/category/index.md

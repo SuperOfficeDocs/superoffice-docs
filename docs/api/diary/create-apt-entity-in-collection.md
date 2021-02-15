@@ -14,7 +14,7 @@ so.topic: howto            # article, howto, reference, concept, guide
 
 # Create an Appointment entity through an entity collection
 
-`SuperOffice.CRM.Entities` namespace exposes entity collections such as `AppointmentCollection` and `PersonCollection`. It is therefore possible to create an `Appointment` entity and assign it to the collection and thereby saving the collection the Appointment entity will be saved.
+The `SuperOffice.CRM.Entities` namespace exposes entity collections such as `AppointmentCollection` and `PersonCollection`. It is therefore possible to create an `Appointment` entity and assign it to the collection and thereby saving the collection the Appointment entity will be saved.
 
 The following example demonstrates the method of doing the above.
 

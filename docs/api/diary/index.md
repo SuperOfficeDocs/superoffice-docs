@@ -22,7 +22,7 @@ You can create an appointment at multiple levels of NetServer:
 
 <!-- Referenced links -->
 [1]: create-apt-entity.md
-[2]:  create-apt-entity-in-entity.md
+[2]: create-apt-entity-in-entity.md
 [3]: create-apt-entity-in-collection.md
 [4]: create-apt-row.md
 [5]: create-apt-rows.md

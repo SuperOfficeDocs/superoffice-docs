@@ -22,9 +22,9 @@ Using the `Appointment` [entity][1] exposed in the `SuperOffice.CRM.Entities` na
 
 ## Walk-through
 
-After a `SoSession` has been created, we proceed on to creating an appointment.
+After an `SoSession` has been created, we proceed on to creating an appointment.
 
-To create an appointment, it is required to create an instance of the `Appointment` entity using the `CreateNew` method exposed in the `Associate` class, after which the default values for the entity will be set using the `SetDefaultes` method like this:
+To create an appointment, it is required to create an instance of the `Appointment` entity using the `CreateNew` method exposed in the `Associate` class, after which the default values for the entity will be set using the `SetDefaults` method like this:
 
 [!code-csharp[CS](includes/create-apt-entity.cs?range=6,9)]
 

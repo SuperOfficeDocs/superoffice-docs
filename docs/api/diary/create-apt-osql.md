@@ -4,7 +4,7 @@ title: create_appointment_osql       # (Required) Very important for SEO.
 description: Create an appointment through OSQL  # (Required) Important for SEO.
 author: {github-id}             # Your GitHub alias.
 so.date: 05.11.2016
-keywords: diary,oswl
+keywords: diary,osql
 so.topic: howto            # article, howto, reference, concept, guide
 
 # Optional fields. Don't forget to remove # if you need a field.
@@ -14,13 +14,9 @@ so.topic: howto            # article, howto, reference, concept, guide
 
 # Create an appointment through OSQL
 
-When creating an appointment using [OSQL][1], we would first have to import the necessary namespaces:
+[!include[import OSQL namespaces](../includes/using-osql.md)]
 
-* SuperOffice.CRM.Data
-* SuperOffice.Data
-* SuperOffice.Data.SQL
-
-The syntax of this code is similar to that of SQL with the difference being in the keywords. The following example shows how we could create an appointment using OSQL.
+The following example shows how we could create an appointment using OSQL.
 
 ## Code
 
@@ -40,6 +36,3 @@ Once the required fields have been added, a database connection will be made wit
 
 > [!NOTE]
 > In OSQL, there is no method that provides default values. It is necessary to insert values to all mandatory columns. If not a runtime exception will occur.
-
-<!-- Referenced links -->
-[1]: ../osql/index.md

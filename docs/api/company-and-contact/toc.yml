@@ -1,2 +1,36 @@
-- name: Page
+- name: Company and contact
   href: index.md
+- name: Category
+  href: category/index.md
+  items:
+  - name: Get CatList from typed list providers
+    href: category/get-catlist-typed-provider.md
+  - name: Get CatList from generic list providers
+    href: category/get-catlist-generic-provider.md
+  - name: Get CatList from SoDataReader
+    href: category/get-catlist-sodatareader.md
+  - name: Get CatList from CategoryRows
+    href: category/get-catlist-categoryrows.md
+- name: Interests
+  href: interests/index.md
+  items: 
+  - name: Add new contact interest
+    href: interests/add-new-contact-interest.md
+  - name: Set interest to on/off
+    href: interests/set-interest-on-off.md
+  - name: List interests for contact
+    href: interests/list-interests-for-contact.md
+- name: Create contact
+  items:
+  - name: With OSQL
+    href: create-contact-osql.md
+  - name: With Row
+    href: create-contact-row.md
+  - name: With Row collection (Rows)
+    href: create-contact-rows.md
+  - name: With Entity
+    href: create-contact-entity.md
+  - name: As entity in Enity
+    href: create-contact-entity-in-entity.md
+  - name: As entity in collection
+    href: create-contact-entity-in-collection.md
