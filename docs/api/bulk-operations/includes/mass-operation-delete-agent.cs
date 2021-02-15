@@ -1,3 +1,7 @@
+using SuperOffice.WebApi;
+using SuperOffice.WebApi.Data;
+using SuperOffice.WebApi.Agents;
+
 // set up the DatabaseTable agent
 
 var options = new WebApiOptions(webApiUrl, authorization);

@@ -9,7 +9,7 @@ var mo = MassOperations.GetCurrent();
 
 // perform the delete operation
 
-var massOperationResult = mo.Delete(tableName, primaryKeys);
+MassResult massResult = mo.Delete(tableName, primaryKeys);
 
 // check the result status and print out the number of changes.
 

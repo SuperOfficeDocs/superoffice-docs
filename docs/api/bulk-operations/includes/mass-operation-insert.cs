@@ -2,7 +2,9 @@ using SuperOffice.WebApi;
 using SuperOffice.WebApi.Data;
 using SuperOffice.WebApi.Agents;
 
-WebApiOptions options = GetSystemUserWebApiOptions(tenant);
+// set up the DatabaseTable agent
+
+WebApiOptions options = //Get WebApiOptions with SystemUser Authorization
 DatabaseTableAgent dta = new DatabaseTableAgent(options);
 
 // table name

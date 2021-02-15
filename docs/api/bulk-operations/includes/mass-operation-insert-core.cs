@@ -1,6 +1,8 @@
 using SuperOffice.Data.Dialect;
 using SuperOffice.CRM.Globalization;
 
+var mo = MassOperations.GetCurrent();
+
 // table name
 
 string tableName = "y_rental";
@@ -22,6 +24,4 @@ var data = new string[][]
 	new[] {yesterday, today, CultureDataFormatter.EncodeInt(200), "456", "1" },
 };
 
-var mo = MassOperations.GetCurrent();
-
-MassOperationResult massResult = mo.Insert(tableName, columns, data);
+MassResult massResult = mo.Insert(tableName, columns, data);

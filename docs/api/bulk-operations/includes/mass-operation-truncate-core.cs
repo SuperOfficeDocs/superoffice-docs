@@ -1,13 +1,12 @@
 using SuperOffice.Data.Dialect;
-using SuperOffice.CRM.Globalization;
+
+var mo = MassOperations.GetCurrent();
 
 // table name
 
 string tableName = "y_rental";
 
-var mo = MassOperations.GetCurrent();
-
-MassOperationResult massResult = mo.Truncate(tableName);
+MassResult massResult = mo.Truncate(tableName);
 
 if(massResult.Success)
 {
