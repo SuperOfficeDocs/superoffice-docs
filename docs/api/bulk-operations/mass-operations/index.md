@@ -11,7 +11,7 @@ version: 9.2 R04
 
 SuperOffice APIs support the import and update of large datasets via the Mass Operations API. These APIs leverage database server bulk copy features optimized for speed.
 
-Mass Operation functions are intentionally generic, and operate towards one table at a time. They bypass all sentry security checks and therefore require an authenticated system user account when used.
+Mass Operation functions are intentionally generic, and operate towards one table at a time. They bypass all sentry security checks and therefore require an authenticated system user account to use.
 
 > [!NOTE]
 > Must be a system user. Read about [system user accounts][1].
@@ -24,7 +24,7 @@ Mass Operation functions are intentionally generic, and operate towards one tabl
 | [Delete](delete.md)    | Delete multiple rows by primary key | More efficient that deleting rows one by one but less efficient than truncate. |
 | [Insert](insert.md)    | Add new rows.      | No primary key need be specified, all rows are simply added. Any collision with unique indexes causes an exception. |
 | [Truncate](truncate.md)  | Delete all rows in a table. | Unconditional, non-recoverable truncation of table. Very fast, near-instant. Resets primary key value to 1. |
-| [Upsert](upsert.md)    | Add or update rows by key | Key column(s) designate target rows. Rows that have *no* key match are treated as **insert** rows. **Not supported for Oracle**. |
+| [Upsert](upsert.md)    | Add or update rows by key | Key column(s) designate target rows. Rows that have *no* key match are treated as **insert** rows. **No support for Oracle**. |
 
 > [!CAUTION]
 > Mass operations do not work on these [protected-tables][4].
