@@ -9,7 +9,7 @@ version: 9.2 R04
 
 # Working with Upsert
 
-Notably the most complex mass operation method, Upsert performs any combination of inserts, updates and, in some cases, deletes. It requires the same parameters as the [Insert][1] method, but adds a string array of *keys*, and a boolean *deleteUnmatched*.
+Notably the most complex mass operation method, Upsert performs any combination of inserts, updates and, in some cases, deletes. It requires the same parameters as the [Insert][1] method, but adds a string array of *keys*, and an UpsertNomatchAction enum.
 
 ```csharp
 Upsert(tableName, columns, keys, deleteUnmatched, data);
@@ -20,7 +20,7 @@ Upsert(tableName, columns, keys, deleteUnmatched, data);
 |TableName   | The name of the table to update.                             |
 |Columns     | Array of *ordered* column names, same number as incoming data columns.              |
 |Keys        | Array of column names used to match one or more *ordered* column names.|
-|Delete Unmatched | Determines set operation behavior. If true, unmatched rows are deleted. Must be false when columns include a **user-defined field**. |
+|UpsertNomatchAction | Action to take on target table rows that do not match any incoming keys |
 |Data        | Two-dimension array of row and ordered column data.          |
 
 ## Key fields
@@ -36,9 +36,19 @@ When the target table in an **extra table**, and the **keys** parameter contains
 
 When the key parameter contains one or more column names, the Upsert operation finds the first database row where there is a matching dataset key record data and performs an Update. Matches must be unique.
 
-## Delete Unmatched
+## Matching behavior
 
-Use the *deleteUnmatched* parameter to determined whether Upsert should keep or remove unmatched records in the table. When true, any rows that do not match a record are deleted. In this case, when the method is finished, the table mirrors the incoming data. If that is the intent, it might be faster to consider using a `Truncate` and then an `Insert` instead.
+The `UpsertNomatchAction` enum option is used to determine what action to take on records that do not match the key criteria.
+
+| Enum value | Description                                    |
+|------------|------------------------------------------------|
+|NoChange    |No action, leave target table row unchanged     |
+|ZeroColumns |Zero/default-value the targeted `columns` in all non-matching rows |
+|DeleteRow   |Delete the entire row, for all non-matching-row |
+
+When using the Agent API, the only option available is the boolean parameter *deleteUnmatched*. When true, any rows that do not match a record are deleted. In this case, when the method is finished, the table mirrors the incoming data. If that is the intent, it might be faster to consider using a `Truncate` and then an `Insert` instead.
+
+When targeting **user-defined tables**, i.e. udxxxsmall or udxxxlarge, the `UpserNomatchAction` must be set to **NoChange**. When using the Agent Api, deleteUnmatched must be set to false.
 
 ## User-defined fields
 
