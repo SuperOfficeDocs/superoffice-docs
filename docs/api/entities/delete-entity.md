@@ -26,7 +26,7 @@ using (SoSession mySession = SoSession.Authenticate("SAL0", ""))
   //Deleting the Entity
   newSale.Delete();
 
-  //Checking whether the entity has being deleted
+  //Checking whether the entity has been deleted
   if (newSale.IsDeleted == true)
   {
     string test = "The sale has been deleted";

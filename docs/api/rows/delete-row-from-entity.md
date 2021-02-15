@@ -25,10 +25,10 @@ using(SoSession mySession = SoSession.Authenticate("SAL0", ""))
   //Deleting a Currency through a Sale
   newSale.Currency.Delete();
 
-  //Using IsDelete to check whether the Currency has being deleted
+  //Using IsDelete to check whether the Currency has been deleted
   if (newSale.Currency.IsDeleted == true)
   {
-    string test2 = "Currency has being deleted";
+    string test2 = "Currency has been deleted";
   }
 }
 ```

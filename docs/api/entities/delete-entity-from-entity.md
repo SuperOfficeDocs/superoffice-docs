@@ -28,7 +28,7 @@ using(SoSession mySession = SoSession.Authenticate("SAL0", ""))
   //Using IsDelete to check whether the Contact has been deleted
   if (newSale.Contact.IsDeleted == true)
   {
-    string test2 = "Contact has being deleted";
+    string test2 = "Contact has been deleted";
   }
 }
 ```
