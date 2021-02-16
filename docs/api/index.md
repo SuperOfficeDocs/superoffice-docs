@@ -20,6 +20,7 @@ so.date:
 
 ### A
 
+* [Agents][22]
 * [Archive providers][6]
 * [Authentication][7]
 
@@ -30,6 +31,7 @@ so.date:
 ### C
 
 * [Caching][13]
+* [Carriers][23]
 * [Category][16]
 * [Company and contact][15]
 
@@ -97,6 +99,7 @@ so.date:
 * [Sentry][12]
 * [Search][19]
 * [Selection][20]
+* [Services (layer)][21]
 
 <!-- 
 * [Security](security/index.md)
@@ -139,3 +142,6 @@ so.date:
 [18]: sales/index.md
 [19]: search/index.md
 [20]: search/selection/index.md
+[21]: services/index.md
+[22]: services/agents/index.md
+[23]: services/carriers/index.md
