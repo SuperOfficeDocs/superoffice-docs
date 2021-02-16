@@ -100,6 +100,7 @@ so.date:
 * [Search][19]
 * [Selection][20]
 * [Services (layer)][21]
+* [SOAP][24]
 
 <!-- 
 * [Security](security/index.md)
@@ -145,3 +146,4 @@ so.date:
 [21]: services/index.md
 [22]: services/agents/index.md
 [23]: services/carriers/index.md
+[24]: soap/index.md

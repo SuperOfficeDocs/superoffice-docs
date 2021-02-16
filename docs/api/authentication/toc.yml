@@ -26,6 +26,8 @@
       href: session-handling/suspend-session.md
     - name: Switch between sessions
       href: session-handling/switch-sessions.md
+  - name: SOAP calls
+    href: auth-and-soap-calls.md
   - name: Identity transfer tickets
     href: tickets/index.md
     items:
