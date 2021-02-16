@@ -95,10 +95,10 @@ so.date:
 * [Saint / Sales Intelligence][17]
 * [Sale][18]
 * [Sentry][12]
+* [Search][19]
+* [Selection][20]
 
 <!-- 
-* [Search](search/index.md)
-* [Selection](search/selection/index.md)
 * [Security](security/index.md)
 * [Service](service/index.md) -->
 
@@ -137,3 +137,5 @@ so.date:
 [16]: company-and-contact/category/index.md
 [17]: sales/saint/index.md
 [18]: sales/index.md
+[19]: search/index.md
+[20]: search/selection/index.md

@@ -1,0 +1,17 @@
+- name: Search
+  href: index.md
+- name: Selections
+  herf: selection/index.md
+  items:
+  - name: Create a dynamic selection
+    href: selection/create-dynamic.md
+  - name: Retrieve members of a selection
+    href: selection/get-selection-members.md
+  - name: Add members to a static selection
+    items:
+    - name: Using OSQL
+      href: selection/add-member-to-static-selection-osql.md
+    - name: Using entities layer
+      href: selection/add-member-to-static-selection-entities.md
+    - name: Using services layer
+      href: selection/add-member-to-static-selection-osql.md
