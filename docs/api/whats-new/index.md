@@ -1,8 +1,10 @@
 ---
 title: whats_new      
-description:                   
+description: What's new
 author: {github-id}             # Your GitHub alias.
-keywords:
+so.date:
+so.topic:
+keywords: changelog
 ---
 
 # What's new
