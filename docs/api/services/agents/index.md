@@ -40,7 +40,7 @@ using(SoSession newSession = SoSession.Authenticate("sam", "sam"))
 }
 ```
 
-In the example above, we have create an instance of the `IContactAgent` with use of the `GetContactAgent` method exposed by the `AgentFactory` class. Next, we use the created implementation of the `IContactAgent` to retrieve the `ContactEntity` as shown below.
+In the example above, we have created an instance of the `IContactAgent` with use of the `GetContactAgent` method exposed by the `AgentFactory` class. Next, we use the created implementation of the `IContactAgent` to retrieve the `ContactEntity` as shown below.
 
 ```csharp
 ContactEntity newConEnt = newConAgt.GetContactEntity(5);

@@ -14,5 +14,15 @@
     href: carriers/read-only-carriers.md
   - name: Entity carriers
     href: carriers/entity-carriers.md
+- name: Call service
+  items:
+  - name: Using NetServer binaries
+    href: call-service-using-ns-binaries.md
+  - name: Using NetServer proxy
+    href: call-service-using-ns-proxy.md
+  - name: Using NetServer proxy by adding a web service
+    href: call-service-using-ns-proxy-ws.md
+  - name: Wrapped or unwrapped proxy
+    href: wrapped-or-unwrapped-proxy.md
 - name: Dynamic Client Foundation
   href: dynamic-client-foundation.md

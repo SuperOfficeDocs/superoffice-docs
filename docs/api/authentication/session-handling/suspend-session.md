@@ -35,7 +35,7 @@ using(newSession)
   string state = newSession.Suspend();
   if (SoContext.CurrentIdentity == null)
   {
-    MessageBox.Show("Session is suspened");
+    MessageBox.Show("Session is suspended");
   }
   else
   {
@@ -57,3 +57,6 @@ using(newSession)
 ```
 
 Initially, we create a new session for the user with username SAL0. If authentication fails, the current identity property of the `SoContext` class will be set to null.
+
+> [!NOTE]
+> The `Continue` method uses the value returned from `Suspend`. This allows continuing a session without login in again. This can be very useful in web servers.

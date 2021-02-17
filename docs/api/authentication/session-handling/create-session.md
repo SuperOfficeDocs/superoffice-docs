@@ -31,6 +31,12 @@ using(newSession)
 
 Here we have created a new session via `SoSession` class. If the authentication data is correct, an instance of the `SoSession` is created.
 
+You can also write the test like this:
+
+```csharp
+if (newSession.Equals(null))
+```
+
 We have retrieved some data about the currently signed in user through the `SoContext`, class which holds information about the currently signed-in user.
 
 The `Authenticate` method has **3 overloads**. If you don't pass any parameters, it authenticates the user based on the currently signed-in Windows user.
