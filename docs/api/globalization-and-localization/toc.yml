@@ -4,6 +4,11 @@
   href: intro-to-address-formats.md
 - name: Resource providers
   href: resource-providers.md
+  items:
+  - name: Create resource provider for NetServer Core
+    href: create-resource-provider.md
+  - name: Create resx file
+    href: create-resx-file.md
 - name: CultureSettingHelper
   href: culturesettinghelper.md
 - name: Namespaces

@@ -15,15 +15,52 @@ SuperOffice supports approximately 15 languages and it's important to optimize t
 
 To minimize duplication, mistakes, or inconsistencies all SuperOffice products leverage NetServer resource providers for providing text resources.
 
-All existing resource string keys are defined in the [SuperOffice NetServer Core documentation][1].
+All existing resource string keys are defined in the `RC` class.
 
-## Example resource use
+## Available providers
 
-Throughout the SuperOffice CRM.web application, string resources are used extensively wherever common text appears.
+Below is a section from the *web.config* file.
+
+```XML
+<Globalization>
+  <ResourceProviders>
+  <!-- Resource providers decode [SR_XYZ_STRING] resource strings into localized resources.
+    The FieldLabelProvider handles overrides set through SoAdmin -->
+  <add name="FieldLabelProvider" rank="10" assemblyname="SuperOffice.DCF" objecttype="SuperOffice.Globalization.FieldLabelProvider" />
+  <add name="ResourceDllProvider" rank="20" assemblyname="SuperOffice.DCF" objecttype="SuperOffice.Globalization.ResourceDllProvider" params="SuperOffice.Web.Globalization.ResourceStrings;SuperOffice.Web.Globalization" />
+  <add name="CurrentValueProvider" rank="30" assemblyname="SuperOffice.CRMWeb" objecttype="SuperOffice.CRM.Web.Globalization.CurrentAsResourceProvider" />
+  <add name="TemplateTagProvider" rank="40" assemblyname="SuperOffice.CRMWeb" objecttype="SuperOffice.CRM.Web.Globalization.TemplateTagAsResourceProvider" />
+  <add name="PreferenceValueProvider" rank="50" assemblyname="SuperOffice.CRMWeb" objecttype="SuperOffice.CRM.Web.Globalization.UserPreferenceAsResourceProvider" />
+  </ResourceProviders>
+</Globalization>
+```
+
+As we can see in the config section there are 5 resource providers listed. The provider that will provide the resource string is `ResourceDllProvider`.
+
+```XML
+<add name="ResourceDllProvider" rank="20" assemblyname="SuperOffice.DCF" objecttype="SuperOffice.Globalization.ResourceDllProvider" params="SuperOffice.Web.Globalization.ResourceStrings;SuperOffice.Web.Globalization" />
+```
+
+This line will load the satellite assembly from the *SuperOffice.Web.Globalization.dll* depending on the language that you selected when you login to SuperOffice. For example, if you chose English as the language when you log into the system this statement will load the English resource satellite assembly to the *SuperOffice.Web.Globalization.dll* file in *bin\\en-us*.
+
+The other resource providers that are listed in the above code section are
+
+* FieldLabelProvider - The field label provider supports customization using the SOADMIN client.  Replacement text labels are stored in the database in the LocaleText table. This provider handles the label customization rules.
+* CurrentValueProvider – This provider will provide us with current values of a given user. Current values mean the current contact of a given user, the month of a given user in the calendar, the current appointment of a given user and so on. For example the current company name is used in the menu as: -
+
+  &lt;caption&gt;\[SR\_MENU\_SELECTION\_GOTO\_CONTACT\] \[current:contact\_name\]&lt;/caption&gt;
+
+* TemplateTagProvider – The tags of the document templates of the Six Web application will be provided by this provider. The Template tags are defined for use in the document templates. They represent complex strings computed from the current values. For example, \[name\] is the name of the current company. \[cont\] is the name of the current company’s our-contact.
+* Note that template tags may trigger several agent calls to compute the results.
+* PreferenceValueProvider – This is the provider that will provide us with the preference values of a given user. For example Splitter positions will determine the size of the cards that appear in a give page of the application.
+
+## Example use
+
+ThroughoutSuperOffice CRM, string resources are used extensively wherever common text appears.
 
 Below is an example from the *SoContactPanel.config* file.
 
-The CRM.web application UI is declared in SuperOffice Markup Language (SOML) configuration files, where the UI elements are declared using XML. Resource strings are used a lot and appear obvious everywhere there is text inside square brackets. The example is even more recognizable by the binding attribute `binding="resources"`.
+The UI is declared in SuperOffice Markup Language (SOML) configuration files, where the UI elements are declared using XML. Resource strings are used a lot and appear obvious everywhere there is text inside square brackets. The example is even more recognizable by the binding attribute `binding="resources"`.
 
 ```XML
 <view id="more" type="SoView" soprotocol="udef" current="contact" rendermode="display" ...>
@@ -32,85 +69,27 @@ The CRM.web application UI is declared in SuperOffice Markup Language (SOML) con
 ...
 ```
 
-## How to create a resource provider
+We can see that in the `caption` tag it does not give us the actual caption instead it gives a string that is formatted in a specific way. So when the application encounters a string like this in its config file, the resource mechanism comes into play.
 
-All resource providers must be compiled in .Net assemblies. SuperOffice provider a base class in the *SuperOffice.Plugins.dll* called `ResourceDllProviderBase`, which makes it easy to get started.
+What the application will do when it encounters a string like this it will call the appropriate resource DLL to find the actual string that matches the string "SR\_MORE\_CONTACT" in the XML file. The application will find the correct XML file from the language that we select when we log into the system.
 
-Implementations must decorate the class with the `ResourceProvider` attribute, which NetServer will use to discover and load at runtime. The first parameter must be a name that uniquely identifies your provider. The second parameter is a priority number that can force your provider to be called before others, and thus override already-existing stuff. This is not normally a recommended practice, however, the lowest priority value is used first. SuperOffice default priority values are `int.MaxValue` divided by 2. If another provider that includes the same resource names with a lower priority value, such as `int.MaxValue / 3`, it takes precedence and overrides default resources supplied by SuperOffice.
+## Add your own resources
 
-The constructor expects two parameters:
+Now since SuperOffice has provided us with a `ResourceDllProvider`, we are able to add our own resources and be able to show them in a given page. There are 3 ways that we can do this:
 
-* the name of the executing assembly
-* the name of the resx resource files that contains the language-specific text resources.
+* We can [write our own ResourceDllProvider][1] and add it to the config file so that it will read the resource files the way we want. If we are developing our own `ResourceDllProvider` we have to implement the `IResourceProvider` interface in order to maintain the common interface between other components of the system.
 
-## Code example
+* The second method is we can use the SuperOffice `ResourceDllProvider` as it is and develop our own language resource satellite assemblies. To do this we need to specify the name of the new DLL as the parameter in the config file. For example if we want to add new strings to the French satellite assembly we can [develop our own Resx files][2] and then compile it to a satellite assembly. When we add our French satellite assembly next to the one already exists we should get the strings we added or modified.
 
-```csharp
-[ResourceProvider( "PartnerXResourceProvider", int.MaxValue )]
-public class ResourceProvider : ResourceDllProviderBase
-{
-  public ResourceProvider()
-    : base( System.Reflection.Assembly.GetExecutingAssembly(), ".Resources" )
-  {
-  }
-}
-```
+* The third method is to use the `ResXmlFileProvider` to provide custom strings without compiling them into resource DLLs. XML files are easier to edit but tend to be larger than the compiled DLL files.
 
-## Dependencies
+<!-- ## See also
 
-Assemblies must be declared in the application's configuration file. The key here is not special or mapped to anything else. It only needs to unique from other assemblies declared in the DynamicLoad section. The value must be the name of the resource assembly.
-
-The value is optionally a full path, or when placed in the applications directory only needs to be the name of the assembly.
-
-```XML
-<SuperOffice>
-  ...
-  <Factory>
-    <DynamicLoad>
-    ...
-      <!-- Add custom plugins etc here -->
-      <add key="UniqueName" value="UniqueName.Resources.dll" />
-    </DynamicLoad>
-  </Factory>
-  ...
-</SuperOffice>
-```
-
-## Example .NET project
-
-In the example below, the project uses the NuGet package `SuperOffice.NetServer.Core` to easily get a reference to the *SuperOffice.Plugins.dll*.
-
-![Example .Net project][img1]
-
-## Resource Codes
-
-| Abbreviation | Country |
-|---|---|
-|cs|Czech (Czech Republic)|
-|da|Danish|
-|de|German|
-|en-us| English - United States|
-|es| Spanish|
-|fi|Finnish|
-|fr|French|
-|it|Italian|
-|ja|Japanese|
-|nl|Dutch|
-|no|Norwegian|
-|pl|Polish|
-|default (see image)|English - United Kingdom|
-|ru|Russian|
-|sv|Swedish|
-|zh-cn|Chinese (S)|
-
-## Do it yourself
-
-If you have special requirements, implement the `IResourceProvider` interface, or override the base class implementation. The methods `CanInitialize()`, `Initialize()`, `GetSupportedLanguages()`, and `GetResource(string symbol)` are easy to understand and implement.
-
-The idea behind `CanInitialize` is that some providers may need database access, and so they should not be initialized too early. By doing a quick check and returning true only when everything is ready, you can postpone the initialization to the correct moment.
+* IResourceProvider
+* ResourceDllProvider
+* ResXmlFileProvider
+* TemplateTagAsResourceProvider -->
 
 <!-- Referenced links -->
-[1]: https://community.superoffice.com/documentation/SDK/SO.NetServer.Data.Access/html/T_SuperOffice_Globalization_RC.htm
-
-<!-- Referenced images -->
-[img1]: media/netserver-resource-provider.png
+[1]: create-resource-provider.md
+[2]: create-resx-file.md
