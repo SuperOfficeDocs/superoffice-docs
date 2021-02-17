@@ -15,8 +15,16 @@
     href: active-directory.md
   - name: Changes in v. 7
     href: auth-in-7.md
-  - name: What's in a username
-    href: what-is-username.md
+  - name: Users
+    items:
+    - name: What's in a username
+      href: what-is-username.md
+    - name: Anonymous and external users
+      href: anonymous-vs-external-user.md
+    - name: Configure anonymous users
+      href: config-anonymous-user.md
+    - name: Configure external users
+      href: config-external-user.md
   - name: Session handling
     href: session-handling/index.md
     items:
