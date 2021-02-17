@@ -26,3 +26,12 @@
     href: wrapped-or-unwrapped-proxy.md
 - name: Dynamic Client Foundation
   href: dynamic-client-foundation.md
+- name: Scripting
+  href: scripting/index.md
+  items:
+  - name: Configuration
+    href: scripting/configure.md
+  - name: Basic scripting
+    href: scripting/basic-scripting.md
+  - name: Three ways to run scripts
+    href: scripting/run-scripts.md
