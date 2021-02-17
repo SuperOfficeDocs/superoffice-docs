@@ -3,7 +3,7 @@
 title: get_localized_address       # (Required) Very important for SEO.
 description: Read the LocalizedAddress # (Required)
 author: {github-id}             # Your GitHub alias.
-so.date.md
+so.date:
 keywords:
 so.topic: howto          # article, howto, reference, concept, guide
 

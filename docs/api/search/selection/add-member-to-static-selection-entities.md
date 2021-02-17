@@ -18,7 +18,7 @@ The example demonstrates the use of entities to achieve the task.
 
 ## Code
 
-[!include[ALT](./includes/add-to-static-entities.md)]
+[!code-csharp[CS](includes/add-to-static-entities.cs)]
 
 ## Walk-through
 
@@ -28,4 +28,4 @@ Now we can loop through the person collection of the contact entity and add the 
 
 This example only adds persons from one contact, but if you want you may add persons from many contacts as members of a static selection. Also, you can notice the contact ID and the person ID has not been hard-coded, but if you want to this is also a possibility.
 
-[!include[ALT](includes/note-hardocing-id.md)]
+[!include[ALT](includes/note-hardcoding-id.md)]
