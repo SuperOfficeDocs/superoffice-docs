@@ -62,7 +62,7 @@ using SuperOffice.CRM.Rows;
 using SuperOffice;
 using(SoSession session = SoSession.Authenticate("SAL0", ""))
 {
-  // retrive the contact row no 4
+  // retrieve the contact row no 4
 
   ContactRow conRow = ContactRow.GetFromIdxContactId(4);
   // get the postal address of the contact row no 4
@@ -81,22 +81,7 @@ You can see we have done the same thing using only rows. The `FormatContact` met
 
 **Pre-defined address field names for person and contact:**
 
-| Person address types | Contact address types | Quote address types|
-|---|---|---|
-| Address1  | PostalAddress1 |BillingAddress1  |
-| Address2  | PostalAddress2 |BillingAddress2  |
-| Address3  | PostalAddress3 |BillingAddress3  |
-| City      | PostalCity     |BillingCity      |
-| County    | PostalCounty   |BillingCounty    |
-| State     | PostalState    |BillingState     |
-| Zipcode   | PostalZipcode  |BillingZipcode   |
-|           | StreetAddress1 |ShippingAddress1 |
-|           | StreetAddress2 |ShippingAddress2 |
-|           | StreetAddress3 |ShippingAddress3 |
-|           | StreetCity     |ShippingCity     |
-|           | StreetCounty   |ShippingCounty   |
-|           | StreetState    |ShippingState    |
-|           | StreetZipcode  |ShippingZipcode  |
+[!include[ALT](./includes/pre-defined-address-fields.md)]
 
 Writing address information back to this data structure is not useful. There is no way to persist changes to a **FormattedAddress** back to the database. Therefore, when writing code inside NetServer core use the Contact and Person entity types to persist address changes. Both entity types expose an `Address` property with relevant properties for dealing with respective address formats.
 

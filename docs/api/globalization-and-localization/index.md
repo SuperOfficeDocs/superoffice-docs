@@ -28,7 +28,7 @@ Localization is the process of translating an application's resources into local
 
 The localization features in NetServer make an application suit the styles of a region.
 
-All classes that help perform localization formatting reside in the `SuperOffice.CRM.Globalization` namespace.
+All classes that help perform localization formatting reside in the [SuperOffice.CRM.Globalization][8] namespace.
 
 The main classes are:
 
@@ -47,3 +47,4 @@ These contain all the functions you need to localize your application. See the [
 [5]: culturedataformatter.md
 [6]: personnameformatter.md
 [7]: phoneformatter.md
+[8]: superoffice-crm-globalization.md

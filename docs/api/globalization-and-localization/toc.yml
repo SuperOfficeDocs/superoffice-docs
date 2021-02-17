@@ -6,6 +6,12 @@
   href: resource-providers.md
 - name: CultureSettingHelper
   href: culturesettinghelper.md
+- name: Namespaces
+  items:
+  - name: SuperOffice.Globalization
+    href: superoffice-globalization.md
+  - name: SuperOffice.CRM.Globalization
+    href: superoffice-crm-globalization.md
 - name: Localization classes
   items:
   - name: AddressFormatter
@@ -16,3 +22,11 @@
     href: personnameformatter.md
   - name: PhoneFormatter
     href: phoneformatter.md
+- name: Howto
+  items:
+  - name: Get LocalizedAddress
+    href: get-localized-address.md
+  - name: Set LocalizedAddress
+    href: set-localized-address.md
+  - name: AddressHelper
+    href: addresshelper.md
