@@ -1,0 +1,10 @@
+- name: Webhooks
+  href: index.md
+- name: Event details
+  href: event-details.md
+- name: Webhook subscription
+  href: subscription.md
+- name: Webhook notification
+  href: notification.md
+- name: Webhook secrets
+  href: security.md

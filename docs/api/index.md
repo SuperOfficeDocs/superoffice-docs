@@ -114,6 +114,7 @@ so.date:
 
 ### W
 
+* [Webhooks][25]
 * [What's new][1]
 
 ### X
@@ -147,3 +148,4 @@ so.date:
 [22]: services/agents/index.md
 [23]: services/carriers/index.md
 [24]: soap/index.md
+[25]: webhooks/index.md
