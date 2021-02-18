@@ -1,23 +1,36 @@
 - name: Lists
   href: index.md
-- name: Types
+- name: List providers
+  href: providers/index.md
   items:
-  - name: TypedMDOProviders
-    href: typed-list.md
-  - name: UserDefinedListProvider
-    href: udef-list.md
-  - name: GroupViewProviders
-    href: group-view.md
-  - name: GenericMDOProviders
-    href: generic-list.md
-- name: How to
+  - name: Types
+    items:
+    - name: TypedMDOProviders
+      href: providers/typed-list.md
+    - name: UserDefinedListProvider
+      href: providers/udef-list.md
+    - name: GroupViewProviders
+      href: providers/group-view.md
+    - name: GenericMDOProviders
+      href: providers/generic-list.md
+  - name: How to
+    items:
+    - name: Retrieve a list
+      href: providers/get-list.md
+    - name: Add list item
+      href: providers/add-list-item.md
+    - name: Create list plugin
+      href: providers/create-list-plugin.md
+  - name: Associate list and cache
+    href: providers/associate-list-and-cache.md
+- name: List agents (services)
+  href: agents/index.md
   items:
-  - name: Retrieve a list
-    href: get-list.md
-  - name: Add list item
-    href: add-list-item.md
-  - name: Create list plugin
-    href: create-list-plugin.md
-- name: Associate list and cache
-  href: associate-list-and-cache.md
-  
+  - name: IListAgent
+    href: agents/ilistagent.md
+  - name: MDOListAgent
+    href: agents/mdolistagent.md
+  - name: Example 1
+    href: agents/get-set-category.md
+  - name: Example 2
+    href: agents/show-countrylist-in-combobox.md

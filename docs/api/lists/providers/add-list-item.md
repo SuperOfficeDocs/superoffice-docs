@@ -55,4 +55,4 @@ We have created a `CategoryRow`, filled some basic properties of the row, and sa
 We have not stopped at creating a category, but we have a created a `CategoryGroupLinkRow` as well. This is necessary to specify that this category belongs to this group. Creating a category group link row makes the category appear for the given group in the GUI.
 
 <!-- Referenced links -->
-[1]: ../rows/index.md
+[1]: ../../rows/index.md

@@ -23,4 +23,4 @@ In the example above, we have passed the name of the list needed (category). The
 All `RootItems` are taken for the corresponding table, in this case, the category table. If the MDO mode of the `CategoryList` is turned on, then some records may be present in the history table corresponding to the category list so that the history list may be nonempty. Similarly, if the heading table contains records corresponding to the category list, then the `HeadingItems` of the category list will also be nonempty.
 
 <!-- Referenced links -->
-[1]: ../../lists/generic-list.md
+[1]: ../../lists/providers/generic-list.md

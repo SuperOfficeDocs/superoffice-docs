@@ -32,4 +32,4 @@ For example, in the `Sale` Entity, the `Associate` property would refer to the `
 * [Add list item using rows][1]
 
 <!-- Referenced links -->
-[1]: ../lists/add-list-item.md
+[1]: ../lists/providers/add-list-item.md

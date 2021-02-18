@@ -152,4 +152,4 @@ using(SoSession session = SoSession.Authenticate("SAL0", ""))
 In the above example when we get the country list using the `GetCountryList` method of the `SoLists` class, it will create the list using the methods we overrode and it will revert to the original implementation of the methods that we did not override. So here we will only get the countries that start with the letter A.
 
 <!-- Referenced links -->
-[1]: ../osql/index.md
+[1]: ../../osql/index.md

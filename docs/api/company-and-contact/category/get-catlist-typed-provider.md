@@ -33,7 +33,7 @@ The `RootItems` are defined by the records in the `category` table only if the M
 ![01][img1]
 
 <!-- Referenced links -->
-[1]: ../../lists/typed-list.md
+[1]: ../../lists/providers/typed-list.md
 
 <!-- Referenced images -->
 [img1]: media/image001.jpg

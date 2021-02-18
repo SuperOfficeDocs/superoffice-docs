@@ -7,29 +7,22 @@ keywords:
 so.topic: concept
 ---
 
-# Lists (SoListProviders)
+# Lists
 
-This section will expose the **NetServer List layer** which can be used to access and use the various lists in NetServer in your own applications. It will give you an idea about different list providers and places where each of them becomes important.
-
-We have categorized lists according to the different providers present in the NetServer List layer since the output varies with the list provider.
-
-These lists are provided under the `SuperOffice.CRM.Lists` namespace, and you can use the `SoListProviderFactory` to retrieve various types of lists.
-
-There are several different types of SoListProviders. Any list can be retrieved by varying the parameters passed to the `Create` method of the `SoListProviderFactory`. In the rest of this section, we will be explaining with examples, how to retrieve various types of Lists.
+This section will focus on the many lists that the NetServer provides to make our lives easy. Here we will discuss: what these lists are, how we can use them, the most important list interfaces, and finally some examples of how we can use these lists.
 
 ## Why use a list
 
-When developing applications, it is necessary to provide lists so that the users can be allowed to select items with ease. Using the lists provided by the NetServer list providers it is possible to add lists to your application.
+When developing applications, it is necessary to provide lists so that the users can be allowed to select items with ease.
 
-There are different types of lists provided by the `SoListProviderFactory`. They can be categorized as follows:
+In NetServer a list is a set of data presented as an object that can be directly bound to any control which supports lists. The advantage is that we do not have to construct the list, all we have to do is call a NetServer method, and then we can get the list made exactly the way it is wanted. This saves us a lot of time and we don’t have to do the complex things that involve building up a list like this all by ourselves.
 
-* [Typed list][2] (TypedMDOProviders)
-* [User-defined list][3] (UserDefinedListProvider)
-* [Group view][4] (GroupViewProviders)
-* [Generic list][5] (GenericMDOProviders)
+## Options
+
+* Data layer: [SoListProviders][1]
+* Services layer: [IListAgent][2] and [IMDOAgent][3]
 
 <!-- Referenced links -->
-[2]: typed-list.md
-[3]: udef-list.md
-[4]: group-view.md
-[5]: generic-list.md
+[1]: providers/index.md
+[2]: agents/ilistagent.md
+[3]: agents/imdoagent.md
