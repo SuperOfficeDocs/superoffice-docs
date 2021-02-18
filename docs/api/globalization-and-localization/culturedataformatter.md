@@ -9,7 +9,7 @@ keywords:
 
 # CultureDataFormatter
 
-This is a helper class used to encode, parse and reformat culturally sensitive data used throughout SuperOffice. The most common case is when working with [Archive Providers][1] and performing [Mass Operations][2].
+This is a helper class used to encode, parse and reformat culturally sensitive data used throughout SuperOffice without culture knowledge and a front end with such knowledge. The most common case is when working with [Archive Providers][1] and performing [Mass Operations][2].
 
 Additionally, MDO lists such as Business and Category often contain delimited multicultural strings that require parsing. In the administration pages of SuperOffice, an MDO Item is easily edited in an MDO Item dialog.
 

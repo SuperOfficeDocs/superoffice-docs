@@ -1,12 +1,34 @@
 - name: Search
   href: index.md
+- name: Search services
+  items:
+  - name: IFindAgent
+    href: ifindagent/index.md
+    items:
+    - name: Using criteria
+      href: ifindagent/using-criteria.md
+  - name: IArchiveAgent
+    href: iarchiveagent/index.md
+    items:
+    - name: Working with IArchiveAgent
+      href: iarchiveagent/iarchiveagent.md
+    - name: ActivityArchive filters
+      href: iarchiveagent/using-activityarchive-filters.md
+    - name: Using criteria
+      href: iarchiveagent/using-criteria.md
 - name: Selections
   herf: selection/index.md
   items:
   - name: Create a dynamic selection
     href: selection/create-dynamic.md
   - name: Retrieve members of a selection
-    href: selection/get-selection-members.md
+    items:
+    - name: Using entities
+      href: selection/get-selection-members-entity.md
+    - name: Using archive providers
+      href: selection/get-selection-members-provider.md
+    - name: Using services
+      href: selection/get-selection-members-services.md
   - name: Add members to a static selection
     items:
     - name: Using OSQL

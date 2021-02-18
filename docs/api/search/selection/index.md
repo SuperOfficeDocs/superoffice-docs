@@ -24,6 +24,23 @@ Below is a screen shot of the task panel for the above selection.
 
 As shown, you can send an email to all the persons listed in the selection, or you can select one or many persons you want to send the email to from the selection member list.
 
+## Static or dynamic?
+
+A Selection can be updated either on the fly, called **dynamic**, whereas the rests are called **static**.
+
+## How to retrieve members of a specific selection
+
+Members of a specific selection can be retrieved in multiple ways:
+
+* [Using the Selection Entity][1]
+* [Using the SelectionProvider][2]
+* [Using services][3]
+
+<!-- Referenced links -->
+[1]: get-selection-members-entity.md
+[2]: get-selection-members-provider.md
+[3]: get-selection-members-services.md
+
 <!-- Referenced images -->
 [img1]: media/image001.jpg
 [img2]: media/image002.jpg
