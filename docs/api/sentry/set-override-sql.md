@@ -5,7 +5,7 @@ description: Setting data-rights with sentry and userpreferences SQL # (Required
 author: {github-id}             # Your GitHub alias.
 so.date: 02.06.2007
 keywords:
-so.topic: article            # article, howto, reference, concept, guide
+so.topic: howto            # article, howto, reference, concept, guide
 
 # Optional fields. Don't forget to remove # if you need a field.
 so.envir: onsite            # cloud or onsite

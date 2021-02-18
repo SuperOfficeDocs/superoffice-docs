@@ -28,8 +28,8 @@
   items:
   - name: IListAgent
     href: agents/ilistagent.md
-  - name: MDOListAgent
-    href: agents/mdolistagent.md
+  - name: IMDOAgent
+    href: agents/imdoagent.md
   - name: Example 1
     href: agents/get-set-category.md
   - name: Example 2

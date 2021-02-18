@@ -13,6 +13,13 @@
     href: set-override-sql.md
   - name: COM
     href: set-override-com.md
+- name: In services
+  href: in-services/index.md
+  items:
+  - name: TableRight
+    href: in-services/tableright.md
+  - name: FieldProperties
+    href: in-services/fieldproperties.md
 - name: Plugins
   href: plugins/index.md
   items:
