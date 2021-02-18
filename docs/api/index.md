@@ -1,9 +1,7 @@
 ---
-# This basic template provides core metadata fields for Markdown articles on docs.superoffice.com.
-
 # Mandatory fields.
-title: data_access       # (Required) Very important for SEO. Intent in a unique string of 43-59 chars including spaces.
-description: SuperOffice data access documentation # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
+title: data_access       # (Required) Very important for SEO.
+description: SuperOffice data access documentation # (Required) Important for SEO.
 author: {github-id}             # Your GitHub alias.
 keywords:
 so.topic: generic                # article, howto, reference, concept, guide
@@ -41,7 +39,7 @@ so.date:
 
 * [Diary][14]
 
-<!-- * [Documents](documents/index.md) -->
+* [Documents][26]
 
 ### E
 
@@ -149,3 +147,4 @@ so.date:
 [23]: services/carriers/index.md
 [24]: soap/index.md
 [25]: webhooks/index.md
+[26]: documents/index.md
