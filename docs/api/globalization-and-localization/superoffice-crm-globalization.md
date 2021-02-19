@@ -43,6 +43,6 @@ This class is a helper class that will serve the purpose of [formatting the phon
 
 <!-- Referenced links -->
 [1]: address/addressformatter.md
-[2]: culturedataformatter.md
+[2]: culture/culturedataformatter.md
 [3]: personnameformatter.md
 [4]: phoneformatter.md

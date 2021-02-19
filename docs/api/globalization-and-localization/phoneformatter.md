@@ -118,6 +118,7 @@ using(SoSession session = SoSession.Authenticate("SAL0", ""))
   // output:
   // 077 74884782
 }
-```XML
+```
+
 <!-- Referenced images -->
 [img1]: media/image004.gif

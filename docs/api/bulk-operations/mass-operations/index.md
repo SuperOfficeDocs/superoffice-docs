@@ -92,5 +92,5 @@ SuperOffice does not support [webhooks][6] or travel transaction logging for ext
 [2]: https://github.com/SuperOfficeDocs/database/blob/main/docs/index.md
 [3]: https://github.com/SuperOfficeDocs/database/blob/main/docs/tables/index.md
 [4]: protected-tables.md
-[5]: ../../globalization-and-localization/culturedataformatter.md
+[5]: ../../globalization-and-localization/culture/culturedataformatter.md
 [6]: ../../webhooks/index.md

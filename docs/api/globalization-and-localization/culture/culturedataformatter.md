@@ -104,8 +104,8 @@ Additional encode methods on the CultureDataFormatter class include:
 As these methods are more optimal, we recommend you chose to use these over the plain Encode method.
 
 <!-- Referenced links -->
-[1]: ../archive-providers/index.md
-[2]: ../bulk-operations/mass-operations/index.md
+[1]: ../../archive-providers/index.md
+[2]: ../../bulk-operations/mass-operations/index.md
 
 <!-- Referenced images -->
 [img1]: media/mdolistitemdialog.png

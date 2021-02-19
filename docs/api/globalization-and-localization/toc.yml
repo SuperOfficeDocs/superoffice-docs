@@ -9,15 +9,23 @@
     href: address/set-localized-address.md
   - name: AddressHelper
     href: address/addresshelper.md
-- name: Resource providers
-  href: resource-providers.md
+- name: Language
+  href: language/resource-providers.md
   items:
   - name: Create resource provider for NetServer Core
-    href: create-resource-provider.md
+    href: language/create-resource-provider.md
   - name: Create resx file
-    href: create-resx-file.md
-- name: CultureSettingHelper
-  href: culturesettinghelper.md
+    href: language/create-resx-file.md
+  - name: Translate strings
+    href: language/translate-strings.md
+- name: Culture
+  items:
+  - name: CultureSettingHelper
+    href: culture/culturesettinghelper.md
+  - name: Display values in current culture
+    href: culture/display-in-current-culture.md
+  - name: Parse values to NetServer format
+    href: culture/parse-values.md
 - name: Namespaces
   items:
   - name: SuperOffice.Globalization
@@ -29,7 +37,7 @@
   - name: AddressFormatter
     href: address/addressformatter.md
   - name: CultureDataFormatter
-    href: culturedataformatter.md
+    href: culture/culturedataformatter.md
   - name: PersonNameFormatter
     href: personnameformatter.md
   - name: PhoneFormatter

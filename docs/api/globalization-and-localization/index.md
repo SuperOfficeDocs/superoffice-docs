@@ -54,11 +54,11 @@ The main classes are:
 These contain all the functions you need to localize your application. See the [Resource Providers][2] documentation to learn more about how to include more culture-specific resources for SuperOffice.
 
 <!-- Referenced links -->
-[1]: resource-providers.md
+[1]: language/resource-providers.md
 [2]: https://community.superoffice.com/documentation/SDK/SO.NetServer.Data.Access/html/T_SuperOffice_Globalization_RC.htm
-[3]: culturesettinghelper.md
+[3]: culture/culturesettinghelper.md
 [4]: address/addressformatter.md
-[5]: culturedataformatter.md
+[5]: culture/culturedataformatter.md
 [6]: personnameformatter.md
 [7]: phoneformatter.md
 [8]: superoffice-crm-globalization.md
