@@ -42,7 +42,7 @@ This class is a helper class that implements methods to [format the names of a p
 This class is a helper class that will serve the purpose of [formatting the phone number of a contact or a person][4] to a given culture.
 
 <!-- Referenced links -->
-[1]: addressformatter.md
+[1]: address/addressformatter.md
 [2]: culturedataformatter.md
 [3]: personnameformatter.md
 [4]: phoneformatter.md

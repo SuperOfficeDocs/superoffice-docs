@@ -1,7 +1,14 @@
 - name: Globalization and localization
   href: index.md
-- name: Address formats (intro)
-  href: intro-to-address-formats.md
+- name: Addresses
+  href: address/intro-to-address-formats.md
+  items:
+  - name: Get LocalizedAddress
+    href: address/get-localized-address.md
+  - name: Set LocalizedAddress
+    href: address/set-localized-address.md
+  - name: AddressHelper
+    href: address/addresshelper.md
 - name: Resource providers
   href: resource-providers.md
   items:
@@ -20,18 +27,10 @@
 - name: Localization classes
   items:
   - name: AddressFormatter
-    href: addressformatter.md
+    href: address/addressformatter.md
   - name: CultureDataFormatter
     href: culturedataformatter.md
   - name: PersonNameFormatter
     href: personnameformatter.md
   - name: PhoneFormatter
     href: phoneformatter.md
-- name: Howto
-  items:
-  - name: Get LocalizedAddress
-    href: get-localized-address.md
-  - name: Set LocalizedAddress
-    href: set-localized-address.md
-  - name: AddressHelper
-    href: addresshelper.md

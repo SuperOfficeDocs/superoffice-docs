@@ -35,7 +35,7 @@ A `FormattedAddress` is a collection of `FormattedFields` data types, which cont
 
 In the SuperOffice web service API, all address fields are in a structure called `LocalizedAddress`.
 
-![Localized Address]()
+![Localized Address][img3]
 
 This is a multi-dimensional array of `LocalizedField`, where the first dimension contains each address line. The second dimension contains each field in that line. Each `LocalizedField` contains, among others, 3 key properties: AddressType, Name, and Value.
 
@@ -61,11 +61,11 @@ France, however, has 3 lines total, with the first and second lines containing j
 
 ### [NetServer Core](#tab/fieldarray-1)
 
-![Field array elements][img3]
+![Field array elements][img4]
 
 ### [Web services](#tab/fieldarray-2)
 
-![Field array elements][img4]
+![Field array elements][img5]
 
 ***
 

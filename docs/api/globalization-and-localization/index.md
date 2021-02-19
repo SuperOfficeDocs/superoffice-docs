@@ -57,7 +57,7 @@ These contain all the functions you need to localize your application. See the [
 [1]: resource-providers.md
 [2]: https://community.superoffice.com/documentation/SDK/SO.NetServer.Data.Access/html/T_SuperOffice_Globalization_RC.htm
 [3]: culturesettinghelper.md
-[4]: addressformatter.md
+[4]: address/addressformatter.md
 [5]: culturedataformatter.md
 [6]: personnameformatter.md
 [7]: phoneformatter.md
