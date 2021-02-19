@@ -42,4 +42,6 @@
     - name: Issue
       href: tickets/issue-ticket.md
     - name: Renewal
-      href: tickets/renew-ticket.md 
+      href: tickets/renew-ticket.md
+  - name: OpenID Authorization Code Flow tutorial
+    href: openid-authorization-code-flow.md
