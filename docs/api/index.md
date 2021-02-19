@@ -106,6 +106,8 @@ so.date:
 
 ### T
 
+* [Tooltip][27]
+
 ### U
 
 ### V
@@ -148,3 +150,4 @@ so.date:
 [24]: soap/index.md
 [25]: webhooks/index.md
 [26]: documents/index.md
+[27]: tooltip-service/index.md
