@@ -16,6 +16,31 @@
     href: carriers/entity-carriers.md
 - name: Call service
   items:
+  - name: From .Net with SuperOffice tools
+    href: call-ws-from-dotnet-so-tools/index.md
+    items:
+    - name: Configure
+      href: call-ws-from-dotnet-so-tools/config.md
+    - name: Authenticate and get entity
+      href: call-ws-from-dotnet-so-tools/calling.md
+  - name: From .Net with standard tools
+    href: call-ws-from-dotnet-std-tools/index.md
+    items:
+    - name: Add web reference
+      href: call-ws-from-dotnet-std-tools/add-web-reference.md
+    - name: Authenticate and get entity
+      href: ../soap/make-soap-call-crm7.md
+  - name: From Java
+    href: call-ws-from-java/index.md
+    items:
+    - name: Create web service client
+      href: call-ws-from-java/create-ws-client-netbeans.md
+    - name: Create secret
+      href: call-ws-from-java/create-secret-java.md
+    - name: Authenticate
+      href: call-ws-from-java/auth-java.md
+    - name: Get entity
+      href: call-ws-from-java/get-entity.md
   - name: Using NetServer binaries
     href: call-service-using-ns-binaries.md
   - name: Using NetServer proxy
