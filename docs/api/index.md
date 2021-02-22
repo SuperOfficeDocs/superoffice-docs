@@ -32,13 +32,11 @@ so.date:
 * [Carriers][23]
 * [Category][16]
 * [Contact][15]
-
-<!-- * [Custom fields](custom-fields/index.md) -->
+* [Custom fields][29]
 
 ### D
 
 * [Diary][14]
-
 * [Documents][26]
 
 ### E
@@ -111,6 +109,8 @@ so.date:
 
 ### U
 
+* [Udef][29]
+
 ### V
 
 ### W
@@ -153,3 +153,4 @@ so.date:
 [26]: documents/index.md
 [27]: tooltip-service/index.md
 [28]: person/index.md
+[29]: custom-fields/index.md

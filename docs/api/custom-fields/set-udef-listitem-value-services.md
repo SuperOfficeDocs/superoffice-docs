@@ -1,0 +1,52 @@
+---
+# Mandatory fields.
+title: set_udef_listitem_value_ws       # (Required) Very important for SEO.
+description: How to set a user-defined list item on a Udef field using services # (Required) Important for SEO.
+author: {github-id}             # Your GitHub alias.
+so.date:
+keywords: api-services
+so.topic: howto               # article, howto, reference, concept, guide
+
+# Optional fields. Don't forget to remove # if you need a field.
+# so.envir:                     # cloud or onsite
+# so.client:                    # online, web, win, pocket, or mobile
+---
+
+# How to set a user-defined list item on a Udef field (services)
+
+This example demonstrates how to set a user-defined list item value on a user-defined field on a given **contact** using Net Server services.
+
+We will be using the user-defined field `Udlist one` and populate a list box with the list items for it. When an item is picked from the list box, the selected value is displayed. Clicking the **Save** button will set the selected value to the user-defined field `Udlist one` for the contact.
+
+The following screenshot shows how the application displays the list of values for the given user-defined field.
+
+![03][img1]
+
+## Populate the listbox
+
+[!code-csharp[CS](includes/populate-listbox-services.cs)]
+
+The above code segment shows how the population of the list box is done using the `GetList` method of `SuperOffice.CRM.Services.IMDOAgent`. This method accepts a custom list ID and returns the item array of the same:
+
+[!code-csharp[CS](includes/populate-listbox-services.cs?range=27)]
+
+Next, we have set the `MDOListItem` array as the data source for the list box:
+
+[!code-csharp[CS](includes/populate-listbox-services.cs?range=30-32)]
+
+## Set the user-defined field value
+
+This section explains how the value selected on the list box is set as the user-defined field value.
+
+[!code-csharp[CS](includes/set-udef-services.cs)]
+
+We have retrieved the `UserDefinedFields` collection for the contact of interest. This is a dictionary that holds the user-defined field data as a key-value pair where the key string is the `ProgId` of the UdefField. Thus the selected value is filled against the `ProgId` of the UdefField `Udlist one` as shown below.
+
+[!code-csharp[CS](includes/set-udef-services.cs?range=14-18)]
+
+Finally, the `SaveContactEntity` method is called to update the contact entity.
+
+<!-- [Source code (zip)](SetUdefListItem.zip) -->
+
+<!-- Referenced images -->
+[img1]: media/image003.jpg
