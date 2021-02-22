@@ -24,5 +24,7 @@
 - name: Recurrence
   href: recurrence/index.md
   items:
-  - name: Create recurring appointment
-    href: recurrence/create-recurring-appointment.md
+  - name: Create recurring appointment with entity
+    href: recurrence/create-recurring-appointment-entity.md
+  - name: Create recurring appointment with services
+    href: recurrence/create-recurring-appointment-services.md

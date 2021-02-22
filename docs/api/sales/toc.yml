@@ -1,7 +1,11 @@
 - name: Sales
   href: index.md
 - name: Link sale to appointment
-  href: link-sale-to-appointment.md
+  items:
+  - name: Using entities
+    href: link-sale-to-appointment-entity.md
+  - name: Using services
+    href: link-sale-to-appointment-services.md
 - name: SAINT
   href: saint/index.md
   items:

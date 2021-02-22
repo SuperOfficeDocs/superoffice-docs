@@ -1,7 +1,7 @@
 ---
 # Mandatory fields.
-title: create_recurring_appointment       # (Required) Very important for SEO.
-description: How to create a recurring appointment # (Required) Important for SEO.
+title: create_recurring_appointment_entity       # (Required) Very important for SEO.
+description: How to create a recurring appointment using entities # (Required) Important for SEO.
 author: {github-id}             # Your GitHub alias.
 so.date: 05.11.2016
 keywords: diary,entity
@@ -12,7 +12,7 @@ so.topic: howto           # article, howto, reference, concept, guide
 # so.client:                    # online, web, win, pocket, or mobile
 ---
 
-# How to create a recurring appointment
+# How to create a recurring appointment (data layer)
 
 This demonstrates the use of `AppointmentMatrix` to create recurring appointments. `SuperOffice.CRM.Entities.AppointmentMatrix` is a matrix holding information about repeating appointments and their participants.
 
@@ -24,7 +24,7 @@ The following screenshot shows the resulting recurring appointment in the SuperO
 
 ## Code
 
-[!code-csharp[CS](includes/create-recurring-apt.cs)]
+[!code-csharp[CS](includes/create-recurring-apt-entity.cs)]
 
 ## Walk-through
 
@@ -34,7 +34,7 @@ Next, we have created the appointment matrix passing the appointment to recur.
 
 In creating recurring appointments the most important part is **setting the recurrence information**. This is done by creating a recurrence pattern. In this example, the pattern is as such the appointment should recur daily for 8 days starting from tomorrow. Thus the recurrence pattern is set to *Daily* and further specified as *EveryWorkday*. The `RecurrencePattern` and `RecurrenceDailyPattern` are enumerations.
 
-Next, we have set the start and end dates for the repetition pattern. Using the `CalculateDays` method the days for the recurrence pattern are created. 
+Next, we have set the start and end dates for the repetition pattern. Using the `CalculateDays` method the days for the recurrence pattern are created.
 
 Finally, the recurrence information is assigned to the matrix and the matrix is saved to the database.
 

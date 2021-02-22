@@ -1,7 +1,7 @@
 ---
 # Mandatory fields.
-title: link_sale_to_appointment       # (Required) Very important for SEO.
-description: How to link a sale to an appointment  # (Required) Important for SEO.
+title: link_salerow_to_appointment       # (Required) Very important for SEO.
+description: How to link a sale to an appointment using entities # (Required) Important for SEO.
 author: {github-id}             # Your GitHub alias.
 so.date: 05.11.2016
 keywords:
@@ -12,9 +12,9 @@ so.topic: howto            # article, howto, reference, concept, guide
 # so.client:                    # online, web, win, pocket, or mobile
 ---
 
-# How to link a sale to an appointment
+# How to link a sale to an appointment (data layer)
 
-This section shows how we can add a link using the ActivityLinksHelper class. The link to a related Sale appears in the **Links** tab of the **Appointment** dialog:
+This section shows how we can add a link using the `ActivityLinksHelper` class. The link to a related sale appears in the **Links** tab of the **Appointment** dialog:
 
 ![04][img1]
 
@@ -29,8 +29,7 @@ string userName = Console.ReadLine();
 Console.Write("Please enter the password :- ");
 string passWord = Console.ReadLine();
 Console.WriteLine();
-using (SoSession newSession = SoSession.Authenticate(userName,
-passWord))
+using (SoSession newSession = SoSession.Authenticate(userName, passWord))1
 {
   //Create a Sale and Save it
   Sale newSale = Sale.CreateNew();
@@ -62,7 +61,7 @@ First, we create a new `Sale` and assign certain values to its properties. The `
 
 Next, we use the `CreateNew` method available in the `Appointment` class to create a new appointment and then assign values to its properties.
 
-At this stage we are ready to link the sale and appointment together. We retrieve our created sale as a `SaleRow` type by passing the ID of our created sale into the `GetFromIDxSaleId` method available in the `SaleRow` class. Then by using the following statement we can assign `Sale` relation to our `Appointment`.
+At this stage, we are ready to link the sale and appointment together. We retrieve our created sale as a `SaleRow` type by passing the ID of our created sale into the `GetFromIDxSaleId` method available in the `SaleRow` class. Then by using the following statement we can assign `Sale` relation to our `Appointment`.
 
 ```csharp
 newApp.LinksHelper.AddSaleLink(newSaleRw);
