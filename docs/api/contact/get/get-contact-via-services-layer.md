@@ -4,7 +4,7 @@ title: get_contact_services_layer       # (Required) Very important for SEO.
 description: Get a Contact through Services layer  # (Required) Important for SEO.
 author: {github-id}             # Your GitHub alias.
 so.date: 05.11.2016
-keywords: entity
+keywords: api-services
 so.topic: howto            # article, howto, reference, concept, guide
 
 # Optional fields. Don't forget to remove # if you need a field.

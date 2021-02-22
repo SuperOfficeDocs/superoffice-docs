@@ -8,6 +8,11 @@ keywords:
 
 # Contact
 
+The Contact entity represents a business object. It contains a set of properties bundled up as a single unit representing a particular business object. Entities contain properties of different data types such as properties of basic data types like int, string, boolean, entities, entity arrays, EntityElement, and LocalizedField.
+
+> [!NOTE]
+> The `Person` property of the `ContactEntity` is a *read-only* `Person` item and not a `PersonEntity`.
+
 ## Create contacts
 
 You can create a contact at multiple levels of NetServer:

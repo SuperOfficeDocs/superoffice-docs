@@ -3,6 +3,10 @@
 - name: Category
   href: category/index.md
   items:
+  - name: Get CatList from ListAgent
+    href: category/get-catlist-listagent.md
+  - name: Get CatList from MDOAgent
+    href: category/get-catlist-mdoagent.md
   - name: Get CatList from typed list providers
     href: category/get-catlist-typed-provider.md
   - name: Get CatList from generic list providers
@@ -38,10 +42,12 @@
     href: create/create-contact-rows.md
   - name: With Entity
     href: create/create-contact-entity.md
-  - name: As entity in Enity
+  - name: As entity in Entity
     href: create/create-contact-entity-in-entity.md
   - name: As entity in collection
     href: create/create-contact-entity-in-collection.md
+  - name: With services
+    href: create/create-contact-services.md
 - name: Get contact
   items:
   - name: Via entities layer

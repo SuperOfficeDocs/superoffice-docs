@@ -13,40 +13,12 @@ There are several lists used in SuperOffice CRM. Most of them are stored in tabl
 
 An explanation of all lists is beyond the scope of this section so we will take the category list as an example. All manipulation of lists can be done the same way, so the knowledge that you gain here can be applied to all lists.
 
-```csharp
-using SuperOffice;
-using SuperOffice.CRM.Rows;
-using(SoSession mySession = SoSession.Authenticate("SAL0", ""))
-{
-  //create a category row
-  CategoryRow myCategory = CategoryRow.CreateNew();
-  myCategory.SetDefaults();
+> [!NOTE]
+> When using the NetServer Services DLLs, it is not possible to add or remove list items through the web services. Therefore, you will have to create your own code to add items to the list.
 
-  //give it a name
-  myCategory.Name = "This is a category test";
+## Example 1
 
-  //set the rank
-  myCategory.Rank = 5;
-
-  //give a tool tip
-  myCategory.Tooltip = "This is test tooltip";
-
-  //save the row
-  myCategory.Save();
-
-  //create a category group link row
-  CategoryGroupLinkRow myGroupLinkRow = CategoryGroupLinkRow.CreateNew();
-
-  //set the group ID that you want
-  myGroupLinkRow.GroupId = 2;
-
-  //set the category ID
-  myGroupLinkRow.CategoryId = myCategory.CategoryId;
-
-  //save the category row
-  myGroupLinkRow.Save();
-}
-```
+[!code-csharp[CS](includes/add-listitem-1.cs)]
 
 In the above example, we have used purely [rows][1] to get the job done.
 
@@ -54,5 +26,18 @@ We have created a `CategoryRow`, filled some basic properties of the row, and sa
 
 We have not stopped at creating a category, but we have a created a `CategoryGroupLinkRow` as well. This is necessary to specify that this category belongs to this group. Creating a category group link row makes the category appear for the given group in the GUI.
 
+## Example 2
+
+[!code-csharp[CS](includes/add-listitem-2.cs)]
+
+In the above code, we have created a new category called *Cat-Dush* which is stored in the `Category` table in the database. Then we have created 2 entries into the `CategoryGroupLink` table by creating and saving instances of the `CategoryGroupLinkRow`. This tells us to which user groups the category is visible for.
+
+Next, we have added an entry to the `CategoryHeadingLink` table that determines under which heading the created category should be displayed. The created category can be seen in the SuperOffice CRM Admin as shown below.
+
+![01][img1]
+
 <!-- Referenced links -->
 [1]: ../../rows/index.md
+
+<!-- Referenced images -->
+[img1]: media/image001.jpg
