@@ -1,7 +1,7 @@
 ---
 # Mandatory fields.
-title: list_contact_interests       # (Required) Very important for SEO.
-description: How to list all selected interests for a contact  # (Required) Important for SEO.
+title: list_contact_interests_entity       # (Required) Very important for SEO.
+description: How to list all selected interests for a contact using entities # (Required) Important for SEO.
 author: {github-id}             # Your GitHub alias.
 so.date: 05.11.2016
 keywords: interest
@@ -22,7 +22,7 @@ The helper classes provide the functionality that combines the MDO lists and wha
 
 ## Code
 
-[!code-csharp[CS](includes/list-interests.cs)]
+[!code-csharp[CS](includes/list-interests-entity.cs)]
 
 ## Walk-through
 

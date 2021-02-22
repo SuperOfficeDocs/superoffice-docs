@@ -17,9 +17,17 @@
   - name: Add new contact interest
     href: interests/add-new-contact-interest.md
   - name: Set interest to on/off
-    href: interests/set-interest-on-off.md
+    items:
+    - name: With entity
+      href: interests/set-interest-on-off-entity.md
+    - name: With services
+      href: interests/set-interest-on-off-services.md
   - name: List interests for contact
-    href: interests/list-interests-for-contact.md
+    items:
+    - name: With entity
+      href: interests/list-interests-for-contact-entity.md
+    - name: With services
+      href: interests/list-interests-for-contact-services.md
 - name: Create contact
   items:
   - name: With OSQL

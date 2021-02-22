@@ -1,7 +1,7 @@
 ---
 # Mandatory fields.
-title: toggle_contact_interest       # (Required) Very important for SEO.
-description: How to set an interest on or off for a contact  # (Required) Important for SEO.
+title: toggle_contact_interest_entity       # (Required) Very important for SEO.
+description: How to set an interest on or off for a contact using entities # (Required) Important for SEO.
 author: {github-id}             # Your GitHub alias.
 so.date: 05.11.2016
 keywords: interest,contactinteresthelper
@@ -12,19 +12,19 @@ so.topic: howto            # article, howto, reference, concept, guide
 # so.client:                    # online, web, win, pocket, or mobile
 ---
 
-# How to set an interest on or off for a contact
+# How to set an interest on or off for a contact (data layer)
 
-You can make search for an interest and then set the interest to true of false. Here, we use the `ContactInterestHelper`.
+You can search for an interest and then set the interest to true or false. Here, we use the `ContactInterestHelper`.
 
 ## Code
 
-[!code-csharp[CS](includes/toggle-interest.cs)]
+[!code-csharp[CS](includes/toggle-interest-entity.cs)]
 
 ## Walk-through
 
 The `Find` method available through the `Contact` class’s `InterestHelper.RootItems` can be used to make our search.
 
-[!code-csharp[CS](includes/toggle-interest.cs?range=14-18)]
+[!code-csharp[CS](includes/toggle-interest-entity.cs?range=14-18)]
 
 The method returns an `ISoListItem` and requires a delegate that defines the element for which we should search for to be passed into the method. The method then returns any interest that matches our search interest by using the `Equals` method.
 
