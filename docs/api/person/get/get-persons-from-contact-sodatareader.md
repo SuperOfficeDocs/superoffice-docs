@@ -27,5 +27,5 @@ Then we can order the results of our select statement, in this case by the `Firs
 Now we can execute the reader and get our results to an `SoReader` object. Once you have the records in the reader, you can loop through the results and access individual fields returned. Here, we have concatenated the first name and the last name of the person records returned and assigned to a combo box.
 
 <!-- Referenced links -->
-[1]: ../../osql/so-data-reader.md
-[2]: ../../osql/inded.md
+[1]: ../osql/so-data-reader.md
+[2]: ../osql/inded.md

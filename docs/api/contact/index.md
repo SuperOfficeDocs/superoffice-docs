@@ -1,12 +1,12 @@
 ---
-title: company_and_contact      
-description: Company and contact
+title: contact      
+description: Contact
 author: {github-id}             # Your GitHub alias.
 so.topic: generic
 keywords:
 ---
 
-# Company and contact
+# Contact
 
 ## Create contacts
 
@@ -27,11 +27,11 @@ You can get a `Contact` entity either by using the classes provided in the entit
 * [Get a contact through Services layer][8]
 
 <!-- Referenced links -->
-[1]: create-contact-entity.md
-[2]: create-contact-entity-in-entity.md
-[3]: create-contact-entity-in-collection.md
-[4]: create-contact-row.md
-[5]: create-contact-rows.md
-[6]: create-contact-osql.md
-[7]: get-contact-via-entities-layer.md
-[8]: get-contact-via-services-layer.md
+[1]: create/create-contact-entity.md
+[2]: create/create-contact-entity-in-entity.md
+[3]: create/create-contact-entity-in-collection.md
+[4]: create/create-contact-row.md
+[5]: create/create-contact-rows.md
+[6]: create/create-contact-osql.md
+[7]: get/get-contact-via-entities-layer.md
+[8]: get/get-contact-via-services-layer.md

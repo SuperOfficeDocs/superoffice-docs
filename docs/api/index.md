@@ -31,7 +31,7 @@ so.date:
 * [Caching][13]
 * [Carriers][23]
 * [Category][16]
-* [Company and contact][15]
+* [Contact][15]
 
 <!-- * [Custom fields](custom-fields/index.md) -->
 
@@ -78,6 +78,7 @@ so.date:
 
 ### P
 
+* [Person][28]
 <!-- * [Project](project/index.md) -->
 
 ### Q
@@ -138,8 +139,8 @@ so.date:
 [12]: sentry/index.md
 [13]: caching/index.md
 [14]: diary/index.md
-[15]: company-and-contact/index.md
-[16]: company-and-contact/category/index.md
+[15]: contact/index.md
+[16]: contact/category/index.md
 [17]: sales/saint/index.md
 [18]: sales/index.md
 [19]: search/index.md
@@ -151,3 +152,4 @@ so.date:
 [25]: webhooks/index.md
 [26]: documents/index.md
 [27]: tooltip-service/index.md
+[28]: person/index.md

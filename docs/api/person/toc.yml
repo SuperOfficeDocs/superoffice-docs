@@ -1,0 +1,21 @@
+- name: Persons
+  href: index.md
+  items:
+  - name: Get list of persons from contact
+    items:
+    - name: With SoDataReader
+      href: get/get-persons-from-contact-sodatareader.md
+    - name: With Rows
+      href: get/get-persons-from-contact-rows.md
+    - name: With Entities
+      href: get/get-persons-from-contact-entities.md
+  - name: Update person
+    items:
+    - name: With OSQL
+      href: update/update-person-osql.md
+    - name: With Row
+      href: update/update-person-rows.md
+    - name: With Entity
+      href: update/update-person-entity.md
+  - name: Display image from Blob table
+    href: display-image-from-blob-table.md

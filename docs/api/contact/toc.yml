@@ -1,4 +1,4 @@
-- name: Company and contact
+- name: Contact
   href: index.md
 - name: Category
   href: category/index.md
@@ -23,40 +23,20 @@
 - name: Create contact
   items:
   - name: With OSQL
-    href: create-contact-osql.md
+    href: create/create-contact-osql.md
   - name: With Row
-    href: create-contact-row.md
+    href: create/create-contact-row.md
   - name: With Row collection (Rows)
-    href: create-contact-rows.md
+    href: create/create-contact-rows.md
   - name: With Entity
-    href: create-contact-entity.md
+    href: create/create-contact-entity.md
   - name: As entity in Enity
-    href: create-contact-entity-in-entity.md
+    href: create/create-contact-entity-in-entity.md
   - name: As entity in collection
-    href: create-contact-entity-in-collection.md
+    href: create/create-contact-entity-in-collection.md
 - name: Get contact
   items:
   - name: Via entities layer
-    href: get-contact-via-entities-layer.md
+    href: get/get-contact-via-entities-layer.md
   - name: Via services layer
-    href: get-contact-via-services-layer.md
-- name: Persons
-  items:
-  - name: Get list of persons from contact
-    items:
-    - name: With SoDataReader
-      href: person/get-persons-from-contact-sodatareader.md
-    - name: With Rows
-      href: person/get-persons-from-contact-rows.md
-    - name: With Entities
-      href: person/get-persons-from-contact-entities.md
-  - name: Update person
-    items:
-    - name: With OSQL
-      href: person/update-person-osql.md
-    - name: With Row
-      href: person/update-person-rows.md
-    - name: With Entity
-      href: person/update-person-entity.md
-  - name: Display image from Blob table
-    href: person/display-image-from-blob-table.md
+    href: get/get-contact-via-services-layer.md

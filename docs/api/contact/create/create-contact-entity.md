@@ -33,5 +33,5 @@ The next section of the code shows [how values are assigned to properties][2] ex
 Once the required values to the properties of the `Contact` entity have been added or assigned it could be saved with the `Save` method.
 
 <!-- Referenced links -->
-[1]: ../entities/index.md
-[2]: ../entities/create-entity.md
+[1]: ../../entities/index.md
+[2]: ../../entities/create-entity.md
