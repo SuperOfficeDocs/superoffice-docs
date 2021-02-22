@@ -18,4 +18,10 @@
     - name: With Entity
       href: update/update-person-entity.md
   - name: Display image from Blob table
-    href: display-image-from-blob-table.md
+    items:
+    - name: Using rows
+      href: display-image-from-blob-table-entity.md
+    - name: Using services
+      href: display-image-from-blob-table-services.md
+  - name: Display person image
+    href: display-person-image-ws.md
