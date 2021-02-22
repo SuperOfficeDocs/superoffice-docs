@@ -60,3 +60,10 @@
     href: scripting/basic-scripting.md
   - name: Three ways to run scripts
     href: scripting/run-scripts.md
+- name: Web parts ASP.Net 2.0
+  href: web-parts/index.md
+  items:
+  - name: Authenticate the user
+    href: web-parts/authenticate-user.md
+  - name: Display open sales for the user
+    href: web-parts/display-open-sales-for-user.md

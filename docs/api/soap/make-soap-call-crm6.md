@@ -39,7 +39,7 @@ used `http://localhost/SuperOffice/Contact.asmx` as a name of the web service an
 
 The authentication details of a web service are passed in the SOAP header. The SOAP header element contains the application-specific information.
 
-[!code-csharp[CS](includes/servicestest1-crm6.cs?range=1-19)]
+[!code-csharp[CS](includes/servicestest1-crm6.cs)]
 
 Here we have first created an instance of the proxy object (Contact). Then we have set the `SOCredentials` property. **SOCredentials** is an object representation SoCredentialsHeader element, which is an element in the SOAP message header. It contains application-specific information about the SOAP message. The `SoCredentials.Secret` property is comprised of the `AuthenticationType`, the number of days since January 1, 2000, `UserId`, and password. They are all mandatory to authenticate against the web service.
 
@@ -47,7 +47,7 @@ Here we have first created an instance of the proxy object (Contact). Then we ha
 
 The following method shows how the secret is generated.
 
-[!code-csharp[CS](includes/servicestest1-crm6.cs?range=21-49)]
+[!code-csharp[CS](../authentication/includes/calculatecredentialssecret.cs)]
 
 ## Calling the service
 
