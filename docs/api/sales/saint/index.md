@@ -18,6 +18,11 @@ SAINT **values** are stored in the `statusvalue` table. They are simple binary v
 
 The `isSignalled` field determines whether to display an image in the background of the contact card or not. The image displayed in the contact card is defined in the `statusdef` table. According to the `StatusDef_id` in the `statusvalue` table, the `statusdef` table is referred and the background image in the contact card varies accordingly. The actual image is found via the blob link table.
 
-SAINT **counters** are used to keep track of certain actions and SAINT requires a separate license. The `countervalue` table maintains SAINT counters. When SAINT is enabled, whenever a contact or project is created a set of rows are added to the `countervalue` table.
+SAINT **counters** are used to keep track of certain actions. For example who owns a company, when were they last contacted, when is the next time we are supposed to contact them, what is the last sale date, and when was did the last activity occur.
+
+The `countervalue` table maintains SAINT counters. When SAINT is enabled, whenever a contact or project is created, a set of rows are added to the `countervalue` table.
 
 There is always a row in the `countervalue` table corresponding to appointment, document, or sale. The respective counter rows in the `countervalue` table will be updated whenever an appointment, document, or sale is created.
+
+> [!NOTE]
+> To use SAINT, a separate license should be obtained. It also requires that the administrator has defined one or more SAINT statuses and generated SAINT status values on the database.

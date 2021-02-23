@@ -11,7 +11,13 @@
   items:
   - name: Change SAINT values for company
     href: saint/change-saint-values-for-company.md
-  - name: Find contacts by SAINT counter - FindContactProvider
-    href: saint/search-saint-findcontactprovider.md
-  - name: Find contacts by SAINT counter - ContactRow.CustomSearch
-    href: saint/search-saint-contactrow-customsearch.md
+  - name: Find contacts by SAINT counter or value
+    items:
+    - name: Using the FindContactProvider
+      href: saint/search-saint-findcontactprovider.md
+    - name: Using ContactRow.CustomSearch
+      href: saint/search-saint-contactrow-customsearch.md
+    - name: Using the ArchiveAgent
+      href: saint/search-saint-value-archiveagent.md
+    - name: Using the FindAgent
+      href: saint/search-saint-counter-findagent.md
