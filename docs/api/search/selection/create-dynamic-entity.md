@@ -1,7 +1,7 @@
 ---
 # Mandatory fields.
-title: create_dynamic_selection      # (Required) Very important for SEO.
-description: Creating a dynamic selection  # (Required) Important for SEO.
+title: create_dynamic_selection_entity      # (Required) Very important for SEO.
+description: Creating a dynamic selection using entities # (Required) Important for SEO.
 author: {github-id}             # Your GitHub alias.
 so.date: 05.11.2016
 keywords: search
@@ -12,7 +12,7 @@ so.topic: howto            # article, howto, reference, concept, guide
 # so.client:                    # online, web, win, pocket, or mobile
 ---
 
-# Creating a dynamic selection
+# Creating a dynamic selection using entities
 
 As the word implies, a dynamic selection is **a selection that is bound to change dynamically** and it’s **based on search criteria** and not just static members.
 
@@ -22,7 +22,7 @@ Here, we'll show you how to do this [using entities][1].
 
 ## Code
 
-[!code-csharp[CS](includes/create-dynamic-selection.cs)]
+[!code-csharp[CS](includes/create-dynamic-entity.cs)]
 
 ## Walk-through
 

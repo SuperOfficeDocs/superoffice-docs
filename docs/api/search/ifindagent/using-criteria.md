@@ -42,6 +42,8 @@ This is an array of restrictions that are to be excluded from the `CriteriaArchi
 
 In the **Find** dialog that corresponds to the "static fields", this variable is used to avoid duplication in the **Match also** criteria list. In place, this variable is used it could be stated as `null`, which indicates that all restrictions should be included in the criteria list.
 
+For example, if you have a criteria such as person/firstname="John" then all matches on this field will contain the same value "John" and the column can be excluded from the result making more room for the useful information.
+
 ## handledColumns
 
 [!code-csharp[CS](includes/ifindagent-person.cs?range=22)]

@@ -20,7 +20,11 @@
   herf: selection/index.md
   items:
   - name: Create a dynamic selection
-    href: selection/create-dynamic.md
+    items:
+    - name: Using entities
+      href: selection/create-dynamic-entity.md
+    - name: Using services
+      href: selection/create-dynamic-services.md
   - name: Retrieve members of a selection
     items:
     - name: Using entities
@@ -36,4 +40,4 @@
     - name: Using entities layer
       href: selection/add-member-to-static-selection-entities.md
     - name: Using services layer
-      href: selection/add-member-to-static-selection-osql.md
+      href: selection/add-member-to-static-selection-services.md
