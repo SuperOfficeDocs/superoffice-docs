@@ -10,4 +10,8 @@
   href: preferences.md
   items:
   - name: Get and set
-    href: get-set-preferences.md
+    items:
+    - name: At the data layer (SoPreference)
+      href: get-set-preferences-sopreference.md
+    - name: At the services layer (PreferenceAgent)
+      href: get-set-preferences-preferenceagent.md

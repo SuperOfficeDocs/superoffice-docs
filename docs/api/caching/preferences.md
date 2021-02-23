@@ -49,12 +49,13 @@ The relevant section from the code that made the above change is:
 SoPreference.SetPreference("Visual", "SundayFirstDay", true);
 ```
 
-The parameters that have been passed to it include name of the preference section, the key, and the new value used.
+The parameters that have been passed to it include the name of the preference section, the key, and the new value used.
 
-See also: [hpw to get and set preferences][1]
+See also: [how to get and set preferences at the data layer][1] | [and using services][2]
 
 <!-- Referenced links -->
-[1]: get-set-preferences.md
+[1]: get-set-preferences-sopreference.md
+[2]: get-set-preferences-preferenceagent.md
 
 <!-- Referenced images -->
 [img1]: media/image001.jpg
