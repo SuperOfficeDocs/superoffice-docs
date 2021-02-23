@@ -7,6 +7,10 @@
     items:
     - name: Using criteria
       href: ifindagent/using-criteria.md
+    - name: Find project by name
+      href: ifindagent/find-project-by-name.md
+    - name: DumpResult helper
+      href: ifindagent/dump-result.md
   - name: IArchiveAgent
     href: iarchiveagent/index.md
     items:

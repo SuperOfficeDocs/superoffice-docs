@@ -12,3 +12,5 @@
       href: set-udef-listitem-value-entity.md
     - name: Using services
       href: set-udef-listitem-value-services.md
+  - name: Find contact by Udef
+    href: find-contact-by-udef.md 

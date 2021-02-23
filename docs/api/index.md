@@ -46,6 +46,8 @@ so.date:
 
 ### F
 
+* [Foreign keys][30]
+
 ### G
 
 * [Getting started][2]
@@ -154,3 +156,4 @@ so.date:
 [27]: tooltip-service/index.md
 [28]: person/index.md
 [29]: custom-fields/index.md
+[30]: foreign-keys/index.md
