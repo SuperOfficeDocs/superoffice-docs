@@ -1,7 +1,7 @@
 ---
 # Mandatory fields.
-title: create_invitation       # (Required) Very important for SEO.
-description: How to create an invitation  # (Required) Important for SEO.
+title: create_invitation_entity       # (Required) Very important for SEO.
+description: How to create an invitation using entities # (Required) Important for SEO.
 author: {github-id}             # Your GitHub alias.
 so.date: 05.11.2016
 keywords: diary
@@ -12,11 +12,11 @@ so.topic: howto            # article, howto, reference, concept, guide
 # so.client:                    # online, web, win, pocket, or mobile
 ---
 
-# How to create an invitation
+# How to create an invitation (data layer)
 
 After creating an appointment you may need to invite members. The following example demonstrates how this is done.
 
-[!code-csharp[CS](includes/create-invite.cs)]
+[!code-csharp[CS](includes/create-invite-entity.cs)]
 
 In this example, we have initially created an appointment and set certain properties of it.
 

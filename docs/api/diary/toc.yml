@@ -10,21 +10,41 @@
     href: create-apt-rows.md
   - name: With Entity
     href: create-apt-entity.md
-  - name: As entity in Enity
+  - name: As entity in Entity
     href: create-apt-entity-in-entity.md
   - name: As entity in collection
     href: create-apt-entity-in-collection.md
+  - name: With services
+    href: create-apt-services.md
 - name: Invitations
   href: invitations/index.md
   items:
   - name: Create
-    href: invitations/create-invitation.md
+    items:
+    - name: Using entities
+      href: invitations/create-invitation-entity.md
+    - name: Using services
+      href: invitations/create-invitation-services.md
   - name: Accept
-    href: invitations/accept-invitation.md
+    items:
+    - name: Using entites
+      href: invitations/accept-invitation-entity.md
+    - name: Using services
+      href: invitations/accept-invitation-services.md
+  - name: List
+    items:
+    - name: Using services
+      href: invitations/get-invitations-services.md
+  - name: Searc
+    items:
+    - name: Using the ArchiveAgent
+      href: invitations/invitation-archive.md
 - name: Recurrence
   href: recurrence/index.md
   items:
-  - name: Create recurring appointment with entity
-    href: recurrence/create-recurring-appointment-entity.md
-  - name: Create recurring appointment with services
-    href: recurrence/create-recurring-appointment-services.md
+  - name: Create recurring appointment
+    items:
+    - name: With entity
+      href: recurrence/create-recurring-appointment-entity.md
+    - name: With services
+      href: recurrence/create-recurring-appointment-services.md
