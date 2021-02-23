@@ -9,6 +9,10 @@
       href: get/get-persons-from-contact-rows.md
     - name: With Entities
       href: get/get-persons-from-contact-entities.md
+    - name: With IContactAgent (services)
+      href: get/get-persons-icontactagent.md
+    - name: With IPersonAgent (services)
+      href: get/get-persons-ipersonagent.md
   - name: Update person
     items:
     - name: With OSQL
@@ -17,6 +21,8 @@
       href: update/update-person-rows.md
     - name: With Entity
       href: update/update-person-entity.md
+    - name: With services
+      href: update/update-person-services.md
   - name: Display image from Blob table
     items:
     - name: Using rows
