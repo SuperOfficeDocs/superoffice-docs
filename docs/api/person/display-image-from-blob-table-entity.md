@@ -42,8 +42,7 @@ Once we have defined the `CustomSearch`, we can use it with the `GetFromCustomSe
 
 [!code-csharp[CS](includes/display-image-entity.cs?range=27)]
 
----
-[Source Code (zip)](media/blob-image.zip)
+<!-- [Source Code (zip)](media/blob-image.zip) -->
 
 <!-- Referenced images -->
 [img1]: media/image002.jpg

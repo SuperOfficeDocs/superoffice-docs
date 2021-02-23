@@ -40,7 +40,7 @@ Because it should recur 8 working days, we cannot specify an end date directly. 
 
 Next, the recurrence pattern is created using the `CalculateDays` method of the agent.  Finally, the recurrence information is assigned to the `AppointmentEntity` and the appointment is saved to the database.
 
-[Get the source code (zip)][1]
+<!-- [Get the source code (zip)][1] -->
 
 <!-- Referenced links -->
 [1]: media/CreateARecurringAppointment.zip
