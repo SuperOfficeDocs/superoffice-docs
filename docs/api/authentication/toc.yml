@@ -45,3 +45,16 @@
       href: tickets/renew-ticket.md
   - name: OpenID Authorization Code Flow tutorial
     href: openid-authorization-code-flow.md
+  - name: In WebAPI
+    href: in-web-api/index.md
+    items:
+    - name: Integrated with Active Directory
+      href: in-web-api/integrated-with-ad.md
+    - name: For CRM Online
+      herf: in-web-api/online.md
+    - name: Re-use existing session
+      href: in-web-api/reuse-session.md
+    - name: Reverse proxy
+      href: in-web-api/reverse-proxy.md
+    - name: SuperOffice username and password
+      href: in-web-api/superoffice-username-and-password.md
