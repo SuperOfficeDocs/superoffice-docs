@@ -51,6 +51,10 @@ Webhook `Headers` are any additional header values SuperOffice appends to a requ
 
 Webhook `Properties` are any additional values SuperOffice should append to each request sent with each notification. Properties are a "string": {object} value.
 
+## CRMScript hooks
+
+Webhooks can also target CRMScripts by using the `Type: "crmscript"`. <!-- See @webhooks_crmscript for details. -->
+
 ## Learn more about the SuperOffice Webhooks API
 
 > [!NOTE]

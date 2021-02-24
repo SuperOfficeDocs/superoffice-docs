@@ -8,3 +8,34 @@
   href: notification.md
 - name: Webhook secrets
   href: security.md
+- name: Reference
+  href: reference/index.md
+  items:
+  - name: activity
+    href: reference/activity-events.md
+  - name: associate
+    href: reference/associate-events.md
+  - name: chat
+    href: reference/chat-events.md
+  - name: contact
+    href: reference/contact-events.md
+  - name: CRMScript
+    href: reference/crmscript-hooks.md
+  - name: documents
+    href: reference/document-events.md
+  - name: person
+    href: reference/person-events.md
+  - name: project
+    href: reference/project-events.md
+  - name: projectmember
+    href: reference/project-member-events.md
+  - name: quote
+    href: reference/quote-events.md
+  - name: sale
+    href: reference/sale-events.md
+  - name: salestakeholder
+    href: reference/sale-stakeholder-events.md
+  - name: test
+    href: reference/test-event.md
+  - name: ticket
+    href: reference/ticket-events.md
