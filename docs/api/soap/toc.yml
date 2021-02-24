@@ -1,2 +1,12 @@
-- name: Page
+- name: SOAP
   href: index.md
+- name: Table rights
+  href: soap-table-rights.md
+- name: Call SOAP
+  items:
+  - name: from CRM 6 (with secret)
+    href: make-soap-call-crm6.md
+  - name: from CRM 7 (with ticket)
+    href: make-soap-call-crm7.md
+- name: Reference
+  href: reference/index.md

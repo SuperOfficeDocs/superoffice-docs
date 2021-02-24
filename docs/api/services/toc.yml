@@ -60,6 +60,8 @@
     href: scripting/basic-scripting.md
   - name: Three ways to run scripts
     href: scripting/run-scripts.md
+  - name: Reference
+    href: scripting/reference/index.md
 - name: Web parts ASP.Net 2.0
   href: web-parts/index.md
   items:
