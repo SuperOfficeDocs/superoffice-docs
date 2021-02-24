@@ -2,11 +2,23 @@
   href: index.md
 - name: Configure access
   href: services/configure-access.md
-- name: How to
+- name: Create
   items:
-  - name: Create
+  - name: Using services
     href: services/create.md
-  - name: Download
+  - name: Using Agents API
+    href: agents-web-api/generate-document.md
+  - name: Using REST
+    href: rest/generate-document.md
+- name: Update
+  items:
+  - name: Download (services)
     href: services/download.md
-  - name: Update
+  - name: Update (services)
     href: services/update.md
+- name: Add template
+  items:
+  - name: Using Agents API
+    href: agents-web-api/add-document-template.md
+  - name: Using REST
+    href: rest/add-document-template.md

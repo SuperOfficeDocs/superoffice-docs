@@ -19,6 +19,7 @@ so.date:
 ### A
 
 * [Agents][22]
+* [Agents WebAPI][32]
 * [Archive providers][6]
 * [Authentication][7]
 
@@ -89,6 +90,7 @@ so.date:
 
 <!-- * [Request Management](request-management/index.md) -->
 
+* [REST][33]
 * [Rows][4]
 
 ### S
@@ -117,6 +119,7 @@ so.date:
 
 ### W
 
+* [WebAPI][31]
 * [Webhooks][25]
 * [What's new][1]
 
@@ -157,3 +160,6 @@ so.date:
 [28]: person/index.md
 [29]: custom-fields/index.md
 [30]: foreign-keys/index.md
+[31]: web-api/index.md
+[32]: web-api/agents/index.md
+[33]: web-api/rest/index.md

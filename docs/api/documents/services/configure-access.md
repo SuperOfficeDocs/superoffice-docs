@@ -33,11 +33,11 @@ The `ArchivePath` specifies the physical location of the archive folder. This ap
 
 ## TemporaryPath
 
-The `TemporaryPath` key should have the physical location for temporary files on the server. The service implementation will stream documents to the temp-path before moving them to the archive-path for storage. Temporary files are created on the server at this path. This path is not client-specific.
+The `TemporaryPath` key should have the physical location for temporary files on the server. The service implementation will stream documents to the temp-path before moving them to the archive-path for storage. Temporary files are created on the server at this path. This path is not client-specific. It has nothing to do with the temporary path on the temp file on the client.
 
 ## ImpersonateUser
 
-Finally, specify the impersonation key value. Impersonation is for file access. Impersonation should be set to true in a scenario where SO\_ARC is located on a remote server because the web-server user runs as a restricted local account that has no rights to access a file-share on a different server.
+Finally, specify the impersonation key value. Impersonation is for file access on the server side. Impersonation should be set to true in a scenario where SO\_ARC is located on a remote server because the web-server user runs as a restricted local account that has no rights to access a file-share on a different server.
 
 If the impersonation set to true, the domain, user, and the password values for a user that has access to SO\_ARC and temp folder have to be provided.
 

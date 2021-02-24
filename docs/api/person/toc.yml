@@ -30,4 +30,12 @@
     - name: Using services
       href: display-image-from-blob-table-services.md
   - name: Display person image
-    href: display-person-image-ws.md
+    items:
+    - name: Using services
+      href: display-person-image-ws.md
+    - name: Using REST
+      href: get-person-image-rest.md
+  - name: Update person image
+    items:
+    - name: Using REST
+      href: update-person-image-rest.md

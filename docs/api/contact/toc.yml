@@ -3,6 +3,10 @@
 - name: Category
   href: category/index.md
   items:
+  - name: Get CatList item from REST
+    href: category/add-catlist-item-rest.md
+  - name: Get CatList item from Agent WebAPI
+    href: category/add-catlist-item-webapi-agents.md
   - name: Get CatList from ListAgent
     href: category/get-catlist-listagent.md
   - name: Get CatList from MDOAgent
@@ -48,9 +52,15 @@
     href: create/create-contact-entity-in-collection.md
   - name: With services
     href: create/create-contact-services.md
+  - name: With Agents API
+    href: create/create-contact-webapi-agents.md
+  - name: With REST
+    href: create/create-contact-rest.md
 - name: Get contact
   items:
   - name: Via entities layer
     href: get/get-contact-via-entities-layer.md
   - name: Via services layer
     href: get/get-contact-via-services-layer.md
+  - name: Via REST
+    href: get/get-all-contacts-rest.md
