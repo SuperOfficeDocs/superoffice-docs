@@ -21,5 +21,9 @@
     href: services-soap-interface/notification-types.md
   - name: Compatibility
     href: services-soap-interface/compatibility.md
+  - name: Ports
+    items:
+    - name: Customer
+      href: services-soap-interface/customer-port/index.md
 - name: Reference
   href: reference/index.md

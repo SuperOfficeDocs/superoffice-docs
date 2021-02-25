@@ -29,7 +29,7 @@ All examples are written in C\# (Microsoft Visual Studio .NET), but it should be
 * [Field types][4]
 * [Notification types][5]
 * [Compatibility][6]
-* [Port reference][7]
+* Port references: [Customer][7]
 
 <!-- Referenced links -->
 [1]: http://www.capeclear.com/
@@ -38,4 +38,4 @@ All examples are written in C\# (Microsoft Visual Studio .NET), but it should be
 [4]: field-types.md
 [5]: notification-types.md
 [6]: compatibility.md
-[7]: reference/index.md
+[7]: customer-port/index.md
