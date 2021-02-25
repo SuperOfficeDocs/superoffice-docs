@@ -25,5 +25,7 @@
     items:
     - name: Customer
       href: services-soap-interface/customer-port/index.md
+    - name: Admin
+      href: services-soap-interface/admin-port/index.md
 - name: Reference
   href: reference/index.md
