@@ -28,7 +28,7 @@ Retrieves an attachment either linked to a message or an FAQ entry. For attachme
 | attacmentName | The file name of the attachment |
 | contentType | The mime-like content type of the file. |
 
-[!include[ALT](./includes/attachment-content-types.md)]
+[!include[ALT](../includes/attachment-content-types.md)]
 
 ## Example
 
@@ -46,6 +46,9 @@ if(custService.login("test","test", out sessionKey) == "0")
   byte[] newData = System.Convert.FromBase64String(data);
 }
 ```
+
+<!-- Referenced links -->
+[1]: ../error-codes.md
 
 <!-- Referenced links -->
 [1]: ../error-codes.md

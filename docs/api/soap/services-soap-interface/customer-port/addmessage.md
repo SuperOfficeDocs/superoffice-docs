@@ -40,16 +40,16 @@ string ret = custService.login("test","test", out sessionKey);
 
 if(ret == "0")
 {
-       string\[\] attachmentIDs = new string\[0\];
-       string messageId;
-       ret = custService.addMessage(sessionKey,
-              "I would like more information","1201","2",
-              attachmentIDs,
-              out messageId);
-       if(ret == "0")
-          cout << messageId;
-          //messageId now contains the new ID
-       custService.logout(sessionKey);
+  string\[\] attachmentIDs = new string\[0\];
+  string messageId;
+  ret = custService.addMessage(sessionKey,
+    "I would like more information","1201","2",
+    attachmentIDs,
+    out messageId);
+  if(ret == "0")
+    cout << messageId;
+    //messageId now contains the new ID
+  custService.logout(sessionKey);
 }
 ```
 

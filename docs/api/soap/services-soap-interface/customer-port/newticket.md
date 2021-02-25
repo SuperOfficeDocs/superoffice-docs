@@ -11,7 +11,7 @@ so.topic: reference
 
 ## Description
 
-This method will create a new request/ticket with the customer as author of the request. You can set various information about the request. To set any external extra fields, you use an array of **ValuePairStruct**. The field should contain the name of the extra field, which is x\_&lt;nr&gt;, where nr = number of the extra field. User **getExtraFields()** to find this name. The value should contain the value of the extra field (and is always sent as a string). See appendix of data types for formatting. The method returns the id of the newly created request. You use this id to add messages with the **addMessage()** method.
+This method will create a new request/ticket with the customer as the author of the request. You can set various information about the request. To set any external extra fields, you use an array of **ValuePairStruct**. The field should contain the name of the extra field, which is `x_<nr>`, where nr = number of the extra field. User **getExtraFields()** to find this name. The value should contain the value of the extra field (and is always sent as a string). See appendix of data types for formatting. The method returns the id of the newly created request. You use this id to add messages with the **addMessage()** method.
 
 ## In parameters
 
@@ -47,6 +47,9 @@ if(errorCode.Equals("0"))
     // ticketId now contains the id of the new request
 }
 ```
+
+<!-- Referenced links -->
+[1]: ../error-codes.md
 
 <!-- Referenced links -->
 [1]: ../error-codes.md

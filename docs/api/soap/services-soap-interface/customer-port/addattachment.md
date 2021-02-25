@@ -22,7 +22,7 @@ Adds an attachment to the system. When creating a new message that contains an a
 | contentType | The mime like content-type of the file |
 | data | Base64 encoded data |
 
-[!include[ALT](./includes/attachment-content-types.md)]
+[!include[ALT](../includes/attachment-content-types.md)]
 
 ## Out parameters
 
