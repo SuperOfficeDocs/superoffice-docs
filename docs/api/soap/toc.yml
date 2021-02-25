@@ -8,5 +8,18 @@
     href: make-soap-call-crm6.md
   - name: from CRM 7 (with ticket)
     href: make-soap-call-crm7.md
+- name: Services SOAP interface
+  href: services-soap-interface/index.md
+  items:
+  - name: Configuration
+    href: services-soap-interface/config.md
+  - name: Error codes
+    href: services-soap-interface/error-codes.md
+  - name: Field types
+    href: services-soap-interface/field-types.md
+  - name: Notification types
+    href: services-soap-interface/notification-types.md
+  - name: Compatibility
+    href: services-soap-interface/compatibility.md
 - name: Reference
   href: reference/index.md

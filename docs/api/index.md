@@ -101,11 +101,10 @@ so.date:
 * [Search][19]
 * [Selection][20]
 * [Services (layer)][21]
+* [Services SOAP interface][34]
 * [SOAP][24]
 
-<!-- 
-* [Security](security/index.md)
-* [Service](service/index.md) -->
+<!-- * [Security](security/index.md)-->
 
 ### T
 
@@ -163,3 +162,4 @@ so.date:
 [31]: web-api/index.md
 [32]: web-api/agents/index.md
 [33]: web-api/rest/index.md
+[34]: soap/services-soap-interface/index.md
