@@ -1,0 +1,105 @@
+- name: Quote connenctor
+  href: index.md
+- name: How to
+  items:
+  - name: Set up connector
+    href: set-up.md
+  - name: Update connection
+    href: edit-connection.md
+  - name: Start client
+    href: start-client.md
+  - name: Create quote
+    href: create-quote.md
+  - name: Calculate price
+    href: calc-price.md
+  - name: Search for product
+    href: find-product.md
+  - name: Save quote
+    href: save-quote.md
+  - name: Send quote
+    href: send-quote.md
+  - name: Place order
+    href: place-order.md
+- name: Addresses
+  href: addresses.md
+- name: Error system
+  href: error-system.md
+- name: Implementation guide
+  href: implementation-guide.md
+- name: Scenarios
+  items:
+  - name: Add product
+    href: scenarios/add-product.md
+  - name: Customer-specific product codes
+    href: scenarios/customer-specific-product-codes.md
+- name: Reference
+  items:
+  - name: Capability names
+    href: capability-names.md
+  - name: Classes and interfaces
+    items:
+    - name: IArchiveProvider
+      href: api/iarchiveprovider.md
+    - name: IProductRegisterCache
+      href: api/iproductregistercache.md
+    - name: QuoteConnectorBase
+      href: api/quoteconnectorbase.md
+    - name: QuoteConnectorExtender
+      href: api/quoteconnectorextender.md
+  - name: Enums
+    items:
+    - name: ConfigFieldType
+      href: api/enums/configfieldtype.md
+    - name: FieldAccessInfo
+      href: api/enums/fieldaccessinfo.md
+    - name: QuoteAction
+      href: api/enums/quoteaction.md
+    - name: QuoteStatus
+      href: api/enums/quotestatus.md
+    - name: ValueOverrideInfo
+      href: api/enums/valueoverrideinfo.md
+  - name: Data carriers
+    href: api/data-carriers/index.md
+    items:
+    - name: AddressInfo
+      href: api/data-carriers/addressinfo.md
+    - name: ExtraDataFieldTypeInfo
+      href: api/data-carriers/extradatafieldtypeinfo.md
+    - name: FieldMetadataInfo
+      href: api/data-carriers/fieldmetadatainfo.md
+    - name: ISaleInfo
+      href: api/data-carriers/isaleinfo.md
+    - name: OrderResponseInfo
+      href: api/data-carriers/orderresponseinfo.md
+    - name: PlaceOrderResponseInfo
+      href: api/data-carriers/placeorderresponseinfo.md
+    - name: PluginResponseInfo
+      href: api/data-carriers/pluginresponseinfo.md
+    - name: PriceListInfo
+      href: api/data-carriers/pricelistinfo.md
+    - name: ProductInfo
+      href: api/data-carriers/productinfo.md
+    - name: QuoteAlternativeContextInfo
+      href: api/data-carriers/quotealternativecontextinfo.md
+    - name: QuoteAlternativeInfo
+      href: api/data-carriers/quotealternativeinfo.md
+    - name: QuoteAlternativeWithLinesInfo
+      href: api/data-carriers/quotealternativewithlinesinfo.md
+    - name: QuoteConnectionInfo
+      href: api/data-carriers/quoteconnectioninfo.md
+    - name: QuoteInfo
+      href: api/data-carriers/quoteinfo.md
+    - name: QuoteLineInfo
+      href: api/data-carriers/quotelineinfo.md
+    - name: QuoteListItemInfo
+      href: api/data-carriers/quotelistiteminfo.md
+    - name: QuoteSentResponseInfo
+      href: api/data-carriers/quotesentresponseinfo.md
+    - name: QuoteVersionContextInfo
+      href: api/data-carriers/quoteversioncontextinfo.md
+    - name: QuoteVersionInfo
+      href: api/data-carriers/quoteversioninfo.md
+    - name: QuoteVersionResponseInfo
+      href: api/data-carriers/quoteversionresponseinfo.md
+    - name: QuoteVersionStateInfo
+      href: api/data-carriers/quoteversionstateinfo.md

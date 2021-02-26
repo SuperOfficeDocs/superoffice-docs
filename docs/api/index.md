@@ -84,7 +84,7 @@ so.date:
 
 ### Q
 
-<!-- * [Quote](quote/index.md) -->
+* [Quote connectors][35]
 
 ### R
 
@@ -163,3 +163,4 @@ so.date:
 [32]: web-api/agents/index.md
 [33]: web-api/rest/index.md
 [34]: soap/services-soap-interface/index.md
+[35]: quote-connectors/index.md
