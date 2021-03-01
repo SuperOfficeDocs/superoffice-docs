@@ -43,3 +43,6 @@
       href: pagebuilder/framework/usercontrols.md
     - name: XML config file
       href: pagebuilder/framework/xml-config-file.md
+- name: SoProtocol
+  href: soprotocol/index.md
+  items:

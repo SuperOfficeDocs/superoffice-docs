@@ -14,7 +14,7 @@ First conceived and built on ASP.NET technology in 2005, the CRM Web Framework u
 
 SuperOffice CRM Web is an application, from the ground up, built for extensibility. Nearly every feature, from user-interface (UI) to the database, is customizable.
 
-![CustomCode]()
+![CustomCode][6]
 
 Like similar platforms, SuperOffice Web is comprised of several components that render a page in a browser. Its strength is its flexibility. The entire application structure is declared in XML configuration files.
 
@@ -170,7 +170,7 @@ SuperOffice CRM Web delivers a comprehensible and highly extensible platform tha
 [2]: ../../Developer's%20Guide/Super%20State/Super%20State.md
 [3]: ../../Developer's%20Guide/PageBuilder%20config%20files/PageBuilder%20config%20files.md
 [4]: https://community.superoffice.com/en/content/content/webclient/customization-and-deployment/
-[5]: ../../Developer's%20Guide/SoProtocol/SoProtocol.md
+[5]: ../../soprotocol/index.md
 
 <!-- Referenced images -->
 [img1]: media/web-client-page-framework.png
