@@ -15,7 +15,18 @@
     - name: Globalization
       href: web-application/getting-started/globalization.md
     - name: How to use custom config files
-      her: web-application/getting-started/use-custom-config-files.md
+      her: web-application/getting-started/use-custom-config-files.
+  - name: Customization
+    href: web-application/customize/index.md
+    items:
+    - name: Add label
+      href: web-application/customize/add-label.md
+    - name: Add textbox
+      href: web-application/customize/add-textbox.md
+    - name: Add custom control
+      href: web-application/customize/add-custom-control.md
+    - name: Using triggers
+      href: web-application/customize/triggers.md
   - name: Web extensions
     href: web-application/web-extensions/index.md
     items:
