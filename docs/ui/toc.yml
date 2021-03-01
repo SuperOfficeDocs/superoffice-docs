@@ -1,0 +1,45 @@
+- name: User interface and interaction
+  href: index.md
+- name: Web application
+  href: web-application/index.md
+  items:
+  - name: Strategic goals
+    href: web-application/strategic-goals.md
+  - name: Getting started
+    href: web-application/getting-started/index.md
+    items:
+    - name: Architecture
+      href: web-application/getting-started/architecture.md
+    - name: DCF for Web
+      href: web-application/getting-started/dcf.md
+    - name: Globalization
+      href: web-application/getting-started/globalization.md
+    - name: How to use custom config files
+      her: web-application/getting-started/use-custom-config-files.md
+  - name: Web extensions
+    href: web-application/web-extensions/index.md
+    items:
+    - name: MailArchiveHelper
+      href: web-application/web-extensions/mailarchivehelper.md
+  - name: What's new
+    href: web-application/whats-new/index.md
+    items:
+    - name: In 8.0
+      herf: web-application/whats-new/in-80.md
+  - name: Reference
+    href: web-application/reference/index.md
+- name: PageBuilder
+  href: pagebuilder/index.md
+  items:
+    - name: DataHandler
+      href: pagebuilder/framework/datahandlers.md
+    - name: PageBuilder (class)
+      href: pagebuilder/framework/pagebuilder.md
+    - name: SoProtocol
+      href: pagebuilder/framework/soprotocol.md
+    - name: SuperState
+      href: pagebuilder/framework/superstate.md
+    - name: UserControls
+      href: pagebuilder/framework/usercontrols.md
+    - name: XML config file
+      href: pagebuilder/framework/xml-config-file.md
