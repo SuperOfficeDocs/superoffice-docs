@@ -1,3 +1,11 @@
+---
+title: quote_connectors_data_cariers
+description: Data carriers for quote
+author: {github-id}             # Your GitHub alias.
+so.date:
+keywords: quote
+so.topic: concept
+---
 
 # Data carriers
 

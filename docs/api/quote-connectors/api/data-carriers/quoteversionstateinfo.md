@@ -9,7 +9,7 @@ so.topic: reference
 
 # QuoteVersionStateInfo
 
-The various states a QuoteVersion can be in.
+The various states a `QuoteVersion` can be in.
 
 ## Unknown
 
@@ -21,7 +21,7 @@ This is a draft that has not been calculated
 
 ## DraftCalculated
 
-Draft that has been calculated, and ERP has verified it as OK
+Draft that has been calculated and ERP has verified it as OK
 
 ## DraftNeedsApproval
 
@@ -33,11 +33,11 @@ Draft with potential problems has been human-approved
 
 ## Sent
 
-Sent to customer, and is presumably a legally binding document
+Sent to the customer and is presumably a legally binding document
 
 ## SentExpired
 
-Sent to customer, but has expired and is no longer binding
+Sent to the customer but has expired and is no longer binding
 
 ## Archived
 
@@ -45,11 +45,11 @@ Archived without being sent
 
 ## Ordered
 
-Accepted and ordered by customer
+Accepted and ordered by the customer
 
 ## Rejected
 
-Version was rejected be the customer
+Version was rejected by the customer
 
 ## Sold
 

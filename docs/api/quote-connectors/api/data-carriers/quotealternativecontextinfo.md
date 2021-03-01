@@ -15,17 +15,18 @@ Exists to be able to give the connector the relevant information for QuoteAltern
 
 ## string ERPClientKey
 
-Foreign key | always present.
+Foreign key - always present.
 
 ## UserInfo CRMAssociate
 
 Read-only. The logged-in user (the salesman)
 
-Note: not necessarily the owner of the sale | that is exposed via the SaleInfo object
+> [!NOTE]
+> Not necessarily the owner of the sale - that is exposed via the SaleInfo object
 
 ## IContactInfo CRMCompany
 
-Read-only. The sale’s customer info | more detailed information than is provided by the ISaleInfo object.
+Read-only. The sale’s customer info - more detailed information than is provided by the ISaleInfo object.
 
 ## IPersonInfo CRMPerson
 
@@ -37,13 +38,13 @@ Read-only. The sales-related project info (if any).
 
 ## ISaleInfo CRMSale
 
-Read-only information about the sale the quote is attached to.<
+Read-only information about the sale the quote is attached to.
 
 The CRM client will update the amount + cost fields on the sale based on the quote values.
 
 ## ForeignKeyInfo[] ForeignKeys
 
-The foreign keys that are related to this quote.
+The foreign keys related to this quote.
 
 Contact keys, project keys, sales keys, and quotekeys.
 
@@ -59,7 +60,7 @@ This is the active version
 
 ## int EISConnectionId
 
-The id of the EIS Connection in the CRM system.
+The ID of the EIS Connection in the CRM system.
 
 ## string EISConnectionGuid
 
@@ -67,25 +68,25 @@ A conversation identifier
 
 ## string ERPCompanyKey
 
-A key to the equivalent id in the ERP system, from the EIS System.
+[!include[ALT](./includes/erpkey.md)]
 
 May be empty.
 
 ## string ERPPersonKey
 
-A key to the equivalent id in the ERP system, from the EIS System.
+[!include[ALT](./includes/erpkey.md)]
 
 May be empty.
 
 ## string ERPProjectKey
 
-A key to the equivalent id in the ERP system, from the EIS System.
+[!include[ALT](./includes/erpkey.md)]
 
 May be empty.
 
 ## string ERPSaleKey
 
-A key to the equivalent id in the ERP system, from the EIS System.
+[!include[ALT](./includes/erpkey.md)]
 
 May be empty.
 

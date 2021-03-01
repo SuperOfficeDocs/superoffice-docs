@@ -10,7 +10,7 @@ so.topic: reference
 
 Read-only sale information.
 
-How Sale and Quote conceptually fit together:
+How sale and quote conceptually fit together:
 
 ![25][img1]
 

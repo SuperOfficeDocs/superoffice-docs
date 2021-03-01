@@ -15,4 +15,4 @@ Inherits `OrderResponseInfo`.
 
 ## Url
 
-An optional URL; if non-blank then the GUI will navigate to this soprotocol: or http(s): as the final operation of the PlaceOrder.
+An optional URL. If non-blank, the GUI will navigate to this soprotocol: or HTTP(s): as the final operation of the PlaceOrder.

@@ -9,7 +9,7 @@ so.topic: reference
 
 # ExtraDataFieldTypeInfo
 
-How should the ProductExtraDataFieldInfo value be interpreted?
+How should the `ProductExtraDataFieldInfo` value be interpreted?
 
 * String
 * Url

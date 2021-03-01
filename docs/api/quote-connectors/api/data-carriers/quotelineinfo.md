@@ -18,6 +18,8 @@ Quote Line dialog - details of one quote line in an alternative.
 
 QuoteLines are mainly information copied from the Products provider. Products information is sometimes edited by the user before being included in the quote, so most information is duplicated from Product rather than referenced directly.
 
+See also: [discount][1]
+
 ## int QuoteLineId
 
 Primary key in CRM database.
@@ -37,7 +39,7 @@ Foreign key of product this line is based on.
 Can be blank since the QuoteLine doesn’t have to be connected to a product.
 
 ## string ERPPriceListKey
- 
+
 Foreign key to the price list that this quoteline is a part of.
 
 Can be blank since the QuoteLine doesn’t have to be connected to a product.
@@ -58,7 +60,7 @@ How many units; this is a decimal field since you might want to offer fractional
 
 ## double DeliveredQuantity
 
-How many units have been delivered | updated by the ERP system.
+How many units have been delivered or updated by the ERP system.
 
 ## int Rank
 
@@ -97,7 +99,7 @@ Is stored here if the user changes the value from the product in the pricelist, 
 
 ## string Url
 
-A url to the product info. Can be empty.
+A URL to the product info. Can be empty.
 
 Is stored here if the user changes the value from the product in the pricelist, or just enters a QuoteLine without a product link.
 
@@ -135,7 +137,7 @@ Is stored here if the user changes the value from the product in the pricelist, 
 
 The thumbnail of the product, if it exists.
 
-Base64 encoded string, or a valid URI that resolves to an image.
+Base64 encoded string or a valid URI that resolves to an image.
 
 ## string VatInfo
 
@@ -175,7 +177,7 @@ Different products can have different fields.
 
 It will not be possible to directly put info here into the quote document.
 
-BTW, this will be stored in the SuperOffice database as an xml field, like this:
+BTW, this will be stored in the SuperOffice database as an XML field, like this:
 
 ```XML
 <Fields>
@@ -193,7 +195,7 @@ BTW, this will be stored in the SuperOffice database as an xml field, like this:
 
 Field1=right&Field2=right, etc. of any fields that have non-standard field access rights.
 
-Rights can be one of: N (=None or Hidden), R (=Read-only), W (=Writeable), M (=Mandatory).
+[!include[ALT](../includes/rights.md)]
 
 The fields will mostly be from the Quoteline table, but some added fields that are conceptually part of the quoteline, like Image will also be possibly to set rights on.
 
@@ -209,45 +211,45 @@ Will NOT be used by SuperOffice.
 
 ## string ExtraField1
 
-This a simple field for adding information that the Connector can provide, and that the qoute document need to display.
+[!include[ALT](./includes/quote-extrafield.md)]
 
 ## string ExtraField2
 
-This a simple field for adding information that the Connector can provide, and that the qoute document need to display.
+[!include[ALT](./includes/quote-extrafield.md)]
 
 ## string ExtraField3
 
-This a simple field for adding information that the Connector can provide, and that the qoute document need to display.
+[!include[ALT](./includes/quote-extrafield.md)]
 
 ## string ExtraField4
 
-This a simple field for adding information that the Connector can provide, and that the qoute document need to display.
+[!include[ALT](./includes/quote-extrafield.md)]
 
 ## string ExtraField5
 
-This a simple field for adding information that the Connector can provide, and that the qoute document need to display.
+[!include[ALT](./includes/quote-extrafield.md)]
 
 ## double ERPDiscountAmount
 
-The discount the system calculates based on customer / quantity / whatever.
+The discount the system calculates based on the customer, quantity, or whatever.
 
-Can be overridden by the salesman in the field 'DiscountPercent' or 'DiscountAmount'.
+Can be overridden by the salesman in the field `DiscountPercent` or `DiscountAmount`.
 
-If UserValueOverride is set to ‘None’ then the value is copied to DiscountAmount.
+If `UserValueOverride` is set to *None* then the value is copied to `DiscountAmount`.
 
-Both fields ERPDiscountPercent and ERPDiscountAmount will be filled out.
+Both fields `ERPDiscountPercent` and `ERPDiscountAmount` will be filled out.
 
 ## double ERPDiscountPercent
 
-The discount the system calculates based on customer / quantity / whatever.
+The discount the system calculates based on the customer, quantity, or whatever.
 
-Can be overridden by the salesman in the field 'DiscountPercent' or 'DiscountAmount'.
+Can be overridden by the salesman in the field `DiscountPercent` or `DiscountAmount`.
 
-Both fields ERPDiscountPercent and ERPDiscountAmount will be filled out.
+Both fields `ERPDiscountPercent` and `ERPDiscountAmount` will be filled out.
 
-If UserValueOverride is set to ‘None’ then the value is copied to DiscountPercent.
+If `UserValueOverride` is set to *None* then the value is copied to `DiscountPercent`.
 
-The Percentage is given in percent form, i.e. ‘12%’ is represented as ‘12’.
+The Percentage is given in percent form. For example, ‘12%’ is represented as ‘12’.
 
 ## double DiscountAmount
 
@@ -305,11 +307,9 @@ TotalPrice = (UnitCost * Quantity) + EarningAmount
 
 , according to what the user changed last.
 
-## b ool IsIncluded
+## bool IsIncluded
 
-Not yet implemented:
-
- "IsNotAnOption"
+Not yet implemented: `IsNotAnOption`
 
 If true, will be added to the total price.
 
@@ -340,7 +340,7 @@ If this quoteLine is a part of a group heading or a Package, this field will hav
 Not in V1
 
 <!-- Referenced links -->
-[1]:
+[1]: ../../discounts.md
 
 <!-- Referenced images -->
 [img1]: media/image029.jpg

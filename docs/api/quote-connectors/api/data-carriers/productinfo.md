@@ -67,15 +67,15 @@ URL to product information web page
 
 ## string ERPProductCategoryKey
 
-Either a List id to an id from a connector provided list, or, if the connection doesn’t support lists, a text with the actual product category.
+Either a list ID to an ID from a connector-provided list or, if the connection doesn’t support lists, a text with the actual product category.
 
 ## string ERPProductFamilyKey
 
-Either a List id to an id from a connector provided list, or, if the connection doesn't support lists, a text with the actual product family.
+Either a list ID to an ID from a connector-provided list or, if the connection doesn't support lists, a text with the actual product family.
 
 ## string ERPProductTypeKey
 
-Either a List id to an id from a connector provided list, or, if the connection doesn’t support lists, a text with the actual product type.
+Either a list ID to an ID from a connector-provided list or, if the connection doesn’t support lists, a text with the actual product type.
 
 ## string Supplier
 
@@ -83,7 +83,7 @@ Name of the supplier of the product
 
 ## string SupplierCode
 
-Suppliers part code/number or an other key-like field
+Suppliers part code/number or another key-like field
 
 ## string Thumbnail
 
@@ -137,7 +137,7 @@ Different products can have different fields.
 
 It will not be possible to directly put info here into the quote document.
 
-BTW, this will be stored in the SuperOffice database as an xml field, like this:
+BTW, this will be stored in the SuperOffice database as an XML field, like this:
 
 ```XML
 <Fields>
@@ -155,11 +155,11 @@ BTW, this will be stored in the SuperOffice database as an xml field, like this:
 
 Field1=right&Field2=right, etc. of any fields that have non-standard field access rights.
 
-Rights can be one of: N (=None or Hidden), R (=Read-only), W (=Writeable), M (=Mandatory).
+[!include[ALT](../includes/rights.md)]
 
-The fields will mostly be from the Quoteline table, but some added fields that are conceptually part of the quoteline, like Image will also be possibly to set rights on.
+The fields will mostly be from the `Quoteline` table, but some added fields that are conceptually part of the quoteline, like Image will also be possibly to set rights on.
 
-See Rights field for more information
+See [Rights field][1] for more information
 
 Will be used by SuperOffice to control the user interface when showing the record.
 
@@ -171,73 +171,23 @@ Will NOT be used by SuperOffice.
 
 ## string ExtraField1
 
-This a simple field for adding information that the Connector can provide, and that the quote document need to display.
+[!include[ALT](./includes/product-extrafield.md)]
 
 ## string ExtraField2
 
-This a simple field for adding information that the Connector can provide, and that the quote document need to display.
+[!include[ALT](./includes/product-extrafield.md)]
 
 ## string ExtraField3
 
-This a simple field for adding information that the Connector can provide, and that the quote document need to display.
+[!include[ALT](./includes/product-extrafield.md)]
 
 ## string ExtraField4
 
-This a simple field for adding information that the Connector can provide, and that the quote document need to display.
+[!include[ALT](./includes/product-extrafield.md)]
 
 ## string ExtraField5
 
-This a simple field for adding information that the Connector can provide, and that the quote document need to display.
+[!include[ALT](./includes/product-extrafield.md)]
 
-A way to show some simple extra data on a product, typically to help the user to identify the correct product. Basically a bucket of additional info that the ERP system would like to store and show in the user interface. Information placed here is shown in the GUI if the "provide-extra-data" capability is true.
-
-## string FieldName
-
-Label for the field
-
-## string FieldValue
-
-Value for the field
-
-## ExtraDataFieldType Type
-
-String, image, url.
-
-How the value should be interpreted.
-
-To ensure that values in the value field is correctly displayed according to the user’s culture setup, we have a little system for making this work correctly. You just wrap the values in \[\] brackets with a format specifier, like this:
-
-Valuetype
-Symbol
-Comment
-Example
-
-## Date
-
-D
-Use [D:mm/dd/yyyy] [D:01/01/2009]
-
-## DateTime
-
-DT
-Use [DT:MM/DD/YYYY 00:00:00.0000000] DT:
-
-## double
-
-F
-Use ‘.’ (period) as decimal separator. [F:123.45]
-
-## Integer
-
-I
-
-[I:123]
-
-## Money
-
-M
-Use ‘.’ (period) as decimal separator. [M:123.98]
-
-Which means, that you can show several values in a field, like this: " *Between \[D:12/01/2012\] and \[D:12/25/2012\] it is a \[F:99.5\]% chance of meeting a Santa Clause.*" Which will translate into " *Between 01.12.2012 and 25.12.2012 it is a 99,5% chance of meeting a Santa Clause.*" with a Norwegian PC setup, for instance.
-
-Or "Should be used in temperatures between \[F:-30.0\]°C  and \[F:50.0\] °C." -> "Should be used in temperatures between 30,0°C  and 50,0 °C."
+<!-- Referenced links -->
+[1]: ../rights-field.md

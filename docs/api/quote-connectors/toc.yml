@@ -22,6 +22,8 @@
     href: place-order.md
 - name: Addresses
   href: addresses.md
+- name: Discounts
+  href: discounts.md
 - name: Error system
   href: error-system.md
 - name: Implementation guide
@@ -46,6 +48,10 @@
       href: api/quoteconnectorbase.md
     - name: QuoteConnectorExtender
       href: api/quoteconnectorextender.md
+  - name: Rights field
+    href: api/rights-field.md
+  - name: Reason fields
+    herf: api/reason-fields.md
   - name: Enums
     items:
     - name: ConfigFieldType
@@ -79,6 +85,8 @@
       href: api/data-carriers/pricelistinfo.md
     - name: ProductInfo
       href: api/data-carriers/productinfo.md
+    - name: ProductExtraDataFieldInfo
+      href: api/data-carriers/productextradatafieldinfo.md
     - name: QuoteAlternativeContextInfo
       href: api/data-carriers/quotealternativecontextinfo.md
     - name: QuoteAlternativeInfo

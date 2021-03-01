@@ -13,7 +13,7 @@ PluginResponseInfo exists to be able to respond with more than just a true/false
 
 ## Bool IsOk
 
-Answer to the question / An indication if the operation went well.
+Answer to the question / An indication of whether the operation went well.
 
 ## String UserExplanation
 

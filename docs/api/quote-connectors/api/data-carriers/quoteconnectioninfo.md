@@ -9,9 +9,9 @@ so.topic: reference
 
 # QuoteConnectionInfo
 
-A Quote Connection is set up in the SuperOffice Admin client. It collects the parameters needed to talk to a single ERP client and gives it a name and an id.
+A **quote connection** is set up in the SuperOffice Admin client. It collects the parameters needed to talk to a single ERP client and gives it a name and an ID.
 
-Quote connections will be stored in the table "QuoteConnection" in the CRM database.
+Quote connections will be stored in the table`QuoteConnection` in the CRM database.
 
 ## int CRMConnectionId
 

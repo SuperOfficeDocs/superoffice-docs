@@ -16,5 +16,5 @@ An enumeration hinting about what the user has asked for.
 | Unknown | The system was unable to tell what action has triggered the call. |
 | Validate | The system just wants to validate. |
 | SendQuote | The user has pressed the Send Quote button. |
-|  PlaceOrde | The user has pressed the Place Order button. |
-|  UpdatePrices | The user has pressed the update prices button. |
+| PlaceOrder | The user has pressed the Place Order button. |
+| UpdatePrices | The user has pressed the update prices button. |

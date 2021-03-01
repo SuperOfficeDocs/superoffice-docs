@@ -84,6 +84,10 @@ The system is implemented as one interface, but has some parts:
 
 * **Product Search Provider:** A set of functions to be able to do more complex searches.
 
+## Config values
+
+Configuration fields can be declared to be one of a number of different types, using the `FieldMetadataInfo`. However, they are always transmitted as strings; and to do the conversion between strongly typed value and string we use the SuperOffice.Globalization.CultureDataFormatter class. Use the ParseXXX methods from the same class to get back to the correct type (int, datetime, etc).
+
 <!-- Referenced images -->
 [img1]: media/interfaces.png
 [img2]: media/quotedatabase.png

@@ -10,7 +10,7 @@ so.topic: reference
 
 ![38][img1]
 
-Exists to be able to give the connector relevant information for QuoteVersion specific operations, like SendQuoteVersion.
+Exists to be able to give the connector relevant information for QuoteVersion-specific operations, like `SendQuoteVersion`.
 
 ## string ERPClientKey
 
@@ -18,9 +18,10 @@ Foreign key - always present.
 
 ## UserInfo CRMAssociate
 
-Read-only. The logged in user (the salesman)
+Read-only. The logged-in user (the salesman)
 
-Note: not necessarily the the owner of the sale | that is exposed via the SaleInfo object
+> [!NOTE]
+> Not necessarily the owner of the sale - that is exposed via the SaleInfo object
 
 ## ISaleInfo CRMSale
 
@@ -30,21 +31,21 @@ The CRM client will update the amount + cost fields on the sale based on the quo
 
 ## IContactInfo CRMCompany
 
-Read-only. The sale’s customer info | more detailed information than is provided by the ISaleInfo object.
+Read-only. The sale’s customer info - more detailed information than is provided by the ISaleInfo object.
 
 ## IProjectInfo CRMProject
 
-Read-only. The sales related project info (if any).
+Read-only. The sales-related project info (if any).
 
 ## ForeignKeyInfo[] ForeignKeys
 
-The foreign keys that is related to this quote.
+The foreign keys that are related to this quote.
 
-Contact keys, project keys, sales keys and quotekeys.
+Contact keys, project keys, sales keys, and quotekeys.
 
 ## int EISConnectionId
 
-The id of the EIS Connection in the CRM system.
+The ID of the EIS Connection in the CRM system.
 
 ## string EISConnectionGuid
 
@@ -52,25 +53,25 @@ A conversation identifier
 
 ## string ERPCompanyKey
 
-A key to the equivalent id in the ERP system, from the EIS System.
+[!include[ALT](./includes/erpkey.md)]
 
 May be empty.
 
 ## string ERPPersonKey
 
-A key to the equivalent id in the ERP system, from the EIS System.
+[!include[ALT](./includes/erpkey.md)]
 
 May be empty.
 
 ## string ERPProjectKey
 
-A key to the equivalent id in the ERP system, from the EIS System.
+[!include[ALT](./includes/erpkey.md)]
 
 May be empty.
 
 ## string ERPSaleKey
 
-A key to the equivalent id in the ERP system, from the EIS System.
+[!include[ALT](./includes/erpkey.md)]
 
 May be empty.
 
@@ -86,7 +87,7 @@ This is the active version
 
 ## String UserLanguageCode
 
-The language the users uses in the CRM client. The connector should preferably respond using this language.
+The language the users use in the CRM client. The connector should preferably respond using this language.
 .net culture code: "nb-NO", "en-US" etc.
 
 ## QuoteAlternativeWithLinesInfo CRMQuoteAlternativeWithLines

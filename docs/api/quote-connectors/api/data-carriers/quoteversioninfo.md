@@ -10,11 +10,7 @@ so.topic: reference
 
 Represent a version of a quote
 
-A quote is divided into one or more versions (or revisions, if you like), so a quote have 1..n QuoteVersions.
-
-A quote is divided into one or more versions (or revisions, if you like), so a quote have 1..n QuoteVersions.
-
-I.e. a QuoteVersion always have a quote.
+A quote is divided into one or more versions (or revisions, if you like), so a quote has 1..n `QuoteVersions`. A `QuoteVersion` always has a quote.
 
 Even if versioning is disabled, a single version will exist.  When versioning is disabled, new versions are not created, but the only one is reused.
 
@@ -78,35 +74,35 @@ The delivery address is not the same as the contact's Street address
 
 ## string InvoiceCountry
 
-The quote has an address for Invoicing. Should be stored as ISO code or something…
+The quote has an address for invoicing. Should be stored as ISO code or something…
 
 ## bool HasOwnInvoiceAddress
 
-The quote has an address for Invoicing. This will typically be copied from the company's addresses.
+The quote has an address for invoicing. This will typically be copied from the company's addresses.
 
 ## string ERPPaymentTermsKey
 
-Either a List id to an id from a connector provided list, or, if the connection doesn’t support lists, a text.
+Either a list ID to an ID from a connector provided list, or, if the connection doesn't support lists, a text.
 
-For instance: ‘Standard 30 days’.
+For example: "Standard 30 days".
 
 ## string ERPPaymentTypeKey
 
-Either a List id to an id from a connector provided list, or, if the connection doesn’t support lists, a text.
+Either a list ID to an ID from a connector provided list, or, if the connection doesn't support lists, a text.
 
-For instance: ‘Invoice’.
+For example: "Invoice".
 
 ## string ERPDeliveryTermsKey
 
-Either a List id to an id from a connector provided list, or, if the connection doesn’t support lists, a text.
+Either a list ID to an ID from a connector provided list, or, if the connection doesn't support lists, a text.
 
-For instance: ‘FOB’ (‘Free on board’).
+For : "FOB" ("Free on board").
 
 ## string ERPDeliveryTypeKey
 
-Either a List id to an id from a connector provided list, or, if the connection doesn’t support lists, a text.
+Either a list ID to an ID from a connector provided list, or, if the connection doesn't support lists, a text.
 
-For instance: ‘Air’.
+For example: "Air".
 
 ## int Rank
 
@@ -122,29 +118,29 @@ If there was a problem, this field contains a localized explanation of the probl
 
 ## string ExtraField1
 
-Optional information added by Quote Connector; usable in the quote document merge process.
+[!include[ALT](./includes/quoteversion-extrafield.md)]
 
 ## string ExtraField2
 
-Optional information added by Quote Connector; usable in the quote document merge process.
+[!include[ALT](./includes/quoteversion-extrafield.md)]
 
 ## string ExtraField3
 
-Optional information added by Quote Connector; usable in the quote document merge process.
+[!include[ALT](./includes/quoteversion-extrafield.md)]
 
 ## string ExtraField4
 
-Optional information added by Quote Connector; usable in the quote document merge process.
+[!include[ALT](./includes/quoteversion-extrafield.md)]
 
 ## string ExtraField5
 
-Optional information added by Quote Connector; usable in the quote document merge process.
+[!include[ALT](./includes/quoteversion-extrafield.md)]
 
 ## int ApprovedBy
 
 Not yet implemented:
 
-Id of associate who approved (or rejected approval) for this version.
+ID of associate who approved (or rejected approval) for this version.
 
 ## string ApprovedText
 
@@ -156,7 +152,7 @@ Text with comments on why approval was granted (or rejected)
 
 Not yet implemented:
 
-Id of associate who actually entered the approval; might be different from ApprovedBy (i.e. due to telephone consultation/approval)
+ID of associate who actually entered the approval; might be different from ApprovedBy (due to telephone consultation/approval)
 
 ## DateTime ApprovedRegisteredDate
 

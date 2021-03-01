@@ -9,13 +9,13 @@ so.topic: reference
 
 # QuoteAlternativeInfo
 
-![27][img2]
+![27][img1]
 
-Quote Version is made up of one or more Alternatives. One of 1..n possible alternatives in a Quote Version.
+A quote version is made up of one or more alternatives. One of 1..n possible alternatives in a Quote Version.
 
-The reason we have alternatives is that a quote can say to a customer, "we can solve you problem in two (or more) different ways, with different technology and side effects (and price)".
+The reason we have alternatives is that a quote can say to a customer, "we can solve your problem in two (or more) different ways, with different technology and side effects (and price)".
 
-An Alternative may have discounts on the total amount. The Alternative tracks whether the user on the order level entered the Discount %, the Discount amount, the Earning%, Earning amount or the TotalPrice fields so that the discount and earning and total can be re-calculated correctly when Quote Lines are added or changed.
+An alternative may have discounts on the total amount. The alternative tracks whether the user on the order level entered the discount percentage, the Discount amount, the Earning%, Earning amount, or the TotalPrice fields so that the discount and earning and total can be re-calculated correctly when Quote Lines are added or changed.
 
 ## int QuoteAlternativeId
 
@@ -31,7 +31,7 @@ The version that owns this alternative (the chain is Sale 1->1 Quote 1->+ QuoteV
 
 ## string Name
 
-Name of Alternative. Shown in tab in user interface.
+Name of Alternative. Shown in tab in the user interface.
 
 ## string Description
 
@@ -87,7 +87,7 @@ Both the two ‘DiscountPercent’ and ‘DiscountAmount’ shall be filled out,
 Has the pre-calculated (from ERP) price information been overridden, and how.
 
 If the user has filled out the discountpercentage field, then the UserValueOverride field is set to OverridePercent.
-(The DiscountAmount, EarningPercent, EarningAmount and TotalPrice fields are calculated based on the discountPercent.)
+(The DiscountAmount, EarningPercent, EarningAmount, and TotalPrice fields are calculated based on the discountPercent.)
 
 ## string VATInfo
 
@@ -95,7 +95,7 @@ Extra info about VAT that the connector might insert.
 
 This is just to help out the layout of the quote in a document.
 
-In this field we store VAT info that needs to be printed out on the quote, like "Inc VAT" or "12% VAT".
+In this field, we store VAT info that needs to be printed out on the quote, like "Inc VAT" or "12% VAT".
 
 May or may not be filled out.
 
@@ -132,54 +132,23 @@ Shall be calculated by the connector.
 
 ## string ExtraField1
 
-Optional information added by Quote Connector; usable in the quote document merge process.
+[!include[ALT](./includes/quotealt-extrafield.md)]
 
 ## string ExtraField2
 
-Optional information added by Quote Connector; usable in the quote document merge process.
+[!include[ALT](./includes/quotealt-extrafield.md)]
 
 ## string ExtraField3
 
-Optional information added by Quote Connector; usable in the quote document merge process.
+[!include[ALT](./includes/quotealt-extrafield.md)]
 
 ## string ExtraField4
 
-Optional information added by Quote Connector; usable in the quote document merge process.
+[!include[ALT](./includes/quotealt-extrafield.md)]
 
 ## string ExtraField5
 
-Optional information added by Quote Connector; usable in the quote document merge process.
-
-Quote Alternative Discounts/Earning
-
-Each quote line can have a discount applied. A quote alternative (a set of quote lines) can have a separate discount applied - depending on a company policy preference.
-
-![28][img2]
-
-The discount on the whole quote alternative works much like the discounts on the quote.
-
-The ERP system can suggest a discount (either Percent or a fixed amount) and the user can override the suggestion.
-
-Cost + Earning = SubTotal - Discount = TotalPrice
-
-Another way to set the discount is to set the earning! Since Cost + Earning = TotalPrice and Discount = SubTotal | TotalPrice.
-
-This means that if you set any of the fields:
-
-* DiscountAmount
-
-* DiscountPercent
-
-* EarningAmount
-
-* EarningPercent
-
-* TotalPrice
-
-Then the other 4 values will be adjusted accordingly.
-
-The QuoteCalculation helper class in the plug-in DLL can help you handle the different methods of calculating totals and discounts.
+[!include[ALT](./includes/quotealt-extrafield.md)]
 
 <!-- Referenced images -->
-[img2]: media/image027.jpg
-[img3]: media/image028.png
+[img1]: media/image027.jpg

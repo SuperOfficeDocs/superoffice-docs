@@ -8,9 +8,9 @@ so.topic: reference
 
 # QuoteInfo
 
-A Sale can have a quote and has then a 1-1 relationship with the QuoteInfo.
+A sale can have a quote and has then a 1-1 relationship with the `QuoteInfo`.
 
-Read-write Quote information.
+Read-write quote information.
 
 ## int QuoteId
 
@@ -50,4 +50,4 @@ Set when the user is marking a quote as accepted.
 
 ## int DocumentId
 
-The ID of the main Quote Document.  This is not the document containing the products, but the other one.
+The ID of the main Quote Document. This is not the document containing the products, but the other one.
