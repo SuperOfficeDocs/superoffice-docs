@@ -29,11 +29,6 @@
       href: web-application/customize/add-custom-control.md
     - name: Using triggers
       href: web-application/customize/triggers.md
-  - name: Web extensions
-    href: web-application/web-extensions/index.md
-    items:
-    - name: MailArchiveHelper
-      href: web-application/web-extensions/mailarchivehelper.md
   - name: What's new
     href: web-application/whats-new/index.md
     items:
@@ -76,3 +71,8 @@
 - name: SoProtocol
   href: soprotocol/index.md
   items:
+- name: Web extensions
+  href: web-extensions/index.md
+  items:
+  - name: MailArchiveHelper
+    href: web-extensions/mailarchivehelper.md
