@@ -167,7 +167,7 @@ SuperOffice CRM Web delivers a comprehensible and highly extensible platform tha
 
 <!-- Referenced links -->
 [1]: https://github.com/SuperOfficeDocs/superoffice-docs/blob/main/docs/onsite/web-client/page-configuration.md
-[2]: ../../Developer's%20Guide/Super%20State/Super%20State.md
+[2]: ../../pagebuilder/superstate/index.md
 [3]: ../../pagebuilder/config/index.md
 [4]: https://community.superoffice.com/en/content/content/webclient/customization-and-deployment/
 [5]: ../../soprotocol/index.md

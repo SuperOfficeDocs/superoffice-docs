@@ -45,8 +45,6 @@
       href: pagebuilder/framework/pagebuilder.md
     - name: SoProtocol
       href: pagebuilder/framework/soprotocol.md
-    - name: SuperState
-      href: pagebuilder/framework/superstate.md
     - name: UserControls
       href: pagebuilder/framework/usercontrols.md
     - name: XML config file
@@ -68,6 +66,13 @@
         href: pagebuilder/config/app-config.md
       - name: Data-driven page config
         href: pagebuilder/config/data-driven-page-config.md
+    - name: SuperState
+      href: pagebuilder/superstate/index.md
+      items:
+      - name: What causes SuperState to change?
+        href: pagebuilder/superstate/state-changes.md
+      - name: SuperState, SoProtocol, and Pagebuilder
+        href: pagebuilder/superstate/superstate-in-context.md
 - name: SoProtocol
   href: soprotocol/index.md
   items:
