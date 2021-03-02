@@ -56,6 +56,23 @@
       href: pagebuilder/framework/usercontrols.md
     - name: XML config file
       href: pagebuilder/framework/xml-config-file.md
+    - name: Config
+      href: pagebuilder/config/index.md
+      items:
+      - name: Page config files
+        href: pagebuilder/config/page.md
+      - name: Panel config files
+        href: pagebuilder/config/panel.md
+      - name: View config files
+        href: pagebuilder/config/view.md
+      - name: Card config files
+        href: pagebuilder/config/card.md
+      - name: Object mapping
+        href: pagebuilder/config/object-mapping.md
+      - name: Application config
+        href: pagebuilder/config/app-config.md
+      - name: Data-driven page config
+        href: pagebuilder/config/data-driven-page-config.md
 - name: SoProtocol
   href: soprotocol/index.md
   items:

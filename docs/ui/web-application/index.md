@@ -64,5 +64,5 @@ The CRM.web product is prepared for Unicode, but are depending on several other 
 [2]: https://www.nuget.org/packages/SuperOffice.NetServer.Services/
 [3]: https://www.nuget.org/packages/SuperOffice.NetServer.Core/
 [4]: ../pagebuilder/index.md
-[5]: Developer's%20Guide/PageBuilder%20config%20files/PageBuilder%20config%20files.md
+[5]: ../pagebuilder/config/index.md
 [6]: Developer's%20Guide/Customizing%20CRM.web/Custom%20Ajax%20Methods/Custom%20Ajax%20Methods.md
