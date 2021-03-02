@@ -15,7 +15,9 @@
     - name: Globalization
       href: web-application/getting-started/globalization.md
     - name: How to use custom config files
-      her: web-application/getting-started/use-custom-config-files.
+      href: web-application/getting-started/use-custom-config-files.md
+    - name: How to debug
+      href: web-application/getting-started/debug.md
   - name: Customization
     href: web-application/customize/index.md
     items:
