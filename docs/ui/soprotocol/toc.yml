@@ -1,0 +1,15 @@
+- name: SoProtocol
+  href: index.md
+  items:
+  - name: Navigation points
+    href: navigation-points.md
+  - name: Query strings
+    href: query-strings.md
+  - name: Page control and cache
+    href: page-control-and-cache.md
+  - name: In CRMScript
+    href: in-crmscript.md
+  - name: In web-panels - web
+    href: used-in-webpanels-web.md
+  - name: In web-panels - Windows
+    href: used-in-webpanels-win.md

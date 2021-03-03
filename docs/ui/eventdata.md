@@ -204,5 +204,5 @@ ed.setNavigateTo("soprotocol:sale.document?document_id=0");
 
 <!-- Referenced links -->
 [1]: screen-events.md
-[2]: so-protocol.md
+[2]: soprotocol/index.md
 [3]: url-parameters.md
