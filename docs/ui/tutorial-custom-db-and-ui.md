@@ -249,7 +249,7 @@ url = ticket.exe?action=listTicket&ticketId=
 [3]: screen-choosers.md
 [4]: custom-screens/index.md
 [5]: custom-screens/add-screen-element.md
-[6]: web-panels.md
+[6]: web-panels/index.md
 [7]: url-parameters.md
 
 <!-- Referenced images -->

@@ -45,5 +45,5 @@ You can now click the link - the **Appointment** dialog appears, and the web pag
 > You can also issue an SoProtocol from a web panel use the [CrossMessaging API][3].
 
 <!-- Referenced links -->
-[2]: ../web-panels.md
+[2]: ../web-panels/index.md
 [3]: https://github.com/SuperOffice/DevNet/tree/master/CrossMessaging
