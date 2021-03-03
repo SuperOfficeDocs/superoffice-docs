@@ -7,9 +7,22 @@
     href: query-strings.md
   - name: Page control and cache
     href: page-control-and-cache.md
+  - name: SoProtocol and SuperState
+    href: sop-and-superstate.md
   - name: In CRMScript
     href: in-crmscript.md
   - name: In web-panels - web
     href: used-in-webpanels-web.md
   - name: In web-panels - Windows
     href: used-in-webpanels-win.md
+  - name: How to
+    items:
+    - name: Get contact
+      href: get-contact.md
+    - name: Create contact
+      href: create-contact.md
+    - name: Edit contact
+      href: edit-contact.md
+    - name: Open Appointment dialog
+      href: open-appointment-dialog.md
+    

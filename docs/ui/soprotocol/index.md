@@ -21,6 +21,8 @@ For example, to go to the contact with contact_id=2:
 
 `superoffice:contact.main?contact_id=2`
 
+![08][img4]
+
 > [!TIP]
 > You can get a URL that reflects the current state of the application by selecting **Copy shortcut** either from the hamburger menu, the **Task** menu in dialogs for follow-ups and documents, or by right-clicking an item in a section tab,
 
@@ -49,9 +51,28 @@ This link opens the project page displaying the event tab and Project Member tab
 
 In the same config file, if we use duplicate soprotocol values for views, it will give us a conflict error message. We can create any number of views, but the soprotocol value of each view should be unique.
 
+## Why use SoProtocol
+
+* No Scripting is needed.
+* Works with the integrated web browser (webpages can control the CRM client user interface).
+* Works with normal internet explorer.
+* Works with both Windows and web clients.
+* The web page cannot write data into the database, it can only show the data.
+
+## Find current state
+
+To get the SOProtocol link that reflects the current state of the application, use the view page info option available and copy the address.
+
+> [!NOTE]
+> When running SuperOffice in a FireFox browser, we can use the **Copy Shortcut** option on the task button to get the address.
+
+![03][img3]
+
 <!-- Referenced links -->
 [1]:
 
 <!-- Referenced images -->
 [img1]: media/image001.jpg
 [img2]: media/image002.jpg
+[img3]: media/image003.jpg
+[img4]: media/image008.jpg
