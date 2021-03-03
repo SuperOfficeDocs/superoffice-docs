@@ -55,4 +55,4 @@ The next level of the config file is the `card` element. The config data for the
 [1]: card.md
 
 <!-- Referenced images -->
-[img1]: media/image001.gif
+[img1]: ../media/image001.gif

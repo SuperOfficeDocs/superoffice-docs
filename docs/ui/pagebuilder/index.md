@@ -13,7 +13,7 @@ PageBuilder's main functionality is rendering the page with the UI states and cu
 
 The following diagram shows the components in a typical CRM.web webpage. The webpage consists of one or more panels. A panel should consist of at least one card. Each card has its own set of views.
 
-![01][img1]
+![02][img1]
 
 The PageBuilder generates a page based on the information passed by the SuperState. The SuperState determines which configuration to fetch based on the SoProtocol and passes it to the PageBuilder.
 
@@ -23,4 +23,4 @@ The controls consider the UI status and the current values when rendering a page
 [1]:
 
 <!-- Referenced images -->
-[img1]: media/image001.jpg
+[img1]: media/image002.jpg

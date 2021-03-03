@@ -42,47 +42,10 @@ In the *SoContactPage.config* file, it states the `datahandlers` and the `panels
 
 The `ContactEntityDataHandler` data handler is called in the contact panel. The below code segment shows the *SoContactPanel.config* file.
 
-```XML
-<?xml version="1.0" encoding="utf-8"?>
-<panel id="Contact" type="SplitterPanel" soprotocol="Contact" paneltype="Main" placeholderid="MainPlaceHolder">
-  <caption>[SR_COMMON_CONTACT]: [current:contact_name]</caption>
-  <cards>
-    <card id="ContactMainCard" type="SoTabbedCard" placeholderid="leftpanel" cardtype="MainCard">
-      <views>
-        <!-- Some other code-->       
-        <view id="more" type="SoView" soprotocol="udef" current="contact">
-          <caption>[SR_MORE_CONTACT]</caption>
-          <tooltip>More...</tooltip>
-          <controlgroups>
-              <!-- Data Handler-->
-            <controlgroup id="moreHeadergroup" type="SoControlGroup" position="absolute" top="5px" left="5px" right="20px">
-              <controls>
-                <control id="ContactMoreHeaderControl" type="ContactHeader">
-                  <datasource>ContactEntityDataHandler.ContactEntity</datasource>
-                  <config>
-                  </config>
-                </control>
-              </controls>
-            </controlgroup>
-            <!--End of Data Handler-->
-            <!-- Some other code-->
-          </controlgroups>
-          <!-- Some other code-->
-        </view>
-        <!-- Some other code-->
-      </views>
-      <!-- Some other code-->
-    </card>
-    <!-- Some other code-->
-  </cards>
-  <!-- Some other code-->
-</panel>
-```
+[!code-xml[XML](../includes/socontactpanel-config.xml)]
 
 The ContactEntityDataHandler will fetch the ContactEntity from the web service. With the statement below, we use the name of the DataHandler to retrieve the data from the carrier.
 
-```XML
-<datasource>ContactEntityDataHandler.ContactEntity</datasource>
-```
+[!code-xml[XML](../includes/socontactpanel-config.xml?range=16)]
 
 The PageBuilder framework rendering mechanism gets the data onto the page by using data handlers.

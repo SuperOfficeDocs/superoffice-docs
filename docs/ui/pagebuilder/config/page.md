@@ -42,8 +42,8 @@ Here it tells us the config data for the rest of the page exists in the files th
 **Next:** [panel config files][2]
 
 <!-- Referenced links -->
-[1]: ../User%20Controls/User%20Controls%20Data%20Binding/User%20Controls%20Data%20Binding.md
+[1]: ../usercontrols/data-binding/index.md
 [2]: panel.md
 
 <!-- Referenced images -->
-[img1]: media/image001.gif
+[img1]: ../media/image001.gif

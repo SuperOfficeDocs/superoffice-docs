@@ -43,8 +43,6 @@
       href: pagebuilder/framework/pagebuilder.md
     - name: SoProtocol
       href: pagebuilder/framework/soprotocol.md
-    - name: UserControls
-      href: pagebuilder/framework/usercontrols.md
     - name: XML config file
       href: pagebuilder/framework/xml-config-file.md
     - name: Config
@@ -78,6 +76,9 @@
         href: pagebuilder/datahandlers/use-builtin-datahandler.md
       - name: Add custom handler
         href: pagebuilder/datahandlers/add-custom-datahandler.md
+    - name: UserControls
+      href: pagebuilder/usercontrols/index.md
+      items:
 - name: SoProtocol
   href: soprotocol/index.md
   items:
