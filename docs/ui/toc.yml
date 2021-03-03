@@ -39,8 +39,6 @@
 - name: PageBuilder
   href: pagebuilder/index.md
   items:
-    - name: DataHandler
-      href: pagebuilder/framework/datahandlers.md
     - name: PageBuilder (class)
       href: pagebuilder/framework/pagebuilder.md
     - name: SoProtocol
@@ -73,6 +71,13 @@
         href: pagebuilder/superstate/state-changes.md
       - name: SuperState, SoProtocol, and Pagebuilder
         href: pagebuilder/superstate/superstate-in-context.md
+    - name: DataHandler
+      href: pagebuilder/datahandlers/index.md
+      items:
+      - name: Use built-in handler
+        href: pagebuilder/datahandlers/use-builtin-datahandler.md
+      - name: Add custom handler
+        href: pagebuilder/datahandlers/add-custom-datahandler.md
 - name: SoProtocol
   href: soprotocol/index.md
   items:

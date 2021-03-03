@@ -17,12 +17,7 @@ Below is an excerpt of an object mapping config file. We have cut out some parts
 
 [!code-xml[XML](includes/mapping.xml)]
 
-| Parameter | Description |
-|--|---|
-| type | the type of the object |
-| mappingname | the name that this object is given in the other config files |
-| assemblyname | the assembly that this particular object resides in |
-| objectname | the actual name of the object inside the given assembly |
+[!include[ALT](../includes/object-parameters.md)]
 
 For example, the following line tells us the object that is represented by this line is referred to as *SoPanel* in other config files, resides in the *SuperOffice.CRMWeb* assembly, and is called `SuperOffice.CRM.Web.UI.Controls.Panel`.
 

@@ -13,6 +13,10 @@ so.envir: onsite
 
 DataHandler is the layer between the GUI and the web service. The handlers expose the web service results (the carriers) to the GUI and take care of sending the modified results back to the Web services when needed.
 
+For example, if we require contact details, the DataHandler gets a request from the PageBuilder for the Contact entity and has to call the web service to get the answer.
+
+A DataHandler handles the population and storing of data within a card. The controls can bind to this data through the datasource property. It’s the glue between the UI and NetServer
+
 In the *SoContactPage.config* file, it states the `datahandlers` and the `panels` it is using.
 
 ```XML
@@ -50,7 +54,7 @@ The `ContactEntityDataHandler` data handler is called in the contact panel. The 
           <caption>[SR_MORE_CONTACT]</caption>
           <tooltip>More...</tooltip>
           <controlgroups>
-              <!-- Data Handler-->       
+              <!-- Data Handler-->
             <controlgroup id="moreHeadergroup" type="SoControlGroup" position="absolute" top="5px" left="5px" right="20px">
               <controls>
                 <control id="ContactMoreHeaderControl" type="ContactHeader">
