@@ -19,6 +19,25 @@ The PageBuilder generates a page based on the information passed by the SuperSta
 
 The controls consider the UI status and the current values when rendering a page. Once the page shows in the browser, it brings all elements in the page into one level. SuperOffice connects the SuperState, User Controls, SoProtocols, DataHandlers, and the XML configuration files to render the page.
 
+## default.aspx
+
+*Default.aspx* is the main page used by SuperOffice Web. Every time this page is loaded, the PageBuilder framework supplies the information. The ASPX file has a `PageBuilder` element:
+
+```XML
+<so2:PageBuilder ID="PageContent" runat="server">
+
+</so2:PageBuilder>
+```
+
+## Methods in the PageBuilder class
+
+* InitializeCard
+* InitializeControl
+* InitializePanels
+* InitializeView
+* InitializeDataHandler
+* ...
+
 <!-- Referenced links -->
 [1]:
 
