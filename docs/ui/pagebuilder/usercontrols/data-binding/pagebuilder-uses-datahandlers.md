@@ -53,7 +53,7 @@ There is another way to bind the data to the controls by using the datasourcenam
 
  
 
-The SoArchiveControl control id is ContactPersonArchive. Within this UserControl there is a special tag called &lt;config&gt;.The &lt;config&gt; tag below indicates to us from where the Archive data has been retrieved, i.e. the name of the provider used. An “archivecolumninfo-datasourcename” tag tells us about the datahandler that has been used to retrieve the data. Tags such as showheader, showtoolbar and default sort are related to how the retrieved out put should be displayed.
+The SoArchiveControl control id is ContactPersonArchive. Within this UserControl there is a special tag called <config>.The <config> tag below indicates to us from where the Archive data has been retrieved, i.e. the name of the provider used. An “archivecolumninfo-datasourcename” tag tells us about the datahandler that has been used to retrieve the data. Tags such as showheader, showtoolbar and default sort are related to how the retrieved out put should be displayed.
 
 ```
 <config>

@@ -29,6 +29,8 @@
       href: datahandlers/use-builtin-datahandler.md
     - name: Add custom handler
       href: datahandlers/add-custom-datahandler.md
+    - name: Tutorial
+      href: datahandlers/tutorial.md
   - name: UserControls
     href: usercontrols/index.md
     items:

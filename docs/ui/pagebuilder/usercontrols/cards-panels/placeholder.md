@@ -25,9 +25,9 @@ The *MiniNotepadView.ascx* file shows the NotePad minicard on the left side
 <%@ Register TagPrefix="so2" Namespace="SuperOffice.CRM.Web.UI.Controls" Assembly="SuperOffice.CRMWeb" %>
 <asp:PlaceHolder ID="notepadPlaceholder" runat="server" />
 <div runat="server" id="buttonwrapper" style="position:absolute;bottom:0px;">
-  <asp:HyperLink ID="prev" runat="server">&lt;</asp:HyperLink>
+  <asp:HyperLink ID="prev" runat="server"><</asp:HyperLink>
   <asp:PlaceHolder ID="infoPlaceholder" runat="server" />
-  <asp:HyperLink ID="next" runat="server">&gt;</asp:HyperLink>
+  <asp:HyperLink ID="next" runat="server">>sp:HyperLink>
 </div>
 ```
 
