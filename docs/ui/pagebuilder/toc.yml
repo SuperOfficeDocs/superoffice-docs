@@ -80,6 +80,14 @@
         href: usercontrols/archives/add-button-to-footer.md
       - name: Change default columns
         href: usercontrols/archives/change-default-columns.md
+      - name: Add an Archive control
+        href: usercontrols/archives/add-archive-control.md
+      - name: Add archive row context menu
+        href: usercontrols/archives/add-archive-row-context-menu.md
+      - name: Add row click actions
+        href: usercontrols/archives/add-row-click-actions.md
+      - name: Add an archive action button
+        href: usercontrols/archives/add-archive-action-button.md
   - name: SuperState
     href: superstate/index.md
     items:
