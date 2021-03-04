@@ -45,6 +45,8 @@
         href: usercontrols/lists/add-mdo-control-to-panel.md
       - name: MDO control config
         href: usercontrols/lists/config-for-mdo-control.md
+      - name: Create custom MDO controls
+        href: usercontrols/lists/create-custom-mdo-controls.md
     - name: Cards and panels
       href: usercontrols/cards-panels/index.md
       items:
