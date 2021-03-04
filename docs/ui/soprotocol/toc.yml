@@ -23,6 +23,11 @@
       href: create-contact.md
     - name: Edit contact
       href: edit-contact.md
+    - name: Create appointment
+      href: create-appointment.md
     - name: Open Appointment dialog
       href: open-appointment-dialog.md
-    
+    - name: Open dialog (URL, JavaScript, Iframe)
+      href: open-dialog.md
+    - name: Show persons for contact
+      href: show-persons-for-contact.md
