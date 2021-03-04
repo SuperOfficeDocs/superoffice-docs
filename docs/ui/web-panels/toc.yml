@@ -9,3 +9,5 @@
     href: passing-data.md
   - name: Create link to
     herf: create-link-to.md
+  - name: Detect running inside SuperOffice
+    href: detect-superoffice.md
