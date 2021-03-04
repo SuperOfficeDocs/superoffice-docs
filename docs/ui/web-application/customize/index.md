@@ -41,7 +41,7 @@ Nearly all customizations involve changing at least one of the configuration fil
 
 <!-- Referenced links -->
 [1]: Page%20Configuration/Page%20Configuration.md
-[2]: ../../pagebuilder/usercontrols/tutorial.md
+[2]: ../../pagebuilder/usercontrols/tutorial-1.md
 [3]: ../../pagebuilder/datahandlers/tutorial.md
 [4]: ../../pagebuilder/usercontrols/lists/create-custom-mdo-controls.md
 [5]: ../../pagebuilder/usercontrols/archives/create-custom-archive-control.md

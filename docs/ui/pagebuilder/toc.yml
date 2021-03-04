@@ -36,8 +36,12 @@
     items:
     - name: Rights system
       href: usercontrols/rights-system.md
-    - name: Tutorial
-      href: usercontrols/tutorial.md
+    - name: Tutorials
+      items:
+      - name: Extend Sales page
+        href: usercontrols/tutorial-1.md
+      - name: My test page
+        href: usercontrols/tutorial-2.md
     - name: Lists
       href: usercontrols/lists/index.md
       items:
