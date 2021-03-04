@@ -4,21 +4,3 @@
 # - name: SoProtocol
 #   href: soprotocol/index.md
 #   items:
-# - name: Web extensions
-#   href: web-extensions/index.md
-#   items:
-#   - name: MailArchiveHelper
-#     href: web-extensions/mailarchivehelper/index.md
-#     items:
-#     - name: Getting started (init)
-#       href: web-extensions/mailarchivehelper/getting-started.md
-#     - name: Registry
-#       href: web-extensions/mailarchivehelper/registry.md
-#     - name: Preference dialog
-#       href: web-extensions/mailarchivehelper/preference-dialog.md
-#     - name: Logging
-#       href: web-extensions/mailarchivehelper/logging.md
-#     - name: COM interop and .Net
-#       href: web-extensions/mailarchivehelper/com-interop-and-dotnet.md
-#     - name: MailProtocol
-#       href: web-extensions/mailarchivehelper/mail-protocol.md
