@@ -1,8 +1,8 @@
 ---
 title: add_row_click_actions
 description: How to add row click actions
-author: Tony Yates
-so.date: 04.16.2018
+author: Steffan Alte
+so.date: 2007
 keywords:
 so.topic: tutorial
 so.client: web

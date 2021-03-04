@@ -1,8 +1,8 @@
 ---
 title: usercontrols_tutorial
 description: UserControls turorial
-author: Tony Yates
-so.date: 06.24.2016
+author: Steffan Alte
+so.date: 2007
 keywords:
 so.topic: guide
 so.client: web

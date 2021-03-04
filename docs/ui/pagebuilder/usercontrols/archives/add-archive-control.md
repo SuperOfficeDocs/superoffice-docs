@@ -1,8 +1,8 @@
 ---
 title: add_archive_control
 description: How to add an Archive control
-author: Tony Yates
-so.date: 04.16.2018
+author: Steffan Alte
+so.date: 2007
 keywords:
 so.topic: howto
 so.client: web

@@ -1,5 +1,5 @@
 ---
-title: pb_usercontro_archive_defaults
+title: pb_usercontrol_archive_defaults
 description: Changing the default columns in the project archive
 author: Tony Yates
 so.date: 06.24.2016

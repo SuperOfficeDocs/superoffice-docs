@@ -1,8 +1,8 @@
 ---
 title: custom_ajax_methods
 description: Custom AJAX methods
-author: Tony Yates
-so.date: 07.12.2018
+author: Steffan Alte
+so.date: 2007
 keywords:
 so.topic: tutorial
 so.client: web

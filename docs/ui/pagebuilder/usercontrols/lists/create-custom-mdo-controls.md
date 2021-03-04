@@ -1,8 +1,8 @@
 ---
 title: create_custom_mdo_controls
 description: Create custom MDO controls
-author: Tony Yates
-so.date: 06.24.2016
+author: Steffan Alte
+so.date: 2007
 keywords:
 so.topic: tutorial
 so.client: web

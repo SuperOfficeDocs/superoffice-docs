@@ -1,8 +1,8 @@
 ---
 title: add_archive_action_button
 description: How to add an Archive action button
-author: Tony Yates
-so.date: 04.16.2018
+author: Steffan Alte
+so.date: 2007
 keywords:
 so.topic: howto
 so.client: web
