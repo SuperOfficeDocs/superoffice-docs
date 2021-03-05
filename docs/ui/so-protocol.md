@@ -184,13 +184,17 @@ You can now click the link - the **Appointment** dialog appears, and the web pag
 
 ## Web Stuff
 
-[dialog=stop]
+* [dialog=stop]
 
-[mode=display|edit] (issues via crossmessaging, in app javascript)
+* [mode=display|edit] (issues via crossmessaging, in app javascript)
+* sale.main[mode=edit&new=true]
+
 * info[mode=edit]
 
-[refresh=false]
-[usesuperstatecopy=true] (disconnect dialog from current updates)
+* [refresh=false]
+
+
+* [usesuperstatecopy=true] (disconnect dialog from current updates)
 
 * Only for dialogs use.
 
