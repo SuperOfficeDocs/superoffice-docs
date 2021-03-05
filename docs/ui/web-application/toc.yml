@@ -29,6 +29,8 @@
       href: customize/triggers.md
     - name: Custom AJAX methods
       href: customize/custom-ajax-methods.md
+    - name: Customization and deployment
+      href: customize/cust-and-deploy.md
   - name: What's new
     href: whats-new/index.md
     items:
