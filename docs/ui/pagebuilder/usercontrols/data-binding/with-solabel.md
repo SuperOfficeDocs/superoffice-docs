@@ -30,7 +30,7 @@ The `CaptionBinding` property is set to *resources* since the actual caption is 
 
 In run time to get the caption of "SR\_CC\_PHONE", the dynamic DLL call *SuperOffice.Web.Globalization.resources.dll* is used. This is generated in SuperOffice by using `SuperOffice.Web.Globalization`. Several culture-specific resource files are included in this.
 
-For example, in *ResourceStrings.en-us.resx* it sets the caption of "SR\_CC\_PHONE" to “Telephone”, the XML element below shows the convention.
+For example, in *ResourceStrings.en-us.resx* it sets the caption of "SR\_CC\_PHONE" to "Telephone", the XML element below shows the convention.
 
 ```XML
 <data name="SR_CC_PHONE">

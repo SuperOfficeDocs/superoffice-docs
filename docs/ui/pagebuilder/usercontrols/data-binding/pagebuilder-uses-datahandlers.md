@@ -45,7 +45,7 @@ ContactEntityDataHandler is used to call the ContactEntity from the web service.
 <datasource>ContactEntityDataHandler.ContactEntity</datasource>
 ```
 
-There is another way to bind the data to the controls by using the datasourcename. In the above code sample within the “ContactArchives” card id, SoArchiveControl is used.
+There is another way to bind the data to the controls by using the datasourcename. In the above code sample within the "ContactArchives" card id, SoArchiveControl is used.
 
 ```
 <control id="ContactPersonArchive" type="SoArchiveControl" width="100%" top="0px" left="0px" height="100%" position="absolute" >
@@ -53,7 +53,7 @@ There is another way to bind the data to the controls by using the datasourcenam
 
  
 
-The SoArchiveControl control id is ContactPersonArchive. Within this UserControl there is a special tag called <config>.The <config> tag below indicates to us from where the Archive data has been retrieved, i.e. the name of the provider used. An “archivecolumninfo-datasourcename” tag tells us about the datahandler that has been used to retrieve the data. Tags such as showheader, showtoolbar and default sort are related to how the retrieved out put should be displayed.
+The SoArchiveControl control id is ContactPersonArchive. Within this UserControl there is a special tag called <config>.The <config> tag below indicates to us from where the Archive data has been retrieved, i.e. the name of the provider used. An "archivecolumninfo-datasourcename" tag tells us about the datahandler that has been used to retrieve the data. Tags such as showheader, showtoolbar and default sort are related to how the retrieved out put should be displayed.
 
 ```
 <config>
@@ -76,7 +76,7 @@ The SoArchiveControl control id is ContactPersonArchive. Within this UserControl
 
  
 
-In the above code segment a tag called “archivecolumninfo-datasourcename” is included.
+In the above code segment a tag called "archivecolumninfo-datasourcename" is included.
 
 ```
 <archivecolumninfo-datasourcename> ArchiveColumnConfigDataHandler.ContactPersonArchive
@@ -108,4 +108,4 @@ Code segment from the SoObjectMapping.config file. The file registers the object
  
 ```
 
-XML configuration files are used to call the usercontrols in to the page by mapping the “objectname”. “objectname” and the “assemblyname” gives the path from where the user controls should be loaded. “mappingname” is the key to map the objects with the SoObjectMapping.config file. -->
+XML configuration files are used to call the usercontrols in to the page by mapping the "objectname". "objectname" and the "assemblyname" gives the path from where the user controls should be loaded. "mappingname" is the key to map the objects with the SoObjectMapping.config file. -->

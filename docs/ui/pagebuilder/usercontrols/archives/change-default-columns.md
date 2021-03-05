@@ -11,7 +11,7 @@ so.envir: onsite
 
 # Changing the default columns in the project archive
 
-The default columns list of all archives is contained in the SoArchiveColumnList.config file. The config file contains a default column list as well as an ignored column list for all providers available through the CRM.web. It is important to remember that if we change the default column list of a provider, in all places it is used the new column list will be shown. The chosen columns for each user are stored at database level in the “superlistcolumnsize” table.
+The default columns list of all archives is contained in the SoArchiveColumnList.config file. The config file contains a default column list as well as an ignored column list for all providers available through the CRM.web. It is important to remember that if we change the default column list of a provider, in all places it is used the new column list will be shown. The chosen columns for each user are stored at database level in the "superlistcolumnsize" table.
 
 In the example below our goal is to add two columns i.e. Project Associates – First Name and Last Name columns to the Project view displayed in the Company Page.
 

@@ -69,7 +69,7 @@ From *SoMainHeaderGroupControlGroup.config:*
 
 ```XML
 <controlgroups>
-  <controlgroup id="MoreMainHeaderGroup_OrgId" type=“ControlGroup" />
+  <controlgroup id="MoreMainHeaderGroup_OrgId" type="ControlGroup" />
 ```
 
 ## Data driven

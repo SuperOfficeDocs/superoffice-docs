@@ -51,7 +51,7 @@ function navigate()
 </html>
 ```
 
-Here also we can see that we are trying to navigate to the contact page that contains the contact id 3. We can notice that we have executed the JavaScript on a link that says “Click Here to Invoke SuperOffice”. Once we click on the link it will show us the login screen of the CRM.web application. After we have logged in the application will take us to the contact page that consists of information of the contact id 3 in this case.
+Here also we can see that we are trying to navigate to the contact page that contains the contact id 3. We can notice that we have executed the JavaScript on a link that says "Click Here to Invoke SuperOffice". Once we click on the link it will show us the login screen of the CRM.web application. After we have logged in the application will take us to the contact page that consists of information of the contact id 3 in this case.
 
 Before we click the link, the login page, and finally the contact page:
 
@@ -100,7 +100,7 @@ The standard way to login to the CRM.web is through the login page. However, it 
 
 * UserId and Password refers to the SuperOffice login name and Password
 * Culture refers to the culture string which determines the user interaction language
-* TrayApp which could be either “yes” or “no” indicates whether the TrayApp is installed or not.
+* TrayApp which could be either "yes" or "no" indicates whether the TrayApp is installed or not.
 
 <!-- Referenced links -->
 [1]:
