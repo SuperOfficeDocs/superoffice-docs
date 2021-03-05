@@ -44,6 +44,10 @@
         href: usercontrols/tutorial-2.md
       - name: Custom page with standard controls
         href: usercontrols/tutorial-custom-page-std-controls.md
+      - name: ASP.NET controls vs SuperOffice controls
+        href: usercontrols/tutorial-aspnet-vs-so-controls.md
+      - name: ASP.NET website listing appointments with Loging page
+        href: usercontrols/tutorial-aspnet-appointment-with-login.md
     - name: Lists
       href: usercontrols/lists/index.md
       items:
