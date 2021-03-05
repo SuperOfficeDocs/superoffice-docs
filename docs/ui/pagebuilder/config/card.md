@@ -17,6 +17,46 @@ What appears inside the `card` element is the config data for the many views tha
 
 The **outer** element in the config file is `card`, just like the `panel` element was in the panel config file. This element holds the config data for the different views that can appear on a card.
 
+A card configuration file defines the UI structure of a card and contains the layout of views in the card, which in turn contain controls.
+
+Cards are placeholders inside panels and use layout positioning, and are responsible for invoking relevant data handlers for save and delete actions.
+
+![PageFramework][img1]
+
+```xml
+<!-- SoExampleCard.config -->
+<card id="ExampleCard" type="Card"
+       placeholderid="OnePanePlaceHolder"
+       cardtype="SoTabbedCard">
+  <views>
+    <view />
+  </views>
+  <config>
+    <datahandlers-to-save>
+      <datahandler-reference>ExampleDataHandler</datahandler-reference>
+    </datahandlers-to-save>
+    <datahandlers-to-delete>
+      <datahandler-reference>ExampleDataHandler</datahandler-reference>
+    </datahandlers-to-delete>
+    <keep-params-onsave />
+    <customcssclass />
+    <editmode />
+  </config>
+</card>
+```
+
+## Different Card Types
+
+| Name | Description |
+|---|---|
+| [SoDialogCard][3] | Used with DialogPanel. |
+| [SoDialogSimpleCard][4] | Used with DialogPanel. |
+| [SoDiaryCard][5] | Adds an associate chooser to the card. |
+| [FloatingCard][6] | Not used |
+| [SoFindCard][7] | |
+| [SoTabbedCard][8] | Used to add tab container for views |
+| [SoWizardCard][9] | As seen in MailMerge and Add todo task. |
+
 ## Attributes
 
 [!code-xml[XML](includes/minicard.xml?range=1)]
@@ -50,5 +90,13 @@ The reference *MainView* in the `view` element means that the definition can be 
 <!-- Referenced links -->
 [1]: panel.md
 [2]: view.md
+[3]: https://community.superoffice.com/documentation/SDK/SO.Web.Application/html/T_SuperOffice_CRM_Web_UI_Controls_DialogCard.htm
+[4]: https://community.superoffice.com/documentation/SDK/SO.Web.Application/html/T_SuperOffice_CRM_Web_UI_Cards_and_Views_DialogSimpleCard.htm
+[5]: https://community.superoffice.com/documentation/SDK/SO.Web.Application/html/T_SuperOffice_CRM_Web_UI_Controls_DiaryCard.htm
+[6]: https://community.superoffice.com/documentation/SDK/SO.Web.Application/html/T_SuperOffice_CRM_Web_UI_Controls_FloatingCard.htm
+[7]: https://community.superoffice.com/documentation/SDK/SO.Web.Application/html/T_SuperOffice_CRM_Web_UI_Controls_FindCard.htm
+[8]: https://community.superoffice.com/documentation/SDK/SO.Web.Application/html/T_SuperOffice_CRM_Web_UI_Controls_TabbedCard.htm
+[9]: https://community.superoffice.com/documentation/SDK/SO.Web.Application/html/T_SuperOffice_DCF_Web_UI_Controls_WizardCard.htm
 
 <!-- Referenced images -->
+[img1]: media/web-client-pagebuilder-framework2.png

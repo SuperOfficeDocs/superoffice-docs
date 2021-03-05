@@ -1,5 +1,5 @@
 ---
-title: pagebuilder_config       
+title: pagebuilder_config
 description: PageBuilder config files
 author: Tony Yates
 so.date: 06.24.2016
@@ -23,6 +23,18 @@ The PageBuilder is the mechanism that is defined by SuperOffice to build the pag
 
 > [!TIP]
 > Familiarize yourself with PageBuilder before going into more detail on the config files.
+
+## SuperOffice Markup Language (SOML)
+
+SOML is an XML format that conforms to a well-defined schema defining the entire web applications structure. It is written in files with a *.config* or [.merge][1] file extension and referred to as **configuration files**.
+
+The SOML content in *.config* and *.merge* files are identical, but:
+
+* Files with a .config extension contain pre-configured SOML that defined the structure of the web application
+
+* Files with a .merge extension are fragments discovered at runtime and interpolated into the overall configuration model to append additional functionality. Integrations and customizations often use .merge files to include additional functionality or behavior.
+
+Configuration files make up both the [infrastructure components][2] and [user-interface][3] (UI) components of the application. Infrastructure components are a collection of files that represent the system itself and are referred to as system files.
 
 ## Lifecycle
 
@@ -72,7 +84,7 @@ From *SoMainHeaderGroupControlGroup.config:*
   <controlgroup id="MoreMainHeaderGroup_OrgId" type="ControlGroup" />
 ```
 
-## Data driven
+## Data-driven
 
 Config for web panels and external applications are generated using templates. These reside in the Service layer.
 
@@ -80,7 +92,7 @@ Config for web panels and external applications are generated using templates. T
 
 Adds and removes fragments of the configuration. The main purpose is to reduce client output, enforce rules(rights) based on client state/user.
 
-MergeFilter executes before cache, all others filters after cache. The filters resides in the client - not in the web services.
+MergeFilter executes before cache, all others filters after cache. The filters reside in the client, not in the web services.
 
 Filter filename: `SoFilterList.config`
 
@@ -99,10 +111,12 @@ Filter filename: `SoFilterList.config`
 
 ## Configuration cache
 
-Caches exist in the database and the application. Fragments and data driven config are cached in the database. The post MergeFilter is run on the client. Use the magic `?Flush` command to clear the cache both on client and server.
+Caches exist in the database and the application. Fragments and data-driven config are cached in the database. The post MergeFilter is run on the client. Use the magic `?Flush` command to clear the cache both on hte client and server.
 
 <!-- Referenced links -->
-[1]:
+[1]: ..\..\..\Customization%20and%20Deployment\Customization%20and%20Deployment.md
+[2]: system-config-files.md
+[3]: ui-config-files.md
 
 <!-- Referenced images -->
 [img1]: media/ config-lifecycle.png

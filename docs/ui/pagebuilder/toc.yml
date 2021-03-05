@@ -8,20 +8,28 @@
   - name: Config
     href: config/index.md
     items:
-    - name: Page config files
-      href: config/page.md
-    - name: Panel config files
-      href: config/panel.md
-    - name: View config files
-      href: config/view.md
-    - name: Card config files
-      href: config/card.md
-    - name: Object mapping
-      href: config/object-mapping.md
-    - name: Application config
-      href: config/app-config.md
+    - name: Fragments
+      href: config/page-fragments.md
     - name: Data-driven page config
       href: config/data-driven-page-config.md
+    - name: System config files
+      href: config/system-config-files.md
+      items:
+      - name: Object mapping
+        href: config/object-mapping.md
+      - name: Application config
+        href: config/app-config.md
+    - name: UI config files
+      href: config/ui-config-files.md
+      items:
+      - name: Page config files
+        href: config/page.md
+      - name: Panel config files
+        href: config/panel.md
+      - name: View config files
+        href: config/view.md
+      - name: Card config files
+        href: config/card.md
   - name: DataHandler
     href: datahandlers/index.md
     items:

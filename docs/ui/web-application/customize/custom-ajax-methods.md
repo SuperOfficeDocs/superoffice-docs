@@ -153,7 +153,7 @@ Take a look inside the Scripts folder of your installation, it's a huge library 
 If you take a look at for example *Scripts/Dialog.js*, you will find there are a whole set of ways to display message boxes with various sets of buttons and so on.
 
 <!-- Referenced links -->
-[1]: ../Page%20Configuration/System%20Configuration%20Files/SoObjectMapping.config.md
+[1]: ../../pagebuilder/config/index.md
 
 <!-- Referenced images -->
 [img1]: media/image006.jpg

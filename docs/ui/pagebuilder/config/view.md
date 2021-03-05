@@ -19,6 +19,39 @@ Looking at the view config file below, you can see that there is only one view d
 
 The above config file represents only one view of the main card of the **Contact** page in SuperOffice.
 
+A view configuration file defines the UI structure of a view and contains the layout of all controls in the view.
+
+![PageFramework][img1]
+
+```xml
+<!-- SoExampleView.config -->
+<view id="ExampleView" type="SoView" soprotocol="example"
+      current="example" rendermode="display"
+      minwidth="##MAINCARD.MINWIDTH##">
+  <caption>View Caption</caption>
+  <tooltip>Example Text</tooltip>
+  <controlgroups>
+    <controlgroup />
+  </controlgroups>
+  <config>
+    <nopadding>true</nopadding>
+    <dogear binding="preferences">Functions,DisableContactDogEar</dogear>
+    <customcssclass />
+    <watermark />
+    <editmode />
+    <header-controlgroup height="" />
+    <footer-controlgroup height="" />
+    <tab-controlgroups>
+      <tab-controlgroup caption="" visibility="" onclientclick="">
+    </tab-controlgroups>
+    <no-entity-link tooltip="string value" linkcaption="string value"></no-entity-link>
+  </config>
+  <triggers>
+    <trigger type="current">contact</trigger>
+  </triggers>
+</view>
+```
+
 ## What is a view and how does a view config file come into existence?
 
 Below is the MainView placed in the context of the surrounding panel and cards.
@@ -59,8 +92,32 @@ Here we can see that there are controls in a given control group section. The co
 
 Not all controls use the config section. From the `datasource` element, it will tell us which data provider will provide data for this particular control.
 
+## Different View Types
+
+| Name | Description |
+|---|---|
+| [SoDialogView][3] | Used in dialogs only. |
+| [SoDialogAbsoluteView][4] | Used in dialogs only. |
+| [SoDialogHeaderView][5] | Used in dialogs only. |
+| [SoDialogSimpleFooterView][6] | Used in dialogs only. |
+| [SoDialogSimpleView][7] | Used in dialogs only. |
+| [SoGenericView][8] | Basic view. |
+| [SoPlainView][9] | Basic view. |
+| [SoSystemView][10] | Not visible, but renders out all content in a hidden layer. |
+| [SoTabbedView][11] | View with inline tabs |
+
 <!-- Referenced links -->
 [1]: panel.md
 [2]: card.md
+[3]: https://community.superoffice.com/documentation/SDK/SO.Web.Application/html/T_SuperOffice_CRM_Web_UI_Controls_DialogView.htm
+[4]: https://community.superoffice.com/documentation/SDK/SO.Web.Application/html/T_SuperOffice_CRM_Web_UI_Controls_DialogAbsoluteView.htm
+[5]: https://community.superoffice.com/documentation/SDK/SO.Web.Application/html/T_SuperOffice_CRM_Web_UI_Controls_DialogHeaderView.htm
+[6]: https://community.superoffice.com/documentation/SDK/SO.Web.Application/html/T_SuperOffice_CRM_Web_UI_Controls_DialogSimpleFooterView.htm
+[7]: https://community.superoffice.com/documentation/SDK/SO.Web.Application/html/T_SuperOffice_CRM_Web_UI_Controls_DialogSimpleView.htm
+[8]: https://community.superoffice.com/documentation/SDK/SO.Web.Application/html/T_SuperOffice_DCF_Web_UI_Controls_GenericView.htm
+[9]: https://community.superoffice.com/documentation/SDK/SO.Web.Application/html/T_SuperOffice_CRM_Web_UI_Controls_PlainView.htm
+[10]: https://community.superoffice.com/documentation/SDK/SO.Web.Application/html/T_SuperOffice_CRM_Web_UI_Controls_SystemView.htm
+[11]: https://community.superoffice.com/documentation/SDK/SO.Web.Application/html/T_SuperOffice_CRM_Web_UI_Controls_TabbedView.htm
 
 <!-- Referenced images -->
+[img1]: media/web-client-pagebuilder-framework2.png
