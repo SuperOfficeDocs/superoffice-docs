@@ -3,6 +3,8 @@
   items:
   - name: Strategic goals
     href: strategic-goals.md
+  - name: Model-view-controller pattern
+    href: model-view-controller-pattern.md
   - name: Getting started
     href: getting-started/index.md
     items:
