@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<panel id="Contact" type="SplitterPanel" soprotocol="Contact" paneltype="Main" placeholderid="MainPlaceHolder">
+  <caption>[SR_COMMON_CONTACT]: [current:contact_name]</caption>
+  <cards>
+    <card id="ContactMainCard" type="SoTabbedCard" placeholderid="leftpanel" cardtype="MainCard">
+      <views>
+        <!-- Some other code-->
+        <view id="more" type="SoView" soprotocol="udef" current="contact">
+          <caption>[SR_MORE_CONTACT]</caption>
+          <tooltip>More...</tooltip>
+          <controlgroups>
+            <!-- Some other code-->
+            <!-- Our Data Handler-->
+            <controlgroup id="ProjectMainGroup" type="SoControlGroup" left="500px" position="absolute" right="50px" top="25px">
+              <controls>
+                <control id="newLabel" type="SoLabel" context-style="Heading" row="0" column="0">
+                  <caption>Projects</caption>
+                </control>
+                <control id="ProjectNameOnContact" type="SoTextBox" width="100%">
+                  <datasource>ProjectEntityDataHandler.ProjectEntity.Name</datasource>
+                </control>
+              </controls>
+            </controlgroup>
+            <!--End of our Data Handler-->
+          </controlgroups>
+          <!-- Some other code-->
+        </view>
+        <!-- Some other code-->
+      </views>
+      <!-- Some other code-->
+    </card>
+    <!-- Some other code-->
+  </cards>
+  <!-- Some other code-->
+</panel>

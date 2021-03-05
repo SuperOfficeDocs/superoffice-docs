@@ -1,0 +1,25 @@
+<card id="MiniCard" placeholderid="rightpanel" type="SoTabbedCard" cardtype="MiniPanelCard">
+  <views>
+    <view id="MiniMonthView" type="SoView" soprotocol="minimonth" current="month" renderonlywhenselected="true">
+      <caption>[SR_MINICARD_MONTH]</caption>
+      <tooltip></tooltip>
+      <controlgroups>
+        <controlgroup id="mainminimonthgroup" type="SoControlGroup" position="absolute" left="0px " top="10px" bottom="5px" right="0px">
+          <controls>
+            <control id="minimonth" type="SoMonthCollection" width="100%" position="absolute"  top="0px" bottom="0px">
+              <config>
+                <onaftersplitterresize>CalendarManager.ResizeMiniMonth(\"{0}\")</onaftersplitterresize>
+              </config>
+            </control>
+          </controls>
+        </controlgroup>
+      </controlgroups>
+      <triggers>
+        <trigger type="current">month</trigger>
+        <trigger type="current">day</trigger>
+        <trigger type="current">week</trigger>
+        <trigger type="current">diaryowner</trigger>
+      </triggers>
+    </view>
+  </views>
+</card>

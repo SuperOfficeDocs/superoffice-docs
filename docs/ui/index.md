@@ -57,7 +57,7 @@ With scripts, you can:
 
 ## SOProtocol
 
-[SOProtocol]813] is a standard for defining URL short-cuts to SuperOffice entities. It lets you control the user interface without scripting and send users directly to the entry in question.
+[SOProtocol][13] is a standard for defining URL short-cuts to SuperOffice entities. It lets you control the user interface without scripting and send users directly to the entry in question.
 
 ## Classes
 
@@ -77,8 +77,8 @@ With scripts, you can:
 [9]: blogic-screen-elements/index.md
 [10]: screen-choosers.md
 [11]: url-parameters.md
-[12]: web-panels.md
-[13]: so-protocol.md
+[12]: web-panels/index.md
+[13]: soprotocol/index.md
 [14]: eventdata.md
 [15]: htmlelement.md
 [16]: mainmenu.md

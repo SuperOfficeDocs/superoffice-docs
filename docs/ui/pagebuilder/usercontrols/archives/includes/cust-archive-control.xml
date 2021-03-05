@@ -1,0 +1,26 @@
+<menu context="archive" subcontext="customdata" id="0" position="below" group="mainmenu" displayaccesskeys="false">
+  <menuitems>
+    <menuitem id="archivesort" type="normal" >
+      <caption>[SR_MENU_SORT]</caption>
+      <url>Javascript:CustomDataArchiveArchiveControl.OrgOrderBy();</url>
+    </menuitem>
+    <menuitem id="" type="divider"/>
+    <menuitem id="archivesortconfig" type="normal">
+      <caption>[SR_MENU_SORT_CONFIG]</caption>
+      <url>Javascript:Dialog.open("archiveconfiguration", "archiveconfiguration[dialog=stop].sortorder?provider_name=person&amp;gui_name=CustomDataArchive","CustomDataArchiveArchiveControl.Refresh();");</url>
+    </menuitem>
+    <menuitem id="archivecolumnconfig" type="normal">
+      <caption>[SR_MENU_COLUMNS_CONFIG]</caption>
+      <url>Javascript:Dialog.open("archiveconfiguration", "archiveconfiguration[dialog=stop].columns?provider_name=person&amp;gui_name=CustomDataArchive","CustomDataArchiveArchiveControl.Refresh();");</url>
+    </menuitem>
+    <menuitem id="" type="divider"/>
+    <menuitem id="archivesorthelp" type="normal">
+      <caption>[SR_MENU_LIST_HELP_SORT]</caption>
+      <url>javascript:Dialog.ShowHelpFromIndex('archive.sort');</url>
+    </menuitem>
+    <menuitem id="archivecolumnresize" type="normal">
+      <caption>[SR_MENU_LIST_HELP_RESIZE]</caption>
+      <url>javascript:Dialog.ShowHelpFromIndex('archive.resize');</url>
+    </menuitem>
+  </menuitems>
+</menu>

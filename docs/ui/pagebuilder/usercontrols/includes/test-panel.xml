@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<panel id="Test" type="SplitterPanel" soprotocol="Test" paneltype="Main" placeholderid="MainPlaceHolder">
+  <caption>[SR_COMMON_CONTACT]: [current:contact_name]</caption>
+  <cards>
+    <!--Begin of the code relating to the Contact Card-->
+    <card id="ContactCard" type="SoTabbedCard" placeholderid="leftpanel" cardtype="MainCard">
+      <views>
+        <!--Begin of the code relating to the Contact Card's Contact Main view-->
+        <view id="ContactMain" type="SoView" soprotocol="main" current="contact">
+          <caption>Contact</caption>
+          <controlgroups>
+            <controlgroup id="mainHeadergroup" type="SoControlGroup" position="absolute" top="5px" left="5px" right="20px" >
+              <controls>
+                <!--Begin of the code relating to the Contact Card's Contact Main view's Contact Header-->
+                <control id="ContactMainHeaderControl" type="ContactHeader">
+                  <datasource>ContactEntityDataHandler.ContactEntity</datasource>
+                  <config>
+                  </config>
+                </control>
+                <!--End of the code relating to the Contact Card's Contact Main view's Contact Header-->
+              </controls>
+            </controlgroup>
+            <controlgroup id="maingroup" type="SoControlGroup" position="absolute" top="29px" bottom="54px" left="5px" right="20px" overflow="hidden">
+              <controls>
+                <!--Begin of the code relating to the Contact Card's Contact Main view's Contact Details-->
+              <control id="ContactMainControl" type="ContactMainView">
+                <datasource>ContactEntityDataHandler.ContactEntity</datasource>
+                <config>
+                </config>
+              </control>
+              <!--End of the code relating to the Contact Card's Contact Main view's Contact Details-->
+              </controls>
+            </controlgroup>
+            <controlgroup id="interestHeadergroup2" type="SoControlGroup" position="absolute" top="150px" left="15px" right="20px">
+              <controls>
+                <!--Begin of the code relating to System Date-->
+                <control id="newTextBox" type="SoTextBox" context-style="Heading" width="100%">
+                  <datasource>MyDataHandler.mySysDate</datasource>
+                </control>
+                <!--End of the code relating to System Date-->
+              </controls>
+            </controlgroup>
+          </controlgroups>
+        </view>
+        <!--End of the code relating to the Contact Card's Contact Main view-->
+        <!--Begin of the code relating to the Contact Card's Project Image view-->
+        <view id="ProjectImageView" type="SoView" soprotocol="image" current="project">
+          <caption>Project</caption>
+          <controlgroups>
+            <controlgroup id="ProjectImageNameGroup" type="SoControlGroup" left="20px" position="absolute" right="25px" top="10px">
+              <controls>
+                <!--Begin of the code relating to Project Header-->
+                <control id="ProjectImageHeader" type="SoTextBox" context-style="Heading" width="100%">
+                  <caption>[SR_FIND_PROJ_NAME]</caption>
+                  <datasource>ProjectEntityDataHandler.ProjectEntity.Name</datasource>
+                  <validations>
+                    <validation type="MandatoryValidation">
+                    </validation>
+                  </validations>
+                </control>
+                <!--End of the code relating to Project Header-->
+              </controls>
+            </controlgroup>
+            <controlgroup id="ProjectImageGroup" type="SoControlGroup" left="20px" position="absolute" right="20px" top="35px" bottom="2px">
+              <controls>
+                <!--Begin of the code relating to Project Image-->
+                <control id="ProjectImageCtrl" type="ProjectImageView" width="100%" height="100%">
+                  <datasource>ProjectEntityDataHandler.ProjectImage</datasource>
+                </control>
+                <!--End of the code relating to Project Image-->
+              </controls>
+            </controlgroup>
+            <!-- Begin of the code relating to the Paperclip control -->
+            <controlgroup id="projImageNoteGroup" type="SoControlGroup" position="absolute" top="0px" right="10px" width="14px" height="32px" zindex="99">
+              <controls>
+                <control id="ProjImageNotepadControl" type="NotepadPaperClip" readonly="true">
+                  <datasource>ProjectEntityDataHandler.ProjectEntity</datasource>
+                  <config>
+                    <editmode>false</editmode>
+                    <readonly>true</readonly>
+                  </config>
+                </control>
+              </controls>
+            </controlgroup>
+            <!-- Begin of the code relating to the Paperclip control -->
+          </controlgroups>
+          <config>
+            <dogear binding="preferences">Functions,DisableContactDogEar</dogear>
+          </config>
+          <triggers>
+            <trigger type="current">project</trigger>
+          </triggers>
+        </view>
+        <!--End of the code relating to the Contact Card's Project Image view-->
+      </views>
+      <functional-rights>
+        <functional-right>project</functional-right>
+      </functional-rights>
+      <config>
+        <only-visible-views>true</only-visible-views>
+        <system-view>SystemView</system-view>
+        <datahandlers-to-save>
+          <datahandler-reference>ContactEntityDataHandler</datahandler-reference>
+        </datahandlers-to-save>
+      </config>
+    </card>
+    <!--End of the code relating to the Contact Card-->
+    <!--Begin of the code relating to the Mini Card conatining Calander and NotePad-->
+    <card id="MiniCard" placeholderid="rightpanel" type="SoTabbedCard" cardtype="MiniPanelCard" >
+      <views>
+        <!--Begin of the code relating to the Mini Card's calander view-->
+        <view id="MiniMonthView" type="SoView" soprotocol="minimonth" current="month" renderonlywhenselected="true" top="10px">
+          <caption>Calander</caption>
+          <controlgroups>
+            <controlgroup id="mainminimonthgroup" type="SoControlGroup" position="absolute" left="0px " top="10px" bottom="5px" right="0px">
+              <controls>
+                <control id="minimonth" type="SoMonthCollection" width="100%" position="absolute"  top="0px" bottom="0px">
+                  <config>
+                    <onaftersplitterresize>CalendarManager.ResizeMiniMonth(\"{0}\")</onaftersplitterresize>
+                  </config>
+                </control>
+              </controls>
+            </controlgroup>
+          </controlgroups>
+          <triggers>
+            <trigger type="current">month</trigger>
+            <trigger type="current">day</trigger>
+            <trigger type="current">week</trigger>
+            <trigger type="current">diaryowner</trigger>
+          </triggers>
+        </view>
+        <!--End of the code relating to the Mini Card's calander view-->
+        <!--Begin of the code relating to the Mini Card's NotePad view-->
+        <view id="MiniNotepadView" type="SoView" soprotocol="mininotepad" current=""  renderonlywhenselected="true">
+          <caption>NotePad</caption>
+          <tooltip></tooltip>
+          <controlgroups>
+            <controlgroup id="mainmininotepadgroup2" type="SoControlGroup" position="absolute" top="4px" bottom="10px" left="10px" right="0px">
+              <controls>
+                <control id="Note" type="MiniNotepadView" top="0px" bottom="0px"  left="0px" right="0px"  position="absolute">
+                  <datasource>MiniCardDataHandler.Notepad</datasource>
+                </control>
+              </controls>
+              <config>
+                <grouptype>absolute</grouptype>
+              </config>
+            </controlgroup>
+          </controlgroups>
+        </view>
+        <!--End of the code relating to the Mini Card's NotePad view-->
+      </views>
+      <config>
+        <only-visible-views>true</only-visible-views>
+      </config>
+      <functional-rights>
+        <functional-right>person</functional-right>
+      </functional-rights>
+    </card>
+    <!--End of the code relating to the Mini Card conatining Calander and NotePad-->
+    <!--End of the code relating to the Archive Card-->
+    <card id="ProjectDetails" placeholderid="bottom" type="SoCard" cardtype="ArchiveCard">
+      <views>
+        <!--Begin of the code relating to the Archive Card's Project view-->
+        <view id="ContactProjectArchiveView" type="SoView" soprotocol="projectarchive" >
+          <controlgroups>
+            <controlgroup id="mainactivitygroup" type="SoControlGroup">
+              <controls>
+                <control id="DisableProjectAdd" type="SoScriptControl">
+                  <config>
+                    <switch value="contact" binding="current">
+                      <case operator="equal" value="0">
+                        SoHelper.DisableElementsBySoId('ContactProjectsArchive_0');
+                      </case>
+                    </switch>
+                  </config>
+                </control>
+                <!--Begin of the code relating to the retrieving archive data of projects relating to the Project view-->
+                <control id="ContactProjectsArchive" type="SoArchiveControl" width="100%" top="0px" left="0px" height="100%" position="absolute" >
+                  <menu>
+                    <context>archive</context>
+                    <subcontext>contactprojects</subcontext>
+                    <id binding="none">0</id>
+                    <position>belowcursor</position>
+                    <click>right</click>
+                  </menu>
+                  <config>
+                    <toolbar>
+                      <!--Begin of the code relating to the Add button of the Project view-->
+                      <button caption="[SR_MB_ADD]"
+                              icon="images/toolicons/Mini_Add_Passive.gif"
+                              iconselected="images/toolicons/Mini_Add_Passive.gif"
+                              iconhover="images/toolicons/Mini_Add_Hover.gif"
+                              icondisabled="images/toolicons/Mini_Add_Disabled.gif"
+                              onclick="javascript:PageUpdate('soprotocol:project.main[mode=edit&amp;new=true]?project_id=0','');"
+                              dataright="create"
+                              tablerightname="project"
+                              />
+                      <!--End of the code relating to the Add button of the Project view-->
+                    </toolbar>
+                    <restrictions>
+                      <restriction name="contactId" operator="=" binding="current">contact</restriction>
+                    </restrictions>
+                    <providername>contactprojects</providername>
+                    <archivecolumninfo-datasourcename>ArchiveColumnConfigDataHandler.ContactProjectsArchive</archivecolumninfo-datasourcename>
+                    <showheader>true</showheader>
+                    <showtoolbar>true</showtoolbar>
+                    <defaultsort>name</defaultsort>
+                    <dblclick-action>javascript:NewProject();</dblclick-action>
+                  </config>
+                </control>
+                <!--End of the code relating to the retrieving archive data of projects relating to the Project view-->
+              </controls>
+            </controlgroup>
+          </controlgroups>
+          <triggers>
+            <trigger type="current">contact</trigger>
+          </triggers>
+        </view>
+      </views>
+      <config>
+        <only-visible-views>true</only-visible-views>
+      </config>
+    </card>
+  </cards>
+  <config>
+    <!--Begin of the code relating to determining the location of panes in the panel-->
+    <panes>
+      <pane id="leftpanel">ContactMainCard</pane>
+      <pane id="rightpanel">ContactMini</pane>
+      <pane id="bottompanel">ContactArchives</pane>
+    </panes>
+    <!--End of the code relating to determining the location of panes in the panel-->
+  </config>
+  <function-rights>
+    <function-right type="hide">hide-company</function-right>
+  </function-rights>
+</panel>

@@ -1,0 +1,42 @@
+- name: Web application
+  href: index.md
+  items:
+  - name: Strategic goals
+    href: strategic-goals.md
+  - name: Model-view-controller pattern
+    href: model-view-controller-pattern.md
+  - name: Getting started
+    href: getting-started/index.md
+    items:
+    - name: Architecture
+      href: getting-started/architecture.md
+    - name: DCF for Web
+      href: getting-started/dcf.md
+    - name: Globalization
+      href: getting-started/globalization.md
+    - name: How to use custom config files
+      href: getting-started/use-custom-config-files.md
+    - name: How to debug
+      href: getting-started/debug.md
+  - name: Customization
+    href: customize/index.md
+    items:
+    - name: Add label
+      href: customize/add-label.md
+    - name: Add textbox
+      href: customize/add-textbox.md
+    - name: Add custom control
+      href: customize/add-custom-control.md
+    - name: Using triggers
+      href: customize/triggers.md
+    - name: Custom AJAX methods
+      href: customize/custom-ajax-methods.md
+    - name: Customization and deployment
+      href: customize/cust-and-deploy.md
+  - name: What's new
+    href: whats-new/index.md
+    items:
+    - name: In 8.0
+      herf: whats-new/in-80.md
+  - name: Reference
+    href: reference/index.md

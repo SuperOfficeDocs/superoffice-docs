@@ -1,0 +1,28 @@
+<linkinfos>
+  <!-- *********************************************
+  create archive separation using a linkhint prefix  
+  ***********************************************-->
+
+  <linkinfo type="personarchive:person" subtype="click">
+    <baseurl>javascript:PageUpdate('soprotocol:personarchive[refresh=false]?person_id={person_id}','');</baseurl>
+    <target></target>
+  </linkinfo>
+  <linkinfo type="personarchive:person" subtype="dblclick">
+    <baseurl>javascript:Dialog.open('Person','person[dialog=stop].main?person_id={person_id}','RefreshContactAndPersonCurrent()');</baseurl>
+    <target></target>
+  </linkinfo>
+
+    <linkinfo type="find:person" subtype="click">
+    <baseurl>javascript:FindOnSingleClick('contact.main.personarchive?person_id={person_id}',true,'person','person[dialog=stop]?person_id={person_id}','{ArchiveControlId}');</baseurl>
+    <target></target>
+  </linkinfo>
+  <linkinfo type="find:person" subtype="dblclick">
+    <baseurl>javascript:FindOnDblClick('contact.person.main.personarchive?person_id={person_id}');</baseurl>
+    <target></target>
+  </linkinfo>
+
+  <linkinfo type="drilldown:person" subtype="dblclick">
+    <baseurl>javascript:SuperOffice.Dashboard.NavigateToDrilldownEntity('contact', {contact_id});</baseurl>
+    <target></target>
+  </linkinfo>
+</linkinfos>

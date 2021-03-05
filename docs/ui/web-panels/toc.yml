@@ -1,0 +1,13 @@
+- name: Web panels
+  href: index.md
+  items:
+  - name: Add a web panel
+    href: add-web-panel.md
+  - name: URL encoding
+    href: url-encoding.md
+  - name: Pass data with template variables
+    href: passing-data.md
+  - name: Create link to
+    herf: create-link-to.md
+  - name: Detect running inside SuperOffice
+    href: detect-superoffice.md

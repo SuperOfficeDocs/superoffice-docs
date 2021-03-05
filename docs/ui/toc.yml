@@ -1,5 +1,28 @@
 items:
+- name: Button scripts
+  href: button-scripts.md
+- name: Eventdata
+  href: eventdata.md
+- name: Extra menus
+  href: extra-menus.md
+- name: Htmlelement
+  href: htmlelement.md
+- name: Mainmenu
+  href: mainmenu.md
+- name: Screen choosers
+  href: screen-choosers.md
+- name: Screen events
+  href: screen-events.md
+- name: So protocol
+  href: so-protocol.md
+- name: Tutorial custom db and ui
+  href: tutorial-custom-db-and-ui.md
+- name: Url parameters
+  href: url-parameters.md
+- name: Web panels
+  href: web-panels.md
 - name: Blogic screen elements
+  href: blogic-screen-elements/address-book.md
   items:
   - name: Address book
     href: blogic-screen-elements/address-book.md
@@ -162,25 +185,3 @@ items:
     href: custom-screens/layout-elements.md
   - name: View elements
     href: custom-screens/view-elements.md
-- name: Button scripts
-  href: button-scripts.md
-- name: Eventdata
-  href: eventdata.md
-- name: Extra menus
-  href: extra-menus.md
-- name: Htmlelement
-  href: htmlelement.md
-- name: Mainmenu
-  href: mainmenu.md
-- name: Screen choosers
-  href: screen-choosers.md
-- name: Screen events
-  href: screen-events.md
-- name: So protocol
-  href: so-protocol.md
-- name: Tutorial custom db and ui
-  href: tutorial-custom-db-and-ui.md
-- name: Url parameters
-  href: url-parameters.md
-- name: Web panels
-  href: web-panels.md
