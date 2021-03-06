@@ -82,4 +82,4 @@ The final step before running the site is to add the following references:
 [1]:
 
 <!-- Referenced images -->
-[img1]: media/image002.jpg
+[img1]: media/image022.jpg

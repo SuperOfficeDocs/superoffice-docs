@@ -105,4 +105,4 @@ For some of the above currency codes, web service does not support,  mainly due 
 [1]: http://www.webservicex.net/CurrencyConvertor.asmx
 
 <!-- Referenced images -->
-[img1]: media/image001.jpg
+[img1]: media/image021.jpg
