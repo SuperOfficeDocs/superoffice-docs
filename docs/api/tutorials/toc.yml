@@ -3,3 +3,5 @@
   items:
   - name: Currency Updater service
     href: currency-updater-service.md
+  - name: Graphic report using Excel
+    href: graphic-report-using-excel.md
