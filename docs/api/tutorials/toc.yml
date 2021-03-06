@@ -9,3 +9,5 @@
     herf: itunes-like-activities.md
   - name: SuperOffice iCal Feed
     href: so-ical-feed.md
+  - name: Generate RSS feed in VB.Net
+    href: rss-feed-vb.md
