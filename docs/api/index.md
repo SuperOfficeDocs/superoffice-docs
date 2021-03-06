@@ -109,6 +109,7 @@ so.date:
 ### T
 
 * [Tooltip][27]
+* [Tutorials][36]
 
 ### U
 
@@ -164,3 +165,4 @@ so.date:
 [33]: web-api/rest/index.md
 [34]: soap/services-soap-interface/index.md
 [35]: quote-connectors/index.md
+[36]: tutorials/index.md
