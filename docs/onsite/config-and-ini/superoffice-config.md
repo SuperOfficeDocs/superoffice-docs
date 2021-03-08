@@ -62,9 +62,9 @@ The SuperOffice configuration for Oracle is constructed as follows:
 
 The bottom line is: The `Server` and `Database` settings in the *SuperOffice.config* file are **always overwritten**; Server is based on the registry information from the ODBC setup, while database is not used and set to blank.
 
-Oracle ODBC is generally an intermediate layer, where the actual connection information (server, listener, port etc) is specified in TNSNames, using the Oracle Net Confguration Assistant (netca).
+Oracle ODBC is generally an intermediate layer, where the actual connection information (server, listener, port, and so on) is specified in TNSNames, using the Oracle Net Confguration Assistant (netca).
 
-The *SuperOffice.config* file on the clients may be cleaned up with a stripped version. There can be a limited amount of info in the Database and ImplicitAnonymous section. The client do not need any more. Also, the `ArchivePath` is gone, cause we read this from *SuperOffice.ini*.
+The *SuperOffice.config* file on the clients may be cleaned up with a stripped version. There can be a limited amount of info in the Database and ImplicitAnonymous section. The client does not need anymore. Also, the `ArchivePath` is gone, cause we read this from *SuperOffice.ini*.
 
 If impersonating is true then they need to update the info here along with the info for dbuser and dbpassword.
 

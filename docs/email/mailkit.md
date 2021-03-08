@@ -19,7 +19,7 @@ MailKit is a cross-platform .NET library for IMAP, POP3, and SMTP.
 
 The main reason for using the MailKit library is a wider range of supported protocols, certificates, and improved speed.
 
-MailKit is used by SuperOffice NetServer, e.g. Inbox in the Sales client.
+MailKit is used by SuperOffice NetServer, for example Inbox in the Sales client.
 
 MailKit is enabled for CRM Online from version 8.0 (R23) and can be enabled manually on Onsite from version SuperOffice 8.0 SR3.
 

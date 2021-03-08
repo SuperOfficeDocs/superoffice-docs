@@ -1,7 +1,7 @@
 // An information query to get the value of contact id 3 UDF,
 // ContactInterestsUDField .
 
-// ContactInterestsUDField is a UDF of type drop down list and source is a builtin list:
+// ContactInterestsUDField is a UDF of type drop-down list and source is a builtin list:
 //Contact interest
 
 info = UDFHelper.Instance.GetUDFInfo(EUDefType.Contact, 3, "ContactInterestsUDField", UDFHelper.ListItemSource.ContactInterest);

@@ -22,7 +22,7 @@ These apply to computers running the Sales, Marketing, and Service clients.
 ## Processor
 
 * Intel ® 1.8Ghz (x86) or (x64)
-* AMD™ 1.8 Ghz (x86) or (x64)
+* AMD™ 1.8Ghz (x86) or (x64)
 
 ## Memory
 
@@ -106,7 +106,7 @@ If you are running SuperOffice WebTools and SSL, please upgrade to SuperOffice 8
 * Reporter runtime (version 9.0.30729.17)
 
 > [!NOTE]
-> When running SuperOffice in a Citrix and Terminal server environments where users share the memory, actual requirements and product functionality may vary based on your system configuration.
+> When running SuperOffice in Citrix and Terminal-server environments where users share the memory, actual requirements, and product functionality may vary based on your system configuration.
 
 > [!TIP]
 > Enable Clear Type Text on all clients running the CRM Win app for the best user experience.

@@ -53,11 +53,11 @@ Any table not specified in the database's model/dictionary will be left untouche
 
 Create a new database; you will need an Internet connection and valid license information. Any existing database on the given data source will be deleted. The database will use Unicode string storage unless the server is capable of ANSI only.
 
-If you are running an international enterprise, unicode is necessary to be able to mix languages between Western Europe, Eastern Europe and Asia.
+If you are running an international enterprise, unicode is necessary to be able to mix languages between Western Europe, Eastern Europe, and Asia.
 
-Some preferences that ServerSetup writes during installation will not be written, for example E-mail client and client autoupdate.
+Some preferences that ServerSetup writes during installation will not be written, for example, E-mail client and client autoupdate.
 
-Load or re-load initial data into a 8.1+ database
+Load or re-load initial data into an 8.1+ database
 
 Import or update the basic (initial) data in an existing database. You can choose which section to import from the dropdown list, which shows sections defined in your [SoTables.ini][1] file.
 
@@ -75,19 +75,19 @@ If importing an SDB file that was exported from a heavily used database, running
 
 ## Export a database, 6.3 - present
 
-Export the entire database to a flat file. Note that the .SDB format in this version is not compatible with previous .SDA formats. Both SuperOffice and registered partner data, as well as Customer Service extra fields/tables are exported.
+Export the entire database to a flat file. Note that the SDB format in this version is not compatible with previous SDA formats. Both SuperOffice and registered partner data, as well as Customer Service extra fields/tables are exported.
 
 Supported versions are 6.3 and later.
 
-The file is written in compressed format and won't compress further.
+The file is written in a compressed format and won't compress further.
 
 ## Import a database, 6.3 - present
 
-Import a database from a flat file created by the Export function; only the current .SDB format is supported, not the earlier .SDA. Any existing database on the target WILL BE DELETED!
+Import a database from a flat file created by the Export function; only the current SDB format is supported, not the earlier SDA. Any existing database on the target WILL BE DELETED!
 
 The resulting database will be in the original version, no upgrade is performed; however, platform conversion (for instance, Oracle 11g -> MSSQL 2016) is done as needed.
 
-You should use a database user with rights to perform DROP TABLE, CREATE TABLE and user administration commands. The new database will be in Unicode format unless the server is only capable of ANSI.
+You should use a database user with rights to perform DROP TABLE, CREATE TABLE, and user administration commands. The new database will be in Unicode format unless the server is only capable of ANSI.
 
 ## Obsolete from 8.1 - CDD: Inspect a database or export a file
 
@@ -97,9 +97,10 @@ If an import file name is specified, then that file will be inspected; otherwise
 
 ## Run a SQL script file
 
-Load a text file and run sql statements in it. Statements are separated/terminated by a semicolon character.
+Load a text file and run SQL statements in it. Statements are separated/terminated by a semicolon character.
 
-WARNING: No checks are made - if you mess up the database 'by accident', it's your problem...
+> [!WARNING]
+> No checks are made - if you mess up the database "by accident", it's your problem...
 
 ## Create or re-create freetext index (8.1+)
 
@@ -109,7 +110,7 @@ Create or update the freetext index on an existing 8.1+ database. The same funct
 
 ## Rebuild SAINT counters and statuses (8.1+)
 
-Perform a total rebuild of the SAINT counters, and subsequently the SAINT status flags. Depending on the number of contacts, project, appointments, sales and Intent list entries, this can be a fairly lenghty process.
+Perform a total rebuild of the SAINT counters, and subsequently the SAINT status flags. Depending on the number of contacts, project, appointments, sales, and Intent list entries, this can be a fairly lenghty process.
 
 This task may also be automated by using the Travel gateway service.
 
@@ -123,7 +124,7 @@ The user name must be a valid employee or system user, not just a database user.
 
 ## Recalculate Next Milestone for all Projects  (8.1+)
 
-Scan all appointments bound to project, and update the Next Milestone on all projects. Depending on the number of sales and appointments, this can be a fairly lengthy process.
+Scan all appointments bound to a project, and update the Next Milestone on all projects. Depending on the number of sales and appointments, this can be a fairly lengthy process.
 
 The user name must be a valid employee or system user, not just a database user.
 
@@ -168,21 +169,21 @@ Parameters also correspond to the GUI. Parameters are separated by spaces and al
 
 | Command | Param count | Parameters |
 |---------|:-----------:|------------|
-| REBUILD | 9 | Source DSN, user, password and prefix (remember ODBC: for ODBC databases), target DSN, user, password, prefix and A for Ansi or U for Unicode |
+| REBUILD | 9 | Source DSN, user, password and prefix (remember ODBC: for ODBC databases), target DSN, user, password, prefix, and A for Ansi or U for Unicode |
 | UPGRADE70 | 16 | DSN, User, Password, Prefix, A for Ansi/ U for unicode target, \[Contact name, Country id, First name, Last name, User id, Password, Serialnumber\] |
 | CREATE7 | | |
 | IMPORTINITIAL | 5 | DSN, user, password, prefix, name of section in SOTABLES.INI to import tables for |
-| FREETEXTINDEX | 4 | DSN, user, password and prefix |
-| KILLDATABASE | 4 | DSN, user, password and prefix |
+| FREETEXTINDEX | 4 | DSN, user, password, and prefix |
+| KILLDATABASE | 4 | DSN, user, password, and prefix |
 | MAINTENANCE | | |
-| IMPORT | 5 | DSN, user, password, prefix, name and path to file |
-| EXPORT | 5 | DSN, user, password, prefix, name and path to file |
-| REBUILDSAINT | 4 | DSN, user, password and prefix |
-| NEXTMILESTONE | 4 | DSN, user, password and prefix |
-| SYNCUSERS | 4 | DSN, user, password and prefix |
-| RECALCSEQUENCE | 4 | DSN, user, password and prefix |
+| IMPORT | 5 | DSN, user, password, prefix, name, and path to file |
+| EXPORT | 5 | DSN, user, password, prefix, name, and path to file |
+| REBUILDSAINT | 4 | DSN, user, password, and prefix |
+| NEXTMILESTONE | 4 | DSN, user, password, and prefix |
+| SYNCUSERS | 4 | DSN, user, password, and prefix |
+| RECALCSEQUENCE | 4 | DSN, user, password, and prefix |
 | RUNCHECKS | 5 | DSN User, Password, Prefix, Semicolon-separated list of Check names |
-| RUNSQL | 5 | DSN, user, password, prefix, name and path to SQL query file |
+| RUNSQL | 5 | DSN, user, password, prefix, name, and path to SQL query file |
 
 **Possible check names:**:
 
@@ -209,11 +210,11 @@ Parameters also correspond to the GUI. Parameters are separated by spaces and al
 * saleContactPersonId
 * selectionContactPersonId
 
-An error message is given if the supplied command line has the wrong command or number of parameters. Normal errors are given for other problems, such as wrong password etc. If everything is OK, normal progress dialogs are shown, but the program terminates automatically after execution.
+An error message is given if the supplied command line has the wrong command or number of parameters. Normal errors are given for other problems, such as the wrong password. If everything is OK, normal progress dialogs are shown, but the program terminates automatically after execution.
 
 ## DBSetup Database log file
 
-Since SuperOffice 8.1 is DBSetup able to create a Database.log file which contains detailed and valuable database debugging information. To get this file you need to have the \[Error\] section in SuperOffice.ini in the SuperOffice Server folder (where DBsetup.exe resides) and also specify the location of the log file (without the Logpath the Database.log file won't be created).
+Since SuperOffice 8.1 is DBSetup able to create a Database.log file, which contains detailed and valuable database debugging information. To get this file you need to have the \[Error\] section in SuperOffice.ini in the SuperOffice Server folder (where DBsetup.exe resides) and also specify the location of the log file (without the Logpath the Database.log file won't be created).
 
 Example of the \[Error\] section in SuperOffice.ini in SuperOffice Server folder:
 
@@ -228,10 +229,10 @@ Logpath=e:\SuperOffice\SOError.log
 
 If you run DBSetup now, it will create 2 log files in *E:\\SuperOffice*. One standard SOError.log file and one SOError.Database.log file with database debug information.
 
-The Database.log file is also generated by ServerSetup when a database upgrade happens, and goes into the same place that *so\_log.txt* does unless specified otherwise by the LogPath in the \[Error\] section.
+The Database.log file is also generated by ServerSetup when a database upgrade happens and goes into the same place that *so\_log.txt* does unless specified otherwise by the LogPath in the \[Error\] section.
 
 > [!NOTE]
-> If you are using DBSetup to rebuild or move a database, you MUST run \<cs installfolder>\\bin\\[Upgrade.exe][2] after to set the CS fields values correct.<br>NULL Values (may be used on some fields made in CS): DBsetup do not have the data structures/flags required to carry this additional information. So, when doing a rebuild/import of a database that contains NULL values (some CS tables do), those will be changed into the nearest-to-empty value for that type - empty string, number 0 etc.
+> If you are using DBSetup to rebuild or move a database, you MUST run \<cs installfolder>\\bin\\[Upgrade.exe][2] after to set the CS fields values correct.<br>NULL Values (may be used on some fields made in CS): DBsetup does not have the data structures/flags required to carry this additional information. So, when doing a rebuild/import of a database that contains NULL values (some CS tables do), those will be changed into the nearest-to-empty value for that type - empty string, number 0, and so on.
 
 <!-- Referenced links -->
 [1]: config-and-ini/sotables-ini.md

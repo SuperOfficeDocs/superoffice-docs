@@ -33,17 +33,17 @@ You can follow the [general instructions from Microsoft for creating DNS records
 
 1. Go to **Host Records** in the DNS console. The existing SPF record for your Google account is there by default.
 
-![x][img1]
+    ![x][img1]
 
 2. We want to add `_spf.online.superoffice.com` which contains correct records for both Mailgun clusters (EU and US). Since there only should be one SPF record - we need to combine the existing one with the new. The actual TXT record to add is `"v=spf1 include:_spf.online.superoffice.com ~all"`.
 
-  1. Click **Edit.** Update the existing record (text field) with the new combined record.
+    1. Click **Edit.** Update the existing record (text field) with the new combined record.
 
-![x][img2]
+         ![x][img2]
 
-  2. Click **Save** to update the information.
+    2. Click **Save** to update the information.
 
-![x][img3]
+    ![x][img3]
 
 [!include[ALT](../includes/note-dns-propagation-time.md)]
 
@@ -53,17 +53,17 @@ There are several tools online to use - to test your SPF record. Here we use [M
 
 1. Open the SPF tool:
 
-![x][img4]
+    ![x][img4]
 
 2. Add your domain (the one that you are going to send our mailings as) and click **SPF Record Lookup**.
 
-![x][img5]
+    ![x][img5]
 
 3. The result should show that `_spf.online.superoffice.com` is included and pass the test for *allow*.
 
 ### What’s the difference between ~all and -all?
 
-Given many receivers are not actively bouncing mail based on SPF pass/fail, there isn’t a strong argument for either -all or ~all in SPF records. For a while, Hotmail was advising that senders who published a -all record would have better delivery. This led to -all became a de-facto standard for a lot of ESPs and bulk senders. More recently, there does not seem to be any benefit to publishing -all even at Hotmail (Outlook.com, live.com, etc).
+Given many receivers are not actively bouncing mail based on SPF pass/fail, there isn’t a strong argument for either -all or ~all in SPF records. For a while, Hotmail was advising that senders who published a -all record would have better delivery. This led to -all became a de-facto standard for a lot of ESPs and bulk senders. More recently, there does not seem to be any benefit to publishing -all even at Hotmail (Outlook.com, live.com, and similar).
 
 What should I publish?
 

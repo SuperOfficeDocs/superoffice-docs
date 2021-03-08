@@ -89,7 +89,7 @@ The package dependencies are:
 `Install-Package SuperOffice.Crm.Web`
 
 SuperOffice CRM Web is for extending onsite installations with custom dialogs, controls, datahandlers, filters,
-ajaxmethods, etc. This is for onsite integrations only!
+Ajax-methods, and so on. This is for onsite integrations only!
 
 Included assemblies are:
 

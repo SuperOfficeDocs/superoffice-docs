@@ -25,7 +25,7 @@ Localization requirements are only relevant if your application supports more th
 
 * The application should be **multi-language compatible**:
   * The application shall handle common data, for example, lists, according to language encoding for each supported language.
-  * List values such as **NO: “Bil”, US: “Car”** must be parsed and presented correctly.
+  * List values such as **NO: "Bil", US: "Car"** must be parsed and presented correctly.
 * All parts of the system (such as dialogs, messages, standard reports, import data, and document templates) shall be **translated** into each supported language.
 * Your application's setup guide shall be available in English.
   * It is optional to make it available in additional languages.

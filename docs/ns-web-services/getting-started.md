@@ -130,7 +130,7 @@ In its simplest form you can just call this to create a new company with all def
 ```csharp
 ContactAgent contactAgent = new ContactAgent();
 ContactEntity contact = contactAgent.CreateDefaultContactEntity();
-contact.Name = “Test”;
+contact.Name = "Test";
 contact = contactAgent.SaveContactEntity(contact);
 
 But most likely you’ll want to set a few properties before saving:
@@ -232,7 +232,7 @@ fs.Close();
 
 ## Search for data in any table
 
-There are several methods for finding data in SuperOffice, but one I like is to use the “dynamic” provider. It’ll allow you to use a dot-syntax to indicate which tables you want data from. Customer Service use this method extensively.
+There are several methods for finding data in SuperOffice, but one I like is to use the "dynamic" provider. It’ll allow you to use a dot-syntax to indicate which tables you want data from. Customer Service use this method extensively.
 
 Here is an example where we use the Dynamic provider to search for data in a Customer Service extratable.
 

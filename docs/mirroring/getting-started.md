@@ -42,7 +42,7 @@ In principle, any change to any table should be mirrored. This includes Insert/U
 
 Since there is no GUI to look at data in a mirror, Sql Server Management Studio must be used. Generally it should be possible to do `select * from <sometable>` in both the customer table and the mirror, and get the same result.
 
-Backup/restore is a special case. If the sequence of events is mirror – backup – change – mirror – restore – mirror, then the system will detect that the mirror is “ahead” of the original and trigger a full repopulation. However, if the scenario is mirror – backup – change – mirror – restore – change – change – mirror then the sum of changes since the restore may be enough to camouflage that fact that a restore happened. In that case the mirror must be manually invalidated at the partner side, which can be done by setting the LSN of all tables to -1 in the mirror database’s `<context_id>_mirroring` table. Whether we need a way to force this from OC is something we’ll have to find out.
+Backup/restore is a special case. If the sequence of events is mirror – backup – change – mirror – restore – mirror, then the system will detect that the mirror is "ahead" of the original and trigger a full repopulation. However, if the scenario is mirror – backup – change – mirror – restore – change – change – mirror then the sum of changes since the restore may be enough to camouflage that fact that a restore happened. In that case the mirror must be manually invalidated at the partner side, which can be done by setting the LSN of all tables to -1 in the mirror database’s `<context_id>_mirroring` table. Whether we need a way to force this from OC is something we’ll have to find out.
 
 ## Restrictions
 

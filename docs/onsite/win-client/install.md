@@ -37,7 +37,7 @@ If you choose Customize you may choose where you want to install it and also cho
 
 ![x][img2]
 
-Advanced installation will give you option to select additional features and will display installation wizard for each component.
+Advanced installation will give you the option to select additional features and will display installation wizard for each component.
 
 Both Mail Link and Windows client Advanced installation have Typical and Custom installation types. Custom installation for Windows client allows you to select which languages and additional features will be installed.
 

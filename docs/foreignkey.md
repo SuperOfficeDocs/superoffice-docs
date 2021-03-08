@@ -14,19 +14,19 @@ so.envir: cloud # cloud or onsite
 so.client: online # online, web, win, pocket, or mobile
 ---
 
-# ForeignKeys – to fluent or not to fluent, that is the question!
+# ForeignKeys – to fluent or not to fluent, that is the question
 
 So there I was, one week to Christmas, and thinking not about what shopping I needed to get done before Christmas, but how to make it easier to work with Foreign Keys.
 
 ![image_thumb.png][img1]
 
-In SDK trainings, I refer to Foreign Keys as a means of connecting SuperOffice entities with those defines in external systems. These can be mapped to any pre-existing SuperOffice entities, such as appointments, contacts, documents, etc, as well as user-defined entities.
+In SDK training, I refer to Foreign Keys as a means of connecting SuperOffice entities with those defines in external systems. These can be mapped to any pre-existing SuperOffice entities, such as appointments, contacts, and documents, as well as user-defined entities.
 
 ![image_thumb_1.png][img2]
 
-Conceptually the external system is referred to as an Application. Where applications generally have multiple functions, or departments, the Foreign Key system exposes a device id and device name.
+Conceptually the external system is referred to as an Application. Where applications generally have multiple functions or departments, the Foreign Key system exposes a device id and device name.
 
-Choose your favorite ERP system and use that name as the application name, then, divide the sub-components into textual device identifiers, which can then have multiple device names. This give you a three-dimensional means of differentiating conceptual components between architectures.
+Choose your favorite ERP system and use that name as the application name, then, divide the sub-components into textual device identifiers, which can then have multiple device names. This gives you a three-dimensional means of differentiating conceptual components between architectures.
 
 ![image_thumb_2.png][img3]
 
@@ -82,7 +82,7 @@ public class ForeignApp
 }
 ```
 
-Conversely, accessing en indexer of a ForeignDevice will return an instance of a ForeignKey which too exposes a property of it’s _parent_ and therefore has access to both the ForeignDevice and ForeignApp that pertain to the ForeignKey.
+Conversely, accessing en indexer of a ForeignDevice will return an instance of a ForeignKey which too exposes a property of its *parent* and therefore has access to both the ForeignDevice and ForeignApp that pertain to the ForeignKey.
 
 ```csharp
 public class ForeignDevice
@@ -135,7 +135,7 @@ public class ForeignKey
 
 ### Option Two
 
-Growing popularity of [Fluent interfaces][1] today has lead me to consider this type of API for accessing foreign keys.
+The growing popularity of [Fluent interfaces][1] today has lead me to consider this type of API for accessing foreign keys.
 
 My original fluent interface design looks something like this:
 
@@ -173,7 +173,7 @@ public interface IForeignKeysFluent
 }
 ```
 
-So I guess what I really want to do is ask the question “What looks/feels best to you?” – the fluent interface above, or indexing into it?
+So I guess what I really want to do is ask the question "What looks/feels best to you?" – the fluent interface above, or indexing into it?
 
 ```csharp
 FluentForeignKeys ffk = new FluentForeignKeys();

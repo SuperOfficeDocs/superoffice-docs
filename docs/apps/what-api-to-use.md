@@ -77,15 +77,15 @@ The OAuth2 URL request, which is an Implicit Flow request, returns a URL fragmen
 
 For an app listed in the app store, this URL is usually what lies behind the Install button. For developers creating an app locally on their dev-machine, they must manually invoke this URL in a browser to initiate **mock** an installation.
 
-Both scenarios navigate to the SuperOffice SuperID login page, where either a tenant administrator or developer acting like a tenant administrator provides credentials and gives consent to the application.
+Both scenarios navigate to the SuperOffice SuperID login page, where either a tenant administrator or developer acting as a tenant administrator provides credentials and gives consent to the application.
 
 When an application is registered, they also provide a redirect URL, which is where SuperID redirects the user once authentication **and consent** is given.
 
 The redirect is a POST request that contains a JSON Web Token (JWT) in the request body.
 
-While the old form and new OAuth 2.0 form have a different sequence of events that lead to the response that contains the JWT security token, the JWT contains the claims necessary to interact with the tenant. For provisioning an application's dependencies, such as: navigator buttons, web panels, list items, etc. The claims include URLs for both REST and SOAP web service endpoints, and the almighty SystemUserToken - for non-interactive (server-to-server) communications.
+While the old form and the new OAuth 2.0 form have a different sequence of events that lead to the response that contains the JWT security token, the JWT contains the claims necessary to interact with the tenant. For provisioning an application's dependencies, such as navigator buttons, web panels, and list items. The claims include URLs for both REST and SOAP web service endpoints, and the almighty SystemUserToken - for non-interactive (server-to-server) communications.
 
-As for web service access, or authorization , when using the old form, then the claims also contain the administrator's Ticket credential. When using the OAuth 2.0 flow, in addition to the JWT token, the `access_token` is included in the response.
+As for web service access, or authorization, when using the old form, then the claims also contain the administrator's Ticket credential. When using the OAuth 2.0 flow, in addition to the JWT token, the `access_token` is included in the response.
 
 Older online applications that use the old form were not required to include the `redirect_url`. It was optional. Application that needed to override the default `redirect_url` could supply a `redirect_url` as long as it was registered in the application's `redirect_url` whitelist. If an application supplies a `redirect_url` that does not exist in the white list, SuperID will simply redirect the user's online tenant.
 
@@ -111,7 +111,7 @@ It’s not uncommon for users to interactively sign-in to an app when it is expo
 
 This will ensure the web panel application provides the user with a seamless SSO experience.
 
-**Normal users** are every-day users employed by the company that license SuperOffice, and use it to help accomplish their daily goals. **System users** are special accounts that have unlimited access to SuperOffice data, and are used to perform routine tasks that are not owned by normal users. System accounts used through web services **do not** support impersonation contexts, so they cannot do work on behalf of a normal user.
+**Normal users** are every-day users employed by the company that licenses SuperOffice, and use it to help accomplish their daily goals. **System users** are special accounts that have unlimited access to SuperOffice data, and are used to perform routine tasks that are not owned by normal users. System accounts used through web services **do not** support impersonation contexts, so they cannot do work on behalf of a normal user.
 
 [OpenID Connect][6], which is [popular identity layer][8] built on top of OAuth 2.0, is commonly used by RESTful API consumers and is supported in SuperOffice Online.
 
@@ -119,9 +119,9 @@ Most people who chose to use OpenID Connect, use one of the available OpenID Con
 
 While nearly impossible to cover homegrown solutions, SuperOffice has successfully tested OpenID Connect friendly frameworks; including [Microsoft ASPNET authentication services][10], as well as Identity Server’s [oidc-client][11]. In fact, the SuperOffice Online [Angular example][12] uses the `oidc-client-js` npm package.
 
-SuperOffice supports interactive [OpenID Connect workflows][6], such as Authorization Code, Implicit and Hybrid Flow, but there is no support for non-interactive OAuth2 workflows; such as Client Credentials.
+SuperOffice supports interactive [OpenID Connect workflows][6], such as Authorization Code, Implicit, and Hybrid Flow, but there is no support for non-interactive OAuth2 workflows; such as Client Credentials.
 
-SuperOffice does, however, issue refresh tokens, and in that way does support a non-interactive flow once the user has interactively signed in. Since it does require the user to first interactively authenticate to receive a refresh token, we refer to this as **Semi-Interactive**. From that point on, each users’ refresh token can be securely stored and use toward the **tokens** endpoint to obtain an access token, which is then used as a credential to perform API calls on behalf of a particular user.
+SuperOffice does, however, issue refresh tokens, and in that way does support a non-interactive flow once the user has interactively signed in. Since it does require the user to first interactively authenticate to receive a refresh token, we refer to this as **Semi-Interactive**. From that point on, each users’ refresh token can be securely stored and used toward the **tokens** endpoint to obtain an access token, which is then used as a credential to perform API calls on behalf of a particular user.
 
 ## Supported Scenarios
 
@@ -163,7 +163,7 @@ Authorization: SOTicket 7T:1234abcxyzExample==
 SO-AppToken: Application_Token_Value
 ```
 
-System users have unlimited access to the database and are not subject to any security or sentry constrains. System users cannot impersonate other users in the online environment.
+System users have unlimited access to the database and are not subject to any security or sentry constraints. System users cannot impersonate other users in the online environment.
 
 ## Semi-Interactive Scenario
 
@@ -219,7 +219,7 @@ Supported in version **Services86** and higher, when used in SOAP requests, the 
 
 ## Conclusion
 
-There are a lot of integration options, and I can understand if it’s been a head-scratching time trying to understand where to begin. At the very least I hope this article has clarified some of the confusion, and brought you much closer to successfully understanding what the options are and which API is the right fit for you.
+There are a lot of integration options, and I can understand if it’s been a head-scratching time trying to understand where to begin. At the very least I hope this article has clarified some of the confusion and brought you much closer to successfully understanding what the options are and which API is the right fit for you.
 
 <!-- Referenced links -->
 [1]: https://stackoverflow.com/questions/19884295/soap-vs-rest-differences

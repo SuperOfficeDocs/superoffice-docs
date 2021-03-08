@@ -15,7 +15,7 @@ so.client: win               # online, web, win, pocket, or mobile
 
 # How to upgrade SuperOffice 7 Windows Clients / SuperOffice 8 Windows App
 
-## Step 1 - Check the System requirements for the SuperOffice 8 Windows App
+## Step 1 - Check the system requirements for the SuperOffice 8 Windows App
 
 In SuperOffice 8 the user needs a Windows App license to be able to log in to the Windows client. Read more in the [Help-file][1].
 
@@ -23,7 +23,7 @@ The Maintenance and settings is only accessible from the [Admin client web][4].
 
 Some settings for Travel / Remote Travel (Replication), Windows client scripting is configured from the [Admin client windows][3]. Here you also find a section called *Options* where you can set automatic update of SuperOffice client. Check this option if you want the SuperOffice client to be updated automatically when a new version becomes available. Read more in the [Help-file][2].
 
-Make sure the [system requirements][8] for the computer is met.
+Make sure the [system requirements][8] for the computer are met.
 
 [Prerequisites][5] are installed during the upgrade of the client.
 
@@ -52,14 +52,14 @@ Since you are upgrading the client on a computer, there is information you can u
     1. [Locate and open SuperOffice.ini][7].
     2. Copy the address after `"Centralpath="`
 
-![superoffice-ini_centralpath][img1]
+    ![superoffice-ini_centralpath][img1]
 
 2. Open the file path to where the server installation is - in file explorer
 
     1. Open the Run dialog (open it either from the Windows start-menu, choose **Run** or press ![Windows-key + R][img2].
     2. Paste or write the address for CentralPath and click **OK**.
 
-![run_centralpath][img3]
+    ![run_centralpath][img3]
 
 3. Find the folder *Client* on server and run **SuperOffice8.exe**
 

@@ -94,7 +94,7 @@ Settings related to logging.
 | EnableStackTracing | Should stack traces be collected by various events |
 | LogError | Boolean value determines whether to log all error messages. Default = True |
 | LogFailureAudit | Boolean value determines whether to log when an access failure occurs/failed authentications (default 'True') |
-| LogFolder | Folder (e.g. UNC path) where the log file is to reside. Note that the owner of the process needs to have access to manipulate files in this folder |
+| LogFolder | Folder (for example UNC path) where the log file is to reside. Note that the owner of the process needs to have access to manipulate files in this folder |
 | LoggedServices | List of services to be logged; default blank means all, otherwise a comma-separated list of service names (without the Agent suffix, for instance: BLOB, Appointment) |
 | LogInformation | Log general information. This includes successful SQL's passed to the database. Only permit this option while debugging a bug. This will be a severe performance hit! (default 'False') |
 | LogLongQueries | Should long-running queries be logged in textual form to a special file? default false |
@@ -161,7 +161,7 @@ The *Explicit* section relates to employee and partner access to the SuperOff
 
 | Parameter | Description |
 |-----------|-------------|
-| CommonDBConnection | Boolean value determining what authentication mechanism to use when authenticating a user.<br>If this value is “True”, DBUser and DBPassword are used in the database connection.  Otherwise, the credentials provided in the authentication (e.g. **SoSession** class) will be used.  “True” is default for server (e.g. like web) applications and “False” is default for client (e.g. like Windows forms) applications. |
+| CommonDBConnection | Boolean value determining what authentication mechanism to use when authenticating a user.<br>If this value is "True", DBUser and DBPassword are used in the database connection.  Otherwise, the credentials provided in the authentication (for example **SoSession** class) will be used.  "True" is default for server (for example like web) applications and "False" is default for client (for example like Windows forms) applications. |
 | DBPassword | String value representing the DBUser database password. |
 | DBUser | String value representing a database username with access privileges. |
 | EmployeeAllowed | Boolean value determining whether an employee is permitted access. |
@@ -215,9 +215,9 @@ Complete setting property definitions.
 
 | Parameter | Description |
 |-----------|-------------|
-| ApplicationCountry | String value representing the country id for associates that are not persons (e.g. anonymous and system users).  Default is GBR (England). |
-| ApplicationCountryCode | String value representing the country for associates that are persons (e.g. employees and external users). Default is GBR (England). |
-| UseApplicationCountryForPersons | Boolean value determines whether to use the application's country for all persons (e.g. employees and external users). |
+| ApplicationCountry | String value representing the country id for associates that are not persons (for example anonymous and system users).  Default is GBR (England). |
+| ApplicationCountryCode | String value representing the country for associates that are persons (for example employees and external users). Default is GBR (England). |
+| UseApplicationCountryForPersons | Boolean value determines whether to use the application's country for all persons (for example employees and external users). |
 
 ## Services
 

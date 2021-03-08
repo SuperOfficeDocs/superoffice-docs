@@ -28,7 +28,7 @@ Recently a partner, experimenting with creating a managed document plug in, disc
 6. Copy both the managed reference `IDocumentInterface` assembly and your document plugin to the SuperOffice directory.
 7. Place your document plugin and reference managed `IDocumentInterface` assembly, in the GAC (Drag and drop or use GACUTIL). As an alternative, skip this step and use the RegAsm /codebase switch in step eight to hard-code the assembly path (See *InstallDocPlugin.bat*). (Not recommending for deployment scenarios, only in testing).
 8. Use REGASM to register the document plugin, as well as create a type library file for your document plugin, and register it. As an alternative to step 7, use the RegAsm /codebase switch to hard-code the assembly path (See *InstallDocPlugin.bat*).
-9. Append a Module section in the *SoLoader.ini* file (located in Client directory, e.g. *C:\\SuperOffice\\Client*) and the filename of your document plugin under the \[Files\] section.
+9. Append a Module section in the *SoLoader.ini* file (located in Client directory, for example *C:\\SuperOffice\\Client*) and the filename of your document plugin under the \[Files\] section.
 10. Start SuperOffice and select the document archive plugin from the **Preferences\\System** options.
 
 ## The Preliminaries
@@ -45,7 +45,7 @@ Now you should have a strong name key file to sign your document plugin assembly
 
 ## The Solution
 
-Create a new class library solution and name it in accordance with the SuperOffice naming scheme for document plugins, e.g. SoDocPlugin\_YourPluginName. When the class library project is created, create a reference to the assembly that contains the IDocumentInterface, see below. Rename the default class to something you like, e.g. `MyDocumentPlugIn`.
+Create a new class library solution and name it in accordance with the SuperOffice naming scheme for document plugins, for example SoDocPlugin\_YourPluginName. When the class library project is created, create a reference to the assembly that contains the IDocumentInterface, see below. Rename the default class to something you like, for example `MyDocumentPlugIn`.
 
 ![x][img3]
 

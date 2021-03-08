@@ -95,7 +95,7 @@ This function starts the event listener. It makes sure that when the script has 
 
 [!code-html[HTML](includes/call-script-in-cs.html?range=43-51)]
 
-This is the jQuery part, which executes when there's been a change in the groups drop down. Here it will use the URL we set earlier, and insert the group id we got from the drop down and send to our script. If you want more attributes to send, just insert them like this `M$name=Ola`:
+This is the jQuery part, which executes when there's been a change in the groups drop-down. Here it will use the URL we set earlier, and insert the group id we got from the drop-down and send to our script. If you want more attributes to send, just insert them like this `M$name=Ola`:
 
 ```html
 xmlhttp.send("groupId=" + $('#groups').val() + "&name=Ola");

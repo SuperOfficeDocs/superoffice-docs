@@ -25,7 +25,7 @@ Which of these customization tools you use will depend on your requirements, the
 
 [CRMScript][1] is a highly flexible **scripting language** embedded in SuperOffice CRM. It allows you to create different automations and workflows to fit the ways your business works.
 
-[Triggers][2] are based on CRMScript. These are pre-defined triggers and events that allow you to set up *“if this, then that”* type of workflows in SuperOffice CRM.
+[Triggers][2] are based on CRMScript. These are pre-defined triggers and events that allow you to set up *"if this, then that"* type of workflows in SuperOffice CRM.
 
 We advise you to explore the possibilities of triggers before you start looking at CRMScript to define a workflow for your company. The reason is that triggers don't require you to know CRMScripting, only a strong overview of how SuperOffice CRM works.
 

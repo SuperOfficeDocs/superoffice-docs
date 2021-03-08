@@ -15,7 +15,7 @@ so.client: web                # online, web, win, pocket, or mobile
 
 # The installation contents
 
-After you have installed the SuperOffice web application, you will see that the application is an ASP.NET web application with standard elements like *App\_Data*, *App\_Themes*, *web.config* etc in place. In this section we will be examining the contents of the web client installation.
+After you have installed the SuperOffice web application, you will see that the application is an ASP.NET web application with standard elements like *App\_Data*, *App\_Themes*, and *web.config* in place. In this section, we will be examining the contents of the web client installation.
 
 ## App\_Data
 
@@ -40,13 +40,13 @@ This file defines all the pages and dialogs in SuperOffice. If you want to add y
 
 ### SoButtonBarPanel.config
 
-This file defines all button links available in the bottom of SuperOffice, e.g. the New Sale or New Appointment link buttons.
+This file defines all button links available in the bottom of SuperOffice, for example, the New Sale or New Appointment link buttons.
 
 You can change, add or remove links by modifying this page.
 
 ### SoNavigatorPanel.config
 
-This file defines all button links available in the left side of SuperOffice, e.g Contact, Project, Diary, etc.
+This file defines all button links available in the left side of SuperOffice, for example, Contact, Project, and Diary.
 
 You can change, add or remove links by modifying the section of this page.
 
@@ -54,13 +54,13 @@ You can change, add or remove links by modifying the section of this page.
 
 This file defines all controls and assemblies known to SuperOffice. If your assemblies must be known, you will add them here as well.
 
-There are several different object types, like Control, UserControl, AjaxMethod, etc. We will be using some of these in later examples.
+There are several different object types, like Control, UserControl, and AjaxMethod. We will be using some of these in later examples.
 
 ## App\_Themes
 
 The stylesheets used are defined by using ASP.NET themes, which lets you create custom controls that look exactly like standard controls.
 
-The use of themes also lets you change all of the design elements, like fonts, colors, etc in the entire application to fit your own corporate design.
+The use of themes also lets you change all of the design elements, like fonts and colors in the entire application to fit your own corporate design.
 
 The *App\_Themes/\[version\]/* folder contains all of the CSS and Skin files used by the default theme.
 
@@ -98,7 +98,7 @@ Login pages.
 
 ## Services
 
-TrayApp controls. The Tray Application is a separate application used for handling diary event notifications etc.
+TrayApp controls. The Tray Application is a separate application used for handling diary event notifications and so on.
 
 ## WebParts
 

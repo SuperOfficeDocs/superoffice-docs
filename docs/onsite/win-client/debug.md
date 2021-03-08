@@ -28,7 +28,7 @@ Logpath=c:\SO_arc\data\SOError.log
 
 * Most parameters are either on = 1 or off = 0.
 * **EnableOleDBLog** supports log levels 1-5. Use it to troubleshoot anything using the OleDBProvider, such as reports.
-* **Logpath**: make sure the path is accessible for the client you want to make the log file for. For debugging it is most useful if this location is only used for the client with problems, so a local folder where the user has write permission is ideal.
+* **Logpath**: make sure the path is accessible for the client you want to make the log file for. For debugging it is most useful if this location is only used for the client with problems, so a local folder where the user has a write permission is ideal.
 
 See the [superOffice.ini reference][1] for details.
 
@@ -43,7 +43,7 @@ Since the windows client uses both old components and NetServer, you also need t
 * Make sure it writes to a file by setting LogToFile to True. Default the LogFolder is set to *%Localappdata%\\SuperOffice*, but you may change this to the same location as the above Logfolder in *SuperOffice.ini*.
 
 > [!NOTE]
-> The client needs write permission to the LogFolder. Without write permission to this folder, NetServer will write the log file to the same location it was started from.
+> The client needs to write permission to the LogFolder. Without write permission to this folder, NetServer will write the log file to the same location it was started from.
 
 See the [SuperOffice.config reference][2] for details.
 
@@ -79,13 +79,13 @@ Only permit this option while debugging a bug. This will be a severe performance
 <!-- Log to a LogFile (default 'False') -->
 <add key="LogToFile" value="True">
 </add>
-<!-- Folder (e.g. UNC path) where the logfile is to recide. Note that the owner of the process needs to have access to manipulate files in this folder -->
+<!-- Folder (for example UNC path) where the logfile is to recide. Note that the owner of the process needs to have access to manipulate files in this folder -->
 <add key="LogFolder" value="C:\Log">
 </add>
 </Diagnostics>
 ```
 
-When you use SuperOffice Win, the Scaffolding option is not in *SuperOffice.config* file at all.
+When you use SuperOffice Win, the Scaffolding option is not in the *SuperOffice.config* file at all.
 
 If asked for even more extended logging, you may turn this on by adding:
 
@@ -93,7 +93,7 @@ If asked for even more extended logging, you may turn this on by adding:
 <add key="EnableScaffolding" value="true" />
 ```
 
-See also [Diagnostics][3] section of the Web.config page.
+See also [Diagnostics][3] section of the *web.config* page.
 
 [!include[ALT](../includes/turn-off-logging.md)]
 

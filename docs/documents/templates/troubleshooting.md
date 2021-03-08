@@ -95,7 +95,7 @@ But for some reason the xml around our template variables can end up looking som
 {</a:t></a:r><a:r><a:rPr lang="en-US" dirty="0" err="1" smtClean="0"/><a:t>onam</a:t></a:r><a:r><a:rPr lang="en-US" dirty="0" smtClean="0"/><a:t>}
 ```
 
-As you can see, the start “**{**“ and the end “**}**” tags are placed far apart from the template variable identifier “**onam**” so our system will not recognize this as a valid template variable. The end result is that the document after creation will still show the text **{onam}**.
+As you can see, the start "**{**" and the end "**}**" tags are placed far apart from the template variable identifier "**onam**" so our system will not recognize this as a valid template variable. The end result is that the document after creation will still show the text **{onam}**.
 
 ### What can I do when this happens?
 

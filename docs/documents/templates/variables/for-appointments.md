@@ -53,7 +53,7 @@ so.topic: reference       # article, howto, reference, concept, guide
 | bsta | The appointment's status (in English): "TENTATIVE", "CONFIRMED" or "CANCELLED" |
 | bsti | The appointment's start time, formatted as HHmmss |
 | bsug | Suggested appointment ID for the appointment ("SuggestedAppointment Id"). Set to 0 when the appointment is not part of a sale/project guide |
-| btim | The appointment's date and time, e.g. 30.03.2005 (16:00)-(17:00) |
+| btim | The appointment's date and time, for example 30.03.2005 (16:00)-(17:00) |
 | btod | Today's date in UTC, formatted as YYYYMMdd |
 | btot | Current time in UTC, formatted as HHmmss |
 | btyp | Activity type |

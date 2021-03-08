@@ -46,7 +46,7 @@ At any time that you are authenticated with NetServer, you can get a ticket:
 This is also the return value of the Authenticate WebService methods, and the `<usec>` template variable. Later on, you can pass in the ticket in a WebRequest header. You can also send it in, as the username.
 
 * This means that any place that takes username/password, ticket/blank will work.
-* This applies to Win and Web equally - main clients, OLE DB, URL authentication, etc.
+* This applies to Win and Web equally - main clients, OLE DB, URL authentication, and similar.
 
 Multiple `GetSafeCredentials()` calls within the same process and validity period will return the same ticket. Remember that a ticket represents an identity, **NOT** a particular session. It is quite OK for multiple sessions to share one ticket, they will just push the validity ahead of them.
 

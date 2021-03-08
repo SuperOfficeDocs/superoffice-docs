@@ -60,7 +60,7 @@ Given this information, we can determine that the column identity values for the
 With the understanding of the above information, all that is required to gain access to any user-defined value for a given field name (Field Label specified in the Admin App) is a simple formula. The key to this formula is the column identity value. With the column identity, we can figure out the following key pieces of information:
 
 * Table Identity
-* Field Offset ( User-Defined Field Index, whether that is long01, string01, etc)
+* Field Offset ( User-Defined Field Index, whether that is long01, string01, ...)
 
 ### Table Identity
 
@@ -86,9 +86,9 @@ FieldOffset = ColumnId % (TableIdentity * 256)
 
 ### Steps
 
-Given the main entity table (Appointment, Contact, etc) and the field label, how is the field value returned? Essentially this is a three step process.  
+Given the main entity table (such as Appointment or Contact) and the field label, how is the field value returned? Essentially this is a 3-step process.  
 
-1. Get the version number of the main entity table (appointment, contact, etc), from the `userpreference` table.
+1. Get the version number of the main entity table, from the `userpreference` table.
 2. Get the column number of the field by using the version of the main entity table, the name of the main entity table, and the field label.
 3. Get the table number from the column number, and get two TableInfo objects to use in a NetServer query.  
 
@@ -111,7 +111,7 @@ Remember that only the SELECT, FROM, and WHERE are a fixed frame. The field, joi
 
 ## Sample
 
-Download the [sample application][1], including all source, and test it out for yourself.
+Download the [sample application][1], including all sources, and test it out for yourself.
 
 ### How to use the UDFHelper class
 

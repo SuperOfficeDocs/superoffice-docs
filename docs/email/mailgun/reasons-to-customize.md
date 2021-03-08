@@ -43,24 +43,24 @@ This change will affect where the emails are processed and stored, and if the ne
 
 ### The best solution for using email together with SuperOffice Online is to use the email addresses we supply as part of the mailing-service
 
-In our product, the customer can create addresses such as "info@companyname.suocrm.com", "support@companyname.suocrm.com", etc. If the customer accepts that replies to customer inquiries or mailings originate from these addresses, then there is no need to configure SPF and little risk of being caught by spam filters. You can still publish your own info@companyname.no address, but set it up to be forwarded to the address we supply. The end customer will experience that the reply is originating from another address than the one they sent to, but this should be of little concern.
+In our product, the customer can create addresses such as "info@companyname.suocrm.com" and "support@companyname.suocrm.com". If the customer accepts that replies to customer inquiries or mailings originate from these addresses, then there is no need to configure SPF and little risk of being caught by spam filters. You can still publish your own info@companyname.no address, but set it up to be forwarded to the address we supply. The end customer will experience that the reply is originating from another address than the one they sent to, but this should be of little concern.
 
 See the option "ALTERNATIVE 1: CRM Online email service only"
 
-Using any mailing service always represent some kind of trade-off. Changing to a private email-server does not necessary makes things perfect
+Using any mailing service always represents some kind of trade-off. Changing to a private email-server does not necessary makes things perfect
 
 ## Be aware
 
-Why do we use a mass mailing service like Mailgun? What features and security does it provide? What benefits will disappear if a customer starts using his normal mail-service for mass mailing? It is important to take these qualities into considerations when discussing the issues with a customer. This is not a black and white situation with a silver bullet solution that solves everything. Both solutions have pros and cons – both related to cost, capacity, features and security.
+Why do we use a mass mailing service like Mailgun? What features and security does it provide? What benefits will disappear if a customer starts using his normal mail-service for mass mailing? It is important to take these qualities into considerations when discussing the issues with a customer. This is not a black and white situation with a silver bullet solution that solves everything. Both solutions have pros and cons – both related to cost, capacity, features, and security.
 
 Let’s remind ourselves and our customers why the Mailgun – service does a good job:
 
 * Open to the internet
-    The customer do have to make their mail-server available for SuperOffice Online. This will imply making the server open to the internet. This will inevitably represent a security risk.
+    The customer has to make their mail-server available for SuperOffice Online. This will imply making the server open to the internet. This will inevitably represent a security risk.
 * Reputation
     Sending out large amounts of email from a company email server may lead to blacklisting and/or poor reputation. This again may increase the risk of other emails from the company caught as spam.
 * Mass mailing capacity and cost
-    A company mail server may have limitations related to no. of emails outgoing (typically mass emails). In addition, it might affect performance, stability, administration and both direct and operational cost.
+    A company mail server may have limitations related to no. of emails outgoing (typically mass emails). In addition, it might affect performance, stability, administration, and both direct and operational cost.
 * Support and maintenance
     Mailgun is an integrated part of the SuperOffice CRM Online concept. In terms of operation, upgrades, support, and knowledge. It is 100% managed by SuperOffice. Customers taking responsibility for running their own mail-server will represent a custom integrated solution that will have an effect on the mentioned areas.
 
@@ -76,4 +76,4 @@ Let’s remind ourselves and our customers why the Mailgun – service does a go
 * You handle all your shared email accounts (locally), setup and configuration settings will (for now) be handled by Online Operations.
 * You handle the volumes of sending your emails
 * You handle the blacklisting of your IP address (email reputation management)
-* Do require you to administer and setup of mail forwarding to Mailgun on your local mail account for incoming emails (bounce etc.) and/or maintenance of "reply to" / "from" in your outgoing emails need to match your setup of how you plan to get your customers response emails back into SuperOffice Service via Mailgun.
+* Do require you to administer and setup of mail forwarding to Mailgun on your local mail account for incoming emails (for example, bounce) and/or maintenance of "reply to" / "from" in your outgoing emails need to match your setup of how you plan to get your customers response emails back into SuperOffice Service via Mailgun.

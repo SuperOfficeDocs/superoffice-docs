@@ -47,7 +47,7 @@ Both use the OAuth 2.0 protocol. Both require that developers register their app
 
 SuperOffice is registered as an application with both Google and Office 365 so that we can use their services for logging in, and get the authentication request sent back to us.
 
-When a user wants to log in to SuperOffice using Google or Office 365, they first go to the SuperOffice login page where they are shown a login page. Once the user has filled in the username, we can check if their account is connected to Google or Office 365. If they are connected to Google, we show a “Login with Google” button instead of the password field.
+When a user wants to log in to SuperOffice using Google or Office 365, they first go to the SuperOffice login page where they are shown a login page. Once the user has filled in the username, we can check if their account is connected to Google or Office 365. If they are connected to Google, we show a "Login with Google" button instead of the password field.
 
 The SuperOffice login page sends the user off to the Google login page, with a note to come back to the SuperOffice login page once Google has figured out who the user is.
 

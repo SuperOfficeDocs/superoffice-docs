@@ -144,7 +144,7 @@ private void DownloadDocument(int documentId)
 }
 ```
 
-In the example above, first retrieve the document using IDocumenyAgent.GetDocumentEntity. This is used by the IDocumentAgent.GetDocumentStream method to get the actual file from the document archive. You must also provide a name for the file. This name becomes the temporary file name where the file is downloaded, built-up, and opened from. You must be sure the extensions of both the original and the downloaded document are the same. Now you are ready to download the document. Use the IDocumentAgent.CreateTempFile method to execute the download.
+In the example above, we first retrieve the document using IDocumenyAgent.GetDocumentEntity. This is used by the IDocumentAgent.GetDocumentStream method to get the actual file from the document archive. You must also provide a name for the file. This name becomes the temporary file name where the file is downloaded, built-up, and opened from. You must be sure the extensions of both the original and the downloaded document are the same. Now you are ready to download the document. Use the IDocumentAgent.CreateTempFile method to execute the download.
 
 The example here uses the System.Diagnostics.Process class to open the file. This ensures that the default application assigned to open this file type is launched to view the document.
 
@@ -152,9 +152,9 @@ The example here uses the System.Diagnostics.Process class to open the file. T
 
 To modify a document we will first have to download the document to a temporary folder so that it is available locally for the user to make modifications. Once modified, the temporary file is uploaded to the document archive folder.
 
-The first step retrieves the document using an Agent instance, IDocumenyAgent. With use of SuperOffice.CRM.Services.AgentFactory, IDocumentAgent object is retrieved. The IDocumentAgent.GetDocumentEntity method is invoked to get a DocumentEntity instance, which contains all properties of the document you are going to download - such as Header, Description, etc.
+The first step retrieves the document using an Agent instance, IDocumenyAgent. With the use of SuperOffice.CRM.Services.AgentFactory, IDocumentAgent object is retrieved. The IDocumentAgent.GetDocumentEntity method is invoked to get a DocumentEntity instance, which contains all properties of the document you are going to download - such as Header and Description.
 
-When downloading a document, you must specify a name that will be used to name a copy of the original document. Make sure the extensions of both the original and the downloaded document are the same. In the example below, the original file extension is extracted and then appended to the end of the temporary file name. Now you are are ready to download the document.
+When downloading a document, you must specify a name that will be used to name a copy of the original document. Make sure the extensions of both the original and the downloaded document are the same. In the example below, the original file extension is extracted and then appended to the end of the temporary file name. Now you are ready to download the document.
 
 ```csharp
 using SuperOffice;
@@ -162,7 +162,7 @@ using SuperOffice.CRM.Services;
 using System.IO;
 
 /// 
-/// This method is used to download an existing document , modify it and upload it to document archive
+/// This method is used to download an existing document, modify it and upload it to document archive
 ///
 /// The id of the document to be updated
 private void UpdateDocument(int documentId)
@@ -212,13 +212,13 @@ private void UpdateDocument(int documentId)
 
 When calling the IDocumentAgent.CreateTempFile method, the temporary file name and the document stream for the original document are passed into the method.
 
-IDocumentAgent.GetDocumentStream is used to download the document contents from the server. The temp filename is used to for storing the contents locally and, once the file is created, you have to explicitly close and dispose the steam to eliminate concurrent access issues. At this point you are able to modified the document.
+IDocumentAgent.GetDocumentStream is used to download the document contents from the server. The temp filename is used for storing the contents locally and, once the file is created, you have to explicitly close and dispose the steam to eliminate concurrent access issues. At this point, you are able to modify the document.
 
 Assuming the modifications are done, the next step is to upload the modified document to the document archive folder. This is achieved by setting the file stream of the temporary modified file as the document stream for the original document entity. Using a FileStream instance, and passing in the full path to the local file, the file open mode, and the file access details, you prepare the document for upload.
 
 The IDocumentAgent.SetDocumentStream method is used to do perform the actual upload. SetDocumentStream requires three parameters: the original document entity, the stream for the temporary local file, and the Boolean value specifying whether the stream will overwrite an existing file with the same name stored in the document archive.
 
-For the application to run properly, some modifications are required in the application configuration file.The following section illustrates the modifications required in the Documents  section of the configuration file.
+For the application to run properly, some modifications are required in the application configuration file. The following section illustrates the modifications required in the Documents section of the configuration file.
 
 ```xml
 <Documents>
@@ -228,4 +228,4 @@ For the application to run properly, some modifications are required in the appl
 </Documents>
 ```
 
-The ArchivePath specifies the physical location of the archive folder. This applies to the services/server-side. The TemporaryPath key should have the physical location for temporary files on the client. Finally, specify the impersonation key value. Impersonation is for file access. Impersonation should be set to true in a scenario where SO\_ARC is located on a remote server because the web-server user runs as a restricted local account which has no rights to access a file-share on a different server. If the impersonation set to true, the domain, user and the password values for a user that has access to SO\_ARC and temp folder have to be provided. In this example we have set the impersonation false because this is a windows application and the client runs the NetServer code in the same process, and the application inherits the user's identity.
+The ArchivePath specifies the physical location of the archive folder. This applies to the services/server-side. The TemporaryPath key should have the physical location for temporary files on the client. Finally, specify the impersonation key value. Impersonation is for file access. Impersonation should be set to true in a scenario where SO\_ARC is located on a remote server because the web-server user runs as a restricted local account, which has no rights to access a file-share on a different server. If the impersonation set to true, the domain, user, and the password values for a user that has access to SO\_ARC and temp folder have to be provided. In this example, we have set the impersonation false because this is a windows application and the client runs the NetServer code in the same process, and the application inherits the user's identity.

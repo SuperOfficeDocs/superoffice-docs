@@ -44,7 +44,7 @@ The Relational Database (RDB) layer, conceptually the business logic layer, is e
 
 ### High-Level Database Layer
 
-The High-Level Database (HDB) layer, found under the SuperOffice.Rows namespace, is a table-object view of the database. This layer exposes database tables and the information they contain as row objects, such as ContactRow and ContactRows. Unlike RDB object properties, which are full-blown entities themselves (e.g. Contact.Associate corresponds to an Associate object with populated properties), HDB object properties contain identity values that represent identity field values in a corresponding table. In this case, the ContactRow associate property, which is called AssociateId, is an integer value that correlates to a row in the associate table where the ContactRow.AssociateId value equals the associate\_id field value.
+The High-Level Database (HDB) layer, found under the SuperOffice.Rows namespace, is a table-object view of the database. This layer exposes database tables and the information they contain as row objects, such as ContactRow and ContactRows. Unlike RDB object properties, which are full-blown entities themselves (for example Contact.Associate corresponds to an Associate object with populated properties), HDB object properties contain identity values that represent identity field values in a corresponding table. In this case, the ContactRow associate property, which is called AssociateId, is an integer value that correlates to a row in the associate table where the ContactRow.AssociateId value equals the associate\_id field value.
 
 ### SuperOffice Database Interface Layer
 
@@ -52,11 +52,11 @@ At the lowest levels of the framework is a database-independent objectified SQL 
 
 ## Service Layer
 
-Global access to SuperOffice data is easy to achieve through leveraging the service-orientated aspects of NetServer. One way to communicate with NetServer web services is to use Microsoft's ServiceModel Metadata Utility Tool ([SVCUTIL.exe][2] to generate a client proxy class for a particular NetServer web service, e.g. Appointment.svc or Contact.svc. Another way is to create a Visual Studio Service Reference and communicate with the services through that proxy. The most complete way, however, is to reference the pre-packaged, all-in-one factory-driven proxy, SuperOffice.Services.dll.
+Global access to SuperOffice data is easy to achieve through leveraging the service-orientated aspects of NetServer. One way to communicate with NetServer web services is to use Microsoft's ServiceModel Metadata Utility Tool ([SVCUTIL.exe][2] to generate a client proxy class for a particular NetServer web service, for example Appointment.svc or Contact.svc. Another way is to create a Visual Studio Service Reference and communicate with the services through that proxy. The most complete way, however, is to reference the pre-packaged, all-in-one factory-driven proxy, SuperOffice.Services.dll.
 
 There is flexibility in using SuperOffice proxies. Not only are all of the complexities involved with communicating with web services done for you, but also in the ability to code once and have your application work both local or remote simply by changing a single configuration setting - SuperOffice->Services->DefaultMode. Under the hood, however, there are significant differences between the different modes, Local, Remote, and Switch.
 
-Within the services layer, most development will involve IAgent-derived types and Carrier types. Agents are used to execute actions, e.g. call methods, while Carrier objects, such as Person and PersonEntity are mere data containers. As your will soon come to realize, carrier entities better resemble Entity objects, where an entity property, such as the PersonEntity.Contact, is a populated object that contains all relational information pertaining to the corresponding contact - including name, address, contact ID, phone collection, and more. In contrast, carrier objects (not ending in Entity) such as Contact and Person, are more similar to Row objects. Carrier object properties represent identity values correlating to the identity field in the corresponding table. For example, the Person.ContactId property is of type integer and correlates to the contact\_id field in the Contact table.
+Within the services layer, most development will involve IAgent-derived types and Carrier types. Agents are used to execute actions, for example call methods, while Carrier objects, such as Person and PersonEntity are mere data containers. As your will soon come to realize, carrier entities better resemble Entity objects, where an entity property, such as the PersonEntity.Contact, is a populated object that contains all relational information pertaining to the corresponding contact - including name, address, contact ID, phone collection, and more. In contrast, carrier objects (not ending in Entity) such as Contact and Person, are more similar to Row objects. Carrier object properties represent identity values correlating to the identity field in the corresponding table. For example, the Person.ContactId property is of type integer and correlates to the contact\_id field in the Contact table.
 
 ### Service Communication Modes
 
@@ -215,7 +215,7 @@ public void SetContactInfo()
 
 ### Direct Web Service Authentication
 
-When calling a NetServer web service directly, first instantiate a proxy object, e.g. the service object itself (Contact, Appointment, or Project), then set the SoCredentials property. Finally, make calls against the service to save or retrieve data.
+When calling a NetServer web service directly, first instantiate a proxy object, for example the service object itself (Contact, Appointment, or Project), then set the SoCredentials property. Finally, make calls against the service to save or retrieve data.
 
 The following example demonstrates how to call the web service through a Visual Studio WebReference proxy object.
 

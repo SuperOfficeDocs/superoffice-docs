@@ -70,7 +70,7 @@ My application is ready, what should I consider before I ask for a certification
 
 ## Language support
 
-* For [multi-lingual support][13], add list items on the **NO: “Bil”, US: “Car”** format
+* For [multi-lingual support][13], add list items on the **NO: "Bil", US: "Car"** format
 
 ## Logging
 

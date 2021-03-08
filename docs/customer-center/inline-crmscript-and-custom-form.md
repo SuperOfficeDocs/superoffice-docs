@@ -27,11 +27,11 @@ In this example, we will create a new web page/form in the Customer Centre which
 
 ## Inline ejScript
 
- Inline ejScript is our parallel to ASPX or PHP, where ejScript is inlined into an HTML document. This allows for large portions of the document to be pure HTML (without having to use print-statements), and then inlining ejScript using a special tag to “switch mode” between HTML and ejScript. Here is an example of a very simple inlined ejScript:
+ Inline ejScript is our parallel to ASPX or PHP, where ejScript is inlined into an HTML document. This allows for large portions of the document to be pure HTML (without having to use print-statements), and then inlining ejScript using a special tag to "switch mode" between HTML and ejScript. Here is an example of a very simple inlined ejScript:
 
 ![x][img1]
 
-The leading `%EJSCRIPT_START%` and matching `%EJSCRIPT_END%` tells the Parser that what is between is inline ejScript. If you want to, you can also have plain HTML outside these tags. Immediately inside these tags, we are in Parser-mode, which basically means we will output everything directly, but also look for Parser-variables, such as `%customer.name%`, etc. When we encounter a `<%`, we switch into ejscript mode, which we keep until we see an `%>`. This is completely analogous to PHP’s `""`. In this mode, we will execute the ejScript, and you use `print()` to output HTML code. Note: you can have many ejScript-blocks in the document, and they will be merged together before parsing and execution. This means that you can start a loop in one block, then switch back to HTML-mode to print a lot of stuff, and then switch back to ejScript-mode to finish the loop:
+The leading `%EJSCRIPT_START%` and matching `%EJSCRIPT_END%` tells the Parser that what is between is inline ejScript. If you want to, you can also have plain HTML outside these tags. Immediately inside these tags, we are in Parser-mode, which basically means we will output everything directly, but also look for Parser-variables, such as `%customer.name%`. When we encounter a `<%`, we switch into ejscript mode, which we keep until we see an `%>`. This is completely analogous to PHP’s `""`. In this mode, we will execute the ejScript, and you use `print()` to output HTML code. Note: you can have many ejScript-blocks in the document, and they will be merged together before parsing and execution. This means that you can start a loop in one block, then switch back to HTML-mode to print a lot of stuff, and then switch back to ejScript-mode to finish the loop:
 
 ![x][img2]
 
@@ -67,7 +67,7 @@ As explained, the processes executed on the server (the black box) in this drawi
 
 The easiest way to create our custom form, and keeping the form-data, is to create one single ejScript which handles both the processing of the form-posted data and also the creation of the HTML result. This way, it is very simple for the script to print out the form with the posted data and an error message if the supplied data was incorrect.
 
-When creating custom pages using these mechanisms, we are really down at the HTML-level. There is no abstraction level of screens and controls, such as when creating custom screens internally in the system. This means that your script needs to print HTML-tags, take care of escaping string, etc. itself.
+When creating custom pages using these mechanisms, we are really down at the HTML-level. There is no abstraction level of screens and controls, such as when creating custom screens internally in the system. This means that your script needs to print HTML-tags, take care of escaping string, and similar itself.
 
 Here is the skeleton of a simple ejScript which will print a form with two input fields and accept the form to be posted back to the script:
 
@@ -87,13 +87,13 @@ First, I will fix missing feature 1, pointing out how we can keep the posted val
 
 ![x][img8]
 
-As you can see, I first have an ejScript section where I get the posted values of the fields by looking up on their names (`name` and `message`). Secondly, inside my HTML I print out their values, calling `.htmlEncode()` on the strings which will return the contents of the string encoded so that it is HTML-compliant (escaping the '&', special characters, quotes, etc). If you try this form, it should correctly keep its values when you post it.
+As you can see, I first have an ejScript section where I get the posted values of the fields by looking up their names (`name` and `message`). Secondly, inside my HTML I print out their values, calling `.htmlEncode()` on the strings which will return the contents of the string encoded so that it is HTML-compliant (escaping the '&', special characters, quotes, and such). If you try this form, it should correctly keep its values when you post it.
 
 The second feature we should now implement is the actual business logic of this form: what should happen when you click the button. First, I will show how to catch the posting and check for validity:
 
 ![x][img9]
 
-The new section has a Bool which is set to true if the form was posted (there is a non-empty cgi-parameter named `ok`), and then we check that both name and message are not empty. If anyone of them are empty, we print out an error message, and let the rest of the form be printed as normal.
+The new section has a Bool which is set to true if the form was posted (there is a non-empty cgi-parameter named `ok`), and then we check that both name and message are not empty. If anyone of them is empty, we print out an error message and let the rest of the form be printed as normal.
 
 Finally, we can implement our business logic. In this case, I will use NetServer to create a default appointment for a given associate in the calendar:
 

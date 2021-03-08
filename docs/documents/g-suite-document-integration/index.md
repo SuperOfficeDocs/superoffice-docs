@@ -34,13 +34,13 @@ The integration consists of four main components:
 * Google G Suite subscription
 * Google G Suite "Service account" with Google Drive
 
-To ensure the security and integrity of the documents stored in Google Drive, SuperOffice will store all documents on a single Google G Suite Account (the service-account and “owner” of the document-archive).
+To ensure the security and integrity of the documents stored in Google Drive, SuperOffice will store all documents on a single Google G Suite Account (the service-account and "owner" of the document-archive).
 
 While not required, SuperOffice recommends that a dedicated Google-account is set up and used for this purpose.
 
 For SuperOffice Online to be able to use Google G Suite for storage, SuperOffice must first be authorized to access data stored in the organization’s Google Drive.
 
-The authorization process will grant rights to an app registered with Google G Suite called “SuperOffice“. This is the SuperOffice Federation Gateway which handles secure communication between Google G Suite, SuperOffice Online and other parties (like SuperOffice Mail Link).
+The authorization process will grant rights to an app registered with Google G Suite called "SuperOffice". This is the SuperOffice Federation Gateway which handles secure communication between Google G Suite, SuperOffice Online and other parties (like SuperOffice Mail Link).
 
 Read the [technical description][7].
 

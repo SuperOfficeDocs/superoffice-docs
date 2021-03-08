@@ -54,7 +54,7 @@ Password for the username used when connecting to the SuperOffice database.
 
 ### dbType
 
-Type of database, e.g. mssql or oracle.
+Type of database, for example mssql or oracle.
 
 ### nsUser
 

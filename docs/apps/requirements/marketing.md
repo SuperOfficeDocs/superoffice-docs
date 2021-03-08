@@ -32,7 +32,7 @@ You must provide a **unique application name** for the App Store listing.
   * special characters \* ~ # % | =
   * slashes \\ /
   * curly and angled brackets { } <>
-  * single or double quotes ‘’ ”
+  * single or double quotes ‘’ "
 * Generic terms must be prefixed, for example with your own company name, or add "for SuperOffice".
 
   * \[Partner Name\] Visual Reports

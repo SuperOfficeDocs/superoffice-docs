@@ -108,7 +108,7 @@ using (PersonAgent pa = new PersonAgent())
     var addressDictionary = personEntity.GetAddress();
 
     // update a field
-    addressDictionary[“City”] = "TimbuckToo";
+    addressDictionary["City"] = "TimbuckToo";
 
     // set the changed person address
     personEntity.SetAddress(addressDictionary);

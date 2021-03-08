@@ -46,9 +46,9 @@ public int CurrentContactBeforeSave()
 
 Probably too little too late but still...
 
-Many of you are using VB Scripting to Validate \- for good or bad. (Does not matter what we say, you will try and find a way).
+Many of you are using VB Scripting to Validate - for good or bad. (Does not matter what we say, you will try and find a way).
 
-Often this validation is very processor heavy. Then things like keyboard input in Name fields start to crawl or worse.
+Often this validation is very processor-heavy. Then things like keyboard input in Name fields start to crawl or worse.
 
 Now you can use the `BeforeSave` events not only for setting fields but also as a singular validation point.
 

@@ -75,9 +75,9 @@ You may also control access to a FAQ folder by adding a small script that is eva
 * company.fax
 * company.adr
 
-In addition, all extra fields for contactperson are available via "customer." plus the name of the extra field eg. "customer.MyExtraField", and similarly for the company: "company.ExtraField". Boolean field has the value "1" when they are true.
+In addition, all extra fields for contactperson are available via "customer." plus the name of the extra field, for example, "customer.MyExtraField", and similarly for the company: "company.ExtraField". Boolean field has the value "1" when they are true.
 
-Example, a boolean field is created on the customer, called `x_access`. When tick, the user will get access:
+For example, a boolean field is created on the customer, called `x_access`. When tick, the user will get access:
 
 ```text
 %IF:customer.x\_access="1"%

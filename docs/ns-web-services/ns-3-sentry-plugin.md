@@ -186,7 +186,7 @@ namespace SentryForCustomTableDll
 }
 ```
 
-As we can see in the above code segment, we have created another class called “SentryPluginQueryTableUpdaterContact” which implement the SuperOffice.CRM.Security.ISentryPluginQueryTableUpdater interface. This interface has a single method called “ModifySelect” where we have implemented the sentry restriction to retrieve only the contact information where the Business-id of which is same as the currently logged in user’s Business-id.
+As we can see in the above code segment, we have created another class called "SentryPluginQueryTableUpdaterContact" which implement the SuperOffice.CRM.Security.ISentryPluginQueryTableUpdater interface. This interface has a single method called "ModifySelect" where we have implemented the sentry restriction to retrieve only the contact information where the Business-id of which is same as the currently logged in user’s Business-id.
 
 TableInfo objects are required for the tables of interest i.e., the Contact table and SuperOfficeTrainingTable. ContactTableInfo is retrieved by casting the TableInfo object passed to the ModifySelect method. Then the restriction is enforced to narrow the data selection to the current user’s business-id. Finally we have specified the join condition so that the custom table is joined in whenever the Contact table is queried upon.
 
@@ -279,11 +279,11 @@ try
 }
 ```
 
-We have first retrieved the TableInfo object for the Contact table. Next a Select object is created to retrieve data. The columns to be included in the selection and the order in which the results to be sorted are specified next. The select command is executed against the Contact table to retrieve the Contact information. This is the point where our plugin come in to the picture i.e., when we attempt to run a query against the Contact table, the NetServer sentry mechanism calls our sentry plugin and the plugin logic gets executed. With the restriction specified in the ModifySelect method of the plugin, any user can retrieve only the contact information where the BusinessId of which is same as the currently logged in user’s BusinessId.
+We have first retrieved the TableInfo object for the Contact table. Next, a Select object is created to retrieve data. The columns to be included in the selection and the order in which the results to be sorted is specified next. The select command is executed against the Contact table to retrieve the Contact information. This is the point where our plugin come into the picture i.e., when we attempt to run a query against the Contact table, the NetServer sentry mechanism calls our sentry plugin and the plugin logic gets executed. With the restriction specified in the ModifySelect method of the plugin, any user can retrieve only the contact information where the BusinessId of which is the same as the currently logged-in user’s BusinessId.
 
-The next step is to convert the retrieved contact data into a format that can be displayed in a data grid. The approach taken in this example is to iterate over the retrieved DataReader and encapsulate those data into a custom object type called “ContactData”. These objects are stored in an ArrayList, which is set as the data source for the contact information data grid.
+The next step is to convert the retrieved contact data into a format that can be displayed in a data grid. The approach taken in this example is to iterate over the retrieved DataReader and encapsulate those data into a custom object type called "ContactData". These objects are stored in an ArrayList, which is set as the data source for the contact information data grid.
 
-The following screenshots show the results of the same query run on the contact table for two users namely “SAL0” and “P”.
+The following screenshots show the results of the same query run on the contact table for two users namely "SAL0" and "P".
 
 ![x][img3]
 

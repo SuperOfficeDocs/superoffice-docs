@@ -17,7 +17,7 @@ so.client: online             # online, web, win, pocket, or mobile
 
 ## Default access permission on documents
 
-Documents created via SuperOffice which are hosted in Google Drive will be given a default-permission that is “accessible to anyone in the Google G Suite" domain.  
+Documents created via SuperOffice which are hosted in Google Drive will be given a default-permission that is "accessible to anyone in the Google G Suite" domain.  
 This default behavior can be changed to "inheritance to folder" by contacting Support.
 
 ## Security-related UI details
@@ -48,7 +48,7 @@ Documents are created in Google Drive by the service-account (owner), but users 
 > [!WARN]
 > Items with any link sharing option can be published on the web, and potentially be a risk that other people can get access to it.
 
-Documents created via SuperOffice which are hosted in Google Drive will be given a default-permission that is “accessible to anyone in the Google G Suite" domain.  
+Documents created via SuperOffice which are hosted in Google Drive will be given a default-permission that is "accessible to anyone in the Google G Suite" domain.  
 If your company and business structure use/cross multiple G Suite domains (ie. companyA.com, companyB.com, companyC.com) - users belonging to other domains than the domain the service-account belongs to, will get a "You need permission" page, by default.
 
 **To add access permission on document archive for cross-domain access:**

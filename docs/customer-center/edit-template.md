@@ -149,11 +149,11 @@ optional
 
 ## How do I sort messages in the Customer Center?
 
-It is not possible to do it on the site. To sort requests on Customer Center, you need to perform the actions directly on SuperOffice database under the CONFIG table.
+It is not possible to do it on the site. To sort requests on Customer Center, you need to perform the actions directly on the SuperOffice database under the CONFIG table.
 
-1. Start the database utility (eg. Microsoft SQL Management Studio).
+1. Start the database utility (for example, Microsoft SQL Management Studio).
 2. Locate the SuperOffice database and CONFIG table.
-3. Under the "Flags" you can add 128 to the number that is already there from before (eg.: 68 +128 = 196).
+3. Under the "Flags" you can add 128 to the number that is already there from before (for example, 68 +128 = 196).
 
 ## How can I update an extra table from the Customer Center?
 
@@ -163,7 +163,7 @@ Writing to extra tables from the Customer center is done by using the parser fun
 
 `%extraTableUpdate("7").id("1").field("y_7.x_1=test").field("y_7.x_2=aValue")%`
 
-This call will update the entry with ID 1 in extratable 7. The field `x_1` will be set to "test", and `x_2` will be set to "aValue".
+This call will update the entry with ID 1 in extra-table 7. The field `x_1` will be set to "test", and `x_2` will be set to "aValue".
 
 ### Example extraTableInsert
 
@@ -175,15 +175,15 @@ To facilitate input from a form it will be appropriate to use a variable startin
 
 The file *subscribe.html* can then handle the writing to the extra table: `%extraTableInsert("1").field("y_1.x_2=" + _email)%`. This will result in adding a new table to extra table 1, where the field `x_2` will be set to the value specified in the form.
 
-## How can I create drop downs on the customer pages where you can choose the category from a hierarchical view?
+## How can I create drop-downs on the customer pages where you can choose the category from a hierarchical view?
 
-Customer Center is default shipped with templates that lists the categories in a single drop down. If you want these to show the categories in a hierarchical manner, you have to make some small changes to the templates.
+Customer Center is default shipped with templates that lists the categories in a single drop-down. If you want these to show the categories in a hierarchical manner, you have to make some small changes to the templates.
 
 In *framework.html* you have to add the following between the `<head>` tags:
 
 `%IF:category.head% %category.head% %ENDIF%`
 
-To use the category drop down, you enter the following into the right templates:
+To use the category drop-down, you enter the following into the right templates:
 
 `%IF:category.body% %category.body% %ENDIF%`
 

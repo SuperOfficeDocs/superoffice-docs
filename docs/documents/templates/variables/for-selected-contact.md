@@ -23,7 +23,7 @@ so.topic: reference               # article, howto, reference, concept, guide
 | acid | Contact’s country code |
 | acit | Postal town. (See also [acsz][1].) |
 | acnt | County (for UK addresses) |
-| acsz | Postal town, state/province and postcode (e.g. Bedford, MA 01730) |
+| acsz | Postal town, state/province and postcode (for example Bedford, MA 01730) |
 | act? | Country (if different from the sender’s country) |
 | actg | Line feed for internal post in Germany |
 | actr | Country |

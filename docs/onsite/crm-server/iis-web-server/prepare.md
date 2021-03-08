@@ -59,7 +59,7 @@ Plus any authentication methods that you wish to use.
 
 ![Allow unspecified CGI modules][img4]
 
-If you do not want to **Allow unspecified CGI modules** it is also possible to use “Add...” to add each CGI file separately. This, however, requires you to make sure any new CGI files from Customer Service is added here.
+If you do not want to **Allow unspecified CGI modules** it is also possible to use "Add..." to add each CGI file separately. This, however, requires you to make sure any new CGI files from Customer Service is added here.
 
 6. Click **Add...**, navigate to the *\[Service installation\]\\www\\scripts* folder and add one by one all .exe files in this folder. For each write some description and tick **Allow extension path** to execute.
 

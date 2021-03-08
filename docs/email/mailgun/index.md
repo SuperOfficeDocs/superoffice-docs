@@ -85,7 +85,7 @@ Mail sent from your customer to your SuperOffice Service:
 * We handle the volumes of sending your emails
 * We handle the email reputation management (?)
 * A prove that you are authorized sender for the domain
-* No more “sent via Mailgun.org” message in your emails.
+* No more "sent via Mailgun.org" message in your emails.
 * Establishing a positive email reputation for your own domain.
 
 ### Cons

@@ -25,7 +25,7 @@ so.topic: reference                # article, howto, reference, concept, guide
 | auci | Postal town. (See also [aucs][1].) |
 | aucn | Country |
 | aucp | The sender's chat address protocol |
-| aucs | Postal town, state/province and zipcode (for American, Canadian and Australian addresses, e.g. Bedford, MA 01730) |
+| aucs | Postal town, state/province and zipcode (for American, Canadian and Australian addresses, for example Bedford, MA 01730) |
 | aucy | County (for UK addresses) |
 | audf | Direct fax number |
 | audp | Direct phone number |

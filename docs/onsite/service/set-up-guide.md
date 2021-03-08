@@ -31,7 +31,7 @@ Default installation of Service does not allow you to install it in a sub applic
 
 SuperOffice Customer Service requires access to an email server to work, using either POP3 or IMAP to retrieve emails, and SMTP to send emails. MAPI can also be used (Exchange), but requires additional licenses. Any email account on Exchange servers can be configured to use POP3/IMAP instead of the standard MAPI protocol.
 
-It is important that the email server allows “relaying”, allowing SuperOffice Service to send emails “outside” the domain. Please be sure that any firewalls must be configured to allow this type of communication.
+It is important that the email server allows "relaying", allowing SuperOffice Service to send emails "outside" the domain. Please be sure that any firewalls must be configured to allow this type of communication.
 
 ### Network location
 
@@ -45,7 +45,7 @@ SuperOffice Service supports only HTTP connection to NetServer. If you are runni
 
 ### Module: SuperOffice Customer Service Customer Centre
 
-To provide the SuperOffice Customer Center on the internet, the server must be reached by external users by HTTP or HTTPS. The firewall must be configured to handle these requests from the “outside” to the SuperOffice Customer Service server.
+To provide the SuperOffice Customer Center on the internet, the server must be reached by external users by HTTP or HTTPS. The firewall must be configured to handle these requests from the "outside" to the SuperOffice Customer Service server.
 
 #### Configuration of firewalls
 
@@ -163,7 +163,7 @@ The path to the cgi-bin folder on the web server when accessed using HTTP. If yo
   
 **HTTP path:**
 
-The full HTTP path to your server, except the cgi-bin part. If you let the installer set up the IIS site and you entered the same under “hostname”, you can use the default value.
+The full HTTP path to your server, except the cgi-bin part. If you let the installer set up the IIS site and you entered the same under "hostname", you can use the default value.
 
 **Available on the Internet:**
 
@@ -171,7 +171,7 @@ Enable this option if your Service Server installation is online on the Internet
 
 **Do  you want to start the ejScheduler service:**
 
-If you start the service, the application will begin to import and send email as soon as you configure it. The service is also used for all background processes, like escalating request, sending alerts and so forth. If you answer “no” here, the service will still be installed and enabled, but not started. That means it will start when you boot the system if you do not disable it. You can go to service management to start the service when you are ready.
+If you start the service, the application will begin to import and send email as soon as you configure it. The service is also used for all background processes, like escalating request, sending alerts and so forth. If you answer "no" here, the service will still be installed and enabled, but not started. That means it will start when you boot the system if you do not disable it. You can go to service management to start the service when you are ready.
 
 #### From 8.4
 

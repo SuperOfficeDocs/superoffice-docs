@@ -86,7 +86,7 @@ Database mirroring is an **option** that can be activated or deactivated for any
 
 You must first register a [custom application][8] and then build the feature in your environment. The NuGet package provided by SuperOffice includes methods to facilitate authentication and mirroring.
 
-The Mirroring Client service obtains access to the database by submitting the **Context Id** of the customer (“cust1234”), which uniquely identifies the customer in the online universe.
+The Mirroring Client service obtains access to the database by submitting the **Context Id** of the customer ("cust1234"), which uniquely identifies the customer in the online universe.
 
 Whoever sets up database mirroring, is responsible if it breaks or stops!If you restore your primary database from backup, you should discard the mirror. **Backup-and-restore cycles during a failed upgrade do not trigger a mirror wipe.**
 

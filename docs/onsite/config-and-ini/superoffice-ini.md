@@ -59,7 +59,7 @@ templatepath= "archivepath"\\TEMPLATE
 ```
 
 > [!NOTE]
-> You can add further archive paths, e.g. `archivepath2`, `archivepath3`, and so on. The same goes for `local_archivepath2`, `local_archivepath3`.
+> You can add further archive paths, for example `archivepath2`, `archivepath3`, and so on. The same goes for `local_archivepath2`, `local_archivepath3`.
 
 ### Using the Datapath Parameter
 

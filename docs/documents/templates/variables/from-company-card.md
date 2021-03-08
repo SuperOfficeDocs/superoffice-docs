@@ -30,12 +30,12 @@ so.topic: reference           # article, howto, reference, concept, guide
 | code | Code |
 | cont | Our contact |
 | cozg | Line feed for internal post in Germany |
-| cozi | Postcode including country prefix (e.g. N-0163 for a postcode in Norway). Prefix is not used for Germany |
+| cozi | Postcode including country prefix (for example N-0163 for a postcode in Norway). Prefix is not used for Germany |
 | cozn | Line feed for Australian and UK treatment of counties and postcodes |
 | cphi | Company's phone number, ID (hidden, unique ID) |
 | cpho | Company’s phone number |
 | cs01-49 | User-defined field 1-49 of the text type |
-| cszc | Postal town, state/province and zipcode (for American, Canadian and Australian addresses, e.g. Bedford, MA 01730) |
+| cszc | Postal town, state/province and zipcode (for American, Canadian and Australian addresses, for example Bedford, MA 01730) |
 | cuid | Company ID (hidden, unique ID) |
 | cwwi | The company's primary web address, ID (hidden, unique ID) |
 | cwww | The company's primary web address |
@@ -60,7 +60,7 @@ so.topic: reference           # article, howto, reference, concept, guide
 | ssta | State/province for street address (for American, Canadian and Australian addresses) |
 | stat | State/province (for American, Canadian and Australian addresses). (See also [cszc][1].) |
 | szip | Postcode for street address (for German addresses) |
-| zici | Postcode and postal town (e.g. 0572 OSLO) |
+| zici | Postcode and postal town (for example 0572 OSLO) |
 | zino | Postcode prefix |
 | zipc | Postcode. (See also [cszc][1].) |
 | zipp | Postcode for street address. |

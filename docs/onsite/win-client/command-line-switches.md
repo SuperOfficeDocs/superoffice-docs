@@ -26,7 +26,7 @@ Command line switches are used to add parameters to Windows applications to run 
 
 `SOCRM.EXE /lang= /inipath= /user= /password= ...`
 
-* /LANG=XX - Default US. Defines the language code (US, NO, SW etc.). Overrides the *SOUSER.INI* setting.
+* /LANG=XX - Default US. Defines the language code (for example, US, NO, or SW). Overrides the *SOUSER.INI* setting.
 * /INIPATH=XXX - Defaults to folder that SOCRM.EXE is located in. Set path to load *SuperOffice.ini* from. See Registry keys section below for MailLink configuration.
 * /USER=XXX - Defaults to blank. Set username. Overrides integrated login.
 * /PASSWORD=XXX - Set password.
@@ -42,8 +42,8 @@ Command line switches are used to add parameters to Windows applications to run 
 
 `SOADMIN.EXE /lang= /inipath= /user= /password= /forcelogin`
 
-* /LANG=XX - Default US. Defines the language code (US, NO, SW etc.). Overrides the *SOUSER.INI* setting.
-* /INIPATH=XXX - Defaults to folder that SOCRM.EXE is located in. Set path to load *SuperOffice.ini* from.
+* /LANG=XX - Default US. Defines the language code. Overrides the *SOUSER.INI* setting.
+* /INIPATH=XXX - Defaults to the folder that SOCRM.EXE is located in. Set path to load *SuperOffice.ini* from.
 * /USER=XXX - Defaults to blank. Set username. Overrides integrated login.
 * /PASSWORD=XXX - Set password.
 * Together with the USER switch this allows you to create an insecure shortcut that automatically logs in to SuperOffice.
@@ -52,10 +52,10 @@ Command line switches are used to add parameters to Windows applications to run 
 ## SOEventServer.EXE
 
 * /RegServer - Registers server on multi-user systems and on Terminal Server
-* /RegService - Registers server on single user systems
+* /RegService - Registers server on single-user systems
 * /Service - same as /RegService
 * /UnregServer - removes registration info from registry
-* verbose=1 - Verbose. Gives a confirmation of the registration
+* verbose=1 - Verbose. Confirms the registration
 * log=file - Log information to the given filename
 * lock=1 - Prevents service from unloading when SuperOffice exists
 

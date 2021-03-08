@@ -34,8 +34,8 @@ Before introducing OAuth 2.0, our web services used SuperOffice legacy federated
 2. Receive the **authentication token** when the sign-in page redirects the user back to your application. The HTTP response contains a form in the body:
 
     ```csharp
-    <form action=”redirecturl” method=”post”>
-       <input type=”hidden” name=”key” value=”<value>” />
+    <form action="redirecturl" method="post">
+       <input type="hidden" name="key" value="<value>" />
     </form>
     ```
 

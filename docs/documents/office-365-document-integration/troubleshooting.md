@@ -39,7 +39,7 @@ A virtual site or sub-site will typically have an address of URL: `https://[you
 * The SuperOffice Archive needs to be a **Document library**, and located on the root area:
   * At the root of your SharePoint site, click **New** and choose **Document library**.
 
-The address of “Archive Path URL" will most likely be: `https://[your domain-name].sharepoint.com/SuperOffice_Archive/` (we will use the relative path to root `/SuperOffice_Archive/` for our setup)
+The address of "Archive Path URL" will most likely be: `https://[your domain-name].sharepoint.com/SuperOffice_Archive/` (we will use the relative path to root `/SuperOffice_Archive/` for our setup)
 
 A virtual site or subsite for the archive folder will typically have an address of URL: `https://[your domain-name].sharepoint.com/sites/superoffice/SuperOffice_Archive/` **(not supported)**
 

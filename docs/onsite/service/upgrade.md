@@ -82,7 +82,7 @@ When using FastCGI, the webserver does not need to start a new process for each 
 
 There is an additional benefit to using another extension than .exe and that is that Customer Service links in emails, also e-marketing emails, will not be viewed as a potential threat by spam detection filters the same way a .exe file extension URL would.
 
-**The upgrade.exe process will ask if you want to set up FastCGI.** If you choose to do so it will try to configure your IIS site as this can be tedious to do manually as it involves mapping each .exe file to an empty place holder .fcgi file in IIS FastCGI setup. This is done on the IIS site/application level and it's preferable to let upgrade.exe set this up automatically and later change timeout settings etc. if one wishes from the IIS manager FastCGI settings section.
+**The upgrade.exe process will ask if you want to set up FastCGI.** If you choose to do so it will try to configure your IIS site as this can be tedious to do manually as it involves mapping each .exe file to an empty place holder .fcgi file in IIS FastCGI setup. This is done on the IIS site/application level and it's preferable to let upgrade.exe set this up automatically and later change timeout settings, and so on. if one wishes from the IIS manager FastCGI settings section.
 
 After configuring FastCGI, Customer Service will generate URLs that end in .fcgi instead of .exe but the .exe file ending will also work. If you decide you do not want to use FastCGI after all, you can just change a setting in the Registry table in the database. Then the .exe links will be generated instead of .fcgi and everything will work as before.
 
@@ -90,7 +90,7 @@ After configuring FastCGI, Customer Service will generate URLs that end in .fcgi
 
 Upgrade.exe will want to remap attachment files to sub-folders and this might take some time if you have many and/or large files. You can choose to skip this step and run upgrade.exe later if you are not prepared to keep your site down until all your attachment files are moved into place.
 
-The attachment folder can potentially have hundreds of thousands of files, which might make it inefficient and difficult to browse manually with a file manager, and we will now store them in sub directories with a maximum of 10.000 files in each. Which folder each file is allocated to depends on the file ID number, the first 10.000 numbers goes into the first folder and so on. This means that there may be less than 10.000 files in any attachment sub-folder, if some of the IDs are not in use or if an attachment was deleted. You can opt to delay moving the attachments if you expect it to take a lot of time, so you can unfreeze your Customer Service site quicker. Run upgrade.exe later to complete this process.
+The attachment folder can potentially have hundreds of thousands of files, which might make it inefficient and difficult to browse manually with a file manager, and we will now store them in sub-directories with a maximum of 10.000 files in each. Which folder each file is allocated to depends on the file ID number, the first 10.000 numbers go into the first folder, and so on. This means that there may be less than 10.000 files in any attachment sub-folder if some of the IDs are not in use or if an attachment was deleted. You can opt to delay moving the attachments if you expect it to take a lot of time, so you can unfreeze your Customer Service site quicker. Run upgrade.exe later to complete this process.
 
 <!-- Referenced links -->
 [1]: ../crm-server/upgrade-to-8.md

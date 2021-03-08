@@ -198,24 +198,17 @@ namespace DevNet.Util
 
         ///
 
-        /// Gets a UDFInfo structure with all of the objects necessary to conduct one
-
-        /// or more UDF lookups.
+        /// Gets a UDFInfo structure with all of the objects necessary to conduct one or more UDF lookups.
 
         /// Calling this prior to GetUdfField is favorable towards performance.
 
         ///
 
-        ///The main entity table that contains the user-
+        ///The main entity table that contains the user-defined field. For example, Appointment or Contact
 
-        /// defined field. E.g. Appointment, Contact, etc.
+        ///The name of the user-defined field.
 
-        ///The name of the user-defined 
-        ///field.
-
-        ///UDFInfo struct, which contains all information about the user-
-
-        /// defined field, and parent tables.
+        ///UDFInfo struct, which contains all information about the user-defined field, and parent tables.
 
         ///
 
@@ -273,19 +266,15 @@ namespace DevNet.Util
 
         ///
 
-        ///The main entity table that contains the user-
-        ///defined
+        ///The main entity table that contains the user-defined
 
-        /// field. E.g. Appointment, Contact, etc.
+        /// field. For example,  Appointment or Contact
 
-        ///The row, or record, identity of the 
-        ///entity.
+        ///The row, or record, identity of the entity.
 
-        ///The name of the user-defined 
-        ///field.
+        ///The name of the user-defined field.
 
-        ///UDFInfo struct, which contains all information about the user-
-        ///defined
+        ///UDFInfo struct, which contains all information about the user-defined
 
         /// field, and parent tables.
 
@@ -351,33 +340,19 @@ namespace DevNet.Util
 
         ///
 
-        ///The main entity table that contains the user-
-        ///defined
+        ///The main entity table that contains the user-defined field. For example,  Appointment or Contact
 
-        /// field. E.g. Appointment, Contact, etc.
+        ///The row, or record, identity of the entity.
 
-        ///The row, or record, identity of the 
-        ///entity.
+        ///The name of the user-defined field.
 
-        ///The name of the user-defined 
-        ///field.
+        ///When Type of a user-defined field is Drop Down List, this argument should match the List name.
 
-        ///When Type of a user-defined field is Drop 
-        ///Down List, this
-
-        /// argument should match the List name.
-
-        ///UDFInfo struct, which contains all information about the user-
-        ///defined field,
-
-        /// and parent tables.
+        ///UDFInfo struct, which contains all information about the user-defined field, and parent tables.
 
         ///
 
-        ///When user attempt to 
-        ///query for list
-
-        /// item, but field name refers to non-list user-defined field.
+        ///When user attempt to query for list item, but field name refers to non-list user-defined field.
 
         publicUDFInfo GetUDFInfo(SuperOffice.HDB.Util.EUDefType entityTable, 
                  int entityId, string udFieldName, ListItemSource listSource)
@@ -400,37 +375,25 @@ namespace DevNet.Util
 
         /// to get the FieldInfo objects needed to complete the query:
 
-        /// GetUDFInfo(SuperOffice.HDB.Util.EUDefType entityTable, string 
-        ///udFieldName).
+        /// GetUDFInfo(SuperOffice.HDB.Util.EUDefType entityTable, string udFieldName).
 
-        /// (To populate the entity and UDF FieldInfo objects in the returned UDFInfo 
-        ///struct.
+        /// (To populate the entity and UDF FieldInfo objects in the returned UDFInfo struct.
 
-        ///
+        ///The row, or record, identity of the entity.
 
-        ///The row, or record, identity of the 
-        ///entity.
+        ///The name of the user-defined field, as defined in the Admin
 
-        ///The name of the user-defined field, as 
-        ///defined in the Admin
+        /// application. This argument only exists as to be copied into the returned UDInfo struct.
 
-        /// application. This argument only exists as to be copied into the returned 
-        ///UDInfo struct.
-
-        ///FieldInfo object that is udField in the entity 
-        ///table, eg.
+        ///FieldInfo object that is udField in the entity table
 
         /// userdef_id in ContactTableInfo.
 
-        ///FieldInfo object that is the column in the user-
-        ///defined table
+        ///FieldInfo object that is the column in the user-defined table
 
-        /// (e.g. long05, string05, etc).
+        /// (for example long05, string05).
 
-        ///UDFInfo struct, which contains all information about the user-
-        ///defined field,
-
-        /// and parent tables.
+        ///UDFInfo struct, which contains all information about the user-defined field, and parent tables.
 
         publicUDFInfo GetUDFInfo(int entityId, string udFieldName,
             FieldInfo entityField, FieldInfo udField)
@@ -491,44 +454,31 @@ namespace DevNet.Util
 
         /// to get the FieldInfo objects needed to complete the query:
 
-        /// GetUDFInfo(SuperOffice.HDB.Util.EUDefType entityTable, string 
-        ///udFieldName).
+        /// GetUDFInfo(SuperOffice.HDB.Util.EUDefType entityTable, string udFieldName).
 
-        /// (To populate the entity and UDF FieldInfo objects in the returned UDFInfo 
-        ///struct.
+        /// (To populate the entity and UDF FieldInfo objects in the returned UDFInfo struct.
 
         ///
 
-        ///The row, or record, identity of the 
-        ///entity.
+        ///The row, or record, identity of the entity.
 
-        ///The name of the user-defined field, as 
-        ///defined in the Admin
+        ///The name of the user-defined field, as defined in the Admin
 
         /// application.
 
-        /// This argument only exists as to be copied into the returned UDInfo 
-        ///struct.
+        /// This argument only exists as to be copied into the returned UDInfo struct.
 
-        ///FieldInfo object that is udField in the entity 
-        ///table, eg.
+        ///FieldInfo object that is udField in the entity table
 
         /// userdef_id in ContactTableInfo.
 
-        ///FieldInfo object that is the column in the user-
-        ///defined table
+        ///FieldInfo object that is the column in the user-defined table
 
-        /// (e.g. long05, string05, etc).
+        /// (for example long05, string05).
 
-        ///When Type of a user-defined field is Drop 
-        ///Down List, this
+        ///When Type of a user-defined field is Drop Down List, this argument should match the List name.
 
-        /// argument should match the List name.
-
-        ///UDFInfo struct, which contains all information about the user-
-        ///defined field,
-
-        /// and parent tables.
+        ///UDFInfo struct, which contains all information about the user-defined field, and parent tables.
 
         publicUDFInfo GetUDFInfo(int entityId, string udFieldName,
             FieldInfo entityField, FieldInfo udField, ListItemSource listSource)
@@ -721,12 +671,12 @@ namespace DevNet.Util
 
         /// user-defined field.
 
-        ///The user-defined FieldInfo object (e.g. 
+        ///The user-defined FieldInfo object (for example 
         ///UDContactSmall.long05,
 
         /// string05).
 
-        ///The entirt user-defined FieldInfo object (e.g.
+        ///The entirt user-defined FieldInfo object (for example
 
         /// Contact.userdef_id, Contact.userdef_id2).
 
@@ -782,26 +732,20 @@ namespace DevNet.Util
 
         ///
 
-        ///Can be any type, e.g. string, int, 
-        ///double.
+        ///Can be any type, for example string, int, double.
 
-        ///The db entity (Appointment, Contact, Person, 
-        ///etc) that links in the user-defined field.
+        ///The db entity (Appointment, Contact, Person) that links in the user-defined field.
 
-        ///Then user-defined field label, or name, 
-        ///specified in the admin application.
+        ///Then user-defined field label, or name,  specified in the admin application.
 
         ///The value of the user-defined field to search 
         ///for
 
-        ///An integer array of entity IDs that contain the user-defined field of
-        ///the specified value.
+        ///An integer array of entity IDs that contain the user-defined field of the specified value.
 
-        ///Thrown when one of the 
-        ///arguments are null.
+        ///Thrown when one of the arguments are null.
 
-        ///Thrown when a user-
-        ///defined field is not found, e.g. udFieldName
+        ///Thrown when a user-defined field is not found, for example udFieldName
 
         /// can not be found in the database.
 
@@ -896,19 +840,14 @@ namespace DevNet.Util
 
         ///
 
-        ///Can be any type, e.g. string, int, double, or an 
-        ///array of
+        ///Can be any type, for example string, int, double, or an 
+        ///array of types that match the operation.
 
-        /// types that match the operation.
+        ///The db entity (Appointment, Contact, Person, that links in the user-defined field.
 
-        ///The db entity (Appointment, Contact, Person, 
-        ///etc) that links in the user-defined field.
+        ///Then user-defined field label, or name, specified in the admin application.
 
-        ///Then user-defined field label, or name, 
-        ///specified in the admin application.
-
-        ///The value of the user-defined field to search 
-        ///for.
+        ///The value of the user-defined field to search for.
 
         ///The type of search operation to 
         ///perform.
@@ -921,7 +860,7 @@ namespace DevNet.Util
         ///argumentsare null.
 
         ///Thrown when a user-
-        ///defined field is not found, e.g. udFieldName
+        ///defined field is not found, for example udFieldName
 
         /// can not be found in the database.
 
@@ -1235,17 +1174,13 @@ namespace DevNet.Util
         ///FieldInfo object that is the column in the user-
         ///defined table
 
-        /// (e.g. long05, string05, etc).
+        /// (for example long05, string05).
 
         ///FieldInfo object that is udField in the entity 
-        ///table, eg.
-
-        /// userdef_id in ContactTableInfo.
+        ///table, for example, userdef_id in ContactTableInfo.
 
         ///Two element Object array. One element for the user-defined field 
-        ///value,
-
-        /// and one element for the udf row id.
+        ///value, and one element for the udf row id.
 
         publicobject GetUDFData(int entityIdentity, FieldInfo udField,
                            FieldInfo entityField)
@@ -1326,13 +1261,13 @@ namespace DevNet.Util
         ///The table number that corresponds to one of the 
         ///user-defined
 
-        /// entity tables, e.g. 35 (UDContactSmall)
+        /// entity tables, for example 35 (UDContactSmall)
 
         ///The column number that is the field index (offset)
         ///in the user-defined entity table.
 
         ///FieldInfo object that becomes the entity field,
-        ///  e.g.userdef_id or userdef2_id.
+        ///  for exampleuserdef_id or userdef2_id.
 
         ///FieldInfo object that is the user-defined field index in the user-
         ///defined entity table, e.g long01 or string05.
@@ -2258,7 +2193,7 @@ namespace DevNet.Util
 
         ///
 
-        /// Inserts a new record into a SuperOffice UD Table, e.g. UDContactSmall, 
+        /// Inserts a new record into a SuperOffice UD Table, for example UDContactSmall, 
         ///then updates the entity record udef field
 
         /// with the UDF record identity.
@@ -2622,7 +2557,7 @@ namespace DevNet.Util
         {
 
             ///Between expects searchValue to be an array of exactly two 
-            ///operandsto user as thresholds, e.g. a min and max.
+            ///operandsto user as thresholds, for example a min and max.
 
             Between,
 
@@ -2666,7 +2601,7 @@ namespace DevNet.Util
 
             ///NotBetween expects searchValue to be an array of exactly
 
-            /// two operands to user as thresholds, e.g. a min and max.
+            /// two operands to user as thresholds, for example a min and max.
 
             NotBetween,
 
@@ -2720,7 +2655,7 @@ namespace DevNet.Util
 
         ///
 
-        /// FieldInfo object of user-defined field (long05, string05, double05, etc.)
+        /// FieldInfo object of user-defined field (long05, string05, double05)
 
         ///
 

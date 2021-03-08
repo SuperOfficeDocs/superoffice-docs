@@ -15,9 +15,9 @@ so.topic:                       # article, howto, reference, concept, guide
 
 # CustomPath
 
-The first step when customizing the web client is to add your own custom path to the web applications configuration file. The custom path is added to the `ClientConfigurationProvider` section of the Web.config and must start with the text "CustomPath".  Multiple entries are allowed but the key must be unique.
+The first step when customizing the web client is to add your own custom path to the web applications configuration file. The custom path is added to the `ClientConfigurationProvider` section of the *web.config* and must start with the text "CustomPath".  Multiple entries are allowed but the key must be unique.
 
-You should never add your own config files in the standard configuration path. Always use your own custom path. You should also separate your own custom paths from other modifications as well.
+You should never add your own config files to the standard configuration path. Always use your own custom path. You should also separate your own custom paths from other modifications as well.
 
 Add the custom path and turn off caching. While developing you should always turn off caching.
 
@@ -42,7 +42,7 @@ The following example is based on a standard installation of the web client:
 
 Alter System configuration files
 
-Next I'll present how to alter the system configuration files. The configuration files considered "system files" are:
+Next, I'll present how to alter the system configuration files. The configuration files considered "system files" are:
 
 * SoApplicationConfiguration
 * SoObjectMapping
@@ -70,7 +70,7 @@ Adding a new page to the web application requires a new entry in the `Applicatio
 
 We recommend you make this change only by creating and including a merge file.  There is no need to copy and override the default configuration file.
 
-Do this by creating a new file names MyApplicationConfiguration.merge and place it in your custom path, e.g. *C:\\MyPath\\MyFiles1\\WebClient\\Web\\**CustomSeven**\\*. The content should look like this:
+Do this by creating a new file names MyApplicationConfiguration.merge and place it in your custom path, for example *C:\\MyPath\\MyFiles1\\WebClient\\Web\\**CustomSeven**\\*. The content should look like this:
 
 ```xml
 <applicationsettings defaultprefsection="SuperMode">

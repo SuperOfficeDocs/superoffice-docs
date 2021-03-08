@@ -28,7 +28,7 @@ This is a technical blog post written by one of the developers to describe the i
 
 ## The solution
 
-If MailLink “borrows” NetServer from the Windows client installation instead of shipping its own the whole compatibility problem goes away. Having the Windows client installed is a prerequisite anyway so it’s not like we’re imposing any new demands.
+If MailLink "borrows" NetServer from the Windows client installation instead of shipping its own the whole compatibility problem goes away. Having the Windows client installed is a prerequisite anyway so it’s not like we’re imposing any new demands.
 
 MailLink component overview prior to 8.3:
 
@@ -38,13 +38,13 @@ MailLink component overview from 8.3:
 
 ![x][img2]
 
-Basically, whatever client we work against (Web or Windows), that client should be the one who “owns” NetServer and _thus the database schema._ This way there’s no overlap or redundancy in components or responsibilities. MailLink doesn’t bring along its own NetServer and avoids causing compatibility issues.
+Basically, whatever client we work against (Web or Windows), that client should be the one who "owns" NetServer and _thus the database schema._ This way there’s no overlap or redundancy in components or responsibilities. MailLink doesn’t bring along its own NetServer and avoids causing compatibility issues.
 
 ## The consequences for MailLink
 
 Because it doesn’t ship its own NetServer fewer files should be copied to the MailLink installation folder.
 
-The Windows client installer will also install *one* extra file into the client folder: SuperOffice.MailLink.WinClient.dll. **This file must be present for this new MailLink to enable “Windows mode”** (which means it will not work with older versions of the Windows client). If this file is not found, only web support is available.
+The Windows client installer will also install *one* extra file into the client folder: SuperOffice.MailLink.WinClient.dll. **This file must be present for this new MailLink to enable "Windows mode"** (which means it will not work with older versions of the Windows client). If this file is not found, only web support is available.
 
 ## The consequences for WebTools
 
@@ -61,13 +61,13 @@ Having WebTools shipped without NetServer causes quite a chain of events:
 
 * SuperOffice Windows users are advised to stay on the same version of MailLink as shipped with the SuperOffice Windows installer (MailLink with NetServer). This applies also to Windows / Web client mixed environments. If they upgrade MailLink to the one without NetServer, Windows client support will be disabled.
 
-* Pure SuperOffice Web 8.1 and 8.2 up to R04 environments. Normally they will be offered to download WebTools from the 8.1/8.2 release channel from the Download Service. If any are published, updates will also be provided from this channel. But let’s say there is a problem/bug which is fixed in 8.3 release.<br>The customer can then install the latest WebTools (without NetServer) through manual download from the Download Service.<br>When this is done a few things changes:
+* Pure SuperOffice Web 8.1 and 8.2 up to R04 environments. Normally they will be offered to download WebTools from the 8.1/8.2 release channel from the Download Service. If any are published, updates will also be provided from this channel. But let’s say there is a problem/bug which is fixed in the 8.3 release.<br>The customer can then install the latest WebTools (without NetServer) through manual download from the Download Service.<br>When this is done a few things changes:
 
   * Windows support will no longer be available (which is not an issue for pure Web users).
   * The Download Service will NOT say this is an incompatible version for SuperOffice 8.1/8.2.
   * The Download Service will now offer updates from the new WebTools 8.3 release channel.
 
-### SuperOffice 8.2 R06 (8.2.6689) and into the future (which includes 8.3, 8.4, etc)
+### SuperOffice 8.2 R06 (8.2.6689) and into the future (which includes 8.3-)
 
 * SuperOffice Windows users can install the latest WebTools from the Download Service without worrying about compatibility.  
 * Both Windows and Web installations use a new build of WebTools which ships **without** NetServer.

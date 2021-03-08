@@ -21,7 +21,7 @@ You can enable the debugging in a SuperOffice application which configures Web i
 
 ## From the Start menu
 
-To do it click on the Start button and type in “Product Configuration” and click on the one that has the name of the program you want to troubleshoot.
+To do it click on the Start button and type in "Product Configuration" and click on the one that has the name of the program you want to troubleshoot.
 
 There are multiple ways how [SuperOffice can be deployed][1]. If SuperOffice Web and NetServer are installed separately, or if your company’s SuperOffice installation has more than one NetServer, make sure you start the  Product configuration which has the name of the component you want to troubleshoot.
 
@@ -36,7 +36,7 @@ When you have the Product configuration application open:
 
 1. Click on **Diagnostics (1)** section. In the field (2) you can define a path where the log file should be saved. Then add a tick next to the **Display Advanced Settings (3)**, which will let you specify how much details you want in the debugging log file.
 
-![image0sx5s.png][img1]
+    ![image0sx5s.png][img1]
 
 2. Click **Next** to go through the whole configuration wizard and click **Finish**. Once you finish the wizard, Report configuration product wizard will start automatically. You can close it if you don’t want to debug reports. Then the log file will be created and errors will start to be logged.
 
@@ -51,13 +51,13 @@ In a case where you want to troubleshoot email sending or receiving\* via the Ne
 
 \* SuperOffice Inbox and SuperOffice mobile app - Pocket CRM use NetServer service to send emails.
 
-## How do I find location of Web/NetServer log file without kicking out SuperOffice users from the session?
+## How do I find the location of Web/NetServer log file without kicking out SuperOffice users from the session?
 
 If you know that the debugging has been enabled and you just want to find a location of the file without making all users log out from the session, you can do it directly in config file. Find a *.config* file of the component you are debugging and in the `<Diagnostics>` section `<add key="LogFolder" value="C:\Log">` will store the path to the log file.
 
 ## How do I enabling debugging directly in the config files?
 
-You can set the same logging parameters directly in the Web.config in `<Diagnostics>` section.
+You can set the same logging parameters directly in the *web.config* in `<Diagnostics>` section.
 
 More about Netserver Diagnostics below.
 
@@ -102,7 +102,7 @@ Only permit this option while debugging a bug. This will be a severe performance
 <!-- Log to a LogFile (default 'False') -->
 <add key="LogToFile" value="True">
 </add>
-<!-- Folder (e.g. UNC path) where the log file is to reside. Note that the owner of the process needs to have access to manipulate files in this folder -->
+<!-- Folder (for example UNC path) where the log file is to reside. Note that the owner of the process needs to have access to manipulate files in this folder -->
 <add key="LogFolder" value="C:\Log">
 </add>
 </Diagnostics>
@@ -114,7 +114,7 @@ When you use SuperOffice Win the Scaffolding option is not in SuperOffice.config
 <add key="EnableScaffolding" value="true" />
 ```
 
-See also [Diagnostics][2] section of the Web.config page.
+See also [Diagnostics][2] section of the *web.config* page.
 
 [!include[ALT](../includes/turn-off-logging.md)]
 
