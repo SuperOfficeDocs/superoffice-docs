@@ -34,13 +34,13 @@ We recommend using the same NetServer for both CRM Web and Service for a more l
 
 1. Upon launching [the installer][3], you might be prompted to install some prerequisites, install these by clicking the **Install** button.
 
-2. In order to start the installation you need to accept the license agreement.
+2. To start the installation you need to accept the license agreement.
 
 3. Specify the SuperOffice 8 Web Application name and select the destination folder where you want to install it. If you chose to split the installation into one SuperOffice Web and one SuperOffice NetServer installation it is recommended to chose a name that correlates to the type of installation.Please note our [recommended scenario (#2)][4] does not require you to split web and NetServer web services.
 
 4. Select the first option if you want to install both SuperOffice Web and SuperOffice NetServer on the same application. Select the second setup type if you want to split SuperOffice Web and SuperOffice NetServer into two separate installations, either because you want to install them on different servers or just want to split the application.
 
-5. In the next dialog select the website and/or virtual directory for your installation and specify a name for the new virtual directory, leave the default **SuperOffice** or if you want to install SuperOffice Web or SuperOffice NetServer (web services) on the root level of a web site you can leave the virtual directory name blank (only recommended if you have good knowledge of IIS works).
+5. In the next dialog select the website and/or virtual directory for your installation and specify a name for the new virtual directory, leave the default **SuperOffice** or if you want to install SuperOffice Web or SuperOffice NetServer (web services) on the root level of a website you can leave the virtual directory name blank (only recommended if you have good knowledge of IIS works).
 6. Note: If the dropdown under select website is blank, you need to turn on the Windows feature "IIS 6 Management Compatibility and IIS 6 Management Console" under **Turn Windows features on or off**.
 
 7. Click **Install** to begin the installation process.
@@ -59,7 +59,7 @@ We recommend using the same NetServer for both CRM Web and Service for a more l
 
 14. In the **Globalization** section, choose your country in the **Application country code** if it exists. If not, choose English.
 
-15. Click **Next** on the following sections until you get to the **Finish** button. Click it to create the configuration file. Choose **Encrypt configuration** to encrypt the system user name and password in the web.config file. Click **Finish**.
+15. Click **Next** on the following sections until you get to the **Finish** button. Click it to create the configuration file. Choose **Encrypt configuration** to encrypt the system user name and password in the *web.config* file. Click **Finish**.
 
 16. SuperOffice product configuration for Reporter is opened. Click **Next** on the welcome screen.
 

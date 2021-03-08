@@ -44,8 +44,8 @@ so.topic: reference           # article, howto, reference, concept, guide
 | faxi | Fax number, ID (hidden, unique ID) |
 | faxn | Fax number. The contact’s direct number, if available. Otherwise the company’s fax number |
 | faxs | Fax number. The contact’s direct number, if available. Otherwise the company’s fax number. Without spaces |
-| maii | The company's primary e-mail address, ID (hidden, unique ID) |
-| mail | The company’s primary e-mail address |
+| maii | The company's primary email address, ID (hidden, unique ID) |
+| mail | The company’s primary email address |
 | name | The company’s name |
 | numb | Number |
 | orgn | The company’s organisation number |

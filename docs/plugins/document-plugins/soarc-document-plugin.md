@@ -49,7 +49,7 @@ Create a new class library solution and name it in accordance with the SuperOffi
 
 ![x][img3]
 
-Since this assembly is being consumed in a COM environment, it will need to be visible in that COM environment. In order to make this happen, a few things first need to be set. This includes making the class COM Visible, assigning the class a GUID value, as well as setting the class interface type. Using VB.NET in VS 2005, this is all done for you if you creating a COMClass library when first creating the solution. However, in C#, this is accomplished by decorating the class declaration with the appropriate attributes. As seen below, these include: COMVisible, GUID, and ClassInterface. Optionally, you can also set these values in the project properties>AssemblyInformation window.
+Since this assembly is being consumed in a COM environment, it will need to be visible in that COM environment. To make this happen, a few things first need to be set. This includes making the class COM Visible, assigning the class a GUID value, as well as setting the class interface type. Using VB.NET in VS 2005, this is all done for you if you creating a COMClass library when first creating the solution. However, in C#, this is accomplished by decorating the class declaration with the appropriate attributes. As seen below, these include: COMVisible, GUID, and ClassInterface. Optionally, you can also set these values in the project properties>AssemblyInformation window.
 
 ![x][img4]
 

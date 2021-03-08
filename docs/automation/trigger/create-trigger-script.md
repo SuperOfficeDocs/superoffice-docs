@@ -28,7 +28,7 @@ Let’s create a trigger that will stop the user from saving a company unless th
 
 1. Click the **New trigger (script)** in the trigger pane. In the search box, type **Before saving company** and click the trigger.
 
-2. The **Description** field should contain a short description of what your trigger is doing, in this case I’ll write **Validate OrgNr**.
+2. The **Description** field should contain a short description of what your trigger is doing, in this case, I’ll write **Validate OrgNr**.
     * If you want this trigger to be enabled, remember to click the toggle box on the right side.
 
 3. In the textbox below, we can write whatever we want, although if you insert code that is not supported by CRMScript, it will give you an error message when clicking the **OK** button.
@@ -67,7 +67,7 @@ My preferred way of finding out which fields I’ve got access to is by using th
 
     Now you’ve activated tracing on the script that you’ve just created, and this enables you to go through the script step-by-step to see which variables you’ve got access to. For easy access, keep this tab open for now.
 
-4. In Sales (in a new tab), go to a company card, click **Edit** and then click **Save** so that the trigger will run the script.
+4. In Sales (in a new tab), go to a company card, click **Edit**, and then click **Save** so that the trigger will run the script.
 
 5. Go back to the tab where you have the trace, and click **Refresh**. You should be able to find a new row in the trace of the trigger you’ve just created, click the row.
 

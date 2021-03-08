@@ -24,11 +24,11 @@ so.client: pocket         # online, web, win, pocket, or mobile
 
 ## Enable logging
 
-Enable [logging][1] in the web.config file like for CRM Web under SuperOffice>Diagnostics>LogToFile
+Enable [logging][1] in the *web.config* file like for CRM Web under SuperOffice>Diagnostics>LogToFile
 
-## Netserver configuration - GSM formatted phone numbers
+## NetServer configuration - GSM formatted phone numbers
 
-When initiating phone calls from Pocket CRM it is important that the numbers are formatted in a way that the phone can use. SuperOffice NetServer has the functionality to return all phone numbers from the SuperOffice database in a clean formatted way, without spaces, commas and including country prefix, like this: +4712345678. To enable this feature in NetServer make sure that Web.config contains this element:
+When initiating phone calls from Pocket CRM it is important that the numbers are formatted in a way that the phone can use. SuperOffice NetServer has the functionality to return all phone numbers from the SuperOffice database in a clean formatted way, without spaces, commas, and including country prefix, like this: +4712345678. To enable this feature in NetServer make sure that *web.config* contains this element:
 
 ```xml
 <add key="AllwaysUseGsmPhoneStyle" value="True" />
@@ -50,9 +50,9 @@ See the admin [help file][2] for adding list items.
 
 ## Data caching
 
-Pocket saves data that is accessed in a local SQLite database. This is for all data that is shown in the Pocket application, with the exception of documents.
+Pocket saves data that is accessed in a local SQLite database. This is for all data that is shown in the Pocket application, except documents.
 
-Data that the user does not have access to is not saved. The data is initially saved forever, but is periodically updated when accessed again.
+Data that the user does not have access to is not saved. The data is initially saved forever but is periodically updated when accessed again.
 
 All local data is erased if Pocket is reconfigured to a new installation, or if a new user logs in.
 
@@ -63,15 +63,15 @@ Both iOS and Android have default support for encrypting all content if a pin co
 
 ## Expose NetServer to Internet
 
-In order to connect Pocket CRM to NetServer's web services, NetServer needs to be accessible from internet. If you have a [setup with remote NetServer on internal network and SuperOffice Web in DMZ][5], that means only Web server part is available on internet.
+To connect Pocket CRM to NetServer's web services, NetServer needs to be accessible from the internet. If you have a [setup with remote NetServer on internal network and SuperOffice Web in DMZ][5], that means only Web server part is available on the internet.
 
-A solution is to use [Reverse proxy][7] to make also NetServer available on Internet.
+A solution is to use [Reverse proxy][7] to make also NetServer available on the internet.
 
-Installing second NetServer in DMZ and connecting it via web services to the remote NetServer on internal LAN is not supported. The NetServer in DMZ will demand direct access to so\_arc and Pocket CRM using this setup will fail to save pictures and documents.
+Installing a second NetServer in DMZ and connecting it via web services to the remote NetServer on internal LAN is not supported. The NetServer in DMZ will demand direct access to so\_arc and Pocket CRM using this setup will fail to save pictures and documents.
 
 ## Custom Pocket configuration URL
 
-If you want to change the default Pocket CRM configuration URL, you can do so by setting a configuration value of SuperOffice Web in the Web.config.
+If you want to change the default Pocket CRM configuration URL, you can do so by setting a configuration value of SuperOffice Web in the *web.config* file.
 
 The key name is PocketCrmServiceUrl and the value is the new URL for Pocket connection. You'll find this in the `<SoFormsAuthentication> - <Pages>` section.
 
@@ -86,7 +86,7 @@ Example:
 
 * `{pccu}` variable always points to *\<CRM.web installation>\\PocketConfiguration.aspx* and is not configurable.
     The reason this is not a direct configuration link for the Pocket client (soprotocol scheme), is that a lot of users experienced problems on Android, where mail clients did not handle the custom protocol link correctly
-    The custom protocol redirect/configuration url that PocketConfiguration.aspx uses, is attempted retrieved from CRM.web installation web.config.
+    The custom protocol redirect/configuration URL that PocketConfiguration.aspx uses, is attempted retrieved from CRM.web installation *web.config*.
 
 * `{pcvu}` variable is used as the display name for the Pocket configuration URL.
 

@@ -48,7 +48,7 @@ The value name fo the new string is ProtocolLogFile and value is the full path t
 
 ## Change the default timeout value - NetworkTimeoutPeriod
 
-The timeout value is from when a message is sent and until we expect a response. By default this is set to 1000 milliseconds, meaning 1 second. If however you have a slow connection, this may not be enough and you may experience that Web tools looses connection. You may change the default timeout period by adding a DWORD (32bit) value with a different value. Note that the value here is in milliseconds, so adding 5000 will change the default timeout value from 1 second to 5 seconds.
+The timeout value is from when a message is sent and until we expect a response. By default this is set to 1000 milliseconds, meaning 1 second. If however, you have a slow connection, this may not be enough and you may experience that Web tools looses connection. You may change the default timeout period by adding a DWORD (32bit) value with a different value. Note that the value here is in milliseconds, so adding 5000 will change the default timeout value from 1 second to 5 seconds.
 
 ![imgx][3]
 

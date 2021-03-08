@@ -23,7 +23,7 @@ so.topic: reference            # article, howto, reference, concept, guide
 | ocsz | Own organisation’s postal town, state/province and zipcode (for American, Canadian and Australian addresses) |
 | oczi | Own organisation’s county and postcode (for UK addresses) |
 | odep | The department the sender belongs to |
-| oema | Own organisation’s primary e-mail address |
+| oema | Own organisation’s primary email address |
 | of01-10 | User-defined field 1-10 of the decimal number type |
 | ofax | Own organisation’s primary fax number |
 | ol01-60 | User-defined field 1-60 of the whole number type |

@@ -17,7 +17,7 @@ so.topic: reference         # article, howto, reference, concept, guide
 | Variable | Description |
 |----------|-------------|
 | usec | Encrypted login information for NetServer. Do not use this in a web application for CRM Online |
-| usem | Current user's primary e-mail address |
+| usem | Current user's primary email address |
 | user | Current user ID |
 | usfn | Current user's first name |
 | usid | Current user identity |

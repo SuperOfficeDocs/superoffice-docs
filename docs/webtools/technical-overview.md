@@ -52,7 +52,7 @@ If Web Tools are already installed, or if you for other reasons wish to configur
 
 When the user logs in to an updated Web installation, Web Tools will detect there is an updated version available and prompt the user for an upgrade. Versioning in SuperOffice is defined as "MAJOR.MINOR.BUILD.REVISION". The user will be "forced" to upgrade if the MAJOR component is higher than the current major version of web tools. Other changes are optional upgrades.
 
-The prompt to upgrade can be disabled in scenarios where you don’t want to push a new version of Web Tools. The configuration setting SuperOffice\\Downloads\\WebToolVersion in the web.config file can be set to a previous version. The user will still be able to upgrade to the latest version by pressing Download in the web client.
+The prompt to upgrade can be disabled in scenarios where you don’t want to push a new version of Web Tools. The configuration setting SuperOffice\\Downloads\\WebToolVersion in the *web.config* file can be set to a previous version. The user will still be able to upgrade to the latest version by pressing Download in the web client.
 
 ![Logging in to Sales and Marketing (upgrade)][img2]
 
@@ -78,7 +78,7 @@ Web Tools consists of three components: the installed component on the user’s 
 
 ![Starting up Web Tools][img3]
 
-After Web Tools have finished starting up, it will resuming incomplete tasks. The tasks files are stored in *%localappdata%\\SuperOffice\\SuperOffice 7 Web Extensions\\Tasks*. One task consists of a task file and a directory with the same name. This directory will contain the document during editing/reading.
+After Web Tools have finished starting up, it will resume incomplete tasks. The tasks files are stored in *%localappdata%\\SuperOffice\\SuperOffice 7 Web Extensions\\Tasks*. One task consists of a task file and a directory with the same name. This directory will contain the document during editing/reading.
 
 ## Document editing
 
@@ -86,7 +86,7 @@ After Web Tools have finished starting up, it will resuming incomplete tasks. Th
 
 ## Authentication
 
-Web Tools supports authenticating to two different layers to SuperOffice. The first layer is authenticating towards the Web Server (IIS) using Negotiate (Windows Authentication), NTLM, Digest or Basic. The second layer is authenticating towards the SuperOffice installation. Authenticating towards the SuperOffice installation can be handled by SuperOffice, Active Directory or delegated to a third-party such as Google or Office 365 (only available in Online). Single sign-on is achieved when both authentication layers are compatible – for instance Windows Authentication in IIS and Active Directory on the SuperOffice installation.
+Web Tools supports authenticating to two different layers to SuperOffice. The first layer is authenticating towards the Web Server (IIS) using Negotiate (Windows Authentication), NTLM, Digest, or Basic. The second layer is authenticating towards the SuperOffice installation. Authenticating towards the SuperOffice installation can be handled by SuperOffice, Active Directory, or delegated to a third-party such as Google or Office 365 (only available in Online). Single sign-on is achieved when both authentication layers are compatible – for instance, Windows Authentication in IIS and Active Directory on the SuperOffice installation.
 
 SSO requires [configuration changes in IIS][2] and *web.config* file. Users must be configured to use Active Directory for authentication.
 

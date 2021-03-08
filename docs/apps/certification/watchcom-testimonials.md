@@ -25,7 +25,7 @@ Read what our published partners say about the security audit.
 
 > "With the feedback from Watchcom we fine-tuned our internal Q&A procedure before releasing new products. After some very simple changes, we managed to make our current and future product even more secure."<br>**Matthijs Wagemakers, In charge of the development control panel, Infobridge Software B.V.**
 
-> "Working with Watchcom and SuperOffice in order to certify Visma.net Sync for SuperOffice gave an interesting perspective on security, and some valuable lessons on how to tighten the security of your web application."<br>**Ole Melhus, ON IT AS**
+> "Working with Watchcom and SuperOffice to certify Visma.net Sync for SuperOffice gave an interesting perspective on security, and some valuable lessons on how to tighten the security of your web application."<br>**Ole Melhus, ON IT AS**
 
 > "Providing apps working with your customer’s data in the cloud is quite another security story than providing integrations living inside the customer’s own network. Watchcom is looking at your app with the eyes of a critical customer (and SuperOffice) and helps you keeping security as a top priority for delivering a trustworthy app. Watchcom guides you so that your app keeps the security standard of a SuperOffice App. This way Watchcom can save you valuable time doing it right the first time and bring your app to the SO App store market faster."<br>**Lars Dyre Jespersen, CEO, Siteshop ApS**
 

@@ -19,7 +19,7 @@ Earlier this summer the European Court of Justice made a ruling that says the EU
 
 The SuperOffice CRM mailing feature is using an American cloud service provider; Mailgun Inc. for distributing mass-emails and for email-correspondence related to customer service tickets. This service has been protected by the Privacy Shield agreement which no longer is valid.
 
-Mailgun Inc. however also provides a Datacenter located in EU and we will move all our customers to this location. This will be done as automatic as possible and without any cost on your part. By doing this, the SuperOffice CRM Online solution is fully GDPR compliant and satisfies all requirements for privacy data protection set out by this regulation.
+Mailgun Inc. however, also provides a Datacenter located in EU and we will move all our customers to this location. This will be done as automatic as possible and without any cost on your part. By doing this, the SuperOffice CRM Online solution is fully GDPR compliant and satisfies all requirements for privacy data protection set out by this regulation.
 
 If you need more information about the Schrems II ruling, we suggest you search your national Data Protection authority website for additional information.
 

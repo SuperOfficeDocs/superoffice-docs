@@ -28,7 +28,7 @@ When you move SuperOffice CRM Server, there are essentially several parts that m
 
 ## SuperOffice document archive (so\_arc)
 
-Use file copy to copy the so\_arc with sub folders from the old location to the new location. The new location must be updated in both *SuperOffice.ini* and *web.config* so both SuperOffice windows clients and web clients will keep access to their documents and templates.
+Use file copy to copy the so\_arc with sub-folders from the old location to the new location. The new location must be updated in both *SuperOffice.ini* and *web.config* so both SuperOffice windows clients and web clients will keep access to their documents and templates.
 
 ### Change details
 
@@ -151,7 +151,7 @@ update crm7.KB_ENTRY set answer = replace(answer,'/scripts/customer.exe/getAttac
 ```
 
 > [!NOTE]
-> The last 2 queries will set the current URLs in FAQ texts if Service have been moved manually to a service sub folder as described [here][3]. Make sure you use the correct extension, customer.fcgi or customer.exe.
+> The last 2 queries will set the current URLs in FAQ texts if Service have been moved manually to a service sub-folder as described [here][3]. Make sure you use the correct extension, customer.fcgi or customer.exe.
 
 ## Links in eMarketing messages
 

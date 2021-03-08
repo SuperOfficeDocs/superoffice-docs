@@ -133,7 +133,7 @@ The `ValidationMessage` property becomes the controls tooltip, which is normally
 
 The `Tooltip` property is used by the `ValidationControl` as the text to display in a SuperOffice web client dialog message box.
 
-Finally, compile the project and place the dll inside the web site *bin* directory.
+Finally, compile the project and place the DLL inside the website *bin* directory.
 
 This example demonstrates how to validate a SaleEntity on the Sale panel for version 7, and the Sale dialog for 6.
 

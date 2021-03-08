@@ -21,7 +21,7 @@ In your download, the solution's directory contains the following:
 
 ## Directories
 
-### / web site root
+### / website root
 
 ### certificates directory
 

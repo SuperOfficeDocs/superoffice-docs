@@ -152,7 +152,7 @@ The remainder of this document describes the process of creating a custom batch 
 
 ## Constructing a Custom Batch Task
 
-The custom batch task I will demonstrate is not necessarily an ideal batch task, but it will demonstrate all of the concepts required in order to be run as a custom batch task, and return a defined result to the 6.web application.
+The custom batch task I will demonstrate is not necessarily an ideal batch task, but it will demonstrate all of the concepts required to be run as a custom batch task, and return a defined result to the 6.web application.
 
 ### Creating the Plug-In
 

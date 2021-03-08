@@ -128,7 +128,7 @@ This option is for applications that do not use the .NET framework. Since the Ap
 
 ## Web Tools
 
-In order to make Web Tools go through our proxy, we need to edit the web.config file of SuperOffice. In the `<client>` section, change the key **UrlHostOverride** to point to the hostname of the proxyserver.
+To make Web Tools go through our proxy, we need to edit the *web.config* file of SuperOffice. In the `<client>` section, change the key **UrlHostOverride** to point to the hostname of the proxyserver.
 
 ![x][img14]
 
@@ -140,7 +140,7 @@ In order to make Web Tools go through our proxy, we need to edit the web.config 
 
 When enabling HTTPS, the value **UrlPortOverride** should be changed to **443** and **UrlSchemeOverride** should be changed to **HTTPS**. Note that to make HTTPS work with Web Tools, the certificate used on the proxy server needs to be a valid, signed certificate, otherwise the Web Tools client will not be able to make a connection. Self-signed certificates won't work.
 
-Make sure that the **Client** section in the web.config file is defined in the top of the file inside the `<configSections>` directive. The screenshots below shows what the file should look like.
+Make sure that the **Client** section in the *web.config* file is defined at the top of the file inside the `<configSections>` directive. The screenshots below show what the file should look like.
 
 ![x][img15]
 
@@ -150,7 +150,7 @@ If clients are unable to download the web tools client, then you need to allow c
 
 ## Changes in Service
 
-The urls for the Internal and External URL must be updated to match the external address.
+The URLs for the Internal and External URL must be updated to match the external address.
 
 ![x][img17]
 
@@ -166,17 +166,17 @@ SuperOffice Service may not use NetServer web services running on HTTPS, this me
 
 ### Note regarding upgrades
 
-To make sure later updates of Service runs successful on the Internal webserver, add a new registry key below *HKey\_Locale\_Machine\\Software\\Wow6432Node\\SuperOffice* Customer Service on the Internal webserver. This key should have the same string values as the internal site (basePath and instanceId), but the name of the key should be the same as the external website (proxy url).
+To make sure later updates of Service runs successfully on the Internal web server, add a new registry key below *HKey\_Locale\_Machine\\Software\\Wow6432Node\\SuperOffice* Customer Service on the Internal webserver. This key should have the same string values as the internal site (basePath and instanceId), but the name of the key should be the same as the external website (proxy URL).
 
 ![x][img18]
 
-Now when upgrading you will provide the external URL when it asks for domain, and it will not fail when it comes to the point where it should start EjScheduler here:
+Now when upgrading you will provide the external URL when it asks for the domain and it will not fail when it comes to the point where it should start EjScheduler here:
 
 ![x][img19]
 
 ## Using more than one internal webserver to redirect traffic to
 
-To be able to redirect to several internal web services you need to add the following section to the web.config file in the `<configuration>` section on the proxy server.
+To be able to redirect to several internal web services you need to add the following section to the *web.config* file in the `<configuration>` section on the proxy server.
 
 ```xml
 <system.serviceModel>
@@ -186,11 +186,11 @@ To be able to redirect to several internal web services you need to add the foll
 
 ![x][img20]
 
-Multiple site bindings enables multiple base addresses (enables the proxy to forward to multiple hosts).
+Multiple site bindings enable multiple base addresses (enables the proxy to forward to multiple hosts).
 
 ### Exposing just the external customer parts of Service to the Internet
 
-If you just want to expose the Customer center, Chat or Mailings to the Internet, then you may only expose `socrm.myorganization.com/service/scripts/customer.exe/fcgi`. In addition the static files need to be exposed as well. We do not have a strict categorization on which files need to be exposed and we do not see a security issue with exposing them, so our recommendation is to expose all static Service files (*/javascript*, */graphics*, and */css* with sub folders. These files are the static files we distribute through our installers and no customer-specific files are located in these folders.
+If you just want to expose the Customer center, Chat, or Mailings to the Internet, then you may only expose `socrm.myorganization.com/service/scripts/customer.exe/fcgi`. In addition, the static files need to be exposed as well. We do not have a strict categorization on which files need to be exposed and we do not see a security issue with exposing them, so our recommendation is to expose all static Service files (*/javascript*, */graphics*, and */css* with sub-folders. These files are the static files we distribute through our installers and no customer-specific files are located in these folders.
 
 <!-- Referenced links -->
 [1]: deployment-scenarios.md

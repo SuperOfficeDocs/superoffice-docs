@@ -30,8 +30,8 @@ so.topic: reference               # article, howto, reference, concept, guide
 | adep | Department |
 | af01-10 | User-defined field 1-10 of the decimal number type |
 | al01-60 | User-defined field 1-60 of the whole number type |
-| amai | The contact’s primary e-mail address |
-| amid | The contact's primary e-mail address, ID (hidden, unique ID) |
+| amai | The contact’s primary email address |
+| amid | The contact's primary email address, ID (hidden, unique ID) |
 | anum | Number recorded for the contact |
 | apad | Postal address, line 1 |
 | apa2 | Postal address, line 2 |
@@ -40,8 +40,8 @@ so.topic: reference               # article, howto, reference, concept, guide
 | apho | The contact’s phone number |
 | as01-49 | User-defined field 1-49 of the text type |
 | asal | Academic title (salutation) |
-| asta | State/province. (See also [acsz][1]].) | atei | The contact's primary e-mail address, ID (hidden, unique ID) |
-| atem | The contact's primary e-mail address. If no e-mail address is recorded for the contact, the company's e-mail address is used |
+| asta | State/province. (See also [acsz][1]].) | atei | The contact's primary email address, ID (hidden, unique ID) |
+| atem | The contact's primary email address. If no email address is recorded for the contact, the company's email address is used |
 | atfa | Direct fax (Attention Fax) |
 | atfi | Direct fax, ID (hidden, unique ID) |
 | atfn | First name |

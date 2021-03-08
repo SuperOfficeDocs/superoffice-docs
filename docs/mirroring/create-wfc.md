@@ -72,7 +72,7 @@ These are underlined with red in the following screenshot:
 
 ![x][img6]
 
-## Update settings in the web.config file
+## Update settings in web.config
 
 The functionality in the *MirroringClientService.cs* file helps you resolve a tenant's context identifier to a particular database, create the database if necessary, discover and provide the service's **ApplicationToken**, as well as the private certificate key it must use to sign the token placed in the **AuthenticationResponse** message. However, you must still provide those key pieces of information in the project's *web.config* file.
 

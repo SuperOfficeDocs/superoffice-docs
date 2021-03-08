@@ -17,14 +17,14 @@ so.envir: onsite            # cloud or onsite
 
 Used by web, remote web services, service.
 
-The web.config file is an XML file that can be changed as needed, but we recommend running the SuperOffice Web Configurator which is installed by the [web client][1]. Administrators can use configuration files to set policies that affect how applications run on their computers. Read more on [MSDN][2].
+The *web.config* file is an XML file that can be changed as needed, but we recommend running the SuperOffice Web Configurator which is installed by the [web client][1]. Administrators can use configuration files to set policies that affect how applications run on their computers. Read more on [MSDN][2].
 
 There are some SuperOffice specific sections, defined under the SuperOffice sectionGroup.
 
 ## Security
 
 > [!WARNING]
-> Do not change these values unless absolutely sure!
+> Do not change these values unless you are absolutely sure!
 
 | Parameter | Description |
 |-----------|-------------|
@@ -53,7 +53,7 @@ The sentry system can be thought of as the traffic cop, controlling access to th
 | User | Domain user to log on to the domain  - needs to be able to list and view users |
 | Password | Password of the domain user |
 
-Single Sign on (SSO) if you mean that the user should not be presented with the SuperOffice login dialog will not work when using the recommended installation scenario, but the user may still authenticate with his AD username and password. Also note that using Remote web services for Web (where web and NetServer are on different servers) is not supported due to [Kerberos double-hop issues][5].
+Single Sign-on (SSO) if you mean that the user should not be presented with the SuperOffice login dialog will not work when using the recommended installation scenario, but the user may still authenticate with his AD username and password. Also, note that using Remote web services for Web (where web and NetServer are on different servers) is not supported due to [Kerberos double-hop issues][5].
 
 ## Mail
 
@@ -65,7 +65,7 @@ Configuration of mail parameters when using the SuperOffice Inbox. This is also 
 | Sender | The Key used for mail sender - default MailKit from 8.1, used to be EasyMail |
 | NumberOfDaysToDownload | Change how many days to past we should download and store emails. Defaults to 180 day |
 
-SuperOffice Inbox downloads emails from your mail box and stores them in the SuperOffice database.
+SuperOffice Inbox downloads emails from your mailbox and stores them in the SuperOffice database.
 If you want to change how many days to past we should download and store emails, you can add the following key `<add key="NumberOfDaysToDownload" value="XX" />` in Mail section:
 
 ```xml
@@ -90,21 +90,21 @@ Settings related to logging.
 
 | Parameter | Description |
 |-----------|-------------|
-| EnableScaffolding | Boolean value determines whether to log verbose, detailed, information. Default off, only turn on for extended debugging and do turn this off later. |
+| EnableScaffolding | Boolean value determines whether to log verbose, detailed, information. Default off, only turn on for extended debugging, and do turn this off later. |
 | EnableStackTracing | Should stack traces be collected by various events |
 | LogError | Boolean value determines whether to log all error messages. Default = True |
-| LogFailureAudit | Boolean value determines whether to log when an access failure occurs / failed authentications (default 'True') |
+| LogFailureAudit | Boolean value determines whether to log when an access failure occurs/failed authentications (default 'True') |
 | LogFolder | Folder (e.g. UNC path) where the log file is to reside. Note that the owner of the process needs to have access to manipulate files in this folder |
-| LoggedServices | List of services to be logged; default blank means all, otherwise comma-separated list of service names (without the Agent suffix, for instance: BLOB, Appointment) |
+| LoggedServices | List of services to be logged; default blank means all, otherwise a comma-separated list of service names (without the Agent suffix, for instance: BLOB, Appointment) |
 | LogInformation | Log general information. This includes successful SQL's passed to the database. Only permit this option while debugging a bug. This will be a severe performance hit! (default 'False') |
 | LogLongQueries | Should long-running queries be logged in textual form to a special file? default false |
 | LogLongQueriesAsXML | Should long-running queries be logged to a special file (Query\_year.month.day.log) in XML serialized format, for later analysis and reruns using the QueryWorkbench tool |
 | LogMail | Log mail server communication |
 | LogMailFolder | Folder to output mail logs. Note that the owner of the process needs to have access to manipulate files in this folder |
-| LogServiceCalls | Should calls to the service layer be logged |
+| LogServiceCalls | Should calls to the service layer be logged? |
 | LogSuccessAudit | Boolean value determines whether to log when access is granted / successful authentications (default 'False') |
 | LogTimes | Log time it takes |
-| LogToEventLog | Boolean value determines whether to write message to OS Event Log. (Information Level Ignored) |
+| LogToEventLog | Boolean value determines whether to write a message to OS Event Log. (Information Level Ignored) |
 | LogToFile | Boolean value determines whether to log all Log-Levels to a file. (default 'False') |
 | LogToSuperOffice | Boolean value. Log to SuperOffice Research and Product Development (Online through a WebService). If you experience poor performance during login, set this to False. |
 | LogToTrace | Boolean value determines whether to log all Log-Levels to trace output. Log to a Trace that can be listened to by TraceListener. (default 'False') |
@@ -115,17 +115,17 @@ Settings related to logging.
 
 ### Data
 
-The Data section group contains three sections, Database, Explicit and ImplicitAnonymous. Combined, these sections define which server and database the caller will connect, as well as what state settings to use. Which state settings take affect are determined by how the caller decides to connect, Explicit or ImplicitAnonymous.
+The Data section group contains three sections, Database, Explicit and ImplicitAnonymous. Combined, these sections define which server and database the caller will connect as well as what state settings to use. Which state settings take effect are determined by how the caller decides to connect, Explicit or ImplicitAnonymous.
 
 The *Session* section relates to the lifetime of a NetServer communication session, such as the duration of a transaction, or group of transactions, and maintains the credentials defined in one of the following sections.
 
 | Parameter | Description |
 |-----------|-------------|
-| Mode | String value representing the mode of the session object. Permitted values: Thread, Process and Context |
+| Mode | String value representing the mode of the session object. Permitted values: Thread, Process, and Context |
 
 **Modes:**
 
-* Thread: Session is stored in a thread static manner.  Each executing thread has a separate instance of session.  If the session is accessed on a different thread, it will contain a different value.  For further reference, see System.ThreadStaticAttribute.
+* Thread: Session is stored in a thread static manner.  Each executing thread has a separate instance of the session.  If the session is accessed on a different thread, it will contain a different value.  For further reference, see System.ThreadStaticAttribute.
 
 * Process: Session is stored in a process static manner.  This is the normal option for windows applications.
 
@@ -137,7 +137,7 @@ The *Session* section relates to the lifetime of a NetServer communication ses
 
 ### Database
 
-The *Database* section relates to location and database-vendor specific settings. Supported database servers include SQL Server and Oracle
+The *Database* section relates to location and database-vendor-specific settings. Supported database servers include SQL Server and Oracle
 
 | Parameter | Description |
 |-----------|-------------|
@@ -196,7 +196,7 @@ The Documents section exposes seven settings related to SuperOffice documents. I
 
 ### More than one ArchivePath
 
-You can have more than one ArchivePath in your Web installation. You need to edit Web.config and add more Archive Paths under the Documents section:
+You can have more than one ArchivePath in your Web installation. You need to edit *web.config* and add more Archive Paths under the Documents section:
 
 ```xml
 <Documents>  
@@ -226,7 +226,7 @@ This section is used to specify whether an application is working locally or r
 | Parameter | Description |
 |-----------|-------------|
 | DefaultMode | String value representing the default operational mode, Local, Remote, or Switch. |
-| RemoteBaseURL | String value representing the base url and filename of the NetServer web services application file, SuperOffice.Services.Stub. |
+| RemoteBaseURL | String value representing the base URL and filename of the NetServer web services application file, SuperOffice.Services.Stub. |
 | SwitchDefault | String value representing the default mode for the switch. Can be Local or Remote. Default = Remote |
 | SwitchFailover | Integer value representing the timeout before failover in seconds. Default = 60 |
 
@@ -239,7 +239,7 @@ This section is used to specify whether an application is working locally or r
 | EnableScripting | Turn on or off the use of scripts |
 | ScriptPath | Path to the scripts. Defaults to \\script if not set. |
 | TimeoutLimit | Time in milliseconds allowed for the script to use. Default 20 sec. |
-| MaxTimeouts | Integer value representing the number of timeouts the script are allowed before it is disabled. Default 5. Default = 5 |
+| MaxTimeouts | Integer value representing the number of timeouts the script is allowed before it is disabled. Default 5. Default = 5 |
 
 ## BatchService
 
@@ -254,24 +254,24 @@ This section is used to specify whether an application is working locally or r
 
 ## Client
 
-In this section you add the [Reverse proxy][4] override if you want to export larger selections (Task-Export to Excel) from the web client.
+In this section, you add the [Reverse proxy][4] override if you want to export larger selections (Task-Export to Excel) from the web client.
 
 | Parameter | Description |
 |-----------|-------------|
 | UrlSchemeOverride | http or https |
 | UrlPortOverride | 80 or 443 |
 | UrlHostOverride | In our examples this would be the external site; `socrm.myorganization.com` |
-| ExportPageSize | Export large selections from the web client has a default value of 10000 rows. PS! preference has to be added in Web.config |
+| ExportPageSize | Export large selections from the web client has a default value of 10000 rows. PS! preference has to be added in *web.config* |
 | ApplicationTitle | Change the title shown to the user, like My customized site name |
-| HelpFilesBaseUrl | String value representing the URL to help files. E.g. in large server farm environments you may point to one help file location. |
-| HelpDispatcherUrl | Our SuperOffice help files, showing correct help file language to the user. |
+| HelpFilesBaseUrl | String value representing the URL to help files. E.g. in large server farm environments, you may point to one help file location. |
+| HelpDispatcherUrl | Our SuperOffice help files, showing the correct help file language to the user. |
 
 ## WebServices
 
 | Parameter | Description |
 |-----------|-------------|
 | AllowWebServiceRequests | Permit requests to web services.  Default True from 8.1  |
-| WrapExceptions | Check if NetServer shall wrap and serialize exceptions, or leave it up to communication carrier (i.e. WCF) |
+| WrapExceptions | Check if NetServer shall wrap and serialize exceptions, or leave it up to the communication carrier (i.e. WCF) |
 | RemoveInvalidXMLText | If we should remove UTF-8 characters that are not valid XML. The Text table is the only place where this filter is active. |
 
 ## WebApi

@@ -24,11 +24,11 @@ Prevent address forgery (spoofing) spammers can forge, or "spoof," your domain's
 
 SPF (Sender Policy Framework) is a DNS text entry, which shows a list of servers that should be considered, allowed to send mail for a specific domain. Incidentally, the fact that SPF is a DNS entry can also be considered as a way to enforce the fact that the list is authoritative for the domain since the owners/administrators are the only people allowed to add/change that main domain zone.
 
-Today, nearly all abusive e-mail messages carry fake sender addresses. Spammers send email from their mail servers but with your ‘domain’ as the sending email. The victims whose addresses are being abused often suffer from the consequences, because their reputation gets diminished and they have to disclaim liability for the abuse or waste their time sorting out misdirected bounce messages.
+Today, nearly all abusive email messages carry fake sender addresses. Spammers send email from their mail servers but with your ‘domain’ as the sending email. The victims whose addresses are being abused often suffer from the consequences, because their reputation gets diminished and they have to disclaim liability for the abuse or waste their time sorting out misdirected bounce messages.
 
 The purpose of an SPF record is to prevent spammers from sending messages with forged From addresses at your domain. Recipients can refer to the SPF record to determine whether a message purporting to be from your domain comes from an authorized mail server. If your domain does not have an SPF record, some recipient domains may reject messages from your users because they cannot validate that the messages come from an authorized mail server.
 
-You should only have one SPF record for your domain. If you use more than one outgoing email provider, you need to combine their include directives together
+You should only have one SPF record for your domain. If you use more than one outgoing email provider, you need to combine their include directives.
 
 The important thing to remember is that SPF records are just a whitelist and/or blacklist of IPs that can or can't send on behalf of your domain.
 
@@ -52,7 +52,7 @@ Monitoring on DMARC:
 
 Mailgun is not able to act upon the DMARC reports out of the box (?) but the reports can be used with a 3.party DMARC aggregation service:
 
-Postmark runs a [free DMARC aggregation service][3], which will aggregate all of the reports from DMARC-supporting services and send you a report every Monday morning with details. The first step in implementing DMARC is to sign up with Postmark's service, set up the DMARC record that they give you in your DNS, and wait a week. You'll probably have to go through this cycle every week for at least a few weeks, in order to catch all of the services that send email as you
+Postmark runs a [free DMARC aggregation service][3], which will aggregate all of the reports from DMARC-supporting services and send you a report every Monday morning with details. The first step in implementing DMARC is to sign up with Postmark's service, set up the DMARC record that they give you in your DNS, and wait a week. You'll probably have to go through this cycle every week for at least a few weeks, to catch all of the services that send email as you
 
 Upon reception, the receiving mail server checks if there is any existing DMARC policy published in the domain used by the SPF and/or DKIM checks. If one or both the SPF and DKIM checks succeed while still being aligned with the policy set by DMARC, then the check is considered successful, otherwise, it's set as failed. If the check fails, based on the action published by the DMARC policy, different actions are taken:
 

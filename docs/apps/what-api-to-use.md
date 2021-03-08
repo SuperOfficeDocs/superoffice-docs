@@ -137,7 +137,7 @@ Interactive authentication is facilitated by the [SuperOffice Online sign-in pag
 
 ## Non-Interactive Scenario
 
-In order to conduct true background processing, applications must use the system user **token** that was issued to them during the installation process. Applications use the SOAP-based `PartnerSystemUserService` endpoint to exchange a system user token for a system-user **ticket**.
+To conduct true background processing, applications must use the system user **token** that was issued to them during the installation process. Applications use the SOAP-based `PartnerSystemUserService` endpoint to exchange a system user token for a system-user **ticket**.
 
 When used in a **SOAP** request, the system-user ticket is used as credentials, placed inside each SOAP header as seen in the [ContactAgent.GetContactEntity][14] method.
 

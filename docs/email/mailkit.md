@@ -15,15 +15,15 @@ so.topic: article             # article, howto, reference, concept, guide
 
 # MailKit
 
-MailKit is cross-platform .NET library for IMAP, POP3, and SMTP.
+MailKit is a cross-platform .NET library for IMAP, POP3, and SMTP.
 
-The main reason for using the MailKit library is a wider range of supported protocols, certificates and improved speed.
+The main reason for using the MailKit library is a wider range of supported protocols, certificates, and improved speed.
 
 MailKit is used by SuperOffice NetServer, e.g. Inbox in the Sales client.
 
-MailKit is enabled for CRM Online from version 8.0 (R23), and can be enabled manually on Onsite from version SuperOffice 8.0 SR3.
+MailKit is enabled for CRM Online from version 8.0 (R23) and can be enabled manually on Onsite from version SuperOffice 8.0 SR3.
 
-Current version of MailKit is: 1.4.2.1
+The current version of MailKit is: 1.4.2.1
 
 ## How to enable MailKit
 
@@ -35,10 +35,10 @@ On by default - cannot be disabled/enabled
 
 On by default on 8.1
 
-1. Open the web.config file for your site
+1. Open the *web.config* file for your site.
 2. Replace the value for Mail Reader and Sender to "MailKit".
-3. Save the file web.config file
-4. Recycle the application pool
+3. Save *web.config*.
+4. Recycle the application pool.
 
 ![x][img1]
 
@@ -48,11 +48,11 @@ On by default on 8.1
 
 **Outgoing:**
 
-The better and more modern way is to use port 587 on outgoing mail. It starts of unencrypted, but the connection is upgraded to encrypted (using STARTTLS) if the server supports it. Connections to 587 should not have the SSL checkbox, as it starts off without encryption (and that checkbox will enforce encryption from the beginning of the connection).
+The better and more modern way is to use port 587 on outgoing mail. It starts unencrypted, but the connection is upgraded to encrypted (using STARTTLS) if the server supports it. Connections to 587 should not have the SSL checkbox, as it starts without encryption (and that checkbox will enforce encryption from the beginning of the connection).
 
-If your server support to use port 587 on outgoing mail, using that port is much better than 465:
+If your server supports using port 587 on outgoing mail, using that port is much better than 465:
 
-The normal behavior when connection to port 465 (outgoing), is that the connection is wrapped in a secure connection. If you can [telnet][2] to that port, and get the result back in clear-text, ie. it is not encrypted. To troubleshoot SSL/encrypted connections, use Putty.
+The normal behavior when the connection to port 465 (outgoing), is that the connection is wrapped in a secure connection. If you can [telnet][2] to that port, and get the result back in clear-text, ie. it is not encrypted. To troubleshoot SSL/encrypted connections, use Putty.
 
 MailKit expects connections to port 465 to be encrypted.
 

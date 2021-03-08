@@ -47,7 +47,7 @@ When you have the Product configuration application open:
 
 In a generic troubleshooting case you are interested to see errors in Web/NetServer, then add a tick next to **Log error** and click through the wizard.
 
-In a case where you want to troubleshoot e-mail sending or receiving\* via the NetServer add a tick next to **Log e-mail** and in the field next to this option define where the log files should be created. Logging will create 2 files - one for incoming emails (communication with IMAP server) and one for outgoing emails (communication with SMTP server). This is not a debug logging for MailLink.
+In a case where you want to troubleshoot email sending or receiving\* via the NetServer add a tick next to **Log e-mail** and in the field next to this option define where the log files should be created. Logging will create 2 files - one for incoming emails (communication with IMAP server) and one for outgoing emails (communication with SMTP server). This is not a debug logging for MailLink.
 
 \* SuperOffice Inbox and SuperOffice mobile app - Pocket CRM use NetServer service to send emails.
 
@@ -65,9 +65,9 @@ More about Netserver Diagnostics below.
 
 SuperOffice Web always takes a long time to start up initially because IIS needs to initiate both the .NET common language runtime and NetServer. As soon as the w3wp.exe IIS work process is up and running you'll see that the performance is a way better.
 
-We do however also have some online services configurable in the web.config file. If you experience poor performance on the second login you may turn off *Logging to SuperOffice Research & Product Developement.* Go to Diagnostics and turn off Log to SuperOffice Research & Product Developement.
+We do however, also have some online services configurable in the *web.config* file. If you experience poor performance on the second login you may turn off *Logging to SuperOffice Research & Product Developement.* Go to Diagnostics and turn off Log to SuperOffice Research & Product Developement.
 
-## NetServer Diagnostics
+## NetServer diagnostics
 
 You can turn on and off logging for NetServer for Web client directly in the *Web.config* file.
 
@@ -102,7 +102,7 @@ Only permit this option while debugging a bug. This will be a severe performance
 <!-- Log to a LogFile (default 'False') -->
 <add key="LogToFile" value="True">
 </add>
-<!-- Folder (e.g. UNC path) where the logfile is to recide. Note that the owner of the process needs to have access to manipulate files in this folder -->
+<!-- Folder (e.g. UNC path) where the log file is to reside. Note that the owner of the process needs to have access to manipulate files in this folder -->
 <add key="LogFolder" value="C:\Log">
 </add>
 </Diagnostics>

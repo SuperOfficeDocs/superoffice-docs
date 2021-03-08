@@ -17,7 +17,7 @@ so.topic: reference              # article, howto, reference, concept, guide
 
 Overview of cookies used in SuperOffice product offering both for Onsite and Online deployment.
 
-## Online Environment
+## Online environment
 
 Cookies specific to SuperOffice Online deployment.
 
@@ -25,13 +25,13 @@ Cookies specific to SuperOffice Online deployment.
 |---|---|---|---|
 | OnlineLogin | string | Online login | Session handling in login page load balancer |
 | SOOnline | string | Online login | Session state for Online login |
-| SoAuth.Xsrf | string | Online login | Antiforgery token for Online login |
+| SoAuth.Xsrf | string | Online login | Anti-forgery token for Online login |
 | SoContextHints | string | Online login | Online login |
 | SoOnlineAuth | string | Online login | Online login - login session |
 | SoRT\_custXXXXX | string | Online login | Online login |
 | SoRT\_global | string | Online login | Online login |
-| ai\_session | string | Online env. | Aplication Insights monitoring of the system - anonymized data for monitoring Online systems |
-| ai\_user | string | Online env. | Aplication Insights monitoring of the system - anonymized data for monitoring Online systems |
+| ai\_session | string | Online env. | Application Insights monitoring of the system - anonymized data for monitoring Online systems |
+| ai\_user | string | Online env. | Application Insights monitoring of the system - anonymized data for monitoring Online systems |
 
 ## Sales & Marketing
 
@@ -39,16 +39,16 @@ Cookies used by Sales & Marketing client both in Online and Onsite deployment.
 
 | Cookie name | Type | Usage | Description |
 |---|---|---|---|
-| ASP.NET\_SessionId | string | CRM | Used to identify the users session on the server |
-| FirstDayOfWeek | number | CRM | Used to set Sunday or Monday as first day of the week |
+| ASP.NET\_SessionId | string | CRM | Used to identify the user's session on the server |
+| FirstDayOfWeek | number | CRM | Used to set Sunday or Monday as the first day of the week |
 | SoWtt | string | CRM | CRM Client Signal R session |
 | XSRF-TOKEN | string | CRM | Prevent cross-site request forgery |
 | SoCrmCurrentUserUICulture | string | CRM | Used to store selected language for the client |
-| SoCrm75SR1FirstUse | boolean | CRM | Used to indicate first time use of the client |
+| SoCrm75SR1FirstUse | boolean | CRM | Used to indicate first-time use of the client |
 
 ## Service
 
-Cookies used by Service client both in Online and Onsite deployment.
+Cookies used by the Service client both in Online and Onsite deployment.
 
 | Cookie name | Type | Usage | Description |
 |---|---|---|---|
@@ -58,7 +58,7 @@ Cookies used by Service client both in Online and Onsite deployment.
 | crmUrl | url | Service | Storing URL to CRM client |
 | key | string | Service | Authentication |
 | loginId | number | Service | Authentication |
-| logoutUrl | url | Service | Url for redirect when logging out |
+| logoutUrl | url | Service | URL for redirect when logging out |
 | userId | number | Service | Authentication |
 | sessionId | number | Chat | Storing ongoing chat session with customer |
 | sessionKey | string | Chat | Storing ongoing chat session with customer |
@@ -98,4 +98,4 @@ Cookies used by Service client both in Online and Onsite deployment.
 | debug.disableNotifications | boolean | Service | Used for debugging option in Service |
 | debug.printExceptions | boolean | Service | Used for debugging option in Service |
 
-\* when embedded in Customer centre
+\* when embedded in the Customer centre

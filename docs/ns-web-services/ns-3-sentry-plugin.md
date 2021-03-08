@@ -24,7 +24,7 @@ The objective is it to demonstrate how to control what the user is allowed to se
 
 ## Create a Custom Table Using Dictionary SDK
 
-This section focuses on how to create a user-defined table in the database using the Dictionary SDK. To use the SODictionary SDK, SODictionarySDK.dll needs to be registered using regsvr32. The dll can be found in the SuperOffice installation directory. It is important to make sure the correct values are set in the Admin client replication screen because these values are used by the SODictionary whenever the manipulations are done in the database.
+This section focuses on how to create a user-defined table in the database using the Dictionary SDK. To use the SODictionary SDK, SODictionarySDK.dll needs to be registered using regsvr32. The DLL can be found in the SuperOffice installation directory. It is important to make sure the correct values are set in the Admin client replication screen because these values are used by the SODictionary whenever the manipulations are done in the database.
 
 ```csharp
 using System;
@@ -99,7 +99,7 @@ This utility application is available for download from DevNet. See [Generate-Us
 
 ## Create the Sentry Plugin
 
-To begin creating a new Sentry plug-in, you must create a class that inherits from and implements the SuperOffice.CRM.Security.ISentryPlugin interface. In the plugin it is required to access the generated NetServer classes for the UDT. To accomplish this, compile the code generation solution and add a reference to the dll in the Plugin project.
+To begin creating a new Sentry plug-in, you must create a class that inherits from and implements the SuperOffice.CRM.Security.ISentryPlugin interface. In the plugin it is required to access the generated NetServer classes for the UDT. To accomplish this, compile the code generation solution and add a reference to the DLL in the Plugin project.
 
 ```csharp
 using System;
@@ -194,7 +194,7 @@ You can see that this class is marked with the SentryPluginQueryTableUpdater at
 
 ## Using the Sentry Plugin
 
-In order for us to use the plugin, modifications are required in the ‘config’ file signaling NetServer that we have our own plugin and mentioning where the dll is located. Below is the section that we have to modify in the ‘app.config’ file.
+In order for us to use the plugin, modifications are required in the ‘config’ file signaling NetServer that we have our own plugin and mentioning where the DLL is located. Below is the section that we have to modify in the ‘app.config’ file.
 
 ```xml
 <Factory>
@@ -279,7 +279,7 @@ try
 }
 ```
 
-We have first retrieved the TableInfo object for the Contact table. Next a Select object is created in order to retrieve data. The columns to be included in the selection and the order in which the results to be sorted are specified next. The select command is executed against the Contact table to retrieve the Contact information. This is the point where our plugin come in to the picture i.e., when we attempt to run a query against the Contact table, the NetServer sentry mechanism calls our sentry plugin and the plugin logic gets executed. With the restriction specified in the ModifySelect method of the plugin, any user can retrieve only the contact information where the BusinessId of which is same as the currently logged in user’s BusinessId.
+We have first retrieved the TableInfo object for the Contact table. Next a Select object is created to retrieve data. The columns to be included in the selection and the order in which the results to be sorted are specified next. The select command is executed against the Contact table to retrieve the Contact information. This is the point where our plugin come in to the picture i.e., when we attempt to run a query against the Contact table, the NetServer sentry mechanism calls our sentry plugin and the plugin logic gets executed. With the restriction specified in the ModifySelect method of the plugin, any user can retrieve only the contact information where the BusinessId of which is same as the currently logged in user’s BusinessId.
 
 The next step is to convert the retrieved contact data into a format that can be displayed in a data grid. The approach taken in this example is to iterate over the retrieved DataReader and encapsulate those data into a custom object type called “ContactData”. These objects are stored in an ArrayList, which is set as the data source for the contact information data grid.
 

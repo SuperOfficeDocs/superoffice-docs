@@ -47,7 +47,7 @@ When installing .web a scripting section is added to the SuperOffice Product Con
 * The timeout limit is the allowed time on sync scripts. Asynchronous scripts are not affected by the limit.
 * The Script violation limit is the number of times a script can violate the time limit before being disabled.
 
-This will add a new section in web.config
+This will add a new section in *web.config**.
 
 ## Script error logging, tracing
 
@@ -57,7 +57,7 @@ Runtime errors are logged using the normal logging features.
 
 ## Register scripts
 
-To enable your script simply drop the script files (or assemblies) in the script folder. Remember to flush in order to get .web aware of the new scripts.dll
+To enable your script simply drop the script files (or assemblies) in the script folder. Remember to flush to get .web aware of the new scripts.dll
 
 For more information regarding scripting with .web, visit [DevNet][1]
 

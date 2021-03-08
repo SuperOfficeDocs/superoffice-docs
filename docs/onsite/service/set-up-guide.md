@@ -83,7 +83,7 @@ The installer will copy the necessary files to the Service program folder.
 
 4. You also have the option of installing and overwriting the customer web templates, or leave your own customized one in place (if you have done customizations). If you choose to install/overwrite the templates, the installer will attempt to make a backup copy. For new installations, always leave this field checked.
 
-5. Let the installer  create an IIS site based on the hostname you entered. If the IIS website it already available on the webserver then you need to uncheck the **Create IIS web site**.
+5. Let the installer  create an IIS site based on the hostname you entered. If the IIS website it already available on the webserver then you need to uncheck the **Create IIS website**.
 
 ### Configure startup data
 
@@ -179,10 +179,10 @@ From version **8.4 R04**, Service needs to know NetServer's symmetric keys which
 
 When prompted:
 
-1. Enter the SymmetricKey value without quotes found in the web.config file for NetServer.
-2. Enter the SymmetricSecret value without quotes found in the web.config file for NetServer.
+1. Enter the SymmetricKey value without quotes.
+2. Enter the SymmetricSecret value without quotes.
 
-You will find both values in the NetServer's Web.config, in the Security - Cryptography section.
+You will find both values in the NetServer's *web.config*, in the Security - Cryptography section.
 
 For installations where you run upgrade.exe (or ejTermsetup.exe for new installations), the program asks for the keys if they do not exist. It will then test whether the keys are correct.
 
@@ -194,11 +194,11 @@ In version **8.5 R06**, we have rewritten the CRMScript triggers in Sales to use
 
 As a consequence, you must verify that this communication system is working when upgrading. Otherwise, CRMScript triggers from Sales will stop working. Specifically, this means:
 
-* Make sure the authentication keys are present, and equal, in all config files (web.config(s) and config.
+* Make sure the authentication keys are present and equal, in all config files (web.config(s) and config.
 * Make sure your network topology allows HTTP(s) communication from the NetServer installation to the Service installation.
 
 > [!CAUTION]
-> If you use encrypted Web.config you can't read the Symmetric key values directly. You need to open the SuperOffice Web Product configuration tool, go to the Security section and copy the keys from there.
+> If you use encrypted *web.config* you can't read the Symmetric key values directly. You need to open the SuperOffice Web Product configuration tool, go to the Security section, and copy the keys from there.
 
 ![image.png][img1].
 

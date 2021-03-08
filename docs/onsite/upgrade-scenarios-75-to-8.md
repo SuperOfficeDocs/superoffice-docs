@@ -24,7 +24,7 @@ so.envir: onsite            # cloud or onsite
 | SuperOffice 7.0 or<br>7.1 Server | Upgrade 7.0 or 7.1 SuperOffice |
 
 > [!NOTE]
-> SuperOffice 8 requires "full stack" of all main components.<br>If you run an older version then you must upgrade til SuperOffice 7.5 first.<br>The Pocket Server.7 is not needed for SuperOffice 8. Uninstall Pocket Server.7 after the upgrade if it is installed.
+> SuperOffice 8 requires a "full stack" of all main components.<br>If you run an older version then you must upgrade to SuperOffice 7.5 first.<br>The Pocket Server.7 is not needed for SuperOffice 8. Uninstall Pocket Server.7 after the upgrade if it is installed.
 
 ## Upgrade Windows Client
 
@@ -97,7 +97,7 @@ SuperOffice 7.5 Server, SuperOffice 7.5 Customer Service, SuperOffice 7.5 Web, a
 1. [Upgrade CRM Server][1]
 2. [Upgrade Windows Clients][2] (only if you are going to use "SuperOffice8 Windows App")
 3. [Upgrade Netserver][5]
-    * If CS runs on Remote NetServer: It it possible to merge CS.NetServer and Web.NetServer for a more lean administration
+    * If CS runs on Remote NetServer: It is possible to merge CS.NetServer and Web.NetServer for a more lean administration
 4. [Upgrade SuperOffice7.CS to SuperOffice8.Service][6]
 5. [Upgrade Web][3]
 

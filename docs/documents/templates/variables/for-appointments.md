@@ -25,7 +25,7 @@ so.topic: reference       # article, howto, reference, concept, guide
 | bdlg | The "superoffice:invitations" link to the invitation dialog |
 | bdll | The "Use this link to open the Invitation dialog in SuperOffice CRM" link displayed for registered contacts. Blank if recipient is not a registered contact |
 | beda | The appointment's end date, formatted as YYYYMMdd |
-| bema | The appointment's owner, e-mail address |
+| bema | The appointment's owner, email address |
 | beti | The appointment's end time, formatted as HHmmss |
 | bfre | Free/busy time |
 | biid | ID of the person invited to the follow-up |

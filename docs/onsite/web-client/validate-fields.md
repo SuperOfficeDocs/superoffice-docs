@@ -22,7 +22,7 @@ In this example, I will create a validation rule that a sale must have a project
 
 ## Steps
 
-1. Create a dll file with the code for validation rules
+1. Create a DLL file with the code for validation rules
 2. Create a custom-path
 3. Edit *web.config* file
 4. Edit *SoSaleMainViewView.config*
@@ -141,7 +141,7 @@ If you log in, try to create a new sale, and do not select a project you will se
 
 ![message][img1]
 
-You can use this method on every entity in SuperOffice by editing the config files and add rules to your dll file.
+You can use this method on every entity in SuperOffice by editing the config files and add rules to your DLL file.
 
 <!-- Referenced images -->
 [img1]: media/7237_12447.jpg

@@ -28,7 +28,7 @@ The SuperOffice CRM server is used for hosting the client files and document arc
 
 ### Document Archive
 
-* File share on a server to store documents and e-mails archived in SuperOffice
+* File share on a server to store documents and emails archived in SuperOffice
 
 ### Protocol
 

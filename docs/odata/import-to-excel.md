@@ -26,7 +26,7 @@ Excel version used in this example:
 
 ## Importing OData into Excel
 
-In Excel select the Data menu item, then select From Web. Click the Advanced option to expand the dialog. Fill in the required URL to SuperOffice, including the path the the web API endpoint. Use the **Add part** button to add query string parameters to the URL. In this case, OData query parameters to specify the desired fields.
+In Excel select the Data menu item, then select From Web. Click the Advanced option to expand the dialog. Fill in the required URL to SuperOffice, including the path the web API endpoint. Use the **Add part** button to add query string parameters to the URL. In this case, OData query parameters to specify the desired fields.
 
 The headers define the credentials and desired format returned. This example uses the Basic username and password credential type in the Authorization header. I'll expand on the Authorization header later in this post.
 
@@ -66,7 +66,7 @@ As shown in the [web api documentation][3], only certain Authorization headers t
 
 ![x][img10]
 
-The Basic credentials used in this blog example uses the username and password, however the format is required to be formatted as username and password separated with a colon. Then it is [base64 encoded][4].
+The Basic credentials used in this blog example uses the username and password, however, the format is required to be formatted as username and password separated with a colon. Then it is [base64 encoded][4].
 
 `username:password => dXNlcm5hbWU6cGFzc3dvcmQ=`
 

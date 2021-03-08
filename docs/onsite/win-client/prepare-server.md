@@ -23,7 +23,7 @@ Make sure the ODBC driver you want to use is installed on the client.
 
 **For Oracle:**
 
-Make sure the the 32-bit version of Oracle Client is installed. Note - we require the Runtime installation. You also need to set up the Local Net Service Name from the Oracle Net Configuration Assistant.
+Make sure the 32-bit version of Oracle Client is installed. Note - we require the Runtime installation. You also need to set up the Local Net Service Name from the Oracle Net Configuration Assistant.
 
 The client installer will install all prerequisites, the .Net framework is a web download so the client needs access to the internet when installed.
 

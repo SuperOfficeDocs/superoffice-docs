@@ -112,7 +112,7 @@ All Oracle users created by SuperOffice will have Default and Temporary tablespa
 A tablespace with this name has to exist to run SuperOffice.
 
 1. Save and close the file  
-1. Restart "Oracle Service" and "Oracle Start" in order to initialize the new settings.
+1. Restart "Oracle Service" and "Oracle Start" to initialize the new settings.
 1. To check the new settings start "Instance Manager" and look into "Initialisation Parameters".
 
 All Oracle users created by SuperOffice will have Default and Temporary tablespace set to `SYSTEM`. The fact that Temporary tablespace is set to *system* for a huge amount of users, may result in that the Tablespace `SYSTEM` will eventually go full. To avoid this please update the tablespace settings for each Oracle-user that is created, using the Storage Manager.

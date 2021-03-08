@@ -28,15 +28,15 @@ When the element is added you can decide how you'll use the Site and Secret keys
 
 ## SuperOffice Online
 
-In SuperOffice Online we, by default, provide you with our default keys. If you do not want to setup your own reCaptcha profile and do not need the statistics, you do not need to fill in anything to the Site key and Secret key. This way the reCaptcha element will work out-of-the-box using our predefined set of keys protecting your form from robots.
+In SuperOffice Online we, by default, provide you with our default keys. If you do not want to set up your own reCaptcha profile and do not need the statistics, you do not need to fill in anything to the Site key and Secret key. This way the reCaptcha element will work out-of-the-box using our predefined set of keys protecting your form from robots.
 
-If you are interested in the reCaptcha statistics, you can make your reCaptcha profile (see below) and enter your own Site key and Secret key. Statistics provide information like Requests passed & failed, Average Score, Sessions completed, Average Response Time (for more info see [https://www.google.com/recaptcha/admin][1].
+If you are interested in the reCaptcha statistics, you can make your reCaptcha profile (see below) and enter your Site key and Secret key. Statistics provide information like Requests passed & failed, Average Score, Sessions completed, Average Response Time (for more info see [https://www.google.com/recaptcha/admin][1].
 
 ![imagehekct.png][img2]
 
 ## SuperOffice Onsite
 
-For SuperOffice Onsite you need to make your own reCaptcha profile and get your Site and Secret key. If you do not want to enter the keys every time to the reCaptcha form element, you can specify them in the web.config for the NetServer used by Service. Then you do not need to give the keys for each form you create.
+For SuperOffice Onsite you need to make your own reCaptcha profile and get your Site and Secret key. If you do not want to enter the keys every time to the reCaptcha form element, you can specify them in the *web.config* file for the NetServer used by Service. Then you do not need to give the keys for each form you create.
 
 For reCaptcha to work in an Onsite installation, the NetServer needs to have access to the Google verification URL (see below). This is used to verify the reCaptcha attempt.
 
@@ -56,25 +56,24 @@ And these lines under the section `<SuperOffice>`:
 </GoogleRecaptcha>
 ```
 
-The above web.config changes need to be done only if you want to specify the keys in the web.config. reCaptcha will work without these but you will have to add the keys to the form each time.
+The above *web.config* changes need to be done only if you want to specify the keys in the file. reCaptcha will work without these but you will have to add the keys to the form each time.
 
-If you add the keys to the web.config you still will be able to overwrite them and add different ones directly to the reCaptcha form element.
+If you add the keys to *web.config*, you still will be able to overwrite them and add different ones directly to the reCaptcha form element.
 
-## How to create Google reCaptcha profile
+## How to create a Google reCaptcha profile
 
 To create custom keys, sign in with a Google account to [https://www.google.com/u/0/recaptcha/admin/create][2].
 
 1. Enter a site label
 2. Select "reCAPTCHA v2"
-3. And then the ""I'm not a robot" Checkbox"
-4. Add the domain. Under "domains", you must insert the domain that the Customer Center (customer.fcgi) is running on, or a parent domain of that sub domain.
+3. And then the "I'm not a robot" checkbox
+4. Add the domain. Under "domains", you must insert the domain that the Customer Center (customer.fcgi) is running on or a parent domain of that sub-domain.
 
 ![imagerlc6j.png][img3]
 
 After you press Submit, your Site key and Secret key will be shown:
 
 ![imagehn8rh.png][img4]
-
 
 <!-- Referenced links -->
 [1]: https://www.google.com/recaptcha/admin

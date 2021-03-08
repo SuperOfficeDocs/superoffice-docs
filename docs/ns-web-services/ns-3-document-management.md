@@ -150,7 +150,7 @@ The example here uses the System.Diagnostics.Process class to open the file. T
 
 ## Download, Edit, and Upload Document Changes
 
-In order to modify a document we will first have to download the document to a temporary folder so that it is available locally for the user to make modifications. Once modified, the temporary file is uploaded to the document archive folder.
+To modify a document we will first have to download the document to a temporary folder so that it is available locally for the user to make modifications. Once modified, the temporary file is uploaded to the document archive folder.
 
 The first step retrieves the document using an Agent instance, IDocumenyAgent. With use of SuperOffice.CRM.Services.AgentFactory, IDocumentAgent object is retrieved. The IDocumentAgent.GetDocumentEntity method is invoked to get a DocumentEntity instance, which contains all properties of the document you are going to download - such as Header, Description, etc.
 

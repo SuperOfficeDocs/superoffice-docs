@@ -24,7 +24,7 @@ OSQL is the heart of NetServer, intercepting and processing all higher-level dat
 
 ## The Early Years
 
-There was a time when OSQL required several lines of verbose coding in order to execute the simplest query. Take the following example that selects all companies that from the United Kingdom, where the UK country ID is 826).
+There was a time when OSQL required several lines of verbose coding to execute the simplest query. Take the following example that selects all companies that from the United Kingdom, where the UK country ID is 826).
 
 ```sql
 SELECT * FROM Contact

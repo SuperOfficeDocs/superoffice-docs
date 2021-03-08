@@ -15,7 +15,7 @@ so.client: web               # online, web, win, pocket, or mobile
 
 # Securing HTTPS configuration on Windows Server
 
-To apply the best practice HTTPS configuration on a Windows server, we can run a Powershell script written by NSM (Nasjonal Sikkerhetsmyndighet). This script will make changes to the Windows registry in order to enable the latest encryption algorithms and disable old and insecure algorithms and ciphers.
+To apply the best practice HTTPS configuration on a Windows server, we can run a Powershell script written by NSM (Nasjonal Sikkerhetsmyndighet). This script will make changes to the Windows registry to enable the latest encryption algorithms and disable old and insecure algorithms and ciphers.
 
 [Download the script from NSMs website][1]
 

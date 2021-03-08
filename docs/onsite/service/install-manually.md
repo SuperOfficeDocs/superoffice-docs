@@ -21,9 +21,9 @@ Installing SuperOffice Sales web client and Service on the same domain under dif
 
 ## Install Service
 
-If the IIS web site is not created, first run the installer for Service (SuperOffice.CustomerService.exe) which is the only installer from SuperOffice that will also create the IIS web sites.
+If the IIS website is not created, first run the installer for Service (SuperOffice.CustomerService.exe) which is the only installer from SuperOffice that will also create the IIS websites.
 
-If the web site is created, then you may create the application first, and just point the path to the default location for Customer Service: *c:\\superoffice*
+If the website is created, then you may create the application first, and just point the path to the default location for Customer Service: *c:\\superoffice*
 
 ![x][img1]
 
@@ -31,7 +31,7 @@ Run the SuperOffice.CustomerService.exe to install the software on the server, d
 
 ![x][img2]
 
-If you upgrade an existing site, do not tick the Create IIS web site since it will cause the installer to fail. , we will create/update the application manually.
+If you upgrade an existing site, do not tick the Create IIS website since it will cause the installer to fail. , we will create/update the application manually.
 
 ![x][img3]
 
@@ -77,7 +77,7 @@ After completing the ejTermSetup you may start up `https://socrm.myorganization.
 
 ## Verify the database registry and config table values
 
-If Service is installed in a sub folder of the domain named service, then
+If Service is installed in a sub-folder of the domain named service, then
 
 `select \* from crm7.registry where reg_id = 109`
 

@@ -51,7 +51,7 @@ In addition, you have a parser variable called "ticket.lastMessage" which will c
 
 ### Email filter
 
-Here you have the possibility to send a reply template to the customer or to another e-mail address. The following parser variables are available:
+Here you have the possibility to send a reply template to the customer or to another email address. The following parser variables are available:
 
 * Company
 * Customer

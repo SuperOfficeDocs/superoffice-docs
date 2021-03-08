@@ -54,7 +54,7 @@ The file name must then be:  So**Contact**Page.config. The postfix ‘page’ m
 
 ### Fragments
 
-Fragments can be reused in multiple pages, but when used in the same page you need to ensure unique ids. This can be done with the use of referenceWithIdUpdate attribute.
+Fragments can be reused in multiple pages, but when used in the same page you need to ensure unique ids. This can be done using referenceWithIdUpdate attribute.
 
 Example of a fragment reference with id update:
 

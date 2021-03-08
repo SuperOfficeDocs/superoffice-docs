@@ -8,4 +8,4 @@ keywords: automation
 
 # SuperOffice Webhooks
 
-No longer must integrations poll SuperOffice and ask for the latest changes. SuperOffice Webhooks actively send messages to subscribers when events occur in a SuperOffice, and provide an opportunity for applications to react accordingly.
+No longer must integrations poll SuperOffice and ask for the latest changes. SuperOffice Webhooks actively send messages to subscribers when events occur in a SuperOffice application and provide an opportunity for applications to react accordingly.

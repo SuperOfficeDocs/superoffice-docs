@@ -72,7 +72,7 @@ To support this functionality for single sign-on scenarios, we have to use an im
 
 The impersonation user must exist in Active Directory but does not need to be a SuperOffice user.
 
-Steps to configure in the web.config file:
+Steps to configure in the *web.config* file:
 
 1. Configure the installation as SSO
 
@@ -80,22 +80,22 @@ Steps to configure in the web.config file:
 
 3. Add a `CustomerService` section in the `SuperOffice` section group:
 
-```xml
-<sectionGroup name="SuperOffice">
-  <section name="CustomerService" type="System.Configuration.NameValueSectionHandler, System, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-...
-```
+    ```xml
+    <sectionGroup name="SuperOffice">
+      <section name="CustomerService" type="System.Configuration.NameValueSectionHandler, System, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+    ...
+    ```
 
 4. Add this section under SuperOffice:
 
-```xml
-<CustomerService>
-  <add key="ImpersonateCsUser" value="True" />
-  <add key="CsUserName" value="" />
-  <add key="CsPassword" value="" />
-  <add key="CsDomain" value="" />
-</CustomerService>
-```
+    ```xml
+    <CustomerService>
+      <add key="ImpersonateCsUser" value="True" />
+      <add key="CsUserName" value="" />
+      <add key="CsPassword" value="" />
+      <add key="CsDomain" value="" />
+    </CustomerService>
+    ```
 
 5. Update the values to be correct for the installation:
 
@@ -109,7 +109,7 @@ Steps to configure in the web.config file:
 ### Single sign-on for Web Tools alone
 
 1. Open IIS Manager.
-2. Select the Services folder in the CRM Web site.
+2. Select the Services folder for the CRM Web site.
 3. Enable Windows Authentication in Authentication. Disable other authentication methods.
 4. Apply the configuration changes related to bindings and WindowsAuth.
 

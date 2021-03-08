@@ -55,10 +55,10 @@ Netserver is always installed, but for some scenarios, we recommend it is instal
 
 14. In the `Globalization` section, choose your country in the **Application country code** if it exists. If not, choose English.
 
-15. Click “Next” on the following sections until you get to the **Finish** button. Click it to create the configuration file. Choose **Encrypt configuration** to encrypt the system user name and password in the web.config file. Click **Finish**.
+15. Click **Next** on the following sections until you get to the **Finish** button. Click it to create the configuration file. Choose **Encrypt configuration** to encrypt the system user name and password in the *web.config* file. Click **Finish**.
 
 16. SuperOffice product configuration for Reporter is opened. Click **Next** on the welcome screen.
 
-17. A 32 bit ODBC system datasource must be available on the server where SuperOffice NetServer is running. Add the name of the ODBC, and include the database prefix, typically CRM7.
+17. A 32-bit ODBC system data source must be available on the server where SuperOffice NetServer is running. Add the name of the ODBC, and include the database prefix, typically CRM7.
 
 18. Click **Finish** to finalize the installation.

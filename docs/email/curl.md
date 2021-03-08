@@ -50,19 +50,19 @@ This can be changed either by a SQL statement (requires access to SQL database)
 
 Error information will appear in each of incoming mail's receiving log and outgoing mail's sending log. This information will in most cases tell what's wrong.
 
-How to open the incoming / outgoing log:
+How to open the incoming/outgoing log:
 
-1. Open **Mailboxes** by cicking on the wrench -> **E-mail**. Note: only available to Admin users.
+1. Open **Mailboxes** by clicking on the wrench -> **E-mail**. Note: only available to Admin users.
 
-![x][img2]
+    ![x][img2]
 
 2. Click on **Inbox for email** / **Outbox for email**
 
-![x][img3]
+    ![x][img3]
 
-Here you will see all items not sent / imported yet. (To also see already sent, check "show sent e-mails" bottom right.)
+    Here you will see all items not sent or imported yet. (To also see already sent, check "show sent emails" bottom right.)
 
-3. Click on an item in this list to open the mail's receiving / sending log.
+3. Click on an item in this list to open the mail's receiving/sending log.
 
 The status, number of attempts, and last error message + possibly a more comprehensive error description below (big red square in picture) will help determine what has gone wrong sending the email.
 

@@ -20,7 +20,7 @@ Most custom (private) applications struggle getting started due to the bare mini
 The biggest hurdles most private applications have include:
 
 * understanding the requirement to conduct an interactive installation
-* setup a web site to handle the redirect URL
+* setup a website to handle the redirect URL
 
 ## Required interactive installation
 
@@ -30,7 +30,7 @@ Even private applications must be granted permission to access tenant resources.
 
 This login sequence is expected to be performed by the private application. Historically this step has required that you understand how to create a web application configured to authenticate using OpenID Connect.
 
-Sometimes it may seem unnecessary, even overwhelming, to build a web site *just* to authenticate with OpenID Connect. However, it’s the only way to establish an authorization contract between your private application and the tenant installation.
+Sometimes it may seem unnecessary, even overwhelming, to build a website *just* to authenticate with OpenID Connect. However, it’s the only way to establish an authorization contract between your private application and the tenant installation.
 
 Nearly all private applications perform their tasks using non-interactive server-to-server communication, and therefore require the system user security token to do so. Because the `system user token` is only generated during the approval process, the only way to get this token is by receiving the `id_token` at the application’s redirect URL.
 

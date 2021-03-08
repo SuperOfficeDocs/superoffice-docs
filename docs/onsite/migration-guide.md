@@ -99,9 +99,9 @@ Contact details of the person performing the migration must be provided.  Th
 
  ![3.png][img8]
 
-All users that shall log in to the migrated customer tenant in SuperOffice CRM Online must have a valid user license.  They must also have a valid e-mail address for logging in.  This e-mail address must be unique.  No other user can have the same e-mail address as such conflict will prevent successful logins to the system.
+All users that shall log in to the migrated customer tenant in SuperOffice CRM Online must have a valid user license.  They must also have a valid email address for logging in.  This email address must be unique.  No other user can have the same email address as such conflict will prevent successful logins to the system.
 
-Both user plans and e-mail address user names must be validated by the migrator before the the customer can be migrated to online.
+Both user plans and email address user names must be validated by the migrator before the the customer can be migrated to online.
 
  ![4.png][img9]
 
@@ -117,17 +117,17 @@ Drag the user to the correct column to choose user plan.  Write a filter cri
 
 Click OK when licenses are assigned.  It is possible to come back to re-assign licenses after the other configuration steps are performed as well.
 
-A valid e-mail address must be selected as user name.  All users must have a unique e-mail address.  Select one of the users existing e-mail addresses or write a new address as appropriate.
+A valid email address must be selected as user name.  All users must have a unique email address.  Select one of the users existing email addresses or write a new address as appropriate.
 
  ![blobid7.png][img12]
 
-If another user has user name e-mail address populated on his person card on the time of migration, it will be removed.
+If another user has user name email address populated on his person card on the time of migration, it will be removed.
 
 Filtering works the same way as on the user plan assignment page
 
  ![blobid8.png][img13]
 
-Click OK when all users are assigned a valid user name e-mail address
+Click OK when all users are assigned a valid user name email address
 
 ![blobid9.png][img14]
 

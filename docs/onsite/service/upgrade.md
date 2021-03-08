@@ -69,7 +69,7 @@ When the installer is done upgrading the files to version 8.0, you need to run t
 
 ![x][img2]
 
-### The web site name
+### The website name
 
 Upgrade will ask you for the IIS site name and will check to see if it exists. This is not the same as the domain name - it is the name of the site in IIS manager.
 
@@ -88,9 +88,9 @@ After configuring FastCGI, Customer Service will generate URLs that end in .fcgi
 
 ### Attachments
 
-Upgrade.exe will want to remap attachment files to sub folders and this might take some time if you have many and/or large files. You can choose to skip this step and run upgrade.exe later if you are not prepared to keep your site down until all your attachment files are moved into place.
+Upgrade.exe will want to remap attachment files to sub-folders and this might take some time if you have many and/or large files. You can choose to skip this step and run upgrade.exe later if you are not prepared to keep your site down until all your attachment files are moved into place.
 
-The attachment folder can potentially have hundreds of thousands of files, which might make it inefficient and difficult to browse manually with a file manager, and we will now store them in sub directories with a maximum of 10.000 files in each. Which folder each file is allocated to depends on the file ID number, the first 10.000 numbers goes into the first folder and so on. This means that there may be less than 10.000 files in any attachment sub folder, if some of the IDs are not in use or if an attachment was deleted. You can opt to delay moving the attachments if you expect it to take a lot of time, so you can unfreeze your Customer Service site quicker. Run upgrade.exe later to complete this process.
+The attachment folder can potentially have hundreds of thousands of files, which might make it inefficient and difficult to browse manually with a file manager, and we will now store them in sub directories with a maximum of 10.000 files in each. Which folder each file is allocated to depends on the file ID number, the first 10.000 numbers goes into the first folder and so on. This means that there may be less than 10.000 files in any attachment sub-folder, if some of the IDs are not in use or if an attachment was deleted. You can opt to delay moving the attachments if you expect it to take a lot of time, so you can unfreeze your Customer Service site quicker. Run upgrade.exe later to complete this process.
 
 <!-- Referenced links -->
 [1]: ../crm-server/upgrade-to-8.md
