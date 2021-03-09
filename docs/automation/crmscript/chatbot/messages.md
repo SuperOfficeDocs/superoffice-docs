@@ -43,6 +43,50 @@ Input values:
 * `chatTopic.id`
 * `chatTopic.botName`
 
+The bot script can call a web service for help, or do its own text processing in the script.
+The bot script should post a response message.
+
+Response messages may be just text, or can include special response types, like options and links.
+
+In addition to the bot script, these things also happen:
+
+* All CrmScript triggers defined for the **Chat Message Received** event are run.
+* Webhooks for **chatSession.message** are dispatched.
+
+Note that the triggers and webhooks are fired for both incoming and outgoing messages, while the bot scripts are only fired for incoming messages.
+
+
+### Example
+
+```crmscript
+#setLanguageLevel 3;
+
+EventData ed = getEventData();
+String botName = ed.getInputValue("chatTopic.botName");
+Integer sessionId = ed.getInputValue("chatMessage.sessionId").toInteger();
+String message   = ed.getInputValue("chatMessage.message");
+Integer toCustomer = 1;
+Bool human = false;
+Bool stop = false;
+
+if( message == "human" )
+{
+   message = "Transferring to human...";
+   human = true;
+}   
+else if( message == "stop" || message == "quit" )
+{
+   message = "Bye bye - closing chat.";
+   stop = true;
+}
+else message = "Echo " + message;
+
+addChatMessage(sessionId, message, toCustomer, botName, 0, "" );
+
+if( human )   resetChat(sessionId);
+if( stop )   setChatStatus(sessionId, 7); // 7 = closed
+```
+
 ### Chat Message types
 
 * ToCustomer = 1,

@@ -42,3 +42,7 @@ When a session starts on a channel with a chatbot:
 * Then the `bot session change` script is called.
 * Then the `bot message receive` script is called once for each message received.
 * Repeat until completed
+
+A script can hand off a chat session to a human by calling `resetChat(sessionId)`.
+
+It can end a session by setting it to closed: `setChatStatus(sessionId, 7);`  (7 = closed).

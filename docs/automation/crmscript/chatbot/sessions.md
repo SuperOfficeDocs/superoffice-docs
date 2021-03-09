@@ -15,11 +15,10 @@ Sessions are created when a customer connects to the chat service.
 
 Depending on how the channel is configured, the initial state may be "in queue" or "pre-chat-form".
 
-When a bot is active, the bot script takes over, and the message is not shown in the queue. The bot prevents the session
-from going to the offline form state, since the bot is always present.
+When a bot is active, the bot script takes over, and the message is not shown in the queue. 
+The bot prevents the session from going to the offline form state, since the bot is always present.
 
 When the bot hands off the session to humans, the session may go to `offline` status because there are no humans available.
-
 
 ## Bot Session Created 
 
@@ -48,6 +47,25 @@ This keeps the session off the queue.
 
 If you do nothing, then the session go to the queue, waiting for a human - or to the pre-chat form (if configured).
 
+In addition to the bot script, these things also happen:
+
+* all CrmScript triggers defined for the **Chat Session Created** event are run.
+* webhooks for **chatSession.created** are dispatched.
+
+### Example
+
+```crmscript
+#setLanguageLevel 3;
+
+EventData ed = getEventData();
+String botName = ed.getInputValue("chatTopic.botName");
+Integer sessionId = ed.getInputValue("chatSession.id").toInteger();
+Integer toCustomer = 1;
+
+String message = "Welcome human. Say 'human' to transfer. Say 'quit' to end session.";
+addChatMessage(sessionId, message, toCustomer, botName, 0, "" );
+```
+
 ## Bot Session Changed
 
 This script is called when session changes status - i.e. when pre-form is filled in by customer.
@@ -68,6 +86,12 @@ Input values
 Variables `status.old` and `status.new` contain old and new values for chat session status.
 
 The bot can add messages to sign off, or do other tasks.
+
+In addition to the bot script, these things also happen:
+
+* all CrmScript triggers defined for the **Chat Session Changed** event are run.
+* webhooks for **chatSession.changed** are dispatched.
+
 
 ### Chat session status values
 
@@ -90,6 +114,11 @@ Call `resetChat(sessionId)` for the bot to hand off the session to humans.
 This will trigger either the in-queue state, or the offline-form, depending on the
 availability of humans.
 
+When the session has been handed off, the bot scripts are not called any more.
+The session is marked with 'botActive' = false, which blocks further calls to the bot scripts.
+
+The generic CrmScript triggers for chat will continue to fire, as well as the webhooks. 
+
 ## Ending a session
 
 Call `setChatStatus(sessionId, 7)` to end the session.
@@ -97,3 +126,4 @@ Call `setChatStatus(sessionId, 7)` to end the session.
 ```crmscript
    setChatStatus(sessionId, 7); // 7 = closed
 ```
+

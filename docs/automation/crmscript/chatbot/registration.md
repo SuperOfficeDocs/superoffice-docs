@@ -48,3 +48,11 @@ changes to the folder until the chatbot registration is changed. If you register
 and then add a new script `bot message received` to the folder, it won't call the new script
 until you deactivate the chatbot and re-activate it. This will trigger a new scan of the folder,
 and pick up the new id.
+
+### Example
+
+```crmscript
+#setLanguageLevel 3;
+String action = getEventData().getInputValue("action");
+log("Echobot registered called: " + action);
+```
