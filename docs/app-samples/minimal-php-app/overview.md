@@ -41,7 +41,7 @@ Selecting to create a new company, regardless of the option to use the logged in
 
 A [system user token][1] is unique for each application authorization in a tenant and will remain the same for the lifetime of the application.
 
-A **system user ticket** is only good for a short period of time. Therefore, your application must expect to operate as demonstrated for batch operations. When communicating with a tenant on a periodic basis, you must obtain a new system user ticket prior to accessing the tenant web services again.
+A **system user ticket** is only good for a short period of time. Therefore, your application must expect to operate as demonstrated for batch operations. When communicating with a tenant on a periodic basis, you must obtain a new system user ticket before accessing the tenant web services again.
 
 ## JWT and SAML signature verification
 

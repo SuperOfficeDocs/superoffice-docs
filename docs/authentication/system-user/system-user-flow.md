@@ -34,7 +34,7 @@ High-level intro to system user flow for non-interactive server-to-server commun
 
     * It's up to the application to securely store the system user token
 
-4. [Exchange system user token for system user ticket][8] prior to each interactive session with the tenant web services. The ticket is short-lived and will only last a few hours.
+4. [Exchange system user token for system user ticket][8] before each interactive session with the tenant web services. The ticket is short-lived and will only last a few hours.
 
 5. Let the application go about its business chatting with the SuperOffice web services using the ticket as credentials.
 

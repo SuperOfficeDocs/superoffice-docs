@@ -50,7 +50,7 @@ Thankfully [these are shared on github][5], as with example applications that de
 
 ### Prerequisite
 
-Prior to authentication, regardless if it is **interactive** (*user*) or **non-interactive** (*server-to-server*) authentication, an application must be granted access to a tenant's web service endpoints.
+Before authentication, regardless if it is **interactive** (*user*) or **non-interactive** (*server-to-server*) authentication, an application must be granted access to a tenant's web service endpoints.
 
 Granting an application access rights is also referred to as consent or authorization.
 

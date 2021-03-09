@@ -39,7 +39,7 @@ The Identity Manager is a clean, web-based user interface for SCIM identity mana
 
 * Number of available Azure AD users
 * Number of users synchronized to SuperOffice
-* Name and username of each Azure AD user and the access-control related settings that will be applied to each of them given the current ruleset
+* Name and username of each Azure AD user and the access control-related settings that will be applied to each of them given the current ruleset
 
 ![SCIM UI preview tab][img3]
 

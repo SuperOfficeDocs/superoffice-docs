@@ -56,7 +56,7 @@ The setup is the first experience your customer has with your application. **Ea
 * The installation process must be straightforward and easy to perform by the customer administrator.
   * Once set up the application should be visible or the customer administrator should get information about what needs to be done to get it visible. (See grouping and filtering)
 * Create a complete **uninstall** feature that ensures complete removal of your application and all settings associated with it:
-  * SuperOffice related (user-defined fields, web panels, buttons, and preferences).
+  * SuperOffice-related (user-defined fields, web panels, buttons, and preferences).
   * Make sure the application will clean up all configuration data in the database when the application is uninstalled.
 
 ### Release strategy

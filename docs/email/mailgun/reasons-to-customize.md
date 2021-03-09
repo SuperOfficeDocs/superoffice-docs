@@ -21,15 +21,15 @@ Feedback from customers that leads to the need for customization is related main
 
 Customers do not like this because:
 
-Data is processed and stored outside EU and even if Mailgun Inc is Privacy Shield compliant and have signed a DPA with SuperOffice, and they object on a principal basis.
+Data is processed and stored outside the EU and even if Mailgun Inc is Privacy Shield compliant and has signed a DPA with SuperOffice, and they object on a principal basis.
 
- What can we do to mitigate this? The default Mailgun service for new customers is now located in EU. For older customers who already are set up to use Mailgun service in the US, can later this year change to EU.
+What can we do to mitigate this? The default Mailgun service for new customers is now located in the EU. For older customers who already are set up to use Mailgun service in the US, can later this year change to EU.
 
 ## Some customers are not happy with some security risk involved in using this kind of mailing service (SPF, DKIM)
 
 Customers do not like this because:
 
-SPF does not provide 100% security for the authenticity of outgoing emails. It does not prevent another crooked Mailgun customer to manipulate an email-senders address. The way mailing services (in general, not only Mailgun) is designed to perform and provide scalability and economies of scale, makes it currently not possible to close this vulnerability. It might not be a big issue, but some of our professional customers are aware of this and do not accept the risk. So we have to find another solution.
+SPF does not provide 100% security for the authenticity of outgoing emails. It does not prevent another crooked Mailgun customer to manipulate an email-senders address. The way mailing services (in general, not only Mailgun) are designed to perform and provide scalability and economies of scale, makes it currently not possible to close this vulnerability. It might not be a big issue, but some of our professional customers are aware of this and do not accept the risk. So we have to find another solution.
 
 ## What can we do to mitigate this?
 
@@ -37,9 +37,9 @@ Let’s look at the possible ways we can change the setup to meet the arguments.
 
 ### Outgoing emails created by the mailings module in SuperOffice can be sent to another email-server than Mailgun
 
-In our standard configuration, the mail is sent to Mailgun using an URL registered as a setting in CRM Online Operation Center. This URL can manually be changed (by Operations) and route all outgoing email to another email-service (i.e. customers standard or another mass mailing service).
+In our standard configuration, the mail is sent to Mailgun using an URL registered as a setting in CRM Online Operation Center. This URL can manually be changed (by Operations) and route all outgoing emails to another email-service (customer's standard or another mass mailing service).
 
-This change will affect where the emails are processed and stored, and if the new email-service in controlled by the customer, it removes the SPF challenge.
+This change will affect where the emails are processed and stored, and if the new email-service is controlled by the customer, it removes the SPF challenge.
 
 ### The best solution for using email together with SuperOffice Online is to use the email addresses we supply as part of the mailing-service
 
@@ -62,7 +62,7 @@ Let’s remind ourselves and our customers why the Mailgun – service does a go
 * Mass mailing capacity and cost
     A company mail server may have limitations related to no. of emails outgoing (typically mass emails). In addition, it might affect performance, stability, administration, and both direct and operational cost.
 * Support and maintenance
-    Mailgun is an integrated part of the SuperOffice CRM Online concept. In terms of operation, upgrades, support, and knowledge. It is 100% managed by SuperOffice. Customers taking responsibility for running their own mail-server will represent a custom integrated solution that will have an effect on the mentioned areas.
+    Mailgun is an integrated part of the SuperOffice CRM Online concept. In terms of operation, upgrades, support, and knowledge. It is 100% managed by SuperOffice. Customers taking responsibility for running their own mail-server will represent a custom integrated solution that will affect the mentioned areas.
 
 ### Pros
 

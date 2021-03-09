@@ -90,7 +90,7 @@ Settings related to logging.
 
 | Parameter | Description |
 |-----------|-------------|
-| EnableScaffolding | Boolean value determines whether to log verbose, detailed, information. Default off, only turn on for extended debugging, and do turn this off later. |
+| EnableScaffolding | Boolean value determines whether to log verbose, detailed, information. Default off, only turn on for extended debugging and do turn this off later. |
 | EnableStackTracing | Should stack traces be collected by various events |
 | LogError | Boolean value determines whether to log all error messages. Default = True |
 | LogFailureAudit | Boolean value determines whether to log when an access failure occurs/failed authentications (default 'True') |
@@ -145,7 +145,7 @@ The *Database* section relates to location and database-vendor-specific settin
 | ConnectionString | String value representing the connection string. |
 | DatabaseMajor | String value representing the database. MSSQL and Oracle |
 | DatabaseMinor | Integer value representing the version number of Database |
-| DatabaseName | String value representing the name of the database. Also used for distinct service name. |
+| DatabaseName | String value representing the name of the database. Also used for the distinct service name. |
 | Server | String value representing the computer or server name where the database resides. |
 | TablePrefix | String value representing the prefix of the SuperOffice CRM tables in the database. |
 
@@ -189,7 +189,7 @@ The Documents section exposes seven settings related to SuperOffice documents. I
 | ArchivePath | String value representing the path to the SO\_ARC directory. The default template path is calculated from this folder if not set. |
 | ArchiveUser | String value representing the ArchiveUsers domain name. |
 | ArchiveDomain | String value representing the domain of the user to impersonate with |
-| BufferSize | Integer value representing the internal buffer size in KB. Default buffer size is 32KB. |
+| BufferSize | Integer value representing the internal buffer size in KB. The default buffer size is 32KB. |
 | ImpersonateUser | True if impersonate is turned on. If So\_arc is located on a different server in the domain you need to turn this on. The impersonate user will also be used to write filestreams to the temp area during document |
 | TemplatePath | String value representing the UNC path of template folder. (Optional) - if not set defaults to archivepath + \\Template |
 | TemporaryPath | Temporary folder for working with documents. String value representing the temp directory for streaming files (must resolve to the same location for farms/clusters). |

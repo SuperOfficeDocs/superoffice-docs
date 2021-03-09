@@ -34,13 +34,13 @@ When the user signs in to a service, instead of providing credentials to the ser
 Today we support 2 different 3rd-party identity providers:
 
 * Google Domains
-  * Basic, Business and Enterprise of G Suite subscriptions include this
+  * Basic, Business, and Enterprise of G Suite subscriptions include this
 * Microsoft Azure AD (AAD)
-  * Many of Office365 / Microsoft 365 subscriptions include this
+  * Many Office365 / Microsoft 365 subscriptions include this
   * Azure AD Premium P1 or higher.
 
 >[!NOTE]
-> For other identity providers who supports OpenID Connect/OAuth 2.0., please give your feedback, and we will look into adding support for it.
+> For other identity providers that support OpenID Connect/OAuth 2.0., please give your feedback, and we will look into adding support for it.
 
 Other ways of achieving this can be to use:
 
@@ -49,13 +49,13 @@ Other ways of achieving this can be to use:
   * [microsoft.com - what-is-hybrid-identity][4]
     * If you don't have a Microsoft365 subscription, you probably need Azure AD Premium P1 or higher.  
         Consult Microsoft for cost and other considerations for setting up a Hybrid Identity.
-* **Google Cloud Directory Sync**: sync from other system to Google
+* **Google Cloud Directory Sync**: sync from another system to Google
 
 ## Do I set it for all or for individual users?
 
 The **use of IDP as the authentication method** is enabled/registered per domain name.
 
-Users who have a SuperOffice username corresponding to this domain name will be automatically redirected to identity provider when logging in.
+Users who have a SuperOffice username corresponding to this domain name will be automatically redirected to the identity provider when logging in.
 
 To be able to authenticate with your identity provider, your SuperOffice username needs to match your User Principal Name (UPN) at your identity provider.
 
@@ -73,7 +73,7 @@ If you answer *yes* to both questions, the federated identity is used. Otherwis
 
 It is easier for the user to sign in and it increases the security of your identity management solution.
 
-* **Simplified sign-in:** uses your existing Microsoft or Google credentials. No SuperOffice password required.
+* **Simplified sign-in:** uses your existing Microsoft or Google credentials. No SuperOffice password is required.
 * **Automatic sign-in** if you have an active browser session (if supported by the IdP!)
 * Multi-factor authentication (**MFA**) / Two-factor authentication (2FA) / Two-step verification (if supported by the IdP!)
 * **Leaner identity management** in the SuperOffice Admin client: entering the federated ID (UPN) will save you from typing in details.

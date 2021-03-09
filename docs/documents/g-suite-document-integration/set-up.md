@@ -107,7 +107,7 @@ Click **Continue**.
 
 If you are not logged into the G Suite account - you will be redirected to do so.
 
-If you have failed to register IDP correctly prior to this, you may get a warning both "This app has not been verified by google" and "SuperOffice.com wants to access your Google account". You may approve and continue.
+If you have failed to register IDP correctly before this, you may get a warning both "This app has not been verified by google" and "SuperOffice.com wants to access your Google account". You may approve and continue.
 
 ![image5avtq.png][img3]
 

@@ -129,7 +129,7 @@ This controller leverages the `SystemUserHelper` class, and then redirects the r
 
 ### Private key
 
-The private key (*partnerprivatekey.xml*) is responsible for signing the system user token prior to sending a request to receive a system user ticket from SuperID.
+The private key (*partnerprivatekey.xml*) is responsible for signing the system user token before sending a request to receive a system user ticket from SuperID.
 
 This happens in step 8 of [our scenario][9].
 

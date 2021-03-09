@@ -20,7 +20,7 @@ SuperOffice REST WebAPI services available from version 8.1.
 
 ## Introduction
 
-Representational State Transfer (REST) it is an architectural pattern penned by Roy Fielding for creating an HTTP-based APIs. There are no shortage of articles online that discuss what REST is, how it's been interpreted and how it's been implemented on various platforms, and therefore will not be discussed here. This article will focus primarily how to use consume SuperOffice REST resources, set required authentication headers, and describe how a request URL, body and response body should appear and behave.
+Representational State Transfer (REST) is an architectural pattern penned by Roy Fielding for creating an HTTP-based APIs. There are no shortage of articles online that discuss what REST is, how it's been interpreted and how it's been implemented on various platforms, and therefore will not be discussed here. This article will focus primarily on how to use consume SuperOffice REST resources, set required authentication headers, and describe how a request URL, body, and response body should appear and behave.
 
 ## Configuration
 
@@ -34,7 +34,7 @@ In IIS, navigate to the application hosting SuperOffice web client or NetServer.
 
 In the Handler Mappings view, locate and double-click to the **ExtensionlessUrlHandler-Integrated-4.0** entry. The **Edit Managed Handler** dialog will appear. Click the **Request Restrictions** button in the Edit Managed Handler dialog to open the Request Restrictions dialog.
 
-Click to view the **Verbs** tab in the Request Restrictions dialog . Next click the **All Verbs** option, then click **OK** to close the dialog. Close the remaining dialogs and close to exit the IIS manager.
+Click to view the **Verbs** tab in the Request Restrictions dialog. Next click the **All Verbs** option, then click **OK** to close the dialog. Close the remaining dialogs and close to exit the IIS manager.
 
 **IIS Manager Handler Mappings:**
 
@@ -54,7 +54,7 @@ Next, disable Basic Authentication on the SuperOffice web application. Select th
 
 ![x][img3]
 
-With Basic Authentication configured this way, any valid SuperOffice user is able to navigate to the REST URLs and invoke a request. To test these settings, navigate to the application's URL and attempt to get the contact where contact ID equals 1. Do that by navigating in a browser to `http://superoffice80/api/v1/contact/1` and this should result with a Credentials dialog prompting for a username and password. Any valid SuperOffice username works.
+With Basic Authentication configured this way, any valid SuperOffice user can navigate to the REST URLs and invoke a request. To test these settings, navigate to the application's URL and attempt to get the contact where contact ID equals 1. Do that by navigating in a browser to `http://superoffice80/api/v1/contact/1` and this should result in a Credentials dialog prompting for a username and password. Any valid SuperOffice username works.
 
 ### NetServer Configuration
 
@@ -116,7 +116,7 @@ This gets us some meta-data about the API without logging in, and an indication 
 
 ## Authentication
 
-SuperOffice NetServer, only supports **the following first two** authentication mechanisms.
+SuperOffice NetServer only supports **the following first two** authentication mechanisms.
 
 1. BASIC
 2. SOTicket
@@ -150,7 +150,7 @@ Use the HTTP <code>Authenticate</code> header to log in.<br/>
 <p>BEARER scheme with OAuth access token AbCXyz123== returned from SuperId.</p>
 ```
 
-The `Authorization` header specifies the authentication mechanism, in this case *Basic*, followed by the username and password. Although, the string `aHR0cHdhdGNoOmY=` may look encrypted it is not. It is a base64 encoded version of `<username>:<password>`.
+The `Authorization` header specifies the authentication mechanism, in this case, *Basic*, followed by the username and password. Although, the string `aHR0cHdhdGNoOmY=` may look encrypted it is not. It is a base64 encoded version of `<username>:<password>`.
 
 If the web application calling SuperOffice REST services already has a current users' ticket, which may have been passed to the web application as a template variable in a SuperOffice web panel, the request could use the *SOTicket* authentication mechanism instead of *Basic*.
 
@@ -203,11 +203,11 @@ Given an HTML form that contains three text box controls for: username, password
 </script>
 ```
 
-Notice how the setRequestHeader method takes two arguments, the Authorization key and the authentication mechanism. Note that the [btoa(...)  method][3] base64 encodes a string. It's not something we've created. but built into the browsers window class and supported by all browsers. There is also the atob(...) method which decoded a base64 encoded value to a normal string.
+Notice how the setRequestHeader method takes 2 arguments: the Authorization key and the authentication mechanism. Note that the [btoa method][3] base64 encodes a string. It's not something we've created. but built into the browser's window class and supported by all browsers. There is also the `atob` method which decoded a base64 encoded value to a normal string.
 
 ### XSRF Token
 
-The [XSRF token][4] only works when code exists in the client and is able to execute on the same domain. This is used by the client to stop **cross site request forgery**. The XSRF token is accessible in the cookie or a hidden input field on the web client, called XSRF\_TOKEN. With the token, calls can be made the web api without an authenticate header - use the **X-XSRF-TOKEN** header instead. The xsrf value is set on login. It does not change until the next login.
+The [XSRF token][4] only works when code exists in the client and is able to execute on the same domain. This is used by the client to stop **cross-site request forgery**. The XSRF token is accessible in the cookie or a hidden input field on the web client, called XSRF\_TOKEN. With the token, calls can be made to the web API without an authenticate header - use the **X-XSRF-TOKEN** header instead. The xsrf value is set on login. It does not change until the next login.
 
 That's pretty much all there is to know for SuperOffice REST services authentication. Now lets' focus on how to create, read, update and delete known entities.
 
@@ -219,13 +219,13 @@ The SuperOffice REST API depends on the SuperOffice SOAP service layer. The Sup
 
 ![x][img4]
 
-This means that when you ask for resources using the REST API, the framework is actually calling into the NetServer web services API for executing the request. Take the following resource request for example.
+This means that when you ask for resources using the REST API, the framework is calling into the NetServer web services API for executing the request. Take the following resource request for example.
 
 ```http
 GET /api/v1/Appointment/123
 ```
 
-Underneath the covers, this call is actually invocating the AppointmentAgent GetAppointmentEntity web service method. The following example displays a few more examples how the API calls into NetServers web service infrastructure.
+Underneath the covers, this call is actually invocating the AppointmentAgent GetAppointmentEntity web service method. The following example displays a few more examples of how the API calls into NetServers web service infrastructure.
 
 **Example REST resources and Wcf method invocations:**
 
@@ -244,7 +244,7 @@ Navigate to the **API root** and see available REST service versions.
 
 ![imagebr9pi.png][img5]
 
-While you can click on the links in the page to view the REST API endpoints, we recommend you use the published REST documentation here for the pure [REST API][4]; and one for the [RESTful Agents API][6].
+While you can click the links on the page to view the REST API endpoints, we recommend you use the published REST documentation here for the pure [REST API][4]; and one for the [RESTful Agents API][6].
 
 ![image09ess.png][img6]
 
@@ -320,7 +320,7 @@ Use an ampersand to separate query options, just like you might do with URL quer
 ../api/v1/contact/?$select=name, department&$filter=name begins 'S'&$orderby=name&$top=2
 ```
 
-SuperOffice supports a variety of restriction operators. Certain operators work only one, or more, data types. For example, while 'is' will work for with operands of type integer and string, it will not work with data types of date or list. Below are the most common operators used in constructing filters.
+SuperOffice supports a variety of restriction operators. Certain operators work only one, or more, data types. For example, while *is* will work with operands of type integer and string, it will not work with data types of type date or list. Below are the most common operators used in constructing filters.
 
 **OData Filter Expressions - OData datatype:**
 
@@ -387,14 +387,14 @@ SuperOffice supports a variety of restriction operators. Certain operators work 
 
 Query fields in NetServer archives contain a forward slash separation character. For example:
 
-```http
+```text
 streetAddress/addressId
 streetAddress/line1
 streetAddress/line2
 streetAddress/line3
 ```
 
-When used in OData queries, use three underscore character instead. For example:
+When used in OData queries, use 3 underscore characters instead. For example:
 
 ```http
 ../api/v1/contact/?$select=nameDepartment, category, postAddress___city, code&$top=2
@@ -426,11 +426,11 @@ When used, the implicit filter is an easy way to drill into related entities. Fo
 /api/v1/Contact/123/Sales
 ```
 
-Each one of the examples will return the related entities for contact with contactId equal to 123.
+Each one of the examples will return the related entities for contact with `contactId` equal to 123.
 
 ## Binary Data
 
-Person, Project and Product Image data is just content that can be GET or POST without the need to wrap it in XML. For example:
+Person, Project, and Product Image data is just content that can be GET or POST without the need to wrap it in XML. For example:
 
 ```http
 /api/v1/Person/123/image
@@ -450,7 +450,7 @@ GET takes the following extra parameters:
 * Type=JPEG or PNG or GIF
 * ifBlank=ClearPixel or SrNoPhoto
 
-The width and height parameters will scales image to a specified size.
+The width and height parameters will scale the image to a specified size.
 
 The type parameter returns the desired image format.
 
@@ -460,7 +460,7 @@ The `ifBlank` parameter will return with a transparent 1x1 px png, or an image t
 
 ### Upload Example
 
-This example uses the below form, which using a multipart/form-data enctype to upload an image to the project. It specifies a default project identity of 23, but will update the projectId when something else is typed into the project Id input field. The chose file button opens a select image file dialog, permitting the user to select an image. When the Upload Project Image button is clicked, the forms' onsubmit event is raised and updates the action URL with the current project identity.
+This example uses the below form, which using a multipart/form-data enctype to upload an image to the project. It specifies a default project identity of 23 but will update the `projectId` when something else is typed into the project Id input field. The chose file button opens a select image file dialog, permitting the user to select an image. When the Upload Project Image button is clicked, the forms' onsubmit event is raised and updates the action URL with the current project identity.
 
 **Example upload form:**
 
@@ -531,7 +531,7 @@ Once the form has been successfully submitted, and the REST services have comple
 
 ## Conclusion
 
-SuperOffice REST services adds another API surface to the NetServer real estate, offering a great deal of information in a highly desired format. Although incomplete, it should suffice for a majority of REST consumers, and will evolve as demand increase.
+SuperOffice REST services add another API surface to the NetServer real estate, offering a great deal of information in a highly desired format. Although incomplete, it should suffice for a majority of REST consumers and will evolve as demand increase.
 
 Take your time getting to know SuperOffice REST services, and if you happen to stumble into an area that lacks support, please submit an email to sdk@superoffice.com with your API wishes.
 <!-- Referenced links -->

@@ -49,7 +49,7 @@ We are working on a stricter naming scheme to prevent this problem: **In the fu
 
 **Problem:**
 
-Our consultants typically have users in many tenants. For them, the 1st tenant they got a user account in will be their primary tenant. If the customer's admin renames this user, the **SuperID username of the consultant is changed** and can possibly block all further access.
+Our consultants typically have users in many tenants. For them, the 1st tenant they got a user account in will be their primary tenant. If the customer's admin renames this user, the **SuperID username of the consultant is changed** and can block all further access.
 
 **Solution:**
 

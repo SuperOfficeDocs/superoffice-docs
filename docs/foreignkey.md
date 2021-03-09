@@ -58,7 +58,7 @@ or
 ["appName"]["deviceId", "deviceName"]["key"].Value
 ```
 
-The indexing works via three classes, intuitively called ForeignApp, ForeignDevice, and ForeignKey. You can start off with creating a new instance of a ForeignApp, and then drilling all the way down to a foreign key by indexes.
+The indexing works via three classes, intuitively called ForeignApp, ForeignDevice, and ForeignKey. You can start with creating a new instance of a ForeignApp, and then drilling all the way down to a foreign key by indexes.
 
 ```csharp
 ForeignApp fh = new ForeignApp();

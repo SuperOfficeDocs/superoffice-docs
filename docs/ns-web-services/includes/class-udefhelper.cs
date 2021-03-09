@@ -200,7 +200,7 @@ namespace DevNet.Util
 
         /// Gets a UDFInfo structure with all of the objects necessary to conduct one or more UDF lookups.
 
-        /// Calling this prior to GetUdfField is favorable towards performance.
+        /// Calling this before GetUdfField is favorable towards performance.
 
         ///
 
@@ -581,7 +581,7 @@ namespace DevNet.Util
 
         /// Sets a user-defined field. Should be used after GetUDFInfo has been called.
 
-        /// Make sure to set the FieldValue prior to calling this method.
+        /// Make sure to set the FieldValue before calling this method.
 
         ///
 
@@ -590,7 +590,7 @@ namespace DevNet.Util
 
         /// FieldInfo objects (Retreived by first populating a UDFIndo struct by using the
 
-        /// method. Make sure to set the FieldValue prior to 
+        /// method. Make sure to set the FieldValue before 
         ///calling this method.
 
         ///Return 1 if the value was updated. Returns 2 is the field was new 
@@ -660,7 +660,7 @@ namespace DevNet.Util
 
         /// Sets a user-defined field. Should be used after GetUDFInfo has been called.
 
-        /// Make sure to set the FieldValue prior to calling this method.
+        /// Make sure to set the FieldValue before calling this method.
 
         ///
 

@@ -28,9 +28,9 @@ SuperOffice CRM Web supports single sign-on using Windows Authentication.
 * You should now be able to test with your browser to see if SSO works for users.
 * To enable SSO with Mail Link and TrayApp, you will need to change the protocolMapping to use WindowsAuth in the *web.config* file.
 
-You will need to add the site to trusted sites in IE if you are using IE and if IE thinks that the site is not local intranet. Other browsers don't need configuration to give an SSO experience.
+You will need to add the site to trusted sites in IE if you are using IE and if IE thinks that the site is not on local intranet. Other browsers don't need configuration to give an SSO experience.
 
-Testing SSO on the same server as SuperOffice usually fails. Accessing the site from internet will prompt the user for credentials since the KDC is unavailable.
+Testing SSO on the same server as SuperOffice usually fails. Accessing the site from the internet will prompt the user for credentials since the KDC is unavailable.
 
 ## Single sign-on with Windows authentication
 
@@ -47,12 +47,12 @@ The following process is carried out when a windows user is automatically signed
 1. Open Server Manager
 2. Make sure Windows Authentication is checked.
 
-![imagegb896.png][img1]
+    ![imagegb896.png][img1]
 
 3. Open Internet Information Server (IIS) Manager.
 4. Select the SuperOffice CRM Web site again and double-click on the **Authentication** Feature:
 
-![imagef1ptl.png][img2]
+    ![imagef1ptl.png][img2]
 
 5. Make sure that only Windows Authentication is enabled. We do not recommend other authentication methods such as Basic and Digest.
 

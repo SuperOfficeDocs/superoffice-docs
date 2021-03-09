@@ -17,7 +17,7 @@ so.envir: onsite # cloud or onsite
 
 Core configuration of Service.
 
-Used for connecting to NetServer, the database and putting your service installation in maintenance mode.
+Used for connecting to NetServer, the database, and putting your service installation in maintenance mode.
 
 ## Example of a config file
 
@@ -54,13 +54,13 @@ Password for the username used when connecting to the SuperOffice database.
 
 ### dbType
 
-Type of database, for example mssql or oracle.
+Type of database, for example, MSSQL or Oracle.
 
 ### nsUser
 
 Username for connecting to NetServer. This username defaults to ejSysUser and has a randomly generated password upon installation.
 
-The user needs to have the type "System user" and an "Active" login under "Users"->"Other users" in your admin client. Be aware that "Other users" is only accessible when logging into the web admin client with a system user, i.e. crm7.
+The user needs to have the type "System user" and an "Active" login under "Users"->"Other users" in your admin client. Be aware that the "Other users" type is only accessible when logging into the web admin client with a system user (crm7).
 
 You might want to change this password if you had to recreate your Service installation and the newly randomized password in the config file is not identical to the one stored in the database.
 
@@ -79,12 +79,12 @@ Same as above, but used for anonymous access
 ### nsEndPoint
 
 Resolvable URL for your NetServer installation. Running [upgrade.exe][1] will automatically set the correct Services version, but below is an overview.
-Please note that Service still does not support running https on the NetServer it uses. See our [recommended scenario #2][2] on how to use reverse proxy to secure the installation but make sure the endpoint for Service inside is using http.
+Please note that Service still does not support running HTTPS on the NetServer it uses. See our [recommended scenario #2][2] on how to use a reverse proxy to secure the installation but make sure the endpoint for Service inside is using HTTP.
 
 ### defaultContact
 
 Should always be an integer with the ID of the company owner card in your crm7.contact table.
-In most scenarios this should be 2 (SuperOffice having ID 1), but in some older installations the owner card can be 1.
+In most scenarios, this should be 2 (SuperOffice having ID 1), but in some older installations, the owner card can be 1.
 
 ### frozen
 

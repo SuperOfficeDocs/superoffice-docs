@@ -15,15 +15,15 @@ so.envir: onsite                # cloud or onsite
 
 # Compatibility reports
 
-The compatibility test reports published. A "Test Passed" status is a 90% assurance that this product will work as intended in the environment tested.
+The published compatibility test reports. A "Test Passed" status is a 90% assurance that this product will work as intended in the environment tested.
 
-We make the compatibility reports when other vendors release newer versions after our release. This is where you see if for example a new version of Internet Explorer is compatible with the current releases of SuperOffice. You can also check out the [system requirements][1].
+We make the compatibility reports when other vendors release newer versions after our release. This is where you see if, for example, a new version of Internet Explorer is compatible with the current releases of SuperOffice. You can also check out the [system requirements][1].
 
 ## MacOS Big Sur
 
 ![mac-os-big-sur.jpg][img1]
 
-We have tested WebTools for Mac 11.4.7460.1008 on MacOS ‘Big Sur’. We’ve conducted the test on Big Sur Beta release as the final RTM is not yet released. No issues found during testing. Report made September 29th 2020.
+We have tested WebTools for Mac 11.4.7460.1008 on MacOS ‘Big Sur’. We’ve conducted the test on Big Sur Beta release as the final RTM is not yet released. No issues were found during testing. The report was made on September 29th 2020.
 
 [Report (\*.xlsx)][2]
 
@@ -31,7 +31,7 @@ We have tested WebTools for Mac 11.4.7460.1008 on MacOS ‘Big Sur’. We’ve c
 
 ![safari14.jpg][img2]
 
-We have tested SuperOffice 9.1 R03 Web and Service with Safari 14 browser on MacOS ‘Big Sur’. We’ve conducted the test on Big Sur Beta release as the final RTM is not yet released. We found several UI related bugs both in Web and Service clients and logged in TFS (Web: 75607, 75606, 75608, Service: 75360, 75309). None of them are considered critical, hence we conclude the test as ‘Passed’. Report made September 29th 2020.
+We have tested SuperOffice 9.1 R03 Web and Service with Safari 14 browser on MacOS ‘Big Sur’. We’ve conducted the test on Big Sur Beta release as the final RTM is not yet released. We found several UI-related bugs both in Web and Service clients and logged in TFS (Web: 75607, 75606, 75608, Service: 75360, 75309). None of them are considered critical, hence we conclude the test as ‘Passed’. The report was made on September 29th 2020.
 
 [Report (\*.xlsx)][3]
 
@@ -39,7 +39,7 @@ We have tested SuperOffice 9.1 R03 Web and Service with Safari 14 browser on Mac
 
 ![macos-catalina.jpg][img3]
 
-We have tested SuperOffice 8.5 Web and Web Tools for Mac (11.2.7306) with MacOS Catalina. These issues have been identified while doing the testing: Bug 68216 (MacLink quts after sleep/or restart), Bug 68406 (Accessibility Dialog keep appearing on MacOS Catalina), Bug 67972 (Installer requires permission to Download folder). Report made January 22nd 2020.
+We have tested SuperOffice 8.5 Web and Web Tools for Mac (11.2.7306) with MacOS Catalina. These issues have been identified while doing the testing: Bug 68216 (MacLink quits after sleep/or restart), Bug 68406 (Accessibility Dialog keep appearing on MacOS Catalina), Bug 67972 (Installer requires permission to Download folder). The report was made on January 22nd 2020.
 
 [Report (\*.xlsx)][4]
 
@@ -47,7 +47,7 @@ We have tested SuperOffice 8.5 Web and Web Tools for Mac (11.2.7306) with MacOS 
 
 ![mssqlserver2019.png][img4]
 
-Microsoft SQL Server 2019 tested with SuperOffice 8.5 R07 along with ODBC driver 17.4.2.1. We mainly focused on product installation and performed smoke testing on critical functional areas of the products. No critical issues found during testing. Report made November 14th 2019.
+Microsoft SQL Server 2019 tested with SuperOffice 8.5 R07 along with ODBC driver 17.4.2.1. We mainly focused on product installation and performed smoke testing on critical functional areas of the products. No critical issues were found during testing. The report was made on November 14th 2019.
 
 [Report (\*.xlsx)][5]
 
@@ -55,7 +55,7 @@ Microsoft SQL Server 2019 tested with SuperOffice 8.5 R07 along with ODBC driver
 
 ![moj.jpg][img5]
 
-We have tested SuperOffice 8.4 R03 Web and Service in Chrome and Safari with MacOS Mojave. See attached Compatibility report for found issues. Report made December 3rd 2018.
+We have tested SuperOffice 8.4 R03 Web and Service in Chrome and Safari with MacOS Mojave. See attached Compatibility report for found issues. The report was made on December 3rd 2018.
 
 [Report (\*.xlsx)][6]
 
@@ -63,7 +63,7 @@ We have tested SuperOffice 8.4 R03 Web and Service in Chrome and Safari with Mac
 
 ![office2019.png][img6]
 
-We have tested MS Office 2019 with SuperOffice 8.4. We put more focus on Office related functionalities such as Web Tools, Maillink and document handling, and the rest of the areas were smoked. We did not find any compatibility related issues/bugs during the test. Report made October 18th 2018.
+We have tested MS Office 2019 with SuperOffice 8.4. We put more focus on Office-related functionalities such as Web Tools, MailLink, and document handling, and the rest of the areas were smoked. We did not find any compatibility-related issues/bugs during the test. The report was made on October 18th 2018.
 
 [Report (\*.xlsx)][7]
 
@@ -71,7 +71,7 @@ We have tested MS Office 2019 with SuperOffice 8.4. We put more focus on Office 
 
 ![win-server-2019.png][img7]
 
-We have tested Windows Server 2019 with SuperOffice 8.4. We mainly focused on product installation and performed smoke testing on critical functional areas. We did not find any compatibility related issues/bugs during the test. Report made October 18th 2018.
+We have tested Windows Server 2019 with SuperOffice 8.4. We mainly focused on product installation and performed smoke testing on critical functional areas. We did not find any compatibility-related issues/bugs during the test. The report was made on October 18th 2018.
 
 [Report (\*.xlsx)][8]
 
@@ -79,7 +79,7 @@ We have tested Windows Server 2019 with SuperOffice 8.4. We mainly focused on pr
 
 ![sqlserver2017.png][img8]
 
-We have tested SQL Server 2017 for SuperOffice 8.0 SR6 and performed smoke tests on all clients. All product installations were OK. No DB related issues encountered during installation. SQL Server 2017 (RTM) - 14.0.1000.169 (X64). Report made October 18th 2017.
+We have tested SQL Server 2017 for SuperOffice 8.0 SR6 and performed smoke tests on all clients. All product installations were OK. No database-related issues were encountered during installation. SQL Server 2017 (RTM) - 14.0.1000.169 (X64). The report was made on October 18th 2017.
 
 [Report (\*.xlsx)][9]
 
@@ -87,7 +87,7 @@ We have tested SQL Server 2017 for SuperOffice 8.0 SR6 and performed smoke tests
 
 ![macoshighsierra.jpg][img9]
 
-We have tested WebTools for SuperOffice 8.1.6477 (for CRM Online) and 8.0.6477 (SR6). No issues found during our smoke tests. Please note that upgrading to this OS requires that you also update your WebTools or your documents will not be automatically uploaded to the server. Report made September 26th 2017.
+We have tested WebTools for SuperOffice 8.1.6477 (for CRM Online) and 8.0.6477 (SR6). No issues were found during our smoke tests. Please note that upgrading to this OS requires that you also update your WebTools or your documents will not be automatically uploaded to the server. The report was made on September 26th 2017.
 
 [Report (\*.xlsx)][10]
 
@@ -95,7 +95,7 @@ We have tested WebTools for SuperOffice 8.1.6477 (for CRM Online) and 8.0.6477 (
 
 ![windows-server-2016.png][img10]
 
-We have tested SuperOffice 8 version 8.0.6144 (SR4) for all clients (Win, Web, CS and Pocket) Pocket version 8.0.6109 on the new released server OS. No issues found during our smoke tests. Report made November 11th 2016.
+We have tested SuperOffice 8 version 8.0.6144 (SR4) for all clients (Win, Web, CS, and Pocket) Pocket version 8.0.6109 on the new, released server OS. No issues were found during our smoke tests. The report was made on November 11th 2016.
 
 [Report (\*.xlsx)][11]
 
@@ -103,7 +103,7 @@ We have tested SuperOffice 8 version 8.0.6144 (SR4) for all clients (Win, Web, C
 
 ![macos-sierra.jpg][img11]
 
-SuperOffice MacLink have been tested successfully on MacOS Sierra. No issues found during our smoke tests. Report made October 2016.
+SuperOffice MacLink has been tested successfully on MacOS Sierra. No issues were found during our smoke tests. The report was made in October 2016.
 
 [Report (\*.xlsx)][12]
 
@@ -111,7 +111,7 @@ SuperOffice MacLink have been tested successfully on MacOS Sierra. No issues fou
 
 ![sqlexpress.png][img12]
 
-The objective of the test was to verify that SQL Express 2016 that is normally used as a Travel DB for CRM clients also can be used as the main DB for the CRM clients. DB Compatibility test for SuperOffice version 8.0 SR2 [Win,Web, CS) was carried out. Please note that this database version have limitations and may not suite your needs. Report made July 29th 2016.
+The objective of the test was to verify that SQL Express 2016m which is normally used as a Travel DB for CRM clients, also can be used as the main DB for the CRM clients. DB Compatibility test for SuperOffice version 8.0 SR2 [Win, Web, CS) was carried out. Please note that this database version has limitations and may not suit your needs. The report was made on July 29th 2016.
 
 [Report (\*.xlsx)][13]
 
@@ -119,7 +119,7 @@ The objective of the test was to verify that SQL Express 2016 that is normally u
 
 ## SQL Server 2016
 
-Microsoft SQL Server 2016 have been tested successfully with SuperOffice 7.5 SR2 and SuperOffice 8.0 SR1, for all clients (Win, Web, CS and Pocket) Report made March 8th 2016 using SQL Server 2016 version 13.0.1000.281 / CTP 3.3.
+Microsoft SQL Server 2016 has been tested successfully with SuperOffice 7.5 SR2 and SuperOffice 8.0 SR1, for all clients (Win, Web, CS, and Pocket) The report was made on March 8th 2016 using SQL Server 2016 version 13.0.1000.281 / CTP 3.3.
 
 [Report (\*.xlsx)][14]
 

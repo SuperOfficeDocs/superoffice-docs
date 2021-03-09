@@ -60,7 +60,10 @@ The SuperOffice configuration for Oracle is constructed as follows:
 
 4. We set `DynamicLoadedConnectionType` to *Oracle.DataAccess.Client.OracleConnection*, set major version to Oracle and minor to 11; then we analyze registry settings to locate the Oracle Home and look for driver files there (based on ODP.NET or ORACLE sections, in current user and local machine; in that order).
 
-The bottom line is: The `Server` and `Database` settings in the *SuperOffice.config* file are **always overwritten**; Server is based on the registry information from the ODBC setup, while database is not used and set to blank.
+The bottom line is:
+
+* The `Server` and `Database` settings in the *SuperOffice.config* file are **always overwritten**.
+* Server is based on the registry information from the ODBC setup, while database is not used and set to blank.
 
 Oracle ODBC is generally an intermediate layer, where the actual connection information (server, listener, port, and so on) is specified in TNSNames, using the Oracle Net Confguration Assistant (netca).
 
@@ -87,7 +90,7 @@ To specify and use a separate SuperOffice.config, see `/INIPATH` in [Command li
 
 When MailLink is configured to depend on the Windows installation, MailLink will host its own NetServer. MailLink generates a valid *NetServer.config* file automatically by executing socrm.exe (This generates a config file transformed with parameters from both *SuperOffice.ini* and *SuperOffice.config*). This file is placed in *%AppData%\\SuperOffice\\MailLink\\NetServer.config*. Changing the *SuperOffice.config* file will automatically update the *NetServer.config* used by the MailLink. Changes done manually in the generated *NetServer.config* file are lost when we regenerate a new *NetServer.config* file.
 
-If you want to have a dynamic loaded module (such as a document plugin), you need to add this in the *SuperOffice.config* file when using a Windows client. (If you use web, you need to add this to the Web client's *web.config* file.)
+If you want to have a dynamically loaded module (such as a document plugin), you need to add this in the *SuperOffice.config* file when using a Windows client. (If you use web, you need to add this to the Web client's *web.config* file.)
 
 ## Mapping SuperOffice users to Active Directory
 

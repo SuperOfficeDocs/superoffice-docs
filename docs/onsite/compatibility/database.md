@@ -15,11 +15,11 @@ so.envir: onsite                    # cloud or onsite
 
 # Databases supported by SuperOffice CRM 8 and 9
 
-Our experience tells us that other configurations also should work but SuperOffice will not guarantee for any other configurations than the ones listed below.
+Our experience tells us that other configurations also should work but SuperOffice will not guarantee any other configurations than the ones listed below.
 
 [!include[ODBC driver caution](./includes/caution-odbc-drivers.md)]
 
-For database specific system requirements, check the vendor [Microsoft][4] or [Oracle][5].
+For database-specific system requirements, check the vendor [Microsoft][4] or [Oracle][5].
 
 | Database |8.0, 8.0 SR1 | 8.0 SR2 - SR6 | 8.1 | 8.2 | 8.3 | 8.4 | 8.5 | 9.1 |
 |-------------------------|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|

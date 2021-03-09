@@ -37,16 +37,16 @@ Description of the Database and Archive connections.
 | archivepath= | Defines where documents in S&M will be saved. Documents may be read from the other archivepaths but saved in default only |
 | archivepath2= | Alternative document folder. Not needed but may be useful if satellites have access to the central SO\_ARC folder as well. You can have up to 8 alternative archive paths. |
 | Local\_ArchivePath= | Defines where documents in Sales & Marketing will be stored when user is on Travel<br>Default value is: %localappdata%\\SuperOffice\\SO\_LOCAL |
-| Local\_archivepath2= | Alternative document folder from which documents can be read while the user is on Travel. Not needed but may be useful if travelusers have access to the central SO\_ARC folder as well. By default only the traveluser's documents from the previous and current time period will be copied. |
+| Local\_archivepath2= | Alternative document folder from which documents can be read while the user is on Travel. Not needed but may be useful if travelusers have access to the central SO\_ARC folder as well. By default, only the traveluser's documents from the previous and current time period will be copied. |
 | Datapath= | ODBC source used by the S&M windows client. Defines the location of the database. |
-| Local\_DataPath= | Defines the location of the local database when on Travel. Not needed if build-in database is used. |
+| Local\_DataPath= | Defines the location of the local database when on Travel. Not needed if a built-in database is used. |
 | GlobalPrefix= | If you use another prefix than the default CRM7. |
-| GlobalTravelPrefix= | If this is set, all clients that will either do local updates or generate protoype must have this prefix set. |
+| GlobalTravelPrefix= | If this is set, all clients that will either do local updates or generate a protoype must have this prefix set. |
 | CRMCaption= | You may set your own caption so it's easier to separate which version you're logged in to if you are running several installations on your computer. |
 | SOCachePath= | SOCachePath will default to the user’s local settings folder rather than the Windows directory if the SOCACHE folder does not exist in WINDOWS already. |
 | templatepath= | Defines where templates are located. Not needed, if not set defaults to SO\_ARC\\Template |
 | EnableHdbCache= | Setting it to 0 means SuperOffice does not cache writes |
-| LocalDbEngineParam= | If not present, it will default to '-c 16m' meaning 16 MB of local cache memory for the build-in database engine. |
+| LocalDbEngineParam= | If not present, it will default to '-c 16m' meaning 16 MB of local cache memory for the built-in database engine. |
 | ProtoServerPath= |Full path to the folder you want the prototypes to be created in (as viewed from the server). This should always be a local path (example: C:\\SuperOffie\\SO\_Proto). This path is going to be used when SuperOffice tells the SQL Server to create a new prototype database.<br>This is needed only on computers used for generating prototypes other than for build-in database (MS SQL Express, Sybase). |
 | ProtoClientPath= | Full path to the folder where prototypes reside (as viewed from the client computer). This path should always be a network path (UNC path), or a mapped drive. If you choose mapped drive, be sure all clients have it mapped the same way. | Needed only if MS SQL Express or Sybase is used as a Travel database. |
 
@@ -59,13 +59,13 @@ templatepath= "archivepath"\\TEMPLATE
 ```
 
 > [!NOTE]
-> You can add further archive paths, for example `archivepath2`, `archivepath3`, and so on. The same goes for `local_archivepath2`, `local_archivepath3`.
+> You can add further archive paths, for example, `archivepath2`, `archivepath3`, and so on. The same goes for `local_archivepath2`, `local_archivepath3`.
 
 ### Using the Datapath Parameter
 
 `Datapath for SQL`
 
-An ODBC data source must be defined, and `datapath` must begin with*_ODBC:,* followed by the Data Source Name.
+An ODBC data source must be defined, and `datapath` must begin with *_ODBC:,* followed by the Data Source Name.
 
 > [!NOTE]
 > You must enter ODBC in uppercase. If you have not already defined a Data Source Name for the database, use the name *SuperOffice*.

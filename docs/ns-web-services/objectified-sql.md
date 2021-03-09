@@ -16,7 +16,7 @@ so.topic:                       # article, howto, reference, concept, guide
 
 # Evolution of NetServer Objectified SQL
 
-Objectified SQL (OSQL) is the lowest level API in NetServer that provides a programmatic query language for reading and writing data to and from a SuperOffice database. It’s the objectified equivalent to writing database Structured Query Language (SQL), and is the most performant of all NetServer API layers.
+Objectified SQL (OSQL) is the lowest level API in NetServer that provides a programmatic query language for reading and writing data to and from a SuperOffice database. It’s the objectified equivalent to writing database Structured Query Language (SQL) and is the most performing of all NetServer API layers.
 
 ![x][img1]
 
@@ -67,7 +67,7 @@ using (SoConnection con = ConnectionFactory.GetConnection())
 }
 ```
 
-That is what writing OSQL code life was like prior to version 3.0. When version 3.0 arrived, it brought with it a nice little helper called the `QueryExecutionEngine`. This new class encapsulated the Connection and Command code above and marginally reduced the required number of lines of code. Instead of requiring the whole Connection and Command orchestration, we could pass in the OSQL Select instance as a parameter into the constructor of the `QueryExecutionEngine`.
+That is what writing OSQL code life was like before version 3.0. When version 3.0 arrived, it brought with it a nice little helper called the `QueryExecutionEngine`. This new class encapsulated the Connection and Command code above and marginally reduced the required number of lines of code. Instead of requiring the whole Connection and Command orchestration, we could pass in the OSQL Select instance as a parameter into the constructor of the `QueryExecutionEngine`.
 
 ```csharp
 using (QueryExecutionHelper qeh = new QueryExecutionHelper(selectStatement))
@@ -85,7 +85,7 @@ While this wasn’t a huge win, in terms of reducing code, this was a big win af
 
 There were additional improvements that came in later versions as well, more related to the Argument and Math functions, but I will save that topic for another article. Let me to focus more instead on recent advancements that will help you write less code for executing OSL Queries today.
 
-## The Recent Years
+## The recent years
 
 As version 3 turned into version 7, the OSQL API became better and better with more targets queries with the introduction of a generic Select called `TargetedSelect`.
 
@@ -174,7 +174,7 @@ var queryResults = selectStatement
     });
 ```
 
-There is also one more trick up the `TargetedSelect` sleeve which is the returned `TargetDataRecord`. It’s entirely possible to converting the results to a complete record. Using a new example, with a slightly more complex restriction, you can construct a complex query in just two lines of code. The only caveat is that the `FromRecord` method is hidden in the `SuperOffice.CRM.Rows` namespace, so make sure that is included at the top of your file or else you will observe a compile time error stating that `FromRecord` does not exist.
+There is also one more trick up the `TargetedSelect` sleeve: the returned `TargetDataRecord`. It’s entirely possible to convert the results to a complete record. Using a new example, with a slightly more complex restriction, you can construct a complex query in just two lines of code. The only caveat is that the `FromRecord` method is hidden in the `SuperOffice.CRM.Rows` namespace, so make sure that is included at the top of your file, or else you will observe a compile-time error stating that `FromRecord` does not exist.
 
 ```csharp
 var s = S.NewSelect<ContactTableInfo>(cti => cti.Name.Like("A%").And(cti.Department.NotLike("")));
@@ -199,7 +199,7 @@ sqlSelect.JoinRestriction.InnerJoin(person.ContactId.Equal(contact.ContactId));
 sqlSelect.Restriction = contact.Name.Like("A%").And(contact.Department.NotLike(""));
 ```
 
-Today, there is the new `TargetedInnerJoin` type that allow you to construct inner queries in another manner. The following example joins together the person and contact table using the `JoinRestriction.AddJoin` method. This method returns a strongly typed instance of the right-hand `TableInfo` object, which you can then use to include in the return fields and access the results.
+Today, there is the new `TargetedInnerJoin` type that allows you to construct inner queries in another manner. The following example joins together the person and contact table using the `JoinRestriction.AddJoin` method. This method returns a strongly typed instance of the right-hand `TableInfo` object, which you can then use to include in the return fields and access the results.
 
 ```csharp
 var selectStatement = S.NewSelect<PersonTableInfo>();
@@ -223,7 +223,7 @@ foreach (var company in queryResults)
 
 ## Conclusion
 
-There is a lot of functionality that NetServer OSQL has to support, and sometimes the SuperOffice API adapts to new ways of doing things to help make that job easier. Just as the early years, OSQL continues to be the fastest way to do that, and now provides better time-saving syntactical-sugar to construct and execute your queries.
+There is a lot of functionality that NetServer OSQL has to support, and sometimes the SuperOffice API adapts to new ways of doing things to help make that job easier. Just as in the early years, OSQL continues to be the fastest way to do that and now provides better time-saving syntactical-sugar to construct and execute your queries.
 
 I hope this has helped you learn more about these interesting techniques and saves you time in constructing your OSQL in the future.
 

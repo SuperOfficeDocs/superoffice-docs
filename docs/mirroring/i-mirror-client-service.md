@@ -78,9 +78,9 @@ This method is called once for each [batch][2] of data sent.
 
 Each row is tagged with an operation: insert, update, or delete.
 
-If a row has changed multiple times since the last time it was mirrored, then only the final state is transmitted. For example, if the row was inserted and then updated, then the row will be tagged with _insert_ but only the final state will be sent.
+If a row has changed multiple times since the last time it was mirrored, then only the final state is transmitted. For example, if the row was inserted and then updated, then the row will be tagged with *insert* but only the final state will be sent.
 
-Only the final batch for a table will have a valid LSN because intermediate rows may or may not have LSNs. If tracking was turned on recently, all rows existing prior to that time will not have an LSN.
+Only the final batch for a table will have a valid LSN because intermediate rows may or may not have LSNs. If tracking was turned on recently, all rows existing before that time will not have an LSN.
 
 The SuperOffice NuGet implementation saves the data and updates the LSN stored in the mirror’s metadata table. Insert operations are accumulated and committed through the Bulk Copy mechanism for speed.
 

@@ -23,7 +23,7 @@ Revised in January 2018
 | Company website | [www.mailgun.com][1] |
 | Entity Country | US |
 | Processing Country | US |
-| Entity Type and description of Service |Email service provider. Mailgun is 1) sending mass emails generated from SuperOffice CRM and 2) receiving and sending replies related to service-tickets in SuperOffice Service. Emails are stored by Mailgun for max. 72 hours for resending purposes.<br>Individual emails sent from the customer’s own email service (i.e. exchange, Gmail) is not sent to Mailgun. |
+| Entity Type and description of Service | Email service provider. Mailgun is 1) sending mass emails generated from SuperOffice CRM and 2) receiving and sending replies related to service-tickets in SuperOffice Service. Emails are stored by Mailgun for max. 72 hours for resending purposes.<br>Individual emails sent from the customer’s own email service (exchange, Gmail) is not sent to Mailgun. |
 | The Personal Data to be Processed concerns the following categories of Data Subjects: | Email recipients in e-marketing campaigns and customer service tickets. |
 | Categories of Personal Data | Email address and free text content of emails. |
 | Sensitive Personal Data (if relevant) | None |

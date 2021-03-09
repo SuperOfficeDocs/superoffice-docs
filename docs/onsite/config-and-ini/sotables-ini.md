@@ -23,7 +23,7 @@ Used by [DBSetup.exe][1]
 
 * You may manually edit this file to import additional data.
 
-Before SuperOffice 8.1 and the [continuous database][2], this file would also have some sections that where always loaded after a fresh install, when creating a new database. These are not available from the dropdown menu inside DBSetup.exe to avoid running them unintentionally.
+Before SuperOffice 8.1 and the [continuous database][2], this file would also have some sections that were always loaded after a fresh install, when creating a new database. These are not available from the dropdown menu inside DBSetup.exe to avoid running them unintentionally.
 
 Some sections may be re-run to update or add additional data, and you may also create your own section to add your own import files.
 
@@ -52,8 +52,8 @@ This will delete all data in the table before it imports what is found in the im
 Special data marked as belonging to SuperOffice may be updated in later releases, this is done by us flagging our data with 1 inside the IsBuildIn field of the database table. Then we can later tell DBSetup that we only want to delete our data, but leave customer and partner rows behind in the database.
 
 > [!NOTE]
-> If you set the primary key of a table to 0 then DBSetup with automatically set the primary key to the next available value. If you want to set it hard to a specific ID like we do in SORPublish table in the *I\_STDReportsNew.imp* file.
-If you need to reuse a privacy key later, in another table you may use variables like `#MyTableEntry_id1`, `#MyTableEntry_id2` and so on. Then in a later table in the same imp file, you may pick up the value and assign it as a foreignKey.
+> If you set the primary key of a table to 0 then DBSetup, which automatically sets the primary key to the next available value. If you want to set it hard to a specific ID as we do in the `SORPublish` table in the *I\_STDReportsNew.imp* file.
+If you need to reuse a privacy key later, in another table you may use variables like `#MyTableEntry_id1`, `#MyTableEntry_id2`, and so on. Then in a later table in the same imp file, you may pick up the value and assign it as a foreignKey.
 
 ![x][img1]
 

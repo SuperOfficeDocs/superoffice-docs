@@ -30,7 +30,7 @@ This is a technical blog post written by one of the developers to describe the i
 
 If MailLink "borrows" NetServer from the Windows client installation instead of shipping its own the whole compatibility problem goes away. Having the Windows client installed is a prerequisite anyway so it’s not like we’re imposing any new demands.
 
-MailLink component overview prior to 8.3:
+MailLink component overview before 8.3:
 
 ![x][img1]
 

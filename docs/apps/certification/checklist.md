@@ -82,7 +82,7 @@ My application is ready, what should I consider before I ask for a certification
 
 ## Tenants
 
-* The application [checks the status page][9] of the customer's tenant prior to performing actions  to ensure stability
+* The application [checks the status page][9] of the customer's tenant before performing actions  to ensure stability
 
 ## Requirements by category
 

@@ -7,7 +7,7 @@ keywords:
 
 # Expander Services
 
-You can customize SuperOffice to fit your business model and needs through a number of options available in the **Settings and maintenance** module.
+You can customize SuperOffice to fit your business model and needs through options available in the **Settings and maintenance** module.
 
 However, sometimes you need more than what is available out-of-the-box. For those instances, we have Expander Services, which contains a range of tools you can use to create one-off customizations of your SuperOffice CRM solution.
 
@@ -32,7 +32,7 @@ When you subscribe to Expander Services, additional options become available in 
 
 The license is added to your [tenant][4] through SuperOffice Operation Center and billed monthly to the customer.
 
-You may continue to use Expander Servicers as often you like until you cancel the subscription. You may add as many customizations you want without affecting the subscription fee.
+You may continue to use Expander Servicers as often you like until you cancel the subscription. You may add as many customizations that you want without affecting the subscription fee.
 
 No [custom application][5] will be made available to your SuperOffice CRM Online solution unless subscribed. If the customer cancels their subscription, the application will be deactivated/unavailable.
 

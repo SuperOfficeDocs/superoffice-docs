@@ -17,11 +17,11 @@ so.topic: reference           # article, howto, reference, concept, guide
 
 *Username.ini* - used by SuperOffice Remote Travel Server (SORTS.exe), created by SuperOffice Remote Travel (SORT.exe)
 
-## Config file to say which additional documents the user wants copied from the central database
+## Config file to say which additional documents the user wants to copy from the central database
 
 ![x][img1]
 
-*Username.ini* is created by the SuperOffice CRM - Remote travel client, and all settings under My Documents, Other Documents and Exclude list is written to this file. The file is stored in *%localappdata%\\SuperOffice* and when the travel user syncs it is copied to the central archive *\\SO\_Arc\\Wishlist* folder.
+*Username.ini* is created by the SuperOffice CRM - Remote travel client, and all settings under My Documents, Other Documents, and Exclude list are written to this file. The file is stored in *%localappdata%\\SuperOffice* and when the travel user syncs it is copied to the central archive *\\SO\_Arc\\Wishlist* folder.
 
 ![x][img2]
 

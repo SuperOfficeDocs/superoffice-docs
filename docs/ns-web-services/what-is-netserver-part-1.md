@@ -22,7 +22,7 @@ This article, the first of a planned two-part series, will cover the basic ove
 
 In a nutshell, NetServer is a layered, factory-driven library that enables developers to conduct Create, Read, Update and Delete (CRUD) operations to the SuperOffice database, and more. Whether deploying a solution to a local SuperOffice database installation or operating in a distributed environment, NetServer exposes an array of application programming interface (API) approaches to facilitate a wide range of solution implementations. Although the terrain is vast and complex, and at first sight, be can somewhat intimidating, the NetServer API tailors to a wide variety of developers by layering the architecture in various intuitive abstractions. In this article, I will guide you through the various regions of NetServer, show you the attractions, as well as point out the areas to avoid.
 
-When programming with the NetServer API, other than calling the web services directly, every solution needs a SuperOffice-specific section group in your application configuration file. This means adding a SuperOffice-specific section groups to an *app.config* file for Windows Forms applications, or the *web.config* file for an ASP.NET web application. The SuperOffice section group contains configuration options relevant NetServer operations, such as logging, document handling, security, database options, and so forth. Everything you need to know about the SuperOffice configuration options is well-defined in the [Hitchhikers Guide to the NetServer Configuration File][1].
+When programming with the NetServer API, other than calling the web services directly, every solution needs a SuperOffice-specific section group in your application configuration file. This means adding a SuperOffice-specific section group to an *app.config* file for Windows Forms applications, or the *web.config* file for an ASP.NET web application. The SuperOffice section group contains configuration options relevant NetServer operations, such as logging, document handling, security, database options, and so forth. Everything you need to know about the SuperOffice configuration options is well-defined in the [Hitchhikers Guide to the NetServer Configuration File][1].
 
 The layered aspect of NetServer invites developers to tap into the database from several facets. In the following sections, each layer is simply defined with accompanying code samples.
 
@@ -103,7 +103,7 @@ All action operations are facilitated through that Agent derived type.
 
 There may be more limitations not mentioned here, but I'll note the top four limitations I noticed in the SuperOffice.Services layer.
 
-Although nothing that can be done about this one, a major limitation to the service layer is of course performance. Either way you go, local or remote, the data must traverse multiple wrappers. The only way around this one is to have a bigger network pipe.
+Although nothing can be done about this one, a major limitation to the service layer is of course performance. Either way you go, local or remote, the data must traverse multiple wrappers. The only way around this one is to have a bigger network pipe.
 
 One more obvious limitation of the SuperOffice.Services layer is the lack of asynchronous methods. Every call made to the web service is synchronous.
 
@@ -215,7 +215,7 @@ public void SetContactInfo()
 
 ### Direct Web Service Authentication
 
-When calling a NetServer web service directly, first instantiate a proxy object, for example the service object itself (Contact, Appointment, or Project), then set the SoCredentials property. Finally, make calls against the service to save or retrieve data.
+When calling a NetServer web service directly, first instantiate a proxy object, for example, the service object itself (Contact, Appointment, or Project), then set the SoCredentials property. Finally, make calls against the service to save or retrieve data.
 
 The following example demonstrates how to call the web service through a Visual Studio WebReference proxy object.
 

@@ -80,7 +80,7 @@ Choose \[SuperOffice CRM\].
 
 ![x][img3]
 
- You must now set the URL in the app to connect it to the server by setting the *connection url /connection string / URL to your Pocket server / NetServer installation*:
+ You must now set the URL in the app to connect it to the server by setting the *connection URL /connection string / URL to your Pocket server / NetServer installation*:
 
 ![x][img4]
 
@@ -95,7 +95,7 @@ You can send a predefined email with this URL by clicking "Pocket CRM settings" 
 ![x][img5]
 
 > [!NOTE]
-> To change the URL that is sent out in this email, changes has to be done in *web.config* for NetServer under:
+> To change the URL that is sent out in this email, changes have to be done in *web.config* for NetServer under:
 
 ```xml
 <SoFormsAuthentication>
@@ -103,7 +103,7 @@ You can send a predefined email with this URL by clicking "Pocket CRM settings" 
     <add key="PocketCrmServiceUrl" value="[https://my.server.com/SuperOffice/remote/Services80](https://my.server.com/SuperOffice/remote/Services80)" />
 ```
 
-When you have set the URL to your NetServer installation in Pocket CRM, you will be presented with the log on screen.
+When you have set the URL to your NetServer installation in Pocket CRM, you will be presented with the log-on screen.
 
 Log in with the same username and password you use for the SuperOffice CRM and you are ready to use SuperOffice Pocket CRM!
 

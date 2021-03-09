@@ -62,7 +62,7 @@ Configuration in SuperOffice Web Tools can be segmented into configuration store
 
 The SiteInfo files, which are encrypted, contain all connectivity information such as the endpoint URL and the credentials used for authentication. Additionally, the settings from the Preferences-dialog in Web Tools are included here.
 
-Versions prior to 8.0 stored SiteInfo files in the IsolatedFileStorage provided by .NET in local application data. Versions from 8.x store the SiteInfo files in *%AppData%\\SuperOffice\\TrayApp* (Roaming Profiles).
+Versions before 8.0 stored SiteInfo files in the IsolatedFileStorage provided by .NET in local application data. Versions from 8.x store the SiteInfo files in *%AppData%\\SuperOffice\\TrayApp* (Roaming Profiles).
 
 There are no command-line utilities for creating/modifying/viewing the SiteInfo files directly. All manipulation must be performed through the user interface in SuperOffice Web Tools.
 

@@ -31,7 +31,7 @@ Want to know if a newly released operating system is compatible? Check your [co
 > [!NOTE]
 > Windows Server 2016, 2012 Standard, and 2008 R2 are also tested as Terminal Server / Citrix Server.
 
-Our experience tells us that other configurations also should work, but SuperOffice will not guarantee for any other configurations than the ones listed.
+Our experience tells us that other configurations also should work, but SuperOffice will not guarantee any other configurations than the ones listed.
 
 [!include[legend](./includes/caution-odbc-drivers.md)]
 

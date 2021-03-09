@@ -13,7 +13,7 @@ Here's an overview of where you may find the different log files and how you ena
 
 [Enable debug log (Win)][1]
 
-[SOUser.ini][2] Used by SOCRM.exe, SOAdmin.exe and ReporterStudio.exe
+[SOUser.ini][2] Used by SOCRM.exe, SOAdmin.exe, and ReporterStudio.exe
 
 [SuperOffice.config][3] Used by SOCRM.exe, SOAdmin.exe and ReporterStudio.exe
 
