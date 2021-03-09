@@ -22,9 +22,12 @@ Chatbots are folders that contain one or more CrmScripts with names that fit a p
 * `...bot session change...` is called when the chat session changes state.
 * `...bot message receive...` is called when a new message is received.
 
-The names of the scripts 
+The names of the scripts must follow this pattern, but they allow any prefix or suffix you want.
+`echobot register`, `my bot registered` and `BotRegister` are all acceptable names for the registration script.
 
 The CrmScripts are not called after  the chatbot hands the session off to the queue for human processing.
+The `bot message receive` script is only called for incoming messages. 
+This removes the need for a bunch of book-keeping logic, simplifying the bot scripts.
 
 ![Chatbot scripts in a folder](../media/chatbot-scripts-folder.png)
 
@@ -37,12 +40,13 @@ The chatbot scripts are called when events happen:
 When a session starts on a channel with a chatbot:
 
 * First the `bot session create` script is called.
-* Then the `bot session change` script is called.
-* Then the `bot message receive` script is called once for each message received.
-* Then the `bot session change` script is called.
-* Then the `bot message receive` script is called once for each message received.
-* Repeat until completed
+* Then the `bot session change` script may be called if there is a pre-chat form or faq suggestion.
+* Then the `bot message receive` script is called once for each message received from the customer.
+* Then the `bot session change` script is called when the session state changes.
+* Then the `bot message receive` script is called once for each message received from the customer.
+* Repeat until completed or handed off to queue for processing.
 
-A script can hand off a chat session to a human by calling `resetChat(sessionId)`.
+A script can hand off a chat session to a human by calling `resetChat(sessionId)`. This will tag the session
+with `botIsActive` = false, so that the bot scripts are no longer called.
 
-It can end a session by setting it to closed: `setChatStatus(sessionId, 7);`  (7 = closed).
+A script can end a session by setting it to closed: `setChatStatus(sessionId, 7);`  (7 = closed).
