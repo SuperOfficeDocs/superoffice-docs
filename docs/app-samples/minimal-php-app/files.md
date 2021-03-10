@@ -55,13 +55,13 @@ In your download, the solution's directory contains the following:
 
 * *callback.php*: the page that receives a POST after a user successfully logs into SuperID
 * *contactEntity.php*: the page responsible for displaying company details
-* *createFollowUpListItems.php*: a page that demonstrates creating a followup list item
+* *createFollowUpListItems.php*: a page that demonstrates creating a follow-up list item
 * *createProject.php*: a page that demonstrates how to create a new Project
 * *createSaleType.php*: a page that demonstrates how to create a new Sale Type
 * *createUserDefinedField.php*: a page that demonstrates how to create a new user-defined field
 * *createWebPanel.php*: a page that demonstrates how to create a new web panel
 * *getWebPanels.php*: a page that demonstrates how to get all web panels
-* *header.php*: the page responsible checking authorized session
+* *header.php*: the page responsible for checking authorized session
 * *index.php*: the page that starts the federated login process with SuperID
 * *reset.php*: the page that removes the session state. Useful when re-login is desired
 * *settings.php*: the file containing all of the configuration settings this project has. Use this file to specify:

@@ -67,7 +67,7 @@ string b = fh["appName"]["deviceId", "deviceName"]["key"].Value;
 string c = fh["appName"]["deviceId", "deviceName"]["key"].Value;
 ```
 
-The ForeignApp class just acts like an adapter around the ForeignAppRow type, exposing it as a property, but also returning a ForeignDevice via its indexer. The ForeignDevice then has a direct reference to the ForeignApp, and is therefore **connected**. Obtaining a ForeignDevice this way will always have access to the ForeignAppRow when necessary.
+The ForeignApp class just acts as an adapter around the ForeignAppRow type, exposing it as a property, but also returning a ForeignDevice via its indexer. The ForeignDevice then has a direct reference to the ForeignApp and is therefore **connected**. Obtaining a ForeignDevice this way will always have access to the ForeignAppRow when necessary.
 
 ```csharp
 public class ForeignApp
@@ -115,7 +115,7 @@ public class ForeignDevice
 }
 ```
 
-And finally the ForeignKey class. The ForeignKey class gets interesting because it’s never really known just how many ForeignKeyRow’s are retrieved when accessing a specific key. This is because foreign key values can be very long, but the actual subvalue field of a ForeignKeyRow type is limited to 239 characters – but you can leverage the seqno field to span a complete value across multiple ForeignKeyRows.  Additionally, the tableId and recordId fields must be considered to ensure, when associating a key with a particular entity, that only the correct ForeignKeyRow’s are returned. Alternatively, if none are found, to create and prepare them for use.
+And finally the ForeignKey class. The ForeignKey class gets interesting because it’s never really known just how many ForeignKeyRow’s are retrieved when accessing a specific key. This is because foreign key values can be very long, but the actual sub-value field of a ForeignKeyRow type is limited to 239 characters – but you can leverage the `seqno` field to span a complete value across multiple ForeignKeyRows.  Additionally, the `tableId` and `recordId` fields must be considered to ensure, when associating a key with a particular entity, that only the correct ForeignKeyRow’s are returned. Alternatively, if none are found, to create and prepare them for use.
 
 ```csharp
 public class ForeignKey

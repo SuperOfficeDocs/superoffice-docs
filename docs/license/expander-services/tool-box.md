@@ -48,7 +48,7 @@ To add extra tables requires technical knowledge. Usually, extra tables are used
 
 With Expander Services, you can create new screens in SuperOffice Service to fit your specific business processes.
 
-For example, if you need something other than the out-of-the-box information to register a new service ticket, you can customize the system.
+For example, if you need something other than out-of-the-box information to register a new service ticket, you can customize the system.
 
 In combination with extra tables, defining your own custom screens gives you even higher flexibility to customize SuperOffice CRM.
 

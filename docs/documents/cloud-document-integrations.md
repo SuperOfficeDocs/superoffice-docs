@@ -42,7 +42,7 @@ All document methods are using OAuth-based access tokens per user. These tokens 
 
 The integration with Google G Suite shares many of the same concepts as the Office 365 integration. A trust relationship is established through application registration. G Suite uses the protocol OpenId Connect (OpenId Foundation, 2016) for both authentication and for acquiring the necessary tokens for document management.
 
-The document plugin uses the Drive Service APIs provided by Google (Google, 2016) for document management. One major difference between the Office 365 and G Suite integration is that there are individual access tokens per user in Office 365, but in the Google integration, the users share the same access token. This access token is granted by a system user. The reason behind this the difference on how documents are shared between users in Google and Office 365.
+The document plugin uses the Drive Service APIs provided by Google (Google, 2016) for document management. One major difference between the Office 365 and G Suite integration is that there are individual access tokens per user in Office 365, but in the Google integration, the users share the same access token. This access token is granted by a system user. The reason behind this the difference in how documents are shared between users in Google and Office 365.
 
 ### SuperOffice CRM Online and SuperId with Cloud document service providers
 

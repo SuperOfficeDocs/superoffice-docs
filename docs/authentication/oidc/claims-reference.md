@@ -32,12 +32,12 @@ OpenID Connect standard claims
 | `nonce` | | X | A string used to associate a client session with an ID token and to mitigate replay attacks. |
 | `sub` | X | X | Subject Identifier.<br>Always the same as the claim: `http://schemes.superoffice.net/identity/upn` |
 
-## SuperOffice specific claims
+## SuperOffice-specific claims
 
 > [!NOTE]
 > The claims in the following table are all prefixed with `http://schemes.superoffice.net/identity/`
 
-SuperOffice specific OICD claims
+SuperOffice-specific OICD claims
 
 | Claim name | Federated ID | OpenID Connect | Description |
 |---|:-:|:-:|---|

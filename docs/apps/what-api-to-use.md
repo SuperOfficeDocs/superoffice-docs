@@ -16,17 +16,17 @@ so.client: online               # online, web, win, pocket, or mobile
 
 # What API to use?
 
-When partners build an online application, or a one-off integration, the first question I usually get is "what APIs are available?".
+When partners build an online application or a one-off integration, the first question I usually get is "what APIs are available?".
 
 I generally respond with we support both SOAP and REST web services. And then their follow-up question is generally "which API should I use?". The answer is, well it depends.
 
-Our REST and SOAP APIs have different authentication and data access techniques, and which one you chose really depends on the type of integration you are building. This article highlights some of the differences of each, with respect to SuperOffice, and aims to clarify which API you should use.
+Our REST and SOAP APIs have different authentication and data access techniques, and which one you chose depends on the type of integration you are building. This article highlights some of the differences of each regarding SuperOffice and aims to clarify which API you should use.
 
 ## API Comparison
 
 Before continuing, let me just state that I am well-aware that comparing REST and SOAP can be like [comparing apples to oranges][1], but it is the most common way people **in general** discuss web service APIs.
 
-SOAP is historically known to be a robust enterprise-ready option for performing remote invocations using XML. It’s verbosity, however, carries a heavy toll on network traffic and lost its commercial appeal in recent years.
+SOAP is historically known to be a robust enterprise-ready option for performing remote invocations using XML. Its verbosity, however, carries a heavy toll on network traffic and lost its commercial appeal in recent years.
 
 REST is best known for building fast responsive JSON-based online applications. While REST supports XML exchanges, RESTful APIs normally send JavaScript Object Notation (JSON) data which is more light-weight and therefore faster.
 
@@ -36,11 +36,11 @@ With [SOAP][3], API consumers commonly use proxies that simplify sending XML bac
 
 Historically, SuperOffice proxies were included in the SDK, but are now available for download on [NuGet][4].
 
-Both SOAP proxy options, self-generated proxies and SuperOffice proxies, have a different authentication, authorization and session-handling experience.
+Both SOAP proxy options, self-generated proxies, and SuperOffice proxies, have a different authentication, authorization, and session-handling experience.
 
 Self-generated proxies must create and manage user sessions themselves, as well as decide how to store and populate required details sent in each SuperOffice web service invocation.
 
-SuperOffice proxies are easier in that they manage the details for you. The power, however, does require API consumers to know more about SuperOffice NetServer internals - specifically three plugin classes that help manage session state.
+SuperOffice proxies are easier in that they manage the details for you. The power, however, does require API consumers to know more about SuperOffice NetServer internals - specifically 3 plugin classes that help manage session state.
 
 ![OnlineAuthentication.png][img5]
 
@@ -87,7 +87,7 @@ While the old form and the new OAuth 2.0 form have a different sequence of event
 
 As for web service access, or authorization, when using the old form, then the claims also contain the administrator's Ticket credential. When using the OAuth 2.0 flow, in addition to the JWT token, the `access_token` is included in the response.
 
-Older online applications that use the old form were not required to include the `redirect_url`. It was optional. Application that needed to override the default `redirect_url` could supply a `redirect_url` as long as it was registered in the application's `redirect_url` whitelist. If an application supplies a `redirect_url` that does not exist in the white list, SuperID will simply redirect the user's online tenant.
+Older online applications that use the old form were not required to include the `redirect_url`. It was optional. Applications that needed to override the default `redirect_url` could supply a `redirect_url` as long as it was registered in the application's `redirect_url` whitelist. If an application supplies a `redirect_url` that does not exist in the white list, SuperID will simply redirect the user's online tenant.
 
 `http://sod.superoffice.com/login/?app_id=YOUR_APP_ID&redirect_url=YOUR_WHITELISTED_REDIRECT_URL`
 
@@ -95,9 +95,9 @@ There is **no way to circumvent in the installation and consent process**… An 
 
 ### Interactive and Non-Interactive Authentication
 
-First and foremost, regardless whether an application uses the SOAP or REST APIs, no application is allowed to present users with their own sign-in screen. All interactive authentications must be performed via the [SuperOffice Online sign-in page][7]. All normal users must be sent to the same URL as when their administrator installs the application.
+First and foremost, regardless of an application uses the SOAP or REST APIs, no application is allowed to present users with their own sign-in screen. All interactive authentications must be performed via the [SuperOffice Online sign-in page][7]. All normal users must be sent to the same URL as when their administrator installs the application.
 
-Therefore the results of an interactive authentication for a normal user is very much the same as their administrator or developer when the application was installed.
+Therefore the results of an interactive authentication for a normal user are very much the same as their administrator or developer when the application was installed.
 
 Once authenticated, the interactive user is redirected to the applications `redirect_url` and the application can provision anything necessary for that user, and/or redirect the user back to SuperOffice.
 

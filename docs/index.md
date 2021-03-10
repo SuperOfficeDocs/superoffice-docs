@@ -31,7 +31,6 @@ so.date: 06.12.2020
 
 * [Email](email/index.md)
 * [Environments](environment/index.md)
-* [ERP Connectors](erp-connectors/index.md)
 
 ### F
 
@@ -76,7 +75,6 @@ so.date: 06.12.2020
 ### Q
 
 * [Quote](quote/index.md)
-* [Quote Connectors](quote-connectors/index.md)
 
 ### R
 

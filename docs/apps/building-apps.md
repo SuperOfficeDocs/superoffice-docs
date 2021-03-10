@@ -47,9 +47,9 @@ We take precautions to ensure that no individual upgrade plan compromises data o
 
 ## Preferred technology stack
 
-All types of technology platforms, including Java, PHP, Python, Ruby, and many more are able to integrate with NetServer web services.
+All types of technology platforms, including Java, PHP, Python, Ruby, and many more can integrate with NetServer web services.
 
-Any technology stack that supports web services is able to connect to and exchange data with SuperOffice NetServer via REST or SOAP protocols.
+Any technology stack that supports web services can connect to and exchange data with SuperOffice NetServer via REST or SOAP protocols.
 
 For SOAP SuperOffice supplies .NET proxy assemblies as NuGet packages. All other technology platforms must generate their own proxies, or use raw SOAP/XML, to access the web services.
 
@@ -67,7 +67,7 @@ Some platform capabilities must be explicitly enabled for the application:
 
 You may later change these settings, but these changes will revoke the current access to the tenants and require the customer administrator to re-approve the application.
 
-When we set up the application and send the client ID, client secret, and system user private key to you, we will also specify which web service endpoints your application will receive back by default. These endpoints are not changed unless you specifically ask for it. The same goes for any of the other capabilities or whitelisted URLs.
+When we set up the application and send the client ID, client secret, and system user private key to you, we will also specify which web service endpoints your application will receive back by default. These endpoints are not changed unless you specifically ask for them. The same goes for any of the other capabilities or whitelisted URLs.
 
 ## Confused about where to start?
 
@@ -81,7 +81,7 @@ Creating an application for the SuperOffice App Store is not something to take l
 
 * You must have completed steps 1 and 2 above.
 * Be prepared to receive and validate tokens:
-  * Build a native or web application that is able to receive and validate the JSON web token.
+  * Build a native or web application that can receive and validate the JSON web token.
   * Sign in to SuperOffice online using OAuth 2.0/OpenID Connect, and then give consent to allow your application to access your tenant resources.
 
 **Available guides:**

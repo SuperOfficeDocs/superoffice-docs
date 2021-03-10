@@ -91,7 +91,7 @@ You must provide a **description** of your application with the following inform
 
 We encourage you to include some meaningful screenshots from the application interface. These will show in the slider on the application detail page.
 
-Note that the images will resized to fit, but when the viewer clicks on the image, it opens in actual size in a light-box. For the best viewing experience you'll want to ensure the images are of the same size.
+Note that the images will be resized to fit, but when the viewer clicks on the image, it opens in actual size in a light-box. For the best viewing experience, you'll want to ensure the images are of the same size.
 
 ## SuperOffice logo guidance
 
@@ -118,7 +118,7 @@ Please note this logo is a **negative version**, which means the background colo
 
 ![imagezt0an.png][img5]
 
-The SuperOffice green colour is:
+The SuperOffice green color is:
 
 * HEX #0A5E58
 * RGB 10, 94, 88
