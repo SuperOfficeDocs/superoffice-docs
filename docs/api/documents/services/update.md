@@ -1,8 +1,8 @@
 ---
 title: update_document_services
 description: How to update a document in SO\_ARC
-author: {github-id}             # Your GitHub alias.
-so.date:
+author: Tony Yates
+so.date: 06.11.2008
 so.topic: howto
 so.category: document
 so.area: api-services
@@ -21,13 +21,13 @@ In the example below, the original file extension is extracted and then appended
 
 When calling the `DocumentAgent.CreateTempFile` method, the temporary file name and the document stream for the original document are passed into the method.
 
-`DocumentAgent.GetDocumentStream` is used to download the document contents from the server. The temp filename is used for storing the contents locally and, once the file is created, you have to explicitly close, and dispose the steam to eliminate concurrent access issues. At this point, you may modify the document.
+`IDocumentAgent.GetDocumentStream` is used to download the document contents from the server. The temporary filename is used for storing the contents locally and, once the file is created, you have to explicitly close, and dispose of the steam to eliminate concurrent access issues. At this point, you may modify the document.
 
 ## Upload
 
 Assuming the modifications are done, the next step is to upload the modified document to the document archive folder. This is achieved by setting the file stream of the temporary modified file as the document stream for the original document entity. Using a `FileStream` instance, and passing in the full path to the local file, the file open mode, and the file access details, you prepare the document for upload.
 
-The `DocumentAgent.SetDocumentStream` method is used to do perform the actual upload. `SetDocumentStream()` requires 3 parameters:
+The `IDocumentAgent.SetDocumentStream` method is used to do perform the actual upload. `SetDocumentStream()` requires 3 parameters:
 
 * the original document entity
 * the stream for the temporary local file

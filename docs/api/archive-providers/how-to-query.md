@@ -44,9 +44,9 @@ The following example demonstrates how a `PersonProvider` is used to query data 
 
 Here we have initially created an archive provider of type Person. PersonProvider is a specially designed archive provider:
 
-* Retrieve the list of columns that can be handled by this archive provider through the `GetAvailableColumns` method.
-* Retrieve the Entities that are supported by this archive provider via the `GetAvailableEntities` method.
-* `GetAvailableColumns()` and `GetAvailableEntities` return data lists of type `ArchiveColumnInfo` and `ArchiveEntityInfo` respectively.
+1. Retrieve the list of columns that can be handled by this archive provider through the `GetAvailableColumns` method.
+2. Retrieve the Entities that are supported by this archive provider via the `GetAvailableEntities` method.
+3. `GetAvailableColumns()` and `GetAvailableEntities` return data lists of type `ArchiveColumnInfo` and `ArchiveEntityInfo` respectively.
 
 In the above example, we have retrieved the `ColumnInfo` and `EntityInfo` from the `PersonProvider` and displayed them in 2 list-boxes.
 

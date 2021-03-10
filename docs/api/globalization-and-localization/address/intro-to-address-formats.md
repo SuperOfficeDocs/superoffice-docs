@@ -1,10 +1,10 @@
 ---
 title: globalization_addressformatter
 description: Localization, address formats
-author: {github-id}             # Your GitHub alias.
+author: Tony Yates
 so.date: 05.08.2018
 so.topic: concept
-keywords:
+keywords: globalization
 ---
 
 # Address formats

@@ -4,7 +4,7 @@ description: Localization, class AddressFormatter
 author: {github-id}             # Your GitHub alias.
 so.date: 05.08.2018
 so.topic: reference
-keywords:
+keywords: globalization
 ---
 
 # The AddressFormatter class

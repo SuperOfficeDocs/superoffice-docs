@@ -1,12 +1,12 @@
 ---
-title: config_document_services       
+title: config_document_services
 description: How to configure document access
-author: {github-id}             # Your GitHub alias.
-so.date:
+author: Tony Yates
+so.date: 06.11.2008
+keywords: SO_ARC
 so.topic: howto
 so.category: document
 so.area: api-services
-keywords:
 ---
 
 # Configuring document access
@@ -18,7 +18,7 @@ For the application to run properly, some modifications are required in the appl
   <!-- Location of SO_ARC -->
   <add key="ArchivePath" value="C:\\SO_ARC" />
 
-  <!-- Location of temporary folder for streaming files. 
+  <!-- Location of the temporary folder for streaming files. 
     This path must resolve to the same location for farms/clusters. -->
   <add key="TemporaryPath" value="C:\\temp" />
 
@@ -33,12 +33,12 @@ The `ArchivePath` specifies the physical location of the archive folder. This ap
 
 ## TemporaryPath
 
-The `TemporaryPath` key should have the physical location for temporary files on the server. The service implementation will stream documents to the temp-path before moving them to the archive-path for storage. Temporary files are created on the server at this path. This path is not client-specific. It has nothing to do with the temporary path on the temp file on the client.
+The `TemporaryPath` key should have the physical location for temporary files on the server. The service implementation will stream documents to this location before moving them to the archive-path for storage. Temporary files are created on the server at this path. This path is not client-specific. It has nothing to do with the temporary path on the temp file on the client.
 
 ## ImpersonateUser
 
-Finally, specify the impersonation key value. Impersonation is for file access on the server side. Impersonation should be set to true in a scenario where SO\_ARC is located on a remote server because the web-server user runs as a restricted local account that has no rights to access a file-share on a different server.
+Finally, specify the value of the `ImpersonateUser` key. Impersonation is for server-side file access and should be set to true in a scenario where SO\_ARC is located on a remote server because the web-server user runs as a restricted local account that has no rights to access a file-share on a different server.
 
-If the impersonation set to true, the domain, user, and the password values for a user that has access to SO\_ARC and temp folder have to be provided.
+If the impersonation set to true, the domain, user, and the password values for a user that has access to SO\_ARC and the temporary folder have to be provided.
 
-In this example, we have set the impersonation false because this is a windows application and the client runs the NetServer code in the same process, and the application inherits the user's identity.
+In this example, we have set the impersonation false because this is a Windows application and the client runs the NetServer code in the same process, and the application inherits the user's identity.

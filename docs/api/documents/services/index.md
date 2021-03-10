@@ -1,8 +1,8 @@
 ---
 title: document_services       
 description: Document services
-author: {github-id}             # Your GitHub alias.
-so.date:
+author: Tony Yates
+so.date: 06.11.2008
 so.topic: concept
 so.category: document
 so.area: api-services

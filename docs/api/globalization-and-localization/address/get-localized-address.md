@@ -2,9 +2,9 @@
 # Mandatory fields.
 title: get_localized_address       # (Required) Very important for SEO.
 description: Read the LocalizedAddress # (Required)
-author: {github-id}             # Your GitHub alias.
-so.date:
-keywords:
+author: Tony Yates
+so.date: 05.15.2017
+keywords: globalization
 so.topic: howto          # article, howto, reference, concept, guide
 
 # Optional fields. Don't forget to remove # if you need a field.

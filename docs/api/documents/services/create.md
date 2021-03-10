@@ -1,8 +1,8 @@
 ---
 title: create_document_services
 description: How to create a new document in SO\_ARC from template
-author: {github-id}             # Your GitHub alias.
-so.date:
+author: Tony Yates
+so.date: 06.11.2008
 so.topic: howto
 so.category: document
 so.area: api-services
@@ -11,7 +11,7 @@ keywords:
 
 # How to create a new document in SO\_ARC
 
-To create a new document, first, create a document entity and set the document properties. In this example, we have used a specific document template on which the document is based. The owner of the document is set, followed by the associated person and project with which the document is connected.
+To create a new document, create a `document` entity and set the document properties. In this example, we have used a specific document template on which the document is based. The owner of the document is set, followed by the associated person and project with which the document is connected.
 
 [!code-csharp[CS](includes/create-document.cs)]
 
