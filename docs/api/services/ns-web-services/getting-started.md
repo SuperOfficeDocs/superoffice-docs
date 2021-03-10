@@ -262,7 +262,7 @@ using (FindAgent find = new FindAgent())
 Hopefully, this is useful for anyone getting started with the SuperOffice web services.
 
 <!-- Referenced links -->
-[1]: 80-to-80-sr-1.md
+[1]: ../../whats-new/80-to-80-sr-1.md
 
 <!-- Referenced images -->
 [img1]: media/8183-24657.jpg
