@@ -1,5 +1,0 @@
-- name: Travel
-  href: index.md
-  items:
-  - name: Create an update prototype
-    href: create-update-prototype.md

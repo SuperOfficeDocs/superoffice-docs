@@ -1,8 +1,929 @@
-name: Welcome
-href: index.md
-expanded: true
-# items: # These items are navigation headers
-# - name: Admin
-#   href: admin/index.md
-# - name: Automation
-#   href: automation/index.md
+items:
+- name: Cookies
+  href: cookies.md
+- name: Downloads
+  href: downloads.md
+- name: Foreignkey
+  href: foreignkey.md
+- name: Nuget reference
+  href: nuget-reference.md
+- name: Security enhancements
+  href: security-enhancements.md
+- name: Soap envelope
+  href: soap-envelope.md
+- name: Soft delete
+  href: soft-delete.md
+- name: Admin
+  href: admin/index.md
+- name: Apps
+  href: apps/activate-custom-app.md
+  items:
+  - name: Activate custom app
+    href: apps/activate-custom-app.md
+  - name: App envir
+    href: apps/app-envir.md
+  - name: App store
+    href: apps/app-store.md
+  - name: Best practices
+    href: apps/best-practices.md
+  - name: Beta period
+    href: apps/beta-period.md
+  - name: Building apps
+    href: apps/building-apps.md
+  - name: Client id secret
+    href: apps/client-id-secret.md
+  - name: Consent
+    href: apps/consent.md
+  - name: Custom
+    href: apps/custom.md
+  - name: Get access to sod
+    href: apps/get-access-to-sod.md
+  - name: Get app keys
+    href: apps/get-app-keys.md
+  - name: Get listed
+    href: apps/get-listed.md
+  - name: Hosting
+    href: apps/hosting.md
+  - name: How to get noticed
+    href: apps/how-to-get-noticed.md
+  - name: Integration points
+    href: apps/integration-points.md
+  - name: Intro to superoffice apis
+    href: apps/intro-to-superoffice-apis.md
+  - name: Models
+    href: apps/models.md
+  - name: Overview
+    href: apps/overview.md
+  - name: Provisioning
+    href: apps/provisioning.md
+  - name: Publish standard app
+    href: apps/publish-standard-app.md
+  - name: Revoke app
+    href: apps/revoke-app.md
+  - name: Run website on iis localhost
+    href: apps/run-website-on-iis-localhost.md
+  - name: Standard
+    href: apps/standard.md
+  - name: Update app
+    href: apps/update-app.md
+  - name: User contexts
+    href: apps/user-contexts.md
+  - name: What api to use
+    href: apps/what-api-to-use.md
+  - name: Certification
+    href: apps/certification/certify-app.md
+    items:
+    - name: Certify app
+      href: apps/certification/certify-app.md
+    - name: Checklist
+      href: apps/certification/checklist.md
+    - name: Initial watchcom eval
+      href: apps/certification/initial-watchcom-eval.md
+    - name: Secure app
+      href: apps/certification/secure-app.md
+    - name: Watchcom testimonials
+      href: apps/certification/watchcom-testimonials.md
+  - name: Redirects
+    href: apps/redirects/add-update.md
+    items:
+    - name: Add update
+      href: apps/redirects/add-update.md
+    - name: Endpoint types
+      href: apps/redirects/endpoint-types.md
+  - name: Requirements
+    href: apps/requirements/business.md
+    items:
+    - name: Business
+      href: apps/requirements/business.md
+    - name: Design
+      href: apps/requirements/design.md
+    - name: Localization
+      href: apps/requirements/localization.md
+    - name: Marketing
+      href: apps/requirements/marketing.md
+    - name: Security
+      href: apps/requirements/security.md
+    - name: Technical
+      href: apps/requirements/technical.md
+  - name: Validation
+    href: apps/validation/checklist.md
+    items:
+    - name: Checklist
+      href: apps/validation/checklist.md
+    - name: Validate app
+      href: apps/validation/validate-app.md
+- name: Authentication
+  href: authentication/access-token.md
+  items:
+  - name: Access token
+    href: authentication/access-token.md
+  - name: Auth header types
+    href: authentication/auth-header-types.md
+  - name: Auth user
+    href: authentication/auth-user.md
+  - name: Auth user legacy
+    href: authentication/auth-user-legacy.md
+  - name: Error codes
+    href: authentication/error-codes.md
+  - name: Federated auth
+    href: authentication/federated-auth.md
+  - name: Helper application
+    href: authentication/helper-application.md
+  - name: Id token
+    href: authentication/id-token.md
+  - name: Jwt intro
+    href: authentication/jwt-intro.md
+  - name: Oauth 2 intro
+    href: authentication/oauth-2-intro.md
+  - name: Refresh token
+    href: authentication/refresh-token.md
+  - name: Superid token
+    href: authentication/superid-token.md
+  - name: Certificates
+    href: authentication/certificates/add-certificate-snap-in.md
+    items:
+    - name: Add certificate snap in
+      href: authentication/certificates/add-certificate-snap-in.md
+    - name: Configure
+      href: authentication/certificates/configure.md
+    - name: Override resolver
+      href: authentication/certificates/override-resolver.md
+    - name: Override resolver saml
+      href: authentication/certificates/override-resolver-saml.md
+    - name: Validate security tokens
+      href: authentication/certificates/validate-security-tokens.md
+  - name: Oidc
+    href: authentication/oidc/auth-code-flow-quickstart.md
+    items:
+    - name: Auth code flow
+      href: authentication/oidc/auth-code-flow.md
+    - name: Auth code flow quickstart
+      href: authentication/oidc/auth-code-flow-quickstart.md
+    - name: Claims reference
+      href: authentication/oidc/claims-reference.md
+    - name: Claims scope
+      href: authentication/oidc/claims-scope.md
+    - name: Endpoints
+      href: authentication/oidc/endpoints.md
+    - name: Hybrid flow
+      href: authentication/oidc/hybrid-flow.md
+    - name: Iframe idp auth
+      href: authentication/oidc/iframe-idp-auth.md
+    - name: Implicit flow
+      href: authentication/oidc/implicit-flow.md
+    - name: Metadata document
+      href: authentication/oidc/metadata-document.md
+    - name: Native app flow tutorial
+      href: authentication/oidc/native-app-flow-tutorial.md
+    - name: Native app quickstart
+      href: authentication/oidc/native-app-quickstart.md
+    - name: Native apps
+      href: authentication/oidc/native-apps.md
+  - name: System user
+    href: authentication/system-user/get-system-user-ticket.md
+    items:
+    - name: Get system user ticket
+      href: authentication/system-user/get-system-user-ticket.md
+    - name: Sign system user token
+      href: authentication/system-user/sign-system-user-token.md
+    - name: System user flow
+      href: authentication/system-user/system-user-flow.md
+    - name: System user ticket
+      href: authentication/system-user/system-user-ticket.md
+    - name: System user token
+      href: authentication/system-user/system-user-token.md
+- name: Automation
+  href: automation/crmscript.md
+  items:
+  - name: Crmscript
+    href: automation/crmscript.md
+  - name: Trigger
+    href: automation/trigger/create-trigger-macro.md
+    items:
+    - name: Create trigger macro
+      href: automation/trigger/create-trigger-macro.md
+    - name: Create trigger script
+      href: automation/trigger/create-trigger-script.md
+    - name: Set validation rules
+      href: automation/trigger/set-validation-rules.md
+    - name: Update value
+      href: automation/trigger/update-value.md
+  - name: Webhook
+    href: automation/webhook/add-msg-to-ticket-with-github-webhook.md
+    items:
+    - name: Add msg to ticket with github webhook
+      href: automation/webhook/add-msg-to-ticket-with-github-webhook.md
+- name: Chat
+  href: chat/index.md
+- name: Company and contact
+  href: company-and-contact/index.md
+- name: Custom fields
+  href: custom-fields/index.md
+- name: Customer center
+  href: customer-center/call-script-in-cs-with-ajax.md
+  items:
+  - name: Call script in cs with ajax
+    href: customer-center/call-script-in-cs-with-ajax.md
+  - name: Config
+    href: customer-center/config.md
+  - name: Edit template
+    href: customer-center/edit-template.md
+  - name: Embed chat widget on external site
+    href: customer-center/embed-chat-widget-on-external-site.md
+  - name: Inline crmscript and custom form
+    href: customer-center/inline-crmscript-and-custom-form.md
+- name: Dashboards
+  href: dashboards/index.md
+- name: Diary
+  href: diary/index.md
+- name: Documents
+  href: documents/cloud-document-integrations.md
+  items:
+  - name: Cloud document integrations
+    href: documents/cloud-document-integrations.md
+  - name: Configure cloud document handling
+    href: documents/configure-cloud-document-handling.md
+  - name: Odf
+    href: documents/odf.md
+  - name: G suite document integration
+    href: documents/g-suite-document-integration/index.md
+    items:
+    - name: Quick start
+      href: documents/g-suite-document-integration/quick-start.md
+    - name: Requirements
+      href: documents/g-suite-document-integration/requirements.md
+    - name: Security
+      href: documents/g-suite-document-integration/security.md
+    - name: Set up
+      href: documents/g-suite-document-integration/set-up.md
+  - name: Office 365 document integration
+    href: documents/office-365-document-integration/index.md
+    items:
+    - name: Prepare sharepoint for set up
+      href: documents/office-365-document-integration/prepare-sharepoint-for-set-up.md
+    - name: Requirements
+      href: documents/office-365-document-integration/requirements.md
+    - name: Security
+      href: documents/office-365-document-integration/security.md
+    - name: Set up
+      href: documents/office-365-document-integration/set-up.md
+    - name: Troubleshooting
+      href: documents/office-365-document-integration/troubleshooting.md
+  - name: Ribbons
+    href: documents/ribbons/enable-debug.md
+    items:
+    - name: Enable debug
+      href: documents/ribbons/enable-debug.md
+    - name: Troubleshooting
+      href: documents/ribbons/troubleshooting.md
+  - name: Templates
+    href: documents/templates/index.md
+    items:
+    - name: Troubleshooting
+      href: documents/templates/troubleshooting.md
+    - name: Variables
+      href: documents/templates/variables/for-appointments.md
+      items:
+      - name: For appointments
+        href: documents/templates/variables/for-appointments.md
+      - name: For ical
+        href: documents/templates/variables/for-ical.md
+      - name: For int address
+        href: documents/templates/variables/for-int-address.md
+      - name: For mail gateway
+        href: documents/templates/variables/for-mail-gateway.md
+      - name: For pocket
+        href: documents/templates/variables/for-pocket.md
+      - name: For quote alternative
+        href: documents/templates/variables/for-quote-alternative.md
+      - name: For quote info
+        href: documents/templates/variables/for-quote-info.md
+      - name: For quote line
+        href: documents/templates/variables/for-quote-line.md
+      - name: For quote line with subscription
+        href: documents/templates/variables/for-quote-line-with-subscription.md
+      - name: For sales
+        href: documents/templates/variables/for-sales.md
+      - name: For selected contact
+        href: documents/templates/variables/for-selected-contact.md
+      - name: For selections
+        href: documents/templates/variables/for-selections.md
+      - name: For sender contact dialog
+        href: documents/templates/variables/for-sender-contact-dialog.md
+      - name: For service
+        href: documents/templates/variables/for-service.md
+      - name: For web app
+        href: documents/templates/variables/for-web-app.md
+      - name: From company card
+        href: documents/templates/variables/from-company-card.md
+      - name: From doc dialog or system
+        href: documents/templates/variables/from-doc-dialog-or-system.md
+      - name: From project card
+        href: documents/templates/variables/from-project-card.md
+      - name: From senders company card
+        href: documents/templates/variables/from-senders-company-card.md
+      - name: Misc
+        href: documents/templates/variables/misc.md
+- name: Email
+  href: email/curl.md
+  items:
+  - name: Curl
+    href: email/curl.md
+  - name: Mailkit
+    href: email/mailkit.md
+  - name: Mailgun
+    href: email/mailgun/amount-speed.md
+    items:
+    - name: Amount speed
+      href: email/mailgun/amount-speed.md
+    - name: Reasons to customize
+      href: email/mailgun/reasons-to-customize.md
+    - name: Security
+      href: email/mailgun/security.md
+    - name: Sub processor info
+      href: email/mailgun/sub-processor-info.md
+    - name: Dkim
+      href: email/mailgun/dkim/change-us-to-eu.md
+      items:
+      - name: Change us to eu
+        href: email/mailgun/dkim/change-us-to-eu.md
+      - name: Order key
+        href: email/mailgun/dkim/order-key.md
+      - name: Set up
+        href: email/mailgun/dkim/set-up.md
+    - name: Spf
+      href: email/mailgun/spf/index.md
+      items:
+      - name: Set up
+        href: email/mailgun/spf/set-up.md
+  - name: Maillink
+    href: email/maillink/changes-in-7-1.md
+    items:
+    - name: Changes in 7 1
+      href: email/maillink/changes-in-7-1.md
+    - name: Debug
+      href: email/maillink/debug.md
+  - name: Superoffice for outlook
+    href: email/superoffice-for-outlook/deploy-centrally.md
+    items:
+    - name: Deploy centrally
+      href: email/superoffice-for-outlook/deploy-centrally.md
+    - name: Deploy office add in
+      href: email/superoffice-for-outlook/deploy-office-add-in.md
+    - name: Requirements
+      href: email/superoffice-for-outlook/requirements.md
+- name: Environment
+  href: environment/index.md
+- name: Identity management
+  href: identity-management/federated-id-and-identity-providers.md
+  items:
+  - name: Federated id and identity providers
+    href: identity-management/federated-id-and-identity-providers.md
+  - name: Multi factor authentication
+    href: identity-management/multi-factor-authentication.md
+  - name: Set up cloud document integration
+    href: identity-management/set-up-cloud-document-integration.md
+  - name: Single sign on
+    href: identity-management/single-sign-on.md
+  - name: User accounts and roles
+    href: identity-management/user-accounts-and-roles.md
+  - name: Scim
+    href: identity-management/scim/activate-deactivate-rules.md
+    items:
+    - name: Activate deactivate rules
+      href: identity-management/scim/activate-deactivate-rules.md
+    - name: Add scim rule
+      href: identity-management/scim/add-scim-rule.md
+    - name: Create azure enterprise app
+      href: identity-management/scim/create-azure-enterprise-app.md
+    - name: Enable auto sync
+      href: identity-management/scim/enable-auto-sync.md
+    - name: Get scim config
+      href: identity-management/scim/get-scim-config.md
+    - name: Get sync error messages
+      href: identity-management/scim/get-sync-error-messages.md
+    - name: Identity management gw
+      href: identity-management/scim/identity-management-gw.md
+    - name: Preview sync
+      href: identity-management/scim/preview-sync.md
+    - name: Restart sync
+      href: identity-management/scim/restart-sync.md
+    - name: Scim rules
+      href: identity-management/scim/scim-rules.md
+    - name: Setup guide
+      href: identity-management/scim/setup-guide.md
+    - name: Sign in to scim
+      href: identity-management/scim/sign-in-to-scim.md
+    - name: Sync company
+      href: identity-management/scim/sync-company.md
+    - name: Sync user
+      href: identity-management/scim/sync-user.md
+    - name: User provisioning
+      href: identity-management/scim/user-provisioning.md
+  - name: Superid
+    href: identity-management/superid/check-idp-domain.md
+    items:
+    - name: Check idp domain
+      href: identity-management/superid/check-idp-domain.md
+    - name: Complete user transition
+      href: identity-management/superid/complete-user-transition.md
+    - name: Federated sign in guide
+      href: identity-management/superid/federated-sign-in-guide.md
+    - name: Idp and doc handling
+      href: identity-management/superid/idp-and-doc-handling.md
+    - name: Known challenges with superid
+      href: identity-management/superid/known-challenges-with-superid.md
+    - name: Map idp usernames
+      href: identity-management/superid/map-idp-usernames.md
+    - name: Primary tenant
+      href: identity-management/superid/primary-tenant.md
+    - name: Register idp
+      href: identity-management/superid/register-idp.md
+    - name: Sign in services
+      href: identity-management/superid/sign-in-services.md
+    - name: Superid terms and conditions
+      href: identity-management/superid/superid-terms-and-conditions.md
+    - name: Superid webtools maillink pocket
+      href: identity-management/superid/superid-webtools-maillink-pocket.md
+    - name: User accounts and passwords
+      href: identity-management/superid/user-accounts-and-passwords.md
+  - name: User
+    href: identity-management/user/add-user-in-admin-client.md
+    items:
+    - name: Add user in admin client
+      href: identity-management/user/add-user-in-admin-client.md
+    - name: Enforce password policy
+      href: identity-management/user/enforce-password-policy.md
+    - name: Mapping so user to ad v 7 1
+      href: identity-management/user/mapping-so-user-to-ad-v-7-1.md
+    - name: Reset password
+      href: identity-management/user/reset-password.md
+    - name: Send welcome emails
+      href: identity-management/user/send-welcome-emails.md
+- name: Import export
+  href: import-export/index.md
+  items:
+  - name: Export
+    href: import-export/export/index.md
+  - name: Import
+    href: import-export/import/index.md
+- name: Knowledge base
+  href: knowledge-base/index.md
+- name: License
+  href: license/index.md
+  items:
+  - name: User plans
+    href: license/user-plans.md
+  - name: Expander services
+    href: license/expander-services/index.md
+    items:
+    - name: Subscription
+      href: license/expander-services/subscription.md
+    - name: Tool box
+      href: license/expander-services/tool-box.md
+- name: Marketing
+  href: marketing/index.md
+  items:
+  - name: Forms
+    href: marketing/forms/index.md
+    items:
+    - name: Recaptcha
+      href: marketing/forms/recaptcha.md
+- name: Mirroring
+  href: mirroring/conceptual-overview-2016.md
+  items:
+  - name: Conceptual overview 2016
+    href: mirroring/conceptual-overview-2016.md
+  - name: Create wfc
+    href: mirroring/create-wfc.md
+  - name: Force resync
+    href: mirroring/force-resync.md
+  - name: Getting started
+    href: mirroring/getting-started.md
+  - name: I mirror client service
+    href: mirroring/i-mirror-client-service.md
+  - name: Mirroring task
+    href: mirroring/mirroring-task.md
+  - name: Requirements
+    href: mirroring/requirements.md
+  - name: Scenarios
+    href: mirroring/scenarios.md
+  - name: Skip tables
+    href: mirroring/skip-tables.md
+  - name: Sql server schema
+    href: mirroring/sql-server-schema.md
+  - name: Sync manually
+    href: mirroring/sync-manually.md
+  - name: Track changes
+    href: mirroring/track-changes.md
+- name: Mobile
+  href: mobile/index.md
+  items:
+  - name: Pocket crm
+    href: mobile/pocket-crm/configure.md
+    items:
+    - name: Configure
+      href: mobile/pocket-crm/configure.md
+    - name: Install online
+      href: mobile/pocket-crm/install-online.md
+    - name: Install onsite
+      href: mobile/pocket-crm/install-onsite.md
+    - name: System requirements
+      href: mobile/pocket-crm/system-requirements.md
+    - name: Upgrade to 8
+      href: mobile/pocket-crm/upgrade-to-8.md
+    - name: Zip on rest
+      href: mobile/pocket-crm/zip-on-rest.md
+  - name: Superoffice mobile
+    href: mobile/superoffice-mobile/index.md
+    items:
+    - name: System requirements
+      href: mobile/superoffice-mobile/system-requirements.md
+- name: Ns web services
+  href: ns-web-services/80-to-80-sr-1.md
+  items:
+  - name: 80 to 80 sr 1
+    href: ns-web-services/80-to-80-sr-1.md
+  - name: 85 breaking changes
+    href: ns-web-services/85-breaking-changes.md
+  - name: 91 r 3 date time changes
+    href: ns-web-services/91-r-3-date-time-changes.md
+  - name: Getting started
+    href: ns-web-services/getting-started.md
+  - name: Localized address field
+    href: ns-web-services/localized-address-field.md
+  - name: Ns 3 document management
+    href: ns-web-services/ns-3-document-management.md
+  - name: Ns 3 sentry plugin
+    href: ns-web-services/ns-3-sentry-plugin.md
+  - name: Ns udef lookup class
+    href: ns-web-services/ns-udef-lookup-class.md
+  - name: Objectified sql
+    href: ns-web-services/objectified-sql.md
+  - name: Rest
+    href: ns-web-services/rest.md
+  - name: So on nuget
+    href: ns-web-services/so-on-nuget.md
+  - name: Soundx
+    href: ns-web-services/soundx.md
+  - name: Submit rest
+    href: ns-web-services/submit-rest.md
+  - name: Update nuget
+    href: ns-web-services/update-nuget.md
+  - name: What is netserver part 1
+    href: ns-web-services/what-is-netserver-part-1.md
+  - name: What is netserver part 2
+    href: ns-web-services/what-is-netserver-part-2.md
+- name: Odata
+  href: odata/import-to-excel.md
+  items:
+  - name: Import to excel
+    href: odata/import-to-excel.md
+- name: Online
+  href: online/index.md
+  items:
+  - name: System requirements
+    href: online/system-requirements.md
+  - name: Version history
+    href: online/version-history.md
+  - name: Test environment
+    href: online/test-environment/copy-database-caution.md
+    items:
+    - name: Copy database caution
+      href: online/test-environment/copy-database-caution.md
+- name: Onsite
+  href: onsite/dbsetup-exe.md
+  items:
+  - name: Dbsetup exe
+    href: onsite/dbsetup-exe.md
+  - name: Migration guide
+    href: onsite/migration-guide.md
+  - name: System requirements
+    href: onsite/system-requirements.md
+  - name: Upgrade scenarios 75 to 8
+    href: onsite/upgrade-scenarios-75-to-8.md
+  - name: Upgrade to 8 1
+    href: onsite/upgrade-to-8-1.md
+  - name: Version history
+    href: onsite/version-history.md
+  - name: Compatibility
+    href: onsite/compatibility/browser.md
+    items:
+    - name: Browser
+      href: onsite/compatibility/browser.md
+    - name: Client os
+      href: onsite/compatibility/client-os.md
+    - name: Database
+      href: onsite/compatibility/database.md
+    - name: Ms office
+      href: onsite/compatibility/ms-office.md
+    - name: Ms sql server
+      href: onsite/compatibility/ms-sql-server.md
+    - name: Oracle
+      href: onsite/compatibility/oracle.md
+    - name: Server os
+      href: onsite/compatibility/server-os.md
+  - name: Config and ini
+    href: onsite/config-and-ini/index.md
+    items:
+    - name: Remotetravel ini
+      href: onsite/config-and-ini/remotetravel-ini.md
+    - name: Service config
+      href: onsite/config-and-ini/service-config.md
+    - name: Sotables ini
+      href: onsite/config-and-ini/sotables-ini.md
+    - name: Souser ini
+      href: onsite/config-and-ini/souser-ini.md
+    - name: Superoffice config
+      href: onsite/config-and-ini/superoffice-config.md
+    - name: Superoffice ini
+      href: onsite/config-and-ini/superoffice-ini.md
+    - name: Username ini
+      href: onsite/config-and-ini/username-ini.md
+    - name: Web config
+      href: onsite/config-and-ini/web-config.md
+  - name: Crm server
+    href: onsite/crm-server/create-ms-sql-server-db.md
+    items:
+    - name: Create ms sql server db
+      href: onsite/crm-server/create-ms-sql-server-db.md
+    - name: Create oracle db
+      href: onsite/crm-server/create-oracle-db.md
+    - name: Deploy on citrix
+      href: onsite/crm-server/deploy-on-citrix.md
+    - name: Install on citrix
+      href: onsite/crm-server/install-on-citrix.md
+    - name: Move
+      href: onsite/crm-server/move.md
+    - name: Setup guide
+      href: onsite/crm-server/setup-guide.md
+    - name: Silent serversetup
+      href: onsite/crm-server/silent-serversetup.md
+    - name: Sql server full text search
+      href: onsite/crm-server/sql-server-full-text-search.md
+    - name: System requirements
+      href: onsite/crm-server/system-requirements.md
+    - name: Upgrade to 8
+      href: onsite/crm-server/upgrade-to-8.md
+    - name: Iis web server
+      href: onsite/crm-server/iis-web-server/index.md
+      items:
+      - name: Prepare
+        href: onsite/crm-server/iis-web-server/prepare.md
+      - name: Sso
+        href: onsite/crm-server/iis-web-server/sso.md
+  - name: Pocket crm
+    href: onsite/pocket-crm/index.md
+    items:
+    - name: System requirements
+      href: onsite/pocket-crm/system-requirements.md
+  - name: Security
+    href: onsite/security/deployment-scenarios.md
+    items:
+    - name: Deployment scenarios
+      href: onsite/security/deployment-scenarios.md
+    - name: Network firewall config
+      href: onsite/security/network-firewall-config.md
+    - name: Secure deployment guide
+      href: onsite/security/secure-deployment-guide.md
+    - name: Secure https
+      href: onsite/security/secure-https.md
+    - name: Set up emet
+      href: onsite/security/set-up-emet.md
+    - name: Set up modsecurity
+      href: onsite/security/set-up-modsecurity.md
+    - name: Set up reverse proxy on iis
+      href: onsite/security/set-up-reverse-proxy-on-iis.md
+  - name: Service
+    href: onsite/service/debug-automated-tasks.md
+    items:
+    - name: Debug automated tasks
+      href: onsite/service/debug-automated-tasks.md
+    - name: Install manually
+      href: onsite/service/install-manually.md
+    - name: Log files
+      href: onsite/service/log-files.md
+    - name: Set up guide
+      href: onsite/service/set-up-guide.md
+    - name: Upgrade
+      href: onsite/service/upgrade.md
+  - name: Web client
+    href: onsite/web-client/access-custom-page.md
+    items:
+    - name: Access custom page
+      href: onsite/web-client/access-custom-page.md
+    - name: Add custom path
+      href: onsite/web-client/add-custom-path.md
+    - name: Admin
+      href: onsite/web-client/admin.md
+    - name: Background computing and batch processing
+      href: onsite/web-client/background-computing-and-batch-processing.md
+    - name: Batch task server
+      href: onsite/web-client/batch-task-server.md
+    - name: Components
+      href: onsite/web-client/components.md
+    - name: Debug
+      href: onsite/web-client/debug.md
+    - name: Id transfer tickets
+      href: onsite/web-client/id-transfer-tickets.md
+    - name: Install netserver
+      href: onsite/web-client/install-netserver.md
+    - name: Page configuration
+      href: onsite/web-client/page-configuration.md
+    - name: Scripting
+      href: onsite/web-client/scripting.md
+    - name: Set up
+      href: onsite/web-client/set-up.md
+    - name: Set up ad auth
+      href: onsite/web-client/set-up-ad-auth.md
+    - name: Set up web and report
+      href: onsite/web-client/set-up-web-and-report.md
+    - name: System requirements
+      href: onsite/web-client/system-requirements.md
+    - name: Upgrade netserver to 8
+      href: onsite/web-client/upgrade-netserver-to-8.md
+    - name: Upgrade to 8
+      href: onsite/web-client/upgrade-to-8.md
+    - name: Validate fields
+      href: onsite/web-client/validate-fields.md
+    - name: Validation
+      href: onsite/web-client/validation.md
+  - name: Win client
+    href: onsite/win-client/admin.md
+    items:
+    - name: Admin
+      href: onsite/win-client/admin.md
+    - name: Command line switches
+      href: onsite/win-client/command-line-switches.md
+    - name: Debug
+      href: onsite/win-client/debug.md
+    - name: Find superoffice ini file
+      href: onsite/win-client/find-superoffice-ini-file.md
+    - name: Install
+      href: onsite/win-client/install.md
+    - name: Prepare server
+      href: onsite/win-client/prepare-server.md
+    - name: System requirements
+      href: onsite/win-client/system-requirements.md
+    - name: Upgrade
+      href: onsite/win-client/upgrade.md
+    - name: Win script event system
+      href: onsite/win-client/win-script-event-system.md
+- name: Plugins
+  href: plugins/index.md
+  items:
+  - name: Document plugins
+    href: plugins/document-plugins/index.md
+    items:
+    - name: Soarc document plugin
+      href: plugins/document-plugins/soarc-document-plugin.md
+- name: Privacy
+  href: privacy/consent-management.md
+  items:
+  - name: Consent management
+    href: privacy/consent-management.md
+  - name: E marketing consent
+    href: privacy/e-marketing-consent.md
+  - name: Gdpr for app developer
+    href: privacy/gdpr-for-app-developer.md
+- name: Project
+  href: project/index.md
+- name: Provisioning
+  href: provisioning/example.md
+  items:
+  - name: Example
+    href: provisioning/example.md
+- name: Quote
+  href: quote/index.md
+  items:
+  - name: Using template variables
+    href: quote/using-template-variables.md
+- name: Quote connectors
+  href: quote-connectors/index.md
+- name: Reply templates
+  href: reply-templates/index.md
+  items:
+  - name: System templates
+    href: reply-templates/system-templates.md
+- name: Reports
+  href: reports/enable-debug.md
+  items:
+  - name: Enable debug
+    href: reports/enable-debug.md
+- name: Request management
+  href: request-management/index.md
+- name: Saint
+  href: saint/index.md
+- name: Sale
+  href: sale/index.md
+- name: Search
+  href: search/expand-quick-search.md
+  items:
+  - name: Expand quick search
+    href: search/expand-quick-search.md
+  - name: Selection
+    href: search/selection/index.md
+- name: Service
+  href: service/config-faq.md
+  items:
+  - name: Config faq
+    href: service/config-faq.md
+  - name: Set up facebook integration
+    href: service/set-up-facebook-integration.md
+  - name: Time zones
+    href: service/time-zones.md
+  - name: Attachments
+    href: service/attachments/index.md
+    items:
+    - name: Location
+      href: service/attachments/location.md
+  - name: Sms
+    href: service/sms/cm.md
+    items:
+    - name: Cm
+      href: service/sms/cm.md
+    - name: Compaya
+      href: service/sms/compaya.md
+    - name: Intelecom
+      href: service/sms/intelecom.md
+    - name: Pswincom
+      href: service/sms/pswincom.md
+    - name: Smsteknik
+      href: service/sms/smsteknik.md
+    - name: Twilio
+      href: service/sms/twilio.md
+    - name: Txtlocal
+      href: service/sms/txtlocal.md
+- name: System design
+  href: system-design/index.md
+- name: Tenants
+  href: tenants/approval-sequence.md
+  items:
+  - name: Approval sequence
+    href: tenants/approval-sequence.md
+  - name: Check status
+    href: tenants/check-status.md
+  - name: Clone to test envir
+    href: tenants/clone-to-test-envir.md
+  - name: Get consent
+    href: tenants/get-consent.md
+  - name: Get notifications
+    href: tenants/get-notifications.md
+  - name: Manage status changes
+    href: tenants/manage-status-changes.md
+  - name: Notifications example
+    href: tenants/notifications-example.md
+  - name: Online tenant status
+    href: tenants/online-tenant-status.md
+  - name: Production test tenant
+    href: tenants/production-test-tenant.md
+  - name: Replace test envir
+    href: tenants/replace-test-envir.md
+- name: Travel
+  href: travel/create-update-prototype.md
+  items:
+  - name: Create update prototype
+    href: travel/create-update-prototype.md
+- name: Video meeting
+  href: video-meeting/configure-video-meetings.md
+  items:
+  - name: Configure video meetings
+    href: video-meeting/configure-video-meetings.md
+  - name: Connect provider
+    href: video-meeting/connect-provider.md
+  - name: Create video meeting
+    href: video-meeting/create-video-meeting.md
+  - name: Disconnect provider
+    href: video-meeting/disconnect-provider.md
+  - name: Join video meeting
+    href: video-meeting/join-video-meeting.md
+  - name: Pre requisites
+    href: video-meeting/pre-requisites.md
+  - name: Uninstall provider
+    href: video-meeting/uninstall-provider.md
+- name: Webtools
+  href: webtools/background.md
+  items:
+  - name: Background
+    href: webtools/background.md
+  - name: Debug on mac
+    href: webtools/debug-on-mac.md
+  - name: Deploy
+    href: webtools/deploy.md
+  - name: Diagnostics
+    href: webtools/diagnostics.md
+  - name: Proxy
+    href: webtools/proxy.md
+  - name: System requirements
+    href: webtools/system-requirements.md
+  - name: Technical overview
+    href: webtools/technical-overview.md
+  - name: Troubleshooting
+    href: webtools/troubleshooting.md
+  - name: Upgrade
+    href: webtools/upgrade.md
+  - name: Doclink
+    href: webtools/doclink/index.md
+    items:
+    - name: Registry entries
+      href: webtools/doclink/registry-entries.md

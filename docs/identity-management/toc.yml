@@ -1,9 +1,0 @@
-- name: Identity management
-  href: index.md
-  expanded: true
-  items: # These items are navigation headers
-  - name: User
-    href: user/index.md
-    items:
-    - name: Map users to AD
-      href: user/mapping-so-user-to-ad-v-7-1.md
