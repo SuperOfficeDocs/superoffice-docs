@@ -65,11 +65,11 @@ Upon reception, the receiving mail server checks if there is any existing DMARC 
 
 ## Email reputation
 
-Sender Reputation is used by email providers and filters to determine whether to accept or reject email by knowing whether a sender is a good sender or a spammer. Sender reputation is based on factors like email volume, complaint rates, user unknown rates, blacklistings, filtering rates, spam trap hits, and bounce rates.
+Sender Reputation is used by email providers and filters to determine whether to accept or reject an email by knowing whether a sender is a good sender or a spammer. Sender reputation is based on factors like email volume, complaint rates, user unknown rates, blacklistings, filtering rates, spam trap hits, and bounce rates.
 
 ## Blacklist
 
-Commonly called Realtime blacklist, DNSBL or RBL. An email blacklist is a real-time database that uses set criteria to determine if an IP is sending emails that could be considered spam. There are over 300 publicly available blacklists. Public blacklists are created by large, trustworthy companies, as well as small, independent networks. Since anyone can create a blacklist, they don’t all have the same impact on deliverability. Mailbox providers and filtering companies do not leverage inbox placement on every blacklist. They typically combine data from various public blacklists, as well as data from their own networks, to determine your credibility as a sender. This allows other mail servers to check if an email is from a server's IP address that might have possibly been flagged for sending spam in the past.
+Commonly called Realtime blacklist, DNSBL, or RBL. An email blacklist is a real-time database that uses set criteria to determine if an IP is sending emails that could be considered spam. There are over 300 publicly available blacklists. Public blacklists are created by large, trustworthy companies, as well as small, independent networks. Since anyone can create a blacklist, they don’t all have the same impact on deliverability. Mailbox providers and filtering companies do not leverage inbox placement on every blacklist. They typically combine data from various public blacklists, as well as data from their own networks, to determine your credibility as a sender. This allows other mail servers to check if an email is from a server's IP address that might have possibly been flagged for sending spam in the past.
 
 It’s important to note that blacklist providers are not the ones blocking your mail—it’s the mailbox provider leveraging your blacklist status that blocks your mail. If a blacklist resulted in a block, focus on the potential causes for the listing. Blacklisting is most often caused by poor list quality and end-user complaints, but they all have their own criteria for accepting inbound mail and all can have a negative effect on your delivery rate.
 
@@ -101,13 +101,13 @@ Because there is no hard definition of "spam" it is also relatively easy to end 
 
 In many cases, this can be caused by the fact that the recipient’s mail server sees your email address as spam, because the Sender domain is different from the actual domain being received from.
 
-Creating a mailing in SuperOffice Online, you define a sender address ('from:'). You can use any email address for this, as there are no restrictions. Let's say you are using a sender email address which has the domain (email ending)"@yourdomain.com". When the mailing reaches the recipient mail server it sees that the mailing is sent from `customer.suocrm.com` domain. This can cause your newsletter being identified as Spam.
+Creating a mailing in SuperOffice Online, you define a sender address ('from:'). You can use any email address for this, as there are no restrictions. Let's say you are using a sender email address, which has the domain (email ending)"@yourdomain.com". When the mailing reaches the recipient mail server it sees that the mailing is sent from `customer.suocrm.com` domain. This can cause your newsletter to be identified as Spam.
 
 Read more about spam at [Wikipedia][10]
 
 ### Spamtrap
 
- Spam traps are email addresses that may or may not exist and are used to judge your sender reputation. The term "trap" refers to how these types of addresses are scattered throughout the internet to catch people either not using proper list building practices, harvesting emails, purchasing lists from a third party, or marketers who have poor list hygiene (whether they know it or not). "Honeypot" or "Planted" Traps email addresses have been intentionally created to trap spammers searching the millions of websites on the Internet for any address they can find. These traps are never published and do not belong to a real person thus could never "opt-in" to any list since it is impossible for the address to initiate, respond or give consent to having received an email of any kind. They are used by anti-spam groups to catch spammers, monitor and collect spam. If you send an email to one of these traps, you will get exposed for using illegal marketing practices and you will get blacklisted which will seriously harm both your delivery and your reputation.
+ Spam traps are email addresses that may or may not exist and are used to judge your sender's reputation. The term "trap" refers to how these types of addresses are scattered throughout the internet to catch people either not using proper list building practices, harvesting emails, purchasing lists from a third party, or marketers who have poor list hygiene (whether they know it or not). "Honeypot" or "Planted" Traps email addresses have been intentionally created to trap spammers searching the millions of websites on the Internet for any address they can find. These traps are never published and do not belong to a real person thus could never "opt-in" to any list since it is impossible for the address to initiate, respond or give consent to having received an email of any kind. They are used by anti-spam groups to catch spammers, monitor and collect spam. If you send an email to one of these traps, you will get exposed for using illegal marketing practices and you will get blacklisted which will seriously harm both your delivery and your reputation.
 
 Read more about spam traps at [Wikipedia][11]
 
@@ -127,13 +127,13 @@ Mail classifications depend heavily on reports from users. Most users of the mai
 
 #### Bounce rate
 
-Your bounce rate is the percentage of email addresses that your campaign could not be delivered to. Email providers and anti-spam networks monitor bounce rates for every campaign you send and use that information to decide if they'll accept mail from you in the future. Besides affecting an individual sender's reputation, high bounce rates can land our sending IPs on blacklists, and potentially affect others who use Maligun service. While Mailgun do a lot of work behind the scenes to protect the customer from potential problems, there are certain best practices you can follow to keep things running as smoothly as possible. As a guideline, a well maintained, a permission-based list should typically see bounce rates of 2% or less for each email campaign (mailing) sent.
+Your bounce rate is the percentage of email addresses that your campaign could not be delivered to. Email providers and anti-spam networks monitor bounce rates for every campaign you send and use that information to decide if they'll accept mail from you in the future. Besides affecting an individual sender's reputation, high bounce rates can land our sending IPs on blacklists, and potentially affect others who use the Mailgun service. While Mailgun does a lot of work behind the scenes to protect the customer from potential problems, there are certain best practices you can follow to keep things running as smoothly as possible. As a guideline, a well-maintained, permission-based list should typically see bounce rates of 2% or less for each email campaign (mailing) sent.
 
 ## Spoofing
 
 Spammers can forge, or "spoof," your domain's From address to make their spam look like it came from someone in your domain.
 
-There isn't a way to stop email address from being spoofed. Anyone can spoof an email address. The trick is to identify spoofed emails when they are received, adjusting your spam filters and security on the incoming mail server. It also depends on how email is being spoofed.
+There isn't a way to stop email addresses from being spoofed. Anyone can spoof an email address. The trick is to identify spoofed emails when they are received, adjusting your spam filters and security on the incoming mail server. It also depends on how email is being spoofed.
 
 To help prevent this, we recommend authenticating mail sent from your domain in two ways: by adding a digital signature to your messages that conform to the DomainKeys Identified Mail (DKIM) standard, and by creating SPF records.
 

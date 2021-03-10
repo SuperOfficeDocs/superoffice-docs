@@ -46,7 +46,7 @@ Macros are a simpler way of creating automation and validations, although it has
 
 With some minor tweaks, you can get better data quality by forcing the user input values that help out your day-to-day activities, and you will be able to automate some of the processes and calculations which could save you huge amounts of time.
 
-We often advice the customers to use as much standard functionality as possible, but there are certain things that you'd want to customize - and luckily, we have triggers for that.
+We often recommend the customers to use as much standard functionality as possible, but there are certain things that you'd want to customize - and luckily, we have triggers for that.
 
 <!-- Referenced links -->
 [1]: https://community.superoffice.com/en/blog/beginners-guide-to-ejscript-part-one-how-tos/

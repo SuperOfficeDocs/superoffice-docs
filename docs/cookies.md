@@ -98,4 +98,4 @@ Cookies used by the Service client both in Online and Onsite deployment.
 | debug.disableNotifications | boolean | Service | Used for debugging option in Service |
 | debug.printExceptions | boolean | Service | Used for debugging option in Service |
 
-\* when embedded in the Customer centre
+\* when embedded in the Customer Centre

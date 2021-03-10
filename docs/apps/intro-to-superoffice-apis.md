@@ -98,11 +98,11 @@ The list of available APIs for integrations decreases the closer they are to on-
 
 There are virtually no limitations as to which API you leverage when building an integration that targets just the Windows client. If, however, your requirements include both the Windows client and the Web client together, the available API options decrease. This is not necessarily a bad thing though. Sometimes it just makes technological sense to build an integration using only one of the available APIs. It does not make sense, for example, to use the COM-based API in today's web service architectures. Although it sometimes can not be avoided, we generally discourage building integrations that leverage more than one of our APIs in the same solution.
 
-Although integrations in SuperOffice CRM Online can display visual elements, such as partner applications through a web panel, the Web client in SuperOffice CRM Online only supports service-orientated integrations today. Meaning that all data access routines must use the web services APIs. Considering the SuperOffice Web client relies exclusively on these APIs, and has more functionality than the Windows user and administration clients, the capability of the web service APIs should never be considered inferior. In fact, the web service APIs should be given serious consideration for nearly all scenarios.
+Although integrations in SuperOffice CRM Online can display visual elements, such as partner applications through a web panel, the Web client in SuperOffice CRM Online only supports service-orientated integrations today. Meaning that all data access routines must use the web services APIs. Considering the SuperOffice Web client relies exclusively on these APIs, and has more functionality than the Windows user and administration clients, the capability of the web service APIs should never be considered inferior. The web service APIs should be given serious consideration for nearly all scenarios.
 
 ## Integration Scenarios by Platform
 
-To gain a better understanding what types of integrations are possible, the remainder of this article is going to discuss each SuperOffice client and NetServer to help clarify which integration approach is best for your specific needs.
+To gain a better understanding of what types of integrations are possible, the remainder of this article is going to discuss each SuperOffice client and NetServer to help clarify which integration approach is best for your specific needs.
 
 ### Window Client
 
@@ -130,7 +130,7 @@ The Windows client exposes many hooks that make it easy for vendors to create a 
 
 Available since 2007, the SuperOffice Web client has enjoyed a wide-spread adoption by many on-site customer installations. The product has several advantages over the Windows client. For example, customers can install SuperOffice on a web server that is accessible both near and far without having to pay extra license fees for disconnected functionality such as Travel, or incure the extra maintenance costs for maintaining Travel Gateway and the processing of .up and .dwn files.
 
-SuperOffice CRM Web also enjoys many integration capabilities. I would go so far as to say that it is the most extensible CRM platforms available today! With the ability to modify and adapt the user's experience, manipulate the data processing and logic, nearly every component in the SuperOffice CRM Web stack is over-ridable and extensible for complementary functionality or control.
+SuperOffice CRM Web also enjoys many integration capabilities. I would go so far as to say that it is the most extensible CRM platform available today! With the ability to modify and adapt the user's experience, manipulate the data processing and logic, nearly every component in the SuperOffice CRM Web stack is over-ridable and extensible for complementary functionality or control.
 
 **Integration Points:**
 
@@ -151,7 +151,7 @@ SuperOffice CRM Web also enjoys many integration capabilities. I would go so far
 
 Both SuperOffice on-site installations and CRM Online applications use the same NetServer web service APIs. The only difference between the two environments is how integrations are authenticated. While on-site integrations have a more direct approach, supplying credentials, CRM Online integrations must use [federated authentication][8].
 
-Federated authentication is a way SuperOffice can provide a single sign-in experience for multi-tenant users, and applications that serve multi-tenant installations.
+Federated authentication is a way SuperOffice can provide a single sign-in experience for multi-tenant users and applications that serve multi-tenant installations.
 
 The SuperOffice CRM Online environment hosts an app store with several partner integrations. These integrations are comprised of Business to Consumer (B2C) applications. Most applications expose functionality inside SuperOffice by adding web panels in relevant areas, while others add a button that opens a web page to the application. All application vendors have their own cloud platforms to manage customers and tenant users.
 
@@ -172,7 +172,7 @@ You can find out more information about CRM Online integration points by reading
 
 ### Customer Service
 
-There are several articles available that explain in detail many of the internal automation integrations points provided by SuperOffice CS. There are not, however, too many external integration points to discuss. The ones that do exist are primarily the CS legacy [SOAP services][11]. It must be said that these services have not evolved for quite some time, and do not appear to be on any road map. That said, there are a few major installations that do leverage these endpoints, and therefore they are not likely to fade away any time soon either. Similar to the Windows client COM APIs, these APIs are in the future not likely to change.
+There are several articles available that explain in detail many of the internal automation integration points provided by SuperOffice CS. There are not, however, too many external integration points to discuss. The ones that do exist are primarily the CS legacy [SOAP services][11]. It must be said that these services have not evolved for quite some time, and do not appear to be on any road map. That said, there are a few major installations that do leverage these endpoints, and therefore they are not likely to fade away any time soon either. Similar to the Windows client COM APIs, these APIs are in the future not likely to change.
 
 There are no prebuilt SuperOffice proxies available for these APIs. You must use a proxy generator appropriate for your target technology platform, or use raw SOAP requests, to use these services.
 
@@ -201,8 +201,8 @@ As a multi-tiered database access layer that bridges communications between clie
 
 Listed below are the different aspects of NetServer core APIs.
 
-* OSQL: Low-level high performance database-independent objectified SQL.
-* Rows and Rows: Medium-level data table and data row level access
+* OSQL: Low-level, high-performance, database-independent objectified SQL.
+* Rows and Rows: Medium-level data table and data row-level access
 * Entities: High-level business model classes that abstract multiple table joins.
 * Archive and MDO Providers: provide complex search capabilities across the entire database.
 
@@ -215,7 +215,7 @@ An important aspect of NetServer web service development is its deployment flex
 
 **Webhooks** are supported at both the low and high levels of NetServer.
 
-All types of technology platforms, including Java, PHP, Python, Ruby and many more are able to integrate with NetServer web services. Any technology stack that supports web services is able to connect to and exchange data with SuperOffice NetServer. SuperOffice only supplies .NET proxy assemblies. All other technology platforms must generate their own proxies, or use raw SOAP/XML, to access the web services.
+All types of technology platforms, including Java, PHP, Python, Ruby, and many more can integrate with NetServer web services. Any technology stack that supports web services can connect to and exchange data with SuperOffice NetServer. SuperOffice only supplies .NET proxy assemblies. All other technology platforms must generate their own proxies, or use raw SOAP/XML, to access the web services.
 
 **Integration Points (Low Level):**
 
@@ -238,9 +238,9 @@ Related SDK:
 
 ## Conclusion
 
-Whether constructing a small internal automation routine, or building a complex integration, SuperOffice has many integration options. Once you get past the problem of knowing with which SuperOffice platforms you are integrating, it becomes a matter of just choosing the right API for your solution.
+Whether constructing a small internal automation routine or building a complex integration, SuperOffice has many integration options. Once you get past the problem of knowing with which SuperOffice platforms you are integrating, it becomes a matter of just choosing the right API for your solution.
 
-With the understanding that each SuperOffice platform provides a lot of integrations points, and knowing that any one problem can have multiple solutions, it's important to consider all options before you decide which approach to take. There is assistance and guidance available. Please use the [developer forums][20] to ask for recommendations, or you may submit integration questions directly to SuperOffice at [sdk@superoffice.com][21].
+With the understanding that each SuperOffice platform provides a lot of integrations points, and knowing that any problem can have multiple solutions, it's important to consider all options before you decide which approach to take. Assistance and guidance are available. Please use the [developer forums][20] to ask for recommendations, or you may submit integration questions directly to SuperOffice at [sdk@superoffice.com][21].
 
 Read more about each platform API in the SDK documentation.
 
@@ -253,8 +253,8 @@ Read more about each platform API in the SDK documentation.
 [7]: https://community.superoffice.com/Documentation/SDK/SO.WebGUI/Index.html
 [8]: ../authentication/federated-auth.md
 [11]: https://community.superoffice.com/documentation/sdk/SO.CustomerServiceSupport/Index.html
-[12]: ../ns-web-services/what-is-netserver-part-2.md
-[13]: ../ns-web-services/what-is-netserver-part-1.md
+[12]: https://github.com/SuperOfficeDocs/data-access/blob/main/docs/services/ns-web-services/what-is-netserver-part-2.md
+[13]: https://github.com/SuperOfficeDocs/data-access/blob/main/docs/services/ns-web-services/what-is-netserver-part-1.md
 [15]: ../automation/webhook/index.md
 [16]: https://community.superoffice.com/documentation/sdk/SO.NetServer.Web.Services/html/Reference-SOAP-SOAP.htm
 [17]: https://community.superoffice.com/documentation/sdk/SO.NetServer.Web.Services/html/Reference-WebAPI-WebAPI.htm

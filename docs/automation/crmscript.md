@@ -9,7 +9,7 @@ keywords:
 
 CRMScript is a SuperOffice scripting dialect similar to JavaScript.
 
-CRMScripts allow you to create **automation and workflows** to fit the ways your business works. This extensibility method requires technical skills and is ideal for those who are already familiar with such programming languages as C, C++ and Java syntax.
+CRMScripts allow you to create **automation and workflows** to fit the ways your business works. This extensibility method requires technical skills and is ideal for those who are already familiar with such programming languages as C, C++, and Java syntax.
 
 **Triggers** are CRMScripts that are run for specific events, for example when a user creates a new sale or closes a Service request. You decide if the trigger should react silently or block the operation and display feedback to the user.
 

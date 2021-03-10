@@ -13,7 +13,7 @@ so.envir: cloud           # cloud or onsite
 so.client: online               # online, web, win, pocket, or mobile
 ---
 
-# Activate custom application
+# Activate a custom application
 
 Congratulations, your custom application is ready!
 

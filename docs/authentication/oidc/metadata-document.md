@@ -25,7 +25,7 @@ The metadata is a simple JavaScript Object Notation (JSON) document.
 
 The **environment** sub-domain is unique to each [application environment:][1]
 
-## Environment specific sub-domains
+## Environment-specific sub-domains
 
 | Environment | Sub-domain |
 |-------------|------------|

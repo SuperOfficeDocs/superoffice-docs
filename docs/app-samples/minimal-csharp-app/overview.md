@@ -21,7 +21,7 @@ This example is based on C# ASP.NET MVC and a console application.
 
 ## Assumptions
 
-We assume that you understand what SuperOffice CRM Online is and that you have a working knowledge of  programming in C#, certificates, and JWT tokens.
+We assume that you understand what SuperOffice CRM Online is and that you have a working knowledge of programming in C#, certificates, and JWT tokens.
 
 ## Prerequisites
 
@@ -59,7 +59,7 @@ This example uses an XML file to store system user tokens for SuperOffice online
 
 CustomerDataSource is located in the [SuperOffice.DevNet.Online.SystemUser.PartnerDBLibrary][3] project.
 
-## Applcation overview
+## Application overview
 
 The 1st time the web application runs, the default page will detect that the current user hasn't signed in to this application and it will redirect the user to the SuperOffice federation gateway (SuperID) for authentication.
 
@@ -77,7 +77,7 @@ In the future, the approval page may expose additional controls such as checkbox
 
 ### HomeController
 
-*HomeController.cs* is the default action and its responsibility is to check if the current user is signed in. If the current user is not signed in, the home controller will redirect the user to the SuperID sign in URL (SuperOffice Federation Gateway).
+*HomeController.cs* is the default action and its responsibility is to check if the current user is signed in. If the current user is not signed in, the home controller will redirect the user to the SuperID sign-in URL (SuperOffice Federation Gateway).
 
 The home controller uses a security attribute class defined in *SuperOfficeAuthorizeAttribute.cs*, located in the [SuperOffice.Online.PartnerLogin][4] project.
 
@@ -90,7 +90,7 @@ The client ID is appended to the URL when redirected to SuperID. This is done so
 
 The responsibility of *CallbackController.cs* is to validate the JWT token issued by SuperID and establish a user context. It is called after a user is successfully authenticated by SuperID.
 
-The *token* contains all of the claims a partners application needs to connect to and communicate with the user tenant in SuperOffice Online.
+The *token* contains all of the claims a partner's application needs to connect to and communicate with the user tenant in SuperOffice Online.
 
 The *user context* will be used by the web application for all successive calls to the tenant web services. It is managed in the *PartnerHttpContext* class defined in the [SuperOffice.Online.PartnerLogin][4] project.
 
@@ -105,7 +105,7 @@ The *user context* will be used by the web application for all successive calls 
 5. The user is redirected to the application default page after completion.
 
 > [!NOTE]
-> The redirect URL can be changed if requested. Future capabilities will enable you to change it yourself, but for now you must send an email to have it changed for you. Redirect URL change requests can be sent to sdk@superoffice.com.
+> The redirect URL can be changed if requested. Future capabilities will enable you to change it yourself, but for now, you must send an email to have it changed for you. Redirect URL change requests can be sent to sdk@superoffice.com.
 
 ### ContactEntityController
 
@@ -115,7 +115,7 @@ The *user context* will be used by the web application for all successive calls 
 
 *SystemUserController.cs* is used to demonstrate how to create a new company using the system user.
 
-This controller leverages the `SystemUserHelper` class, and then redirects the results to the *ContactEntityController* for displaying the new company details.
+This controller leverages the `SystemUserHelper` class and then redirects the results to the *ContactEntityController* for displaying the new company details.
 
 ### SystemUserHelper
 

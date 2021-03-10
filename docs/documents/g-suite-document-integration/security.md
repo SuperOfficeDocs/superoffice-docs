@@ -67,7 +67,7 @@ If your company and business structure use/cross multiple G Suite domains (ie. c
 
 4. Add your other domain-users to this [group][6] by selecting the group (clicking check), and click **Add users to group**. For more info, see [Google Help: Add members to the group][1].
 
-![x][img3]
+    ![x][img3]
 
 5. Sign in as SO Google service-account.
 
