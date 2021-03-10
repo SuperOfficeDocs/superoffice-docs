@@ -13,8 +13,6 @@ items:
   href: soap-envelope.md
 - name: Soft delete
   href: soft-delete.md
-- name: Admin
-  href: admin/index.md
 - name: Apps
   href: apps/activate-custom-app.md
   items:
@@ -213,10 +211,6 @@ items:
     items:
     - name: Add msg to ticket with github webhook
       href: automation/webhook/add-msg-to-ticket-with-github-webhook.md
-- name: Chat
-  href: chat/index.md
-- name: Company and contact
-  href: company-and-contact/index.md
 - name: Custom fields
   href: custom-fields/index.md
 - name: Customer center
@@ -232,10 +226,6 @@ items:
     href: customer-center/embed-chat-widget-on-external-site.md
   - name: Inline crmscript and custom form
     href: customer-center/inline-crmscript-and-custom-form.md
-- name: Dashboards
-  href: dashboards/index.md
-- name: Diary
-  href: diary/index.md
 - name: Documents
   href: documents/cloud-document-integrations.md
   items:
@@ -372,8 +362,6 @@ items:
       href: email/superoffice-for-outlook/deploy-office-add-in.md
     - name: Requirements
       href: email/superoffice-for-outlook/requirements.md
-- name: Environment
-  href: environment/index.md
 - name: Identity management
   href: identity-management/federated-id-and-identity-providers.md
   items:
@@ -462,13 +450,6 @@ items:
       href: identity-management/user/send-welcome-emails.md
 - name: Import export
   href: import-export/index.md
-  items:
-  - name: Export
-    href: import-export/export/index.md
-  - name: Import
-    href: import-export/import/index.md
-- name: Knowledge base
-  href: knowledge-base/index.md
 - name: License
   href: license/index.md
   items:
@@ -539,41 +520,6 @@ items:
     items:
     - name: System requirements
       href: mobile/superoffice-mobile/system-requirements.md
-- name: Ns web services
-  href: ns-web-services/80-to-80-sr-1.md
-  items:
-  - name: 80 to 80 sr 1
-    href: ns-web-services/80-to-80-sr-1.md
-  - name: 85 breaking changes
-    href: ns-web-services/85-breaking-changes.md
-  - name: 91 r 3 date time changes
-    href: ns-web-services/91-r-3-date-time-changes.md
-  - name: Getting started
-    href: ns-web-services/getting-started.md
-  - name: Localized address field
-    href: ns-web-services/localized-address-field.md
-  - name: Ns 3 document management
-    href: ns-web-services/ns-3-document-management.md
-  - name: Ns 3 sentry plugin
-    href: ns-web-services/ns-3-sentry-plugin.md
-  - name: Ns udef lookup class
-    href: ns-web-services/ns-udef-lookup-class.md
-  - name: Objectified sql
-    href: ns-web-services/objectified-sql.md
-  - name: Rest
-    href: ns-web-services/rest.md
-  - name: So on nuget
-    href: ns-web-services/so-on-nuget.md
-  - name: Soundx
-    href: ns-web-services/soundx.md
-  - name: Submit rest
-    href: ns-web-services/submit-rest.md
-  - name: Update nuget
-    href: ns-web-services/update-nuget.md
-  - name: What is netserver part 1
-    href: ns-web-services/what-is-netserver-part-1.md
-  - name: What is netserver part 2
-    href: ns-web-services/what-is-netserver-part-2.md
 - name: Odata
   href: odata/import-to-excel.md
   items:
@@ -786,8 +732,6 @@ items:
     href: privacy/e-marketing-consent.md
   - name: Gdpr for app developer
     href: privacy/gdpr-for-app-developer.md
-- name: Project
-  href: project/index.md
 - name: Provisioning
   href: provisioning/example.md
   items:
@@ -798,8 +742,6 @@ items:
   items:
   - name: Using template variables
     href: quote/using-template-variables.md
-- name: Quote connectors
-  href: quote-connectors/index.md
 - name: Reply templates
   href: reply-templates/index.md
   items:
@@ -810,19 +752,11 @@ items:
   items:
   - name: Enable debug
     href: reports/enable-debug.md
-- name: Request management
-  href: request-management/index.md
-- name: Saint
-  href: saint/index.md
-- name: Sale
-  href: sale/index.md
 - name: Search
   href: search/expand-quick-search.md
   items:
   - name: Expand quick search
     href: search/expand-quick-search.md
-  - name: Selection
-    href: search/selection/index.md
 - name: Service
   href: service/config-faq.md
   items:
@@ -854,8 +788,6 @@ items:
       href: service/sms/twilio.md
     - name: Txtlocal
       href: service/sms/txtlocal.md
-- name: System design
-  href: system-design/index.md
 - name: Tenants
   href: tenants/approval-sequence.md
   items:
