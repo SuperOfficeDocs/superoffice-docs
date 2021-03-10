@@ -36,7 +36,7 @@ As shown below, the `TaskRows` are retrieved for the given table ID using the `G
 
 [!code-csharp[CS](includes/set-udef-entity.cs)]
 
-We have used the `SetValue` method of the `UdefHelper` of the contact to set the selected value. This method accepts the `progId`, which is used to refer a particular field and the value to set as the updated value for the field.
+We have used the `SetValue` method of the `UdefHelper` of the contact to set the selected value. This method accepts the `progId`, which is used to refer a particular field, and the value to set as the updated value for the field.
 
 Next, the `Save` method of the `Contact` entity is used to update the contact entity.
 

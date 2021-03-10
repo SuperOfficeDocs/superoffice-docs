@@ -44,6 +44,6 @@ In the above example, we refer to a particular user-defined field by using a str
 
 If the `progId` is blank, we can assume it to be equal to *"SuperOffice:" + udeffield.identity* (For example, SuperOffice: 1).
 
-**Identity** is a sequence number that is allocated whenever you create a new user-defined field. This is not an ID field, but it remains unchanged between different versions of the same user-defined fields. Just like progId, the identity field also remains a constant throughout the life-time of a user-defined field.
+**Identity** is a sequence number that is allocated whenever you create a new user-defined field. This is not an ID field, but it remains unchanged between different versions of the same user-defined fields. Just like progId, the identity field also remains a constant throughout the lifetime of a user-defined field.
 
 The main purpose of the `progId` is to facilitate 3rd-party developers to make their fields with a name they can use in their code to find their user-defined fields again.

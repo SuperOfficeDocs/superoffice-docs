@@ -5,7 +5,7 @@ try
 {
   using (SoSession newSession = SoSession.Authenticate("sal0", ""))
   {
-    Console.Write("Please enter the contact id : ");
+    Console.Write("Please enter the contact ID: ");
 
     // Read the contact id
     String contactId = Console.ReadLine();
