@@ -13,6 +13,8 @@ items:
   href: soap-envelope.md
 - name: Soft delete
   href: soft-delete.md
+- name: Ai services
+  href: ai-services/index.md
 - name: Apps
   href: apps/activate-custom-app.md
   items:
