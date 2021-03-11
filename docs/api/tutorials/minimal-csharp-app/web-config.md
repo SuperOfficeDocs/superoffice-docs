@@ -84,4 +84,4 @@ The certificate thumbprint identifier on the machine hosting the website. The th
 The thumbprint identifier is environment-specific. The value of `SuperIdCertificate` will be different in SOD and production.
 
 <!-- Referenced links -->
-[1]: ../../apps/client-id-secret.md
+[1]: https://github.com/SuperOfficeDocs/superoffice-docs/blob/main/docs/apps/client-id-secret.md

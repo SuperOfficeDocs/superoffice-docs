@@ -64,7 +64,7 @@ This sequence represents a common scenario where a service exists that communica
 
 <!-- Referenced links -->
 [1]: overview.md
-[2]: ../../authentication/system-user/system-user-token.md
+[2]: https://github.com/SuperOfficeDocs/superoffice-docs/blob/main/docs/authentication/system-user/system-user-token.md
 
 <!-- Referenced images -->
 [img1]: media/image005.png

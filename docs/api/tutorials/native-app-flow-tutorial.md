@@ -248,9 +248,9 @@ I had to update the dependent versions from 4.1.2.0 to 4.0.3.
 [1]: https://github.com/IdentityModel/IdentityModel.OidcClient.Samples/tree/master/ConsoleSystemBrowser
 [2]: native-app-quickstart.md
 [3]: https://github.com/SuperOffice/SuperOffice.DevNet.OpenIDConnectNativeApp
-[4]: ../../apps/client-id-secret.md
-[5]: ../access-token.md
-[6]: ../refresh-token.md
+[4]: https://github.com/SuperOfficeDocs/superoffice-docs/blob/main/docs/apps/client-id-secret.md
+[5]: https://github.com/SuperOfficeDocs/superoffice-docs/blob/main/docs/authentication/access-token.md
+[6]: https://github.com/SuperOfficeDocs/superoffice-docs/blob/main/docs/authentication/refresh-token.md
 
 <!-- Referenced images -->
 [img1]: media/exception.png

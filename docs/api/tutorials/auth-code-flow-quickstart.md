@@ -113,14 +113,14 @@ The *SoHttpRestClient.cs* file is an `HttpClient` helper class to make REST req
 If you have any issues with the sample, please post an issue on the [repo issues page][10].
 
 <!-- Referenced links -->
-[1]: ../../tenants/index.md
-[2]: ../../apps/get-app-keys.md
-[3]: ../../apps/client-id-secret.md
+[1]: https://github.com/SuperOfficeDocs/superoffice-docs/blob/main/docs/tenants/index.md
+[2]: https://github.com/SuperOfficeDocs/superoffice-docs/blob/main/docs/apps/get-app-keys.md
+[3]: https://github.com/SuperOfficeDocs/superoffice-docs/blob/main/docs/apps/client-id-secret.md
 [4]: index.md
-[5]: auth-code-flow.md
-[6]: ../../apps/update-app.md
+[5]: https://github.com/SuperOfficeDocs/superoffice-docs/blob/main/docs/authentication/auth-code-flow.md
+[6]: https://github.com/SuperOfficeDocs/superoffice-docs/blob/main/docs/apps/update-app.md
 [7]: https://github.com/SuperOffice/devnet-oidc-razor-pages-webapi
-[8]: ../../apps/app-envir.md
+[8]: https://github.com/SuperOfficeDocs/superoffice-docs/blob/main/docs/apps/app-envir.md
 [10]: https://github.com/SuperOffice/devnet-oidc-razor-pages-webapi/issues
 
 <!-- Referenced images -->
