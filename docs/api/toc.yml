@@ -575,7 +575,7 @@ items:
     - name: Webservices
       href: netserver/config/webservices.md
   - name: Nuget
-    href: netserver/nuget/crm-online-core.md
+    href: netserver/nuget/index.md
     items:
     - name: Crm online core
       href: netserver/nuget/crm-online-core.md
@@ -1039,26 +1039,26 @@ items:
     - name: Notification types
       href: soap/services-soap-interface/notification-types.md
     - name: Admin port
-      href: soap/services-soap-interface/admin-port/checkagentversion.md
+      href: soap/services-soap-interface/admin-port/checkAgentVersion.md
       items:
-      - name: Checkagentversion
-        href: soap/services-soap-interface/admin-port/checkagentversion.md
-      - name: Getagent
-        href: soap/services-soap-interface/admin-port/getagent.md
-      - name: Geterrormessage
-        href: soap/services-soap-interface/admin-port/geterrormessage.md
-      - name: Getmodulepaths
-        href: soap/services-soap-interface/admin-port/getmodulepaths.md
-      - name: Gettag
-        href: soap/services-soap-interface/admin-port/gettag.md
-      - name: Getuser
-        href: soap/services-soap-interface/admin-port/getuser.md
-      - name: Getuserbyid
-        href: soap/services-soap-interface/admin-port/getuserbyid.md
-      - name: Getusers
-        href: soap/services-soap-interface/admin-port/getusers.md
-      - name: Setuser
-        href: soap/services-soap-interface/admin-port/setuser.md
+      - name: CheckAgentVersion
+        href: soap/services-soap-interface/admin-port/checkAgentVersion.md
+      - name: GetAgent
+        href: soap/services-soap-interface/admin-port/getAgent.md
+      - name: GetErrorMessage
+        href: soap/services-soap-interface/admin-port/getErrorMessage.md
+      - name: GetModulePaths
+        href: soap/services-soap-interface/admin-port/getModulePaths.md
+      - name: GetTag
+        href: soap/services-soap-interface/admin-port/getTag.md
+      - name: GetUser
+        href: soap/services-soap-interface/admin-port/getUser.md
+      - name: GetUserById
+        href: soap/services-soap-interface/admin-port/getUserById.md
+      - name: GetUsers
+        href: soap/services-soap-interface/admin-port/getUsers.md
+      - name: SetUser
+        href: soap/services-soap-interface/admin-port/setUser.md
     - name: Customer port
       href: soap/services-soap-interface/customer-port/addattachment.md
       items:
