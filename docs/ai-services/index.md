@@ -134,7 +134,7 @@ In case of errors and other experiences - we would like to get your input and fe
 [img6]: media/select-selection-type-dialog.png
 [img7]: media/name-selection-input.png
 [img8]: media/save-button.png
-[img9]: media/admin-nagigator-buttons.png
+[img9]: media/admin-navigator-buttons.png
 [img10]: media/select-category-menu.png
 [img11]: media/categorization-analysis.png
 [img12]: media/categorization-summary.png

@@ -153,12 +153,8 @@ items:
     - name: Validate security tokens
       href: authentication/certificates/validate-security-tokens.md
   - name: Oidc
-    href: authentication/oidc/auth-code-flow-quickstart.md
+    href: authentication/oidc/index.md
     items:
-    - name: Auth code flow
-      href: authentication/oidc/auth-code-flow.md
-    - name: Auth code flow quickstart
-      href: authentication/oidc/auth-code-flow-quickstart.md
     - name: Claims reference
       href: authentication/oidc/claims-reference.md
     - name: Claims scope
@@ -173,10 +169,6 @@ items:
       href: authentication/oidc/implicit-flow.md
     - name: Metadata document
       href: authentication/oidc/metadata-document.md
-    - name: Native app flow tutorial
-      href: authentication/oidc/native-app-flow-tutorial.md
-    - name: Native app quickstart
-      href: authentication/oidc/native-app-quickstart.md
     - name: Native apps
       href: authentication/oidc/native-apps.md
   - name: System user
