@@ -232,14 +232,20 @@ items:
   items:
   - name: Find contact by udef
     href: custom-fields/find-contact-by-udef.md
+  - name: Get udef field value
+    href: custom-fields/get-udef-field-value.md
   - name: Get udef list and values services
     href: custom-fields/get-udef-list-and-values-services.md
   - name: Set udef listitem value entity
     href: custom-fields/set-udef-listitem-value-entity.md
   - name: Set udef listitem value services
     href: custom-fields/set-udef-listitem-value-services.md
+  - name: Udefhelper class
+    href: custom-fields/udefhelper-class.md
   - name: Update udef entity
     href: custom-fields/update-udef-entity.md
+  - name: Using udefhelper
+    href: custom-fields/using-udefhelper.md
 - name: Diary
   href: diary/create-apt-entity-in-collection.md
   items:
@@ -568,6 +574,23 @@ items:
       href: netserver/config/webhooks.md
     - name: Webservices
       href: netserver/config/webservices.md
+  - name: Nuget
+    href: netserver/nuget/crm-online-core.md
+    items:
+    - name: Crm online core
+      href: netserver/nuget/crm-online-core.md
+    - name: Crm online mirroring
+      href: netserver/nuget/crm-online-mirroring.md
+    - name: Crm online winclient
+      href: netserver/nuget/crm-online-winclient.md
+    - name: Crm web
+      href: netserver/nuget/crm-web.md
+    - name: Netserver core
+      href: netserver/nuget/netserver-core.md
+    - name: Netserver services
+      href: netserver/nuget/netserver-services.md
+    - name: Update nuget
+      href: netserver/nuget/update-nuget.md
 - name: Osql
   href: osql/alias.md
   items:
@@ -960,6 +983,23 @@ items:
       href: services/carriers/entity-carriers.md
     - name: Read only carriers
       href: services/carriers/read-only-carriers.md
+  - name: Ns web services
+    href: services/ns-web-services/getting-started.md
+    items:
+    - name: Getting started
+      href: services/ns-web-services/getting-started.md
+    - name: Objectified sql
+      href: services/ns-web-services/objectified-sql.md
+    - name: Rest
+      href: services/ns-web-services/rest.md
+    - name: Soundx
+      href: services/ns-web-services/soundx.md
+    - name: Submit rest
+      href: services/ns-web-services/submit-rest.md
+    - name: What is netserver part 1
+      href: services/ns-web-services/what-is-netserver-part-1.md
+    - name: What is netserver part 2
+      href: services/ns-web-services/what-is-netserver-part-2.md
   - name: Scripting
     href: services/scripting/basic-scripting.md
     items:
@@ -999,26 +1039,26 @@ items:
     - name: Notification types
       href: soap/services-soap-interface/notification-types.md
     - name: Admin port
-      href: soap/services-soap-interface/admin-port/checkAgentVersion.md
+      href: soap/services-soap-interface/admin-port/checkagentversion.md
       items:
-      - name: CheckAgentVersion
-        href: soap/services-soap-interface/admin-port/checkAgentVersion.md
-      - name: GetAgent
-        href: soap/services-soap-interface/admin-port/getAgent.md
-      - name: GetErrorMessage
-        href: soap/services-soap-interface/admin-port/getErrorMessage.md
-      - name: GetModulePaths
-        href: soap/services-soap-interface/admin-port/getModulePaths.md
-      - name: GetTag
-        href: soap/services-soap-interface/admin-port/getTag.md
-      - name: GetUser
-        href: soap/services-soap-interface/admin-port/getUser.md
-      - name: GetUserById
-        href: soap/services-soap-interface/admin-port/getUserById.md
-      - name: GetUsers
-        href: soap/services-soap-interface/admin-port/getUsers.md
-      - name: SetUser
-        href: soap/services-soap-interface/admin-port/setUser.md
+      - name: Checkagentversion
+        href: soap/services-soap-interface/admin-port/checkagentversion.md
+      - name: Getagent
+        href: soap/services-soap-interface/admin-port/getagent.md
+      - name: Geterrormessage
+        href: soap/services-soap-interface/admin-port/geterrormessage.md
+      - name: Getmodulepaths
+        href: soap/services-soap-interface/admin-port/getmodulepaths.md
+      - name: Gettag
+        href: soap/services-soap-interface/admin-port/gettag.md
+      - name: Getuser
+        href: soap/services-soap-interface/admin-port/getuser.md
+      - name: Getuserbyid
+        href: soap/services-soap-interface/admin-port/getuserbyid.md
+      - name: Getusers
+        href: soap/services-soap-interface/admin-port/getusers.md
+      - name: Setuser
+        href: soap/services-soap-interface/admin-port/setuser.md
     - name: Customer port
       href: soap/services-soap-interface/customer-port/addattachment.md
       items:
@@ -1257,8 +1297,14 @@ items:
     - name: Ticket events
       href: webhooks/reference/ticket-events.md
 - name: Whats new
-  href: whats-new/index.md
+  href: whats-new/80-to-80-sr-1.md
   items:
+  - name: 80 to 80 sr 1
+    href: whats-new/80-to-80-sr-1.md
+  - name: 85 breaking changes
+    href: whats-new/85-breaking-changes.md
+  - name: 91 r 3 date time changes
+    href: whats-new/91-r-3-date-time-changes.md
   - name: Ns 30
     href: whats-new/ns-30.md
   - name: Ns 31
