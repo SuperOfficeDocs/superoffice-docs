@@ -1,4 +1,6 @@
 items:
+- name: Overview
+  href: index.md
 - name: Button scripts
   href: button-scripts.md
 - name: Eventdata
@@ -19,10 +21,8 @@ items:
   href: tutorial-custom-db-and-ui.md
 - name: Url parameters
   href: url-parameters.md
-- name: Web panels
-  href: web-panels.md
 - name: Blogic screen elements
-  href: blogic-screen-elements/address-book.md
+  href: blogic-screen-elements/index.md
   items:
   - name: Address book
     href: blogic-screen-elements/address-book.md
@@ -171,7 +171,7 @@ items:
   - name: Tree explorer
     href: blogic-screen-elements/tree-explorer.md
 - name: Custom screens
-  href: custom-screens/add-screen-element.md
+  href: custom-screens/index.md
   items:
   - name: Add screen element
     href: custom-screens/add-screen-element.md
@@ -185,3 +185,231 @@ items:
     href: custom-screens/layout-elements.md
   - name: View elements
     href: custom-screens/view-elements.md
+- name: Pagebuilder
+  href: pagebuilder/index.md
+  items:
+  - name: Config
+    href: pagebuilder/config/index.md
+    items:
+    - name: App config
+      href: pagebuilder/config/app-config.md
+    - name: Card
+      href: pagebuilder/config/card.md
+    - name: Data driven page config
+      href: pagebuilder/config/data-driven-page-config.md
+    - name: Object mapping
+      href: pagebuilder/config/object-mapping.md
+    - name: Page
+      href: pagebuilder/config/page.md
+    - name: Page fragments
+      href: pagebuilder/config/page-fragments.md
+    - name: Panel
+      href: pagebuilder/config/panel.md
+    - name: System config files
+      href: pagebuilder/config/system-config-files.md
+    - name: Ui config files
+      href: pagebuilder/config/ui-config-files.md
+    - name: View
+      href: pagebuilder/config/view.md
+  - name: Datahandlers
+    href: pagebuilder/datahandlers/index.md
+    items:
+    - name: Add custom datahandler
+      href: pagebuilder/datahandlers/add-custom-datahandler.md
+    - name: Tutorial
+      href: pagebuilder/datahandlers/tutorial.md
+    - name: Use builtin datahandler
+      href: pagebuilder/datahandlers/use-builtin-datahandler.md
+  - name: Framework
+    href: pagebuilder/framework/soprotocol.md
+    items:
+    - name: Soprotocol
+      href: pagebuilder/framework/soprotocol.md
+    - name: Xml config file
+      href: pagebuilder/framework/xml-config-file.md
+  - name: Superstate
+    href: pagebuilder/superstate/index.md
+    items:
+    - name: State changes
+      href: pagebuilder/superstate/state-changes.md
+    - name: Superstate in context
+      href: pagebuilder/superstate/superstate-in-context.md
+  - name: Usercontrols
+    href: pagebuilder/usercontrols/index.md
+    items:
+    - name: Rights system
+      href: pagebuilder/usercontrols/rights-system.md
+    - name: Tutorial 1
+      href: pagebuilder/usercontrols/tutorial-1.md
+    - name: Tutorial 2
+      href: pagebuilder/usercontrols/tutorial-2.md
+    - name: Tutorial aspnet appointment with login
+      href: pagebuilder/usercontrols/tutorial-aspnet-appointment-with-login.md
+    - name: Tutorial aspnet vs so controls
+      href: pagebuilder/usercontrols/tutorial-aspnet-vs-so-controls.md
+    - name: Tutorial custom page std controls
+      href: pagebuilder/usercontrols/tutorial-custom-page-std-controls.md
+    - name: Archives
+      href: pagebuilder/usercontrols/archives/index.md
+      items:
+      - name: Add archive action button
+        href: pagebuilder/usercontrols/archives/add-archive-action-button.md
+      - name: Add archive control
+        href: pagebuilder/usercontrols/archives/add-archive-control.md
+      - name: Add archive row context menu
+        href: pagebuilder/usercontrols/archives/add-archive-row-context-menu.md
+      - name: Add button to footer
+        href: pagebuilder/usercontrols/archives/add-button-to-footer.md
+      - name: Add row click actions
+        href: pagebuilder/usercontrols/archives/add-row-click-actions.md
+      - name: Change default columns
+        href: pagebuilder/usercontrols/archives/change-default-columns.md
+      - name: Create custom archive control
+        href: pagebuilder/usercontrols/archives/create-custom-archive-control.md
+    - name: Cards panels
+      href: pagebuilder/usercontrols/cards-panels/index.md
+      items:
+      - name: Add tab to contact card
+        href: pagebuilder/usercontrols/cards-panels/add-tab-to-contact-card.md
+      - name: Add textbox to navigator
+        href: pagebuilder/usercontrols/cards-panels/add-textbox-to-navigator.md
+      - name: Card
+        href: pagebuilder/usercontrols/cards-panels/card.md
+      - name: Id and references
+        href: pagebuilder/usercontrols/cards-panels/id-and-references.md
+      - name: Master and content pages
+        href: pagebuilder/usercontrols/cards-panels/master-and-content-pages.md
+      - name: Panel
+        href: pagebuilder/usercontrols/cards-panels/panel.md
+      - name: Placeholder
+        href: pagebuilder/usercontrols/cards-panels/placeholder.md
+      - name: Remove card
+        href: pagebuilder/usercontrols/cards-panels/remove-card.md
+      - name: Soprotocol names
+        href: pagebuilder/usercontrols/cards-panels/soprotocol-names.md
+    - name: Data binding
+      href: pagebuilder/usercontrols/data-binding/index.md
+      items:
+      - name: Idatahandler
+        href: pagebuilder/usercontrols/data-binding/idatahandler.md
+      - name: Pagebuilder uses datahandlers
+        href: pagebuilder/usercontrols/data-binding/pagebuilder-uses-datahandlers.md
+      - name: With solabel
+        href: pagebuilder/usercontrols/data-binding/with-solabel.md
+      - name: With solistbox
+        href: pagebuilder/usercontrols/data-binding/with-solistbox.md
+    - name: Lists
+      href: pagebuilder/usercontrols/lists/index.md
+      items:
+      - name: Add mdo control to panel
+        href: pagebuilder/usercontrols/lists/add-mdo-control-to-panel.md
+      - name: Config for mdo control
+        href: pagebuilder/usercontrols/lists/config-for-mdo-control.md
+      - name: Create custom mdo controls
+        href: pagebuilder/usercontrols/lists/create-custom-mdo-controls.md
+- name: Soprotocol
+  href: soprotocol/index.md
+  items:
+  - name: Create appointment
+    href: soprotocol/create-appointment.md
+  - name: Create contact
+    href: soprotocol/create-contact.md
+  - name: Edit contact
+    href: soprotocol/edit-contact.md
+  - name: Get contact
+    href: soprotocol/get-contact.md
+  - name: In crmscript
+    href: soprotocol/in-crmscript.md
+  - name: Navigation points
+    href: soprotocol/navigation-points.md
+  - name: Open appointment dialog
+    href: soprotocol/open-appointment-dialog.md
+  - name: Open dialog
+    href: soprotocol/open-dialog.md
+  - name: Page control and cache
+    href: soprotocol/page-control-and-cache.md
+  - name: Query strings
+    href: soprotocol/query-strings.md
+  - name: Show persons for contact
+    href: soprotocol/show-persons-for-contact.md
+  - name: Sop and superstate
+    href: soprotocol/sop-and-superstate.md
+  - name: Used in webpanels web
+    href: soprotocol/used-in-webpanels-web.md
+  - name: Used in webpanels win
+    href: soprotocol/used-in-webpanels-win.md
+- name: Web application
+  href: web-application/index.md
+  items:
+  - name: Model view controller pattern
+    href: web-application/model-view-controller-pattern.md
+  - name: Strategic goals
+    href: web-application/strategic-goals.md
+  - name: Customize
+    href: web-application/customize/index.md
+    items:
+    - name: Add custom control
+      href: web-application/customize/add-custom-control.md
+    - name: Add label
+      href: web-application/customize/add-label.md
+    - name: Add textbox
+      href: web-application/customize/add-textbox.md
+    - name: Cust and deploy
+      href: web-application/customize/cust-and-deploy.md
+    - name: Custom ajax methods
+      href: web-application/customize/custom-ajax-methods.md
+    - name: Triggers
+      href: web-application/customize/triggers.md
+  - name: Getting started
+    href: web-application/getting-started/index.md
+    items:
+    - name: Architecture
+      href: web-application/getting-started/architecture.md
+    - name: Dcf
+      href: web-application/getting-started/dcf.md
+    - name: Debug
+      href: web-application/getting-started/debug.md
+    - name: Globalization
+      href: web-application/getting-started/globalization.md
+    - name: Use custom config files
+      href: web-application/getting-started/use-custom-config-files.md
+  - name: Whats new
+    href: web-application/whats-new/index.md
+    items:
+    - name: In 80
+      href: web-application/whats-new/in-80.md
+- name: Web extensions
+  href: web-extensions/index.md
+  items:
+  - name: Mailarchivehelper
+    href: web-extensions/mailarchivehelper/index.md
+    items:
+    - name: Archive email
+      href: web-extensions/mailarchivehelper/archive-email.md
+    - name: Com interop and dotnet
+      href: web-extensions/mailarchivehelper/com-interop-and-dotnet.md
+    - name: Find contact from email
+      href: web-extensions/mailarchivehelper/find-contact-from-email.md
+    - name: Getting started
+      href: web-extensions/mailarchivehelper/getting-started.md
+    - name: Logging
+      href: web-extensions/mailarchivehelper/logging.md
+    - name: Mail protocol
+      href: web-extensions/mailarchivehelper/mail-protocol.md
+    - name: Preference dialog
+      href: web-extensions/mailarchivehelper/preference-dialog.md
+    - name: Registry
+      href: web-extensions/mailarchivehelper/registry.md
+- name: Web panels
+  href: web-panels/index.md
+  items:
+  - name: Add web panel
+    href: web-panels/add-web-panel.md
+  - name: Create link to
+    href: web-panels/create-link-to.md
+  - name: Detect superoffice
+    href: web-panels/detect-superoffice.md
+  - name: Passing data
+    href: web-panels/passing-data.md
+  - name: Url encoding
+    href: web-panels/url-encoding.md
