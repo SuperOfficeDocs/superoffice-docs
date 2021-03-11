@@ -1,6 +1,8 @@
 items:
+- name: Overview
+  href: index.md
 - name: Archive providers
-  href: archive-providers/add-columns.md
+  href: archive-providers/index.md
   items:
   - name: Add columns
     href: archive-providers/add-columns.md
@@ -40,7 +42,7 @@ items:
     - name: Restriction types
       href: archive-providers/reference/restriction-types.md
 - name: Authentication
-  href: authentication/active-directory.md
+  href: authentication/index.md
   items:
   - name: Active directory
     href: authentication/active-directory.md
@@ -82,7 +84,7 @@ items:
     - name: Superoffice username and password
       href: authentication/in-web-api/superoffice-username-and-password.md
   - name: Session handling
-    href: authentication/session-handling/create-session.md
+    href: authentication/session-handling/index.md
     items:
     - name: Create session
       href: authentication/session-handling/create-session.md
@@ -101,7 +103,7 @@ items:
   href: bulk-operations/index.md
   items:
   - name: Bulk update
-    href: bulk-operations/bulk-update/entities-field-types.md
+    href: bulk-operations/bulk-update/index.md
     items:
     - name: Entities field types
       href: bulk-operations/bulk-update/entities-field-types.md
@@ -135,7 +137,7 @@ items:
       - name: User defined fields
         href: bulk-operations/bulk-update/reference/user-defined-fields.md
   - name: Mass operations
-    href: bulk-operations/mass-operations/delete.md
+    href: bulk-operations/mass-operations/index.md
     items:
     - name: Delete
       href: bulk-operations/mass-operations/delete.md
@@ -148,7 +150,7 @@ items:
     - name: Upsert
       href: bulk-operations/mass-operations/upsert.md
 - name: Caching
-  href: caching/get-set-preferences-preferenceagent.md
+  href: caching/index.md
   items:
   - name: Get set preferences preferenceagent
     href: caching/get-set-preferences-preferenceagent.md
@@ -166,7 +168,7 @@ items:
   href: contact/index.md
   items:
   - name: Category
-    href: contact/category/add-catlist-item-rest.md
+    href: contact/category/index.md
     items:
     - name: Add catlist item rest
       href: contact/category/add-catlist-item-rest.md
@@ -215,7 +217,7 @@ items:
     - name: Get contact via services layer
       href: contact/get/get-contact-via-services-layer.md
   - name: Interests
-    href: contact/interests/add-new-contact-interest.md
+    href: contact/interests/index.md
     items:
     - name: Add new contact interest
       href: contact/interests/add-new-contact-interest.md
@@ -228,7 +230,7 @@ items:
     - name: Set interest on off services
       href: contact/interests/set-interest-on-off-services.md
 - name: Custom fields
-  href: custom-fields/find-contact-by-udef.md
+  href: custom-fields/index.md
   items:
   - name: Find contact by udef
     href: custom-fields/find-contact-by-udef.md
@@ -247,7 +249,7 @@ items:
   - name: Using udefhelper
     href: custom-fields/using-udefhelper.md
 - name: Diary
-  href: diary/create-apt-entity-in-collection.md
+  href: diary/index.md
   items:
   - name: Create apt entity
     href: diary/create-apt-entity.md
@@ -264,7 +266,7 @@ items:
   - name: Create apt services
     href: diary/create-apt-services.md
   - name: Invitations
-    href: diary/invitations/accept-invitation-entity.md
+    href: diary/invitations/index.md
     items:
     - name: Accept invitation entity
       href: diary/invitations/accept-invitation-entity.md
@@ -279,7 +281,7 @@ items:
     - name: Invitation archive
       href: diary/invitations/invitation-archive.md
   - name: Recurrence
-    href: diary/recurrence/create-recurring-appointment-entity.md
+    href: diary/recurrence/index.md
     items:
     - name: Create recurring appointment entity
       href: diary/recurrence/create-recurring-appointment-entity.md
@@ -289,21 +291,21 @@ items:
   href: documents/index.md
   items:
   - name: Agents web api
-    href: documents/agents-web-api/add-document-template.md
+    href: documents/agents-web-api/index.md
     items:
     - name: Add document template
       href: documents/agents-web-api/add-document-template.md
     - name: Generate document
       href: documents/agents-web-api/generate-document.md
   - name: Rest
-    href: documents/rest/add-document-template.md
+    href: documents/rest/index.md
     items:
     - name: Add document template
       href: documents/rest/add-document-template.md
     - name: Generate document
       href: documents/rest/generate-document.md
   - name: Services
-    href: documents/services/configure-access.md
+    href: documents/services/index.md
     items:
     - name: Configure access
       href: documents/services/configure-access.md
@@ -314,7 +316,7 @@ items:
     - name: Update
       href: documents/services/update.md
 - name: Entities
-  href: entities/collections.md
+  href: entities/index.md
   items:
   - name: Collections
     href: entities/collections.md
@@ -348,7 +350,7 @@ items:
     - name: Udef on contact
       href: entities/examples/udef-on-contact.md
 - name: Erp connectors
-  href: erp-connectors/automatic-field-mapping.md
+  href: erp-connectors/index.md
   items:
   - name: Automatic field mapping
     href: erp-connectors/automatic-field-mapping.md
@@ -375,7 +377,7 @@ items:
   - name: Tutorial
     href: erp-connectors/tutorial.md
   - name: Api
-    href: erp-connectors/api/erp-actor-carrier.md
+    href: erp-connectors/api/index.md
     items:
     - name: Erp actor carrier
       href: erp-connectors/api/erp-actor-carrier.md
@@ -388,7 +390,7 @@ items:
     - name: Pluginresponseinfo
       href: erp-connectors/api/pluginresponseinfo.md
   - name: Architecture
-    href: erp-connectors/architecture/dotnet.md
+    href: erp-connectors/architecture/index.md
     items:
     - name: Dotnet
       href: erp-connectors/architecture/dotnet.md
@@ -473,7 +475,7 @@ items:
   href: lists/index.md
   items:
   - name: Agents
-    href: lists/agents/get-set-category.md
+    href: lists/agents/index.md
     items:
     - name: Get set category
       href: lists/agents/get-set-category.md
@@ -484,7 +486,7 @@ items:
     - name: Show countrylist in combobox
       href: lists/agents/show-countrylist-in-combobox.md
   - name: Providers
-    href: lists/providers/add-list-item.md
+    href: lists/providers/index.md
     items:
     - name: Add list item
       href: lists/providers/add-list-item.md
@@ -510,7 +512,7 @@ items:
   - name: Using collections
     href: netserver/using-collections.md
   - name: Config
-    href: netserver/config/batchservice.md
+    href: netserver/config/index.md
     items:
     - name: Batchservice
       href: netserver/config/batchservice.md
@@ -592,7 +594,7 @@ items:
     - name: Update nuget
       href: netserver/nuget/update-nuget.md
 - name: Osql
-  href: osql/alias.md
+  href: osql/index.md
   items:
   - name: Alias
     href: osql/alias.md
@@ -642,7 +644,7 @@ items:
     - name: Using update
       href: osql/howto/using-update.md
 - name: Person
-  href: person/display-image-from-blob-table-entity.md
+  href: person/index.md
   items:
   - name: Display image from blob table entity
     href: person/display-image-from-blob-table-entity.md
@@ -679,7 +681,7 @@ items:
     - name: Update person services
       href: person/update/update-person-services.md
 - name: Quote connectors
-  href: quote-connectors/addresses.md
+  href: quote-connectors/index.md
   items:
   - name: Addresses
     href: quote-connectors/addresses.md
@@ -725,7 +727,7 @@ items:
     - name: Rights field
       href: quote-connectors/api/rights-field.md
     - name: Data carriers
-      href: quote-connectors/api/data-carriers/addressinfo.md
+      href: quote-connectors/api/data-carriers/index.md
       items:
       - name: Addressinfo
         href: quote-connectors/api/data-carriers/addressinfo.md
@@ -792,7 +794,7 @@ items:
     - name: Customer specific product codes
       href: quote-connectors/scenarios/customer-specific-product-codes.md
 - name: Rows
-  href: rows/create-row-in-entity.md
+  href: rows/index.md
   items:
   - name: Create row
     href: rows/create-row.md
@@ -829,7 +831,7 @@ items:
   - name: Link sale to appointment services
     href: sales/link-sale-to-appointment-services.md
   - name: Saint
-    href: sales/saint/change-saint-values-for-company.md
+    href: sales/saint/index.md
     items:
     - name: Change saint values for company
       href: sales/saint/change-saint-values-for-company.md
@@ -845,7 +847,7 @@ items:
   href: search/index.md
   items:
   - name: Iarchiveagent
-    href: search/iarchiveagent/iarchiveagent.md
+    href: search/iarchiveagent/index.md
     items:
     - name: Iarchiveagent
       href: search/iarchiveagent/iarchiveagent.md
@@ -854,7 +856,7 @@ items:
     - name: Using criteria
       href: search/iarchiveagent/using-criteria.md
   - name: Ifindagent
-    href: search/ifindagent/dump-result.md
+    href: search/ifindagent/index.md
     items:
     - name: Dump result
       href: search/ifindagent/dump-result.md
@@ -863,7 +865,7 @@ items:
     - name: Using criteria
       href: search/ifindagent/using-criteria.md
   - name: Odata
-    href: search/odata/associate.md
+    href: search/odata/index.md
     items:
     - name: Associate
       href: search/odata/associate.md
@@ -884,7 +886,7 @@ items:
     - name: Using filters
       href: search/odata/using-filters.md
   - name: Selection
-    href: search/selection/add-member-to-static-selection-entities.md
+    href: search/selection/index.md
     items:
     - name: Add member to static selection entities
       href: search/selection/add-member-to-static-selection-entities.md
@@ -903,7 +905,7 @@ items:
     - name: Get selection members services
       href: search/selection/get-selection-members-services.md
 - name: Sentry
-  href: sentry/distinct-and-sentry.md
+  href: sentry/index.md
   items:
   - name: Distinct and sentry
     href: sentry/distinct-and-sentry.md
@@ -918,14 +920,14 @@ items:
   - name: Visible for flag
     href: sentry/visible-for-flag.md
   - name: In services
-    href: sentry/in-services/fieldproperties.md
+    href: sentry/in-services/index.md
     items:
     - name: Fieldproperties
       href: sentry/in-services/fieldproperties.md
     - name: Tableright
       href: sentry/in-services/tableright.md
   - name: Plugins
-    href: sentry/plugins/create-sentry-plugin.md
+    href: sentry/plugins/index.md
     items:
     - name: Create sentry plugin
       href: sentry/plugins/create-sentry-plugin.md
@@ -934,7 +936,7 @@ items:
     - name: Use sentry plugin
       href: sentry/plugins/use-sentry-plugin.md
 - name: Services
-  href: services/call-service-using-ns-binaries.md
+  href: services/index.md
   items:
   - name: Call service using ns binaries
     href: services/call-service-using-ns-binaries.md
@@ -947,26 +949,26 @@ items:
   - name: Wrapped or unwrapped proxy
     href: services/wrapped-or-unwrapped-proxy.md
   - name: Agents
-    href: services/agents/agent-pattern.md
+    href: services/agents/index.md
     items:
     - name: Agent pattern
       href: services/agents/agent-pattern.md
     - name: Reference
       href: services/agents/reference.md
   - name: Call ws from dotnet so tools
-    href: services/call-ws-from-dotnet-so-tools/calling.md
+    href: services/call-ws-from-dotnet-so-tools/index.md
     items:
     - name: Calling
       href: services/call-ws-from-dotnet-so-tools/calling.md
     - name: Config
       href: services/call-ws-from-dotnet-so-tools/config.md
   - name: Call ws from dotnet std tools
-    href: services/call-ws-from-dotnet-std-tools/add-web-reference.md
+    href: services/call-ws-from-dotnet-std-tools/index.md
     items:
     - name: Add web reference
       href: services/call-ws-from-dotnet-std-tools/add-web-reference.md
   - name: Call ws from java
-    href: services/call-ws-from-java/auth-java.md
+    href: services/call-ws-from-java/index.md
     items:
     - name: Auth java
       href: services/call-ws-from-java/auth-java.md
@@ -977,14 +979,14 @@ items:
     - name: Get entity
       href: services/call-ws-from-java/get-entity.md
   - name: Carriers
-    href: services/carriers/entity-carriers.md
+    href: services/carriers/index.md
     items:
     - name: Entity carriers
       href: services/carriers/entity-carriers.md
     - name: Read only carriers
       href: services/carriers/read-only-carriers.md
   - name: Ns web services
-    href: services/ns-web-services/getting-started.md
+    href: services/ns-web-services/index.md
     items:
     - name: Getting started
       href: services/ns-web-services/getting-started.md
@@ -1001,7 +1003,7 @@ items:
     - name: What is netserver part 2
       href: services/ns-web-services/what-is-netserver-part-2.md
   - name: Scripting
-    href: services/scripting/basic-scripting.md
+    href: services/scripting/index.md
     items:
     - name: Basic scripting
       href: services/scripting/basic-scripting.md
@@ -1010,7 +1012,7 @@ items:
     - name: Run scripts
       href: services/scripting/run-scripts.md
   - name: Web parts
-    href: services/web-parts/authenticate-user.md
+    href: services/web-parts/index.md
     items:
     - name: Authenticate user
       href: services/web-parts/authenticate-user.md
@@ -1026,7 +1028,7 @@ items:
   - name: Soap table rights
     href: soap/soap-table-rights.md
   - name: Services soap interface
-    href: soap/services-soap-interface/compatibility.md
+    href: soap/services-soap-interface/index.md
     items:
     - name: Compatibility
       href: soap/services-soap-interface/compatibility.md
@@ -1039,7 +1041,7 @@ items:
     - name: Notification types
       href: soap/services-soap-interface/notification-types.md
     - name: Admin port
-      href: soap/services-soap-interface/admin-port/checkAgentVersion.md
+      href: soap/services-soap-interface/admin-port/index.md
       items:
       - name: CheckAgentVersion
         href: soap/services-soap-interface/admin-port/checkAgentVersion.md
@@ -1060,7 +1062,7 @@ items:
       - name: SetUser
         href: soap/services-soap-interface/admin-port/setUser.md
     - name: Customer port
-      href: soap/services-soap-interface/customer-port/addattachment.md
+      href: soap/services-soap-interface/customer-port/index.md
       items:
       - name: Addattachment
         href: soap/services-soap-interface/customer-port/addattachment.md
@@ -1129,7 +1131,7 @@ items:
       - name: Setcustomer
         href: soap/services-soap-interface/customer-port/setcustomer.md
     - name: Ticket port
-      href: soap/services-soap-interface/ticket-port/addattachment.md
+      href: soap/services-soap-interface/ticket-port/index.md
       items:
       - name: Addattachment
         href: soap/services-soap-interface/ticket-port/addattachment.md
@@ -1212,34 +1214,64 @@ items:
       - name: Setuseridletime
         href: soap/services-soap-interface/ticket-port/setuseridletime.md
 - name: Tooltip service
-  href: tooltip-service/call-tooltip-service.md
+  href: tooltip-service/index.md
   items:
   - name: Call tooltip service
     href: tooltip-service/call-tooltip-service.md
   - name: Create tooltip plugin
     href: tooltip-service/create-tooltip-plugin.md
 - name: Tutorials
-  href: tutorials/currency-updater-service.md
+  href: tutorials/index.md
   items:
+  - name: Auth code flow quickstart
+    href: tutorials/auth-code-flow-quickstart.md
   - name: Currency updater service
     href: tutorials/currency-updater-service.md
   - name: Graphic report using excel
     href: tutorials/graphic-report-using-excel.md
   - name: Itunes like activities
     href: tutorials/itunes-like-activities.md
+  - name: Native app flow tutorial
+    href: tutorials/native-app-flow-tutorial.md
+  - name: Native app quickstart
+    href: tutorials/native-app-quickstart.md
   - name: Rss feed vb
     href: tutorials/rss-feed-vb.md
   - name: So ical feed
     href: tutorials/so-ical-feed.md
+  - name: Minimal csharp app
+    href: tutorials/minimal-csharp-app/overview.md
+    items:
+    - name: Overview
+      href: tutorials/minimal-csharp-app/overview.md
+    - name: Partner db library
+      href: tutorials/minimal-csharp-app/partner-db-library.md
+    - name: Scenarios
+      href: tutorials/minimal-csharp-app/scenarios.md
+    - name: Super office devnet online login
+      href: tutorials/minimal-csharp-app/super-office-devnet-online-login.md
+    - name: System user service console
+      href: tutorials/minimal-csharp-app/system-user-service-console.md
+    - name: Web config
+      href: tutorials/minimal-csharp-app/web-config.md
+  - name: Minimal php app
+    href: tutorials/minimal-php-app/files.md
+    items:
+    - name: Files
+      href: tutorials/minimal-php-app/files.md
+    - name: Overview
+      href: tutorials/minimal-php-app/overview.md
+    - name: Scenarios
+      href: tutorials/minimal-php-app/scenarios.md
 - name: Web api
-  href: web-api/get-version.md
+  href: web-api/index.md
   items:
   - name: Get version
     href: web-api/get-version.md
   - name: Agents
     href: web-api/agents/index.md
   - name: Headers
-    href: web-api/headers/accept-language.md
+    href: web-api/headers/index.md
     items:
     - name: Accept language
       href: web-api/headers/accept-language.md
@@ -1248,12 +1280,12 @@ items:
     - name: So timezone
       href: web-api/headers/so-timezone.md
   - name: Rest
-    href: web-api/rest/headers.md
+    href: web-api/rest/index.md
     items:
     - name: Headers
       href: web-api/rest/headers.md
 - name: Webhooks
-  href: webhooks/event-details.md
+  href: webhooks/index.md
   items:
   - name: Event details
     href: webhooks/event-details.md
@@ -1266,7 +1298,7 @@ items:
   - name: Subscription
     href: webhooks/subscription.md
   - name: Reference
-    href: webhooks/reference/activity-events.md
+    href: webhooks/reference/index.md
     items:
     - name: Activity events
       href: webhooks/reference/activity-events.md
@@ -1297,7 +1329,7 @@ items:
     - name: Ticket events
       href: webhooks/reference/ticket-events.md
 - name: Whats new
-  href: whats-new/80-to-80-sr-1.md
+  href: whats-new/index.md
   items:
   - name: 80 to 80 sr 1
     href: whats-new/80-to-80-sr-1.md
@@ -1316,7 +1348,7 @@ items:
   - name: Ns 80
     href: whats-new/ns-80.md
   - name: Ns 70
-    href: whats-new/ns-70/aliasing-on-argumentfunctions.md
+    href: whats-new/ns-70/index.md
     items:
     - name: Aliasing on argumentfunctions
       href: whats-new/ns-70/aliasing-on-argumentfunctions.md
