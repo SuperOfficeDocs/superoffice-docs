@@ -2,7 +2,7 @@
 # This basic template provides core metadata fields for Markdown articles on docs.superoffice.com.
 
 # Mandatory fields.
-title: pocket_crm_system_requirements # (Required) Very important for SEO. Intent in a unique string of 43-59 chars including spaces.
+title: pocket_crm_system_requirements_onsite # (Required) Very important for SEO. Intent in a unique string of 43-59 chars including spaces.
 description: System requirements for Pocket CRM mobile client # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
 author: {github-id}             # Your GitHub alias.
 keywords:
@@ -13,49 +13,35 @@ so.topic: reference             # article, howto, reference, concept, guide
 so.client: pocket               # online, web, win, pocket, or mobile
 ---
 
-# System requirements for Pocket CRM mobile client
+# System requirements for Pocket CRM - onsite
 
-## Operation system
+These requirements are specific to onsite installations of SuperOffice. They supplement the requirements for the [client application][1].
 
-* iOS - Pocket CRM client (Available from Apple App Store)
-* Google Android - Pocket CRM client  (Available from Google Play)
-* (Windows 10 - [End of Life][1])
+> [!NOTE]
+> To be able to use all released features for Pocket CRM, you need to use the direct NetServer connection mode.
 
-### From Pocket CRM 9.1
+## Connection
 
-iOS version 10 or newer is required!
+### NetServer
 
-**Devices no longer supported:**
+* For [direct NetServer connection][2], NetServer must be version 8.0 or higher.
+* Pocket version 8 running directly with NetServer must have remote web services.
 
-* iPhone 5 or older
-* Pad 2 or older
-* iPod Touch with ARM v 7 or older
+### TLS
 
-Old devices will still be able to run Pocket CRM but they will not be able to upgrade or re-install.
+* The site must allow TLS 1.0 if you are running on a Pocket CRM version lower than 8.0.32 which was released August 15th 2016.
+* From August 15th, 2016 we added support for TLS 1.2 communication protocols between device and server.
 
-## Network
+## Business card scanner
 
-[!include[Pocket network requirements](../includes/mobile-network-req.md)]
+Business card scanner will work with all SuperOffice versions, both Onsite and Online. It requires the Pocket CRM client to be configured against NetServer (no Pocket server).
 
-## Documents
+## Which Services end point to use?
 
-Office documents need supported viewer software installed on the device.
+[!include[Services end points table](../includes/services-end-points.md)]
 
-## Email
-
-The mobile app uses the same components as SuperOffice inbox in Web. See web server requirements.
-
-## Limitations
-
-### Pocket client does not support AD authentication
-
-There is only one way that **Pocket uses AD to authenticate** its users.
-
-The user's credentials used to get past the login screen (there is no way around that - Pocket doesn't know how to collect the phones AD credentials) must be in SO Admin setup as an AD user. That's it.
-
-NetServer web service accepts the user's credentials and tries to authenticate the user the only way it knows how - using a chain of authentication resolvers. If the username passed in is a username with an associate id with a matching credential record of type "ActiveDirectory", then the credentials will be authenticated using the AD authentication routines.
-
-Pocket CRM receives the result of the process and proceeds past the login screen with the authenticated user's principal and credentials ticket intact.
+Pocket CRM will automatically pick up the correct Services folder.
 
 <!--Referenced links-->
-[1]: https://community.superoffice.com/en/customer/inspiration/articlestandard-crm/pocket-crm-app-end-of-life-for-the-microsoft-windows-10-mobile-phone/
+[1]: ../../mobile/pocket-crm/system-requirements.md
+[2]: ../../mobile/pocket-crm/configure.md
