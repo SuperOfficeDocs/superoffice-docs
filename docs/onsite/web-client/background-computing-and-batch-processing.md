@@ -16,17 +16,17 @@ so.topic:                       # article, howto, reference, concept, guide
 
 # Background computing and batch processing
 
-This article will introduce you to the high-level aspects of 6.web background computing, drill down into how built-in tasks get started and demonstrate how this extensibility point can be leveraged for other applications.
+This article will introduce you to the high-level aspects of SuperOffice web background computing, drill down into how built-in tasks get started and demonstrate how this extensibility point can be leveraged for other applications.
 
 ## Introduction
 
 Certain tasks related to CRM are potentially very time consuming. Performing a mail-merge, for example, has the potential of taking minutes to complete. Within the context of any application, conducting such a time-consuming task synchronously would be disastrous for the user-experience. SuperOffice Background Computing (SBC), sometimes referred to as Batch Processing,  was created to counter such an event, and enhance the overall experience and functionality of the platform.
 
-The remainder of this article will focus on how Background computing is accomplished in SuperOffice 6.web.
+The remainder of this article will focus on how Background computing is accomplished in SuperOffice SuperOffice web.
 
 ## Server Event Manager
 
-At the heart of 6.web resides a component called the Server Event Manager (SEM). SEM is a host for plug-ins that the web application uses for various utility functions, such as checking for new appointments and executing background computing - or batch tasks.
+At the heart of SuperOffice web resides a component called the Server Event Manager (SEM). SEM is a host for plug-ins that the web application uses for various utility functions, such as checking for new appointments and executing background computing - or batch tasks.
 
 ### Invocation
 
@@ -34,9 +34,9 @@ How SEM works is simple, but clever. As seen in the figure below, all requests t
 
 GET and POST requests are generally issued when an action occurs from within the main form of the web application; such as clicking the New button to create a new company.
 
-AJAX requests refer to all requests sent to the server via the 6.web AjaxMethodDispatcher, an AJAX utility class used for submitting both synchronous and asynchronous requests to the web server.  
+AJAX requests refer to all requests sent to the server via the SuperOffice web AjaxMethodDispatcher, an AJAX utility class used for submitting both synchronous and asynchronous requests to the web server.  
 
-**Conceptual overview of the 6.web ServerEventManager workflow:**
+**Conceptual overview of the SuperOffice web ServerEventManager workflow:**
 
 ![x][img1]
 
@@ -104,7 +104,7 @@ Finally, when control from the PageEventHandler object returns, the ServerEventM
 
 ## Batch Event Server Plugin and the Batch Service
 
-Out of the box, 6.web version 6.3 comes with two SEM plug-ins; the SoInvitation and SoBatchServer plug-ins. The actual name for the SoBatchServer plug-in is SoBatchServerEventPlugin, but for the remainder of this article, I'll refer to it simply as SBS.
+Out of the box, SuperOffice web version 6.3 comes with two SEM plug-ins; the SoInvitation and SoBatchServer plug-ins. The actual name for the SoBatchServer plug-in is SoBatchServerEventPlugin, but for the remainder of this article, I'll refer to it simply as SBS.
 
 SBS itself is based on a plug-in model. SBS comes out of the box with 3 standard plug-ins; Mail Merge, Reports, and Mail Cache Update. As you can imagine, each is designed to do what their names indicate: one to conduct mail merges, one for generating reports, and one to check for new emails, respectively. The best part about batch processing is that it too is an extensibility point.
 
@@ -152,7 +152,7 @@ The remainder of this document describes the process of creating a custom batch 
 
 ## Constructing a Custom Batch Task
 
-The custom batch task I will demonstrate is not necessarily an ideal batch task, but it will demonstrate all of the concepts required to be run as a custom batch task, and return a defined result to the 6.web application.
+The custom batch task I will demonstrate is not necessarily an ideal batch task, but it will demonstrate all of the concepts required to be run as a custom batch task, and return a defined result to the SuperOffice web application.
 
 ### Creating the Plug-In
 
