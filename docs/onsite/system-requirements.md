@@ -42,8 +42,8 @@ Use this overview to get to the specific requirements.
 [1]: crm-server/system-requirements.md
 [2]: web-client/system-requirements.md
 [3]: win-client/system-requirements.md
-[4]: pocket-crm/system-requirements.md
-[5]: ../mobile/pocket-crm/system-requirements.md
+[4]: ../mobile/pocket-crm/system-requirements.md
+[5]: ../mobile/pocket-crm/client-requirements.md
 [6]: ../mobile/superoffice-mobile/system-requirements.md
 [7]: compatibility/server-os.md
 [8]: compatibility/client-os.md

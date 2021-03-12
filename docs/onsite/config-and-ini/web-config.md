@@ -300,7 +300,7 @@ In this section, you add the [Reverse proxy][4] override if you want to export l
 [1]: ../web-client/set-up.md
 [2]: https://www.microsoft.com/en-us/download/details.aspx?id=55984
 [3]: ../security/deployment-scenarios.md
-[4]: ../security/set-up-reverse-proxy-on-iis.md
+[4]: ../crm-server/iis-web-server/set-up-reverse-proxy-on-iis.md
 [5]: https://blogs.technet.microsoft.com/askds/2008/06/13/understanding-kerberos-double-hop/
 [7]: https://community.superoffice.com/en/content/content/webclient/Scripting-in-the-NetServer-World/
 [8]: https://community.superoffice.com/webapi/rest

@@ -95,7 +95,7 @@ From 8.1 this preference will tell all clients where the Sales Web client is ins
     * Run `upgrade.exe -d newdomain` to make sure Service is upgraded to 8.1 as well.
 
 <!-- Referenced links -->
-[1]: security/set-up-reverse-proxy-on-iis.md
+[1]: crm-server/iis-web-server/set-up-reverse-proxy-on-iis.md
 [2]: crm-server/move.md
 
 <!-- Referenced images -->

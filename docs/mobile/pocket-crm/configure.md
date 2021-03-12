@@ -97,4 +97,4 @@ Example:
 [4]: https://source.android.com/security/encryption/full-disk
 [5]: ../../onsite/security/deployment-scenarios.md
 [6]: upgrade-to-8.md
-[7]: ../../onsite/security/set-up-reverse-proxy-on-iis.md
+[7]: ../../onsite/crm-server/iis-web-server/set-up-reverse-proxy-on-iis.md
