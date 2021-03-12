@@ -41,6 +41,6 @@ On the Windows client, this will cause SOCRM to be launched if it's not already 
 
 ## Web
 
-On the web client, this triggers a login to 6.web using the most recently stored URL. The mail archive helper calls a web service API to do the email address lookup, and the result is returned - same as the Windows client.
+On the web client, this triggers a login to SuperOffice web using the most recently stored URL. The mail archive helper calls a web service API to do the email address lookup, and the result is returned - same as the Windows client.
 
 <!-- See the LookUpAddress reference. -->

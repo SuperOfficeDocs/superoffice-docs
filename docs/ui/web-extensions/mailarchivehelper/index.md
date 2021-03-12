@@ -24,7 +24,7 @@ When the Windows client is installed it marks the registry - the *SuperOffice.Ap
 The registry value **SuperOfficeTarget** in the appropriate key is used to figure out which client to talk to. This value is set during the MSI installation using an MSI custom action. This custom action checks the registry for the `HKCR\SuperOffice.Application` key. If this key is present, we default to "win".
 
 * win: use COM to talk to the local SOCRM client.
-* web: use web services to talk to the 6.web client
+* web: use web services to talk to the SuperOffice web client
 
 The URL for the website is stored in the registry value `WebUrl`
 

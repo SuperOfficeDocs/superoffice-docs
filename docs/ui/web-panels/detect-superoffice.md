@@ -1,6 +1,6 @@
 ---
 title: webpanel_detect_so
-description: How to implement a web panel that detects if it is running inside 6.web
+description: How to implement a web panel that detects if it is running inside SuperOffice web
 author: Tony Yates
 so.date: 06.24.2016
 keywords: webpanel
@@ -9,22 +9,22 @@ so.client: web
 so.envir: onsite
 ---
 
-# How to implement a web panel that detects if it is running inside 6.web
+# How to implement a web panel that detects if it is running inside SuperOffice web
 
-In this example, we have created a simple ASPX page, which displays the text "I am running inside 6.web" if the page is referred to from 6.web iframe and "I’m NOT running inside 6.web" if otherwise.
+In this example, we have created a simple ASPX page, which displays the text "I am running inside SuperOffice web" if the page is referred to from SuperOffice web iframe and "I’m NOT running inside SuperOffice web" if otherwise.
 
-As elaborated below, the custom header `X-SuperOffice-ModuleVersion` is used to determine whether being referred by 6.web. This value is set only when the web panel is called from 6.win and never by a normal browser.
+As elaborated below, the custom header `X-SuperOffice-ModuleVersion` is used to determine whether being referred by SuperOffice web. This value is set only when the web panel is called from 6.win and never by a normal browser.
 
 ```javascript
 // Reads the value for the custom header 'X-SuperOffice-ModuleVersion'       
 string moduleVersion = HttpContext.Current.Request.Headers["X-SuperOffice-ModuleVersion"];
 if (String.IsNullOrEmpty(moduleVersion))
   {
-    this.lblStatus.Text = "I am running inside 6.web";
+    this.lblStatus.Text = "I am running inside SuperOffice web";
   }
   else
   {
-    this.lblStatus.Text = "I am NOT running inside 6.web.";
+    this.lblStatus.Text = "I am NOT running inside SuperOffice web.";
   }
  ```
 
@@ -42,11 +42,11 @@ The following figure shows the properties of the web panel. We have set the URL 
 
 ![01][img1]
 
-Following are the screenshots of the web panel running in 6.web and 6.win.
+Following are the screenshots of the web panel running in SuperOffice web and 6.win.
 
 ![02][img2]
 
-In 6.win it displays "I am NOT running inside 6.web" as shown above whereas the message is "I am running inside 6.web" in 6.web.
+In 6.win it displays "I am NOT running inside SuperOffice web" as shown above whereas the message is "I am running inside SuperOffice web" in SuperOffice web.
 
 ![03][img3]
 

@@ -27,7 +27,7 @@ This is the simplest way that we can use the SoProtocol string to open a dialog.
 
 ## Open from JavaScript
 
-We can use the SoProtocol from inside a JavaScript as well. This is also fairly simple we can use a method like `window.location.href` to transfer to the 6.Web application. All we have to do is add the following code to HTML page.
+We can use the SoProtocol from inside a JavaScript as well. This is also fairly simple we can use a method like `window.location.href` to transfer to the SuperOffice web application. All we have to do is add the following code to HTML page.
 
 ```html
 <html xmlns="http://www.w3.org/1999/xhtml" >
@@ -82,7 +82,7 @@ Since the SoProtocol string acts as a URL we can use it inside an iframe. This i
 </html>
 ```
 
-In the above code, we have asked for contact ID 3. So when the iframe gets executed it will first take us to the login page of 6.Web since we have not logged into the system. After we have logged in the SoProtocol string will take us to the contact that we wanted.
+In the above code, we have asked for contact ID 3. So when the iframe gets executed it will first take us to the login page of SuperOffice web since we have not logged into the system. After we have logged in the SoProtocol string will take us to the contact that we wanted.
 
 The login page and then the contact page:
 
