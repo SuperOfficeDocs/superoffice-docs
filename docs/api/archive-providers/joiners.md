@@ -43,7 +43,7 @@ protected override ContactTableInfo SetJoin()
 }
 ```
 
-There are about 30 `ExtenderBase` classes, that each cover one particular table. There are about 60 joiners, each representing one combination of 2 extender bases. Together they cover all combinations currently needed for the archive providers for 6.Web.
+There are about 30 `ExtenderBase` classes, that each cover one particular table. There are about 60 joiners, each representing one combination of 2 extender bases. Together they cover all combinations currently needed for the archive providers for SuperOffice web.
 
 **Continue reading:** [Base and helper classes][2]
 

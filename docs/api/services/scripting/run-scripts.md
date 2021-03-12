@@ -63,7 +63,7 @@ namespace MyScriptClass
 
 ## Assembly
 
-Neither single function files, nor class files, are easy to debug. To be able to debug your scripts you must pre-compile them into a standalone assembly. As long as the versions referred to in your assembly comply with the running 6.web version all you need to do is drop the DLL into the script folder. By adding the pdb file as well, debugging should be a piece of cake.
+Neither single function files, nor class files, are easy to debug. To be able to debug your scripts you must pre-compile them into a standalone assembly. As long as the versions referred to in your assembly comply with the running SuperOffice web version all you need to do is drop the DLL into the script folder. By adding the pdb file as well, debugging should be a piece of cake.
 
 ## Permissions
 

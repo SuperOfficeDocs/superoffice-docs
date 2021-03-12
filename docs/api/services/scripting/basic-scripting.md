@@ -77,4 +77,4 @@ public static void OnError(string message)
 
 ## Register scripts
 
-To enable your scripts, simply drop the script files (or assemblies) into the folder specified in the Scripting section of the configuration file. Remember to flush to get 6.web aware of the new *scripts.dll*.
+To enable your scripts, simply drop the script files (or assemblies) into the folder specified in the Scripting section of the configuration file. Remember to flush to get SuperOffice web aware of the new *scripts.dll*.

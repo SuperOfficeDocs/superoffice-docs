@@ -39,7 +39,7 @@ The entities marked as mandatory (Optional = false) are always returned by an ar
 
 `List<ArchiveEntityInfo> columns = provider.GetAvailableEntities();`
 
-In 6.Web, optional entities cause checkboxes to be shown in the archive toolbar:
+In SuperOffice web, optional entities cause checkboxes to be shown in the archive toolbar:
 
 ![archive toolbar][img2]
 
