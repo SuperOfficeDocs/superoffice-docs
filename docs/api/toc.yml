@@ -41,6 +41,13 @@ items:
     items:
     - name: Restriction types
       href: archive-providers/reference/restriction-types.md
+- name: Assets
+  href: assets/downloads.md
+  items:
+  - name: Downloads
+    href: assets/downloads.md
+  - name: Download
+    href: assets/download/CreateARecurringAppointment.zip
 - name: Authentication
   href: authentication/index.md
   items:
@@ -297,6 +304,11 @@ items:
       href: documents/agents-web-api/add-document-template.md
     - name: Generate document
       href: documents/agents-web-api/generate-document.md
+  - name: Plugins
+    href: documents/plugins/soarc-document-plugin.md
+    items:
+    - name: Soarc document plugin
+      href: documents/plugins/soarc-document-plugin.md
   - name: Rest
     href: documents/rest/index.md
     items:
@@ -412,6 +424,8 @@ items:
 - name: Foreign keys
   href: foreign-keys/index.md
   items:
+  - name: Foreignkey
+    href: foreign-keys/foreignkey.md
   - name: Set and get
     href: foreign-keys/set-and-get.md
 - name: Getting started
@@ -591,6 +605,8 @@ items:
       href: netserver/nuget/netserver-core.md
     - name: Netserver services
       href: netserver/nuget/netserver-services.md
+    - name: Nuget reference
+      href: netserver/nuget/nuget-reference.md
     - name: Update nuget
       href: netserver/nuget/update-nuget.md
 - name: Osql
@@ -1239,6 +1255,8 @@ items:
     href: tutorials/rss-feed-vb.md
   - name: So ical feed
     href: tutorials/so-ical-feed.md
+  - name: Import to excel
+    href: tutorials/import-to-excel/index.md
   - name: Minimal csharp app
     href: tutorials/minimal-csharp-app/overview.md
     items:
