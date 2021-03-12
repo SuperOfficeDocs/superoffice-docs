@@ -1,20 +1,6 @@
 items:
 - name: Overview
   href: index.md
-- name: Cookies
-  href: cookies.md
-- name: Downloads
-  href: downloads.md
-- name: Foreignkey
-  href: foreignkey.md
-- name: Nuget reference
-  href: nuget-reference.md
-- name: Security enhancements
-  href: security-enhancements.md
-- name: Soap envelope
-  href: soap-envelope.md
-- name: Soft delete
-  href: soft-delete.md
 - name: Ai services
   href: ai-services/index.md
 - name: Apps
@@ -64,6 +50,8 @@ items:
     href: apps/revoke-app.md
   - name: Run website on iis localhost
     href: apps/run-website-on-iis-localhost.md
+  - name: Security enhancements
+    href: apps/security-enhancements.md
   - name: Standard
     href: apps/standard.md
   - name: Update app
@@ -85,6 +73,11 @@ items:
       href: apps/certification/secure-app.md
     - name: Watchcom testimonials
       href: apps/certification/watchcom-testimonials.md
+  - name: Provisioning
+    href: apps/provisioning/index.md
+    items:
+    - name: Example
+      href: apps/provisioning/example.md
   - name: Redirects
     href: apps/redirects/index.md
     items:
@@ -107,6 +100,23 @@ items:
       href: apps/requirements/security.md
     - name: Technical
       href: apps/requirements/technical.md
+  - name: Tenant status
+    href: apps/tenant-status/index.md
+    items:
+    - name: Approval sequence
+      href: apps/tenant-status/approval-sequence.md
+    - name: Check status
+      href: apps/tenant-status/check-status.md
+    - name: Get consent
+      href: apps/tenant-status/get-consent.md
+    - name: Get notifications
+      href: apps/tenant-status/get-notifications.md
+    - name: Manage status changes
+      href: apps/tenant-status/manage-status-changes.md
+    - name: Notifications example
+      href: apps/tenant-status/notifications-example.md
+    - name: Online tenant status
+      href: apps/tenant-status/online-tenant-status.md
   - name: Validation
     href: apps/validation/index.md
     items:
@@ -125,6 +135,8 @@ items:
     href: authentication/auth-user.md
   - name: Auth user legacy
     href: authentication/auth-user-legacy.md
+  - name: Cookies
+    href: authentication/cookies.md
   - name: Error codes
     href: authentication/error-codes.md
   - name: Federated auth
@@ -182,6 +194,8 @@ items:
       href: authentication/system-user/get-system-user-ticket.md
     - name: Sign system user token
       href: authentication/system-user/sign-system-user-token.md
+    - name: Soap envelope
+      href: authentication/system-user/soap-envelope.md
     - name: System user flow
       href: authentication/system-user/system-user-flow.md
     - name: System user ticket
@@ -233,6 +247,8 @@ items:
     href: documents/configure-cloud-document-handling.md
   - name: Odf
     href: documents/odf.md
+  - name: Quote template variables
+    href: documents/quote-template-variables.md
   - name: G suite document integration
     href: documents/g-suite-document-integration/index.md
     items:
@@ -365,8 +381,12 @@ items:
   items:
   - name: Federated id and identity providers
     href: identity-management/federated-id-and-identity-providers.md
+  - name: Id transfer tickets
+    href: identity-management/id-transfer-tickets.md
   - name: Multi factor authentication
     href: identity-management/multi-factor-authentication.md
+  - name: Set up ad auth
+    href: identity-management/set-up-ad-auth.md
   - name: Set up cloud document integration
     href: identity-management/set-up-cloud-document-integration.md
   - name: Single sign on
@@ -501,6 +521,8 @@ items:
   - name: Pocket crm
     href: mobile/pocket-crm/index.md
     items:
+    - name: Client requirements
+      href: mobile/pocket-crm/client-requirements.md
     - name: Configure
       href: mobile/pocket-crm/configure.md
     - name: Install online
@@ -518,11 +540,6 @@ items:
     items:
     - name: System requirements
       href: mobile/superoffice-mobile/system-requirements.md
-- name: Odata
-  href: odata/index.md
-  items:
-  - name: Import to excel
-    href: odata/import-to-excel.md
 - name: Online
   href: online/index.md
   items:
@@ -533,13 +550,15 @@ items:
   - name: Test environment
     href: online/test-environment/index.md
     items:
+    - name: Clone to test envir
+      href: online/test-environment/clone-to-test-envir.md
     - name: Copy database caution
       href: online/test-environment/copy-database-caution.md
+    - name: Production test tenant
+      href: online/test-environment/production-test-tenant.md
 - name: Onsite
   href: onsite/index.md
   items:
-  - name: Dbsetup exe
-    href: onsite/dbsetup-exe.md
   - name: Migration guide
     href: onsite/migration-guide.md
   - name: System requirements
@@ -593,6 +612,8 @@ items:
       href: onsite/crm-server/create-ms-sql-server-db.md
     - name: Create oracle db
       href: onsite/crm-server/create-oracle-db.md
+    - name: Dbsetup exe
+      href: onsite/crm-server/dbsetup-exe.md
     - name: Deploy on citrix
       href: onsite/crm-server/deploy-on-citrix.md
     - name: Install on citrix
@@ -614,13 +635,10 @@ items:
       items:
       - name: Prepare
         href: onsite/crm-server/iis-web-server/prepare.md
+      - name: Set up reverse proxy on iis
+        href: onsite/crm-server/iis-web-server/set-up-reverse-proxy-on-iis.md
       - name: Sso
         href: onsite/crm-server/iis-web-server/sso.md
-  - name: Pocket crm
-    href: onsite/pocket-crm/index.md
-    items:
-    - name: System requirements
-      href: onsite/pocket-crm/system-requirements.md
   - name: Security
     href: onsite/security/index.md
     items:
@@ -636,8 +654,6 @@ items:
       href: onsite/security/set-up-emet.md
     - name: Set up modsecurity
       href: onsite/security/set-up-modsecurity.md
-    - name: Set up reverse proxy on iis
-      href: onsite/security/set-up-reverse-proxy-on-iis.md
   - name: Service
     href: onsite/service/index.md
     items:
@@ -654,32 +670,20 @@ items:
   - name: Web client
     href: onsite/web-client/index.md
     items:
-    - name: Access custom page
-      href: onsite/web-client/access-custom-page.md
-    - name: Add custom path
-      href: onsite/web-client/add-custom-path.md
     - name: Admin
       href: onsite/web-client/admin.md
     - name: Background computing and batch processing
       href: onsite/web-client/background-computing-and-batch-processing.md
     - name: Batch task server
       href: onsite/web-client/batch-task-server.md
-    - name: Components
-      href: onsite/web-client/components.md
     - name: Debug
       href: onsite/web-client/debug.md
-    - name: Id transfer tickets
-      href: onsite/web-client/id-transfer-tickets.md
+    - name: Enable debug reporter
+      href: onsite/web-client/enable-debug-reporter.md
     - name: Install netserver
       href: onsite/web-client/install-netserver.md
-    - name: Page configuration
-      href: onsite/web-client/page-configuration.md
-    - name: Scripting
-      href: onsite/web-client/scripting.md
     - name: Set up
       href: onsite/web-client/set-up.md
-    - name: Set up ad auth
-      href: onsite/web-client/set-up-ad-auth.md
     - name: Set up web and report
       href: onsite/web-client/set-up-web-and-report.md
     - name: System requirements
@@ -688,10 +692,6 @@ items:
       href: onsite/web-client/upgrade-netserver-to-8.md
     - name: Upgrade to 8
       href: onsite/web-client/upgrade-to-8.md
-    - name: Validate fields
-      href: onsite/web-client/validate-fields.md
-    - name: Validation
-      href: onsite/web-client/validation.md
   - name: Win client
     href: onsite/win-client/index.md
     items:
@@ -711,16 +711,6 @@ items:
       href: onsite/win-client/system-requirements.md
     - name: Upgrade
       href: onsite/win-client/upgrade.md
-    - name: Win script event system
-      href: onsite/win-client/win-script-event-system.md
-- name: Plugins
-  href: plugins/index.md
-  items:
-  - name: Document plugins
-    href: plugins/document-plugins/index.md
-    items:
-    - name: Soarc document plugin
-      href: plugins/document-plugins/soarc-document-plugin.md
 - name: Privacy
   href: privacy/index.md
   items:
@@ -730,26 +720,13 @@ items:
     href: privacy/e-marketing-consent.md
   - name: Gdpr for app developer
     href: privacy/gdpr-for-app-developer.md
-- name: Provisioning
-  href: provisioning/index.md
-  items:
-  - name: Example
-    href: provisioning/example.md
-- name: Quote
-  href: quote/index.md
-  items:
-  - name: Using template variables
-    href: quote/using-template-variables.md
+  - name: Soft delete
+    href: privacy/soft-delete.md
 - name: Reply templates
   href: reply-templates/index.md
   items:
   - name: System templates
     href: reply-templates/system-templates.md
-- name: Reports
-  href: reports/index.md
-  items:
-  - name: Enable debug
-    href: reports/enable-debug.md
 - name: Search
   href: search/index.md
   items:
@@ -762,8 +739,6 @@ items:
     href: service/config-faq.md
   - name: Set up facebook integration
     href: service/set-up-facebook-integration.md
-  - name: Time zones
-    href: service/time-zones.md
   - name: Attachments
     href: service/attachments/index.md
     items:
@@ -786,29 +761,6 @@ items:
       href: service/sms/twilio.md
     - name: Txtlocal
       href: service/sms/txtlocal.md
-- name: Tenants
-  href: tenants/index.md
-  items:
-  - name: Approval sequence
-    href: tenants/approval-sequence.md
-  - name: Check status
-    href: tenants/check-status.md
-  - name: Clone to test envir
-    href: tenants/clone-to-test-envir.md
-  - name: Get consent
-    href: tenants/get-consent.md
-  - name: Get notifications
-    href: tenants/get-notifications.md
-  - name: Manage status changes
-    href: tenants/manage-status-changes.md
-  - name: Notifications example
-    href: tenants/notifications-example.md
-  - name: Online tenant status
-    href: tenants/online-tenant-status.md
-  - name: Production test tenant
-    href: tenants/production-test-tenant.md
-  - name: Replace test envir
-    href: tenants/replace-test-envir.md
 - name: Travel
   href: travel/index.md
   items:
