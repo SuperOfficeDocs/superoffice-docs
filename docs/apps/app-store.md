@@ -32,4 +32,4 @@ The SuperOffice App Store is transparent and open to any applications that repre
 SuperOffice will not bill, [provision][1], or host partner applications. Instead, the App Store redirects to our partners' websites where customers buy directly from the partner.
 
 <!-- Referenced links -->
-[1]: ../provisioning/index.md
+[1]: provisioning/index.md

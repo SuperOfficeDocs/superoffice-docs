@@ -45,7 +45,7 @@ These services are either an independent application or augment an existing appl
 * [Quote Connector Service][8]
 
 <!-- Referenced links -->
-[1]: ../provisioning/index.md
+[1]: provisioning/index.md
 [2]: ../automation/webhook/index.md
 [3]: https://community.superoffice.com/documentation/sdk/SO.NetServer.Web.Services/html/Reference-SOAP-SOAP.htm
 [4]: https://community.superoffice.com/documentation/sdk/SO.NetServer.Web.Services/html/Reference-WebAPI-WebAPI.htm

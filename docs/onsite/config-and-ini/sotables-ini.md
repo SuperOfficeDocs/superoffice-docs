@@ -58,7 +58,7 @@ If you need to reuse a privacy key later, in another table you may use variables
 ![x][img1]
 
 <!-- Referenced links -->
-[1]: ../dbsetup-exe.md
+[1]: ../crm-server/dbsetup-exe.md
 [2]: https://community.superoffice.com/en/content/content/database/continuous-database/
 
 <!-- Referenced links -->

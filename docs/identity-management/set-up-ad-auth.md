@@ -65,9 +65,9 @@ SuperOffice CRM uses SID (security identifier) value to link an Active Directo
 6. If it is different, delete the row of this user in CREDENTIALS table and re-link the user in SuperOffice administration client.
 
 <!-- Referenced links -->
-[1]: set-up.md
-[2]: ../security/deployment-scenarios.md
-[3]: ../crm-server/iis-web-server/set-up-reverse-proxy-on-iis.md
+[1]: ../onsite/set-up.md
+[2]: ../onsite/security/deployment-scenarios.md
+[3]: ../onsite/crm-server/iis-web-server/set-up-reverse-proxy-on-iis.md
 
 <!-- Referenced images -->
 [img1]: media/ad-in-ns.png

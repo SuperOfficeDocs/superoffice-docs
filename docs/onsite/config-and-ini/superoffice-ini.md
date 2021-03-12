@@ -138,4 +138,4 @@ In the central SuperOffice.ini file.
 | ServerSetup folder | For information only |
 
 <!-- Referenced links -->
-[1]: ../dbsetup-exe.md
+[1]: ../crm-server/dbsetup-exe.md

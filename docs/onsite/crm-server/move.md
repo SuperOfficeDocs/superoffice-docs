@@ -162,8 +162,8 @@ All the eMarketing messages sent out before the move will contain links pointing
 * The second issue is with tracked links. A tracked link (also including the unsubscribe link) contains a hashed string which is based on the Customer Center domain. Even if you set up a redirect to catch old URLs, then it will be executed by Service but it will fail on the hash test.<br>A workaround is to leave the Customer Center on the old URL running, at least till the messages with the tracked links become irrelevant.
 
 <!-- Referenced links -->
-[1]: ../dbsetup-exe.md
-[12]: ../service/set-up-guide.md
+[1]: dbsetup-exe.md
+[2]: ../service/set-up-guide.md
 [3]: ../service/install-manually.md
 
 <!-- Referenced images -->

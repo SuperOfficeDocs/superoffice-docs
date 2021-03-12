@@ -23,13 +23,13 @@ External consultants **MAY NOT** approve access to a customer's production data
 
 2. The administrator clicks **I approve**. The dialog shows your application name, your company name, and other information relevant to the [consent][2].
 
-![Consent][img1]
+    ![Consent][img1]
 
 3. Provision the application.
 
 <!-- Referenced links -->
 [1]: ../authentication/auth-user.md
-[2]: ../provisioning/index.md
+[2]: ../apps/provisioning/index.md
 
 <!-- Referenced images -->
 [img1]: media/superid_approve.png

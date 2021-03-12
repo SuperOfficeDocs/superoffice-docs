@@ -68,7 +68,6 @@ so.date: 06.12.2020
 
 ### P
 
-* [Plugins](plugins/index.md)
 * [Privacy](privacy/index.md)
 * [Project](project/index.md)
 
