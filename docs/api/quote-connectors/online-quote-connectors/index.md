@@ -29,7 +29,7 @@ In total you will have the following NuGet package dependencies:
 
 There is an example quote connector example included in our [SuperOffice.DevNet.Online][6] GitHub repository, located in the [IntegrationServer][7] folder. Take a look at the *README.md*  markdown file for more information.
 
-[!include[ask questions](../includes/get-help.md)]
+[!include[ask questions](../../includes/get-help.md)]
 
 Have fun building quote connectors for SuperOffice CRM Online!
 
