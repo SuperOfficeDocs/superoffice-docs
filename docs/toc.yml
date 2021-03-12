@@ -1,4 +1,6 @@
 items:
+- name: Overview
+  href: index.md
 - name: Cookies
   href: cookies.md
 - name: Downloads
@@ -16,7 +18,7 @@ items:
 - name: Ai services
   href: ai-services/index.md
 - name: Apps
-  href: apps/activate-custom-app.md
+  href: apps/index.md
   items:
   - name: Activate custom app
     href: apps/activate-custom-app.md
@@ -71,7 +73,7 @@ items:
   - name: What api to use
     href: apps/what-api-to-use.md
   - name: Certification
-    href: apps/certification/certify-app.md
+    href: apps/certification/index.md
     items:
     - name: Certify app
       href: apps/certification/certify-app.md
@@ -84,14 +86,14 @@ items:
     - name: Watchcom testimonials
       href: apps/certification/watchcom-testimonials.md
   - name: Redirects
-    href: apps/redirects/add-update.md
+    href: apps/redirects/index.md
     items:
     - name: Add update
       href: apps/redirects/add-update.md
     - name: Endpoint types
       href: apps/redirects/endpoint-types.md
   - name: Requirements
-    href: apps/requirements/business.md
+    href: apps/requirements/index.md
     items:
     - name: Business
       href: apps/requirements/business.md
@@ -106,14 +108,14 @@ items:
     - name: Technical
       href: apps/requirements/technical.md
   - name: Validation
-    href: apps/validation/checklist.md
+    href: apps/validation/index.md
     items:
     - name: Checklist
       href: apps/validation/checklist.md
     - name: Validate app
       href: apps/validation/validate-app.md
 - name: Authentication
-  href: authentication/access-token.md
+  href: authentication/index.md
   items:
   - name: Access token
     href: authentication/access-token.md
@@ -140,7 +142,7 @@ items:
   - name: Superid token
     href: authentication/superid-token.md
   - name: Certificates
-    href: authentication/certificates/add-certificate-snap-in.md
+    href: authentication/certificates/index.md
     items:
     - name: Add certificate snap in
       href: authentication/certificates/add-certificate-snap-in.md
@@ -155,6 +157,8 @@ items:
   - name: Oidc
     href: authentication/oidc/index.md
     items:
+    - name: Auth code flow
+      href: authentication/oidc/auth-code-flow.md
     - name: Claims reference
       href: authentication/oidc/claims-reference.md
     - name: Claims scope
@@ -172,7 +176,7 @@ items:
     - name: Native apps
       href: authentication/oidc/native-apps.md
   - name: System user
-    href: authentication/system-user/get-system-user-ticket.md
+    href: authentication/system-user/index.md
     items:
     - name: Get system user ticket
       href: authentication/system-user/get-system-user-ticket.md
@@ -185,12 +189,12 @@ items:
     - name: System user token
       href: authentication/system-user/system-user-token.md
 - name: Automation
-  href: automation/crmscript.md
+  href: automation/index.md
   items:
   - name: Crmscript
     href: automation/crmscript.md
   - name: Trigger
-    href: automation/trigger/create-trigger-macro.md
+    href: automation/trigger/index.md
     items:
     - name: Create trigger macro
       href: automation/trigger/create-trigger-macro.md
@@ -201,14 +205,14 @@ items:
     - name: Update value
       href: automation/trigger/update-value.md
   - name: Webhook
-    href: automation/webhook/add-msg-to-ticket-with-github-webhook.md
+    href: automation/webhook/index.md
     items:
     - name: Add msg to ticket with github webhook
       href: automation/webhook/add-msg-to-ticket-with-github-webhook.md
 - name: Custom fields
   href: custom-fields/index.md
 - name: Customer center
-  href: customer-center/call-script-in-cs-with-ajax.md
+  href: customer-center/index.md
   items:
   - name: Call script in cs with ajax
     href: customer-center/call-script-in-cs-with-ajax.md
@@ -221,7 +225,7 @@ items:
   - name: Inline crmscript and custom form
     href: customer-center/inline-crmscript-and-custom-form.md
 - name: Documents
-  href: documents/cloud-document-integrations.md
+  href: documents/index.md
   items:
   - name: Cloud document integrations
     href: documents/cloud-document-integrations.md
@@ -254,7 +258,7 @@ items:
     - name: Troubleshooting
       href: documents/office-365-document-integration/troubleshooting.md
   - name: Ribbons
-    href: documents/ribbons/enable-debug.md
+    href: documents/ribbons/index.md
     items:
     - name: Enable debug
       href: documents/ribbons/enable-debug.md
@@ -309,14 +313,14 @@ items:
       - name: Misc
         href: documents/templates/variables/misc.md
 - name: Email
-  href: email/curl.md
+  href: email/index.md
   items:
   - name: Curl
     href: email/curl.md
   - name: Mailkit
     href: email/mailkit.md
   - name: Mailgun
-    href: email/mailgun/amount-speed.md
+    href: email/mailgun/index.md
     items:
     - name: Amount speed
       href: email/mailgun/amount-speed.md
@@ -327,7 +331,7 @@ items:
     - name: Sub processor info
       href: email/mailgun/sub-processor-info.md
     - name: Dkim
-      href: email/mailgun/dkim/change-us-to-eu.md
+      href: email/mailgun/dkim/index.md
       items:
       - name: Change us to eu
         href: email/mailgun/dkim/change-us-to-eu.md
@@ -341,14 +345,14 @@ items:
       - name: Set up
         href: email/mailgun/spf/set-up.md
   - name: Maillink
-    href: email/maillink/changes-in-7-1.md
+    href: email/maillink/index.md
     items:
     - name: Changes in 7 1
       href: email/maillink/changes-in-7-1.md
     - name: Debug
       href: email/maillink/debug.md
   - name: Superoffice for outlook
-    href: email/superoffice-for-outlook/deploy-centrally.md
+    href: email/superoffice-for-outlook/index.md
     items:
     - name: Deploy centrally
       href: email/superoffice-for-outlook/deploy-centrally.md
@@ -357,7 +361,7 @@ items:
     - name: Requirements
       href: email/superoffice-for-outlook/requirements.md
 - name: Identity management
-  href: identity-management/federated-id-and-identity-providers.md
+  href: identity-management/index.md
   items:
   - name: Federated id and identity providers
     href: identity-management/federated-id-and-identity-providers.md
@@ -370,7 +374,7 @@ items:
   - name: User accounts and roles
     href: identity-management/user-accounts-and-roles.md
   - name: Scim
-    href: identity-management/scim/activate-deactivate-rules.md
+    href: identity-management/scim/index.md
     items:
     - name: Activate deactivate rules
       href: identity-management/scim/activate-deactivate-rules.md
@@ -403,7 +407,7 @@ items:
     - name: User provisioning
       href: identity-management/scim/user-provisioning.md
   - name: Superid
-    href: identity-management/superid/check-idp-domain.md
+    href: identity-management/superid/index.md
     items:
     - name: Check idp domain
       href: identity-management/superid/check-idp-domain.md
@@ -430,7 +434,7 @@ items:
     - name: User accounts and passwords
       href: identity-management/superid/user-accounts-and-passwords.md
   - name: User
-    href: identity-management/user/add-user-in-admin-client.md
+    href: identity-management/user/index.md
     items:
     - name: Add user in admin client
       href: identity-management/user/add-user-in-admin-client.md
@@ -465,7 +469,7 @@ items:
     - name: Recaptcha
       href: marketing/forms/recaptcha.md
 - name: Mirroring
-  href: mirroring/conceptual-overview-2016.md
+  href: mirroring/index.md
   items:
   - name: Conceptual overview 2016
     href: mirroring/conceptual-overview-2016.md
@@ -495,7 +499,7 @@ items:
   href: mobile/index.md
   items:
   - name: Pocket crm
-    href: mobile/pocket-crm/configure.md
+    href: mobile/pocket-crm/index.md
     items:
     - name: Configure
       href: mobile/pocket-crm/configure.md
@@ -515,7 +519,7 @@ items:
     - name: System requirements
       href: mobile/superoffice-mobile/system-requirements.md
 - name: Odata
-  href: odata/import-to-excel.md
+  href: odata/index.md
   items:
   - name: Import to excel
     href: odata/import-to-excel.md
@@ -527,12 +531,12 @@ items:
   - name: Version history
     href: online/version-history.md
   - name: Test environment
-    href: online/test-environment/copy-database-caution.md
+    href: online/test-environment/index.md
     items:
     - name: Copy database caution
       href: online/test-environment/copy-database-caution.md
 - name: Onsite
-  href: onsite/dbsetup-exe.md
+  href: onsite/index.md
   items:
   - name: Dbsetup exe
     href: onsite/dbsetup-exe.md
@@ -547,7 +551,7 @@ items:
   - name: Version history
     href: onsite/version-history.md
   - name: Compatibility
-    href: onsite/compatibility/browser.md
+    href: onsite/compatibility/index.md
     items:
     - name: Browser
       href: onsite/compatibility/browser.md
@@ -583,7 +587,7 @@ items:
     - name: Web config
       href: onsite/config-and-ini/web-config.md
   - name: Crm server
-    href: onsite/crm-server/create-ms-sql-server-db.md
+    href: onsite/crm-server/index.md
     items:
     - name: Create ms sql server db
       href: onsite/crm-server/create-ms-sql-server-db.md
@@ -618,7 +622,7 @@ items:
     - name: System requirements
       href: onsite/pocket-crm/system-requirements.md
   - name: Security
-    href: onsite/security/deployment-scenarios.md
+    href: onsite/security/index.md
     items:
     - name: Deployment scenarios
       href: onsite/security/deployment-scenarios.md
@@ -635,7 +639,7 @@ items:
     - name: Set up reverse proxy on iis
       href: onsite/security/set-up-reverse-proxy-on-iis.md
   - name: Service
-    href: onsite/service/debug-automated-tasks.md
+    href: onsite/service/index.md
     items:
     - name: Debug automated tasks
       href: onsite/service/debug-automated-tasks.md
@@ -648,7 +652,7 @@ items:
     - name: Upgrade
       href: onsite/service/upgrade.md
   - name: Web client
-    href: onsite/web-client/access-custom-page.md
+    href: onsite/web-client/index.md
     items:
     - name: Access custom page
       href: onsite/web-client/access-custom-page.md
@@ -689,7 +693,7 @@ items:
     - name: Validation
       href: onsite/web-client/validation.md
   - name: Win client
-    href: onsite/win-client/admin.md
+    href: onsite/win-client/index.md
     items:
     - name: Admin
       href: onsite/win-client/admin.md
@@ -718,7 +722,7 @@ items:
     - name: Soarc document plugin
       href: plugins/document-plugins/soarc-document-plugin.md
 - name: Privacy
-  href: privacy/consent-management.md
+  href: privacy/index.md
   items:
   - name: Consent management
     href: privacy/consent-management.md
@@ -727,7 +731,7 @@ items:
   - name: Gdpr for app developer
     href: privacy/gdpr-for-app-developer.md
 - name: Provisioning
-  href: provisioning/example.md
+  href: provisioning/index.md
   items:
   - name: Example
     href: provisioning/example.md
@@ -742,17 +746,17 @@ items:
   - name: System templates
     href: reply-templates/system-templates.md
 - name: Reports
-  href: reports/enable-debug.md
+  href: reports/index.md
   items:
   - name: Enable debug
     href: reports/enable-debug.md
 - name: Search
-  href: search/expand-quick-search.md
+  href: search/index.md
   items:
   - name: Expand quick search
     href: search/expand-quick-search.md
 - name: Service
-  href: service/config-faq.md
+  href: service/index.md
   items:
   - name: Config faq
     href: service/config-faq.md
@@ -766,7 +770,7 @@ items:
     - name: Location
       href: service/attachments/location.md
   - name: Sms
-    href: service/sms/cm.md
+    href: service/sms/index.md
     items:
     - name: Cm
       href: service/sms/cm.md
@@ -783,7 +787,7 @@ items:
     - name: Txtlocal
       href: service/sms/txtlocal.md
 - name: Tenants
-  href: tenants/approval-sequence.md
+  href: tenants/index.md
   items:
   - name: Approval sequence
     href: tenants/approval-sequence.md
@@ -806,12 +810,12 @@ items:
   - name: Replace test envir
     href: tenants/replace-test-envir.md
 - name: Travel
-  href: travel/create-update-prototype.md
+  href: travel/index.md
   items:
   - name: Create update prototype
     href: travel/create-update-prototype.md
 - name: Video meeting
-  href: video-meeting/configure-video-meetings.md
+  href: video-meeting/index.md
   items:
   - name: Configure video meetings
     href: video-meeting/configure-video-meetings.md
@@ -828,7 +832,7 @@ items:
   - name: Uninstall provider
     href: video-meeting/uninstall-provider.md
 - name: Webtools
-  href: webtools/background.md
+  href: webtools/index.md
   items:
   - name: Background
     href: webtools/background.md
