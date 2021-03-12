@@ -87,8 +87,8 @@ Read about [effective visual design][6].
 * Provide SuperOffice with URLs to your application **documentation**. Links to the documentation will appear in the App Store.
 
 <!-- Referenced links -->
-[1]: ../tenants/online-tenant-status.md
-[2]: ../tenants/check-status.md
+[1]: tenant-status/online-tenant-status.md
+[2]: tenant-status/check-status.md
 [3]: https://github.com/SuperOffice/SuperOffice.DevNet.Online/blob/ff4a90073a04400e44e20739bcc99d827b856203/Source/SuperOffice.DevNet.Online.Provisioning/WebPanelHelper.cs#L335
 [4]: https://community.superoffice.com/en/developer/create-apps/resources/change-application/
 [5]: ../authentication/certificates/validate-security-tokens.md

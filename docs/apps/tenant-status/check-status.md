@@ -34,5 +34,5 @@ Each tenant has a status page where you can check its state to ensure your appli
 2. Parse the response. Details in the [state value reference][2].
 
 <!-- Referenced links -->
-[1]: ../apps/app-envir.md
+[1]: ../app-envir.md
 [2]: online-tenant-status.md

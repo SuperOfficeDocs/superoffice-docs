@@ -54,12 +54,12 @@ It is up to the application to securely store the system user token.
 
 <!-- Referenced links -->
 [1]: ../../apps/index.md
-[2]: ../../tenants/index.md
+[2]: ../../apps/tenant-status/index.md
 [3]: system-user-flow.md
 [4]: get-system-user-ticket.md
 [5]: system-user-ticket.md
 [6]: ../superid-token.md
-[7]: ../../tenants/get-consent.md
+[7]: ../../apps/tenant-status/get-consent.md
 
 <!-- Referenced images -->
 [img1]: media/non-interactive-token-flow.jpg

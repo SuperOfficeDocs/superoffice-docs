@@ -37,4 +37,4 @@ Manual provisioning might introduce potential errors. You also run the risk of t
 
 <!-- Referenced links -->
 [1]: ../index.md
-[2]: ../../tenants/index.md
+[2]: ../tenant-status/index.md

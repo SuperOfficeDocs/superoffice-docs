@@ -52,6 +52,6 @@ See also [application models][6] and the [system user MVC example][7].
 [2]: ../authentication/system-user/system-user-token.md
 [3]: ../authentication/system-user/system-user-flow.md
 [4]: ../authentication/oidc/index.md
-[5]: ../tenants/index.md
+[5]: tenant-status/index.md
 [6]: models.md
 [7]: https://github.com/SuperOfficeDocs/data-access/blob/main/docs/tutorials/minimal-csharp-app/overview.md

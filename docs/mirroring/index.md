@@ -119,13 +119,13 @@ The Mirroring Task sends the SuperOffice signed token with every call so that t
 <!-- Referenced links -->
 [1]: ../apps/client-id-secret.md
 [2]: mirroring-task.md
-[3]: ../tenants/index.md
+[3]: ../apps/tenant-status/index.md
 [4]: ../apps/index.md
 [5]: i-mirror-client-service.md
 [6]: sql-server-schema.md
 [7]: https://community.superoffice.com/contentassets/8c09bc95f03841cd87771bc367849cf5/mirroredtables.docx
 [8]: ../apps/custom.md
-[9]: ../tenants/get-consent.md
+[9]: ../apps/tenant-status/get-consent.md
 [10]: ../authentication/certificates/validate-security-tokens.md
 [11]: ../authentication/system-user/sign-system-user-token.md
 

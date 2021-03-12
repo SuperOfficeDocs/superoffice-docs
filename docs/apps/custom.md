@@ -47,7 +47,7 @@ When it is time to develop your application idea, you have 3 options:
 
 <!-- Referenced links -->
 [2]: standard.md
-[3]: ../tenants/index.md
+[3]: tenant-status/index.md
 [4]: app-envir.md
 [5]: validation/index.md
 [6]: activate-custom-app.md

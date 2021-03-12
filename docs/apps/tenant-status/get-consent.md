@@ -28,8 +28,8 @@ External consultants **MAY NOT** approve access to a customer's production data
 3. Provision the application.
 
 <!-- Referenced links -->
-[1]: ../authentication/auth-user.md
-[2]: ../apps/provisioning/index.md
+[1]: ../../authentication/auth-user.md
+[2]: ../provisioning/index.md
 
 <!-- Referenced images -->
 [img1]: media/superid_approve.png

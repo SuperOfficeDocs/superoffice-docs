@@ -52,8 +52,8 @@ The **change type** is a number value that corresponds to the operation perfor
 | 4 | Delete | This occurs when a tenant installation is deleted. |
 
 <!-- Referenced links -->
-[1]: ../apps/app-envir.md
-[2]: ../apps/index.md
-[3]: production-test-tenant.md
+[1]: ../app-envir.md
+[2]: ../index.md
+[3]: ../../online/test-environment/production-test-tenant.md
 [4]: check-status.md
 [5]: online-tenant-status.md

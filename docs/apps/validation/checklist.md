@@ -64,5 +64,5 @@ If the subscription is discontinued, any custom applications will lose access to
 <!-- Referenced links -->
 [1]: ../../license/expander-services/index.md
 [2]: ../consent.md
-[3]: ../../tenants/check-status.md
+[3]: ../tenant-status/check-status.md
 [4]: validate-app.md

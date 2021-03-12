@@ -91,7 +91,7 @@ Creating an application for the SuperOffice App Store is not something to take l
 
 <!-- Referenced links -->
 [1]: app-envir.md
-[2]: ../tenants/index.md
+[2]: tenant-status/index.md
 [3]: client-id-secret.md
 [4]: redirects/index.md
 [5]: ../authentication/certificates/index.md

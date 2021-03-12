@@ -57,7 +57,7 @@ The same goes for all [custom SuperOffice CRM Online applications][5].
 <!-- Referenced links -->
 [1]: tool-box.md
 [2]: ../../automation/crmscript.md
-[4]: ../../tenants/index.md
+[4]: ../../apps/tenant-status/index.md
 [5]: ../../apps/custom.md
 [6]: ../../apps/standard.md
 [7]: https://online.superoffice.com/appstore/

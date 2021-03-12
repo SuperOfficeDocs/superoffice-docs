@@ -65,5 +65,5 @@ so.client: online               # online, web, win, pocket, or mobile
 
 <!-- Referenced links -->
 [1]: ../revoke-app.md
-[2]: ../../tenants/online-tenant-status.md
+[2]: ../tenant-status/online-tenant-status.md
 [3]: ../../mirroring/mirroring-task.md
