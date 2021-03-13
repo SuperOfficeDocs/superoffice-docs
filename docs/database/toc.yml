@@ -1,6 +1,8 @@
 items:
+- name: Overview
+  href: index.md
 - name: Company and contact
-  href: company-and-contact/add-contact.md
+  href: company-and-contact/index.md
   items:
   - name: Add contact
     href: company-and-contact/add-contact.md
@@ -24,7 +26,7 @@ items:
   - name: User defined fields
     href: custom-fields/user-defined-fields.md
 - name: Diary
-  href: diary/accept-invitation.md
+  href: diary/index.md
   items:
   - name: Accept invitation
     href: diary/accept-invitation.md
@@ -35,7 +37,7 @@ items:
   - name: Recurring appointments
     href: diary/recurring-appointments.md
 - name: Dictionary
-  href: dictionary/custompriming-method.md
+  href: dictionary/index.md
   items:
   - name: Custompriming method
     href: dictionary/custompriming-method.md
@@ -50,7 +52,7 @@ items:
   - name: Structure method
     href: dictionary/structure-method.md
 - name: Getting started
-  href: getting-started/activity-links.md
+  href: getting-started/index.md
   items:
   - name: Activity links
     href: getting-started/activity-links.md
@@ -71,14 +73,14 @@ items:
   - name: Table id sequence
     href: getting-started/table-id-sequence.md
 - name: Lists
-  href: lists/add-list-item.md
+  href: lists/index.md
   items:
   - name: Add list item
     href: lists/add-list-item.md
   - name: Mdo lists
     href: lists/mdo-lists.md
 - name: Project
-  href: project/add-project.md
+  href: project/index.md
   items:
   - name: Add project
     href: project/add-project.md
@@ -96,7 +98,7 @@ items:
   - name: Stakeholders
     href: sales/stakeholders.md
   - name: Saint
-    href: sales/saint/counters.md
+    href: sales/saint/index.md
     items:
     - name: Counters
       href: sales/saint/counters.md
@@ -110,7 +112,7 @@ items:
   href: search/index.md
   items:
   - name: Selection
-    href: search/selection/add-person-to-selection.md
+    href: search/selection/index.md
     items:
     - name: Add person to selection
       href: search/selection/add-person-to-selection.md
@@ -119,7 +121,7 @@ items:
     - name: Dynamic selections
       href: search/selection/dynamic-selections.md
 - name: Security
-  href: security/add-prefdesc.md
+  href: security/index.md
   items:
   - name: Add prefdesc
     href: security/add-prefdesc.md
@@ -134,7 +136,7 @@ items:
   - name: Users and associates
     href: security/users-and-associates.md
 - name: Tables
-  href: tables/access-script.md
+  href: tables/index.md
   items:
   - name: Access script
     href: tables/access-script.md
@@ -1076,7 +1078,7 @@ items:
   - name: Transaction log
     href: travel/transaction-log.md
 - name: User preferences
-  href: user-preferences/appointment-dialog.md
+  href: user-preferences/index.md
   items:
   - name: Appointment dialog
     href: user-preferences/appointment-dialog.md
@@ -1119,7 +1121,7 @@ items:
   - name: Visual
     href: user-preferences/visual.md
 - name: Whats new
-  href: whats-new/changes-6-7.md
+  href: whats-new/index.md
   items:
   - name: Changes 6 7
     href: whats-new/changes-6-7.md
@@ -1132,7 +1134,7 @@ items:
   - name: Changes 81
     href: whats-new/changes-81.md
   - name: Changes in 7
-    href: whats-new/changes-in-7/authentication.md
+    href: whats-new/changes-in-7/index.md
     items:
     - name: Authentication
       href: whats-new/changes-in-7/authentication.md
