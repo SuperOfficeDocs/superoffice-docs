@@ -46,6 +46,8 @@ items:
   items:
   - name: Downloads
     href: assets/downloads.md
+  - name: Download
+    href: assets/download/CreateARecurringAppointment.zip
 - name: Authentication
   href: authentication/index.md
   items:
