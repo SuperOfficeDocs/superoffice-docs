@@ -1,23 +1,17 @@
 items:
 - name: Overview
   href: index.md
-- name: Company and contact
-  href: company-and-contact/index.md
+- name: Contact
+  href: contact/index.md
   items:
   - name: Add contact
-    href: company-and-contact/add-contact.md
-  - name: Add person picture blobs
-    href: company-and-contact/add-person-picture-blobs.md
+    href: contact/add-contact.md
   - name: Get contact details
-    href: company-and-contact/get-contact-details.md
-  - name: Get persons from contact
-    href: company-and-contact/get-persons-from-contact.md
+    href: contact/get-contact-details.md
   - name: Interests
-    href: company-and-contact/interests.md
+    href: contact/interests.md
   - name: Putting together a company
-    href: company-and-contact/putting-together-a-company.md
-  - name: Update person
-    href: company-and-contact/update-person.md
+    href: contact/putting-together-a-company.md
 - name: Custom fields
   href: custom-fields/index.md
   items:
@@ -77,8 +71,19 @@ items:
   items:
   - name: Add list item
     href: lists/add-list-item.md
+  - name: Get categories
+    href: lists/get-categories.md
   - name: Mdo lists
     href: lists/mdo-lists.md
+- name: Person
+  href: person/index.md
+  items:
+  - name: Add person picture blobs
+    href: person/add-person-picture-blobs.md
+  - name: Get persons from contact
+    href: person/get-persons-from-contact.md
+  - name: Update person
+    href: person/update-person.md
 - name: Project
   href: project/index.md
   items:
@@ -123,10 +128,6 @@ items:
 - name: Security
   href: security/index.md
   items:
-  - name: Add prefdesc
-    href: security/add-prefdesc.md
-  - name: Get categories
-    href: security/get-categories.md
   - name: Override sentry example
     href: security/override-sentry-example.md
   - name: Role based
@@ -1080,6 +1081,8 @@ items:
 - name: User preferences
   href: user-preferences/index.md
   items:
+  - name: Add prefdesc
+    href: user-preferences/add-prefdesc.md
   - name: Appointment dialog
     href: user-preferences/appointment-dialog.md
   - name: Associates

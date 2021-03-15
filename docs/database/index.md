@@ -48,7 +48,7 @@ It is also important to know basic SQL.
 
 ### C
 
-* [Company and contact](company-and-contact/index.md)
+* [Company and contact](contact/index.md)
 * [Custom fields](custom-fields/index.md)
 
 ### D
