@@ -65,13 +65,12 @@ Describes the different field types that can be offered by the connector.
 This enum describes access restrictions and mandatory status.
 
 | Restriction | Description |
-|---|---|---|
+|---|---|
 | Normal | Normal field, no particular restrictions |
 | Mandatory | This field is mandatory (see section "Default value setup") |
 | ReadOnly | This field is read-only |
 
 <!-- Referenced links -->
-[1]:
 
 <!-- Referenced images -->
 [img1]: media/image003.png
