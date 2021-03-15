@@ -618,6 +618,8 @@ items:
     href: osql/count.md
   - name: Delete
     href: osql/delete.md
+  - name: Evolution of OSQL
+    href: osql/osql-evolution.md
   - name: Groupby
     href: osql/groupby.md
   - name: In enum
@@ -1004,8 +1006,6 @@ items:
     items:
     - name: Getting started
       href: services/ns-web-services/getting-started.md
-    - name: Objectified sql
-      href: services/ns-web-services/objectified-sql.md
     - name: Rest
       href: services/ns-web-services/rest.md
     - name: Soundx
