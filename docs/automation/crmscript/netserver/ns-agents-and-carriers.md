@@ -126,4 +126,4 @@ Use Get and Set to access attributes of entities.
 * Set methods take a carrier or basic type as argument
 
 <!-- Referenced links -->
-[1]: fundamentals/index.md
+[1]: ../fundamentals/index.md

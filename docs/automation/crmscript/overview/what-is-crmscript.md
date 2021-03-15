@@ -41,4 +41,4 @@ At some point, the source code must be converted into something a computer can r
 However, this also means that your scripts are "public", shared in a human-readable form. If you for some reason don't want to share your secret sauce, perhaps creating a custom application with our APIs is a better fit in your particular case.
 
 <!-- Referenced links -->
-[1]: fundamentals/structs.md
+[1]: ../fundamentals/structs.md

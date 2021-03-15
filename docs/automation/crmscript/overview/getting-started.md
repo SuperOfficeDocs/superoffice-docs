@@ -34,9 +34,9 @@ To develop applications and scripts in our SOD environment is free. Required lic
 * [Regular expression tool][6]
 
 <!-- Referenced links -->
-[1]: fundamentals/index.md
-[2]: datatypes/index.md
-[3]: code-quality/coding-conventions.md
-[4]: code-quality/best-practices.md
-[5]: debugging/index.md
+[1]: ../fundamentals/index.md
+[2]: ../datatypes/index.md
+[3]: ../code-quality/coding-conventions.md
+[4]: ../code-quality/best-practices.md
+[5]: ../debugging/index.md
 [6]: https://regex101.com/

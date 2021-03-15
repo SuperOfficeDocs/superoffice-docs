@@ -25,4 +25,4 @@ The content is organized by CRMScript **classes**.
 1. autolist
 
 <!-- Referenced links -->
-[1]: ../domain.md
+[1]: ../overview/domain.md

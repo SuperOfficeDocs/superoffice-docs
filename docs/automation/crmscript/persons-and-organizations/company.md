@@ -237,5 +237,5 @@ For a complete list of fields, see the [database reference][5].
 [1]: https://community.superoffice.com/documentation/SDK/SO.Customer.Service.Support/html/EJScript-Classes-Company-setValue.htm
 [2]: ../parser-and-templates/reply-template.md
 [3]: addresses.md
-[4]: ../ns-agents-and-carriers.md
+[4]: ../netserver/ns-agents-and-carriers.md
 [5]: https://community.superoffice.com/documentation/SDK/SO.Database/html/Tables-contact.htm

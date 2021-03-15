@@ -99,4 +99,4 @@ When you save a CRMScript (click **Apply**), `ajax.fcgi?action=getScriptIntellis
 
 <!-- Referenced img -->
 
-[img1]: ../media/crmscript-intellisense.png
+[img1]: media/crmscript-intellisense.png

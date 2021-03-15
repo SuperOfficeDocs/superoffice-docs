@@ -10,7 +10,7 @@ so.date: 14.01.2021
 
 ### A
 
-* [Archive agent](crmscript-archiveagent.md)
+* [Archive agent](netserver/crmscript-archiveagent.md)
 
 ### B
 
@@ -35,11 +35,11 @@ so.date: 14.01.2021
 
 ### G
 
-* [Getting started](getting-started.md)
-  * [What is CRMScript](what-is-crmscript.md)
-  * [Environment and tools](envir-and-tools.md)
-  * [Domain](domain.md)
-  * [CRMScript usage](crmscript-usage.md)
+* [Getting started](overview/getting-started.md)
+  * [What is CRMScript](overview/what-is-crmscript.md)
+  * [Environment and tools](overview/envir-and-tools.md)
+  * [Domain](overview/domain.md)
+  * [CRMScript usage](overview/crmscript-usage.md)
 * [Global functions](global-functions/index.md)
 
 ### H
@@ -52,13 +52,13 @@ so.date: 14.01.2021
 
 ### L
 
-* [Localization](localization.md)
+* [Localization](overview/localization.md)
 
 ### M
 
 ### N
 
-* [NetServer agents and carriers](ns-agents-and-carriers.md)
+* [NetServer agents and carriers](netserver/ns-agents-and-carriers.md)
 
 ### O
 
