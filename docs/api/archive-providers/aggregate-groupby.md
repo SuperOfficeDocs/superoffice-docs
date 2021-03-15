@@ -118,9 +118,9 @@ It’s easy to specify an additional group level with the integer modifier. Buil
 ### Query output
 
 | RowNo | RowType | Count (middleName) | CountAll (firstName) | firstName | GroupBy (middleName): HideDetail,Header,Footer,1 | GroupBy (lastName): Header,Footer,2 | Sum(rank): HideDetail |
-|---|---|---|---|---|---|---|---|---|
-| 0 (1) | \[header:1\] | 1 | 2  | | Ray | | 3 |
-| 1 (2) | \[header:2\]| 1 | 2 | | |Doe | 3 |
+|-------|--------------|---|---|------|-----|---|---|
+| 0 (1) | \[header:1\] | 1 | 2 |      | Ray |   | 3 |
+| 1 (2) | \[header:2\] | 1 | 2 |      | |Doe | 3 |
 | 2 (359) | \[person\] | 1 | 1 | Jane | | | |
 | 3 (360) | \[person\] | 1 | 2 | Billy | | | |
 | 4 (1) | \[footer:2\] | 1 | 2 | | | Doe | 3 |

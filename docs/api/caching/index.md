@@ -18,4 +18,4 @@ Once the data is stored in the cache, future use can be made by accessing the ca
 
 <!-- Referenced links -->
 [1]: lists.md
-[2]: preferences.md
+[2]: ../preferences/preferences.md
