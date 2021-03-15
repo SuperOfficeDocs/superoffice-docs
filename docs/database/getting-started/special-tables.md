@@ -19,6 +19,9 @@ Some of the tables in a SuperOffice database are very special.
 
 ## Dictionary tables
 
+> [!NOTE]
+> Dictionary tables are legacy tables that only exist in version 8.0 and earlier.
+
 Firstly, in a SuperOffice database, there are **dictionary information tables** which contain a description of the database itself.
 
 > [!CAUTION]
