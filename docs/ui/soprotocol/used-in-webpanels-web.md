@@ -18,6 +18,7 @@ so.topic: reference
 * info[mode=edit]
 
 [refresh=false]
+
 [usesuperstatecopy=true] (disconnect dialog from current updates)
 
 * Only for dialogs use.
