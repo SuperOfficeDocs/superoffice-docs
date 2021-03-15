@@ -59,7 +59,7 @@ See also: WebAPI [REST API][1]
 <!-- Referenced links -->
 [1]: ../rest/index.md
 [2]: ../../contact/create/create-contact-webapi-agents.md
-[3]: ../../contact/category/add-catlist-item-webapi-agents.md
+[3]: ../../lists/category/add-catlist-item-webapi-agents.md
 [4]: ../../documents/agents-web-api/add-document-template.md
 [5]: ../../documents/agents-web-api/generate-document.md
 [6]: https://community.superoffice.com/documentation/sdk/SO.NetServer.Web.Services/swagger/Swagger-v1-Agents.json

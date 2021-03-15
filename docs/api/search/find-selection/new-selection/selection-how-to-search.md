@@ -15,14 +15,14 @@ so.client: netserver                        # online, web, or win
 
 # How to Search using Find Selections
 
-SuperOffice [Find](https://community.superoffice.com/en/customer/news/product/9-2-find-selection/) is a unification of the Find dialog and Selections; two legacy approaches to search for specific information. SuperOffice provides new APIs to to perform searches, used by both Find and Selections.
+SuperOffice [Find](https://community.superoffice.com/en/customer/news/product/9-2-find-selection/) is a unification of the Find dialog and Selections; two legacy approaches to search for specific information. SuperOffice provides new APIs to perform searches, used by both Find and Selections.
 
 > [!NOTE]
 > The API details provided apply to SuperOffice v.9.2 and higher. Find searches do not yet support `custom entities` or `extra tables`.
 
 ## Getting started
 
-The first thing to understand is that search is based on a selections. However, a search doesn’t explicitly require a preexisting selection to perform a search. Using the API the same way the SuperOffice Find dialog works, implicitly creates a selection on a per-associate per-entity basis.
+The first thing to understand is that search is based on a selection. However, a search doesn’t explicitly require a preexisting selection to perform a search. Using the API the same way the SuperOffice Find dialog works, implicitly creates a selection on a per-associate per-entity basis.
 
 The steps used to perform a search are:
 
@@ -36,16 +36,17 @@ The steps used to perform a search are:
 
 ## Get the search entities
 
-The Find page dynamically displays all entities that support the new Find system. 
+The Find page dynamically displays all entities that support the new Find system.
 
-![Find Dialog](../../media/selection-find-panel.png)
+![Find Dialog](media/selection-find-panel.png)
 
 > [!NOTE]
-> Your Find options may not be the same as shown. Available entities depend on the current users license.
+> Your Find options may not be the same as shown. Available entities depend on the current user's license.
 
 To determine which entities are available, use the MDO endpoint to get a list of available entities using the `SelectionMemberTypeV2` MDOList provider.
 
-# [REST](#tab/find-panel-1)
+### [REST](#tab/find-panel-1)
+
 ```http
 GET /api/v1/MDOList/SelectionMemberTypeV2
 Authorization: Bearer {access_token}
@@ -53,7 +54,8 @@ Content-Type: application/json
 Accept: application/json
 ```
 
-# [Agent](#tab/find-panel-2)
+### [Agent](#tab/find-panel-2)
+
 ```http
 POST /api/v1/Agents/MDO/GetList
 Authorization: Bearer {access_token}
@@ -69,7 +71,8 @@ Content-Type: application/json; charset=utf-8
 }
 ```
 
-# [WebApi Client](#tab/find-panel-3)
+### [WebApi Client](#tab/find-panel-3)
+
 ```csharp
 // setup access credentials
 var authorization = new AuthorizationAccessToken("{access_token}", OnlineEnvironment.SOD);
@@ -84,7 +87,7 @@ ___
 
 The results is an array of [MDOListItem](https://community.superoffice.com/documentation/sdk/SO.NetServer.Web.Services/html/T_SuperOffice_CRM_Services_MDOListItem.htm) and contain the follow details. Use the name of the ExtraInfo property to define the search entity.
 
-### Results (some properties omitted for brevity):
+### Results (some properties omitted for brevity)
 
 | Id | Name                 | IconHint   | ExtraInfo   |
 |----|----------------------|------------|-------------|
@@ -112,10 +115,11 @@ The value of typicalSearchId determines some internal logic.
 |TypicalSearchID | Description                                   |
 |-----|-----------------------------------------------|
 | -1  | Gets the default criteria for the current entity, and the selectionId of the working set is returned along with the providerName. |
-| 0 | Gets the working set and don’t do anything else.|
+| 0 | Gets the working set and doesn’t do anything else.|
 | 1 or higher | Gets a selection with criteria set from the typical search of the given id. |
 
-# [RESTful Agent](#tab/get-archive-provider-1)
+### [RESTful Agent](#tab/get-archive-provider-1)
+
 ```http
 POST /api/v1/Agents/Selection/GetSelectionForFind 
 Authorization: Bearer {{token}}
@@ -128,7 +132,7 @@ Accept: application/json
 }
 ```
 
-# [WebApi Client](#tab/get-archive-provider-2)
+### [WebApi Client](#tab/get-archive-provider-2)
 
 ```csharp
 // setup access credentials
@@ -143,6 +147,7 @@ var typicalSearchId = 0;
 
 SelectionForFind selectionForFind = await selectionAgent.GetSelectionForFind(entityName, typicalSearchId);
 ```
+
 ___
 
 ### SelectionForFind properties
@@ -158,7 +163,7 @@ ___
 
 The `ProviderName` property is the name of the archive provider used to search. In this example, when contact is used as the entity name, the results return `ContactPersonDynamicSelectionV2` as the archive provider name.
 
-The `SelectionId` indicates the selection primary key for this associate/entity pair. The selection has a default list of criteria used to pre-populate a new selection of this entity type.
+The `SelectionId` indicates the selection's primary key for this associate/entity pair. The selection has a default list of criteria used to pre-populate a new selection of this entity type.
 
 #### SelectionForFind Result
 
@@ -195,15 +200,15 @@ These providers are exclusively used together with the new CriteriaGroups for sp
 
 ## Get the search columns
 
-Search columns are used to define what field to select, and specify the criteria for limiting the result set. Because these never change at runtime, make sure to use caching when able.
+Search columns are used to define what field to select and specify the criteria for limiting the result set. Because these never change at runtime, make sure to use caching when able.
 
 ### Selection Criteria
 
-Just like a SQL SELECT statement, where there are any number of select fields and any number of WHERE clause criteria, selections use archive provider columns to determine select and criteria fields. A selection criteria is set using `CriteriaGroups`.
+Just like a SQL SELECT statement, where there are any number of select fields and any number of WHERE clause criteria, selections use archive provider columns to determine select and criteria fields. A selection criterion is set using `CriteriaGroups`.
 
-One `CriteriaGroup` is an __ArchiveRestrictionGroup__, and contains an array of __ArchiveRestrictionInfo__, and each `ArchiveRestrictionInfo` is implicitly joined by an AND operator.
+One `CriteriaGroup` is an __ArchiveRestrictionGroup__ and contains an array of __ArchiveRestrictionInfo__, and each `ArchiveRestrictionInfo` is implicitly joined by an AND operator.
 
-![CriteriaGroup](../../media/selection-criteria-group-conceptual.png)
+![CriteriaGroup](media/selection-criteria-group-conceptual.png)
 
 Take the following SQL, for example:
 
@@ -214,7 +219,7 @@ WHERE (C.name LIKE 'Super%' AND C.business_idx = 2)
    OR (C.name LIKE 'Duper%' AND C.category_idx = 12)
 ```
 
-The first WHERE criteria `(C.name LIKE 'Super%' AND C.business_idx = 2) ` is a criteria group, comprised of two distinct criterion. To build the equivalent into an ArchiveRestrictionGroup, it looks like this:
+The first WHERE criteria `(C.name LIKE 'Super%' AND C.business_idx = 2)` is a criteria group, comprised of two distinct criteria. To build the equivalent into an ArchiveRestrictionGroup, it looks like this:
 
 ```csharp
 var criteriaGroup = new ArchiveRestrictionGroup()
@@ -269,7 +274,8 @@ To specify a field restriction you first need to get an [ArchiveColumnInfo](http
 
 #### Get archive provider columns
 
-# [RESTful Agent](#tab/get-archive-provider-columns-1)
+### [RESTful Agent](#tab/get-archive-provider-columns-1)
+
 ```http
 POST /api/v1/Agents/Archive/GetAvailableColumns
 Authorization: Bearer {{token}}
@@ -283,7 +289,7 @@ Content-Type: application/json; charset=utf-8
 }
 ```
 
-# [WebApi Client](#tab/get-archive-provider-columns-2)
+### [WebApi Client](#tab/get-archive-provider-columns-2)
 
 ```csharp
 // setup access credentials
@@ -406,7 +412,6 @@ ___
 | RestrictionListName   | If the restriction data type is 'list', this property contains the name of the SoList so that choices can be shown.      |
 | IconHint              | Used to group with corresponding columns.                                   |
 
-
 ### Get field operators by data type
 
 A field operator determines what type of operation the criteria performs, i.e. comparison or range. Use the RestrictionType property to get the available operators for a given data type.
@@ -429,7 +434,7 @@ A field operator determines what type of operation the criteria performs, i.e. c
 |listInterest     | Yes       |
 |userGroup        | Yes       |
 
-# [REST](#tab/get-operators-1)
+### [REST](#tab/get-operators-1)
 
 ```http
 GET /api/v1/MDOList/restrictionOperators/selectable?additional=positiveString 
@@ -440,7 +445,7 @@ Accept-Language: en
 
 ```
 
-# [Agent](#tab/get-operators-2)
+### [Agent](#tab/get-operators-2)
 
 ```http
 POST /api/v1/Agents/MDO/GetList 
@@ -458,7 +463,7 @@ Accept-Language: en
 
 ```
 
-# [WebApi Client](#tab/get-operators-3)
+### [WebApi Client](#tab/get-operators-3)
 
 ```csharp
 // setup access credentials
@@ -610,11 +615,11 @@ private async void ColumnInfoArchiveRestrictionInfoAsync(Tenant tenant)
 
 ## Set search criteria
 
-#### Fetching and saving criteria
+### Fetching and saving criteria
 
-The new search routines introduce the concept of __criteria groups__, where all criteria in a group is connected by AND operators, and all groups in the array of CriteriaGroups are connected by OR operators.
+The new search routines introduce the concept of __criteria groups__, where all criteria in a group are connected by AND operators, and all groups in the array of CriteriaGroups are connected by OR operators.
 
-![Selection CriteriaGroups](../../media/selection-criteria-groups-conceptual.png)
+![Selection CriteriaGroups](media/selection-criteria-groups-conceptual.png)
 
 The main points to understand are:
 
@@ -623,15 +628,15 @@ The main points to understand are:
 
 The grouping and use of the AND and OR operators as such means it’s simple to define, maintain and comprehend how groups of criteria are applied to search routines.
 
-The database layout to support this has been in place for a long time, and was used in an equivalent fashion for Saint Status definitions. There, each criteria group was in a separate tab in the user interface; in the new Find screen, criteria groups are instead stacked vertically.
+The database layout to support this has been in place for a long time and was used in an equivalent fashion for Saint Status definitions. There, each criteria group was in a separate tab in the user interface; in the new Find screen, criteria groups are instead stacked vertically.
 
-![Selection CriteriaGroups](../../media/selection-criteria-groups-actual.png)
+![Selection CriteriaGroups](media/selection-criteria-groups-actual.png)
 
 Selection criteria are fetched and stored using the `GetDynamicSelectionCriteriaGroups` and `SetDynamicSelectionCriteriaGroups` methods on the Selection agent. Using them will retrieve and save all groups, and avoid having to make assumptions about the StorageKey concept used in the Find agent methods.
 
-This example that demonstrates how to get existing CriteriaGroups for a given selection.
+This example demonstrates how to get existing CriteriaGroups for a given selection.
 
-# [REST](#tab/get-criteriagroups-1)
+### [REST](#tab/get-criteriagroups-1)
 
 ```http
 GET /api/v1/Selection/28/CriteriaGroups
@@ -642,7 +647,7 @@ Accept-Language: en
 
 ```
 
-# [Agent](#tab/get-criteriagroups-2)
+### [Agent](#tab/get-criteriagroups-2)
 
 ```http
 POST /api/v1/Agents/Selection/GetDynamicSelectionCriteriaGroups
@@ -658,7 +663,7 @@ Accept-Language: en
 
 ```
 
-# [WebApi Client](#tab/get-criteriagroups-3)
+### [WebApi Client](#tab/get-criteriagroups-3)
 
 ```csharp
 // setup access credentials
@@ -673,7 +678,7 @@ ArchiveRestrictionGroup[] criteriaGroups = await selectionAgent.GetDynamicSelect
 
 ___
 
-The following example demonstrates how to set the criteria for the personalized person entity. The criteria says to return all persons where the first name starts with B and ends with Y, or first name starts with R and ends with Y.
+The following example demonstrates how to set the criteria for the personalized person entity. The criteria says to return all persons where the first name starts with B and ends with Y, or the first name starts with R and ends with Y.
 
 The SQL equivalent is:
 
@@ -684,9 +689,9 @@ WHERE (fName LIKE 'B%' AND lName LIKE 'Y%')
    OR (fName LIKE 'R%' AND lName LIKE 'Y%')
 ```
 
-This code sets the criteria for the personaized selection equal the SelectionForFind.SelectionId. The `SetDynamicSelectionCriteriaGroups[Async]` method returns the criteria groups that was passed in.
+This code sets the criteria for the personalized selection equal the SelectionForFind.SelectionId. The `SetDynamicSelectionCriteriaGroups[Async]` method returns the criteria groups that were passed in.
 
-# [REST](#tab/set-criteria-groups-1)
+### [REST](#tab/set-criteria-groups-1)
 
 ```http
 PUT /api/v1/Selection/24/CriteriaGroups
@@ -833,7 +838,7 @@ Accept: application/json
 
 ```
 
-# [Agent](#tab/set-criteria-groups-2)
+### [Agent](#tab/set-criteria-groups-2)
 
 ```http
 POST /api/v1/Agents/Selection/SetDynamicSelectionCriteriaGroups
@@ -984,7 +989,7 @@ Accept-Language: en
 
 ```
 
-# [WebApi Client](#tab/set-criteria-groups-3)
+### [WebApi Client](#tab/set-criteria-groups-3)
 
 ```csharp
 
@@ -1099,7 +1104,7 @@ The search is performed using the Archive endpoint, which facilitates passing co
 
 The selectionId is these examples is obtained from the SelectionForFind.SelectionId property in previous snippets.
 
-# [REST](#tab/perform-search-1)
+### [REST](#tab/perform-search-1)
 
 ```http
 GET /api/v1/archive/ContactPersonDynamicSelectionV2?$select=firstName,lastName&$filter=selectionId = 34
@@ -1109,7 +1114,7 @@ Accept: application/json
 
 ```
 
-# [RESTful Agent](#tab/perform-search-2)
+### [RESTful Agent](#tab/perform-search-2)
 
 ```http
 POST /api/v1/Agents/Archive/GetArchiveListByColumns
@@ -1147,7 +1152,7 @@ Accept-Language: en
 }
 ```
 
-# [WebClient API ](#tab/perform-search-3)
+### [WebClient API ](#tab/perform-search-3)
 
 ```csharp
 string searchEntity = "person";

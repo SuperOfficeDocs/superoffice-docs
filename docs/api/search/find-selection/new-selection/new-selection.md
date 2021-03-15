@@ -17,7 +17,8 @@ so.client: web                   # online, web, or win
 
 SuperOffice [Find](https://community.superoffice.com/en/customer/news/product/9-2-find-selection/) is a unification of two legacy approaches to search for specific information, the Find dialog and Selections. SuperOffice Find provides new APIs to easily implement the same search capability for integrations. This topic covers the terms and concepts needed to understand how to programmatically work with Find just like in SuperOffice.
 
-> [!NOTE] The API details provided apply to SuperOffice v.9.2 and higher.
+> [!NOTE]
+> The API details provided apply to SuperOffice v.9.2 and higher.
 
 ## Common Terms and Concepts
 
@@ -34,8 +35,8 @@ SuperOffice [Find](https://community.superoffice.com/en/customer/news/product/9-
 | Criterion                 | A standard on which a judgement or decision is based.                                     |
 | Entity                    | Refers to a SuperOffice business object, such as Company, Contact, Document, Project, etc.|
 | MDO List                  | Multi-Department Organization list of related information, such as a list of categories.  |
-| MDO Provider              | Data source that return a list of items. Some lists contain child lists properties.       |
-| Restriction               | Used to specify a condition or filter that affect an archive provider result set.         |
+| MDO Provider              | Data source that returns a list of items. Some lists contain child list properties.       |
+| Restriction               | Used to specify a condition or filter that affects an archive provider result set.         |
 | Shadow Archive Provider   | Alternative data source related to a parent archive provider.                             |
 | Typical Search            | Predefined search to get started with search and selections more easily.                   |
 | User                      | A person with login rights, more specifically the record in the associate table.          |
@@ -44,25 +45,25 @@ SuperOffice [Find](https://community.superoffice.com/en/customer/news/product/9-
 
 The way a search begins today is by clicking the Find option.
 
-![Header Find](../../media/client-header-find.png)
+![Header Find](media/client-header-find.png)
 
-When clicked, then Find panel appears and all of primary business entities are listed on the page. By default, one dynamic selection is created and maintained per user, per entity. When a user selects one of the Find _Entity_ links, SuperOffice retrieves the previously-saved dynamic selection criteria for the selected entity, or loads the default criteria for that entity, and populates the Selection search find panel.
+When clicked, the **Find** panel appears and all of the primary business entities are listed on the page. By default, one dynamic selection is created and maintained per user, per entity. When a user selects one of the Find _Entity_ links, SuperOffice retrieves the previously-saved dynamic selection criteria for the selected entity, or loads the default criteria for that entity, and populates the Selection search find panel.
 
 ### Find Panel
 
-![Find Panel](../../media/selection-find-panel.png)
+![Find Panel](media/selection-find-panel.png)
 
-Alternatively, a pre-defined typical search option is chosen from an entity *Typical searches* drop down menu. When selected, the pre-defined typical search criteria populates the Selection search find panel.
+Alternatively, a pre-defined typical search option is chosen from an entity *Typical searches* drop-down menu. When selected, the pre-defined typical search criteria populates the Selection search find panel.
 
 ### Selection search panel
 
-![Find Panel](../../media/selection-search-panel.png)
+![Find Panel](media/selection-search-panel.png)
 
-Each search is functionality equivalent to a Dynamic Selection. Once the search criteria has be set and saved, the Find becomes a Selection and is available for future reference.
+Each search is functionality equivalent to a Dynamic Selection. Once the search criteria have been set and saved, the Find becomes a Selection and is available for future reference.
 
 The remainder of this article will highlight the key types and methods used to construct, persist and invoke a selection.
 
-There are a couple different ways to create a selection. While you can manually craft a `SelectionEntity`, save it, and then populate the CriteriaGroups, the recommended approach is to use the API's to assembly the require information.
+There are a couple of different ways to create a selection. While you can manually craft a `SelectionEntity`, save it, and then populate the CriteriaGroups, the recommended approach is to use the APIs to assembly the required information.
 
 The recommended process is:
 
@@ -75,12 +76,13 @@ The recommended process is:
 
 ## Get the Find entities
 
-The Find page dynamically displays all entities that support the new Find system. It's recommend you determine which entities are available using the SelectionMemberTypeV2 MDOList provider.
+The Find page dynamically displays all entities that support the new Find system. It's recommended you determine which entities are available using the SelectionMemberTypeV2 MDOList provider.
 
 > [!NOTE]
-> Available entities depend on the current users license.
+> Available entities depend on the current user's license.
 
-# [REST](#tab/find-panel-1)
+### [REST](#tab/find-panel-1)
+
 ```http
 GET /api/v1/MDOList/SelectionMemberTypeV2 HTTP/1.1
 Authorization: Bearer {access_token}
@@ -88,7 +90,8 @@ Content-Type: application/json
 Accept: application/json
 ```
 
-# [Agent](#tab/find-panel-2)
+### [Agent](#tab/find-panel-2)
+
 ```http
 POST /api/v1/Agents/MDO/GetList HTTP/1.1
 Authorization: Bearer {access_token}
@@ -104,7 +107,8 @@ Content-Type: application/json; charset=utf-8
 }
 ```
 
-# [WebApi Client](#tab/find-panel-3)
+### [WebApi Client](#tab/find-panel-3)
+
 ```csharp
 // setup access credentials
 var authorization = new AuthorizationAccessToken("{access_token}", OnlineEnvironment.SOD);
@@ -116,7 +120,8 @@ MDOListItem[] findEntities = await mdoAgent.GetListAsync("selectionmembertypev2"
 ```
 
 ___
-### Results:
+
+### Results
 
 | Id | Name              | Tooltip                   | Deleted | Rank | Type | ChildItems | IconHint | ColorBlock | ExtraInfo | StyleHint | FullName | TableRight | FieldProperties |
 |----|-------------------|---------------------------|---------|------|------|------------|----------|------------|-----------|-----------|----------|------------|-----------------|
@@ -140,9 +145,10 @@ The value of typicalSearchId determines some internal logic.
 
 * -1: Gets the default criteria for the current entity, and the selectionId of the working set is returned along with the providerName.
 * 0: Gets the working set and don’t do anything else.
-*  \>0: Gets a selection with criterias set from the typical search of the given id.
+* \>0: Gets a selection with criterias set from the typical search of the given id.
 
-# [RESTful Agent](#tab/get-archive-provider-1)
+### [RESTful Agent](#tab/get-archive-provider-1)
+
 ```http
 POST https://sod.superoffice.com/Cust26759/api/v1/Agents/Selection/GetSelectionForFind HTTP/1.1
 Authorization: Bearer {{token}}
@@ -155,7 +161,7 @@ Accept: application/json
 }
 ```
 
-# [WebApi Client](#tab/get-archive-provider-2)
+### [WebApi Client](#tab/get-archive-provider-2)
 
 ```csharp
 // setup access credentials
@@ -170,6 +176,7 @@ var typicalSearchId = 0;
 
 SelectionForFind selectionForFind = await selectionAgent.GetSelectionForFind(entityName, typicalSearchId);
 ```
+
 ___
 
 ### SelectionForFind Result
@@ -213,7 +220,8 @@ Simply retrieve the `SelectionForFind` type and use the provider name when creat
 
 ### Get a selection entity
 
-# [REST](#tab/get-selection-entity-1)
+### [REST](#tab/get-selection-entity-1)
+
 ```http
 GET /api/v1/Selection/18 HTTP/1.1
 Authorization: Bearer {access_token}
@@ -221,7 +229,8 @@ Content-Type: application/json
 Accept: application/json
 ```
 
-# [Agent](#tab/get-selection-entity-2)
+### [Agent](#tab/get-selection-entity-2)
+
 ```http
 POST /api/v1/Agents/Selection/GetSelectionEntity?selectionEntityId=18 HTTP/1.1
 Authorization: Bearer {access_token}
@@ -229,7 +238,8 @@ Accept: application/json; charset=utf-8
 Accept-Language: en
 ```
 
-# [WebApi Client](#tab/get-selection-entity-3)
+### [WebApi Client](#tab/get-selection-entity-3)
+
 ```csharp
 // setup access credentials
 var authorization = new AuthorizationAccessToken("{access_token}", OnlineEnvironment.SOD);
@@ -273,8 +283,8 @@ Once you have the SelectionForFind, use the MainArchiveProvider to set the Selec
 | SelectionType     | Defines whether this is a dynamic, static or combined selection.       |
 | VisibleFor        | Define the user or groups with access rights to this selection.        |
 
+## [REST](#tab/create-selection-entity-1)
 
-# [REST](#tab/create-selection-entity-1)
 ```http
 GET /api/v1/Selection/default HTTP/1.1
 Authorization: Bearer {access_token}
@@ -282,7 +292,8 @@ Content-Type: application/json
 Accept: application/json
 ```
 
-# [Agent](#tab/create-selection-entity-2)
+### [Agent](#tab/create-selection-entity-2)
+
 ```http
 POST /api/v1/Agents/Selection/CreateDefaultSelectionEntity HTTP/1.1
 Authorization: Bearer {access_token}
@@ -290,7 +301,8 @@ Accept: application/json; charset=utf-8
 Accept-Language: en
 ```
 
-# [WebApi Client](#tab/create-selection-entity-3)
+### [WebApi Client](#tab/create-selection-entity-3)
+
 ```csharp
 // setup access credentials
 var authorization = new AuthorizationAccessToken("{access_token}", OnlineEnvironment.SOD);
@@ -306,9 +318,10 @@ ___
 
 #### Save the selection entity
 
-Only a subset of selection properties must be set to save a selection. The main properties are the Name, MainProviderName and SelectionCategory.
+Only a subset of selection properties must be set to save a selection. The main properties are the Name, MainProviderName, and SelectionCategory.
 
-# [REST](#tab/save-selection-entity-1)
+### [REST](#tab/save-selection-entity-1)
+
 ```http
 POST /api/v1/Selection HTTP/1.1
 Authorization: Bearer {access_token}
@@ -344,7 +357,8 @@ Accept: application/json
 }
 ```
 
-# [Agent](#tab/save-selection-entity-2)
+### [Agent](#tab/save-selection-entity-2)
+
 ```http
 POST /api/v1/Agents/Selection/SaveSelectionEntity HTTP/1.1
 Authorization: Bearer {access_token}
@@ -380,7 +394,8 @@ Accept-Language: en
 }
 ```
 
-# [WebApi Client](#tab/save-selection-entity-3)
+### [WebApi Client](#tab/save-selection-entity-3)
+
 ```csharp
 // setup access credentials
 var authorization = new AuthorizationAccessToken("{access_token}", OnlineEnvironment.SOD);
@@ -419,7 +434,7 @@ Archive provider columns are the core of selection. Just like a SQL SELECT state
 
 `CriteriaGroups` are an array of `ArchiveRestrictionGroup`, and each group is implicitly joined by an OR operator.
 
-![CriteriaGroup](../../media/selection-criteria-group-conceptual.png)
+![CriteriaGroup](media/selection-criteria-group-conceptual.png)
 
 Take the following SQL, for example:
 
@@ -430,7 +445,7 @@ WHERE (C.name LIKE 'Super%' AND C.business_idx = 2)
    OR (C.name LIKE 'Duper%' AND C.category_idx = 12)
 ```
 
-The first WHERE criteria `(C.name LIKE 'Super%' AND C.business_idx = 2) ` is a criteria group, comprised of two distinct criterion. To build the equivalent into an ArchiveRestrictionGroup, it looks like this:
+The first WHERE criteria `(C.name LIKE 'Super%' AND C.business_idx = 2)` is a criteria group, comprised of two distinct criteria. To build the equivalent into an ArchiveRestrictionGroup, it looks like this:
 
 ```csharp
 var criteriaGroup = new ArchiveRestrictionGroup()
@@ -479,7 +494,7 @@ An array of `ArchiveRestrictionGroup` is referred to as `CriteriaGroups`, and as
 
 As seen in the C# example above, the Name and Rank share the same numerical value, represent the order they appear in SuperOffice. The Name and Rank for the next `ArchiveRestrictionGroup` in the array is 1, and any subsequent group would increment one more than the one before it.
 
-![Selection CriteriaGroups](../../media/selection-criteria-groups-conceptual.png)
+![Selection CriteriaGroups](media/selection-criteria-groups-conceptual.png)
 
 The main points to understand are:
 
@@ -504,7 +519,7 @@ They are obtained using the following format:
 
 ### Get archive columns
 
-# [REST](#tab/get-archive-columns-1)
+### [REST](#tab/get-archive-columns-1)
 
 ```http
 GET /api/v1/MDOList/archiveColumns:ContactPersonDynamicSelectionV2 HTTP/1.1
@@ -514,7 +529,7 @@ Accept: application/json
 
 ```
 
-# [Agent](#tab/get-archive-columns-2)
+### [Agent](#tab/get-archive-columns-2)
 
 ```http
 POST /api/v1/Agents/MDO/GetList HTTP/1.1
@@ -531,7 +546,7 @@ Accept: application/json
 
 ```
 
-# [WebApi Client](#tab/get-archive-columns-3)
+### [WebApi Client](#tab/get-archive-columns-3)
 
 ```csharp
 // setup access credentials
@@ -547,7 +562,7 @@ ___
 
 ### Get archive restriction columns
 
-# [REST](#tab/get-archive-restriction-columns-1)
+### [REST](#tab/get-archive-restriction-columns-1)
 
 ```http
 GET /api/v1/MDOList/archiveRestrictionColumns:ContactPersonDynamicSelectionV2 HTTP/1.1
@@ -557,7 +572,7 @@ Accept: application/json
 
 ```
 
-# [Agent](#tab/get-archive-restriction-columns-2)
+### [Agent](#tab/get-archive-restriction-columns-2)
 
 ```http
 POST /api/v1/Agents/MDO/GetList HTTP/1.1
@@ -574,7 +589,7 @@ Accept: application/json
 
 ```
 
-# [WebApi Client](#tab/get-archive-restriction-columns-3)
+### [WebApi Client](#tab/get-archive-restriction-columns-3)
 
 ```csharp
 // setup access credentials
@@ -590,7 +605,7 @@ ___
 
 ### Get archive entities
 
-# [REST](#tab/get-archive-entities-columns-1)
+### [REST](#tab/get-archive-entities-columns-1)
 
 ```http
 GET /api/v1/MDOList/archiveEntities:ContactPersonDynamicSelectionV2 HTTP/1.1
@@ -600,7 +615,7 @@ Accept: application/json
 
 ```
 
-# [Agent](#tab/get-archive-entities-columns-2)
+### [Agent](#tab/get-archive-entities-columns-2)
 
 ```http
 POST /api/v1/Agents/MDO/GetList HTTP/1.1
@@ -617,7 +632,7 @@ Accept: application/json
 
 ```
 
-# [WebApi Client](#tab/get-archive-entities-columns-3)
+### [WebApi Client](#tab/get-archive-entities-columns-3)
 
 ```csharp
 // setup access credentials
@@ -690,7 +705,7 @@ The following table contains the list of common date and datetime operators.
 | Date            | after, afterToday, before, beforeToday, between, date, from, equals, to, today |
 | DateTime        | dateTime, beforeTime, afterTime                                                |
 
-The Date and DateTime restriction types have had their relative operators changed. Relative operators are those that refer to the current date, and several existing relative operators are considered legacy. 
+The Date and DateTime restriction types have had their relative operators changed. Relative operators are those that refer to the current date, and several existing relative operators are considered legacy.
 
 ### Legacy relative operators
 
@@ -720,15 +735,12 @@ Instead of having period-specific operators, they are now more generic. Each rel
 | 4 | quarters |
 | 5 | years    |
 
-In this way we can express thisAndNext 2 weeks or thisAndPrevious 2 years.
+In this way, we can express thisAndNext 2 weeks or thisAndPrevious 2 years.
 
 > [!NOTE]
-> The old operators still exist within the code and will work; however their use is strongly 
-> discouraged. If saved through the criteria API, they will be converted to the new, equivalent operators > and values.
+> The old operators still exist within the code and will work; however, their use is strongly discouraged. If saved through the criteria API, they will be converted to the new, equivalent operators > and values.
 
-
-
-Some archive columns have changed type from DateTime to Date. The archive grid control displayed both of them as just Date, but we actually need to differentiate and now do so.
+Some archive columns have changed their type from DateTime to Date. The archive grid control displayed both of them as just Date, but we actually need to differentiate and now do so.
 
 There are some new `RestrictionTypes` as well:  
 
@@ -742,9 +754,8 @@ Each of these has operators and value hints in the usual manner, accessible thro
 
 #### Fetching and saving criteria
 
-New Selection introduces the concept of __criteria groups__, where the criteria within each group are connected by AND, and groups are connected by OR. The database layout to support this has been in place for a long time, and was used in an equivalent fashion for Saint Status definitions. There, each criteria group was in a separate tab in the user interface; in the new Filter screen groups are stacked vertically instead.
+New Selection introduces the concept of __criteria groups__, where the criteria within each group are connected by AND, and groups are connected by OR. The database layout to support this has been in place for a long time and was used in an equivalent fashion for Saint Status definitions. There, each criteria group was in a separate tab in the user interface; in the new Filter screen groups are stacked vertically instead.
 
-API’s that only work with a simple `ArchiveRestrictionInfo[]` do not support the concept of multiple groups. Such methods will only return the first group, and on writing will delete any other groups. Examples are `GetDynamicSelectionCriteria` and `SetDynamicSelectionCriteria`; and similar methods in the Find agent. All these methods should be considered obsolete when applied to Selection and Find.
+APIs that only work with a simple `ArchiveRestrictionInfo[]` do not support the concept of multiple groups. Such methods will only return the first group, and on writing will delete any other groups. Examples are `GetDynamicSelectionCriteria` and `SetDynamicSelectionCriteria`; and similar methods in the Find agent. All these methods should be considered obsolete when applied to Selection and Find.
 
 Selection criteria should be fetched and stored using the `GetDynamicSelectionCriteriaGroups` and `SetDynamicSelectionCriteriaGroups` methods on the Selection agent. Using them will retrieve and save all groups, and avoid having to make assumptions about the StorageKey concept used in the Find agent methods. Contrast the differences in the two calls (the ts.Key is a selection id):
-
