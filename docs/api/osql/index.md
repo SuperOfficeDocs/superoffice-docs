@@ -10,7 +10,9 @@ keywords: data-access
 
 SuperOffice introduces its own language to write queries so that it is independent of the underlying database. Therefore with the use of SuperOffice Objectified SQL (OSQL), you can write queries without worrying about the database anymore.
 
-NetServer exposes many layers of its API to do the same functionality. OSQL is the lowest layer of the NetServer API. You can think of it as the SuperOffice Database Interface (SODBIF).
+NetServer exposes many layers of its API to do the same functionality. OSQL is the lowest layer of the NetServer API that provides a programmatic query language for reading and writing data to and from a SuperOffice database. It’s the objectified equivalent to writing database Structured Query Language (SQL) and is the most performing of all NetServer API layers. You can think of it as the SuperOffice Database Interface (SODBIF).
+
+![x][img1]
 
 In the [syntax][1] section, we will be comparing SuperOffice Objectified SQL with SQL while explaining how SuperOffice Objectified SQL is used.
 
@@ -38,3 +40,6 @@ Additional namespaces may be required based on your requirements.
 
 <!-- Referenced links -->
 [1]: and-clause.md
+
+<!-- Referenced images -->
+[img1]: media/intro-osql2.png

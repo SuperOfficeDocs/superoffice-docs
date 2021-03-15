@@ -1,13 +1,10 @@
 ---
-# This basic template provides core metadata fields for Markdown articles on docs.superoffice.com.
-
-# Mandatory fields.
-title: objectified_sql       # (Required) Very important for SEO. Intent in a unique string of 43-59 chars including spaces.
-description: Evolution of NetServer Objectified SQL # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
+title: objectified_sql
+description: Evolution of NetServer Objectified SQL
 author: Tony Yates
 so.date: 09.06.2016
 keywords:
-so.topic:                       # article, howto, reference, concept, guide
+so.topic: concept     # article, howto, reference, concept, guide
 
 # Optional fields. Don't forget to remove # if you need a field.
 # so.envir:                     # cloud or onsite
@@ -16,27 +13,23 @@ so.topic:                       # article, howto, reference, concept, guide
 
 # Evolution of NetServer Objectified SQL
 
-Objectified SQL (OSQL) is the lowest level API in NetServer that provides a programmatic query language for reading and writing data to and from a SuperOffice database. It’s the objectified equivalent to writing database Structured Query Language (SQL) and is the most performing of all NetServer API layers.
+Objectified SQL (OSQL) is the heart of NetServer, intercepting and processing all higher-level data layer APIs, and is responsible for interfacing with various versions of each supported SQL dialect.
 
-![x][img1]
-
-OSQL is the heart of NetServer, intercepting and processing all higher-level data layer APIs, and is responsible for interfacing with various versions of each supported SQL dialect.
-
-## The Early Years
+## The early years
 
 There was a time when OSQL required several lines of verbose coding to execute the simplest query. Take the following example that selects all companies that from the United Kingdom, where the UK country ID is 826).
 
-```sql
+```SQL
 SELECT * FROM Contact
 WHERE country_Id = 826;
 ```
 
 To execute that statement as OSQL required:
 
-1. instantiating a new instance of a Select object
-2. instantiating a new instance of the ContactTableInfo
+1. instantiating a new instance of a `Select` object
+2. instantiating a new instance of the `ContactTableInfo`
 3. adding the return fields
-4. and then establishing the criteria as a Restriction.
+4. and then establishing the criteria as a `Restriction`.
 
 ```csharp
 Select selectStatement = S.NewSelect();
@@ -45,53 +38,53 @@ selectStatement.ReturnFields.Add(contactInfo.All);
 selectStatement.Restriction = contactInfo.CountryId.Equal(S.Parameter(826));
 ```
 
-This code doesn’t event execute the query. To do that require more lines of code that would get the connection, open the connection, set the command, and then execute the reader and read iteratively over any results.
+This code doesn’t even execute the query. To do that requires more lines of code that would get the connection, open the connection, set the command, and then execute the reader and read iteratively over any results.
 
 ```csharp
 using (SoConnection con = ConnectionFactory.GetConnection())
 {
-    con.Open();
-    using (SoCommand cmd = con.CreateCommand())
+  con.Open();
+  using (SoCommand cmd = con.CreateCommand())
+  {
+    cmd.SqlCommand = selectStatement;
+    using (SoDataReader reader = cmd.ExecuteReader())
     {
-        cmd.SqlCommand = selectStatement;
-        using (SoDataReader reader = cmd.ExecuteReader())
-        {
-            while (reader.Read())
-            {
-                int contactId = reader.GetInt32(0);
-                string name = reader.GetString(1);
-                Console.WriteLine(string.Format("{0} {1}", contactId, name));
-            }
-        }
+      while (reader.Read())
+      {
+        int contactId = reader.GetInt32(0);
+        string name = reader.GetString(1);
+        Console.WriteLine(string.Format("{0} {1}", contactId, name));
+      }
     }
+  }
 }
 ```
 
-That is what writing OSQL code life was like before version 3.0. When version 3.0 arrived, it brought with it a nice little helper called the `QueryExecutionEngine`. This new class encapsulated the Connection and Command code above and marginally reduced the required number of lines of code. Instead of requiring the whole Connection and Command orchestration, we could pass in the OSQL Select instance as a parameter into the constructor of the `QueryExecutionEngine`.
+That is what writing OSQL code life was like before version 3.0. **When version 3.0 arrived**, it brought with it a nice little helper called the `QueryExecutionEngine`. This new class encapsulated the Connection and Command code above and marginally reduced the required number of lines of code. Instead of requiring the whole Connection and Command orchestration, we could pass in the OSQL Select instance as a parameter into the constructor of the `QueryExecutionEngine`.
 
 ```csharp
 using (QueryExecutionHelper qeh = new QueryExecutionHelper(selectStatement))
 {
-    while (qeh.Reader.Read())
-    {
-        int contactId = qeh.Reader.GetInt32(contactInfo.ContactId);
-        string name = qeh.Reader.GetString(contactInfo.Name);
-        Console.WriteLine(string.Format("{0} {1}", contactId, name));
-    }
+  while (qeh.Reader.Read())
+  {
+    int contactId = qeh.Reader.GetInt32(contactInfo.ContactId);
+    string name = qeh.Reader.GetString(contactInfo.Name);
+    Console.WriteLine(string.Format("{0} {1}", contactId, name));
+  }
 }
 ```
 
 While this wasn’t a huge win, in terms of reducing code, this was a big win after several years of writing it the old way!
 
-There were additional improvements that came in later versions as well, more related to the Argument and Math functions, but I will save that topic for another article. Let me to focus more instead on recent advancements that will help you write less code for executing OSL Queries today.
+There were additional improvements that came in later versions as well, more related to the Argument and Math functions. Let's focus on recent advancements that will help you write less code for executing OSL Queries today.
 
 ## The recent years
 
-As version 3 turned into version 7, the OSQL API became better and better with more targets queries with the introduction of a generic Select called `TargetedSelect`.
+As version 3 turned into version 7, the OSQL API became better and better with more targeted queries with the introduction of a generic Select called `TargetedSelect`.
 
 ### TargetedSelect
 
-Introducing generics to Select, with the creation of `TargetedSelect<TableInfo>` class, reduced the necessity of getting an instance of the target `TableInfo`. A `TargetedSelect<TableInfo>` instance accepts a TableInfo target argument and exposes all of the table fields via the `TargetedSelect<TableInfo>.Table property`. The following example instantiates a new `TargetedSelect` with the `ContactTableInfo` class as the Generic argument. The rest of the code is the same, but doesn’t have to be. It does get better!
+Introducing generics to Select, with the creation of `TargetedSelect<TableInfo>` class, reduced the necessity of getting an instance of the target `TableInfo`. A `TargetedSelect<TableInfo>` instance accepts a TableInfo target argument and exposes all of the table fields via the `TargetedSelect<TableInfo>.Table property`. The following example instantiates a new `TargetedSelect` with the `ContactTableInfo` class as the Generic argument. The rest of the code is the same but doesn’t have to be. It does get better!
 
 ```csharp
 var selectStatement = S.NewSelect<ContactTableInfo>();
@@ -99,7 +92,7 @@ selectStatement.ReturnFields.Add(selectStatement.Table.All);
 selectStatement.Restriction = contactInfo.CountryId.Equal(S.Parameter(826));
 ```
 
-### Restrictions in TargetedSelect Constructor
+### Restrictions in TargetedSelect constructor
 
 Restrictions are now accepted as a parameter into the `TargetedSelect` constructor directly, eliminating yet another line of code.
 
@@ -110,7 +103,7 @@ selectStatement.ReturnFields.Add(selectStatement.Table.All);
 
 The restrictions can be as complex and elaborate as needed.
 
-### Index Queries
+### Index queries
 
 Index queries, which are popular when querying at the `SuperOffice.CRM.Rows` level APIs, are now accepted as `TargetedSelect` constructor parameters. This comes in two forms:
 
@@ -226,6 +219,3 @@ foreach (var company in queryResults)
 There is a lot of functionality that NetServer OSQL has to support, and sometimes the SuperOffice API adapts to new ways of doing things to help make that job easier. Just as in the early years, OSQL continues to be the fastest way to do that and now provides better time-saving syntactical-sugar to construct and execute your queries.
 
 I hope this has helped you learn more about these interesting techniques and saves you time in constructing your OSQL in the future.
-
-<!-- Referenced images -->
-[img1]: media/intro-osql2.png
