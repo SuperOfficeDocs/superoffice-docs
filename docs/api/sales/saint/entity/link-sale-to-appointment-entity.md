@@ -1,8 +1,7 @@
 ---
-# Mandatory fields.
-title: link_salerow_to_appointment       # (Required) Very important for SEO.
-description: How to link a sale to an appointment using entities # (Required) Important for SEO.
-author: {github-id}             # Your GitHub alias.
+title: link_salerow_to_appointment
+description: How to link a sale to an appointment using entities
+author: {github-id}
 so.date: 05.11.2016
 keywords:
 so.topic: howto            # article, howto, reference, concept, guide

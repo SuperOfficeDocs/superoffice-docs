@@ -1,8 +1,7 @@
 ---
-# Mandatory fields.
-title: link_sale_to_appointment_ws       # (Required) Very important for SEO.
-description: How to link a sale to an appointment using services # (Required) Important for SEO.
-author: {github-id}             # Your GitHub alias.
+title: link_sale_to_appointment_ws
+description: How to link a sale to an appointment using services
+author: {github-id}
 so.date: 06.24.2016
 keywords:
 so.topic: howto            # article, howto, reference, concept, guide

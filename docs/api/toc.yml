@@ -880,23 +880,37 @@ items:
 - name: Sales
   href: sales/index.md
   items:
-  - name: Link sale to appointment entity
-    href: sales/link-sale-to-appointment-entity.md
-  - name: Link sale to appointment services
-    href: sales/link-sale-to-appointment-services.md
+  - name: Stakeholders
+    href: sales/stakeholders.md
   - name: Saint
-    href: sales/saint/change-saint-values-for-company.md
+    href: sales/saint/counters.md
     items:
-    - name: Change saint values for company
-      href: sales/saint/change-saint-values-for-company.md
-    - name: Search saint contactrow customsearch
-      href: sales/saint/search-saint-contactrow-customsearch.md
-    - name: Search saint counter findagent
-      href: sales/saint/search-saint-counter-findagent.md
-    - name: Search saint findcontactprovider
-      href: sales/saint/search-saint-findcontactprovider.md
-    - name: Search saint value archiveagent
-      href: sales/saint/search-saint-value-archiveagent.md
+    - name: Counters
+      href: sales/saint/counters.md
+    - name: Values
+      href: sales/saint/values.md
+    - name: Entity
+      href: sales/saint/entity/link-sale-to-appointment-entity.md
+      items:
+      - name: Link sale to appointment entity
+        href: sales/saint/entity/link-sale-to-appointment-entity.md
+    - name: Row
+      href: sales/saint/row/search-saint-contactrow-customsearch.md
+      items:
+      - name: Search saint contactrow customsearch
+        href: sales/saint/row/search-saint-contactrow-customsearch.md
+    - name: Services
+      href: sales/saint/services/link-sale-to-appointment-services.md
+      items:
+      - name: Link sale to appointment services
+        href: sales/saint/services/link-sale-to-appointment-services.md
+    - name: Sql
+      href: sales/saint/sql/get-contact-by-saint-value-sql.md
+      items:
+      - name: Get contact by saint value sql
+        href: sales/saint/sql/get-contact-by-saint-value-sql.md
+      - name: Search saint values sql
+        href: sales/saint/sql/search-saint-values-sql.md
 - name: Search
   href: search/index.md
   items:

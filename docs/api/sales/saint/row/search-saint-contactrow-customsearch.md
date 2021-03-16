@@ -1,8 +1,7 @@
 ---
-# Mandatory fields.
-title: search_saint_contactrow_customsearch      # (Required) Very important for SEO.
-description: Search for contacts with a given SAINT counter ContactRow.CustomSearch # (Required) Important for SEO.
-author: {github-id}             # Your GitHub alias.
+title: search_saint_contactrow_customsearch
+description: Search for contacts with a given SAINT counter ContactRow.CustomSearch
+author: {github-id}
 so.date: 05.11.2016
 keywords: customsearch
 so.topic: howto            # article, howto, reference, concept, guide
@@ -14,11 +13,11 @@ so.topic: howto            # article, howto, reference, concept, guide
 
 # Search for contacts with a given SAINT counter using ContactRow.CustomSearch
 
-Sales are grouped into different statuses, like open, sold, lost or unknown. In the `countervalue` table, this is represented under the field `sale_status`. Sales are even grouped under different amount classes like small, medium, large, and extra large.
+Sales are grouped into different statuses, like open, sold, lost or unknown. In the `countervalue` table, this is represented under the field `sale_status`. Sales are even grouped under different amount classes like small, medium, large, and extra-large.
 
 We might need to retrieve a list of companies with more than 2 successful sales. In this situation we do not want to restrict the amount-class, so we may specify the `amountclassid =0`.
 
-In the following example we will explain how this is done.
+In the following example, we will explain how this is done.
 
 ## Code
 
