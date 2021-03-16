@@ -7,7 +7,6 @@ sortOrder: 517
 keywords: clear()
 ---
 
+# Void clear()
 
-Clears all the contents of the menu.
-
-
+Empties the main menu. Useful if you want to build your menu from scratch.

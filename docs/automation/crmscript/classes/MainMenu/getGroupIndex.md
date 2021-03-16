@@ -7,7 +7,14 @@ sortOrder: 504
 keywords: getGroupIndex(String)
 ---
 
+# Integer getGroupIndex(String)
 
-Returns the index (starting at zero) of the group with the given group-id.
+Returns the position of a specific group in the main menu given its label (ID)
 
+```crmscript
+MainMenu menu = getMainMenu();
+Integer pos = menu.getGroupIndex("my MITs");
+```
 
+> [!TIP]
+> Remember that the index starts at 0.

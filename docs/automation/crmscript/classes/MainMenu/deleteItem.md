@@ -8,6 +8,8 @@ keywords: deleteItem(Integer,Integer)
 ---
 
 
-Delets the given item from the given group. Both indexes starts at 0.
+### Void deleteItem(Integer group, Integer index)
 
+Removes the item at the given index from the group.
 
+Both indexes start at 0.

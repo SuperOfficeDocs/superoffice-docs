@@ -8,6 +8,11 @@ keywords: getNumGroups()
 ---
 
 
-* **Returns:** The number of groups in the menu
+# Integer getNumGroups()
 
+Returns the current number of groups in the main menu.
 
+```crmscript
+MainMenu menu = getMainMenu();
+Integer nGroups = menu.getNumGroups();
+```

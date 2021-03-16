@@ -7,8 +7,11 @@ sortOrder: 507
 keywords: getNumItems(Integer)
 ---
 
+# Integer getNumItems(Integer group)
 
-* **p\_group:** The group
-* **Returns:** The number of items in the group indicated by p\_group
+Returns the current number of items in the group.
 
-
+```crmscript
+MainMenu menu = getMainMenu();
+Integer nItems = menu.getNumItems(2);
+```

@@ -7,7 +7,11 @@ sortOrder: 509
 keywords: getItemId(Integer,Integer)
 ---
 
+# String getItemId(Integer group, Integer pos)
 
-This function will return the item id for the given group index and item index.
+Returns the label (ID) of an item in a group given its position.
 
-
+```crmscript
+MainMenu menu = getMainMenu();
+String label = menu.getItemId(4,1);
+```

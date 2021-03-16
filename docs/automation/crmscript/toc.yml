@@ -1,20 +1,4 @@
 items:
-- name: Crmscript archiveagent
-  href: netserver/crmscript-archiveagent.md
-- name: Crmscript usage
-  href: overview/crmscript-usage.md
-- name: Domain
-  href: overview/domain.md
-- name: Envir and tools
-  href: overview/envir-and-tools.md
-- name: Getting started
-  href: overview/getting-started.md
-- name: Localization
-  href: overview/localization.md
-- name: Ns agents and carriers
-  href: netserver/ns-agents-and-carriers.md
-- name: What is crmscript
-  href: overview/what-is-crmscript.md
 - name: Classes
   href: classes/index.md
   items:
@@ -388,10 +372,8 @@ items:
     - name: SetValue
       href: classes/Email/setValue.md
   - name: EventData
-    href: classes/EventData/EventData.md
+    href: classes/EventData/getBlockExecution.md
     items:
-    - name: EventData
-      href: classes/EventData/EventData.md
     - name: GetBlockExecution
       href: classes/EventData/getBlockExecution.md
     - name: GetInputValue
@@ -635,8 +617,6 @@ items:
       href: classes/HtmlElement/getTabIndexString-3300.md
     - name: GetTypeName
       href: classes/HtmlElement/getTypeName.md
-    - name: HtmlElement
-      href: classes/HtmlElement/HtmlElement.md
     - name: IsEmpty
       href: classes/HtmlElement/isEmpty.md
     - name: SetDisabled
@@ -922,8 +902,6 @@ items:
       href: classes/MainMenu/getNumGroups.md
     - name: GetNumItems
       href: classes/MainMenu/getNumItems.md
-    - name: MainMenu
-      href: classes/MainMenu/MainMenu.md
   - name: Map
     href: classes/Map/clear.md
     items:
@@ -1042,8 +1020,6 @@ items:
       href: classes/NSAAAMockAgent/DoNada.md
     - name: EnumInput
       href: classes/NSAAAMockAgent/EnumInput.md
-    - name: GetAAATestClassForModeling
-      href: classes/NSAAAMockAgent/GetAAATestClassForModeling.md
     - name: GetArrayOfBytes
       href: classes/NSAAAMockAgent/GetArrayOfBytes.md
     - name: GetArrayOfDoubles
@@ -1072,6 +1048,8 @@ items:
       href: classes/NSAAAMockAgent/GetSomeId.md
     - name: GetString
       href: classes/NSAAAMockAgent/GetString.md
+    - name: GetAAATestClassForModeling
+      href: classes/NSAAAMockAgent/GetAAATestClassForModeling.md
     - name: InputId
       href: classes/NSAAAMockAgent/InputId.md
     - name: IntInput
@@ -19186,6 +19164,28 @@ items:
     href: global-functions/XMLNode.md
   - name: XMLNode 2460
     href: global-functions/XMLNode-2460.md
+- name: Netserver
+  href: netserver/crmscript-archiveagent.md
+  items:
+  - name: Crmscript archiveagent
+    href: netserver/crmscript-archiveagent.md
+  - name: Ns agents and carriers
+    href: netserver/ns-agents-and-carriers.md
+- name: Overview
+  href: overview/crmscript-usage.md
+  items:
+  - name: Crmscript usage
+    href: overview/crmscript-usage.md
+  - name: Domain
+    href: overview/domain.md
+  - name: Envir and tools
+    href: overview/envir-and-tools.md
+  - name: Getting started
+    href: overview/getting-started.md
+  - name: Localization
+    href: overview/localization.md
+  - name: What is crmscript
+    href: overview/what-is-crmscript.md
 - name: Parser and templates
   href: parser-and-templates/index.md
   items:

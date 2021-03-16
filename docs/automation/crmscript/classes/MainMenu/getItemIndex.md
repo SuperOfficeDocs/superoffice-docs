@@ -7,7 +7,14 @@ sortOrder: 505
 keywords: getItemIndex(Integer,String)
 ---
 
+# Integer getItemIndex(Integer group, String label)
 
-Returns the index of the item with the given item-id in the group of the given index.
+Returns the position of a specific item in the group given its label (ID)
 
+```crmscript
+MainMenu menu = getMainMenu();
+Integer pos = menu.getItemIndex(2,"secret company");
+```
 
+> [!TIP]
+> Remember that the index starts at 0.

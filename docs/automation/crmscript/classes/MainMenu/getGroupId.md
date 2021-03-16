@@ -7,7 +7,11 @@ sortOrder: 508
 keywords: getGroupId(Integer)
 ---
 
+# String getGroupId(Integer group)
 
-This function will return the group id of group with index n. The group ids are unique strings .
+Returns the label (ID) of a group in the main menu given its position. The IDs are unique strings.
 
-
+```crmscript
+MainMenu menu = getMainMenu();
+String label = menu.getGroupId(4);
+``
