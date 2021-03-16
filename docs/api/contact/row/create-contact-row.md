@@ -14,7 +14,7 @@ so.topic: howto            # article, howto, reference, concept, guide
 
 # Create a contact row
 
-A `ContactRow` refers to a row in the `contact` database table. Therefore, it consists of basic data types supported by SQL. To create a `ContactRow` we use the `SuperOffice.CRM.Rows` namespace.
+To create a `ContactRow` we use the `SuperOffice.CRM.Rows` namespace.
 
 The following example shows how we make create a contact using the `ContactRow` class.
 

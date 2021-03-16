@@ -1,7 +1,6 @@
 ---
-# Mandatory fields.
-title: list_contact_interests_entity       # (Required) Very important for SEO.
-description: How to list all selected interests for a contact using entities # (Required) Important for SEO.
+title: list_contact_interests_entity
+description: How to list all selected interests for a contact using entities
 author: {github-id}             # Your GitHub alias.
 so.date: 05.11.2016
 keywords: interest

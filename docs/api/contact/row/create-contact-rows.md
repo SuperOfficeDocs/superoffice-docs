@@ -14,9 +14,7 @@ so.topic: howto            # article, howto, reference, concept, guide
 
 # Create a contact through row collection (Rows)
 
-`Rows` type consists of a collection of rows such as `ContactRows` type consists of a collection of `ContactRow` types.
-
-Therefore, it is possible to create a `ContactRow` with the `ContactRows` class.
+Because the `Rows` type consists of a collection of `Row` objects, it is possible to create a `ContactRow` with the `ContactRows` class.
 
 ## Code
 
@@ -24,10 +22,10 @@ Therefore, it is possible to create a `ContactRow` with the `ContactRows` class.
 
 ## Walk-through
 
-The first step is to instantiate the `ContactRows` class using the `CreateNew` method.
+1. Instantiate the `ContactRows` class using the `CreateNew` method.
 
-The next step is to instantiate a `ContactRow` class and assign the necessary values to it. The instance can then be added to the collection with the execution of the `Add` method.
+2. Instantiate a `ContactRow` class and assign the necessary values to it. The instance can then be added to the collection with the execution of the `Add` method.
 
-Finally, the contact is saved:
+3. Save the contact:
 
-[!code-csharp[CS](includes/create-contact-rows.cs?range=14,16)]
+    [!code-csharp[CS](includes/create-contact-rows.cs?range=14,16)]

@@ -29,5 +29,3 @@ Then we have set values to properties of complex data types such as `EntityEleme
 Finally, the newly created contact entity is saved to the database using the `SaveContactEntity` method of the agent. With this, a new record will be added to the contact table in the database with its fields set to values that have been assigned.
 
 The entity is returned with the allocated ID filled in.
-
-<!-- Referenced links -->

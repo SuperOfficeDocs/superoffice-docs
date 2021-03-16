@@ -1,8 +1,7 @@
 ---
-# Mandatory fields.
-title: create_contact_entity_in_collection       # (Required) Very important for SEO.
-description: Create a Contact entity through an entity collection  # (Required) Important for SEO.
-author: {github-id}             # Your GitHub alias.
+title: create_contact_entity_in_collection
+description: Create a Contact entity through an entity collection
+author: {github-id}
 so.date: 05.11.2016
 keywords: entity,collection
 so.topic: howto            # article, howto, reference, concept, guide

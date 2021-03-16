@@ -1,9 +1,8 @@
 ---
-# Mandatory fields.
-title: toggle_contact_interest_ws       # (Required) Very important for SEO.
-description: How to set an interest on or off for a contact using services # (Required) Important for SEO.
-author: {github-id}             # Your GitHub alias.
-so.date: 06-24.2016
+title: toggle_contact_interest_ws
+description: How to set an interest on or off for a contact using services
+author: {github-id}
+so.date: 06.24.2016
 keywords: interest
 so.topic: howto            # article, howto, reference, concept, guide
 

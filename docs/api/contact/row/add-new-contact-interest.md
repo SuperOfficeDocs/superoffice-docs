@@ -14,9 +14,7 @@ so.topic: howto            # article, howto, reference, concept, guide
 
 # How to add a new contact interest
 
-You can extend the list of interests for a contact by creating and adding a new interest to that list. Here, we use the `SuperOffice.CRM.Rows` namespace.
-
-When adding a new contact interest, new rows should be added to multiple tables such as `ContInt`, `ContactInterest`, `ConIntGroupLink`, and the `ContIntHeadingLink` table.
+When adding a new contact interest, new rows should be added to multiple tables such as `ContInt`, `ContactInterest`, `ConIntGroupLink`, and the `ContIntHeadingLink` table. Here, we use the `SuperOffice.CRM.Rows` namespace.
 
 > [!NOTE]
 > This is not the same as setting an existing interest on.
@@ -35,7 +33,7 @@ Next, we create a `ContactInterestRow` and assign the ID of the earlier created 
 
 ### ContIntGroupLinkRow
 
-Next, we need to create a `ContIntGroupLinkRow`. Here we assign the group ID of the currently logged in associate. But if you wish to add multiple groups for which the contact interest will be visible, the following code segment may be useful.
+Next, we need to create a `ContIntGroupLinkRow`. Here we assign the group ID of the currently logged-in associate. But if you wish to add multiple groups for which the contact interest will be visible, the following code segment may be useful.
 
 ```csharp
 int[] groupIds = { 2, 3, 4, 5, 6 };
@@ -54,7 +52,7 @@ foreach (int groupId in groupIds)
 
 Finally, we need to create a `ContIntHeadingLinkRow`. This is necessary because the `ContInt` is defined as a sub-item, we would need to create a heading that it should fall under.
 
-This is done calling `CreateNew()`in the `ContIntHeadingLinkRow` class and assigning values to its properties.
+This is done by calling `CreateNew()`in the `ContIntHeadingLinkRow` class and assigning values to its properties.
 
 ## Result
 

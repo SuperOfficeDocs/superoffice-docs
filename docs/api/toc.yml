@@ -44,6 +44,8 @@ items:
   items:
   - name: Downloads
     href: assets/downloads.md
+  - name: Download
+    href: assets/download/CreateARecurringAppointment.zip
 - name: Authentication
   href: authentication/active-directory.md
   items:
@@ -160,49 +162,63 @@ items:
 - name: Contact
   href: contact/index.md
   items:
-  - name: Create
-    href: contact/create/create-contact-entity-in-collection.md
+  - name: Interests
+    href: contact/interests.md
+  - name: Entity
+    href: contact/entity/create-contact-entity-in-collection.md
     items:
     - name: Create contact entity
-      href: contact/create/create-contact-entity.md
+      href: contact/entity/create-contact-entity.md
     - name: Create contact entity in collection
-      href: contact/create/create-contact-entity-in-collection.md
+      href: contact/entity/create-contact-entity-in-collection.md
     - name: Create contact entity in entity
-      href: contact/create/create-contact-entity-in-entity.md
-    - name: Create contact osql
-      href: contact/create/create-contact-osql.md
-    - name: Create contact rest
-      href: contact/create/create-contact-rest.md
-    - name: Create contact row
-      href: contact/create/create-contact-row.md
-    - name: Create contact rows
-      href: contact/create/create-contact-rows.md
-    - name: Create contact services
-      href: contact/create/create-contact-services.md
-    - name: Create contact webapi agents
-      href: contact/create/create-contact-webapi-agents.md
-  - name: Get
-    href: contact/get/get-all-contacts-rest.md
-    items:
-    - name: Get all contacts rest
-      href: contact/get/get-all-contacts-rest.md
+      href: contact/entity/create-contact-entity-in-entity.md
     - name: Get contact via entities layer
-      href: contact/get/get-contact-via-entities-layer.md
-    - name: Get contact via services layer
-      href: contact/get/get-contact-via-services-layer.md
-  - name: Interests
-    href: contact/interests/add-new-contact-interest.md
+      href: contact/entity/get-contact-via-entities-layer.md
+    - name: Get interests for contact entity
+      href: contact/entity/get-interests-for-contact-entity.md
+    - name: Set interest on off entity
+      href: contact/entity/set-interest-on-off-entity.md
+  - name: Osql
+    href: contact/osql/create-contact-osql.md
+    items:
+    - name: Create contact osql
+      href: contact/osql/create-contact-osql.md
+  - name: Row
+    href: contact/row/add-new-contact-interest.md
     items:
     - name: Add new contact interest
-      href: contact/interests/add-new-contact-interest.md
-    - name: List interests for contact entity
-      href: contact/interests/list-interests-for-contact-entity.md
+      href: contact/row/add-new-contact-interest.md
+    - name: Create contact row
+      href: contact/row/create-contact-row.md
+    - name: Create contact rows
+      href: contact/row/create-contact-rows.md
+  - name: Services
+    href: contact/services/create-contact-rest.md
+    items:
+    - name: Create contact rest
+      href: contact/services/create-contact-rest.md
+    - name: Create contact services
+      href: contact/services/create-contact-services.md
+    - name: Create contact webapi agents
+      href: contact/services/create-contact-webapi-agents.md
+    - name: Get all contacts rest
+      href: contact/services/get-all-contacts-rest.md
+    - name: Get contact via services layer
+      href: contact/services/get-contact-via-services-layer.md
     - name: List interests for contact services
-      href: contact/interests/list-interests-for-contact-services.md
-    - name: Set interest on off entity
-      href: contact/interests/set-interest-on-off-entity.md
+      href: contact/services/list-interests-for-contact-services.md
     - name: Set interest on off services
-      href: contact/interests/set-interest-on-off-services.md
+      href: contact/services/set-interest-on-off-services.md
+  - name: Sql
+    href: contact/sql/create-contact-sql.md
+    items:
+    - name: Create contact sql
+      href: contact/sql/create-contact-sql.md
+    - name: Get contact details sql
+      href: contact/sql/get-contact-details-sql.md
+    - name: Get interests sql
+      href: contact/sql/get-interests-sql.md
 - name: Custom fields
   href: custom-fields/find-contact-by-udef.md
   items:

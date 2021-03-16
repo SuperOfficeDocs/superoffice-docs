@@ -12,7 +12,7 @@ so.topic: howto            # article, howto, reference, concept, guide
 # so.client:                    # online, web, win, pocket, or mobile
 ---
 
-# Get a contact through services layer
+# Get a contact through the services layer
 
 This is an alternative to retrieving a `Contact` entity [through the entities layer][1].
 
@@ -37,4 +37,4 @@ using(SoSession mySession = SoSession.Authenticate("SAL0", ""))
 First, you need to create a `ContactAgent`. Then we can retrieve a `Contact` entity carrier by passing the `Contact_id` to the `GetContact` method. At this moment, all the properties of this particular contact will be passed to memory from the database. Now you can access all the properties of this contact via this newly created `Contact` carrier.
 
 <!-- Referenced links -->
-[1]: get-contact-via-entities-layer.md
+[1]: ../entity/get-contact-via-entities-layer.md

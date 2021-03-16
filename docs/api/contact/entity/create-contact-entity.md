@@ -1,8 +1,7 @@
 ---
-# Mandatory fields.
-title: create_contact_entity       # (Required) Very important for SEO.
-description: Create a contact entity  # (Required) Important for SEO.
-author: {github-id}             # Your GitHub alias.
+title: create_contact_entity
+description: Create a contact entity
+author: {github-id}
 so.date: 05.11.2016
 keywords: entity
 so.topic: howto            # article, howto, reference, concept, guide

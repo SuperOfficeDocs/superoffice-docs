@@ -149,7 +149,7 @@ See also: WebAPI [Agents API][1]
 
 <!-- Referenced links -->
 [1]: ../agents/index.md
-[2]: ../../contact/create/create-contact-rest.md
+[2]: ../../contact/services/create-contact-rest.md
 [3]: ../../lists/category/add-catlist-item-rest.md
 [4]: ../../documents/rest/add-document-template.md
 [5]: ../../documents/rest/generate-document.md
