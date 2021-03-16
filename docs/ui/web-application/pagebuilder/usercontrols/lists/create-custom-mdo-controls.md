@@ -149,7 +149,7 @@ The main point to take away from this tutorial is that you can extend and use th
 Thanks to Arild Eik at Intero for providing useful input for this tutorial!
 
 <!-- Referenced links -->
-[1]: ../../datahandlers/tutorial.md
+[1]: ../../../tutorials/datahandlers.md
 
 <!-- Referenced images -->
 [img1]: media/image003.jpg

@@ -41,8 +41,8 @@ Nearly all customizations involve changing at least one of the configuration fil
 
 <!-- Referenced links -->
 [1]: ../../pagebuilder/config/index.md
-[2]: ../../pagebuilder/usercontrols/tutorial-1.md
-[3]: ../../pagebuilder/datahandlers/tutorial.md
+[2]: ../tutorial-1.md
+[3]: ../datahandlers.md
 [4]: ../../pagebuilder/usercontrols/lists/create-custom-mdo-controls.md
 [5]: ../../pagebuilder/usercontrols/archives/create-custom-archive-control.md
 [6]: custom-ajax-methods.md

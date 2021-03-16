@@ -39,7 +39,7 @@ That `contact_id` and `person_id` have changed tells the SuperState to check for
 The PageBuilder on the other hand works with SuperState to render a given page. When the SoProtocol says what it wants to show on a given page, the SuperState will gather necessary page config data and the data that needs to be shown on the page. PageBuilder will format the page according to the config data of the page and render the page along with its data.
 
 <!-- Referenced links -->
-[1]: ../framework/soprotocol.md
-[1]: ../framework/index.md
+[1]: soprotocol.md
+[2]: ../index.md
 
 <!-- Referenced images -->

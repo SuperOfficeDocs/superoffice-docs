@@ -184,8 +184,8 @@ In this tutorial, we have seen how to set up our own data handler for a page and
 We have seen how data is passed from a custom user control to the custom data handler, and how we can extend the Save functionality of a page.
 |
 <!-- Referenced links -->
-[1]: ../usercontrols/tutorial-1.md
+[1]: tutorial-1.md
 
 <!-- Referenced images -->
-[img1]: media/image004.jpg
-[img1]: media/image005.jpg
+[img1]: media/image017.jpg
+[img1]: media/image018.jpg

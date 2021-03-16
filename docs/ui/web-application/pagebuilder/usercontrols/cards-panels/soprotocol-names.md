@@ -55,6 +55,6 @@ SuperOffice uses the *SoUdefConfiuration.config* file to determine which set of 
 [!code-xml[xml](includes/soudefconfiuration.xml)]
 
 <!-- Referenced links -->
-[1]: ../../../soprotocol/index.md
+[1]: ../../../../soprotocol/index.md
 
 <!-- Referenced images -->

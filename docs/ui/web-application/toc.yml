@@ -19,20 +19,20 @@
     - name: How to debug
       href: getting-started/debug.md
   - name: Customization
-    href: customize/index.md
+    href: tutorials/customize/index.md
     items:
     - name: Add label
-      href: customize/add-label.md
+      href: tutorials/customize/add-label.md
     - name: Add textbox
-      href: customize/add-textbox.md
+      href: tutorials/customize/add-textbox.md
     - name: Add custom control
-      href: customize/add-custom-control.md
+      href: tutorials/customize/add-custom-control.md
     - name: Using triggers
-      href: customize/triggers.md
+      href: tutorials/customize/triggers.md
     - name: Custom AJAX methods
-      href: customize/custom-ajax-methods.md
+      href: tutorials/customize/custom-ajax-methods.md
     - name: Customization and deployment
-      href: customize/cust-and-deploy.md
+      href: tutorials/customize/cust-and-deploy.md
   - name: What's new
     href: whats-new/index.md
     items:

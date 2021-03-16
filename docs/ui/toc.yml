@@ -271,8 +271,6 @@ items:
       items:
       - name: Add custom datahandler
         href: web-application/pagebuilder/datahandlers/add-custom-datahandler.md
-      - name: Tutorial
-        href: web-application/pagebuilder/datahandlers/tutorial.md
       - name: Use builtin datahandler
         href: web-application/pagebuilder/datahandlers/use-builtin-datahandler.md
     - name: Superstate
@@ -348,8 +346,10 @@ items:
         - name: Create custom mdo controls
           href: web-application/pagebuilder/usercontrols/lists/create-custom-mdo-controls.md
   - name: Tutorials
-    href: web-application/tutorials/tutorial-1.md
+    href: web-application/tutorials/datahandlers.md
     items:
+    - name: Datahandlers
+      href: web-application/tutorials/datahandlers.md
     - name: Tutorial 1
       href: web-application/tutorials/tutorial-1.md
     - name: Tutorial 2
@@ -360,10 +360,6 @@ items:
       href: web-application/tutorials/tutorial-aspnet-vs-so-controls.md
     - name: Tutorial custom page std controls
       href: web-application/tutorials/tutorial-custom-page-std-controls.md
-    - name: Validate fields
-      href: web-application/tutorials/validate-fields.md
-    - name: Validation
-      href: web-application/tutorials/validation.md
     - name: Customize
       href: web-application/tutorials/customize/add-custom-control.md
       items:
@@ -379,6 +375,13 @@ items:
         href: web-application/tutorials/customize/custom-ajax-methods.md
       - name: Triggers
         href: web-application/tutorials/customize/triggers.md
+    - name: Validation
+      href: web-application/tutorials/validation/validate-fields.md
+      items:
+      - name: Validate fields
+        href: web-application/tutorials/validation/validate-fields.md
+      - name: Validation
+        href: web-application/tutorials/validation/validation.md
   - name: Whats new
     href: web-application/whats-new/in-80.md
     items:
