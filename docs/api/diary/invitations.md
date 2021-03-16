@@ -2,13 +2,13 @@
 title: invitations       
 description: Invitations
 author: {github-id}             # Your GitHub alias.
-keywords:
+keywords: diary
 so.topic: concept
 ---
 
 # Invitations
 
-When two appointments have a shared text record and different status values it can be called an invitation.
+When 2 appointments have a shared text record and different status values it can be called an invitation.
 
 Invitations are **created** when calling meetings or other arrangements between different members of a company.
 

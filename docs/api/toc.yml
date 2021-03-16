@@ -239,44 +239,61 @@ items:
   - name: Using udefhelper
     href: custom-fields/using-udefhelper.md
 - name: Diary
-  href: diary/create-apt-entity-in-collection.md
+  href: diary/index.md
   items:
-  - name: Create apt entity
-    href: diary/create-apt-entity.md
-  - name: Create apt entity in collection
-    href: diary/create-apt-entity-in-collection.md
-  - name: Create apt entity in entity
-    href: diary/create-apt-entity-in-entity.md
-  - name: Create apt osql
-    href: diary/create-apt-osql.md
-  - name: Create apt row
-    href: diary/create-apt-row.md
-  - name: Create apt rows
-    href: diary/create-apt-rows.md
-  - name: Create apt services
-    href: diary/create-apt-services.md
   - name: Invitations
-    href: diary/invitations/accept-invitation-entity.md
+    href: diary/invitations.md
+  - name: Recurring appointments
+    href: diary/recurring-appointments.md
+  - name: Entity
+    href: diary/entity/accept-invitation-entity.md
     items:
     - name: Accept invitation entity
-      href: diary/invitations/accept-invitation-entity.md
-    - name: Accept invitation services
-      href: diary/invitations/accept-invitation-services.md
+      href: diary/entity/accept-invitation-entity.md
+    - name: Create apt entity
+      href: diary/entity/create-apt-entity.md
+    - name: Create apt entity in collection
+      href: diary/entity/create-apt-entity-in-collection.md
+    - name: Create apt entity in entity
+      href: diary/entity/create-apt-entity-in-entity.md
     - name: Create invitation entity
-      href: diary/invitations/create-invitation-entity.md
-    - name: Create invitation services
-      href: diary/invitations/create-invitation-services.md
-    - name: Get invitations services
-      href: diary/invitations/get-invitations-services.md
-    - name: Invitation archive
-      href: diary/invitations/invitation-archive.md
-  - name: Recurrence
-    href: diary/recurrence/create-recurring-appointment-entity.md
-    items:
+      href: diary/entity/create-invitation-entity.md
     - name: Create recurring appointment entity
-      href: diary/recurrence/create-recurring-appointment-entity.md
+      href: diary/entity/create-recurring-appointment-entity.md
+  - name: Osql
+    href: diary/osql/create-apt-osql.md
+    items:
+    - name: Create apt osql
+      href: diary/osql/create-apt-osql.md
+  - name: Row
+    href: diary/row/create-apt-row.md
+    items:
+    - name: Create apt row
+      href: diary/row/create-apt-row.md
+    - name: Create apt rows
+      href: diary/row/create-apt-rows.md
+  - name: Services
+    href: diary/services/accept-invitation-services.md
+    items:
+    - name: Accept invitation services
+      href: diary/services/accept-invitation-services.md
+    - name: Create apt services
+      href: diary/services/create-apt-services.md
+    - name: Create invitation services
+      href: diary/services/create-invitation-services.md
     - name: Create recurring appointment services
-      href: diary/recurrence/create-recurring-appointment-services.md
+      href: diary/services/create-recurring-appointment-services.md
+    - name: Get invitations services
+      href: diary/services/get-invitations-services.md
+  - name: Sql
+    href: diary/sql/accept-invitation-sql.md
+    items:
+    - name: Accept invitation sql
+      href: diary/sql/accept-invitation-sql.md
+    - name: Create apt sql
+      href: diary/sql/create-apt-sql.md
+    - name: Create invitation sql
+      href: diary/sql/create-invitation-sql.md
 - name: Documents
   href: documents/index.md
   items:

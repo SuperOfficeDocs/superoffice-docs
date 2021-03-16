@@ -39,5 +39,5 @@ Once the required values to the properties of the `Appointment` entity have been
 [!code-csharp[CS](includes/create-apt-entity.cs?range=28)]
 
 <!-- Referenced links -->
-[1]: ../entities/index.md
-[2]: ../entities/create-entity.md
+[1]: ../../entities/index.md
+[2]: ../../entities/create-entity.md

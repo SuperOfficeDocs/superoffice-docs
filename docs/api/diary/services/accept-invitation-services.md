@@ -40,7 +40,7 @@ StateZeroDatabase       [D:04/28/2007]    [D:04/28/2007]    [I:172]
 StateZeroDatabase       [D:06/14/2007]    [D:06/14/2007]    [I:161
 ```
 
-The reason that the details of invitation with `appointmentId` 150 is not shown (like it did when we [listed it][1]), is that once the invitation has been accepted it becomes a normal appointment without the invitation status set and it can no longer be retrieved by using the `InvitationProvider`.
+The reason that the details of an invitation with `appointmentId` 150 is not shown (like it did when we [listed it][1]), is that once the invitation has been accepted it becomes a normal appointment without the invitation status set and it can no longer be retrieved by using the `InvitationProvider`.
 
 <!-- Referenced links -->
 [1]: get-invitations-services.md
