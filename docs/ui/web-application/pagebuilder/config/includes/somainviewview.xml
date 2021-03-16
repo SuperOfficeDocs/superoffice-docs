@@ -1,0 +1,29 @@
+<panel id="Contact" type="SplitterPanel" soprotocol="Contact" paneltype="Main">
+  <cards>
+    <card id="ContactMainCard" type="SoTabbedCard" placeholderid="leftpanel" cardtype="MainCard" layout-position="center">
+      <views>
+        <view id="MainView" reference="MainView" current="contact" rendermode="display"></view>
+        <view id="more" type="SoView" soprotocol="udef" current="contact" rendermode="display" minwidth="##MAINCARD.MINWIDTH##">
+          ...
+          <controlgroups>
+            <controlgroup id="MoreMainHeaderGroup" referenceWithIdUpdate="MainHeaderGroup"/>
+            <controlgroup id="MoreButtonBar" referenceWithIdUpdate="ContactButtonBar"/>
+          </controlgroups>
+          ...
+        </view>
+        <view id="interests" type="SoView" soprotocol="interest" current="contact" rendermode="display" minwidth="##MAINCARD.MINWIDTH##">
+          <caption binding="resources">[SR_PL_INTERESTS_1]</caption>
+          <controlgroups>
+            <controlgroup id="InterestMainHeaderGroup" referenceWithIdUpdate="MainHeaderGroup"/>
+            <controlgroup id="InterestButtonBar" referenceWithIdUpdate="ContactButtonBar"/>
+          </controlgroups>
+        </view>
+      </views>
+      ...
+    </card>
+    <!-- prefkey="MiniPanel": Need to explicitly mark the minipanel card, because settings are stored differently in database -->
+    <card id="ContactMiniCard" reference="MiniCard"></card>
+    ...
+  </cards>
+...
+</panel>

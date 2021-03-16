@@ -1,0 +1,56 @@
+
+<?xml version="1.0" encoding="utf-8"?>
+<panel id="Contact" type="SplitterPanel" soprotocol="Contact" paneltype="Main" placeholderid="MainPlaceHolder">
+  <caption>[SR_COMMON_CONTACT]: [current:contact_name]</caption>
+  <cards>
+    <!-- some other code for another card-->
+    <!-- some other code for another card-->
+    <card id="ContactArchives" placeholderid="bottom" type="SoTabbedCard" cardtype="ArchiveCard">
+      <views>
+        <!-- some other code for another view-->
+        <!-- some other code for another view-->
+        <!-- some other code for another view-->
+        <!-- some other code for another view-->
+        <!-- My View Start-->
+        <view id="test1" type="SoView" soprotocol="udef1" >
+          <caption>My View</caption>
+          <tooltip>More...</tooltip>
+          <controlgroups>
+            <controlgroup id="moreHeadergrouptest1" type="SoControlGroup" position="absolute" top="5px" left="5px" right="20px" overflow="auto">
+              <controls>
+                <control id="ContactMoreHeaderControltest1" type="SoLabel">
+                  <caption>[SR_COMPANY_NAME]</caption>
+                  <config>
+                  </config>
+                </control>
+                <control id="ContactMoreHeaderControltest2" type="SoTextBox" width="50px" position="absolute" top="35px" left="5px" right="20px">
+                  <datasource>ContactEntityDataHandler.ContactEntity.Name                     </datasource>
+                </control>
+              </controls>
+            </controlgroup>
+          </controlgroups>
+          <config>
+            <dogear binding="preferences">Functions,DisableContactDogEar</dogear>
+          </config>
+          <triggers>
+            <trigger type="current">contact</trigger>
+          </triggers>
+        </view>
+        <!-- My View End-->
+      </views>
+      <config>
+        <only-visible-views>true</only-visible-views>
+      </config>
+    </card>
+  </cards>
+  <config>
+    <panes>
+      <pane id="leftpanel">ContactMainCard</pane>
+      <pane id="rightpanel">ContactMini</pane>
+      <pane id="bottompanel">ContactArchives</pane>
+    </panes>
+  </config>
+  <function-rights>
+    <function-right type="hide">hide-company</function-right>
+  </function-rights>
+</panel>
