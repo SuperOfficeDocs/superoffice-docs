@@ -7,6 +7,11 @@ sortOrder: 297
 keywords: setNavigateTo(String)
 ---
 
-This method navigates to the specified section (e.g. "sale.main").
+# Void setNavigateTo(String url)
 
+Sets which page to load next. For example, "sale.main".
 
+```crmscript
+EventData ed = getEventData();
+ed.setNavigateTo("soprotocol:sale.document?document_id=0");
+```

@@ -7,6 +7,17 @@ sortOrder: 289
 keywords: getInputValues()
 ---
 
-This method returns a Map containing all input values of the EventData object.
+# Map getInputValues()
 
+This method returns a Map containing all input values of the `EventData` object.
 
+```crmscript
+EventData ed = getEventData();
+Map m = ed.getInputValues();
+
+m.first();
+while (!m.eof()){
+  printLine(m.getKey() + " = " + m.getVal());
+  m.next();
+}
+```

@@ -7,6 +7,6 @@ sortOrder: 293
 keywords: getNavigateTo()
 ---
 
-This method returns the section EventData has navigated to.
+# String getNavigateTo()
 
-
+Returns the location `EventData` has navigated to.

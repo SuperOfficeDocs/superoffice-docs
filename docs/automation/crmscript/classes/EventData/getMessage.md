@@ -7,6 +7,11 @@ sortOrder: 292
 keywords: getMessage()
 ---
 
-This method returns the message set in an EventData object.
+# String getMessage()
 
+Returns the message set in an `EventData` object.
 
+```crmscript
+EventData ed = getEventData();
+printLine(ed.getMessage());
+```

@@ -7,6 +7,8 @@ sortOrder: 295
 keywords: setBlockExecution(Bool)
 ---
 
-This method prevents current event action to be executed (e.g. save in a "Before save company" event).
+# Void setBlockExecution(Bool value)
 
+Used to prevent the current event action from being executed.
 
+For example, save in a "Before save company" event).

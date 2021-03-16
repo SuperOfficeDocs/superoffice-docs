@@ -7,6 +7,8 @@ sortOrder: 287
 keywords: getBlockExecution()
 ---
 
-This method returns whether current event action has been blocked (e.g. save in a "Before save company" event).
+### Bool getBlockExecution()
 
+Used to check whether the current event action has been blocked.
 
+For example, save in a "Before save company" event.
