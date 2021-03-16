@@ -66,19 +66,19 @@ With scripts, you can:
 * [MainMenu][16]
 
 <!-- Referenced links -->
-[1]: screen-events.md
-[2]: extra-menus.md
-[3]: button-scripts.md
-[4]: custom-screens/index.md
-[5]: custom-screens/add-screen-element.md
-[6]: custom-screens/view-elements.md
-[7]: custom-screens/form-elements.md
-[8]: custom-screens/layout-elements.md
-[9]: blogic-screen-elements/index.md
-[10]: screen-choosers.md
-[11]: url-parameters.md
+[1]: service-ui/screen-events.md
+[2]: service-ui/extra-menus.md
+[3]: service-ui/button-scripts.md
+[4]: service-ui/custom-screens/index.md
+[5]: service-ui/custom-screens/add-screen-element.md
+[6]: service-ui/custom-screens/view-elements.md
+[7]: service-ui/custom-screens/form-elements.md
+[8]: service-ui/custom-screens/layout-elements.md
+[9]: service-ui/blogic-screen-elements/index.md
+[10]: service-ui/screen-choosers.md
+[11]: service-ui/url-parameters.md
 [12]: web-panels/index.md
 [13]: soprotocol/index.md
-[14]: eventdata.md
-[15]: htmlelement.md
-[16]: mainmenu.md
+[14]: https://github.com/superofficedocs/crmscript/blob/maion/docs/classes/eventdata/eventdata.md
+[15]: https://github.com/superofficedocs/crmscript/blob/maion/docs/classes/htmlelement/htmlelement.md
+[16]: https://github.com/superofficedocs/crmscript/blob/maion/docs/classes/mainmenu/mainmenu.md

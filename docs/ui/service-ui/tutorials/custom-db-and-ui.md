@@ -245,12 +245,12 @@ url = ticket.exe?action=listTicket&ticketId=
 
 <!-- Referenced links -->
 [1]: https://github.com/SuperOfficeDocs/crmscript/blob/main/docs/custom-database/extra-tables.md
-[2]: mainmenu.md
-[3]: screen-choosers.md
-[4]: custom-screens/index.md
-[5]: custom-screens/add-screen-element.md
-[6]: web-panels/index.md
-[7]: url-parameters.md
+[2]: https://github.com/superofficedocs/crmscript/blob/maion/docs/classes/mainmenu/mainmenu.md
+[3]: ../screen-choosers.md
+[4]: ../custom-screens/index.md
+[5]: ../custom-screens/add-screen-element.md
+[6]: ../../web-panels/index.md
+[7]: ../url-parameters.md
 
 <!-- Referenced images -->
 [img1]: media/tutorial-eqpt-view-equipment.png

@@ -38,4 +38,4 @@ u.load(getVariable("activeUser").toInteger());
 [3]: http://www.ietf.org/rfc/rfc2279.txt
 [4]: https://community.superoffice.com/documentation/help/EN/CRM/8.5/UserHelp/index.htm#t=StandardCRM%2Fchap02%2FTemplate_variables.htm
 [5]: https://community.superoffice.com/documentation/help/EN/CRM/8.5/UserHelp/index.htm#t=Service%2Ftopics%2FTemplate_variables.html
-[6]: ../custom-screens/index.md
+[6]: ../service-ui/custom-screens/index.md

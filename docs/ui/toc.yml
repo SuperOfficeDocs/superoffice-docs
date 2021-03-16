@@ -1,314 +1,188 @@
 items:
-- name: Overview
-  href: index.md
-- name: Button scripts
-  href: button-scripts.md
-- name: Eventdata
-  href: eventdata.md
-- name: Extra menus
-  href: extra-menus.md
-- name: Htmlelement
-  href: htmlelement.md
-- name: Mainmenu
-  href: mainmenu.md
-- name: Screen choosers
-  href: screen-choosers.md
-- name: Screen events
-  href: screen-events.md
-- name: So protocol
-  href: so-protocol.md
-- name: Tutorial custom db and ui
-  href: tutorial-custom-db-and-ui.md
-- name: Url parameters
-  href: url-parameters.md
-- name: Blogic screen elements
-  href: blogic-screen-elements/index.md
+- name: Service ui
+  href: service-ui/button-scripts.md
   items:
-  - name: Address book
-    href: blogic-screen-elements/address-book.md
-  - name: Anchor line
-    href: blogic-screen-elements/anchor-line.md
-  - name: Attachment
-    href: blogic-screen-elements/attachment.md
-  - name: Br
-    href: blogic-screen-elements/br.md
-  - name: Button
-    href: blogic-screen-elements/button.md
-  - name: Button row
-    href: blogic-screen-elements/button-row.md
-  - name: Category membership
-    href: blogic-screen-elements/category-membership.md
-  - name: Chart
-    href: blogic-screen-elements/chart.md
-  - name: Checkbox
-    href: blogic-screen-elements/checkbox.md
-  - name: Ck editor
-    href: blogic-screen-elements/ck-editor.md
-  - name: Contact and recipient
-    href: blogic-screen-elements/contact-and-recipient.md
-  - name: Data table
-    href: blogic-screen-elements/data-table.md
-  - name: Dependency graph
-    href: blogic-screen-elements/dependency-graph.md
-  - name: Edit entity menu
-    href: blogic-screen-elements/edit-entity-menu.md
-  - name: Ejscript element
-    href: blogic-screen-elements/ejscript-element.md
-  - name: Element table
-    href: blogic-screen-elements/element-table.md
-  - name: Element table 2
-    href: blogic-screen-elements/element-table-2.md
-  - name: Fck editor
-    href: blogic-screen-elements/fck-editor.md
-  - name: Fieldset
-    href: blogic-screen-elements/fieldset.md
-  - name: Form page
-    href: blogic-screen-elements/form-page.md
-  - name: Group end
-    href: blogic-screen-elements/group-end.md
-  - name: Header
-    href: blogic-screen-elements/header.md
-  - name: Hr
-    href: blogic-screen-elements/hr.md
-  - name: Html grid
-    href: blogic-screen-elements/html-grid.md
-  - name: Info fields 2
-    href: blogic-screen-elements/info-fields-2.md
-  - name: Invoice
-    href: blogic-screen-elements/invoice.md
-  - name: Language menu
-    href: blogic-screen-elements/language-menu.md
-  - name: List box
-    href: blogic-screen-elements/list-box.md
-  - name: Mdo list
-    href: blogic-screen-elements/mdo-list.md
-  - name: Message grid
-    href: blogic-screen-elements/message-grid.md
-  - name: Messages
-    href: blogic-screen-elements/messages.md
-  - name: Pane
-    href: blogic-screen-elements/pane.md
-  - name: Panel
-    href: blogic-screen-elements/panel.md
-  - name: Panes
-    href: blogic-screen-elements/panes.md
-  - name: Parser code
-    href: blogic-screen-elements/parser-code.md
-  - name: Planner
-    href: blogic-screen-elements/planner.md
-  - name: Radio buttons
-    href: blogic-screen-elements/radio-buttons.md
-  - name: Recipients
-    href: blogic-screen-elements/recipients.md
-  - name: Related drop downs
-    href: blogic-screen-elements/related-drop-downs.md
-  - name: Select agent
-    href: blogic-screen-elements/select-agent.md
-  - name: Select appointment
-    href: blogic-screen-elements/select-appointment.md
-  - name: Select category
-    href: blogic-screen-elements/select-category.md
-  - name: Select company
-    href: blogic-screen-elements/select-company.md
-  - name: Select contact business
-    href: blogic-screen-elements/select-contact-business.md
-  - name: Select contact category
-    href: blogic-screen-elements/select-contact-category.md
-  - name: Select crm selection
-    href: blogic-screen-elements/select-crm-selection.md
-  - name: Select customer
-    href: blogic-screen-elements/select-customer.md
-  - name: Select customers
-    href: blogic-screen-elements/select-customers.md
-  - name: Select date
-    href: blogic-screen-elements/select-date.md
-  - name: Select datetime
-    href: blogic-screen-elements/select-datetime.md
-  - name: Select extra field
-    href: blogic-screen-elements/select-extra-field.md
-  - name: Select faq
-    href: blogic-screen-elements/select-faq.md
-  - name: Select insert text
-    href: blogic-screen-elements/select-insert-text.md
-  - name: Select message
-    href: blogic-screen-elements/select-message.md
-  - name: Select priority
-    href: blogic-screen-elements/select-priority.md
-  - name: Select project
-    href: blogic-screen-elements/select-project.md
-  - name: Select relation
-    href: blogic-screen-elements/select-relation.md
-  - name: Select relations
-    href: blogic-screen-elements/select-relations.md
-  - name: Select reply template
-    href: blogic-screen-elements/select-reply-template.md
-  - name: Select request status
-    href: blogic-screen-elements/select-request-status.md
-  - name: Select sale
-    href: blogic-screen-elements/select-sale.md
-  - name: Select slevel
-    href: blogic-screen-elements/select-slevel.md
-  - name: Select table
-    href: blogic-screen-elements/select-table.md
-  - name: Select ticket status
-    href: blogic-screen-elements/select-ticket-status.md
-  - name: Select time
-    href: blogic-screen-elements/select-time.md
-  - name: Select timespan
-    href: blogic-screen-elements/select-timespan.md
-  - name: Select user
-    href: blogic-screen-elements/select-user.md
-  - name: Show recipients
-    href: blogic-screen-elements/show-recipients.md
-  - name: Static grid
-    href: blogic-screen-elements/static-grid.md
-  - name: Text
-    href: blogic-screen-elements/text.md
-  - name: Textarea
-    href: blogic-screen-elements/textarea.md
-  - name: Ticket status
-    href: blogic-screen-elements/ticket-status.md
-  - name: Tree explorer
-    href: blogic-screen-elements/tree-explorer.md
-- name: Custom screens
-  href: custom-screens/index.md
-  items:
-  - name: Add screen element
-    href: custom-screens/add-screen-element.md
-  - name: Blogic query syntax
-    href: custom-screens/blogic-query-syntax.md
-  - name: Form elements
-    href: custom-screens/form-elements.md
-  - name: Form elements per entity
-    href: custom-screens/form-elements-per-entity.md
-  - name: Layout elements
-    href: custom-screens/layout-elements.md
-  - name: View elements
-    href: custom-screens/view-elements.md
-- name: Pagebuilder
-  href: pagebuilder/index.md
-  items:
-  - name: Config
-    href: pagebuilder/config/index.md
+  - name: Button scripts
+    href: service-ui/button-scripts.md
+  - name: Extra menus
+    href: service-ui/extra-menus.md
+  - name: Screen choosers
+    href: service-ui/screen-choosers.md
+  - name: Screen events
+    href: service-ui/screen-events.md
+  - name: Url parameters
+    href: service-ui/url-parameters.md
+  - name: Blogic screen elements
+    href: service-ui/blogic-screen-elements/address-book.md
     items:
-    - name: App config
-      href: pagebuilder/config/app-config.md
-    - name: Card
-      href: pagebuilder/config/card.md
-    - name: Data driven page config
-      href: pagebuilder/config/data-driven-page-config.md
-    - name: Object mapping
-      href: pagebuilder/config/object-mapping.md
-    - name: Page
-      href: pagebuilder/config/page.md
-    - name: Page fragments
-      href: pagebuilder/config/page-fragments.md
+    - name: Address book
+      href: service-ui/blogic-screen-elements/address-book.md
+    - name: Anchor line
+      href: service-ui/blogic-screen-elements/anchor-line.md
+    - name: Attachment
+      href: service-ui/blogic-screen-elements/attachment.md
+    - name: Br
+      href: service-ui/blogic-screen-elements/br.md
+    - name: Button
+      href: service-ui/blogic-screen-elements/button.md
+    - name: Button row
+      href: service-ui/blogic-screen-elements/button-row.md
+    - name: Category membership
+      href: service-ui/blogic-screen-elements/category-membership.md
+    - name: Chart
+      href: service-ui/blogic-screen-elements/chart.md
+    - name: Checkbox
+      href: service-ui/blogic-screen-elements/checkbox.md
+    - name: Ck editor
+      href: service-ui/blogic-screen-elements/ck-editor.md
+    - name: Contact and recipient
+      href: service-ui/blogic-screen-elements/contact-and-recipient.md
+    - name: Data table
+      href: service-ui/blogic-screen-elements/data-table.md
+    - name: Dependency graph
+      href: service-ui/blogic-screen-elements/dependency-graph.md
+    - name: Edit entity menu
+      href: service-ui/blogic-screen-elements/edit-entity-menu.md
+    - name: Ejscript element
+      href: service-ui/blogic-screen-elements/ejscript-element.md
+    - name: Element table
+      href: service-ui/blogic-screen-elements/element-table.md
+    - name: Element table 2
+      href: service-ui/blogic-screen-elements/element-table-2.md
+    - name: Fck editor
+      href: service-ui/blogic-screen-elements/fck-editor.md
+    - name: Fieldset
+      href: service-ui/blogic-screen-elements/fieldset.md
+    - name: Form page
+      href: service-ui/blogic-screen-elements/form-page.md
+    - name: Group end
+      href: service-ui/blogic-screen-elements/group-end.md
+    - name: Header
+      href: service-ui/blogic-screen-elements/header.md
+    - name: Hr
+      href: service-ui/blogic-screen-elements/hr.md
+    - name: Html grid
+      href: service-ui/blogic-screen-elements/html-grid.md
+    - name: Info fields 2
+      href: service-ui/blogic-screen-elements/info-fields-2.md
+    - name: Invoice
+      href: service-ui/blogic-screen-elements/invoice.md
+    - name: Language menu
+      href: service-ui/blogic-screen-elements/language-menu.md
+    - name: List box
+      href: service-ui/blogic-screen-elements/list-box.md
+    - name: Mdo list
+      href: service-ui/blogic-screen-elements/mdo-list.md
+    - name: Message grid
+      href: service-ui/blogic-screen-elements/message-grid.md
+    - name: Messages
+      href: service-ui/blogic-screen-elements/messages.md
+    - name: Pane
+      href: service-ui/blogic-screen-elements/pane.md
     - name: Panel
-      href: pagebuilder/config/panel.md
-    - name: System config files
-      href: pagebuilder/config/system-config-files.md
-    - name: Ui config files
-      href: pagebuilder/config/ui-config-files.md
-    - name: View
-      href: pagebuilder/config/view.md
-  - name: Datahandlers
-    href: pagebuilder/datahandlers/index.md
+      href: service-ui/blogic-screen-elements/panel.md
+    - name: Panes
+      href: service-ui/blogic-screen-elements/panes.md
+    - name: Parser code
+      href: service-ui/blogic-screen-elements/parser-code.md
+    - name: Planner
+      href: service-ui/blogic-screen-elements/planner.md
+    - name: Radio buttons
+      href: service-ui/blogic-screen-elements/radio-buttons.md
+    - name: Recipients
+      href: service-ui/blogic-screen-elements/recipients.md
+    - name: Related drop downs
+      href: service-ui/blogic-screen-elements/related-drop-downs.md
+    - name: Select agent
+      href: service-ui/blogic-screen-elements/select-agent.md
+    - name: Select appointment
+      href: service-ui/blogic-screen-elements/select-appointment.md
+    - name: Select category
+      href: service-ui/blogic-screen-elements/select-category.md
+    - name: Select company
+      href: service-ui/blogic-screen-elements/select-company.md
+    - name: Select contact business
+      href: service-ui/blogic-screen-elements/select-contact-business.md
+    - name: Select contact category
+      href: service-ui/blogic-screen-elements/select-contact-category.md
+    - name: Select crm selection
+      href: service-ui/blogic-screen-elements/select-crm-selection.md
+    - name: Select customer
+      href: service-ui/blogic-screen-elements/select-customer.md
+    - name: Select customers
+      href: service-ui/blogic-screen-elements/select-customers.md
+    - name: Select date
+      href: service-ui/blogic-screen-elements/select-date.md
+    - name: Select datetime
+      href: service-ui/blogic-screen-elements/select-datetime.md
+    - name: Select extra field
+      href: service-ui/blogic-screen-elements/select-extra-field.md
+    - name: Select faq
+      href: service-ui/blogic-screen-elements/select-faq.md
+    - name: Select insert text
+      href: service-ui/blogic-screen-elements/select-insert-text.md
+    - name: Select message
+      href: service-ui/blogic-screen-elements/select-message.md
+    - name: Select priority
+      href: service-ui/blogic-screen-elements/select-priority.md
+    - name: Select project
+      href: service-ui/blogic-screen-elements/select-project.md
+    - name: Select relation
+      href: service-ui/blogic-screen-elements/select-relation.md
+    - name: Select relations
+      href: service-ui/blogic-screen-elements/select-relations.md
+    - name: Select reply template
+      href: service-ui/blogic-screen-elements/select-reply-template.md
+    - name: Select request status
+      href: service-ui/blogic-screen-elements/select-request-status.md
+    - name: Select sale
+      href: service-ui/blogic-screen-elements/select-sale.md
+    - name: Select slevel
+      href: service-ui/blogic-screen-elements/select-slevel.md
+    - name: Select table
+      href: service-ui/blogic-screen-elements/select-table.md
+    - name: Select ticket status
+      href: service-ui/blogic-screen-elements/select-ticket-status.md
+    - name: Select time
+      href: service-ui/blogic-screen-elements/select-time.md
+    - name: Select timespan
+      href: service-ui/blogic-screen-elements/select-timespan.md
+    - name: Select user
+      href: service-ui/blogic-screen-elements/select-user.md
+    - name: Show recipients
+      href: service-ui/blogic-screen-elements/show-recipients.md
+    - name: Static grid
+      href: service-ui/blogic-screen-elements/static-grid.md
+    - name: Text
+      href: service-ui/blogic-screen-elements/text.md
+    - name: Textarea
+      href: service-ui/blogic-screen-elements/textarea.md
+    - name: Ticket status
+      href: service-ui/blogic-screen-elements/ticket-status.md
+    - name: Tree explorer
+      href: service-ui/blogic-screen-elements/tree-explorer.md
+  - name: Custom screens
+    href: service-ui/custom-screens/add-screen-element.md
     items:
-    - name: Add custom datahandler
-      href: pagebuilder/datahandlers/add-custom-datahandler.md
-    - name: Tutorial
-      href: pagebuilder/datahandlers/tutorial.md
-    - name: Use builtin datahandler
-      href: pagebuilder/datahandlers/use-builtin-datahandler.md
-  - name: Framework
-    href: pagebuilder/framework/soprotocol.md
+    - name: Add screen element
+      href: service-ui/custom-screens/add-screen-element.md
+    - name: Blogic query syntax
+      href: service-ui/custom-screens/blogic-query-syntax.md
+    - name: Form elements
+      href: service-ui/custom-screens/form-elements.md
+    - name: Form elements per entity
+      href: service-ui/custom-screens/form-elements-per-entity.md
+    - name: Layout elements
+      href: service-ui/custom-screens/layout-elements.md
+    - name: View elements
+      href: service-ui/custom-screens/view-elements.md
+  - name: Tutorials
+    href: service-ui/tutorials/custom-db-and-ui.md
     items:
-    - name: Soprotocol
-      href: pagebuilder/framework/soprotocol.md
-    - name: Xml config file
-      href: pagebuilder/framework/xml-config-file.md
-  - name: Superstate
-    href: pagebuilder/superstate/index.md
-    items:
-    - name: State changes
-      href: pagebuilder/superstate/state-changes.md
-    - name: Superstate in context
-      href: pagebuilder/superstate/superstate-in-context.md
-  - name: Usercontrols
-    href: pagebuilder/usercontrols/index.md
-    items:
-    - name: Rights system
-      href: pagebuilder/usercontrols/rights-system.md
-    - name: Tutorial 1
-      href: pagebuilder/usercontrols/tutorial-1.md
-    - name: Tutorial 2
-      href: pagebuilder/usercontrols/tutorial-2.md
-    - name: Tutorial aspnet appointment with login
-      href: pagebuilder/usercontrols/tutorial-aspnet-appointment-with-login.md
-    - name: Tutorial aspnet vs so controls
-      href: pagebuilder/usercontrols/tutorial-aspnet-vs-so-controls.md
-    - name: Tutorial custom page std controls
-      href: pagebuilder/usercontrols/tutorial-custom-page-std-controls.md
-    - name: Archives
-      href: pagebuilder/usercontrols/archives/index.md
-      items:
-      - name: Add archive action button
-        href: pagebuilder/usercontrols/archives/add-archive-action-button.md
-      - name: Add archive control
-        href: pagebuilder/usercontrols/archives/add-archive-control.md
-      - name: Add archive row context menu
-        href: pagebuilder/usercontrols/archives/add-archive-row-context-menu.md
-      - name: Add button to footer
-        href: pagebuilder/usercontrols/archives/add-button-to-footer.md
-      - name: Add row click actions
-        href: pagebuilder/usercontrols/archives/add-row-click-actions.md
-      - name: Change default columns
-        href: pagebuilder/usercontrols/archives/change-default-columns.md
-      - name: Create custom archive control
-        href: pagebuilder/usercontrols/archives/create-custom-archive-control.md
-    - name: Cards panels
-      href: pagebuilder/usercontrols/cards-panels/index.md
-      items:
-      - name: Add tab to contact card
-        href: pagebuilder/usercontrols/cards-panels/add-tab-to-contact-card.md
-      - name: Add textbox to navigator
-        href: pagebuilder/usercontrols/cards-panels/add-textbox-to-navigator.md
-      - name: Card
-        href: pagebuilder/usercontrols/cards-panels/card.md
-      - name: Id and references
-        href: pagebuilder/usercontrols/cards-panels/id-and-references.md
-      - name: Master and content pages
-        href: pagebuilder/usercontrols/cards-panels/master-and-content-pages.md
-      - name: Panel
-        href: pagebuilder/usercontrols/cards-panels/panel.md
-      - name: Placeholder
-        href: pagebuilder/usercontrols/cards-panels/placeholder.md
-      - name: Remove card
-        href: pagebuilder/usercontrols/cards-panels/remove-card.md
-      - name: Soprotocol names
-        href: pagebuilder/usercontrols/cards-panels/soprotocol-names.md
-    - name: Data binding
-      href: pagebuilder/usercontrols/data-binding/index.md
-      items:
-      - name: Idatahandler
-        href: pagebuilder/usercontrols/data-binding/idatahandler.md
-      - name: Pagebuilder uses datahandlers
-        href: pagebuilder/usercontrols/data-binding/pagebuilder-uses-datahandlers.md
-      - name: With solabel
-        href: pagebuilder/usercontrols/data-binding/with-solabel.md
-      - name: With solistbox
-        href: pagebuilder/usercontrols/data-binding/with-solistbox.md
-    - name: Lists
-      href: pagebuilder/usercontrols/lists/index.md
-      items:
-      - name: Add mdo control to panel
-        href: pagebuilder/usercontrols/lists/add-mdo-control-to-panel.md
-      - name: Config for mdo control
-        href: pagebuilder/usercontrols/lists/config-for-mdo-control.md
-      - name: Create custom mdo controls
-        href: pagebuilder/usercontrols/lists/create-custom-mdo-controls.md
+    - name: Custom db and ui
+      href: service-ui/tutorials/custom-db-and-ui.md
 - name: Soprotocol
-  href: soprotocol/index.md
+  href: soprotocol/create-appointment.md
   items:
   - name: Create appointment
     href: soprotocol/create-appointment.md
@@ -339,29 +213,20 @@ items:
   - name: Used in webpanels win
     href: soprotocol/used-in-webpanels-win.md
 - name: Web application
-  href: web-application/index.md
+  href: web-application/add-custom-path.md
   items:
+  - name: Add custom path
+    href: web-application/add-custom-path.md
+  - name: Components
+    href: web-application/components.md
   - name: Model view controller pattern
     href: web-application/model-view-controller-pattern.md
+  - name: Page configuration
+    href: web-application/page-configuration.md
   - name: Strategic goals
     href: web-application/strategic-goals.md
-  - name: Customize
-    href: web-application/customize/index.md
-    items:
-    - name: Add custom control
-      href: web-application/customize/add-custom-control.md
-    - name: Add label
-      href: web-application/customize/add-label.md
-    - name: Add textbox
-      href: web-application/customize/add-textbox.md
-    - name: Cust and deploy
-      href: web-application/customize/cust-and-deploy.md
-    - name: Custom ajax methods
-      href: web-application/customize/custom-ajax-methods.md
-    - name: Triggers
-      href: web-application/customize/triggers.md
   - name: Getting started
-    href: web-application/getting-started/index.md
+    href: web-application/getting-started/architecture.md
     items:
     - name: Architecture
       href: web-application/getting-started/architecture.md
@@ -373,35 +238,154 @@ items:
       href: web-application/getting-started/globalization.md
     - name: Use custom config files
       href: web-application/getting-started/use-custom-config-files.md
+  - name: Pagebuilder
+    href: web-application/pagebuilder/index.md
+    items:
+    - name: Config
+      href: web-application/pagebuilder/config/app-config.md
+      items:
+      - name: App config
+        href: web-application/pagebuilder/config/app-config.md
+      - name: Card
+        href: web-application/pagebuilder/config/card.md
+      - name: Data driven page config
+        href: web-application/pagebuilder/config/data-driven-page-config.md
+      - name: Object mapping
+        href: web-application/pagebuilder/config/object-mapping.md
+      - name: Page
+        href: web-application/pagebuilder/config/page.md
+      - name: Page fragments
+        href: web-application/pagebuilder/config/page-fragments.md
+      - name: Panel
+        href: web-application/pagebuilder/config/panel.md
+      - name: System config files
+        href: web-application/pagebuilder/config/system-config-files.md
+      - name: Ui config files
+        href: web-application/pagebuilder/config/ui-config-files.md
+      - name: View
+        href: web-application/pagebuilder/config/view.md
+      - name: Xml config file
+        href: web-application/pagebuilder/config/xml-config-file.md
+    - name: Datahandlers
+      href: web-application/pagebuilder/datahandlers/add-custom-datahandler.md
+      items:
+      - name: Add custom datahandler
+        href: web-application/pagebuilder/datahandlers/add-custom-datahandler.md
+      - name: Tutorial
+        href: web-application/pagebuilder/datahandlers/tutorial.md
+      - name: Use builtin datahandler
+        href: web-application/pagebuilder/datahandlers/use-builtin-datahandler.md
+    - name: Superstate
+      href: web-application/pagebuilder/superstate/index.md
+      items:
+      - name: Soprotocol
+        href: web-application/pagebuilder/superstate/soprotocol.md
+      - name: State changes
+        href: web-application/pagebuilder/superstate/state-changes.md
+      - name: Superstate in context
+        href: web-application/pagebuilder/superstate/superstate-in-context.md
+    - name: Usercontrols
+      href: web-application/pagebuilder/usercontrols/index.md
+      items:
+      - name: Rights system
+        href: web-application/pagebuilder/usercontrols/rights-system.md
+      - name: Archives
+        href: web-application/pagebuilder/usercontrols/archives/add-archive-action-button.md
+        items:
+        - name: Add archive action button
+          href: web-application/pagebuilder/usercontrols/archives/add-archive-action-button.md
+        - name: Add archive control
+          href: web-application/pagebuilder/usercontrols/archives/add-archive-control.md
+        - name: Add archive row context menu
+          href: web-application/pagebuilder/usercontrols/archives/add-archive-row-context-menu.md
+        - name: Add button to footer
+          href: web-application/pagebuilder/usercontrols/archives/add-button-to-footer.md
+        - name: Add row click actions
+          href: web-application/pagebuilder/usercontrols/archives/add-row-click-actions.md
+        - name: Change default columns
+          href: web-application/pagebuilder/usercontrols/archives/change-default-columns.md
+        - name: Create custom archive control
+          href: web-application/pagebuilder/usercontrols/archives/create-custom-archive-control.md
+      - name: Cards panels
+        href: web-application/pagebuilder/usercontrols/cards-panels/add-tab-to-contact-card.md
+        items:
+        - name: Add tab to contact card
+          href: web-application/pagebuilder/usercontrols/cards-panels/add-tab-to-contact-card.md
+        - name: Add textbox to navigator
+          href: web-application/pagebuilder/usercontrols/cards-panels/add-textbox-to-navigator.md
+        - name: Card
+          href: web-application/pagebuilder/usercontrols/cards-panels/card.md
+        - name: Id and references
+          href: web-application/pagebuilder/usercontrols/cards-panels/id-and-references.md
+        - name: Master and content pages
+          href: web-application/pagebuilder/usercontrols/cards-panels/master-and-content-pages.md
+        - name: Panel
+          href: web-application/pagebuilder/usercontrols/cards-panels/panel.md
+        - name: Placeholder
+          href: web-application/pagebuilder/usercontrols/cards-panels/placeholder.md
+        - name: Remove card
+          href: web-application/pagebuilder/usercontrols/cards-panels/remove-card.md
+        - name: Soprotocol names
+          href: web-application/pagebuilder/usercontrols/cards-panels/soprotocol-names.md
+      - name: Data binding
+        href: web-application/pagebuilder/usercontrols/data-binding/idatahandler.md
+        items:
+        - name: Idatahandler
+          href: web-application/pagebuilder/usercontrols/data-binding/idatahandler.md
+        - name: Pagebuilder uses datahandlers
+          href: web-application/pagebuilder/usercontrols/data-binding/pagebuilder-uses-datahandlers.md
+        - name: With solabel
+          href: web-application/pagebuilder/usercontrols/data-binding/with-solabel.md
+        - name: With solistbox
+          href: web-application/pagebuilder/usercontrols/data-binding/with-solistbox.md
+      - name: Lists
+        href: web-application/pagebuilder/usercontrols/lists/add-mdo-control-to-panel.md
+        items:
+        - name: Add mdo control to panel
+          href: web-application/pagebuilder/usercontrols/lists/add-mdo-control-to-panel.md
+        - name: Config for mdo control
+          href: web-application/pagebuilder/usercontrols/lists/config-for-mdo-control.md
+        - name: Create custom mdo controls
+          href: web-application/pagebuilder/usercontrols/lists/create-custom-mdo-controls.md
+  - name: Tutorials
+    href: web-application/tutorials/tutorial-1.md
+    items:
+    - name: Tutorial 1
+      href: web-application/tutorials/tutorial-1.md
+    - name: Tutorial 2
+      href: web-application/tutorials/tutorial-2.md
+    - name: Tutorial aspnet appointment with login
+      href: web-application/tutorials/tutorial-aspnet-appointment-with-login.md
+    - name: Tutorial aspnet vs so controls
+      href: web-application/tutorials/tutorial-aspnet-vs-so-controls.md
+    - name: Tutorial custom page std controls
+      href: web-application/tutorials/tutorial-custom-page-std-controls.md
+    - name: Validate fields
+      href: web-application/tutorials/validate-fields.md
+    - name: Validation
+      href: web-application/tutorials/validation.md
+    - name: Customize
+      href: web-application/tutorials/customize/add-custom-control.md
+      items:
+      - name: Add custom control
+        href: web-application/tutorials/customize/add-custom-control.md
+      - name: Add label
+        href: web-application/tutorials/customize/add-label.md
+      - name: Add textbox
+        href: web-application/tutorials/customize/add-textbox.md
+      - name: Cust and deploy
+        href: web-application/tutorials/customize/cust-and-deploy.md
+      - name: Custom ajax methods
+        href: web-application/tutorials/customize/custom-ajax-methods.md
+      - name: Triggers
+        href: web-application/tutorials/customize/triggers.md
   - name: Whats new
-    href: web-application/whats-new/index.md
+    href: web-application/whats-new/in-80.md
     items:
     - name: In 80
       href: web-application/whats-new/in-80.md
-- name: Web extensions
-  href: web-extensions/index.md
-  items:
-  - name: Mailarchivehelper
-    href: web-extensions/mailarchivehelper/index.md
-    items:
-    - name: Archive email
-      href: web-extensions/mailarchivehelper/archive-email.md
-    - name: Com interop and dotnet
-      href: web-extensions/mailarchivehelper/com-interop-and-dotnet.md
-    - name: Find contact from email
-      href: web-extensions/mailarchivehelper/find-contact-from-email.md
-    - name: Getting started
-      href: web-extensions/mailarchivehelper/getting-started.md
-    - name: Logging
-      href: web-extensions/mailarchivehelper/logging.md
-    - name: Mail protocol
-      href: web-extensions/mailarchivehelper/mail-protocol.md
-    - name: Preference dialog
-      href: web-extensions/mailarchivehelper/preference-dialog.md
-    - name: Registry
-      href: web-extensions/mailarchivehelper/registry.md
 - name: Web panels
-  href: web-panels/index.md
+  href: web-panels/add-web-panel.md
   items:
   - name: Add web panel
     href: web-panels/add-web-panel.md

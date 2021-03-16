@@ -97,7 +97,7 @@ It might look something like this:
 [3]: form-elements.md
 [4]: ../blogic-screen-elements/index.md
 [5]: blogic-query-syntax.md
-[6]: ../htmlelement.md
+[6]: https://github.com/superofficedocs/crmscript/blob/maion/docs/classes/htmlelement/htmlelement.md
 [7]: https://github.com/SuperOfficeDocs/crmscript/blob/main/docs/searchengine/se-select.md
 [8]: https://github.com/SuperOfficeDocs/crmscript/blob/main/docs/searchengine/se-run.md
 [9]: https://github.com/SuperOfficeDocs/crmscript/blob/main/docs/se-results.md

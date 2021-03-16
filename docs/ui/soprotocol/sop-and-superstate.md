@@ -16,6 +16,6 @@ The SoProtocolModule drives the [SuperState][1] at all times. The SuperState is 
 It uses manager classes such as `SuperStateManager` and `ConfigurationManager` to retrieve the current SuperState date and merges this data with any incoming SoProtocol data.
 
 <!-- Referenced links -->
-[1]: ../pagebuilder/superstate/index.md
+[1]: ../web-application/pagebuilder/superstate/index.md
 
 <!-- Referenced images -->
