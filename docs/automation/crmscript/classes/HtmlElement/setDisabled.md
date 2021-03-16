@@ -7,13 +7,10 @@ sortOrder: 389
 keywords: setDisabled(Bool)
 ---
 
-This function is used to decide whether the element should be invisible or not.
+### Void setDisabled(Bool invisible)
 
+Toggles whether the element is visible or invisible. Commonly used in combination with role-based access.
 
+## Parameters
 
-###Parameter:###
-
-
- - disable: True if the element should be invisible
-
-
+* disable: True if the element should be invisible

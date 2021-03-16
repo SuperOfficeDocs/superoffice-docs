@@ -7,6 +7,6 @@ sortOrder: 388
 keywords: clearValue()
 ---
 
+# Void clearValue()
+
 This will clear any selected values from elements that support this property.
-
-

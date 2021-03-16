@@ -7,15 +7,17 @@ sortOrder: 390
 keywords: setErrorMessage(String)
 ---
 
+# Void setErrorMessage(String errorMessage)
 
-Sets an error message above the HtmlElement if the form is posted.
+Sets an error message above the element if the form is posted.
 
+Used to inform users that something went wrong and attempt to help them out.
 
+```crmscript
+HtmlElement page = getHtmlElement("HtmlPage");
+page.setErrorMessage("This page contains an error");
+```
 
+## Parameters
 
-###Parameter:###
-
-
- - String: the error message
-
-
+* String: the error message

@@ -7,11 +7,12 @@ sortOrder: 386
 keywords: getTypeName()
 ---
 
-Returns the type name of the HtmlElement.
+# String getTypeName()
 
+Returns the element type. For example, HtmlAnchorLine or HtmlGrid.
 
+> [!TIP]
+> Look up specific elements in the [bLogic screen element][1] reference.
 
-###For instance:###
-HtmlAnchorLine, HtmlGrid etc.
-
-
+<!-- Referenced links -->
+[1]: https://github.com/SuperOfficeDocs/user-interface/blob/main/docs/service-ui/blogic-screen-elements/index.md

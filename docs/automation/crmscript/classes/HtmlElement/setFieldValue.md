@@ -7,16 +7,22 @@ sortOrder: 391
 keywords: setFieldValue(String,Map)
 ---
 
+# Void setFieldValue(String name, Map map)
 
-Sets field values on an element.
+Sets 1 or more field values on an element.
 
+```crmscript
+HtmlElement formPage;
 
+Map m;
+m.insert("name", "superButton");
+m.insert("label", "Click me!");
+m.insert("style", "StyleGreen");
 
+formPage.setFieldValue("addButton", m);
+```
 
-###Parameter:###
+## Parameters
 
-
- - String: name of the field
- - Map of values
-
-
+* String: the name of the field
+* Map of values

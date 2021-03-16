@@ -7,17 +7,11 @@ sortOrder: 385
 keywords: getTabIndexString(Bool)
 ---
 
-This function returns the html tab index string of the element.
+A variant of `getTabIndexString()` that omits element ID if it is the 1st element.
 
+The HTML `tabindex` attribute specifies the tab order of an element. It determines the sequence of entering fields with Tab or Shift+Tab.
+A special ID is added for the first element.
 
+## Parameters
 
-###Parameter:###
-
-
- - bool: Do not add element id to the string if it is the first element.
-
-
-The tab index determines the sequence of entering fields with the tab/shift-tab keys.
-A spesial id is added for the first element
-
-
+* bool: Do not add element ID to the string if it is the first element.

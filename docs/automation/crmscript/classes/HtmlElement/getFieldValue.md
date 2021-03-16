@@ -7,13 +7,10 @@ sortOrder: 383
 keywords: getFieldValue(String)
 ---
 
-Returns the value of a given field.
+### String getFieldValue(String field)
 
+Returns the value of a specific field.
 
+## Parameters
 
-###Parameter:###
-
-
- - String field name
-
-
+* String field name

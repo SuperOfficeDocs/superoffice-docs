@@ -7,10 +7,8 @@ sortOrder: 379
 keywords: isEmpty()
 ---
 
+# Bool isEmpty()
 
-Returns true if the htmlelement says it is empty.
+Returns true if the HtmlElement says it is empty.
 
-
-What this actually means varies from element type to element type. A list element should be empty if it has no rows, but a code element should be empty if it contains no text - so if a code element is used to create an empty table it will not be an empty element.
-
-
+That an element is **empty** means different things depending on the element type. For example, a list element should be empty if it has no rows, but a code element should be empty if it contains no text.

@@ -7,10 +7,8 @@ sortOrder: 384
 keywords: getTabIndexString()
 ---
 
+# String getTabIndexString()
 
-Returns the html tab index string of the element
+Returns the tabulator index string of the element.
 
-
-The tab index determines the sequence of entering fields with the tab/shift-tab keys.
-
-
+The HTML `tabindex` attribute specifies the tab order of an element. It determines the sequence of entering fields with Tab or Shift+Tab.

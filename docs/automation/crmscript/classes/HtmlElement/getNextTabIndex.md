@@ -7,8 +7,8 @@ sortOrder: 381
 keywords: getNextTabIndex()
 ---
 
-This function returns the next valid tab index number.
+# Integer getNextTabIndex()
 
-Increments the index counter and returns.
+The HTML `tabindex` attribute specifies the tab order of an element. It determines the sequence of entering fields with Tab or Shift+Tab.
 
-
+`getNextTabIndex()` increments the counter and returns the next valid index.

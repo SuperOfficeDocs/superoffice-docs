@@ -7,15 +7,12 @@ sortOrder: 393
 keywords: setInfoMessage(String)
 ---
 
+# Void setInfoMessage(String infoMessage)
 
-Sets an info message above the HtmlElement if the form is posted.
+Sets an info message above the element if the form is posted.
 
+Used to display the text of a purely informative nature.
 
+## Parameters
 
-
-###Parameter:###
-
-
- - String: the info message
-
-
+* String: the info message
