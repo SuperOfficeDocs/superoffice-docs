@@ -1,20 +1,20 @@
 items:
 - name: Crmscript archiveagent
-  href: crmscript-archiveagent.md
+  href: netserver/crmscript-archiveagent.md
 - name: Crmscript usage
-  href: crmscript-usage.md
+  href: overview/crmscript-usage.md
 - name: Domain
-  href: domain.md
+  href: overview/domain.md
 - name: Envir and tools
-  href: envir-and-tools.md
+  href: overview/envir-and-tools.md
 - name: Getting started
-  href: getting-started.md
+  href: overview/getting-started.md
 - name: Localization
-  href: localization.md
+  href: overview/localization.md
 - name: Ns agents and carriers
-  href: ns-agents-and-carriers.md
+  href: netserver/ns-agents-and-carriers.md
 - name: What is crmscript
-  href: what-is-crmscript.md
+  href: overview/what-is-crmscript.md
 - name: Classes
   href: classes/index.md
   items:

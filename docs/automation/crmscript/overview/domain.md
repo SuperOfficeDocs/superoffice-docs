@@ -47,4 +47,4 @@ The appointment table contains foreign keys to all the other important tables, p
 | database owner  | tenant    | Company        |                 |
 
 <!-- Referenced links -->
-[1]: https://community.superoffice.com/documentation/SDK/SO.Database/html/TheMainTables.htm
+[1]: https://github.com/SuperOfficeDocs/database/blob/main/docs/getting-started/main-tables.md

@@ -41,4 +41,4 @@ foreach (NSArchiveListItem i in result) {
 ```
 
 <!-- Referenced links -->
-[1]: follow-ups/appointment.md
+[1]: ../follow-ups/appointment.md

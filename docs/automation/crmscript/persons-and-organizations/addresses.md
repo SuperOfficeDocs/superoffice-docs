@@ -100,6 +100,12 @@ contact.SetAddress(address);
 contactAgent.SaveContactEntity(contact);
 ```
 
+## Helper class
+
+Our friends over at Ganske Enkelt have been kind enough to share CRMScript code similar to the [NetServer C# code][3] that you can incorporate into your own Customer Service solutions.
+
+[!include[ALT](includes/address-helper.md)]
+
 ## Reference
 
 ### NSLocalizedField properties
@@ -145,6 +151,7 @@ There are 2 separate groups of fields, 1 for person and 1 for company (contact).
 <!-- Referenced links -->
 [1]: company.md
 [2]: customer.md
+[3]: https://github.com/SuperOfficeDocs/data-access/blob/main/docs/globalization-and-localization/address/addresshelper.md
 
 <!-- Referenced images -->
 [img1]: media/NSLocalizedAddress.png
