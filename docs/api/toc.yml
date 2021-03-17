@@ -55,6 +55,8 @@ items:
     href: authentication/anonymous-vs-external-user.md
   - name: Auth and soap calls
     href: authentication/auth-and-soap-calls.md
+  - name: Authentication
+    href: authentication/authentication.md
   - name: Auth in 7
     href: authentication/auth-in-7.md
   - name: Config anonymous user
@@ -69,6 +71,8 @@ items:
     href: authentication/plugins.md
   - name: Terminology
     href: authentication/terminology.md
+  - name: Users and associates
+    href: authentication/users-and-associates.md
   - name: What is username
     href: authentication/what-is-username.md
   - name: In web api
@@ -339,8 +343,10 @@ items:
     - name: Update
       href: documents/services/update.md
 - name: Entities
-  href: entities/collections.md
+  href: entities/activity-links.md
   items:
+  - name: Activity links
+    href: entities/activity-links.md
   - name: Collections
     href: entities/collections.md
   - name: Create entity
@@ -433,8 +439,10 @@ items:
     - name: Show fields in gui or search
       href: erp-connectors/search-and-gui/show-fields-in-gui-or-search.md
 - name: Foreign keys
-  href: foreign-keys/foreignkey.md
+  href: foreign-keys/erp-integration.md
   items:
+  - name: Erp integration
+    href: foreign-keys/erp-integration.md
   - name: Foreignkey
     href: foreign-keys/foreignkey.md
   - name: Set and get
@@ -946,8 +954,10 @@ items:
       - name: Search saint values sql
         href: sales/saint/sql/search-saint-values-sql.md
 - name: Search
-  href: search/index.md
+  href: search/full-text-search.md
   items:
+  - name: Full text search
+    href: search/full-text-search.md
   - name: Iarchiveagent
     href: search/iarchiveagent/iarchiveagent.md
     items:
@@ -1027,6 +1037,13 @@ items:
         href: search/selection/sql/add-person-to-selection.md
       - name: Create dynamic sql
         href: search/selection/sql/create-dynamic-sql.md
+- name: Security
+  href: security/encryption.md
+  items:
+  - name: Encryption
+    href: security/encryption.md
+  - name: Role based
+    href: security/role-based.md
 - name: Sentry
   href: sentry/index.md
   items:
@@ -1448,6 +1465,8 @@ items:
     href: whats-new/85-breaking-changes.md
   - name: 91 r 3 date time changes
     href: whats-new/91-r-3-date-time-changes.md
+  - name: Datetime
+    href: whats-new/datetime.md
   - name: Ns 30
     href: whats-new/ns-30.md
   - name: Ns 31

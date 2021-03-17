@@ -24,6 +24,26 @@ Below is a screenshot of the task panel for the above selection.
 
 As shown, you can send an email to all the persons listed in the selection, or you can select one or many persons you want to send the email to from the selection member list.
 
+## Different types of selections
+
+* Companies/Contacts
+* Sales
+* Project
+* Follow-ups
+* Documents
+  * Tasks depending on type and selection
+  * Categories of selections
+  * Both dynamic and static
+  * Always a contact archive
+  * Group edit
+  * Navigate selection
+
+* Work efficient with collections of different entities
+* "Transforming selections"
+* Closer connection between search and selections
+* Use selections as an overview and grouping of activities etc
+* Power features on groups of entities
+
 ## Static or dynamic?
 
 A Selection can be updated either on the fly, called **dynamic**, whereas the rests are called **static**.
