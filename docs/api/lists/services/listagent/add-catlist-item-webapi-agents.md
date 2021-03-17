@@ -1,8 +1,7 @@
 ---
-# Mandatory fields.
-title: add_catlist_item       # (Required) Very important for SEO.
-description: Add a category list item # (Required) Important for SEO.
-author: {github-id}             # Your GitHub alias.
+title: add_catlist_item_listagent
+description: Add a category list item using WebAPI agents
+author: {github-id}
 keywords: category, contact, webapi,agents
 so.topic: howto          # article, howto, reference, concept, guide
 

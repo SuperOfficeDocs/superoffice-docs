@@ -1,8 +1,7 @@
 ---
-# Mandatory fields.
-title: get_category_list_categoryrows       # (Required) Very important for SEO.
-description: Get the CategoryList via CategoryRows object  # (Required) Important for SEO.
-author: {github-id}             # Your GitHub alias.
+title: get_category_list_categoryrows
+description: Get the CategoryList via CategoryRows object
+author: {github-id}
 so.date: 05.11.2016
 keywords: category, rows
 so.topic: howto            # article, howto, reference, concept, guide

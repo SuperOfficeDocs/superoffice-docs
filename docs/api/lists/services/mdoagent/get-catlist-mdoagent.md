@@ -1,7 +1,6 @@
 ---
-# Mandatory fields.
-title: get_category_list_mdoagent       # (Required) Very important for SEO.
-description: Get a CategoryList through the MDO Agent  # (Required) Important for SEO.
+title: get_category_list_mdoagent
+description: Get a CategoryList through the MDO Agent
 author: {github-id}             # Your GitHub alias.
 so.date: 
 keywords: category, MDO agent

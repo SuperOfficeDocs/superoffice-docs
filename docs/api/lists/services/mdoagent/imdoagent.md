@@ -1,5 +1,4 @@
 ---
-# Mandatory fields.
 title: imdoagent
 description: IMDOAgent
 author: {github-id}             # Your GitHub alias.
@@ -75,7 +74,7 @@ SelectableMDOListItem[] personList = mdoAgent.GetSelectableList("person", false,
 
 ## Example 2
 
-This example use a few of the MDOAgent's methods.
+This example uses a few of the MDOAgent's methods.
 
 ```csharp
 using SuperOffice.CRM.Services;
@@ -101,4 +100,4 @@ using (SoSession mySession = SoSession.Authenticate("SAL0", ""))
 Here we retrieve the country list according to a restriction that we have set. We have told NetServer to give us all the countries that start with the letter A.
 
 <!-- Referenced links -->
-[1]: ilistagent.md
+[1]: ../listagent/ilistagent.md

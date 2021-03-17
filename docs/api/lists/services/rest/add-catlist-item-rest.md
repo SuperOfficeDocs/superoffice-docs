@@ -1,8 +1,7 @@
 ---
-# Mandatory fields.
-title: add_catlist_item       # (Required) Very important for SEO.
-description: Add a category list item # (Required) Important for SEO.
-author: {github-id}             # Your GitHub alias.
+title: add_catlist_item_rest
+description: Add a category list item
+author: {github-id}
 keywords: category,contact,rest
 so.topic: howto           # article, howto, reference, concept, guide
 so.date:
@@ -12,7 +11,7 @@ so.date:
 # so.client:                    # online, web, win, pocket, or mobile
 ---
 
-# Add a category list item
+# Add a category list item using REST
 
 ```javascript
 var item = {}

@@ -1,8 +1,7 @@
 ---
-# Mandatory fields.
 title: ilistagent
 description: IListAgent
-author: {github-id}             # Your GitHub alias.
+author: {github-id}
 keywords: list,agent
 so.topic: concept                # article, howto, reference, concept, guide
 so.date:
@@ -18,9 +17,9 @@ so.area: api-services
 
 As the name implies, the `ListAgent` is the agent that provides us with **all the named lists**. This agent API consists of methods that are named the same as the list that is returned by the method.
 
-## Get complete list
+## Get the complete list
 
-The advantage of using this agent is that it is very straight-forward to use since all we have to do is choosing the correct method, and then the method will return us the list with no added work. Below are some of the methods that this API provides.
+The advantage of using this agent is that it is very straightforward to use since all we have to do is choosing the correct method, and then the method will return us the list with no added work. Below are some of the methods that this API provides.
 
 * GetCountries
 * GetBusinesses
@@ -31,7 +30,18 @@ The advantage of using this agent is that it is very straight-forward to use sin
 * GetProjectTypes
 * GetReasons
 
-## Get list item
+```csharp
+using(SoSession.Authenticate("SAL1" , ""))
+{
+  using(ListAgent agent = new ListAgent())
+  {
+    Category[] carrier = agent.GetCategories();
+    Assert.AreEqual( 10, carrier.Length, "Returns the wrong number of list items." );
+  }
+}
+```
+
+## Get a specific list item
 
 The above list is an example of one type of method that this API provides. There is another type of method that this API provides and they are methods that we can use to retrieve a single entry of a given list by providing the unique identifier of the list as a parameter. For example, we can get a specific country by using the method `GetCountry` and providing the country ID as the parameter. Below is a list of such methods that correspond to the above list of methods.
 
@@ -43,6 +53,18 @@ The above list is an example of one type of method that this API provides. There
 * GetDepartment
 * GetProjectType
 * GetReason
+
+```csharp
+SoSession.Authenticate("SAL1" , "");
+using(ListAgent agent = new ListAgent())
+{
+  Business business = agent.GetBusiness(2);
+
+  Assert.AreEqual( 2, business.Id, "Business.Id has wrong value" );
+  Assert.AreEqual( "Bank/Finans", business.Value, "Business.Value has wrong value" );
+  Assert.AreEqual( "", business.Tooltip, "Business.Tooltip has wrong value" );
+ }
+```
 
 ## Example
 

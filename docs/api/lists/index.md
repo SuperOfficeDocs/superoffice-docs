@@ -23,6 +23,6 @@ In NetServer a list is a set of data presented as an object that can be directly
 * Services layer: [IListAgent][2] and [IMDOAgent][3]
 
 <!-- Referenced links -->
-[1]: providers/index.md
-[2]: agents/ilistagent.md
-[3]: agents/imdoagent.md
+[1]: entity/index.md
+[2]: services/listagent/ilistagent.md
+[3]: services/mdoagent/imdoagent.md

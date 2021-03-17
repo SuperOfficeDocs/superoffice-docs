@@ -497,57 +497,52 @@ items:
     - name: Translate strings
       href: globalization-and-localization/language/translate-strings.md
 - name: Lists
-  href: lists/index.md
+  href: lists/category-list.md
   items:
-  - name: Agents
-    href: lists/agents/get-set-category.md
-    items:
-    - name: Get set category
-      href: lists/agents/get-set-category.md
-    - name: Ilistagent
-      href: lists/agents/ilistagent.md
-    - name: Imdoagent
-      href: lists/agents/imdoagent.md
-    - name: Show countrylist in combobox
-      href: lists/agents/show-countrylist-in-combobox.md
-  - name: Category
-    href: lists/category/add-catlist-item-rest.md
-    items:
-    - name: Add catlist item rest
-      href: lists/category/add-catlist-item-rest.md
-    - name: Add catlist item webapi agents
-      href: lists/category/add-catlist-item-webapi-agents.md
-    - name: Get catlist categoryrows
-      href: lists/category/get-catlist-categoryrows.md
-    - name: Get catlist generic provider
-      href: lists/category/get-catlist-generic-provider.md
-    - name: Get catlist listagent
-      href: lists/category/get-catlist-listagent.md
-    - name: Get catlist mdoagent
-      href: lists/category/get-catlist-mdoagent.md
-    - name: Get catlist sodatareader
-      href: lists/category/get-catlist-sodatareader.md
-    - name: Get catlist typed provider
-      href: lists/category/get-catlist-typed-provider.md
-  - name: Providers
-    href: lists/providers/add-list-item.md
+  - name: Category list
+    href: lists/category-list.md
+  - name: Mdo lists
+    href: lists/mdo-lists.md
+  - name: Entity
+    href: lists/entity/add-list-item.md
     items:
     - name: Add list item
-      href: lists/providers/add-list-item.md
+      href: lists/entity/add-list-item.md
     - name: Associate list and cache
-      href: lists/providers/associate-list-and-cache.md
+      href: lists/entity/associate-list-and-cache.md
     - name: Create list plugin
-      href: lists/providers/create-list-plugin.md
+      href: lists/entity/create-list-plugin.md
     - name: Generic list
-      href: lists/providers/generic-list.md
+      href: lists/entity/generic-list.md
+    - name: Get catlist generic provider
+      href: lists/entity/get-catlist-generic-provider.md
+    - name: Get catlist typed provider
+      href: lists/entity/get-catlist-typed-provider.md
     - name: Get list
-      href: lists/providers/get-list.md
+      href: lists/entity/get-list.md
     - name: Group view
-      href: lists/providers/group-view.md
+      href: lists/entity/group-view.md
     - name: Typed list
-      href: lists/providers/typed-list.md
+      href: lists/entity/typed-list.md
     - name: Udef list
-      href: lists/providers/udef-list.md
+      href: lists/entity/udef-list.md
+  - name: Osql
+    href: lists/osql/get-catlist-sodatareader.md
+    items:
+    - name: Get catlist sodatareader
+      href: lists/osql/get-catlist-sodatareader.md
+  - name: Row
+    href: lists/row/get-catlist-categoryrows.md
+    items:
+    - name: Get catlist categoryrows
+      href: lists/row/get-catlist-categoryrows.md
+  - name: Sql
+    href: lists/sql/add-list-item-sql.md
+    items:
+    - name: Add list item sql
+      href: lists/sql/add-list-item-sql.md
+    - name: Get catlist sql
+      href: lists/sql/get-catlist-sql.md
 - name: Netserver
   href: netserver/index.md
   items:

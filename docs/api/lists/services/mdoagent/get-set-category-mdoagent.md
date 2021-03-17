@@ -1,8 +1,7 @@
 ---
-# Mandatory fields.
-title: listagent_example_2
+title: get_set_category_mdoagent
 description: How to get the category list and set Contact.Category from combo box
-author: {github-id}             # Your GitHub alias.
+author: {github-id}
 keywords: 
 so.topic: howto                # article, howto, reference, concept, guide
 so.date:
@@ -14,7 +13,7 @@ so.area: api-services
 # so.client:                    # online, web, win, pocket, or mobile
 ---
 
-# How to get the category list and set category on contact
+# How to get the category list and set category on a contact
 
 Here we have used 2 events to get the job done. We have used one event to populate the control with categories from the list that we have retrieved and the second one for setting the category of the contact and saving the entity.
 

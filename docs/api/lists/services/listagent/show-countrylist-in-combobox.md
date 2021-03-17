@@ -1,8 +1,7 @@
 ---
-# Mandatory fields.
 title: listagent_example_1
 description: Show list data in UI combo box using a ListAgent
-author: {github-id}             # Your GitHub alias.
+author: {github-id}
 keywords: 
 so.topic: howto                # article, howto, reference, concept, guide
 so.date:
@@ -16,7 +15,7 @@ so.area: api-services
 
 # Show list data in UI combo box
 
-The below example demonstrates how we can show the data in a combo box using the NetServer provided lists.  
+The below example demonstrates how we can show the data in a combo box using the NetServer provided lists.
 
 ```csharp
 using SuperOffice.CRM.Services;

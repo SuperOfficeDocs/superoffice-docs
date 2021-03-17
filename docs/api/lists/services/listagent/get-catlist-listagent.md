@@ -1,8 +1,7 @@
 ---
-# Mandatory fields.
-title: get_category_list_listagent       # (Required) Very important for SEO.
-description: Get a CategoryList through ListAgent  # (Required) Important for SEO.
-author: {github-id}             # Your GitHub alias.
+title: get_category_list_listagent
+description: Get a CategoryList through ListAgent
+author: {github-id}
 so.date: 
 keywords: category,list agent
 so.topic: howto            # article, howto, reference, concept, guide
