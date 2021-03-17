@@ -1,9 +1,6 @@
 ---
-# This basic template provides core metadata fields for Markdown articles on docs.superoffice.com.
-
-# Mandatory fields.
-title: changes_75_to_80       # (Required) Very important for SEO. Intent in a unique string of 43-59 chars including spaces.
-description: Changes in SuperOffice from 7.5 to 8.0 # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
+title: changes_75_to_80
+description: Changes in SuperOffice from 7.5 to 8.0
 author: {github-id}             # Your GitHub alias.
 keywords: database
 so.topic: reference              # article, howto, reference, concept, guide
@@ -17,14 +14,14 @@ so.envir: onsite           # cloud or onsite
 
 ## New tables
 
-### Favourites
+### Favorites
 
 | Field | Type | Description |
 |---|---|---|
 | `id` | int | Primary key |
 | `table_id` | short | SuperOffice table reference |
 | `record_id` | int | Record in the referenced table |
-| `associate_id` |  int | The user who has marked this favourited |
+| `associate_id` |  int | The user who has marked this favorited |
 | `extra_info[255]` | nvarchar | Optional extra information |
 | `registered` | DateTime | Registered datetime |
 | `registered_by` | int | Registered by whom |

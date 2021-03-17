@@ -1,37 +1,6 @@
 items:
-- name: Overview
-  href: index.md
-- name: Contact
-  href: contact/index.md
-  items:
-  - name: Add contact
-    href: contact/add-contact.md
-  - name: Get contact details
-    href: contact/get-contact-details.md
-  - name: Interests
-    href: contact/interests.md
-  - name: Putting together a company
-    href: contact/putting-together-a-company.md
-- name: Custom fields
-  href: custom-fields/index.md
-  items:
-  - name: Set udef
-    href: custom-fields/set-udef.md
-  - name: User defined fields
-    href: custom-fields/user-defined-fields.md
-- name: Diary
-  href: diary/index.md
-  items:
-  - name: Accept invitation
-    href: diary/accept-invitation.md
-  - name: Create appointment
-    href: diary/create-appointment.md
-  - name: Create invitation
-    href: diary/create-invitation.md
-  - name: Recurring appointments
-    href: diary/recurring-appointments.md
 - name: Dictionary
-  href: dictionary/index.md
+  href: dictionary/custompriming-method.md
   items:
   - name: Custompriming method
     href: dictionary/custompriming-method.md
@@ -46,7 +15,7 @@ items:
   - name: Structure method
     href: dictionary/structure-method.md
 - name: Getting started
-  href: getting-started/index.md
+  href: getting-started/activity-links.md
   items:
   - name: Activity links
     href: getting-started/activity-links.md
@@ -66,78 +35,15 @@ items:
     href: getting-started/special-tables.md
   - name: Table id sequence
     href: getting-started/table-id-sequence.md
-- name: Lists
-  href: lists/index.md
-  items:
-  - name: Add list item
-    href: lists/add-list-item.md
-  - name: Get categories
-    href: lists/get-categories.md
-  - name: Mdo lists
-    href: lists/mdo-lists.md
-- name: Person
-  href: person/index.md
-  items:
-  - name: Add person picture blobs
-    href: person/add-person-picture-blobs.md
-  - name: Get persons from contact
-    href: person/get-persons-from-contact.md
-  - name: Update person
-    href: person/update-person.md
-- name: Project
-  href: project/index.md
-  items:
-  - name: Add project
-    href: project/add-project.md
-  - name: Project guide
-    href: project/project-guide.md
-  - name: Project tables
-    href: project/project-tables.md
-  - name: Project type and url
-    href: project/project-type-and-url.md
-  - name: Text table
-    href: project/text-table.md
-- name: Sales
-  href: sales/index.md
-  items:
-  - name: Stakeholders
-    href: sales/stakeholders.md
-  - name: Saint
-    href: sales/saint/index.md
-    items:
-    - name: Counters
-      href: sales/saint/counters.md
-    - name: Get contact by saint value
-      href: sales/saint/get-contact-by-saint-value.md
-    - name: Search saint values
-      href: sales/saint/search-saint-values.md
-    - name: Values
-      href: sales/saint/values.md
-- name: Search
-  href: search/index.md
-  items:
-  - name: Selection
-    href: search/selection/index.md
-    items:
-    - name: Add person to selection
-      href: search/selection/add-person-to-selection.md
-    - name: Create dynamic sel
-      href: search/selection/create-dynamic-sel.md
-    - name: Dynamic selections
-      href: search/selection/dynamic-selections.md
 - name: Security
   href: security/index.md
   items:
-  - name: Override sentry example
-    href: security/override-sentry-example.md
   - name: Role based
     href: security/role-based.md
-  - name: Sentry
-    href: security/sentry.md
   - name: Users and associates
     href: security/users-and-associates.md
 - name: Tables
-  href: tables/index.md
+  href: tables/access-script.md
   items:
   - name: Access script
     href: tables/access-script.md
@@ -1079,7 +985,7 @@ items:
   - name: Transaction log
     href: travel/transaction-log.md
 - name: User preferences
-  href: user-preferences/index.md
+  href: user-preferences/add-prefdesc.md
   items:
   - name: Add prefdesc
     href: user-preferences/add-prefdesc.md
@@ -1124,7 +1030,7 @@ items:
   - name: Visual
     href: user-preferences/visual.md
 - name: Whats new
-  href: whats-new/index.md
+  href: whats-new/changes-6-7.md
   items:
   - name: Changes 6 7
     href: whats-new/changes-6-7.md
@@ -1137,7 +1043,7 @@ items:
   - name: Changes 81
     href: whats-new/changes-81.md
   - name: Changes in 7
-    href: whats-new/changes-in-7/index.md
+    href: whats-new/changes-in-7/authentication.md
     items:
     - name: Authentication
       href: whats-new/changes-in-7/authentication.md

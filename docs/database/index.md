@@ -1,10 +1,7 @@
 ---
-# This basic template provides core metadata fields for Markdown articles on docs.superoffice.com.
-
-# Mandatory fields.
-title: database       # (Required) Very important for SEO. Intent in a unique string of 43-59 chars including spaces.
-description: SuperOffice database documentation # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
-author: {github-id}             # Your GitHub alias.
+title: database
+description: SuperOffice database documentation
+author: {github-id}
 keywords:
 so.topic: generic                # article, howto, reference, concept, guide
 so.date: 05.11.2016
@@ -42,86 +39,12 @@ It is also important to know basic SQL.
 
 ## Topics
 
-### A
-
-### B
-
-### C
-
-* [Company and contact](contact/index.md)
-* [Custom fields](custom-fields/index.md)
-
-### D
-
 * [Data dictionary](dictionary/index.md)
-* [Diary](diary/index.md)
-* [Documents](documents/index.md)
-
-### E
-
-### F
-
-### G
-
-* [Getting started](getting-started/index.md)
-
-### H
-
-### I
-
-### J
-
-### K
-
-### L
-
-* [Lists](lists/index.md)
-### M
-
-### N
-
-### O
-
-### P
-
-* [Project](project/index.md)
-
-### Q
-
-* [Quote](quote/index.md)
-
-### R
-
-* [Request Management](request-management/index.md)
-
-### S
-
-* [Saint / Sales Intelligence](sales/saint/index.md)
-* [Sale](sales/index.md)
-* [Search](search/index.md)
-* [Selection](search/selection/index.md)
+* [Getting started][2]
 * [Security](security/index.md)
-* [Service](service/index.md)
-
-### T
-
 * [Travel](travel/index.md)
-
-### U
-
 * [User preference](user-preferences/index.md)
-
-### V
-
-### W
-
-* [What's new](whats-new/index.md)
-
-### X
-
-### Y
-
-### Z
+* [What's new][1]
 
 <!-- Referenced links -->
 [1]: whats-new/index.md

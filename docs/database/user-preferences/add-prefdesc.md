@@ -3,12 +3,12 @@ uid: guidePrefDesc
 title: Add your own preferences
 ---
 
-It's possible to add your own preferences to the database so they appear as they where builtin. See the [PrefDesc table][1] info for values needed.
+It's possible to add your own preferences to the database so they appear as they were built in. See the [PrefDesc table][1] info for values needed.
 
 | ValueType | Description |
 |-----------|-------------|
 | 4 | It would find a list of the allowed values in `PrefDescLine` with the `prefdescline.prefdesc_id=prefdesc.prefdesc_id`|
-| 5 | maxvalue points to the tablenumber of the list in question. Like 2 for associate |
+| 5 | maxvalue points to the table number of the list in question. Like 2 for associate |
 | 0 | A heading, like if you want to add your own preference section named "My own preference" preferences, you add the following (use HakonClient to insert) |
 
 ```SQL
@@ -23,7 +23,7 @@ Accessflags here is what makes it appear in the different clients.
 
 So, if `accessflags = 15`, then it should appear in (wizardmode)1 + (General admin) 2 +  (admin client) 4 + (CRM client) 8
 
-This is the preferences in SOAdmin
+This are the preferences in SOAdmin
 
 ![x][img2]
 
