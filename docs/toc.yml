@@ -1,10 +1,56 @@
 items:
-- name: Overview
-  href: index.md
+- name: Admin
+  href: admin/index.md
+  items:
+  - name: User preferences
+    href: admin/user-preferences/add-prefdesc.md
+    items:
+    - name: Add prefdesc
+      href: admin/user-preferences/add-prefdesc.md
+    - name: Appointment dialog
+      href: admin/user-preferences/appointment-dialog.md
+    - name: Associates
+      href: admin/user-preferences/associates.md
+    - name: Cripple
+      href: admin/user-preferences/cripple.md
+    - name: Defaults
+      href: admin/user-preferences/defaults.md
+    - name: Diary view
+      href: admin/user-preferences/diary-view.md
+    - name: Field labels
+      href: admin/user-preferences/field-labels.md
+    - name: Field replication
+      href: admin/user-preferences/field-replication.md
+    - name: Filter
+      href: admin/user-preferences/filter.md
+    - name: Find contact
+      href: admin/user-preferences/find-contact.md
+    - name: Freetext
+      href: admin/user-preferences/freetext.md
+    - name: Functions
+      href: admin/user-preferences/functions.md
+    - name: Mail
+      href: admin/user-preferences/mail.md
+    - name: Netservices
+      href: admin/user-preferences/netservices.md
+    - name: Numbering
+      href: admin/user-preferences/numbering.md
+    - name: Phone
+      href: admin/user-preferences/phone.md
+    - name: Scripting
+      href: admin/user-preferences/scripting.md
+    - name: Sorting
+      href: admin/user-preferences/sorting.md
+    - name: System
+      href: admin/user-preferences/system.md
+    - name: Travel
+      href: admin/user-preferences/travel.md
+    - name: Visual
+      href: admin/user-preferences/visual.md
 - name: Ai services
   href: ai-services/index.md
 - name: Apps
-  href: apps/index.md
+  href: apps/activate-custom-app.md
   items:
   - name: Activate custom app
     href: apps/activate-custom-app.md
@@ -61,7 +107,7 @@ items:
   - name: What api to use
     href: apps/what-api-to-use.md
   - name: Certification
-    href: apps/certification/index.md
+    href: apps/certification/certify-app.md
     items:
     - name: Certify app
       href: apps/certification/certify-app.md
@@ -74,19 +120,19 @@ items:
     - name: Watchcom testimonials
       href: apps/certification/watchcom-testimonials.md
   - name: Provisioning
-    href: apps/provisioning/index.md
+    href: apps/provisioning/example.md
     items:
     - name: Example
       href: apps/provisioning/example.md
   - name: Redirects
-    href: apps/redirects/index.md
+    href: apps/redirects/add-update.md
     items:
     - name: Add update
       href: apps/redirects/add-update.md
     - name: Endpoint types
       href: apps/redirects/endpoint-types.md
   - name: Requirements
-    href: apps/requirements/index.md
+    href: apps/requirements/business.md
     items:
     - name: Business
       href: apps/requirements/business.md
@@ -101,7 +147,7 @@ items:
     - name: Technical
       href: apps/requirements/technical.md
   - name: Tenant status
-    href: apps/tenant-status/index.md
+    href: apps/tenant-status/approval-sequence.md
     items:
     - name: Approval sequence
       href: apps/tenant-status/approval-sequence.md
@@ -118,14 +164,14 @@ items:
     - name: Online tenant status
       href: apps/tenant-status/online-tenant-status.md
   - name: Validation
-    href: apps/validation/index.md
+    href: apps/validation/checklist.md
     items:
     - name: Checklist
       href: apps/validation/checklist.md
     - name: Validate app
       href: apps/validation/validate-app.md
 - name: Authentication
-  href: authentication/index.md
+  href: authentication/access-token.md
   items:
   - name: Access token
     href: authentication/access-token.md
@@ -154,7 +200,7 @@ items:
   - name: Superid token
     href: authentication/superid-token.md
   - name: Certificates
-    href: authentication/certificates/index.md
+    href: authentication/certificates/add-certificate-snap-in.md
     items:
     - name: Add certificate snap in
       href: authentication/certificates/add-certificate-snap-in.md
@@ -167,7 +213,7 @@ items:
     - name: Validate security tokens
       href: authentication/certificates/validate-security-tokens.md
   - name: Oidc
-    href: authentication/oidc/index.md
+    href: authentication/oidc/auth-code-flow.md
     items:
     - name: Auth code flow
       href: authentication/oidc/auth-code-flow.md
@@ -188,7 +234,7 @@ items:
     - name: Native apps
       href: authentication/oidc/native-apps.md
   - name: System user
-    href: authentication/system-user/index.md
+    href: authentication/system-user/get-system-user-ticket.md
     items:
     - name: Get system user ticket
       href: authentication/system-user/get-system-user-ticket.md
@@ -203,12 +249,12 @@ items:
     - name: System user token
       href: authentication/system-user/system-user-token.md
 - name: Automation
-  href: automation/index.md
+  href: automation/crmscript.md
   items:
   - name: Crmscript
     href: automation/crmscript.md
   - name: Trigger
-    href: automation/trigger/index.md
+    href: automation/trigger/create-trigger-macro.md
     items:
     - name: Create trigger macro
       href: automation/trigger/create-trigger-macro.md
@@ -219,14 +265,14 @@ items:
     - name: Update value
       href: automation/trigger/update-value.md
   - name: Webhook
-    href: automation/webhook/index.md
+    href: automation/webhook/add-msg-to-ticket-with-github-webhook.md
     items:
     - name: Add msg to ticket with github webhook
       href: automation/webhook/add-msg-to-ticket-with-github-webhook.md
 - name: Custom fields
   href: custom-fields/index.md
 - name: Customer center
-  href: customer-center/index.md
+  href: customer-center/call-script-in-cs-with-ajax.md
   items:
   - name: Call script in cs with ajax
     href: customer-center/call-script-in-cs-with-ajax.md
@@ -239,7 +285,7 @@ items:
   - name: Inline crmscript and custom form
     href: customer-center/inline-crmscript-and-custom-form.md
 - name: Documents
-  href: documents/index.md
+  href: documents/cloud-document-integrations.md
   items:
   - name: Cloud document integrations
     href: documents/cloud-document-integrations.md
@@ -274,7 +320,7 @@ items:
     - name: Troubleshooting
       href: documents/office-365-document-integration/troubleshooting.md
   - name: Ribbons
-    href: documents/ribbons/index.md
+    href: documents/ribbons/enable-debug.md
     items:
     - name: Enable debug
       href: documents/ribbons/enable-debug.md
@@ -329,14 +375,14 @@ items:
       - name: Misc
         href: documents/templates/variables/misc.md
 - name: Email
-  href: email/index.md
+  href: email/curl.md
   items:
   - name: Curl
     href: email/curl.md
   - name: Mailkit
     href: email/mailkit.md
   - name: Mailgun
-    href: email/mailgun/index.md
+    href: email/mailgun/amount-speed.md
     items:
     - name: Amount speed
       href: email/mailgun/amount-speed.md
@@ -347,7 +393,7 @@ items:
     - name: Sub processor info
       href: email/mailgun/sub-processor-info.md
     - name: Dkim
-      href: email/mailgun/dkim/index.md
+      href: email/mailgun/dkim/change-us-to-eu.md
       items:
       - name: Change us to eu
         href: email/mailgun/dkim/change-us-to-eu.md
@@ -361,14 +407,14 @@ items:
       - name: Set up
         href: email/mailgun/spf/set-up.md
   - name: Maillink
-    href: email/maillink/index.md
+    href: email/maillink/changes-in-7-1.md
     items:
     - name: Changes in 7 1
       href: email/maillink/changes-in-7-1.md
     - name: Debug
       href: email/maillink/debug.md
   - name: Superoffice for outlook
-    href: email/superoffice-for-outlook/index.md
+    href: email/superoffice-for-outlook/deploy-centrally.md
     items:
     - name: Deploy centrally
       href: email/superoffice-for-outlook/deploy-centrally.md
@@ -377,7 +423,7 @@ items:
     - name: Requirements
       href: email/superoffice-for-outlook/requirements.md
 - name: Identity management
-  href: identity-management/index.md
+  href: identity-management/federated-id-and-identity-providers.md
   items:
   - name: Federated id and identity providers
     href: identity-management/federated-id-and-identity-providers.md
@@ -394,7 +440,7 @@ items:
   - name: User accounts and roles
     href: identity-management/user-accounts-and-roles.md
   - name: Scim
-    href: identity-management/scim/index.md
+    href: identity-management/scim/activate-deactivate-rules.md
     items:
     - name: Activate deactivate rules
       href: identity-management/scim/activate-deactivate-rules.md
@@ -427,7 +473,7 @@ items:
     - name: User provisioning
       href: identity-management/scim/user-provisioning.md
   - name: Superid
-    href: identity-management/superid/index.md
+    href: identity-management/superid/check-idp-domain.md
     items:
     - name: Check idp domain
       href: identity-management/superid/check-idp-domain.md
@@ -454,7 +500,7 @@ items:
     - name: User accounts and passwords
       href: identity-management/superid/user-accounts-and-passwords.md
   - name: User
-    href: identity-management/user/index.md
+    href: identity-management/user/add-user-in-admin-client.md
     items:
     - name: Add user in admin client
       href: identity-management/user/add-user-in-admin-client.md
@@ -489,7 +535,7 @@ items:
     - name: Recaptcha
       href: marketing/forms/recaptcha.md
 - name: Mirroring
-  href: mirroring/index.md
+  href: mirroring/conceptual-overview-2016.md
   items:
   - name: Conceptual overview 2016
     href: mirroring/conceptual-overview-2016.md
@@ -519,7 +565,7 @@ items:
   href: mobile/index.md
   items:
   - name: Pocket crm
-    href: mobile/pocket-crm/index.md
+    href: mobile/pocket-crm/client-requirements.md
     items:
     - name: Client requirements
       href: mobile/pocket-crm/client-requirements.md
@@ -548,7 +594,7 @@ items:
   - name: Version history
     href: online/version-history.md
   - name: Test environment
-    href: online/test-environment/index.md
+    href: online/test-environment/clone-to-test-envir.md
     items:
     - name: Clone to test envir
       href: online/test-environment/clone-to-test-envir.md
@@ -556,6 +602,8 @@ items:
       href: online/test-environment/copy-database-caution.md
     - name: Production test tenant
       href: online/test-environment/production-test-tenant.md
+    - name: Replace test envir
+      href: online/test-environment/replace-test-envir.md
 - name: Onsite
   href: onsite/index.md
   items:
@@ -570,7 +618,7 @@ items:
   - name: Version history
     href: onsite/version-history.md
   - name: Compatibility
-    href: onsite/compatibility/index.md
+    href: onsite/compatibility/browser.md
     items:
     - name: Browser
       href: onsite/compatibility/browser.md
@@ -606,7 +654,7 @@ items:
     - name: Web config
       href: onsite/config-and-ini/web-config.md
   - name: Crm server
-    href: onsite/crm-server/index.md
+    href: onsite/crm-server/create-ms-sql-server-db.md
     items:
     - name: Create ms sql server db
       href: onsite/crm-server/create-ms-sql-server-db.md
@@ -640,7 +688,7 @@ items:
       - name: Sso
         href: onsite/crm-server/iis-web-server/sso.md
   - name: Security
-    href: onsite/security/index.md
+    href: onsite/security/deployment-scenarios.md
     items:
     - name: Deployment scenarios
       href: onsite/security/deployment-scenarios.md
@@ -655,7 +703,7 @@ items:
     - name: Set up modsecurity
       href: onsite/security/set-up-modsecurity.md
   - name: Service
-    href: onsite/service/index.md
+    href: onsite/service/debug-automated-tasks.md
     items:
     - name: Debug automated tasks
       href: onsite/service/debug-automated-tasks.md
@@ -668,7 +716,7 @@ items:
     - name: Upgrade
       href: onsite/service/upgrade.md
   - name: Web client
-    href: onsite/web-client/index.md
+    href: onsite/web-client/admin.md
     items:
     - name: Admin
       href: onsite/web-client/admin.md
@@ -693,10 +741,12 @@ items:
     - name: Upgrade to 8
       href: onsite/web-client/upgrade-to-8.md
   - name: Win client
-    href: onsite/win-client/index.md
+    href: onsite/win-client/admin.md
     items:
     - name: Admin
       href: onsite/win-client/admin.md
+    - name: Cached tables
+      href: onsite/win-client/cached-tables.md
     - name: Command line switches
       href: onsite/win-client/command-line-switches.md
     - name: Debug
@@ -712,7 +762,7 @@ items:
     - name: Upgrade
       href: onsite/win-client/upgrade.md
 - name: Privacy
-  href: privacy/index.md
+  href: privacy/consent-management.md
   items:
   - name: Consent management
     href: privacy/consent-management.md
@@ -728,12 +778,12 @@ items:
   - name: System templates
     href: reply-templates/system-templates.md
 - name: Search
-  href: search/index.md
+  href: search/expand-quick-search.md
   items:
   - name: Expand quick search
     href: search/expand-quick-search.md
 - name: Service
-  href: service/index.md
+  href: service/config-faq.md
   items:
   - name: Config faq
     href: service/config-faq.md
@@ -745,7 +795,7 @@ items:
     - name: Location
       href: service/attachments/location.md
   - name: Sms
-    href: service/sms/index.md
+    href: service/sms/cm.md
     items:
     - name: Cm
       href: service/sms/cm.md
@@ -762,12 +812,12 @@ items:
     - name: Txtlocal
       href: service/sms/txtlocal.md
 - name: Travel
-  href: travel/index.md
+  href: travel/create-update-prototype.md
   items:
   - name: Create update prototype
     href: travel/create-update-prototype.md
 - name: Video meeting
-  href: video-meeting/index.md
+  href: video-meeting/configure-video-meetings.md
   items:
   - name: Configure video meetings
     href: video-meeting/configure-video-meetings.md
@@ -784,7 +834,7 @@ items:
   - name: Uninstall provider
     href: video-meeting/uninstall-provider.md
 - name: Webtools
-  href: webtools/index.md
+  href: webtools/background.md
   items:
   - name: Background
     href: webtools/background.md

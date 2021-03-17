@@ -1,10 +1,7 @@
 ---
-# This basic template provides core metadata fields for Markdown articles on docs.superoffice.com.
-
-# Mandatory fields.
-title: dbsetup_exe # (Required) Very important for SEO. Intent in a unique string of 43-59 chars including spaces.
-description: DBSetup.exe - Database maintenance # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
-author: {github-id} # Your GitHub alias.
+title: dbsetup_exe
+description: DBSetup.exe - Database maintenance
+author: {github-id}
 keywords:
 so.topic: article # article, howto, reference, concept, guide
 
@@ -19,11 +16,19 @@ Earlier versions of DBSetup may differ a bit in the user interface, but the basi
 
 See also the [SoTables.ini info][1] - but with CDD note that the priming data provided by SuperOffice are no longer packaged as individual files; this function is only intended for adding new data specific to a customer or partner feature.
 
-Since SuperOffice 8.1 DBSetup is able to create a Database.log file.
+Since SuperOffice 8.1 DBSetup can create a *Database.log* file.
 
 ![Database maintenance client ][img1]
 
-## Rebuild (copy) a database, any 8.1+ version; no version change
+DbSetup/ServerSetup will create all tables, both SuperOffice and Service. Also, Service needs to tweak them a little, with its setup program.
+
+DbSetup will export & import all standard tables & fields for both products.
+
+DbSetup does not see extra tables and extra fields. We will have a separate solution for that. Service has its own dictionary and way of specifying extension fields and tables. The C++ code is not very fond of dynamically-changing tables and we have chosen to "not go there" in this first release.
+
+The new "dynamic" archive provider in NetServer does see these fields & tables. NetServer is inherently designed to be more flexible, so it sees all the new fields and tables with no problems.  However, the web service APIs are still fairly static, and transporting new data there presents a challenge. On the main entities, this is solved using the existing name/value extrafields dictionary.
+
+## Rebuild (copy) a database, any 8.1+ version, no version change
 
 Make a copy of an existing 8.1+ database on another database server. The source database will not be changed.
 
