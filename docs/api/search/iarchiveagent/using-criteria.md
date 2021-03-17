@@ -1,5 +1,4 @@
 ---
-# Mandatory fields.
 title: iarchiveagent_multi_criteria
 description: How to use multiple criteria with the IArchiveAgent
 author: {github-id}             # Your GitHub alias.

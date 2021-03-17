@@ -504,10 +504,8 @@ items:
   - name: Mdo lists
     href: lists/mdo-lists.md
   - name: Entity
-    href: lists/entity/add-list-item.md
+    href: lists/entity/associate-list-and-cache.md
     items:
-    - name: Add list item
-      href: lists/entity/add-list-item.md
     - name: Associate list and cache
       href: lists/entity/associate-list-and-cache.md
     - name: Create list plugin
@@ -532,8 +530,10 @@ items:
     - name: Get catlist sodatareader
       href: lists/osql/get-catlist-sodatareader.md
   - name: Row
-    href: lists/row/get-catlist-categoryrows.md
+    href: lists/row/add-list-item.md
     items:
+    - name: Add list item
+      href: lists/row/add-list-item.md
     - name: Get catlist categoryrows
       href: lists/row/get-catlist-categoryrows.md
   - name: Sql
@@ -988,24 +988,45 @@ items:
     - name: Using filters
       href: search/odata/using-filters.md
   - name: Selection
-    href: search/selection/add-member-to-static-selection-entities.md
+    href: search/selection/dynamic-selections.md
     items:
-    - name: Add member to static selection entities
-      href: search/selection/add-member-to-static-selection-entities.md
-    - name: Add member to static selection osql
-      href: search/selection/add-member-to-static-selection-osql.md
-    - name: Add member to static selection services
-      href: search/selection/add-member-to-static-selection-services.md
-    - name: Create dynamic entity
-      href: search/selection/create-dynamic-entity.md
-    - name: Create dynamic services
-      href: search/selection/create-dynamic-services.md
-    - name: Get selection members entity
-      href: search/selection/get-selection-members-entity.md
-    - name: Get selection members provider
-      href: search/selection/get-selection-members-provider.md
-    - name: Get selection members services
-      href: search/selection/get-selection-members-services.md
+    - name: Dynamic selections
+      href: search/selection/dynamic-selections.md
+    - name: Archive
+      href: search/selection/archive/get-selection-members-provider.md
+      items:
+      - name: Get selection members provider
+        href: search/selection/archive/get-selection-members-provider.md
+    - name: Entity
+      href: search/selection/entity/add-member-to-static-selection-entities.md
+      items:
+      - name: Add member to static selection entities
+        href: search/selection/entity/add-member-to-static-selection-entities.md
+      - name: Create dynamic entity
+        href: search/selection/entity/create-dynamic-entity.md
+      - name: Get selection members entity
+        href: search/selection/entity/get-selection-members-entity.md
+    - name: Osql
+      href: search/selection/osql/add-member-to-static-selection-osql.md
+      items:
+      - name: Add member to static selection osql
+        href: search/selection/osql/add-member-to-static-selection-osql.md
+    - name: Services
+      href: search/selection/services/add-member-to-static-selection-services.md
+      items:
+      - name: Add member to static selection services
+        href: search/selection/services/add-member-to-static-selection-services.md
+      - name: Create dynamic services
+        href: search/selection/services/create-dynamic-services.md
+      - name: Get selection members services
+        href: search/selection/services/get-selection-members-services.md
+    - name: Sql
+      href: search/selection/sql/add-person-to-selection.md
+      items:
+      - name: Add person to selection
+        href: search/selection/sql/add-person-to-selection.md
+      - name: Create dynamic sql
+        href: search/selection/sql/create-dynamic-sql.md
 - name: Sentry
   href: sentry/distinct-and-sentry.md
   items:

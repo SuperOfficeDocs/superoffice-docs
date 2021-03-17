@@ -1,8 +1,7 @@
 ---
-# Mandatory fields.
-title: dump_result       # (Required) Very important for SEO.
-description: DumpResult helper method # (Required) Important for SEO.
-author: {github-id}             # Your GitHub alias.
+title: dump_result
+description: DumpResult helper method
+author: {github-id}
 so.date: 06.24.2016
 keywords:
 so.topic: howto            # article, howto, reference, concept, guide

@@ -1,5 +1,4 @@
 ---
-# Mandatory fields.
 title: iarchiveagent 
 description: IArchiveAgent
 author: {github-id}             # Your GitHub alias.

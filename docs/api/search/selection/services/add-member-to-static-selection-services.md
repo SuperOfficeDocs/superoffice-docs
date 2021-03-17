@@ -1,7 +1,6 @@
 ---
-# Mandatory fields.
-title: add_members_static_selection_services      # (Required) Very important for SEO.
-description: How to add members to a static selection using services # (Required) Important for SEO.
+title: add_members_static_selection_services
+description: How to add members to a static selection using services
 author: {github-id}             # Your GitHub alias.
 so.date: 05.11.2016
 keywords: search,services
@@ -12,7 +11,7 @@ so.topic: howto            # article, howto, reference, concept, guide
 # so.client:                    # online, web, win, pocket, or mobile
 ---
 
-# How to add members to a static selection using services layer
+# How to add members to a static selection using the services layer
 
 ## Example 1
 
@@ -24,9 +23,9 @@ We have used the `AddConactSelectionMembers` method of the selection agent to ad
 
 ## Example 2
 
-Below is an example that shows how we can add members from different contacts to a static selection. Here we hard code the contact\_ids and person\_ids
+Below is an example that shows how we can add members from different contacts to a static selection. Here we hard code the `contact_id` and `person_id`.
 
 [!code-csharp[CS](includes/add-to-static-services-1.cs)]
 
 > [!NOTE]
-> We have given the `Contact_id` and the `Person_id` to each element of the `ContactPersonId` array. It is very important that we always give the number of a person belonging to the contact that we specify for that element. For example, in the `person` table, the person with `person_id=83` must have a `person.contact_id=35`.
+> We have given the `Contact_id` and the `Person_id` to each element of the `ContactPersonId` array. **Always give the number of a person** belonging to the contact that we specify for that element. For example, in the `person` table, the person with `person_id=83` must have a `person.contact_id=35`.

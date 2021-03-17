@@ -1,5 +1,4 @@
 ---
-# Mandatory fields.
 title: ifindagent_multi_criteria
 description: How to use multiple criteria with the IFindAgent
 author: {github-id}             # Your GitHub alias.

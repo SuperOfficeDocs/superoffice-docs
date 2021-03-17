@@ -1,7 +1,6 @@
 ---
-# Mandatory fields.
-title: get_selection_members_entity      # (Required) Very important for SEO.
-description: How to retrieve members of a specific selection using entities # (Required) Important for SEO.
+title: get_selection_members_entity
+description: How to retrieve members of a specific selection using entities
 author: {github-id}             # Your GitHub alias.
 so.date: 05.11.2016
 keywords: search,selectionmembers

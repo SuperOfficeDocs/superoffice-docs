@@ -1,8 +1,7 @@
 ---
-# Mandatory fields.
-title: find_project_by_name       # (Required) Very important for SEO.
-description: Find a project, returning the name # (Required) Important for SEO.
-author: {github-id}             # Your GitHub alias.
+title: find_project_by_name
+description: Find a project, returning the name
+author: {github-id}
 so.date: 06.24.2016
 keywords:
 so.topic:  howto             # article, howto, reference, concept, guide

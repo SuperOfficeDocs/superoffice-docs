@@ -18,7 +18,7 @@ The advantage of using selection is that you don’t need to search for the cont
 
 Another advantage is you can use the **Task** panel to perform certain tasks on the listed contacts and persons of a selection.
 
-Below is a screen shot of the task panel for the above selection.
+Below is a screenshot of the task panel for the above selection.
 
 ![02][img2]
 
@@ -37,9 +37,9 @@ Members of a specific selection can be retrieved in multiple ways:
 * [Using services][3]
 
 <!-- Referenced links -->
-[1]: get-selection-members-entity.md
-[2]: get-selection-members-provider.md
-[3]: get-selection-members-services.md
+[1]: entity/get-selection-members-entity.md
+[2]: archive/get-selection-members-provider.md
+[3]: services/get-selection-members-services.md
 
 <!-- Referenced images -->
 [img1]: media/image001.jpg

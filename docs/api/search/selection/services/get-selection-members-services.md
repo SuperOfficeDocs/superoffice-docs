@@ -1,7 +1,6 @@
 ---
-# Mandatory fields.
-title: get_selection_members_services      # (Required) Very important for SEO.
-description: How to retrieve members of a specific selection using services # (Required) Important for SEO.
+title: get_selection_members_services
+description: How to retrieve members of a specific selection using services
 author: {github-id}             # Your GitHub alias.
 so.date: 05.11.2016
 keywords: search
@@ -16,7 +15,7 @@ so.topic: howto            # article, howto, reference, concept, guide
 
 We can select contact and persons through the selection interface in NetServer. Each selection returns members that match the selection criteria. For a static selection, these members are stored in the `selectionmember` table. Each selection is recorded in the `selection` table.
 
-The following examples shows how to use the `ArchiveAgent` to retrieve members of a static selection whose `selectionId` is 58. The `ContactSelection` is used as the provider for selection members.
+The following examples show how to use the `ArchiveAgent` to retrieve members of a static selection whose `selectionId` is 58. The `ContactSelection` is used as the provider for selection members.
 
 The selection member list is a list of contact and person IDs. The archive expands the contact and person information without the client needing to know how the expansion is happening.
 
@@ -71,4 +70,4 @@ contactId   selectionId personId
 [Read more about using the ArchiveAgent][1]
 
 <!-- Referenced links -->
-[1]: ../iarchiveagent/index.md
+[1]: ../../iarchiveagent/index.md

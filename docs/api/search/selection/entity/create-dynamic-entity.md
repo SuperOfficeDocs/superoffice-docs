@@ -1,8 +1,7 @@
 ---
-# Mandatory fields.
-title: create_dynamic_selection_entity      # (Required) Very important for SEO.
-description: Creating a dynamic selection using entities # (Required) Important for SEO.
-author: {github-id}             # Your GitHub alias.
+title: create_dynamic_selection_entity
+description: Creating a dynamic selection using entities
+author: {github-id}
 so.date: 05.11.2016
 keywords: search
 so.topic: howto            # article, howto, reference, concept, guide
@@ -30,20 +29,20 @@ In the above example, we have created a selection using entities and then we hav
 
 We have created an array of `ArchiveRestriontionInfo` objects since we will add more than one restriction. When you are specifying the restriction, you have to specify the criteria using 3 parameters:
 
-* the field name
+* the name of the field
 * the operator
 * the value
 
-Here, we have said give us the contacts with name starting with the letter c and give us the contacts in the business that corresponds to row ID 4 of the `business` table.
+Here, we have said give us the contacts with a name starting with the letter c and give us the contacts in the business that corresponds to row ID 4 of the `business` table.
 
 Once we have the restrictions ready, we need to store them against the selection to tell the system that this restriction is for a particular selection. We can do this with a `RestrictionCriteriaStorage` provider. We can save our restrictions using the `SaveRestriction` method. In the `SaveRestriction` method, the second parameter will act as the key. If you want you can access this criterion using this key.
 
-Now that we have completed the job, you can open SuperOffice and view this selection. You can see the contacts that we wanted listed under the selection.
+Now that we have completed the job, you can open SuperOffice and view this selection. You can see the contacts that we wanted to be listed under the selection.
 
 ![03][img1]
 
 <!-- Referenced links -->
-[1]: ../../entities/index.md
+[1]: ../../../entities/index.md
 
 <!-- Referenced images -->
 [img1]: media/image003.jpg

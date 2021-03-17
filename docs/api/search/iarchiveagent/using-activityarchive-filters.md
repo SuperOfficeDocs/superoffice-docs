@@ -1,5 +1,4 @@
 ---
-# Mandatory fields.
 title: activity_archive_filters 
 description: How to use ActivityArchive filters
 author: {github-id}             # Your GitHub alias.

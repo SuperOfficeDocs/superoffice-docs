@@ -108,5 +108,5 @@ contactId   name        selectionId
 ```
 
 <!-- Referenced links -->
-[1]: ../ifindagent/using-criteria.md
+[1]: ../../ifindagent/using-criteria.md
 [2]: get-selection-members-services.md

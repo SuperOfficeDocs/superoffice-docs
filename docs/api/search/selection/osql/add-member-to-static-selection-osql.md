@@ -14,7 +14,7 @@ so.topic: howto            # article, howto, reference, concept, guide
 
 # How to add members to a static selection using OSQL
 
-[!include[import OSQL namespaces](../../includes/using-osql.md)]
+[!include[import OSQL namespaces](../../../includes/using-osql.md)]
 
 At this level of the NetServer, you need to have a very good understanding of the SuperOffice database so you create the correct table info objects to insert or update the database table.
 
@@ -39,4 +39,4 @@ If you analyze this example, you can observe that we have made 2 additional chan
 
 This new **batch save object** holds the secret to adding more than one member to a static selection. A batch save object can hold many SQL statements for us. It acts as an array of SQL statements. In this case, it holds 2 insert statements for us. So when we add our SQL statements to the batch save object and then assign the batch save object as our SQL command in the SO command object. Now when we execute our query the NetServer will do the rest for us. It will add the 2 records to the `SelectionMember` table with the correct selection member ID.
 
-[!include[ALT](includes/note-hardcoding-id.md)]
+[!include[ALT](../includes/note-hardcoding-id.md)]

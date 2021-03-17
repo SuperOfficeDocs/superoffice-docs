@@ -1,8 +1,7 @@
 ---
-# Mandatory fields.
-title: get_selection_members_provider      # (Required) Very important for SEO.
-description: How to retrieve members of a specific selection using archive provider # (Required) Important for SEO.
-author: {github-id}             # Your GitHub alias.
+title: get_selection_members_provider
+description: How to retrieve members of a specific selection using archive provider
+author: {github-id}
 so.date: 05.11.2016
 keywords: search,selectionprovider
 so.topic: howto            # article, howto, reference, concept, guide
@@ -32,7 +31,7 @@ All Set methods work in similar ways, the only difference is the number and type
 
 [!code-csharp[CS](includes/get-members-selectionprovider.cs?range=19)]
 
-Here, we have restricted the number of rows selected by giving a `SelectionId` such that the related members would all belong tp the given ID.
+Here, we have restricted the number of rows selected by giving a `SelectionId` such that the related members would all belong to the given ID.
 
 Once the Rows have been selected with the `GetRows` method exposed in the `Provider` class, we may retrieve the rows that have been selected. Below is the output returned by the code segment above.
 
