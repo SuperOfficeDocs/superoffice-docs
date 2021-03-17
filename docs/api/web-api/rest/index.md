@@ -153,8 +153,8 @@ See also: WebAPI [Agents API][1]
 [3]: ../../lists/category/add-catlist-item-rest.md
 [4]: ../../documents/rest/add-document-template.md
 [5]: ../../documents/rest/generate-document.md
-[6]: ../../person/get-person-image-rest.md
-[7]: ../../person/update-person-image-rest.md
+[6]: ../../person/services/get-person-image-rest.md
+[7]: ../../person/services/update-person-image-rest.md
 [8]: ../../webhooks/register.md
 [9]: https://community.superoffice.com/documentation/sdk/SO.NetServer.Web.Services/swagger/Swagger-v1-REST.json
 [10]: ../../sentry/in-services/index.md

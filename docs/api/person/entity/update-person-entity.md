@@ -1,8 +1,7 @@
 ---
-# Mandatory fields.
-title: update_person_entity       # (Required) Very important for SEO.
-description: Update a person with new name, address, position using entities  # (Required) Important for SEO.
-author: {github-id}             # Your GitHub alias.
+title: update_person_entity
+description: Update a person with new name, address, position using entities
+author: {github-id}
 so.date: 05.11.2016
 keywords: entity
 so.topic: howto            # article, howto, reference, concept, guide
@@ -12,7 +11,7 @@ so.topic: howto            # article, howto, reference, concept, guide
 # so.client:                    # online, web, win, pocket, or mobile
 ---
 
-# Update a person with new name, address, position using entities
+# Update a person with a new name, address, position using entities
 
 Let's discuss how we can update the name, address, and position of an existing person using entities.
 

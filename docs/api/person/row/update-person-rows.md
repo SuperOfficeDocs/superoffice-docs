@@ -1,8 +1,7 @@
 ---
-# Mandatory fields.
-title: update_person_rows       # (Required) Very important for SEO.
-description: Update a person with new name, address, position using rows  # (Required) Important for SEO.
-author: {github-id}             # Your GitHub alias.
+title: update_person_rows
+description: Update a person with new name, address, position using rows
+author: {github-id}
 so.date: 05.11.2016
 keywords: rows
 so.topic: howto            # article, howto, reference, concept, guide
@@ -12,7 +11,7 @@ so.topic: howto            # article, howto, reference, concept, guide
 # so.client:                    # online, web, win, pocket, or mobile
 ---
 
-# Update a person with new name, address, position using rows
+# Update a person with a new name, address, position using rows
 
 Now let’s focus on how we can update the person name, position, and address using rows.
 

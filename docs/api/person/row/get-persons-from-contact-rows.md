@@ -1,8 +1,7 @@
 ---
-# Mandatory fields.
-title: get_person_from_contact_row       # (Required) Very important for SEO.
-description: Retrieve a list of people using rows  # (Required) Important for SEO.
-author: {github-id}             # Your GitHub alias.
+title: get_person_from_contact_row
+description: Retrieve a list of people using rows
+author: {github-id}
 so.date: 05.11.2016
 keywords: row
 so.topic: howto            # article, howto, reference, concept, guide
@@ -42,4 +41,4 @@ Here, we retrieve the list of persons as a person rows collection to a `PersonRo
 Once we have the person row collection, it is a matter of iterating through the collection to access the individual properties of a `PersonRow` like we have done above in the example.
 
 <!-- Referenced links -->
-[1]: get-persons-from-contact-entities.md
+[1]: ../entity/get-persons-from-contact-entities.md

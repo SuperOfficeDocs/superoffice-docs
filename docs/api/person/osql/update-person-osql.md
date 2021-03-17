@@ -1,7 +1,6 @@
 ---
-# Mandatory fields.
-title: update_person_osql       # (Required) Very important for SEO.
-description: Update a person with new name, address, position using OSQL  # (Required) Important for SEO.
+title: update_person_osql
+description: Update a person with new name, address, position using OSQL
 author: {github-id}             # Your GitHub alias.
 so.date: 05.11.2016
 keywords: osql

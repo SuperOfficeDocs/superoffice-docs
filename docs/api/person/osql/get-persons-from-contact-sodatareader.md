@@ -1,10 +1,9 @@
 ---
-# Mandatory fields.
-title: get_person_from_contact_sodatareader       # (Required) Very important for SEO.
-description: Retrieve a list of people using SODataReader  # (Required) Important for SEO.
+title: get_person_from_contact_sodatareader
+description: Retrieve a list of people using SODataReader
 author: {github-id}             # Your GitHub alias.
 so.date: 05.11.2016
-keywords: sodatareader
+keywords: sodatareader,person
 so.topic: howto            # article, howto, reference, concept, guide
 
 # Optional fields. Don't forget to remove # if you need a field.
@@ -27,5 +26,5 @@ Then we can order the results of our select statement, in this case by the `Firs
 Now we can execute the reader and get our results to an `SoReader` object. Once you have the records in the reader, you can loop through the results and access individual fields returned. Here, we have concatenated the first name and the last name of the person records returned and assigned to a combo box.
 
 <!-- Referenced links -->
-[1]: ../osql/so-data-reader.md
-[2]: ../osql/inded.md
+[1]: ../../osql/so-data-reader.md
+[2]: ../../osql/inded.md

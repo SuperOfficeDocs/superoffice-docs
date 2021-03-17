@@ -1,8 +1,7 @@
 ---
-# Mandatory fields.
-title: get_person_from_contact_entity       # (Required) Very important for SEO.
-description: Retrieve a list of people using entities  # (Required) Important for SEO.
-author: {github-id}             # Your GitHub alias.
+title: get_person_from_contact_entity
+description: Retrieve a list of people using entities
+author: {github-id}
 so.date: 05.11.2016
 keywords: entity
 so.topic: howto            # article, howto, reference, concept, guide

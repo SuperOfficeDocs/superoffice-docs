@@ -45,7 +45,7 @@ items:
   - name: Downloads
     href: assets/downloads.md
   - name: Download
-    href: assets/download/CreateARecurringAppointment.zip
+    href: assets/download/blob-image.zip
 - name: Authentication
   href: authentication/active-directory.md
   items:
@@ -689,42 +689,57 @@ items:
     - name: Using update
       href: osql/howto/using-update.md
 - name: Person
-  href: person/display-image-from-blob-table-entity.md
+  href: person/index.md
   items:
-  - name: Display image from blob table entity
-    href: person/display-image-from-blob-table-entity.md
-  - name: Display image from blob table services
-    href: person/display-image-from-blob-table-services.md
-  - name: Display person image ws
-    href: person/display-person-image-ws.md
-  - name: Get person image rest
-    href: person/get-person-image-rest.md
-  - name: Update person image rest
-    href: person/update-person-image-rest.md
-  - name: Get
-    href: person/get/get-persons-from-contact-entities.md
+  - name: Entity
+    href: person/entity/display-image-from-blob-table-entity.md
     items:
+    - name: Display image from blob table entity
+      href: person/entity/display-image-from-blob-table-entity.md
     - name: Get persons from contact entities
-      href: person/get/get-persons-from-contact-entities.md
-    - name: Get persons from contact rows
-      href: person/get/get-persons-from-contact-rows.md
-    - name: Get persons from contact sodatareader
-      href: person/get/get-persons-from-contact-sodatareader.md
-    - name: Get persons icontactagent
-      href: person/get/get-persons-icontactagent.md
-    - name: Get persons ipersonagent
-      href: person/get/get-persons-ipersonagent.md
-  - name: Update
-    href: person/update/update-person-entity.md
-    items:
+      href: person/entity/get-persons-from-contact-entities.md
     - name: Update person entity
-      href: person/update/update-person-entity.md
+      href: person/entity/update-person-entity.md
+  - name: Osql
+    href: person/osql/get-persons-from-contact-sodatareader.md
+    items:
+    - name: Get persons from contact sodatareader
+      href: person/osql/get-persons-from-contact-sodatareader.md
     - name: Update person osql
-      href: person/update/update-person-osql.md
+      href: person/osql/update-person-osql.md
+  - name: Row
+    href: person/row/get-persons-from-contact-rows.md
+    items:
+    - name: Get persons from contact rows
+      href: person/row/get-persons-from-contact-rows.md
     - name: Update person rows
-      href: person/update/update-person-rows.md
+      href: person/row/update-person-rows.md
+  - name: Services
+    href: person/services/display-image-from-blob-table-services.md
+    items:
+    - name: Display image from blob table services
+      href: person/services/display-image-from-blob-table-services.md
+    - name: Display person image ws
+      href: person/services/display-person-image-ws.md
+    - name: Get person image rest
+      href: person/services/get-person-image-rest.md
+    - name: Get persons icontactagent
+      href: person/services/get-persons-icontactagent.md
+    - name: Get persons ipersonagent
+      href: person/services/get-persons-ipersonagent.md
+    - name: Update person image rest
+      href: person/services/update-person-image-rest.md
     - name: Update person services
-      href: person/update/update-person-services.md
+      href: person/services/update-person-services.md
+  - name: Sql
+    href: person/sql/add-person-picture-blobs-sql.md
+    items:
+    - name: Add person picture blobs sql
+      href: person/sql/add-person-picture-blobs-sql.md
+    - name: Get persons from contact sql
+      href: person/sql/get-persons-from-contact-sql.md
+    - name: Update person sql
+      href: person/sql/update-person-sql.md
 - name: Preferences
   href: preferences/get-set-preferences-preferenceagent.md
   items:
