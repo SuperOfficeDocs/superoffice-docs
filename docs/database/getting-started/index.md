@@ -28,7 +28,6 @@ The SuperOffice database schema is intended to be flexible while being understan
 * [Overview of tables][3]
 * [Naming conventions][4]
 * [Special tables][5]
-* [Cached tables][6] (Windows client)
 
 <!-- Referenced links -->
 [1]: so-view-of-the-world.md
@@ -36,4 +35,3 @@ The SuperOffice database schema is intended to be flexible while being understan
 [3]: overview.md
 [4]: naming-conventions.md
 [5]: special-tables.md
-[6]: cached-tables.md

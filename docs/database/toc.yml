@@ -15,14 +15,8 @@ items:
   - name: Structure method
     href: dictionary/structure-method.md
 - name: Getting started
-  href: getting-started/activity-links.md
+  href: getting-started/index.md
   items:
-  - name: Activity links
-    href: getting-started/activity-links.md
-  - name: Cached tables
-    href: getting-started/cached-tables.md
-  - name: Foreign keys
-    href: getting-started/foreign-keys.md
   - name: Main tables
     href: getting-started/main-tables.md
   - name: Naming conventions
@@ -38,10 +32,8 @@ items:
 - name: Security
   href: security/index.md
   items:
-  - name: Role based
-    href: security/role-based.md
-  - name: Users and associates
-    href: security/users-and-associates.md
+  - name: Single database user
+    href: security/single-database-user.md
 - name: Tables
   href: tables/access-script.md
   items:
@@ -984,56 +976,13 @@ items:
   items:
   - name: Transaction log
     href: travel/transaction-log.md
-- name: User preferences
-  href: user-preferences/add-prefdesc.md
-  items:
-  - name: Add prefdesc
-    href: user-preferences/add-prefdesc.md
-  - name: Appointment dialog
-    href: user-preferences/appointment-dialog.md
-  - name: Associates
-    href: user-preferences/associates.md
-  - name: Cripple
-    href: user-preferences/cripple.md
-  - name: Defaults
-    href: user-preferences/defaults.md
-  - name: Diary view
-    href: user-preferences/diary-view.md
-  - name: Field labels
-    href: user-preferences/field-labels.md
-  - name: Field replication
-    href: user-preferences/field-replication.md
-  - name: Filter
-    href: user-preferences/filter.md
-  - name: Find contact
-    href: user-preferences/find-contact.md
-  - name: Freetext
-    href: user-preferences/freetext.md
-  - name: Functions
-    href: user-preferences/functions.md
-  - name: Mail
-    href: user-preferences/mail.md
-  - name: Netservices
-    href: user-preferences/netservices.md
-  - name: Numbering
-    href: user-preferences/numbering.md
-  - name: Phone
-    href: user-preferences/phone.md
-  - name: Scripting
-    href: user-preferences/scripting.md
-  - name: Sorting
-    href: user-preferences/sorting.md
-  - name: System
-    href: user-preferences/system.md
-  - name: Travel
-    href: user-preferences/travel.md
-  - name: Visual
-    href: user-preferences/visual.md
 - name: Whats new
   href: whats-new/changes-6-7.md
   items:
   - name: Changes 6 7
     href: whats-new/changes-6-7.md
+  - name: Changes 7
+    href: whats-new/changes-7.md
   - name: Changes 70 71
     href: whats-new/changes-70-71.md
   - name: Changes 71 75
@@ -1042,28 +991,3 @@ items:
     href: whats-new/changes-75-80.md
   - name: Changes 81
     href: whats-new/changes-81.md
-  - name: Changes in 7
-    href: whats-new/changes-in-7/authentication.md
-    items:
-    - name: Authentication
-      href: whats-new/changes-in-7/authentication.md
-    - name: Datetime
-      href: whats-new/changes-in-7/datetime.md
-    - name: Encryption
-      href: whats-new/changes-in-7/encryption.md
-    - name: Full text search
-      href: whats-new/changes-in-7/full-text-search.md
-    - name: Licensing
-      href: whats-new/changes-in-7/licensing.md
-    - name: Longer fields
-      href: whats-new/changes-in-7/longer-fields.md
-    - name: Obsolete
-      href: whats-new/changes-in-7/obsolete.md
-    - name: Sales
-      href: whats-new/changes-in-7/sales.md
-    - name: Selection
-      href: whats-new/changes-in-7/selection.md
-    - name: Service
-      href: whats-new/changes-in-7/service.md
-    - name: Single database user
-      href: whats-new/changes-in-7/single-database-user.md

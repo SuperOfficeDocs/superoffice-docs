@@ -1,1 +1,0 @@
-Preference used to remember the setup/state of the Filter dialog

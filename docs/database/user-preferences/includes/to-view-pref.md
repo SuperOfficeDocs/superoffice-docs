@@ -1,1 +1,0 @@
-To view all preferences in this section, use the following SQL:

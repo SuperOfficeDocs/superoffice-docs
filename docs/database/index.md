@@ -43,7 +43,6 @@ It is also important to know basic SQL.
 * [Getting started][2]
 * [Security](security/index.md)
 * [Travel](travel/index.md)
-* [User preference](user-preferences/index.md)
 * [What's new][1]
 
 <!-- Referenced links -->
