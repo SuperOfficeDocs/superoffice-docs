@@ -157,4 +157,4 @@ See also: WebAPI [Agents API][1]
 [7]: ../../person/services/update-person-image-rest.md
 [8]: ../../webhooks/register.md
 [9]: https://community.superoffice.com/documentation/sdk/SO.NetServer.Web.Services/swagger/Swagger-v1-REST.json
-[10]: ../../sentry/services/index.md
+[10]: ../../security/sentry/services/index.md

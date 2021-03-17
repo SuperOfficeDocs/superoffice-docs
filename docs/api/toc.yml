@@ -1044,34 +1044,34 @@ items:
     href: security/encryption.md
   - name: Role based
     href: security/role-based.md
-- name: Sentry
-  href: sentry/index.md
-  items:
-  - name: Overrides
-    href: sentry/overrides.md
-  - name: Entity
-    href: sentry/entity/scenarios.md
+  - name: Sentry
+    href: security/sentry/index.md
     items:
-    - name: Scenarios
-      href: sentry/entity/scenarios.md
-    - name: Visible for flag
-      href: sentry/entity/visible-for-flag.md
-  - name: Plugins
-    href: sentry/plugins/create-sentry-plugin.md
-    items:
-    - name: Create sentry plugin
-      href: sentry/plugins/create-sentry-plugin.md
-    - name: Tutorial sentry plugin with ext table
-      href: sentry/plugins/tutorial-sentry-plugin-with-ext-table.md
-    - name: Use sentry plugin
-      href: sentry/plugins/use-sentry-plugin.md
-  - name: Services
-    href: sentry/services/fieldproperties.md
-    items:
-    - name: Fieldproperties
-      href: sentry/services/fieldproperties.md
-    - name: Tableright
-      href: sentry/services/tableright.md
+    - name: Overrides
+      href: security/sentry/overrides.md
+    - name: Entity
+      href: security/sentry/entity/scenarios.md
+      items:
+      - name: Scenarios
+        href: security/sentry/entity/scenarios.md
+      - name: Visible for flag
+        href: security/sentry/entity/visible-for-flag.md
+    - name: Plugins
+      href: security/sentry/plugins/create-sentry-plugin.md
+      items:
+      - name: Create sentry plugin
+        href: security/sentry/plugins/create-sentry-plugin.md
+      - name: Tutorial sentry plugin with ext table
+        href: security/sentry/plugins/tutorial-sentry-plugin-with-ext-table.md
+      - name: Use sentry plugin
+        href: security/sentry/plugins/use-sentry-plugin.md
+    - name: Services
+      href: security/sentry/services/fieldproperties.md
+      items:
+      - name: Fieldproperties
+        href: security/sentry/services/fieldproperties.md
+      - name: Tableright
+        href: security/sentry/services/tableright.md
 - name: Services
   href: services/call-service-using-ns-binaries.md
   items:
