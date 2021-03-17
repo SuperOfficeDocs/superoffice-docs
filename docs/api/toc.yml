@@ -734,6 +734,19 @@ items:
     href: preferences/get-set-preferences-sopreference.md
   - name: Preferences
     href: preferences/preferences.md
+- name: Project
+  href: project/add-project.md
+  items:
+  - name: Add project
+    href: project/add-project.md
+  - name: Project guide
+    href: project/project-guide.md
+  - name: Project tables
+    href: project/project-tables.md
+  - name: Project type and url
+    href: project/project-type-and-url.md
+  - name: Text table
+    href: project/text-table.md
 - name: Quote connectors
   href: quote-connectors/addresses.md
   items:
