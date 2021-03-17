@@ -16,7 +16,7 @@ A sentry plugin works out what information a particular user is allowed to see, 
 
 A sentry plugin must look at the information available through the sentry’s lookup objects, and use these values to figure out whether the current user can see, edit or delete the data. In this way, a Sentry plugin should be stateless. The plugin may be called many times with different rows of information.
 
-## When is Sentry plugin called?
+## When is the Sentry plugin called?
 
 ![Sentry plugin sequence diagram][img1]
 

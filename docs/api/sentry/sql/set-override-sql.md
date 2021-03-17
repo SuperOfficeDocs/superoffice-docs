@@ -1,8 +1,7 @@
 ---
-# Mandatory fields.
-title: override_sentry_sql       # (Required) Very important for SEO.
-description: Setting data-rights with sentry and userpreferences SQL # (Required) Important for SEO.
-author: {github-id}             # Your GitHub alias.
+title: override_sentry_sql
+description: Setting data-rights with sentry and userpreferences SQL
+author: {github-id}
 so.date: 02.06.2007
 keywords:
 so.topic: howto            # article, howto, reference, concept, guide
@@ -14,7 +13,12 @@ so.envir: onsite            # cloud or onsite
 
 # Setting data-rights with sentry and user-preferences - SQL
 
-When you override sentry, you add new records to the `UserPreference` table. This example will override the sentry so the SuperOffice user with `associate_id=42` is no longer able to edit the address of existing contacts: `Maxlevel` and `deflevel` are set to 5 and `owner_id` to the `associate_id` (see `userpreference` table). But, the user can still enter addresses on new contacts.
+When you override sentry, you add new records to the [UserPreference table][1]. This example will override the sentry so the SuperOffice user with `associate_id=42` is no longer able to edit the address of existing contacts:
+
+`Maxlevel` and `deflevel` are set to 5 and `owner_id` to the `associate_id`
+
+> [!NOTE]
+> The user can still enter addresses on new contacts since the preference only restricts **existing** contact records.
 
 ```SQL
 insert into userpreference (userpreference_id,deflevel,maxlevel,owner_id,prefsection,prefkey,prefvalue,registered,
@@ -40,4 +44,7 @@ registered_associate_id,updated,updated_associate_id,updatedCount) values (8,5,5
 ```
 
 > [!NOTE]
-> `userpreference_id` has to be updated to a free number in the next unallocated number in the `userpreference` table.
+> The number in red (`userpreference_id`) has to be updated to a free number in the next unallocated number in the `userpreference` table.
+
+<!-- Referenced links -->
+[1]: https://github.com/SuperOfficeDocs/database/blob/main/docs/tables/userpreference.md

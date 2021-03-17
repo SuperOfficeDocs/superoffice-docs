@@ -1,8 +1,7 @@
 ---
-# Mandatory fields.
-title: visiblefor_flag       # (Required) Very important for SEO.
-description: VisibleFor flag # (Required) Important for SEO.
-author: {github-id}             # Your GitHub alias.
+title: visiblefor_flag
+description: VisibleFor flag
+author: {github-id}
 keywords: sentry
 so.topic: concept              # article, howto, reference, concept, guide
 
@@ -15,7 +14,7 @@ so.topic: concept              # article, howto, reference, concept, guide
 
 In SuperOffice, you can restrict access to a data item using the `VisibleFor` flag in addition to the user group’s rights to data.
 
-The `VisibleFor` flag and role-base security go hand in hand. When the flag is set it is a combination of role-base access rights and access rights that was activated due to setting of the flag.
+The `VisibleFor` flag and role-base security go hand in hand. When the flag is set it is a combination of role-base access rights and access rights that was activated due to setting the flag.
 
 ## Visibility levels
 
@@ -25,7 +24,7 @@ The `VisibleFor` flag can be set at 3 levels:
 * Group
 * Associate
 
-**Group** means the group that a particular associate belongs to in a given company defined in SuperOffice. For example, Administration, Marketing, Sales, or Service". You may have sufficient rights from the role to see something, but if the data is flagged with `VisibleFor=Associate`, the data may be seen only  by the associate that owns the data.
+**Group** means the group that a particular associate belongs to in a given company defined in SuperOffice. For example, Administration, Marketing, Sales, or Service". You may have sufficient rights from the role to see something, but if the data is flagged with `VisibleFor=Associate`, the data may be seen only by the associate that owns the data.
 
 ## Example 1 (associate)
 
@@ -88,4 +87,4 @@ saleVisibleFor.VisibleFor = EntityVisibleForHelper.VisibleForType.All;
 
 In this situation, all associates that are listed in the system will be able to view this sale. But as before, the right to the data will be determined by the roles that each associate belongs to.
 
-For example, if an associate belonging to a role that has the right only to view a sale, that associate will not be able to modify any of the data in the sale.
+For example, if an associate belongs to a role that has the right only to view a sale, that associate will not be able to modify any of the data in the sale.

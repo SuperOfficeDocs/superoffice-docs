@@ -1028,27 +1028,17 @@ items:
       - name: Create dynamic sql
         href: search/selection/sql/create-dynamic-sql.md
 - name: Sentry
-  href: sentry/distinct-and-sentry.md
+  href: sentry/index.md
   items:
-  - name: Distinct and sentry
-    href: sentry/distinct-and-sentry.md
   - name: Overrides
     href: sentry/overrides.md
-  - name: Scenarios
-    href: sentry/scenarios.md
-  - name: Set override com
-    href: sentry/set-override-com.md
-  - name: Set override sql
-    href: sentry/set-override-sql.md
-  - name: Visible for flag
-    href: sentry/visible-for-flag.md
-  - name: In services
-    href: sentry/in-services/fieldproperties.md
+  - name: Entity
+    href: sentry/entity/scenarios.md
     items:
-    - name: Fieldproperties
-      href: sentry/in-services/fieldproperties.md
-    - name: Tableright
-      href: sentry/in-services/tableright.md
+    - name: Scenarios
+      href: sentry/entity/scenarios.md
+    - name: Visible for flag
+      href: sentry/entity/visible-for-flag.md
   - name: Plugins
     href: sentry/plugins/create-sentry-plugin.md
     items:
@@ -1058,6 +1048,13 @@ items:
       href: sentry/plugins/tutorial-sentry-plugin-with-ext-table.md
     - name: Use sentry plugin
       href: sentry/plugins/use-sentry-plugin.md
+  - name: Services
+    href: sentry/services/fieldproperties.md
+    items:
+    - name: Fieldproperties
+      href: sentry/services/fieldproperties.md
+    - name: Tableright
+      href: sentry/services/tableright.md
 - name: Services
   href: services/call-service-using-ns-binaries.md
   items:

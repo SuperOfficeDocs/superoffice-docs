@@ -1,10 +1,7 @@
 ---
-# This basic template provides core metadata fields for Markdown articles on docs.superoffice.com.
-
-# Mandatory fields.
-title: sentry_overrides       # (Required) Very important for SEO. Intent in a unique string of 43-59 chars including spaces.
-description: Sentry overrides # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
-author: {github-id}             # Your GitHub alias.
+title: sentry_overrides
+description: Sentry overrides
+author: {github-id}
 so.date: 02.06.2007
 keywords:
 so.topic: concept         # article, howto, reference, concept, guide
@@ -83,7 +80,7 @@ The section name, as given above, specifies that the override applies to **all**
 
 * `-New`
 * `-Existing`
-* `-`
+* `-<record ID>`
 
 For example, "Rights-contact-New" would specify an override for new contact records, while "Rights-person-34" would specify a field-level override for record 34 of the person table.
 
@@ -123,7 +120,7 @@ For example: Read-only access = 17  (1 + 16)
 
 ## Field rights
 
-This section can contain one or more preferences. Each preference has a key of the form, and a value formatted like the one for the Table rights (number, optionally followed by a comma and some text describing the reason for the override).and must be the names of either the main table or a valid sub-table, and a field within that table, for example:
+This section can contain one or more preferences. Each preference has a key of the form `<table>.<field>`, and a value formatted like the one for the Table rights (number, optionally followed by a comma and some text describing the reason for the override). `<table>` and `<field>` must be the names of either the main table or a valid sub-table, and a field within that table, for example:
 
 ```text
 Section: Rights-contact-Existing
@@ -152,5 +149,5 @@ You can add an explanation to the changed access rights by adding a comma and th
 * [SQL][2]
 
 <!-- Referenced links -->
-[1]: set-override-com.md
-[2]: set-override-sql.md
+[1]: com/set-override-com.md
+[2]: sql/set-override-sql.md

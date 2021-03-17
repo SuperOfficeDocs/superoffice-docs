@@ -9,7 +9,7 @@ so.topic: concept
 
 # Sentry and distinct
 
-The automatic manipulation of queries by automatically added [sentries][1] can cause unexpected side-effects, especially when the DISTINCT operator is involved.
+The automatic manipulation of queries by automatically added sentries can cause unexpected side-effects, especially when the DISTINCT operator is involved.
 
 Here is an example that shows how a join with the `ProjectMember` table is used to make a restriction on which projects are to be returned. DISTINCT has been added to avoid returning the same project twice.
 
@@ -87,6 +87,3 @@ public class SentryQueryProjectMemberTableUpdater : ISentryQueryTableUpdater
   }
 }
 ```
-
-<!-- Referenced links -->
-[1]: index.md

@@ -1,10 +1,7 @@
 ---
-# This basic template provides core metadata fields for Markdown articles on docs.superoffice.com.
-
-# Mandatory fields.
-title: sentry_scenarios       # (Required) Very important for SEO. Intent in a unique string of 43-59 chars including spaces.
-description: NetServer scenarios # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
-author: {github-id}             # Your GitHub alias.
+title: sentry_scenarios
+description: NetServer scenarios
+author: {github-id}
 keywords: access control
 so.topic: concept            # article, howto, reference, concept, guide
 
@@ -53,12 +50,11 @@ using(SoSession newSession = SoSession.Authenticate("PB", "pb"))
   SaleTableInfo saleTabInfo = TablesInfo.GetSaleTableInfo();
   Sale mySale = Sale.GetFromIdxSaleId(9);
 
-  //get the field rights of the heading field using the
-  //saletableinfo object we created
+  //get the field rights of the heading field using the saletableinfo object we created
   FieldRight headingRight = mySale.Row.Sentries.FieldRight(saleTabInfo.Heading);
 
-  //check to determine that the user has a fieldright other than
-  //None. Any other right will ensure that the user has rights to read
+  //check to determine that the user has a fieldright other than None.
+  // Any other right will ensure that the user has the rights to read
   if (headingRight.IsActive)
   {
     string saleHeading = mySale.Heading;
@@ -84,10 +80,13 @@ using(SoSession newSession = SoSession.Authenticate("PB", "pb"))
 {
   //get the sale id 9
   Sale mySale = Sale.GetFromIdxSaleId(9);
+
   //retrieve the heading
   string saleHeading = mySale.Heading;
+
   //change the heading
   mySale.Heading = "This is a very good sale";
+
   //save the sale
   mySale.Save();
 }
@@ -152,12 +151,11 @@ using(SoSession newSession = SoSession.Authenticate("PB", "pb"))
   SaleTableInfo saleTabInfo = TablesInfo.GetSaleTableInfo();
   Sale mySale = Sale.GetFromIdxSaleId(9);
 
-  //get the field rights of the heading field using the saletableinfo object
-  //we created
+  //get the field rights of the heading field using the saletableinfo object we created
   FieldRight headingRight = mySale.Row.Sentries.FieldRight(saleTabInfo.Heading);
 
-  //check to determine that the user has a fieldright other than None. Any other
-  //right will ensure that the user has rights to read
+  //check to determine that the user has a fieldright other than None.
+  // Any other right will ensure that the user has the rights to read
   if (headingRight.IsActive)
   {
     string saleHeading = mySale.Heading;

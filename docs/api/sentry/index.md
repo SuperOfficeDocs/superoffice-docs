@@ -7,7 +7,7 @@ keywords:
 
 # Sentry
 
-What is sentry? As the name implies it acts as **the watch dog that keeps an eye on all the access to data in the SuperOffice database**.
+What is sentry? As the name implies it acts as **the watchdog that keeps an eye on all the access to data in the SuperOffice database**.
 
 Sentry is a shared component used by all SuperOffice code to evaluate access rights. The Sentry objects answer questions regarding which tables and fields are accessible to a given type of operation, but do not themselves **enforce** these rights – this is up to the various client objects.
 
