@@ -111,7 +111,7 @@ Filter filename: `SoFilterList.config`
 
 ## Configuration cache
 
-Caches exist in the database and the application. Fragments and data-driven config are cached in the database. The post MergeFilter is run on the client. Use the magic `?Flush` command to clear the cache both on hte client and server.
+Caches exist in the database and the application. Fragments and data-driven config are cached in the database. The post MergeFilter is run on the client. Use the magic `?Flush` command to clear the cache both on the client and server.
 
 <!-- Referenced links -->
 [1]: ../../tutorials/customize/cust-and-deploy.md

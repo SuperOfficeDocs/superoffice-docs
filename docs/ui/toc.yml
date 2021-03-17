@@ -217,14 +217,18 @@ items:
   items:
   - name: Add custom path
     href: web-application/add-custom-path.md
-  - name: Components
-    href: web-application/components.md
+  - name: Custom ajax methods
+    href: web-application/custom-ajax-methods.md
+  - name: Globalization
+    href: web-application/globalization.md
   - name: Model view controller pattern
     href: web-application/model-view-controller-pattern.md
   - name: Page configuration
     href: web-application/page-configuration.md
   - name: Strategic goals
     href: web-application/strategic-goals.md
+  - name: Technical info
+    href: web-application/technical-info.md
   - name: Getting started
     href: web-application/getting-started/architecture.md
     items:
@@ -234,10 +238,10 @@ items:
       href: web-application/getting-started/dcf.md
     - name: Debug
       href: web-application/getting-started/debug.md
-    - name: Globalization
-      href: web-application/getting-started/globalization.md
-    - name: Use custom config files
-      href: web-application/getting-started/use-custom-config-files.md
+    - name: Folder structure
+      href: web-application/getting-started/folder-structure.md
+    - name: Set up custom folder
+      href: web-application/getting-started/set-up-custom-folder.md
   - name: Pagebuilder
     href: web-application/pagebuilder/index.md
     items:
@@ -360,6 +364,11 @@ items:
       href: web-application/tutorials/tutorial-aspnet-vs-so-controls.md
     - name: Tutorial custom page std controls
       href: web-application/tutorials/tutorial-custom-page-std-controls.md
+    - name: Ajax create followup
+      href: web-application/tutorials/ajax-create-followup/ajax-create-followup.md
+      items:
+      - name: Ajax create followup
+        href: web-application/tutorials/ajax-create-followup/ajax-create-followup.md
     - name: Customize
       href: web-application/tutorials/customize/add-custom-control.md
       items:
@@ -371,8 +380,6 @@ items:
         href: web-application/tutorials/customize/add-textbox.md
       - name: Cust and deploy
         href: web-application/tutorials/customize/cust-and-deploy.md
-      - name: Custom ajax methods
-        href: web-application/tutorials/customize/custom-ajax-methods.md
       - name: Triggers
         href: web-application/tutorials/customize/triggers.md
     - name: Validation
@@ -382,11 +389,6 @@ items:
         href: web-application/tutorials/validation/validate-fields.md
       - name: Validation
         href: web-application/tutorials/validation/validation.md
-  - name: Whats new
-    href: web-application/whats-new/in-80.md
-    items:
-    - name: In 80
-      href: web-application/whats-new/in-80.md
 - name: Web panels
   href: web-panels/add-web-panel.md
   items:

@@ -8,6 +8,7 @@ keywords:
 so.topic:
 so.client: web
 ---
+
 # Web client architecture
 
 First conceived and built on ASP.NET technology in 2005, the CRM Web Framework used cutting-edge Web 2.0 techniques, and was delivered as one of the first enterprise CRM single-page applications (SPA) on the market. It continues to evolve, using the latest web development technologies, and remains the finest CRM platform available.
@@ -161,9 +162,6 @@ Once PageBuilder has created and initialized all its objects, the Callbackhandle
 
 On the client-side a function receives the HTML and puts it back where it belongs. This means that with only one request to the server we can update all the cards on a panel, or even none, if the request didn’t result in any changes in SuperState.
 
-## In summary
-
-SuperOffice CRM Web delivers a comprehensible and highly extensible platform that enables virtually unlimited integration capabilities.
 
 <!-- Referenced links -->
 [1]: https://github.com/SuperOfficeDocs/superoffice-docs/blob/main/docs/onsite/web-client/page-configuration.md

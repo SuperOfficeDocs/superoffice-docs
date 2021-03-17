@@ -21,7 +21,7 @@ The Dynamic Client Foundation (DCF) lives in the *SuperOffice.DCF* assembly. Thi
 
 ## Superoffice.DCFWeb.DLL
 
-This assembly provides the base definitions for the page builder framework. Unfortunately, it does not provide the page builder framework itself - that is still tied to SIX.web.
+This assembly provides the base definitions for the page builder framework. Unfortunately, it does not provide the page builder framework itself - that is still tied to CRM.web.
 
 The most useful things here are:
 

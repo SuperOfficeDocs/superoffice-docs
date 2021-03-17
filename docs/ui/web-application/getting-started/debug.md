@@ -109,7 +109,6 @@ $j(document).ready(function() {
 There you are. The preferred way to open the **Debug** window. And no debug code you will have to remember to remove before shipping to the customer!
 
 <!-- Referenced links -->
-[1]:
 
 <!-- Referenced images -->
 [img1]: media/diagnostics.png
