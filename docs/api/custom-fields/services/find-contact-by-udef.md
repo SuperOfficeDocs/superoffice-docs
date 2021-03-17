@@ -38,4 +38,4 @@ using(SoSession.Authenticate( "SAL1", "" ))
 > [DumpResult()][1] is a private helper method that you can easily add to your code.
 
 <!-- Referenced links -->
-[1]: ../search/ifindagent/dump-result.md
+[1]: ../../search/ifindagent/dump-result.md

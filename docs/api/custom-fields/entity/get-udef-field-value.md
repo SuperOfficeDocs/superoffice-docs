@@ -68,14 +68,3 @@ Remember that only the SELECT, FROM, and WHERE are a fixed frame. The field, joi
 <!-- ## Sample
 
 Download the [sample application](https://community.superoffice.com/en/content/content/netserver-sdk/archived-articles/the-definitive-netserver-user-defined-field-lookup-class/%7BEPsUploadDir%7D993/TestDevNetUDF.zip), including all sources, and test it out for yourself. -->
-
-## How to use the UDFHelper class
-
-This code demonstrates how to use the [UDFHelper][1] class to retrieve the value of all user-defined fields.
-
-[!code-csharp[example 1](includes/how-to-use-udefhelper.cs)]
-
-<!-- Referenced links -->
-[1]: udefhelper-class.md
-
-<!-- Referenced images -->

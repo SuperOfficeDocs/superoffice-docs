@@ -220,24 +220,35 @@ items:
     - name: Get interests sql
       href: contact/sql/get-interests-sql.md
 - name: Custom fields
-  href: custom-fields/find-contact-by-udef.md
+  href: custom-fields/index.md
   items:
-  - name: Find contact by udef
-    href: custom-fields/find-contact-by-udef.md
-  - name: Get udef field value
-    href: custom-fields/get-udef-field-value.md
-  - name: Get udef list and values services
-    href: custom-fields/get-udef-list-and-values-services.md
-  - name: Set udef listitem value entity
-    href: custom-fields/set-udef-listitem-value-entity.md
-  - name: Set udef listitem value services
-    href: custom-fields/set-udef-listitem-value-services.md
-  - name: Udefhelper class
-    href: custom-fields/udefhelper-class.md
-  - name: Update udef entity
-    href: custom-fields/update-udef-entity.md
-  - name: Using udefhelper
-    href: custom-fields/using-udefhelper.md
+  - name: Entity
+    href: custom-fields/entity/get-udef-field-value.md
+    items:
+    - name: Get udef field value
+      href: custom-fields/entity/get-udef-field-value.md
+    - name: Set udef listitem value entity
+      href: custom-fields/entity/set-udef-listitem-value-entity.md
+    - name: Udefhelper class
+      href: custom-fields/entity/udefhelper-class.md
+    - name: Update udef entity
+      href: custom-fields/entity/update-udef-entity.md
+    - name: Using udefhelper
+      href: custom-fields/entity/using-udefhelper.md
+  - name: Services
+    href: custom-fields/services/find-contact-by-udef.md
+    items:
+    - name: Find contact by udef
+      href: custom-fields/services/find-contact-by-udef.md
+    - name: Get udef list and values services
+      href: custom-fields/services/get-udef-list-and-values-services.md
+    - name: Set udef listitem value services
+      href: custom-fields/services/set-udef-listitem-value-services.md
+  - name: Sql
+    href: custom-fields/sql/set-udef-sql.md
+    items:
+    - name: Set udef sql
+      href: custom-fields/sql/set-udef-sql.md
 - name: Diary
   href: diary/index.md
   items:
