@@ -1,30 +1,58 @@
-- name: Web application
-  href: index.md
+items:
+- name: Overview
+  href:  index.md
+- name: Getting started
+  href:  getting-started/index.md
   items:
-  - name: Strategic goals
-    href: strategic-goals.md
+  - name: Architecture
+    href:  getting-started/architecture.md
+  - name: Folder structure
+    href:  getting-started/folder-structure.md
+  - name: Set up custom folder
+    href:  getting-started/set-up-custom-folder.md
+  - name: Clientconfigurationprovider
+    href:  getting-started/clientconfigurationprovider.md
+  - name: Change system config
+    href:  getting-started/change-system-config.md
+  - name: Change page config
+    href:  getting-started/change-page-config.md
+  - name: Dcf
+    href:  getting-started/dcf.md
+  - name: Debug
+    href:  getting-started/debug.md
+- name: Pagebuilder
+  href:  pagebuilder/index.md
+  items:
+  - name: Config
+    href:  pagebuilder/config/index.md
+    items:
+    - name: Soml
+      href:  pagebuilder/config/soml.md
+    - name: Soapplicationconfiguration
+      href:  pagebuilder/config/soapplicationconfiguration.md
+    - name: Object mapping
+      href:  pagebuilder/config/object-mapping.md
+    - name: Page
+      href:  pagebuilder/config/page.md
+    - name: Panel
+      href:  pagebuilder/config/panel.md
+    - name: Card
+      href:  pagebuilder/config/card.md
+    - name: View
+      href:  pagebuilder/config/view.md
+    - name: Merge files and actions
+      href:  pagebuilder/config/merge-files-and-actions.md
+    - name: Soarchivecontrollinkinfotypes
+      href:  pagebuilder/config/soarchivecontrollinkinfotypes.md
   - name: Globalization
-    href: globalization.md
-  - name: Getting started
-    href: getting-started/index.md
-    items:
-    - name: Architecture
-      href: getting-started/architecture.md
-    - name: DCF for Web
-      href: getting-started/dcf.md
-    - name: How to debug
-      href: getting-started/debug.md
-  - name: Model-view-controller pattern
-    href: model-view-controller-pattern/mvc-article.md
-  - name: Customization
-    items:
-    - name: Add label
-      href: tutorials/customize/add-label.md
-    - name: Add textbox
-      href: tutorials/customize/add-textbox.md
-    - name: Add custom control
-      href: tutorials/customize/add-custom-control.md
-    - name: Custom AJAX methods
-      href: tutorials/ajax-create-followup/ajax-create-followup.md
+    href:  globalization.md
+  - name: Strategic goals
+    href:  strategic-goals.md
+  - name: Technical info
+    href:  technical-info.md
+  - name: Model view controller pattern
+    href:  model-view-controller-pattern/mvc-article.md
+  - name: Custom ajax methods
+    href:  custom-ajax-methods.md
   - name: Reference
     href: reference/index.md
