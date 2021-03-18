@@ -213,10 +213,8 @@ items:
   - name: Used in webpanels win
     href: soprotocol/used-in-webpanels-win.md
 - name: Web application
-  href: web-application/add-custom-path.md
+  href: web-application/custom-ajax-methods.md
   items:
-  - name: Add custom path
-    href: web-application/add-custom-path.md
   - name: Custom ajax methods
     href: web-application/custom-ajax-methods.md
   - name: Globalization
@@ -234,6 +232,8 @@ items:
     items:
     - name: Architecture
       href: web-application/getting-started/architecture.md
+    - name: Change system config
+      href: web-application/getting-started/change-system-config.md
     - name: Dcf
       href: web-application/getting-started/dcf.md
     - name: Debug
@@ -246,10 +246,8 @@ items:
     href: web-application/pagebuilder/index.md
     items:
     - name: Config
-      href: web-application/pagebuilder/config/app-config.md
+      href: web-application/pagebuilder/config/card.md
       items:
-      - name: App config
-        href: web-application/pagebuilder/config/app-config.md
       - name: Card
         href: web-application/pagebuilder/config/card.md
       - name: Data driven page config
@@ -262,6 +260,10 @@ items:
         href: web-application/pagebuilder/config/page-fragments.md
       - name: Panel
         href: web-application/pagebuilder/config/panel.md
+      - name: Soapplicationconfiguration
+        href: web-application/pagebuilder/config/soapplicationconfiguration.md
+      - name: Soarchivecontrollinkinfotypes
+        href: web-application/pagebuilder/config/soarchivecontrollinkinfotypes.md
       - name: System config files
         href: web-application/pagebuilder/config/system-config-files.md
       - name: Ui config files

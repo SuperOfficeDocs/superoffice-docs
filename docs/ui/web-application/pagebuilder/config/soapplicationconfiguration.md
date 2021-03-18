@@ -1,6 +1,6 @@
 ---
-title: pagebuilder_config_app
-description: Application config files
+title: soapplicationconfiguration_config
+description: Application config file SoApplicationConfiguration.config
 author: Tony Yates
 so.date: 06.24.2016
 keywords: config
@@ -9,7 +9,7 @@ so.client: web
 so.envir: onsite
 ---
 
-# Application config file
+# SoApplicationConfiguration.config file
 
 The application configuration file lists all the pages used in the system. It stores data like the preference section for a given page in the `UserPreference` table and what the key of the preference is. It holds the current information of a given page in the current section of the file.
 
@@ -34,9 +34,11 @@ In the `currents` section, it gives details about where the application has stor
 
 [!code-xml[xml](includes/soapplicationconfiguration.xml?range=14)]
 
-## Example
+## Example merge file
 
 The following example demonstrates how to add a page, current, Javascript, and CSS file.
+
+To override *SoApplicationConfiguration*, create a new file named *MyApplicationConfiguration.merge* and place it in your custom path directory.
 
 ```xml
 <applicationsettings>
@@ -69,17 +71,21 @@ PageUpdate('soprotocol:CustomFeature','');
 
 A global SuperOffice method PageUpdate issues an SoProtocol string to the server. In addition to navigation and changing the viewed configuration, SoProtocol can also update currents.
 
+**Set current with JavaScript:**
+
 ```javascript
-// JavaScript.
 var id = 10;
 PageUpdate('soprotocol:?customfeature_id=' + id,'');
-//or use SuperOffice.PageBuilder
+```
+
+**Set current with SuperOffice.PageBuilder:**
+
+```csharp
 SuperOffice.PageBuilder.setCurrent("customfeature", id);
 ```
 
-To get a current value, use the *SuperOffice.Util.getCurrentId* Javascript method.
+**To get a current value, use the *SuperOffice.Util.getCurrentId* Javascript method:**
 
 ``` javascript
-// get current id value
 id = SuperOffice.Util.getCurrentId("customfeature");
 ```

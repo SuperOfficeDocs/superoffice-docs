@@ -21,17 +21,19 @@ SuperOffice CRM Web delivers a comprehensible and highly extensible platform tha
 
 Nearly all customizations involve changing at least one of the configuration files so that's the best place to continue this discussion.
 
-* [Page configuration][1] - presents the SuperOffice Markup Language (SOML), which is the cornerstone of SuperOffice web client, and explains how SOML is used to define the structure of the web application.
+* [Page configuration][5] - presents the SuperOffice Markup Language (SOML), which is the cornerstone of SuperOffice web client, and explains how SOML is used to define the structure of the web application.
 
-* [User controls][2] - how to create a user control that will be put inside two new panels in the Sale dialog.
+  * Learn how to [change system config files][11]
 
-* [Data handlers][3] - to have control over what happens when data is retrieved and stored from a page, you will need to create your own data handler.
+* [User controls][6] - how to create a user control that will be put inside two new panels in the Sale dialog.
 
-* [Custom MDO controls][4] you can create your own MDOs containing anything, whether that would be static data, data from another system, or specific data from SuperOffice. These controls have a lot built-in, like search capabilities and history.
+* [Data handlers][7] - to have control over what happens when data is retrieved and stored from a page, you will need to create your own data handler.
 
-* [Custom Archive controls][5] - create controls that display rows of information from built-in or custom archive providers
+* [Custom MDO controls][8] you can create your own MDOs containing anything, whether that would be static data, data from another system, or specific data from SuperOffice. These controls have a lot built-in, like search capabilities and history.
 
-* [Custom AJAX methods][6] - how to call server-side methods both asynchronously and synchronously from client-side Javascript
+* [Custom Archive controls][9] - create controls that display rows of information from built-in or custom archive providers
+
+* [Custom AJAX methods][10] - how to call server-side methods both asynchronously and synchronously from client-side Javascript
 
 ## Themes
 
@@ -56,11 +58,12 @@ To debug, use the developer tools of your browser and the SuperOffice [Diagnosti
 [2]: debug.md
 [3]: architecture.md
 [4]: set-up-custom-folder.md
-[1]: ../pagebuilder/config/index.md
-[2]: ../tutorials/tutorial-1.md
-[3]: ../pagebuilder/datahandlers.md
-[4]: ../pagebuilder/usercontrols/lists/create-custom-mdo-controls.md
-[5]: ../pagebuilder/usercontrols/archives/create-custom-archive-control.md
-[6]: ../custom-ajax-methods.md
+[5]: ../pagebuilder/config/index.md
+[6]: ../tutorials/tutorial-1.md
+[7]: ../pagebuilder/datahandlers/index.md
+[8]: ../pagebuilder/usercontrols/lists/create-custom-mdo-controls.md
+[9]: ../pagebuilder/usercontrols/archives/create-custom-archive-control.md
+[10]: ../custom-ajax-methods.md
+[11]: change-system-config.md
 
 <!-- Referenced images -->

@@ -65,6 +65,6 @@ The PageBuilder uses these config files together with the current values from th
 [4]: ../config/card.md
 [5]: ../config/view.md
 [6]: ../config/object-mapping.md
-[7]: ../config/app-config.md
+[7]: ../config/soapplicationconfiguration.md
 
 <!-- Referenced images -->

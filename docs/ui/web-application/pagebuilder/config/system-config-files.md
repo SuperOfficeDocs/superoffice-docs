@@ -11,9 +11,11 @@ so.envir: onsite
 
 # System configuration files
 
-* **SoApplicationConfiguration.config:** contains all of the page and dialog declarations, essentially cataloging all of the files that represent UI components.
+System configuration files declare every application dependency, including web controls, currents, menu items, and pages. These files essentially describe the skeleton of the entire web application.
 
-* **SoObjectMapping.config** maps all element types used in page configurations to user and web controls defined in assemblies.
+* [SoApplicationConfiguration.config][1]: contains all of the page and dialog declarations, essentially cataloging all of the files that represent UI components.
+
+* **SoObjectMapping.config** maps all element types used in page configurations to user controls and web controls defined in assemblies.
 
 Both of these system files contain more than what's described here, but this explanation is useful in that it describes how the contents of system files are different than dedicated page configuration files.
 
@@ -26,3 +28,8 @@ Both of these system files contain more than what's described here, but this exp
 * SoArchiveControlLinkInfoTypes.config
 * SoArchiveCriteriaList.config
 * SoMenuConfiguration.config
+
+<!-- Referenced links -->
+[1]: soapplicationconfiguration.md
+
+<!-- Referenced images -->
