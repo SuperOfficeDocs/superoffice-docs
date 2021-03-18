@@ -1,0 +1,31 @@
+<pages>
+  <page id ="ContactPage">
+    <panels>
+      <panel id="Contact">
+        <cards>
+          <card id="ContactMainCard">
+            <views>
+              <view id="MainView">
+                <controlgroups>
+                  <controlgroup id="maingroup_2" mergeaction="replace"
+                                type="SoControlGroup" position="absolute"
+                                top="58px" width="42%" right="20px"
+                                overflow="hidden">
+                    <controls>
+                      <control id="miniImage" type="SoImage">
+                        <config>
+                          <imagetype>url<imagetype>
+                          <src>MyImages/WebClient/Web/image/owl.jpg<src>
+                        <config>
+                      <control>
+                    <controls>
+                  <controlgroup>
+                <controlgroups>
+              <view>
+            <views>
+          <card>
+        <cards>
+      <panel>
+    <panels>
+  <page>
+<pages>

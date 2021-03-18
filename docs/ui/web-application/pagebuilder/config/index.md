@@ -109,6 +109,41 @@ The PageBuilder framework controls all these config files. Any third-party custo
 
 For example, if we were to build our own page using by using SO controls such as UI controls, SoProtocols, and DataHandlers the PageBuilder framework will be able to identify these controls and construct the webpage.
 
+There are 2 approaches to apply a configuration change: complete structure or using an XPath element. System files must use the complete structure approach, whole UI pages can use either one or both.
+
+### Complete structure approach
+
+Using the complete structure approach means creating a merge file with the complete page structure up to the element with a `mergeaction` attribute. Using this approach, the merge filter can accurately determine which element to process.
+
+The following example demonstrates how to replace a control group in the SoContactPage configuration. Take notice of how each ID along the path is defined for the page, panel, card, view, and finally the control group. Make sure to also include the **< pages >** root element.
+
+[!code-xml[XML](includes/socontactpage.merge.xml)]
+
+Without stating id values at each stage of the structure, the filter would not be unable to determine which page>panel>card>view>controlgroup path to replace and the merge would be ignored.
+
+## XPath element approach
+
+XPath is a new approach to add page elements that even supports adding elements across fragments!
+
+> [!NOTE]
+> This capability applies only to the contents of UI pages and dialogs and **is not applicable to system files**. XPath also requires SuperOffice 8.1 or newer.
+
+```xml
+<!-- Example: <filename>.merge
+  Add a button to all pages that uses the navigationpanel fragment
+ -->
+<pages>
+  <xpath xpath="/page/panels/panel/cards/card/views/view[@id='NavigatorView']/controlgroups/controlgroup[@id='ButtonGroup']/controls">
+    <control  id="testButton" type="SoNavigatorButton">
+     ...
+    </control>
+  </xpath>
+</pages>
+```
+
+> [!CAUTION]
+> Because pages can contain duplicate element IDs at various nested levels, care must be taken when using this approach to ensure no unusual side effects occur. The potential for XPath side effects was enough to deem this capability too powerful for replace and remove actions.
+
 ## Data-driven
 
 Config for web panels and external applications are generated using templates. These reside in the Service layer.

@@ -255,8 +255,8 @@ items:
       items:
       - name: Card
         href: web-application/pagebuilder/config/card.md
-      - name: Merge
-        href: web-application/pagebuilder/config/merge.md
+      - name: Merge files and actions
+        href: web-application/pagebuilder/config/merge-files-and-actions.md
       - name: Object mapping
         href: web-application/pagebuilder/config/object-mapping.md
       - name: Page
@@ -269,8 +269,6 @@ items:
         href: web-application/pagebuilder/config/soarchivecontrollinkinfotypes.md
       - name: Soml
         href: web-application/pagebuilder/config/soml.md
-      - name: Triggers
-        href: web-application/pagebuilder/config/triggers.md
       - name: View
         href: web-application/pagebuilder/config/view.md
     - name: Datahandlers
@@ -289,6 +287,8 @@ items:
         href: web-application/pagebuilder/superstate/state-changes.md
       - name: Superstate in context
         href: web-application/pagebuilder/superstate/superstate-in-context.md
+      - name: Triggers
+        href: web-application/pagebuilder/superstate/triggers.md
     - name: Usercontrols
       href: web-application/pagebuilder/usercontrols/index.md
       items:

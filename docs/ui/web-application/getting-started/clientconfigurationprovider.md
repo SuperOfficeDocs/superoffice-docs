@@ -137,7 +137,7 @@ WHERE listOwner = '[guiname]'
 [SOML][2] is XML that must conform to a well-defined schema. When set to true, `ValidateConfirations` will validate all configurations based on respective schemas to ensure all markup is well-formed. Any errors found are shown in the browser.
 
 <!-- Referenced links -->
-[1]: ../pagebuilder/config/merge.md
+[1]: ../pagebuilder/config/merge-files-and-actions.md
 [2]: ../pagebuilder/config/soml.md
 
 <!-- Referenced images -->
