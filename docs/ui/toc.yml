@@ -219,10 +219,6 @@ items:
     href: web-application/custom-ajax-methods.md
   - name: Globalization
     href: web-application/globalization.md
-  - name: Model view controller pattern
-    href: web-application/model-view-controller-pattern.md
-  - name: Page configuration
-    href: web-application/page-configuration.md
   - name: Strategic goals
     href: web-application/strategic-goals.md
   - name: Technical info
@@ -232,6 +228,8 @@ items:
     items:
     - name: Architecture
       href: web-application/getting-started/architecture.md
+    - name: Change page config
+      href: web-application/getting-started/change-page-config.md
     - name: Change system config
       href: web-application/getting-started/change-system-config.md
     - name: Dcf
@@ -240,6 +238,8 @@ items:
       href: web-application/getting-started/debug.md
     - name: Folder structure
       href: web-application/getting-started/folder-structure.md
+    - name: Model view controller pattern
+      href: web-application/getting-started/model-view-controller-pattern.md
     - name: Set up custom folder
       href: web-application/getting-started/set-up-custom-folder.md
   - name: Pagebuilder
@@ -250,28 +250,26 @@ items:
       items:
       - name: Card
         href: web-application/pagebuilder/config/card.md
-      - name: Data driven page config
-        href: web-application/pagebuilder/config/data-driven-page-config.md
+      - name: Clientconfigurationprovider
+        href: web-application/pagebuilder/config/clientconfigurationprovider.md
+      - name: Merge
+        href: web-application/pagebuilder/config/merge.md
       - name: Object mapping
         href: web-application/pagebuilder/config/object-mapping.md
       - name: Page
         href: web-application/pagebuilder/config/page.md
-      - name: Page fragments
-        href: web-application/pagebuilder/config/page-fragments.md
       - name: Panel
         href: web-application/pagebuilder/config/panel.md
       - name: Soapplicationconfiguration
         href: web-application/pagebuilder/config/soapplicationconfiguration.md
       - name: Soarchivecontrollinkinfotypes
         href: web-application/pagebuilder/config/soarchivecontrollinkinfotypes.md
-      - name: System config files
-        href: web-application/pagebuilder/config/system-config-files.md
-      - name: Ui config files
-        href: web-application/pagebuilder/config/ui-config-files.md
+      - name: Soml
+        href: web-application/pagebuilder/config/soml.md
+      - name: Triggers
+        href: web-application/pagebuilder/config/triggers.md
       - name: View
         href: web-application/pagebuilder/config/view.md
-      - name: Xml config file
-        href: web-application/pagebuilder/config/xml-config-file.md
     - name: Datahandlers
       href: web-application/pagebuilder/datahandlers/add-custom-datahandler.md
       items:
@@ -380,10 +378,6 @@ items:
         href: web-application/tutorials/customize/add-label.md
       - name: Add textbox
         href: web-application/tutorials/customize/add-textbox.md
-      - name: Cust and deploy
-        href: web-application/tutorials/customize/cust-and-deploy.md
-      - name: Triggers
-        href: web-application/tutorials/customize/triggers.md
     - name: Validation
       href: web-application/tutorials/validation/validate-fields.md
       items:

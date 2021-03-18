@@ -1,0 +1,30 @@
+<!-- SoPlainCardDialog.config -->
+<page id="PlainCardDialog">
+  <title>Plain Dialog</title>
+  <panels>
+    <panel id="MainPanel" type="SoDialogPanel" soprotocol="main">
+      <cards>
+        <card id="MainCard" type="SoDialogSimpleCard" placeholderid="MainDialogCard"
+              cardtype="MainCard" position="absolute" top="10px">
+          <views>
+            <view id="MainView" type="SoDialogSimpleView" soprotocol="view1">
+              <controlgroups>
+                <controlgroup id="MainHeaderGroup" type="SoControlGroup"
+                              left="50px" top="50px" position="absolute">
+                  <controls>
+                    <control id="DialogHeader" type="SoLabel" width="100%">
+                      <caption>Plain Dialog Label</caption>
+                    </control>
+                  </controls>
+                </controlgroup>
+              </controlgroups>
+             </view>
+          </views>
+          <config>
+            <customcssclass>mycardtop</customcssclass>
+          </config>
+        </card>
+      </cards>
+    </panel>
+  </panels>
+</page>

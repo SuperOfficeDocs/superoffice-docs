@@ -4,11 +4,9 @@ description: How to alter system configuration files
 author: Tony Yates
 so.date: 06.24.2016
 keywords:
-so.topic: howto            # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
-# so.envir:                     # cloud or onsite
-# so.client:                    # online, web, win, pocket, or mobile
+so.topic: howto
+so.envir: win
+so.client: web
 ---
 
 # How to alter system configuration files

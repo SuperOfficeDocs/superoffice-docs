@@ -92,7 +92,7 @@ Here we can see that there are controls in a given control group section. The co
 
 Not all controls use the config section. From the `datasource` element, it will tell us which data provider will provide data for this particular control.
 
-## Different View Types
+## Different view types
 
 | Name | Description |
 |---|---|

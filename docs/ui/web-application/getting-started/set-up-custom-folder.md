@@ -11,7 +11,13 @@ so.envir: onsite
 
 # How to use custom config files (and folder)
 
-The config files are updated whenever you repair, re-install, or upgrade the application. This means that any changes you make disappear. To avoid having to manually patch these files, you can place your customization in a separate folder. This folder won’t be touched by the installer – leaving your customizations in place during an upgrade.
+Customizing the web client is all made possible by modifying application XML SuperOffice Markup Language (SOML) files. To begin, it's as easy as navigating to the applications App_Data folder and opening one of the .config files that requires customizing. From click-actions to UI windows there are virtually limitless client customization capabilities.
+
+With regards to modifying existing application files, there are downsides to this approach. The config files are replaced whenever you repair, re-install, or upgrade the application. This means that any changes you make, all direct customizations, disappear.
+
+To avoid having to manually patch these files, you can place your customization in a separate folder. This folder won’t be touched by the installer – leaving your customizations in place during an upgrade.
+
+These override files are then discovered and incorporated at runtime. The **client configuration provider** solves this problem.
 
 You should never add your own config files to the standard configuration path. Always use your own custom path. You should also separate your own custom paths from other modifications as well.
 

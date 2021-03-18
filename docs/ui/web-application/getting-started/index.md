@@ -15,13 +15,25 @@ SuperOffice CRM Web delivers a comprehensible and highly extensible platform tha
 
 * Get familiar with the [contents of the installation folder][1]
 
-* Study the [architecture][3]
-
 * [Set up a custom folder][4] for your customizations.
+
+## Architecture
+
+First conceived and built on ASP.NET technology in 2005, the CRM Web Framework used cutting-edge Web 2.0 techniques, and was delivered as one of the first enterprise CRM single-page applications (SPA) on the market. It continues to evolve, using the latest web development technologies, and remains the finest CRM platform available.
+
+SuperOffice CRM Web is an application, from the ground up, built for extensibility. Nearly every feature, from user-interface (UI) to the database, is customizable.
+
+![CustomCode][img6]
+
+Like similar platforms, SuperOffice Web is comprised of several components that render a page in a browser. Its strength is its flexibility. The entire application structure is declared in XML configuration files.
+
+[Read more about the architecture][3]
+
+## Configuration
 
 Nearly all customizations involve changing at least one of the configuration files so that's the best place to continue this discussion.
 
-* [Page configuration][5] - presents the SuperOffice Markup Language (SOML), which is the cornerstone of SuperOffice web client, and explains how SOML is used to define the structure of the web application.
+* [Page configuration][5] - the SuperOffice Markup Language (SOML) is the cornerstone of SuperOffice web client and used to define the structure of the web application.
 
   * Learn how to [change system config files][11]
 
@@ -35,20 +47,6 @@ Nearly all customizations involve changing at least one of the configuration fil
 
 * [Custom AJAX methods][10] - how to call server-side methods both asynchronously and synchronously from client-side Javascript
 
-## Themes
-
-The stylesheets used are defined by using ASP.NET themes, which lets you create custom controls that look exactly like standard controls.
-
-The use of themes also lets you change all of the design elements, like fonts and colors in the entire application to fit your own corporate design.
-
-## WebParts
-
-You can change the placement of HTML elements and controls from within these files, but you can not easily remove or add elements here. It is recommended to create your own controls that replace the standard ones instead of modifying these.
-
-## App_Data
-
-This is where you can make changes to the application by modifying the configuration files, add your own pages, and also remove elements if necessary. With the configuration files, you can actually change the web client web completely to suit your needs. We will be taking a much closer look at the different configuration files later.
-
 ## Troubleshooting
 
 To debug, use the developer tools of your browser and the SuperOffice [Diagnostics viewer and Debug window][2]
@@ -58,7 +56,7 @@ To debug, use the developer tools of your browser and the SuperOffice [Diagnosti
 [2]: debug.md
 [3]: architecture.md
 [4]: set-up-custom-folder.md
-[5]: ../pagebuilder/config/index.md
+[5]: ../pagebuilder/config/soml.md
 [6]: ../tutorials/tutorial-1.md
 [7]: ../pagebuilder/datahandlers/index.md
 [8]: ../pagebuilder/usercontrols/lists/create-custom-mdo-controls.md
@@ -67,3 +65,4 @@ To debug, use the developer tools of your browser and the SuperOffice [Diagnosti
 [11]: change-system-config.md
 
 <!-- Referenced images -->
+[img6]: media/web-client-custom-code.png

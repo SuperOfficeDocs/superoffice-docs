@@ -13,6 +13,40 @@ so.envir: onsite
 
 The PageBuilder is the mechanism that is defined by SuperOffice to build the pages of the CRM.web application. This section will focus on the many different config files that PageBuilder uses.
 
+## Intro
+
+The PageBuilder uses the [pagename]Page.config file to build a specific webpage. The config tells the PageBuilder about the contents of the page. Like the number of panels and DataHandlers used.
+
+The following is an example of the *SoConactPage.config* file.
+
+```XML
+<page id="ContactPage">
+  <data>
+    <datahandlers>
+      <!-- Some other code-->
+      <datahandler id="ContactEntityDataHandler" type="ContactEntityDataHandler"></datahandler>
+      <!-- Some other code-->
+    </datahandlers>
+  </data>
+  <panels>
+    <panel reference="Menu" />
+    <panel reference="ButtonBar" />
+    <panel reference="Navigator" />
+    <panel reference="Contact" />
+  </panels>
+</page>
+```
+
+The code segment above describes the element structure of the page. It consists of main sections like data section and panels. The `data` element tells the PageBuilder where to fetch the data to display on this page. Within the `panels` element, all the panels are included in the config file by reference, which means that the definitions of the panels are in separate files. For example, The **Menu** panel is defined in the file *SoMenuPanel.config*.
+
+The objects are identified by the relevant config file based on an [object-mapping][1] file. This file is called *SoObjectMapping.config* and it maps the objects of the webpages to the actual ASP.net objects.
+
+The below code segment is mapped to the ContactEntityDataHandler object.
+
+```XML
+<object type="IDataHandler" mappingname="ContactEntityDataHandler" assemblyname="SuperOffice.CRMWeb" objectname="SuperOffice.CRM.Web.Data.ContactEntityDataHandler"></object>
+```
+
 ## Why create all pages through CONFIG files?
 
 * The ability to customize the application by only editing few XML files. Since all these config files are controlled and managed by the PageBuilder, any third-party customizations can be added in a way the framework will understand.
@@ -24,130 +58,101 @@ The PageBuilder is the mechanism that is defined by SuperOffice to build the pag
 > [!TIP]
 > Familiarize yourself with PageBuilder before going into more detail on the config files.
 
-## SuperOffice Markup Language (SOML)
+## System configuration files
 
-SOML is an XML format that conforms to a well-defined schema defining the entire web applications structure. It is written in files with a *.config* or [.merge][1] file extension and referred to as **configuration files**.
+Configuration files make up both the infrastructure components and user-interface (UI) components of the application.
 
-The SOML content in *.config* and *.merge* files are identical, but:
+Infrastructure components are a collection of files that represent the system itself and are referred to as system files. They declare every application dependency, including web controls, currents, menu items, and pages. These files essentially describe the skeleton of the entire web application.
 
-* Files with a .config extension contain pre-configured SOML that defined the structure of the web application
+* [SoApplicationConfiguration.config][2]: contains all of the page and dialog declarations, essentially cataloging all of the files that represent UI components.
 
-* Files with a .merge extension are fragments discovered at runtime and interpolated into the overall configuration model to append additional functionality. Integrations and customizations often use .merge files to include additional functionality or behavior.
+* [SoObjectMapping.config][3] maps all element types used in page configurations to user controls and web controls defined in assemblies.
 
-Configuration files make up both the [infrastructure components][2] and [user-interface][3] (UI) components of the application. Infrastructure components are a collection of files that represent the system itself and are referred to as system files.
+Both of these system files contain more than what's described here, but this explanation is useful in that it describes how the contents of system files are different than dedicated page configuration files.
 
-## Lifecycle
+**Other files considered to be system files include:**
 
-While navigating around in the client, incoming requests sent to the server are interpreted and rewritten into an SoProtocol URL. The SoProtocolModule uses the parsed URL to determine what to display on the page and what data to load into the page.
+* SoAdminApplicationConfiguration.config
+* SoFilterList.config
+* SoArchiveColumnList.config
+* [SoArchiveControlLinkInfoTypes.config][4]
+* SoArchiveCriteriaList.config
+* SoMenuConfiguration.config
 
-![lifecycle][img1]
+## Page configuration files
 
-1. When a callback request is made to the server, the request is in the form of the soprotocol.
+What's shown in a browser window is generally associated with being a UI configuration component.
 
-2. The SoProtocolModule HttpModule parses the soprotocol string and updates the SuperState and Current reflecting the changes made from the last request.
+![PageFramework][img1]
 
-3. These changes are used by the ContextFilter to modify the configuration.
+The following SOML represents a dialog page called *SoPlainCardDialog.config*. It contains a root element [page][5] and contains 2 child elements, `title` and `panels`. The **panels** element is a container for one or more [panel][6] elements. In this case it only contains one panel of type `SoDialogPanel`.
 
-4. Parts of the configuration that are not affected by the changes in SuperState/Current are removed.
+The panel element contains a **cards** child element and this represents a contains for one or more [card][7] elements. In this case, only one card of type `SoDialogSimpleCard` is declared.
 
-5. When the PageBuilder receives the configuration, it has no knowledge of what to render and what to not render. The PageBuilder only builds what the configuration tells it to build.
+The `card` element contains a **views** element, which is a container for one or more [view][8] elements. In this case, only one view of type `SoDialogSimpleView` is declared.
 
-To reduce the response payload and enforce things such as user-rights, SoProtocolModule uses the page framework to build the entire page configuration. Then based on the user's context, the configuration is then parsed multiple times by various filters to strip away unchanged or unnecessary parts of the page.
+The `view` element contains a **controlgroups** element, which is a container for one or more `controlgroup` element. In this case, only one group of type `SoControlGroup` is declared.
 
-Before the unchanged parts of the page are stripped away, we need to build the entire page configuration, this has several steps:
+The `controlgroup` element contains a **controls** element, which is a container for one or more `control` elements. In this case, only one control of type `SoLabel` is declared.
 
-1. The page configuration is parsed multiple times
+Beginning to see a pattern yet?
 
-    1. Fragments are resolved and put together.
-    2. Data-driven config for WWW panels and external applications are generated
-    3. The merge-filter merges custom merge files with standard configuration files
-    4. Caching is performed.
-    5. All other filters
+[!code-xml[XML](includes/soplaincarddialog.xml)]
 
-2. First cached in the database to reduce startup time after an application recycle
+### Config element
 
-3. Then cached in the application session for optimal access to the fully parsed configuration
+All elements have child **config** elements for additional functionality, but only certain controls use them. Here the card uses a `config` element to define a CSS style that should override the default. It's up to the control implementation to define what child elements are available in the config element and then process each accordingly.
 
-4. Use the magic Flush command to clear the cache both on client and server
+## How to customize
 
-5. Last but not least the context filter and many other filters. The main purpose is to reduce client output, enforce rules(rights) based on client state/user.
+The PageBuilder framework controls all these config files. Any third-party customizations can be plugged into the framework.
 
-The following illustration shows how the configuration grows and then shrinks from this process.
-
-![web client config file lifecycle][img2]
-
-## Fragments (filenames)
-
-Configuration files can be split into smaller fragments to enable reuse. There is a strict naming convention for this to work.
-
-Fragments must be named correctly:
-
-* Syntax: `So[Reference_Name][Type].config`
-* Example: `SoContactCommonHeaderControlGroup.config`
-
-Fragment filename: *SoNavigatorPanel.config*
-
-```XML
-<panels>
-  <panel reference="Menu" />
-  <panel reference="ButtonBar" />
-  <panel reference="Navigator" />
-  <panel reference="Contact" />
-</panels>
-```
-
-You can have several paths. Must start with CustomPath. You should turn off the cache during development - or you won't see changes to the config file appear in the GUI.
-
-### Fragments are page configuration specific
-
-From *SoMainHeaderGroupControlGroup.config:*
-
-```XML
-<controlgroups>
-   <controlgroup id="MoreMainHeaderGroup" referenceWithIdUpdate="MainHeaderGroup"/>
-```
-
-### All ID attributes are prefixed with ref. id
-
-```XML
-<controlgroups>
-  <controlgroup id="MoreMainHeaderGroup_OrgId" type="ControlGroup" />
-```
+For example, if we were to build our own page using by using SO controls such as UI controls, SoProtocols, and DataHandlers the PageBuilder framework will be able to identify these controls and construct the webpage.
 
 ## Data-driven
 
 Config for web panels and external applications are generated using templates. These reside in the Service layer.
 
-## Filters
+Some parts of the configuration file are filled in according to data in the database. The PageBuilder framework replaces part of the config file with new data generated from information in the database.
 
-Adds and removes fragments of the configuration. The main purpose is to reduce client output, enforce rules(rights) based on client state/user.
+For example, the layout of the user-defined fields on the **More** tab is stored in the database in the `UDefField` table. The actual values in the user-defined fields are stored in a different table.
 
-MergeFilter executes before cache, all others filters after cache. The filters reside in the client, not in the web services.
-
-Filter filename: `SoFilterList.config`
+The config for the **More** tab on the company card looks like this:
 
 ```XML
-<filters>
-  <filter phase="precache" name="MergeFilter"></filter>
-  <filter phase="post" name="ContextFilter"></filter>
-  <filter phase="post" name="DataFilter"></filter>
-  <filter phase="post" name="FunctionalRightsFilter"></filter>
-  <filter phase="post" name="SessionStateFilter"></filter>
-  <filter phase="post" name="UserPreferenceFilter"></filter>
-  <filter phase="post" name="LocalizationFilter"></filter>
-  <filter phase="post" name="SentryFilter"></filter>
-</filters>
+<view id="more" type="SoView" soprotocol="udef" current="contact">
+  <caption>[SR_MORE_CONTACT]</caption>
+  <controlgroups>
+    <controlgroup id="contactmainmoreudefgroup" type="SoControlGroup" left="16px" right="20px" top="85px" bottom="54px" overflow="auto" position="absolute">
+      <controls>
+      </controls>
+      <config>
+        <grouptype>absolute</grouptype>
+      </config>
+    </controlgroup>
+  </controlgroups>
+</view>
 ```
+
+The control group is empty, but the framework knows that it needs to place the controls defined in the `UdefField` table in the database inside this element because of the *SoUdefConfiguration.config* file defines the ID of the control group.
+
+The PageBuilder generates the controls needed to show the user-defined fields using the data in the `UdefField` table in the database.
 
 ## Configuration cache
 
 Caches exist in the database and the application. Fragments and data-driven config are cached in the database. The post MergeFilter is run on the client. Use the magic `?Flush` command to clear the cache both on the client and server.
 
+You should turn off the cache during development - or you won't see changes to the config file appear in the GUI.
+
 <!-- Referenced links -->
-[1]: ../../tutorials/customize/cust-and-deploy.md
-[2]: system-config-files.md
-[3]: ui-config-files.md
+[1]: object-mapping.md
+[2]: soapplicationconfiguration.md
+[3]: object-mapping.md
+[4]: soarchivecontrollinkinfotypes.md
+[5]: page.md
+[6]: panel.md
+[7]: card.md
+[8]: view.md
 
 <!-- Referenced images -->
-[img1]: media/config-lifecycle.png
-[img2]: media/web-client-merge-file-process.png
+[img1]: media/web-client-pagebuilder-framework2.png
