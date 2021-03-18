@@ -11,18 +11,20 @@ so.envir: onsite
 
 # How to use custom config files (and folder)
 
-Customizing the web client is all made possible by modifying application XML SuperOffice Markup Language (SOML) files. To begin, it's as easy as navigating to the applications App_Data folder and opening one of the .config files that requires customizing. From click-actions to UI windows there are virtually limitless client customization capabilities.
+Customizing the web client is all made possible by modifying application XML SuperOffice Markup Language (SOML) files. To begin, it's as easy as navigating to the applications *App_Data* folder and opening one of the *.config* files that requires customizing. From click-actions to UI windows there are virtually limitless client customization capabilities.
 
 With regards to modifying existing application files, there are downsides to this approach. The config files are replaced whenever you repair, re-install, or upgrade the application. This means that any changes you make, all direct customizations, disappear.
 
 To avoid having to manually patch these files, you can place your customization in a separate folder. This folder won’t be touched by the installer – leaving your customizations in place during an upgrade.
 
-These override files are then discovered and incorporated at runtime. The **client configuration provider** solves this problem.
+These override files are then discovered and incorporated at runtime. The [client configuration provider][1] solves this problem.
 
 You should never add your own config files to the standard configuration path. Always use your own custom path. You should also separate your own custom paths from other modifications as well.
 
 > [!NOTE]
 > This folder will **mirror** the *App_Data* folder (including sub-folders), allowing you to override it with your custom files.
+
+To set up your custom folder:
 
 1. Add a custom path to the *web.config* file.
 2. Turn off caching.
@@ -76,6 +78,7 @@ The files placed in the custom folder will automatically be preferred by the web
 You can only replace files – you can’t replace parts of a config file – so you still need to check if there are changes you want to merge over from the standard config files after an upgrade – but hopefully, that is easier than patching in your changes every time there is an upgrade.
 
 <!-- Referenced links -->
+[1]: clientconfigurationprovider.md
 
 <!-- Referenced images -->
 [img1]: media/image001.jpg

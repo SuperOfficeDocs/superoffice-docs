@@ -232,16 +232,21 @@ items:
       href: web-application/getting-started/change-page-config.md
     - name: Change system config
       href: web-application/getting-started/change-system-config.md
+    - name: Clientconfigurationprovider
+      href: web-application/getting-started/clientconfigurationprovider.md
     - name: Dcf
       href: web-application/getting-started/dcf.md
     - name: Debug
       href: web-application/getting-started/debug.md
     - name: Folder structure
       href: web-application/getting-started/folder-structure.md
-    - name: Model view controller pattern
-      href: web-application/getting-started/model-view-controller-pattern.md
     - name: Set up custom folder
       href: web-application/getting-started/set-up-custom-folder.md
+  - name: Model view controller pattern
+    href: web-application/model-view-controller-pattern/mvc-article.md
+    items:
+    - name: Mvc article
+      href: web-application/model-view-controller-pattern/mvc-article.md
   - name: Pagebuilder
     href: web-application/pagebuilder/index.md
     items:
@@ -250,8 +255,6 @@ items:
       items:
       - name: Card
         href: web-application/pagebuilder/config/card.md
-      - name: Clientconfigurationprovider
-        href: web-application/pagebuilder/config/clientconfigurationprovider.md
       - name: Merge
         href: web-application/pagebuilder/config/merge.md
       - name: Object mapping

@@ -15,7 +15,7 @@
     - name: How to debug
       href: getting-started/debug.md
   - name: Model-view-controller pattern
-    href: getting-started/model-view-controller-pattern.md
+    href: model-view-controller-pattern/mvc-article.md
   - name: Customization
     items:
     - name: Add label
