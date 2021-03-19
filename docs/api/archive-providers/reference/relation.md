@@ -8,7 +8,7 @@ keywords:
   - "provider"
   - "archive provider"
 so.generated: true
-so.date: 18.03.2021
+so.date: 19.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -484,7 +484,7 @@ the up to eight basic sub-providers (CC, PC, PP and CP plus their reversed cousi
 ## Sample
 
 ```http!
-GET /api/v1/archive/Relation?$select=source/restrictionAddress/line3,source/restrictionAddress/wgs84longitude,target/streetAddress/zip
+GET /api/v1/archive/Relation?$select=source/personNumber,source/supportAssociate,target/streetAddress/zip
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

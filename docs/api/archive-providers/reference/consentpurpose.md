@@ -8,7 +8,7 @@ keywords:
   - "provider"
   - "archive provider"
 so.generated: true
-so.date: 18.03.2021
+so.date: 19.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -154,7 +154,7 @@ and for GDPR relations to person, if you join and restrict on person
 ## Sample
 
 ```http!
-GET /api/v1/archive/ConsentPurpose?$select=consentPerson/person/personRegisteredBy,consentPerson/person/useAsMailingAddress,consentPerson/person/personDeletedDate
+GET /api/v1/archive/ConsentPurpose?$select=consentPerson/active,consentPerson/person/useAsMailingAddress,consentPerson/person/personDeletedDate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

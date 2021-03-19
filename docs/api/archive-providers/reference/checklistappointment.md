@@ -8,7 +8,7 @@ keywords:
   - "provider"
   - "archive provider"
 so.generated: true
-so.date: 18.03.2021
+so.date: 19.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -567,7 +567,7 @@ Archive provider for Appointment activities, of the Diary type (not followup or 
 ## Sample
 
 ```http!
-GET /api/v1/archive/ChecklistAppointment?$select=contact/hasInfoText,contact/contactAssociate/associateDbId,sale/saleStatus
+GET /api/v1/archive/ChecklistAppointment?$select=contact/streetAddress/wgs84longitude,sale/saleUdef/SuperOffice:5,associate/assocType,associate/ejUserId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -7,7 +7,7 @@ keywords:
   - "provider"
   - "archive provider"
 so.generated: true
-so.date: 18.03.2021
+so.date: 19.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -1107,7 +1107,7 @@ This provider is a trivial aggregation of the Appointment and Document providers
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaleGuide?$select=appointmentInstance/contact/restrictionAddress/addressId,appointmentInstance/contact/contactAssociate/assocName,appointmentInstance/project/projectUdef/SuperOffice:9,appointmentInstance/sale/associate/title,documentInstance/person/restrictionAddress/line2
+GET /api/v1/archive/SaleGuide?$select=appointmentInstance/contact/restrictionAddress/wgs84longitude,appointmentInstance/person/restrictionAddress/addressId,appointmentInstance/project/projectAssociate/personId,appointmentInstance/project/saintDirection,appointmentInstance/sale/associateId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

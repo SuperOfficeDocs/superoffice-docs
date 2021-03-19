@@ -17,7 +17,7 @@ keywords:
   - "provider"
   - "archive provider"
 so.generated: true
-so.date: 18.03.2021
+so.date: 19.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -862,7 +862,7 @@ as well as before any ORDER BY, are applied.
 ## Sample
 
 ```http!
-GET /api/v1/archive/FreetextSale?$select=person/personInterestIds,contact/email/emailId,project/projectAssociate/usergroup
+GET /api/v1/archive/FreetextSale?$select=who,contact/postAddress/line3,contact/contactAssociate/userName,project/projectAssociate/credentialDisplayValue,project/projectUdef/SuperOffice:3
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -7,7 +7,7 @@ keywords:
   - "provider"
   - "archive provider"
 so.generated: true
-so.date: 18.03.2021
+so.date: 19.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -575,7 +575,7 @@ to drive the sentry calculations, as well as the specialization with the correct
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaleGuideDocument?$select=documentInstance/documentId,documentInstance/person/personUdef/SuperOffice:7,documentInstance/person/isMailingRecipient,documentInstance/project/projectPublish/publishedTo,documentInstance/project/projectUdef/SuperOffice:6
+GET /api/v1/archive/SaleGuideDocument?$select=documentInstance/personId,documentInstance/person/personDirectPhone/formattedNumber,documentInstance/associate/personEmail,documentInstance/sale/associate/simultaneousEjUser
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

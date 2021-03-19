@@ -7,7 +7,7 @@ keywords:
   - "provider"
   - "archive provider"
 so.generated: true
-so.date: 18.03.2021
+so.date: 19.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -628,7 +628,7 @@ Project shadow selection archive with OR-able selection groups. Each group is re
 ## Sample
 
 ```http!
-GET /api/v1/archive/ProjectShadowDynamicSelectionV2?$select=document/yourref,projectMember/textId,appointment/who
+GET /api/v1/archive/ProjectShadowDynamicSelectionV2?$select=appointment/associate/credentialType,document/date,projectMember/personNumber,projectMember/restrictionAddress/line1,projectMember/contactDeleted
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

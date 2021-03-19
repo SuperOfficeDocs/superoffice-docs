@@ -7,7 +7,7 @@ keywords:
   - "provider"
   - "archive provider"
 so.generated: true
-so.date: 18.03.2021
+so.date: 19.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -558,7 +558,7 @@ Shadow contact provider for the dynamic document provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/DocumentShadowDynamicSelection?$select=person/hasStoreConsent,project/projectUdef/SuperOffice:4,sale/saleId,sale/associate/contactDepartment
+GET /api/v1/archive/DocumentShadowDynamicSelection?$select=person/personUdef/SuperOffice:9,person/personUdef/SuperOffice:10,contact/contactAssociate/usergroup,contact/saintDirection,project/endDate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

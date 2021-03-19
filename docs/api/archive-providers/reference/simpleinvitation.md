@@ -7,7 +7,7 @@ keywords:
   - "provider"
   - "archive provider"
 so.generated: true
-so.date: 18.03.2021
+so.date: 19.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -570,7 +570,7 @@ This entity is mandatory. Simple bookings have no 'overdue' checks.
 ## Sample
 
 ```http!
-GET /api/v1/archive/SimpleInvitation?$select=personId,recurring,contact/searchPhone/formattedNumber,project/projectAssociate/usergroup,project/projectUdef/SuperOffice:5
+GET /api/v1/archive/SimpleInvitation?$select=contact/contactAssociate/assocTooltip,appointmentUdef/SuperOffice:6,project/projectAssociate/lastName,associate/contactName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

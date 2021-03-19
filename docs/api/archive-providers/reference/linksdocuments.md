@@ -7,7 +7,7 @@ keywords:
   - "provider"
   - "archive provider"
 so.generated: true
-so.date: 18.03.2021
+so.date: 19.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -566,7 +566,7 @@ Link data provider for documents, handles both addressing by source or by destin
 ## Sample
 
 ```http!
-GET /api/v1/archive/LinksDocuments?$select=userGroup,person/portraitThumbnail,person/personUdef/SuperOffice:11,contact/streetAddress/addressId,project/projectAssociate/contactDepartment
+GET /api/v1/archive/LinksDocuments?$select=date,person/portraitThumbnail,person/personBusiness,contact/department,contact/postAddress/line1
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

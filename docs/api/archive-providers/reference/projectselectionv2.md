@@ -7,7 +7,7 @@ keywords:
   - "provider"
   - "archive provider"
 so.generated: true
-so.date: 18.03.2021
+so.date: 19.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -633,7 +633,7 @@ This is the archive Provider for the Selection Project archive.
 ## Sample
 
 ```http!
-GET /api/v1/archive/ProjectSelectionV2?$select=projectUrl/URLAddress,sale/stage,appointment/recurring,appointment/appointmentUdef/SuperOffice:4,projectMember/restrictionAddress/formattedAddress
+GET /api/v1/archive/ProjectSelectionV2?$select=saintTicketStatus,sale/saleUdef/SuperOffice:5,appointment/updatedDate,appointment/associate/ejStatus,projectMember/restrictionAddress/wgs84longitude
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

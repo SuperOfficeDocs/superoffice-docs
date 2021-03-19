@@ -7,7 +7,7 @@ keywords:
   - "provider"
   - "archive provider"
 so.generated: true
-so.date: 18.03.2021
+so.date: 19.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -56,7 +56,7 @@ Service settings that are mapped into preferences, retrieved by <see cref="T:Sup
 ## Sample
 
 ```http!
-GET /api/v1/archive/UserPreferences?$select=deflevel,maxlevelname
+GET /api/v1/archive/UserPreferences?$select=maxlevel,deflevel,maxlevelname
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

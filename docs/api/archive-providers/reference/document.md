@@ -8,7 +8,7 @@ keywords:
   - "provider"
   - "archive provider"
 so.generated: true
-so.date: 18.03.2021
+so.date: 19.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -558,7 +558,7 @@ Archive provider for Document type activities. This provider can be used on its 
 ## Sample
 
 ```http!
-GET /api/v1/archive/Document?$select=person/restrictionAddress/line1,contact/deletedDate,sale/description
+GET /api/v1/archive/Document?$select=person/personUdef/SuperOffice:8,contact/country,contact/restrictionAddress/line1,project/projectAssociate/isActive,project/LastCompletedSale
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

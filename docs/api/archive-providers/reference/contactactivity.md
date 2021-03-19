@@ -7,7 +7,7 @@ keywords:
   - "provider"
   - "archive provider"
 so.generated: true
-so.date: 18.03.2021
+so.date: 19.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -24,6 +24,7 @@ Activity archive provider for the Company card
 | Name | Description |
 | ---- | ----- |
 |"formSubmission"|Form submissions|
+|"chat"|Other|
 |"mailing"|Mailings|
 |"document"|Documents|
 |"appointment"|Follow-ups|
@@ -143,6 +144,16 @@ Activity archive provider for the Company card
 |contact/activeErpLinks|bool|Company - ERP connected: Is there an active ERP Sync?| x |
 |contact/deletedDate|datetime|Company - Deleted date: Deleted date|  |
 |contact/mainContact| *None* |Company - Main contact: Main contact for this company| x |
+|chatSessionId|int|Chat session ID: Database ID of the chat session| x |
+|firstMessage|string|First message: The first message submitted in the chat| x |
+|lastMessage|string|Last message: The last message submitted in the chat| x |
+|whenRequested|datetime|Chat requested: When was this chat requested by the customer?| x |
+|whenStarted|datetime|Chat started: When was this chat started between the customer and the agent?| x |
+|whenEnded|datetime|Chat ended: When did this chat end?| x |
+|chatTopic/chatTopicId|int|Chat channel - ID: The database ID of the chat channel| x |
+|chatTopic/name|string|Chat channel - Name: Name| x |
+|chatTopic/description|string|Chat channel - Description: The description of the chat channel| x |
+|chatTopic/badgeHeader|string|Chat channel - Badge header: The value of the badge header for the chat channel| x |
 |mailingId|int|ID: Displays the ID of the mailing| x |
 |selectionId|int|Selection ID: The database ID of the selection| x |
 |mailingDescription|string|Name: Displays the name of the mailing| x |
@@ -605,7 +616,7 @@ Activity archive provider for the Company card
 ## Sample
 
 ```http!
-GET /api/v1/archive/ContactActivity?$select=project/LastCompletedActivity,person/email/emailId,contact/restrictionAddress/wgs84latitude,contact/contactAssociate/fullName
+GET /api/v1/archive/ContactActivity?$select=associate/assocType,contact/category,person/restrictionAddress/addressId,contact/restrictionAddress/county,sale/registeredDate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

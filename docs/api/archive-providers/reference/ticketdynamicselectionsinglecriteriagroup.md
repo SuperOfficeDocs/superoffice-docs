@@ -7,7 +7,7 @@ keywords:
   - "provider"
   - "archive provider"
 so.generated: true
-so.date: 18.03.2021
+so.date: 19.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -397,7 +397,7 @@ Ticket selection archive using the selectionId as criterionmapping.
 ## Sample
 
 ```http!
-GET /api/v1/archive/TicketDynamicSelectionSingleCriteriaGroup?$select=firstReadByOwner,realTimeToReply,person/contactId,person/email/emailBounceCount,person/personUdef/SuperOffice:5
+GET /api/v1/archive/TicketDynamicSelectionSingleCriteriaGroup?$select=createdBy/assocType,ownedBy/portraitThumbnail,person/associateType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

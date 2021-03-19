@@ -7,7 +7,7 @@ keywords:
   - "provider"
   - "archive provider"
 so.generated: true
-so.date: 18.03.2021
+so.date: 19.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -601,7 +601,7 @@ QuoteLine selection archive with OR-able selection groups. Each group is represe
 ## Sample
 
 ```http!
-GET /api/v1/archive/QuoteLineDynamicSelectionV2?$select=alternative/version/quote/sale/nextDueDate,alternative/version/quote/sale/person/personPrivate/description,alternative/version/quote/sale/person/personUdef/SuperOffice:8,alternative/version/quote/sale/contact/streetAddress/addressId,alternative/version/quote/sale/project/projectUrl/URLDescription
+GET /api/v1/archive/QuoteLineDynamicSelectionV2?$select=alternative/version/quote/sale/credited,alternative/version/quote/sale/person/isStakeholder,alternative/version/quote/sale/associate/role,alternative/version/quote/sale/associate/ejDisplayName,alternative/version/quote/sale/project/projectId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
