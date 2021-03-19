@@ -17,7 +17,8 @@ These webhook events are fired when person rows are changed:
 
 * `person.created`
 * `person.changed`
-* `person.deleted`
+* `person.softdeleted` - when deleted in the user interface.
+* `person.deleted` - when permanently deleted by the system.
 * `person.consented` - when consent is added or changed.
 * `person.unconsented` - when consent is removed or marked as withdrawn.
 

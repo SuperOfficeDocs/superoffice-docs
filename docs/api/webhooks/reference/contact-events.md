@@ -18,8 +18,8 @@ These webhook events are fired when contact rows are changed:
 
 * `contact.created`
 * `contact.changed`
-* `contact.softdeleted` - when deleted
-* `contact.deleted`
+* `contact.softdeleted` - when deleted in the user interface.
+* `contact.deleted` - when permanently deleted by the system.
 
 ## Contact.Created
 
