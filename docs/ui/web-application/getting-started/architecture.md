@@ -143,7 +143,7 @@ One of the biggest challenges with the page framework was to recreate the dynami
 
 Using a combination of configuration and [SuperState][2], the Web client can prevent full-page postbacks (causing flickering, lost focus, and position) by using the server-side callback mechanism in ASP.NET.
 
-**SoProtocol** has everything needed to perform the necessary calculations that determine what, and what not, to update in the UI. Callback requests arrive as [SoProtocol][5] containing querystring key-value parameters. A module called **SoProtocolModule** parses SoProtocol strings and updates current SuperState changes with the parameters in the last request.
+**SoProtocol** has everything needed to perform the necessary calculations that determine what, and what not, to update in the UI. Callback requests arrive as [SoProtocol][2] containing querystring key-value parameters. A module called **SoProtocolModule** parses SoProtocol strings and updates current SuperState changes with the parameters in the last request.
 
 SoProtocol value changes are used by the **ContextFilter** to modify the configuration. Parts of the configuration that are not affected by the changes in SuperState/Current are removed. This means that almost all unnecessary parsing and rendering are eliminated.
 
@@ -191,7 +191,6 @@ Before the unchanged parts of the page are stripped away, we need to build the e
 [2]: ../pagebuilder/superstate/index.md
 [3]: ../pagebuilder/config/index.md
 [4]: change-page-config.md
-[5]: ../pagebuilder/superstate/soprotocol.md
 [6]: ../pagebuilder/datahandlers/index.md
 
 <!-- Referenced images -->

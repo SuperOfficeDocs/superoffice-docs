@@ -281,14 +281,10 @@ items:
     - name: Superstate
       href: web-application/pagebuilder/superstate/index.md
       items:
-      - name: Soprotocol
-        href: web-application/pagebuilder/superstate/soprotocol.md
+      - name: Role of soprotocol
+        href: web-application/pagebuilder/superstate/role-of-soprotocol.md
       - name: State changes
         href: web-application/pagebuilder/superstate/state-changes.md
-      - name: Superstate in context
-        href: web-application/pagebuilder/superstate/superstate-in-context.md
-      - name: Triggers
-        href: web-application/pagebuilder/superstate/triggers.md
     - name: Usercontrols
       href: web-application/pagebuilder/usercontrols/index.md
       items:

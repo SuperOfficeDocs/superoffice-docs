@@ -51,6 +51,13 @@ items:
       href: pagebuilder/datahandlers/use-builtin-datahandler.md
     - name: Add custom data handler
       href: pagebuilder/datahandlers/add-custom-datahandler.md
+  - name: Superstate
+    href: pagebuilder/superstate/index.md
+    items:
+    - name: State changes and triggers
+      href: pagebuilder/superstate/state-changes.md
+    - name: Role of soprotocol
+      href: pagebuilder/superstate/role-of-soprotocol.md
   - name: Globalization
     href:  globalization.md
   - name: Strategic goals

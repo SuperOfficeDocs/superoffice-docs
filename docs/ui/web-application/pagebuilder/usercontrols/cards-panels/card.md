@@ -13,7 +13,7 @@ so.envir: onsite
 
 The card section contains one or more views. The views can be displayed one by one or all at once, this is decided by the implementation of the card. In SuperOffice, the card will display a tab control or a dropdown control telling the user which view is active and what other views are available.
 
-You can use [SoProtocol][] strings in the URL to force a switch to a particular view:
+You can use [SoProtocol][1] strings in the URL to force a switch to a particular view:
 
 * Open the contact page displaying the interest tab
 
@@ -32,7 +32,7 @@ These links show us a direct way to open a page with wanted tabs. The SoProtocol
 ![02][img1]
 
 <!-- Referenced links -->
-[1]:../../../soprotocol.md
+[1]:../../../../soprotocol/index.md
 
 <!-- Referenced images -->
 [img1]: media/image002.jpg

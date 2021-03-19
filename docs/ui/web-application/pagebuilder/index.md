@@ -17,7 +17,7 @@ The following diagram shows the components in a typical CRM.web webpage. The web
 
 The PageBuilder generates a page based on the information passed by the SuperState. The SuperState determines which configuration to fetch based on the SoProtocol and passes it to the PageBuilder.
 
-The controls consider the UI status and the current values when rendering a page. Once the page shows in the browser, it brings all elements in the page into one level. SuperOffice connects the [SuperState][1], [user controls][2], [SoProtocol][3], [data handlers][4], and the [XML configuration files][5] to render the page.
+The controls consider the UI status and the current values when rendering a page. Once the page shows in the browser, it brings all elements in the page into one level. SuperOffice connects the [SuperState][1], [user controls][2], [SoProtocol][1], [data handlers][4], and the [XML configuration files][5] to render the page.
 
 ## SuperOffice pages
 
@@ -63,7 +63,6 @@ A control is a set of smaller UI controls, which also contains all the presentat
 <!-- Referenced links -->
 [1]: superstate/index.md
 [2]: usercontrols/index.md
-[3]: superstate/soprotocol.md
 [4]: datahandlers/index.md
 [5]: config/index.md
 
