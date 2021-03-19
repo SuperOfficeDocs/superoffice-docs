@@ -51,6 +51,17 @@ A control is a set of smaller UI controls, which also contains all the presentat
 </so2:PageBuilder>
 ```
 
+### ASCX vs. ASPX
+
+ASCX pages are web controls that can be used in an ASPX page.
+
+File extensions:
+
+* UserControls: *.ascx*
+* ASP webpages: *.aspx*
+
+The basic difference between ASPX and ASCX pages is that ASCX pages may not have `<HTML>`, `<Body>`, or `<Form>` tags but the ASPX pages have those tags
+
 ## Methods in the PageBuilder class
 
 * InitializeCard

@@ -44,13 +44,13 @@ The `ContactEntityDataHandler` data handler is called in the **Contact** panel. 
 
 [!code-xml[XML](../includes/socontactpanel-config.xml)]
 
-The `ContactEntityDataHandler` will fetch the ContactEntity from the web service. With the statement below, we use the name of the handler to retrieve the data from the carrier.
+The `ContactEntityDataHandler` will fetch the ContactEntity from the web service. With the statement below, we use the name of the handler to retrieve the data (create object) from the carrier.
 
 [!code-xml[XML](../includes/socontactpanel-config.xml?range=16)]
 
 The PageBuilder framework rendering mechanism gets the data onto the page by using data handlers.
 
-## How tos and tutorials
+## How-tos and tutorials
 
 * [How to use an existing data handler][1]
 * [How to add a custom data handler][2]

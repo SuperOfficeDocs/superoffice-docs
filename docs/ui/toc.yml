@@ -298,8 +298,6 @@ items:
       items:
       - name: Role of soprotocol
         href: web-application/pagebuilder/superstate/role-of-soprotocol.md
-      - name: Soprotocol names
-        href: web-application/pagebuilder/superstate/soprotocol-names.md
       - name: State changes
         href: web-application/pagebuilder/superstate/state-changes.md
     - name: Usercontrols

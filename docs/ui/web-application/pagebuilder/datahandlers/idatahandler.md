@@ -11,9 +11,9 @@ so.envir: onsite
 
 # IDataHandler
 
-The IDataHandler interface is responsible for loading, saving, deleting, clearing, and creating new namespaces to the corresponding datasource. A new `IDataHandler` instance will be created from the configuration values in the XML base file by the PluggableHandler, and necessary information will also be passed to it during the instantiation so that it knows which datasource to connect to.
+The IDataHandler interface is responsible for loading, saving, deleting, clearing, and creating new namespaces to the corresponding data source. A new `IDataHandler` instance will be created from the configuration values in the XML base file by the PluggableHandler, and necessary information will also be passed to it during the instantiation so that it knows which data source to connect to.
 
-All implementations of this interface must provide a constructor taking an `IDictionary` argument which contains pairs of string type key-value pair to provide necessary information about the datasource. In theory, a single data handler could expose multiple objects, but in practice, each data handler tends to expose a single object via a single carrier name.
+All implementations of this interface must provide a constructor taking an `IDictionary` argument which contains pairs of string type key-value pair to provide necessary information about the data source. In theory, a single data handler could expose multiple objects, but in practice, each data handler tends to expose a single object via a single carrier name.
 
 The interface is located in the *SuperOffice.CRM.Web.Data* namespace and includes methods such as:
 

@@ -23,27 +23,40 @@ items:
 - name: Pagebuilder
   href:  pagebuilder/index.md
   items:
+  - name: Data binding
+    href: pagebuilder/data-binding.md
+  - name: Master and content pages
+    href: pagebuilder/master-and-content-pages.md
+  - name: Rights system
+    href: pagebuilder/rights-system.md
   - name: Config
     href:  pagebuilder/config/index.md
     items:
     - name: Soml
-      href:  pagebuilder/config/soml.md
+      href: pagebuilder/config/soml.md
     - name: Soapplicationconfiguration
-      href:  pagebuilder/config/soapplicationconfiguration.md
+      href: pagebuilder/config/soapplicationconfiguration.md
     - name: Object mapping
-      href:  pagebuilder/config/object-mapping.md
+      href: pagebuilder/config/object-mapping.md
     - name: Page
-      href:  pagebuilder/config/page.md
+      href: pagebuilder/config/page.md
     - name: Panel
-      href:  pagebuilder/config/panel.md
+      href: pagebuilder/config/panel.md
     - name: Card
-      href:  pagebuilder/config/card.md
+      href: pagebuilder/config/card.md
     - name: View
-      href:  pagebuilder/config/view.md
+      href: pagebuilder/config/view.md
     - name: Merge files and actions
-      href:  pagebuilder/config/merge-files-and-actions.md
+      href: pagebuilder/config/merge-files-and-actions.md
     - name: Soarchivecontrollinkinfotypes
-      href:  pagebuilder/config/soarchivecontrollinkinfotypes.md
+      href: pagebuilder/config/soarchivecontrollinkinfotypes.md
+    - name: Howto
+      href: pagebuilder/config/howto/add-tab-to-contact-card.md
+      items:
+        - name: Add tab to contact card
+          href: pagebuilder/config/howto/add-tab-to-contact-card.md
+        - name: Remove card
+          href: pagebuilder/config/howto/remove-card.md
   - name: Data handlers
     href: pagebuilder/datahandlers/index.md
     items:
@@ -51,6 +64,34 @@ items:
       href: pagebuilder/datahandlers/use-builtin-datahandler.md
     - name: Add custom data handler
       href: pagebuilder/datahandlers/add-custom-datahandler.md
+    - name: Idatahandler
+      href: pagebuilder/datahandlers/idatahandler.md
+  - name: Usercontrols
+    href: pagebuilder/usercontrols/index.md
+    items:
+      
+      - name: Mdolists
+        href: pagebuilder/usercontrols/mdolists/index.md
+        items:
+        - name: Add MDO control to panel
+          href: pagebuilder/usercontrols/mdolists/add-mdo-control-to-panel.md
+      - name: Soarchivecontrol
+        href: pagebuilder/usercontrols/soarchivecontrol/index.md
+        items:
+        - name: Add button to footer
+          href: pagebuilder/usercontrols/soarchivecontrol/add-button-to-footer.md
+        - name: Change default columns
+          href: pagebuilder/usercontrols/soarchivecontrol/change-default-columns.md
+      - name: Solistbox
+        items:
+        - name: Data binding
+          href: pagebuilder/usercontrols/solistbox/data-binding.md
+      - name: Sotextbox
+        items:
+        - name: Add textbox to navigator
+          href: pagebuilder/usercontrols/sotextbox/add-textbox-to-navigator.md
+      - name: Placeholder
+        href: pagebuilder/usercontrols/placeholder.md
   - name: Superstate
     href: pagebuilder/superstate/index.md
     items:

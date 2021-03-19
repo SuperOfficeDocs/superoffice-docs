@@ -31,7 +31,7 @@ The following example shows how a sentry right can be used.
 </panel>
 ```
 
-If the logged-in user doesn’t have the required rights to insert data, the field, button, or any other relevant item is disabled. Also, if a menu item such as a button or drop down list has been blocked by several sentry rights, it is enough that one of them hits.
+If the logged-in user doesn’t have the required rights to insert data, the field, button, or any other relevant item is disabled. Also, if a menu item such as a button or drop-down list has been blocked by several sentry rights, it is enough that one of them hits.
 
 ## Function right
 

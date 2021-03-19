@@ -86,7 +86,7 @@ The next level of the config file is the `card` element. The config data for the
 
 The cards can contain any number of views, which are laid out according to the definition on the card and the properties of the control.
 
-## Different Panel Types
+## Different panel types
 
 |Name|Description|
 |---|----|
@@ -94,18 +94,18 @@ The cards can contain any number of views, which are laid out according to the d
 |SoDialogPanel|Base panel for all dialogs. In edit mode by default.|
 |SplitterPanel|Base panel for all main pages that displays classic SuperOffice splitter panel (see image above). Can be used without splitter capability, as seen when viewing the browser panel page by clicking the SuperOffice logo.|
 
-### Recommended Types for Main Panels
+### Recommended types for main panels
 
-|Element Type | Type Attribute |
+|Element type | Type attribute |
 |-------------|----------------|
 |Panel |SplitterPanel|
 |Card |SoTabbedCard|
 |View |SoView|
 |ControlGroup|SoControlGroup|
 
-### Recommended Types for Simple Dialogs
+### Recommended types for simple dialogs
 
-|Element Type | Type Attribute |
+|Element type | Type attribute |
 |-------------|----------------|
 |Panel |SoDialogPanel|
 |Card |SoDialogSimpleCard|
@@ -114,9 +114,9 @@ The cards can contain any number of views, which are laid out according to the d
 |View (footer) |SoDialogSimpleFooterView|
 |- ControlGroup (footer) | OkCancelButtonBar |
 
-### Recommended Types for Normal Dialogs
+### Recommended types for normal dialogs
 
-|Element Type | Type Attribute |
+|Element type | Type attribute |
 |-------------|----------------|
 |Panel |SoDialogPanel|
 |Card |SoDialogCard|
