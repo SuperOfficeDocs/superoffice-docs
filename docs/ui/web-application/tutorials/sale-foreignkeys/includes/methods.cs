@@ -1,5 +1,8 @@
 public override void Initialize(System.Xml.XmlNode config, string id)
 {
+  _dataCarriers.Add("ForeignKeyDeviceOne", null);
+  _dataCarriers.Add("ForeignKeyDeviceTwo", null);
+
   base.Initialize(config, id);
   System.Xml.XmlNode node = config.SelectSingleNode("ForeignKeyDeviceId");
   if (node != null && !String.IsNullOrEmpty(node.InnerText))
@@ -29,4 +32,25 @@ private void GetList()
   ForeignKey[] fks = agent.GetDeviceKeysOnDeviceIdentifierTableRecordId("DevNet", "Demo", _fkDeviceId, "sale", _saleId);
   dgFkList.DataSource = fks;
   dgFkList.DataBind();
+}
+
+public override void UpdateDataSource()
+{
+    base.DataSource = _fk;
+    base.UpdateDataSource();
+}
+
+public override object Save()
+{
+  // Save the sale
+  base.Save();
+  SaleEntity saleEntity = (SaleEntity)_dataCarriers["SaleEntity"];
+  if (saleEntity.SaleId > 0)
+  {
+    // Save foreign keys
+    DevNetForeignKey devNetFkOne = (DevNetForeignKey)_dataCarriers["ForeignKeyDeviceOne"];
+    DevNetForeignKey devNetFkTwo = (DevNetForeignKey)_dataCarriers["ForeignKeyDeviceTwo"];
+    SaveForeignKey(devNetFkOne, saleEntity);
+    SaveForeignKey(devNetFkTwo, saleEntity);
+  }
 }

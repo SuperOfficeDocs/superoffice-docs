@@ -1,6 +1,6 @@
 ---
 title: pb_usercontrols_rights
-description: Rights system and controls
+description: Rights system and controls ControlBase
 author: Tony Yates
 so.date: 06.24.2016
 keywords: sentry

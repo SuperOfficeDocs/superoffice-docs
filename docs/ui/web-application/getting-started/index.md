@@ -57,9 +57,9 @@ To debug, use the developer tools of your browser and the SuperOffice [Diagnosti
 [3]: architecture.md
 [4]: set-up-custom-folder.md
 [5]: ../pagebuilder/config/soml.md
-[6]: ../tutorials/tutorial-1.md
+[6]: ../tutorials/sale-foreignkeys/index.md
 [7]: ../pagebuilder/datahandlers/index.md
-[8]: ../pagebuilder/usercontrols/lists/create-custom-mdo-controls.md
+[8]: ../tutorials/sale-foreignkeys/3-create-custom-mdo-control.md
 [9]: ../pagebuilder/usercontrols/archives/create-custom-archive-control.md
 [10]: ../custom-ajax-methods.md
 [11]: change-system-config.md

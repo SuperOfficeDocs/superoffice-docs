@@ -25,7 +25,7 @@ Some of the web controls will be standard ASP.NET controls with the SuperOffice 
 
 ## Library
 
-The controls are composed of ASPX files and C# code in the web control library named **SuperOffice.Web.UI.Controls**. These controls are custom controls that inherit from `System.Web.UI.Control` and `System.Web.UI.WebControl`  control libraries from .NET Framework version 2.0.
+The controls are composed of ASPX files and C# code in the web control library named **SuperOffice.Web.UI.Controls**. These controls are custom controls that inherit from `System.Web.UI.Control` and `System.Web.UI.WebControl` control libraries from .NET Framework version 2.0.
 
 ## SoObjectMapping.config
 

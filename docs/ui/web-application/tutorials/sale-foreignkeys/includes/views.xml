@@ -14,8 +14,6 @@
   </controlgroups>
 </view>
 
-<!-- DevNet Device Two -->
-
 <view id="DevNetDeviceTwoView" type="SoDialogView" soprotocol="devnetdevicetwo" >
   <caption>Device Two</caption>
   <tooltip></tooltip>

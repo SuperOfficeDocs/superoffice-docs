@@ -1,25 +1,23 @@
 ---
-title: usercontrols_tutorial
-description: UserControls turorial
+title: pb_tutorial_sale_foreignkeys_1
+description: How to create a user control
 author: Steffan Alte
-so.date: 2007
+so.date: 07.25.2007
 keywords:
-so.topic: guide
+so.topic: tutorial
 so.client: web
 so.envir: onsite
 ---
 
-# Tutorial
+# How to create a user control
 
-In this tutorial, we will be taking a look at how to create a user control that is inherited from the SuperOffice SDK and then put it inside 2 new panels in the **Sale** dialog. The control will contain a datagrid that lists all foreign keys connected to a sale.
-
-In addition to customizing the existing pages in SuperOffice, you can of course create new ones. The pages you create can contain any ASP.NET controls, but to be able to tap into the rest of the application, you will need to inherit from the SuperOfficer controls.
+This is the first part of a 3-step tutorial. We will be taking a look at how to create a user control that is inherited from the SuperOffice SDK and then put it inside 2 new panels in the **Sale** dialog. The control will contain a datagrid that lists all foreign keys connected to a sale.
 
 ## Create a project
 
 We start by creating a new web application project in Visual Studio.
 
-1. Add the references to the Super_Office framework. We will need references to:
+1. Add the references to the SuperOffice framework. We will need references to:
     * SuperOffice.Core.dll
     * SuperOffice.CRMWeb.dll
     * SuperOffice.DCF.dll
@@ -34,26 +32,25 @@ We start by creating a new web application project in Visual Studio.
 
 2. Override the `Initialize` method. It takes in an XML node as an argument and will contain the settings you have specified in the `config` section of the configuration file for the page in which the user control resides.
 
-[!code-csharp[CS](includes/tutorial-methods.cs?range=1-3,13)]
+[!code-csharp[CS](includes/methods.cs?range=1-2,6,56)]
 
 In the `Initialize` method, you can for example show or hide parts of your user control, or change the set of columns to be retrieved, or whatever you want. This lets you use the same user control for different purposes like to get data from the same tables, but with slightly different restrictions.
 
 In our case, the 2 panels will use the same user control but show different data. We will do this by sending in a different value for the config setting that we define from the 2 panels.
 
-We will return to the Initialize event later on after we have set up the control in the configuration file of the page where we want to use it.
+We will return to the `Initialize` event later on after we have set up the control in the configuration file of the page where we want to use it.
 
-## Declare the UserControl
+## Declare the user control
 
-The only way to let SuperOffice know about your user controls, and hence let you use them in existing or new pages, is by adding them to the *SoObjectMapping.config* page.
+The only way to let SuperOffice know about your user controls, and hence let you use them in existing or new pages, is by adding them to the [SoObjectMapping.config][1] file.
 
 ```xml
-<object type="UserControl" mappingname="DevNetSaleForeignKeys" assemblyname="CustomizingSIXwebPart2" objectname="~/DevNet/SaleForeignKeys.ascx"></object>
+<object type="UserControl" 
+        mappingname="DevNetSaleForeignKeys"
+        assemblyname="CustomizingSIXwebPart2"
+        objectname="~/DevNet/SaleForeignKeys.ascx">
+</object>
 ```
-
-### Best practices
-
-* Put your modifications at the end of the config file and also add a comment letting other developers know that this is not a part of the standard installation.
-* Always put your own controls (and other files) in separate folders instead of mixing them up with the installed files. This makes life a lot easier when upgrading SuperOffice.
 
 ## Use the controls
 
@@ -70,15 +67,15 @@ Remember, there is a pattern in how every page is built. You will need a page, o
 
 The final configuration of the 2 new views will look something like this:
 
-[!code-xml[XML](includes/tutorial-views.xml)]
+[!code-xml[XML](includes/views.xml)]
 
-The next thing you need to do is to add references to the new views in the `config` section of the card where you defined the views. This section has:
+The next thing you need to do is to add references to the new views in the `config` section **of the card where you defined the views**. This section has:
 
 * **tabbedviews:** a section defining which views will be placed in separate tabs in a tab control
 * **headerviews:**
 * **footerviews:**
 
-Here is the definition of the tabs in the **Sale** page after we have added the 2 new views;
+Here is the definition of the tabs in the **Sale** page after we have added the 2 new views:
 
 ```xml
 <tabbedviews top="150px" bottom="60px">
@@ -98,21 +95,13 @@ Now you should be able to see 2 new tabs on the tab control of the **Sale** page
 
 ![saledialog][img1]
 
-### Best practices
-
-* Name the soprotocols for your own views, controls, etc with a specific prefix, so that they do not interfere with existing CRM.web soprotocols.
-
 ## Add logic to the user control
 
 Now let's move back to the user control and add some logic to it.
 
 As you may have noticed in the previous section, we added one element in the config section of the control:
 
-```xml
-<config>
-  <ForeignKeyDeviceId>DeviceOne</ForeignKeyDeviceId>
-</config>
-```
+[!code-xml[XML](includes/views.xml?range=8-10)]
 
 Every element you add to the config section of a control is available to you in the overridden `Initialize` method of a `UserControlBase` object. It will be passed in as the config argument to the method, which is of type **System.Xml.XmlNode**.
 
@@ -130,51 +119,37 @@ Every element you add to the config section of a control is available to you in 
 
 2. Return to your override of the `Initialize` method and add the following logic to read the value of the key from the page configuration file and store it in a class variable:
 
-    [!code-csharp[CS](includes/tutorial-methods.cs?range=1-13)]
+    [!code-csharp[CS](includes/methods.cs?range=1-2,6-16)]
 
-3. The `Initialize` method is fired before `Page_Load`, which is the event we will be looking at next. What we want to do here is to get the current Sale ID and populate the DataGrid. The SuperStateManager is a static object in CRM.web that keeps track of all the currents in the system, like current contact, current person, and current sale.
+3. The `Initialize` method is fired **before** `Page_Load`, which is the event we will be looking at next. What we want to do here is to get the current Sale ID and populate the DataGrid. The [SuperStateManager][2] is a static object in CRM.web that keeps track of all the currents in the system, like current contact, current person, and current sale.
 
-    [!code-csharp[CS](includes/tutorial-methods.cs?range=15-24)]
+    [!code-csharp[CS](includes/methods.cs?range=18-27)]
 
-    The `GetCurrent` method takes in a string saying what entity to get information from and returns a `HistoryItem`, which is transparent to what entity is actually returned and has properties like `Id` and `Name`.
+    The `GetCurrent` method takes in a string saying what entity to get information from and returns a `HistoryItem`, which is transparent to what entity is returned and has properties like `Id` and `Name`.
 
     The returned sale ID is stored in a class variable for later use. It will be zero when opening the dialog for a new sale.
 
 4. Finally, we populate the DataGrid when opening an existing sale from the `GetList` method:
 
-    [!code-csharp[CS](includes/tutorial-methods.cs?range=26-32)]
+    [!code-csharp[CS](includes/methods.cs?range=29-35)]
 
-    The `GetDeviceKeysOnDeviceIdentifierTableRecordId` method lets you retrieve all Foreign Keys for an entity using the entity ID along with the Foreign Application and Device names and IDs.
+    The `GetDeviceKeysOnDeviceIdentifierTableRecordId` method lets you retrieve all foreign keys for an entity using the entity ID along with the Foreign Application and Device names and IDs.
 
 > [!NOTE]
-> You will have to create Foreign Key records for a sale before anything shows up in the list.
-
-<!-- This is actually an exercise for the next article, but to give you a head start, here are some lines of code that will insert records in the tables needed for something to show up in the control.
-
-```csharp
-ForeignSystemAgent agent = new ForeignSystemAgent();
-
-ForeignKey key = new ForeignKey();
-key.Key = "testKey1";
-key.Value = "testValue123";
-key.RecordId = _saleId;
-key.TableName = "sale";
-
-agent.SaveForeignKey(key, "DevNet", "Demo", _fkDeviceId);
-``` -->
+> You will have to create foreign key records for a sale before anything shows up in the list.
 
 Here is finally a screenshot of the **Sale** page with a list of foreign keys showing in one of the tabbed views that we just added.
 
-![SaleWindow][img2]
+![Sale page][img2]
 
-## Conclusion
+## Next step
 
-In this tutorial we looked at how to create a user control that inherits from and thereby taps into the context of the SuperOffice web application directly, giving you access to everything that the standard SuperOffice user control has access to. We saw how to set up the user control in a new view on an existing page, and how you can easily configure your user control by using the configuration section for the control in the page configuration file.
-
-In the next tutorial, we will take a look at how you can create your own data handlers, and we will be creating a new Sales data handler to be used in the Sales dialog to create new foreign keys when pressing the Save-button.
+In part 2 of this tutorial we will [create a data handler][3].
 
 <!-- Referenced links -->
-[1]:
+[1]: ../../pagebuilder/config/object-mapping.md
+[2]: ../../pagebuilder/superstate/state-changes.md
+[3]: 2-create-sale-datahandler.md
 
 <!-- Referenced images -->
 [img1]: media/image001.jpg

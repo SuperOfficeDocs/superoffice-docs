@@ -52,7 +52,20 @@ items:
     href:  technical-info.md
   - name: Model view controller pattern
     href:  model-view-controller-pattern/mvc-article.md
-  - name: Custom ajax methods
+  - name: Custom Ajax methods
     href:  custom-ajax-methods.md
+  - name: Tutorials
+    items:
+    - name: Ajax create followup
+      href: tutorials/ajax-create-followup/ajax-create-followup.md
+    - name: Sale foreignkeys
+      href: tutorials/sale-foreignkeys/index.md
+      items:
+      - name: Part 1 - add FK datagrid to Sale page
+        href: tutorials/sale-foreignkeys/1-add-fk-datagrid-to-sale-page.md
+      - name: Part 2 - create sale data handler
+        href: tutorials/sale-foreignkeys/2-create-sale-datahandler.md
+      - name: Part 3 - create custom MDO control
+        href: tutorials/sale-foreignkeys/3-create-custom-mdo-control.md
   - name: Reference
     href: reference/index.md
