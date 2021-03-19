@@ -5,8 +5,9 @@ keywords:
   - "mdo"
   - "provider"
   - "mdo provider"
+  - "saletype"
 so.generated: true
-so.date: 18.03.2021
+so.date: 19.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -47,10 +48,7 @@ foreach (var item in listProvider.RootItems) {
 
 |Id   | Name  |StyleHint|ExtraInfo |
 | --- | ----- | ------- | -------- |
-|1|General sale||43200|
-|4|Staged Sale||44640|
-|3|Stakeholders||132480|
-|2|Guided Sale||44640|
+|1|General sale||132480|
 
 
 ## Related MDO Lists

@@ -5,8 +5,9 @@ keywords:
   - "mdo"
   - "provider"
   - "mdo provider"
+  - "saintticketcategory"
 so.generated: true
-so.date: 18.03.2021
+so.date: 19.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -48,9 +49,6 @@ foreach (var item in listProvider.RootItems) {
 |Id   | Name  |StyleHint|ExtraInfo |
 | --- | ----- | ------- | -------- |
 |-1|All|||
-|1|Support|||
-|2|Administration|||
-|3|Sale|||
 
 
 ## Related MDO Lists

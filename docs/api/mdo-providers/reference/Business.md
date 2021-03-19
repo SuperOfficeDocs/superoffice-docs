@@ -5,8 +5,9 @@ keywords:
   - "mdo"
   - "provider"
   - "mdo provider"
+  - "business"
 so.generated: true
-so.date: 18.03.2021
+so.date: 19.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -48,6 +49,9 @@ foreach (var item in listProvider.RootItems) {
 |Id   | Name  |StyleHint|ExtraInfo |
 | --- | ----- | ------- | -------- |
 |1|Advokater|||
+|13|Annen|||
+|2|Bank/Finans|||
+|3|Forsikring|||
 |5|Grafisk|||
 |9|Grosister|||
 |6|Handel|||
@@ -57,9 +61,6 @@ foreach (var item in listProvider.RootItems) {
 |10|Offentlig|||
 |11|Service|||
 |12|Transport|||
-|2|Bank/Finance|||
-|3|Insurance|||
-|13|Other|||
 
 
 ## Related MDO Lists

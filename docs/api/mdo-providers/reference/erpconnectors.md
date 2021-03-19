@@ -5,8 +5,9 @@ keywords:
   - "mdo"
   - "provider"
   - "mdo provider"
+  - "erpconnectors"
 so.generated: true
-so.date: 18.03.2021
+so.date: 19.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +15,14 @@ so.envir:
 ---
 
 # "erpconnectors" MDO List
+Retrieve the list of all defined Erp Connectors (not Connections, that's another list)
+
+Implementation relies on the <see cref="T:SuperOffice.CRM.ArchiveLists.ErpConnectorProvider" /> archivelist, and simply reformats its data.
+<para />
+The items contain the Url pointing to the connector, in the ExtraInfo field; note that this does not
+<b>have</b> to be unique for each connector... though it should be...
+
+Implemented by the <see cref="T:SuperOffice.CRM.Lists.ErpConnectors">ErpConnectors</see> class.
 The name of the MDO list is 'erpconnectors'.
 
 
@@ -42,7 +51,7 @@ foreach (var item in listProvider.RootItems) {
 
 |Id   | Name  |StyleHint|ExtraInfo |
 | --- | ----- | ------- | -------- |
-| 2 | Example | | |
+|2|QA-BUILD Excel Test||http://qa-build/ExcelErpSyncConnector/Service.svc|
 
 
 ## Related MDO Lists

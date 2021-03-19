@@ -5,8 +5,9 @@ keywords:
   - "mdo"
   - "provider"
   - "mdo provider"
+  - "personcontact_freetextsearch"
 so.generated: true
-so.date: 18.03.2021
+so.date: 19.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -68,17 +69,17 @@ foreach (var item in listProvider.RootItems) {
 |16|Geir Grønbeck||2|
 |17|Hans Hansen||2|
 |18|Ingrid Istad||2|
-|147|Adm0||2|
-|148|Adm1||2|
-|149|Adm2||2|
-|150|Adm3||2|
-|151|Adm4||2|
-|152|Adm5||2|
-|153|Sal0||2|
-|154|Sal1||2|
-|155|Sal2||2|
-|156|Sal3||2|
-|157|Sal4||2|
+|19|Arne Arnesen||3|
+|20|Arnt Arntsen||3|
+|21|Arnhild Arvestad||4|
+|22|Arjan Abelsen||4|
+|23|Britt Bærum||6|
+|24|Bente Båstad||6|
+|25|Bjørn Bjørnsen||5|
+|26|Bjørge Bastesen||5|
+|27|Carl-Oskar Cederström||8|
+|28|Cidrik Culien||8|
+|29|Cecilie Carlsen||7|
 
 
 ## Related MDO Lists

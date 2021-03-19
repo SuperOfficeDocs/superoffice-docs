@@ -5,8 +5,9 @@ keywords:
   - "mdo"
   - "provider"
   - "mdo provider"
+  - "ticketticketstatus"
 so.generated: true
-so.date: 18.03.2021
+so.date: 19.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -56,11 +57,7 @@ foreach (var item in listProvider.RootItems) {
 
 |Id   | Name  |StyleHint|ExtraInfo |
 | --- | ----- | ------- | -------- |
-|2|Closed||2|
-|4|Deleted||4|
-|5|Linked||5|
-|1|Open||1|
-|3|Postponed||3|
+| 2 | Example | | |
 
 
 ## Related MDO Lists

@@ -5,8 +5,9 @@ keywords:
   - "mdo"
   - "provider"
   - "mdo provider"
+  - "preferencesection"
 so.generated: true
-so.date: 18.03.2021
+so.date: 19.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -49,27 +50,27 @@ foreach (var item in listProvider.RootItems) {
 
 |Id   | Name  |StyleHint|ExtraInfo |
 | --- | ----- | ------- | -------- |
-|11559|Contact||Person|
-|11227|Customer Centre password policy||ccAuthentication|
-|11248|Default values||Defaults|
-|11282|Diary||DiaryView|
-|11372|E-mail||Mail|
-|11307|Filter Dialog||FilterDialog|
-|11309|Freetext search||Freetext|
-|11317|Functions||Functions|
-|11437|Grouped lists||MDOList|
-|11434|Mailing||Mailing|
-|11535|Notifications via e-mail||notificationEmail|
-|11527|Notifications via popup||notification|
-|11543|Notifications via SMS||notificationSms|
-|11578|Pocket CRM||PocketTasks|
-|11584|Request||request|
-|11602|Sale||Sale|
-|11646|Service outbox||serviceSMTP|
-|11652|SMS configuration||sms|
-|11657|Sorting||Sorting|
-|11237|Statistics||DataCollection|
-|11621|SuperOffice Service system settings||serviceSettings|
+|5773|Contact||Person|
+|5442|Customer Centre password policy||ccAuthentication|
+|5463|Default values||Defaults|
+|5497|Diary||DiaryView|
+|5587|E-mail||Mail|
+|5522|Filter Dialog||FilterDialog|
+|5524|Freetext search||Freetext|
+|5532|Functions||Functions|
+|5651|Grouped lists||MDOList|
+|5648|Mailing||Mailing|
+|5749|Notifications via e-mail||notificationEmail|
+|5741|Notifications via popup||notification|
+|5757|Notifications via SMS||notificationSms|
+|5792|Pocket CRM||PocketTasks|
+|5798|Request||request|
+|5816|Sale||Sale|
+|5860|Service outbox||serviceSMTP|
+|5866|SMS configuration||sms|
+|5871|Sorting||Sorting|
+|5452|Statistics||DataCollection|
+|5835|SuperOffice Service system settings||serviceSettings|
 
 
 ## Related MDO Lists

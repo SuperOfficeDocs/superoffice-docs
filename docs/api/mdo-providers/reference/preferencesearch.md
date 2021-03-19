@@ -5,8 +5,9 @@ keywords:
   - "mdo"
   - "provider"
   - "mdo provider"
+  - "preferencesearch"
 so.generated: true
-so.date: 18.03.2021
+so.date: 19.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -57,23 +58,23 @@ foreach (var item in listProvider.RootItems) {
 
 |Id   | Name  |StyleHint|ExtraInfo |
 | --- | ----- | ------- | -------- |
-|11280|Visible follow-ups per day view||Defaults|
-|11285|Diary autorefresh interval||DiaryView|
-|11287|Diary start time|bold|DiaryView|
-|11313|Maximum number of hits (multi-word)||Freetext|
-|11315|Maximum number of hits (single word)||Freetext|
-|11319|Archive page size||Functions|
-|11321|Limit for auto-loading||Functions|
-|11395|IMAP Server name||Mail|
-|11402|Attachment size-threshold||Mail|
-|11419|Fax no. format in e-mail address.||Mail|
-|11423|SMTP Server name||Mail|
-|11428|Timeout||Mail|
-|11446|Enable long list names and tooltips||MDOList|
-|11477|Maximum list size||MDOList|
-|11579|Autologout time||PocketTasks|
-|11725|JPEG quality|bold|Visual|
-|11726|Status image transparency||Visual|
+|5495|Visible follow-ups per day view||Defaults|
+|5500|Diary autorefresh interval||DiaryView|
+|5502|Diary start time|bold|DiaryView|
+|5528|Maximum number of hits (multi-word)||Freetext|
+|5530|Maximum number of hits (single word)||Freetext|
+|5534|Archive page size||Functions|
+|5536|Limit for auto-loading||Functions|
+|5609|IMAP Server name||Mail|
+|5616|Attachment size-threshold||Mail|
+|5633|Fax no. format in e-mail address.||Mail|
+|5637|SMTP Server name||Mail|
+|5642|Timeout||Mail|
+|5660|Enable long list names and tooltips||MDOList|
+|5691|Maximum list size||MDOList|
+|5793|Autologout time||PocketTasks|
+|5939|JPEG quality|bold|Visual|
+|5940|Status image transparency||Visual|
 
 
 ## Related MDO Lists

@@ -5,8 +5,9 @@ keywords:
   - "mdo"
   - "provider"
   - "mdo provider"
+  - "lists"
 so.generated: true
-so.date: 18.03.2021
+so.date: 19.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -58,23 +59,23 @@ foreach (var item in listProvider.RootItems) {
 
 |Id   | Name  |StyleHint|ExtraInfo |
 | --- | ----- | ------- | -------- |
-|148|Chat Protocols|||
-|163|Subscription - Type|||
+|161|Subscription - Type|||
 |164|Privacy - Source|||
 |165|Privacy - Legal basis|||
 |166|Company - Category family|||
+|148|Chat Protocols|||
 |97|Document - Template|||
 |98|General - Resource|||
-|152|Company - Category|||
-|153|Company - Business|||
+|149|Company - Category|||
+|150|Company - Business|||
 |101|General - User group|||
 |102|General - Relation|||
 |103|Follow-up - Type|||
 |104|Follow-up - Priority|||
-|154|Company - Interest|||
-|155|Contact - Interest|||
-|156|Contact - Position|||
-|157|Contact - Mr/Mrs|||
+|151|Company - Interest|||
+|152|Contact - Interest|||
+|153|Contact - Position|||
+|154|Contact - Mr/Mrs|||
 |109|Project - Type, Stages|||
 |110|Project - Status|||
 |111|Project member - Function|||

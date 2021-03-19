@@ -7,7 +7,7 @@ keywords:
   - "mdo"
   - "provider"
   - "mdo provider"
-so.date: 18.03.2021
+so.date: 19.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -60,7 +60,7 @@ so.envir:
 | [Source](Source.md) |MDO List stored in the database. Table id 100|
 | [StakeholderRole](StakeholderRole.md) |MDO List stored in the database. Table id 122|
 | [SubscriptionUnit](SubscriptionUnit.md) |MDO List stored in the database. Table id 442|
-| [Tags](Tags.md) |MDO List stored in the database. Table id 488|
+| [Tags](Tags.md) |MDO List stored in the database. Table id 459|
 | [Task](Task.md) |MDO List stored in the database. Table id 67|
 | [UDList](UDList.md) |MDO List stored in the database. Table id 136|
 
@@ -76,7 +76,7 @@ so.envir:
 | [appointment](appointment.md) ||
 | [appointmentcautionwarning](appointmentcautionwarning.md) |Appointment.CautionWarning. Appointment and invitation synchronization info|
 | [appointmentcompleted](appointmentcompleted.md) |Appointment completed statuses: AppointmentStatus.NotStarted, AppointmentStatus.Completed|
-| [appointmentfavourite](appointmentfavourite.md) ||
+| [appointmentfavourite](appointmentfavourite.md) |MDO list provider for Favourites|
 | [appointmentgroup](appointmentgroup.md) |Appointment grouping types: TaskType.Appointment, Phone, ToDo|
 | [appointmenttask](appointmenttask.md) |MDO list provider for the task list of the AppointmentDialog. This list extends the basic <see cref="T:SuperOffice.CRM.Rows.TaskRow" /> wit|
 | [appointmenttextid](appointmenttextid.md) |Special case of appointment list where we get the id value from the Text table. For use when we wan|
@@ -88,6 +88,7 @@ so.envir:
 | [availablereports](availablereports.md) |AvailableReportsProvider creates an MDO list containing the available reports|
 | [business](business.md) |GenericMDOProvider reads MDO lists with default settings|
 | [category](category.md) |GenericMDOProvider reads MDO lists with default settings|
+| [chatbot](chatbot.md) |List of all script folders that contain a script named like "%bot%register%"|
 | [chatchannel](chatchannel.md) ||
 | [chatservice](chatservice.md) ||
 | [chatuser](chatuser.md) ||
@@ -97,7 +98,7 @@ so.envir:
 | [consentpurpose](consentpurpose.md) |MDO list provider for ConsentPurpose|
 | [consentsource](consentsource.md) |MDO list provider for Consent source|
 | [contact](contact.md) |Provider for selecting a Contact - without person search|
-| [contactfavourite](contactfavourite.md) ||
+| [contactfavourite](contactfavourite.md) |MDO list provider for Favourites|
 | [contactperson_freetextsearch](contactperson_freetextsearch.md) |Provider for selecting a Contact - with person search|
 | [contactphone](contactphone.md) ||
 | [contactrelationdefinition](contactrelationdefinition.md) |MDO list provider for contact/person relation definitions. This provider is a takes a mandator|
@@ -109,7 +110,7 @@ so.envir:
 | [createdocumenttemplateplugin](createdocumenttemplateplugin.md) |List of document plugins that can create document templates.|
 | [credentialgroup](credentialgroup.md) |List of user groups supported by a named creditial plugin, sorted by group name.|
 | [credited](credited.md) |GenericMDOProvider reads MDO lists with default settings|
-| [crmscript](crmscript.md) ||
+| [crmscript](crmscript.md) |Archive of CRMScripts. Returns script id + name of script as hierarchy.|
 | [culture](culture.md) ||
 | [culturesolanguage](culturesolanguage.md) |List of SuperOffice cultures with old-style SO Culture name in ExtraInfo|
 | [currency](currency.md) |GenericMDOProvider reads MDO lists with default settings|
@@ -126,27 +127,20 @@ so.envir:
 | [doctmpl](doctmpl.md) |GenericMDOProvider reads MDO lists with default settings|
 | [document](document.md) |MDO list provider for documents.|
 | [documentcompleted](documentcompleted.md) |Document completed status list: Not done, Done.|
-| [documentfavourite](documentfavourite.md) ||
+| [documentfavourite](documentfavourite.md) |MDO list provider for Favourites|
 | [documentgroup](documentgroup.md) |Document types: TaskType.Document, Email, Fax, Merge draft, Merge Final.|
 | [documentmailing](documentmailing.md) |Document shipments (mail merges).|
 | [documentmailingtemplate](documentmailingtemplate.md) |Document mailing templates|
 | [documenttemplatelanguage](documenttemplatelanguage.md) ||
 | [documenttemplatesfiltered](documenttemplatesfiltered.md) |MDO Provider for Document Templates, excluding Document details and quote mail templates, which are for system use rather than end-user choosing.|
 | [documenttypes](documenttypes.md) |List of document types for the given plugin|
-| [efd_13](efd_13.md) |Extra fields dropdown lists. Contains list of string values defined on the extra_field|
-| [efd_25](efd_25.md) |Extra fields dropdown lists. Contains list of string values defined on the extra_field|
-| [efd_31](efd_31.md) |Extra fields dropdown lists. Contains list of string values defined on the extra_field|
-| [efd_44](efd_44.md) |Extra fields dropdown lists. Contains list of string values defined on the extra_field|
-| [efd_6](efd_6.md) |Extra fields dropdown lists. Contains list of string values defined on the extra_field|
-| [efd_66](efd_66.md) |Extra fields dropdown lists. Contains list of string values defined on the extra_field|
-| [efd_88](efd_88.md) |Extra fields dropdown lists. Contains list of string values defined on the extra_field|
 | [ejcategory](ejcategory.md) |EjCategoryProvider creates a flat or tree list based on the table: EJ_CATEGORY|
 | [ejuser](ejuser.md) ||
 | [emailaddress](emailaddress.md) |List of e-mail addresses matching the search valu|
 | [emailfolder](emailfolder.md) |EmailFolderProvider gives you the folder hierarchy of a given mail account|
 | [emailrecipient](emailrecipient.md) |List of most recent e-mail recipients cached for the current user.|
-| [erpconnections](erpconnections.md) ||
-| [erpconnectors](erpconnectors.md) ||
+| [erpconnections](erpconnections.md) |Retrieve the list of all defined Erp Connections (not Connectors, that's another list)|
+| [erpconnectors](erpconnectors.md) |Retrieve the list of all defined Erp Connectors (not Connections, that's another list)|
 | [erpdeliveryterms](erpdeliveryterms.md) |Dynamic provider that dispatches Quote Connector lists, based on QuoteAlternativeId or SaleId and "Erp"+&lt;list name&gt;|
 | [erpdeliverytype](erpdeliverytype.md) |Dynamic provider that dispatches Quote Connector lists, based on QuoteAlternativeId or SaleId and "Erp"+&lt;list name&gt;|
 | [erppaymentterms](erppaymentterms.md) |Dynamic provider that dispatches Quote Connector lists, based on QuoteAlternativeId or SaleId and "Erp"+&lt;list name&gt;|
@@ -172,6 +166,7 @@ so.envir:
 | [form](form.md) |Get all forms with folder hierarchy. Set ExtraInfo to "onlyActive" if you only want to get active forms|
 | [formfolder](formfolder.md) |EjCategoryProvider creates a flat or tree list based on the table: EJ_CATEGORY|
 | [formmailings](formmailings.md) ||
+| [formsubmissionstatusprovider](formsubmissionstatusprovider.md) ||
 | [freetextsearchentity](freetextsearchentity.md) |List provider that returns the entities supported by free text search. The extraInfo field contains th|
 | [functionrights](functionrights.md) |FunctionRightsListProvider returns a MDO list of function rights in the database|
 | [genericperson](genericperson.md) |List of persons with mail. Supports Selection(any type), project and associate|
@@ -205,7 +200,7 @@ so.envir:
 | [location](location.md) |Implements the mdo provider for the list of avaiable locations. This list aggregates element|
 | [mailhtmltemplate](mailhtmltemplate.md) |List provider for the Mailtemplates.|
 | [mailing](mailing.md) |All mailings - history ids|
-| [mailingfavourite](mailingfavourite.md) ||
+| [mailingfavourite](mailingfavourite.md) |MDO list provider for Favourites|
 | [mailingtemplate](mailingtemplate.md) |General mailing templates|
 | [mailingtype](mailingtype.md) |Mailing types: Html mail, SMS, Word Document|
 | [mailtemplate](mailtemplate.md) |List provider for the Mailtemplates.|
@@ -222,10 +217,10 @@ so.envir:
 | [periods](periods.md) |Period values: Day, Week, Month, Quarter, Year|
 | [persint](persint.md) |GenericMDOProvider reads MDO lists with default settings|
 | [person](person.md) |List of persons from the Archive provider|
-| [personcontactfavourite](personcontactfavourite.md) ||
+| [personcontactfavourite](personcontactfavourite.md) |MDO list provider for Favourites|
 | [personcontact_freetextsearch](personcontact_freetextsearch.md) |Provider for selecting a Person - with contact search|
 | [personemailaddress](personemailaddress.md) |List of e-mail addresses matching the search value, possibly restricted to a given company or person.|
-| [personfavourite](personfavourite.md) ||
+| [personfavourite](personfavourite.md) |MDO list provider for Favourites|
 | [personphone](personphone.md) |Search phone numbers for matching values, restricted to a given company or person.|
 | [personrestrictions](personrestrictions.md) |Implements a person mdolist provider that uses the conflicts detector to append information o|
 | [personurl](personurl.md) |List of urls (web pages) matching the search value, possibly restricted to a given company or person.|
@@ -251,7 +246,7 @@ so.envir:
 | [producttype](producttype.md) |GenericMDOProvider reads MDO lists with default settings|
 | [project](project.md) |Provider for selecting a project.|
 | [projectassociate](projectassociate.md) |MDO provider for associates that are members of a project|
-| [projectfavourite](projectfavourite.md) ||
+| [projectfavourite](projectfavourite.md) |MDO list provider for Favourites|
 | [projectimage](projectimage.md) |Project images from the blob table|
 | [projectmemberwithmail](projectmemberwithmail.md) ||
 | [projectstatus](projectstatus.md) |List of project guide steps status values.|
@@ -264,7 +259,7 @@ so.envir:
 | [quotealternatives](quotealternatives.md) |Quote alternative selector for one Quote Version. Send QuoteVersionId=&lt;id&gt; in ExtraInfo to specify quote version id|
 | [quoteapprovalassociate](quoteapprovalassociate.md) |MDO provider for associates that are allowed to approve a quote.|
 | [quoteapprovers](quoteapprovers.md) |Retrieve the list of all users that can approve quotes|
-| [quoteconnections](quoteconnections.md) ||
+| [quoteconnections](quoteconnections.md) |Retrieve the list of all defined Quote Connections - i.e. not the connectors (DLLs)|
 | [quoteconnectors](quoteconnectors.md) |Retrieve the list of all installed (i.e., loaded assemblies) Quote Connectors|
 | [quotedocumentgroupfields](quotedocumentgroupfields.md) |Possible choices for fields that you can GROUP BY in quote detail documents.|
 | [quotedocumentorderbyfields](quotedocumentorderbyfields.md) |Possible choices for fields you can ORDER BY, within a group (or without grouping)|
@@ -331,7 +326,7 @@ so.envir:
 | [saintticketstatus](saintticketstatus.md) |This SoList provider generates the ticket status list for the Saint criteria. This is a simple, hard-coded list, special for this context|
 | [sale](sale.md) |List of sales|
 | [saledone](saledone.md) |Sale Done status: SaleDone.Done or NotDone.|
-| [salefavourite](salefavourite.md) ||
+| [salefavourite](salefavourite.md) |MDO list provider for Favourites|
 | [saleguidestage](saleguidestage.md) |MDO provider for the stage list, customized for the sale guide stage button row|
 | [saleprobability](saleprobability.md) |MDO list provider for the probability list of the Sale dialog. This list extends the basic <see cref="!:ProbRow" /> list with a leadin|
 | [salesource](salesource.md) |MDO list provider for the source list of the Sale dialog|
@@ -346,7 +341,7 @@ so.envir:
 | [satellites](satellites.md) |SatelliteProvider creates a MDO list of satellites.|
 | [searchcat](searchcat.md) |GenericMDOProvider reads MDO lists with default settings|
 | [selection](selection.md) |Provider for selecting a selection|
-| [selectionfavourite](selectionfavourite.md) ||
+| [selectionfavourite](selectionfavourite.md) |MDO list provider for Favourites|
 | [selectionmembertype](selectionmembertype.md) |MDO provider for the selection archive providers types|
 | [selectionmembertypeclean](selectionmembertypeclean.md) ||
 | [selectionmembertypev2](selectionmembertypev2.md) |MDO provider for the selection archive providers types|
@@ -373,7 +368,7 @@ so.envir:
 | [tags](tags.md) |GenericMDOProvider reads MDO lists with default settings|
 | [task](task.md) |Task table MDO list. Optional include "None" as first value.|
 | [ticket](ticket.md) ||
-| [ticketfavourite](ticketfavourite.md) ||
+| [ticketfavourite](ticketfavourite.md) |MDO list provider for Favourites|
 | [ticketorigin](ticketorigin.md) |Ticket Origin|
 | [ticketpriority](ticketpriority.md) |MDO list provider for ticket priorities.|
 | [ticketread](ticketread.md) ||
@@ -403,6 +398,4 @@ so.envir:
 | [webpanelgroup](webpanelgroup.md) |List of WebPanels with visible for groups as commaseperated ids in extrainfo field|
 | [weekday](weekday.md) |MDO provider for the hard-coded list of week days.|
 | [weeknumber](weeknumber.md) |MDO provider for the hard-coded list of numbered weeks in the recurrence dialog.|
-| [y_equipment](y_equipment.md) |Extra tables lists. List names are 'y_xyz' - based on the custom table name|
-| [y_rental](y_rental.md) |Extra tables lists. List names are 'y_xyz' - based on the custom table name|
 

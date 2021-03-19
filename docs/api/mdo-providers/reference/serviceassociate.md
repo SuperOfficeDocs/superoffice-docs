@@ -5,8 +5,9 @@ keywords:
   - "mdo"
   - "provider"
   - "mdo provider"
+  - "serviceassociate"
 so.generated: true
-so.date: 18.03.2021
+so.date: 19.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -47,23 +48,13 @@ foreach (var item in listProvider.RootItems) {
 
 |Id   | Name  |StyleHint|ExtraInfo |
 | --- | ----- | ------- | -------- |
-|106|Adm6|||
 |17|Sal0|||
-|29|Ser0|||
-|30|Ser1|||
-|31|Ser2|||
-|32|Ser3|||
-|33|Ser4|||
-|34|Ser5|||
-|64|SerNS03 NetServer|||
 |23|Tje0|||
 |24|Tje1|||
 |25|Tje2|||
 |26|Tje3|||
 |27|Tje4|||
 |28|Tje5|||
-|99|Tjeneste Sjef|||
-|65|TjeNS04 NetServer|||
 
 
 ## Related MDO Lists

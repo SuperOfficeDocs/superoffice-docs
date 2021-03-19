@@ -5,8 +5,9 @@ keywords:
   - "mdo"
   - "provider"
   - "mdo provider"
+  - "personcontactfavourite"
 so.generated: true
-so.date: 18.03.2021
+so.date: 19.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +15,11 @@ so.envir:
 ---
 
 # "personcontactfavourite" MDO List
+MDO list provider for Favourites
+
+
+
+Implemented by the <see cref="T:SuperOffice.CRM.Lists.PersonContactFavouriteListProvider">PersonContactFavouriteListProvider</see> class.
 The name of the MDO list is 'personcontactfavourite'.
 
 

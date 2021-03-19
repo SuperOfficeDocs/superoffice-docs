@@ -5,8 +5,9 @@ keywords:
   - "mdo"
   - "provider"
   - "mdo provider"
+  - "salesource"
 so.generated: true
-so.date: 18.03.2021
+so.date: 19.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -51,7 +52,7 @@ foreach (var item in listProvider.RootItems) {
 |1|Aktivt salg|||
 |4|Annbefaling|||
 |3|Internet|||
-|2|Campaign|||
+|2|Kampanje|||
 
 
 ## Related MDO Lists

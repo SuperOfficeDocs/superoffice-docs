@@ -5,8 +5,9 @@ keywords:
   - "mdo"
   - "provider"
   - "mdo provider"
+  - "erpconnections"
 so.generated: true
-so.date: 18.03.2021
+so.date: 19.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,7 +15,22 @@ so.envir:
 ---
 
 # "erpconnections" MDO List
+Retrieve the list of all defined Erp Connections (not Connectors, that's another list)
+
+Implementation relies on the <see cref="T:SuperOffice.CRM.ArchiveLists.ErpConnectionProvider" /> archivelist, and simply reformats its data.
+<para />
+The items contain the GUID (ErpId) used by the connection, in the ExtraInfo field
+
+Implemented by the <see cref="T:SuperOffice.CRM.Lists.ErpConnections">ErpConnections</see> class.
 The name of the MDO list is 'erpconnections'.
+
+## Additional Attributes
+
+| Description | Name | Example Value |
+|-----|-----|------|
+|Sort by rank| useRank|true|
+|Add connector name to names| prefixwithconnector|true|
+
 
 
 
@@ -42,7 +58,9 @@ foreach (var item in listProvider.RootItems) {
 
 |Id   | Name  |StyleHint|ExtraInfo |
 | --- | ----- | ------- | -------- |
-| 2 | Example | | |
+|1|SuperOffice Test||889BF882-C6DA-4AC5-B3C7-A5A650625D90|
+|2|Limited access Test||95002C41-9EFA-449B-B47B-BA7D092A6411|
+|3|QA-BUILD\ErpSync\Client.xlsm||57cefbea-059b-4047-a303-e481b37c76e4|
 
 
 ## Related MDO Lists

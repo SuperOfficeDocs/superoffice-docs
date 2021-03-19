@@ -5,8 +5,9 @@ keywords:
   - "mdo"
   - "provider"
   - "mdo provider"
+  - "crmscript"
 so.generated: true
-so.date: 18.03.2021
+so.date: 19.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,7 +15,7 @@ so.envir:
 ---
 
 # "crmscript" MDO List
-
+Archive of CRMScripts. Returns script id + name of script as hierarchy.
 
 
 
@@ -47,22 +48,7 @@ foreach (var item in listProvider.RootItems) {
 
 |Id   | Name  |StyleHint|ExtraInfo |
 | --- | ----- | ------- | -------- |
-|16|Add project member|||
-|15|Create appointment|||
-|9|Create contact|||
-|7|Create person|||
-|2|Create request|||
-|14|Create sale|||
-|10|Edit contact|||
-|8|Edit person|||
-|3|Edit request|||
-|11|Load contact|||
-|4|Load person|||
-|12|Load reply template|||
-|6|Load request|||
-|5|Send email|||
-|13|Trigger response|||
-|1|Callback script for compact mode|||
+| 2 | Example | | |
 
 
 ## Related MDO Lists

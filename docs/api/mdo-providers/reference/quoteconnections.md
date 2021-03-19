@@ -5,8 +5,9 @@ keywords:
   - "mdo"
   - "provider"
   - "mdo provider"
+  - "quoteconnections"
 so.generated: true
-so.date: 18.03.2021
+so.date: 19.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,7 +15,20 @@ so.envir:
 ---
 
 # "quoteconnections" MDO List
+Retrieve the list of all defined Quote Connections - i.e. not the connectors (DLLs).
+ExtraInfo: "connectorname=Name-of-connector" - restricts results to connections defined by one particular connector.
+
+Implementation relies on the <see cref="T:SuperOffice.CRM.ArchiveLists.QuoteConnectionProvider" /> archivelist, and simply reformats its data
+
+Implemented by the <see cref="T:SuperOffice.CRM.Lists.QuoteConnections">QuoteConnections</see> class.
 The name of the MDO list is 'quoteconnections'.
+
+## Additional Attributes
+
+| Description | Name | Example Value |
+|-----|-----|------|
+|Name of the connector to get connections for| connectorname|Custom Quote Connector Name|
+
 
 
 
@@ -42,7 +56,10 @@ foreach (var item in listProvider.RootItems) {
 
 |Id   | Name  |StyleHint|ExtraInfo |
 | --- | ----- | ------- | -------- |
-| 2 | Example | | |
+|2|Built-in||SuperOffice Standalone|
+|3|TestClient SuperOffice test/debug connector A||Test.QuoteConnector|
+|4|TestClient SuperOffice test/Debug connector B||Test.QuoteConnector|
+|5|TestClient SuperOffice manipulating connector||Test.QuoteConnector|
 
 
 ## Related MDO Lists

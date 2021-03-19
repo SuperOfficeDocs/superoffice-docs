@@ -5,8 +5,9 @@ keywords:
   - "mdo"
   - "provider"
   - "mdo provider"
+  - "attachment"
 so.generated: true
-so.date: 18.03.2021
+so.date: 19.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -47,21 +48,7 @@ foreach (var item in listProvider.RootItems) {
 
 |Id   | Name  |StyleHint|ExtraInfo |
 | --- | ----- | ------- | -------- |
-|11|compactMode|||
-|12|Macro foundations|||
-|13|Split request screens|||
-|14|System screens|||
-|15|CompanyDetails.ejr|||
-|16|CompanyList.ejr|||
-|17|ContactsList.ejr|||
-|18|TicketList.ejr|||
-|19|TicketWeekDaysGraph.ejr|||
-|20|DuplicateCompanyDomain.ejr|||
-|21|DuplicateCompanyName.ejr|||
-|22|DuplicateCustomerEmail.ejr|||
-|23|DuplicateCustomerName.ejr|||
-|24|ShipmentDetails.ejr|||
-|25|TestAttachment.txt|||
+| 2 | Example | | |
 
 
 ## Related MDO Lists

@@ -5,8 +5,9 @@ keywords:
   - "mdo"
   - "provider"
   - "mdo provider"
+  - "allpreferencekeys"
 so.generated: true
-so.date: 18.03.2021
+so.date: 19.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -49,27 +50,27 @@ foreach (var item in listProvider.RootItems) {
 
 |Id   | Name  |StyleHint|ExtraInfo |
 | --- | ----- | ------- | -------- |
-|11318|AcademicTitle (Functions)|||
-|11720|ActiveSound (Visual)|bold||
-|11373|AddressSeparator (Mail)|bold||
-|11283|AllDayEndTime (DiaryView)|bold||
-|11284|AllDayStartTime (DiaryView)|bold||
-|11374|ArchiveAppointments (Mail)|||
-|11375|ArchiveDocuments (Mail)|||
-|11376|ArchiveForwards (Mail)|||
-|11319|ArchivePageSize (Functions)|||
-|11377|ArchiveReplies (Mail)|||
-|11378|ArchiveSentMsg (Mail)|bold||
-|11379|ArchiveSentMsgFromMailClient (Mail)|||
-|11380|ArchiveToAssocs (Mail)|||
-|11320|AskToEditOrRead (Functions)|||
-|11381|AttachiCal (Mail)|||
-|11622|autoCreatePerson (serviceSettings)|||
-|11321|AutoLoadLimitInArchive (Functions)|||
-|11579|AutoLogoutTime (PocketTasks)|||
-|11585|autoQuoteLastmessage (request)|||
-|11285|AutoRefreshTime (DiaryView)|||
-|11322|BackgroundDocumentCheckTimer (Functions)|||
+|5533|AcademicTitle (Functions)|||
+|5934|ActiveSound (Visual)|bold||
+|5588|AddressSeparator (Mail)|bold||
+|5498|AllDayEndTime (DiaryView)|bold||
+|5499|AllDayStartTime (DiaryView)|bold||
+|5589|ArchiveAppointments (Mail)|||
+|5590|ArchiveDocuments (Mail)|||
+|5591|ArchiveForwards (Mail)|||
+|5534|ArchivePageSize (Functions)|||
+|5592|ArchiveReplies (Mail)|||
+|5593|ArchiveSentMsg (Mail)|bold||
+|5594|ArchiveSentMsgFromMailClient (Mail)|||
+|5595|ArchiveToAssocs (Mail)|||
+|5535|AskToEditOrRead (Functions)|||
+|5596|AttachiCal (Mail)|||
+|5836|autoCreatePerson (serviceSettings)|||
+|5536|AutoLoadLimitInArchive (Functions)|||
+|5793|AutoLogoutTime (PocketTasks)|||
+|5799|autoQuoteLastmessage (request)|||
+|5500|AutoRefreshTime (DiaryView)|||
+|5537|BackgroundDocumentCheckTimer (Functions)|||
 
 
 ## Related MDO Lists

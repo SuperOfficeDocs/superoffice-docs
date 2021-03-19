@@ -5,8 +5,9 @@ keywords:
   - "mdo"
   - "provider"
   - "mdo provider"
+  - "salestage"
 so.generated: true
-so.date: 18.03.2021
+so.date: 19.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -61,11 +62,7 @@ foreach (var item in listProvider.RootItems) {
 
 |Id   | Name  |StyleHint|ExtraInfo |
 | --- | ----- | ------- | -------- |
-|4|Første møte||IsDeleted=False&Probability=20&SaleTypeStageLinkId=1|
-|1|Sendt tilbud||IsDeleted=False&Probability=30&SaleTypeStageLinkId=2|
-|5|Andre møte||IsDeleted=False&Probability=50&SaleTypeStageLinkId=3|
-|2|Sluttforhandlinger||IsDeleted=False&Probability=80&SaleTypeStageLinkId=4|
-|3|Muntlig aksept||IsDeleted=False&Probability=90&SaleTypeStageLinkId=5|
+|-3|Open||Probability=50|
 |-2|Sold||Probability=100|
 |-1|Lost||Probability=0|
 

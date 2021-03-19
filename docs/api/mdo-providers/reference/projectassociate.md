@@ -5,8 +5,9 @@ keywords:
   - "mdo"
   - "provider"
   - "mdo provider"
+  - "projectassociate"
 so.generated: true
-so.date: 18.03.2021
+so.date: 19.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -47,7 +48,6 @@ foreach (var item in listProvider.RootItems) {
 
 |Id   | Name  |StyleHint|ExtraInfo |
 | --- | ----- | ------- | -------- |
-|15|Adm4|||
 |2|Arne Arnesen|||
 |3|Brede Bredesen|||
 |4|Cato Carlsson|||
@@ -56,7 +56,6 @@ foreach (var item in listProvider.RootItems) {
 |8|Geir Grønbeck|||
 |9|Hans Hansen|||
 |10|Ingrid Istad|||
-|81|Listadm Listadm|||
 |96|Niels Jensen|||
 
 

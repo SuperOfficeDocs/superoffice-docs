@@ -5,8 +5,9 @@ keywords:
   - "mdo"
   - "provider"
   - "mdo provider"
+  - "document"
 so.generated: true
-so.date: 18.03.2021
+so.date: 19.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -64,10 +65,10 @@ foreach (var item in listProvider.RootItems) {
 |12|BBrevBBB||12|
 |30|'Brev'DD||30|
 |23|CBrevCDD||23|
-|69|Document for Fish company||69|
-|70|Document for Fish company||70|
 |2|FBrevFAA||2|
 |13|GBrevGBB||13|
+|24|HBrevHDD||24|
+|34|IFaksIFF||34|
 
 
 ## Related MDO Lists
