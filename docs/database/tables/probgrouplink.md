@@ -1,11 +1,53 @@
 ---
-title: table_reference       
-description: SuperOffice database table reference
-author: {github-id}
+uid: probgrouplink
+title: probgrouplink table
+description: User group link table for Prob, for MDO item hiding
+so.generated: true
 keywords:
+  - "database"
+  - "probgrouplink"
+so.date: 19.03.2021
 so.topic: reference
+so.envir:
+  - "onsite"
+  - "online"
 ---
 
-# PLACEHOLDER
+# ProbGroupLink Table (83)
 
-[!include[details](./includes/probgrouplink.md)]
+## Fields
+
+| Name | Description | Type | Null |
+|------|-------------|------|:----:|
+|probgrouplink\_id|Primary key|PK| |
+|prob\_id|Link to Prob list table|FK [Prob](Prob.md)| |
+|group\_id|Link to Group table|FK [UserGroup](UserGroup.md)| |
+|registered|Registered when|UtcDateTime| |
+|registered\_associate\_id|Registered by whom|FK [associate](associate.md)| |
+|updated|Last updated when|UtcDateTime| |
+|updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
+|updatedCount|Number of updates made to this record|UShort| |
+
+
+![ProbGroupLink table relationship diagram](media\ProbGroupLink.png)
+
+[!include[details](./includes/ProbGroupLink.md)]
+
+## Indexes
+
+| Fields | Types | Description |
+|--------|-------|-------------|
+|probgrouplink\_id |PK |Clustered, Unique |
+|prob\_id |FK |Index |
+|group\_id |FK |Index |
+
+## Replication Flags
+
+* Replicate changes DOWN from central to satellites and travellers.
+* Replicate changes UP from satellites and travellers back to central.
+* Copy to satellite and travel prototypes.
+
+## Security Flags
+
+* No access control via user's Role.
+

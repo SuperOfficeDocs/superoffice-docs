@@ -1,11 +1,53 @@
 ---
-title: table_reference       
-description: SuperOffice database table reference
-author: {github-id}
+uid: mrmrsheadinglink
+title: mrmrsheadinglink table
+description: Heading link table for MrMrs, for MDO headers
+so.generated: true
 keywords:
+  - "database"
+  - "mrmrsheadinglink"
+so.date: 19.03.2021
 so.topic: reference
+so.envir:
+  - "onsite"
+  - "online"
 ---
 
-# PLACEHOLDER
+# MrMrsHeadingLink Table (96)
 
-[!include[details](./includes/mrmrsheadinglink.md)]
+## Fields
+
+| Name | Description | Type | Null |
+|------|-------------|------|:----:|
+|mrmrsheadinglink\_id|Primary key|PK| |
+|mrmrs\_id|Link to MrMrs list table|FK [MrMrs](MrMrs.md)| |
+|heading\_id|Link to Heading table|FK [Heading](Heading.md)| |
+|registered|Registered when|UtcDateTime| |
+|registered\_associate\_id|Registered by whom|FK [associate](associate.md)| |
+|updated|Last updated when|UtcDateTime| |
+|updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
+|updatedCount|Number of updates made to this record|UShort| |
+
+
+![MrMrsHeadingLink table relationship diagram](media\MrMrsHeadingLink.png)
+
+[!include[details](./includes/MrMrsHeadingLink.md)]
+
+## Indexes
+
+| Fields | Types | Description |
+|--------|-------|-------------|
+|mrmrsheadinglink\_id |PK |Clustered, Unique |
+|mrmrs\_id |FK |Index |
+|heading\_id |FK |Index |
+
+## Replication Flags
+
+* Replicate changes DOWN from central to satellites and travellers.
+* Replicate changes UP from satellites and travellers back to central.
+* Copy to satellite and travel prototypes.
+
+## Security Flags
+
+* No access control via user's Role.
+

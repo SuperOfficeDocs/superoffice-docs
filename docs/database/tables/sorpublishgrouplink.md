@@ -1,11 +1,53 @@
 ---
-title: table_reference       
-description: SuperOffice database table reference
-author: {github-id}
+uid: sorpublishgrouplink
+title: sorpublishgrouplink table
+description: Link table used for filtering reports by user group
+so.generated: true
 keywords:
+  - "database"
+  - "sorpublishgrouplink"
+so.date: 19.03.2021
 so.topic: reference
+so.envir:
+  - "onsite"
+  - "online"
 ---
 
-# PLACEHOLDER
+# SORPublishGroupLink Table (25)
 
-[!include[details](./includes/sorpublishgrouplink.md)]
+## Fields
+
+| Name | Description | Type | Null |
+|------|-------------|------|:----:|
+|SORPublishGroupLink\_id|Primary key|PK| |
+|SORPublishId|Report to link to a group|FK [SORPublish](SORPublish.md)|&#x25CF;|
+|UserGroupId|Group that should be able to see this report|FK [UserGroup](UserGroup.md)|&#x25CF;|
+|registered|Registered when|UtcDateTime| |
+|registered\_associate\_id|Registered by whom|FK [associate](associate.md)| |
+|updated|Last updated when|UtcDateTime| |
+|updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
+|updatedCount|Number of updates made to this record|UShort| |
+
+
+![SORPublishGroupLink table relationship diagram](media\SORPublishGroupLink.png)
+
+[!include[details](./includes/SORPublishGroupLink.md)]
+
+## Indexes
+
+| Fields | Types | Description |
+|--------|-------|-------------|
+|SORPublishGroupLink\_id |PK |Clustered, Unique |
+|SORPublishId |FK |Index |
+|UserGroupId |FK |Index |
+
+## Replication Flags
+
+* Replicate changes DOWN from central to satellites and travellers.
+* Replicate changes UP from satellites and travellers back to central.
+* Copy to satellite and travel prototypes.
+
+## Security Flags
+
+* No access control via user's Role.
+

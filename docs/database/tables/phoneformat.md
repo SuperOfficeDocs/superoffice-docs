@@ -1,11 +1,59 @@
 ---
-title: table_reference       
-description: SuperOffice database table reference
-author: {github-id}
+uid: phoneformat
+title: phoneformat table
+description: Formatting information for telephone numbers
+so.generated: true
 keywords:
+  - "database"
+  - "phoneformat"
+so.date: 19.03.2021
 so.topic: reference
+so.envir:
+  - "onsite"
+  - "online"
 ---
 
-# PLACEHOLDER
+# PhoneFormat Table (251)
 
-[!include[details](./includes/phoneformat.md)]
+## Fields
+
+| Name | Description | Type | Null |
+|------|-------------|------|:----:|
+|PhoneFormat\_id|Primary key|PK| |
+|countryId|Country this format record is valid for|FK [country](country.md)| |
+|prefix|Prefix that triggers this format|String(39)| |
+|dontFormat|If 1, do not apply any formatting to this number|Bool| |
+|areaCodeLength|Length of area code (can be interval)|String(39)| |
+|localLength|Length of local part of telephone number (can be interval)|String(39)| |
+|mask|Formatting mask to be applied|String(39)| |
+|description|Description of this format|String(254)| |
+|isBuiltIn|Does this row come from SuperOffice priming data|Bool| |
+|isActive|Is this format record active (handy for experimenting)|Bool|&#x25CF;|
+|registered|Registered when|UtcDateTime| |
+|registered\_associate\_id|Registered by whom|FK [associate](associate.md)| |
+|updated|Last updated when|UtcDateTime| |
+|updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
+|updatedCount|Number of updates made to this record|UShort| |
+
+
+![PhoneFormat table relationship diagram](media\PhoneFormat.png)
+
+[!include[details](./includes/PhoneFormat.md)]
+
+## Indexes
+
+| Fields | Types | Description |
+|--------|-------|-------------|
+|PhoneFormat\_id |PK |Clustered, Unique |
+|prefix, countryId |String(39), FK |Unique |
+
+## Replication Flags
+
+* Replicate changes DOWN from central to satellites and travellers.
+* Replicate changes UP from satellites and travellers back to central.
+* Copy to satellite and travel prototypes.
+
+## Security Flags
+
+* No access control via user's Role.
+

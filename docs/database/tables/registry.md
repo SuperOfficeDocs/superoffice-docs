@@ -1,11 +1,45 @@
 ---
-title: table_reference       
-description: SuperOffice database table reference
-author: {github-id}
+uid: registry
+title: registry table
+description: System settings
+so.generated: true
 keywords:
+  - "database"
+  - "registry"
+so.date: 19.03.2021
 so.topic: reference
+so.envir:
+  - "onsite"
+  - "online"
 ---
 
-# PLACEHOLDER
+# Registry Table (253)
+
+## Fields
+
+| Name | Description | Type | Null |
+|------|-------------|------|:----:|
+|id|The primary key (auto-incremented)|PK| |
+|reg\_id|The enum used as identificator|Int| |
+|name|A descriptive string for the entry|String(255)| |
+|value|The value for the registry entry.|String(255)|&#x25CF;|
+
+
+![registry table relationship diagram](media\registry.png)
 
 [!include[details](./includes/registry.md)]
+
+## Indexes
+
+| Fields | Types | Description |
+|--------|-------|-------------|
+|id |PK |Clustered, Unique |
+
+## Replication Flags
+
+* None
+
+## Security Flags
+
+* No access control via user's Role.
+

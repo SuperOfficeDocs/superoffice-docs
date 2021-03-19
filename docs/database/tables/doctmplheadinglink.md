@@ -1,11 +1,53 @@
 ---
-title: table_reference       
-description: SuperOffice database table reference
-author: {github-id}
+uid: doctmplheadinglink
+title: doctmplheadinglink table
+description: Heading link table for DocTmpl, for MDO headers
+so.generated: true
 keywords:
+  - "database"
+  - "doctmplheadinglink"
+so.date: 19.03.2021
 so.topic: reference
+so.envir:
+  - "onsite"
+  - "online"
 ---
 
-# PLACEHOLDER
+# DocTmplHeadingLink Table (132)
 
-[!include[details](./includes/doctmplheadinglink.md)]
+## Fields
+
+| Name | Description | Type | Null |
+|------|-------------|------|:----:|
+|doctmplheadinglink\_id|Primary key|PK| |
+|doctmpl\_id|Link to DocTmpl list table|FK [DocTmpl](DocTmpl.md)| |
+|heading\_id|Link to Heading table|FK [Heading](Heading.md)| |
+|registered|Registered when|UtcDateTime| |
+|registered\_associate\_id|Registered by whom|FK [associate](associate.md)| |
+|updated|Last updated when|UtcDateTime| |
+|updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
+|updatedCount|Number of updates made to this record|UShort| |
+
+
+![DocTmplHeadingLink table relationship diagram](media\DocTmplHeadingLink.png)
+
+[!include[details](./includes/DocTmplHeadingLink.md)]
+
+## Indexes
+
+| Fields | Types | Description |
+|--------|-------|-------------|
+|doctmplheadinglink\_id |PK |Clustered, Unique |
+|doctmpl\_id |FK |Index |
+|heading\_id |FK |Index |
+
+## Replication Flags
+
+* Replicate changes DOWN from central to satellites and travellers.
+* Replicate changes UP from satellites and travellers back to central.
+* Copy to satellite and travel prototypes.
+
+## Security Flags
+
+* No access control via user's Role.
+

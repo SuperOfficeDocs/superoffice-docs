@@ -1,11 +1,53 @@
 ---
-title: table_reference       
-description: SuperOffice database table reference
-author: {github-id}
+uid: searchcatheadinglink
+title: searchcatheadinglink table
+description: Heading link table for SearchCat, for MDO headers
+so.generated: true
 keywords:
+  - "database"
+  - "searchcatheadinglink"
+so.date: 19.03.2021
 so.topic: reference
+so.envir:
+  - "onsite"
+  - "online"
 ---
 
-# PLACEHOLDER
+# SearchCatHeadingLink Table (108)
 
-[!include[details](./includes/searchcatheadinglink.md)]
+## Fields
+
+| Name | Description | Type | Null |
+|------|-------------|------|:----:|
+|searchcatheadinglink\_id|Primary key|PK| |
+|searchcat\_id|Link to SearchCat list table|FK [SearchCat](SearchCat.md)| |
+|heading\_id|Link to Heading table|FK [Heading](Heading.md)| |
+|registered|Registered when|UtcDateTime| |
+|registered\_associate\_id|Registered by whom|FK [associate](associate.md)| |
+|updated|Last updated when|UtcDateTime| |
+|updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
+|updatedCount|Number of updates made to this record|UShort| |
+
+
+![SearchCatHeadingLink table relationship diagram](media\SearchCatHeadingLink.png)
+
+[!include[details](./includes/SearchCatHeadingLink.md)]
+
+## Indexes
+
+| Fields | Types | Description |
+|--------|-------|-------------|
+|searchcatheadinglink\_id |PK |Clustered, Unique |
+|searchcat\_id |FK |Index |
+|heading\_id |FK |Index |
+
+## Replication Flags
+
+* Replicate changes DOWN from central to satellites and travellers.
+* Replicate changes UP from satellites and travellers back to central.
+* Copy to satellite and travel prototypes.
+
+## Security Flags
+
+* No access control via user's Role.
+

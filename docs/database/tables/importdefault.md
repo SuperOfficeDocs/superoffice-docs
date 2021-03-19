@@ -1,11 +1,56 @@
 ---
-title: table_reference       
-description: SuperOffice database table reference
-author: {github-id}
+uid: importdefault
+title: importdefault table
+description: Defaults for import fields/objects
+so.generated: true
 keywords:
+  - "database"
+  - "importdefault"
+so.date: 19.03.2021
 so.topic: reference
+so.envir:
+  - "onsite"
+  - "online"
 ---
 
-# PLACEHOLDER
+# ImportDefault Table (189)
 
-[!include[details](./includes/importdefault.md)]
+## Fields
+
+| Name | Description | Type | Null |
+|------|-------------|------|:----:|
+|ImportDefault\_id|Primary key|PK| |
+|ImportObject\_id|The object this default applies to|FK [ImportObject](ImportObject.md)| |
+|dbFieldId|The database field (within that object, presumably!) this default applies to|FieldId| |
+|intValue|Integer default value|UInt|&#x25CF;|
+|strValue|String value|String(254)|&#x25CF;|
+|isSearchField|If 1, the given db field is part of the search criteria for the given object|UShort|&#x25CF;|
+|registered|Registered when|UtcDateTime| |
+|registered\_associate\_id|Registered by whom|FK [associate](associate.md)| |
+|updated|Last updated when|UtcDateTime| |
+|updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
+|updatedCount|Number of updates made to this record|UShort| |
+|isBuiltin|1 = This row populated and maintained by SuperOffice|UShort|&#x25CF;|
+
+
+![ImportDefault table relationship diagram](media\ImportDefault.png)
+
+[!include[details](./includes/ImportDefault.md)]
+
+## Indexes
+
+| Fields | Types | Description |
+|--------|-------|-------------|
+|ImportDefault\_id |PK |Clustered, Unique |
+|ImportObject\_id |FK |Index |
+
+## Replication Flags
+
+* Replicate changes DOWN from central to satellites and travellers.
+* Replicate changes UP from satellites and travellers back to central.
+* Copy to satellite and travel prototypes.
+
+## Security Flags
+
+* No access control via user's Role.
+

@@ -1,11 +1,53 @@
 ---
-title: table_reference       
-description: SuperOffice database table reference
-author: {github-id}
+uid: projstatusgrouplink
+title: projstatusgrouplink table
+description: User group link table for ProjStatus, for MDO item hiding
+so.generated: true
 keywords:
+  - "database"
+  - "projstatusgrouplink"
+so.date: 19.03.2021
 so.topic: reference
+so.envir:
+  - "onsite"
+  - "online"
 ---
 
-# PLACEHOLDER
+# ProjStatusGroupLink Table (89)
 
-[!include[details](./includes/projstatusgrouplink.md)]
+## Fields
+
+| Name | Description | Type | Null |
+|------|-------------|------|:----:|
+|projstatusgrouplink\_id|Primary key|PK| |
+|projstatus\_id|Link to ProjStatus list table|FK [ProjStatus](ProjStatus.md)| |
+|group\_id|Link to Group table|FK [UserGroup](UserGroup.md)| |
+|registered|Registered when|UtcDateTime| |
+|registered\_associate\_id|Registered by whom|FK [associate](associate.md)| |
+|updated|Last updated when|UtcDateTime| |
+|updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
+|updatedCount|Number of updates made to this record|UShort| |
+
+
+![ProjStatusGroupLink table relationship diagram](media\ProjStatusGroupLink.png)
+
+[!include[details](./includes/ProjStatusGroupLink.md)]
+
+## Indexes
+
+| Fields | Types | Description |
+|--------|-------|-------------|
+|projstatusgrouplink\_id |PK |Clustered, Unique |
+|projstatus\_id |FK |Index |
+|group\_id |FK |Index |
+
+## Replication Flags
+
+* Replicate changes DOWN from central to satellites and travellers.
+* Replicate changes UP from satellites and travellers back to central.
+* Copy to satellite and travel prototypes.
+
+## Security Flags
+
+* No access control via user's Role.
+

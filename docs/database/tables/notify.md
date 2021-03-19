@@ -1,11 +1,60 @@
 ---
-title: table_reference       
-description: SuperOffice database table reference
-author: {github-id}
+uid: notify
+title: notify table
+description: This table contains the pop-up messages displayed for users for various events, such as &amp;apos;new ticket&amp;apos;, etc.
+so.generated: true
 keywords:
+  - "database"
+  - "notify"
+so.date: 19.03.2021
 so.topic: reference
+so.envir:
+  - "onsite"
+  - "online"
 ---
 
-# PLACEHOLDER
+# Notify Table (301)
+
+## Fields
+
+| Name | Description | Type | Null |
+|------|-------------|------|:----:|
+|id|The primary key (auto-incremented)|PK| |
+|type|A number (enum) indicating the type of the notification.|Int|&#x25CF;|
+|expires|When the notification expires, if it has not yet been displayed.|DateTime|&#x25CF;|
+|user\_id|The id of the user who should be notified.|FK [ejuser](ejuser.md)| |
+|owner\_id|The id of the user who is the original owner of this notification.|FK [ejuser](ejuser.md)| |
+|ticket\_id|The id of the ticket this notification message affects.|FK [ticket](ticket.md)| |
+|user2\_id|A second user involved in this notification|FK [ejuser](ejuser.md)|&#x25CF;|
+|category\_id|The category involed in this notification|FK [ej_category](ej_category.md)|&#x25CF;|
+|chat\_topic\_id|Chat topic involed in this notification|FK [chat_topic](chat_topic.md)|&#x25CF;|
+|chat\_nick\_name|Chat customer nick name in this notification|String(255)|&#x25CF;|
+|ticket\_alert\_id|Ticket alert used when tickets are escalated|FK [ticket_alert](ticket_alert.md)|&#x25CF;|
+|custom\_message|Text for custom notify messages|String(255)|&#x25CF;|
+
+
+![notify table relationship diagram](media\notify.png)
 
 [!include[details](./includes/notify.md)]
+
+## Indexes
+
+| Fields | Types | Description |
+|--------|-------|-------------|
+|id |PK |Clustered, Unique |
+|user\_id |FK |Index |
+|owner\_id |FK |Index |
+|ticket\_id |FK |Index |
+|user2\_id |FK |Index |
+|category\_id |FK |Index |
+|chat\_topic\_id |FK |Index |
+|ticket\_alert\_id |FK |Index |
+
+## Replication Flags
+
+* None
+
+## Security Flags
+
+* No access control via user's Role.
+

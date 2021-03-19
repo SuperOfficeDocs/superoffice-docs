@@ -1,11 +1,52 @@
 ---
-title: table_reference       
-description: SuperOffice database table reference
-author: {github-id}
+uid: quoteversionattachment
+title: quoteversionattachment table
+description: Actual attachments to a quote
+so.generated: true
 keywords:
+  - "database"
+  - "quoteversionattachment"
+so.date: 19.03.2021
 so.topic: reference
+so.envir:
+  - "onsite"
+  - "online"
 ---
 
-# PLACEHOLDER
+# QuoteVersionAttachment Table (447)
 
-[!include[details](./includes/quoteversionattachment.md)]
+## Fields
+
+| Name | Description | Type | Null |
+|------|-------------|------|:----:|
+|quoteversionattachment\_id|Primary key|PK| |
+|QuoteVersionId|Link to QuoteVersion|FK [QuoteVersion](QuoteVersion.md)| |
+|DocumentId|Link to document|FK [document](document.md)| |
+|Included|Will this attachment be included in the next &apos;Send Quote&apos; operation|Bool|&#x25CF;|
+|registered|Registered when|UtcDateTime| |
+|registered\_associate\_id|Registered by whom|FK [associate](associate.md)| |
+|updated|Last updated when|UtcDateTime| |
+|updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
+|updatedCount|Number of updates made to this record|UShort| |
+
+
+![QuoteVersionAttachment table relationship diagram](media\QuoteVersionAttachment.png)
+
+[!include[details](./includes/QuoteVersionAttachment.md)]
+
+## Indexes
+
+| Fields | Types | Description |
+|--------|-------|-------------|
+|quoteversionattachment\_id |PK |Clustered, Unique |
+|QuoteVersionId, DocumentId |FK, FK |Unique |
+
+## Replication Flags
+
+* Area Management controlled table. Contents replicated to satellites and traveller databases.
+* Copy to satellite and travel prototypes.
+
+## Security Flags
+
+* No access control via user's Role.
+

@@ -1,11 +1,53 @@
 ---
-title: table_reference       
-description: SuperOffice database table reference
-author: {github-id}
+uid: persintgrouplink
+title: persintgrouplink table
+description: User group link table for PersInt, for MDO item hiding
+so.generated: true
 keywords:
+  - "database"
+  - "persintgrouplink"
+so.date: 19.03.2021
 so.topic: reference
+so.envir:
+  - "onsite"
+  - "online"
 ---
 
-# PLACEHOLDER
+# PersIntGroupLink Table (74)
 
-[!include[details](./includes/persintgrouplink.md)]
+## Fields
+
+| Name | Description | Type | Null |
+|------|-------------|------|:----:|
+|persintgrouplink\_id|Primary key|PK| |
+|persint\_id|Link to PersInt list table|FK [PersInt](PersInt.md)| |
+|group\_id|Link to Group table|FK [UserGroup](UserGroup.md)| |
+|registered|Registered when|UtcDateTime| |
+|registered\_associate\_id|Registered by whom|FK [associate](associate.md)| |
+|updated|Last updated when|UtcDateTime| |
+|updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
+|updatedCount|Number of updates made to this record|UShort| |
+
+
+![PersIntGroupLink table relationship diagram](media\PersIntGroupLink.png)
+
+[!include[details](./includes/PersIntGroupLink.md)]
+
+## Indexes
+
+| Fields | Types | Description |
+|--------|-------|-------------|
+|persintgrouplink\_id |PK |Clustered, Unique |
+|persint\_id |FK |Index |
+|group\_id |FK |Index |
+
+## Replication Flags
+
+* Replicate changes DOWN from central to satellites and travellers.
+* Replicate changes UP from satellites and travellers back to central.
+* Copy to satellite and travel prototypes.
+
+## Security Flags
+
+* No access control via user's Role.
+

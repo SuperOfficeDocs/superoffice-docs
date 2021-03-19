@@ -1,11 +1,53 @@
 ---
-title: table_reference       
-description: SuperOffice database table reference
-author: {github-id}
+uid: saletypecatheadinglink
+title: saletypecatheadinglink table
+description: Heading link table for SaleTypeCat, for MDO headers
+so.generated: true
 keywords:
+  - "database"
+  - "saletypecatheadinglink"
+so.date: 19.03.2021
 so.topic: reference
+so.envir:
+  - "onsite"
+  - "online"
 ---
 
-# PLACEHOLDER
+# SaleTypeCatHeadingLink Table (120)
 
-[!include[details](./includes/saletypecatheadinglink.md)]
+## Fields
+
+| Name | Description | Type | Null |
+|------|-------------|------|:----:|
+|saletypecatheadinglink\_id|Primary key|PK| |
+|saletypecat\_id|Link to SaleTypeCat list table|FK [SaleTypeCat](SaleTypeCat.md)| |
+|heading\_id|Link to Heading table|FK [Heading](Heading.md)| |
+|registered|Registered when|UtcDateTime| |
+|registered\_associate\_id|Registered by whom|FK [associate](associate.md)| |
+|updated|Last updated when|UtcDateTime| |
+|updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
+|updatedCount|Number of updates made to this record|UShort| |
+
+
+![SaleTypeCatHeadingLink table relationship diagram](media\SaleTypeCatHeadingLink.png)
+
+[!include[details](./includes/SaleTypeCatHeadingLink.md)]
+
+## Indexes
+
+| Fields | Types | Description |
+|--------|-------|-------------|
+|saletypecatheadinglink\_id |PK |Clustered, Unique |
+|saletypecat\_id |FK |Index |
+|heading\_id |FK |Index |
+
+## Replication Flags
+
+* Replicate changes DOWN from central to satellites and travellers.
+* Replicate changes UP from satellites and travellers back to central.
+* Copy to satellite and travel prototypes.
+
+## Security Flags
+
+* No access control via user's Role.
+

@@ -1,11 +1,53 @@
 ---
-title: table_reference       
-description: SuperOffice database table reference
-author: {github-id}
+uid: sourcegrouplink
+title: sourcegrouplink table
+description: User group link table for Source, for MDO item hiding
+so.generated: true
 keywords:
+  - "database"
+  - "sourcegrouplink"
+so.date: 19.03.2021
 so.topic: reference
+so.envir:
+  - "onsite"
+  - "online"
 ---
 
-# PLACEHOLDER
+# SourceGroupLink Table (101)
 
-[!include[details](./includes/sourcegrouplink.md)]
+## Fields
+
+| Name | Description | Type | Null |
+|------|-------------|------|:----:|
+|sourcegrouplink\_id|Primary key|PK| |
+|source\_id|Link to Source list table|FK [Source](Source.md)| |
+|group\_id|Link to Group table|FK [UserGroup](UserGroup.md)| |
+|registered|Registered when|UtcDateTime| |
+|registered\_associate\_id|Registered by whom|FK [associate](associate.md)| |
+|updated|Last updated when|UtcDateTime| |
+|updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
+|updatedCount|Number of updates made to this record|UShort| |
+
+
+![SourceGroupLink table relationship diagram](media\SourceGroupLink.png)
+
+[!include[details](./includes/SourceGroupLink.md)]
+
+## Indexes
+
+| Fields | Types | Description |
+|--------|-------|-------------|
+|sourcegrouplink\_id |PK |Clustered, Unique |
+|source\_id |FK |Index |
+|group\_id |FK |Index |
+
+## Replication Flags
+
+* Replicate changes DOWN from central to satellites and travellers.
+* Replicate changes UP from satellites and travellers back to central.
+* Copy to satellite and travel prototypes.
+
+## Security Flags
+
+* No access control via user's Role.
+

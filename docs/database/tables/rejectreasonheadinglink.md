@@ -1,11 +1,53 @@
 ---
-title: table_reference       
-description: SuperOffice database table reference
-author: {github-id}
+uid: rejectreasonheadinglink
+title: rejectreasonheadinglink table
+description: Heading link table for RejectReason, for MDO headers
+so.generated: true
 keywords:
+  - "database"
+  - "rejectreasonheadinglink"
+so.date: 19.03.2021
 so.topic: reference
+so.envir:
+  - "onsite"
+  - "online"
 ---
 
-# PLACEHOLDER
+# RejectReasonHeadingLink Table (224)
 
-[!include[details](./includes/rejectreasonheadinglink.md)]
+## Fields
+
+| Name | Description | Type | Null |
+|------|-------------|------|:----:|
+|rejectreasonheadinglink\_id|Primary key|PK| |
+|rejectreason\_id|Link to RejectReason list table|FK [RejectReason](RejectReason.md)| |
+|heading\_id|Link to Heading table|FK [Heading](Heading.md)| |
+|registered|Registered when|UtcDateTime| |
+|registered\_associate\_id|Registered by whom|FK [associate](associate.md)| |
+|updated|Last updated when|UtcDateTime| |
+|updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
+|updatedCount|Number of updates made to this record|UShort| |
+
+
+![RejectReasonHeadingLink table relationship diagram](media\RejectReasonHeadingLink.png)
+
+[!include[details](./includes/RejectReasonHeadingLink.md)]
+
+## Indexes
+
+| Fields | Types | Description |
+|--------|-------|-------------|
+|rejectreasonheadinglink\_id |PK |Clustered, Unique |
+|rejectreason\_id |FK |Index |
+|heading\_id |FK |Index |
+
+## Replication Flags
+
+* Replicate changes DOWN from central to satellites and travellers.
+* Replicate changes UP from satellites and travellers back to central.
+* Copy to satellite and travel prototypes.
+
+## Security Flags
+
+* No access control via user's Role.
+

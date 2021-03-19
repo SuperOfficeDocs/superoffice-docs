@@ -1,11 +1,59 @@
 ---
-title: table_reference       
-description: SuperOffice database table reference
-author: {github-id}
+uid: outbox
+title: outbox table
+description: Outgoing emails with sending status and other info
+so.generated: true
 keywords:
+  - "database"
+  - "outbox"
+so.date: 19.03.2021
 so.topic: reference
+so.envir:
+  - "onsite"
+  - "online"
 ---
 
-# PLACEHOLDER
+# Outbox Table (351)
+
+## Fields
+
+| Name | Description | Type | Null |
+|------|-------------|------|:----:|
+|id|Primary key|PK| |
+|ticket\_id|The ticket.id this reference is connected to.|FK [ticket](ticket.md)|&#x25CF;|
+|message\_id|The message.id this reference is connected to.|FK [ej_message](ej_message.md)|&#x25CF;|
+|subject|Subject of the mail|String(255)| |
+|from\_email|Mail address of the sender|String(255)| |
+|from\_envelope|Envelope (smtp) Mail address of the sender|String(255)| |
+|rcpt|A list of recipience|Clob|&#x25CF;|
+|mail\_size|The size of the mail in bytes|Int| |
+|created|When the mail was created|DateTime|&#x25CF;|
+|status|Status enum|Int| |
+|retries|The number of times we have tried to send this mail|Int| |
+|next\_retry|When is the next time we should try again?|DateTime|&#x25CF;|
+|pid|The process id owning this message|Int| |
+|last\_error|The last error reported when sending this message|String(255)|&#x25CF;|
+|type|Indicates if this is a SMS to be sent via WebServices or a normal email. 0 = email, 1 = sms|Enum [](enums\Enum.md)| |
+|rfc822\_content|The content of the outgoing email as a string. Alternative to using outbox file|Clob|&#x25CF;|
+
+
+![outbox table relationship diagram](media\outbox.png)
 
 [!include[details](./includes/outbox.md)]
+
+## Indexes
+
+| Fields | Types | Description |
+|--------|-------|-------------|
+|id |PK |Clustered, Unique |
+|ticket\_id |FK |Index |
+|message\_id |FK |Index |
+
+## Replication Flags
+
+* None
+
+## Security Flags
+
+* No access control via user's Role.
+
