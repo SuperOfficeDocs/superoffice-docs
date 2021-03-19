@@ -1,0 +1,102 @@
+---
+uid: idocumentagent-script-events
+title: IDocumentAgent script event methods
+description: NetServer script event methods.
+so.generated: true
+keywords:
+  - "netserver"
+  - "scripting"
+so.date: 19.03.2021
+so.topic: reference
+so.envir:
+  - "onsite"
+---
+
+# IDocumentAgent method listing
+
+Service methods defined on <see cref='T:SuperOffice.CRM.Services.IDocumentAgent'>IDocumentAgent</see> that can trigger server-side event scripts.
+
+* [CheckinDocument](checkindocument.md)
+* [CheckoutDocument](checkoutdocument.md)
+* [CreateDefaultDocumentEntity](createdefaultdocumententity.md)
+* [CreateDefaultDocumentEntityFromSuggestion](createdefaultdocumententityfromsuggestion.md)
+* [CreateDefaultDocumentPreview](createdefaultdocumentpreview.md)
+* [CreateDefaultSuggestedDocumentEntity](createdefaultsuggesteddocumententity.md)
+* [CreateDefaultTemplateVariablesParameters](createdefaulttemplatevariablesparameters.md)
+* [CreateDocumentStream](createdocumentstream.md)
+* [CreateNewPhysicalDocumentFromTemplate](createnewphysicaldocumentfromtemplate.md)
+* [CreateNewPhysicalDocumentFromTemplateWithCustomTags](createnewphysicaldocumentfromtemplatewithcustomtags.md)
+* [CreateNewPhysicalDocumentFromTemplateWithCustomTags2](createnewphysicaldocumentfromtemplatewithcustomtags2.md)
+* [CreateNewPhysicalMailMergeDocumentFromTemplate](createnewphysicalmailmergedocumentfromtemplate.md)
+* [CreateTempFile](createtempfile.md)
+* [DeleteDocumentEntity](deletedocumententity.md)
+* [DeletePhysicalDocument](deletephysicaldocument.md)
+* [DeleteTempFile](deletetempfile.md)
+* [ExecuteDocumentCommand](executedocumentcommand.md)
+* [GetAppointmentDocuments](getappointmentdocuments.md)
+* [GetCheckoutState](getcheckoutstate.md)
+* [GetContactDocuments](getcontactdocuments.md)
+* [GetContactDocumentsByTemplateHeading](getcontactdocumentsbytemplateheading.md)
+* [GetContactDocumentsByTemplateType](getcontactdocumentsbytemplatetype.md)
+* [GetContactDocumentsByTemplateTypes](getcontactdocumentsbytemplatetypes.md)
+* [GetDocument](getdocument.md)
+* [GetDocumentCommands](getdocumentcommands.md)
+* [GetDocumentEntity](getdocumententity.md)
+* [GetDocumentList](getdocumentlist.md)
+* [GetDocumentProperties](getdocumentproperties.md)
+* [GetDocumentsByTemplateHeading](getdocumentsbytemplateheading.md)
+* [GetDocumentStream](getdocumentstream.md)
+* [GetDocumentStreamFromEntity](getdocumentstreamfromentity.md)
+* [GetDocumentUrl](getdocumenturl.md)
+* [GetMyPublishedDocuments](getmypublisheddocuments.md)
+* [GetPersonDocuments](getpersondocuments.md)
+* [GetPersonDocumentsByDate](getpersondocumentsbydate.md)
+* [GetPersonDocumentsByTemplateHeading](getpersondocumentsbytemplateheading.md)
+* [GetPersonDocumentsByTemplateType](getpersondocumentsbytemplatetype.md)
+* [GetPersonDocumentsByTemplateTypes](getpersondocumentsbytemplatetypes.md)
+* [GetPluginCapabilities](getplugincapabilities.md)
+* [GetPluginList](getpluginlist.md)
+* [GetPreviewDocumentStream](getpreviewdocumentstream.md)
+* [GetProjectDocuments](getprojectdocuments.md)
+* [GetProjectDocumentsByTemplateHeading](getprojectdocumentsbytemplateheading.md)
+* [GetProjectDocumentsByTemplateType](getprojectdocumentsbytemplatetype.md)
+* [GetProjectDocumentsByTemplateTypes](getprojectdocumentsbytemplatetypes.md)
+* [GetProjectMemberDocuments](getprojectmemberdocuments.md)
+* [GetProjectMemberDocumentsByTemplateHeading](getprojectmemberdocumentsbytemplateheading.md)
+* [GetProjectMemberDocumentsByTemplateType](getprojectmemberdocumentsbytemplatetype.md)
+* [GetProjectMemberDocumentsByTemplateTypes](getprojectmemberdocumentsbytemplatetypes.md)
+* [GetPublishedDocument](getpublisheddocument.md)
+* [GetPublishedDocuments](getpublisheddocuments.md)
+* [GetPublishedDocumentsByDate](getpublisheddocumentsbydate.md)
+* [GetPublishedPersonDocumentsByDate](getpublishedpersondocumentsbydate.md)
+* [GetPublishedProjectDocuments](getpublishedprojectdocuments.md)
+* [GetSaleDocuments](getsaledocuments.md)
+* [GetSanitizedDocumentStream](getsanitizeddocumentstream.md)
+* [GetSanitizedTemplateStream](getsanitizedtemplatestream.md)
+* [GetSanitizedTemplateStreamFromId](getsanitizedtemplatestreamfromid.md)
+* [GetSuggestedDocumentEntity](getsuggesteddocumententity.md)
+* [GetTempFile](gettempfile.md)
+* [GetTemplateStream](gettemplatestream.md)
+* [GetTemplateStreamFromId](gettemplatestreamfromid.md)
+* [GetUnsanitizedPreviewDocumentStream](getunsanitizedpreviewdocumentstream.md)
+* [GetVersionList](getversionlist.md)
+* [RenameDocument](renamedocument.md)
+* [SaveDocumentEntity](savedocumententity.md)
+* [SaveDocumentTemplateStream](savedocumenttemplatestream.md)
+* [SavePrivacyReport](saveprivacyreport.md)
+* [SaveSuggestedDocumentEntity](savesuggesteddocumententity.md)
+* [SetDocumentStream](setdocumentstream.md)
+* [SetDocumentStreamFromId](setdocumentstreamfromid.md)
+* [SetTemplateStream](settemplatestream.md)
+* [SubstituteMergeDocumentTemplateVariables](substitutemergedocumenttemplatevariables.md)
+* [SubstituteMergeDocumentTemplateVariables2](substitutemergedocumenttemplatevariables2.md)
+* [SubstituteMergeDocumentTemplateVariablesEx](substitutemergedocumenttemplatevariablesex.md)
+* [SubstituteMergeDocumentTemplateVariablesEx2](substitutemergedocumenttemplatevariablesex2.md)
+* [SubstituteTemplateVariables](substitutetemplatevariables.md)
+* [SubstituteTemplateVariablesEx](substitutetemplatevariablesex.md)
+* [SubstituteTemplateVariablesWithCustomTags](substitutetemplatevariableswithcustomtags.md)
+* [SubstituteTemplateVariablesWithCustomTags2](substitutetemplatevariableswithcustomtags2.md)
+* [UndoCheckoutDocument](undocheckoutdocument.md)
+* [ValidateDocumentEntity](validatedocumententity.md)
+* [VerifyGetDocumentStream](verifygetdocumentstream.md)
+
