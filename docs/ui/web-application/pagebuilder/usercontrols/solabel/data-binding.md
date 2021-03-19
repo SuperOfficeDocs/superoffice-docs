@@ -9,7 +9,7 @@ so.client: web
 so.envir: onsite
 ---
 
-# Databinding with SoLabel
+# Data binding with SoLabel
 
 HTML code segment to illustrate the SoLabel from ContactMainView.ascx file.
 

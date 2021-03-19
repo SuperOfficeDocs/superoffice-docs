@@ -19,7 +19,7 @@ To add an action button on the archive control bar, add a toolbar element in the
 
 Toolbar button elements have attributes that control their behavior, such as the icon displayed and whether the control is disabled or not.
 
-The following example is an exerpt of the `ConactPersonArchive` control. It demonstrates both the add and delete buttons, and is a good example that demonstrates the two different ways to specify the onclick action.
+The following example is an excerpt of the `ConactPersonArchive` control. It demonstrates both the add and delete buttons, and is a good example that demonstrates the two different ways to specify the onclick action.
 
 ``` xml
 <control id="ContactPersonArchive" type="SoArchiveControl">

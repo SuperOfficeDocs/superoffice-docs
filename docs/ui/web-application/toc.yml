@@ -72,6 +72,17 @@ items:
     items:
     - name: Ajax create followup
       href: tutorials/ajax-create-followup/ajax-create-followup.md
+    - name: Custom archive control
+      href: tutorials/custom-archive-control/index.md
+      items:
+      - name: 1. Add archive control
+        href: tutorials/custom-archive-control/1-add-archive-control.md
+      - name: 2. Add archive row context menu
+        href: tutorials/custom-archive-control/2-add-archive-row-context-menu.md
+      - name: 3. Add row click actions
+        href: tutorials/custom-archive-control/3-add-row-click-actions.md
+      - name: 4. Add archive action button
+        href: tutorials/custom-archive-control/4-add-archive-action-button.md
     - name: Sale foreignkeys
       href: tutorials/sale-foreignkeys/index.md
       items:
@@ -82,4 +93,4 @@ items:
       - name: Part 3 - create custom MDO control
         href: tutorials/sale-foreignkeys/3-create-custom-mdo-control.md
   - name: Reference
-    href: reference/index.md
+    href: reference/index.md 

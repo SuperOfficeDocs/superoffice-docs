@@ -86,6 +86,16 @@ Each one of these files exists under the root or a sub-folder in *App_Data\WebCl
 
 ### All ID attributes are prefixed with reference ID
 
+Each element (panel, card, view, control) in a page is uniquely identified by the ID of that object.
+
+As a general rule, a card, view, or control may have a reference instead of actual content. In that case, a configuration fragment of that type and with the name specified in the reference attribute value will be fetched and merged into the configuration.
+
+```XML
+<view id="MainView" reference="MainView"></view>
+```
+
+This will cause the system to look for a view configuration fragment with the reference name *MainView*. In *SoMainViewView.config*, the filename is constructed from the reference name: "So\<reference-name>\<TagName>.config".
+
 The first example is a **view** with `id` value MainView. The `reference` attribute is *MainView*, which means that the content of this view must be in a file named *SoMainViewView.config*. *SoMainViewView.config* does exist and contains the content that declares the top left view of the company card.
 
 [!code-xml[XML](includes/somainviewview.xml)]
@@ -120,6 +130,22 @@ From *SoMainHeaderGroupControlGroup.config:*
 <controlgroups>
    <controlgroup id="MoreMainHeaderGroup" referenceWithIdUpdate="MainHeaderGroup"/>
 ```
+
+## View fragments
+
+With the code below, the config data for a view will appear as a separate config file because we have referenced the views within the cards:
+
+```XML
+<cards>
+  <card id="ContactMainCard" type="SoTabbedCard" placeholderid="leftpanel" cardtype="MainCard">
+    <views>
+      <view id="MainView" reference="MainView"></view>
+    </views>
+  </card>
+</cards>
+```
+
+The reference *MainView* in the `view` element means that the definition can be found in the `SoMainViewconfig` file.
 
 <!-- Referenced links -->
 [1]: panel.md

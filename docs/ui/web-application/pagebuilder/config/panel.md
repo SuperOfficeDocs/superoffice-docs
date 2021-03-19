@@ -21,9 +21,9 @@ Corresponding to the same diagram as we looked at discussing the components of a
 
 Thus, a panel configuration file defines the UI structure of a panel and contains the layout of Cards in the panel, which in turn contain views and controls.
 
-Panels represent the main containers of a page and are the first elements to support positioning attributes.
+Panels represent the main containers of a page (the outer UI frame) and are the first elements to support positioning attributes.
 
-Each main entity page has four panels that define the upper menus, left navigator buttons, entity details, and lower action buttons.
+Each main entity page has 4 panels that define the upper menus, left navigator buttons, entity details, and lower action buttons.
 
 ![PageFramework][img2]
 
@@ -48,6 +48,9 @@ Each main entity page has four panels that define the upper menus, left navigato
   </config>
 </panel>
 ```
+
+> [!NOTE]
+> It is up to the panel implementation to interpret what these cards are going to be used for, and how they are shown.
 
 ## SoContactPanel
 
@@ -80,6 +83,8 @@ The next level of the config file is the `card` element. The config data for the
 **Option 2:**
 
 [!code-xml[XML](includes/socontactpanel.xml?range=20)]
+
+The cards can contain any number of views, which are laid out according to the definition on the card and the properties of the control.
 
 ## Different Panel Types
 

@@ -74,7 +74,7 @@ Here it tells us the config data for the rest of the page exists in the files th
 **Next:** [panel config files][2]
 
 <!-- Referenced links -->
-[1]: ../usercontrols/data-binding/index.md
+[1]: ../data-binding.md
 [2]: panel.md
 
 <!-- Referenced images -->

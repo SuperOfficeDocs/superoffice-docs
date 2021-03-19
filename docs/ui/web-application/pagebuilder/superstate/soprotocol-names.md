@@ -15,7 +15,7 @@ The [SoProtocol][1] allows you to control the user interface without using scrip
 
 Configuration files use a tag called `soprotocol` inside the panels and views. For example, the following code segments in SoContactPanel.config shows how we can set the values to soprotocol tag.
 
-[!code-xml[XML](../../includes/socontactpanel-config.xml?range=2)]
+[!code-xml[XML](../includes/socontactpanel-config.xml?range=2)]
 
 ```XML
 <view id="interests" type="SoView" soprotocol="interest" current="contact">
@@ -55,6 +55,6 @@ SuperOffice uses the *SoUdefConfiuration.config* file to determine which set of 
 [!code-xml[xml](includes/soudefconfiuration.xml)]
 
 <!-- Referenced links -->
-[1]: ../../../../soprotocol/index.md
+[1]: ../../../soprotocol/index.md
 
 <!-- Referenced images -->

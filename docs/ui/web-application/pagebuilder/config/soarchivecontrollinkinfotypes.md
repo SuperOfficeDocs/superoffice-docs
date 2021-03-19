@@ -43,4 +43,4 @@ The following example demonstrates how to add a click-handler (linkinfo) that is
 It does the same thing to have a uniform behavior throughout the client application. The only difference is the type value prefix, a linkhint-prefix, which is explained in detail in the [archive control row client][1] documentation.
 
 <!-- Referenced links -->
-[1]: ../usercontrols/archives/add-row-click-actions.md
+[1]: ../../tutorials/custom-archive-control/3-add-row-click-actions.md

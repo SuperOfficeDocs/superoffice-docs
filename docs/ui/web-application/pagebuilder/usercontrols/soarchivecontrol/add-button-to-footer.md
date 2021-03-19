@@ -1,6 +1,6 @@
 ---
 title: pb_usercontrol_archive_footer
-description: Adding a button to the archive footer
+description: How to add a button to the archive footer
 author: Tony Yates
 so.date: 06.24.2016
 keywords:
@@ -9,7 +9,7 @@ so.client: web
 so.envir: onsite
 ---
 
-# Adding a button to the archive footer
+# How to add a button to the archive footer
 
 In this example, we will add a new button called **Delete** to the project archive view. To do this, we need to make changes to the *SoContactPanel.config* file.
 

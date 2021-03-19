@@ -165,8 +165,8 @@ An important convention to note about the following markup. Rendered archive con
 ![Customized archive control][img4]
 
 <!-- Referenced links -->
-[1]: add-row-click-actions.md
-[2]: add-archive-action-button.md
+[1]: 3-add-row-click-actions.md
+[2]: 4-add-archive-action-button.md
 
 <!-- Referenced images -->
 [img1]: media/web-archive-control.png

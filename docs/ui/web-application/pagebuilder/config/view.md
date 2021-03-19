@@ -106,6 +106,24 @@ Not all controls use the config section. From the `datasource` element, it will 
 | [SoSystemView][10] | Not visible, but renders out all content in a hidden layer. |
 | [SoTabbedView][11] | View with inline tabs |
 
+## How to select a view
+
+You can use SoProtocol strings in the URL to force a switch to a particular view:
+
+* Open the contact page displaying the interest tab
+
+  `http://localhost/SuperOfficeWeb/default.aspx?contact.interest`
+
+* Open the **Contact** page displaying the **Interest** tab in the main card and displaying the month calendar in the minicard.
+
+  `http://localhost/SuperOfficeWeb/default.aspx?contact.interest.minimonth`
+
+* Open the **Contact** page displaying the **Interest** tab in the main card and displaying the **Activity** tab in the archive card and displaying the month calendar from the minicard.
+
+  `http://localhost/SuperOfficeWeb/default.aspx?contact.interest.minimonth.activityarchive`
+
+These links show us a direct way to open a page with wanted tabs. The SoProtocol name is declared on the view using an element in the config file. Otherwise, we can log in to the contact page, and then by clicking or by selecting the wanted views, we can get the same result.
+
 <!-- Referenced links -->
 [1]: panel.md
 [2]: card.md

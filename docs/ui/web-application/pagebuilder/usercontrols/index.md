@@ -11,17 +11,33 @@ so.envir: onsite
 
 # UserControls
 
-UserControls, or GUI controls, are the building blocks of CRM.web webpage. Many of the UserControls are simple controls:
+UserControls are **reusable components** that can be used by many pages. They are perhaps the most interesting objects in the framework because the controls are what we interact with when we use the panel.
+
+A UserControl is a set of smaller UI controls, which also contains all the presentation logic. Embedding this logic into the UserControl simplifies the configuration a lot. The interaction between fields (controls) and other event-driven logic must be implemented specifically into each control.
+
+A page consists of many panels, a panel consists of one or more views, and a view consists of one or more control groups. Within a control group, it has its own controls.
+
+UserControls, or GUI controls, are the **building blocks** of CRM.web webpage. Many of the UserControls are simple controls:
 
 * SoButton
 * SoCheckBox
 * SoInputButton
-* SoTextBox
+* [SoTextBox][10]
+* [SoLabel][12]
 * ...
 
-There are more complex controls like the `ContactMainView` or the `PersonDialogHeader`, which contains multiple simple controls. The controls are identified by the relevant config file and the actual objects will be mapped using the config file called *SoObjectMapping.config*.
+There are 2 types of lists in SuperOffice:
 
-Some of the web controls will be standard ASP.NET controls with the SuperOffice look, while others may be more complex and be dependent on data and services from the page framework. All controls should implement a common interface for data binding and sentry, making it possible for them to be used outside web client context and be plugged into a back-end of another application.
+* [SoListBox][8] is a drop-down control that will display a flat list. It does not support categorized lists and searching.
+* [MDOList][9] is the control that will support sub-list and search functionality. It supports categorized lists as well as searching.
+
+The config file settings for both SoListBox and MDOList are similar. The MDO list control is the most widely used.
+
+There are more complex controls like the `ContactMainView` or the `PersonDialogHeader`, which contains multiple simple controls. The controls are identified by the relevant config file and the actual objects will be mapped using the config file called [SoObjectMapping.config][6].
+
+You can also use [placeholder controls][11].
+
+Some of the web controls will be standard ASP.NET controls with the SuperOffice look, while others may be more complex and be dependent on data and services from the page framework, for example [SoArchiveControl][13]. All controls should implement a common interface for data binding and sentry, making it possible for them to be used outside web client context and be plugged into a back-end of another application.
 
 ## Library
 
@@ -32,12 +48,16 @@ The controls are composed of ASPX files and C# code in the web control library n
 Since all rendering and building of pages depend on XML configuration files, we need a mechanism that maps the objects of the pages to the actual objects of the system. These config files contain details such from which assembly a specific user control is taken from.
 
 ```XML
-<object type="Control" mappingname="SoToolButton" assemblyname="SuperOffice.CRMWeb" objectname="SuperOffice.CRM.Web.UI.Controls.SoToolButton"></object>
+<object type="Control"
+        mappingname="SoToolButton"
+        assemblyname="SuperOffice.CRMWeb"
+        objectname="SuperOffice.CRM.Web.UI.Controls.SoToolButton">
+</object>
 ```
 
 [!include[ALT](../includes/object-parameters.md)]
 
-For example, the above code tells us the object that is represented by this line is referred to as *SoToolButton* in other config files, resides in the *SuperOffice.CRMWeb* assembly, and is called `SuperOffice.CRM.Web.UI.Controls.SoToolButton`. The type tells us what role the object plays in the PageBuilder framework.
+For example, the above code tells us the object that is represented by this line is referred to as **SoToolButton** in other config files, resides in the *SuperOffice.CRMWeb* assembly, and is called `SuperOffice.CRM.Web.UI.Controls.SoToolButton`. The type tells us what role the object plays in the PageBuilder framework.
 
 Once the object has been identified in the *SoObjectMapping.config* file, it could be used in any config file with statements like this:
 
@@ -66,5 +86,11 @@ The PageBuilder uses these config files together with the current values from th
 [5]: ../config/view.md
 [6]: ../config/object-mapping.md
 [7]: ../config/soapplicationconfiguration.md
+[8]: solistbox/data-binding.md
+[9]: mdolists/index.md
+[10]: sotextbox/add-textbox-to-navigator.md
+[11]: placeholder.md
+[12]: solabel/data-binding.md
+[13]: soarchivecontrol/index.md
 
 <!-- Referenced images -->

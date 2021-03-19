@@ -45,7 +45,7 @@ Cards are placeholders inside panels and use layout positioning, and are respons
 </card>
 ```
 
-## Different Card Types
+## Different card types
 
 | Name | Description |
 |---|---|
@@ -69,21 +69,13 @@ The card type here tells us what the type of the card within the page is since t
 
 Within the card comes the `views` element, which groups the config data for the views within a given card.
 
-The config data for a view can appear in 2 ways: within the views tag or in a separate config file.
+The views can be displayed one by one or all at once, this is decided by the implementation of the card. In SuperOffice, the card will display a tab control or a drop-down control telling the user which view is active and what other views are available.
 
-With the code below, the config data for a view will appear as a separate config file because we have referenced the views within the cards:
+![02][img2]
 
-```XML
-<cards>
-  <card id="ContactMainCard" type="SoTabbedCard" placeholderid="leftpanel" cardtype="MainCard">
-    <views>
-      <view id="MainView" reference="MainView"></view>
-    </views>
-  </card>
-</cards>
-```
+You can use [SoProtocol][10] strings in the URL to force a switch to a particular view.
 
-The reference *MainView* in the `view` element means that the definition can be found in the `SoMainViewconfig` file.
+The config data for a view can appear in 2 ways: within the views tag or in a separate config file called a [fragment][11]
 
 **Next:** [view config files][2]
 
@@ -97,6 +89,9 @@ The reference *MainView* in the `view` element means that the definition can be 
 [7]: https://community.superoffice.com/documentation/SDK/SO.Web.Application/html/T_SuperOffice_CRM_Web_UI_Controls_FindCard.htm
 [8]: https://community.superoffice.com/documentation/SDK/SO.Web.Application/html/T_SuperOffice_CRM_Web_UI_Controls_TabbedCard.htm
 [9]: https://community.superoffice.com/documentation/SDK/SO.Web.Application/html/T_SuperOffice_DCF_Web_UI_Controls_WizardCard.htm
+[10]: ../../../soprotocol/index.md
+[11]: soml.md
 
 <!-- Referenced images -->
 [img1]: media/web-client-pagebuilder-framework2.png
+[img2]: media/image002.jpg

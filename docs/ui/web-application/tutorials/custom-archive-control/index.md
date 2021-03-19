@@ -23,10 +23,10 @@ This 4-step tutorial demonstrates how to add an Archive control to the web clien
 4. [Add an archive action button][4]
 
 <!-- Referenced links -->
-[1]: add-archive-control.md
-[2]: add-archive-row-context-menu.md
-[3]: add-row-click-actions.md
-[4]: add-archive-action-button.md
+[1]: 1-add-archive-control.md
+[2]: 2-add-archive-row-context-menu.md
+[3]: 3-add-row-click-actions.md
+[4]: 4-add-archive-action-button.md
 
 <!-- Referenced images -->
 [img1]: media/web-archive-control.png

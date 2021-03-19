@@ -248,8 +248,14 @@ items:
     - name: Mvc article
       href: web-application/model-view-controller-pattern/mvc-article.md
   - name: Pagebuilder
-    href: web-application/pagebuilder/index.md
+    href: web-application/pagebuilder/data-binding.md
     items:
+    - name: Data binding
+      href: web-application/pagebuilder/data-binding.md
+    - name: Master and content pages
+      href: web-application/pagebuilder/master-and-content-pages.md
+    - name: Rights system
+      href: web-application/pagebuilder/rights-system.md
     - name: Config
       href: web-application/pagebuilder/config/card.md
       items:
@@ -271,11 +277,20 @@ items:
         href: web-application/pagebuilder/config/soml.md
       - name: View
         href: web-application/pagebuilder/config/view.md
+      - name: Howto
+        href: web-application/pagebuilder/config/howto/add-tab-to-contact-card.md
+        items:
+        - name: Add tab to contact card
+          href: web-application/pagebuilder/config/howto/add-tab-to-contact-card.md
+        - name: Remove card
+          href: web-application/pagebuilder/config/howto/remove-card.md
     - name: Datahandlers
       href: web-application/pagebuilder/datahandlers/add-custom-datahandler.md
       items:
       - name: Add custom datahandler
         href: web-application/pagebuilder/datahandlers/add-custom-datahandler.md
+      - name: Idatahandler
+        href: web-application/pagebuilder/datahandlers/idatahandler.md
       - name: Use builtin datahandler
         href: web-application/pagebuilder/datahandlers/use-builtin-datahandler.md
     - name: Superstate
@@ -283,69 +298,37 @@ items:
       items:
       - name: Role of soprotocol
         href: web-application/pagebuilder/superstate/role-of-soprotocol.md
+      - name: Soprotocol names
+        href: web-application/pagebuilder/superstate/soprotocol-names.md
       - name: State changes
         href: web-application/pagebuilder/superstate/state-changes.md
     - name: Usercontrols
       href: web-application/pagebuilder/usercontrols/index.md
       items:
-      - name: Rights system
-        href: web-application/pagebuilder/usercontrols/rights-system.md
-      - name: Archives
-        href: web-application/pagebuilder/usercontrols/archives/add-archive-action-button.md
-        items:
-        - name: Add archive action button
-          href: web-application/pagebuilder/usercontrols/archives/add-archive-action-button.md
-        - name: Add archive control
-          href: web-application/pagebuilder/usercontrols/archives/add-archive-control.md
-        - name: Add archive row context menu
-          href: web-application/pagebuilder/usercontrols/archives/add-archive-row-context-menu.md
-        - name: Add button to footer
-          href: web-application/pagebuilder/usercontrols/archives/add-button-to-footer.md
-        - name: Add row click actions
-          href: web-application/pagebuilder/usercontrols/archives/add-row-click-actions.md
-        - name: Change default columns
-          href: web-application/pagebuilder/usercontrols/archives/change-default-columns.md
-        - name: Create custom archive control
-          href: web-application/pagebuilder/usercontrols/archives/create-custom-archive-control.md
-      - name: Cards panels
-        href: web-application/pagebuilder/usercontrols/cards-panels/add-tab-to-contact-card.md
-        items:
-        - name: Add tab to contact card
-          href: web-application/pagebuilder/usercontrols/cards-panels/add-tab-to-contact-card.md
-        - name: Add textbox to navigator
-          href: web-application/pagebuilder/usercontrols/cards-panels/add-textbox-to-navigator.md
-        - name: Card
-          href: web-application/pagebuilder/usercontrols/cards-panels/card.md
-        - name: Id and references
-          href: web-application/pagebuilder/usercontrols/cards-panels/id-and-references.md
-        - name: Master and content pages
-          href: web-application/pagebuilder/usercontrols/cards-panels/master-and-content-pages.md
-        - name: Panel
-          href: web-application/pagebuilder/usercontrols/cards-panels/panel.md
-        - name: Placeholder
-          href: web-application/pagebuilder/usercontrols/cards-panels/placeholder.md
-        - name: Remove card
-          href: web-application/pagebuilder/usercontrols/cards-panels/remove-card.md
-        - name: Soprotocol names
-          href: web-application/pagebuilder/usercontrols/cards-panels/soprotocol-names.md
-      - name: Data binding
-        href: web-application/pagebuilder/usercontrols/data-binding/idatahandler.md
-        items:
-        - name: Idatahandler
-          href: web-application/pagebuilder/usercontrols/data-binding/idatahandler.md
-        - name: Pagebuilder uses datahandlers
-          href: web-application/pagebuilder/usercontrols/data-binding/pagebuilder-uses-datahandlers.md
-        - name: With solabel
-          href: web-application/pagebuilder/usercontrols/data-binding/with-solabel.md
-        - name: With solistbox
-          href: web-application/pagebuilder/usercontrols/data-binding/with-solistbox.md
-      - name: Lists
-        href: web-application/pagebuilder/usercontrols/lists/add-mdo-control-to-panel.md
+      - name: Placeholder
+        href: web-application/pagebuilder/usercontrols/placeholder.md
+      - name: Mdolists
+        href: web-application/pagebuilder/usercontrols/mdolists/add-mdo-control-to-panel.md
         items:
         - name: Add mdo control to panel
-          href: web-application/pagebuilder/usercontrols/lists/add-mdo-control-to-panel.md
-        - name: Config for mdo control
-          href: web-application/pagebuilder/usercontrols/lists/config-for-mdo-control.md
+          href: web-application/pagebuilder/usercontrols/mdolists/add-mdo-control-to-panel.md
+      - name: Soarchivecontrol
+        href: web-application/pagebuilder/usercontrols/soarchivecontrol/add-button-to-footer.md
+        items:
+        - name: Add button to footer
+          href: web-application/pagebuilder/usercontrols/soarchivecontrol/add-button-to-footer.md
+        - name: Change default columns
+          href: web-application/pagebuilder/usercontrols/soarchivecontrol/change-default-columns.md
+      - name: Solistbox
+        href: web-application/pagebuilder/usercontrols/solistbox/data-binding.md
+        items:
+        - name: Data binding
+          href: web-application/pagebuilder/usercontrols/solistbox/data-binding.md
+      - name: Sotextbox
+        href: web-application/pagebuilder/usercontrols/sotextbox/add-textbox-to-navigator.md
+        items:
+        - name: Add textbox to navigator
+          href: web-application/pagebuilder/usercontrols/sotextbox/add-textbox-to-navigator.md
   - name: Tutorials
     href: web-application/tutorials/tutorial-2.md
     items:
@@ -362,6 +345,17 @@ items:
       items:
       - name: Ajax create followup
         href: web-application/tutorials/ajax-create-followup/ajax-create-followup.md
+    - name: Custom archive control
+      href: web-application/tutorials/custom-archive-control/1-add-archive-control.md
+      items:
+      - name: 1 add archive control
+        href: web-application/tutorials/custom-archive-control/1-add-archive-control.md
+      - name: 2 add archive row context menu
+        href: web-application/tutorials/custom-archive-control/2-add-archive-row-context-menu.md
+      - name: 3 add row click actions
+        href: web-application/tutorials/custom-archive-control/3-add-row-click-actions.md
+      - name: 4 add archive action button
+        href: web-application/tutorials/custom-archive-control/4-add-archive-action-button.md
     - name: Customize
       href: web-application/tutorials/customize/add-custom-control.md
       items:

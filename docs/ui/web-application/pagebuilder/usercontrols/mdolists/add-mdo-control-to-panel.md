@@ -1,6 +1,6 @@
 ---
-title: add_mod_contro_to_panel
-description: Adding an MDO control to a existing panel of a page
+title: add_mod_control
+description: How to add an MDO control to an existing panel of a page
 author: Tony Yates
 so.date: 06.24.2016
 keywords: usercontrol, MDO, list
@@ -9,7 +9,7 @@ so.client: web
 so.envir: onsite
 ---
 
-# Adding an MDO control to an existing panel of a page
+# How to add an MDO control to an existing panel of a page
 
 We are going to add a new MDO control to the **Find** dialog.
 
@@ -28,21 +28,21 @@ There is a large number of controls in the first section of the page. When there
 
 <control id="projtemp5_5" type="SoMDOControl" column="3" row="5" width="200px" >
   <caption></caption>
-    <datasource>FindDataHandler.categoryId.Values[0]</datasource>
-    <config>
-      <displaytext-datasource>FindDataHandler.categoryId.DisplayValues[0]</displaytext-datasource>
-      <listname>Category</listname>
-    </config>
+  <datasource>FindDataHandler.categoryId.Values[0]</datasource>
+  <config>
+    <displaytext-datasource>FindDataHandler.categoryId.DisplayValues[0]<displaytext-datasource>
+    <listname>Category</listname>
+  </config>
 </control>
 ```
 
-Both `control` elements above specify the row and column number. So in a case like this, if we are inserting a control, we pay attention to simple things like this to avoid overlap.
+Above, both `control` elements specify the row and column number. So in a case like this, if we are inserting a control, we **pay attention to simple things like this to avoid overlap**.
 
 ## After
 
 ![02][img2]
 
-Here we have added two controls: an SoLabel and an MDO control. Since we have given the proper column and row numbers for each control, the controls have appeared at the correct location without overlapping the existing controls.
+Here we have added 2 controls: an SoLabel and an MDO control. Since we have given the proper column and row numbers for each control, the controls have appeared at the correct location without overlapping the existing controls.
 
 Important settings:
 

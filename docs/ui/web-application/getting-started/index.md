@@ -60,7 +60,7 @@ To debug, use the developer tools of your browser and the SuperOffice [Diagnosti
 [6]: ../tutorials/sale-foreignkeys/index.md
 [7]: ../pagebuilder/datahandlers/index.md
 [8]: ../tutorials/sale-foreignkeys/3-create-custom-mdo-control.md
-[9]: ../pagebuilder/usercontrols/archives/create-custom-archive-control.md
+[9]: ../tutorials/custom-archive-control/index.md
 [10]: ../custom-ajax-methods.md
 [11]: change-system-config.md
 [12]: change-page-config.md
