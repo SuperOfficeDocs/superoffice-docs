@@ -26,7 +26,7 @@ The next step is to add the stylesheets. These are necessary for us to get the S
 > [!NOTE]
 > When adding stylesheets, preserve the folder structure of the SuperOffice application.
 
-We have added the ".css" files called *DefaultStyles.css* and *SuperOffice.Web.UI.Controls.css* since these styles sheets contain the styles for the controls that we plan to use in the application. 
+We have added the ".css" files called *DefaultStyles.css* and *SuperOffice.Web.UI.Controls.css* since these styles sheets contain the styles for the controls that we plan to use in the application.
 
 ## Add image folder
 

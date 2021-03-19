@@ -68,7 +68,7 @@ We have placed all our SO controls inside `<asp:Login></asp:Login>`. Before we u
 
 [!code-html[HTML](includes/login.cshtml?range=3)]
 
-Once the registration is declared, we can use the SO controls on the page. For example an SoTextBox is shown below.
+Once the registration is declared, we can use the SO controls on the page. For example, an SoTextBox is shown below.
 
 [!code-html[HTML](includes/login.cshtml?range=21-25)]
 

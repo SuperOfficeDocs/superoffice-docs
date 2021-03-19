@@ -21,7 +21,7 @@ The most common question about web client development today is "How do I prevent
 
 In this article I'm going to present an easy way to enforce complex business rules, and demonstrate how you can interact with the user and tell them what needs to be done before a save will succeed.
 
-## Web Client Validation
+## Web client validation
 
 Today there are three well-defined ways to enforce validation. They are:
 
@@ -49,7 +49,7 @@ The really cool thing about this is that we can use this same means to validate 
 
 So how do we take advantage of this for our own benefit towards complex rule-based validation? We simply create a generic control for accepting a datasource, and creating a validator that will be responsible for validating the datasource of that control.
 
-## The Conceptual Overview
+## The conceptual overview
 
 In ASP.NET, control validation is a recursive process. This means that when a page checks its `IsValid` property, the page recursively iterates over, and calls `IsValid` on each and every child control on that page. Each child control on that page will then also recursively iterates over each child control it contains and checks the `IsValid` property for each child control as well.
 
@@ -109,13 +109,13 @@ The data source defined in the controls SOML declaration is passed into the over
 
 ![x][img6]
 
-The control element ID can be any unique ID value. Just ensure it's not already used somewhere else on the page, otherwise your page may not display properly.
+The control element ID can be any unique ID value. Just ensure it's not already used somewhere else on the page, otherwise, your page may not display properly.
 
-The data source element can point to any datahandler data source currently defined in context. So what data sources are defined in context? For that you need to look at the datahandlers section, found at the top of the page definition.
+The data source element can point to any datahandler data source currently defined in context. So what data sources are defined in context? For that, you need to look at the datahandlers section, found at the top of the page definition.
 
-For each datahandler listed in the datahandlers section, there are any number of data sources defined inside each datahandlers `DataCarriers` collection. Each data source is defined as "object", so you will have to cast the argument named value to the appropriate datatype inside the `ValidationRules` `_validate` method.
+For each datahandler listed in the datahandlers section, there is any number of data sources defined inside each datahandlers `DataCarriers` collection. Each data source is defined as "object", so you will have to cast the argument named value to the appropriate datatype inside the `ValidationRules` `_validate` method.
 
-**SuperOffice Markup Lanaguage (SOML) to include the validation control:**
+**SuperOffice Markup Language (SOML) to include the validation control:**
 
 ![x][img7]
 
@@ -123,19 +123,19 @@ For each datahandler listed in the datahandlers section, there are any number of
 
 Now, like any `SoControl` element, the figure below demonstrates how I can place my `ValidationControl` on a page, and hook up my `ValidationRules` logic by including it in the element. Notice how it is the **class attributes** that map to the **type** definition in the configuration file.
 
-**How Attribute Mapping Names are used to define the type in configuration:**
+**How Attribute Mapping Names are used to define the type in the configuration:**
 
 ![x][im8]
 
-Hopefully this will help make it all clearer. `ValidationControl` is responsible for displaying a message to the user, while the `ValidationRules` validator is responsible for running my business rules and returning whether the page is valid or not.
+Hopefully, this will help make it all clearer. `ValidationControl` is responsible for displaying a message to the user, while the `ValidationRules` validator is responsible for running my business rules and returning whether the page is valid or not.
 
-The `ValidationMessage` property becomes the controls tooltip, which is normally displayed when hovering the cursor over the Save button to inform the user about an error when something is wrong.
+The `ValidationMessage` property becomes the control's tooltip, which is normally displayed when hovering the cursor over the Save button to inform the user about an error when something is wrong.
 
 The `Tooltip` property is used by the `ValidationControl` as the text to display in a SuperOffice web client dialog message box.
 
 Finally, compile the project and place the DLL inside the website *bin* directory.
 
-This example demonstrates how to validate a SaleEntity on the Sale panel for version 7, and the Sale dialog for 6.
+This example demonstrates how to validate a SaleEntity on the Sale panel for version 7 and the Sale dialog for 6.
 
 Now go ahead and place the control markup in the `SalePage` configuration somewhere. It's best to place it in a control group that you know is only loaded once for that page, for example the same control group as the header control. Do NOT place it inside any of the tab view control groups.
 
@@ -143,17 +143,17 @@ For SuperOffice 6.3, the best place for this control is in the *SoSalePage.confi
 
 For SuperOffice 7.0, place the control declaration in the *SoSaleMainViewView.config* file, as the last control in the element.
 
-If you have `CacheConfigurations` set to True in the *web.config*, remember to first login and then flush the cached configuration from the database by appending and invoking "?flush" in the URL of the browser address bar, i.e. `http://crm.yourcompany.com/default.aspx?flush`.
+If you have `CacheConfigurations` set to True in the *web.config*, remember to first log in and then flush the cached configuration from the database by appending and invoking "?flush" in the URL of the browser address bar, i.e. `http://crm.yourcompany.com/default.aspx?flush`.
 
 The next time you try to edit and save a sale, you should observe that it's not possible to save and will see the message box with the error displayed.
 
 ## The correct way to validate the client
 
-While the capability to validate an entire entity is possible, be aware that under certain conditions the entity passed into the validator is not going to contain all of the fields that you might expect. Underneath the web-client covers, hidden way deep down in the bowels of the data handlers (think of these as controllers), there exists a collection of data sources that may or may not be connected to the root entity shown on in the browser.
+While the capability to validate an entire entity is possible, be aware that under certain conditions the entity passed into the validator is not going to contain all of the fields that you might expect. Underneath the web-client covers, hidden way deep down in the bowels of the data handlers (think of these as controllers), there exists a collection of data sources that may or may not be connected to the root entity shown in the browser.
 
-So how do you access these 'out of sync' values to conduct validation? By narrowing your validations down to that single property - set the datasource you are checking to one property of the entity, not the entire thing. In the validator, you can also use the DataDispatcher to try and get current values from any datasource that resides in the data handlers data carrier collections. This will be discussed more soon.
+So how do you access these 'out of sync' values to conduct validation? By narrowing your validations down to that single property - set the datasource you are checking to one property of the entity, not the entire thing. In the validator, you can also use the DataDispatcher to try and get current values from any datasource that resides in the data handler's data carrier collections. This will be discussed more soon.
 
-There are other situations as well that circumvent external validation altogether. Such is the case in the `PersonNames` control that has replaced the old `SoTextBoxes` that once represented the `FirstName`, `MiddleName`, and `LastName` controls. Internal to the web control, it only checks it's internal validator to ensure that the name in the person dialog meets the minimum requirement of at least containing a first name.
+There are other situations as well that circumvent external validation altogether. Such is the case in the `PersonNames` control that has replaced the old `SoTextBoxes` that once represented the `FirstName`, `MiddleName`, and `LastName` controls. Internal to the web control, it only checks its internal validator to ensure that the name in the person dialog meets the minimum requirement of at least containing a first name.
 
 **Snippet from SoPersonPage.config:**
 
@@ -189,17 +189,16 @@ Using the `MandatoryFieldValidator` control, the error message will display the 
 
 ## Conclusion
 
-In this article I have shown you how to create a control and use it to validate any data source on any given page in the SuperOffice web client, and display a message to the user if necessary.
+In this tutorial, I have shown you how to create a control and use it to validate any data source on any given page in the SuperOffice web client, and display a message to the user if necessary.
 
 This technique should be used when you want to add business logic to a page, and need interact with the user when those business rules do not fulfill the business requirements.
 
-[Download Examples][4]
+<!-- [Download Examples](https://community.superoffice.com/contentassets/e6449d2931be42c3ad8a81296c981626/webvalidation.zip) -->
 
 <!-- Referenced links -->
 [1]: https://community.superoffice.com/en/content/content/samples-and-code/web-client-sdk/overriding-default-save-button-functionality/
 [2]: https://community.superoffice.com/en/content/content/webclient/Scripting-in-the-NetServer-World/
 [3]: https://community.superoffice.com/Documentation/SDK/SO.WebGUI/html/b27602d5-7621-7792-966c-f1b7b659007d.htm
-[4]: https://community.superoffice.com/contentassets/e6449d2931be42c3ad8a81296c981626/webvalidation.zip
 
 <!-- Referenced images -->
 [img1]: media/image001.jpg

@@ -96,9 +96,9 @@ End Class
 
 Compile your project.
 
-## Create Custom Path
+## Create custom path
 
-In SuperOffice WEB we can use a Custom Path that will override settings in SuperOffice Web. In this case, we need to modify a file for the sale card in SuperOffice. If we do an upgrade this modification will be lost. This we can avoid with the use of a custom path. Custom path is simply a folder that we points to in web.config. I have created a folder called *SO\_WEB\_CUSTOMPATH\_VALIDATION*
+In SuperOffice WEB we can use a Custom Path that will override settings in SuperOffice Web. In this case, we need to modify a file for the sale card in SuperOffice. If we do an upgrade this modification will be lost. This we can avoid with the use of a custom path. The custom path is simply a folder that we point to in *web.config*. I have created a folder called *SO\_WEB\_CUSTOMPATH\_VALIDATION*
 
 Inside *SO\_WEB\_CuSTOMPATH\_VALIDATION* you need to create a folder called *WebClient* and *bin*.
 
@@ -129,10 +129,10 @@ In your *SO\_WEB\_CUSTOMPATH\_VALIDATION\\WebClient\\Web\\Sale\\SaleMainViewView
 ```xml
 <!--VALIDATIONRULE-->
 <control id="AlwaysShowErrorId" type="ValidationControl">
-<datasource>EntityDataHandler.SaleEntity</datasource>
-<validations>
-<validation id="AlwaysShowError" type="ValidationRules"></validation>
-</validations>
+  <datasource>EntityDataHandler.SaleEntity</datasource>
+  <validations>
+    <validation id="AlwaysShowError" type="ValidationRules"></validation>
+  </validations>
 </control>
 <!--END VALIDATIONRULE-->
 ```

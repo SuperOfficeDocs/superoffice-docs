@@ -57,6 +57,8 @@ items:
           href: pagebuilder/config/howto/add-tab-to-contact-card.md
         - name: Remove card
           href: pagebuilder/config/howto/remove-card.md
+        - name: Add custom control
+          href: pagebuilder/config/howto/add-custom-control.md
   - name: Data handlers
     href: pagebuilder/datahandlers/index.md
     items:
@@ -69,7 +71,6 @@ items:
   - name: Usercontrols
     href: pagebuilder/usercontrols/index.md
     items:
-      
       - name: Mdolists
         href: pagebuilder/usercontrols/mdolists/index.md
         items:
@@ -82,12 +83,20 @@ items:
           href: pagebuilder/usercontrols/soarchivecontrol/add-button-to-footer.md
         - name: Change default columns
           href: pagebuilder/usercontrols/soarchivecontrol/change-default-columns.md
+      - name: Solabel
+        items:
+        - name: Add label
+          href: pagebuilder/usercontrols/solabel/add-label.md
+        - name: Data binding
+          href: pagebuilder/usercontrols/solabel/data-binding.md
       - name: Solistbox
         items:
         - name: Data binding
           href: pagebuilder/usercontrols/solistbox/data-binding.md
       - name: Sotextbox
         items:
+        - name: Add textbox
+          href: pagebuilder/usercontrols/sotextbox/add-textbox.md
         - name: Add textbox to navigator
           href: pagebuilder/usercontrols/sotextbox/add-textbox-to-navigator.md
       - name: Placeholder
@@ -99,39 +108,53 @@ items:
       href: pagebuilder/superstate/state-changes.md
     - name: Role of soprotocol
       href: pagebuilder/superstate/role-of-soprotocol.md
-  - name: Globalization
-    href:  globalization.md
-  - name: Strategic goals
-    href:  strategic-goals.md
-  - name: Technical info
-    href:  technical-info.md
-  - name: Model view controller pattern
-    href:  model-view-controller-pattern/mvc-article.md
-  - name: Custom Ajax methods
-    href:  custom-ajax-methods.md
-  - name: Tutorials
+- name: Globalization
+  href: globalization.md
+- name: Strategic goals
+  href: strategic-goals.md
+- name: Technical info
+  href: technical-info.md
+- name: Model view controller pattern
+  href: model-view-controller-pattern/mvc-article.md
+- name: Custom Ajax methods
+  href: custom-ajax-methods.md
+- name: Tutorials
+  items:
+  - name: Ajax create followup
+    href: tutorials/ajax-create-followup/ajax-create-followup.md
+  - name: Aspnet appointment with login
+    href: tutorials/aspnet-appointment-with-login/index.md
+  - name: Cust page std controls.md
+    href: tutorials/cust-page-std-controls.md/index.md
+  - name: Custom archive control
+    href: tutorials/custom-archive-control/index.md
     items:
-    - name: Ajax create followup
-      href: tutorials/ajax-create-followup/ajax-create-followup.md
-    - name: Custom archive control
-      href: tutorials/custom-archive-control/index.md
+    - name: 1. Add archive control
+      href: tutorials/custom-archive-control/1-add-archive-control.md
+    - name: 2. Add archive row context menu
+      href: tutorials/custom-archive-control/2-add-archive-row-context-menu.md
+    - name: 3. Add row click actions
+      href: tutorials/custom-archive-control/3-add-row-click-actions.md
+    - name: 4. Add archive action button
+      href: tutorials/custom-archive-control/4-add-archive-action-button.md
+  - name: Naviagtor button opens contact's selected project
+    href: tutorials/navbutton-contacts-selected-project/index.md
+  - name: Sale foreignkeys
+    href: tutorials/sale-foreignkeys/index.md
+    items:
+    - name: Part 1 - add FK datagrid to Sale page
+      href: tutorials/sale-foreignkeys/1-add-fk-datagrid-to-sale-page.md
+    - name: Part 2 - create sale data handler
+      href: tutorials/sale-foreignkeys/2-create-sale-datahandler.md
+    - name: Part 3 - create custom MDO control
+      href: tutorials/sale-foreignkeys/3-create-custom-mdo-control.md
+    - name: Time to holiday
+      href: tutorials/time-to-holiday/index.md
+    - name: Validation
       items:
-      - name: 1. Add archive control
-        href: tutorials/custom-archive-control/1-add-archive-control.md
-      - name: 2. Add archive row context menu
-        href: tutorials/custom-archive-control/2-add-archive-row-context-menu.md
-      - name: 3. Add row click actions
-        href: tutorials/custom-archive-control/3-add-row-click-actions.md
-      - name: 4. Add archive action button
-        href: tutorials/custom-archive-control/4-add-archive-action-button.md
-    - name: Sale foreignkeys
-      href: tutorials/sale-foreignkeys/index.md
-      items:
-      - name: Part 1 - add FK datagrid to Sale page
-        href: tutorials/sale-foreignkeys/1-add-fk-datagrid-to-sale-page.md
-      - name: Part 2 - create sale data handler
-        href: tutorials/sale-foreignkeys/2-create-sale-datahandler.md
-      - name: Part 3 - create custom MDO control
-        href: tutorials/sale-foreignkeys/3-create-custom-mdo-control.md
-  - name: Reference
-    href: reference/index.md 
+      - name: Validate fields
+        href: tutorials/validation/validate-fields.md
+      - name: Validation
+        href: tutorials/validation/validation.md
+- name: Reference
+  href: reference/index.md 
