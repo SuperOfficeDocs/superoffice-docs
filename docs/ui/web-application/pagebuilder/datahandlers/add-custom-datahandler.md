@@ -1,6 +1,6 @@
 ---
 title: datahandler_add
-description: Adding a custom DataHandler
+description: How to add a custom data handler
 author: Tony Yates
 so.date: 06.24.2016
 keywords:
@@ -9,7 +9,7 @@ so.client: web
 so.envir: onsite
 ---
 
-# Adding a custom DataHandler
+# How to add a custom data handler
 
 The DataHandler that we are going to add is called **MyDataHandler**, which is used to display the current date and time on the Company’s Interests view.
 
@@ -17,7 +17,7 @@ To create our own handler, we need to create a class library project. When creat
 
 ## Create the DataHandler
 
-The following code is an example of a custom data DataHandler.
+The following code is an example of a custom data handler.
 
 [!code-csharp[CS](includes/mydatahandler.cs)]
 
@@ -40,13 +40,17 @@ In the code above, we have overridden the `Initialize` method by calling the bas
 
 ## Add DLL to bin and config
 
-Once this class project has been compiled, we are required to add the DLL (*MyDataHandler.dll*) to the *bin* directory of SuperOffice. The default path of the bin directory is `C:\Program Files\SuperOffice\SuperOffice CRM.web\SuperOffice\bin`.
+1. Once this class project has been compiled, we are required to add the DLL (*MyDataHandler.dll*) to the *bin* directory of SuperOffice. The default path of the bin directory is `C:\Program Files\SuperOffice\SuperOffice CRM.web\SuperOffice\bin`.
 
-The next step is to add the created DLL to the *SoObjectMapping.config* file. Simply add the following code inside the `objects` element.
+2. The next step is to add the created DLL to the [SoObjectMapping.config][2] file. Simply add the following code inside the `objects` element.
 
-```XML
-<object type="IDataHandler" mappingname="MyDataHandler" assemblyname="MyDataHandler" objectname="MyTestDataHandler.MyDataHandler"></object>
-```
+    ```XML
+    <object type="IDataHandler"
+            mappingname="MyDataHandler"
+            assemblyname="MyDataHandler"
+            objectname="MyTestDataHandler.MyDataHandler">
+    </object>
+    ```
 
 [!include[ALT](../includes/object-parameters.md)]
 
@@ -89,6 +93,7 @@ See also: [PageBuilder config files][1]
 
 <!-- Referenced links -->
 [1]: ../config/index.md
+[2]: ../config/object-mapping.md
 
 <!-- Referenced images -->
 [img1]: media/image002.jpg

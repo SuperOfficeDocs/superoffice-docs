@@ -44,6 +44,13 @@ items:
       href:  pagebuilder/config/merge-files-and-actions.md
     - name: Soarchivecontrollinkinfotypes
       href:  pagebuilder/config/soarchivecontrollinkinfotypes.md
+  - name: Data handlers
+    href: pagebuilder/datahandlers/index.md
+    items:
+    - name: Use builtin data handler
+      href: pagebuilder/datahandlers/use-builtin-datahandler.md
+    - name: Add custom data handler
+      href: pagebuilder/datahandlers/add-custom-datahandler.md
   - name: Globalization
     href:  globalization.md
   - name: Strategic goals

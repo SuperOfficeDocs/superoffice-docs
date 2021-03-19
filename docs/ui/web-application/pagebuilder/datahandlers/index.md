@@ -1,6 +1,6 @@
 ---
-title: pagebuilder_datahandler
-description: DataHandler
+title: pb_datahandler
+description: DataHandler intro
 author: Tony Yates
 so.date: 06.24.2016
 keywords:
@@ -9,13 +9,13 @@ so.client: web
 so.envir: onsite
 ---
 
-# DataHandler
+# Data handler
 
 DataHandler is the layer between the GUI and the web service. The handlers expose the web service results (the carriers) to the GUI and take care of sending the modified results back to the Web services when needed.
 
-For example, if we require contact details, the DataHandler gets a request from the PageBuilder for the Contact entity and has to call the web service to get the answer.
+For example, if we require contact details, the data handler gets a request from the PageBuilder for the Contact entity and has to call the web service to get the answer.
 
-A DataHandler handles the population and storing of data within a card. The controls can bind to this data through the datasource property. It’s the glue between the UI and NetServer
+A data handler handles the population and storing of data within a card. The controls can bind to this data through the `datasource` property. It’s the glue between the UI and NetServer.
 
 In the *SoContactPage.config* file, it states the `datahandlers` and the `panels` it is using.
 
@@ -40,12 +40,23 @@ In the *SoContactPage.config* file, it states the `datahandlers` and the `panels
 
 ## ContactEntityDataHandler
 
-The `ContactEntityDataHandler` data handler is called in the contact panel. The below code segment shows the *SoContactPanel.config* file.
+The `ContactEntityDataHandler` data handler is called in the **Contact** panel. The following code segment shows the *SoContactPanel.config* file.
 
 [!code-xml[XML](../includes/socontactpanel-config.xml)]
 
-The ContactEntityDataHandler will fetch the ContactEntity from the web service. With the statement below, we use the name of the DataHandler to retrieve the data from the carrier.
+The `ContactEntityDataHandler` will fetch the ContactEntity from the web service. With the statement below, we use the name of the handler to retrieve the data from the carrier.
 
 [!code-xml[XML](../includes/socontactpanel-config.xml?range=16)]
 
 The PageBuilder framework rendering mechanism gets the data onto the page by using data handlers.
+
+## How tos and tutorials
+
+* [How to use an existing data handler][1]
+* [How to add a custom data handler][2]
+* [Sale foreign-keys tutorial][3] (uses a custom data handler)
+
+<!-- Referenced links -->
+[1]: add-custom-datahandler.md
+[2]: use-builtin-datahandler.md
+[3]: ../../tutorials/sale-foreignkeys/index.md
