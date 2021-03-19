@@ -1,6 +1,8 @@
 items:
+- name: Overview
+  href: index.md
 - name: Archive providers
-  href: archive-providers/add-columns.md
+  href: archive-providers/index.md
   items:
   - name: Add columns
     href: archive-providers/add-columns.md
@@ -37,8 +39,578 @@ items:
   - name: Reference
     href: archive-providers/reference/index.md
     items:
-    - name: Restriction types
-      href: archive-providers/reference/restriction-types.md
+    - name: Activity
+      href: archive-providers/reference/activity.md
+    - name: Aggregationwrapper2
+      href: archive-providers/reference/aggregationwrapper2.md
+    - name: Allusers
+      href: archive-providers/reference/allusers.md
+    - name: Appointment
+      href: archive-providers/reference/appointment.md
+    - name: Appointmentdynamicselection
+      href: archive-providers/reference/appointmentdynamicselection.md
+    - name: Appointmentdynamicselectionsinglecriteriagroup
+      href: archive-providers/reference/appointmentdynamicselectionsinglecriteriagroup.md
+    - name: Appointmentdynamicselectionv2
+      href: archive-providers/reference/appointmentdynamicselectionv2.md
+    - name: Appointmentfavourites
+      href: archive-providers/reference/appointmentfavourites.md
+    - name: Appointmenthadowselectioncombined
+      href: archive-providers/reference/appointmenthadowselectioncombined.md
+    - name: Appointmentselection
+      href: archive-providers/reference/appointmentselection.md
+    - name: Appointmentselectioncombined
+      href: archive-providers/reference/appointmentselectioncombined.md
+    - name: Appointmentselectioncombinedv2
+      href: archive-providers/reference/appointmentselectioncombinedv2.md
+    - name: Appointmentselectionv2
+      href: archive-providers/reference/appointmentselectionv2.md
+    - name: Appointmentshadowdynamicselection
+      href: archive-providers/reference/appointmentshadowdynamicselection.md
+    - name: Appointmentshadowdynamicselectionsinglecriteriagroup
+      href: archive-providers/reference/appointmentshadowdynamicselectionsinglecriteriagroup.md
+    - name: Appointmentshadowdynamicselectionv2
+      href: archive-providers/reference/appointmentshadowdynamicselectionv2.md
+    - name: Appointmentshadowselection
+      href: archive-providers/reference/appointmentshadowselection.md
+    - name: Appointmentshadowselectioncombinedv2
+      href: archive-providers/reference/appointmentshadowselectioncombinedv2.md
+    - name: Appointmentshadowselectionv2
+      href: archive-providers/reference/appointmentshadowselectionv2.md
+    - name: Appointmentshadowstaticselection
+      href: archive-providers/reference/appointmentshadowstaticselection.md
+    - name: Appointmentshadowstaticselectionv2
+      href: archive-providers/reference/appointmentshadowstaticselectionv2.md
+    - name: Appointmentstaticselection
+      href: archive-providers/reference/appointmentstaticselection.md
+    - name: Appointmentstaticselectionv2
+      href: archive-providers/reference/appointmentstaticselectionv2.md
+    - name: Assignresponseinvitation
+      href: archive-providers/reference/assignresponseinvitation.md
+    - name: Associateprojectdynamicselection
+      href: archive-providers/reference/associateprojectdynamicselection.md
+    - name: Associateprojectdynamicselectionv2
+      href: archive-providers/reference/associateprojectdynamicselectionv2.md
+    - name: Associateprojects
+      href: archive-providers/reference/associateprojects.md
+    - name: Associateprojectselection
+      href: archive-providers/reference/associateprojectselection.md
+    - name: Associateprojectselectionv2
+      href: archive-providers/reference/associateprojectselectionv2.md
+    - name: Associateprojectstaticselection
+      href: archive-providers/reference/associateprojectstaticselection.md
+    - name: Associateprojectstaticselectionv2
+      href: archive-providers/reference/associateprojectstaticselectionv2.md
+    - name: Batchtasks
+      href: archive-providers/reference/batchtasks.md
+    - name: Bookingresponseinvitation
+      href: archive-providers/reference/bookingresponseinvitation.md
+    - name: Bulkupdateresults
+      href: archive-providers/reference/bulkupdateresults.md
+    - name: Cancelledinvitation
+      href: archive-providers/reference/cancelledinvitation.md
+    - name: Chatsession
+      href: archive-providers/reference/chatsession.md
+    - name: Checklistappointment
+      href: archive-providers/reference/checklistappointment.md
+    - name: Consentpurpose
+      href: archive-providers/reference/consentpurpose.md
+    - name: Contactactivity
+      href: archive-providers/reference/contactactivity.md
+    - name: Contactdynamicselection
+      href: archive-providers/reference/contactdynamicselection.md
+    - name: Contactfavourites
+      href: archive-providers/reference/contactfavourites.md
+    - name: Contactpersondynamicselectionsinglecriteriagroup
+      href: archive-providers/reference/contactpersondynamicselectionsinglecriteriagroup.md
+    - name: Contactpersondynamicselectionv2
+      href: archive-providers/reference/contactpersondynamicselectionv2.md
+    - name: Contactpersonselectioncombinedv2
+      href: archive-providers/reference/contactpersonselectioncombinedv2.md
+    - name: Contactpersonselectionv2
+      href: archive-providers/reference/contactpersonselectionv2.md
+    - name: Contactpersonstaticselectionv2
+      href: archive-providers/reference/contactpersonstaticselectionv2.md
+    - name: Contactprojects
+      href: archive-providers/reference/contactprojects.md
+    - name: Contactselection
+      href: archive-providers/reference/contactselection.md
+    - name: Contactselectioncombined
+      href: archive-providers/reference/contactselectioncombined.md
+    - name: Contactstaticselection
+      href: archive-providers/reference/contactstaticselection.md
+    - name: Credentialuser
+      href: archive-providers/reference/credentialuser.md
+    - name: Criteria
+      href: archive-providers/reference/criteria.md
+    - name: Crmscripts
+      href: archive-providers/reference/crmscripts.md
+    - name: Diaryactivity
+      href: archive-providers/reference/diaryactivity.md
+    - name: Diaryappointment
+      href: archive-providers/reference/diaryappointment.md
+    - name: Document
+      href: archive-providers/reference/document.md
+    - name: Documentdynamicselection
+      href: archive-providers/reference/documentdynamicselection.md
+    - name: Documentdynamicselectionsinglecriteriagroup
+      href: archive-providers/reference/documentdynamicselectionsinglecriteriagroup.md
+    - name: Documentdynamicselectionv2
+      href: archive-providers/reference/documentdynamicselectionv2.md
+    - name: Documentfavourites
+      href: archive-providers/reference/documentfavourites.md
+    - name: Documenthadowselectioncombined
+      href: archive-providers/reference/documenthadowselectioncombined.md
+    - name: Documenthadowselectioncombinedv2
+      href: archive-providers/reference/documenthadowselectioncombinedv2.md
+    - name: Documentquotelineinnerdata
+      href: archive-providers/reference/documentquotelineinnerdata.md
+    - name: Documentselection
+      href: archive-providers/reference/documentselection.md
+    - name: Documentselectioncombined
+      href: archive-providers/reference/documentselectioncombined.md
+    - name: Documentselectioncombinedv2
+      href: archive-providers/reference/documentselectioncombinedv2.md
+    - name: Documentselectionv2
+      href: archive-providers/reference/documentselectionv2.md
+    - name: Documentshadowdynamicselection
+      href: archive-providers/reference/documentshadowdynamicselection.md
+    - name: Documentshadowdynamicselectionsinglecriteriagroup
+      href: archive-providers/reference/documentshadowdynamicselectionsinglecriteriagroup.md
+    - name: Documentshadowdynamicselectionv2
+      href: archive-providers/reference/documentshadowdynamicselectionv2.md
+    - name: Documentshadowselection
+      href: archive-providers/reference/documentshadowselection.md
+    - name: Documentshadowselectionv2
+      href: archive-providers/reference/documentshadowselectionv2.md
+    - name: Documentshadowstaticselection
+      href: archive-providers/reference/documentshadowstaticselection.md
+    - name: Documentshadowstaticselectionv2
+      href: archive-providers/reference/documentshadowstaticselectionv2.md
+    - name: Documentstaticselection
+      href: archive-providers/reference/documentstaticselection.md
+    - name: Documentstaticselectionv2
+      href: archive-providers/reference/documentstaticselectionv2.md
+    - name: Dummyselectioncontact
+      href: archive-providers/reference/dummyselectioncontact.md
+    - name: Dynamic
+      href: archive-providers/reference/dynamic.md
+    - name: Ejscripts
+      href: archive-providers/reference/ejscripts.md
+    - name: Emailaddress
+      href: archive-providers/reference/emailaddress.md
+    - name: Emailcontactaddress
+      href: archive-providers/reference/emailcontactaddress.md
+    - name: Emailpersonaddress
+      href: archive-providers/reference/emailpersonaddress.md
+    - name: Erpconnection
+      href: archive-providers/reference/erpconnection.md
+    - name: Erpconnector
+      href: archive-providers/reference/erpconnector.md
+    - name: Eventhandler
+      href: archive-providers/reference/eventhandler.md
+    - name: Executingservices
+      href: archive-providers/reference/executingservices.md
+    - name: Explicitinvitation
+      href: archive-providers/reference/explicitinvitation.md
+    - name: Externalpersons
+      href: archive-providers/reference/externalpersons.md
+    - name: Externalusers
+      href: archive-providers/reference/externalusers.md
+    - name: Favourites
+      href: archive-providers/reference/favourites.md
+    - name: Findappointment
+      href: archive-providers/reference/findappointment.md
+    - name: Findchatsession
+      href: archive-providers/reference/findchatsession.md
+    - name: Findcontact
+      href: archive-providers/reference/findcontact.md
+    - name: Findcontactwithoutphoneaddressemail
+      href: archive-providers/reference/findcontactwithoutphoneaddressemail.md
+    - name: Finddocument
+      href: archive-providers/reference/finddocument.md
+    - name: Finderpproduct
+      href: archive-providers/reference/finderpproduct.md
+    - name: Findproductviaconnectorprovider
+      href: archive-providers/reference/findproductviaconnectorprovider.md
+    - name: Findproject
+      href: archive-providers/reference/findproject.md
+    - name: Findquoteline
+      href: archive-providers/reference/findquoteline.md
+    - name: Findsale
+      href: archive-providers/reference/findsale.md
+    - name: Findselection
+      href: archive-providers/reference/findselection.md
+    - name: Findticket
+      href: archive-providers/reference/findticket.md
+    - name: Foreignkeys
+      href: archive-providers/reference/foreignkeys.md
+    - name: Formsubmission
+      href: archive-providers/reference/formsubmission.md
+    - name: Freetextappointment
+      href: archive-providers/reference/freetextappointment.md
+    - name: Freetextcontact
+      href: archive-providers/reference/freetextcontact.md
+    - name: Freetextcount
+      href: archive-providers/reference/freetextcount.md
+    - name: Freetextdocument
+      href: archive-providers/reference/freetextdocument.md
+    - name: Freetextperson
+      href: archive-providers/reference/freetextperson.md
+    - name: Freetextproject
+      href: archive-providers/reference/freetextproject.md
+    - name: Freetextsale
+      href: archive-providers/reference/freetextsale.md
+    - name: Freetextselection
+      href: archive-providers/reference/freetextselection.md
+    - name: Innerselectionstaticcontactprovider
+      href: archive-providers/reference/innerselectionstaticcontactprovider.md
+    - name: Innerselectionstaticpersonprovider
+      href: archive-providers/reference/innerselectionstaticpersonprovider.md
+    - name: Internalusers
+      href: archive-providers/reference/internalusers.md
+    - name: Invitation
+      href: archive-providers/reference/invitation.md
+    - name: Links
+      href: archive-providers/reference/links.md
+    - name: Linksappointments
+      href: archive-providers/reference/linksappointments.md
+    - name: Linkscontact
+      href: archive-providers/reference/linkscontact.md
+    - name: Linksdocuments
+      href: archive-providers/reference/linksdocuments.md
+    - name: Linksperson
+      href: archive-providers/reference/linksperson.md
+    - name: Linksproject
+      href: archive-providers/reference/linksproject.md
+    - name: Linkssales
+      href: archive-providers/reference/linkssales.md
+    - name: Linksselection
+      href: archive-providers/reference/linksselection.md
+    - name: Linksurl
+      href: archive-providers/reference/linksurl.md
+    - name: Listitems
+      href: archive-providers/reference/listitems.md
+    - name: Mail
+      href: archive-providers/reference/mail.md
+    - name: Mail2
+      href: archive-providers/reference/mail2.md
+    - name: Mailfolder
+      href: archive-providers/reference/mailfolder.md
+    - name: Mailingfavourites
+      href: archive-providers/reference/mailingfavourites.md
+    - name: Mailings
+      href: archive-providers/reference/mailings.md
+    - name: Mappedpreferences
+      href: archive-providers/reference/mappedpreferences.md
+    - name: Modulelicense
+      href: archive-providers/reference/modulelicense.md
+    - name: Numbers
+      href: archive-providers/reference/numbers.md
+    - name: Otherusers
+      href: archive-providers/reference/otherusers.md
+    - name: Ownercontacts
+      href: archive-providers/reference/ownercontacts.md
+    - name: Participants
+      href: archive-providers/reference/participants.md
+    - name: Participantswithconflictremoval
+      href: archive-providers/reference/participantswithconflictremoval.md
+    - name: Person
+      href: archive-providers/reference/person.md
+    - name: Personactivity
+      href: archive-providers/reference/personactivity.md
+    - name: Personfavourites
+      href: archive-providers/reference/personfavourites.md
+    - name: Personprojects
+      href: archive-providers/reference/personprojects.md
+    - name: Personrelation
+      href: archive-providers/reference/personrelation.md
+    - name: Pricelist
+      href: archive-providers/reference/pricelist.md
+    - name: Product
+      href: archive-providers/reference/product.md
+    - name: Projectactivity
+      href: archive-providers/reference/projectactivity.md
+    - name: Projectdynamicselection
+      href: archive-providers/reference/projectdynamicselection.md
+    - name: Projectdynamicselectionsinglecriteriagroup
+      href: archive-providers/reference/projectdynamicselectionsinglecriteriagroup.md
+    - name: Projectdynamicselectionv2
+      href: archive-providers/reference/projectdynamicselectionv2.md
+    - name: Projectfavourites
+      href: archive-providers/reference/projectfavourites.md
+    - name: Projectguide
+      href: archive-providers/reference/projectguide.md
+    - name: Projectguideappointment
+      href: archive-providers/reference/projectguideappointment.md
+    - name: Projectguidedocument
+      href: archive-providers/reference/projectguidedocument.md
+    - name: Projecthadowselectioncombined
+      href: archive-providers/reference/projecthadowselectioncombined.md
+    - name: Projecthadowselectioncombinedv2
+      href: archive-providers/reference/projecthadowselectioncombinedv2.md
+    - name: Projectmember
+      href: archive-providers/reference/projectmember.md
+    - name: Projectmemberassociate
+      href: archive-providers/reference/projectmemberassociate.md
+    - name: Projectselection
+      href: archive-providers/reference/projectselection.md
+    - name: Projectselectioncombined
+      href: archive-providers/reference/projectselectioncombined.md
+    - name: Projectselectioncombinedv2
+      href: archive-providers/reference/projectselectioncombinedv2.md
+    - name: Projectselectionv2
+      href: archive-providers/reference/projectselectionv2.md
+    - name: Projectshadowdynamicselection
+      href: archive-providers/reference/projectshadowdynamicselection.md
+    - name: Projectshadowdynamicselectionsinglecriteriagroup
+      href: archive-providers/reference/projectshadowdynamicselectionsinglecriteriagroup.md
+    - name: Projectshadowdynamicselectionv2
+      href: archive-providers/reference/projectshadowdynamicselectionv2.md
+    - name: Projectshadowselection
+      href: archive-providers/reference/projectshadowselection.md
+    - name: Projectshadowselectionv2
+      href: archive-providers/reference/projectshadowselectionv2.md
+    - name: Projectshadowstaticselection
+      href: archive-providers/reference/projectshadowstaticselection.md
+    - name: Projectshadowstaticselectionv2
+      href: archive-providers/reference/projectshadowstaticselectionv2.md
+    - name: Projectstaticselection
+      href: archive-providers/reference/projectstaticselection.md
+    - name: Projectstaticselectionv2
+      href: archive-providers/reference/projectstaticselectionv2.md
+    - name: Quoteconnection
+      href: archive-providers/reference/quoteconnection.md
+    - name: Quoteconnector
+      href: archive-providers/reference/quoteconnector.md
+    - name: Quoteline
+      href: archive-providers/reference/quoteline.md
+    - name: Quotelinedynamicselection
+      href: archive-providers/reference/quotelinedynamicselection.md
+    - name: Quotelinedynamicselectionsinglecriteriagroup
+      href: archive-providers/reference/quotelinedynamicselectionsinglecriteriagroup.md
+    - name: Quotelinedynamicselectionv2
+      href: archive-providers/reference/quotelinedynamicselectionv2.md
+    - name: Quotelineselection
+      href: archive-providers/reference/quotelineselection.md
+    - name: Quotelineselectioncombined
+      href: archive-providers/reference/quotelineselectioncombined.md
+    - name: Quotelineselectioncombinedv2
+      href: archive-providers/reference/quotelineselectioncombinedv2.md
+    - name: Quotelineselectionv2
+      href: archive-providers/reference/quotelineselectionv2.md
+    - name: Quotelineshadowdynamicselection
+      href: archive-providers/reference/quotelineshadowdynamicselection.md
+    - name: Quotelineshadowdynamicselectionsinglecriteriagroup
+      href: archive-providers/reference/quotelineshadowdynamicselectionsinglecriteriagroup.md
+    - name: Quotelineshadowdynamicselectionv2
+      href: archive-providers/reference/quotelineshadowdynamicselectionv2.md
+    - name: Quotelineshadowselection
+      href: archive-providers/reference/quotelineshadowselection.md
+    - name: Quotelineshadowselectioncombined
+      href: archive-providers/reference/quotelineshadowselectioncombined.md
+    - name: Quotelineshadowselectioncombinedv2
+      href: archive-providers/reference/quotelineshadowselectioncombinedv2.md
+    - name: Quotelineshadowselectionv2
+      href: archive-providers/reference/quotelineshadowselectionv2.md
+    - name: Quotelineshadowstaticselection
+      href: archive-providers/reference/quotelineshadowstaticselection.md
+    - name: Quotelineshadowstaticselectionv2
+      href: archive-providers/reference/quotelineshadowstaticselectionv2.md
+    - name: Quotelinestaticselection
+      href: archive-providers/reference/quotelinestaticselection.md
+    - name: Quotelinestaticselectionv2
+      href: archive-providers/reference/quotelinestaticselectionv2.md
+    - name: Quoteversionattachment
+      href: archive-providers/reference/quoteversionattachment.md
+    - name: Recyclecontact
+      href: archive-providers/reference/recyclecontact.md
+    - name: Recycleperson
+      href: archive-providers/reference/recycleperson.md
+    - name: Rejectedinvitation
+      href: archive-providers/reference/rejectedinvitation.md
+    - name: Relation
+      href: archive-providers/reference/relation.md
+    - name: Reportlabellayout
+      href: archive-providers/reference/reportlabellayout.md
+    - name: Reportprovider
+      href: archive-providers/reference/reportprovider.md
+    - name: Reports
+      href: archive-providers/reference/reports.md
+    - name: Role
+      href: archive-providers/reference/role.md
+    - name: Saintcontact
+      href: archive-providers/reference/saintcontact.md
+    - name: Saintperson
+      href: archive-providers/reference/saintperson.md
+    - name: Saintproject
+      href: archive-providers/reference/saintproject.md
+    - name: Sale
+      href: archive-providers/reference/sale.md
+    - name: Saleactivity
+      href: archive-providers/reference/saleactivity.md
+    - name: Salediary
+      href: archive-providers/reference/salediary.md
+    - name: Saledynamicselection
+      href: archive-providers/reference/saledynamicselection.md
+    - name: Saledynamicselectionsinglecriteriagroup
+      href: archive-providers/reference/saledynamicselectionsinglecriteriagroup.md
+    - name: Saledynamicselectionv2
+      href: archive-providers/reference/saledynamicselectionv2.md
+    - name: Salefavourites
+      href: archive-providers/reference/salefavourites.md
+    - name: Salefiltered
+      href: archive-providers/reference/salefiltered.md
+    - name: Salefilteredwithstakeholder
+      href: archive-providers/reference/salefilteredwithstakeholder.md
+    - name: Saleguide
+      href: archive-providers/reference/saleguide.md
+    - name: Saleguideappointment
+      href: archive-providers/reference/saleguideappointment.md
+    - name: Saleguidedocument
+      href: archive-providers/reference/saleguidedocument.md
+    - name: Salehistory
+      href: archive-providers/reference/salehistory.md
+    - name: Saleselection
+      href: archive-providers/reference/saleselection.md
+    - name: Saleselectioncombined
+      href: archive-providers/reference/saleselectioncombined.md
+    - name: Saleselectioncombinedv2
+      href: archive-providers/reference/saleselectioncombinedv2.md
+    - name: Saleselectionv2
+      href: archive-providers/reference/saleselectionv2.md
+    - name: Saleshadowdynamicselection
+      href: archive-providers/reference/saleshadowdynamicselection.md
+    - name: Saleshadowdynamicselectionsinglecriteriagroup
+      href: archive-providers/reference/saleshadowdynamicselectionsinglecriteriagroup.md
+    - name: Saleshadowdynamicselectionv2
+      href: archive-providers/reference/saleshadowdynamicselectionv2.md
+    - name: Saleshadowselection
+      href: archive-providers/reference/saleshadowselection.md
+    - name: Saleshadowselectioncombined
+      href: archive-providers/reference/saleshadowselectioncombined.md
+    - name: Saleshadowselectioncombinedv2
+      href: archive-providers/reference/saleshadowselectioncombinedv2.md
+    - name: Saleshadowselectionv2
+      href: archive-providers/reference/saleshadowselectionv2.md
+    - name: Saleshadowstaticselection
+      href: archive-providers/reference/saleshadowstaticselection.md
+    - name: Saleshadowstaticselectionv2
+      href: archive-providers/reference/saleshadowstaticselectionv2.md
+    - name: Salestakeholder
+      href: archive-providers/reference/salestakeholder.md
+    - name: Salestaticselection
+      href: archive-providers/reference/salestaticselection.md
+    - name: Salestaticselectionv2
+      href: archive-providers/reference/salestaticselectionv2.md
+    - name: Saletypequoteattachment
+      href: archive-providers/reference/saletypequoteattachment.md
+    - name: Savedreports
+      href: archive-providers/reference/savedreports.md
+    - name: Selectiondynamiccontactprovider
+      href: archive-providers/reference/selectiondynamiccontactprovider.md
+    - name: Selectiondynamicselectionsinglecriteriagroup
+      href: archive-providers/reference/selectiondynamicselectionsinglecriteriagroup.md
+    - name: Selectiondynamicselectionv2
+      href: archive-providers/reference/selectiondynamicselectionv2.md
+    - name: Selectionfavourites
+      href: archive-providers/reference/selectionfavourites.md
+    - name: Selectionmemberstatic
+      href: archive-providers/reference/selectionmemberstatic.md
+    - name: Selectionselectioncombinedv2
+      href: archive-providers/reference/selectionselectioncombinedv2.md
+    - name: Selectionselectionv2
+      href: archive-providers/reference/selectionselectionv2.md
+    - name: Selectionstaticcontactaddmembers
+      href: archive-providers/reference/selectionstaticcontactaddmembers.md
+    - name: Selectionstaticselectionv2
+      href: archive-providers/reference/selectionstaticselectionv2.md
+    - name: Shadowselection
+      href: archive-providers/reference/shadowselection.md
+    - name: Simpleappointment
+      href: archive-providers/reference/simpleappointment.md
+    - name: Simplechatsession
+      href: archive-providers/reference/simplechatsession.md
+    - name: Simplecontact
+      href: archive-providers/reference/simplecontact.md
+    - name: Simpledocument
+      href: archive-providers/reference/simpledocument.md
+    - name: Simpleinvitation
+      href: archive-providers/reference/simpleinvitation.md
+    - name: Simpleperson
+      href: archive-providers/reference/simpleperson.md
+    - name: Simpleproject
+      href: archive-providers/reference/simpleproject.md
+    - name: Simplesale
+      href: archive-providers/reference/simplesale.md
+    - name: Simpleselection
+      href: archive-providers/reference/simpleselection.md
+    - name: Simpleshipment
+      href: archive-providers/reference/simpleshipment.md
+    - name: Simpleticket
+      href: archive-providers/reference/simpleticket.md
+    - name: Subcontactpersondynamicselectionsinglecriteriagroup
+      href: archive-providers/reference/subcontactpersondynamicselectionsinglecriteriagroup.md
+    - name: Subpersoncontactdynamicselectionsinglecriteriagroup
+      href: archive-providers/reference/subpersoncontactdynamicselectionsinglecriteriagroup.md
+    - name: Superlistcolumnsize
+      href: archive-providers/reference/superlistcolumnsize.md
+    - name: Systemevents
+      href: archive-providers/reference/systemevents.md
+    - name: Templatelanguage
+      href: archive-providers/reference/templatelanguage.md
+    - name: Ticket
+      href: archive-providers/reference/ticket.md
+    - name: Ticketdynamicselection
+      href: archive-providers/reference/ticketdynamicselection.md
+    - name: Ticketdynamicselectionsinglecriteriagroup
+      href: archive-providers/reference/ticketdynamicselectionsinglecriteriagroup.md
+    - name: Ticketdynamicselectionv2
+      href: archive-providers/reference/ticketdynamicselectionv2.md
+    - name: Ticketfavourites
+      href: archive-providers/reference/ticketfavourites.md
+    - name: Ticketmessage
+      href: archive-providers/reference/ticketmessage.md
+    - name: Ticketselection
+      href: archive-providers/reference/ticketselection.md
+    - name: Ticketselectioncombined
+      href: archive-providers/reference/ticketselectioncombined.md
+    - name: Ticketselectioncombinedv2
+      href: archive-providers/reference/ticketselectioncombinedv2.md
+    - name: Ticketselectionv2
+      href: archive-providers/reference/ticketselectionv2.md
+    - name: Ticketshadowdynamicselection
+      href: archive-providers/reference/ticketshadowdynamicselection.md
+    - name: Ticketshadowdynamicselectionsinglecriteriagroup
+      href: archive-providers/reference/ticketshadowdynamicselectionsinglecriteriagroup.md
+    - name: Ticketshadowdynamicselectionv2
+      href: archive-providers/reference/ticketshadowdynamicselectionv2.md
+    - name: Ticketshadowselection
+      href: archive-providers/reference/ticketshadowselection.md
+    - name: Ticketshadowselectioncombined
+      href: archive-providers/reference/ticketshadowselectioncombined.md
+    - name: Ticketshadowselectioncombinedv2
+      href: archive-providers/reference/ticketshadowselectioncombinedv2.md
+    - name: Ticketshadowselectionv2
+      href: archive-providers/reference/ticketshadowselectionv2.md
+    - name: Ticketshadowstaticselection
+      href: archive-providers/reference/ticketshadowstaticselection.md
+    - name: Ticketshadowstaticselectionv2
+      href: archive-providers/reference/ticketshadowstaticselectionv2.md
+    - name: Ticketstaticselection
+      href: archive-providers/reference/ticketstaticselection.md
+    - name: Ticketstaticselectionv2
+      href: archive-providers/reference/ticketstaticselectionv2.md
+    - name: Timezones
+      href: archive-providers/reference/timezones.md
+    - name: Usagestats
+      href: archive-providers/reference/usagestats.md
+    - name: Userpreferences
+      href: archive-providers/reference/userpreferences.md
+    - name: Userpreferencetable
+      href: archive-providers/reference/userpreferencetable.md
+    - name: Webappusage
+      href: archive-providers/reference/webappusage.md
 - name: Assets
   href: assets/downloads.md
   items:
@@ -47,7 +619,7 @@ items:
   - name: Download
     href: assets/download/blob-image.zip
 - name: Authentication
-  href: authentication/active-directory.md
+  href: authentication/index.md
   items:
   - name: Active directory
     href: authentication/active-directory.md
@@ -89,7 +661,7 @@ items:
     - name: Superoffice username and password
       href: authentication/in-web-api/superoffice-username-and-password.md
   - name: Session handling
-    href: authentication/session-handling/create-session.md
+    href: authentication/session-handling/index.md
     items:
     - name: Create session
       href: authentication/session-handling/create-session.md
@@ -108,7 +680,7 @@ items:
   href: bulk-operations/index.md
   items:
   - name: Bulk update
-    href: bulk-operations/bulk-update/entities-field-types.md
+    href: bulk-operations/bulk-update/index.md
     items:
     - name: Entities field types
       href: bulk-operations/bulk-update/entities-field-types.md
@@ -142,7 +714,7 @@ items:
       - name: User defined fields
         href: bulk-operations/bulk-update/reference/user-defined-fields.md
   - name: Mass operations
-    href: bulk-operations/mass-operations/delete.md
+    href: bulk-operations/mass-operations/index.md
     items:
     - name: Delete
       href: bulk-operations/mass-operations/delete.md
@@ -313,7 +885,7 @@ items:
   href: documents/index.md
   items:
   - name: Agents web api
-    href: documents/agents-web-api/add-document-template.md
+    href: documents/agents-web-api/index.md
     items:
     - name: Add document template
       href: documents/agents-web-api/add-document-template.md
@@ -325,14 +897,14 @@ items:
     - name: Soarc document plugin
       href: documents/plugins/soarc-document-plugin.md
   - name: Rest
-    href: documents/rest/add-document-template.md
+    href: documents/rest/index.md
     items:
     - name: Add document template
       href: documents/rest/add-document-template.md
     - name: Generate document
       href: documents/rest/generate-document.md
   - name: Services
-    href: documents/services/configure-access.md
+    href: documents/services/index.md
     items:
     - name: Configure access
       href: documents/services/configure-access.md
@@ -343,7 +915,7 @@ items:
     - name: Update
       href: documents/services/update.md
 - name: Entities
-  href: entities/activity-links.md
+  href: entities/index.md
   items:
   - name: Activity links
     href: entities/activity-links.md
@@ -379,7 +951,7 @@ items:
     - name: Udef on contact
       href: entities/examples/udef-on-contact.md
 - name: Erp connectors
-  href: erp-connectors/automatic-field-mapping.md
+  href: erp-connectors/index.md
   items:
   - name: Automatic field mapping
     href: erp-connectors/automatic-field-mapping.md
@@ -406,7 +978,7 @@ items:
   - name: Tutorial
     href: erp-connectors/tutorial.md
   - name: Api
-    href: erp-connectors/api/erp-actor-carrier.md
+    href: erp-connectors/api/index.md
     items:
     - name: Erp actor carrier
       href: erp-connectors/api/erp-actor-carrier.md
@@ -419,7 +991,7 @@ items:
     - name: Pluginresponseinfo
       href: erp-connectors/api/pluginresponseinfo.md
   - name: Architecture
-    href: erp-connectors/architecture/dotnet.md
+    href: erp-connectors/architecture/index.md
     items:
     - name: Dotnet
       href: erp-connectors/architecture/dotnet.md
@@ -439,7 +1011,7 @@ items:
     - name: Show fields in gui or search
       href: erp-connectors/search-and-gui/show-fields-in-gui-or-search.md
 - name: Foreign keys
-  href: foreign-keys/erp-integration.md
+  href: foreign-keys/index.md
   items:
   - name: Erp integration
     href: foreign-keys/erp-integration.md
@@ -505,14 +1077,14 @@ items:
     - name: Translate strings
       href: globalization-and-localization/language/translate-strings.md
 - name: Lists
-  href: lists/category-list.md
+  href: lists/index.md
   items:
   - name: Category list
     href: lists/category-list.md
   - name: Mdo lists
     href: lists/mdo-lists.md
   - name: Entity
-    href: lists/entity/associate-list-and-cache.md
+    href: lists/entity/index.md
     items:
     - name: Associate list and cache
       href: lists/entity/associate-list-and-cache.md
@@ -532,11 +1104,6 @@ items:
       href: lists/entity/typed-list.md
     - name: Udef list
       href: lists/entity/udef-list.md
-  - name: Osql
-    href: lists/osql/get-catlist-sodatareader.md
-    items:
-    - name: Get catlist sodatareader
-      href: lists/osql/get-catlist-sodatareader.md
   - name: Row
     href: lists/row/add-list-item.md
     items:
@@ -551,6 +1118,678 @@ items:
       href: lists/sql/add-list-item-sql.md
     - name: Get catlist sql
       href: lists/sql/get-catlist-sql.md
+- name: Mdo providers
+  href: mdo-providers/index.md
+  items:
+  - name: Reference
+    href: mdo-providers/reference/index.md
+    items:
+    - name: Activitystatus
+      href: mdo-providers/reference/activitystatus.md
+    - name: Addressformat
+      href: mdo-providers/reference/addressformat.md
+    - name: Allpersonsearch
+      href: mdo-providers/reference/allpersonsearch.md
+    - name: Allpreferencekeys
+      href: mdo-providers/reference/allpreferencekeys.md
+    - name: Amountclass
+      href: mdo-providers/reference/amountclass.md
+    - name: Appointment
+      href: mdo-providers/reference/appointment.md
+    - name: Appointmentcautionwarning
+      href: mdo-providers/reference/appointmentcautionwarning.md
+    - name: Appointmentcompleted
+      href: mdo-providers/reference/appointmentcompleted.md
+    - name: Appointmentfavourite
+      href: mdo-providers/reference/appointmentfavourite.md
+    - name: Appointmentgroup
+      href: mdo-providers/reference/appointmentgroup.md
+    - name: Appointmenttask
+      href: mdo-providers/reference/appointmenttask.md
+    - name: Appointmenttextid
+      href: mdo-providers/reference/appointmenttextid.md
+    - name: Appointmenttype
+      href: mdo-providers/reference/appointmenttype.md
+    - name: Area
+      href: mdo-providers/reference/area.md
+    - name: Associate
+      href: mdo-providers/reference/associate.md
+    - name: Associaterestrictions
+      href: mdo-providers/reference/associaterestrictions.md
+    - name: Associatewithmail
+      href: mdo-providers/reference/associatewithmail.md
+    - name: Attachment
+      href: mdo-providers/reference/attachment.md
+    - name: Availablereports
+      href: mdo-providers/reference/availablereports.md
+    - name: Business
+      href: mdo-providers/reference/business.md
+    - name: Category
+      href: mdo-providers/reference/category.md
+    - name: Chatbot
+      href: mdo-providers/reference/chatbot.md
+    - name: Chatchannel
+      href: mdo-providers/reference/chatchannel.md
+    - name: Chatservice
+      href: mdo-providers/reference/chatservice.md
+    - name: Chatuser
+      href: mdo-providers/reference/chatuser.md
+    - name: Colorindex
+      href: mdo-providers/reference/colorindex.md
+    - name: Combinedcontactpersonsearch
+      href: mdo-providers/reference/combinedcontactpersonsearch.md
+    - name: Comptr
+      href: mdo-providers/reference/comptr.md
+    - name: Consentpurpose
+      href: mdo-providers/reference/consentpurpose.md
+    - name: Consentsource
+      href: mdo-providers/reference/consentsource.md
+    - name: Contact
+      href: mdo-providers/reference/contact.md
+    - name: Contact_freetextsearch
+      href: mdo-providers/reference/contact_freetextsearch.md
+    - name: Contact_new
+      href: mdo-providers/reference/contact_new.md
+    - name: Contactfavourite
+      href: mdo-providers/reference/contactfavourite.md
+    - name: Contactperson_freetextsearch
+      href: mdo-providers/reference/contactperson_freetextsearch.md
+    - name: Contactphone
+      href: mdo-providers/reference/contactphone.md
+    - name: Contactrelationdefinition
+      href: mdo-providers/reference/contactrelationdefinition.md
+    - name: Contactwithpersonsearch
+      href: mdo-providers/reference/contactwithpersonsearch.md
+    - name: Contactwithpersonsearch_new
+      href: mdo-providers/reference/contactwithpersonsearch_new.md
+    - name: Contint
+      href: mdo-providers/reference/contint.md
+    - name: Country
+      href: mdo-providers/reference/country.md
+    - name: Createdocumenttemplateplugin
+      href: mdo-providers/reference/createdocumenttemplateplugin.md
+    - name: Credentialgroup
+      href: mdo-providers/reference/credentialgroup.md
+    - name: Credited
+      href: mdo-providers/reference/credited.md
+    - name: Crmscript
+      href: mdo-providers/reference/crmscript.md
+    - name: Culture
+      href: mdo-providers/reference/culture.md
+    - name: Culturesolanguage
+      href: mdo-providers/reference/culturesolanguage.md
+    - name: Currency
+      href: mdo-providers/reference/currency.md
+    - name: Currentudeffields
+      href: mdo-providers/reference/currentudeffields.md
+    - name: Customerlanguage
+      href: mdo-providers/reference/customerlanguage.md
+    - name: Dashboardtile
+      href: mdo-providers/reference/dashboardtile.md
+    - name: Dashboardtileentitytype
+      href: mdo-providers/reference/dashboardtileentitytype.md
+    - name: Dayofmonth
+      href: mdo-providers/reference/dayofmonth.md
+    - name: Deliveryterms
+      href: mdo-providers/reference/deliveryterms.md
+    - name: Deliverytype
+      href: mdo-providers/reference/deliverytype.md
+    - name: Diaryowner
+      href: mdo-providers/reference/diaryowner.md
+    - name: Direction
+      href: mdo-providers/reference/direction.md
+    - name: Disconnectpersonactions
+      href: mdo-providers/reference/disconnectpersonactions.md
+    - name: Doctmpl
+      href: mdo-providers/reference/doctmpl.md
+    - name: Document
+      href: mdo-providers/reference/document.md
+    - name: Documentcompleted
+      href: mdo-providers/reference/documentcompleted.md
+    - name: Documentfavourite
+      href: mdo-providers/reference/documentfavourite.md
+    - name: Documentgroup
+      href: mdo-providers/reference/documentgroup.md
+    - name: Documentmailing
+      href: mdo-providers/reference/documentmailing.md
+    - name: Documentmailingtemplate
+      href: mdo-providers/reference/documentmailingtemplate.md
+    - name: Documenttemplatelanguage
+      href: mdo-providers/reference/documenttemplatelanguage.md
+    - name: Documenttemplatesfiltered
+      href: mdo-providers/reference/documenttemplatesfiltered.md
+    - name: Documenttypes
+      href: mdo-providers/reference/documenttypes.md
+    - name: Ejcategory
+      href: mdo-providers/reference/ejcategory.md
+    - name: Ejuser
+      href: mdo-providers/reference/ejuser.md
+    - name: Emailaddress
+      href: mdo-providers/reference/emailaddress.md
+    - name: Emailfolder
+      href: mdo-providers/reference/emailfolder.md
+    - name: Emailrecipient
+      href: mdo-providers/reference/emailrecipient.md
+    - name: Erpconnections
+      href: mdo-providers/reference/erpconnections.md
+    - name: Erpconnectors
+      href: mdo-providers/reference/erpconnectors.md
+    - name: Erpdeliveryterms
+      href: mdo-providers/reference/erpdeliveryterms.md
+    - name: Erpdeliverytype
+      href: mdo-providers/reference/erpdeliverytype.md
+    - name: Erppaymentterms
+      href: mdo-providers/reference/erppaymentterms.md
+    - name: Erppaymenttype
+      href: mdo-providers/reference/erppaymenttype.md
+    - name: Erpproductcategory
+      href: mdo-providers/reference/erpproductcategory.md
+    - name: Erpproductfamily
+      href: mdo-providers/reference/erpproductfamily.md
+    - name: Erpproducttype
+      href: mdo-providers/reference/erpproducttype.md
+    - name: Eventhandlertype
+      href: mdo-providers/reference/eventhandlertype.md
+    - name: Everymonth
+      href: mdo-providers/reference/everymonth.md
+    - name: Executeonevent
+      href: mdo-providers/reference/executeonevent.md
+    - name: Exporttemplate
+      href: mdo-providers/reference/exporttemplate.md
+    - name: Extapp
+      href: mdo-providers/reference/extapp.md
+    - name: Faqcategory
+      href: mdo-providers/reference/faqcategory.md
+    - name: Faqreplytemplate
+      href: mdo-providers/reference/faqreplytemplate.md
+    - name: Faqreplytemplatefavourite
+      href: mdo-providers/reference/faqreplytemplatefavourite.md
+    - name: Favouritetype
+      href: mdo-providers/reference/favouritetype.md
+    - name: Filterassociates
+      href: mdo-providers/reference/filterassociates.md
+    - name: Filterfuturedate
+      href: mdo-providers/reference/filterfuturedate.md
+    - name: Filtergroups
+      href: mdo-providers/reference/filtergroups.md
+    - name: Findproduct
+      href: mdo-providers/reference/findproduct.md
+    - name: Fontsize
+      href: mdo-providers/reference/fontsize.md
+    - name: Fonttype
+      href: mdo-providers/reference/fonttype.md
+    - name: Form
+      href: mdo-providers/reference/form.md
+    - name: Formfolder
+      href: mdo-providers/reference/formfolder.md
+    - name: Formmailings
+      href: mdo-providers/reference/formmailings.md
+    - name: Formsubmissionstatusprovider
+      href: mdo-providers/reference/formsubmissionstatusprovider.md
+    - name: Freetextsearchentity
+      href: mdo-providers/reference/freetextsearchentity.md
+    - name: Functionrights
+      href: mdo-providers/reference/functionrights.md
+    - name: Genericperson
+      href: mdo-providers/reference/genericperson.md
+    - name: Genericpersonwithmail
+      href: mdo-providers/reference/genericpersonwithmail.md
+    - name: Groupview
+      href: mdo-providers/reference/groupview.md
+    - name: Heading
+      href: mdo-providers/reference/heading.md
+    - name: Hierarchy
+      href: mdo-providers/reference/hierarchy.md
+    - name: Htmlmailing
+      href: mdo-providers/reference/htmlmailing.md
+    - name: Htmlmailingtemplate
+      href: mdo-providers/reference/htmlmailingtemplate.md
+    - name: Importblankaction
+      href: mdo-providers/reference/importblankaction.md
+    - name: Importcontactduplicatematch
+      href: mdo-providers/reference/importcontactduplicatematch.md
+    - name: Importduplicateaction
+      href: mdo-providers/reference/importduplicateaction.md
+    - name: Importduplicateactionwithoutadd
+      href: mdo-providers/reference/importduplicateactionwithoutadd.md
+    - name: Importfields
+      href: mdo-providers/reference/importfields.md
+    - name: Importnewlistitem
+      href: mdo-providers/reference/importnewlistitem.md
+    - name: Importnewpositionitem
+      href: mdo-providers/reference/importnewpositionitem.md
+    - name: Importnewproductlistitem
+      href: mdo-providers/reference/importnewproductlistitem.md
+    - name: Importpersonduplicatematch
+      href: mdo-providers/reference/importpersonduplicatematch.md
+    - name: Importphoneurlsemail
+      href: mdo-providers/reference/importphoneurlsemail.md
+    - name: Importproductduplicatematch
+      href: mdo-providers/reference/importproductduplicatematch.md
+    - name: Importproductfields
+      href: mdo-providers/reference/importproductfields.md
+    - name: Intent
+      href: mdo-providers/reference/intent.md
+    - name: Iso639language
+      href: mdo-providers/reference/iso639language.md
+    - name: Kbentry
+      href: mdo-providers/reference/kbentry.md
+    - name: Language
+      href: mdo-providers/reference/language.md
+    - name: Legalbase
+      href: mdo-providers/reference/legalbase.md
+    - name: Lists
+      href: mdo-providers/reference/lists.md
+    - name: Locatecontact
+      href: mdo-providers/reference/locatecontact.md
+    - name: Locatecontact_new
+      href: mdo-providers/reference/locatecontact_new.md
+    - name: Locateperson
+      href: mdo-providers/reference/locateperson.md
+    - name: Location
+      href: mdo-providers/reference/location.md
+    - name: Mailhtmltemplate
+      href: mdo-providers/reference/mailhtmltemplate.md
+    - name: Mailing
+      href: mdo-providers/reference/mailing.md
+    - name: Mailingfavourite
+      href: mdo-providers/reference/mailingfavourite.md
+    - name: Mailingtemplate
+      href: mdo-providers/reference/mailingtemplate.md
+    - name: Mailingtype
+      href: mdo-providers/reference/mailingtype.md
+    - name: Mailtemplate
+      href: mdo-providers/reference/mailtemplate.md
+    - name: Mergedocument
+      href: mdo-providers/reference/mergedocument.md
+    - name: Mergetags
+      href: mdo-providers/reference/mergetags.md
+    - name: Month
+      href: mdo-providers/reference/month.md
+    - name: Mrmrs
+      href: mdo-providers/reference/mrmrs.md
+    - name: Nextavailabletime
+      href: mdo-providers/reference/nextavailabletime.md
+    - name: Ofmonth
+      href: mdo-providers/reference/ofmonth.md
+    - name: Ownercontact
+      href: mdo-providers/reference/ownercontact.md
+    - name: Paymentterms
+      href: mdo-providers/reference/paymentterms.md
+    - name: Paymenttype
+      href: mdo-providers/reference/paymenttype.md
+    - name: Period
+      href: mdo-providers/reference/period.md
+    - name: Periods
+      href: mdo-providers/reference/periods.md
+    - name: Persint
+      href: mdo-providers/reference/persint.md
+    - name: Person
+      href: mdo-providers/reference/person.md
+    - name: Person_freetextsearch
+      href: mdo-providers/reference/person_freetextsearch.md
+    - name: Personcontact_freetextsearch
+      href: mdo-providers/reference/personcontact_freetextsearch.md
+    - name: Personcontactfavourite
+      href: mdo-providers/reference/personcontactfavourite.md
+    - name: Personemailaddress
+      href: mdo-providers/reference/personemailaddress.md
+    - name: Personfavourite
+      href: mdo-providers/reference/personfavourite.md
+    - name: Personphone
+      href: mdo-providers/reference/personphone.md
+    - name: Personrestrictions
+      href: mdo-providers/reference/personrestrictions.md
+    - name: Personurl
+      href: mdo-providers/reference/personurl.md
+    - name: Personwithmail
+      href: mdo-providers/reference/personwithmail.md
+    - name: Perspos
+      href: mdo-providers/reference/perspos.md
+    - name: Phonesearch
+      href: mdo-providers/reference/phonesearch.md
+    - name: Plugin
+      href: mdo-providers/reference/plugin.md
+    - name: Pmembtype
+      href: mdo-providers/reference/pmembtype.md
+    - name: Prefdescline
+      href: mdo-providers/reference/prefdescline.md
+    - name: Preferencekey
+      href: mdo-providers/reference/preferencekey.md
+    - name: Preferencelineitem
+      href: mdo-providers/reference/preferencelineitem.md
+    - name: Preferencesearch
+      href: mdo-providers/reference/preferencesearch.md
+    - name: Preferencesection
+      href: mdo-providers/reference/preferencesection.md
+    - name: Pricelist
+      href: mdo-providers/reference/pricelist.md
+    - name: Priceunit
+      href: mdo-providers/reference/priceunit.md
+    - name: Priority
+      href: mdo-providers/reference/priority.md
+    - name: Privacytemplate
+      href: mdo-providers/reference/privacytemplate.md
+    - name: Prob
+      href: mdo-providers/reference/prob.md
+    - name: Productcategory
+      href: mdo-providers/reference/productcategory.md
+    - name: Productfamily
+      href: mdo-providers/reference/productfamily.md
+    - name: Productimage
+      href: mdo-providers/reference/productimage.md
+    - name: Producttype
+      href: mdo-providers/reference/producttype.md
+    - name: Project
+      href: mdo-providers/reference/project.md
+    - name: Project_freetextsearch
+      href: mdo-providers/reference/project_freetextsearch.md
+    - name: Project_new
+      href: mdo-providers/reference/project_new.md
+    - name: Projectassociate
+      href: mdo-providers/reference/projectassociate.md
+    - name: Projectfavourite
+      href: mdo-providers/reference/projectfavourite.md
+    - name: Projectimage
+      href: mdo-providers/reference/projectimage.md
+    - name: Projectmemberwithmail
+      href: mdo-providers/reference/projectmemberwithmail.md
+    - name: Projectstatus
+      href: mdo-providers/reference/projectstatus.md
+    - name: Projecttype
+      href: mdo-providers/reference/projecttype.md
+    - name: Projecttypeflatlist
+      href: mdo-providers/reference/projecttypeflatlist.md
+    - name: Projstatus
+      href: mdo-providers/reference/projstatus.md
+    - name: Projtype
+      href: mdo-providers/reference/projtype.md
+    - name: Quotealternatives
+      href: mdo-providers/reference/quotealternatives.md
+    - name: Quoteapprovalassociate
+      href: mdo-providers/reference/quoteapprovalassociate.md
+    - name: Quoteapprovers
+      href: mdo-providers/reference/quoteapprovers.md
+    - name: Quoteconnections
+      href: mdo-providers/reference/quoteconnections.md
+    - name: Quoteconnectors
+      href: mdo-providers/reference/quoteconnectors.md
+    - name: Quotedocumentgroupfields
+      href: mdo-providers/reference/quotedocumentgroupfields.md
+    - name: Quotedocumentorderbyfields
+      href: mdo-providers/reference/quotedocumentorderbyfields.md
+    - name: Quotedocuments
+      href: mdo-providers/reference/quotedocuments.md
+    - name: Quotedocumenttype
+      href: mdo-providers/reference/quotedocumenttype.md
+    - name: Quotelinestatus
+      href: mdo-providers/reference/quotelinestatus.md
+    - name: Quotetemplate
+      href: mdo-providers/reference/quotetemplate.md
+    - name: Quoteversion
+      href: mdo-providers/reference/quoteversion.md
+    - name: Quoteversionstate
+      href: mdo-providers/reference/quoteversionstate.md
+    - name: Reason
+      href: mdo-providers/reference/reason.md
+    - name: Reasonsold
+      href: mdo-providers/reference/reasonsold.md
+    - name: Reasonstalled
+      href: mdo-providers/reference/reasonstalled.md
+    - name: Recordtype
+      href: mdo-providers/reference/recordtype.md
+    - name: Recurrenceweekcycle
+      href: mdo-providers/reference/recurrenceweekcycle.md
+    - name: Rejectreason
+      href: mdo-providers/reference/rejectreason.md
+    - name: Relationdefinition
+      href: mdo-providers/reference/relationdefinition.md
+    - name: Relationssearchlistproviderappointmentactive
+      href: mdo-providers/reference/relationssearchlistproviderappointmentactive.md
+    - name: Relationssearchlistproviderappointmentappointmentactive
+      href: mdo-providers/reference/relationssearchlistproviderappointmentappointmentactive.md
+    - name: Relationssearchlistproviderappointmentappointmentpassive
+      href: mdo-providers/reference/relationssearchlistproviderappointmentappointmentpassive.md
+    - name: Relationssearchlistproviderappointmentdocumentactive
+      href: mdo-providers/reference/relationssearchlistproviderappointmentdocumentactive.md
+    - name: Relationssearchlistproviderappointmentdocumentpassive
+      href: mdo-providers/reference/relationssearchlistproviderappointmentdocumentpassive.md
+    - name: Relationssearchlistproviderappointmentpassive
+      href: mdo-providers/reference/relationssearchlistproviderappointmentpassive.md
+    - name: Relationssearchlistproviderappointmentsaleactive
+      href: mdo-providers/reference/relationssearchlistproviderappointmentsaleactive.md
+    - name: Relationssearchlistproviderappointmentsalepassive
+      href: mdo-providers/reference/relationssearchlistproviderappointmentsalepassive.md
+    - name: Relationssearchlistprovidercontactactive
+      href: mdo-providers/reference/relationssearchlistprovidercontactactive.md
+    - name: Relationssearchlistprovidercontactcontactactive
+      href: mdo-providers/reference/relationssearchlistprovidercontactcontactactive.md
+    - name: Relationssearchlistprovidercontactcontactpassive
+      href: mdo-providers/reference/relationssearchlistprovidercontactcontactpassive.md
+    - name: Relationssearchlistprovidercontactpassive
+      href: mdo-providers/reference/relationssearchlistprovidercontactpassive.md
+    - name: Relationssearchlistprovidercontactpersonactive
+      href: mdo-providers/reference/relationssearchlistprovidercontactpersonactive.md
+    - name: Relationssearchlistprovidercontactpersonpassive
+      href: mdo-providers/reference/relationssearchlistprovidercontactpersonpassive.md
+    - name: Relationssearchlistproviderdocumentactive
+      href: mdo-providers/reference/relationssearchlistproviderdocumentactive.md
+    - name: Relationssearchlistproviderdocumentappointmentactive
+      href: mdo-providers/reference/relationssearchlistproviderdocumentappointmentactive.md
+    - name: Relationssearchlistproviderdocumentappointmentpassive
+      href: mdo-providers/reference/relationssearchlistproviderdocumentappointmentpassive.md
+    - name: Relationssearchlistproviderdocumentdocumentactive
+      href: mdo-providers/reference/relationssearchlistproviderdocumentdocumentactive.md
+    - name: Relationssearchlistproviderdocumentdocumentpassive
+      href: mdo-providers/reference/relationssearchlistproviderdocumentdocumentpassive.md
+    - name: Relationssearchlistproviderdocumentpassive
+      href: mdo-providers/reference/relationssearchlistproviderdocumentpassive.md
+    - name: Relationssearchlistproviderdocumentsaleactive
+      href: mdo-providers/reference/relationssearchlistproviderdocumentsaleactive.md
+    - name: Relationssearchlistproviderdocumentsalepassive
+      href: mdo-providers/reference/relationssearchlistproviderdocumentsalepassive.md
+    - name: Relationssearchlistproviderpersonactive
+      href: mdo-providers/reference/relationssearchlistproviderpersonactive.md
+    - name: Relationssearchlistproviderpersoncontactactive
+      href: mdo-providers/reference/relationssearchlistproviderpersoncontactactive.md
+    - name: Relationssearchlistproviderpersoncontactpassive
+      href: mdo-providers/reference/relationssearchlistproviderpersoncontactpassive.md
+    - name: Relationssearchlistproviderpersonpassive
+      href: mdo-providers/reference/relationssearchlistproviderpersonpassive.md
+    - name: Relationssearchlistproviderpersonpersonactive
+      href: mdo-providers/reference/relationssearchlistproviderpersonpersonactive.md
+    - name: Relationssearchlistproviderpersonpersonpassive
+      href: mdo-providers/reference/relationssearchlistproviderpersonpersonpassive.md
+    - name: Relationssearchlistprovidersaleactive
+      href: mdo-providers/reference/relationssearchlistprovidersaleactive.md
+    - name: Relationssearchlistprovidersaleappointmentactive
+      href: mdo-providers/reference/relationssearchlistprovidersaleappointmentactive.md
+    - name: Relationssearchlistprovidersaleappointmentpassive
+      href: mdo-providers/reference/relationssearchlistprovidersaleappointmentpassive.md
+    - name: Relationssearchlistprovidersaledocumentactive
+      href: mdo-providers/reference/relationssearchlistprovidersaledocumentactive.md
+    - name: Relationssearchlistprovidersaledocumentpassive
+      href: mdo-providers/reference/relationssearchlistprovidersaledocumentpassive.md
+    - name: Relationssearchlistprovidersalepassive
+      href: mdo-providers/reference/relationssearchlistprovidersalepassive.md
+    - name: Relationssearchlistprovidersalesaleactive
+      href: mdo-providers/reference/relationssearchlistprovidersalesaleactive.md
+    - name: Relationssearchlistprovidersalesalepassive
+      href: mdo-providers/reference/relationssearchlistprovidersalesalepassive.md
+    - name: Reportcategory
+      href: mdo-providers/reference/reportcategory.md
+    - name: Reportlayout
+      href: mdo-providers/reference/reportlayout.md
+    - name: Resource
+      href: mdo-providers/reference/resource.md
+    - name: Resourcerestrictions
+      href: mdo-providers/reference/resourcerestrictions.md
+    - name: Restrictionoperators
+      href: mdo-providers/reference/restrictionoperators.md
+    - name: Roles
+      href: mdo-providers/reference/roles.md
+    - name: Saintactivitytype
+      href: mdo-providers/reference/saintactivitytype.md
+    - name: Saintamountclass
+      href: mdo-providers/reference/saintamountclass.md
+    - name: Saintdirection
+      href: mdo-providers/reference/saintdirection.md
+    - name: Saintintention
+      href: mdo-providers/reference/saintintention.md
+    - name: Saintsalestatus
+      href: mdo-providers/reference/saintsalestatus.md
+    - name: Saintticketcategory
+      href: mdo-providers/reference/saintticketcategory.md
+    - name: Saintticketstatus
+      href: mdo-providers/reference/saintticketstatus.md
+    - name: Sale
+      href: mdo-providers/reference/sale.md
+    - name: Sale_freetextsearch
+      href: mdo-providers/reference/sale_freetextsearch.md
+    - name: Sale_new
+      href: mdo-providers/reference/sale_new.md
+    - name: Saledone
+      href: mdo-providers/reference/saledone.md
+    - name: Salefavourite
+      href: mdo-providers/reference/salefavourite.md
+    - name: Saleguidestage
+      href: mdo-providers/reference/saleguidestage.md
+    - name: Saleprobability
+      href: mdo-providers/reference/saleprobability.md
+    - name: Salesource
+      href: mdo-providers/reference/salesource.md
+    - name: Salestage
+      href: mdo-providers/reference/salestage.md
+    - name: Salestatus
+      href: mdo-providers/reference/salestatus.md
+    - name: Saletype
+      href: mdo-providers/reference/saletype.md
+    - name: Saletypecat
+      href: mdo-providers/reference/saletypecat.md
+    - name: Saletypecategories
+      href: mdo-providers/reference/saletypecategories.md
+    - name: Salutation
+      href: mdo-providers/reference/salutation.md
+    - name: Satellites
+      href: mdo-providers/reference/satellites.md
+    - name: Searchcat
+      href: mdo-providers/reference/searchcat.md
+    - name: Selection
+      href: mdo-providers/reference/selection.md
+    - name: Selection_freetextsearch
+      href: mdo-providers/reference/selection_freetextsearch.md
+    - name: Selectionfavourite
+      href: mdo-providers/reference/selectionfavourite.md
+    - name: Selectionmembertype
+      href: mdo-providers/reference/selectionmembertype.md
+    - name: Selectionmembertypeclean
+      href: mdo-providers/reference/selectionmembertypeclean.md
+    - name: Selectionmembertypev2
+      href: mdo-providers/reference/selectionmembertypev2.md
+    - name: Selectionmemberwithmail
+      href: mdo-providers/reference/selectionmemberwithmail.md
+    - name: Selectiontype
+      href: mdo-providers/reference/selectiontype.md
+    - name: Selectionuniontype
+      href: mdo-providers/reference/selectionuniontype.md
+    - name: Sentiment
+      href: mdo-providers/reference/sentiment.md
+    - name: Serviceassociate
+      href: mdo-providers/reference/serviceassociate.md
+    - name: Shipmenttype
+      href: mdo-providers/reference/shipmenttype.md
+    - name: Smsmailing
+      href: mdo-providers/reference/smsmailing.md
+    - name: Smsmailingtemplate
+      href: mdo-providers/reference/smsmailingtemplate.md
+    - name: Source
+      href: mdo-providers/reference/source.md
+    - name: Sourceproduct
+      href: mdo-providers/reference/sourceproduct.md
+    - name: Stakeholderrole
+      href: mdo-providers/reference/stakeholderrole.md
+    - name: Statusdef
+      href: mdo-providers/reference/statusdef.md
+    - name: Statusmonitorimage
+      href: mdo-providers/reference/statusmonitorimage.md
+    - name: Stopword
+      href: mdo-providers/reference/stopword.md
+    - name: Subscriptionunit
+      href: mdo-providers/reference/subscriptionunit.md
+    - name: Suggestedappointment
+      href: mdo-providers/reference/suggestedappointment.md
+    - name: Suggesteddocument
+      href: mdo-providers/reference/suggesteddocument.md
+    - name: Suggestedstopword
+      href: mdo-providers/reference/suggestedstopword.md
+    - name: Systemeventtype
+      href: mdo-providers/reference/systemeventtype.md
+    - name: Tags
+      href: mdo-providers/reference/tags.md
+    - name: Task
+      href: mdo-providers/reference/task.md
+    - name: Ticket
+      href: mdo-providers/reference/ticket.md
+    - name: Ticketfavourite
+      href: mdo-providers/reference/ticketfavourite.md
+    - name: Ticketorigin
+      href: mdo-providers/reference/ticketorigin.md
+    - name: Ticketpriority
+      href: mdo-providers/reference/ticketpriority.md
+    - name: Ticketread
+      href: mdo-providers/reference/ticketread.md
+    - name: Ticketslevel
+      href: mdo-providers/reference/ticketslevel.md
+    - name: Ticketstatus
+      href: mdo-providers/reference/ticketstatus.md
+    - name: Ticketticketstatus
+      href: mdo-providers/reference/ticketticketstatus.md
+    - name: Time
+      href: mdo-providers/reference/time.md
+    - name: Timezone
+      href: mdo-providers/reference/timezone.md
+    - name: Timezonewithcode
+      href: mdo-providers/reference/timezonewithcode.md
+    - name: Typegroup
+      href: mdo-providers/reference/typegroup.md
+    - name: Typicalsearch
+      href: mdo-providers/reference/typicalsearch.md
+    - name: Udeffields
+      href: mdo-providers/reference/udeffields.md
+    - name: Udeffieldswithchanges
+      href: mdo-providers/reference/udeffieldswithchanges.md
+    - name: Udeffieldtype
+      href: mdo-providers/reference/udeffieldtype.md
+    - name: Udlist
+      href: mdo-providers/reference/udlist.md
+    - name: Udlist28
+      href: mdo-providers/reference/udlist28.md
+    - name: Udlist29
+      href: mdo-providers/reference/udlist29.md
+    - name: Udlist30002
+      href: mdo-providers/reference/udlist30002.md
+    - name: Usergroup
+      href: mdo-providers/reference/usergroup.md
+    - name: Usergroupwithhistoryall
+      href: mdo-providers/reference/usergroupwithhistoryall.md
+    - name: Usertype
+      href: mdo-providers/reference/usertype.md
+    - name: Visiblefor
+      href: mdo-providers/reference/visiblefor.md
+    - name: Visiblein
+      href: mdo-providers/reference/visiblein.md
+    - name: Visibleinmenu
+      href: mdo-providers/reference/visibleinmenu.md
+    - name: Visibleintask
+      href: mdo-providers/reference/visibleintask.md
+    - name: Webpanel
+      href: mdo-providers/reference/webpanel.md
+    - name: Webpanelgroup
+      href: mdo-providers/reference/webpanelgroup.md
+    - name: Weekday
+      href: mdo-providers/reference/weekday.md
+    - name: Weeknumber
+      href: mdo-providers/reference/weeknumber.md
 - name: Netserver
   href: netserver/index.md
   items:
@@ -565,7 +1804,7 @@ items:
   - name: What is netserver part 2
     href: netserver/what-is-netserver-part-2.md
   - name: Config
-    href: netserver/config/batchservice.md
+    href: netserver/config/index.md
     items:
     - name: Batchservice
       href: netserver/config/batchservice.md
@@ -632,7 +1871,7 @@ items:
     - name: Webservices
       href: netserver/config/webservices.md
 - name: Nuget
-  href: nuget/crm-online-core.md
+  href: nuget/index.md
   items:
   - name: Crm online core
     href: nuget/crm-online-core.md
@@ -651,7 +1890,7 @@ items:
   - name: Update nuget
     href: nuget/update-nuget.md
 - name: Osql
-  href: osql/alias.md
+  href: osql/index.md
   items:
   - name: Alias
     href: osql/alias.md
@@ -764,7 +2003,7 @@ items:
   - name: Preferences
     href: preferences/preferences.md
 - name: Project
-  href: project/add-project.md
+  href: project/index.md
   items:
   - name: Add project
     href: project/add-project.md
@@ -777,7 +2016,7 @@ items:
   - name: Text table
     href: project/text-table.md
 - name: Quote connectors
-  href: quote-connectors/addresses.md
+  href: quote-connectors/index.md
   items:
   - name: Addresses
     href: quote-connectors/addresses.md
@@ -823,7 +2062,7 @@ items:
     - name: Rights field
       href: quote-connectors/api/rights-field.md
     - name: Data carriers
-      href: quote-connectors/api/data-carriers/addressinfo.md
+      href: quote-connectors/api/data-carriers/index.md
       items:
       - name: Addressinfo
         href: quote-connectors/api/data-carriers/addressinfo.md
@@ -890,7 +2129,7 @@ items:
     - name: Customer specific product codes
       href: quote-connectors/scenarios/customer-specific-product-codes.md
 - name: Rows
-  href: rows/create-row-in-entity.md
+  href: rows/index.md
   items:
   - name: Create row
     href: rows/create-row.md
@@ -925,7 +2164,7 @@ items:
   - name: Stakeholders
     href: sales/stakeholders.md
   - name: Saint
-    href: sales/saint/counters.md
+    href: sales/saint/index.md
     items:
     - name: Counters
       href: sales/saint/counters.md
@@ -954,12 +2193,12 @@ items:
       - name: Search saint values sql
         href: sales/saint/sql/search-saint-values-sql.md
 - name: Search
-  href: search/full-text-search.md
+  href: search/index.md
   items:
   - name: Full text search
     href: search/full-text-search.md
   - name: Iarchiveagent
-    href: search/iarchiveagent/iarchiveagent.md
+    href: search/iarchiveagent/index.md
     items:
     - name: Iarchiveagent
       href: search/iarchiveagent/iarchiveagent.md
@@ -968,7 +2207,7 @@ items:
     - name: Using criteria
       href: search/iarchiveagent/using-criteria.md
   - name: Ifindagent
-    href: search/ifindagent/dump-result.md
+    href: search/ifindagent/index.md
     items:
     - name: Dump result
       href: search/ifindagent/dump-result.md
@@ -977,7 +2216,7 @@ items:
     - name: Using criteria
       href: search/ifindagent/using-criteria.md
   - name: Odata
-    href: search/odata/associate.md
+    href: search/odata/index.md
     items:
     - name: Associate
       href: search/odata/associate.md
@@ -998,7 +2237,7 @@ items:
     - name: Using filters
       href: search/odata/using-filters.md
   - name: Selection
-    href: search/selection/dynamic-selections.md
+    href: search/selection/index.md
     items:
     - name: Dynamic selections
       href: search/selection/dynamic-selections.md
@@ -1057,7 +2296,7 @@ items:
       - name: Visible for flag
         href: security/sentry/entity/visible-for-flag.md
     - name: Plugins
-      href: security/sentry/plugins/create-sentry-plugin.md
+      href: security/sentry/plugins/index.md
       items:
       - name: Create sentry plugin
         href: security/sentry/plugins/create-sentry-plugin.md
@@ -1066,14 +2305,14 @@ items:
       - name: Use sentry plugin
         href: security/sentry/plugins/use-sentry-plugin.md
     - name: Services
-      href: security/sentry/services/fieldproperties.md
+      href: security/sentry/services/index.md
       items:
       - name: Fieldproperties
         href: security/sentry/services/fieldproperties.md
       - name: Tableright
         href: security/sentry/services/tableright.md
 - name: Services
-  href: services/call-service-using-ns-binaries.md
+  href: services/index.md
   items:
   - name: Call service using ns binaries
     href: services/call-service-using-ns-binaries.md
@@ -1086,26 +2325,26 @@ items:
   - name: Wrapped or unwrapped proxy
     href: services/wrapped-or-unwrapped-proxy.md
   - name: Agents
-    href: services/agents/agent-pattern.md
+    href: services/agents/index.md
     items:
     - name: Agent pattern
       href: services/agents/agent-pattern.md
     - name: Reference
       href: services/agents/reference.md
   - name: Call ws from dotnet so tools
-    href: services/call-ws-from-dotnet-so-tools/calling.md
+    href: services/call-ws-from-dotnet-so-tools/index.md
     items:
     - name: Calling
       href: services/call-ws-from-dotnet-so-tools/calling.md
     - name: Config
       href: services/call-ws-from-dotnet-so-tools/config.md
   - name: Call ws from dotnet std tools
-    href: services/call-ws-from-dotnet-std-tools/add-web-reference.md
+    href: services/call-ws-from-dotnet-std-tools/index.md
     items:
     - name: Add web reference
       href: services/call-ws-from-dotnet-std-tools/add-web-reference.md
   - name: Call ws from java
-    href: services/call-ws-from-java/auth-java.md
+    href: services/call-ws-from-java/index.md
     items:
     - name: Auth java
       href: services/call-ws-from-java/auth-java.md
@@ -1116,14 +2355,14 @@ items:
     - name: Get entity
       href: services/call-ws-from-java/get-entity.md
   - name: Carriers
-    href: services/carriers/entity-carriers.md
+    href: services/carriers/index.md
     items:
     - name: Entity carriers
       href: services/carriers/entity-carriers.md
     - name: Read only carriers
       href: services/carriers/read-only-carriers.md
   - name: Scripting
-    href: services/scripting/basic-scripting.md
+    href: services/scripting/index.md
     items:
     - name: Basic scripting
       href: services/scripting/basic-scripting.md
@@ -1141,7 +2380,7 @@ items:
   - name: Soap table rights
     href: soap/soap-table-rights.md
   - name: Services soap interface
-    href: soap/services-soap-interface/compatibility.md
+    href: soap/services-soap-interface/index.md
     items:
     - name: Compatibility
       href: soap/services-soap-interface/compatibility.md
@@ -1154,28 +2393,28 @@ items:
     - name: Notification types
       href: soap/services-soap-interface/notification-types.md
     - name: Admin port
-      href: soap/services-soap-interface/admin-port/checkagentversion.md
+      href: soap/services-soap-interface/admin-port/index.md
       items:
-      - name: Checkagentversion
-        href: soap/services-soap-interface/admin-port/checkagentversion.md
-      - name: Getagent
-        href: soap/services-soap-interface/admin-port/getagent.md
-      - name: Geterrormessage
-        href: soap/services-soap-interface/admin-port/geterrormessage.md
-      - name: Getmodulepaths
-        href: soap/services-soap-interface/admin-port/getmodulepaths.md
-      - name: Gettag
-        href: soap/services-soap-interface/admin-port/gettag.md
-      - name: Getuser
-        href: soap/services-soap-interface/admin-port/getuser.md
-      - name: Getuserbyid
-        href: soap/services-soap-interface/admin-port/getuserbyid.md
-      - name: Getusers
-        href: soap/services-soap-interface/admin-port/getusers.md
-      - name: Setuser
-        href: soap/services-soap-interface/admin-port/setuser.md
+      - name: CheckAgentVersion
+        href: soap/services-soap-interface/admin-port/checkAgentVersion.md
+      - name: GetAgent
+        href: soap/services-soap-interface/admin-port/getAgent.md
+      - name: GetErrorMessage
+        href: soap/services-soap-interface/admin-port/getErrorMessage.md
+      - name: GetModulePaths
+        href: soap/services-soap-interface/admin-port/getModulePaths.md
+      - name: GetTag
+        href: soap/services-soap-interface/admin-port/getTag.md
+      - name: GetUser
+        href: soap/services-soap-interface/admin-port/getUser.md
+      - name: GetUserById
+        href: soap/services-soap-interface/admin-port/getUserById.md
+      - name: GetUsers
+        href: soap/services-soap-interface/admin-port/getUsers.md
+      - name: SetUser
+        href: soap/services-soap-interface/admin-port/setUser.md
     - name: Customer port
-      href: soap/services-soap-interface/customer-port/addattachment.md
+      href: soap/services-soap-interface/customer-port/index.md
       items:
       - name: Addattachment
         href: soap/services-soap-interface/customer-port/addattachment.md
@@ -1244,7 +2483,7 @@ items:
       - name: Setcustomer
         href: soap/services-soap-interface/customer-port/setcustomer.md
     - name: Ticket port
-      href: soap/services-soap-interface/ticket-port/addattachment.md
+      href: soap/services-soap-interface/ticket-port/index.md
       items:
       - name: Addattachment
         href: soap/services-soap-interface/ticket-port/addattachment.md
@@ -1327,14 +2566,14 @@ items:
       - name: Setuseridletime
         href: soap/services-soap-interface/ticket-port/setuseridletime.md
 - name: Tooltip service
-  href: tooltip-service/call-tooltip-service.md
+  href: tooltip-service/index.md
   items:
   - name: Call tooltip service
     href: tooltip-service/call-tooltip-service.md
   - name: Create tooltip plugin
     href: tooltip-service/create-tooltip-plugin.md
 - name: Tutorials
-  href: tutorials/auth-code-flow-quickstart.md
+  href: tutorials/index.md
   items:
   - name: Auth code flow quickstart
     href: tutorials/auth-code-flow-quickstart.md
@@ -1381,21 +2620,21 @@ items:
     - name: Scenarios
       href: tutorials/minimal-php-app/scenarios.md
   - name: Web parts
-    href: tutorials/web-parts/authenticate-user.md
+    href: tutorials/web-parts/index.md
     items:
     - name: Authenticate user
       href: tutorials/web-parts/authenticate-user.md
     - name: Display open sales for user
       href: tutorials/web-parts/display-open-sales-for-user.md
 - name: Web api
-  href: web-api/get-version.md
+  href: web-api/index.md
   items:
   - name: Get version
     href: web-api/get-version.md
   - name: Agents
     href: web-api/agents/index.md
   - name: Headers
-    href: web-api/headers/accept-language.md
+    href: web-api/headers/index.md
     items:
     - name: Accept language
       href: web-api/headers/accept-language.md
@@ -1404,7 +2643,7 @@ items:
     - name: So timezone
       href: web-api/headers/so-timezone.md
   - name: Rest
-    href: web-api/rest/headers.md
+    href: web-api/rest/index.md
     items:
     - name: Headers
       href: web-api/rest/headers.md
@@ -1412,8 +2651,30 @@ items:
       href: web-api/rest/rest.md
     - name: Submit rest
       href: web-api/rest/submit-rest.md
+- name: Web extensions
+  href: web-extensions/index.md
+  items:
+  - name: Mailarchivehelper
+    href: web-extensions/mailarchivehelper/index.md
+    items:
+    - name: Archive email
+      href: web-extensions/mailarchivehelper/archive-email.md
+    - name: Com interop and dotnet
+      href: web-extensions/mailarchivehelper/com-interop-and-dotnet.md
+    - name: Find contact from email
+      href: web-extensions/mailarchivehelper/find-contact-from-email.md
+    - name: Getting started
+      href: web-extensions/mailarchivehelper/getting-started.md
+    - name: Logging
+      href: web-extensions/mailarchivehelper/logging.md
+    - name: Mail protocol
+      href: web-extensions/mailarchivehelper/mail-protocol.md
+    - name: Preference dialog
+      href: web-extensions/mailarchivehelper/preference-dialog.md
+    - name: Registry
+      href: web-extensions/mailarchivehelper/registry.md
 - name: Webhooks
-  href: webhooks/event-details.md
+  href: webhooks/index.md
   items:
   - name: Event details
     href: webhooks/event-details.md
@@ -1426,7 +2687,7 @@ items:
   - name: Subscription
     href: webhooks/subscription.md
   - name: Reference
-    href: webhooks/reference/activity-events.md
+    href: webhooks/reference/index.md
     items:
     - name: Activity events
       href: webhooks/reference/activity-events.md
@@ -1457,7 +2718,7 @@ items:
     - name: Ticket events
       href: webhooks/reference/ticket-events.md
 - name: Whats new
-  href: whats-new/80-to-80-sr-1.md
+  href: whats-new/index.md
   items:
   - name: 80 to 80 sr 1
     href: whats-new/80-to-80-sr-1.md
@@ -1478,7 +2739,7 @@ items:
   - name: Ns 80
     href: whats-new/ns-80.md
   - name: Ns 70
-    href: whats-new/ns-70/aliasing-on-argumentfunctions.md
+    href: whats-new/ns-70/index.md
     items:
     - name: Aliasing on argumentfunctions
       href: whats-new/ns-70/aliasing-on-argumentfunctions.md
