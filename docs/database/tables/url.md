@@ -1,19 +1,19 @@
 ---
-uid: url
+uid: table-url
 title: url table
 description: Unified Resource Locators, URL to contacts, persons or projects.
 so.generated: true
 keywords:
   - "database"
-  - "url"
-so.date: 19.03.2021
+  - "URL"
+so.date: 21.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# URL Table (54)
+# url Table (54)
 
 ## Fields
 
@@ -36,7 +36,7 @@ so.envir:
 |updatedCount|Number of updates made to this record|UShort| |
 
 
-![URL table relationship diagram](media\URL.png)
+![URL table relationship diagram](./media/URL.png)
 
 [!include[details](./includes/URL.md)]
 

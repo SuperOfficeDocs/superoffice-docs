@@ -1,19 +1,19 @@
 ---
-uid: timestamps
+uid: table-timestamps
 title: timestamps table
 description: Timestamp information
 so.generated: true
 keywords:
   - "database"
   - "timestamps"
-so.date: 19.03.2021
+so.date: 21.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# Timestamps Table (300)
+# timestamps Table (300)
 
 ## Fields
 
@@ -35,7 +35,7 @@ so.envir:
 |mailsync|Timestamp for syncing crm inbox2 email accounts|DateTime|&#x25CF;|
 
 
-![timestamps table relationship diagram](media\timestamps.png)
+![timestamps table relationship diagram](./media/timestamps.png)
 
 [!include[details](./includes/timestamps.md)]
 

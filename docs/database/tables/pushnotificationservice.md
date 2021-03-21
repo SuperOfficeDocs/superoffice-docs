@@ -1,19 +1,19 @@
 ---
-uid: pushnotificationservice
+uid: table-pushnotificationservice
 title: pushnotificationservice table
 description: Used for storing handles to user devices that should receive push notifications
 so.generated: true
 keywords:
   - "database"
-  - "pushnotificationservice"
-so.date: 19.03.2021
+  - "PushNotificationService"
+so.date: 21.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# PushNotificationService Table (483)
+# pushnotificationservice Table (483)
 
 ## Fields
 
@@ -23,7 +23,7 @@ so.envir:
 |AssociateId|To whom does this handle belong|FK [associate](associate.md)| |
 |DeviceIdentifier|Unique device identifier|String(256)| |
 |DeviceDisplayName|Userfriendly name for device. Ex: &apos;My iPhone 5S&apos;|String(256)|&#x25CF;|
-|DevicePlatform|Device platform. Apple, Google, Microsoft, etc.|Enum [NotificationPlatform](enums\EnumNotificationPlatform.md)| |
+|DevicePlatform|Device platform. Apple, Google, Microsoft, etc.|Enum [notificationplatform](enums/notificationplatform.md)| |
 |PNSHandle|The platform specific handle needed for pushing messages directly to this device|String(1024)| |
 |Tags|Comma separated list of notification types this device should or should not receive notifications about. Ex: &apos;invitations=0,meetings=1|String(3072)|&#x25CF;|
 |PNSHandleUpdateDate|When was the PNSHandle for this device last updated|DateTime|&#x25CF;|
@@ -39,7 +39,7 @@ so.envir:
 |OSVersion|The operating system version this device is using|String(256)|&#x25CF;|
 
 
-![PushNotificationService table relationship diagram](media\PushNotificationService.png)
+![PushNotificationService table relationship diagram](./media/PushNotificationService.png)
 
 [!include[details](./includes/PushNotificationService.md)]
 

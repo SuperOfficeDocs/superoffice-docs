@@ -1,27 +1,27 @@
 ---
-uid: reasonsoldheadinglink
+uid: table-reasonsoldheadinglink
 title: reasonsoldheadinglink table
 description: Heading link table for ReasonSold, for MDO headers
 so.generated: true
 keywords:
   - "database"
-  - "reasonsoldheadinglink"
-so.date: 19.03.2021
+  - "ReasonSoldHeadingLink"
+so.date: 21.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# ReasonSoldHeadingLink Table (117)
+# reasonsoldheadinglink Table (117)
 
 ## Fields
 
 | Name | Description | Type | Null |
 |------|-------------|------|:----:|
 |reasonsoldheadinglink\_id|Primary key|PK| |
-|reasonsold\_id|Link to ReasonSold list table|FK [ReasonSold](ReasonSold.md)| |
-|heading\_id|Link to Heading table|FK [Heading](Heading.md)| |
+|reasonsold\_id|Link to ReasonSold list table|FK [reasonsold](reasonsold.md)| |
+|heading\_id|Link to Heading table|FK [heading](heading.md)| |
 |registered|Registered when|UtcDateTime| |
 |registered\_associate\_id|Registered by whom|FK [associate](associate.md)| |
 |updated|Last updated when|UtcDateTime| |
@@ -29,7 +29,7 @@ so.envir:
 |updatedCount|Number of updates made to this record|UShort| |
 
 
-![ReasonSoldHeadingLink table relationship diagram](media\ReasonSoldHeadingLink.png)
+![ReasonSoldHeadingLink table relationship diagram](./media/ReasonSoldHeadingLink.png)
 
 [!include[details](./includes/ReasonSoldHeadingLink.md)]
 

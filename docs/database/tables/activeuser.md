@@ -1,19 +1,19 @@
 ---
-uid: activeuser
+uid: table-activeuser
 title: activeuser table
 description: Currently logged-on users. This table contains encrypted license information.  Changing it may disable login for all users and require intervention by SuperOffice support. Recommended use: for determining who is logged on, at what location, etc.
 so.generated: true
 keywords:
   - "database"
   - "activeuser"
-so.date: 19.03.2021
+so.date: 21.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# Activeuser Table (28)
+# activeuser Table (28)
 
 ## Fields
 
@@ -28,7 +28,7 @@ so.envir:
 |osUserName|OS user name currently logged on|String(127)|&#x25CF;|
 
 
-![activeuser table relationship diagram](media\activeuser.png)
+![activeuser table relationship diagram](./media/activeuser.png)
 
 [!include[details](./includes/activeuser.md)]
 

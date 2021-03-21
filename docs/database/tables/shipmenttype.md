@@ -1,19 +1,19 @@
 ---
-uid: shipmenttype
+uid: table-shipmenttype
 title: shipmenttype table
 description: Shipment type list table. Classification of a mailing, allowing recipients to subscribe to lists
 so.generated: true
 keywords:
   - "database"
-  - "shipmenttype"
-so.date: 19.03.2021
+  - "ShipmentType"
+so.date: 21.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# ShipmentType Table (484)
+# shipmenttype Table (484)
 
 ## Fields
 
@@ -31,9 +31,7 @@ so.envir:
 |updatedCount|Number of updates made to this record|UShort| |
 
 
-![ShipmentType table relationship diagram](media\ShipmentType.png)
-
-[!include[details](./includes/ShipmentType.md)]
+![ShipmentType table relationship diagram](./media/ShipmentType.png)
 
 ## Indexes
 

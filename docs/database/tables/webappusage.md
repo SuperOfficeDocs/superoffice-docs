@@ -1,19 +1,19 @@
 ---
-uid: webappusage
+uid: table-webappusage
 title: webappusage table
 description: Usage statistics for web applications
 so.generated: true
 keywords:
   - "database"
-  - "webappusage"
-so.date: 19.03.2021
+  - "WebAppUsage"
+so.date: 21.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# WebAppUsage Table (249)
+# webappusage Table (249)
 
 ## Fields
 
@@ -28,7 +28,7 @@ so.envir:
 |aggregateCount|Bin count, if this is aggregated data|UInt|&#x25CF;|
 
 
-![WebAppUsage table relationship diagram](media\WebAppUsage.png)
+![WebAppUsage table relationship diagram](./media/WebAppUsage.png)
 
 [!include[details](./includes/WebAppUsage.md)]
 

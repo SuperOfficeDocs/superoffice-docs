@@ -1,19 +1,19 @@
 ---
-uid: salestakeholder
+uid: table-salestakeholder
 title: salestakeholder table
 description: Stakeholders in the sale, very similar to project members
 so.generated: true
 keywords:
   - "database"
-  - "salestakeholder"
-so.date: 19.03.2021
+  - "SaleStakeholder"
+so.date: 21.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# SaleStakeholder Table (121)
+# salestakeholder Table (121)
 
 ## Fields
 
@@ -24,7 +24,7 @@ so.envir:
 |contact\_id|Contact ID of person or contact who is the sale stakeholder|FK [contact](contact.md)|&#x25CF;|
 |person\_id|Person ID of person who is the sale stakeholder, or 0 if it&apos;s just a contact|FK [person](person.md)|&#x25CF;|
 |rank|Rank in list|UShort|&#x25CF;|
-|stakeholderrole\_id|Member type link|FK [StakeholderRole](StakeholderRole.md)|&#x25CF;|
+|stakeholderrole\_id|Member type link|FK [stakeholderrole](stakeholderrole.md)|&#x25CF;|
 |comment|Optional comment|String(2047)|&#x25CF;|
 |registered|Registered when|UtcDateTime| |
 |registered\_associate\_id|Registered by whom|FK [associate](associate.md)| |
@@ -33,7 +33,7 @@ so.envir:
 |updatedCount|Number of updates made to this record|UShort| |
 
 
-![SaleStakeholder table relationship diagram](media\SaleStakeholder.png)
+![SaleStakeholder table relationship diagram](./media/SaleStakeholder.png)
 
 [!include[details](./includes/SaleStakeholder.md)]
 

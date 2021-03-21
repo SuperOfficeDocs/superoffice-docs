@@ -1,19 +1,19 @@
 ---
-uid: udsalelarge
+uid: table-udsalelarge
 title: udsalelarge table
 description: User-defined fields
 so.generated: true
 keywords:
   - "database"
   - "udsalelarge"
-so.date: 19.03.2021
+so.date: 21.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# Udsalelarge Table (159)
+# udsalelarge Table (159)
 
 ## Fields
 
@@ -31,7 +31,7 @@ so.envir:
 |string49|string value 49, not indexed|String(199)|&#x25CF;|
 
 
-![udsalelarge table relationship diagram](media\udsalelarge.png)
+![udsalelarge table relationship diagram](./media/udsalelarge.png)
 
 [!include[details](./includes/udsalelarge.md)]
 

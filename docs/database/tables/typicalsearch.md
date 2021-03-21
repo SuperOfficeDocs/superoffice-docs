@@ -1,19 +1,19 @@
 ---
-uid: typicalsearch
+uid: table-typicalsearch
 title: typicalsearch table
 description: Owner of a set of predefined selection criteria
 so.generated: true
 keywords:
   - "database"
-  - "typicalsearch"
-so.date: 19.03.2021
+  - "TypicalSearch"
+so.date: 21.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# TypicalSearch Table (481)
+# typicalsearch Table (481)
 
 ## Fields
 
@@ -34,9 +34,7 @@ so.envir:
 |updatedCount|Number of updates made to this record|UShort| |
 
 
-![TypicalSearch table relationship diagram](media\TypicalSearch.png)
-
-[!include[details](./includes/TypicalSearch.md)]
+![TypicalSearch table relationship diagram](./media/TypicalSearch.png)
 
 ## Indexes
 

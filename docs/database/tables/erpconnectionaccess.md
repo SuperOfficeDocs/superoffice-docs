@@ -1,28 +1,28 @@
 ---
-uid: erpconnectionaccess
+uid: table-erpconnectionaccess
 title: erpconnectionaccess table
 description: Access control for Erp Connections
 so.generated: true
 keywords:
   - "database"
-  - "erpconnectionaccess"
-so.date: 19.03.2021
+  - "ErpConnectionAccess"
+so.date: 21.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# ErpConnectionAccess Table (420)
+# erpconnectionaccess Table (420)
 
 ## Fields
 
 | Name | Description | Type | Null |
 |------|-------------|------|:----:|
 |erpconnectionaccess\_id|Primary key|PK| |
-|ErpConnectionId|Link to Erp connection we&apos;re granting access for|FK [ErpConnection](ErpConnection.md)| |
+|ErpConnectionId|Link to Erp connection we&apos;re granting access for|FK [erpconnection](erpconnection.md)| |
 |AssociateId|If set, then this row grants access for a particular associate|FK [associate](associate.md)|&#x25CF;|
-|UserGroupId|If set, then this row grants access for a particular group of users|FK [UserGroup](UserGroup.md)|&#x25CF;|
+|UserGroupId|If set, then this row grants access for a particular group of users|FK [usergroup](usergroup.md)|&#x25CF;|
 |CanConnect|If set, then this user/group is allowed to create and break connections between EXISTING actors in ERP and CRM|Bool|&#x25CF;|
 |CanCreateERP|If set, then this user/group is allowed to create NEW actors in ERP and connect them to CRM|Bool|&#x25CF;|
 |registered|Registered when|UtcDateTime| |
@@ -32,7 +32,7 @@ so.envir:
 |updatedCount|Number of updates made to this record|UShort| |
 
 
-![ErpConnectionAccess table relationship diagram](media\ErpConnectionAccess.png)
+![ErpConnectionAccess table relationship diagram](./media/ErpConnectionAccess.png)
 
 [!include[details](./includes/ErpConnectionAccess.md)]
 

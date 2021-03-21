@@ -1,27 +1,27 @@
 ---
-uid: productcategoryheadinglink
+uid: table-productcategoryheadinglink
 title: productcategoryheadinglink table
 description: Heading link table for ProductCategory, for MDO item headings
 so.generated: true
 keywords:
   - "database"
-  - "productcategoryheadinglink"
-so.date: 19.03.2021
+  - "ProductCategoryHeadingLink"
+so.date: 21.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# ProductCategoryHeadingLink Table (410)
+# productcategoryheadinglink Table (410)
 
 ## Fields
 
 | Name | Description | Type | Null |
 |------|-------------|------|:----:|
 |productcategoryheadinglink\_id|Primary key|PK| |
-|productcategory\_id|Link to ProductCategory list table|FK [ProductCategory](ProductCategory.md)| |
-|heading\_id|Link to Heading table|FK [Heading](Heading.md)| |
+|productcategory\_id|Link to ProductCategory list table|FK [productcategory](productcategory.md)| |
+|heading\_id|Link to Heading table|FK [heading](heading.md)| |
 |registered|Registered when|UtcDateTime| |
 |registered\_associate\_id|Registered by whom|FK [associate](associate.md)| |
 |updated|Last updated when|UtcDateTime| |
@@ -29,7 +29,7 @@ so.envir:
 |updatedCount|Number of updates made to this record|UShort| |
 
 
-![ProductCategoryHeadingLink table relationship diagram](media\ProductCategoryHeadingLink.png)
+![ProductCategoryHeadingLink table relationship diagram](./media/ProductCategoryHeadingLink.png)
 
 [!include[details](./includes/ProductCategoryHeadingLink.md)]
 

@@ -1,27 +1,27 @@
 ---
-uid: amountclassgrouplink
+uid: table-amountclassgrouplink
 title: amountclassgrouplink table
 description: User group link table for AmountClass, for MDO item hiding
 so.generated: true
 keywords:
   - "database"
-  - "amountclassgrouplink"
-so.date: 19.03.2021
+  - "AmountClassGroupLink"
+so.date: 21.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# AmountClassGroupLink Table (226)
+# amountclassgrouplink Table (226)
 
 ## Fields
 
 | Name | Description | Type | Null |
 |------|-------------|------|:----:|
 |amountclassgrouplink\_id|Primary key|PK| |
-|amountclass\_id|Link to AmountClass list table|FK [AmountClass](AmountClass.md)| |
-|group\_id|Link to Group table|FK [UserGroup](UserGroup.md)| |
+|amountclass\_id|Link to AmountClass list table|FK [amountclass](amountclass.md)| |
+|group\_id|Link to Group table|FK [usergroup](usergroup.md)| |
 |registered|Registered when|UtcDateTime| |
 |registered\_associate\_id|Registered by whom|FK [associate](associate.md)| |
 |updated|Last updated when|UtcDateTime| |
@@ -29,7 +29,7 @@ so.envir:
 |updatedCount|Number of updates made to this record|UShort| |
 
 
-![AmountClassGroupLink table relationship diagram](media\AmountClassGroupLink.png)
+![AmountClassGroupLink table relationship diagram](./media/AmountClassGroupLink.png)
 
 [!include[details](./includes/AmountClassGroupLink.md)]
 

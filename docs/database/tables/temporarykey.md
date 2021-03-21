@@ -1,26 +1,26 @@
 ---
-uid: temporarykey
+uid: table-temporarykey
 title: temporarykey table
 description: Temporary keys for lightweight authentications such as changing ones subscriptions
 so.generated: true
 keywords:
   - "database"
-  - "temporarykey"
-so.date: 19.03.2021
+  - "TemporaryKey"
+so.date: 21.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# TemporaryKey Table (486)
+# temporarykey Table (486)
 
 ## Fields
 
 | Name | Description | Type | Null |
 |------|-------------|------|:----:|
 |temporarykey\_id|Primary key|PK| |
-|domain|The domain this is a key for|Enum [TemporaryKeyDomain](enums\EnumTemporaryKeyDomain.md)| |
+|domain|The domain this is a key for|Enum [temporarykeydomain](enums/temporarykeydomain.md)| |
 |target\_id|The primary key in the table this is a key for|Int|&#x25CF;|
 |person\_id|The person this is a key for|FK [person](person.md)|&#x25CF;|
 |authkey|The actual key|String(256)| |
@@ -32,9 +32,7 @@ so.envir:
 |updatedCount|Number of updates made to this record|UShort| |
 
 
-![TemporaryKey table relationship diagram](media\TemporaryKey.png)
-
-[!include[details](./includes/TemporaryKey.md)]
+![TemporaryKey table relationship diagram](./media/TemporaryKey.png)
 
 ## Indexes
 

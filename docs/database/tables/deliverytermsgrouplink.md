@@ -1,27 +1,27 @@
 ---
-uid: deliverytermsgrouplink
+uid: table-deliverytermsgrouplink
 title: deliverytermsgrouplink table
 description: User group link table for DeliveryTerms, for MDO item hiding
 so.generated: true
 keywords:
   - "database"
-  - "deliverytermsgrouplink"
-so.date: 19.03.2021
+  - "DeliveryTermsGroupLink"
+so.date: 21.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# DeliveryTermsGroupLink Table (434)
+# deliverytermsgrouplink Table (434)
 
 ## Fields
 
 | Name | Description | Type | Null |
 |------|-------------|------|:----:|
 |deliverytermsgrouplink\_id|Primary key|PK| |
-|deliveryterms\_id|Link to DeliveryTerms list table|FK [DeliveryTerms](DeliveryTerms.md)| |
-|group\_id|Link to Group table|FK [UserGroup](UserGroup.md)| |
+|deliveryterms\_id|Link to DeliveryTerms list table|FK [deliveryterms](deliveryterms.md)| |
+|group\_id|Link to Group table|FK [usergroup](usergroup.md)| |
 |registered|Registered when|UtcDateTime| |
 |registered\_associate\_id|Registered by whom|FK [associate](associate.md)| |
 |updated|Last updated when|UtcDateTime| |
@@ -29,7 +29,7 @@ so.envir:
 |updatedCount|Number of updates made to this record|UShort| |
 
 
-![DeliveryTermsGroupLink table relationship diagram](media\DeliveryTermsGroupLink.png)
+![DeliveryTermsGroupLink table relationship diagram](./media/DeliveryTermsGroupLink.png)
 
 [!include[details](./includes/DeliveryTermsGroupLink.md)]
 

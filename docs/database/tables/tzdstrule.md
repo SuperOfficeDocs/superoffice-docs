@@ -1,26 +1,26 @@
 ---
-uid: tzdstrule
+uid: table-tzdstrule
 title: tzdstrule table
 description: Time zone rule for daylight saving time
 so.generated: true
 keywords:
   - "database"
-  - "tzdstrule"
-so.date: 19.03.2021
+  - "TZDstRule"
+so.date: 21.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# TZDstRule Table (247)
+# tzdstrule Table (247)
 
 ## Fields
 
 | Name | Description | Type | Null |
 |------|-------------|------|:----:|
 |TZDstRule\_id|Primary key|PK| |
-|TZLocationId|Location that this rule is valid for - one location may have one or more rules; multiple rules are discerned by their validFrom dates|FK [TZLocation](TZLocation.md)| |
+|TZLocationId|Location that this rule is valid for - one location may have one or more rules; multiple rules are discerned by their validFrom dates|FK [tzlocation](tzlocation.md)| |
 |validFrom|Date this rule is valid from|DateTime| |
 |bias|number of minutes bias relative to UTC time|Short| |
 |startRule|DST start rule, such as 0200 1ST-SUN-APR; limited to rules that we have parse code for; use dayOfMonth etc for custom rules|String(254)|&#x25CF;|
@@ -38,7 +38,7 @@ so.envir:
 |updatedCount|Number of updates made to this record|UShort| |
 
 
-![TZDstRule table relationship diagram](media\TZDstRule.png)
+![TZDstRule table relationship diagram](./media/TZDstRule.png)
 
 [!include[details](./includes/TZDstRule.md)]
 

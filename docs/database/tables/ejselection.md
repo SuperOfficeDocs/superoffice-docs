@@ -1,19 +1,19 @@
 ---
-uid: ejselection
+uid: table-ejselection
 title: ejselection table
 description: This table stores selections, dynamic groups.
 so.generated: true
 keywords:
   - "database"
   - "ejselection"
-so.date: 19.03.2021
+so.date: 21.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# Ejselection Table (391)
+# ejselection Table (391)
 
 ## Fields
 
@@ -34,7 +34,7 @@ so.envir:
 |result\_config|XML data|Clob|&#x25CF;|
 
 
-![ejselection table relationship diagram](media\ejselection.png)
+![ejselection table relationship diagram](./media/ejselection.png)
 
 [!include[details](./includes/ejselection.md)]
 

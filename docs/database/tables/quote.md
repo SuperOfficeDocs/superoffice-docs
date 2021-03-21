@@ -1,19 +1,19 @@
 ---
-uid: quote
+uid: table-quote
 title: quote table
 description: Quote root level, at most one per Sale, always connected to one Sale
 so.generated: true
 keywords:
   - "database"
-  - "quote"
-so.date: 19.03.2021
+  - "Quote"
+so.date: 21.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# Quote Table (34)
+# quote Table (34)
 
 ## Fields
 
@@ -21,11 +21,11 @@ so.envir:
 |------|-------------|------|:----:|
 |quote\_id|Primary key|PK| |
 |SaleId|The foreign key to the corresponding sale|FK [sale](sale.md)|&#x25CF;|
-|QuoteConnectionId|The connection in the CRM system to where this quote came from. Identifies the ERP connection used for this quote. Each quote is bound to one and only one connection.|FK [QuoteConnection](QuoteConnection.md)|&#x25CF;|
+|QuoteConnectionId|The connection in the CRM system to where this quote came from. Identifies the ERP connection used for this quote. Each quote is bound to one and only one connection.|FK [quoteconnection](quoteconnection.md)|&#x25CF;|
 |ERPQuoteKey|Foreign key of quote (if available). The key in the ERP system that identifies this sale&apos;s Quote (as opposed to the later Order information)|String(254)|&#x25CF;|
 |ERPOrderKey|The key in the ERP system that identifies this sale&apos;s Order, as transferred and possibly later edited in the ERP system.  Only filled out if there exists a corresponding order representation of the quote in the ERP system.|String(254)|&#x25CF;|
-|ActiveQuoteVersionId|The primary key of the Quote Version that is currently active. (The active version will always be the latest version.)|FK [QuoteVersion](QuoteVersion.md)|&#x25CF;|
-|AcceptedQuoteAlternativeId|The primary key of the Quote Alternative which was finally accepted by the customer. Set when the user is marking a quote as accepted.|FK [QuoteAlternative](QuoteAlternative.md)|&#x25CF;|
+|ActiveQuoteVersionId|The primary key of the Quote Version that is currently active. (The active version will always be the latest version.)|FK [quoteversion](quoteversion.md)|&#x25CF;|
+|AcceptedQuoteAlternativeId|The primary key of the Quote Alternative which was finally accepted by the customer. Set when the user is marking a quote as accepted.|FK [quotealternative](quotealternative.md)|&#x25CF;|
 |UseValuesFromQuote|If true, then the Earning, Earning_Percent and Amount fields are populated from the QuoteVersion.QuoteAlternative (current revision, most-likely alternative).|Bool|&#x25CF;|
 |DocumentId|The ID of the main Quote Document|FK [document](document.md)|&#x25CF;|
 |PreferredEmailCulture|When emails are sent (offer or confirmation), a language can be chosen in the GUI; this field saves the most recent choice and can be used to default the next such choice. Default-default is user&apos;s current language|String(19)|&#x25CF;|
@@ -38,7 +38,7 @@ so.envir:
 |updatedCount|Number of updates made to this record|UShort| |
 
 
-![Quote table relationship diagram](media\Quote.png)
+![Quote table relationship diagram](./media/Quote.png)
 
 [!include[details](./includes/Quote.md)]
 

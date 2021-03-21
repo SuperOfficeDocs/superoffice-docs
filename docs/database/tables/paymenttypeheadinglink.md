@@ -1,27 +1,27 @@
 ---
-uid: paymenttypeheadinglink
+uid: table-paymenttypeheadinglink
 title: paymenttypeheadinglink table
 description: Heading link table for PaymentType, for MDO item headings
 so.generated: true
 keywords:
   - "database"
-  - "paymenttypeheadinglink"
-so.date: 19.03.2021
+  - "PaymentTypeHeadingLink"
+so.date: 21.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# PaymentTypeHeadingLink Table (432)
+# paymenttypeheadinglink Table (432)
 
 ## Fields
 
 | Name | Description | Type | Null |
 |------|-------------|------|:----:|
 |paymenttypeheadinglink\_id|Primary key|PK| |
-|paymenttype\_id|Link to PaymentType list table|FK [PaymentType](PaymentType.md)| |
-|heading\_id|Link to Heading table|FK [Heading](Heading.md)| |
+|paymenttype\_id|Link to PaymentType list table|FK [paymenttype](paymenttype.md)| |
+|heading\_id|Link to Heading table|FK [heading](heading.md)| |
 |registered|Registered when|UtcDateTime| |
 |registered\_associate\_id|Registered by whom|FK [associate](associate.md)| |
 |updated|Last updated when|UtcDateTime| |
@@ -29,7 +29,7 @@ so.envir:
 |updatedCount|Number of updates made to this record|UShort| |
 
 
-![PaymentTypeHeadingLink table relationship diagram](media\PaymentTypeHeadingLink.png)
+![PaymentTypeHeadingLink table relationship diagram](./media/PaymentTypeHeadingLink.png)
 
 [!include[details](./includes/PaymentTypeHeadingLink.md)]
 

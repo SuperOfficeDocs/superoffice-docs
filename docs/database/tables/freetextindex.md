@@ -1,19 +1,19 @@
 ---
-uid: freetextindex
+uid: table-freetextindex
 title: freetextindex table
 description: This is the index table for the free text search function. Each word in FreeTextWords can have multiple occurrences in this table. Each record in this table points to one occurrence of the word, and points to both the table in which the word occurs (which might be contact or text), and also a pointer to the owner table (which is one of contact, person, project, appointment or sale). 
 so.generated: true
 keywords:
   - "database"
   - "freetextindex"
-so.date: 19.03.2021
+so.date: 21.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# Freetextindex Table (46)
+# freetextindex Table (46)
 
 ## Fields
 
@@ -29,7 +29,7 @@ so.envir:
 |contact\_id|Set for contacts and person records to allow cross-table free-text searches. 0 for non-contact, non-person|FK [contact](contact.md)| |
 
 
-![freetextindex table relationship diagram](media\freetextindex.png)
+![freetextindex table relationship diagram](./media/freetextindex.png)
 
 [!include[details](./includes/freetextindex.md)]
 

@@ -1,27 +1,27 @@
 ---
-uid: udlistgrouplink
+uid: table-udlistgrouplink
 title: udlistgrouplink table
 description: User group link table for UDList, for MDO item hiding. Note - MDO mode for userdefinede lists are either turned on or off, you may not have it on for one userdefined list and off for the others.
 so.generated: true
 keywords:
   - "database"
-  - "udlistgrouplink"
-so.date: 19.03.2021
+  - "UDListGroupLink"
+so.date: 21.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# UDListGroupLink Table (137)
+# udlistgrouplink Table (137)
 
 ## Fields
 
 | Name | Description | Type | Null |
 |------|-------------|------|:----:|
 |udlistgrouplink\_id|Primary key|PK| |
-|udlist\_id|Link to UDList list table|FK [UDList](UDList.md)| |
-|group\_id|Link to Group table|FK [UserGroup](UserGroup.md)| |
+|udlist\_id|Link to UDList list table|FK [udlist](udlist.md)| |
+|group\_id|Link to Group table|FK [usergroup](usergroup.md)| |
 |registered|Registered when|UtcDateTime| |
 |registered\_associate\_id|Registered by whom|FK [associate](associate.md)| |
 |updated|Last updated when|UtcDateTime| |
@@ -29,7 +29,7 @@ so.envir:
 |updatedCount|Number of updates made to this record|UShort| |
 
 
-![UDListGroupLink table relationship diagram](media\UDListGroupLink.png)
+![UDListGroupLink table relationship diagram](./media/UDListGroupLink.png)
 
 [!include[details](./includes/UDListGroupLink.md)]
 

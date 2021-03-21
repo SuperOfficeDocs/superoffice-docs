@@ -1,21 +1,21 @@
 ---
-uid: reason
+uid: table-reason
 title: reason table
 description: Reason list table. Why we lost the sale (list)
 so.generated: true
 keywords:
   - "database"
-  - "reason"
-so.date: 19.03.2021
+  - "Reason"
+so.date: 21.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# Reason Table (103)
+# reason Table (103)
 
-Reason MDO list item table.
+reason MDO list item table.
 Reason list table. Why we lost the sale (list)
 
 ## Fields
@@ -34,7 +34,7 @@ Reason list table. Why we lost the sale (list)
 |updatedCount|Number of updates made to this record|UShort| |
 
 
-![Reason table relationship diagram](media\Reason.png)
+![Reason table relationship diagram](./media/Reason.png)
 
 [!include[details](./includes/Reason.md)]
 

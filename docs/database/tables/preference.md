@@ -1,19 +1,19 @@
 ---
-uid: preference
+uid: table-preference
 title: preference table
 description: Not quite obsolete preference table; historical info mostly. From 6.1 this table now holds an upgrade stamp.
 so.generated: true
 keywords:
   - "database"
   - "preference"
-so.date: 19.03.2021
+so.date: 21.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# Preference Table (22)
+# preference Table (22)
 
 ## Fields
 
@@ -29,7 +29,7 @@ so.envir:
 |updatedCount|Number of updates made to this record|UShort| |
 
 
-![preference table relationship diagram](media\preference.png)
+![preference table relationship diagram](./media/preference.png)
 
 [!include[details](./includes/preference.md)]
 

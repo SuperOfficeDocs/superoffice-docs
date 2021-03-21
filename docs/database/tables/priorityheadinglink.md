@@ -1,27 +1,27 @@
 ---
-uid: priorityheadinglink
+uid: table-priorityheadinglink
 title: priorityheadinglink table
 description: Heading link table for Priority, for MDO headers
 so.generated: true
 keywords:
   - "database"
-  - "priorityheadinglink"
-so.date: 19.03.2021
+  - "PriorityHeadingLink"
+so.date: 21.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# PriorityHeadingLink Table (81)
+# priorityheadinglink Table (81)
 
 ## Fields
 
 | Name | Description | Type | Null |
 |------|-------------|------|:----:|
 |priorityheadinglink\_id|Primary key|PK| |
-|priority\_id|Link to Priority list table|FK [Priority](Priority.md)| |
-|heading\_id|Link to Heading table|FK [Heading](Heading.md)| |
+|priority\_id|Link to Priority list table|FK [priority](priority.md)| |
+|heading\_id|Link to Heading table|FK [heading](heading.md)| |
 |registered|Registered when|UtcDateTime| |
 |registered\_associate\_id|Registered by whom|FK [associate](associate.md)| |
 |updated|Last updated when|UtcDateTime| |
@@ -29,7 +29,7 @@ so.envir:
 |updatedCount|Number of updates made to this record|UShort| |
 
 
-![PriorityHeadingLink table relationship diagram](media\PriorityHeadingLink.png)
+![PriorityHeadingLink table relationship diagram](./media/PriorityHeadingLink.png)
 
 [!include[details](./includes/PriorityHeadingLink.md)]
 

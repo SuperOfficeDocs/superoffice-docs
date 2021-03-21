@@ -1,27 +1,27 @@
 ---
-uid: extappheadinglink
+uid: table-extappheadinglink
 title: extappheadinglink table
 description: Heading link table for ExtApp, for MDO headers
 so.generated: true
 keywords:
   - "database"
-  - "extappheadinglink"
-so.date: 19.03.2021
+  - "ExtAppHeadingLink"
+so.date: 21.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# ExtAppHeadingLink Table (135)
+# extappheadinglink Table (135)
 
 ## Fields
 
 | Name | Description | Type | Null |
 |------|-------------|------|:----:|
 |extappheadinglink\_id|Primary key|PK| |
-|extapp\_id|Link to ExtApp list table|FK [ExtApp](ExtApp.md)| |
-|heading\_id|Link to Heading table|FK [Heading](Heading.md)| |
+|extapp\_id|Link to ExtApp list table|FK [extapp](extapp.md)| |
+|heading\_id|Link to Heading table|FK [heading](heading.md)| |
 |registered|Registered when|UtcDateTime| |
 |registered\_associate\_id|Registered by whom|FK [associate](associate.md)| |
 |updated|Last updated when|UtcDateTime| |
@@ -29,7 +29,7 @@ so.envir:
 |updatedCount|Number of updates made to this record|UShort| |
 
 
-![ExtAppHeadingLink table relationship diagram](media\ExtAppHeadingLink.png)
+![ExtAppHeadingLink table relationship diagram](./media/ExtAppHeadingLink.png)
 
 [!include[details](./includes/ExtAppHeadingLink.md)]
 

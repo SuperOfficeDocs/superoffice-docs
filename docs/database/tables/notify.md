@@ -1,19 +1,19 @@
 ---
-uid: notify
+uid: table-notify
 title: notify table
 description: This table contains the pop-up messages displayed for users for various events, such as &amp;apos;new ticket&amp;apos;, etc.
 so.generated: true
 keywords:
   - "database"
   - "notify"
-so.date: 19.03.2021
+so.date: 21.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# Notify Table (301)
+# notify Table (301)
 
 ## Fields
 
@@ -26,14 +26,14 @@ so.envir:
 |owner\_id|The id of the user who is the original owner of this notification.|FK [ejuser](ejuser.md)| |
 |ticket\_id|The id of the ticket this notification message affects.|FK [ticket](ticket.md)| |
 |user2\_id|A second user involved in this notification|FK [ejuser](ejuser.md)|&#x25CF;|
-|category\_id|The category involed in this notification|FK [ej_category](ej_category.md)|&#x25CF;|
-|chat\_topic\_id|Chat topic involed in this notification|FK [chat_topic](chat_topic.md)|&#x25CF;|
+|category\_id|The category involed in this notification|FK [ej-category](ej-category.md)|&#x25CF;|
+|chat\_topic\_id|Chat topic involed in this notification|FK [chat-topic](chat-topic.md)|&#x25CF;|
 |chat\_nick\_name|Chat customer nick name in this notification|String(255)|&#x25CF;|
-|ticket\_alert\_id|Ticket alert used when tickets are escalated|FK [ticket_alert](ticket_alert.md)|&#x25CF;|
+|ticket\_alert\_id|Ticket alert used when tickets are escalated|FK [ticket-alert](ticket-alert.md)|&#x25CF;|
 |custom\_message|Text for custom notify messages|String(255)|&#x25CF;|
 
 
-![notify table relationship diagram](media\notify.png)
+![notify table relationship diagram](./media/notify.png)
 
 [!include[details](./includes/notify.md)]
 

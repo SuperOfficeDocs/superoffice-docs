@@ -1,27 +1,27 @@
 ---
-uid: reasonheadinglink
+uid: table-reasonheadinglink
 title: reasonheadinglink table
 description: Heading link table for Reason, for MDO headers
 so.generated: true
 keywords:
   - "database"
-  - "reasonheadinglink"
-so.date: 19.03.2021
+  - "ReasonHeadingLink"
+so.date: 21.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# ReasonHeadingLink Table (105)
+# reasonheadinglink Table (105)
 
 ## Fields
 
 | Name | Description | Type | Null |
 |------|-------------|------|:----:|
 |reasonheadinglink\_id|Primary key|PK| |
-|reason\_id|Link to Reason list table|FK [Reason](Reason.md)| |
-|heading\_id|Link to Heading table|FK [Heading](Heading.md)| |
+|reason\_id|Link to Reason list table|FK [reason](reason.md)| |
+|heading\_id|Link to Heading table|FK [heading](heading.md)| |
 |registered|Registered when|UtcDateTime| |
 |registered\_associate\_id|Registered by whom|FK [associate](associate.md)| |
 |updated|Last updated when|UtcDateTime| |
@@ -29,7 +29,7 @@ so.envir:
 |updatedCount|Number of updates made to this record|UShort| |
 
 
-![ReasonHeadingLink table relationship diagram](media\ReasonHeadingLink.png)
+![ReasonHeadingLink table relationship diagram](./media/ReasonHeadingLink.png)
 
 [!include[details](./includes/ReasonHeadingLink.md)]
 

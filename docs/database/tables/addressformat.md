@@ -1,19 +1,19 @@
 ---
-uid: addressformat
+uid: table-addressformat
 title: addressformat table
 description: Address formats for GUI and labels. See more information: Addressformat on http://techdoc.superoffice.com
 so.generated: true
 keywords:
   - "database"
-  - "addressformat"
-so.date: 19.03.2021
+  - "AddressFormat"
+so.date: 21.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# AddressFormat Table (57)
+# addressformat Table (57)
 
 ## Fields
 
@@ -83,7 +83,7 @@ so.envir:
 |isBuiltIn|Is this row populated by SuperOffice?|Bool|&#x25CF;|
 
 
-![AddressFormat table relationship diagram](media\AddressFormat.png)
+![AddressFormat table relationship diagram](./media/AddressFormat.png)
 
 [!include[details](./includes/AddressFormat.md)]
 

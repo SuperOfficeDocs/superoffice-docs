@@ -1,26 +1,26 @@
 ---
-uid: text
+uid: table-text
 title: text table
 description: Long text fields from all over the system
 so.generated: true
 keywords:
   - "database"
   - "text"
-so.date: 19.03.2021
+so.date: 21.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# Text Table (18)
+# text Table (18)
 
 ## Fields
 
 | Name | Description | Type | Null |
 |------|-------------|------|:----:|
 |text\_id|Primary key|PK| |
-|type|Text type, enum that specifies owning table and role|Enum [TextType](enums\EnumTextType.md)|&#x25CF;|
+|type|Text type, enum that specifies owning table and role|Enum [texttype](enums/texttype.md)|&#x25CF;|
 |owner\_id|Record ID of owner record|Id|&#x25CF;|
 |registered|Registered when|UtcDateTime| |
 |registered\_associate\_id|Registered by whom|FK [associate](associate.md)| |
@@ -32,7 +32,7 @@ so.envir:
 |seqno|Sequence number, for possible chaining of multiple records to store longer texts|UShort|&#x25CF;|
 
 
-![text table relationship diagram](media\text.png)
+![text table relationship diagram](./media/text.png)
 
 [!include[details](./includes/text.md)]
 

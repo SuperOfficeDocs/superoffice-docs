@@ -1,26 +1,26 @@
 ---
-uid: locking
+uid: table-locking
 title: locking table
 description: Generic locking and error messages
 so.generated: true
 keywords:
   - "database"
   - "locking"
-so.date: 19.03.2021
+so.date: 21.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# Locking Table (380)
+# locking Table (380)
 
 ## Fields
 
 | Name | Description | Type | Null |
 |------|-------------|------|:----:|
 |id|Primary key|PK| |
-|status|Current status|Enum [](enums\Enum.md)|&#x25CF;|
+|status|Current status|status|&#x25CF;|
 |stop|Signal to stop schedule|Bool| |
 |last\_execution|Last execution|DateTime|&#x25CF;|
 |execution\_time|Amount of time in seconds used by last execution|Int|&#x25CF;|
@@ -32,7 +32,7 @@ so.envir:
 |retries|Number of retries since last successfull execution|Int| |
 
 
-![locking table relationship diagram](media\locking.png)
+![locking table relationship diagram](./media/locking.png)
 
 [!include[details](./includes/locking.md)]
 

@@ -1,27 +1,27 @@
 ---
-uid: creditedgrouplink
+uid: table-creditedgrouplink
 title: creditedgrouplink table
 description: User group link table for Credited, for MDO item hiding
 so.generated: true
 keywords:
   - "database"
-  - "creditedgrouplink"
-so.date: 19.03.2021
+  - "CreditedGroupLink"
+so.date: 21.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# CreditedGroupLink Table (98)
+# creditedgrouplink Table (98)
 
 ## Fields
 
 | Name | Description | Type | Null |
 |------|-------------|------|:----:|
 |creditedgrouplink\_id|Primary key|PK| |
-|credited\_id|Link to Credited list table|FK [Credited](Credited.md)| |
-|group\_id|Link to Group table|FK [UserGroup](UserGroup.md)| |
+|credited\_id|Link to Credited list table|FK [credited](credited.md)| |
+|group\_id|Link to Group table|FK [usergroup](usergroup.md)| |
 |registered|Registered when|UtcDateTime| |
 |registered\_associate\_id|Registered by whom|FK [associate](associate.md)| |
 |updated|Last updated when|UtcDateTime| |
@@ -29,7 +29,7 @@ so.envir:
 |updatedCount|Number of updates made to this record|UShort| |
 
 
-![CreditedGroupLink table relationship diagram](media\CreditedGroupLink.png)
+![CreditedGroupLink table relationship diagram](./media/CreditedGroupLink.png)
 
 [!include[details](./includes/CreditedGroupLink.md)]
 

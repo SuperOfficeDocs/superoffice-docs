@@ -1,27 +1,27 @@
 ---
-uid: probheadinglink
+uid: table-probheadinglink
 title: probheadinglink table
 description: Heading link table for Prob, for MDO headers
 so.generated: true
 keywords:
   - "database"
-  - "probheadinglink"
-so.date: 19.03.2021
+  - "ProbHeadingLink"
+so.date: 21.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# ProbHeadingLink Table (84)
+# probheadinglink Table (84)
 
 ## Fields
 
 | Name | Description | Type | Null |
 |------|-------------|------|:----:|
 |probheadinglink\_id|Primary key|PK| |
-|prob\_id|Link to Prob list table|FK [Prob](Prob.md)| |
-|heading\_id|Link to Heading table|FK [Heading](Heading.md)| |
+|prob\_id|Link to Prob list table|FK [prob](prob.md)| |
+|heading\_id|Link to Heading table|FK [heading](heading.md)| |
 |registered|Registered when|UtcDateTime| |
 |registered\_associate\_id|Registered by whom|FK [associate](associate.md)| |
 |updated|Last updated when|UtcDateTime| |
@@ -29,7 +29,7 @@ so.envir:
 |updatedCount|Number of updates made to this record|UShort| |
 
 
-![ProbHeadingLink table relationship diagram](media\ProbHeadingLink.png)
+![ProbHeadingLink table relationship diagram](./media/ProbHeadingLink.png)
 
 [!include[details](./includes/ProbHeadingLink.md)]
 

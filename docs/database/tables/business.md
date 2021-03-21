@@ -1,21 +1,21 @@
 ---
-uid: business
+uid: table-business
 title: business table
 description: Business list table
 so.generated: true
 keywords:
   - "database"
-  - "business"
-so.date: 19.03.2021
+  - "Business"
+so.date: 21.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# Business Table (61)
+# business Table (61)
 
-Business MDO list item table.
+business MDO list item table.
 Business list table
 
 ## Fields
@@ -34,7 +34,7 @@ Business list table
 |updatedCount|Number of updates made to this record|UShort| |
 
 
-![Business table relationship diagram](media\Business.png)
+![Business table relationship diagram](./media/Business.png)
 
 [!include[details](./includes/Business.md)]
 

@@ -1,19 +1,19 @@
 ---
-uid: snapshot
+uid: table-snapshot
 title: snapshot table
 description: Snapshots taken of the system database and attachments via soap
 so.generated: true
 keywords:
   - "database"
   - "snapshot"
-so.date: 19.03.2021
+so.date: 21.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# Snapshot Table (369)
+# snapshot Table (369)
 
 ## Fields
 
@@ -24,7 +24,7 @@ so.envir:
 |user\_comment|Comment from the user|String(255)|&#x25CF;|
 
 
-![snapshot table relationship diagram](media\snapshot.png)
+![snapshot table relationship diagram](./media/snapshot.png)
 
 [!include[details](./includes/snapshot.md)]
 

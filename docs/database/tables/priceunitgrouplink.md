@@ -1,27 +1,27 @@
 ---
-uid: priceunitgrouplink
+uid: table-priceunitgrouplink
 title: priceunitgrouplink table
 description: User group link table for PriceUnit, for MDO item hiding
 so.generated: true
 keywords:
   - "database"
-  - "priceunitgrouplink"
-so.date: 19.03.2021
+  - "PriceUnitGroupLink"
+so.date: 21.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# PriceUnitGroupLink Table (440)
+# priceunitgrouplink Table (440)
 
 ## Fields
 
 | Name | Description | Type | Null |
 |------|-------------|------|:----:|
 |priceunitgrouplink\_id|Primary key|PK| |
-|priceunit\_id|Link to PriceUnit list table|FK [PriceUnit](PriceUnit.md)| |
-|group\_id|Link to Group table|FK [UserGroup](UserGroup.md)| |
+|priceunit\_id|Link to PriceUnit list table|FK [priceunit](priceunit.md)| |
+|group\_id|Link to Group table|FK [usergroup](usergroup.md)| |
 |registered|Registered when|UtcDateTime| |
 |registered\_associate\_id|Registered by whom|FK [associate](associate.md)| |
 |updated|Last updated when|UtcDateTime| |
@@ -29,7 +29,7 @@ so.envir:
 |updatedCount|Number of updates made to this record|UShort| |
 
 
-![PriceUnitGroupLink table relationship diagram](media\PriceUnitGroupLink.png)
+![PriceUnitGroupLink table relationship diagram](./media/PriceUnitGroupLink.png)
 
 [!include[details](./includes/PriceUnitGroupLink.md)]
 

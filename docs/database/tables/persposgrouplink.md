@@ -1,27 +1,27 @@
 ---
-uid: persposgrouplink
+uid: table-persposgrouplink
 title: persposgrouplink table
 description: User group link table for PersPos, for MDO item hiding
 so.generated: true
 keywords:
   - "database"
-  - "persposgrouplink"
-so.date: 19.03.2021
+  - "PersPosGroupLink"
+so.date: 21.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# PersPosGroupLink Table (77)
+# persposgrouplink Table (77)
 
 ## Fields
 
 | Name | Description | Type | Null |
 |------|-------------|------|:----:|
 |persposgrouplink\_id|Primary key|PK| |
-|perspos\_id|Link to PersPos list table|FK [PersPos](PersPos.md)| |
-|group\_id|Link to Group table|FK [UserGroup](UserGroup.md)| |
+|perspos\_id|Link to PersPos list table|FK [perspos](perspos.md)| |
+|group\_id|Link to Group table|FK [usergroup](usergroup.md)| |
 |registered|Registered when|UtcDateTime| |
 |registered\_associate\_id|Registered by whom|FK [associate](associate.md)| |
 |updated|Last updated when|UtcDateTime| |
@@ -29,7 +29,7 @@ so.envir:
 |updatedCount|Number of updates made to this record|UShort| |
 
 
-![PersPosGroupLink table relationship diagram](media\PersPosGroupLink.png)
+![PersPosGroupLink table relationship diagram](./media/PersPosGroupLink.png)
 
 [!include[details](./includes/PersPosGroupLink.md)]
 

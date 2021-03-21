@@ -1,19 +1,19 @@
 ---
-uid: onlineapp
+uid: table-onlineapp
 title: onlineapp table
 description: Echo and track information about Online Apps and their usage
 so.generated: true
 keywords:
   - "database"
-  - "onlineapp"
-so.date: 19.03.2021
+  - "OnlineApp"
+so.date: 21.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# OnlineApp Table (482)
+# onlineapp Table (482)
 
 ## Fields
 
@@ -32,9 +32,7 @@ so.envir:
 |updatedCount|Number of updates made to this record|UShort| |
 
 
-![OnlineApp table relationship diagram](media\OnlineApp.png)
-
-[!include[details](./includes/OnlineApp.md)]
+![OnlineApp table relationship diagram](./media/OnlineApp.png)
 
 ## Indexes
 

@@ -1,28 +1,28 @@
 ---
-uid: reporterlistdef
+uid: table-reporterlistdef
 title: reporterlistdef table
 description: Reporter definitions
 so.generated: true
 keywords:
   - "database"
-  - "reporterlistdef"
-so.date: 19.03.2021
+  - "ReporterListDef"
+so.date: 21.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# ReporterListDef Table (170)
+# reporterlistdef Table (170)
 
 ## Fields
 
 | Name | Description | Type | Null |
 |------|-------------|------|:----:|
 |ReporterListDef\_id|Primary key|PK| |
-|oleViewId|OLE View link|FK [OLEView](OLEView.md)| |
-|oleFieldKey|OLE Field link|FK [OLEField](OLEField.md)| |
-|oleFieldName|OLE Field link|FK [OLEField](OLEField.md)| |
+|oleViewId|OLE View link|FK [oleview](oleview.md)| |
+|oleFieldKey|OLE Field link|FK [olefield](olefield.md)| |
+|oleFieldName|OLE Field link|FK [olefield](olefield.md)| |
 |listSource|Source table name|String(254)| |
 |registered|Registered when|UtcDateTime| |
 |registered\_associate\_id|Registered by whom|FK [associate](associate.md)| |
@@ -31,7 +31,7 @@ so.envir:
 |updatedCount|Number of updates made to this record|UShort| |
 
 
-![ReporterListDef table relationship diagram](media\ReporterListDef.png)
+![ReporterListDef table relationship diagram](./media/ReporterListDef.png)
 
 [!include[details](./includes/ReporterListDef.md)]
 

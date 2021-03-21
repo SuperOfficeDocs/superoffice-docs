@@ -1,19 +1,19 @@
 ---
-uid: projectmember
+uid: table-projectmember
 title: projectmember table
 description: Project members. Link-table between person and project
 so.generated: true
 keywords:
   - "database"
   - "projectmember"
-so.date: 19.03.2021
+so.date: 21.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# Projectmember Table (12)
+# projectmember Table (12)
 
 ## Fields
 
@@ -24,7 +24,7 @@ so.envir:
 |contact\_id|Contact ID of person who is the project member (slight denormalization)|FK [contact](contact.md)|&#x25CF;|
 |person\_id|Person ID of person who is the project member|FK [person](person.md)|&#x25CF;|
 |rank|Rank in list|UShort|&#x25CF;|
-|mtype\_idx|Member type link|FK [PMembType](PMembType.md)|&#x25CF;|
+|mtype\_idx|Member type link|FK [pmembtype](pmembtype.md)|&#x25CF;|
 |text\_id|Optional comment|FK [text](text.md)|&#x25CF;|
 |registered|Registered when|UtcDateTime| |
 |registered\_associate\_id|Registered by whom|FK [associate](associate.md)| |
@@ -33,7 +33,7 @@ so.envir:
 |updatedCount|Number of updates made to this record|UShort| |
 
 
-![projectmember table relationship diagram](media\projectmember.png)
+![projectmember table relationship diagram](./media/projectmember.png)
 
 [!include[details](./includes/projectmember.md)]
 

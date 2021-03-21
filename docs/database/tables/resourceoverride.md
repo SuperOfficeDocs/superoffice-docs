@@ -1,19 +1,19 @@
 ---
-uid: resourceoverride
+uid: table-resourceoverride
 title: resourceoverride table
 description: Generic mechanism for overriding (or even defining new) text resources, in multiple languages
 so.generated: true
 keywords:
   - "database"
-  - "resourceoverride"
-so.date: 19.03.2021
+  - "ResourceOverride"
+so.date: 21.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# ResourceOverride Table (448)
+# resourceoverride Table (448)
 
 ## Fields
 
@@ -31,7 +31,7 @@ so.envir:
 |updatedCount|Number of updates made to this record|UShort|&#x25CF;|
 
 
-![ResourceOverride table relationship diagram](media\ResourceOverride.png)
+![ResourceOverride table relationship diagram](./media/ResourceOverride.png)
 
 [!include[details](./includes/ResourceOverride.md)]
 

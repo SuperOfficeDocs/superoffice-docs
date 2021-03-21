@@ -1,19 +1,19 @@
 ---
-uid: udappntsmall
+uid: table-udappntsmall
 title: udappntsmall table
 description: User-defined fields
 so.generated: true
 keywords:
   - "database"
   - "udappntsmall"
-so.date: 19.03.2021
+so.date: 21.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# Udappntsmall Table (228)
+# udappntsmall Table (228)
 
 ## Fields
 
@@ -132,7 +132,7 @@ so.envir:
 |double10|double value 10, not indexed|Double|&#x25CF;|
 
 
-![udappntsmall table relationship diagram](media\udappntsmall.png)
+![udappntsmall table relationship diagram](./media/udappntsmall.png)
 
 [!include[details](./includes/udappntsmall.md)]
 

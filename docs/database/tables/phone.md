@@ -1,19 +1,19 @@
 ---
-uid: phone
+uid: table-phone
 title: phone table
 description: Contact and Person phonenumbers (+fax)
 so.generated: true
 keywords:
   - "database"
   - "phone"
-so.date: 19.03.2021
+so.date: 21.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# Phone Table (8)
+# phone Table (8)
 
 ## Fields
 
@@ -21,7 +21,7 @@ so.envir:
 |------|-------------|------|:----:|
 |phone\_id|Primary key|PK| |
 |owner\_id|Record id of owner: Contact or Person|Id| |
-|ptype\_idx|Bit mask, combines phone type (EPhoneType) and owner type (EOwnerType)|Enum [PhoneType](enums\EnumPhoneType.md)| |
+|ptype\_idx|Bit mask, combines phone type (EPhoneType) and owner type (EOwnerType)|Enum [phonetype](enums/phonetype.md)| |
 |phone|Actual phone number as eneterd by the user|String(239)| |
 |rank|Sort order|UShort|&#x25CF;|
 |description|Visible description|String(99)|&#x25CF;|
@@ -35,7 +35,7 @@ so.envir:
 |searchPhoneNumber|Stripped phone number for searching, takes over for search_phone|String(239)|&#x25CF;|
 
 
-![phone table relationship diagram](media\phone.png)
+![phone table relationship diagram](./media/phone.png)
 
 [!include[details](./includes/phone.md)]
 

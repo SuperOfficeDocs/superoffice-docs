@@ -1,27 +1,27 @@
 ---
-uid: saletypestagelink
+uid: table-saletypestagelink
 title: saletypestagelink table
 description: Many-many link table between sale type and stage; and an anchor point for guide items
 so.generated: true
 keywords:
   - "database"
-  - "saletypestagelink"
-so.date: 19.03.2021
+  - "SaleTypeStageLink"
+so.date: 21.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# SaleTypeStageLink Table (160)
+# saletypestagelink Table (160)
 
 ## Fields
 
 | Name | Description | Type | Null |
 |------|-------------|------|:----:|
 |SaleTypeStageLink\_id|Primary key|PK| |
-|saleType\_id|Link to sale type|FK [SaleType](SaleType.md)| |
-|stageId|Link to prob, aka Stage|FK [Prob](Prob.md)| |
+|saleType\_id|Link to sale type|FK [saletype](saletype.md)| |
+|stageId|Link to prob, aka Stage|FK [prob](prob.md)| |
 |rank|Rank order |UShort|&#x25CF;|
 |deleted|0 -&gt; record is active 1 -&gt; record is &apos;deleted&apos; and should not be shown in lists|UShort|&#x25CF;|
 |registered|Registered when|UtcDateTime| |
@@ -31,7 +31,7 @@ so.envir:
 |updatedCount|Number of updates made to this record|UShort| |
 
 
-![SaleTypeStageLink table relationship diagram](media\SaleTypeStageLink.png)
+![SaleTypeStageLink table relationship diagram](./media/SaleTypeStageLink.png)
 
 [!include[details](./includes/SaleTypeStageLink.md)]
 

@@ -1,19 +1,19 @@
 ---
-uid: foreigndevice
+uid: table-foreigndevice
 title: foreigndevice table
 description: Middle level of Foreign Key system
 so.generated: true
 keywords:
   - "database"
   - "foreigndevice"
-so.date: 19.03.2021
+so.date: 21.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# Foreigndevice Table (182)
+# foreigndevice Table (182)
 
 ## Fields
 
@@ -33,7 +33,7 @@ so.envir:
 |updatedCount|Number of updates made to this record|UShort| |
 
 
-![foreigndevice table relationship diagram](media\foreigndevice.png)
+![foreigndevice table relationship diagram](./media/foreigndevice.png)
 
 [!include[details](./includes/foreigndevice.md)]
 

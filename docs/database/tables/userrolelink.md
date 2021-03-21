@@ -1,19 +1,19 @@
 ---
-uid: userrolelink
+uid: table-userrolelink
 title: userrolelink table
 description: Link between user role and user
 so.generated: true
 keywords:
   - "database"
-  - "userrolelink"
-so.date: 19.03.2021
+  - "UserRoleLink"
+so.date: 21.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# UserRoleLink Table (192)
+# userrolelink Table (192)
 
 ## Fields
 
@@ -21,7 +21,7 @@ so.envir:
 |------|-------------|------|:----:|
 |UserRoleLink\_id|Primary key|PK| |
 |associate\_id|Link to associate|FK [associate](associate.md)| |
-|role\_id|Link to Role|FK [Role](Role.md)| |
+|role\_id|Link to Role|FK [role](role.md)| |
 |linkType|Reserved for future extension, not used|UInt| |
 |encryptedCheck|Encrypted data, to detect unwanted changes|String(254)| |
 |registered|Registered when|UtcDateTime| |
@@ -31,7 +31,7 @@ so.envir:
 |updatedCount|Number of updates made to this record|UShort| |
 
 
-![UserRoleLink table relationship diagram](media\UserRoleLink.png)
+![UserRoleLink table relationship diagram](./media/UserRoleLink.png)
 
 [!include[details](./includes/UserRoleLink.md)]
 

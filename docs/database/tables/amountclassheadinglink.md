@@ -1,27 +1,27 @@
 ---
-uid: amountclassheadinglink
+uid: table-amountclassheadinglink
 title: amountclassheadinglink table
 description: Heading link table for AmountClass, for MDO headers
 so.generated: true
 keywords:
   - "database"
-  - "amountclassheadinglink"
-so.date: 19.03.2021
+  - "AmountClassHeadingLink"
+so.date: 21.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# AmountClassHeadingLink Table (227)
+# amountclassheadinglink Table (227)
 
 ## Fields
 
 | Name | Description | Type | Null |
 |------|-------------|------|:----:|
 |amountclassheadinglink\_id|Primary key|PK| |
-|amountclass\_id|Link to AmountClass list table|FK [AmountClass](AmountClass.md)| |
-|heading\_id|Link to Heading table|FK [Heading](Heading.md)| |
+|amountclass\_id|Link to AmountClass list table|FK [amountclass](amountclass.md)| |
+|heading\_id|Link to Heading table|FK [heading](heading.md)| |
 |registered|Registered when|UtcDateTime| |
 |registered\_associate\_id|Registered by whom|FK [associate](associate.md)| |
 |updated|Last updated when|UtcDateTime| |
@@ -29,7 +29,7 @@ so.envir:
 |updatedCount|Number of updates made to this record|UShort| |
 
 
-![AmountClassHeadingLink table relationship diagram](media\AmountClassHeadingLink.png)
+![AmountClassHeadingLink table relationship diagram](./media/AmountClassHeadingLink.png)
 
 [!include[details](./includes/AmountClassHeadingLink.md)]
 

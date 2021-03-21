@@ -1,27 +1,27 @@
 ---
-uid: pmembtypeheadinglink
+uid: table-pmembtypeheadinglink
 title: pmembtypeheadinglink table
 description: Heading link table for PMembType, for MDO headers
 so.generated: true
 keywords:
   - "database"
-  - "pmembtypeheadinglink"
-so.date: 19.03.2021
+  - "PMembTypeHeadingLink"
+so.date: 21.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# PMembTypeHeadingLink Table (93)
+# pmembtypeheadinglink Table (93)
 
 ## Fields
 
 | Name | Description | Type | Null |
 |------|-------------|------|:----:|
 |pmembtypeheadinglink\_id|Primary key|PK| |
-|pmembtype\_id|Link to PMembType list table|FK [PMembType](PMembType.md)| |
-|heading\_id|Link to Heading table|FK [Heading](Heading.md)| |
+|pmembtype\_id|Link to PMembType list table|FK [pmembtype](pmembtype.md)| |
+|heading\_id|Link to Heading table|FK [heading](heading.md)| |
 |registered|Registered when|UtcDateTime| |
 |registered\_associate\_id|Registered by whom|FK [associate](associate.md)| |
 |updated|Last updated when|UtcDateTime| |
@@ -29,7 +29,7 @@ so.envir:
 |updatedCount|Number of updates made to this record|UShort| |
 
 
-![PMembTypeHeadingLink table relationship diagram](media\PMembTypeHeadingLink.png)
+![PMembTypeHeadingLink table relationship diagram](./media/PMembTypeHeadingLink.png)
 
 [!include[details](./includes/PMembTypeHeadingLink.md)]
 

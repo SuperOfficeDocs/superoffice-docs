@@ -1,27 +1,27 @@
 ---
-uid: paymenttermsheadinglink
+uid: table-paymenttermsheadinglink
 title: paymenttermsheadinglink table
 description: Heading link table for PaymentTerms, for MDO item headings
 so.generated: true
 keywords:
   - "database"
-  - "paymenttermsheadinglink"
-so.date: 19.03.2021
+  - "PaymentTermsHeadingLink"
+so.date: 21.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# PaymentTermsHeadingLink Table (429)
+# paymenttermsheadinglink Table (429)
 
 ## Fields
 
 | Name | Description | Type | Null |
 |------|-------------|------|:----:|
 |paymenttermsheadinglink\_id|Primary key|PK| |
-|paymentterms\_id|Link to PaymentTerms list table|FK [PaymentTerms](PaymentTerms.md)| |
-|heading\_id|Link to Heading table|FK [Heading](Heading.md)| |
+|paymentterms\_id|Link to PaymentTerms list table|FK [paymentterms](paymentterms.md)| |
+|heading\_id|Link to Heading table|FK [heading](heading.md)| |
 |registered|Registered when|UtcDateTime| |
 |registered\_associate\_id|Registered by whom|FK [associate](associate.md)| |
 |updated|Last updated when|UtcDateTime| |
@@ -29,7 +29,7 @@ so.envir:
 |updatedCount|Number of updates made to this record|UShort| |
 
 
-![PaymentTermsHeadingLink table relationship diagram](media\PaymentTermsHeadingLink.png)
+![PaymentTermsHeadingLink table relationship diagram](./media/PaymentTermsHeadingLink.png)
 
 [!include[details](./includes/PaymentTermsHeadingLink.md)]
 

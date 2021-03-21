@@ -1,26 +1,26 @@
 ---
-uid: audienceconfig
+uid: table-audienceconfig
 title: audienceconfig table
 description: Configuration data for Audience core and webparts
 so.generated: true
 keywords:
   - "database"
-  - "audienceconfig"
-so.date: 19.03.2021
+  - "AudienceConfig"
+so.date: 21.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# AudienceConfig Table (236)
+# audienceconfig Table (236)
 
 ## Fields
 
 | Name | Description | Type | Null |
 |------|-------------|------|:----:|
 |AudienceConfig\_id|Primary key|PK| |
-|audienceLayoutId|The name of the installed instance of Audience - must match the web.config file|FK [AudienceLayout](AudienceLayout.md)| |
+|audienceLayoutId|The name of the installed instance of Audience - must match the web.config file|FK [audiencelayout](audiencelayout.md)| |
 |configName|The name of the configuration parameter|String(239)| |
 |configValue|The value of the configuration parameter|String(239)| |
 |seqno|Sequence number, for chaining multiple records in case the value is too long|UShort| |
@@ -31,7 +31,7 @@ so.envir:
 |updatedCount|Number of updates made to this record|UShort| |
 
 
-![AudienceConfig table relationship diagram](media\AudienceConfig.png)
+![AudienceConfig table relationship diagram](./media/AudienceConfig.png)
 
 [!include[details](./includes/AudienceConfig.md)]
 

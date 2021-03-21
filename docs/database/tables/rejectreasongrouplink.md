@@ -1,27 +1,27 @@
 ---
-uid: rejectreasongrouplink
+uid: table-rejectreasongrouplink
 title: rejectreasongrouplink table
 description: User group link table for Comptr, for MDO item hiding
 so.generated: true
 keywords:
   - "database"
-  - "rejectreasongrouplink"
-so.date: 19.03.2021
+  - "RejectReasonGroupLink"
+so.date: 21.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# RejectReasonGroupLink Table (223)
+# rejectreasongrouplink Table (223)
 
 ## Fields
 
 | Name | Description | Type | Null |
 |------|-------------|------|:----:|
 |rejectreasongrouplink\_id|Primary key|PK| |
-|rejectreason\_id|Link to RejectReason list table|FK [RejectReason](RejectReason.md)| |
-|group\_id|Link to Group table|FK [UserGroup](UserGroup.md)| |
+|rejectreason\_id|Link to RejectReason list table|FK [rejectreason](rejectreason.md)| |
+|group\_id|Link to Group table|FK [usergroup](usergroup.md)| |
 |registered|Registered when|UtcDateTime| |
 |registered\_associate\_id|Registered by whom|FK [associate](associate.md)| |
 |updated|Last updated when|UtcDateTime| |
@@ -29,7 +29,7 @@ so.envir:
 |updatedCount|Number of updates made to this record|UShort| |
 
 
-![RejectReasonGroupLink table relationship diagram](media\RejectReasonGroupLink.png)
+![RejectReasonGroupLink table relationship diagram](./media/RejectReasonGroupLink.png)
 
 [!include[details](./includes/RejectReasonGroupLink.md)]
 

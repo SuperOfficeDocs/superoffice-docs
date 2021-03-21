@@ -1,19 +1,19 @@
 ---
-uid: foreignapp
+uid: table-foreignapp
 title: foreignapp table
 description: Top level of Foreign Key system
 so.generated: true
 keywords:
   - "database"
   - "foreignapp"
-so.date: 19.03.2021
+so.date: 21.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# Foreignapp Table (181)
+# foreignapp Table (181)
 
 ## Fields
 
@@ -28,7 +28,7 @@ so.envir:
 |updatedCount|Number of updates made to this record|UShort| |
 
 
-![foreignapp table relationship diagram](media\foreignapp.png)
+![foreignapp table relationship diagram](./media/foreignapp.png)
 
 [!include[details](./includes/foreignapp.md)]
 

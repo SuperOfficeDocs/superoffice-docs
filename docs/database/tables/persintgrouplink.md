@@ -1,27 +1,27 @@
 ---
-uid: persintgrouplink
+uid: table-persintgrouplink
 title: persintgrouplink table
 description: User group link table for PersInt, for MDO item hiding
 so.generated: true
 keywords:
   - "database"
-  - "persintgrouplink"
-so.date: 19.03.2021
+  - "PersIntGroupLink"
+so.date: 21.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# PersIntGroupLink Table (74)
+# persintgrouplink Table (74)
 
 ## Fields
 
 | Name | Description | Type | Null |
 |------|-------------|------|:----:|
 |persintgrouplink\_id|Primary key|PK| |
-|persint\_id|Link to PersInt list table|FK [PersInt](PersInt.md)| |
-|group\_id|Link to Group table|FK [UserGroup](UserGroup.md)| |
+|persint\_id|Link to PersInt list table|FK [persint](persint.md)| |
+|group\_id|Link to Group table|FK [usergroup](usergroup.md)| |
 |registered|Registered when|UtcDateTime| |
 |registered\_associate\_id|Registered by whom|FK [associate](associate.md)| |
 |updated|Last updated when|UtcDateTime| |
@@ -29,7 +29,7 @@ so.envir:
 |updatedCount|Number of updates made to this record|UShort| |
 
 
-![PersIntGroupLink table relationship diagram](media\PersIntGroupLink.png)
+![PersIntGroupLink table relationship diagram](./media/PersIntGroupLink.png)
 
 [!include[details](./includes/PersIntGroupLink.md)]
 

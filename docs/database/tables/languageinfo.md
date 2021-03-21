@@ -1,19 +1,19 @@
 ---
-uid: languageinfo
+uid: table-languageinfo
 title: languageinfo table
 description: Information about languages, from ISO standards and related information
 so.generated: true
 keywords:
   - "database"
-  - "languageinfo"
-so.date: 19.03.2021
+  - "LanguageInfo"
+so.date: 21.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# LanguageInfo Table (210)
+# languageinfo Table (210)
 
 ## Fields
 
@@ -33,7 +33,7 @@ so.envir:
 |isBuiltIn|Has this row been inserted by SuperOffice priming data|UShort| |
 
 
-![LanguageInfo table relationship diagram](media\LanguageInfo.png)
+![LanguageInfo table relationship diagram](./media/LanguageInfo.png)
 
 [!include[details](./includes/LanguageInfo.md)]
 

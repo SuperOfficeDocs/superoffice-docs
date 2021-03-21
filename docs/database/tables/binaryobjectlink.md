@@ -1,30 +1,30 @@
 ---
-uid: binaryobjectlink
+uid: table-binaryobjectlink
 title: binaryobjectlink table
 description: Link table, connects a BinaryObject with one or more owners
 so.generated: true
 keywords:
   - "database"
-  - "binaryobjectlink"
-so.date: 19.03.2021
+  - "BinaryObjectLink"
+so.date: 21.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# BinaryObjectLink Table (206)
+# binaryobjectlink Table (206)
 
 ## Fields
 
 | Name | Description | Type | Null |
 |------|-------------|------|:----:|
 |BinaryObjectLink\_id|Primary key|PK| |
-|binaryObjectId|The binary object we link to|FK [BinaryObject](BinaryObject.md)| |
+|binaryObjectId|The binary object we link to|FK [binaryobject](binaryobject.md)| |
 |ownerTable|The owner table|TableNumber| |
 |ownerRecord|The owner record|RecordId| |
 |linkComment|Link comment, optional|String(254)|&#x25CF;|
-|linkType|The link type|Enum [BlobLinkType](enums\EnumBlobLinkType.md)| |
+|linkType|The link type|Enum [bloblinktype](enums/bloblinktype.md)| |
 |rank|Link rank, in case there are more of one type to one owner|UShort| |
 |registered|Registered when|UtcDateTime| |
 |registered\_associate\_id|Registered by whom|FK [associate](associate.md)| |
@@ -33,7 +33,7 @@ so.envir:
 |updatedCount|Number of updates made to this record|UShort| |
 
 
-![BinaryObjectLink table relationship diagram](media\BinaryObjectLink.png)
+![BinaryObjectLink table relationship diagram](./media/BinaryObjectLink.png)
 
 [!include[details](./includes/BinaryObjectLink.md)]
 

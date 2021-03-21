@@ -1,19 +1,19 @@
 ---
-uid: consentpurpose
+uid: table-consentpurpose
 title: consentpurpose table
 description: GDPR purpose alternatives
 so.generated: true
 keywords:
   - "database"
-  - "consentpurpose"
-so.date: 19.03.2021
+  - "ConsentPurpose"
+so.date: 21.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# ConsentPurpose Table (463)
+# consentpurpose Table (463)
 
 ## Fields
 
@@ -37,9 +37,7 @@ so.envir:
 |updatedCount|Number of updates made to this record|UShort| |
 
 
-![ConsentPurpose table relationship diagram](media\ConsentPurpose.png)
-
-[!include[details](./includes/ConsentPurpose.md)]
+![ConsentPurpose table relationship diagram](./media/ConsentPurpose.png)
 
 ## Indexes
 

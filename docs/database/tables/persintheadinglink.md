@@ -1,27 +1,27 @@
 ---
-uid: persintheadinglink
+uid: table-persintheadinglink
 title: persintheadinglink table
 description: Heading link table for PersInt, for MDO headers
 so.generated: true
 keywords:
   - "database"
-  - "persintheadinglink"
-so.date: 19.03.2021
+  - "PersIntHeadingLink"
+so.date: 21.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# PersIntHeadingLink Table (75)
+# persintheadinglink Table (75)
 
 ## Fields
 
 | Name | Description | Type | Null |
 |------|-------------|------|:----:|
 |persintheadinglink\_id|Primary key|PK| |
-|persint\_id|Link to PersInt list table|FK [PersInt](PersInt.md)| |
-|heading\_id|Link to Heading table|FK [Heading](Heading.md)| |
+|persint\_id|Link to PersInt list table|FK [persint](persint.md)| |
+|heading\_id|Link to Heading table|FK [heading](heading.md)| |
 |registered|Registered when|UtcDateTime| |
 |registered\_associate\_id|Registered by whom|FK [associate](associate.md)| |
 |updated|Last updated when|UtcDateTime| |
@@ -29,7 +29,7 @@ so.envir:
 |updatedCount|Number of updates made to this record|UShort| |
 
 
-![PersIntHeadingLink table relationship diagram](media\PersIntHeadingLink.png)
+![PersIntHeadingLink table relationship diagram](./media/PersIntHeadingLink.png)
 
 [!include[details](./includes/PersIntHeadingLink.md)]
 

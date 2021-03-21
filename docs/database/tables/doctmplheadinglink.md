@@ -1,27 +1,27 @@
 ---
-uid: doctmplheadinglink
+uid: table-doctmplheadinglink
 title: doctmplheadinglink table
 description: Heading link table for DocTmpl, for MDO headers
 so.generated: true
 keywords:
   - "database"
-  - "doctmplheadinglink"
-so.date: 19.03.2021
+  - "DocTmplHeadingLink"
+so.date: 21.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# DocTmplHeadingLink Table (132)
+# doctmplheadinglink Table (132)
 
 ## Fields
 
 | Name | Description | Type | Null |
 |------|-------------|------|:----:|
 |doctmplheadinglink\_id|Primary key|PK| |
-|doctmpl\_id|Link to DocTmpl list table|FK [DocTmpl](DocTmpl.md)| |
-|heading\_id|Link to Heading table|FK [Heading](Heading.md)| |
+|doctmpl\_id|Link to DocTmpl list table|FK [doctmpl](doctmpl.md)| |
+|heading\_id|Link to Heading table|FK [heading](heading.md)| |
 |registered|Registered when|UtcDateTime| |
 |registered\_associate\_id|Registered by whom|FK [associate](associate.md)| |
 |updated|Last updated when|UtcDateTime| |
@@ -29,7 +29,7 @@ so.envir:
 |updatedCount|Number of updates made to this record|UShort| |
 
 
-![DocTmplHeadingLink table relationship diagram](media\DocTmplHeadingLink.png)
+![DocTmplHeadingLink table relationship diagram](./media/DocTmplHeadingLink.png)
 
 [!include[details](./includes/DocTmplHeadingLink.md)]
 

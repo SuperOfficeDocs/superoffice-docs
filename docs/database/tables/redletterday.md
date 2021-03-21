@@ -1,19 +1,19 @@
 ---
-uid: redletterday
+uid: table-redletterday
 title: redletterday table
 description: Red letter days for calendar (holidays, birthday of king etc)
 so.generated: true
 keywords:
   - "database"
   - "redletterday"
-so.date: 19.03.2021
+so.date: 21.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# Redletterday Table (17)
+# redletterday Table (17)
 
 ## Fields
 
@@ -31,7 +31,7 @@ so.envir:
 |extraFlags|Extra flags, spare field|UInt|&#x25CF;|
 
 
-![redletterday table relationship diagram](media\redletterday.png)
+![redletterday table relationship diagram](./media/redletterday.png)
 
 [!include[details](./includes/redletterday.md)]
 

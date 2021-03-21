@@ -1,27 +1,27 @@
 ---
-uid: pmembtypegrouplink
+uid: table-pmembtypegrouplink
 title: pmembtypegrouplink table
 description: User group link table for PMembType, for MDO item hiding
 so.generated: true
 keywords:
   - "database"
-  - "pmembtypegrouplink"
-so.date: 19.03.2021
+  - "PMembTypeGroupLink"
+so.date: 21.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# PMembTypeGroupLink Table (92)
+# pmembtypegrouplink Table (92)
 
 ## Fields
 
 | Name | Description | Type | Null |
 |------|-------------|------|:----:|
 |pmembtypegrouplink\_id|Primary key|PK| |
-|pmembtype\_id|Link to PMembType list table|FK [PMembType](PMembType.md)| |
-|group\_id|Link to Group table|FK [UserGroup](UserGroup.md)| |
+|pmembtype\_id|Link to PMembType list table|FK [pmembtype](pmembtype.md)| |
+|group\_id|Link to Group table|FK [usergroup](usergroup.md)| |
 |registered|Registered when|UtcDateTime| |
 |registered\_associate\_id|Registered by whom|FK [associate](associate.md)| |
 |updated|Last updated when|UtcDateTime| |
@@ -29,7 +29,7 @@ so.envir:
 |updatedCount|Number of updates made to this record|UShort| |
 
 
-![PMembTypeGroupLink table relationship diagram](media\PMembTypeGroupLink.png)
+![PMembTypeGroupLink table relationship diagram](./media/PMembTypeGroupLink.png)
 
 [!include[details](./includes/PMembTypeGroupLink.md)]
 

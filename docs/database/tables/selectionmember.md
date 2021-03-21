@@ -1,19 +1,19 @@
 ---
-uid: selectionmember
+uid: table-selectionmember
 title: selectionmember table
 description: Selection detail table  Each row in a selection is represented by one record in this table. Contact_id is always filled in, person_id is optional, but if used, must point to a person belonging to the contact in contact_id.
 so.generated: true
 keywords:
   - "database"
   - "selectionmember"
-so.date: 19.03.2021
+so.date: 21.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# Selectionmember Table (24)
+# selectionmember Table (24)
 
 ## Fields
 
@@ -27,7 +27,7 @@ so.envir:
 |targetRecordId|Record id of the target that this selection member points to|RecordId|&#x25CF;|
 
 
-![selectionmember table relationship diagram](media\selectionmember.png)
+![selectionmember table relationship diagram](./media/selectionmember.png)
 
 [!include[details](./includes/selectionmember.md)]
 

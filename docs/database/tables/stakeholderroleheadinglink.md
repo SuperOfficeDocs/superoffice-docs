@@ -1,27 +1,27 @@
 ---
-uid: stakeholderroleheadinglink
+uid: table-stakeholderroleheadinglink
 title: stakeholderroleheadinglink table
 description: Heading link table for StakeholderRole, for MDO headers
 so.generated: true
 keywords:
   - "database"
-  - "stakeholderroleheadinglink"
-so.date: 19.03.2021
+  - "StakeholderRoleHeadingLink"
+so.date: 21.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# StakeholderRoleHeadingLink Table (124)
+# stakeholderroleheadinglink Table (124)
 
 ## Fields
 
 | Name | Description | Type | Null |
 |------|-------------|------|:----:|
 |stakeholderroleheadinglink\_id|Primary key|PK| |
-|stakeholderrole\_id|Link to StakeholderRole list table|FK [StakeholderRole](StakeholderRole.md)| |
-|heading\_id|Link to Heading table|FK [Heading](Heading.md)| |
+|stakeholderrole\_id|Link to StakeholderRole list table|FK [stakeholderrole](stakeholderrole.md)| |
+|heading\_id|Link to Heading table|FK [heading](heading.md)| |
 |registered|Registered when|UtcDateTime| |
 |registered\_associate\_id|Registered by whom|FK [associate](associate.md)| |
 |updated|Last updated when|UtcDateTime| |
@@ -29,7 +29,7 @@ so.envir:
 |updatedCount|Number of updates made to this record|UShort| |
 
 
-![StakeholderRoleHeadingLink table relationship diagram](media\StakeholderRoleHeadingLink.png)
+![StakeholderRoleHeadingLink table relationship diagram](./media/StakeholderRoleHeadingLink.png)
 
 [!include[details](./includes/StakeholderRoleHeadingLink.md)]
 

@@ -1,19 +1,19 @@
 ---
-uid: winpossize
+uid: table-winpossize
 title: winpossize table
 description: Stores the position and size of each window, so they can be shown in the same place again
 so.generated: true
 keywords:
   - "database"
-  - "winpossize"
-so.date: 19.03.2021
+  - "WinPosSize"
+so.date: 21.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# WinPosSize Table (208)
+# winpossize Table (208)
 
 ## Fields
 
@@ -22,7 +22,7 @@ so.envir:
 |WinPosSize\_id|Primary key|PK| |
 |assoc\_id|Owning associate|FK [associate](associate.md)| |
 |owner|The dialog, panel or whatever that owns this record|String(254)| |
-|state|Normal = 0, Maximized = 1, Minimized = 2|Enum [ShowWindowState](enums\EnumShowWindowState.md)| |
+|state|Normal = 0, Maximized = 1, Minimized = 2|Enum [showwindowstate](enums/showwindowstate.md)| |
 |extraId|Spare ID, not yet in use|Id|&#x25CF;|
 |leftX|X of origin, left edge of widget|Int| |
 |upperY|Y of origin, upper edge of widget|Int| |
@@ -36,7 +36,7 @@ so.envir:
 |updatedCount|Number of updates made to this record|UShort| |
 
 
-![WinPosSize table relationship diagram](media\WinPosSize.png)
+![WinPosSize table relationship diagram](./media/WinPosSize.png)
 
 [!include[details](./includes/WinPosSize.md)]
 

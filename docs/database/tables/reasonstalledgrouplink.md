@@ -1,27 +1,27 @@
 ---
-uid: reasonstalledgrouplink
+uid: table-reasonstalledgrouplink
 title: reasonstalledgrouplink table
 description: Link table for ReasonStalled, for MDO item hiding
 so.generated: true
 keywords:
   - "database"
-  - "reasonstalledgrouplink"
-so.date: 19.03.2021
+  - "ReasonStalledGroupLink"
+so.date: 21.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# ReasonStalledGroupLink Table (155)
+# reasonstalledgrouplink Table (155)
 
 ## Fields
 
 | Name | Description | Type | Null |
 |------|-------------|------|:----:|
 |reasonstalledgrouplink\_id|Primary key|PK| |
-|reasonstalled\_id|Link to ReasonStalled list table|FK [ReasonStalled](ReasonStalled.md)| |
-|group\_id|Link to Group table|FK [UserGroup](UserGroup.md)| |
+|reasonstalled\_id|Link to ReasonStalled list table|FK [reasonstalled](reasonstalled.md)| |
+|group\_id|Link to Group table|FK [usergroup](usergroup.md)| |
 |registered|Registered when|UtcDateTime| |
 |registered\_associate\_id|Registered by whom|FK [associate](associate.md)| |
 |updated|Last updated when|UtcDateTime| |
@@ -29,7 +29,7 @@ so.envir:
 |updatedCount|Number of updates made to this record|UShort| |
 
 
-![ReasonStalledGroupLink table relationship diagram](media\ReasonStalledGroupLink.png)
+![ReasonStalledGroupLink table relationship diagram](./media/ReasonStalledGroupLink.png)
 
 [!include[details](./includes/ReasonStalledGroupLink.md)]
 

@@ -1,27 +1,27 @@
 ---
-uid: importrelation
+uid: table-importrelation
 title: importrelation table
 description: Relations between import objects
 so.generated: true
 keywords:
   - "database"
-  - "importrelation"
-so.date: 19.03.2021
+  - "ImportRelation"
+so.date: 21.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# ImportRelation Table (188)
+# importrelation Table (188)
 
 ## Fields
 
 | Name | Description | Type | Null |
 |------|-------------|------|:----:|
 |ImportRelation\_id|Primary key|PK| |
-|source|The dependent object (source of relation edge)|FK [ImportObject](ImportObject.md)| |
-|target|The primary object (target of relation edge)|FK [ImportObject](ImportObject.md)| |
+|source|The dependent object (source of relation edge)|FK [importobject](importobject.md)| |
+|target|The primary object (target of relation edge)|FK [importobject](importobject.md)| |
 |edgeColour|1=Red, 2=Black|UShort| |
 |foreignKey|The database field ID of the foreign key field in the dependent table. NOTE If it is 0, it means this relation should NOT lead to an edge in the graph.|FieldId| |
 |forcePrimary|1=Forces creation of primary object as soon as dependent is created|UShort| |
@@ -33,7 +33,7 @@ so.envir:
 |isBuiltin|1 = This row populated and maintained by SuperOffice|UShort|&#x25CF;|
 
 
-![ImportRelation table relationship diagram](media\ImportRelation.png)
+![ImportRelation table relationship diagram](./media/ImportRelation.png)
 
 [!include[details](./includes/ImportRelation.md)]
 

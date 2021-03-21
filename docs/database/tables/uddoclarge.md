@@ -1,19 +1,19 @@
 ---
-uid: uddoclarge
+uid: table-uddoclarge
 title: uddoclarge table
 description: User-defined fields
 so.generated: true
 keywords:
   - "database"
   - "uddoclarge"
-so.date: 19.03.2021
+so.date: 21.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# Uddoclarge Table (231)
+# uddoclarge Table (231)
 
 ## Fields
 
@@ -31,7 +31,7 @@ so.envir:
 |string49|string value 49, not indexed|String(199)|&#x25CF;|
 
 
-![uddoclarge table relationship diagram](media\uddoclarge.png)
+![uddoclarge table relationship diagram](./media/uddoclarge.png)
 
 [!include[details](./includes/uddoclarge.md)]
 

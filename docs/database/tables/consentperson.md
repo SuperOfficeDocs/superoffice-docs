@@ -1,19 +1,19 @@
 ---
-uid: consentperson
+uid: table-consentperson
 title: consentperson table
 description: Link table that defines who has which consents
 so.generated: true
 keywords:
   - "database"
-  - "consentperson"
-so.date: 19.03.2021
+  - "ConsentPerson"
+so.date: 21.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# ConsentPerson Table (466)
+# consentperson Table (466)
 
 ## Fields
 
@@ -21,9 +21,9 @@ so.envir:
 |------|-------------|------|:----:|
 |consentperson\_id|Primary key|PK| |
 |person\_id|Person who gave consent|FK [person](person.md)|&#x25CF;|
-|consentPurpose\_id|Legal base|FK [ConsentPurpose](ConsentPurpose.md)|&#x25CF;|
-|legalBase\_id|Legal base|FK [LegalBase](LegalBase.md)|&#x25CF;|
-|consentSource\_id|Consent source|FK [ConsentSource](ConsentSource.md)|&#x25CF;|
+|consentPurpose\_id|Legal base|FK [consentpurpose](consentpurpose.md)|&#x25CF;|
+|legalBase\_id|Legal base|FK [legalbase](legalbase.md)|&#x25CF;|
+|consentSource\_id|Consent source|FK [consentsource](consentsource.md)|&#x25CF;|
 |comment|A comment describing why this GDPR change was made|String(255)|&#x25CF;|
 |registered|Registered when|UtcDateTime| |
 |registered\_associate\_id|Registered by whom|FK [associate](associate.md)| |
@@ -32,9 +32,7 @@ so.envir:
 |updatedCount|Number of updates made to this record|UShort| |
 
 
-![ConsentPerson table relationship diagram](media\ConsentPerson.png)
-
-[!include[details](./includes/ConsentPerson.md)]
+![ConsentPerson table relationship diagram](./media/ConsentPerson.png)
 
 ## Indexes
 

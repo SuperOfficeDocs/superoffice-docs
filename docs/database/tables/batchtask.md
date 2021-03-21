@@ -1,26 +1,26 @@
 ---
-uid: batchtask
+uid: table-batchtask
 title: batchtask table
 description: Batch task request details, corresponding to the message body of a batch request message
 so.generated: true
 keywords:
   - "database"
-  - "batchtask"
-so.date: 19.03.2021
+  - "BatchTask"
+so.date: 21.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# BatchTask Table (243)
+# batchtask Table (243)
 
 ## Fields
 
 | Name | Description | Type | Null |
 |------|-------------|------|:----:|
 |BatchTask\_id|Primary key|PK| |
-|BatchTaskDefinition\_id|Batch task definition, which is populated from code attributes|FK [BatchTaskDefinition](BatchTaskDefinition.md)|&#x25CF;|
+|BatchTaskDefinition\_id|Batch task definition, which is populated from code attributes|FK [batchtaskdefinition](batchtaskdefinition.md)|&#x25CF;|
 |description|Description of task (for monitoring and debugging)|String(254)| |
 |dbTag|Database tag that this task applies to, to ensure tasks are execute on the correct database only|String(39)| |
 |state|0=Unknown; 1=New; 2=Assigned; 3=Started; 4=Succeeded; 5=Failed|Int| |
@@ -39,7 +39,7 @@ so.envir:
 |updatedCount|&apos;heartbeat&apos; that is updated once a minute by the batch task process|UShort| |
 
 
-![BatchTask table relationship diagram](media\BatchTask.png)
+![BatchTask table relationship diagram](./media/BatchTask.png)
 
 [!include[details](./includes/BatchTask.md)]
 

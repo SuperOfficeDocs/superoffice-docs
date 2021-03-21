@@ -1,28 +1,28 @@
 ---
-uid: erpconnectionactortype
+uid: table-erpconnectionactortype
 title: erpconnectionactortype table
 description: Data about the configuration of one Erp Actor on one ErpConnection
 so.generated: true
 keywords:
   - "database"
-  - "erpconnectionactortype"
-so.date: 19.03.2021
+  - "ErpConnectionActorType"
+so.date: 21.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# ErpConnectionActorType Table (419)
+# erpconnectionactortype Table (419)
 
 ## Fields
 
 | Name | Description | Type | Null |
 |------|-------------|------|:----:|
 |erpconnectionactortype\_id|Primary key|PK| |
-|ErpConnectionId|The connection this actor is configured for|FK [ErpConnection](ErpConnection.md)| |
-|ActorTypeErp|The actor type (ERP side)|Enum [ErpActorType](enums\EnumErpActorType.md)| |
-|ActorTypeCrm|The actor type (CRM side)|Enum [CrmActorType](enums\EnumCrmActorType.md)|&#x25CF;|
+|ErpConnectionId|The connection this actor is configured for|FK [erpconnection](erpconnection.md)| |
+|ActorTypeErp|The actor type (ERP side)|Enum [erpactortype](enums/erpactortype.md)| |
+|ActorTypeCrm|The actor type (CRM side)|Enum [crmactortype](enums/crmactortype.md)|&#x25CF;|
 |IsActive|Is this mapping/synchronization configuration currently active|Bool| |
 |registered|Registered when|UtcDateTime| |
 |registered\_associate\_id|Registered by whom|FK [associate](associate.md)| |
@@ -31,7 +31,7 @@ so.envir:
 |updatedCount|Number of updates made to this record|UShort| |
 
 
-![ErpConnectionActorType table relationship diagram](media\ErpConnectionActorType.png)
+![ErpConnectionActorType table relationship diagram](./media/ErpConnectionActorType.png)
 
 [!include[details](./includes/ErpConnectionActorType.md)]
 

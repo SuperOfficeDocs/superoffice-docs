@@ -1,21 +1,21 @@
 ---
-uid: prob
+uid: table-prob
 title: prob table
 description: Prob list table. Probability, used in  sales .
 so.generated: true
 keywords:
   - "database"
-  - "prob"
-so.date: 19.03.2021
+  - "Prob"
+so.date: 21.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# Prob Table (82)
+# prob Table (82)
 
-Prob MDO list item table.
+prob MDO list item table.
 Prob list table. Probability, used in  sales .
 
 ## Fields
@@ -35,7 +35,7 @@ Prob list table. Probability, used in  sales .
 |updatedCount|Number of updates made to this record|UShort| |
 
 
-![Prob table relationship diagram](media\Prob.png)
+![Prob table relationship diagram](./media/Prob.png)
 
 [!include[details](./includes/Prob.md)]
 

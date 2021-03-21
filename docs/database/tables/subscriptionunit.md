@@ -1,21 +1,21 @@
 ---
-uid: subscriptionunit
+uid: table-subscriptionunit
 title: subscriptionunit table
 description: The list of Subscription units, in the internal product register (year/quarter/month etc., or perhaps amounts if volume-based subscription)
 so.generated: true
 keywords:
   - "database"
-  - "subscriptionunit"
-so.date: 19.03.2021
+  - "SubscriptionUnit"
+so.date: 21.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# SubscriptionUnit Table (442)
+# subscriptionunit Table (442)
 
-SubscriptionUnit MDO list item table.
+subscriptionunit MDO list item table.
 The list of Subscription units, in the internal product register (year/quarter/month etc., or perhaps amounts if volume-based subscription)
 
 ## Fields
@@ -34,7 +34,7 @@ The list of Subscription units, in the internal product register (year/quarter/m
 |updatedCount|Number of updates made to this record|UShort| |
 
 
-![SubscriptionUnit table relationship diagram](media\SubscriptionUnit.png)
+![SubscriptionUnit table relationship diagram](./media/SubscriptionUnit.png)
 
 [!include[details](./includes/SubscriptionUnit.md)]
 

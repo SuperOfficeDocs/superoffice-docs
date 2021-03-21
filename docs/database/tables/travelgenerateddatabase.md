@@ -1,19 +1,19 @@
 ---
-uid: travelgenerateddatabase
+uid: table-travelgenerateddatabase
 title: travelgenerateddatabase table
 description: Information about all databases generated from this database
 so.generated: true
 keywords:
   - "database"
   - "travelgenerateddatabase"
-so.date: 19.03.2021
+so.date: 21.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# Travelgenerateddatabase Table (33)
+# travelgenerateddatabase Table (33)
 
 ## Fields
 
@@ -33,7 +33,7 @@ so.envir:
 |updatedCount|Number of updates made to this record|UShort| |
 
 
-![travelgenerateddatabase table relationship diagram](media\travelgenerateddatabase.png)
+![travelgenerateddatabase table relationship diagram](./media/travelgenerateddatabase.png)
 
 [!include[details](./includes/travelgenerateddatabase.md)]
 

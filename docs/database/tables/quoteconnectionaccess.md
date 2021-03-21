@@ -1,28 +1,28 @@
 ---
-uid: quoteconnectionaccess
+uid: table-quoteconnectionaccess
 title: quoteconnectionaccess table
 description: Access control for Quote Connections
 so.generated: true
 keywords:
   - "database"
-  - "quoteconnectionaccess"
-so.date: 19.03.2021
+  - "QuoteConnectionAccess"
+so.date: 21.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# QuoteConnectionAccess Table (27)
+# quoteconnectionaccess Table (27)
 
 ## Fields
 
 | Name | Description | Type | Null |
 |------|-------------|------|:----:|
 |quoteconnectionaccess\_id|Primary key|PK| |
-|QuoteConnectionId|Link to quote connection we&apos;re granting access for|FK [QuoteConnection](QuoteConnection.md)| |
+|QuoteConnectionId|Link to quote connection we&apos;re granting access for|FK [quoteconnection](quoteconnection.md)| |
 |AssociateId|If set, then this row grants access for a particular associate|FK [associate](associate.md)|&#x25CF;|
-|UserGroupId|If set, then this row grants access for a particular group of users|FK [UserGroup](UserGroup.md)|&#x25CF;|
+|UserGroupId|If set, then this row grants access for a particular group of users|FK [usergroup](usergroup.md)|&#x25CF;|
 |registered|Registered when|UtcDateTime| |
 |registered\_associate\_id|Registered by whom|FK [associate](associate.md)| |
 |updated|Last updated when|UtcDateTime| |
@@ -30,7 +30,7 @@ so.envir:
 |updatedCount|Number of updates made to this record|UShort| |
 
 
-![QuoteConnectionAccess table relationship diagram](media\QuoteConnectionAccess.png)
+![QuoteConnectionAccess table relationship diagram](./media/QuoteConnectionAccess.png)
 
 [!include[details](./includes/QuoteConnectionAccess.md)]
 

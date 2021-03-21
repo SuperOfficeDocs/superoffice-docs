@@ -1,21 +1,21 @@
 ---
-uid: comptr
+uid: table-comptr
 title: comptr table
 description: Comptr list table. List of all possible competitors (sale).
 so.generated: true
 keywords:
   - "database"
-  - "comptr"
-so.date: 19.03.2021
+  - "Comptr"
+so.date: 21.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# Comptr Table (109)
+# comptr Table (109)
 
-Comptr MDO list item table.
+comptr MDO list item table.
 Comptr list table. List of all possible competitors (sale).
 
 ## Fields
@@ -34,7 +34,7 @@ Comptr list table. List of all possible competitors (sale).
 |updatedCount|Number of updates made to this record|UShort| |
 
 
-![Comptr table relationship diagram](media\Comptr.png)
+![Comptr table relationship diagram](./media/Comptr.png)
 
 [!include[details](./includes/Comptr.md)]
 

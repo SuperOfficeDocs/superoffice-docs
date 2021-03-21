@@ -1,27 +1,27 @@
 ---
-uid: paymenttypegrouplink
+uid: table-paymenttypegrouplink
 title: paymenttypegrouplink table
 description: User group link table for PaymentType, for MDO item hiding
 so.generated: true
 keywords:
   - "database"
-  - "paymenttypegrouplink"
-so.date: 19.03.2021
+  - "PaymentTypeGroupLink"
+so.date: 21.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# PaymentTypeGroupLink Table (431)
+# paymenttypegrouplink Table (431)
 
 ## Fields
 
 | Name | Description | Type | Null |
 |------|-------------|------|:----:|
 |paymenttypegrouplink\_id|Primary key|PK| |
-|paymenttype\_id|Link to PaymentType list table|FK [PaymentType](PaymentType.md)| |
-|group\_id|Link to Group table|FK [UserGroup](UserGroup.md)| |
+|paymenttype\_id|Link to PaymentType list table|FK [paymenttype](paymenttype.md)| |
+|group\_id|Link to Group table|FK [usergroup](usergroup.md)| |
 |registered|Registered when|UtcDateTime| |
 |registered\_associate\_id|Registered by whom|FK [associate](associate.md)| |
 |updated|Last updated when|UtcDateTime| |
@@ -29,7 +29,7 @@ so.envir:
 |updatedCount|Number of updates made to this record|UShort| |
 
 
-![PaymentTypeGroupLink table relationship diagram](media\PaymentTypeGroupLink.png)
+![PaymentTypeGroupLink table relationship diagram](./media/PaymentTypeGroupLink.png)
 
 [!include[details](./includes/PaymentTypeGroupLink.md)]
 

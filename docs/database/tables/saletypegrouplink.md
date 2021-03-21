@@ -1,27 +1,27 @@
 ---
-uid: saletypegrouplink
+uid: table-saletypegrouplink
 title: saletypegrouplink table
 description: User group link table for SaleType, for MDO item hiding
 so.generated: true
 keywords:
   - "database"
-  - "saletypegrouplink"
-so.date: 19.03.2021
+  - "SaleTypeGroupLink"
+so.date: 21.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# SaleTypeGroupLink Table (150)
+# saletypegrouplink Table (150)
 
 ## Fields
 
 | Name | Description | Type | Null |
 |------|-------------|------|:----:|
 |saletypegrouplink\_id|Primary key|PK| |
-|saletype\_id|Link to SaleType list table|FK [SaleType](SaleType.md)| |
-|group\_id|Link to Group table|FK [UserGroup](UserGroup.md)| |
+|saletype\_id|Link to SaleType list table|FK [saletype](saletype.md)| |
+|group\_id|Link to Group table|FK [usergroup](usergroup.md)| |
 |registered|Registered when|UtcDateTime| |
 |registered\_associate\_id|Registered by whom|FK [associate](associate.md)| |
 |updated|Last updated when|UtcDateTime| |
@@ -29,7 +29,7 @@ so.envir:
 |updatedCount|Number of updates made to this record|UShort| |
 
 
-![SaleTypeGroupLink table relationship diagram](media\SaleTypeGroupLink.png)
+![SaleTypeGroupLink table relationship diagram](./media/SaleTypeGroupLink.png)
 
 [!include[details](./includes/SaleTypeGroupLink.md)]
 

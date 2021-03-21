@@ -1,19 +1,19 @@
 ---
-uid: attachment
+uid: table-attachment
 title: attachment table
 description: This table contains metadata for attachments. The actual attachments are stored directly on disk, with filenames based on the the primary key for this table.
 so.generated: true
 keywords:
   - "database"
   - "attachment"
-so.date: 19.03.2021
+so.date: 21.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# Attachment Table (296)
+# attachment Table (296)
 
 ## Fields
 
@@ -25,14 +25,14 @@ so.envir:
 |att\_size|The size (in bytes) for the attachment.|Int|&#x25CF;|
 |auth\_key|The key used for authenticating access to this attachment.|String(255)|&#x25CF;|
 |charset|The charset if this is a text attachment|String(255)|&#x25CF;|
-|dbi\_agent\_id|Integration agent (eJournal)|FK [dbi_agent](dbi_agent.md)| |
+|dbi\_agent\_id|Integration agent (eJournal)|FK [dbi-agent](dbi-agent.md)| |
 |dbi\_key|The primary key for the integrated entry in the external datasource.|String(255)| |
 |dbi\_last\_syncronized|Last external syncronization.|DateTime| |
 |dbi\_last\_modified|When the entry was last modified.|DateTime| |
-|attachment\_location\_id|The id of the attachment_location this attachment is stored in|FK [attachment_location](attachment_location.md)|&#x25CF;|
+|attachment\_location\_id|The id of the attachment_location this attachment is stored in|FK [attachment-location](attachment-location.md)|&#x25CF;|
 
 
-![attachment table relationship diagram](media\attachment.png)
+![attachment table relationship diagram](./media/attachment.png)
 
 [!include[details](./includes/attachment.md)]
 

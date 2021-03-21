@@ -1,19 +1,19 @@
 ---
-uid: help
+uid: table-help
 title: help table
 description: This table contains the help pages.
 so.generated: true
 keywords:
   - "database"
   - "help"
-so.date: 19.03.2021
+so.date: 21.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# Help Table (302)
+# help Table (302)
 
 ## Fields
 
@@ -31,7 +31,7 @@ so.envir:
 |body|The actual body for the helppage. HTML format.|Clob|&#x25CF;|
 
 
-![help table relationship diagram](media\help.png)
+![help table relationship diagram](./media/help.png)
 
 [!include[details](./includes/help.md)]
 

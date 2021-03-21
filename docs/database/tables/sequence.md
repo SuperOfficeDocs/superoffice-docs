@@ -1,19 +1,19 @@
 ---
-uid: sequence
+uid: table-sequence
 title: sequence table
 description: next_id to be used for each table
 so.generated: true
 keywords:
   - "database"
   - "sequence"
-so.date: 19.03.2021
+so.date: 21.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# Sequence Table (0)
+# sequence Table (0)
 
 ## Fields
 
@@ -25,7 +25,7 @@ so.envir:
 |TableNumber|The table number for this table, constant over the table&apos;s lifetime (but possibly different from one database to another|Int|&#x25CF;|
 
 
-![sequence table relationship diagram](media\sequence.png)
+![sequence table relationship diagram](./media/sequence.png)
 
 [!include[details](./includes/sequence.md)]
 

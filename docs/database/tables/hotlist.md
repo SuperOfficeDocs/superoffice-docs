@@ -1,19 +1,19 @@
 ---
-uid: hotlist
+uid: table-hotlist
 title: hotlist table
 description: The table is used by the hotlist to store the relationship between tickets and users
 so.generated: true
 keywords:
   - "database"
   - "hotlist"
-so.date: 19.03.2021
+so.date: 21.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# Hotlist Table (363)
+# hotlist Table (363)
 
 ## Fields
 
@@ -24,7 +24,7 @@ so.envir:
 |ticket\_id|The ticket the user what to have in his hotlist|FK [ticket](ticket.md)| |
 
 
-![hotlist table relationship diagram](media\hotlist.png)
+![hotlist table relationship diagram](./media/hotlist.png)
 
 [!include[details](./includes/hotlist.md)]
 

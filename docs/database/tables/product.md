@@ -1,19 +1,19 @@
 ---
-uid: product
+uid: table-product
 title: product table
 description: One Product, member of one price list
 so.generated: true
 keywords:
   - "database"
-  - "product"
-so.date: 19.03.2021
+  - "Product"
+so.date: 21.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# Product Table (129)
+# product Table (129)
 
 ## Fields
 
@@ -21,7 +21,7 @@ so.envir:
 |------|-------------|------|:----:|
 |product\_id|Primary key|PK| |
 |ERPProductKey|Reference/foreign key to the product in the given pricelist in the product supplier system, if it exists there.|String(254)|&#x25CF;|
-|PriceListId|Foreign key to the price list that this product is a part of.|FK [PriceList](PriceList.md)|&#x25CF;|
+|PriceListId|Foreign key to the price list that this product is a part of.|FK [pricelist](pricelist.md)|&#x25CF;|
 |Name|The name to use in the user interface.|String(254)|&#x25CF;|
 |Description|The description to use, with potentially several lines. Will be used as tool-tip to use in the list user interface too.|String(2047)|&#x25CF;|
 |Code|The product code / article number in the product supplier system.|String(254)|&#x25CF;|
@@ -58,7 +58,7 @@ so.envir:
 |updatedCount|Number of updates made to this record|UShort| |
 
 
-![Product table relationship diagram](media\Product.png)
+![Product table relationship diagram](./media/Product.png)
 
 [!include[details](./includes/Product.md)]
 

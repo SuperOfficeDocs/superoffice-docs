@@ -1,27 +1,27 @@
 ---
-uid: deliverytypegrouplink
+uid: table-deliverytypegrouplink
 title: deliverytypegrouplink table
 description: User group link table for DeliveryType, for MDO item hiding
 so.generated: true
 keywords:
   - "database"
-  - "deliverytypegrouplink"
-so.date: 19.03.2021
+  - "DeliveryTypeGroupLink"
+so.date: 21.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# DeliveryTypeGroupLink Table (437)
+# deliverytypegrouplink Table (437)
 
 ## Fields
 
 | Name | Description | Type | Null |
 |------|-------------|------|:----:|
 |deliverytypegrouplink\_id|Primary key|PK| |
-|deliverytype\_id|Link to DeliveryType list table|FK [DeliveryType](DeliveryType.md)| |
-|group\_id|Link to Group table|FK [UserGroup](UserGroup.md)| |
+|deliverytype\_id|Link to DeliveryType list table|FK [deliverytype](deliverytype.md)| |
+|group\_id|Link to Group table|FK [usergroup](usergroup.md)| |
 |registered|Registered when|UtcDateTime| |
 |registered\_associate\_id|Registered by whom|FK [associate](associate.md)| |
 |updated|Last updated when|UtcDateTime| |
@@ -29,7 +29,7 @@ so.envir:
 |updatedCount|Number of updates made to this record|UShort| |
 
 
-![DeliveryTypeGroupLink table relationship diagram](media\DeliveryTypeGroupLink.png)
+![DeliveryTypeGroupLink table relationship diagram](./media/DeliveryTypeGroupLink.png)
 
 [!include[details](./includes/DeliveryTypeGroupLink.md)]
 

@@ -1,19 +1,19 @@
 ---
-uid: externalevent
+uid: table-externalevent
 title: externalevent table
 description: The definition of projects as events in Audience (or other Collaborative apps)
 so.generated: true
 keywords:
   - "database"
-  - "externalevent"
-so.date: 19.03.2021
+  - "ExternalEvent"
+so.date: 21.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# ExternalEvent Table (233)
+# externalevent Table (233)
 
 ## Fields
 
@@ -26,14 +26,14 @@ so.envir:
 |parentRecord|The thing, that has now become an Event|RecordId| |
 |signOn|Is Sign On functionality enabled|Bool| |
 |signOnTaskEnable|If not 0, a task should be created when the external user Signs On to an event|Bool| |
-|signOnTaskId|If not 0, sign on should cause an Activity of this type to be registered|FK [Task](Task.md)| |
+|signOnTaskId|If not 0, sign on should cause an Activity of this type to be registered|FK [task](task.md)| |
 |signOnAssocId|If 0, the signOn Activity should go into the persons Our Contact; if not 0, this is the Associate whose diary should get the activity|FK [associate](associate.md)| |
 |signOnTextId|If not 0, the given text should be entered into the appointment|FK [text](text.md)| |
 |signOnConfTextId|If not 0, the given text should be shown as a confirmation text before accpting Sign On|FK [text](text.md)| |
 |signOnTriggersAssign|If 1, the SignOn task should be created as an Assigned task, triggering the invitation dialog|Bool| |
 |signOff|Is Sign Off functionality enabled|Bool| |
 |signOffTaskEnable|If not 0, a task should be created when the external user Signs Off an event|Bool| |
-|signOffTaskId|If not 0, sign off should cause an Activity of this type to be registered|FK [Task](Task.md)| |
+|signOffTaskId|If not 0, sign off should cause an Activity of this type to be registered|FK [task](task.md)| |
 |signOffAssocId|If 0, the signOn Activity should go into the persons Our Contact; if not 0, this is the Associate whose diary should get the activity|FK [associate](associate.md)| |
 |signOffTextId|If not 0, the given text should be shown as a confirmation text before accpting Sign Off|FK [text](text.md)| |
 |signOffConfTextId|If not 0, the given text should be shown as a confirmation text before accpting Sign Off|FK [text](text.md)| |
@@ -45,7 +45,7 @@ so.envir:
 |updatedCount|Number of updates made to this record|UShort| |
 
 
-![ExternalEvent table relationship diagram](media\ExternalEvent.png)
+![ExternalEvent table relationship diagram](./media/ExternalEvent.png)
 
 [!include[details](./includes/ExternalEvent.md)]
 

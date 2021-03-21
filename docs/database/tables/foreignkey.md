@@ -1,19 +1,19 @@
 ---
-uid: foreignkey
+uid: table-foreignkey
 title: foreignkey table
 description: Foreign Key - enables storage of arbitrary extra key information for every table/row in SuperOffice. You may use this table to store your extra information instead of using the dictionary SDK to create your own tables.
 so.generated: true
 keywords:
   - "database"
   - "foreignkey"
-so.date: 19.03.2021
+so.date: 21.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# Foreignkey Table (183)
+# foreignkey Table (183)
 
 ## Fields
 
@@ -33,7 +33,7 @@ so.envir:
 |updatedCount|Number of updates made to this record|UShort| |
 
 
-![foreignkey table relationship diagram](media\foreignkey.png)
+![foreignkey table relationship diagram](./media/foreignkey.png)
 
 [!include[details](./includes/foreignkey.md)]
 

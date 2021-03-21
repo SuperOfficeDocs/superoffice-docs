@@ -1,19 +1,19 @@
 ---
-uid: area
+uid: table-area
 title: area table
 description: Definition of an Area (database subset for satellite and travel)
 so.generated: true
 keywords:
   - "database"
   - "area"
-so.date: 19.03.2021
+so.date: 21.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# Area Table (38)
+# area Table (38)
 
 ## Fields
 
@@ -34,7 +34,7 @@ so.envir:
 |updatedCount|Number of updates made to this record|UShort| |
 
 
-![area table relationship diagram](media\area.png)
+![area table relationship diagram](./media/area.png)
 
 [!include[details](./includes/area.md)]
 

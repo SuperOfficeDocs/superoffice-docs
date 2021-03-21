@@ -1,19 +1,19 @@
 ---
-uid: invoice
+uid: table-invoice
 title: invoice table
 description: This table contains invoice entries, normally created when an invoice is sent to a customer, and we want to update the balance.
 so.generated: true
 keywords:
   - "database"
   - "invoice"
-so.date: 19.03.2021
+so.date: 21.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# Invoice Table (265)
+# invoice Table (265)
 
 ## Fields
 
@@ -28,7 +28,7 @@ so.envir:
 |description|A string describing the invoice entry.|String(255)|&#x25CF;|
 
 
-![invoice table relationship diagram](media\invoice.png)
+![invoice table relationship diagram](./media/invoice.png)
 
 [!include[details](./includes/invoice.md)]
 

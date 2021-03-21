@@ -1,19 +1,19 @@
 ---
-uid: quoteconnection
+uid: table-quoteconnection
 title: quoteconnection table
 description: Primary key in the CRM database. Definition of a connection to an external system, for the Quote system.
 so.generated: true
 keywords:
   - "database"
-  - "quoteconnection"
-so.date: 19.03.2021
+  - "QuoteConnection"
+so.date: 21.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# QuoteConnection Table (26)
+# quoteconnection Table (26)
 
 ## Fields
 
@@ -26,7 +26,7 @@ so.envir:
 |Rank|Rank order |Int|&#x25CF;|
 |ConnectorName|Programmatic name of the Connector plugin that implements this kind of connection|String(254)| |
 |ExtraData|Optional extra data, in XML format, for configuring the connector. Connector-specific!|String(3999)|&#x25CF;|
-|ErpConnectionId|The ERP Connection that this Quote connection is an extension of|FK [ErpConnection](ErpConnection.md)|&#x25CF;|
+|ErpConnectionId|The ERP Connection that this Quote connection is an extension of|FK [erpconnection](erpconnection.md)|&#x25CF;|
 |AllAccess|Is this connection accessible to everyone?  If not, then the QuoteConnectionAccess table tells us who can access it|Bool|&#x25CF;|
 |Deleted|If set, then this is a row that has been &apos;deleted&apos;; we do not physically delete rows to avoid disaster|Bool|&#x25CF;|
 |registered|Registered when|UtcDateTime| |
@@ -36,7 +36,7 @@ so.envir:
 |updatedCount|Number of updates made to this record|UShort| |
 
 
-![QuoteConnection table relationship diagram](media\QuoteConnection.png)
+![QuoteConnection table relationship diagram](./media/QuoteConnection.png)
 
 [!include[details](./includes/QuoteConnection.md)]
 

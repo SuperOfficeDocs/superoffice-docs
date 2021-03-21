@@ -1,19 +1,19 @@
 ---
-uid: satellite
+uid: table-satellite
 title: satellite table
 description: Definition of Satellites
 so.generated: true
 keywords:
   - "database"
   - "satellite"
-so.date: 19.03.2021
+so.date: 21.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# Satellite Table (42)
+# satellite Table (42)
 
 ## Fields
 
@@ -31,7 +31,7 @@ so.envir:
 |updatedCount|Number of updates made to this record|UShort| |
 
 
-![satellite table relationship diagram](media\satellite.png)
+![satellite table relationship diagram](./media/satellite.png)
 
 [!include[details](./includes/satellite.md)]
 

@@ -1,19 +1,19 @@
 ---
-uid: email
+uid: table-email
 title: email table
 description: Email addresses for contacts, projects and persons
 so.generated: true
 keywords:
   - "database"
-  - "email"
-so.date: 19.03.2021
+  - "Email"
+so.date: 21.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# Email Table (55)
+# email Table (55)
 
 ## Fields
 
@@ -26,7 +26,7 @@ so.envir:
 |reserved\_id1|Reserved for potential future owners|Id|&#x25CF;|
 |reserved\_id2|Reserved for potential future owners|Id|&#x25CF;|
 |protocol|SMTP, MSN, Skype, etc|String(11)|&#x25CF;|
-|type|0 = email, 1 = chat/instant msg, 2 = voip; see protocol field for more info|Enum [EmailType](enums\EnumEmailType.md)| |
+|type|0 = email, 1 = chat/instant msg, 2 = voip; see protocol field for more info|Enum [emailtype](enums/emailtype.md)| |
 |description|Visible field|String(254)| |
 |email\_address|The address itself|String(239)| |
 |rank|Rank order in lists|UShort| |
@@ -38,11 +38,11 @@ so.envir:
 |bounceCount|Number of bounces detected|UShort|&#x25CF;|
 |lastBounce|When did last bounce happen|DateTime|&#x25CF;|
 |lastSent|Last transmission (regardless of success/bounce)|DateTime|&#x25CF;|
-|dbi\_agent\_id|Integration agent (eJournal)|FK [dbi_agent](dbi_agent.md)|&#x25CF;|
+|dbi\_agent\_id|Integration agent (eJournal)|FK [dbi-agent](dbi-agent.md)|&#x25CF;|
 |appointment\_id|The id of the invitation appointment record, used when unknown person is associated with an appointment invitation|FK [appointment](appointment.md)|&#x25CF;|
 
 
-![Email table relationship diagram](media\Email.png)
+![Email table relationship diagram](./media/Email.png)
 
 [!include[details](./includes/Email.md)]
 

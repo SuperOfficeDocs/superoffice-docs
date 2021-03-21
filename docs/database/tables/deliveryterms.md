@@ -1,21 +1,21 @@
 ---
-uid: deliveryterms
+uid: table-deliveryterms
 title: deliveryterms table
 description: The list of Delivery terms, in the internal product register
 so.generated: true
 keywords:
   - "database"
-  - "deliveryterms"
-so.date: 19.03.2021
+  - "DeliveryTerms"
+so.date: 21.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# DeliveryTerms Table (433)
+# deliveryterms Table (433)
 
-DeliveryTerms MDO list item table.
+deliveryterms MDO list item table.
 The list of Delivery terms, in the internal product register
 
 ## Fields
@@ -34,7 +34,7 @@ The list of Delivery terms, in the internal product register
 |updatedCount|Number of updates made to this record|UShort| |
 
 
-![DeliveryTerms table relationship diagram](media\DeliveryTerms.png)
+![DeliveryTerms table relationship diagram](./media/DeliveryTerms.png)
 
 [!include[details](./includes/DeliveryTerms.md)]
 

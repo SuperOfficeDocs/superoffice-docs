@@ -1,19 +1,19 @@
 ---
-uid: soroperators
+uid: table-soroperators
 title: soroperators table
 description: SuperOffice reporter data
 so.generated: true
 keywords:
   - "database"
-  - "soroperators"
-so.date: 19.03.2021
+  - "SOROperators"
+so.date: 21.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# SOROperators Table (176)
+# soroperators Table (176)
 
 ## Fields
 
@@ -32,7 +32,7 @@ so.envir:
 |updatedCount|Number of updates made to this record|UShort| |
 
 
-![SOROperators table relationship diagram](media\SOROperators.png)
+![SOROperators table relationship diagram](./media/SOROperators.png)
 
 [!include[details](./includes/SOROperators.md)]
 

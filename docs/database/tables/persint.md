@@ -1,21 +1,21 @@
 ---
-uid: persint
+uid: table-persint
 title: persint table
 description: PersInt list table. List of Person interests.
 so.generated: true
 keywords:
   - "database"
-  - "persint"
-so.date: 19.03.2021
+  - "PersInt"
+so.date: 21.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# PersInt Table (73)
+# persint Table (73)
 
-PersInt MDO list item table.
+persint MDO list item table.
 PersInt list table. List of Person interests.
 
 ## Fields
@@ -34,7 +34,7 @@ PersInt list table. List of Person interests.
 |updatedCount|Number of updates made to this record|UShort| |
 
 
-![PersInt table relationship diagram](media\PersInt.png)
+![PersInt table relationship diagram](./media/PersInt.png)
 
 [!include[details](./includes/PersInt.md)]
 

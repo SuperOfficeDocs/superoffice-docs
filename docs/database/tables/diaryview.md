@@ -1,19 +1,19 @@
 ---
-uid: diaryview
+uid: table-diaryview
 title: diaryview table
 description: Configuration of a multi-user diary view
 so.generated: true
 keywords:
   - "database"
-  - "diaryview"
-so.date: 19.03.2021
+  - "DiaryView"
+so.date: 21.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# DiaryView Table (214)
+# diaryview Table (214)
 
 ## Fields
 
@@ -31,10 +31,10 @@ so.envir:
 |updated|Last updated when|UtcDateTime| |
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
-|tzLocationId|Default timezone location for this view|FK [TZLocation](TZLocation.md)|&#x25CF;|
+|tzLocationId|Default timezone location for this view|FK [tzlocation](tzlocation.md)|&#x25CF;|
 
 
-![DiaryView table relationship diagram](media\DiaryView.png)
+![DiaryView table relationship diagram](./media/DiaryView.png)
 
 [!include[details](./includes/DiaryView.md)]
 

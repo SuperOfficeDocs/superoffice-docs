@@ -1,27 +1,27 @@
 ---
-uid: udlistheadinglink
+uid: table-udlistheadinglink
 title: udlistheadinglink table
 description: Heading link table for UDList, for MDO headers. Note - MDO mode for userdefinede lists are either turned on or off, you may not have it on for one userdefined list and off for the others.
 so.generated: true
 keywords:
   - "database"
-  - "udlistheadinglink"
-so.date: 19.03.2021
+  - "UDListHeadingLink"
+so.date: 21.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# UDListHeadingLink Table (138)
+# udlistheadinglink Table (138)
 
 ## Fields
 
 | Name | Description | Type | Null |
 |------|-------------|------|:----:|
 |udlistheadinglink\_id|Primary key|PK| |
-|udlist\_id|Link to UDList list table|FK [UDList](UDList.md)| |
-|heading\_id|Link to Heading table|FK [Heading](Heading.md)| |
+|udlist\_id|Link to UDList list table|FK [udlist](udlist.md)| |
+|heading\_id|Link to Heading table|FK [heading](heading.md)| |
 |registered|Registered when|UtcDateTime| |
 |registered\_associate\_id|Registered by whom|FK [associate](associate.md)| |
 |updated|Last updated when|UtcDateTime| |
@@ -29,7 +29,7 @@ so.envir:
 |updatedCount|Number of updates made to this record|UShort| |
 
 
-![UDListHeadingLink table relationship diagram](media\UDListHeadingLink.png)
+![UDListHeadingLink table relationship diagram](./media/UDListHeadingLink.png)
 
 [!include[details](./includes/UDListHeadingLink.md)]
 

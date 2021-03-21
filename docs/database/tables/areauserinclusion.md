@@ -1,19 +1,19 @@
 ---
-uid: areauserinclusion
+uid: table-areauserinclusion
 title: areauserinclusion table
 description: Link table incidated whose data should be included in this area. If Include all data in Area (no filtering) is ticket then there will be no rows for this area in this table.
 so.generated: true
 keywords:
   - "database"
   - "areauserinclusion"
-so.date: 19.03.2021
+so.date: 21.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# Areauserinclusion Table (41)
+# areauserinclusion Table (41)
 
 ## Fields
 
@@ -29,7 +29,7 @@ so.envir:
 |updatedCount|Number of updates made to this record|UShort| |
 
 
-![areauserinclusion table relationship diagram](media\areauserinclusion.png)
+![areauserinclusion table relationship diagram](./media/areauserinclusion.png)
 
 [!include[details](./includes/areauserinclusion.md)]
 

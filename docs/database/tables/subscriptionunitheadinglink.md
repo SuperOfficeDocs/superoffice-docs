@@ -1,27 +1,27 @@
 ---
-uid: subscriptionunitheadinglink
+uid: table-subscriptionunitheadinglink
 title: subscriptionunitheadinglink table
 description: Heading link table for SubscriptionUnit, for MDO item headings
 so.generated: true
 keywords:
   - "database"
-  - "subscriptionunitheadinglink"
-so.date: 19.03.2021
+  - "SubscriptionUnitHeadingLink"
+so.date: 21.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# SubscriptionUnitHeadingLink Table (444)
+# subscriptionunitheadinglink Table (444)
 
 ## Fields
 
 | Name | Description | Type | Null |
 |------|-------------|------|:----:|
 |subscriptionunitheadinglink\_id|Primary key|PK| |
-|subscriptionunit\_id|Link to SubscriptionUnit list table|FK [SubscriptionUnit](SubscriptionUnit.md)| |
-|heading\_id|Link to Heading table|FK [Heading](Heading.md)| |
+|subscriptionunit\_id|Link to SubscriptionUnit list table|FK [subscriptionunit](subscriptionunit.md)| |
+|heading\_id|Link to Heading table|FK [heading](heading.md)| |
 |registered|Registered when|UtcDateTime| |
 |registered\_associate\_id|Registered by whom|FK [associate](associate.md)| |
 |updated|Last updated when|UtcDateTime| |
@@ -29,7 +29,7 @@ so.envir:
 |updatedCount|Number of updates made to this record|UShort| |
 
 
-![SubscriptionUnitHeadingLink table relationship diagram](media\SubscriptionUnitHeadingLink.png)
+![SubscriptionUnitHeadingLink table relationship diagram](./media/SubscriptionUnitHeadingLink.png)
 
 [!include[details](./includes/SubscriptionUnitHeadingLink.md)]
 

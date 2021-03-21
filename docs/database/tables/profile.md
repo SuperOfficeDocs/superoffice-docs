@@ -1,19 +1,19 @@
 ---
-uid: profile
+uid: table-profile
 title: profile table
 description: Deprecated. This table contains entries for the user profiles.
 so.generated: true
 keywords:
   - "database"
   - "profile"
-so.date: 19.03.2021
+so.date: 21.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# Profile Table (329)
+# profile Table (329)
 
 ## Fields
 
@@ -31,7 +31,7 @@ so.envir:
 |list\_companies\_header2|The fields for listing companies. Encoded as CSV string.|Clob|&#x25CF;|
 
 
-![profile table relationship diagram](media\profile.png)
+![profile table relationship diagram](./media/profile.png)
 
 [!include[details](./includes/profile.md)]
 

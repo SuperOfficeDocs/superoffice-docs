@@ -1,19 +1,19 @@
 ---
-uid: credentials
+uid: table-credentials
 title: credentials table
 description: Alternative credentials
 so.generated: true
 keywords:
   - "database"
-  - "credentials"
-so.date: 19.03.2021
+  - "Credentials"
+so.date: 21.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# Credentials Table (250)
+# credentials Table (250)
 
 ## Fields
 
@@ -26,7 +26,7 @@ so.envir:
 |secret|Encrypted secret|String(254)| |
 |validFrom|Start of validity for these credentials|DateTime| |
 |validTo|End of validity for these credentials|DateTime| |
-|isActive|What kind of usage are these credentials for; see enum CredentialUsage for details|Enum [CredentialUsage](enums\EnumCredentialUsage.md)| |
+|isActive|What kind of usage are these credentials for; see enum CredentialUsage for details|Enum [credentialusage](enums/credentialusage.md)| |
 |encryptedCheck|Encrypted checksum; tampering will block system usage|String(254)| |
 |lastUsedDate|When were these credentials last used for login|DateTime|&#x25CF;|
 |lastusedInfo|Provider-specific usage information, for instance an IP adrdess or other location|String(254)|&#x25CF;|
@@ -42,7 +42,7 @@ so.envir:
 |displayName|Friendly name of credentials (searchname could be a SID, this should be a real name)|String(254)|&#x25CF;|
 
 
-![Credentials table relationship diagram](media\Credentials.png)
+![Credentials table relationship diagram](./media/Credentials.png)
 
 [!include[details](./includes/Credentials.md)]
 

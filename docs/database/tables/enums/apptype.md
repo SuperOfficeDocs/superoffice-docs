@@ -1,0 +1,22 @@
+---
+uid: enum-apptype
+title: Enum values for AppType
+description: Lists the enum values for AppType.
+so.generated: true
+keywords:
+  - "database"
+so.date: 21.03.2021
+so.topic: reference
+so.envir:
+  - "onsite"
+  - "online"
+---
+
+# AppType Enum
+
+Application type: 1 = exe, 2 = integrated html, 3 = integrated url, 4 = browser url, 5 = external url
+
+
+## Usage
+
+* [ExtApp](../extapp.md).appType - ExtApp list table. Applications startable from SuperOffice

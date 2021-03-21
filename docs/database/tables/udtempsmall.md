@@ -1,19 +1,19 @@
 ---
-uid: udtempsmall
+uid: table-udtempsmall
 title: udtempsmall table
 description: User-defined fields. During conversion of user defined fields the data is stored in this table.
 so.generated: true
 keywords:
   - "database"
-  - "udtempsmall"
-so.date: 19.03.2021
+  - "udtempSmall"
+so.date: 21.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# UdtempSmall Table (144)
+# udtempsmall Table (144)
 
 ## Fields
 
@@ -132,7 +132,7 @@ so.envir:
 |double10|double value 10, not indexed|Double|&#x25CF;|
 
 
-![udtempSmall table relationship diagram](media\udtempSmall.png)
+![udtempSmall table relationship diagram](./media/udtempSmall.png)
 
 [!include[details](./includes/udtempSmall.md)]
 

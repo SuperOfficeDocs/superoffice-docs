@@ -1,28 +1,28 @@
 ---
-uid: udeffieldgl
+uid: table-udeffieldgl
 title: udeffieldgl table
 description: User group link table for UDefField, for MDO item hiding
 so.generated: true
 keywords:
   - "database"
-  - "udeffieldgl"
-so.date: 19.03.2021
+  - "UDefFieldGL"
+so.date: 21.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# UDefFieldGL Table (147)
+# udeffieldgl Table (147)
 
 ## Fields
 
 | Name | Description | Type | Null |
 |------|-------------|------|:----:|
 |UDefFieldGL\_Id|Primary key|PK| |
-|UDefFieldId|Link to field|FK [UDefField](UDefField.md)| |
+|UDefFieldId|Link to field|FK [udeffield](udeffield.md)| |
 |fieldLineNo|Line number in display, 1, 2, 3…|UShort| |
-|group\_id|Link to Group table|FK [UserGroup](UserGroup.md)| |
+|group\_id|Link to Group table|FK [usergroup](usergroup.md)| |
 |registered|Registered when|UtcDateTime| |
 |registered\_associate\_id|Registered by whom|FK [associate](associate.md)| |
 |updated|Last updated when|UtcDateTime| |
@@ -30,7 +30,7 @@ so.envir:
 |updatedCount|Number of updates made to this record|UShort| |
 
 
-![UDefFieldGL table relationship diagram](media\UDefFieldGL.png)
+![UDefFieldGL table relationship diagram](./media/UDefFieldGL.png)
 
 [!include[details](./includes/UDefFieldGL.md)]
 

@@ -1,27 +1,27 @@
 ---
-uid: sorpublishgrouplink
+uid: table-sorpublishgrouplink
 title: sorpublishgrouplink table
 description: Link table used for filtering reports by user group
 so.generated: true
 keywords:
   - "database"
-  - "sorpublishgrouplink"
-so.date: 19.03.2021
+  - "SORPublishGroupLink"
+so.date: 21.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# SORPublishGroupLink Table (25)
+# sorpublishgrouplink Table (25)
 
 ## Fields
 
 | Name | Description | Type | Null |
 |------|-------------|------|:----:|
 |SORPublishGroupLink\_id|Primary key|PK| |
-|SORPublishId|Report to link to a group|FK [SORPublish](SORPublish.md)|&#x25CF;|
-|UserGroupId|Group that should be able to see this report|FK [UserGroup](UserGroup.md)|&#x25CF;|
+|SORPublishId|Report to link to a group|FK [sorpublish](sorpublish.md)|&#x25CF;|
+|UserGroupId|Group that should be able to see this report|FK [usergroup](usergroup.md)|&#x25CF;|
 |registered|Registered when|UtcDateTime| |
 |registered\_associate\_id|Registered by whom|FK [associate](associate.md)| |
 |updated|Last updated when|UtcDateTime| |
@@ -29,7 +29,7 @@ so.envir:
 |updatedCount|Number of updates made to this record|UShort| |
 
 
-![SORPublishGroupLink table relationship diagram](media\SORPublishGroupLink.png)
+![SORPublishGroupLink table relationship diagram](./media/SORPublishGroupLink.png)
 
 [!include[details](./includes/SORPublishGroupLink.md)]
 

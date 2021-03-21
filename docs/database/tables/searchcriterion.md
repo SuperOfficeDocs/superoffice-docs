@@ -1,31 +1,31 @@
 ---
-uid: searchcriterion
+uid: table-searchcriterion
 title: searchcriterion table
 description: Criteria storage for Selection and other Find mechanisms
 so.generated: true
 keywords:
   - "database"
-  - "searchcriterion"
-so.date: 19.03.2021
+  - "SearchCriterion"
+so.date: 21.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# SearchCriterion Table (203)
+# searchcriterion Table (203)
 
 ## Fields
 
 | Name | Description | Type | Null |
 |------|-------------|------|:----:|
 |SearchCriterion\_id|Primary key|PK| |
-|SearchCriteriaGroup\_id|Owning group|FK [SearchCriteriaGroup](SearchCriteriaGroup.md)| |
+|SearchCriteriaGroup\_id|Owning group|FK [searchcriteriagroup](searchcriteriagroup.md)| |
 |criterionId|Usually DbFieldId of field to be searched|FieldId| |
 |extraId|Extra info, forms part of the internal unique identification of the criterion|Id|&#x25CF;|
 |udefIdentity|Extra info for searching udef fields, to keep track of actual field across layout changes|Id|&#x25CF;|
-|operatorId|Operator ID|Enum [CriterionOperator](enums\EnumCriterionOperator.md)| |
-|linkType|Link type, AND or OR|Enum [CriterionLinkType](enums\EnumCriterionLinkType.md)| |
+|operatorId|Operator ID|Enum [criterionoperator](enums/criterionoperator.md)| |
+|linkType|Link type, AND or OR|Enum [criterionlinktype](enums/criterionlinktype.md)| |
 |active|Should this criterion be executed|UShort| |
 |rank|Ordering within this group|UShort| |
 |registered|Registered when|UtcDateTime| |
@@ -39,7 +39,7 @@ so.envir:
 |parenthesis|Parenthesis value, positive is number of opening parentheses to prepend to this criterion, negative is the number of closing parentheses to append|Short|&#x25CF;|
 
 
-![SearchCriterion table relationship diagram](media\SearchCriterion.png)
+![SearchCriterion table relationship diagram](./media/SearchCriterion.png)
 
 [!include[details](./includes/SearchCriterion.md)]
 

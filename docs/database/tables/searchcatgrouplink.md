@@ -1,27 +1,27 @@
 ---
-uid: searchcatgrouplink
+uid: table-searchcatgrouplink
 title: searchcatgrouplink table
 description: User group link table for SearchCat, for MDO item hiding
 so.generated: true
 keywords:
   - "database"
-  - "searchcatgrouplink"
-so.date: 19.03.2021
+  - "SearchCatGroupLink"
+so.date: 21.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# SearchCatGroupLink Table (107)
+# searchcatgrouplink Table (107)
 
 ## Fields
 
 | Name | Description | Type | Null |
 |------|-------------|------|:----:|
 |searchcatgrouplink\_id|Primary key|PK| |
-|searchcat\_id|Link to SearchCat list table|FK [SearchCat](SearchCat.md)| |
-|group\_id|Link to Group table|FK [UserGroup](UserGroup.md)| |
+|searchcat\_id|Link to SearchCat list table|FK [searchcat](searchcat.md)| |
+|group\_id|Link to Group table|FK [usergroup](usergroup.md)| |
 |registered|Registered when|UtcDateTime| |
 |registered\_associate\_id|Registered by whom|FK [associate](associate.md)| |
 |updated|Last updated when|UtcDateTime| |
@@ -29,7 +29,7 @@ so.envir:
 |updatedCount|Number of updates made to this record|UShort| |
 
 
-![SearchCatGroupLink table relationship diagram](media\SearchCatGroupLink.png)
+![SearchCatGroupLink table relationship diagram](./media/SearchCatGroupLink.png)
 
 [!include[details](./includes/SearchCatGroupLink.md)]
 

@@ -1,21 +1,21 @@
 ---
-uid: productcategory
+uid: table-productcategory
 title: productcategory table
 description: List for the ProductCategory field of the Product table (Quote Management)
 so.generated: true
 keywords:
   - "database"
-  - "productcategory"
-so.date: 19.03.2021
+  - "ProductCategory"
+so.date: 21.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# ProductCategory Table (408)
+# productcategory Table (408)
 
-ProductCategory MDO list item table.
+productcategory MDO list item table.
 List for the ProductCategory field of the Product table (Quote Management)
 
 ## Fields
@@ -34,7 +34,7 @@ List for the ProductCategory field of the Product table (Quote Management)
 |updatedCount|Number of updates made to this record|UShort| |
 
 
-![ProductCategory table relationship diagram](media\ProductCategory.png)
+![ProductCategory table relationship diagram](./media/ProductCategory.png)
 
 [!include[details](./includes/ProductCategory.md)]
 

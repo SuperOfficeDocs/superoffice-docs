@@ -1,19 +1,19 @@
 ---
-uid: autosave
+uid: table-autosave
 title: autosave table
 description: Autosaved text clobs from ejscript and emarketeer messages
 so.generated: true
 keywords:
   - "database"
   - "autosave"
-so.date: 19.03.2021
+so.date: 21.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# Autosave Table (402)
+# autosave Table (402)
 
 ## Fields
 
@@ -26,7 +26,7 @@ so.envir:
 |data|The rawtext of the autosave.|Clob|&#x25CF;|
 
 
-![autosave table relationship diagram](media\autosave.png)
+![autosave table relationship diagram](./media/autosave.png)
 
 [!include[details](./includes/autosave.md)]
 

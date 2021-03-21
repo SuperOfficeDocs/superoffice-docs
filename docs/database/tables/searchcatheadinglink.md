@@ -1,27 +1,27 @@
 ---
-uid: searchcatheadinglink
+uid: table-searchcatheadinglink
 title: searchcatheadinglink table
 description: Heading link table for SearchCat, for MDO headers
 so.generated: true
 keywords:
   - "database"
-  - "searchcatheadinglink"
-so.date: 19.03.2021
+  - "SearchCatHeadingLink"
+so.date: 21.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# SearchCatHeadingLink Table (108)
+# searchcatheadinglink Table (108)
 
 ## Fields
 
 | Name | Description | Type | Null |
 |------|-------------|------|:----:|
 |searchcatheadinglink\_id|Primary key|PK| |
-|searchcat\_id|Link to SearchCat list table|FK [SearchCat](SearchCat.md)| |
-|heading\_id|Link to Heading table|FK [Heading](Heading.md)| |
+|searchcat\_id|Link to SearchCat list table|FK [searchcat](searchcat.md)| |
+|heading\_id|Link to Heading table|FK [heading](heading.md)| |
 |registered|Registered when|UtcDateTime| |
 |registered\_associate\_id|Registered by whom|FK [associate](associate.md)| |
 |updated|Last updated when|UtcDateTime| |
@@ -29,7 +29,7 @@ so.envir:
 |updatedCount|Number of updates made to this record|UShort| |
 
 
-![SearchCatHeadingLink table relationship diagram](media\SearchCatHeadingLink.png)
+![SearchCatHeadingLink table relationship diagram](./media/SearchCatHeadingLink.png)
 
 [!include[details](./includes/SearchCatHeadingLink.md)]
 

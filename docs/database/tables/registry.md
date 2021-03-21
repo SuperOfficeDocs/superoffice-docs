@@ -1,19 +1,19 @@
 ---
-uid: registry
+uid: table-registry
 title: registry table
 description: System settings
 so.generated: true
 keywords:
   - "database"
   - "registry"
-so.date: 19.03.2021
+so.date: 21.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# Registry Table (253)
+# registry Table (253)
 
 ## Fields
 
@@ -25,7 +25,7 @@ so.envir:
 |value|The value for the registry entry.|String(255)|&#x25CF;|
 
 
-![registry table relationship diagram](media\registry.png)
+![registry table relationship diagram](./media/registry.png)
 
 [!include[details](./includes/registry.md)]
 

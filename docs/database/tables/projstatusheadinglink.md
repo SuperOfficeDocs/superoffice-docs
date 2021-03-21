@@ -1,27 +1,27 @@
 ---
-uid: projstatusheadinglink
+uid: table-projstatusheadinglink
 title: projstatusheadinglink table
 description: Heading link table for ProjStatus, for MDO headers
 so.generated: true
 keywords:
   - "database"
-  - "projstatusheadinglink"
-so.date: 19.03.2021
+  - "ProjStatusHeadingLink"
+so.date: 21.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# ProjStatusHeadingLink Table (90)
+# projstatusheadinglink Table (90)
 
 ## Fields
 
 | Name | Description | Type | Null |
 |------|-------------|------|:----:|
 |projstatusheadinglink\_id|Primary key|PK| |
-|projstatus\_id|Link to ProjStatus list table|FK [ProjStatus](ProjStatus.md)| |
-|heading\_id|Link to Heading table|FK [Heading](Heading.md)| |
+|projstatus\_id|Link to ProjStatus list table|FK [projstatus](projstatus.md)| |
+|heading\_id|Link to Heading table|FK [heading](heading.md)| |
 |registered|Registered when|UtcDateTime| |
 |registered\_associate\_id|Registered by whom|FK [associate](associate.md)| |
 |updated|Last updated when|UtcDateTime| |
@@ -29,7 +29,7 @@ so.envir:
 |updatedCount|Number of updates made to this record|UShort| |
 
 
-![ProjStatusHeadingLink table relationship diagram](media\ProjStatusHeadingLink.png)
+![ProjStatusHeadingLink table relationship diagram](./media/ProjStatusHeadingLink.png)
 
 [!include[details](./includes/ProjStatusHeadingLink.md)]
 

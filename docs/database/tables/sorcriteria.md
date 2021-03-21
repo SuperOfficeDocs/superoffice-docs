@@ -1,28 +1,28 @@
 ---
-uid: sorcriteria
+uid: table-sorcriteria
 title: sorcriteria table
 description: SuperOffice reporter data
 so.generated: true
 keywords:
   - "database"
-  - "sorcriteria"
-so.date: 19.03.2021
+  - "SORCriteria"
+so.date: 21.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# SORCriteria Table (175)
+# sorcriteria Table (175)
 
 ## Fields
 
 | Name | Description | Type | Null |
 |------|-------------|------|:----:|
 |SORCriteria\_id|Primary key|PK| |
-|SORPublish\_id|Owning publish name|FK [SORPublish](SORPublish.md)| |
+|SORPublish\_id|Owning publish name|FK [sorpublish](sorpublish.md)| |
 |fieldName|Database field name|String(29)| |
-|SOROperators\_id|Operator foreign key|FK [SOROperators](SOROperators.md)| |
+|SOROperators\_id|Operator foreign key|FK [soroperators](soroperators.md)| |
 |value1|First part of value|String(254)|&#x25CF;|
 |value2|Second part of value|String(254)|&#x25CF;|
 |useIt|1=criterion is in use, otherwise 0|UShort| |
@@ -35,7 +35,7 @@ so.envir:
 |locked|If 1, then this crierion is locked and its value cannot be changed outside of Reporter Studio|Bool|&#x25CF;|
 
 
-![SORCriteria table relationship diagram](media\SORCriteria.png)
+![SORCriteria table relationship diagram](./media/SORCriteria.png)
 
 [!include[details](./includes/SORCriteria.md)]
 

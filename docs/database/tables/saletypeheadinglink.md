@@ -1,27 +1,27 @@
 ---
-uid: saletypeheadinglink
+uid: table-saletypeheadinglink
 title: saletypeheadinglink table
 description: Heading link table for SaleType, for MDO headers
 so.generated: true
 keywords:
   - "database"
-  - "saletypeheadinglink"
-so.date: 19.03.2021
+  - "SaleTypeHeadingLink"
+so.date: 21.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# SaleTypeHeadingLink Table (151)
+# saletypeheadinglink Table (151)
 
 ## Fields
 
 | Name | Description | Type | Null |
 |------|-------------|------|:----:|
 |saletypeheadinglink\_id|Primary key|PK| |
-|saletype\_id|Link to SaleType list table|FK [SaleType](SaleType.md)| |
-|heading\_id|Link to Heading table|FK [Heading](Heading.md)| |
+|saletype\_id|Link to SaleType list table|FK [saletype](saletype.md)| |
+|heading\_id|Link to Heading table|FK [heading](heading.md)| |
 |registered|Registered when|UtcDateTime| |
 |registered\_associate\_id|Registered by whom|FK [associate](associate.md)| |
 |updated|Last updated when|UtcDateTime| |
@@ -29,7 +29,7 @@ so.envir:
 |updatedCount|Number of updates made to this record|UShort| |
 
 
-![SaleTypeHeadingLink table relationship diagram](media\SaleTypeHeadingLink.png)
+![SaleTypeHeadingLink table relationship diagram](./media/SaleTypeHeadingLink.png)
 
 [!include[details](./includes/SaleTypeHeadingLink.md)]
 

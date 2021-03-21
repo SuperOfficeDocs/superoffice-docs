@@ -1,27 +1,27 @@
 ---
-uid: currencygrouplink
+uid: table-currencygrouplink
 title: currencygrouplink table
 description: User group link table for Currency, for MDO item hiding
 so.generated: true
 keywords:
   - "database"
-  - "currencygrouplink"
-so.date: 19.03.2021
+  - "CurrencyGroupLink"
+so.date: 21.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# CurrencyGroupLink Table (113)
+# currencygrouplink Table (113)
 
 ## Fields
 
 | Name | Description | Type | Null |
 |------|-------------|------|:----:|
 |currencygrouplink\_id|Primary key|PK| |
-|currency\_id|Link to Currency list table|FK [Currency](Currency.md)| |
-|group\_id|Link to Group table|FK [UserGroup](UserGroup.md)| |
+|currency\_id|Link to Currency list table|FK [currency](currency.md)| |
+|group\_id|Link to Group table|FK [usergroup](usergroup.md)| |
 |registered|Registered when|UtcDateTime| |
 |registered\_associate\_id|Registered by whom|FK [associate](associate.md)| |
 |updated|Last updated when|UtcDateTime| |
@@ -29,7 +29,7 @@ so.envir:
 |updatedCount|Number of updates made to this record|UShort| |
 
 
-![CurrencyGroupLink table relationship diagram](media\CurrencyGroupLink.png)
+![CurrencyGroupLink table relationship diagram](./media/CurrencyGroupLink.png)
 
 [!include[details](./includes/CurrencyGroupLink.md)]
 

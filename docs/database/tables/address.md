@@ -1,19 +1,19 @@
 ---
-uid: address
+uid: table-address
 title: address table
 description: Contact and Person addresses
 so.generated: true
 keywords:
   - "database"
   - "address"
-so.date: 19.03.2021
+so.date: 21.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# Address Table (7)
+# address Table (7)
 
 ## Fields
 
@@ -21,7 +21,7 @@ so.envir:
 |------|-------------|------|:----:|
 |address\_id|Primary key|PK| |
 |owner\_id|Record id of owner: Contact or Person|Id| |
-|atype\_idx|Bit mask, combines address type (EAddressType) and owner type (EOwnerType)|Enum [AddressType](enums\EnumAddressType.md)| |
+|atype\_idx|Bit mask, combines address type (EAddressType) and owner type (EOwnerType)|Enum [addresstype](enums/addresstype.md)| |
 |zipcode|Zip code, alphanumeric|String(11)| |
 |city|City corresponding to zip code|String(79)|&#x25CF;|
 |state|State|String(5)|&#x25CF;|
@@ -40,7 +40,7 @@ so.envir:
 |wgs84longitude|Longitude (that&apos;s East/west), decimal degrees, relative to WGS 84 ellipsoid. SuperOffice ASA is at 10.73159. This value needs no further grid reference or other qualifying information.|Double|&#x25CF;|
 
 
-![address table relationship diagram](media\address.png)
+![address table relationship diagram](./media/address.png)
 
 [!include[details](./includes/address.md)]
 

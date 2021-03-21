@@ -1,19 +1,19 @@
 ---
-uid: webhook
+uid: table-webhook
 title: webhook table
 description: Webhook URL to call when events occur in the client or in NetServer. Also tracks call+error statistics.
 so.generated: true
 keywords:
   - "database"
-  - "webhook"
-so.date: 19.03.2021
+  - "Webhook"
+so.date: 21.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# Webhook Table (487)
+# webhook Table (487)
 
 ## Fields
 
@@ -28,7 +28,7 @@ so.envir:
 |headers|Hook specific additional HTTP headers that should be added to HTTP request, stored as JSON blob|Clob|&#x25CF;|
 |properties|Hook specific additional data that should be added to payload, stored as JSON blob|Clob|&#x25CF;|
 |secret|Shared secret key used for generating SHA256 HMAC signature, so that receiver can verify that call came from this server|String(400)|&#x25CF;|
-|state|Webhook status - should we post events to the URL? 1=Active, 2=Stopped or 3=TooManyErrors|Enum [WebhookState](enums\EnumWebhookState.md)| |
+|state|Webhook status - should we post events to the URL? 1=Active, 2=Stopped or 3=TooManyErrors|Enum [webhookstate](enums/webhookstate.md)| |
 |total\_calls|Number of times webhook has been invoked since registered. For statistical purposes.|Int| |
 |total\_errors|Number of times webhook has returned error since registered. For statistical purposes.|Int| |
 |consecutive\_errors|Number of consecutive errors. Reset to 0 when an non-error is received. If too many errors, state is changed to TooManyErrors(3) to deactivate webhook.|Int| |
@@ -40,9 +40,7 @@ so.envir:
 |updatedCount|Number of updates made to this record|UShort| |
 
 
-![Webhook table relationship diagram](media\Webhook.png)
-
-[!include[details](./includes/Webhook.md)]
+![Webhook table relationship diagram](./media/Webhook.png)
 
 ## Indexes
 

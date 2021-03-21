@@ -1,19 +1,19 @@
 ---
-uid: ziptocity
+uid: table-ziptocity
 title: ziptocity table
 description: Zip codes and city names. Zip codes used during address entry. You will find more information about addressformat on http://techdoc.superoffice.com 
 so.generated: true
 keywords:
   - "database"
   - "ziptocity"
-so.date: 19.03.2021
+so.date: 21.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# Ziptocity Table (16)
+# ziptocity Table (16)
 
 ## Fields
 
@@ -26,7 +26,7 @@ so.envir:
 |updatedCount|Number of updates made to this record|UShort| |
 
 
-![ziptocity table relationship diagram](media\ziptocity.png)
+![ziptocity table relationship diagram](./media/ziptocity.png)
 
 [!include[details](./includes/ziptocity.md)]
 

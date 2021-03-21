@@ -1,26 +1,26 @@
 ---
-uid: saletypequoteattachment
+uid: table-saletypequoteattachment
 title: saletypequoteattachment table
 description: Default attachments to quotes linked to sales of this type
 so.generated: true
 keywords:
   - "database"
-  - "saletypequoteattachment"
-so.date: 19.03.2021
+  - "SaleTypeQuoteAttachment"
+so.date: 21.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# SaleTypeQuoteAttachment Table (446)
+# saletypequoteattachment Table (446)
 
 ## Fields
 
 | Name | Description | Type | Null |
 |------|-------------|------|:----:|
 |saletypequoteattachment\_id|Primary key|PK| |
-|SaleTypeId|Link to sale type|FK [SaleType](SaleType.md)| |
+|SaleTypeId|Link to sale type|FK [saletype](saletype.md)| |
 |DocumentId|Link to document|FK [document](document.md)| |
 |DefaultIncluded|Should this be a standard attachment (default state is &apos;include&apos;)|Bool|&#x25CF;|
 |registered|Registered when|UtcDateTime| |
@@ -30,7 +30,7 @@ so.envir:
 |updatedCount|Number of updates made to this record|UShort| |
 
 
-![SaleTypeQuoteAttachment table relationship diagram](media\SaleTypeQuoteAttachment.png)
+![SaleTypeQuoteAttachment table relationship diagram](./media/SaleTypeQuoteAttachment.png)
 
 [!include[details](./includes/SaleTypeQuoteAttachment.md)]
 

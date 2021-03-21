@@ -1,27 +1,27 @@
 ---
-uid: doctmplgrouplink
+uid: table-doctmplgrouplink
 title: doctmplgrouplink table
 description: User group link table for DocTmpl, for MDO item hiding
 so.generated: true
 keywords:
   - "database"
-  - "doctmplgrouplink"
-so.date: 19.03.2021
+  - "DocTmplGroupLink"
+so.date: 21.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# DocTmplGroupLink Table (131)
+# doctmplgrouplink Table (131)
 
 ## Fields
 
 | Name | Description | Type | Null |
 |------|-------------|------|:----:|
 |doctmplgrouplink\_id|Primary key|PK| |
-|doctmpl\_id|Link to DocTmpl list table|FK [DocTmpl](DocTmpl.md)| |
-|group\_id|Link to Group table|FK [UserGroup](UserGroup.md)| |
+|doctmpl\_id|Link to DocTmpl list table|FK [doctmpl](doctmpl.md)| |
+|group\_id|Link to Group table|FK [usergroup](usergroup.md)| |
 |registered|Registered when|UtcDateTime| |
 |registered\_associate\_id|Registered by whom|FK [associate](associate.md)| |
 |updated|Last updated when|UtcDateTime| |
@@ -29,7 +29,7 @@ so.envir:
 |updatedCount|Number of updates made to this record|UShort| |
 
 
-![DocTmplGroupLink table relationship diagram](media\DocTmplGroupLink.png)
+![DocTmplGroupLink table relationship diagram](./media/DocTmplGroupLink.png)
 
 [!include[details](./includes/DocTmplGroupLink.md)]
 

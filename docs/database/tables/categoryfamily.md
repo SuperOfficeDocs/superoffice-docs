@@ -1,19 +1,19 @@
 ---
-uid: categoryfamily
+uid: table-categoryfamily
 title: categoryfamily table
 description: Grouping table so that multiple company categories can be grouped under one term; to simplify searching for things like &apos;all customers&apos;
 so.generated: true
 keywords:
   - "database"
-  - "categoryfamily"
-so.date: 19.03.2021
+  - "CategoryFamily"
+so.date: 21.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# CategoryFamily Table (467)
+# categoryfamily Table (467)
 
 ## Fields
 
@@ -31,9 +31,7 @@ so.envir:
 |updatedCount|Number of updates made to this record|UShort| |
 
 
-![CategoryFamily table relationship diagram](media\CategoryFamily.png)
-
-[!include[details](./includes/CategoryFamily.md)]
+![CategoryFamily table relationship diagram](./media/CategoryFamily.png)
 
 ## Indexes
 

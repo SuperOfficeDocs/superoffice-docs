@@ -1,19 +1,19 @@
 ---
-uid: ejpackage
+uid: table-ejpackage
 title: ejpackage table
 description: This table stores packages on the system.
 so.generated: true
 keywords:
   - "database"
   - "ejpackage"
-so.date: 19.03.2021
+so.date: 21.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# Ejpackage Table (384)
+# ejpackage Table (384)
 
 ## Fields
 
@@ -31,7 +31,7 @@ so.envir:
 |locked|Locked package - components should not be modified by users|Bool| |
 
 
-![ejpackage table relationship diagram](media\ejpackage.png)
+![ejpackage table relationship diagram](./media/ejpackage.png)
 
 [!include[details](./includes/ejpackage.md)]
 

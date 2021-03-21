@@ -1,26 +1,26 @@
 ---
-uid: erpconnection
+uid: table-erpconnection
 title: erpconnection table
 description: One connection to an ERP connector, specifying Client and other required information
 so.generated: true
 keywords:
   - "database"
-  - "erpconnection"
-so.date: 19.03.2021
+  - "ErpConnection"
+so.date: 21.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# ErpConnection Table (418)
+# erpconnection Table (418)
 
 ## Fields
 
 | Name | Description | Type | Null |
 |------|-------------|------|:----:|
 |erpconnection\_id|Primary key|PK| |
-|ErpConnectorId|The connector that this connection should call|FK [ErpConnector](ErpConnector.md)|&#x25CF;|
+|ErpConnectorId|The connector that this connection should call|FK [erpconnector](erpconnector.md)|&#x25CF;|
 |DisplayName|Connection name shown to user; multi-language support|String(254)|&#x25CF;|
 |DisplayDescription|Tooltip/description shown to user; multi-language support|String(254)|&#x25CF;|
 |Active|Is this connection currently active|Bool|&#x25CF;|
@@ -35,7 +35,7 @@ so.envir:
 |updatedCount|Number of updates made to this record|UShort| |
 
 
-![ErpConnection table relationship diagram](media\ErpConnection.png)
+![ErpConnection table relationship diagram](./media/ErpConnection.png)
 
 [!include[details](./includes/ErpConnection.md)]
 

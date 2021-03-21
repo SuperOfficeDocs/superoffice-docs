@@ -1,19 +1,19 @@
 ---
-uid: audiencelayout
+uid: table-audiencelayout
 title: audiencelayout table
 description: One layout (of webparts and other stuff) for an audience instance
 so.generated: true
 keywords:
   - "database"
-  - "audiencelayout"
-so.date: 19.03.2021
+  - "AudienceLayout"
+so.date: 21.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# AudienceLayout Table (234)
+# audiencelayout Table (234)
 
 ## Fields
 
@@ -29,7 +29,7 @@ so.envir:
 |updatedCount|Number of updates made to this record|UShort| |
 
 
-![AudienceLayout table relationship diagram](media\AudienceLayout.png)
+![AudienceLayout table relationship diagram](./media/AudienceLayout.png)
 
 [!include[details](./includes/AudienceLayout.md)]
 

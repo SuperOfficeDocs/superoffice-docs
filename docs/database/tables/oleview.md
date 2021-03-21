@@ -1,26 +1,26 @@
 ---
-uid: oleview
+uid: table-oleview
 title: oleview table
 description: Control data table for the OLE DB Provider
 so.generated: true
 keywords:
   - "database"
-  - "oleview"
-so.date: 19.03.2021
+  - "OLEView"
+so.date: 21.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# OLEView Table (163)
+# oleview Table (163)
 
 ## Fields
 
 | Name | Description | Type | Null |
 |------|-------------|------|:----:|
 |OLEView\_id|Primary key|PK| |
-|OLESubject\_id|Owner subject|FK [OLESubject](OLESubject.md)| |
+|OLESubject\_id|Owner subject|FK [olesubject](olesubject.md)| |
 |progId|GUID of the module that can perform this join|String(59)|&#x25CF;|
 |predefined|1 = predefined subject, do not change|UShort|&#x25CF;|
 |registered|Registered when|UtcDateTime| |
@@ -30,7 +30,7 @@ so.envir:
 |updatedCount|Number of updates made to this record|UShort| |
 
 
-![OLEView table relationship diagram](media\OLEView.png)
+![OLEView table relationship diagram](./media/OLEView.png)
 
 [!include[details](./includes/OLEView.md)]
 

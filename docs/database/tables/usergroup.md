@@ -1,19 +1,19 @@
 ---
-uid: usergroup
+uid: table-usergroup
 title: usergroup table
 description: Secondary user groups
 so.generated: true
 keywords:
   - "database"
-  - "usergroup"
-so.date: 19.03.2021
+  - "UserGroup"
+so.date: 21.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# UserGroup Table (59)
+# usergroup Table (59)
 
 ## Fields
 
@@ -32,7 +32,7 @@ so.envir:
 |updatedCount|Number of updates made to this record|UShort| |
 
 
-![UserGroup table relationship diagram](media\UserGroup.png)
+![UserGroup table relationship diagram](./media/UserGroup.png)
 
 [!include[details](./includes/UserGroup.md)]
 

@@ -1,19 +1,19 @@
 ---
-uid: messagehandler
+uid: table-messagehandler
 title: messagehandler table
 description: Presence and heartbeat of a message handler, should be updated once a minute. Older records are stale
 so.generated: true
 keywords:
   - "database"
-  - "messagehandler"
-so.date: 19.03.2021
+  - "MessageHandler"
+so.date: 21.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# MessageHandler Table (241)
+# messagehandler Table (241)
 
 ## Fields
 
@@ -33,7 +33,7 @@ so.envir:
 |updatedCount|&apos;heartbeat&apos; that is updated once a minute by the batch task process|UShort| |
 
 
-![MessageHandler table relationship diagram](media\MessageHandler.png)
+![MessageHandler table relationship diagram](./media/MessageHandler.png)
 
 [!include[details](./includes/MessageHandler.md)]
 

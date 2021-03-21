@@ -1,19 +1,19 @@
 ---
-uid: databasemodel
+uid: table-databasemodel
 title: databasemodel table
 description: New DatabaseModel used by Continuous Database
 so.generated: true
 keywords:
   - "database"
-  - "databasemodel"
-so.date: 19.03.2021
+  - "DatabaseModel"
+so.date: 21.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# DatabaseModel Table (456)
+# databasemodel Table (456)
 
 ## Fields
 
@@ -25,7 +25,7 @@ so.envir:
 |ModelData|Compressed json string containing DatabaseModel of the given version|Blob|&#x25CF;|
 
 
-![DatabaseModel table relationship diagram](media\DatabaseModel.png)
+![DatabaseModel table relationship diagram](./media/DatabaseModel.png)
 
 [!include[details](./includes/DatabaseModel.md)]
 

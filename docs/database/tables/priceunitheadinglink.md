@@ -1,27 +1,27 @@
 ---
-uid: priceunitheadinglink
+uid: table-priceunitheadinglink
 title: priceunitheadinglink table
 description: Heading link table for PriceUnit, for MDO item headings
 so.generated: true
 keywords:
   - "database"
-  - "priceunitheadinglink"
-so.date: 19.03.2021
+  - "PriceUnitHeadingLink"
+so.date: 21.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# PriceUnitHeadingLink Table (441)
+# priceunitheadinglink Table (441)
 
 ## Fields
 
 | Name | Description | Type | Null |
 |------|-------------|------|:----:|
 |priceunitheadinglink\_id|Primary key|PK| |
-|priceunit\_id|Link to PriceUnit list table|FK [PriceUnit](PriceUnit.md)| |
-|heading\_id|Link to Heading table|FK [Heading](Heading.md)| |
+|priceunit\_id|Link to PriceUnit list table|FK [priceunit](priceunit.md)| |
+|heading\_id|Link to Heading table|FK [heading](heading.md)| |
 |registered|Registered when|UtcDateTime| |
 |registered\_associate\_id|Registered by whom|FK [associate](associate.md)| |
 |updated|Last updated when|UtcDateTime| |
@@ -29,7 +29,7 @@ so.envir:
 |updatedCount|Number of updates made to this record|UShort| |
 
 
-![PriceUnitHeadingLink table relationship diagram](media\PriceUnitHeadingLink.png)
+![PriceUnitHeadingLink table relationship diagram](./media/PriceUnitHeadingLink.png)
 
 [!include[details](./includes/PriceUnitHeadingLink.md)]
 

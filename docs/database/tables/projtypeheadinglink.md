@@ -1,27 +1,27 @@
 ---
-uid: projtypeheadinglink
+uid: table-projtypeheadinglink
 title: projtypeheadinglink table
 description: Heading link table for ProjType, for MDO headers
 so.generated: true
 keywords:
   - "database"
-  - "projtypeheadinglink"
-so.date: 19.03.2021
+  - "ProjTypeHeadingLink"
+so.date: 21.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# ProjTypeHeadingLink Table (87)
+# projtypeheadinglink Table (87)
 
 ## Fields
 
 | Name | Description | Type | Null |
 |------|-------------|------|:----:|
 |projtypeheadinglink\_id|Primary key|PK| |
-|projtype\_id|Link to ProjType list table|FK [ProjType](ProjType.md)| |
-|heading\_id|Link to Heading table|FK [Heading](Heading.md)| |
+|projtype\_id|Link to ProjType list table|FK [projtype](projtype.md)| |
+|heading\_id|Link to Heading table|FK [heading](heading.md)| |
 |registered|Registered when|UtcDateTime| |
 |registered\_associate\_id|Registered by whom|FK [associate](associate.md)| |
 |updated|Last updated when|UtcDateTime| |
@@ -29,7 +29,7 @@ so.envir:
 |updatedCount|Number of updates made to this record|UShort| |
 
 
-![ProjTypeHeadingLink table relationship diagram](media\ProjTypeHeadingLink.png)
+![ProjTypeHeadingLink table relationship diagram](./media/ProjTypeHeadingLink.png)
 
 [!include[details](./includes/ProjTypeHeadingLink.md)]
 

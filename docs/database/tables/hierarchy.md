@@ -1,19 +1,19 @@
 ---
-uid: hierarchy
+uid: table-hierarchy
 title: hierarchy table
 description: This table contains folders used to group the extra tables in the system.
 so.generated: true
 keywords:
   - "database"
   - "hierarchy"
-so.date: 19.03.2021
+so.date: 21.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# Hierarchy Table (306)
+# hierarchy Table (306)
 
 ## Fields
 
@@ -31,7 +31,7 @@ so.envir:
 |updatedCount|Number of updates made to this record|UShort|&#x25CF;|
 
 
-![hierarchy table relationship diagram](media\hierarchy.png)
+![hierarchy table relationship diagram](./media/hierarchy.png)
 
 [!include[details](./includes/hierarchy.md)]
 

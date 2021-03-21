@@ -1,19 +1,19 @@
 ---
-uid: invitation
+uid: table-invitation
 title: invitation table
 description: Invitations to events
 so.generated: true
 keywords:
   - "database"
   - "invitation"
-so.date: 19.03.2021
+so.date: 21.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# Invitation Table (479)
+# invitation Table (479)
 
 ## Fields
 
@@ -35,9 +35,7 @@ so.envir:
 |recurring\_start\_date|The start date for a recurring event|DateTime|&#x25CF;|
 
 
-![invitation table relationship diagram](media\invitation.png)
-
-[!include[details](./includes/invitation.md)]
+![invitation table relationship diagram](./media/invitation.png)
 
 ## Indexes
 

@@ -1,27 +1,27 @@
 ---
-uid: prioritygrouplink
+uid: table-prioritygrouplink
 title: prioritygrouplink table
 description: User group link table for Priority, for MDO item hiding
 so.generated: true
 keywords:
   - "database"
-  - "prioritygrouplink"
-so.date: 19.03.2021
+  - "PriorityGroupLink"
+so.date: 21.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# PriorityGroupLink Table (80)
+# prioritygrouplink Table (80)
 
 ## Fields
 
 | Name | Description | Type | Null |
 |------|-------------|------|:----:|
 |prioritygrouplink\_id|Primary key|PK| |
-|priority\_id|Link to Priority list table|FK [Priority](Priority.md)| |
-|group\_id|Link to Group table|FK [UserGroup](UserGroup.md)| |
+|priority\_id|Link to Priority list table|FK [priority](priority.md)| |
+|group\_id|Link to Group table|FK [usergroup](usergroup.md)| |
 |registered|Registered when|UtcDateTime| |
 |registered\_associate\_id|Registered by whom|FK [associate](associate.md)| |
 |updated|Last updated when|UtcDateTime| |
@@ -29,7 +29,7 @@ so.envir:
 |updatedCount|Number of updates made to this record|UShort| |
 
 
-![PriorityGroupLink table relationship diagram](media\PriorityGroupLink.png)
+![PriorityGroupLink table relationship diagram](./media/PriorityGroupLink.png)
 
 [!include[details](./includes/PriorityGroupLink.md)]
 

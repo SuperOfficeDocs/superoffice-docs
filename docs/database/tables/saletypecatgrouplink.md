@@ -1,27 +1,27 @@
 ---
-uid: saletypecatgrouplink
+uid: table-saletypecatgrouplink
 title: saletypecatgrouplink table
 description: User group link table for SaleTypeCat, for MDO item hiding
 so.generated: true
 keywords:
   - "database"
-  - "saletypecatgrouplink"
-so.date: 19.03.2021
+  - "SaleTypeCatGroupLink"
+so.date: 21.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# SaleTypeCatGroupLink Table (119)
+# saletypecatgrouplink Table (119)
 
 ## Fields
 
 | Name | Description | Type | Null |
 |------|-------------|------|:----:|
 |saletypecatgrouplink\_id|Primary key|PK| |
-|saletypecat\_id|Link to SaleTypeCat list table|FK [SaleTypeCat](SaleTypeCat.md)| |
-|group\_id|Link to Group table|FK [UserGroup](UserGroup.md)| |
+|saletypecat\_id|Link to SaleTypeCat list table|FK [saletypecat](saletypecat.md)| |
+|group\_id|Link to Group table|FK [usergroup](usergroup.md)| |
 |registered|Registered when|UtcDateTime| |
 |registered\_associate\_id|Registered by whom|FK [associate](associate.md)| |
 |updated|Last updated when|UtcDateTime| |
@@ -29,7 +29,7 @@ so.envir:
 |updatedCount|Number of updates made to this record|UShort| |
 
 
-![SaleTypeCatGroupLink table relationship diagram](media\SaleTypeCatGroupLink.png)
+![SaleTypeCatGroupLink table relationship diagram](./media/SaleTypeCatGroupLink.png)
 
 [!include[details](./includes/SaleTypeCatGroupLink.md)]
 

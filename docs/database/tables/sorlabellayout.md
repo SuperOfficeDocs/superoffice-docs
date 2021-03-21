@@ -1,19 +1,19 @@
 ---
-uid: sorlabellayout
+uid: table-sorlabellayout
 title: sorlabellayout table
 description: SuperOffice reporter data
 so.generated: true
 keywords:
   - "database"
-  - "sorlabellayout"
-so.date: 19.03.2021
+  - "SORLabelLayout"
+so.date: 21.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# SORLabelLayout Table (180)
+# sorlabellayout Table (180)
 
 ## Fields
 
@@ -40,7 +40,7 @@ so.envir:
 |description|Description|String(2047)| |
 
 
-![SORLabelLayout table relationship diagram](media\SORLabelLayout.png)
+![SORLabelLayout table relationship diagram](./media/SORLabelLayout.png)
 
 [!include[details](./includes/SORLabelLayout.md)]
 

@@ -1,27 +1,27 @@
 ---
-uid: reasonstalledheadinglink
+uid: table-reasonstalledheadinglink
 title: reasonstalledheadinglink table
 description: Heading link table for ReasonStalled, for MDO headers
 so.generated: true
 keywords:
   - "database"
-  - "reasonstalledheadinglink"
-so.date: 19.03.2021
+  - "ReasonStalledHeadingLink"
+so.date: 21.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# ReasonStalledHeadingLink Table (156)
+# reasonstalledheadinglink Table (156)
 
 ## Fields
 
 | Name | Description | Type | Null |
 |------|-------------|------|:----:|
 |reasonstalledheadinglink\_id|Primary key|PK| |
-|reasonstalled\_id|Link to ReasonStalled list table|FK [ReasonStalled](ReasonStalled.md)| |
-|heading\_id|Link to Heading table|FK [Heading](Heading.md)| |
+|reasonstalled\_id|Link to ReasonStalled list table|FK [reasonstalled](reasonstalled.md)| |
+|heading\_id|Link to Heading table|FK [heading](heading.md)| |
 |registered|Registered when|UtcDateTime| |
 |registered\_associate\_id|Registered by whom|FK [associate](associate.md)| |
 |updated|Last updated when|UtcDateTime| |
@@ -29,7 +29,7 @@ so.envir:
 |updatedCount|Number of updates made to this record|UShort| |
 
 
-![ReasonStalledHeadingLink table relationship diagram](media\ReasonStalledHeadingLink.png)
+![ReasonStalledHeadingLink table relationship diagram](./media/ReasonStalledHeadingLink.png)
 
 [!include[details](./includes/ReasonStalledHeadingLink.md)]
 

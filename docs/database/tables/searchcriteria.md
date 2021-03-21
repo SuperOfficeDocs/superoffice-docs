@@ -1,19 +1,19 @@
 ---
-uid: searchcriteria
+uid: table-searchcriteria
 title: searchcriteria table
 description: Criteria storage for Selection and other Find mechanisms
 so.generated: true
 keywords:
   - "database"
-  - "searchcriteria"
-so.date: 19.03.2021
+  - "SearchCriteria"
+so.date: 21.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# SearchCriteria Table (201)
+# searchcriteria Table (201)
 
 ## Fields
 
@@ -22,7 +22,7 @@ so.envir:
 |SearchCriteria\_id|Primary key|PK| |
 |name|Name of this criteria collection|String(254)| |
 |textId|Extra information (descriptive) for this Criteria set|FK [text](text.md)|&#x25CF;|
-|ownerType|Selection, Reporter, FindProject, ...|Enum [OwnerType](enums\EnumOwnerType.md)|&#x25CF;|
+|ownerType|Selection, Reporter, FindProject, ...|Enum [ownertype](enums/ownertype.md)|&#x25CF;|
 |ownerTable|Table number of table that owns these criteria|TableNumber|&#x25CF;|
 |ownerId|Record ID in ownerTable that owns these criteria|RecordId|&#x25CF;|
 |registered|Registered when|UtcDateTime| |
@@ -35,7 +35,7 @@ so.envir:
 |displayName|Display name when these criteria are a saved archive filter|String(254)|&#x25CF;|
 
 
-![SearchCriteria table relationship diagram](media\SearchCriteria.png)
+![SearchCriteria table relationship diagram](./media/SearchCriteria.png)
 
 [!include[details](./includes/SearchCriteria.md)]
 

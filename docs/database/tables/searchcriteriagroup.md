@@ -1,29 +1,29 @@
 ---
-uid: searchcriteriagroup
+uid: table-searchcriteriagroup
 title: searchcriteriagroup table
 description: Criteria storage for Selection and other Find mechanisms
 so.generated: true
 keywords:
   - "database"
-  - "searchcriteriagroup"
-so.date: 19.03.2021
+  - "SearchCriteriaGroup"
+so.date: 21.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# SearchCriteriaGroup Table (202)
+# searchcriteriagroup Table (202)
 
 ## Fields
 
 | Name | Description | Type | Null |
 |------|-------------|------|:----:|
 |SearchCriteriaGroup\_id|Primary key|PK| |
-|SearchCriteria\_id|Owning model|FK [SearchCriteria](SearchCriteria.md)| |
+|SearchCriteria\_id|Owning model|FK [searchcriteria](searchcriteria.md)| |
 |name|The name of this criteria group|String(254)| |
 |textId|Extra information (descriptive) for this Criteria Group|FK [text](text.md)|&#x25CF;|
-|direction|0 = Add, 1 = Subtract this group from the total result|Enum [CriteriaGroupDirection](enums\EnumCriteriaGroupDirection.md)| |
+|direction|0 = Add, 1 = Subtract this group from the total result|Enum [criteriagroupdirection](enums/criteriagroupdirection.md)| |
 |rank|Rank order within this CriteriaModel|UShort| |
 |active|Should this group be executed|UShort| |
 |registered|Registered when|UtcDateTime| |
@@ -33,7 +33,7 @@ so.envir:
 |updatedCount|Number of updates made to this record|UShort| |
 
 
-![SearchCriteriaGroup table relationship diagram](media\SearchCriteriaGroup.png)
+![SearchCriteriaGroup table relationship diagram](./media/SearchCriteriaGroup.png)
 
 [!include[details](./includes/SearchCriteriaGroup.md)]
 

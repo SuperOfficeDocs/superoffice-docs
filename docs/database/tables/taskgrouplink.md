@@ -1,27 +1,27 @@
 ---
-uid: taskgrouplink
+uid: table-taskgrouplink
 title: taskgrouplink table
 description: User group link table for Task, for MDO item hiding
 so.generated: true
 keywords:
   - "database"
-  - "taskgrouplink"
-so.date: 19.03.2021
+  - "TaskGroupLink"
+so.date: 21.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# TaskGroupLink Table (68)
+# taskgrouplink Table (68)
 
 ## Fields
 
 | Name | Description | Type | Null |
 |------|-------------|------|:----:|
 |taskgrouplink\_id|Primary key|PK| |
-|task\_id|Link to Task list table|FK [Task](Task.md)| |
-|group\_id|Link to Group table|FK [UserGroup](UserGroup.md)| |
+|task\_id|Link to Task list table|FK [task](task.md)| |
+|group\_id|Link to Group table|FK [usergroup](usergroup.md)| |
 |registered|Registered when|UtcDateTime| |
 |registered\_associate\_id|Registered by whom|FK [associate](associate.md)| |
 |updated|Last updated when|UtcDateTime| |
@@ -29,7 +29,7 @@ so.envir:
 |updatedCount|Number of updates made to this record|UShort| |
 
 
-![TaskGroupLink table relationship diagram](media\TaskGroupLink.png)
+![TaskGroupLink table relationship diagram](./media/TaskGroupLink.png)
 
 [!include[details](./includes/TaskGroupLink.md)]
 

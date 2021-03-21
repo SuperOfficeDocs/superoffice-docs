@@ -1,21 +1,21 @@
 ---
-uid: extapp
+uid: table-extapp
 title: extapp table
 description: ExtApp list table. Applications startable from SuperOffice
 so.generated: true
 keywords:
   - "database"
-  - "extapp"
-so.date: 19.03.2021
+  - "ExtApp"
+so.date: 21.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# ExtApp Table (133)
+# extapp Table (133)
 
-ExtApp MDO list item table.
+extapp MDO list item table.
 ExtApp list table. Applications startable from SuperOffice
 
 ## Fields
@@ -32,16 +32,16 @@ ExtApp list table. Applications startable from SuperOffice
 |parameters|&lt;template variable&gt; &lt;other template variable&gt;|String(239)|&#x25CF;|
 |workdir|Directory set to current when loading the application, if different from application&apos;s own|String(239)|&#x25CF;|
 |icon|0 indicates default Icon (from app exe file), otherwise reference to a predefined icon resource in SO|UShort|&#x25CF;|
-|availableInState|When should this application be available from SO: 0=always, 1=on central db, 2=on travel db,4 on satellite. The value 5 (1+4) indicates that this application is available when logged in to a central or satellite db|Enum [AppAvailState](enums\EnumAppAvailState.md)| |
-|executeOnEvent|Events that cause automatic execution of this app|Enum [ExecuteOnEvent](enums\EnumExecuteOnEvent.md)| |
-|navigation|0=from menu, 1 = from Navigator(integration), 2 = From navigator|Enum [Navigation](enums\EnumNavigation.md)| |
-|showState|Maximized / minimized / restored|Enum [ShowState](enums\EnumShowState.md)| |
+|availableInState|When should this application be available from SO: 0=always, 1=on central db, 2=on travel db,4 on satellite. The value 5 (1+4) indicates that this application is available when logged in to a central or satellite db|Enum [appavailstate](enums/appavailstate.md)| |
+|executeOnEvent|Events that cause automatic execution of this app|Enum [executeonevent](enums/executeonevent.md)| |
+|navigation|0=from menu, 1 = from Navigator(integration), 2 = From navigator|Enum [navigation](enums/navigation.md)| |
+|showState|Maximized / minimized / restored|Enum [showstate](enums/showstate.md)| |
 |registered|Registered when|UtcDateTime| |
 |registered\_associate\_id|Registered by whom|FK [associate](associate.md)| |
 |updated|Last updated when|UtcDateTime| |
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
-|appType|Application type: 1 = exe, 2 = integrated html, 3 = integrated url, 4 = browser url, 5 = external url|Enum [AppType](enums\EnumAppType.md)|&#x25CF;|
+|appType|Application type: 1 = exe, 2 = integrated html, 3 = integrated url, 4 = browser url, 5 = external url|Enum [apptype](enums/apptype.md)|&#x25CF;|
 |waitToFinish|If 1, we wait synchronously for the pplication to finish before we go on|Bool|&#x25CF;|
 |windowName|The window which the URL address is to open in (webpanel only)|String(254)|&#x25CF;|
 |url1|URL, supports long strings up to 1k|String(1023)|&#x25CF;|
@@ -49,7 +49,7 @@ ExtApp list table. Applications startable from SuperOffice
 |configInfo|Extra configuration information|String(2047)|&#x25CF;|
 
 
-![ExtApp table relationship diagram](media\ExtApp.png)
+![ExtApp table relationship diagram](./media/ExtApp.png)
 
 [!include[details](./includes/ExtApp.md)]
 

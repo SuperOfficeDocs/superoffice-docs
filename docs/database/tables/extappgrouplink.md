@@ -1,27 +1,27 @@
 ---
-uid: extappgrouplink
+uid: table-extappgrouplink
 title: extappgrouplink table
 description: User group link table for ExtApp, for MDO item hiding
 so.generated: true
 keywords:
   - "database"
-  - "extappgrouplink"
-so.date: 19.03.2021
+  - "ExtAppGroupLink"
+so.date: 21.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# ExtAppGroupLink Table (134)
+# extappgrouplink Table (134)
 
 ## Fields
 
 | Name | Description | Type | Null |
 |------|-------------|------|:----:|
 |extappgrouplink\_id|Primary key|PK| |
-|extapp\_id|Link to ExtApp list table|FK [ExtApp](ExtApp.md)| |
-|group\_id|Link to Group table|FK [UserGroup](UserGroup.md)| |
+|extapp\_id|Link to ExtApp list table|FK [extapp](extapp.md)| |
+|group\_id|Link to Group table|FK [usergroup](usergroup.md)| |
 |registered|Registered when|UtcDateTime| |
 |registered\_associate\_id|Registered by whom|FK [associate](associate.md)| |
 |updated|Last updated when|UtcDateTime| |
@@ -29,7 +29,7 @@ so.envir:
 |updatedCount|Number of updates made to this record|UShort| |
 
 
-![ExtAppGroupLink table relationship diagram](media\ExtAppGroupLink.png)
+![ExtAppGroupLink table relationship diagram](./media/ExtAppGroupLink.png)
 
 [!include[details](./includes/ExtAppGroupLink.md)]
 

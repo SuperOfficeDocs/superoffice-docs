@@ -1,19 +1,19 @@
 ---
-uid: importobject
+uid: table-importobject
 title: importobject table
 description: Import object types - see localetext for names.
 so.generated: true
 keywords:
   - "database"
-  - "importobject"
-so.date: 19.03.2021
+  - "ImportObject"
+so.date: 21.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# ImportObject Table (186)
+# importobject Table (186)
 
 ## Fields
 
@@ -32,7 +32,7 @@ so.envir:
 |isBuiltin|1 = This row populated and maintained by SuperOffice|UShort|&#x25CF;|
 
 
-![ImportObject table relationship diagram](media\ImportObject.png)
+![ImportObject table relationship diagram](./media/ImportObject.png)
 
 [!include[details](./includes/ImportObject.md)]
 

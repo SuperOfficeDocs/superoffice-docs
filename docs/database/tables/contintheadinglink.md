@@ -1,27 +1,27 @@
 ---
-uid: contintheadinglink
+uid: table-contintheadinglink
 title: contintheadinglink table
 description: Heading link table for ContInt, for MDO headers
 so.generated: true
 keywords:
   - "database"
-  - "contintheadinglink"
-so.date: 19.03.2021
+  - "ContIntHeadingLink"
+so.date: 21.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# ContIntHeadingLink Table (72)
+# contintheadinglink Table (72)
 
 ## Fields
 
 | Name | Description | Type | Null |
 |------|-------------|------|:----:|
 |contintheadinglink\_id|Primary key|PK| |
-|contint\_id|Link to ContInt list table|FK [ContInt](ContInt.md)| |
-|heading\_id|Link to Heading table|FK [Heading](Heading.md)| |
+|contint\_id|Link to ContInt list table|FK [contint](contint.md)| |
+|heading\_id|Link to Heading table|FK [heading](heading.md)| |
 |registered|Registered when|UtcDateTime| |
 |registered\_associate\_id|Registered by whom|FK [associate](associate.md)| |
 |updated|Last updated when|UtcDateTime| |
@@ -29,7 +29,7 @@ so.envir:
 |updatedCount|Number of updates made to this record|UShort| |
 
 
-![ContIntHeadingLink table relationship diagram](media\ContIntHeadingLink.png)
+![ContIntHeadingLink table relationship diagram](./media/ContIntHeadingLink.png)
 
 [!include[details](./includes/ContIntHeadingLink.md)]
 

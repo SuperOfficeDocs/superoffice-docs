@@ -1,26 +1,26 @@
 ---
-uid: statusvalue
+uid: table-statusvalue
 title: statusvalue table
 description: Values for statuses
 so.generated: true
 keywords:
   - "database"
-  - "statusvalue"
-so.date: 19.03.2021
+  - "StatusValue"
+so.date: 21.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# StatusValue Table (199)
+# statusvalue Table (199)
 
 ## Fields
 
 | Name | Description | Type | Null |
 |------|-------------|------|:----:|
 |StatusValue\_id|Primary key|PK| |
-|StatusDef\_id|Link to statusdefinition|FK [StatusDef](StatusDef.md)| |
+|StatusDef\_id|Link to statusdefinition|FK [statusdef](statusdef.md)| |
 |contact\_id|Link to contact, 0 if this status is not for contacts|FK [contact](contact.md)| |
 |person\_id|Link to person, 0 if this status is not for person (always 0 in 6.0)|FK [person](person.md)| |
 |project\_id|Link to project, 0 if this status is not for project|FK [project](project.md)| |
@@ -35,7 +35,7 @@ so.envir:
 |updatedCount|Number of updates made to this record|UShort| |
 
 
-![StatusValue table relationship diagram](media\StatusValue.png)
+![StatusValue table relationship diagram](./media/StatusValue.png)
 
 [!include[details](./includes/StatusValue.md)]
 

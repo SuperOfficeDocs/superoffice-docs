@@ -1,19 +1,19 @@
 ---
-uid: freetextwords
+uid: table-freetextwords
 title: freetextwords table
 description: This table contains the word list (automatically updated by the indexer) for the free-text search. Words are in UPPERCASE and truncated to 9 significant characters. Indexed words, dynamically updated by the freetext index
 so.generated: true
 keywords:
   - "database"
   - "freetextwords"
-so.date: 19.03.2021
+so.date: 21.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# Freetextwords Table (45)
+# freetextwords Table (45)
 
 ## Fields
 
@@ -24,7 +24,7 @@ so.envir:
 |soundEx|Soundex form of word using Metaphone algorithm, for sounds-like searching|String(9)| |
 
 
-![freetextwords table relationship diagram](media\freetextwords.png)
+![freetextwords table relationship diagram](./media/freetextwords.png)
 
 [!include[details](./includes/freetextwords.md)]
 

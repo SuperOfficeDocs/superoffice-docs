@@ -1,19 +1,19 @@
 ---
-uid: trayapp
+uid: table-trayapp
 title: trayapp table
 description: Tray application presence. SuperOffice CRM web extensions.
 so.generated: true
 keywords:
   - "database"
-  - "trayapp"
-so.date: 19.03.2021
+  - "TrayApp"
+so.date: 21.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# TrayApp Table (252)
+# trayapp Table (252)
 
 ## Fields
 
@@ -32,7 +32,7 @@ so.envir:
 |updatedCount|Number of updates made to this record|UShort| |
 
 
-![TrayApp table relationship diagram](media\TrayApp.png)
+![TrayApp table relationship diagram](./media/TrayApp.png)
 
 [!include[details](./includes/TrayApp.md)]
 

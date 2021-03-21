@@ -1,0 +1,22 @@
+---
+uid: enum-recurrencesubpattern
+title: Enum values for RecurrenceSubPattern
+description: Lists the enum values for RecurrenceSubPattern.
+so.generated: true
+keywords:
+  - "database"
+so.date: 21.03.2021
+so.topic: reference
+so.envir:
+  - "onsite"
+  - "online"
+---
+
+# RecurrenceSubPattern Enum
+
+Subpattern (workday, everyday, weekday etc)
+
+
+## Usage
+
+* [RecurrenceRule](../recurrencerule.md).subPattern - The recurrency pattern for a recurring event. Each recurring event has an appointment.recurrenceRuleId pointing to its pattern.

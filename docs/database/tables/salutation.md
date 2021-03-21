@@ -1,21 +1,21 @@
 ---
-uid: salutation
+uid: table-salutation
 title: salutation table
 description: Academic title for Person
 so.generated: true
 keywords:
   - "database"
-  - "salutation"
-so.date: 19.03.2021
+  - "Salutation"
+so.date: 21.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# Salutation Table (219)
+# salutation Table (219)
 
-Salutation MDO list item table.
+salutation MDO list item table.
 Academic title for Person
 
 ## Fields
@@ -34,7 +34,7 @@ Academic title for Person
 |updatedCount|Number of updates made to this record|UShort| |
 
 
-![Salutation table relationship diagram](media\Salutation.png)
+![Salutation table relationship diagram](./media/Salutation.png)
 
 [!include[details](./includes/Salutation.md)]
 

@@ -1,19 +1,19 @@
 ---
-uid: suggestedappointment
+uid: table-suggestedappointment
 title: suggestedappointment table
 description: Defines a suggested appointment for use in a Sale Guide or Project Guide
 so.generated: true
 keywords:
   - "database"
-  - "suggestedappointment"
-so.date: 19.03.2021
+  - "SuggestedAppointment"
+so.date: 21.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# SuggestedAppointment Table (125)
+# suggestedappointment Table (125)
 
 ## Fields
 
@@ -24,9 +24,9 @@ so.envir:
 |rank|Rank, controls rank of non-instantiated items in Guide|UShort|&#x25CF;|
 |tooltip|Tooltip / description|String(254)|&#x25CF;|
 |deleted|0 -&gt; record is active 1 -&gt; record is &apos;deleted&apos; and should not be shown in lists|UShort|&#x25CF;|
-|saleTypeStageLinkId|Link to saleTypeStageLink, the anchor for sale guide items. Either this OR projectAnchorId should be set, not both at the same time.|FK [SaleTypeStageLink](SaleTypeStageLink.md)|&#x25CF;|
-|projectTypeStatusLinkId|Link to projectTypeStatusLink, the anchor for project guide items. Either this OR saleAnchorId should be set, not both at the same time.|FK [ProjectTypeStatusLink](ProjectTypeStatusLink.md)|&#x25CF;|
-|task\_id|Type of the suggested appointment|FK [Task](Task.md)|&#x25CF;|
+|saleTypeStageLinkId|Link to saleTypeStageLink, the anchor for sale guide items. Either this OR projectAnchorId should be set, not both at the same time.|FK [saletypestagelink](saletypestagelink.md)|&#x25CF;|
+|projectTypeStatusLinkId|Link to projectTypeStatusLink, the anchor for project guide items. Either this OR saleAnchorId should be set, not both at the same time.|FK [projecttypestatuslink](projecttypestatuslink.md)|&#x25CF;|
+|task\_id|Type of the suggested appointment|FK [task](task.md)|&#x25CF;|
 |daysFuture|How many days into the future the appointment should be scheduled|UShort|&#x25CF;|
 |duration|Duration in minutes of suggested appointment|UShort|&#x25CF;|
 |autoSuggest|Should this appointment be auto-suggested|Bool|&#x25CF;|
@@ -40,7 +40,7 @@ so.envir:
 |assignToMember|Should generated appointment be assigned to a project member?|Bool|&#x25CF;|
 
 
-![SuggestedAppointment table relationship diagram](media\SuggestedAppointment.png)
+![SuggestedAppointment table relationship diagram](./media/SuggestedAppointment.png)
 
 [!include[details](./includes/SuggestedAppointment.md)]
 

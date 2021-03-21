@@ -1,19 +1,19 @@
 ---
-uid: config
+uid: table-config
 title: config table
 description: This table contains certain system-wide configuration values.
 so.generated: true
 keywords:
   - "database"
   - "config"
-so.date: 19.03.2021
+so.date: 21.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# Config Table (255)
+# config Table (255)
 
 ## Fields
 
@@ -51,7 +51,7 @@ so.envir:
 |feature\_toggle|Temporary values used for feature toggles|Clob|&#x25CF;|
 
 
-![config table relationship diagram](media\config.png)
+![config table relationship diagram](./media/config.png)
 
 [!include[details](./includes/config.md)]
 

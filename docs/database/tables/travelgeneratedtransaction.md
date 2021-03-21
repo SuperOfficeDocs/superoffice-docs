@@ -1,19 +1,19 @@
 ---
-uid: travelgeneratedtransaction
+uid: table-travelgeneratedtransaction
 title: travelgeneratedtransaction table
 description: Record of all generated replication data files from this database (*.dwn files from mother database to child, *.up from child database to mother)
 so.generated: true
 keywords:
   - "database"
   - "travelgeneratedtransaction"
-so.date: 19.03.2021
+so.date: 21.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# Travelgeneratedtransaction Table (30)
+# travelgeneratedtransaction Table (30)
 
 ## Fields
 
@@ -33,7 +33,7 @@ so.envir:
 |updatedCount|Number of updates made to this record|UShort| |
 
 
-![travelgeneratedtransaction table relationship diagram](media\travelgeneratedtransaction.png)
+![travelgeneratedtransaction table relationship diagram](./media/travelgeneratedtransaction.png)
 
 [!include[details](./includes/travelgeneratedtransaction.md)]
 

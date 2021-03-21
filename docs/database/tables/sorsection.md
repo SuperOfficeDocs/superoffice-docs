@@ -1,26 +1,26 @@
 ---
-uid: sorsection
+uid: table-sorsection
 title: sorsection table
 description: SuperOffice reporter data
 so.generated: true
 keywords:
   - "database"
-  - "sorsection"
-so.date: 19.03.2021
+  - "SORSection"
+so.date: 21.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# SORSection Table (177)
+# sorsection Table (177)
 
 ## Fields
 
 | Name | Description | Type | Null |
 |------|-------------|------|:----:|
 |SORSection\_id|Primary key|PK| |
-|SORTemplate\_id|Template ID|FK [SORTemplate](SORTemplate.md)| |
+|SORTemplate\_id|Template ID|FK [sortemplate](sortemplate.md)| |
 |sectionType|reportheader, reportfooter, pageheader, pagefooter, detail, groupheader(1-3), groupfooter(1-3)|String(19)| |
 |height|Section height in twips|UInt| |
 |groupingField|Name of field used for grouping, ig group section|String(29)|&#x25CF;|
@@ -31,7 +31,7 @@ so.envir:
 |updatedCount|Number of updates made to this record|UShort| |
 
 
-![SORSection table relationship diagram](media\SORSection.png)
+![SORSection table relationship diagram](./media/SORSection.png)
 
 [!include[details](./includes/SORSection.md)]
 

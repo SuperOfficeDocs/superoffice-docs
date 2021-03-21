@@ -1,27 +1,27 @@
 ---
-uid: comptrheadinglink
+uid: table-comptrheadinglink
 title: comptrheadinglink table
 description: Heading link table for Comptr, for MDO headers
 so.generated: true
 keywords:
   - "database"
-  - "comptrheadinglink"
-so.date: 19.03.2021
+  - "ComptrHeadingLink"
+so.date: 21.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# ComptrHeadingLink Table (111)
+# comptrheadinglink Table (111)
 
 ## Fields
 
 | Name | Description | Type | Null |
 |------|-------------|------|:----:|
 |comptrheadinglink\_id|Primary key|PK| |
-|comptr\_id|Link to Comptr list table|FK [Comptr](Comptr.md)| |
-|heading\_id|Link to Heading table|FK [Heading](Heading.md)| |
+|comptr\_id|Link to Comptr list table|FK [comptr](comptr.md)| |
+|heading\_id|Link to Heading table|FK [heading](heading.md)| |
 |registered|Registered when|UtcDateTime| |
 |registered\_associate\_id|Registered by whom|FK [associate](associate.md)| |
 |updated|Last updated when|UtcDateTime| |
@@ -29,7 +29,7 @@ so.envir:
 |updatedCount|Number of updates made to this record|UShort| |
 
 
-![ComptrHeadingLink table relationship diagram](media\ComptrHeadingLink.png)
+![ComptrHeadingLink table relationship diagram](./media/ComptrHeadingLink.png)
 
 [!include[details](./includes/ComptrHeadingLink.md)]
 

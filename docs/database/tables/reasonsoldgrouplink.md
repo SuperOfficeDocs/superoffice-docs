@@ -1,27 +1,27 @@
 ---
-uid: reasonsoldgrouplink
+uid: table-reasonsoldgrouplink
 title: reasonsoldgrouplink table
 description: User group link table for ReasonSold, for MDO item hiding
 so.generated: true
 keywords:
   - "database"
-  - "reasonsoldgrouplink"
-so.date: 19.03.2021
+  - "ReasonSoldGroupLink"
+so.date: 21.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# ReasonSoldGroupLink Table (116)
+# reasonsoldgrouplink Table (116)
 
 ## Fields
 
 | Name | Description | Type | Null |
 |------|-------------|------|:----:|
 |reasonsoldgrouplink\_id|Primary key|PK| |
-|reasonsold\_id|Link to ReasonSold list table|FK [ReasonSold](ReasonSold.md)| |
-|group\_id|Link to Group table|FK [UserGroup](UserGroup.md)| |
+|reasonsold\_id|Link to ReasonSold list table|FK [reasonsold](reasonsold.md)| |
+|group\_id|Link to Group table|FK [usergroup](usergroup.md)| |
 |registered|Registered when|UtcDateTime| |
 |registered\_associate\_id|Registered by whom|FK [associate](associate.md)| |
 |updated|Last updated when|UtcDateTime| |
@@ -29,7 +29,7 @@ so.envir:
 |updatedCount|Number of updates made to this record|UShort| |
 
 
-![ReasonSoldGroupLink table relationship diagram](media\ReasonSoldGroupLink.png)
+![ReasonSoldGroupLink table relationship diagram](./media/ReasonSoldGroupLink.png)
 
 [!include[details](./includes/ReasonSoldGroupLink.md)]
 

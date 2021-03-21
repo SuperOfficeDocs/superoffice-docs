@@ -1,21 +1,21 @@
 ---
-uid: producttype
+uid: table-producttype
 title: producttype table
 description: List for the ProductType field of the Product table (Quote Management)
 so.generated: true
 keywords:
   - "database"
-  - "producttype"
-so.date: 19.03.2021
+  - "ProductType"
+so.date: 21.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# ProductType Table (414)
+# producttype Table (414)
 
-ProductType MDO list item table.
+producttype MDO list item table.
 List for the ProductType field of the Product table (Quote Management)
 
 ## Fields
@@ -34,7 +34,7 @@ List for the ProductType field of the Product table (Quote Management)
 |updatedCount|Number of updates made to this record|UShort| |
 
 
-![ProductType table relationship diagram](media\ProductType.png)
+![ProductType table relationship diagram](./media/ProductType.png)
 
 [!include[details](./includes/ProductType.md)]
 

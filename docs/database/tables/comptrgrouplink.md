@@ -1,27 +1,27 @@
 ---
-uid: comptrgrouplink
+uid: table-comptrgrouplink
 title: comptrgrouplink table
 description: User group link table for Comptr, for MDO item hiding
 so.generated: true
 keywords:
   - "database"
-  - "comptrgrouplink"
-so.date: 19.03.2021
+  - "ComptrGroupLink"
+so.date: 21.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# ComptrGroupLink Table (110)
+# comptrgrouplink Table (110)
 
 ## Fields
 
 | Name | Description | Type | Null |
 |------|-------------|------|:----:|
 |comptrgrouplink\_id|Primary key|PK| |
-|comptr\_id|Link to Comptr list table|FK [Comptr](Comptr.md)| |
-|group\_id|Link to Group table|FK [UserGroup](UserGroup.md)| |
+|comptr\_id|Link to Comptr list table|FK [comptr](comptr.md)| |
+|group\_id|Link to Group table|FK [usergroup](usergroup.md)| |
 |registered|Registered when|UtcDateTime| |
 |registered\_associate\_id|Registered by whom|FK [associate](associate.md)| |
 |updated|Last updated when|UtcDateTime| |
@@ -29,7 +29,7 @@ so.envir:
 |updatedCount|Number of updates made to this record|UShort| |
 
 
-![ComptrGroupLink table relationship diagram](media\ComptrGroupLink.png)
+![ComptrGroupLink table relationship diagram](./media/ComptrGroupLink.png)
 
 [!include[details](./includes/ComptrGroupLink.md)]
 

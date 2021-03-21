@@ -1,19 +1,19 @@
 ---
-uid: areauserassignment
+uid: table-areauserassignment
 title: areauserassignment table
 description: Link table indicating which users actually reside in this area.
 so.generated: true
 keywords:
   - "database"
   - "areauserassignment"
-so.date: 19.03.2021
+so.date: 21.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# Areauserassignment Table (40)
+# areauserassignment Table (40)
 
 ## Fields
 
@@ -29,7 +29,7 @@ so.envir:
 |updatedCount|Number of updates made to this record|UShort| |
 
 
-![areauserassignment table relationship diagram](media\areauserassignment.png)
+![areauserassignment table relationship diagram](./media/areauserassignment.png)
 
 [!include[details](./includes/areauserassignment.md)]
 

@@ -1,21 +1,21 @@
 ---
-uid: reasonsold
+uid: table-reasonsold
 title: reasonsold table
 description: Why was the sale marked as sold (why did we succeed)
 so.generated: true
 keywords:
   - "database"
-  - "reasonsold"
-so.date: 19.03.2021
+  - "ReasonSold"
+so.date: 21.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# ReasonSold Table (115)
+# reasonsold Table (115)
 
-ReasonSold MDO list item table.
+reasonsold MDO list item table.
 Why was the sale marked as sold (why did we succeed)
 
 ## Fields
@@ -34,7 +34,7 @@ Why was the sale marked as sold (why did we succeed)
 |updatedCount|Number of updates made to this record|UShort| |
 
 
-![ReasonSold table relationship diagram](media\ReasonSold.png)
+![ReasonSold table relationship diagram](./media/ReasonSold.png)
 
 [!include[details](./includes/ReasonSold.md)]
 

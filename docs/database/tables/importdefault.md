@@ -1,26 +1,26 @@
 ---
-uid: importdefault
+uid: table-importdefault
 title: importdefault table
 description: Defaults for import fields/objects
 so.generated: true
 keywords:
   - "database"
-  - "importdefault"
-so.date: 19.03.2021
+  - "ImportDefault"
+so.date: 21.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# ImportDefault Table (189)
+# importdefault Table (189)
 
 ## Fields
 
 | Name | Description | Type | Null |
 |------|-------------|------|:----:|
 |ImportDefault\_id|Primary key|PK| |
-|ImportObject\_id|The object this default applies to|FK [ImportObject](ImportObject.md)| |
+|ImportObject\_id|The object this default applies to|FK [importobject](importobject.md)| |
 |dbFieldId|The database field (within that object, presumably!) this default applies to|FieldId| |
 |intValue|Integer default value|UInt|&#x25CF;|
 |strValue|String value|String(254)|&#x25CF;|
@@ -33,7 +33,7 @@ so.envir:
 |isBuiltin|1 = This row populated and maintained by SuperOffice|UShort|&#x25CF;|
 
 
-![ImportDefault table relationship diagram](media\ImportDefault.png)
+![ImportDefault table relationship diagram](./media/ImportDefault.png)
 
 [!include[details](./includes/ImportDefault.md)]
 

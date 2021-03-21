@@ -1,19 +1,19 @@
 ---
-uid: productversion
+uid: table-productversion
 title: productversion table
 description: Version information for code modules. Owner + code module must be unique
 so.generated: true
 keywords:
   - "database"
-  - "productversion"
-so.date: 19.03.2021
+  - "ProductVersion"
+so.date: 21.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# ProductVersion Table (240)
+# productversion Table (240)
 
 ## Fields
 
@@ -32,7 +32,7 @@ so.envir:
 |updatedCount|Number of updates made to this record|UShort| |
 
 
-![ProductVersion table relationship diagram](media\ProductVersion.png)
+![ProductVersion table relationship diagram](./media/ProductVersion.png)
 
 [!include[details](./includes/ProductVersion.md)]
 

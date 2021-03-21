@@ -1,19 +1,19 @@
 ---
-uid: selection
+uid: table-selection
 title: selection table
 description: Selections
 so.generated: true
 keywords:
   - "database"
   - "selection"
-so.date: 19.03.2021
+so.date: 21.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# Selection Table (23)
+# selection Table (23)
 
 ## Fields
 
@@ -21,13 +21,13 @@ so.envir:
 |------|-------------|------|:----:|
 |selection\_id|Primary key|PK| |
 |associate\_id|Associate who owns the selection|FK [associate](associate.md)| |
-|group\_idx|Original primary user group of associate|FK [UserGroup](UserGroup.md)| |
+|group\_idx|Original primary user group of associate|FK [usergroup](usergroup.md)| |
 |name|Name, freetext indexed|String(219)| |
 |text\_id|Description text|FK [text](text.md)|&#x25CF;|
 |postitText\_Id|Postit text|FK [text](text.md)|&#x25CF;|
 |visibility|Obsolete, but still maintained denormalization of visiblefor|UShort|&#x25CF;|
 |seltype|0 = static selection, 1 = dynamic selection, 2 = combined selection. See the &apos;SystemType&apos; field to disnguish between user selections, and Temporary or other system-managed kinds of selection|UShort|&#x25CF;|
-|searchCat\_id|Search category (list)|FK [SearchCat](SearchCat.md)|&#x25CF;|
+|searchCat\_id|Search category (list)|FK [searchcat](searchcat.md)|&#x25CF;|
 |companyUnique|Only one person from a company may be selected as a member|UShort|&#x25CF;|
 |soundEx|What the name sounds like, for duplicate detection|String(9)|&#x25CF;|
 |source|How did we get this selection? For future integration needs|UShort|&#x25CF;|
@@ -40,10 +40,10 @@ so.envir:
 |includePerson|0 = Include first person, 1 = Include all persons, 2 = Include no persons|Int|&#x25CF;|
 |targetTableNumber|Table number that this is a selection of (contact, sale, appointment, ....)|TableNumber| |
 |done|Done (0=false, 1=true). Status implies changes in which fields are shown in GUI, as well as which fields can be updated|Bool|&#x25CF;|
-|combinationType|How should the inputs of a combined selection be combined|Enum [SelectionUnionType](enums\EnumSelectionUnionType.md)|&#x25CF;|
+|combinationType|How should the inputs of a combined selection be combined|Enum [selectionuniontype](enums/selectionuniontype.md)|&#x25CF;|
 |leftSelectionId|ID of the left selection of a combined selection|FK [selection](selection.md)|&#x25CF;|
 |rightSelectionId|ID of the right selection of a combined selection|FK [selection](selection.md)|&#x25CF;|
-|SystemType|Selection system type - defines if this selection is one that is managed by the system, and what kind it is|Enum [SelectionSystemType](enums\EnumSelectionSystemType.md)|&#x25CF;|
+|SystemType|Selection system type - defines if this selection is one that is managed by the system, and what kind it is|Enum [selectionsystemtype](enums/selectionsystemtype.md)|&#x25CF;|
 |chartKey|ID/key of the last-used chart tile on this selection|String(254)|&#x25CF;|
 |lastLoaded|The date/time this selection was last loaded (selectionentity fetched)|DateTime|&#x25CF;|
 |lastLoadedBy|Who last loaded this selection|FK [associate](associate.md)|&#x25CF;|
@@ -51,7 +51,7 @@ so.envir:
 |lastMembershipChangeBy|Who last changed the membership|FK [associate](associate.md)|&#x25CF;|
 
 
-![selection table relationship diagram](media\selection.png)
+![selection table relationship diagram](./media/selection.png)
 
 [!include[details](./includes/selection.md)]
 

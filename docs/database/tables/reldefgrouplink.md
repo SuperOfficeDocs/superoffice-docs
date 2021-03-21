@@ -1,19 +1,19 @@
 ---
-uid: reldefgrouplink
+uid: table-reldefgrouplink
 title: reldefgrouplink table
 description: User group link table for RelDef, for MDO item hiding
 so.generated: true
 keywords:
   - "database"
-  - "reldefgrouplink"
-so.date: 19.03.2021
+  - "RelDefGroupLink"
+so.date: 21.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# RelDefGroupLink Table (49)
+# reldefgrouplink Table (49)
 
 ## Fields
 
@@ -21,7 +21,7 @@ so.envir:
 |------|-------------|------|:----:|
 |reldefgrouplink\_id|Primary key|PK| |
 |reldef\_id|Link to RelDef list table|FK [relationdefinition](relationdefinition.md)| |
-|group\_id|Link to Group table|FK [UserGroup](UserGroup.md)| |
+|group\_id|Link to Group table|FK [usergroup](usergroup.md)| |
 |registered|Registered when|UtcDateTime| |
 |registered\_associate\_id|Registered by whom|FK [associate](associate.md)| |
 |updated|Last updated when|UtcDateTime| |
@@ -29,7 +29,7 @@ so.envir:
 |updatedCount|Number of updates made to this record|UShort| |
 
 
-![RelDefGroupLink table relationship diagram](media\RelDefGroupLink.png)
+![RelDefGroupLink table relationship diagram](./media/RelDefGroupLink.png)
 
 [!include[details](./includes/RelDefGroupLink.md)]
 

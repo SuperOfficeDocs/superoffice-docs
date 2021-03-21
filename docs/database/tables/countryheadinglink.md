@@ -1,19 +1,19 @@
 ---
-uid: countryheadinglink
+uid: table-countryheadinglink
 title: countryheadinglink table
 description: Heading link table for Country, for MDO headers
 so.generated: true
 keywords:
   - "database"
-  - "countryheadinglink"
-so.date: 19.03.2021
+  - "CountryHeadingLink"
+so.date: 21.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# CountryHeadingLink Table (21)
+# countryheadinglink Table (21)
 
 ## Fields
 
@@ -21,7 +21,7 @@ so.envir:
 |------|-------------|------|:----:|
 |countryheadinglink\_id|Primary key|PK| |
 |country\_id|Link to Country list table|FK [country](country.md)| |
-|heading\_id|Link to Heading table|FK [Heading](Heading.md)| |
+|heading\_id|Link to Heading table|FK [heading](heading.md)| |
 |registered|Registered when|UtcDateTime| |
 |registered\_associate\_id|Registered by whom|FK [associate](associate.md)| |
 |updated|Last updated when|UtcDateTime| |
@@ -29,7 +29,7 @@ so.envir:
 |updatedCount|Number of updates made to this record|UShort| |
 
 
-![CountryHeadingLink table relationship diagram](media\CountryHeadingLink.png)
+![CountryHeadingLink table relationship diagram](./media/CountryHeadingLink.png)
 
 [!include[details](./includes/CountryHeadingLink.md)]
 

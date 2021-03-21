@@ -1,19 +1,19 @@
 ---
-uid: traveller
+uid: table-traveller
 title: traveller table
 description: Associates traveling out from this database
 so.generated: true
 keywords:
   - "database"
   - "traveller"
-so.date: 19.03.2021
+so.date: 21.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# Traveller Table (31)
+# traveller Table (31)
 
 ## Fields
 
@@ -29,7 +29,7 @@ so.envir:
 |last\_playbacktime|Datetime when we last read a file from this traveller|DateTime|&#x25CF;|
 |last\_playbacknumber|File number of last file receieved from this traveller|FK [traveltransactionlog](traveltransactionlog.md)|&#x25CF;|
 |databasetype|The database type he has|UShort|&#x25CF;|
-|encryptedComm|Use encrypted communication for this traveller: 0 = no, 1 = serial no as key, 2 = target db tag as key (secure but lots of hassle for support)|Enum [TravelEncryptionChild](enums\EnumTravelEncryptionChild.md)|&#x25CF;|
+|encryptedComm|Use encrypted communication for this traveller: 0 = no, 1 = serial no as key, 2 = target db tag as key (secure but lots of hassle for support)|Enum [travelencryptionchild](enums/travelencryptionchild.md)|&#x25CF;|
 |dbTag|Database tag, used for encryption key|String(39)|&#x25CF;|
 |defaultMakeReturn|Default value for the &apos;make return log&apos; checkbox, based on last answer|UShort|&#x25CF;|
 |registered|Registered when|UtcDateTime| |
@@ -39,7 +39,7 @@ so.envir:
 |updatedCount|Number of updates made to this record|UShort| |
 
 
-![traveller table relationship diagram](media\traveller.png)
+![traveller table relationship diagram](./media/traveller.png)
 
 [!include[details](./includes/traveller.md)]
 

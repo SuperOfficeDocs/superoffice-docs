@@ -1,28 +1,28 @@
 ---
-uid: schedule
+uid: table-schedule
 title: schedule table
 description: Generic scheduled tasked handling time scheduling, locking and error messages
 so.generated: true
 keywords:
   - "database"
   - "schedule"
-so.date: 19.03.2021
+so.date: 21.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# Schedule Table (379)
+# schedule Table (379)
 
 ## Fields
 
 | Name | Description | Type | Null |
 |------|-------------|------|:----:|
 |id|Primary key|PK| |
-|domain|Type of scheduled task|Enum [](enums\Enum.md)|&#x25CF;|
-|status|Schedules current status|Enum [](enums\Enum.md)|&#x25CF;|
-|frequency|Type of schedule algorithm to use|Enum [](enums\Enum.md)|&#x25CF;|
+|domain|Type of scheduled task|domain|&#x25CF;|
+|status|Schedules current status|status|&#x25CF;|
+|frequency|Type of schedule algorithm to use|frequency|&#x25CF;|
 |asap|Run schedule ASAP|Bool| |
 |disabled|Disable the schedule|Bool| |
 |stop|Signal to stop schedule|Bool| |
@@ -47,7 +47,7 @@ so.envir:
 |retry\_interval|Number of minutes between each retry|Int|&#x25CF;|
 
 
-![schedule table relationship diagram](media\schedule.png)
+![schedule table relationship diagram](./media/schedule.png)
 
 [!include[details](./includes/schedule.md)]
 

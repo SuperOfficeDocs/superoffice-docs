@@ -1,19 +1,19 @@
 ---
-uid: taborder
+uid: table-taborder
 title: taborder table
 description: Order of tabs within a tab control, if configured by a user
 so.generated: true
 keywords:
   - "database"
-  - "taborder"
-so.date: 19.03.2021
+  - "TabOrder"
+so.date: 21.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# TabOrder Table (152)
+# taborder Table (152)
 
 ## Fields
 
@@ -30,7 +30,7 @@ so.envir:
 |updatedCount|Number of updates made to this record|UShort| |
 
 
-![TabOrder table relationship diagram](media\TabOrder.png)
+![TabOrder table relationship diagram](./media/TabOrder.png)
 
 [!include[details](./includes/TabOrder.md)]
 

@@ -1,19 +1,19 @@
 ---
-uid: udtemplarge
+uid: table-udtemplarge
 title: udtemplarge table
 description: User-defined fields
 so.generated: true
 keywords:
   - "database"
-  - "udtemplarge"
-so.date: 19.03.2021
+  - "udtempLarge"
+so.date: 21.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# UdtempLarge Table (145)
+# udtemplarge Table (145)
 
 ## Fields
 
@@ -31,7 +31,7 @@ so.envir:
 |string49|string value 49, not indexed|String(199)|&#x25CF;|
 
 
-![udtempLarge table relationship diagram](media\udtempLarge.png)
+![udtempLarge table relationship diagram](./media/udtempLarge.png)
 
 [!include[details](./includes/udtempLarge.md)]
 

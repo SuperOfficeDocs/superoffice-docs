@@ -1,27 +1,27 @@
 ---
-uid: mrmrsheadinglink
+uid: table-mrmrsheadinglink
 title: mrmrsheadinglink table
 description: Heading link table for MrMrs, for MDO headers
 so.generated: true
 keywords:
   - "database"
-  - "mrmrsheadinglink"
-so.date: 19.03.2021
+  - "MrMrsHeadingLink"
+so.date: 21.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# MrMrsHeadingLink Table (96)
+# mrmrsheadinglink Table (96)
 
 ## Fields
 
 | Name | Description | Type | Null |
 |------|-------------|------|:----:|
 |mrmrsheadinglink\_id|Primary key|PK| |
-|mrmrs\_id|Link to MrMrs list table|FK [MrMrs](MrMrs.md)| |
-|heading\_id|Link to Heading table|FK [Heading](Heading.md)| |
+|mrmrs\_id|Link to MrMrs list table|FK [mrmrs](mrmrs.md)| |
+|heading\_id|Link to Heading table|FK [heading](heading.md)| |
 |registered|Registered when|UtcDateTime| |
 |registered\_associate\_id|Registered by whom|FK [associate](associate.md)| |
 |updated|Last updated when|UtcDateTime| |
@@ -29,7 +29,7 @@ so.envir:
 |updatedCount|Number of updates made to this record|UShort| |
 
 
-![MrMrsHeadingLink table relationship diagram](media\MrMrsHeadingLink.png)
+![MrMrsHeadingLink table relationship diagram](./media/MrMrsHeadingLink.png)
 
 [!include[details](./includes/MrMrsHeadingLink.md)]
 

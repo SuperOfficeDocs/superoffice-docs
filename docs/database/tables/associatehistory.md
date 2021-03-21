@@ -1,19 +1,19 @@
 ---
-uid: associatehistory
+uid: table-associatehistory
 title: associatehistory table
 description: Historical information about associates that have been deleted. Most references are NOT declared as foreign keys; this is a historical table that should not be updated when further changes occur in the database
 so.generated: true
 keywords:
   - "database"
-  - "associatehistory"
-so.date: 19.03.2021
+  - "AssociateHistory"
+so.date: 21.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# AssociateHistory Table (488)
+# associatehistory Table (488)
 
 ## Fields
 
@@ -23,7 +23,7 @@ so.envir:
 |associateId|The original primary key of the deleted associate|Int|&#x25CF;|
 |groupId|The group id|Int|&#x25CF;|
 |personId|The person id|Int|&#x25CF;|
-|type|Associate type|Enum [AssociateType](enums\EnumAssociateType.md)|&#x25CF;|
+|type|Associate type|Enum [associatetype](enums/associatetype.md)|&#x25CF;|
 |originalRegistered|Registered when|UtcDateTime|&#x25CF;|
 |locationAddress|Address of location, if this is a resource that is a location|String(239)|&#x25CF;|
 |ejUserId|The ejuser reference, if any|Int|&#x25CF;|
@@ -36,9 +36,7 @@ so.envir:
 |registered\_associate\_id|Registered by whom|FK [associate](associate.md)| |
 
 
-![AssociateHistory table relationship diagram](media\AssociateHistory.png)
-
-[!include[details](./includes/AssociateHistory.md)]
+![AssociateHistory table relationship diagram](./media/AssociateHistory.png)
 
 ## Indexes
 

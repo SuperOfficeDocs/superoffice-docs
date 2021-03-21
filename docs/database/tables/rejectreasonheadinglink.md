@@ -1,27 +1,27 @@
 ---
-uid: rejectreasonheadinglink
+uid: table-rejectreasonheadinglink
 title: rejectreasonheadinglink table
 description: Heading link table for RejectReason, for MDO headers
 so.generated: true
 keywords:
   - "database"
-  - "rejectreasonheadinglink"
-so.date: 19.03.2021
+  - "RejectReasonHeadingLink"
+so.date: 21.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# RejectReasonHeadingLink Table (224)
+# rejectreasonheadinglink Table (224)
 
 ## Fields
 
 | Name | Description | Type | Null |
 |------|-------------|------|:----:|
 |rejectreasonheadinglink\_id|Primary key|PK| |
-|rejectreason\_id|Link to RejectReason list table|FK [RejectReason](RejectReason.md)| |
-|heading\_id|Link to Heading table|FK [Heading](Heading.md)| |
+|rejectreason\_id|Link to RejectReason list table|FK [rejectreason](rejectreason.md)| |
+|heading\_id|Link to Heading table|FK [heading](heading.md)| |
 |registered|Registered when|UtcDateTime| |
 |registered\_associate\_id|Registered by whom|FK [associate](associate.md)| |
 |updated|Last updated when|UtcDateTime| |
@@ -29,7 +29,7 @@ so.envir:
 |updatedCount|Number of updates made to this record|UShort| |
 
 
-![RejectReasonHeadingLink table relationship diagram](media\RejectReasonHeadingLink.png)
+![RejectReasonHeadingLink table relationship diagram](./media/RejectReasonHeadingLink.png)
 
 [!include[details](./includes/RejectReasonHeadingLink.md)]
 

@@ -1,26 +1,26 @@
 ---
-uid: searchcriterionvalue
+uid: table-searchcriterionvalue
 title: searchcriterionvalue table
 description: Criteria storage for Selection and other Find mechanisms
 so.generated: true
 keywords:
   - "database"
-  - "searchcriterionvalue"
-so.date: 19.03.2021
+  - "SearchCriterionValue"
+so.date: 21.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# SearchCriterionValue Table (204)
+# searchcriterionvalue Table (204)
 
 ## Fields
 
 | Name | Description | Type | Null |
 |------|-------------|------|:----:|
 |SearchCriterionValue\_id|Primary key|PK| |
-|SearchCriterion\_id|Owning group|FK [SearchCriterion](SearchCriterion.md)| |
+|SearchCriterion\_id|Owning group|FK [searchcriterion](searchcriterion.md)| |
 |longValue|Value for long type|Int|&#x25CF;|
 |doubleValue|Value for double type|Double|&#x25CF;|
 |stringValue|Value for String type|String(254)|&#x25CF;|
@@ -35,7 +35,7 @@ so.envir:
 |valueType|The RestrictionType that describes this value; might vary between values connected to the same criterion|String(128)|&#x25CF;|
 
 
-![SearchCriterionValue table relationship diagram](media\SearchCriterionValue.png)
+![SearchCriterionValue table relationship diagram](./media/SearchCriterionValue.png)
 
 [!include[details](./includes/SearchCriterionValue.md)]
 

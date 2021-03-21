@@ -1,21 +1,21 @@
 ---
-uid: priceunit
+uid: table-priceunit
 title: priceunit table
 description: The list of price units, in the internal product register (meter, ton, bushel, microsecond, gradus, τρυβλίον, 五合枡, دونم or whatever)
 so.generated: true
 keywords:
   - "database"
-  - "priceunit"
-so.date: 19.03.2021
+  - "PriceUnit"
+so.date: 21.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# PriceUnit Table (439)
+# priceunit Table (439)
 
-PriceUnit MDO list item table.
+priceunit MDO list item table.
 The list of price units, in the internal product register (meter, ton, bushel, microsecond, gradus, τρυβλίον, 五合枡, دونم or whatever)
 
 ## Fields
@@ -34,7 +34,7 @@ The list of price units, in the internal product register (meter, ton, bushel, m
 |updatedCount|Number of updates made to this record|UShort| |
 
 
-![PriceUnit table relationship diagram](media\PriceUnit.png)
+![PriceUnit table relationship diagram](./media/PriceUnit.png)
 
 [!include[details](./includes/PriceUnit.md)]
 

@@ -1,19 +1,19 @@
 ---
-uid: associateheadinglink
+uid: table-associateheadinglink
 title: associateheadinglink table
 description: Heading link table for associate for display only. Supportive table, used for grouping and filtering on lists. 
 so.generated: true
 keywords:
   - "database"
-  - "associateheadinglink"
-so.date: 19.03.2021
+  - "AssociateHeadingLink"
+so.date: 21.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# AssociateHeadingLink Table (4)
+# associateheadinglink Table (4)
 
 ## Fields
 
@@ -21,7 +21,7 @@ so.envir:
 |------|-------------|------|:----:|
 |associateheadinglink\_id|Primary key|PK| |
 |associate\_id|Link to Associate list table|FK [associate](associate.md)| |
-|heading\_id|Link to Heading table|FK [Heading](Heading.md)| |
+|heading\_id|Link to Heading table|FK [heading](heading.md)| |
 |registered|Registered when|UtcDateTime| |
 |registered\_associate\_id|Registered by whom|FK [associate](associate.md)| |
 |updated|Last updated when|UtcDateTime| |
@@ -29,7 +29,7 @@ so.envir:
 |updatedCount|Number of updates made to this record|UShort| |
 
 
-![AssociateHeadingLink table relationship diagram](media\AssociateHeadingLink.png)
+![AssociateHeadingLink table relationship diagram](./media/AssociateHeadingLink.png)
 
 [!include[details](./includes/AssociateHeadingLink.md)]
 

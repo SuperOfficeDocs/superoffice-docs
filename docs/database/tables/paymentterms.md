@@ -1,21 +1,21 @@
 ---
-uid: paymentterms
+uid: table-paymentterms
 title: paymentterms table
 description: The list of payment terms, in the internal product register
 so.generated: true
 keywords:
   - "database"
-  - "paymentterms"
-so.date: 19.03.2021
+  - "PaymentTerms"
+so.date: 21.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# PaymentTerms Table (427)
+# paymentterms Table (427)
 
-PaymentTerms MDO list item table.
+paymentterms MDO list item table.
 The list of payment terms, in the internal product register
 
 ## Fields
@@ -34,7 +34,7 @@ The list of payment terms, in the internal product register
 |updatedCount|Number of updates made to this record|UShort| |
 
 
-![PaymentTerms table relationship diagram](media\PaymentTerms.png)
+![PaymentTerms table relationship diagram](./media/PaymentTerms.png)
 
 [!include[details](./includes/PaymentTerms.md)]
 

@@ -1,21 +1,21 @@
 ---
-uid: perspos
+uid: table-perspos
 title: perspos table
 description: PersPos list table. Contact person position list
 so.generated: true
 keywords:
   - "database"
-  - "perspos"
-so.date: 19.03.2021
+  - "PersPos"
+so.date: 21.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# PersPos Table (76)
+# perspos Table (76)
 
-PersPos MDO list item table.
+perspos MDO list item table.
 PersPos list table. Contact person position list
 
 ## Fields
@@ -34,7 +34,7 @@ PersPos list table. Contact person position list
 |updatedCount|Number of updates made to this record|UShort| |
 
 
-![PersPos table relationship diagram](media\PersPos.png)
+![PersPos table relationship diagram](./media/PersPos.png)
 
 [!include[details](./includes/PersPos.md)]
 

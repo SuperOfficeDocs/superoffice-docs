@@ -1,27 +1,27 @@
 ---
-uid: productfamilygrouplink
+uid: table-productfamilygrouplink
 title: productfamilygrouplink table
 description: User group link table for ProductFamily, for MDO item hiding
 so.generated: true
 keywords:
   - "database"
-  - "productfamilygrouplink"
-so.date: 19.03.2021
+  - "ProductFamilyGroupLink"
+so.date: 21.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# ProductFamilyGroupLink Table (412)
+# productfamilygrouplink Table (412)
 
 ## Fields
 
 | Name | Description | Type | Null |
 |------|-------------|------|:----:|
 |productfamilygrouplink\_id|Primary key|PK| |
-|productfamily\_id|Link to ProductFamily list table|FK [ProductFamily](ProductFamily.md)| |
-|group\_id|Link to Group table|FK [UserGroup](UserGroup.md)| |
+|productfamily\_id|Link to ProductFamily list table|FK [productfamily](productfamily.md)| |
+|group\_id|Link to Group table|FK [usergroup](usergroup.md)| |
 |registered|Registered when|UtcDateTime| |
 |registered\_associate\_id|Registered by whom|FK [associate](associate.md)| |
 |updated|Last updated when|UtcDateTime| |
@@ -29,7 +29,7 @@ so.envir:
 |updatedCount|Number of updates made to this record|UShort| |
 
 
-![ProductFamilyGroupLink table relationship diagram](media\ProductFamilyGroupLink.png)
+![ProductFamilyGroupLink table relationship diagram](./media/ProductFamilyGroupLink.png)
 
 [!include[details](./includes/ProductFamilyGroupLink.md)]
 

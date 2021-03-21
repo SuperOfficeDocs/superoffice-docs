@@ -1,26 +1,26 @@
 ---
-uid: olesubjecttext
+uid: table-olesubjecttext
 title: olesubjecttext table
 description: Control data table for the OLE DB Provider
 so.generated: true
 keywords:
   - "database"
-  - "olesubjecttext"
-so.date: 19.03.2021
+  - "OLESubjectText"
+so.date: 21.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# OLESubjectText Table (162)
+# olesubjecttext Table (162)
 
 ## Fields
 
 | Name | Description | Type | Null |
 |------|-------------|------|:----:|
 |OLESubjectText\_id|Primary key|PK| |
-|OLESubject\_id|OLE Subject|FK [OLESubject](OLESubject.md)| |
+|OLESubject\_id|OLE Subject|FK [olesubject](olesubject.md)| |
 |languageId|LCID (see locale help) of language|Id| |
 |name|OLE Subject name|String(79)| |
 |registered|Registered when|UtcDateTime| |
@@ -30,7 +30,7 @@ so.envir:
 |updatedCount|Number of updates made to this record|UShort| |
 
 
-![OLESubjectText table relationship diagram](media\OLESubjectText.png)
+![OLESubjectText table relationship diagram](./media/OLESubjectText.png)
 
 [!include[details](./includes/OLESubjectText.md)]
 

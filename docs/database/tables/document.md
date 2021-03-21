@@ -1,26 +1,26 @@
 ---
-uid: document
+uid: table-document
 title: document table
 description: Documents, this table is an extension of the Appointment table.  There is always a corresponding appointment record; the relation between appointment and document is navigable in both directions. A document-type appointment record always has a corresponding document record and a record in VisibleFor specifying who may see this.  
 so.generated: true
 keywords:
   - "database"
   - "document"
-so.date: 19.03.2021
+so.date: 21.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# Document Table (10)
+# document Table (10)
 
 ## Fields
 
 | Name | Description | Type | Null |
 |------|-------------|------|:----:|
 |document\_id|Primary key|PK| |
-|application\_id|Application this document was made with|FK [ExtApp](ExtApp.md)| |
+|application\_id|Application this document was made with|FK [extapp](extapp.md)| |
 |name|File name|String(511)| |
 |header|Visible document name|String(219)|&#x25CF;|
 |our\_ref|Our reference, searchable field from freetext search|String(99)|&#x25CF;|
@@ -41,7 +41,7 @@ so.envir:
 |snum|The sequence number allocated from refcount on used template when creating the document|Int|&#x25CF;|
 
 
-![document table relationship diagram](media\document.png)
+![document table relationship diagram](./media/document.png)
 
 [!include[details](./includes/document.md)]
 

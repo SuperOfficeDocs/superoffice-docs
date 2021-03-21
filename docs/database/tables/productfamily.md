@@ -1,21 +1,21 @@
 ---
-uid: productfamily
+uid: table-productfamily
 title: productfamily table
 description: List for the ProductFamily field of the Product table (Quote Management)
 so.generated: true
 keywords:
   - "database"
-  - "productfamily"
-so.date: 19.03.2021
+  - "ProductFamily"
+so.date: 21.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# ProductFamily Table (411)
+# productfamily Table (411)
 
-ProductFamily MDO list item table.
+productfamily MDO list item table.
 List for the ProductFamily field of the Product table (Quote Management)
 
 ## Fields
@@ -34,7 +34,7 @@ List for the ProductFamily field of the Product table (Quote Management)
 |updatedCount|Number of updates made to this record|UShort| |
 
 
-![ProductFamily table relationship diagram](media\ProductFamily.png)
+![ProductFamily table relationship diagram](./media/ProductFamily.png)
 
 [!include[details](./includes/ProductFamily.md)]
 

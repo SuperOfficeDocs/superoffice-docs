@@ -1,0 +1,46 @@
+---
+uid: table-kb-solution-finder-entry
+title: kb\_solution\_finder\_entry table
+description: Knowledge base problem solving wizard, items in a category linking to a knowledge base entry
+so.generated: true
+keywords:
+  - "database"
+  - "kb_solution_finder_entry"
+so.date: 21.03.2021
+so.topic: reference
+so.envir:
+  - "onsite"
+  - "online"
+---
+
+# kb\_solution\_finder\_entry Table (295)
+
+## Fields
+
+| Name | Description | Type | Null |
+|------|-------------|------|:----:|
+|id|The primary key (auto-incremented)|PK| |
+|solution\_finder||FK [kb-solution-finder](kb-solution-finder.md)| |
+|kb\_entry||FK [kb-entry](kb-entry.md)| |
+
+
+![kb_solution_finder_entry table relationship diagram](./media/kb_solution_finder_entry.png)
+
+[!include[details](./includes/kb-solution-finder-entry.md)]
+
+## Indexes
+
+| Fields | Types | Description |
+|--------|-------|-------------|
+|id |PK |Clustered, Unique |
+|solution\_finder |FK |Index |
+|kb\_entry |FK |Index |
+
+## Replication Flags
+
+* None
+
+## Security Flags
+
+* No access control via user's Role.
+
