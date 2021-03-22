@@ -12,6 +12,8 @@ so.date: 03.23.2021
 
 # Variables for SuperOffice Service
 
+These are template variables from Service which can be used in Sales & Marketing document templates. Service has also its own [template variables][1] used in reply templates.
+
 | Variable | Description | Example |
 |---|---|---|
 | csbl | Base URL | blogic.exe |
@@ -19,7 +21,7 @@ so.date: 03.23.2021
 | cscu | Base URL | customer.exe |
 | csiu | CgiUrlInternal | `http://systemtest.superoffice.com` |
 | csbn | CgiBin | /scripts |
-| csre | RegistryExtension<br>These are template variables from Service which can be used in Sales & Marketing document templates. Service has also its own [template variables][1] used in reply templates. | .fcgi |
+| csre | RegistryExtension | .fcgi |
 | csrm | Base URL | ajax.exe |
 | csti | Base URL | ticket.exe |
 
