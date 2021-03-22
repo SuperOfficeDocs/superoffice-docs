@@ -67,4 +67,4 @@ Remember that only the SELECT, FROM, and WHERE are a fixed frame. The field, joi
 
 <!-- ## Sample
 
-Download the [sample application](https://community.superoffice.com/en/content/content/netserver-sdk/archived-articles/the-definitive-netserver-user-defined-field-lookup-class/%7BEPsUploadDir%7D993/TestDevNetUDF.zip), including all sources, and test it out for yourself. -->
+Download the [sample application](TestDevNetUDF.zip), including all sources, and test it out for yourself. -->

@@ -46,7 +46,7 @@ We have retrieved the `UserDefinedFields` collection for the contact of interest
 
 Finally, the `SaveContactEntity` method is called to update the contact entity.
 
-<!-- [Source code (zip)](SetUdefListItem.zip) -->
+<a href="../../assets/downloads/setudeflistitem.zip" download>Click to download source code (zip)</a>
 
 <!-- Referenced images -->
 [img1]: media/image003.jpg

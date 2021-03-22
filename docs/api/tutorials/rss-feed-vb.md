@@ -147,11 +147,10 @@ To run the sample code, after we have updated the *web.config* file, we have to 
 * SuperOffice.Services.dll
 * SuperOffice.Services.Impl.dll
 
-<!-- [source code (zip)](https://community.superoffice.com/globalassets/global/devnetfiles/codeexamples/rssfeedfinalvb.zip) -->
+<a href="../assets/downloads/rssfeedfinalvb.zip" download>Click to download source code (zip)</a>
 
 <!-- Referenced links -->
 [1]: http://www.w3.org/TR/REC-xml
-[2]: https://community.superoffice.com/globalassets/global/devnetfiles/codeexamples/rssfeedfinalvb.zip
 
 <!-- Referenced images -->
 [img1]: media/image031.jpg

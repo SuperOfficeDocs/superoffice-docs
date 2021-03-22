@@ -76,7 +76,7 @@ The final step before running the site is to add the following references:
 * SuperOffice.Services.dll
 * SuperOffice.Services.Impl.dll
 
-<!-- [Source code (zip)](GraphicReportUsingExcel.zip) -->
+<a href="../assets/downloads/graphicreportusingexcel.zip" download>Click to download source code (zip)</a>
 
 <!-- Referenced links -->
 [1]:

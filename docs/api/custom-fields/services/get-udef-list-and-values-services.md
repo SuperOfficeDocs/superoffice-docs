@@ -32,7 +32,7 @@ Then we loop through the `UserDefinedFieldInfo` collection to get the field labe
 
 [!code-csharp[CS](includes/get-udef-list-and-values-services.cs?range=32-37)]
 
-<!-- [Source code (zip)](GetAllUserDefinedFieldsOnAContact.zip) -->
+<a href="../../assets/downloads/getalluserdefinedfieldsonacontact.zip" download>Click to download source code (zip)</a>
 
 <!-- Referenced images -->
 [img1]: media/image002.jpg

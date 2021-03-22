@@ -103,20 +103,14 @@ I want to thank Jose Aparicio (Scarp) for kicking off the experimentation, and c
 
 ## Downloads
 
-* [InstallDocPlugin.bat.txt][1]
-* [SoArcDocumentPlugin.Net.zip][2]
-* [SoArcDocumentPlugin.Net(7.5).zip][3]
-* [DocumentPlugins-WinWeb-7.5.zip][4]
-* [SuperOffice.TestDocPlugin-v8.zip][5]
-* [SuperOffice.TestDocPlugin-v8SR3.zip (with CheckInCheckOutLocking)][6]
+* <a href="../../assets/downloads/installdocplugin.bat.txt" download>InstallDocPlugin.bat.txt</a>
+* <a href="../../assets/downloads/soarcdocumentplugin.net.zip" download>SoArcDocumentPlugin.Net.zip</a>
+* <a href="../../assets/downloads/soarcdocumentplugin.net-7.5.zip" download>SoArcDocumentPlugin.Net(7.5).zip</a>
+* <a href="../../assets/downloads/documentplugins-winweb-7.5.zip" download>DocumentPlugins-WinWeb-7.5.zip</a>
+* <a href="../../assets/downloads/superoffice.testdocplugin-v8.zip" download>SuperOffice.TestDocPlugin-v8.zip</a>
+* <a href="../../assets/downloads/superoffice.testdocplugin_withcheckincheckout.zip" download>SuperOffice.TestDocPlugin-v8SR3.zip (with CheckInCheckOutLocking)</a>
 
 <!-- Referenced links -->
-[1]: https://community.superoffice.com/contentassets/79f595706cba4bfcbaaabed5f522c6df/installdocplugin.bat.txt
-[2]: https://community.superoffice.com/contentassets/79f595706cba4bfcbaaabed5f522c6df/soarcdocumentplugin.net.zip
-[3]: https://community.superoffice.com/contentassets/79f595706cba4bfcbaaabed5f522c6df/soarcdocumentplugin.net7.5.zip
-[4]: https://community.superoffice.com/contentassets/79f595706cba4bfcbaaabed5f522c6df/documentplugins-winweb-7.5.zip
-[5]: https://community.superoffice.com/contentassets/79f595706cba4bfcbaaabed5f522c6df/superoffice.testdocplugin-v8.zip
-[6]: https://community.superoffice.com/globalassets/developer-club/superoffice.testdocplugin_withcheckincheckout.zip
 
 <!-- Referenced images -->
 [img1]: media/a-createkeyfile.png

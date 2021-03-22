@@ -101,9 +101,9 @@ The following screenshots show the results of the same query run on the `contact
 
 The sal0 user is restricted to a smaller subset of the contact table, due to the entries we put in the external table we have created.
 
-<!-- ## Download
+## Download
 
-[Sentry Plugin With External Table Source Code (zip)](media/SentryPluginWithExternalTable.zip) -->
+<a href="../../../assets/downloads/sentrypluginwithexternaltable.zip" download>Sentry plugin with external table source code (zip)</a>
 
 <!-- Referenced links -->
 

@@ -1,7 +1,6 @@
 ---
-# Mandatory fields.
-title: set_udef_listitem_value_entity       # (Required) Very important for SEO.
-description: How to set a user-defined list item on a Udef field using entities # (Required) Important for SEO.
+title: set_udef_listitem_value_entity
+description: How to set a user-defined list item on a Udef field using entities
 author: {github-id}             # Your GitHub alias.
 so.date:
 keywords: udefhelper
@@ -40,7 +39,7 @@ We have used the `SetValue` method of the `UdefHelper` of the contact to set the
 
 Next, the `Save` method of the `Contact` entity is used to update the contact entity.
 
-<!-- [Source code SetUDefinedListItemOnUdefField (zip)](SetUDefinedListItemOnUdefField.zip) -->
+<a href="../../assets/downloads/setudefinedlistitemonudeffield.zip" download>Click to download source code (zip)</a>
 
 <!-- Referenced images -->
 [img1]: media/image001.jpg

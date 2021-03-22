@@ -38,7 +38,7 @@ Next, we have set the start and end dates for the repetition pattern. Using the 
 
 Finally, the recurrence information is assigned to the matrix and the matrix is saved to the database.
 
-<!-- [Get the source code (zip)][HowToCreateRecurringAppointment.zip] -->
+<a href="../../assets/downloads/howtocreaterecurringappointment.zip" download>Get the source code (zip)</a>
 
 <!-- Referenced links -->
 

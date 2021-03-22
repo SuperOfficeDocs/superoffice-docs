@@ -22,4 +22,4 @@ WSDL files are available as:
 
 To download all versions of all endpoint WSDL files, click the link below:
 
-<!-- [Download WSDL.zip](https://community.superoffice.com/documentation/sdk/SO.NetServer.Web.Services/WSDL.zip) -->
+<a href="../../assets/downloads/wsdl.zip" download>Download WSDL.zip</a>
