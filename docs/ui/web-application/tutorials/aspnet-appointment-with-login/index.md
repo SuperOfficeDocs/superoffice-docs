@@ -128,7 +128,7 @@ The appointments retrieve from the agent are stored in an array of type `Activit
 
 ![16][img6]
 
-<!-- [Web site source code](TestWebSite.zip) -->
+<a href="../../../assets/downloads/testwebsite.zip" download>Click to download website source code</a>
 
 <!-- Referenced links -->
 [1]:

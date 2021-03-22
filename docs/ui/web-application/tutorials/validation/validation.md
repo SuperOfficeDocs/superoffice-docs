@@ -191,9 +191,9 @@ Using the `MandatoryFieldValidator` control, the error message will display the 
 
 In this tutorial, I have shown you how to create a control and use it to validate any data source on any given page in the SuperOffice web client, and display a message to the user if necessary.
 
-This technique should be used when you want to add business logic to a page, and need interact with the user when those business rules do not fulfill the business requirements.
+This technique should be used when you want to add business logic to a page, and need to interact with the user when those business rules do not fulfill the business requirements.
 
-<!-- [Download Examples](https://community.superoffice.com/contentassets/e6449d2931be42c3ad8a81296c981626/webvalidation.zip) -->
+<a href="../../../assets/downloads/webvalidation.zip" download>Click to download examples</a>
 
 <!-- Referenced links -->
 [1]: https://community.superoffice.com/en/content/content/samples-and-code/web-client-sdk/overriding-default-save-button-functionality/
