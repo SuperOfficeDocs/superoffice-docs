@@ -1,14 +1,9 @@
 ---
-# This basic template provides core metadata fields for Markdown articles on docs.superoffice.com.
-
-# Mandatory fields.
-title: deploy_superoffice_for_outlook       # (Required) Very important for SEO. Intent in a unique string of 43-59 chars including spaces.
-description: Deploy SuperOffice for Outlook for user # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
+title: deploy_superoffice_for_outlook
+description: Deploy SuperOffice for Outlook for user
 author: {github-id}             # Your GitHub alias.
 keywords:
 so.topic: howto               # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
 so.envir: cloud              # cloud or onsite
 so.client: online            # online, web, win, pocket, or mobile
 ---
@@ -18,7 +13,7 @@ so.client: online            # online, web, win, pocket, or mobile
 This will deploy SuperOffice for Outlook for a single user.
 
 > [!TIP]
-> Deploy centrally for all users instead? [Go to guide][2]
+> Deploy centrally for all users instead? <a href="../../assets/downloads/quick-start-guide---superoffice-for-outlook.pdf" download>Click to download PDF guide</a>
 
 1. Go to [SuperOffice for Outlook at https://appsource.microsoft.com/][1].
 2. Click **Get it now**.
@@ -38,7 +33,6 @@ The deployment is now complete. The SuperOffice add-in for Outlook should now be
 
 <!-- Referenced links -->
 [1]: https://appsource.microsoft.com/en-us/product/office/WA200001597?src=office&tab=Overview
-[2]: https://community.superoffice.com/contentassets/4676af12ff874b618e0cfb3ec0f05c8c/quick-start-guide---superoffice-for-outlook.pdf
 [3]: https://docs.microsoft.com/en-us/microsoft-365/admin/manage/manage-deployment-of-add-ins?view=o365-worldwide
 [4]: https://support.office.com/en-us/article/get-an-office-add-in-for-outlook-1ee261f9-49bf-4ba6-b3e2-2ba7bcab64c8
 [5]: deploy-centrally.md

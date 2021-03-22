@@ -58,7 +58,7 @@ This method of sending will not create any entries in the **Settings/E-mail/SMS 
 You may read more about how to use the SMS plugins in the [help file][1]. The information in the help file applies to all SMS plugins.
 
 <!-- Referenced links -->
-[1]: https://community.superoffice.com/Documentation/Help/en/CRM/8.0/UserHelp/index.htm#t=_top%2FWelcome_to_Help_for_SuperOffice.htm&ux=search&rhsearch=sms
+[1]: https://community.superoffice.com/documentation/help/en/crm/9.2/userhelp/index.htm#t=Service%2Ftopics%2Fadmin.editInfo.sms.html
 
 <!-- Referenced images -->
 [img1]: media/newsmsinbox.png

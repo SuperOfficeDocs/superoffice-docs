@@ -1,14 +1,10 @@
 ---
-# This basic template provides core metadata fields for Markdown articles on docs.superoffice.com.
-
-# Mandatory fields.
-title: provisioning_example       # (Required) Very important for SEO. Intent in a unique string of 43-59 chars including spaces.
-description: Example provisioning # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
+title: provisioning_example
+description: Example provisioning
 author: {github-id}             # Your GitHub alias.
+so.date:
 keywords:
 so.topic: article               # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
 so.envir: cloud           # cloud or onsite
 so.client: online               # online, web, win, pocket, or mobile
 ---
@@ -30,7 +26,7 @@ This example was presented at Expander World 2016.
 See also the full presentation from Expander world 2016 here: [Online Application Lifecycle presentation][1].
 
 <!-- Referenced links -->
-[1]: https://community.superoffice.com/en/developer/resource/
+[1]: https://community.superoffice.com/en/content/resources/expander-world-resources/expander-world-2016/
 
 <!-- Referenced images -->
 [img1]: media/appstoreprovisioning.png

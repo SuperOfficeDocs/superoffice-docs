@@ -68,8 +68,8 @@ Since you are upgrading the client on a computer, there is information you can u
 You may now start SuperOffice by clicking *START > All Programs > SuperOffice*
 
 <!-- Referenced links -->
-[1]: https://community.superoffice.com/Documentation/Help/EN/CRM/8.0/WebHelpAdmin/index.htm#t=chap07%2FAssociates.htm
-[2]: https://community.superoffice.com/Documentation/Help/EN/CRM/8.0/WebHelpAdmin/index.htm#t=chap06%2FSOLoader.htm
+[1]: https://community.superoffice.com/Documentation/Help/EN/CRM/9.2/WebHelpAdmin/index.htm#t=chap07%2FAssociates.htm
+[2]: https://community.superoffice.com/Documentation/Help/EN/CRM/9.2/WebHelpAdmin/index.htm#t=chap06%2FSOLoader.htm
 [3]: admin.md
 [3]: ../web-client/admin.md
 [5]: ../crm-server/setup-guide.md

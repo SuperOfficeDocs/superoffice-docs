@@ -37,7 +37,7 @@ System User Token.YYYYMMDDHHMM.mwhpYcNBfFqEaL0uLkCwXB99sM/Wo7DOnhjRwsmwNAd2EmBM1
 * You have [validated the claim][2] and extracted the system user token from the [SuperIdToken][3]
 * You have your private key file ([converted from RSA to PEM][4]
 
-You can get the SuperOffice public key from *SuperOfficeOnlineCertificates.zip* in the [online-sdk-downloads][5].
+<a href="../../assets/downloads/superofficeonlinecertificates.zip" download>Click to download the SuperOffice public key</<a>>.
 
 ## To sign the token
 
@@ -74,4 +74,3 @@ $signedSystemToken = $systemUserTokenAndTime + "." + base64_encode($signature)
 [2]: ../certificates/validate-security-tokens.md
 [3]: ../superid-token.md
 [4]: http://www.platanus.cz/blog/converting-rsa-xml-key-to-pem
-[5]: https://community.superoffice.com/en/developer/apps-partners/develop/online-sdk-downloads/

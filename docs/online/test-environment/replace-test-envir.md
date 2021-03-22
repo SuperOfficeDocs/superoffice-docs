@@ -92,7 +92,7 @@ If you have ERP sync apps in production you should log in to Settings and Mainte
 [1]: https://online.superoffice.com/oc2
 [2]: index.md
 [3]: clone-to-test-envir.md
-[4]: https://community.superoffice.com/documentation/help/en/crm/8.4/webhelpadmin/chap08/Webpanel.htm
+[4]: https://community.superoffice.com/documentation/help/en/crm/9.2/webhelpadmin/index.htm#t=chap08%2FWebpanel.htm&rhsearch=web%20panel&rhsyns=%20
 
 <!-- Referenced images -->
 [img1]: media/imaget39w.png

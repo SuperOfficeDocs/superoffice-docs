@@ -62,4 +62,4 @@ We have defined a [set of default roles][2] that you can change and expand to ta
 
 <!-- Referenced links -->
 [1]: https://community.superoffice.com/en/search/#/faq/113494
-[2]: https://community.superoffice.com/documentation/help/en/crm/8.4/webhelpadmin/Rolle/Role.htm
+[2]: https://community.superoffice.com/documentation/help/en/crm/9.2/webhelpadmin/index.htm#t=Rolle%2FRole.htm

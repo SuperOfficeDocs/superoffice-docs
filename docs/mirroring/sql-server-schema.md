@@ -43,11 +43,13 @@ In the NuGet implementation, you can do this in one of the event-handling method
 
 ## Blacklisted tables
 
-Database tables that fall into one of the [following categories are not mirrored][2]:
+Database tables that fall into one of the following categories are not mirrored:
 
 * irrelevant (`travelgeneratedtransaction`)
 * not useful (`traveltransactionlog`, `countervalue`)
 * confidential (`credentials`)
+
+<a href="../assets/downloads/mirroredtables.docx" download>Click to download the Mirrored Tables document</a>
 
 ## When mirroring schema changes fails
 
@@ -60,5 +62,4 @@ This might happen if a customer creates an extra table containing a character fi
 
 <!-- Referenced links -->
 [1]: index.md
-[2]: https://community.superoffice.com/contentassets/8c09bc95f03841cd87771bc367849cf5/mirroredtables.docx
 [3]: mirroring-task.md

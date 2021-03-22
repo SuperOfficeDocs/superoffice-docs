@@ -1,14 +1,9 @@
 ---
-# This basic template provides core metadata fields for Markdown articles on docs.superoffice.com.
-
-# Mandatory fields.
-title: create_update_prototype       # (Required) Very important for SEO. Intent in a unique string of 43-59 chars including spaces.
-description:                    # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
+title: create_update_prototype
+description:                 
 author: {github-id}             # Your GitHub alias.
 keywords:
 so.topic: howto             # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
 so.envir: onsite                # cloud or onsite
 so.client: win               # online, web, win, pocket, or mobile
 ---
@@ -19,7 +14,6 @@ The local update is based on an update prototype, which is a copy of the central
 
 The computer used to generate a prototype must have a full SQL server or SQL Express installed. The SuperOffice.ini file in the program folder must have two additional configuration settings to generate a prototype. The SuperOffice.ini file for the users going on travel in addition needs the `Local_datasource` setting.
 
-Read more in the [Help file][1]
 Make sure you start SOAdmin.exe elevated (as administrator) the first time you try to generate a prototype.
 
 ## Configuration
@@ -35,7 +29,7 @@ ProtoServerPath=c:\SOProto
 ProtoClientPath=c:\SOProto
 ```
 
-These two items has to be inserted into the *Superoffice.INI* manually, and they are read at start-up, so you need to restart SOAdmin.exe if you just added it and it's still complaining that the ProtoServerPath is missing.
+These 2 items have to be inserted into the *Superoffice.INI* manually, and they are read at start-up, so you need to restart SOAdmin.exe if you just added it and it's still complaining that the ProtoServerPath is missing.
 
 When the prototype has finished, the database files will be automatically zipped and copied to the `ARCHIVEPATH`, like *\\\\SERVER\\SO\_Arc\\Template\\travel*.
 
@@ -63,7 +57,6 @@ On the first page, fill in the name AREA and choose the correct SQL Server.
 ![x][img1]
 
 <!-- Referenced links -->
-[1]: https://community.superoffice.com/en/search/#/xdocumentation/help/EN/CRM/8.2/WebHelpAdmin_XML/chap02/Generating_an_update_prototype.htm
 
 <!-- Referenced links -->
 [img1]: media/areaodbc.png

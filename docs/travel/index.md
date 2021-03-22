@@ -9,7 +9,7 @@ keywords:
 
 The local update is based on an update prototype, which is a copy of the central database and contains the same information that the central database contains when the update prototype is generated. Changes since the prototype is generated will be transferred bit by bit, so the prototype should be regularly generated.
 
-Before you may use travel an administrator must [active][4] it and assign rights to your user and created a [prototype][5]
+Before you may use travel an administrator must active it and assign rights to your user and created a prototype
 
 There are 3 different types of databases that may be used as a travel database:
 
@@ -37,5 +37,3 @@ Our built-in database is Sybase 12 but is locked to the SuperOffice CRM client a
 [1]: http://www.microsoft.com/
 [2]: create-update-prototype.md
 [3]: https://community.superoffice.com/en/technical/documentation/older-versions/documentation-7/SM/winclient/travel-client/travel-with-sybase-12/
-[4]: https://community.superoffice.com/Documentation/Help/EN/CRM/8.0/WebHelpAdmin/index.htm#t=chap02%2FActivating_the_Travel_function.htm
-[5]: https://community.superoffice.com/Documentation/Help/EN/CRM/8.0/WebHelpAdmin/index.htm#t=chap02%2FGenerating_an_update_prototype.htm

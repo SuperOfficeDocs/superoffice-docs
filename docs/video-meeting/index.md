@@ -1,21 +1,16 @@
 ---
-# This basic template provides core metadata fields for Markdown articles on docs.superoffice.com.
-
-# Mandatory fields.
-title: video_meeting_intro # (Required) Very important for SEO. Intent in a unique string of 43-59 chars including spaces.
-description: Video Meetings for SuperOffice # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
+title: video_meeting_intro
+description: Video Meetings for SuperOffice
 author: {github-id}             # Your GitHub alias.
 keywords:
 so.topic:                       # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
 so.envir: cloud               # cloud or onsite
 so.client: online             # online, web, win, pocket, or mobile
 ---
 
 # Video Meetings for SuperOffice
 
-[Download our Quick Start Guide – Video Meetings in SuperOffice​][1].
+<a href="../assets/downloads/video-meetings-in-superoffice---quick-start-v2.pdf" download>Download our Quick Start Guide – Video Meetings in SuperOffice​</a>
 
 ## New template variable for Video Meeting URL
 
@@ -33,8 +28,6 @@ With SuperOffice Inbox, you need to update the invitation template.
 ![imageloql6.png][img2]
 
 <!-- Referenced links -->
-
-[1]: https://community.superoffice.com/globalassets/technical-club/forum/video-meetings-in-superoffice---quick-start-v2.pdf
 
 <!-- Referenced images -->
 [img1]: media/image99xdi.png

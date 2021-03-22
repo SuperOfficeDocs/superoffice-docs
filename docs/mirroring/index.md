@@ -1,14 +1,9 @@
 ---
-# This basic template provides core metadata fields for Markdown articles on docs.superoffice.com.
-
-# Mandatory fields.
-title: mirroring_intro # (Required) Very important for SEO. Intent in a unique string of 43-59 chars including spaces.
-description: Database Mirroring Service for SuperOffice CRM Online # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
+title: mirroring_intro
+description: Database Mirroring Service for SuperOffice CRM Online
 author: {github-id}             # Your GitHub alias.
 keywords:
 so.topic: concept               # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
 so.envir: cloud             # cloud or onsite
 so.client: online             # online, web, win, pocket, or mobile
 ---
@@ -70,7 +65,7 @@ We remove data that is irrelevant, that would incur unnecessary stress between s
 * User credentials
 * Sensitive information
 
-A complete list of tables both replicated and not replicated with reason are listed in the [Mirrored Tables document][7].
+A complete list of tables both replicated and not replicated with reason is listed in the <a href="../assets/downloads/mirroredtables.docx" download>Mirrored Tables document</a>.
 
 You will not be able to connect to the mirror database using any SuperOffice client or API!
 
@@ -88,7 +83,7 @@ You must first register a [custom application][8] and then build the feature
 
 The Mirroring Client service obtains access to the database by submitting the **Context Id** of the customer ("cust1234"), which uniquely identifies the customer in the online universe.
 
-Whoever sets up database mirroring, is responsible if it breaks or stops!If you restore your primary database from backup, you should discard the mirror. **Backup-and-restore cycles during a failed upgrade do not trigger a mirror wipe.**
+Whoever sets up database mirroring, is responsible if it breaks or stops! If you restore your primary database from backup, you should discard the mirror. **Backup-and-restore cycles during a failed upgrade do not trigger a mirror wipe.**
 
 ## Provisioning
 
@@ -123,7 +118,6 @@ The Mirroring Task sends the SuperOffice signed token with every call so that t
 [4]: ../apps/index.md
 [5]: i-mirror-client-service.md
 [6]: sql-server-schema.md
-[7]: https://community.superoffice.com/contentassets/8c09bc95f03841cd87771bc367849cf5/mirroredtables.docx
 [8]: ../apps/custom.md
 [9]: ../apps/tenant-status/get-consent.md
 [10]: ../authentication/certificates/validate-security-tokens.md

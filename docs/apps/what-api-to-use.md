@@ -1,15 +1,10 @@
 ---
-# This basic template provides core metadata fields for Markdown articles on docs.superoffice.com.
-
-# Mandatory fields.
-title: what_api_to_use       # (Required) Very important for SEO. Intent in a unique string of 43-59 chars including spaces.
-description: What API to use? # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
-author: Tony Yates             # Your GitHub alias.
+title: what_api_to_use
+description: What API to use?
+author: Tony Yates
 so.date: 09.13.2018
 keywords:
-so.topic: article               # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
+so.topic: concept
 so.envir: cloud           # cloud or onsite
 so.client: online               # online, web, win, pocket, or mobile
 ---
@@ -139,7 +134,7 @@ Interactive authentication is facilitated by the [SuperOffice Online sign-in pag
 
 To conduct true background processing, applications must use the system user **token** that was issued to them during the installation process. Applications use the SOAP-based `PartnerSystemUserService` endpoint to exchange a system user token for a system-user **ticket**.
 
-When used in a **SOAP** request, the system-user ticket is used as credentials, placed inside each SOAP header as seen in the [ContactAgent.GetContactEntity][14] method.
+When used in a **SOAP** request, the system-user ticket is used as credentials, placed inside each SOAP header as seen in the `ContactAgent.GetContactEntity` method.
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -217,14 +212,10 @@ Supported in version **Services86** and higher, when used in SOAP requests, the 
 </SOAP-ENV:Envelope>
 ```
 
-## Conclusion
-
-There are a lot of integration options, and I can understand if it’s been a head-scratching time trying to understand where to begin. At the very least I hope this article has clarified some of the confusion and brought you much closer to successfully understanding what the options are and which API is the right fit for you.
-
 <!-- Referenced links -->
 [1]: https://stackoverflow.com/questions/19884295/soap-vs-rest-differences
-[2]: https://community.superoffice.com/documentation/sdk/SO.NetServer.Web.Services/html/Reference-WebAPI-WebAPI.htm
-[3]: https://community.superoffice.com/documentation/sdk/SO.NetServer.Web.Services/html/Reference-SOAP-SOAP.htm
+[2]: https://github.com/SuperOfficeDocs/data-access/blob/main/docs/web-api/rest/reference/index.md
+[3]: https://github.com/SuperOfficeDocs/data-access/blob/main/docs/soap/reference/index.md
 [4]: https://www.nuget.org/packages/SuperOffice.NetServer.Services/
 [5]: https://github.com/SuperOffice/SuperOffice.DevNet.Online/tree/master/Source/SuperOffice.DevNet.Online.Login/SoPlugins
 [6]: ../authentication/oidc/index.md
@@ -234,7 +225,6 @@ There are a lot of integration options, and I can understand if it’s been a he
 [10]: https://docs.microsoft.com/en-us/aspnet/core/security/authentication/social/?view=aspnetcore-2.1
 [11]: https://github.com/IdentityModel/oidc-client-js
 [12]: https://github.com/SuperOffice/DevNet-Angular-OpenID-REST
-[14]: https://community.superoffice.com/documentation/sdk/SO.NetServer.Web.Services/html/Reference-SOAP-Services86-Contact-GetContactEntity.htm
 
 <!-- Referenced images -->
 [img1]: media/onlineauthentication.png

@@ -28,7 +28,7 @@ More [advanced imports][3] to fields not available in web, like to partner defin
 Also [scripts][4] available in the windows client only may be enabled in the windows admin only.
 
 <!-- Referenced links -->
-[1]: https://community.superoffice.com/Documentation/Help/EN/CRM/8.0/WebHelpAdmin/index.htm#t=chap06%2FSOLoader.htm
-[2]: https://community.superoffice.com/Documentation/Help/EN/CRM/8.0/WebHelpAdmin/index.htm#t=chap02%2FReplication.htm
-[3]: https://community.superoffice.com/Documentation/Help/EN/CRM/8.0/WebHelpAdmin/index.htm#t=chap04%2FImport.htm
-[4]: https://community.superoffice.com/Documentation/Help/EN/CRM/8.0/WebHelpAdmin/index.htm#t=Skripting%2FScripting.htm
+[1]: https://community.superoffice.com/Documentation/Help/EN/CRM/9.2/WebHelpAdmin/index.htm#t=chap06%2FSOLoader.htm
+[2]: https://community.superoffice.com/Documentation/Help/EN/CRM/9.2/WebHelpAdmin/index.htm#t=chap02%2FReplication.htm
+[3]: https://community.superoffice.com/Documentation/Help/EN/CRM/9.2/WebHelpAdmin/index.htm#t=chap04%2FImport.htm
+[4]: https://community.superoffice.com/Documentation/Help/EN/CRM/9.2/WebHelpAdmin/index.htm#t=Skripting%2FScripting.htm

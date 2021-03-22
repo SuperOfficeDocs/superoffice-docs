@@ -1,14 +1,9 @@
 ---
-# This basic template provides core metadata fields for Markdown articles on docs.superoffice.com.
-
-# Mandatory fields.
-title: set_up_web_client # (Required) Very important for SEO. Intent in a unique string of 43-59 chars including spaces.
-description: Install SuperOffice Web # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
+title: set_up_web_client
+description: Install SuperOffice Web
 author: {github-id} # Your GitHub alias.
 keywords:
 so.topic: howto               # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
 so.envir: onsite                # cloud or onsite
 so.client: web              # online, web, win, pocket, or mobile
 ---
@@ -30,7 +25,7 @@ The server where you install SuperOffice Web needs to have an internet connectio
 
 * Consider the [security][4] of your upcoming installation.
 * Instal the CRM Server so the database is set up using ServerSetup.exe.
-* Prepar the [web server][5].
+* Prepare the [web server][5].
 * Have an IIS website where you want to install SuperOffice. If you do not have the site set up, using the [Service installer][6] will create it for you.
 
 [!include[download](../../includes/download-sw.md)]
@@ -49,7 +44,7 @@ The server where you install SuperOffice Web needs to have an internet connectio
 
 5. In the next dialog select the website and/or virtual directory for your installation and specify a name for the new virtual directory, leave the default "SuperOffice" or if you want to install SuperOffice Web or SuperOffice NetServer (web services) on the root level of a website you can leave the virtual directory name blank (only recommended if you have good knowledge of IIS works).
 
-6. If the dropdown under select website is blank you need to on the Windows feature "IIS 6 Management Compability and IIS 6 Management Console" under "Turn Windows features on or off".
+6. If the dropdown under select website is blank you need to on the Windows feature "IIS 6 Management Compatibility and IIS 6 Management Console" under "Turn Windows features on or off".
 
 7. Click **Install** to begin the installation process.
 
@@ -92,8 +87,8 @@ The server where you install SuperOffice Web needs to have an internet connectio
 
 <!-- Referenced links -->
 [1]: ../crm-server/setup-guide.md
-[2]: https://community.superoffice.com/link/73a2db9ebdef4375ac877052bbe97161.aspx
-[3]: https://community.superoffice.com/en/technical/documentation/older-versions/documentation-7/Pocket-CRM/install-pocket-crm-server/
+[2]: ../service/set-up-guide.md
+[3]: ../../mobile/pocket-crm/install-onsite.md
 [4]: ../security/secure-deployment-guide.md
 [5]: ../crm-server/iis-web-server/prepare.md
 [6]: ../service/set-up-guide.md

@@ -1,9 +1,6 @@
 ---
-# This basic template provides core metadata fields for Markdown articles on docs.superoffice.com.
-
-# Mandatory fields.
-title: compaya_sms_plugin       # (Required) Very important for SEO. Intent in a unique string of 43-59 chars including spaces.
-description: Compaya NetServer SMS plugin # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
+title: compaya_sms_plugin
+description: Compaya NetServer SMS plugin
 author: {github-id}             # Your GitHub alias.
 keywords:
 so.topic: howto                 # article, howto, reference, concept, guide
@@ -35,7 +32,7 @@ Note - do not include the brackets.
 ## Outgoing SMS Configuration in SR2 or earlier
 
 The file SupeOffice.Messaging.Compaya.dll must be copied manually to the NetServer library folder (*bin* folder).
-You may download version 8.0 SR2 [here][2].
+<a href="../../assets/downloads/sms/superoffice.messaging.compaya.dll" download>Click to download version 8.0 SR2.</a>
 
 ### Web.config settings
 
@@ -60,7 +57,6 @@ Under configuration -> SuperOffice -> Factory -> DynamicLoad add:
 
 <!-- Referenced links -->
 [1]: http://www.compaya.dk/
-[2]: https://community.superoffice.com/globalassets/technical-club/images/service/smsplugin8sr2/superoffice.messaging.compaya.dll
 
 <!-- Referenced images -->
 [img1]: media/compayasmssettings.png

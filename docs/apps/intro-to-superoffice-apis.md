@@ -1,32 +1,27 @@
 ---
-# This basic template provides core metadata fields for Markdown articles on docs.superoffice.com.
-
-# Mandatory fields.
-title: intro_to_superoffice_apis       # (Required) Very important for SEO. Intent in a unique string of 43-59 chars including spaces.
-description: Introducing SuperOffice APIs # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
-author: Tony Yates             # Your GitHub alias.
+title: intro_to_superoffice_apis
+description: Introducing SuperOffice APIs
+author: Tony Yates
 so.date: 08.12.2015
 keywords:
-so.topic: article                # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
+so.topic: article
 so.envir: cloud           # cloud or onsite
 so.client: online               # online, web, win, pocket, or mobile
 ---
 
 # Introducing SuperOffice APIs
 
-It can sometimes be daunting for people new to SuperOffice programming to know where to begin. With several platforms, for both Customer Relationship Management (CRM) and Customer Service (CS), it can be difficult to understand which application programming interface (API) is appropriate for which platform. This article explores the different platforms and explains what SuperOffice API are available for each one, as well as provide links to the corresponding API documentation.
+It can sometimes be daunting for people new to SuperOffice programming to know where to begin. With several platforms, for both Customer Relationship Management (CRM) and Customer Service (CS), it can be difficult to understand which application programming interface (API) is appropriate for which platform. This article explores the different platforms and explains what SuperOffice APIs are available for each one, as well as provides links to the corresponding API documentation.
 
 ## Internal automation API versus external integration API
 
 The primary focus of this article is to discuss the APIs that enable external integration with SuperOffice. This typically means applications that are compiled into executables and run in their own process. However, there are also important internal integration points in SuperOffice that are just as important and are covered briefly.
 
-Both SuperOffice CRM and SuperOffice Customer Service (CS) support different forms of scripting automation. SuperOffice CS, available in both on-site and online, supports scripting automation, and accounts for a majority of CS integrations. SuperOffice CRM on the other hand is available as four unique platforms, each of which have their own extensible characteristics:
+Both SuperOffice CRM and SuperOffice Customer Service (CS) support different forms of scripting automation. SuperOffice CS, available in both on-site and online, supports scripting automation and accounts for a majority of CS integrations. SuperOffice CRM on the other hand, is available as four unique platforms, each of which has their own extensible characteristics:
 
 * Windows client
-* On-site Web client
-* On-line Web client
+* Onsite Web client
+* Online Web client
 * Mobile client: Pocket CRM
 
 These first three CRM clients support many forms of integration, but the mobile client does not. The mobile client does support custom web panels that are configurable on each device, but that is all. Because the mobile client does not expose any external integration points, it will not be mentioned any further in this article.
@@ -45,30 +40,30 @@ While automation code is usually defined by customer requirements, consultants o
 
 As seen, there are several scripting options available for each platform. The graph details which automation languages are supported by each platform.
 
-SuperOffice CS leverages its own scripting engine and language, known as CRMScript. Primarily used to automate workflows around customer service scenarios involving tickets, mailings and templates, it's been extended to include classes and methods that mirror NetServer web service APIs. The extended CRM Script API allows the platform to access and manipulate CRM data previously only available to CRM.
+SuperOffice CS leverages its own scripting engine and language, known as CRMScript. Primarily used to automate workflows around customer service scenarios involving tickets, mailings, and templates, it's been extended to include classes and methods that mirror NetServer web service APIs. The extended CRM Script API allows the platform to access and manipulate CRM data previously only available to CRM.
 
-SuperOffice CRM is slightly more complicated than SuperOffice CS. The Windows client hosts a scripting environment made possible by the [MSScriptControl][2], a COM component that's built in and made available on every Windows operating system.
+SuperOffice CRM is slightly more complicated than SuperOffice CS. The Windows client hosts a scripting environment made possible by the [MSScriptControl][2], a COM component that's built-in and made available on every Windows operating system.
 
-The SuperOffice Web client relies exclusively on client-side javascript support. SuperOffice tests the Web client against all major browsers and versions to ensure a fully functionally client no matter what the browser policy in an organization. On-site installations support including and running integration javascript to support customer needs, but it is up to the organization to ensure it works in their environment. On-site Web installations also supports server-side scripting by executing C# or VB.NET scripts on the application server.
+The SuperOffice Web client relies exclusively on client-side javascript support. SuperOffice tests the Web client against all major browsers and versions to ensure a fully functional client no matter what the browser policy in an organization. On-site installations support including and running integration javascript to support customer needs, but it is up to the organization to ensure it works in their environment. Onsite Web installations also support server-side scripting by executing C# or VB.NET scripts on the application server.
 
-The SuperOffice Windows client can load and execute both vbScript and JScript code. The scripting environment does enable some interaction with users by showing message boxes, or displaying input boxes. The Windows client has the most complete automation engine of all the SuperOffice products. It is, for example, the only client that out of the box exposes events that can invoke script routines when users open and close dialogs. This presents an opportunity to either eliminate or augment other integrations.
+The SuperOffice Windows client can load and execute both vbScript and JScript code. The scripting environment does enable some interaction with users by showing message boxes or displaying input boxes. The Windows client has the most complete automation engine of all the SuperOffice products. It is, for example, the only client that out of the box exposes events that can invoke script routines when users open and close dialogs. This presents an opportunity to either eliminate or augment other integrations.
 
 Although the on-site Web client has the ability to detect when a user opens or closes a dialog, it requires custom javascript on the web server. This type of functionality is normally implemented by larger customers or partners who specialize in CRM Web client customizations and integrations.
 
-Each platform has strengths and weaknesses that are dependent on the environment in which they are deployed:
+Each platform has strengths and weaknesses that are dependent on the environment in which it is deployed:
 
 **Automation capabilities by on-site platform:**
 
 ![x][img2]
 
-For example, automation code in the CRM Windows client has complete access to all of the current users contextual identity values. The following code snippet demonstrates how to access the current company's current identity value:
+For example, automation code in the CRM Windows client has complete access to all of the current user's contextual identity values. The following code snippet demonstrates how to access the current company's current identity value:
 
 ```http
 Dim contactId
 contactId = CurrentContact.Identity
 ```
 
-While the same is possible on the Web client, it requires a round trip request to the web server using javascript, and is not considered an internal automation API.
+While the same is possible on the Web client, it requires a round trip request to the web server using JavaScript, and is not considered an internal automation API.
 
 ```javascript
 var contact = AjaxMethodDispatcher.CallSync(
@@ -78,8 +73,6 @@ var contact = AjaxMethodDispatcher.CallSync(
 
 Internal automation APIs are very useful for managing predetermined routines based on customers' requirements and providing user interaction within the application. They can make complex multiple-step tasks easier by programmatically automating the mundane details, and let the user focus on the task at hand.
 
-More information about scripting automation can be found in each client [SDK documentation][3].
-
 ## External Integration APIs
 
 The term external API refers to all SuperOffice client products, SuperOffice COM APIs, and the NetServer API landscape.
@@ -88,9 +81,9 @@ NetServer, although used as an umbrella term that encapsulates a variety of data
 
 SuperOffice has several partners and 3rd party vendors who have built tightly-coupled integrations with SuperOffice using external APIs. The different types of integrations built range from tiny edge-case security plugins to integrations with completely new document management systems. There are even complete enterprise resource planning systems that leverage SuperOffice CRM as the heart of its ecosystem.
 
-Where to get started really depends on your target SuperOffice platform and your preferred technology stack.
+Where to get started depends on your target SuperOffice platform and your preferred technology stack.
 
-The list of available APIs for integrations decreases the closer they are to on-line. That is just the nature of the respective environment and not limitations of the platforms or APIs.
+The list of available APIs for integrations decreases the closer they are to on-line. That is just the nature of the respective environment and not the limitations of the platforms or APIs.
 
 **Recommended APIs for each platform:**
 
@@ -145,7 +138,7 @@ SuperOffice CRM Web also enjoys many integration capabilities. I would go so far
 
 **Related SDK**:
 
-* [Web Client SDK][7]
+* [Web Client SDK][5]
 
 ### Web Client (Online)
 
@@ -228,7 +221,7 @@ All types of technology platforms, including Java, PHP, Python, Ruby, and many m
 **Integration Points (High Level):**
 
 * [Webhooks][15]
-* [SOAP][16]
+* [SOAP][11]
 * [REST][17]
 
 Related SDK:
@@ -247,19 +240,16 @@ Read more about each platform API in the SDK documentation.
 <!-- Referenced links -->
 [1]: https://community.superoffice.com/en/developer/forum/?clubId=3
 [2]: https://msdn.microsoft.com/en-us/library/aa227633(v=vs.60).aspx
-[3]: https://community.superoffice.com/en/sdk-docs/
-[5]: https://community.superoffice.com/documentation/SDK/SO.WinGui/webframe.html
-[6]: http://devnet.superoffice.com/documentation/SDK/SO.WinData/webframe.html
-[7]: https://community.superoffice.com/Documentation/SDK/SO.WebGUI/Index.html
+[5]: https://community.superoffice.com/documentation/SDK/SO.Application/html/top_home.htm
+[6]: https://community.superoffice.com/documentation/SDK/SO.Database/html/top_home.htm
 [8]: ../authentication/federated-auth.md
-[11]: https://community.superoffice.com/documentation/sdk/SO.CustomerServiceSupport/Index.html
+[11]: https://github.com/SuperOfficeDocs/data-access/blob/main/docs/soap/reference/index.md
 [12]: https://github.com/SuperOfficeDocs/data-access/blob/main/docs/services/ns-web-services/what-is-netserver-part-2.md
 [13]: https://github.com/SuperOfficeDocs/data-access/blob/main/docs/services/ns-web-services/what-is-netserver-part-1.md
 [15]: ../automation/webhook/index.md
-[16]: https://community.superoffice.com/documentation/sdk/SO.NetServer.Web.Services/html/Reference-SOAP-SOAP.htm
-[17]: https://community.superoffice.com/documentation/sdk/SO.NetServer.Web.Services/html/Reference-WebAPI-WebAPI.htm
-[18]: http://devnet.superoffice.com/documentation/SDK/SO.Server.Data/Index.html
-[19]: http://devnet.superoffice.com/documentation/SDK/SO.Server.Services/Index.html
+[17]: https://github.com/SuperOfficeDocs/data-access/blob/main/docs/web-api/rest/reference/index.md
+[18]: https://github.com/SuperOfficeDocs/data-access/blob/main/docs/index.md
+[19]: https://github.com/SuperOfficeDocs/data-access/blob/main/docs/services/index.md
 [20]: https://community.superoffice.com/en/developer/forum/
 [21]: mailto:sdk@superoffice.com
 

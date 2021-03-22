@@ -103,4 +103,4 @@ This advanced configuration has to be tweaked manually in the SuperOffice.config
 [2]: https://www.microsoft.com/en-us/download/details.aspx?id=55984
 [3]: ../win-client/debug.md
 [4]: ../win-client/command-line-switches.md
-[5]: https://community.superoffice.com/en/blog/mapping-superoffice-users-to-active-directory-in-70-sr3-and-71/
+[5]: ../../identity-management/user/mapping-so-user-to-ad-v-7-1.md

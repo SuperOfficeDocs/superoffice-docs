@@ -1,9 +1,6 @@
 ---
-# This basic template provides core metadata fields for Markdown articles on docs.superoffice.com
-
-# Mandatory fields.
-title: variables_for_sender_contact_dialog       # (Required) Very important for SEO. Intent in a unique string of 43-59 chars including spaces.
-description: Variables for the sender (Contact dialog) # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
+title: variables_for_sender_contact_dialog
+description: Variables for the sender (Contact dialog)
 author: {github-id}             # Your GitHub alias.
 keywords:
 so.topic: reference                # article, howto, reference, concept, guide
@@ -22,10 +19,10 @@ so.topic: reference                # article, howto, reference, concept, guide
 | aubd | Date of birth |
 | auca | The sender's chat address |
 | aucd | The sender's chat address, ID (hidden, unique ID) |
-| auci | Postal town. (See also [aucs][1].) |
+| auci | Postal town. (See also aucs) |
 | aucn | Country |
 | aucp | The sender's chat address protocol |
-| aucs | Postal town, state/province and zipcode (for American, Canadian and Australian addresses, for example Bedford, MA 01730) |
+| aucs | Postal town, state/province and zipcode (for American, Canadian and Australian addresses, for example, Bedford, MA 01730) |
 | aucy | County (for UK addresses) |
 | audf | Direct fax number |
 | audp | Direct phone number |
@@ -41,17 +38,14 @@ so.topic: reference                # article, howto, reference, concept, guide
 | auph | Home telephone |
 | aupo | Position |
 | aupp | Other phone (was "Pager" before 7.0) |
-| aust | State/province (for American, Canadian and Australian addresses). (See also [aucs][1].) |
+| aust | State/province (for American, Canadian, and Australian addresses). (See also aucs) |
 | auth | Sender’s first name and last name |
 | auvo | The sender's VOIP address |
 | auvi | The sender's VOIP address, ID (hidden, unique ID) |
 | auvs | The sender's VOIP service (description) |
 | auwi | The sender's primary web address, ID (hidden, unique ID) |
 | auww | The sender's primary web address |
-| auzi | Postcode. (See also [aucs][1].) |
+| auzi | Postcode. (See also aucs) |
 | uf01-10 | User-defined field 1-10 of the decimal number type |
 | ul01-60 | User-defined field 1-60 of the whole number type |
 | us01-49 | User-defined field 1-49 of the text type |
-
-<!-- Referenced links -->
-[1]: https://community.superoffice.com/Documentation/Help/EN/CRM/8.0/WebHelpAdmin/Template_variables.htm?rhtocid=2_1#aucs

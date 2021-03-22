@@ -95,7 +95,7 @@ Note that the images will be resized to fit, but when the viewer clicks on the i
 
 ## SuperOffice logo guidance
 
-**The official SuperOffice logo can be [downloaded here][3].**
+<a href="../../assets/downloads/superoffice-logo-for-download.zip" download>Click to download the official SuperOffice logo</a>
 
 The SuperOffice needs to be either green or white, depending upon the background color. In very special cases, we can agree to see in black. Please confer with us before you do so.
 
@@ -133,7 +133,6 @@ The SuperOffice green color is:
 <!-- Referenced links -->
 [1]: https://online.superoffice.com/appstore
 [2]: https://www.superoffice.com/
-[3]: https://community.superoffice.com/globalassets/developer-club/apps-and-partners/publish/app-naming-description-and-images/superoffice-logo-for-download.zip
 [4]: mailto:appstore@superoffice.com
 
 <!-- Referenced images -->

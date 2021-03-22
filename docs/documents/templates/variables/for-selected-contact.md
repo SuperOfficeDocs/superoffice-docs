@@ -1,9 +1,6 @@
 ---
-# This basic template provides core metadata fields for Markdown articles on docs.superoffice.com
-
-# Mandatory fields.
-title: variables_for_selected_contact       # (Required) Very important for SEO. Intent in a unique string of 43-59 chars including spaces.
-description: Variables for a selected contact # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
+title: variables_for_selected_contact
+description: Variables for a selected contact
 author: {github-id}             # Your GitHub alias.
 keywords:
 so.topic: reference               # article, howto, reference, concept, guide
@@ -21,9 +18,9 @@ so.topic: reference               # article, howto, reference, concept, guide
 | achi | The contact's chat address, ID (hidden, unique ID) |
 | achp | The contact's chat address protocol |
 | acid | Contact’s country code |
-| acit | Postal town. (See also [acsz][1].) |
+| acit | Postal town. (See also acsz) |
 | acnt | County (for UK addresses) |
-| acsz | Postal town, state/province and postcode (for example Bedford, MA 01730) |
+| acsz | Postal town, state/province, and postcode (for example Bedford, MA 01730) |
 | act? | Country (if different from the sender’s country) |
 | actg | Line feed for internal post in Germany |
 | actr | Country |
@@ -40,7 +37,8 @@ so.topic: reference               # article, howto, reference, concept, guide
 | apho | The contact’s phone number |
 | as01-49 | User-defined field 1-49 of the text type |
 | asal | Academic title (salutation) |
-| asta | State/province. (See also [acsz][1]].) | atei | The contact's primary email address, ID (hidden, unique ID) |
+| asta | State/province. (See also acsz) |
+| atei | The contact's primary email address, ID (hidden, unique ID) |
 | atem | The contact's primary email address. If no email address is recorded for the contact, the company's email address is used |
 | atfa | Direct fax (Attention Fax) |
 | atfi | Direct fax, ID (hidden, unique ID) |
@@ -69,7 +67,4 @@ so.topic: reference               # article, howto, reference, concept, guide
 | avos | The sender's VOIP service (description) |
 | awwi | The contact's primary web address, ID (hidden, unique ID) |
 | awww | The contact's primary web address |
-| azip | Postcode. (See also [acsz][1].) |
-
-<!-- Referenced links -->
-[1]: https://community.superoffice.com/Documentation/Help/EN/CRM/8.0/WebHelpAdmin/Template_variables.htm?rhtocid=2_1#acsz
+| azip | Postcode. (See also acsz) |

@@ -69,4 +69,4 @@ These described integrations are optional per CRM installation.
 [1]: https://developers.google.com/drive/v2/reference/files
 [2]: https://msdn.microsoft.com/en-us/library/office/fp142384.aspx
 [3]: https://openid.net/specs/openid-connect-core-1_0.html
-[4]: https://community.superoffice.com/documentation/SDK/SO.NetServer.Data.Access/html/Introduction-Commonpatterns-PluginPattern.htm
+[4]: https://github.com/SuperOfficeDocs/data-access/blob/main/docs/getting-started/patterns.md

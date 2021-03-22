@@ -1,14 +1,10 @@
 ---
-# This basic template provides core metadata fields for Markdown articles on docs.superoffice.com.
-
-# Mandatory fields.
-title: get_system_user_ticket       # (Required) Very important for SEO. Intent in a unique string of 43-59 chars including spaces.
-description: How to exchange system user token for system user ticket  # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
+title: get_system_user_ticket
+description: How to exchange system user token for system user ticketspaces.
 author: {github-id}             # Your GitHub alias.
+so.date:
 keywords:
 so.topic: howto               # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
 so.envir: cloud           # cloud or onsite
 so.client: online               # online, web, win, pocket, or mobile
 ---
@@ -19,7 +15,7 @@ You need a system user ticket to perform non-interactive REST API calls. To get 
 
 The [system user token][1] is embedded in the [SuperIdToken][2] that you received when you [validated][3] the JWT security token from the initial authentication.
 
-**Download Sample**: [Sample Code][4]
+<a href="../../assets/downloads/system-user-node-sample.zip" download>Click to download sample</a>
 
 ## Pre-requisites
 
@@ -62,7 +58,6 @@ The following example code has an extensive amount of logging to the console. Th
 [1]: system-user-token.md
 [2]: ../superid-token.md
 [3]: ../certificates/validate-security-tokens.md
-[4]: https://community.superoffice.com/contentassets/21dbc96303eb4a69a86279bb59ce1208/system-user-node-sample.zip
 [5]: ../../apps/client-id-secret.md
 [6]: ../../apps/tenant-status/get-consent.md
 [7]: soap-envelope.md

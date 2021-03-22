@@ -68,7 +68,7 @@ This report allows you to offer access to the personal data you have stored on a
 
 ### Automate the deletion of contacts
 
-You can create a CRM script to delete contacts if they satisfy certain criteria that you have defined for when a contact should be removed from your database. The criteria may be a contact’s category coupled with a lack of consents, activities over a given time and so on. Such automatic processes can ensure that there are no obsolete data in your database, which means less work for your CRM team.
+You can create a CRM script to delete contacts if they satisfy certain criteria that you have defined for when a contact should be removed from your database. The criteria may be a contact’s category coupled with a lack of consent, activities over a given time, and so on. Such automatic processes can ensure that there are no obsolete data in your database, which means less work for your CRM team.
 
 ### Bulk update
 

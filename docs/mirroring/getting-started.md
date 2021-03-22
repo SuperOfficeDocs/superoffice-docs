@@ -46,7 +46,7 @@ Backup/restore is a special case. If the sequence of events is mirror – backup
 
 ## Restrictions
 
-It does not make business sense to provide a complete database mirror to partner applications. Not only might this incur unnecessary stress between systems, we prevent access to sensitive customer data that simply doesn't belong in any other domain, such as area and travel tables, search criteria and operators, dbi agent information and windows positions. A complete list of tables both replicated and not replicated with reason are listed in the [Mirrored Tables document][5].
+It does not make business sense to provide a complete database mirror to partner applications. Not only might this incur unnecessary stress between systems, we prevent access to sensitive customer data that simply doesn't belong in any other domain, such as area and travel tables, search criteria and operators, dbi agent information and windows positions. A complete list of tables both replicated and not replicated with reason is listed in the <a href="../assets/downloads/mirroredtables.docx" download>Mirrored Tables document</a>.
 
 If you believe you have a great case for an application, navigate to the [application registration page][1] (for existing partners) and get started today! If you are not yet an online application partner, get started today by filling our [developer registration form][6].
 
@@ -55,5 +55,4 @@ If you believe you have a great case for an application, navigate to the [applic
 [2]: ../authentication/certificates/configure.md
 [3]: ../authentication/index.md
 [4]: https://www.nuget.org/packages/SuperOffice.Crm.Online.Mirroring
-[5]: https://community.superoffice.com/contentassets/8c09bc95f03841cd87771bc367849cf5/mirroredtables.docx
 [6]: https://community.superoffice.com/en/developer/create-apps/resources/developer-registration/

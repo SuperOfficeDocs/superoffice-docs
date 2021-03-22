@@ -86,14 +86,15 @@ In some situations, you can experience that Web Extensions leave a permanent "sh
 To stop this happening you have to activate a registry key named **UseBorderedWindows**:
 
 1. Create a text file named *filename.reg*.
+
 2. Add the following lines to it:
 
-```text
-Windows Registry Editor Version 5.00
+    ```text
+    Windows Registry Editor Version 5.00
 
-[HKEY_CURRENT_USER\SOFTWARE\SuperOffice\DocLink]
-"UseBorderedWindows"=dword:00000001
-```
+    [HKEY_CURRENT_USER\SOFTWARE\SuperOffice\DocLink]
+    "UseBorderedWindows"=dword:00000001
+    ```
 
 3. Execute this file for every user on the Citrix/Terminal server. You have to log out and back in to let it work.
 

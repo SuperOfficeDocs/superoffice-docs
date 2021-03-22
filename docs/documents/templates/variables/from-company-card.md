@@ -1,9 +1,6 @@
 ---
-# This basic template provides core metadata fields for Markdown articles on docs.superoffice.com
-
-# Mandatory fields.
-title: variables_from_company_card       # (Required) Very important for SEO. Intent in a unique string of 43-59 chars including spaces.
-description: Variables from the company card # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
+title: variables_from_company_card
+description: Variables from the company card
 author: {github-id}             # Your GitHub alias.
 keywords:
 so.topic: reference           # article, howto, reference, concept, guide
@@ -35,7 +32,7 @@ so.topic: reference           # article, howto, reference, concept, guide
 | cphi | Company's phone number, ID (hidden, unique ID) |
 | cpho | Company’s phone number |
 | cs01-49 | User-defined field 1-49 of the text type |
-| cszc | Postal town, state/province and zipcode (for American, Canadian and Australian addresses, for example Bedford, MA 01730) |
+| cszc | Postal town, state/province, and zipcode (for American, Canadian and Australian addresses, for example, Bedford, MA 01730) |
 | cuid | Company ID (hidden, unique ID) |
 | cwwi | The company's primary web address, ID (hidden, unique ID) |
 | cwww | The company's primary web address |
@@ -48,7 +45,7 @@ so.topic: reference           # article, howto, reference, concept, guide
 | mail | The company’s primary email address |
 | name | The company’s name |
 | numb | Number |
-| orgn | The company’s organisation number |
+| orgn | The company’s organization number |
 | padr | Postal address, line 1 |
 | pad2 | Postal address, line 2 |
 | pad3 | Postal address, line 3 |
@@ -57,13 +54,10 @@ so.topic: reference           # article, howto, reference, concept, guide
 | sadr | Street address/office address, address line 1 |
 | sams | First address line, including Mail Stop (for American addresses) |
 | scit | Postal town for street address (for German addresses) |
-| ssta | State/province for street address (for American, Canadian and Australian addresses) |
-| stat | State/province (for American, Canadian and Australian addresses). (See also [cszc][1].) |
+| ssta | State/province for street address (for American, Canadian, and Australian addresses) |
+| stat | State/province (for American, Canadian, and Australian addresses). (See also cszc) |
 | szip | Postcode for street address (for German addresses) |
 | zici | Postcode and postal town (for example 0572 OSLO) |
 | zino | Postcode prefix |
-| zipc | Postcode. (See also [cszc][1].) |
+| zipc | Postcode. (See also cszc) |
 | zipp | Postcode for street address. |
-
-<!-- Referenced links -->
-[1]: https://community.superoffice.com/Documentation/Help/EN/CRM/8.0/WebHelpAdmin/Template_variables.htm?rhtocid=2_1#cszc
