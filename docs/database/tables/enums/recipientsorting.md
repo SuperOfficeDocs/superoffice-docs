@@ -5,7 +5,7 @@ description: Lists the enum values for RecipientSorting.
 so.generated: true
 keywords:
   - "database"
-so.date: 21.03.2021
+so.date: 22.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -16,11 +16,13 @@ so.envir:
 
 Which sorting should be used on the document mailing recipient list, used when generating PDF
 
-* None = 0
-* CountryZipCode = 1
-* CompanyName = 2
-* CompanyNumber = 3
-* PersonLastname = 4
+| Name | Value | Description |
+|------|-------|-------------|
+|None|0|No sorting|
+|CountryZipCode|1|Sort by country and zip code|
+|CompanyName|2|Sort by company name|
+|CompanyNumber|3|Sort by company number|
+|PersonLastname|4|Sort by person last name|
 
 ## Usage
 

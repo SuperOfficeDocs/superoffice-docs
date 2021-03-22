@@ -5,7 +5,7 @@ description: Lists the enum values for TicketCategoryFlags.
 so.generated: true
 keywords:
   - "database"
-so.date: 21.03.2021
+so.date: 22.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -16,17 +16,19 @@ so.envir:
 
 A bitmask representing flags for this category.
 
-* Unknown = 0
-* Internal = 1
-* OnlyLoggedInUsers = 2
-* DefaultToCategoryMaster = 4
-* ListInMain = 8
-* RedelegateNewMsg = 16
-* DelegateToOurContact = 32
-* PropagateReplyTemplate = 64
-* MembersOnly = 128
-* NotifyMembers = 256
-* AcceptWhenReplying = 512
+| Name | Value | Description |
+|------|-------|-------------|
+|Unknown|0|No flags set|
+|Internal|1|The category is set to internal and is not available in the Customer Centre|
+|OnlyLoggedInUsers|2|Only assign requests to logged in users|
+|DefaultToCategoryMaster|4|Assign to category administrator if no one is available|
+|ListInMain|8|Show category in status view|
+|RedelegateNewMsg|16|Reassign requests on new message if user is not present|
+|DelegateToOurContact|32|Assign to our service contact if available|
+|PropagateReplyTemplate|64|Merge outbound e-mails for this category with reply template|
+|MembersOnly|128|Only members have access to requests in this category|
+|NotifyMembers|256|Send notification to members about new request|
+|AcceptWhenReplying|512|Take ownership by default when replying|
 
 ## Usage
 

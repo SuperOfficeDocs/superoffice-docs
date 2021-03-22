@@ -5,7 +5,7 @@ description: Lists the enum values for ConfigType.
 so.generated: true
 keywords:
   - "database"
-so.date: 21.03.2021
+so.date: 22.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -16,8 +16,10 @@ so.envir:
 
 What kind of data is in this row
 
-* Style = 0
-* Options = 1
+| Name | Value | Description |
+|------|-------|-------------|
+|Style|0|The row contains style data|
+|Options|1|The row contains options data|
 
 ## Usage
 

@@ -5,7 +5,7 @@ description: Lists the enum values for TicketBaseStatus.
 so.generated: true
 keywords:
   - "database"
-so.date: 21.03.2021
+so.date: 22.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -16,12 +16,14 @@ so.envir:
 
 The &amp;apos;classic&amp;apos; ticket status. I.e. active/closed/postponed/deleted
 
-* Unknown = 0
-* Active = 1
-* Closed = 2
-* Postponed = 3
-* Deleted = 4
-* Merged = 5
+| Name | Value | Description |
+|------|-------|-------------|
+|Unknown|0|Unknown / uninitialized|
+|Active|1|Request is currently active|
+|Closed|2|Request has been closed|
+|Postponed|3|Request has been postponed|
+|Deleted|4|Request has been deleted|
+|Merged|5|Request has been merged with another request|
 
 ## Usage
 

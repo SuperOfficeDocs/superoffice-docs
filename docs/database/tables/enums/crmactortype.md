@@ -5,7 +5,7 @@ description: Lists the enum values for CrmActorType.
 so.generated: true
 keywords:
   - "database"
-so.date: 21.03.2021
+so.date: 22.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -16,11 +16,13 @@ so.envir:
 
 The actor type (CRM side)
 
-* Unknown = 0
-* Contact = 1
-* Person = 2
-* Project = 3
-* Sale = 4
+| Name | Value | Description |
+|------|-------|-------------|
+|Unknown|0|Unknown - used when initializing|
+|Contact|1|Crm Customer|
+|Person|2|Person|
+|Project|3|Project|
+|Sale|4|Sale|
 
 ## Usage
 

@@ -5,7 +5,7 @@ description: Lists the enum values for AppointmentCautionWarning.
 so.generated: true
 keywords:
   - "database"
-so.date: 21.03.2021
+so.date: 22.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -16,12 +16,14 @@ so.envir:
 
 Status field to indicate appointments that have some sort of problem
 
-* OK = 0
-* NotInSync = 1
-* NotNotifiedByEmail = 2
-* RecurrencePatternNotSupported = 3
-* IncomingRecurrenceChangeNotSupported = 4
-* ExternalParticipantsDateTimeMismatch = 5
+| Name | Value | Description |
+|------|-------|-------------|
+|OK|0|OK - no special warnings|
+|NotInSync|1|Possibly not in sync with external systems|
+|NotNotifiedByEmail|2|Updated without sending email notifications|
+|RecurrencePatternNotSupported|3|This recurrence pattern might not be supported in the external participants calendars|
+|IncomingRecurrenceChangeNotSupported|4|A requested change to a recurrence appointment was not supported|
+|ExternalParticipantsDateTimeMismatch|5|Time and date may be wrong for external participants due to unsupported changes|
 
 ## Usage
 

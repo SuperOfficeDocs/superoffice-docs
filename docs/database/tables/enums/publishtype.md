@@ -5,7 +5,7 @@ description: Lists the enum values for PublishType.
 so.generated: true
 keywords:
   - "database"
-so.date: 21.03.2021
+so.date: 22.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -16,8 +16,10 @@ so.envir:
 
 Should this field be published by default?
 
-* Undefined = 0
-* External = 1
+| Name | Value | Description |
+|------|-------|-------------|
+|Undefined|0||
+|External|1|Published to external persons|
 
 ## Usage
 

@@ -5,7 +5,7 @@ description: Lists the enum values for PreferenceLevel.
 so.generated: true
 keywords:
   - "database"
-so.date: 21.03.2021
+so.date: 22.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -16,13 +16,15 @@ so.envir:
 
 Highest override level allowed
 
-* Undefined = 0
-* HardDefault = 1
-* SystemWide = 2
-* Database = 3
-* Group = 4
-* Individual = 5
-* PC = 6
+| Name | Value | Description |
+|------|-------|-------------|
+|Undefined|0|Undefined value (error)|
+|HardDefault|1|Default value used if no other value has been specified|
+|SystemWide|2|Value valid for all databases under this licence|
+|Database|3|Value valid for this database|
+|Group|4|Value valid for this group|
+|Individual|5|Value valid for this user|
+|PC|6|Value valid for this computer (note: stored in the Registry, not in the database)|
 
 ## Usage
 

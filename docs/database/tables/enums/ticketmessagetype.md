@@ -5,7 +5,7 @@ description: Lists the enum values for TicketMessageType.
 so.generated: true
 keywords:
   - "database"
-so.date: 21.03.2021
+so.date: 22.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -16,9 +16,11 @@ so.envir:
 
 The type of the message (plaintext/html).
 
-* Unknown = 0
-* Plain = 1
-* Html = 2
+| Name | Value | Description |
+|------|-------|-------------|
+|Unknown|0|Unknown type|
+|Plain|1|The body field contains plain text|
+|Html|2|The body field contains html text|
 
 ## Usage
 

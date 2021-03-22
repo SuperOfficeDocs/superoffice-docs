@@ -5,7 +5,7 @@ description: Lists the enum values for EMailPriority.
 so.generated: true
 keywords:
   - "database"
-so.date: 21.03.2021
+so.date: 22.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -16,12 +16,14 @@ so.envir:
 
 Email priority
 
-* NoPriority = 0
-* Highest = 1
-* High = 2
-* Normal = 3
-* Low = 4
-* Lowest = 5
+| Name | Value | Description |
+|------|-------|-------------|
+|NoPriority|0||
+|Highest|1||
+|High|2||
+|Normal|3||
+|Low|4||
+|Lowest|5||
 
 ## Usage
 

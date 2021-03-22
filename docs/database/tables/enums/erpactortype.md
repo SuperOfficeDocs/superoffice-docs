@@ -5,7 +5,7 @@ description: Lists the enum values for ErpActorType.
 so.generated: true
 keywords:
   - "database"
-so.date: 21.03.2021
+so.date: 22.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -16,14 +16,16 @@ so.envir:
 
 The actor type within the ERP system of this synchronized record
 
-* Unknown = 0
-* Customer = 1
-* Supplier = 2
-* Partner = 3
-* Person = 4
-* Project = 5
-* Employee = 6
-* Sale = 7
+| Name | Value | Description |
+|------|-------|-------------|
+|Unknown|0|Unknown - used when initializing|
+|Customer|1|Erp Customer|
+|Supplier|2|Supplier or Vendor|
+|Partner|3|Both customer and supplier|
+|Person|4|Contact person|
+|Project|5|Project|
+|Employee|6|Employee, often mapped to associate|
+|Sale|7|Sale|
 
 ## Usage
 

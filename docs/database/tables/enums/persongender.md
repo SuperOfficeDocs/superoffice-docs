@@ -5,7 +5,7 @@ description: Lists the enum values for PersonGender.
 so.generated: true
 keywords:
   - "database"
-so.date: 21.03.2021
+so.date: 22.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -16,6 +16,8 @@ so.envir:
 
 Male/female. No jokes please.  To be used for selecting correct salutations &amp; grammar. 0 = unknown, 1 = female, 2 = male
 
+| Name | Value | Description |
+|------|-------|-------------|
 
 ## Usage
 

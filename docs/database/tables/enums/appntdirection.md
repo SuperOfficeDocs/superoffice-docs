@@ -5,7 +5,7 @@ description: Lists the enum values for AppntDirection.
 so.generated: true
 keywords:
   - "database"
-so.date: 21.03.2021
+so.date: 22.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -16,6 +16,8 @@ so.envir:
 
 Same as task.direction: Direction: 0 = none, 1 = incoming, 2 = outgoing
 
+| Name | Value | Description |
+|------|-------|-------------|
 
 ## Usage
 

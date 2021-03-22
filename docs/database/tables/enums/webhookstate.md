@@ -5,7 +5,7 @@ description: Lists the enum values for WebhookState.
 so.generated: true
 keywords:
   - "database"
-so.date: 21.03.2021
+so.date: 22.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -16,10 +16,12 @@ so.envir:
 
 Webhook status - should we post events to the URL? 1=Active, 2=Stopped or 3=TooManyErrors
 
-* Unknown = 0
-* Active = 1
-* Stopped = 2
-* TooManyErrors = 3
+| Name | Value | Description |
+|------|-------|-------------|
+|Unknown|0|0: Unknown state|
+|Active|1|1: Active - webhook is posting events to receiver|
+|Stopped|2|2: Stopped - webhook has been turned off. Not posting events to receiver.|
+|TooManyErrors|3|3: Too many errors received - webhook has been turned off automatically.|
 
 ## Usage
 

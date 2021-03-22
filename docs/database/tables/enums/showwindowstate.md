@@ -5,7 +5,7 @@ description: Lists the enum values for ShowWindowState.
 so.generated: true
 keywords:
   - "database"
-so.date: 21.03.2021
+so.date: 22.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -16,9 +16,11 @@ so.envir:
 
 Normal = 0, Maximized = 1, Minimized = 2
 
-* Normal = 0
-* Maximized = 1
-* Minimized = 2
+| Name | Value | Description |
+|------|-------|-------------|
+|Normal|0|Show Normal|
+|Maximized|1|Show Maximized|
+|Minimized|2|Show Minimized|
 
 ## Usage
 

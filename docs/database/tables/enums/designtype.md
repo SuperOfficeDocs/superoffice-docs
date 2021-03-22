@@ -5,7 +5,7 @@ description: Lists the enum values for DesignType.
 so.generated: true
 keywords:
   - "database"
-so.date: 21.03.2021
+so.date: 22.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -16,9 +16,11 @@ so.envir:
 
 Enum containing the type of the design
 
-* Unknown = 0
-* SOEditor = 1
-* Unlayer = 2
+| Name | Value | Description |
+|------|-------|-------------|
+|Unknown|0|Unknown type|
+|SOEditor|1|Created with SOEditor|
+|Unlayer|2|Created with Unlayer editor|
 
 ## Usage
 

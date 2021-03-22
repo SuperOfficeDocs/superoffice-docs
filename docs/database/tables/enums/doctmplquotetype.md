@@ -5,7 +5,7 @@ description: Lists the enum values for DocTmplQuoteType.
 so.generated: true
 keywords:
   - "database"
-so.date: 21.03.2021
+so.date: 22.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -16,12 +16,14 @@ so.envir:
 
 The role this document plays in the Quote system, if any
 
-* None = 0
-* MailBody = 1
-* MainDocument = 2
-* QuoteLines = 3
-* ConfirmationMailBody = 4
-* ConfirmationLines = 5
+| Name | Value | Description |
+|------|-------|-------------|
+|None|0|This document template is in no way related to Quote Management|
+|MailBody|1|This is a template for the offer mail body|
+|MainDocument|2|This is a template for the main offer document, document instances will be referred through Quote.DocumentId|
+|QuoteLines|3|This is a template for the AsposeWords merge process, generating the offer line details|
+|ConfirmationMailBody|4|This is a template for the mail body of the order confirmation|
+|ConfirmationLines|5|This is a template for the lines document that is an attachment to the confirmation mail|
 
 ## Usage
 

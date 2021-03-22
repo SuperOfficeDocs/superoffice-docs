@@ -5,7 +5,7 @@ description: Lists the enum values for DocTmplDirection.
 so.generated: true
 keywords:
   - "database"
-so.date: 21.03.2021
+so.date: 22.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -16,10 +16,12 @@ so.envir:
 
 1 = incoming, 2 = outgoing, see EAppntDirection
 
-* Unknown = 0
-* Incoming = 1
-* Outgoing = 2
-* SaintAll = 3
+| Name | Value | Description |
+|------|-------|-------------|
+|Unknown|0|The direction of documents from this template is unknown/undecided|
+|Incoming|1|Document template for incoming documents|
+|Outgoing|2|Document template is used for outgoing documents|
+|SaintAll|3|All' choice for Saint. This is NOT an acceptable value for a task definition, but is used by the Saint system for indexing all directions|
 
 ## Usage
 

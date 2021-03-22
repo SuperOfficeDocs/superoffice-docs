@@ -5,7 +5,7 @@ description: Lists the enum values for FormType.
 so.generated: true
 keywords:
   - "database"
-so.date: 21.03.2021
+so.date: 22.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -16,8 +16,10 @@ so.envir:
 
 What kind of form is this? Indicates if this is a normal form or a template
 
-* Normal = 0
-* Template = 1
+| Name | Value | Description |
+|------|-------|-------------|
+|Normal|0|A form instance|
+|Template|1|A form template|
 
 ## Usage
 

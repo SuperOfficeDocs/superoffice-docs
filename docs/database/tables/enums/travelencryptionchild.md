@@ -5,7 +5,7 @@ description: Lists the enum values for TravelEncryptionChild.
 so.generated: true
 keywords:
   - "database"
-so.date: 21.03.2021
+so.date: 22.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -16,9 +16,11 @@ so.envir:
 
 Use encrypted communication for this traveller: 0 = no, 1 = serial no as key, 2 = target db tag as key (secure but lots of hassle for support)
 
-* None = 0
-* Serial = 1
-* BF128 = 2
+| Name | Value | Description |
+|------|-------|-------------|
+|None|0|Transmitted travel data are not encrypted (only ZIPed)|
+|Serial|1|Transmitted travel data are encrypted using licence serial no. as key|
+|BF128|2|Transmitted travel data are encrypted using a 128-bit key unique to each database|
 
 ## Usage
 

@@ -5,7 +5,7 @@ description: Lists the enum values for VideoMeetingStatus.
 so.generated: true
 keywords:
   - "database"
-so.date: 21.03.2021
+so.date: 22.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -16,9 +16,11 @@ so.envir:
 
 Default video-meeting status for meetings created in SuperOffice CRM.
 
-* NoChange = 0
-* VideoMeetingOn = 1
-* VideoMeetingOff = 2
+| Name | Value | Description |
+|------|-------|-------------|
+|NoChange|0|No Change|
+|VideoMeetingOn|1|Appointments created from this task-type should enable video-meetings by default.|
+|VideoMeetingOff|2|Appointments created from this task-type should disable video-meetings by default.|
 
 ## Usage
 

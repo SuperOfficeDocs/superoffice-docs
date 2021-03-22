@@ -5,7 +5,7 @@ description: Lists the enum values for MailboxType.
 so.generated: true
 keywords:
   - "database"
-so.date: 21.03.2021
+so.date: 22.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -16,16 +16,18 @@ so.envir:
 
 Enum indicating the protocol to use (POP/IMAP).
 
-* Unknown = 0
-* Pop = 1
-* Imap = 2
-* Mapi = 3
-* Facebook = 4
-* Pops = 5
-* Imaps = 6
-* SmsPlugin = 7
-* Mailgun = 8
-* ImapOAuth = 9
+| Name | Value | Description |
+|------|-------|-------------|
+|Unknown|0|Unknown|
+|Pop|1|Pop|
+|Imap|2|Imap - without OAuth support. Use ImapOAuth instead if OAuth is needed|
+|Mapi|3|Mapi - Obsolete|
+|Facebook|4|TypeFacebook|
+|Pops|5|Pop SSL|
+|Imaps|6|Imap SSL|
+|SmsPlugin|7|Incoming SMS, using a plugin|
+|Mailgun|8|Used by mailboxes set up as a Mailgun route|
+|ImapOAuth|9|This is a Imap mailbox using OAuth authentication|
 
 ## Usage
 

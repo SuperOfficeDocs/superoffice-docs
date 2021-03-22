@@ -5,7 +5,7 @@ description: Lists the enum values for ShipmentListStatus.
 so.generated: true
 keywords:
   - "database"
-so.date: 21.03.2021
+so.date: 22.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -16,8 +16,10 @@ so.envir:
 
 Status of shipment list
 
-* NotSent = 0
-* Sent = 1
+| Name | Value | Description |
+|------|-------|-------------|
+|NotSent|0|Not sent|
+|Sent|1|Sent|
 
 ## Usage
 

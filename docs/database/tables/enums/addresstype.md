@@ -5,7 +5,7 @@ description: Lists the enum values for AddressType.
 so.generated: true
 keywords:
   - "database"
-so.date: 21.03.2021
+so.date: 22.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -16,12 +16,14 @@ so.envir:
 
 Bit mask, combines address type (EAddressType) and owner type (EOwnerType)
 
-* Unknown = 0
-* ContactPostalAddress = 1
-* ContactStreetAddress = 2
-* PersonPrivateAddress = 16387
-* QuoteBillingAddress = 8196
-* QuoteShippingAddress = 8197
+| Name | Value | Description |
+|------|-------|-------------|
+|Unknown|0|Unknown - used when initializing |
+|ContactPostalAddress|1|The address is a contact's postal address|
+|ContactStreetAddress|2|The address is a contact's street address|
+|PersonPrivateAddress|16387|The address is a person's private address|
+|QuoteBillingAddress|8196|The address is the shipping address for a quote|
+|QuoteShippingAddress|8197|The address is the shipping address for a quote|
 
 ## Usage
 

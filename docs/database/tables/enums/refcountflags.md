@@ -5,7 +5,7 @@ description: Lists the enum values for RefcountFlags.
 so.generated: true
 keywords:
   - "database"
-so.date: 21.03.2021
+so.date: 22.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -16,11 +16,13 @@ so.envir:
 
 Unique, active, read-only, allow blank, …
 
-* Unknown = 0
-* Allocate = 1
-* Unique = 2
-* ReadOnly = 4
-* AllowBlank = 8
+| Name | Value | Description |
+|------|-------|-------------|
+|Unknown|0|Unknown - used when initializing|
+|Allocate|1|Perform number allocation automatically|
+|Unique|2|Check that entered values are unique|
+|ReadOnly|4|Target field is read-only in GUI|
+|AllowBlank|8|Blank is a legal value|
 
 ## Usage
 

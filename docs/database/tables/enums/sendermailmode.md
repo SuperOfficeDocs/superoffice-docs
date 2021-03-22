@@ -5,7 +5,7 @@ description: Lists the enum values for SenderMailMode.
 so.generated: true
 keywords:
   - "database"
-so.date: 21.03.2021
+so.date: 22.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -16,10 +16,12 @@ so.envir:
 
 Type of sender email setting. Always use senderEmailAddress = 0, Use Our contact = 1, Use Support Associate = 2
 
-* UseDefaultSender = 0
-* UseOurContact = 1
-* UseSupportContact = 2
-* UseLoggedInUser = 3
+| Name | Value | Description |
+|------|-------|-------------|
+|UseDefaultSender|0|Use default sender, saved in template SenderEmailAddress|
+|UseOurContact|1|Use persons our contact email address|
+|UseSupportContact|2|Use persons support contact.|
+|UseLoggedInUser|3|Use logged in user.|
 
 ## Usage
 

@@ -5,7 +5,7 @@ description: Lists the enum values for NotificationPlatform.
 so.generated: true
 keywords:
   - "database"
-so.date: 21.03.2021
+so.date: 22.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -16,12 +16,14 @@ so.envir:
 
 Device platform. Apple, Google, Microsoft, etc.
 
-* Apple = 0
-* Google = 1
-* Microsoft = 2
-* AppleDeveloper = 3
-* AppleAdHoc = 4
-* GoogleDeveloper = 5
+| Name | Value | Description |
+|------|-------|-------------|
+|Apple|0|Device is by Apple|
+|Google|1|Device is by Google|
+|Microsoft|2|Device is by Microsoft|
+|AppleDeveloper|3|Device is by Apple, used for development and debugging|
+|AppleAdHoc|4|Device is by Apple, used for testing|
+|GoogleDeveloper|5|Device is by Google, used for testing, development and debugging|
 
 ## Usage
 

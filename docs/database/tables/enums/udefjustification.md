@@ -5,7 +5,7 @@ description: Lists the enum values for UdefJustification.
 so.generated: true
 keywords:
   - "database"
-so.date: 21.03.2021
+so.date: 22.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -16,10 +16,12 @@ so.envir:
 
 Justification - 0 = default, left, right, center
 
-* Default = 0
-* Left = 1
-* Center = 2
-* Right = 3
+| Name | Value | Description |
+|------|-------|-------------|
+|Default|0||
+|Left|1||
+|Center|2||
+|Right|3||
 
 ## Usage
 

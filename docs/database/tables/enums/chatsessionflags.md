@@ -5,7 +5,7 @@ description: Lists the enum values for ChatSessionFlags.
 so.generated: true
 keywords:
   - "database"
-so.date: 21.03.2021
+so.date: 22.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -16,8 +16,10 @@ so.envir:
 
 Various flags for the chat session
 
-* CustomerIsTyping = 0
-* UserIsTyping = 1
+| Name | Value | Description |
+|------|-------|-------------|
+|CustomerIsTyping|0|Set if the customer is currently typing a chat message|
+|UserIsTyping|1|Set if the agent is currently typing a chat message|
 
 ## Usage
 

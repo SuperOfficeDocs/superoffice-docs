@@ -5,7 +5,7 @@ description: Lists the enum values for FieldAccess.
 so.generated: true
 keywords:
   - "database"
-so.date: 21.03.2021
+so.date: 22.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -16,9 +16,11 @@ so.envir:
 
 Access restrictions for the field
 
-* Normal = 0
-* Mandatory = 1
-* ReadOnly = 2
+| Name | Value | Description |
+|------|-------|-------------|
+|Normal|0|Normal field, no particular restrictions|
+|Mandatory|1|This field is mandatory.|
+|ReadOnly|2|This field is read-only.|
 
 ## Usage
 

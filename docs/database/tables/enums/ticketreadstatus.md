@@ -5,7 +5,7 @@ description: Lists the enum values for TicketReadStatus.
 so.generated: true
 keywords:
   - "database"
-so.date: 21.03.2021
+so.date: 22.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -16,10 +16,12 @@ so.envir:
 
 Whether the owner has read the ticket or not (red, yellow, green).
 
-* Unknown = 0
-* Green = 1
-* Yellow = 2
-* Red = 3
+| Name | Value | Description |
+|------|-------|-------------|
+|Unknown|0|Unknown status|
+|Green|1|The ticket has been read by the owner|
+|Yellow|2|The ticket has received new information since last read|
+|Red|3|The ticket is unread by the owner|
 
 ## Usage
 

@@ -5,7 +5,7 @@ description: Lists the enum values for FreeBusy.
 so.generated: true
 keywords:
   - "database"
-so.date: 21.03.2021
+so.date: 22.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -16,8 +16,10 @@ so.envir:
 
 Default value for Free/Busy indicator
 
-* Busy = 0
-* Free = 1
+| Name | Value | Description |
+|------|-------|-------------|
+|Busy|0||
+|Free|1||
 
 ## Usage
 

@@ -5,7 +5,7 @@ description: Lists the enum values for EmailType.
 so.generated: true
 keywords:
   - "database"
-so.date: 21.03.2021
+so.date: 22.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -16,9 +16,11 @@ so.envir:
 
 0 = email, 1 = chat/instant msg, 2 = voip; see protocol field for more info
 
-* Email = 0
-* Chat = 1
-* VoiP = 2
+| Name | Value | Description |
+|------|-------|-------------|
+|Email|0|This is a conventional email|
+|Chat|1|This is a chat channel address|
+|VoiP|2|This is a voip (such as skype) channel address|
 
 ## Usage
 

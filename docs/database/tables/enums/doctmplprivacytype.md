@@ -5,7 +5,7 @@ description: Lists the enum values for DocTmplPrivacyType.
 so.generated: true
 keywords:
   - "database"
-so.date: 21.03.2021
+so.date: 22.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -16,8 +16,10 @@ so.envir:
 
 Indicator that this document template has a functional role, related to privacy/GDPR
 
-* None = 0
-* PersonRegistered = 1
+| Name | Value | Description |
+|------|-------|-------------|
+|None|0|This document template is in no way related to GDPR|
+|PersonRegistered|1|This is a template for the 'you have been added to our system' kind of email; must be an .html email template|
 
 ## Usage
 

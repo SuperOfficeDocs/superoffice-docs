@@ -5,7 +5,7 @@ description: Lists the enum values for SaleDone.
 so.generated: true
 keywords:
   - "database"
-so.date: 21.03.2021
+so.date: 22.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -16,9 +16,11 @@ so.envir:
 
 Done (0=don&apos;t know, 1 = No, 2=Yes)
 
-* Unknown = 0
-* NotDone = 1
-* Done = 2
+| Name | Value | Description |
+|------|-------|-------------|
+|Unknown|0|Sale Done/Not done state is unknown|
+|NotDone|1|Sale is not done|
+|Done|2|Sale is done|
 
 ## Usage
 

@@ -5,7 +5,7 @@ description: Lists the enum values for RecurrencePattern.
 so.generated: true
 keywords:
   - "database"
-so.date: 21.03.2021
+so.date: 22.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -16,12 +16,14 @@ so.envir:
 
 Recurrence pattern (daily, weekly etc)
 
-* Unknown = 0
-* Daily = 1
-* Weekly = 2
-* Monthly = 3
-* Yearly = 4
-* Custom = 5
+| Name | Value | Description |
+|------|-------|-------------|
+|Unknown|0|0: Unknown/undecided type|
+|Daily|1|Dayly recurrence.|
+|Weekly|2|Weekly recurrence.|
+|Monthly|3|Monthly recurrence.|
+|Yearly|4|Yearly recurrence.|
+|Custom|5|Custom recurrence, only dates are specified.  See RecurrenceDayPattern for details|
 
 ## Usage
 

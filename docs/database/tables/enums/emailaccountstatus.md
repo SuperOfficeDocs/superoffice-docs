@@ -5,7 +5,7 @@ description: Lists the enum values for EmailAccountStatus.
 so.generated: true
 keywords:
   - "database"
-so.date: 21.03.2021
+so.date: 22.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -16,11 +16,13 @@ so.envir:
 
 The status of this email account
 
-* Unknown = 0
-* Deleted = 1
-* Failing = 2
-* Failed = 3
-* Ok = 4
+| Name | Value | Description |
+|------|-------|-------------|
+|Unknown|0|Unknown status|
+|Deleted|1|Account is deleted|
+|Failing|2|Account is failing|
+|Failed|3|Account has failed|
+|Ok|4|Account is OK|
 
 ## Usage
 

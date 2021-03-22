@@ -5,7 +5,7 @@ description: Lists the enum values for TicketMessageCategory.
 so.generated: true
 keywords:
   - "database"
-so.date: 21.03.2021
+so.date: 22.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -16,9 +16,11 @@ so.envir:
 
 Defines what kind of message this is.
 
-* Message = 0
-* Bounce = 1
-* OutboxFailed = 2
+| Name | Value | Description |
+|------|-------|-------------|
+|Message|0|A normal message|
+|Bounce|1|Email bounce|
+|OutboxFailed|2|This message is the error message returned by the sending system (for example a mail server)|
 
 ## Usage
 

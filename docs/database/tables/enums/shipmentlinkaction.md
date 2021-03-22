@@ -5,7 +5,7 @@ description: Lists the enum values for ShipmentLinkAction.
 so.generated: true
 keywords:
   - "database"
-so.date: 21.03.2021
+so.date: 22.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -16,20 +16,22 @@ so.envir:
 
 Bitmask defining what action should be taken
 
-* None = 0
-* SetPersonInterest = 1
-* RemovePersonInterest = 2
-* SetContactInterest = 4
-* RemoveContactInterest = 8
-* AddToSmSelection = 16
-* RemoveFromSmSelection = 32
-* AddToSmProject = 64
-* RemoveFromSmProject = 128
-* AddTask = 256
-* AddRequest = 512
-* AddToCsSelection = 1024
-* RemoveFromCsSelection = 2048
-* ExecuteScript = 4096
+| Name | Value | Description |
+|------|-------|-------------|
+|None|0|No action|
+|SetPersonInterest|1|Set an interest on the recipient-who-is-a-person|
+|RemovePersonInterest|2|Remove an interest from the recipient-who-is-a-person|
+|SetContactInterest|4|Set an interest on the recipient-who-is-a-contact|
+|RemoveContactInterest|8|Remove an interest from the recipient-who-is-a-contact|
+|AddToSmSelection|16|Add person id of recipient to a static S&M selection|
+|RemoveFromSmSelection|32|Remove person id of recipient from a static S&M selection|
+|AddToSmProject|64|Add person id of recipient as a member of an S&M project|
+|RemoveFromSmProject|128|Remove person id of recipient as a member of an S&M project|
+|AddTask|256|Add a task in an S&M diary|
+|AddRequest|512|Add a request (ticket) in CS|
+|AddToCsSelection|1024|Add person to a Customer Support selection|
+|RemoveFromCsSelection|2048|Remove person from a Customer Service selection|
+|ExecuteScript|4096|Execute an ejScript|
 
 ## Usage
 

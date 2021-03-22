@@ -5,7 +5,7 @@ description: Lists the enum values for CriterionLinkType.
 so.generated: true
 keywords:
   - "database"
-so.date: 21.03.2021
+so.date: 22.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -16,6 +16,8 @@ so.envir:
 
 Link type, AND or OR
 
+| Name | Value | Description |
+|------|-------|-------------|
 
 ## Usage
 

@@ -5,7 +5,7 @@ description: Lists the enum values for ChatStatus.
 so.generated: true
 keywords:
   - "database"
-so.date: 21.03.2021
+so.date: 22.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -16,8 +16,10 @@ so.envir:
 
 Various chat statuses for an agent
 
-* NotPresent = 0
-* Present = 1
+| Name | Value | Description |
+|------|-------|-------------|
+|NotPresent|0|The user is marked as not present|
+|Present|1|The user is marked as present|
 
 ## Usage
 

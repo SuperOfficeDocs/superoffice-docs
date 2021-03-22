@@ -5,7 +5,7 @@ description: Lists the enum values for QuoteStatus.
 so.generated: true
 keywords:
   - "database"
-so.date: 21.03.2021
+so.date: 22.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -16,10 +16,12 @@ so.envir:
 
 If there was a problem with for instance calculation, this field is set to warning or error.
 
-* Ok = 0
-* OkWithInfo = 1
-* Warning = 2
-* Error = 3
+| Name | Value | Description |
+|------|-------|-------------|
+|Ok|0|OK, all is good|
+|OkWithInfo|1|All is good, but there is some additional information that the user should be made aware of.|
+|Warning|2|There is a problem that the user must be made aware of.|
+|Error|3|There is a problem that the system will not be able to get around. The user needs to do something. Example: The user has registered a quoteline that is discountinued and the amount the user has registered is not in stock.|
 
 ## Usage
 

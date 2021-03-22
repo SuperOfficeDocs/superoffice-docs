@@ -5,7 +5,7 @@ description: Lists the enum values for Navigation.
 so.generated: true
 keywords:
   - "database"
-so.date: 21.03.2021
+so.date: 22.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -16,77 +16,79 @@ so.envir:
 
 0=from menu, 1 = from Navigator(integration), 2 = From navigator
 
-* Invisible = 0
-* ToolboxMenu = 1
-* NavigatorButton = 2
-* ViewMenu = 3
-* SelectionTaskCard = 4
-* ContactCard = 5
-* ContactArchive = 6
-* ProjectCard = 7
-* ProjectArchive = 8
-* SaleCard = 9
-* PersonCard = 10
-* ActivityDialog = 11
-* DocumentDialog = 12
-* BrowserPanel = 13
-* ContSelectionTask = 14
-* AppntSelectionTask = 15
-* SaleSelectionTask = 16
-* DocSelectionTask = 17
-* ProjSelectionTask = 18
-* CompanyMinicard = 19
-* ProjectMinicard = 20
-* DiaryMinicard = 21
-* SelectionMinicard = 22
-* ButtonPanelTask = 23
-* AppointmentDialogTask = 24
-* SaleDialogTask = 25
-* DocumentDialogTask = 26
-* PersonDialogTask = 27
-* SaleMinicard = 28
-* SaleArchive = 29
-* AppntSelectionShadowTask = 30
-* SaleSelectionShadowTask = 31
-* DocSelectionShadowTask = 32
-* ProjSelectionShadowTask = 33
-* DiaryArchive = 34
-* SelectionContactArchive = 35
-* SelectionProjectArchive = 36
-* SelectionSaleArchive = 37
-* SelectionAppointmentArchive = 38
-* SelectionDocumentArchive = 39
-* ContSelectionCustomTask = 40
-* AppntSelectionCustomTask = 41
-* SaleSelectionCustomTask = 42
-* DocSelectionCustomTask = 43
-* ProjSelectionCustomTask = 44
-* CustomArchiveMiniCard = 45
-* SelectionCard = 46
-* ReportMinicard = 47
-* QuoteDialog = 48
-* QuoteDialogTask = 49
-* QuoteDialogArchive = 50
-* QuoteLineDialogTask = 51
-* QuoteLineDialog = 52
-* QuoteLineSelectionMainTask = 53
-* QuoteLineSelectionShadowTask = 54
-* SelectionQuoteLineArchive = 55
-* QuoteLineSelectionCustomTask = 56
-* FindSystem = 57
-* MailingSelectionTask = 58
-* ContactSelectionMailingsTask = 59
-* AppointmentSelectionMailingsTask = 60
-* SaleSelectionMailingsTask = 61
-* DocumentSelectionMailingsTask = 62
-* ProjectSelectionMailingsTask = 63
-* QuoteLineSelectionMailingsTask = 64
-* TopPanelNewMenu = 65
-* Dashboard = 66
-* PersonArchive = 67
-* PersonMinicard = 68
-* CompanyCardTask = 69
-* ProjectCardTask = 70
+| Name | Value | Description |
+|------|-------|-------------|
+|Invisible|0|This application has no explicit navigation in GUI|
+|ToolboxMenu|1|This application appears in the list of the Toolbox icon in the CRM5 Navigator sidebar|
+|NavigatorButton|2|This application has its own navigator button (remember to set icon resource)|
+|ViewMenu|3|This application appears in the View pulldown menu|
+|SelectionTaskCard|4|(not yet implemented) This application appears as a Task in the Selection Task card|
+|ContactCard|5|This application (type IntegratedHTML or IntegratedURL) appears as a tab on the Contact card|
+|ContactArchive|6|This application (type IntegratedHTML or IntegratedURL)  appears as a tab on the Contact Archive|
+|ProjectCard|7|This application (type IntegratedHTML or IntegratedURL)  appears as a tab on the Project card|
+|ProjectArchive|8|This application (type IntegratedHTML or IntegratedURL)  appears as a tab on the Project Archive|
+|SaleCard|9|This application (type IntegratedHTML or IntegratedURL)  appears as a tab in the Sale dialog|
+|PersonCard|10|This application (type IntegratedHTML or IntegratedURL)  appears as a tab in the Person Card|
+|ActivityDialog|11|This application (type IntegratedHTML or IntegratedURL)  appears as a tab in the Appointment dialog|
+|DocumentDialog|12|This application (type IntegratedHTML or IntegratedURL)  appears as a tab in the Document dialog|
+|BrowserPanel|13|In the Browser panel|
+|ContSelectionTask|14|Task button visible on the Contact Selection task panel|
+|AppntSelectionTask|15|Task button visible on the Appointment Selection task panel|
+|SaleSelectionTask|16|Task button visible on the Sale Selection task panel|
+|DocSelectionTask|17|Task button visible on the Document Selection task panel|
+|ProjSelectionTask|18|Task button visible on the Project Selection task panel|
+|CompanyMinicard|19|In company minicard|
+|ProjectMinicard|20|In project minicard|
+|DiaryMinicard|21|In diary minicard|
+|SelectionMinicard|22|In selection minicard|
+|ButtonPanelTask|23|In the main ButtonBar|
+|AppointmentDialogTask|24|In the appointment dialog|
+|SaleDialogTask|25|In the sale dialog|
+|DocumentDialogTask|26|In the document dialog|
+|PersonDialogTask|27|In the person dialog|
+|SaleMinicard|28|In the sale minicard|
+|SaleArchive|29|In the sale archive|
+|AppntSelectionShadowTask|30|Task tab for appointment selection, while showing shadow sel|
+|SaleSelectionShadowTask|31|Task tab for sale selection, while showing shadow sel|
+|DocSelectionShadowTask|32|Task tab for document selection, while showing shadow sel|
+|ProjSelectionShadowTask|33|Task tab for project selection, while showing shadow sel|
+|DiaryArchive|34|Context (popup) menu in Diary archive|
+|SelectionContactArchive|35|Context (popup) menu in Contact selection|
+|SelectionProjectArchive|36|Context (popup) menu in Project archive|
+|SelectionSaleArchive|37|Context (popup) menu in Sale archive|
+|SelectionAppointmentArchive|38|Context (popup) menu in Appointment archive|
+|SelectionDocumentArchive|39|Context (popup) menu in Document archive|
+|ContSelectionCustomTask|40|Task card in Contact selection, when a custom archive is shown|
+|AppntSelectionCustomTask|41|Task card in Appointment selection, when a custom archive is shown|
+|SaleSelectionCustomTask|42|Task card in Sale selection, when a custom archive is shown|
+|DocSelectionCustomTask|43|Task card in Document selection, when a custom archive is shown|
+|ProjSelectionCustomTask|44|Task card in Project selection, when a custom archive is shown|
+|CustomArchiveMiniCard|45|?|
+|SelectionCard|46|?|
+|ReportMinicard|47|In the Reporter panel minicard, so far only in Web|
+|QuoteDialog|48||
+|QuoteDialogTask|49||
+|QuoteDialogArchive|50||
+|QuoteLineDialogTask|51||
+|QuoteLineDialog|52||
+|QuoteLineSelectionMainTask|53||
+|QuoteLineSelectionShadowTask|54||
+|SelectionQuoteLineArchive|55||
+|QuoteLineSelectionCustomTask|56||
+|FindSystem|57||
+|MailingSelectionTask|58|Task button visible on the Mailing Selection task panel|
+|ContactSelectionMailingsTask|59|Task button visible on the Mailing Selection task panel|
+|AppointmentSelectionMailingsTask|60|Task button visible on the Mailing Selection task panel|
+|SaleSelectionMailingsTask|61|Task button visible on the Mailing Selection task panel|
+|DocumentSelectionMailingsTask|62|Task button visible on the Mailing Selection task panel|
+|ProjectSelectionMailingsTask|63|Task button visible on the Mailing Selection task panel|
+|QuoteLineSelectionMailingsTask|64|Task button visible on the Mailing Selection task panel|
+|TopPanelNewMenu|65|Visible in top panels new menu|
+|Dashboard|66|Dashboard panel|
+|PersonArchive|67|This application (type IntegratedHTML or IntegratedURL)  appears as a tab in the Person Archive|
+|PersonMinicard|68|In the person minicard|
+|CompanyCardTask|69|In the company card, task button|
+|ProjectCardTask|70|In the project card, task button|
 
 ## Usage
 

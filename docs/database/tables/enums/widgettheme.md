@@ -5,7 +5,7 @@ description: Lists the enum values for WidgetTheme.
 so.generated: true
 keywords:
   - "database"
-so.date: 21.03.2021
+so.date: 22.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -16,8 +16,10 @@ so.envir:
 
 Predefined themes for the chat widget
 
-* Classic = 0
-* Modern = 1
+| Name | Value | Description |
+|------|-------|-------------|
+|Classic|0|Set widget theme to classic|
+|Modern|1|Set widget theme to modern|
 
 ## Usage
 

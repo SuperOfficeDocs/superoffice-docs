@@ -5,7 +5,7 @@ description: Lists the enum values for ShipmentLinkType.
 so.generated: true
 keywords:
   - "database"
-so.date: 21.03.2021
+so.date: 22.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -16,9 +16,11 @@ so.envir:
 
 If this is a link to a link or an image (gif/jpeg). See SpmLink::LinkType
 
-* Unknown = 0
-* Link = 1
-* Image = 2
+| Name | Value | Description |
+|------|-------|-------------|
+|Unknown|0|Unknown - should not be used.|
+|Link|1|Clicked a link in the shipment|
+|Image|2|Viewed an image in the shipment|
 
 ## Usage
 

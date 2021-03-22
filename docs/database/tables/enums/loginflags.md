@@ -5,7 +5,7 @@ description: Lists the enum values for LoginFlags.
 so.generated: true
 keywords:
   - "database"
-so.date: 21.03.2021
+so.date: 22.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -16,7 +16,9 @@ so.envir:
 
 Bitmask of flags for a service login session
 
-* HideIEWarning = 1
+| Name | Value | Description |
+|------|-------|-------------|
+|HideIEWarning|1|Hide warning about Internet Explorer being deprecated|
 
 ## Usage
 

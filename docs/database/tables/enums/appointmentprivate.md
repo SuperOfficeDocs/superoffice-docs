@@ -5,7 +5,7 @@ description: Lists the enum values for AppointmentPrivate.
 so.generated: true
 keywords:
   - "database"
-so.date: 21.03.2021
+so.date: 22.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -16,9 +16,11 @@ so.envir:
 
 Obsolete, but still maintained field for appointment privacy; denormalization of visiblefor status
 
-* Public = 0
-* PrivateUser = 1
-* PrivateGroup = 2
+| Name | Value | Description |
+|------|-------|-------------|
+|Public|0|This appointment can be read by anyone|
+|PrivateUser|1|This appointment can only be read/seen by the owner|
+|PrivateGroup|2|This appointment can only be read by members of the owners group|
 
 ## Usage
 

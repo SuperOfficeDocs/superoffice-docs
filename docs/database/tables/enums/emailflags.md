@@ -5,7 +5,7 @@ description: Lists the enum values for EMailFlags.
 so.generated: true
 keywords:
   - "database"
-so.date: 21.03.2021
+so.date: 22.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -16,13 +16,15 @@ so.envir:
 
 Email flags - answered, deleted, seen, flagged, draft, recent...
 
-* None = 0
-* Seen = 1
-* Deleted = 2
-* Recent = 4
-* Flagged = 8
-* Draft = 16
-* Answered = 32
+| Name | Value | Description |
+|------|-------|-------------|
+|None|0|0: No flags set|
+|Seen|1|1: Mail has been read|
+|Deleted|2|2: Mail has been deleted|
+|Recent|4|4: Mail is recent|
+|Flagged|8|8: Mail is flagged in the GUI|
+|Draft|16|16: Mail is an unsent draft|
+|Answered|32|32: Mail has been replied to at least once|
 
 ## Usage
 

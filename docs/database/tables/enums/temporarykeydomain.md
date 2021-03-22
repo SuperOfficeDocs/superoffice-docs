@@ -5,7 +5,7 @@ description: Lists the enum values for TemporaryKeyDomain.
 so.generated: true
 keywords:
   - "database"
-so.date: 21.03.2021
+so.date: 22.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -16,13 +16,15 @@ so.envir:
 
 The domain this is a key for
 
-* Unknown = 0
-* MailingRecipient = 1
-* FormSubmitterRecipient = 2
-* ViewTicketInCustomerCenter = 3
-* LoginCustomerCenter = 4
-* PublicFaq = 5
-* ChangePasswordCustomerCenter = 6
+| Name | Value | Description |
+|------|-------|-------------|
+|Unknown|0|Unknown|
+|MailingRecipient|1|Mailing recipient.|
+|FormSubmitterRecipient|2|Form submission recipient|
+|ViewTicketInCustomerCenter|3|View request in customer center|
+|LoginCustomerCenter|4|Customer center login key|
+|PublicFaq|5|Customer center public faq key|
+|ChangePasswordCustomerCenter|6|Customer center change password key|
 
 ## Usage
 

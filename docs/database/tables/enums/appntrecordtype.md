@@ -5,7 +5,7 @@ description: Lists the enum values for AppntRecordType.
 so.generated: true
 keywords:
   - "database"
-so.date: 21.03.2021
+so.date: 22.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -16,6 +16,8 @@ so.envir:
 
 Same as task.record_type: 1 = app, 2 = doc, 3 = email, 4 = fax, 5 = phone, 6 = todo - see EAppntRecordTypes
 
+| Name | Value | Description |
+|------|-------|-------------|
 
 ## Usage
 

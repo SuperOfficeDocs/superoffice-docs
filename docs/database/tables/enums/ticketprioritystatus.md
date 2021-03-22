@@ -5,7 +5,7 @@ description: Lists the enum values for TicketPriorityStatus.
 so.generated: true
 keywords:
   - "database"
-so.date: 21.03.2021
+so.date: 22.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -16,9 +16,11 @@ so.envir:
 
 The status (normal/deleted) of the priority.
 
-* Unknown = 0
-* Normal = 1
-* Deleted = 2
+| Name | Value | Description |
+|------|-------|-------------|
+|Unknown|0|The status is unknown, should normally not occure in the database|
+|Normal|1|The status is normal|
+|Deleted|2|The status is marked as deleted|
 
 ## Usage
 

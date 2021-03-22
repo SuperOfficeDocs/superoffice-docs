@@ -5,7 +5,7 @@ description: Lists the enum values for ServiceAuthStatus.
 so.generated: true
 keywords:
   - "database"
-so.date: 21.03.2021
+so.date: 22.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -16,9 +16,11 @@ so.envir:
 
 The status of this authentication entry
 
-* Unknown = 0
-* Initialized = 1
-* Error = 2
+| Name | Value | Description |
+|------|-------|-------------|
+|Unknown|0|Unknown status|
+|Initialized|1|Initialized|
+|Error|2|Error|
 
 ## Usage
 

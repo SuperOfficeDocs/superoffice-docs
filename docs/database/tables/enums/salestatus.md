@@ -5,7 +5,7 @@ description: Lists the enum values for SaleStatus.
 so.generated: true
 keywords:
   - "database"
-so.date: 21.03.2021
+so.date: 22.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -16,12 +16,14 @@ so.envir:
 
 Status (open, closed, lost)
 
-* Unknown = 0
-* Open = 1
-* Sold = 2
-* Lost = 3
-* Stalled = 4
-* SaintAll = 1000
+| Name | Value | Description |
+|------|-------|-------------|
+|Unknown|0|Sale status is unknown|
+|Open|1|Sale is open|
+|Sold|2|Sale has been sold (green $ in GUI)|
+|Lost|3|Sale has been lost (red $ in GUI)|
+|Stalled|4|Sale has been stalled, or "parked", awaiting further developments|
+|SaintAll|1000|All' choice for Saint. This is NOT an acceptable value for a sale, but is used by the Saint system for indexing all sales|
 
 ## Usage
 

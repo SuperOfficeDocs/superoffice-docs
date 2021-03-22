@@ -5,7 +5,7 @@ description: Lists the enum values for ExecuteOnEvent.
 so.generated: true
 keywords:
   - "database"
-so.date: 21.03.2021
+so.date: 22.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -16,11 +16,13 @@ so.envir:
 
 Events that cause automatic execution of this app
 
-* Never = 0
-* Logon = 1
-* Logoff = 2
-* LocalUpdate = 3
-* Wait = 16384
+| Name | Value | Description |
+|------|-------|-------------|
+|Never|0|This application is never executed automatically|
+|Logon|1|Execute this application during logon|
+|Logoff|2|Execute this application before logoff|
+|LocalUpdate|3|Execute this application before a local update (start travelling)|
+|Wait|16384|When executing this application, wait for it to start|
 
 ## Usage
 

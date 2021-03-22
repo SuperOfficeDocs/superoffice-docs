@@ -5,7 +5,7 @@ description: Lists the enum values for ValueOverride.
 so.generated: true
 keywords:
   - "database"
-so.date: 21.03.2021
+so.date: 22.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -16,12 +16,14 @@ so.envir:
 
 Has the pre-calculated (from ERP) price information been overridden, and how. If the user has filled out the discountpercentage field, then the UserValueOverride field is set to OverridePercent. (The DiscountAmount, EarningPercent, EarningAmount and TotalPrice fields are calculated based on the DiscountPercent.)
 
-* None = 0
-* Total = 1
-* DiscountPercent = 2
-* DiscountAmount = 3
-* EarningPercent = 4
-* EarningAmount = 5
+| Name | Value | Description |
+|------|-------|-------------|
+|None|0|Discount data is from the ERP system and has not been overridden|
+|Total|1|The Total amount has been overridden; all other fields should be recalculated|
+|DiscountPercent|2|The discount percentage has been overriden; all other fields should be recalculated|
+|DiscountAmount|3|The discount amount has been overridden; all other fields should be recalculated|
+|EarningPercent|4|The earning percent has been overridden; all other fields should be recalculated|
+|EarningAmount|5|The earning amount has been overridden; all other fields should be recalculated|
 
 ## Usage
 

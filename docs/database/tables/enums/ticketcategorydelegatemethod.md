@@ -5,7 +5,7 @@ description: Lists the enum values for TicketCategoryDelegateMethod.
 so.generated: true
 keywords:
   - "database"
-so.date: 21.03.2021
+so.date: 22.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -16,11 +16,13 @@ so.envir:
 
 An integer indicating the delegation method for this category.
 
-* Unknown = 0
-* Even = 1
-* Weighted = 2
-* Unfair = 3
-* Not = 4
+| Name | Value | Description |
+|------|-------|-------------|
+|Unknown|0|The delegate method is unknown, should normally not occure in the database|
+|Even|1|Delegate request even among the members of the category|
+|Weighted|2|Use weights on each member of the category when delegating requests|
+|Unfair|3|The user with the least active request will be delegated the request|
+|Not|4|Do not delegate request. Instead set them as unassigned|
 
 ## Usage
 

@@ -5,7 +5,7 @@ description: Lists the enum values for ShipmentLinkTaskFlags.
 so.generated: true
 keywords:
   - "database"
-so.date: 21.03.2021
+so.date: 22.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -16,10 +16,12 @@ so.envir:
 
 Flags that control how the task is created
 
-* None = 0
-* AssignToOurContact = 1
-* UseNextAvailableTime = 2
-* IsAssignment = 4
+| Name | Value | Description |
+|------|-------|-------------|
+|None|0|No special options, values taken from other fields|
+|AssignToOurContact|1|Assign task to contact owner|
+|UseNextAvailableTime|2|Use the soonest-available working time slot (after the task-creation evcent is triggered)|
+|IsAssignment|4|Create as an assignment (shown in Invitation dialog)|
 
 ## Usage
 

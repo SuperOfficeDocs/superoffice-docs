@@ -5,7 +5,7 @@ description: Lists the enum values for TtlFlags.
 so.generated: true
 keywords:
   - "database"
-so.date: 21.03.2021
+so.date: 22.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -16,9 +16,11 @@ so.envir:
 
 Extra information about the operation, as a bit-masked field
 
-* None = 0
-* Imported = 1
-* MassOperation = 2
+| Name | Value | Description |
+|------|-------|-------------|
+|None|0|No extra information.|
+|Imported|1|The data change was caused by an Import operation.|
+|MassOperation|2|The data change was done by a Mass Operation.|
 
 ## Usage
 

@@ -5,7 +5,7 @@ description: Lists the enum values for CriteriaGroupDirection.
 so.generated: true
 keywords:
   - "database"
-so.date: 21.03.2021
+so.date: 22.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -16,6 +16,8 @@ so.envir:
 
 0 = Add, 1 = Subtract this group from the total result
 
+| Name | Value | Description |
+|------|-------|-------------|
 
 ## Usage
 

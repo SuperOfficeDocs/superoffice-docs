@@ -5,7 +5,7 @@ description: Lists the enum values for LicenseType.
 so.generated: true
 keywords:
   - "database"
-so.date: 21.03.2021
+so.date: 22.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -16,10 +16,12 @@ so.envir:
 
 Entire system, per database, or per associate
 
-* Unknown = 0
-* SiteLicense = 1
-* SatelliteLicense = 2
-* UserLicense = 3
+| Name | Value | Description |
+|------|-------|-------------|
+|Unknown|0||
+|SiteLicense|1||
+|SatelliteLicense|2||
+|UserLicense|3||
 
 ## Usage
 

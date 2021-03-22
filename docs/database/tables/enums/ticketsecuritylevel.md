@@ -5,7 +5,7 @@ description: Lists the enum values for TicketSecurityLevel.
 so.generated: true
 keywords:
   - "database"
-so.date: 21.03.2021
+so.date: 22.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -16,9 +16,11 @@ so.envir:
 
 The securitylevel of the ticket.
 
-* Unknown = 0
-* Internal = 1
-* External = 2
+| Name | Value | Description |
+|------|-------|-------------|
+|Unknown|0|Unknown level|
+|Internal|1|Internal tickets will not be shown on the Customer Centre|
+|External|2|External tickets will be shown on the Customer Centre|
 
 ## Usage
 

@@ -5,7 +5,7 @@ description: Lists the enum values for BlobLinkType.
 so.generated: true
 keywords:
   - "database"
-so.date: 21.03.2021
+so.date: 22.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -16,23 +16,25 @@ so.envir:
 
 The link type
 
-* PersonImage = 1
-* ProjectImage = 2
-* EventImage = 3
-* Thumbnail = 4
-* StatusMonitorImage = 5
-* BatchTask = 6
-* ProductImage = 7
-* ProductThumbnail = 8
-* QuoteLineImage = 9
-* QuoteLineThumbnail = 10
-* AccessToken = 11
-* RefreshToken = 12
-* Dashboard = 13
-* DashboardTile = 14
-* ChatTopicImage = 15
-* FormsBackgroundImage = 16
-* ContactImage = 17
+| Name | Value | Description |
+|------|-------|-------------|
+|PersonImage|1|Portrait picture of a person|
+|ProjectImage|2|Picture bound to a project|
+|EventImage|3|Picture used for a project of type Event, in the Audience client|
+|Thumbnail|4|Generic thumbnail - not used?|
+|StatusMonitorImage|5|Watermark image for a Status Monitor in Sales Intelligence|
+|BatchTask|6|Information related to a BatchTask in NetServer|
+|ProductImage|7|Image (possibly more than one, differentiated by rank) of a Product; exactly one row should have rank=1|
+|ProductThumbnail|8|Thumbnail image for a product, only one allowed per product|
+|QuoteLineImage|9|Image (possibly more than one, differentiated by rank) of a Product image for a quote line, only one allowed per quote line|
+|QuoteLineThumbnail|10|Thumbnail image for a quote line, only one allowed per quote line|
+|AccessToken|11|Access Token used by Cloud Documents for accessing external services|
+|RefreshToken|12|Refresh Token used by Cloud Documents for accessing external services|
+|Dashboard|13|Dashboard|
+|DashboardTile|14|Dashboard tile|
+|ChatTopicImage|15|Chat topic image|
+|FormsBackgroundImage|16|Forms background image|
+|ContactImage|17|Contact logo image|
 
 ## Usage
 

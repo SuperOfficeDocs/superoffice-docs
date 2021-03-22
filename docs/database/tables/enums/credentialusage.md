@@ -5,7 +5,7 @@ description: Lists the enum values for CredentialUsage.
 so.generated: true
 keywords:
   - "database"
-so.date: 21.03.2021
+so.date: 22.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -16,9 +16,11 @@ so.envir:
 
 What kind of usage are these credentials for; see enum CredentialUsage for details
 
-* Outbound = 0
-* Inbound = 1
-* Session = 2
+| Name | Value | Description |
+|------|-------|-------------|
+|Outbound|0|Credentials saved on behalf of an external system, not for authentication into NetServer|
+|Inbound|1|Credentials to be used for authentication into NetServer, by a related plugin|
+|Session|2|Session ticket, for re-authentication of an existing session (automatically purged at first full authentication after validity expiration)|
 
 ## Usage
 

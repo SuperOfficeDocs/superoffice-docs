@@ -5,7 +5,7 @@ description: Lists the enum values for TicketPriorityEscalateEvent.
 so.generated: true
 keywords:
   - "database"
-so.date: 21.03.2021
+so.date: 22.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -16,10 +16,12 @@ so.envir:
 
 This field indicates what to do with the escalation chain when a new request is registered
 
-* None = -1
-* Stop = 0
-* Continue = 1
-* Restart = 2
+| Name | Value | Description |
+|------|-------|-------------|
+|None|-1|No esclate event set|
+|Stop|0|This event will stop the escalation chain|
+|Continue|1|Continue the escalation event from where it was previously stopped|
+|Restart|2|Start the escalation chain over from the beginning|
 
 ## Usage
 

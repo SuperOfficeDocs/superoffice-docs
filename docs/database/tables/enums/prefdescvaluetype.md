@@ -5,7 +5,7 @@ description: Lists the enum values for PrefDescValueType.
 so.generated: true
 keywords:
   - "database"
-so.date: 21.03.2021
+so.date: 22.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -16,22 +16,24 @@ so.envir:
 
 1=number, 2=text, 3=bool, 4=list of values; 5=list table ref; 6=contact ID, 7=Person ID, 8=Project ID, 9=Selection ID
 
-* Unknown = 0
-* Number = 1
-* Text = 2
-* Bool = 3
-* ListOfValues = 4
-* ListTableRef = 5
-* TimeList = 6
-* ContactID = 7
-* PersonID = 8
-* ProjectID = 9
-* SelectionID = 10
-* PosSize = 11
-* TimeZone = 12
-* Time = 13
-* Password = 14
-* MultiLineText = 15
+| Name | Value | Description |
+|------|-------|-------------|
+|Unknown|0|Unknown - used when initializing|
+|Number|1|Preference value is a number|
+|Text|2|Preference value is a text (max len 99 characters)|
+|Bool|3|Preference value is Boolean|
+|ListOfValues|4|Preference value is a list of separate value|
+|ListTableRef|5|Preference value is a record ID in the given MDO list table; maxValue contains the tablenumberø|
+|TimeList|6|Preference value is a time, value is seconds since midnight (28800 = 08:00)|
+|ContactID|7|Preference value is a contact ID|
+|PersonID|8|Preference value is a person ID|
+|ProjectID|9|Preference value is a project ID|
+|SelectionID|10|Preference value is a selection ID|
+|PosSize|11|Obsolete: Windows position and size|
+|TimeZone|12|TimeZone location|
+|Time|13|Time, preference value is 13:45:50|
+|Password|14|Password, stored as plain text but shown with dots|
+|MultiLineText|15|Multi-line text that preserves line breaks|
 
 ## Usage
 
