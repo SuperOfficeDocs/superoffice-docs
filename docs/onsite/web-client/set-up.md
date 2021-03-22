@@ -28,8 +28,6 @@ The server where you install SuperOffice Web needs to have an internet connectio
 * Prepare the [web server][5].
 * Have an IIS website where you want to install SuperOffice. If you do not have the site set up, using the [Service installer][6] will create it for you.
 
-[!include[download](../../includes/download-sw.md)]
-
 ## Install
 
 **Download the web installer package, extract the contents and run setup.exe.**

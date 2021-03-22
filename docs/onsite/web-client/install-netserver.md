@@ -21,8 +21,6 @@ Netserver is always installed, but for some scenarios, we recommend it is instal
 
 * Download the web installer package
 
-[!include[download](../../includes/download-sw.md)]
-
 ## Install
 
 1. Upon launching the installer, you might be prompted to install some prerequisites, install these by clicking the **Install** button.
