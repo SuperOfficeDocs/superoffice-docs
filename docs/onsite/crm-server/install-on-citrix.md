@@ -1,9 +1,6 @@
 ---
-# This basic template provides core metadata fields for Markdown articles on docs.superoffice.com.
-
-# Mandatory fields.
-title: install_on_citrix       # (Required) Very important for SEO. Intent in a unique string of 43-59 chars including spaces.
-description: Install on Citrix/Terminal server # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
+title: install_on_citrix
+description: Install on Citrix/Terminal server
 author: {github-id}             # Your GitHub alias.
 keywords:
 so.topic: article               # article, howto, reference, concept, guide
@@ -36,7 +33,7 @@ When it comes to the MailLink and Ribbons components, things start to get more c
 
 `HKEY_LOCAL_MACHINE\SOFTWARE\SuperOffice\Mail\Senders\OutlookSender`
 
-The installer writes a COM GUID that point to a COM-registration that resolves to the MailLink components and will make these usable at runtime. This is the first place you might encounter problems.
+The installer writes a COM GUID that points to a COM-registration that resolves to the MailLink components and will make these usable at runtime. This is the first place you might encounter problems.
 
 Since the SuperOffice 7 installer writes everything to the `HKEY_LOCAL_MACHINE`  registry key, we might come into a situation where the search order in SuperOffice will give us problems. SuperOffice can look for settings both in a user context (using the `HKEY_CURRENT_USER`) and in the machine context (`HKEY_LOCAL_MACHINE`).
 
@@ -44,7 +41,7 @@ Since the SuperOffice 7 installer writes everything to the `HKEY_LOCAL_MACHINE` 
 
 This means that if a previous installation of SuperOffice 6.3 was installed, you might experience that SuperOffice will read the wrong COM GUID for the MailLink component and fail to start MailLink.
 
-The first thing to check for if this situation happens, is if there are any settings in the user context (`HKEY_CURRENT_USER\SOFTWARE\SuperOffice\Mail\Senders\OutlookSender`) to resolve which COM Component should be instantiated to start MailLink.
+The first thing to check for if this situation happens is if there are any settings in the user context (`HKEY_CURRENT_USER\SOFTWARE\SuperOffice\Mail\Senders\OutlookSender`) to resolve which COM Component should be instantiated to start MailLink.
 
 If you have previous registrations, you need to write a simple login-script that deletes these settings for every user that logs on to the Citrix/Terminal Server.
 
@@ -83,7 +80,7 @@ In some situations, you can experience that Web Extensions leave a permanent "sh
 
 ![imagepcfj.png][img1]
 
-To stop this happening you have to activate a registry key named **UseBorderedWindows**:
+To stop this from happening you have to activate a registry key named **UseBorderedWindows**:
 
 1. Create a text file named *filename.reg*.
 
@@ -99,7 +96,7 @@ To stop this happening you have to activate a registry key named **UseBorderedWi
 3. Execute this file for every user on the Citrix/Terminal server. You have to log out and back in to let it work.
 
 <!-- Referenced links -->
-[1]: https://community.superoffice.com/en/product-releases/bugs-wishes/product-issue/?bid=58265
+[1]: https://community.superoffice.com/en/product-releases/bugs-wishes/product-issue/?bid=58265 <!-- Moved to ADO 11900 -->
 
 <!-- Referenced links -->
 [img1]: media/imagepcfj.png
