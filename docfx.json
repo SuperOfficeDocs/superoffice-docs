@@ -4,15 +4,14 @@
       {
         "files": [
           "**/*.{md,yml}",
-          "*.{md,yml}" 
+          "*.{md,yml}"
         ],
         "exclude": [
           "samples/**/*.*",
           "**/includes/**",
           "**/util/**",
           "***/contributing.md",
-          "**/tmp/**",
-          "assets/**/*.*"
+          "**/tmp/**"
         ]
       }
     ],
@@ -24,7 +23,9 @@
           "**/*.svg",
           "**/*.jpg",
           "**/*.gif",
-          "**/*.bmp"
+          "**/*.bmp",
+          "**/*.xlsx",
+          "**/*.zip"
         ]
       }
     ],    
