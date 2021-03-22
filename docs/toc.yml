@@ -582,8 +582,12 @@ items:
     - name: Zip on rest
       href: mobile/pocket-crm/zip-on-rest.md
   - name: Superoffice mobile
-    href: mobile/superoffice-mobile/index.md
+    href: mobile/superoffice-mobile/faq.md
     items:
+    - name: Faq
+      href: mobile/superoffice-mobile/faq.md
+    - name: Security
+      href: mobile/superoffice-mobile/security.md
     - name: System requirements
       href: mobile/superoffice-mobile/system-requirements.md
 - name: Online
