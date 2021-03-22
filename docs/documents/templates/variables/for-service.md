@@ -1,12 +1,10 @@
 ---
-# This basic template provides core metadata fields for Markdown articles on docs.superoffice.com
-
-# Mandatory fields.
-title: variables_for_service       # (Required) Very important for SEO. Intent in a unique string of 43-59 chars including spaces.
-description: Variables for SuperOffice Service # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
+title: variables_for_service
+description: Variables for SuperOffice Service
 author: {github-id}             # Your GitHub alias.
 keywords:
 so.topic: reference        # article, howto, reference, concept, guide
+so.date: 03.23.2021
 # Optional fields. Don't forget to remove # if you need a field.
 # so.envir:                     # cloud or onsite
 # so.client:                    # online, web, win, pocket, or mobile
@@ -14,12 +12,25 @@ so.topic: reference        # article, howto, reference, concept, guide
 
 # Variables for SuperOffice Service
 
-| Variable | Description |
-|----------|-------------|
-| csbu | BaseUrl e.g: `http://systemtest.superoffice.com/scripts/ticket.fcgi` |
-| csiu | CgiUrlInternal e.g: `http://systemtest.superoffice.com` |
-| csbn | CgiBin e.g: /scripts |
-| csre | RegistryExtension e.g: .fcgi<br>These are template variables from Service which can be used in Sales & Marketing document templates. Service has also its own [template variables][1] used in reply templates. |
+| Variable | Description | Example |
+|---|---|---|
+| csbl | Base URL | blogic.exe |
+| csbu | Base URL | `http://systemtest.superoffice.com/scripts/ticket.fcgi` |
+| cscu | Base URL | customer.exe |
+| csiu | CgiUrlInternal | `http://systemtest.superoffice.com` |
+| csbn | CgiBin | /scripts |
+| csre | RegistryExtension<br>These are template variables from Service which can be used in Sales & Marketing document templates. Service has also its own [template variables][1] used in reply templates. | .fcgi |
+| csrm | Base URL | ajax.exe |
+| csti | Base URL | ticket.exe |
+
+To get SuperOffice Sales to parse Service variables (for example in a web panel) the variable must be followed by a ? character.
+
+As an example, displaying an image through customer.fcgi, you can format it like this:
+
+`<cscu>?action=getAttachment&id=xxx&key=xxxxxxxxxxx`
+
+> [!NOTE]
+> The "-0" from the end is removed. That actually indicates if the image should be shown in a browser or saved to a disk. Using the above syntax, you can enable saving to disk by appending "&saveToDisk=1" at the end of the URL.
 
 <!-- Referenced links -->
 [1]: ../../../reply-templates/index.md
