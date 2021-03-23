@@ -1,9 +1,6 @@
 ---
-# This basic template provides core metadata fields for Markdown articles on docs.superoffice.com.
-
-# Mandatory fields.
-title: system_templates       # (Required) Very important for SEO. Intent in a unique string of 43-59 chars including spaces.
-description: System reply templates # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
+title: system_templates
+description: System reply templates
 author: {github-id}             # Your GitHub alias.
 keywords:
 so.topic: reference              # article, howto, reference, concept, guide
@@ -15,144 +12,32 @@ so.topic: reference              # article, howto, reference, concept, guide
 
 # System templates
 
-## System templates – Reply template for notification of open requests
+The following table shows which parser variables are available in which reply templates. The standard variables are Message, Company, Customer, Ticket, and Config. Other variables are explained below the main table.
 
-The following parser variables are available:
+| Template | Message | Company | Customer | Ticket | Config | Other |
+|---|:-:|:-:|:-:|:-:|:-:|---|
+| notification of open requests | | x | x | x | x | ticket.lastMessage |
+| notification of new message | x | x | x | x | x | |
+| notification of activated request | | x | x | x | x | |
+| notification of escalated request | | x | x | x | x | |
+| new request notification | x | x | x | x | x | ticket.lastMessage |
+| request reassignment | | x | x | x | x | |
+| notifying a new message in the hotlist | x | x | x | x | x | |
+| notifying an activated request in the hotlist | | x | x | x | x | |
+| escalated request in the hotlist | | x | x | x | x | |
+| notifying reassignment of a request in the hotlist | | x | x | x | x | |
+| new customer contacts | | | x | | x | custPassword<br>from<br>to |
+| autoreply | | x | x | x | x | |
+| sending password to customer contacts | | | x | | x | from<br>to |
+| formatting FAQ questions | | x | x  | x | | faq.question<br>faq.answer |
 
-* Company
-* Customer
-* Ticket
-* Config
+## Other parser variables
 
-In addition you have a parser variable called "ticket.lastMessage" which will contain the last message on the request.
-
-## System template – Reply template for notification of new message
-
-The following parser variables are available:
-
-* Message
-* Company
-* Customer
-* Ticket
-* Config
-
-## System template – Reply template for notification of activated request
-
-The following parser variables are available:
-
-* Company
-* Customer
-* Ticket
-* Config
-
-## System template – Reply template for notification of escalated request
-
-The following parser variables are available:
-
-* Company
-* Customer
-* Ticket
-* Config
-
-## System template – Reply template for new request notification
-
-The following parser variables are available:
-
-* Message
-* Company
-* Customer
-* Ticket
-* Config
-
-In addition you have a parser variable called "ticket.lastMessage" which will contain the last message on the request.
-
-## System template – Reply template for request reassignment
-
-The following parser variables are available:
-
-* Company
-* Customer
-* Ticket
-* Config
-
-## System template – Reply template for notifying a new message in the hotlist
-
-The following parser variables are available:
-
-* Message
-* Company
-* Customer
-* Ticket
-* Config
-
-## System template – Reply template for notifying an activated request in the hotlist
-
-The following parser variables are available:
-
-* Company
-* Customer
-* Ticket
-* Config
-
-## System template – Reply template for notifying an escalated request in the hotlist
-
-The following parser variables are available:
-
-* Company
-* Customer
-* Ticket
-* Config
-
-## System template – Reply template for notifying reassignment of a request in the hotlist
-
-The following parser variables are available:
-
-* Company
-* Customer
-* Ticket
-* Config
-
-## System template – Reply template for new customer contacts
-
-The following parser variables are available:
-
-* Customer
-* Config
-
-The parser variable "custPassword" will contain the unencrypted version of the password only if this customer was generated at the same time as the "new customer" email was sent and encryption is turned on.
-
-"from" contains the sender email address
-
-"to" contains the recipient address
-
-## System template – Reply template for autoreply
-
-The following parser variables are available:
-
-* Company
-* Customer
-* Ticket
-* Config
-
-## System template – Reply template for sending password to customer contacts
-
-The following parser variables are available:
-
-* Customer
-* Config
-
-"to" contains the recipient email address
-
-"from" contains the sender email address
-
-## System template – Reply template for formatting FAQ questions
-
-The following parser variables are available:
-
-* Company
-* Customer
-* Ticket
-
-"faq.question" contains the first message in the request which "publish" was called from
-
-"faq.answer" contains the last message in the request which "publish" was called from
+| Variable | Description |
+|---|---|
+| ticket.lastMessage | the last message on the request |
+| custPassword | the un-encrypted version of the password only if this customer was generated at the same time as the "new customer" email was sent and encryption is turned on |
+| from |  the sender email address |
+| to | the recipient address |
+| faq.question | the first message in the request that "publish" was called from |
+| faq.answer | the last message in the request that "publish" was called from |
