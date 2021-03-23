@@ -253,6 +253,17 @@ items:
   items:
   - name: Crmscript
     href: automation/crmscript.md
+  - name: Event model
+    href: automation/event-model/email-filter.md
+    items:
+    - name: Email filter
+      href: automation/event-model/email-filter.md
+    - name: Mailbox after save
+      href: automation/event-model/mailbox-after-save.md
+    - name: Mailbox before save
+      href: automation/event-model/mailbox-before-save.md
+    - name: Saving a request
+      href: automation/event-model/saving-a-request.md
   - name: Trigger
     href: automation/trigger/create-trigger-macro.md
     items:
