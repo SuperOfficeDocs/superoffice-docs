@@ -19273,3 +19273,10 @@ items:
     href: searchengine/se-select.md
   - name: Using the searchengine class blog post
     href: searchengine/using-the-searchengine-class-blog-post.md
+- name: Tutorials
+  href: tutorials/script-based-selections.md
+  items:
+  - name: Script based selections
+    href: tutorials/script-based-selections.md
+  - name: Udef agent
+    href: tutorials/udef-agent.md
