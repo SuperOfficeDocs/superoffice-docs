@@ -2,13 +2,13 @@
 uid: PriceList
 title: PriceList
 description: Archive of Pricelists - used by the web api.
-Lists all Pricelist in table.
 keywords:
   - "archive"
   - "provider"
   - "archive provider"
+  - "PriceList"
 so.generated: true
-so.date: 19.03.2021
+so.date: 23.03.2021
 so.topic: reference
 so.envir:
   - "onsite"

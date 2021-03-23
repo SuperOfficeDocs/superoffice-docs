@@ -6,8 +6,9 @@ keywords:
   - "archive"
   - "provider"
   - "archive provider"
+  - "Product"
 so.generated: true
-so.date: 19.03.2021
+so.date: 23.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -83,7 +84,7 @@ This is the archive Provider for the Product Archive is SoAdmin.
 ## Sample
 
 ```http!
-GET /api/v1/archive/Product?$select=registeredDate,productFamilyKey,updatedBy
+GET /api/v1/archive/Product?$select=productFamilyKey,updatedBy
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

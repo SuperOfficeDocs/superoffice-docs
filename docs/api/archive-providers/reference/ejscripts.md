@@ -2,13 +2,13 @@
 uid: Ejscripts
 title: Ejscripts
 description: Archive of CRM Scripts - used by the web api and partners.
-Lists all CRM Scripts in the ejScript table.
 keywords:
   - "archive"
   - "provider"
   - "archive provider"
+  - "Ejscripts"
 so.generated: true
-so.date: 19.03.2021
+so.date: 23.03.2021
 so.topic: reference
 so.envir:
   - "onsite"

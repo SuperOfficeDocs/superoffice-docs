@@ -2,13 +2,13 @@
 uid: Relation
 title: Relation
 description: Data provider class for the 'Relation' archive under the company card. This class combines output from
-the up to eight basic sub-providers (CC, PC, PP and CP plus their reversed cousins) into one data stream.
 keywords:
   - "archive"
   - "provider"
   - "archive provider"
+  - "Relation"
 so.generated: true
-so.date: 19.03.2021
+so.date: 23.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -484,7 +484,7 @@ the up to eight basic sub-providers (CC, PC, PP and CP plus their reversed cousi
 ## Sample
 
 ```http!
-GET /api/v1/archive/Relation?$select=source/personNumber,source/supportAssociate,target/streetAddress/zip
+GET /api/v1/archive/Relation?$select=source/portraitThumbnail,source/orgnr,source/mainContact,target/personPager/formattedNumber,source/contactAssociate/personEmail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

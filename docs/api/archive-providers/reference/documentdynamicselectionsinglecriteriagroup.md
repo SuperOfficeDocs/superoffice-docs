@@ -6,8 +6,9 @@ keywords:
   - "archive"
   - "provider"
   - "archive provider"
+  - "DocumentDynamicSelectionSingleCriteriaGroup"
 so.generated: true
-so.date: 19.03.2021
+so.date: 23.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -556,7 +557,7 @@ Document selection archive using the selectionId as criterionmapping.
 ## Sample
 
 ```http!
-GET /api/v1/archive/DocumentDynamicSelectionSingleCriteriaGroup?$select=time,visibleFor,person/personId,person/personSource,person/email/emailProtocol
+GET /api/v1/archive/DocumentDynamicSelectionSingleCriteriaGroup?$select=person/personMobilePhone/formattedNumber,project/description,contact/mainContact
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -2,13 +2,13 @@
 uid: ConsentPurpose
 title: ConsentPurpose
 description: This is the archive Consent Purpose Provider for GDPR Admin
-and for GDPR relations to person, if you join and restrict on person
 keywords:
   - "archive"
   - "provider"
   - "archive provider"
+  - "ConsentPurpose"
 so.generated: true
-so.date: 19.03.2021
+so.date: 23.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -154,7 +154,7 @@ and for GDPR relations to person, if you join and restrict on person
 ## Sample
 
 ```http!
-GET /api/v1/archive/ConsentPurpose?$select=consentPerson/active,consentPerson/person/useAsMailingAddress,consentPerson/person/personDeletedDate
+GET /api/v1/archive/ConsentPurpose?$select=consentPerson/person/kanaFirstName,consentPerson/consentPurpose/rank,consentPerson/person/useAsMailingAddress
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -2,13 +2,13 @@
 uid: ForeignKeys
 title: ForeignKeys
 description: Archive of Foreign Keys - used by the web api and partners.
-Lists all foreign apps, and outer joins any devices + keys associated with the app.
 keywords:
   - "archive"
   - "provider"
   - "archive provider"
+  - "ForeignKeys"
 so.generated: true
-so.date: 19.03.2021
+so.date: 23.03.2021
 so.topic: reference
 so.envir:
   - "onsite"

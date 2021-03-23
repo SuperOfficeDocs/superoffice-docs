@@ -6,8 +6,9 @@ keywords:
   - "archive"
   - "provider"
   - "archive provider"
+  - "AppointmentShadowDynamicSelectionV2"
 so.generated: true
-so.date: 19.03.2021
+so.date: 23.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -567,7 +568,7 @@ Appointment shadow selection archive with OR-able selection groups. Each group i
 ## Sample
 
 ```http!
-GET /api/v1/archive/AppointmentShadowDynamicSelectionV2?$select=contact/contactAssociate/contactId,person/birthMonth,person/personAddress/wgs84longitude,project/projectAssociate/credentialDisplayValue,sale/associate/credentialDisplayValue
+GET /api/v1/archive/AppointmentShadowDynamicSelectionV2?$select=contact/postAddress/state,person/legalBaseStore,associate/portraitThumbnail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -6,8 +6,9 @@ keywords:
   - "archive"
   - "provider"
   - "archive provider"
+  - "TicketShadowStaticSelectionV2"
 so.generated: true
-so.date: 19.03.2021
+so.date: 23.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -402,7 +403,7 @@ Shadow contact provider for the static ticket provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/TicketShadowStaticSelectionV2?$select=ticketStatusName,person/personUdef/SuperOffice:6,contact/business,contact/postAddress/formattedAddress,contact/restrictionAddress/addressId
+GET /api/v1/archive/TicketShadowStaticSelectionV2?$select=person/hasInfoText,contact/contactAssociate/associateDbId,contact/contactUdef/SuperOffice:2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

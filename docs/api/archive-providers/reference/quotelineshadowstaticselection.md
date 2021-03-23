@@ -6,8 +6,9 @@ keywords:
   - "archive"
   - "provider"
   - "archive provider"
+  - "QuoteLineShadowStaticSelection"
 so.generated: true
-so.date: 19.03.2021
+so.date: 23.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -606,7 +607,7 @@ Shadow contact provider for the static quoteline provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/QuoteLineShadowStaticSelection?$select=alternative/version/quote/sale/associateId,alternative/version/quote/sale/person/personDirectPhone/description,alternative/version/quote/sale/contact/contactFax/formattedNumber
+GET /api/v1/archive/QuoteLineShadowStaticSelection?$select=totalPriceIncVAT,alternative/version/quote/sale/lossReason,alternative/version/quote/sale/person/personDirectFax/formattedNumber,alternative/version/quote/sale/person/personUdef/SuperOffice:11,alternative/version/quote/sale/contact/contactAssociate/middleName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

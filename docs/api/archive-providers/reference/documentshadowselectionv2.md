@@ -6,8 +6,9 @@ keywords:
   - "archive"
   - "provider"
   - "archive provider"
+  - "DocumentShadowSelectionV2"
 so.generated: true
-so.date: 19.03.2021
+so.date: 23.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -561,7 +562,7 @@ Shadow contact provider for the Document provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/DocumentShadowSelectionV2?$select=person/email/emailLastBounce,person/restrictionAddress/addressId,contact/hasInterests,contact/postAddress/line1,contact/contactAssociate/credentialType
+GET /api/v1/archive/DocumentShadowSelectionV2?$select=keywords,person/personInfo/infoText,contact/contactAssociate/personId,contact/NumberOfNotCompletedActivities,project/number
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

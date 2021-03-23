@@ -2,15 +2,13 @@
 uid: SelectionStaticContactAddMembers
 title: SelectionStaticContactAddMembers
 description: This is the provider used when searching for potential new members of a static selection. It is actually
-just a facade for the <see cref="T:SuperOffice.CRM.ArchiveLists.FindContactProvider" />, but a different name is required to avoid stepping
-on stored findcontact queries for the same user. Before using this provider, please read the Remarks section and
-make sure you understand its special functionality.
 keywords:
   - "archive"
   - "provider"
   - "archive provider"
+  - "SelectionStaticContactAddMembers"
 so.generated: true
-so.date: 19.03.2021
+so.date: 23.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -922,7 +920,7 @@ a non-null value for those contacts or persons that exist in the given static se
 ## Sample
 
 ```http!
-GET /api/v1/archive/SelectionStaticContactAddMembers?$select=associateId,includeContactWithNoDMRestriction,targetRelation/activeErpLinks,appointment/associate/middleName,appointment/associate/fullName
+GET /api/v1/archive/SelectionStaticContactAddMembers?$select=updatedBy,streetAddress/wgs84latitude,contactUdef/SuperOffice:3,targetRelation/hasInterests,sale/contactId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

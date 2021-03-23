@@ -6,8 +6,9 @@ keywords:
   - "archive"
   - "provider"
   - "archive provider"
+  - "appointmentfavourites"
 so.generated: true
-so.date: 19.03.2021
+so.date: 23.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -564,7 +565,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/appointmentfavourites?$select=favouriteAssociateId,appointmentPublish/publishedTo,contact/stop,person/personNumber,person/personUdef/SuperOffice:6
+GET /api/v1/archive/appointmentfavourites?$select=visibleInDiary,contact/contactFax/formattedNumber,person/hasStoreConsent,person/legalBaseStore
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

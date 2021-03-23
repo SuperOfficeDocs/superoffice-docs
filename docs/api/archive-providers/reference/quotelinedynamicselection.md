@@ -6,8 +6,9 @@ keywords:
   - "archive"
   - "provider"
   - "archive provider"
+  - "QuoteLineDynamicSelection"
 so.generated: true
-so.date: 19.03.2021
+so.date: 23.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -601,7 +602,7 @@ Quoteline selection archive using the selectionId as criterionmapping.
 ## Sample
 
 ```http!
-GET /api/v1/archive/QuoteLineDynamicSelection?$select=discountAmount,alternative/discountAmount,alternative/version/quote/sale/amount,alternative/version/quote/sale/contact/url/URLAddress,alternative/version/quote/sale/contact/contactUdef/SuperOffice:2
+GET /api/v1/archive/QuoteLineDynamicSelection?$select=alternative/name,alternative/version/quote/sale/contact/code,alternative/version/quote/sale/contact/contactAssociate/assocType,alternative/version/quote/sale/contact/contactAssociate/personEmail,alternative/version/quote/sale/project/registeredBy
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -6,8 +6,9 @@ keywords:
   - "archive"
   - "provider"
   - "archive provider"
+  - "AssignResponseInvitation"
 so.generated: true
-so.date: 19.03.2021
+so.date: 23.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -571,7 +572,7 @@ must be &gt;= start of today. This is an optional entity and is fetched if the u
 ## Sample
 
 ```http!
-GET /api/v1/archive/AssignResponseInvitation?$select=person/personAssociateId,project/projectAssociate/portraitThumbnail,project/project/textId,sale/projectId,sale/associate/contactId
+GET /api/v1/archive/AssignResponseInvitation?$select=completed,rawType,person/legalBaseStore,sale/associate/assocType,sale/associate/simultaneousEjUser
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

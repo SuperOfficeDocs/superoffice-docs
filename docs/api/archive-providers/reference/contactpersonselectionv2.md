@@ -6,8 +6,9 @@ keywords:
   - "archive"
   - "provider"
   - "archive provider"
+  - "ContactPersonSelectionV2"
 so.generated: true
-so.date: 19.03.2021
+so.date: 23.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -898,7 +899,7 @@ This is the archive Provider for the Selection contact/person archive.
 ## Sample
 
 ```http!
-GET /api/v1/archive/ContactPersonSelectionV2?$select=contactDeleted,contactFax/formattedNumber,postAddress/formattedMultiLineAddress,restrictionAddress/formattedAddress,targetRelation/updatedDate
+GET /api/v1/archive/ContactPersonSelectionV2?$select=contactAssociate/usergroup,sourceRelation/category,request/createdBy/personId,projectMembers/projectAssociate/isActiveText,personAppointment/associate/personId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

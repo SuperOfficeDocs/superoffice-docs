@@ -6,8 +6,9 @@ keywords:
   - "archive"
   - "provider"
   - "archive provider"
+  - "FindProject"
 so.generated: true
-so.date: 19.03.2021
+so.date: 23.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -626,7 +627,7 @@ Provider for searching in projects
 ## Sample
 
 ```http!
-GET /api/v1/archive/FindProject?$select=sale/stage,appointment/alarm,appointment/associate/assocName,projectMember/LastCompletedTicket,projectMember/saintActivityType
+GET /api/v1/archive/FindProject?$select=number,projectUdef/SuperOffice:4,sale/associate/userName,appointment/associate/personId,appointment/associate/otherGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

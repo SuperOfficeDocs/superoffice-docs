@@ -6,8 +6,9 @@ keywords:
   - "archive"
   - "provider"
   - "archive provider"
+  - "SaleSelectionV2"
 so.generated: true
-so.date: 19.03.2021
+so.date: 23.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -1004,7 +1005,7 @@ This is the archive Provider for the Selection sale archive.
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaleSelectionV2?$select=contact/postAddress/formattedMultiLineAddress,contact/restrictionAddress/addressId,contact/contactAssociate/firstName,contact/NumberOfNotCompletedTicketsInPeriod,appointment/completed
+GET /api/v1/archive/SaleSelectionV2?$select=contact/nameDepartment,contact/restrictionAddress/line1,contact/contactAssociate/credentialDisplayValue,contact/LastTicket,associate/otherGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

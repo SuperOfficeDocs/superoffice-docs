@@ -2,13 +2,13 @@
 uid: PersonRelation
 title: PersonRelation
 description: Data provider class for the 'Relation' archive under the person card. This class combines output from
-the eight basic sub-providers (CC, PC, PP and CP plus their reversed cousins) into one data stream.
 keywords:
   - "archive"
   - "provider"
   - "archive provider"
+  - "PersonRelation"
 so.generated: true
-so.date: 19.03.2021
+so.date: 23.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -484,7 +484,7 @@ the eight basic sub-providers (CC, PC, PP and CP plus their reversed cousins) in
 ## Sample
 
 ```http!
-GET /api/v1/archive/PersonRelation?$select=relationComment,source/isStakeholder,source/number,target/contactAssociate/associateDbId,target/personPrivate/description
+GET /api/v1/archive/PersonRelation?$select=target/postAddress/zip,target/LastDoBySale,target/streetAddress/zip
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

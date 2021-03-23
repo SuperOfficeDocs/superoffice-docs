@@ -6,8 +6,9 @@ keywords:
   - "archive"
   - "provider"
   - "archive provider"
+  - "SaintPerson"
 so.generated: true
-so.date: 19.03.2021
+so.date: 23.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -583,7 +584,7 @@ Archive provider for Contact Saint Status - same as Find Contact, but adds abili
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaintPerson?$select=email/emailHasBounced,streetAddress/formattedMultiLineAddress,contactUdef/SuperOffice:8,sale/salePublish/publishedFrom,appointment/associate/personEmail
+GET /api/v1/archive/SaintPerson?$select=email/emailAddress,sourceRelation/updatedDate,sale/associate/assocTooltip,appointment/appointmentUdef/SuperOffice:4,personEmail/emailAddress
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

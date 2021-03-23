@@ -2,13 +2,13 @@
 uid: DiaryAppointment
 title: DiaryAppointment
 description: Archive provider for Appointment activities, of the Diary type (not followup or booking). This provider can be used on its own, or can form part of the
-<see cref="T:SuperOffice.CRM.ArchiveLists.ActivityArchiveProvider" />, which mixes Appointments, appointments, tasks and documents.
 keywords:
   - "archive"
   - "provider"
   - "archive provider"
+  - "DiaryAppointment"
 so.generated: true
-so.date: 19.03.2021
+so.date: 23.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -567,7 +567,7 @@ Archive provider for Appointment activities, of the Diary type (not followup or 
 ## Sample
 
 ```http!
-GET /api/v1/archive/DiaryAppointment?$select=person/personPrivate/description,appointment/description,contact/NumberOfNotCompletedSalesInPeriod
+GET /api/v1/archive/DiaryAppointment?$select=contact/contactAssociate/middleName,person/personDirectFax/description,project/projectAssociate/associateDbId,sale/amount,associate/associateDbId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

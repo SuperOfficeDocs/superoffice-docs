@@ -2,13 +2,13 @@
 uid: ChecklistAppointment
 title: ChecklistAppointment
 description: Archive provider for Appointment activities, of the Diary type (not followup or booking). This provider can be used on its own, or can form part of the
-<see cref="T:SuperOffice.CRM.ArchiveLists.ActivityArchiveProvider" />, which mixes Appointments, appointments, tasks and documents.
 keywords:
   - "archive"
   - "provider"
   - "archive provider"
+  - "ChecklistAppointment"
 so.generated: true
-so.date: 19.03.2021
+so.date: 23.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -567,7 +567,7 @@ Archive provider for Appointment activities, of the Diary type (not followup or 
 ## Sample
 
 ```http!
-GET /api/v1/archive/ChecklistAppointment?$select=contact/streetAddress/wgs84longitude,sale/saleUdef/SuperOffice:5,associate/assocType,associate/ejUserId
+GET /api/v1/archive/ChecklistAppointment?$select=person/personCountry,person/personInfo/textId,project/saintIntention
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

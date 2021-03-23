@@ -2,13 +2,13 @@
 uid: EventHandler
 title: EventHandler
 description: Archive of Event handlers - triggers - used by the web api and partners.
-Lists all triggers in screenchooser table with screenType &gt;= 100.
 keywords:
   - "archive"
   - "provider"
   - "archive provider"
+  - "EventHandler"
 so.generated: true
-so.date: 19.03.2021
+so.date: 23.03.2021
 so.topic: reference
 so.envir:
   - "onsite"

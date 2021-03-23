@@ -6,8 +6,9 @@ keywords:
   - "archive"
   - "provider"
   - "archive provider"
+  - "QuoteLineDynamicSelectionSingleCriteriaGroup"
 so.generated: true
-so.date: 19.03.2021
+so.date: 23.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -599,7 +600,7 @@ Sale selection archive using the selectionId as criterionmapping.
 ## Sample
 
 ```http!
-GET /api/v1/archive/QuoteLineDynamicSelectionSingleCriteriaGroup?$select=alternative/version/quoteVersionId,alternative/version/quote/sale/person/personAddress/county,alternative/version/quote/sale/project/saintTicketCategory
+GET /api/v1/archive/QuoteLineDynamicSelectionSingleCriteriaGroup?$select=alternative/version/quote/sale/amount,alternative/version/quote/sale/hasStakeholders,alternative/version/quote/sale/person/restrictionAddress/state,alternative/version/quote/sale/contact/nameDepartment,alternative/version/quote/sale/contact/contactSource
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

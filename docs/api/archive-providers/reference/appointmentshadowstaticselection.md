@@ -6,8 +6,9 @@ keywords:
   - "archive"
   - "provider"
   - "archive provider"
+  - "AppointmentShadowStaticSelection"
 so.generated: true
-so.date: 19.03.2021
+so.date: 23.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -569,7 +570,7 @@ Shadow contact provider for the static appointment provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/AppointmentShadowStaticSelection?$select=contact/contactAssociate/mrMrs,person/restrictionAddress/line1,contact/LastDoBySale
+GET /api/v1/archive/AppointmentShadowStaticSelection?$select=contact/restrictionAddress/line3,contact/contactAssociate/title,contact/contactAssociate/credentialDisplayValue,person/email/emailHasBounced,project/NumberOfActivities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

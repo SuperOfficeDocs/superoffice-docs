@@ -6,8 +6,9 @@ keywords:
   - "archive"
   - "provider"
   - "archive provider"
+  - "ErpConnection"
 so.generated: true
-so.date: 19.03.2021
+so.date: 23.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -54,7 +55,7 @@ Archive of ERP Connections, used by the ERP Integration Server
 ## Sample
 
 ```http!
-GET /api/v1/archive/ErpConnection?$select=updatedBy,mostRecent,updatedBy
+GET /api/v1/archive/ErpConnection?$select=mostRecent,updatedBy
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

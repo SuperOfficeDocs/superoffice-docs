@@ -6,8 +6,9 @@ keywords:
   - "archive"
   - "provider"
   - "archive provider"
+  - "Mailings"
 so.generated: true
-so.date: 19.03.2021
+so.date: 23.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -181,7 +182,7 @@ Archive provider for the list of mailings
 ## Sample
 
 ```http!
-GET /api/v1/archive/Mailings?$select=getAllRows,associate/contactName,associate/contactDepartment,project/projectPublish/publishedTo,project/NumberOfNotCompletedActivitiesInPeriod
+GET /api/v1/archive/Mailings?$select=associate/usergroup,project/saintTicketCategory,associate/isActive
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

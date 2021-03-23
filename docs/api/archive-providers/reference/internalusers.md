@@ -2,13 +2,13 @@
 uid: InternalUsers
 title: InternalUsers
 description: Concrete provider for Internal Users - our own employees. See <see cref="T:SuperOffice.CRM.ArchiveLists.UsersProviderBase" /> for
-the actual functionality of the provider.
 keywords:
   - "archive"
   - "provider"
   - "archive provider"
+  - "InternalUsers"
 so.generated: true
-so.date: 19.03.2021
+so.date: 23.03.2021
 so.topic: reference
 so.envir:
   - "onsite"

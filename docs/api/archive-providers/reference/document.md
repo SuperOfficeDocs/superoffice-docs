@@ -2,13 +2,13 @@
 uid: Document
 title: Document
 description: Archive provider for Document type activities. This provider can be used on its own, or can form part of the
-<see cref="T:SuperOffice.CRM.ArchiveLists.ActivityArchiveProvider" />, which mixes Documents, appointments, tasks and documents.
 keywords:
   - "archive"
   - "provider"
   - "archive provider"
+  - "Document"
 so.generated: true
-so.date: 19.03.2021
+so.date: 23.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -558,7 +558,7 @@ Archive provider for Document type activities. This provider can be used on its 
 ## Sample
 
 ```http!
-GET /api/v1/archive/Document?$select=person/personUdef/SuperOffice:8,contact/country,contact/restrictionAddress/line1,project/projectAssociate/isActive,project/LastCompletedSale
+GET /api/v1/archive/Document?$select=person/personUdef/SuperOffice:8,contact/streetAddress/city,contact/restrictionAddress/formattedAddress,contact/LastCompletedSale,documentUdef/SuperOffice:8
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

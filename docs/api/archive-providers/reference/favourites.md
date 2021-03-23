@@ -6,8 +6,9 @@ keywords:
   - "archive"
   - "provider"
   - "archive provider"
+  - "Favourites"
 so.generated: true
-so.date: 19.03.2021
+so.date: 23.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -2115,7 +2116,7 @@ blah....
 ## Sample
 
 ```http!
-GET /api/v1/archive/Favourites?$select=contact/SaintStatus1,project/projectUdef/SuperOffice:8,saleStakeholder/person/hasCompany,saleStakeholder/contact/hasInterests,saleStakeholder/contact/contactPhone/formattedNumber
+GET /api/v1/archive/Favourites?$select=person/lastName,person/email/emailAddress,contact/streetAddress/wgs84longitude,project/updatedBy,project/projectAssociate/ejDisplayName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

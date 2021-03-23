@@ -6,8 +6,9 @@ keywords:
   - "archive"
   - "provider"
   - "archive provider"
+  - "SaleSelectionCombinedV2"
 so.generated: true
-so.date: 19.03.2021
+so.date: 23.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -1004,7 +1005,7 @@ Implementation of the provider for the combined selection
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaleSelectionCombinedV2?$select=time,competitor,person/personPrivate/formattedNumber,person/searchPhone/formattedNumber,contact/contactUdef/SuperOffice:7
+GET /api/v1/archive/SaleSelectionCombinedV2?$select=person/personCategory,person/isStakeholder,person/consentSourceStore,appointment/associate/firstName,saleStakeholder/contact/category
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

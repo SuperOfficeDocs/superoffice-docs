@@ -6,8 +6,9 @@ keywords:
   - "archive"
   - "provider"
   - "archive provider"
+  - "ContactPersonDynamicSelectionV2"
 so.generated: true
-so.date: 19.03.2021
+so.date: 23.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -895,7 +896,7 @@ Contact + Person selection archive with OR-able selection groups. Each group is 
 ## Sample
 
 ```http!
-GET /api/v1/archive/ContactPersonDynamicSelectionV2?$select=sourceRelation/code,appointment/projectId,appointment/endTime,appointment/associate/fullName,personAssociateId
+GET /api/v1/archive/ContactPersonDynamicSelectionV2?$select=contactSource,postAddress/line3,streetAddress/line1,targetRelation/restrictionContactId,sale/contactId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

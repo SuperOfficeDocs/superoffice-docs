@@ -6,8 +6,9 @@ keywords:
   - "archive"
   - "provider"
   - "archive provider"
+  - "SaleStaticSelection"
 so.generated: true
-so.date: 19.03.2021
+so.date: 23.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -1004,7 +1005,7 @@ Static archive Provider for the Selection sale archive.
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaleStaticSelection?$select=person/isProjectMember,contact/streetAddress/zip,contact/url/URLAddress,appointment/associate/userName,saleStakeholder/salesRoleId
+GET /api/v1/archive/SaleStaticSelection?$select=contact/restrictionAddress/city,contact/restrictionAddress/zip,appointment/suggestedAppointmentId,appointment/associate/title,saleStakeholder/person/personAddress/wgs84longitude
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

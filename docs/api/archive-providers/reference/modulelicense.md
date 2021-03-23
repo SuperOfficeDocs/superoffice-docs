@@ -2,15 +2,13 @@
 uid: ModuleLicense
 title: ModuleLicense
 description: Simple provider for module licences. This provider will return a flat list with
-one entity for system-level licences, one for site (database)-level licences, and
-one for user (associate)-level licences. It does not check codekey or other
-security items.
 keywords:
   - "archive"
   - "provider"
   - "archive provider"
+  - "ModuleLicense"
 so.generated: true
-so.date: 19.03.2021
+so.date: 23.03.2021
 so.topic: reference
 so.envir:
   - "onsite"

@@ -6,8 +6,9 @@ keywords:
   - "archive"
   - "provider"
   - "archive provider"
+  - "ContactActivity"
 so.generated: true
-so.date: 19.03.2021
+so.date: 23.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -616,7 +617,7 @@ Activity archive provider for the Company card
 ## Sample
 
 ```http!
-GET /api/v1/archive/ContactActivity?$select=associate/assocType,contact/category,person/restrictionAddress/addressId,contact/restrictionAddress/county,sale/registeredDate
+GET /api/v1/archive/ContactActivity?$select=contactId,associate/assocName,project/saintIntention,contact/contactAssociate/assocName,contact/contactUdef/SuperOffice:6
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

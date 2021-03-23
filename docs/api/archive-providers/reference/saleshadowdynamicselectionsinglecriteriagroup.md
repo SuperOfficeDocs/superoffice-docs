@@ -6,8 +6,9 @@ keywords:
   - "archive"
   - "provider"
   - "archive provider"
+  - "SaleShadowDynamicSelectionSingleCriteriaGroup"
 so.generated: true
-so.date: 19.03.2021
+so.date: 23.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -999,7 +1000,7 @@ Shadow contact provider for the dynamic sale provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaleShadowDynamicSelectionSingleCriteriaGroup?$select=visibleFor,person/personUdef/SuperOffice:10,contact/contactUdef/SuperOffice:4,contact/LastDoBySale,contact/LastCompletedTicket
+GET /api/v1/archive/SaleShadowDynamicSelectionSingleCriteriaGroup?$select=person/personMobilePhone/formattedNumber,person/searchPhone/description,associate/simultaneousEjUser,appointment/appointmentPublish/publishedBy,saleStakeholder/person/personUdef/SuperOffice:3
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

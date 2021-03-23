@@ -2,14 +2,13 @@
 uid: Person
 title: Person
 description: This is the archive Provide for the Person Archive of the Contact Panel - or to use GUI terminology, the Contact archive of the Company panel.
-It provides two entities, person and retiredPerson, and a large number of columns. Through the constructor one can choose to include Contact
-table data; this will also pull in contact udef and related fields.
 keywords:
   - "archive"
   - "provider"
   - "archive provider"
+  - "Person"
 so.generated: true
-so.date: 19.03.2021
+so.date: 23.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -561,7 +560,7 @@ table data; this will also pull in contact udef and related fields.
 ## Sample
 
 ```http!
-GET /api/v1/archive/Person?$select=personPager/formattedNumber,personContact/postAddress/line2,personAppointment/booking
+GET /api/v1/archive/Person?$select=fullNameWithContact,personDirectFax/formattedNumber,searchPhone/description,personContact/postAddress/county,request/ownedBy/assocName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

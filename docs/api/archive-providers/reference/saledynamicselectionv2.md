@@ -6,8 +6,9 @@ keywords:
   - "archive"
   - "provider"
   - "archive provider"
+  - "SaleDynamicSelectionV2"
 so.generated: true
-so.date: 19.03.2021
+so.date: 23.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -1001,7 +1002,7 @@ Sale selection archive with OR-able selection groups. Each group is represented 
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaleDynamicSelectionV2?$select=person/personInterestIds,contact/streetAddress/wgs84latitude,contact/contactAssociate/userName,appointment/appointmentUdef/SuperOffice:5,project/projectEvent/hasSignOff
+GET /api/v1/archive/SaleDynamicSelectionV2?$select=registeredDate,currencyId,person/supportLanguage,person/email/emailBounceCount,contact/contactAssociate/assocName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

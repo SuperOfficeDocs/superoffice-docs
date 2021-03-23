@@ -2,13 +2,13 @@
 uid: ExternalUsers
 title: ExternalUsers
 description: Concrete provider for External Users - our customer, vendors etc (Audience, eJournal Customer Care Centre). See <see cref="T:SuperOffice.CRM.ArchiveLists.UsersProviderBase" /> for
-the actual functionality of the provider.
 keywords:
   - "archive"
   - "provider"
   - "archive provider"
+  - "ExternalUsers"
 so.generated: true
-so.date: 19.03.2021
+so.date: 23.03.2021
 so.topic: reference
 so.envir:
   - "onsite"

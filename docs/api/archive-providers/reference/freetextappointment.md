@@ -2,24 +2,13 @@
 uid: FreetextAppointment
 title: FreetextAppointment
 description: Archive provider for freetext search on the Appointment entity (any kind of appointment, phone call, or task).
-<para />
-Use the 'searchwords' restriction with one or more words to specify what to search for. The operator is ignored,
-the freetext search will apply the 'begins' operator to each word and 'AND' between them.
-<para />
-It is possible to combine freetext search words with other restrictions and criteria native to the entity and
-its standard subproviders. Note however that this is not the same search as provided by the 'Find' providers, since
-they apply various special rules not present here.
-<para />
-Freetext search will limit the number of hits to the first 1000. This clipping is applied before any other criteria,
-as well as before any ORDER BY, are applied.
-<para />
-Private appointments that are not fully readable will not be shown (they are skipped), as in the Windows client
 keywords:
   - "archive"
   - "provider"
   - "archive provider"
+  - "FreetextAppointment"
 so.generated: true
-so.date: 19.03.2021
+so.date: 23.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -589,7 +578,7 @@ Private appointments that are not fully readable will not be shown (they are ski
 ## Sample
 
 ```http!
-GET /api/v1/archive/FreetextAppointment?$select=registeredDate,contact/contactUdef/SuperOffice:13,person/personDirectPhone/formattedNumber,associate/contactFullName
+GET /api/v1/archive/FreetextAppointment?$select=contact/category,contact/LastCompletedSale,person/mrMrs,sale/sale/textId,associate/contactFullName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

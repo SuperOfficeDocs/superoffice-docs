@@ -2,13 +2,13 @@
 uid: Invitation
 title: Invitation
 description: Invitation provider multichannel combiner, consisting of simple, cancelled, rejected, repeating and response invitations. You can also
-call up appointments explicitly through the Explicit provider.
 keywords:
   - "archive"
   - "provider"
   - "archive provider"
+  - "Invitation"
 so.generated: true
-so.date: 19.03.2021
+so.date: 23.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -579,7 +579,7 @@ because someone may explicitly request an instance an a recurring booking, so th
 ## Sample
 
 ```http!
-GET /api/v1/archive/Invitation?$select=who,contact/contactPhone/description,contact/postAddress/state,contact/contactUdef/SuperOffice:5,person/personCountry
+GET /api/v1/archive/Invitation?$select=registeredDate,contact/streetAddress/addressId,contact/streetAddress/zip,project/updatedDate,project/projectUdef/SuperOffice:2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -6,8 +6,9 @@ keywords:
   - "archive"
   - "provider"
   - "archive provider"
+  - "LinksSales"
 so.generated: true
-so.date: 19.03.2021
+so.date: 23.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -851,7 +852,7 @@ Link data provider for sales, handles both addressing by source or by destinatio
 ## Sample
 
 ```http!
-GET /api/v1/archive/LinksSales?$select=contact/contactSource,contact/contactAssociate/contactName,associate/credentialType,project/projectUdef/SuperOffice:7,saleStakeholder/person/personUdef/SuperOffice:2
+GET /api/v1/archive/LinksSales?$select=person/useAsMailingAddress,contact/postAddress/county,contact/streetAddress/addressId,contact/streetAddress/state,saleStakeholder/contact/deletedDate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

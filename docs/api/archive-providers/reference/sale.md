@@ -2,13 +2,13 @@
 uid: Sale
 title: Sale
 description: Archive provider for Sale type activities. This provider can be used on its own, or can form part of the
-<see cref="T:SuperOffice.CRM.ArchiveLists.ActivityArchiveProvider" />, which mixes sales, appointments, tasks and documents.
 keywords:
   - "archive"
   - "provider"
   - "archive provider"
+  - "Sale"
 so.generated: true
-so.date: 19.03.2021
+so.date: 23.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -843,7 +843,7 @@ Archive provider for Sale type activities. This provider can be used on its own,
 ## Sample
 
 ```http!
-GET /api/v1/archive/Sale?$select=visibleFor,person/phone/formattedNumber,project/NumberOfActivitiesInPeriod,saleStakeholder/person/legalBaseStore,saleStakeholder/contact/updatedDate
+GET /api/v1/archive/Sale?$select=contact/nameDepartment,associate/contactName,project/projectAssociate/assocType,saleStakeholder/person/supportAssociate,saleStakeholder/person/personPrivate/description
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

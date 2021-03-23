@@ -2,14 +2,13 @@
 uid: Ticket
 title: Ticket
 description: This is the archive Provide for the Person Archive of the Contact Panel - or to use GUI terminology, the Contact archive of the Company panel.
-It provides two entities, person and retiredPerson, and a large number of columns. Through the constructor one can choose to include Contact
-table data; this will also pull in contact udef and related fields.
 keywords:
   - "archive"
   - "provider"
   - "archive provider"
+  - "Ticket"
 so.generated: true
-so.date: 19.03.2021
+so.date: 23.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -402,7 +401,7 @@ table data; this will also pull in contact udef and related fields.
 ## Sample
 
 ```http!
-GET /api/v1/archive/Ticket?$select=createdBy/contactDepartment,person/birthMonth,person/personAssociateId,person/restrictionAddress/formattedAddress
+GET /api/v1/archive/Ticket?$select=contact/number,contact/streetAddress/wgs84longitude,contact/restrictionAddress/wgs84longitude
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

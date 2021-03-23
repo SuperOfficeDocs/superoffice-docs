@@ -2,13 +2,13 @@
 uid: AggregationWrapper2
 title: AggregationWrapper2
 description: This is the main aggregation engine for the Archive Provider system - version 2,
-with built-in buffering and recursive evaluation
 keywords:
   - "archive"
   - "provider"
   - "archive provider"
+  - "AggregationWrapper2"
 so.generated: true
-so.date: 19.03.2021
+so.date: 23.03.2021
 so.topic: reference
 so.envir:
   - "onsite"

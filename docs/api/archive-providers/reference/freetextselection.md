@@ -2,22 +2,13 @@
 uid: FreetextSelection
 title: FreetextSelection
 description: Archive provider for freetext search on the Selection entity.
-<para />
-Use the 'searchwords' restriction with one or more words to specify what to search for. The operator is ignored,
-the freetext search will apply the 'begins' operator to each word and 'AND' between them.
-<para />
-It is possible to combine freetext search words with other restrictions and criteria native to the entity and
-its standard subproviders. Note however that this is not the same search as provided by the 'Find' providers, since
-they apply various special rules not present here.
-<para />
-Freetext search will limit the number of hits to the first 1000. This clipping is applied before any other criteria,
-as well as before any ORDER BY, are applied.
 keywords:
   - "archive"
   - "provider"
   - "archive provider"
+  - "FreetextSelection"
 so.generated: true
-so.date: 19.03.2021
+so.date: 23.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -103,7 +94,7 @@ as well as before any ORDER BY, are applied.
 ## Sample
 
 ```http!
-GET /api/v1/archive/FreetextSelection?$select=lastMembershipChange,selectionAssociate/contactId
+GET /api/v1/archive/FreetextSelection?$select=targetTableNumber,lastMembershipChange,selectionAssociate/contactId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

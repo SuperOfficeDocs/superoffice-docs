@@ -6,8 +6,9 @@ keywords:
   - "archive"
   - "provider"
   - "archive provider"
+  - "FindQuoteLine"
 so.generated: true
-so.date: 19.03.2021
+so.date: 23.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -599,7 +600,7 @@ QuoteLine provider for Find
 ## Sample
 
 ```http!
-GET /api/v1/archive/FindQuoteLine?$select=alternative/version/paymentTerms,alternative/version/quote/sale/person/personPager/description,alternative/version/quote/sale/person/personUdef/SuperOffice:10,alternative/version/quote/sale/person/hasEmarketingConsent,alternative/version/quote/sale/project/projectUdef/SuperOffice:4
+GET /api/v1/archive/FindQuoteLine?$select=alternative/version/quote/sale/contact/searchPhone/description,alternative/version/quote/sale/contact/streetAddress/zip,alternative/version/quote/sale/project/projectAssociate/usergroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

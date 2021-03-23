@@ -2,13 +2,13 @@
 uid: ReportProvider
 title: ReportProvider
 description: This archive provider is made for getting the available criteria for a given report.
-The report id is set when instanciating the object through the
 keywords:
   - "archive"
   - "provider"
   - "archive provider"
+  - "ReportProvider"
 so.generated: true
-so.date: 19.03.2021
+so.date: 23.03.2021
 so.topic: reference
 so.envir:
   - "onsite"

@@ -6,8 +6,9 @@ keywords:
   - "archive"
   - "provider"
   - "archive provider"
+  - "TicketMessage"
 so.generated: true
-so.date: 19.03.2021
+so.date: 23.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -450,7 +451,7 @@ Messages on support tickets. Messages are typically e-mail messages with attachm
 ## Sample
 
 ```http!
-GET /api/v1/archive/TicketMessage?$select=ticket/contact/name,ticket/contact/streetAddress/addressId,ticket/person/personUpdatedDate
+GET /api/v1/archive/TicketMessage?$select=ticket/ownedBy/fullName,ticket/ownedBy/contactFullName,ticket/person/lastName,ticket/contact/contactAssociate/portraitThumbnail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -2,14 +2,13 @@
 uid: MappedPreferences
 title: MappedPreferences
 description: Get all the mapped ('fake') Service preferences known to the <see cref="T:SuperOffice.Data.ServicePreferenceMapper" />.
-<b>NOTE</b> that only <b>section</b> and <b>key</b> are supported as restrictions, and only with the <b>equals</b> operator.
-Anything else needs to be coded!
 keywords:
   - "archive"
   - "provider"
   - "archive provider"
+  - "MappedPreferences"
 so.generated: true
-so.date: 19.03.2021
+so.date: 23.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -48,7 +47,7 @@ Anything else needs to be coded!
 ## Sample
 
 ```http!
-GET /api/v1/archive/MappedPreferences?$select=prefkey,maxlevel,ownerId
+GET /api/v1/archive/MappedPreferences?$select=maxlevel,ownerId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -2,14 +2,13 @@
 uid: Mail
 title: Mail
 description: Provides populated mail envelope rows as an archive based on a query string
-This subclass filter envelopes based on a provided string, only envelopes containing
-the string in either subject, sender, recipient or date are returned
 keywords:
   - "archive"
   - "provider"
   - "archive provider"
+  - "Mail"
 so.generated: true
-so.date: 19.03.2021
+so.date: 23.03.2021
 so.topic: reference
 so.envir:
   - "onsite"

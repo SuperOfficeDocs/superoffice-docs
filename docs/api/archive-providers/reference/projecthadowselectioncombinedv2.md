@@ -6,8 +6,9 @@ keywords:
   - "archive"
   - "provider"
   - "archive provider"
+  - "ProjecthadowSelectionCombinedV2"
 so.generated: true
-so.date: 19.03.2021
+so.date: 23.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -625,7 +626,7 @@ Implementation of the provider for the combined selection
 ## Sample
 
 ```http!
-GET /api/v1/archive/ProjecthadowSelectionCombinedV2?$select=NumberOfActivitiesInPeriod,sale/associate/contactCategory,appointment/type,projectMember/personRegisteredDate,projectMember/personAddress/addressId
+GET /api/v1/archive/ProjecthadowSelectionCombinedV2?$select=sale/sale/description,document/documentPublish/publishedFrom,document/associate/associateDbId,projectMember/middleName,projectMember/email/emailDescription
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

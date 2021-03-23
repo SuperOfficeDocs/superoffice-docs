@@ -2,13 +2,13 @@
 uid: BatchTasks
 title: BatchTasks
 description: Archive of Batch Tasks - used by the web api and partners.
-Lists all batch tasks
 keywords:
   - "archive"
   - "provider"
   - "archive provider"
+  - "BatchTasks"
 so.generated: true
-so.date: 19.03.2021
+so.date: 23.03.2021
 so.topic: reference
 so.envir:
   - "onsite"
