@@ -1,7 +1,7 @@
 ---
 uid: SelectionSelectionCombinedV2
 title: SelectionSelectionCombinedV2
-description: 
+description: Implementation of the provider for the combined selection
 keywords:
   - "archive"
   - "provider"

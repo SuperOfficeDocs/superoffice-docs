@@ -1,7 +1,7 @@
 ---
 uid: PersonActivity
 title: PersonActivity
-description: 
+description: Activity archive provider for the Person card
 keywords:
   - "archive"
   - "provider"
@@ -617,7 +617,7 @@ Activity archive provider for the Person card
 ## Sample
 
 ```http!
-GET /api/v1/archive/PersonActivity?$select=project/updatedDate,person/kanaLastName,person/personRegisteredDate,contact/NumberOfNotCompletedTicketsInPeriod,sale/personId
+GET /api/v1/archive/PersonActivity?$select=person/personNoMail,contact/restrictionAddress/addressId,contact/contactUdef/SuperOffice:8,contact/NumberOfNotCompletedSales
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

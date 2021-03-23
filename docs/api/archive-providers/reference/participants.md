@@ -1,7 +1,7 @@
 ---
 uid: Participants
 title: Participants
-description: 
+description: Archive list provider for the participants list of a booking (multi-person appointment)
 keywords:
   - "archive"
   - "provider"
@@ -220,7 +220,7 @@ in through the externalPersonRestrictionId are actually associates, then that to
 ## Sample
 
 ```http!
-GET /api/v1/archive/Participants?$select=otherGroups,kanaFirstName
+GET /api/v1/archive/Participants?$select=isActive,kanaFirstName,personContact/contactId,personContact/email/emailBounceCount
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

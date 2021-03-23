@@ -1,7 +1,7 @@
 ---
 uid: ProjectShadowDynamicSelectionSingleCriteriaGroup
 title: ProjectShadowDynamicSelectionSingleCriteriaGroup
-description: 
+description: Shadow contact provider for the dynamic Project provider.
 keywords:
   - "archive"
   - "provider"
@@ -627,7 +627,7 @@ Shadow contact provider for the dynamic Project provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/ProjectShadowDynamicSelectionSingleCriteriaGroup?$select=updatedDate,projectEvent/hasSignOff,sale/associate/assocTooltip,sale/associate/simultaneousEjUser,appointment/recurrenceRuleId
+GET /api/v1/archive/ProjectShadowDynamicSelectionSingleCriteriaGroup?$select=appointment/associate/usergroup,appointment/updatedDate,document/documentPublish/isPublished
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

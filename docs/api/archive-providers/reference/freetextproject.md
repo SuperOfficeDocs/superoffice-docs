@@ -1,7 +1,7 @@
 ---
 uid: FreetextProject
 title: FreetextProject
-description: 
+description: Archive provider for freetext search on the Project entity.
 keywords:
   - "archive"
   - "provider"
@@ -140,7 +140,7 @@ as well as before any ORDER BY, are applied.
 ## Sample
 
 ```http!
-GET /api/v1/archive/FreetextProject?$select=projectUrl/URLDescription,projectAssociate/assocName
+GET /api/v1/archive/FreetextProject?$select=getNoRows,projectAssociate/lastName,projectUrl/URLDescription
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

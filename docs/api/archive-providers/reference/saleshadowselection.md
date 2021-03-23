@@ -1,7 +1,7 @@
 ---
 uid: SaleShadowSelection
 title: SaleShadowSelection
-description: 
+description: Shadow contact provider for the sale provider.
 keywords:
   - "archive"
   - "provider"
@@ -1005,7 +1005,7 @@ Shadow contact provider for the sale provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaleShadowSelection?$select=appointment/associate/contactName,document/documentId,project/projectAssociate/personId,project/SaintStatus3,saleStakeholder/person/birthDay
+GET /api/v1/archive/SaleShadowSelection?$select=appointment/associate/ejUserId,project/projectAssociate/personId,saleStakeholder/person/personDeletedDate,quote/version/alternative/quoteline/description
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -1,7 +1,7 @@
 ---
 uid: SaleTypeQuoteAttachment
 title: SaleTypeQuoteAttachment
-description: 
+description: This is the archive Provider for the Product Archive is SoAdmin.
 keywords:
   - "archive"
   - "provider"
@@ -113,7 +113,7 @@ This is the archive Provider for the Product Archive is SoAdmin.
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaleTypeQuoteAttachment?$select=document/keywords,document/visibleFor,document/documentUdef/SuperOffice:2
+GET /api/v1/archive/SaleTypeQuoteAttachment?$select=document/visibleFor,document/associate/ejDisplayName,document/yourref
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

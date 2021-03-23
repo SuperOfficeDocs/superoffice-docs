@@ -1,7 +1,7 @@
 ---
 uid: emailpersonaddress
 title: emailpersonaddress
-description: 
+description: Person subchannel for special purpose archive provider used to search for email addresses.
 keywords:
   - "archive"
   - "provider"
@@ -180,7 +180,7 @@ the email_id.
 ## Sample
 
 ```http!
-GET /api/v1/archive/emailpersonaddress?$select=personContact/contactNoMail,personContact/restrictionAddress/formattedMultiLineAddress,personAssociateId
+GET /api/v1/archive/emailpersonaddress?$select=emailAddress,personAssociateId,personAddress/county
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

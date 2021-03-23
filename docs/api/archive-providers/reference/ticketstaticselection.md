@@ -1,7 +1,7 @@
 ---
 uid: TicketStaticSelection
 title: TicketStaticSelection
-description: 
+description: Static archive Provider for a Selection of tickets archive.
 keywords:
   - "archive"
   - "provider"
@@ -403,7 +403,7 @@ Static archive Provider for a Selection of tickets archive.
 ## Sample
 
 ```http!
-GET /api/v1/archive/TicketStaticSelection?$select=firstReadByOwner,ownedBy/assocName,contact/saintSaleStatus
+GET /api/v1/archive/TicketStaticSelection?$select=ownedBy/isActive,person/portraitThumbnail,person/personInfo/infoText,person/restrictionAddress/city,contact/NumberOfNotCompletedTicketsInPeriod
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

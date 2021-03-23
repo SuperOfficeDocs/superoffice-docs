@@ -1,7 +1,7 @@
 ---
 uid: Numbers
 title: Numbers
-description: 
+description: Archive provider for the list of userpreferences
 keywords:
   - "archive"
   - "provider"
@@ -88,7 +88,7 @@ blah....
 ## Sample
 
 ```http!
-GET /api/v1/archive/Numbers?$select=updated_associate/credentialDisplayValue,updated,updated_associate/mrMrs
+GET /api/v1/archive/Numbers?$select=fieldId,updated_associate/assocName,updated
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -1,7 +1,7 @@
 ---
 uid: UserPreferences
 title: UserPreferences
-description: 
+description: User (and system) preference settings, at all levels
 keywords:
   - "archive"
   - "provider"
@@ -57,7 +57,7 @@ Service settings that are mapped into preferences, retrieved by <see cref="T:Sup
 ## Sample
 
 ```http!
-GET /api/v1/archive/UserPreferences?$select=deflevel,maxlevelname
+GET /api/v1/archive/UserPreferences?$select=deflevel,deflevel,maxlevelname
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

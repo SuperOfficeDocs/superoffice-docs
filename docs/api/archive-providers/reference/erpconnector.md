@@ -1,7 +1,7 @@
 ---
 uid: ErpConnector
 title: ErpConnector
-description: 
+description: Archive of ERP Connectors, used by the ERP Integrator Server
 keywords:
   - "archive"
   - "provider"

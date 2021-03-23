@@ -1,7 +1,7 @@
 ---
 uid: Sale
 title: Sale
-description: 
+description: Archive provider for Sale type activities. This provider can be used on its own, or can form part of the
 keywords:
   - "archive"
   - "provider"
@@ -843,7 +843,7 @@ Archive provider for Sale type activities. This provider can be used on its own,
 ## Sample
 
 ```http!
-GET /api/v1/archive/Sale?$select=text,contactId,person/restrictionAddress/state,person/restrictionAddress/formattedMultiLineAddress,project/projectAssociate/ejUserId
+GET /api/v1/archive/Sale?$select=contact/contactAssociate/lastName,associate/contactDepartment,saleStakeholder/person/personSource,saleStakeholder/person/personBusiness,saleStakeholder/person/searchPhone/formattedNumber
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

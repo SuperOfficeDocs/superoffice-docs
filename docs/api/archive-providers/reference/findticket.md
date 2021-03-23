@@ -1,7 +1,7 @@
 ---
 uid: FindTicket
 title: FindTicket
-description: 
+description: Ticket provider for Find
 keywords:
   - "archive"
   - "provider"
@@ -399,7 +399,7 @@ Ticket provider for Find
 ## Sample
 
 ```http!
-GET /api/v1/archive/FindTicket?$select=contact/contactAssociate/contactFullName,person/retired,person/restrictionAddress/line2
+GET /api/v1/archive/FindTicket?$select=person/personUpdatedDate,person/retired,person/restrictionAddress/line2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

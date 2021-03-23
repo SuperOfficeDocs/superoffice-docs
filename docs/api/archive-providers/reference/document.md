@@ -1,7 +1,7 @@
 ---
 uid: Document
 title: Document
-description: 
+description: Archive provider for Document type activities. This provider can be used on its own, or can form part of the
 keywords:
   - "archive"
   - "provider"
@@ -558,7 +558,7 @@ Archive provider for Document type activities. This provider can be used on its 
 ## Sample
 
 ```http!
-GET /api/v1/archive/Document?$select=getAllRows,subject,person/personMobilePhone/description,person/personAddress/state,person/restrictionAddress/line3
+GET /api/v1/archive/Document?$select=person/personPrivate/formattedNumber,contact/email/emailHasBounced,contact/contactAssociate/lastName,contact/NumberOfTickets,sale/credited
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

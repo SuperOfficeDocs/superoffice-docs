@@ -1,7 +1,7 @@
 ---
 uid: FreetextDocument
 title: FreetextDocument
-description: 
+description: Archive provider for freetext search on the Document entity (any kind of document).
 keywords:
   - "archive"
   - "provider"
@@ -568,7 +568,7 @@ as well as before any ORDER BY, are applied.
 ## Sample
 
 ```http!
-GET /api/v1/archive/FreetextDocument?$select=person/hasInfoText,contact/phone/formattedNumber,contact/saintTicketStatus,associate/usergroup
+GET /api/v1/archive/FreetextDocument?$select=associateId,sale/currency,contact/mainContact
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

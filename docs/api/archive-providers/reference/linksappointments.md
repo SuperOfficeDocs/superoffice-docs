@@ -1,7 +1,7 @@
 ---
 uid: LinksAppointments
 title: LinksAppointments
-description: 
+description: Link data provider for appointments, handles both addressing by source or by destination (not both at the same time!)
 keywords:
   - "archive"
   - "provider"
@@ -575,7 +575,7 @@ Link data provider for appointments, handles both addressing by source or by des
 ## Sample
 
 ```http!
-GET /api/v1/archive/LinksAppointments?$select=registeredDate,person/personDirectFax/description,person/email/emailAddress,sale/saleId
+GET /api/v1/archive/LinksAppointments?$select=contact/restrictionAddress/wgs84longitude,contact/contactAssociate/contactDepartment,contact/contactAssociate/assocType,contact/contactUdef/SuperOffice:8,contact/NumberOfTickets
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

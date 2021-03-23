@@ -1,7 +1,7 @@
 ---
 uid: AppointmentShadowDynamicSelection
 title: AppointmentShadowDynamicSelection
-description: 
+description: Shadow contact provider for the dynamic appointmnet provider.
 keywords:
   - "archive"
   - "provider"
@@ -568,7 +568,7 @@ Shadow contact provider for the dynamic appointmnet provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/AppointmentShadowDynamicSelection?$select=invitedPersonId,person/email/emailHasBounced,sale/associateId,sale/associate/firstName
+GET /api/v1/archive/AppointmentShadowDynamicSelection?$select=completed,contact/streetAddress/state,person/personUdef/SuperOffice:2,project/projectUdef/SuperOffice:2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

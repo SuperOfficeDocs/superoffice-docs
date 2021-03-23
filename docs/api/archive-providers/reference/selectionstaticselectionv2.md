@@ -1,7 +1,7 @@
 ---
 uid: SelectionStaticSelectionV2
 title: SelectionStaticSelectionV2
-description: 
+description: Static archive Provider for a Selection of selection archive.
 keywords:
   - "archive"
   - "provider"
@@ -82,7 +82,7 @@ Static archive Provider for a Selection of selection archive.
 ## Sample
 
 ```http!
-GET /api/v1/archive/SelectionStaticSelectionV2?$select=selectionAssociate/credentialDisplayValue,lastMembershipChange,selectionAssociate/personId
+GET /api/v1/archive/SelectionStaticSelectionV2?$select=selectionAssociate/assocType,lastMembershipChange,selectionAssociate/personId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

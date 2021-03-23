@@ -1,7 +1,7 @@
 ---
 uid: SaleDiary
 title: SaleDiary
-description: 
+description: Sale archive provider for the Diary card
 keywords:
   - "archive"
   - "provider"
@@ -842,7 +842,7 @@ Sale archive provider for the Diary card
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaleDiary?$select=person/personNoMail,person/legalBaseStore,contact/number,contact/restrictionAddress/zip,contact/contactAssociate/ejUserId
+GET /api/v1/archive/SaleDiary?$select=probPercent,originalStage,person/hasInterests,contact/url/URLAddress,project/hasInfoText
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

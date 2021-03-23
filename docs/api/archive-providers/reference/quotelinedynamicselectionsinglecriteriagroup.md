@@ -1,7 +1,7 @@
 ---
 uid: QuoteLineDynamicSelectionSingleCriteriaGroup
 title: QuoteLineDynamicSelectionSingleCriteriaGroup
-description: 
+description: Sale selection archive using the selectionId as criterionmapping.
 keywords:
   - "archive"
   - "provider"
@@ -600,7 +600,7 @@ Sale selection archive using the selectionId as criterionmapping.
 ## Sample
 
 ```http!
-GET /api/v1/archive/QuoteLineDynamicSelectionSingleCriteriaGroup?$select=alternative/version/quote/sale/person/personDirectPhone/description,alternative/version/quote/sale/person/subscription,alternative/version/quote/sale/contact/restrictionAddress/county,alternative/version/quote/sale/contact/contactAssociate/usergroup,alternative/version/quote/sale/contact/NumberOfSales
+GET /api/v1/archive/QuoteLineDynamicSelectionSingleCriteriaGroup?$select=alternative/version/quote/sale/date,alternative/version/quote/sale/person/restrictionAddress/city,alternative/version/quote/sale/contact/NumberOfSales,alternative/version/quote/sale/contact/LastSale,alternative/version/quote/sale/project/projectAssociate/assocTooltip
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

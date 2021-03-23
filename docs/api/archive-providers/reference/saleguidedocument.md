@@ -1,7 +1,7 @@
 ---
 uid: SaleGuideDocument
 title: SaleGuideDocument
-description: 
+description: Specific provider for Sale Guide Items of type Appointment
 keywords:
   - "archive"
   - "provider"
@@ -576,7 +576,7 @@ to drive the sentry calculations, as well as the specialization with the correct
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaleGuideDocument?$select=documentInstance/person/fullName,documentInstance/contact/contactPhone/description,documentInstance/project/NumberOfNotCompletedSalesInPeriod,documentInstance/project/saintIntention
+GET /api/v1/archive/SaleGuideDocument?$select=documentInstance/person/personDirectFax/formattedNumber,documentInstance/contact/searchPhone/formattedNumber,documentInstance/contact/contactAssociate/contactDepartment,documentInstance/sale/reopenDate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

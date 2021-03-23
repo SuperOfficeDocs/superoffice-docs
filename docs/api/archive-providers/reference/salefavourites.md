@@ -842,7 +842,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/salefavourites?$select=person/personAddress/city,contact/url/URLDescription,contact/contactAssociate/associateDbId,contact/LastTicket,project/projectAssociate/credentialDisplayValue
+GET /api/v1/archive/salefavourites?$select=hasStakeholders,person/personRegisteredDate,person/personAddress/wgs84longitude,contact/phone/formattedNumber,associate/fullName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

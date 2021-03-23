@@ -1,7 +1,7 @@
 ---
 uid: ErpConnection
 title: ErpConnection
-description: 
+description: Archive of ERP Connections, used by the ERP Integration Server
 keywords:
   - "archive"
   - "provider"
@@ -55,7 +55,7 @@ Archive of ERP Connections, used by the ERP Integration Server
 ## Sample
 
 ```http!
-GET /api/v1/archive/ErpConnection?$select=id,updatedDate,mostRecent
+GET /api/v1/archive/ErpConnection?$select=erpId,mostRecent,updatedBy
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

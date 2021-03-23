@@ -1,7 +1,7 @@
 ---
 uid: QuoteLineSelectionV2
 title: QuoteLineSelectionV2
-description: 
+description: This is the archive Provider for the Selection QuoteLine archive.
 keywords:
   - "archive"
   - "provider"
@@ -607,7 +607,7 @@ This is the archive Provider for the Selection QuoteLine archive.
 ## Sample
 
 ```http!
-GET /api/v1/archive/QuoteLineSelectionV2?$select=UnitListPriceSubscriptionQuantity,alternative/description,alternative/version/quote/sale/contact/contactAssociate/personEmail,alternative/version/quote/sale/contact/contactUdef/SuperOffice:9,alternative/version/quote/sale/contact/NumberOfNotCompletedActivities
+GET /api/v1/archive/QuoteLineSelectionV2?$select=alternative/version/extraField4,alternative/version/quote/sale/person/personAddress/formattedAddress,alternative/version/quote/sale/person/withdrawnStoreConsent,alternative/version/quote/sale/contact/postAddress/zip,alternative/version/quote/sale/contact/postAddress/state
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

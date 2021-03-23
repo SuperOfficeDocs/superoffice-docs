@@ -1,7 +1,7 @@
 ---
 uid: AggregationWrapper2
 title: AggregationWrapper2
-description: 
+description: This is the main aggregation engine for the Archive Provider system - version 2,
 keywords:
   - "archive"
   - "provider"

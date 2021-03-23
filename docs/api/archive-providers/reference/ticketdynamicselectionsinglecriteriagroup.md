@@ -1,7 +1,7 @@
 ---
 uid: TicketDynamicSelectionSingleCriteriaGroup
 title: TicketDynamicSelectionSingleCriteriaGroup
-description: 
+description: Ticket selection archive using the selectionId as criterionmapping.
 keywords:
   - "archive"
   - "provider"
@@ -398,7 +398,7 @@ Ticket selection archive using the selectionId as criterionmapping.
 ## Sample
 
 ```http!
-GET /api/v1/archive/TicketDynamicSelectionSingleCriteriaGroup?$select=timeToClose,contact/NumberOfSalesInPeriod,person/retired
+GET /api/v1/archive/TicketDynamicSelectionSingleCriteriaGroup?$select=contact/streetAddress/state,contact/contactUdef/SuperOffice:3,contact/NumberOfNotCompletedTicketsInPeriod,contact/LastCompletedTicket,contact/saintSaleStatus
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

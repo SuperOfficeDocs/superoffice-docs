@@ -1,7 +1,7 @@
 ---
 uid: Mail
 title: Mail
-description: 
+description: Provides populated mail envelope rows as an archive based on a query string
 keywords:
   - "archive"
   - "provider"

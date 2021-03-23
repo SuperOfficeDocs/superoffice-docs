@@ -1,7 +1,7 @@
 ---
 uid: QuoteLineShadowDynamicSelection
 title: QuoteLineShadowDynamicSelection
-description: 
+description: Shadow contact provider for the dynamic quoteline provider.
 keywords:
   - "archive"
   - "provider"
@@ -602,7 +602,7 @@ Shadow contact provider for the dynamic quoteline provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/QuoteLineShadowDynamicSelection?$select=alternative/version/quote/sale/person/personAddress/wgs84latitude,alternative/version/quote/sale/project/description,alternative/version/quote/connection/erpConnection/allAccess
+GET /api/v1/archive/QuoteLineShadowDynamicSelection?$select=alternative/version/quote/sale/person/personAddress/city,alternative/version/quote/sale/person/personUdef/SuperOffice:8,alternative/version/quote/sale/contact/LastCompletedSale
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

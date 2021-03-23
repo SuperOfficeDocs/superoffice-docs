@@ -1,7 +1,7 @@
 ---
 uid: TicketShadowDynamicSelectionSingleCriteriaGroup
 title: TicketShadowDynamicSelectionSingleCriteriaGroup
-description: 
+description: Shadow contact provider for the dynamic ticket provider.
 keywords:
   - "archive"
   - "provider"
@@ -398,7 +398,7 @@ Shadow contact provider for the dynamic ticket provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/TicketShadowDynamicSelectionSingleCriteriaGroup?$select=ownedBy/simultaneousEjUser,person/personDirectFax/description,contact/updatedBy,contact/postAddress/state,contact/contactAssociate/isActiveText
+GET /api/v1/archive/TicketShadowDynamicSelectionSingleCriteriaGroup?$select=createdBy/title,person/personAddress/zip,person/restrictionAddress/addressId,contact/restrictionAddress/formattedMultiLineAddress,contact/SaintStatus1
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

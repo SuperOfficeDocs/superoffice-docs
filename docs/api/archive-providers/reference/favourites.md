@@ -1,7 +1,7 @@
 ---
 uid: Favourites
 title: Favourites
-description: 
+description: Archive provider for the list of favourites
 keywords:
   - "archive"
   - "provider"
@@ -2116,7 +2116,7 @@ blah....
 ## Sample
 
 ```http!
-GET /api/v1/archive/Favourites?$select=person/personRegisteredBy,contact/searchPhone/formattedNumber,contact/contactAssociate/isActive,associate/title,project/projectEvent/hasSignOn
+GET /api/v1/archive/Favourites?$select=sale/description,person/withdrawnEmarketingConsent,contact/restrictionAddress/wgs84latitude,contact/contactAssociate/contactId,saleUdef/SuperOffice:5
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

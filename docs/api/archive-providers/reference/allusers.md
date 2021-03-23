@@ -1,7 +1,7 @@
 ---
 uid: AllUsers
 title: AllUsers
-description: 
+description: Concrete provider for all kinds of users, unfiltered. See <see cref="T-SuperOffice.CRM.ArchiveLists.UsersProviderBase" /> for
 keywords:
   - "archive"
   - "provider"

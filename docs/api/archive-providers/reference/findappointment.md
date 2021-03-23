@@ -1,7 +1,7 @@
 ---
 uid: FindAppointment
 title: FindAppointment
-description: 
+description: Find appointment provider
 keywords:
   - "archive"
   - "provider"
@@ -566,7 +566,7 @@ Find appointment provider
 ## Sample
 
 ```http!
-GET /api/v1/archive/FindAppointment?$select=contact/email/emailAddress,person/birthMonth,person/personPrivate/description
+GET /api/v1/archive/FindAppointment?$select=endDate,contact/business,contact/restrictionAddress/city,contact/contactAssociate/credentialDisplayValue,contact/SaintStatus2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

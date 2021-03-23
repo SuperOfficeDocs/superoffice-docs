@@ -115,7 +115,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/LinksPerson?$select=associateType,associateType,personActiveErpLinks
+GET /api/v1/archive/LinksPerson?$select=personNumber,title,associateType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

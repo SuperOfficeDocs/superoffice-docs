@@ -1,7 +1,7 @@
 ---
 uid: DocumentSelectionCombinedV2
 title: DocumentSelectionCombinedV2
-description: 
+description: Implementation of the provider for the combined selection
 keywords:
   - "archive"
   - "provider"
@@ -562,7 +562,7 @@ Implementation of the provider for the combined selection
 ## Sample
 
 ```http!
-GET /api/v1/archive/DocumentSelectionCombinedV2?$select=contact/category,contact/restrictionAddress/addressId,documentUdef/SuperOffice:4
+GET /api/v1/archive/DocumentSelectionCombinedV2?$select=person/email/emailLastBounce,contact/LastSale,contact/contactPhone/description
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

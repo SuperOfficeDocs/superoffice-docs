@@ -624,7 +624,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/ProjectStaticSelection?$select=projectAssociate/personId,projectAssociate/ejUserId,sale/associate/ejUserId,appointment/time,appointment/associate/assocType
+GET /api/v1/archive/ProjectStaticSelection?$select=projectMember/personAddress/county,projectMember/withdrawnStoreConsent,projectMember/streetAddress/formattedMultiLineAddress
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

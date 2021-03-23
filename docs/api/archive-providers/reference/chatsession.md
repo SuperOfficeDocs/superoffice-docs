@@ -1,7 +1,7 @@
 ---
 uid: ChatSession
 title: ChatSession
-description: 
+description: Archive provider for listing chat session and related data to a chat
 keywords:
   - "archive"
   - "provider"
@@ -150,7 +150,7 @@ Archive provider for listing chat session and related data to a chat
 ## Sample
 
 ```http!
-GET /api/v1/archive/ChatSession?$select=person/isStakeholder,associate/ejUserId,person/hasInterests
+GET /api/v1/archive/ChatSession?$select=contact/category,associate/ejUserId,person/hasInterests
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

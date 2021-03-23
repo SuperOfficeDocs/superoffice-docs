@@ -1,7 +1,7 @@
 ---
 uid: PersonRelation
 title: PersonRelation
-description: 
+description: Data provider class for the 'Relation' archive under the person card. This class combines output from
 keywords:
   - "archive"
   - "provider"
@@ -484,7 +484,7 @@ the eight basic sub-providers (CC, PC, PP and CP plus their reversed cousins) in
 ## Sample
 
 ```http!
-GET /api/v1/archive/PersonRelation?$select=source/personNoMail,target/stop,target/restrictionAddress/line3,target/LastDoBySale,target/personRegisteredDate
+GET /api/v1/archive/PersonRelation?$select=processedName,source/orgnr,target/SaintStatus2,source/postAddress/formattedMultiLineAddress,source/streetAddress/formattedMultiLineAddress
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

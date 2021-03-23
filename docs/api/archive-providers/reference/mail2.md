@@ -1,7 +1,7 @@
 ---
 uid: Mail2
 title: Mail2
-description: 
+description: Provides populated mail envelope rows as an archive
 keywords:
   - "archive"
   - "provider"
@@ -385,7 +385,7 @@ Provides populated mail envelope rows as an archive
 ## Sample
 
 ```http!
-GET /api/v1/archive/Mail2?$select=person/restrictionAddress/formattedAddress,contact/hasInterests
+GET /api/v1/archive/Mail2?$select=person/restrictionAddress/city,contact/email/emailAddress,person/restrictionAddress/formattedAddress
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -1,7 +1,7 @@
 ---
 uid: CancelledInvitation
 title: CancelledInvitation
-description: 
+description: This is the query provider for invitations, of subtype 'Cancelled'
 keywords:
   - "archive"
   - "provider"
@@ -571,7 +571,7 @@ This is an optional entity and is fetched only if the user checks the correspond
 ## Sample
 
 ```http!
-GET /api/v1/archive/CancelledInvitation?$select=contact/restrictionAddress/city,person/personDirectPhone/formattedNumber,person/restrictionAddress/addressId,project/projectEvent/isExternalEvent,project/projectAssociate/isActive
+GET /api/v1/archive/CancelledInvitation?$select=contact/contactAssociate/assocName,project/description,project/projectAssociate/contactName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -1,7 +1,7 @@
 ---
 uid: AppointmentSelectionCombined
 title: AppointmentSelectionCombined
-description: 
+description: Implementation of the provider for the combined selection
 keywords:
   - "archive"
   - "provider"
@@ -570,7 +570,7 @@ Implementation of the provider for the combined selection
 ## Sample
 
 ```http!
-GET /api/v1/archive/AppointmentSelectionCombined?$select=contact/restrictionAddress/wgs84latitude,contact/saintActivityType,project/projectUdef/SuperOffice:1,sale/earningPercent,sale/saleUdef/SuperOffice:1
+GET /api/v1/archive/AppointmentSelectionCombined?$select=endTime,contact/postAddress/formattedAddress,sale/saleUdef/SuperOffice:5
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

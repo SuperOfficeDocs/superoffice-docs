@@ -1,7 +1,7 @@
 ---
 uid: simpleshipment
 title: simpleshipment
-description: 
+description: Archive provider for the list of mailings
 keywords:
   - "archive"
   - "provider"
@@ -182,7 +182,7 @@ Archive provider for the list of mailings
 ## Sample
 
 ```http!
-GET /api/v1/archive/simpleshipment?$select=associate/isActive,project/activeErpLinks
+GET /api/v1/archive/simpleshipment?$select=project/updatedDate,associate/isActive,project/activeErpLinks
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

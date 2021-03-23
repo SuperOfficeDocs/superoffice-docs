@@ -1,7 +1,7 @@
 ---
 uid: DocumentSelection
 title: DocumentSelection
-description: 
+description: This is the archive Provider for the Selection document archive.
 keywords:
   - "archive"
   - "provider"
@@ -562,7 +562,7 @@ This is the archive Provider for the Selection document archive.
 ## Sample
 
 ```http!
-GET /api/v1/archive/DocumentSelection?$select=contact/contactFax/description,contact/postAddress/city,contact/restrictionAddress/addressId,contact/contactAssociate/otherGroups,associate/simultaneousEjUser
+GET /api/v1/archive/DocumentSelection?$select=person/birthMonth,contact/restrictionAddress/wgs84longitude,contact/contactAssociate/firstName,contact/saintDirection,project/projectAssociate/ejUserId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

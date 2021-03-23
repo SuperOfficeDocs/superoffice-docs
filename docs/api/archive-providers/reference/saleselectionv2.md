@@ -1,7 +1,7 @@
 ---
 uid: SaleSelectionV2
 title: SaleSelectionV2
-description: 
+description: This is the archive Provider for the Selection sale archive.
 keywords:
   - "archive"
   - "provider"
@@ -1005,7 +1005,7 @@ This is the archive Provider for the Selection sale archive.
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaleSelectionV2?$select=amount,person/hasCompany,contact/email/emailLastBounce,document/associate/credentialDisplayValue,project/projectUdef/SuperOffice:4
+GET /api/v1/archive/SaleSelectionV2?$select=contact/restrictionAddress/line3,associate/simultaneousEjUser,document/documentPublish/publishedTo,document/associate/contactId,project/saintAmountClass
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -1,7 +1,7 @@
 ---
 uid: SaleSelectionCombinedV2
 title: SaleSelectionCombinedV2
-description: 
+description: Implementation of the provider for the combined selection
 keywords:
   - "archive"
   - "provider"
@@ -1005,7 +1005,7 @@ Implementation of the provider for the combined selection
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaleSelectionCombinedV2?$select=currencyId,earningPercent,salePublish/publishedBy,associate/userName,document/who
+GET /api/v1/archive/SaleSelectionCombinedV2?$select=person/kanaLastName,appointment/associate/personEmail,document/associate/lastName,document/associate/contactName,document/associate/contactCategory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

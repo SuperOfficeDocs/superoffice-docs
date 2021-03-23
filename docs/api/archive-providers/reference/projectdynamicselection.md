@@ -1,7 +1,7 @@
 ---
 uid: ProjectDynamicSelection
 title: ProjectDynamicSelection
-description: 
+description: Project selection archive using the selectionId as criterionmapping.
 keywords:
   - "archive"
   - "provider"
@@ -629,7 +629,7 @@ Project selection archive using the selectionId as criterionmapping.
 ## Sample
 
 ```http!
-GET /api/v1/archive/ProjectDynamicSelection?$select=projectPublish/isPublished,projectUdef/SuperOffice:1,sale/salePublish/publishedBy,appointment/appointmentUdef/SuperOffice:2,appointment/associate/credentialType
+GET /api/v1/archive/ProjectDynamicSelection?$select=projectAssociate/usergroup,sale/registeredBy,sale/associate/contactId,projectMember/email/emailDescription
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -1,7 +1,7 @@
 ---
 uid: BatchTasks
 title: BatchTasks
-description: 
+description: Archive of Batch Tasks - used by the web api and partners.
 keywords:
   - "archive"
   - "provider"

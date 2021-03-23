@@ -1,7 +1,7 @@
 ---
 uid: EventHandler
 title: EventHandler
-description: 
+description: Archive of Event handlers - triggers - used by the web api and partners.
 keywords:
   - "archive"
   - "provider"
@@ -46,7 +46,7 @@ Lists all triggers in screenchooser table with screenType &gt;= 100.
 ## Sample
 
 ```http!
-GET /api/v1/archive/EventHandler?$select=registeredDate,path,screenType
+GET /api/v1/archive/EventHandler?$select=path,screenType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

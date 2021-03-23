@@ -1,7 +1,7 @@
 ---
 uid: ProjectSelectionCombined
 title: ProjectSelectionCombined
-description: 
+description: Implementation of the provider for the combined selection
 keywords:
   - "archive"
   - "provider"
@@ -626,7 +626,7 @@ Implementation of the provider for the combined selection
 ## Sample
 
 ```http!
-GET /api/v1/archive/ProjectSelectionCombined?$select=sale/salePublish/publishedTo,appointment/associate/assocType,projectMember/portraitThumbnail,projectMember/personCategory
+GET /api/v1/archive/ProjectSelectionCombined?$select=projectAssociate/role,sale/salePublish/isPublished,appointment/associate/mrMrs,projectMember/email/emailHasBounced,projectMember/activeErpLinks
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

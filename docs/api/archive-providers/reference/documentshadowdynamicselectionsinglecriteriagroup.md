@@ -1,7 +1,7 @@
 ---
 uid: DocumentShadowDynamicSelectionSingleCriteriaGroup
 title: DocumentShadowDynamicSelectionSingleCriteriaGroup
-description: 
+description: Shadow contact provider for the dynamic document provider.
 keywords:
   - "archive"
   - "provider"
@@ -557,7 +557,7 @@ Shadow contact provider for the dynamic document provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/DocumentShadowDynamicSelectionSingleCriteriaGroup?$select=associate/assocName,contact/mainContact,contact/contactUdef/SuperOffice:5
+GET /api/v1/archive/DocumentShadowDynamicSelectionSingleCriteriaGroup?$select=contact/contactAssociate/credentialType,associate/ejUserId,sale/saleUdef/SuperOffice:4
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

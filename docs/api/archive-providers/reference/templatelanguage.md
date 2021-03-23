@@ -1,7 +1,7 @@
 ---
 uid: TemplateLanguage
 title: TemplateLanguage
-description: 
+description: Archive Provider for retriving the registered languages for a given document template.
 keywords:
   - "archive"
   - "provider"

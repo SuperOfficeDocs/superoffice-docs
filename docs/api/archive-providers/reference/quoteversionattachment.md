@@ -1,7 +1,7 @@
 ---
 uid: QuoteVersionAttachment
 title: QuoteVersionAttachment
-description: 
+description: This is the archive Provider for quote version attachments.
 keywords:
   - "archive"
   - "provider"

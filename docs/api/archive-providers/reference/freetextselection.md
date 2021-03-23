@@ -1,7 +1,7 @@
 ---
 uid: FreetextSelection
 title: FreetextSelection
-description: 
+description: Archive provider for freetext search on the Selection entity.
 keywords:
   - "archive"
   - "provider"

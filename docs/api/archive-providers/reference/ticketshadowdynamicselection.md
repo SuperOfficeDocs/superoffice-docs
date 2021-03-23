@@ -1,7 +1,7 @@
 ---
 uid: TicketShadowDynamicSelection
 title: TicketShadowDynamicSelection
-description: 
+description: Shadow contact provider for the dynamic ticket provider.
 keywords:
   - "archive"
   - "provider"
@@ -400,7 +400,7 @@ Shadow contact provider for the dynamic ticket provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/TicketShadowDynamicSelection?$select=realTimeSpentQueue,createdBy/isActiveText,person/personId,contact/name,contact/postAddress/line3
+GET /api/v1/archive/TicketShadowDynamicSelection?$select=createdBy/mrMrs,ownedBy/associateDbId,person/restrictionAddress/city
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

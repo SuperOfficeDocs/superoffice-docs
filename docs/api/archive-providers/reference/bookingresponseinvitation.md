@@ -1,7 +1,7 @@
 ---
 uid: BookingResponseInvitation
 title: BookingResponseInvitation
-description: 
+description: This is the query provider for invitations, of subtype 'Response'
 keywords:
   - "archive"
   - "provider"
@@ -572,7 +572,7 @@ must be &gt;= start of today. This is an optional entity and is fetched if the u
 ## Sample
 
 ```http!
-GET /api/v1/archive/BookingResponseInvitation?$select=visibleInDiary,contact/postAddress/wgs84longitude,sale/heading
+GET /api/v1/archive/BookingResponseInvitation?$select=contact/restrictionAddress/wgs84latitude,contact/contactAssociate/personEmail,person/personSource,person/personAddress/state,project/icon
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

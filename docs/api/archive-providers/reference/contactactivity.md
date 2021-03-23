@@ -1,7 +1,7 @@
 ---
 uid: ContactActivity
 title: ContactActivity
-description: 
+description: Activity archive provider for the Company card
 keywords:
   - "archive"
   - "provider"
@@ -25,8 +25,8 @@ Activity archive provider for the Company card
 | Name | Description |
 | ---- | ----- |
 |"chat"|Other|
-|"formSubmission"|Form submissions|
 |"mailing"|Mailings|
+|"formSubmission"|Form submissions|
 |"document"|Documents|
 |"appointment"|Follow-ups|
 
@@ -150,11 +150,6 @@ Activity archive provider for the Company card
 |contact/activeErpLinks|bool|Company - ERP connected: Is there an active ERP Sync?| x |
 |contact/deletedDate|datetime|Company - Deleted date: Deleted date|  |
 |contact/mainContact| *None* |Company - Main contact: Main contact for this company| x |
-|formSubmissionId|int|Form submission ID: ID of the form submission record| x |
-|formSubmissionStatus|listAny|Status: Status of the form submission record| x |
-|time| *None* |Time: Time|  |
-|updatedBy|associate|Updated by: The user who last updated the data| x |
-|registeredBy|associate|Registered by: The user who registered the data| x |
 |mailingId|int|ID: Displays the ID of the mailing| x |
 |selectionId|int|Selection ID: The database ID of the selection| x |
 |mailingDescription|string|Name: Displays the name of the mailing| x |
@@ -166,6 +161,8 @@ Activity archive provider for the Company card
 |mailingDeleted|int|Deleted: Deleted|  |
 |recipientStatus|int|Reception status: Status of mailing reception|  |
 |projectId|listAny|Project ID: Database ID of project record| x |
+|updatedBy|associate|Updated by: The user who last updated the data| x |
+|registeredBy|associate|Registered by: The user who registered the data| x |
 |associate/associateDbId|associate|Associate - ID| x |
 |project/completed|bool|Project - Completed: Displays a check mark indicating if the project has been completed.| x |
 |project/projectId|int|Project - DB ID: Displays the database ID for a project row| x |
@@ -261,6 +258,9 @@ Activity archive provider for the Company card
 |project/saintTicketCategory|listAny|Project - Category|  |
 |project/project/textId|int|Project - Text ID| x |
 |project/project/infoText|positiveString|Project - Information: Displays the text entered in the description field| x |
+|formSubmissionId|int|Form submission ID: ID of the form submission record| x |
+|formSubmissionStatus|listAny|Status: Status of the form submission record| x |
+|time| *None* |Time: Time|  |
 |completed|bool|Completed: Displays a checkbox showing if an appointment is completed| x |
 |recordType|string|Record type : Shows the record type| x |
 |saleId|int|Sale ID: The database ID of the sale record| x |
@@ -617,7 +617,7 @@ Activity archive provider for the Company card
 ## Sample
 
 ```http!
-GET /api/v1/archive/ContactActivity?$select=associate/credentialDisplayValue,contact/contactNoMail,person/restrictionAddress/zip,contact/contactUdef/SuperOffice:10,suggestedAppointmentId
+GET /api/v1/archive/ContactActivity?$select=person/hasInfoText,person/personAssociateId,contact/hasInterests,contact/deletedDate,project/projectAssociate/middleName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

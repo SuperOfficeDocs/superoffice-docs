@@ -1,7 +1,7 @@
 ---
 uid: ReportProvider
 title: ReportProvider
-description: 
+description: This archive provider is made for getting the available criteria for a given report.
 keywords:
   - "archive"
   - "provider"

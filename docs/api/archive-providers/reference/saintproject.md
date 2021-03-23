@@ -1,7 +1,7 @@
 ---
 uid: SaintProject
 title: SaintProject
-description: 
+description: Archive provider for Project Saint Status - same as Find Project, but adds ability to call up stored definitions via a statusDefId column
 keywords:
   - "archive"
   - "provider"
@@ -628,7 +628,7 @@ Archive provider for Project Saint Status - same as Find Project, but adds abili
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaintProject?$select=sale/text,sale/earningPercent,appointment/associateId,projectMember/personUpdatedBy,projectMember/personAddress/county
+GET /api/v1/archive/SaintProject?$select=nextMilestone,projectAssociate/contactDepartment,sale/soldReason,sale/saleUdef/SuperOffice:8,appointment/type
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

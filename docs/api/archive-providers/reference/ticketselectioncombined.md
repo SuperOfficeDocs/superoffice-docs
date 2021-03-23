@@ -1,7 +1,7 @@
 ---
 uid: TicketSelectionCombined
 title: TicketSelectionCombined
-description: 
+description: Implementation of the provider for the combined selection
 keywords:
   - "archive"
   - "provider"
@@ -403,7 +403,7 @@ Implementation of the provider for the combined selection
 ## Sample
 
 ```http!
-GET /api/v1/archive/TicketSelectionCombined?$select=contact/streetAddress/wgs84latitude,contact/contactAssociate/contactCategory,contact/LastDoByTicket
+GET /api/v1/archive/TicketSelectionCombined?$select=ownedBy/associateDbId,person/fullName,person/position,contact/contactAssociate/mrMrs,rowKind
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

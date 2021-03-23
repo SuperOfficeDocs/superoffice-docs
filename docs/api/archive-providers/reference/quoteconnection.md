@@ -1,7 +1,7 @@
 ---
 uid: QuoteConnection
 title: QuoteConnection
-description: 
+description: This is the archive Provider for the QuoteConnection Archive in SoAdmin.
 keywords:
   - "archive"
   - "provider"

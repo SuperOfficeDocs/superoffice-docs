@@ -1,7 +1,7 @@
 ---
 uid: ProjectShadowStaticSelection
 title: ProjectShadowStaticSelection
-description: 
+description: Shadow contact provider for the static Project provider.
 keywords:
   - "archive"
   - "provider"
@@ -626,7 +626,7 @@ Shadow contact provider for the static Project provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/ProjectShadowStaticSelection?$select=LastSale,appointment/appointmentUdef/SuperOffice:8,document/isReport,projectMember/personHasInterests,projectMember/email/emailId
+GET /api/v1/archive/ProjectShadowStaticSelection?$select=sale/updatedBy,sale/hasQuote,appointment/booking,appointment/completedDate,appointment/associate/assocName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -1,7 +1,7 @@
 ---
 uid: DiaryAppointment
 title: DiaryAppointment
-description: 
+description: Archive provider for Appointment activities, of the Diary type (not followup or booking). This provider can be used on its own, or can form part of the
 keywords:
   - "archive"
   - "provider"
@@ -567,7 +567,7 @@ Archive provider for Appointment activities, of the Diary type (not followup or 
 ## Sample
 
 ```http!
-GET /api/v1/archive/DiaryAppointment?$select=date,contact/contactAssociate/usergroup,contact/contactAssociate/role,project/SaintStatus3
+GET /api/v1/archive/DiaryAppointment?$select=contact/contactInterestIds,contact/NumberOfSalesInPeriod,contact/NumberOfNotCompletedSalesInPeriod
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

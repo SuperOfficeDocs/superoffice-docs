@@ -1,7 +1,7 @@
 ---
 uid: ListItems
 title: ListItems
-description: 
+description: Archive provider for the list of ListItems
 keywords:
   - "archive"
   - "provider"
@@ -54,7 +54,7 @@ blah....
 ## Sample
 
 ```http!
-GET /api/v1/archive/ListItems?$select=listItemsName,listItemsTooltip
+GET /api/v1/archive/ListItems?$select=listItemsRank,listItemsName,listItemsTooltip
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

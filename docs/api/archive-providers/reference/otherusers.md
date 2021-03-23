@@ -1,7 +1,7 @@
 ---
 uid: OtherUsers
 title: OtherUsers
-description: 
+description: Concrete provider for 'Other' Users - System and Anonymous user accounts. See <see cref="T-SuperOffice.CRM.ArchiveLists.UsersProviderBase" /> for
 keywords:
   - "archive"
   - "provider"

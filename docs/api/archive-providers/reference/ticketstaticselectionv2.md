@@ -1,7 +1,7 @@
 ---
 uid: TicketStaticSelectionV2
 title: TicketStaticSelectionV2
-description: 
+description: Static archive Provider for a Selection of tickets archive.
 keywords:
   - "archive"
   - "provider"
@@ -403,7 +403,7 @@ Static archive Provider for a Selection of tickets archive.
 ## Sample
 
 ```http!
-GET /api/v1/archive/TicketStaticSelectionV2?$select=person/personId,person/personPager/description,person/email/emailHasBounced,contact/postAddress/wgs84longitude,contact/contactUdef/SuperOffice:3
+GET /api/v1/archive/TicketStaticSelectionV2?$select=ownedBy/ejDisplayName,person/personUpdatedDate,person/personUdef/SuperOffice:1,person/personUdef/SuperOffice:6,person/subscription
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -1,7 +1,7 @@
 ---
 uid: DocumentShadowDynamicSelection
 title: DocumentShadowDynamicSelection
-description: 
+description: Shadow contact provider for the dynamic document provider.
 keywords:
   - "archive"
   - "provider"
@@ -559,7 +559,7 @@ Shadow contact provider for the dynamic document provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/DocumentShadowDynamicSelection?$select=text,person/retired,project/updatedBy,project/endDate,project/projectAssociate/ejStatus
+GET /api/v1/archive/DocumentShadowDynamicSelection?$select=person/personAddress/state,contact/department,sale/salePublish/publishedTo,sale/associate/firstName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

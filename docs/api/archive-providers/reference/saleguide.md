@@ -1,7 +1,7 @@
 ---
 uid: SaleGuide
 title: SaleGuide
-description: 
+description: Provider for the Sale Guide, common to both Appointment and Document guide items and instances
 keywords:
   - "archive"
   - "provider"
@@ -1108,7 +1108,7 @@ This provider is a trivial aggregation of the Appointment and Document providers
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaleGuide?$select=appointmentInstance/completed,appointmentInstance/contact/contactUdef/SuperOffice:3,appointmentInstance/contact/contactUdef/SuperOffice:4,appointmentInstance/person/personUdef/SuperOffice:10,appointmentInstance/person/legalBaseEmarketing
+GET /api/v1/archive/SaleGuide?$select=appointmentInstance/endTime,appointmentInstance/contact/restrictionAddress/state,appointmentInstance/contact/saintTicketCategory,appointmentInstance/person/email/emailHasBounced,appointmentInstance/project/name
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

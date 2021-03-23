@@ -1,7 +1,7 @@
 ---
 uid: FindChatSession
 title: FindChatSession
-description: 
+description: ChatSession provider for Find
 keywords:
   - "archive"
   - "provider"

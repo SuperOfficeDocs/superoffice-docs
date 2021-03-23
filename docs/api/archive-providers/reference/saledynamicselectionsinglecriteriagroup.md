@@ -1,7 +1,7 @@
 ---
 uid: SaleDynamicSelectionSingleCriteriaGroup
 title: SaleDynamicSelectionSingleCriteriaGroup
-description: 
+description: Sale selection archive using the selectionId as criterionmapping.
 keywords:
   - "archive"
   - "provider"
@@ -1000,7 +1000,7 @@ Sale selection archive using the selectionId as criterionmapping.
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaleDynamicSelectionSingleCriteriaGroup?$select=person/phone/formattedNumber,contact/email/emailProtocol,contact/contactAssociate/contactId,contact/SaintStatus2,associate/usergroup
+GET /api/v1/archive/SaleDynamicSelectionSingleCriteriaGroup?$select=person/associateType,person/withdrawnEmarketingConsent,contact/contactAssociate/assocName,appointment/completedDate,appointment/appointmentUdef/SuperOffice:6
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

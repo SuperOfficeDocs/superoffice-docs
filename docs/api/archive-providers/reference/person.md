@@ -1,7 +1,7 @@
 ---
 uid: Person
 title: Person
-description: 
+description: This is the archive Provide for the Person Archive of the Contact Panel - or to use GUI terminology, the Contact archive of the Company panel.
 keywords:
   - "archive"
   - "provider"
@@ -560,7 +560,7 @@ table data; this will also pull in contact udef and related fields.
 ## Sample
 
 ```http!
-GET /api/v1/archive/Person?$select=personAssociate/ejUserId,personContact/hasInterests,personContact/contactAssociate/simultaneousEjUser,hasStoreConsent,request/origin
+GET /api/v1/archive/Person?$select=personContact/registeredDate,personContact/contactAssociate/firstName,personContact/postAddress/line3
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

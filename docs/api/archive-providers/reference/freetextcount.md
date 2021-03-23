@@ -1,7 +1,7 @@
 ---
 uid: FreetextCount
 title: FreetextCount
-description: 
+description: Archive provider for counts of freetext matches
 keywords:
   - "archive"
   - "provider"

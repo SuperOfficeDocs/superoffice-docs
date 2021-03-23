@@ -1,7 +1,7 @@
 ---
 uid: ProjectGuide
 title: ProjectGuide
-description: 
+description: Provider for the Project Guide, common to both Appointment and Document guide items and instances
 keywords:
   - "archive"
   - "provider"
@@ -1111,7 +1111,7 @@ This provider is a trivial aggregation of the Appointment and Document providers
 ## Sample
 
 ```http!
-GET /api/v1/archive/ProjectGuide?$select=appointmentInstance/person/birthdate,appointmentInstance/person/birthMonth,appointmentInstance/project/projectAssociate/assocType,appointmentInstance/project/LastDoByActivity,documentInstance/person/personUdef/SuperOffice:7
+GET /api/v1/archive/ProjectGuide?$select=appointmentInstance/contact/streetAddress/state,appointmentInstance/contact/restrictionAddress/line2,appointmentInstance/contact/contactUdef/SuperOffice:1,appointmentInstance/person/position,appointmentInstance/person/restrictionAddress/formattedMultiLineAddress
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

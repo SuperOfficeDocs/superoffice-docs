@@ -5948,6 +5948,8 @@ items:
     href: tutorials/rss-feed-vb.md
   - name: So ical feed
     href: tutorials/so-ical-feed.md
+  - name: Custom data exchange agent
+    href: tutorials/custom-data-exchange-agent/index.md
   - name: Import to excel
     href: tutorials/import-to-excel/index.md
   - name: Minimal csharp app

@@ -1,7 +1,7 @@
 ---
 uid: FreetextSale
 title: FreetextSale
-description: 
+description: Archive provider for freetext search on the Sale entity.
 keywords:
   - "archive"
   - "provider"
@@ -853,7 +853,7 @@ as well as before any ORDER BY, are applied.
 ## Sample
 
 ```http!
-GET /api/v1/archive/FreetextSale?$select=saleNumber,contact/streetAddress/state,project/projectAssociate/ejStatus,saleStakeholder/person/personAddress/formattedAddress,saleStakeholder/contact/registeredBy
+GET /api/v1/archive/FreetextSale?$select=heading,associate/isActiveText,saleStakeholder/person/middleName,saleStakeholder/person/personAddress/wgs84latitude,saleStakeholder/person/legalBaseEmarketing
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

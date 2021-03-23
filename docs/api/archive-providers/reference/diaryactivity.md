@@ -1,7 +1,7 @@
 ---
 uid: DiaryActivity
 title: DiaryActivity
-description: 
+description: Activity archive provider for the Diary (checklist)
 keywords:
   - "archive"
   - "provider"
@@ -593,7 +593,7 @@ Activity archive provider for the Diary (checklist)
 ## Sample
 
 ```http!
-GET /api/v1/archive/DiaryActivity?$select=person/lastName,contact/contactFax/formattedNumber,project/NumberOfActivitiesInPeriod,project/project/textId
+GET /api/v1/archive/DiaryActivity?$select=person/portraitThumbnail,person/personUdef/SuperOffice:11,project/projectAssociate/assocType,documentUdef/SuperOffice:6,appointmentId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
