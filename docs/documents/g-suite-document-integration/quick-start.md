@@ -42,7 +42,7 @@ This article explains in short terms how you can get G Suite document integratio
 
 5. **Do you want to integrate G Suite with a "Google Service Account"?** (recommended)
 
-* If yes, go to step 6. Otherwise, go to step 7.
+    * If yes, go to step 6. Otherwise, go to step 7.
 
 6. **Create a G Suite with a "Google Service Account"**
 
@@ -63,7 +63,7 @@ Now, you need to [configure templates][6] in SuperOffice Admin to start using th
 <!-- Referenced links -->
 [1]: https://crm.superoffice.com/scripts/customer.fcgi?action=formFrame&formId=19
 [2]: https://id.superoffice.com/identityprovider/register
-[3]: ../../identity-management/superid/register-idp.md
+[3]: ../../identity-management/superid/howto/register-idp.md
 [4]: https://cloudintegration.superoffice.com/app
 [5]: set-up.md
 [6]: ../configure-cloud-document-handling.md

@@ -1,7 +1,7 @@
 ---
 title: send_welcome_emails
 description: Send welcome emails to new users
-author: {github-id}             # Your GitHub alias.
+author: Bergfrid Dias
 keywords:
 so.topic: howto                     # article, howto, reference, concept, guide
 

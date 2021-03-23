@@ -1,9 +1,6 @@
 ---
-# This basic template provides core metadata fields for Markdown articles on docs.superoffice.com.
-
-# Mandatory fields.
-title: authentication_with_webtools_maillink_and_pocket       # (Required) Very important for SEO. Intent in a unique string of 43-59 chars including spaces.
-description: Authentication with WebTools, MailLink and Pocket # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
+title: authentication_with_webtools_maillink_and_pocket
+description: Authentication with WebTools, MailLink, and Pocket
 author: {github-id}             # Your GitHub alias.
 keywords: OAuth 2.0
 so.topic: concept      # article, howto, reference, concept, guide
@@ -27,7 +24,8 @@ Let's look at how SuperID changes authentication for WebTools, MailLink, and Poc
 
 * Double-clicking the WebTools owl icon will sign the user directly in to the tenant.
 
-An invalid cached password will sometimes result in locking the user account.
+> [!NOTE]
+> An invalid cached password will sometimes result in locking the user account.
 
 ## With SuperID
 
@@ -39,7 +37,7 @@ An invalid cached password will sometimes result in locking the user account.
 
 * The tokens are unique per user and application and are stored on the device.
 
-* WebTools, MailLink, and the mobile client use industry-standard OAuth 2.0 for Native Apps ([RFC 8252][2]).
+* WebTools, MailLink, and the mobile client all use industry-standard OAuth 2.0 for Native Apps ([RFC 8252][2]).
 
 * Double-clicking the WebTools owl icon will send the user to the tenant. If the user is not signed in, the user will be redirected back to the sign-in dialog, must click **Next**, and then possibly authenticate to sign in.
 

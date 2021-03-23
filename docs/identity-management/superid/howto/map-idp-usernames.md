@@ -1,14 +1,10 @@
 ---
-# This basic template provides core metadata fields for Markdown articles on docs.superoffice.com.
-
-# Mandatory fields.
-title: map_idp_usernames       # (Required) Very important for SEO. Intent in a unique string of 43-59 chars including spaces.
-description: Update SuperOffice username to match IdP username  # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
+title: map_idp_usernames
+description: Update SuperOffice username to match IdP username
 author: {github-id}             # Your GitHub alias.
+so.topic:
 keywords:
 so.topic: guide                 # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
 so.envir: cloud           # cloud or onsite
 so.client: online              # online, web, win, pocket, or mobile
 ---
@@ -17,7 +13,8 @@ so.client: online              # online, web, win, pocket, or mobile
 
 Before using a federated sign-in service, you must update each SuperOffice username to match the IdP username.
 
-The username also known as the **User-Principal-Name** (UPN) set in your IdP must match the username set in SuperOffice Admin.
+> [!TIP]
+> The username, also known as the **User-Principal-Name** (UPN), set in your IdP must match the username set in SuperOffice Admin.
 
 ## Pre-requisites
 
@@ -45,7 +42,8 @@ Go to  [https://admin.google.com/ac/users][2]
 
 ## Change username in SuperOffice Admin client
 
-You **need to map each username** in SuperOffice Admin to the federated ID.
+> [!NOTE]
+> You **need to map each username** in SuperOffice Admin to the federated ID.
 
 1. Select **Users** from the navigator in the Admin client.
 
@@ -59,5 +57,5 @@ You **need to map each username** in SuperOffice Admin to the federated ID.
 [2]: https://admin.google.com/ac/users
 
 <!-- Referenced images -->
-[img1]: media/upn_o365.png
-[img2]: media/upn_google.png
+[img1]: media/upn-o365.png
+[img2]: media/upn-google.png

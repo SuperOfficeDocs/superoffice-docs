@@ -5,9 +5,7 @@ author: {github-id}             # Your GitHub alias.
 so.date:
 keywords: MFA,2FA
 so.topic: concept                       # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
-# so.envir:                     # cloud or onsite
+# so.envir: cloud               # cloud or onsite
 so.client: online                    # online, web, win, pocket, or mobile
 ---
 
@@ -25,7 +23,8 @@ For example, when you enter a PIN to pay with your credit card at the store, you
 
 Multi-factor authentication is a feature offered by some [identity providers][1] (IDP).
 
-If your 3rd-party provider supports it - you get it.
+> [!TIP]
+> If your 3rd-party provider supports it - you get it.
 
 In the SuperOffice sphere, this means that yes - you can use MFA **if you register your IDP and your registered IDP supports MFA.**
 
@@ -36,4 +35,4 @@ But: if your organization has an identity provider that offers MFA and switching
 <!-- Referenced links -->
 [1]: federated-id-and-identity-providers.md
 [2]: superid/sign-in-services.md
-[3]: superid/federated-sign-in-guide.md
+[3]: superid/howto/federated-sign-in-guide.md

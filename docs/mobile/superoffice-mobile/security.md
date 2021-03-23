@@ -128,7 +128,7 @@ This will redirect the user to the CRM Online login page for authentication. The
 [8]: ../../authentication/oidc/index.md
 [9]: https://tools.ietf.org/html/rfc5282
 [10]: https://online2.superoffice.com/Cust1990/CS/scripts/customer.fcgi?_sf=0&custSessionKey=&customerLang=en&noCookies=true&action=viewKbEntry&id=112935#2
-[11]: ../../identity-management/superid/federated-sign-in-guide.md
+[11]: ../../identity-management/superid/howto/federated-sign-in-guide.md
 
 <!-- Referenced images -->
 [img1]: media/imagevq62n.png

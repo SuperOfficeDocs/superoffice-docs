@@ -1,14 +1,10 @@
 ---
-# This basic template provides core metadata fields for Markdown articles on docs.superoffice.com.
-
-# Mandatory fields.
-title: scim_intro       # (Required) Very important for SEO. Intent in a unique string of 43-59 chars including spaces.
-description: What is SCIM? Why use SCIM?                # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
+title: scim_intro
+description: What is SCIM? Why use SCIM?
 author:              # Your GitHub alias.
+so:date:
 keywords: SCIM
 so.topic: concept                    # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
 so.envir:  cloud                   # cloud or onsite
 so.client:  online                  # online, web, win, pocket, or mobile
 ---
@@ -16,8 +12,6 @@ so.client:  online                  # online, web, win, pocket, or mobile
 # System for Cross-domain Identity Management (SCIM)
 
 SCIM is a common language to describe what an identity is and how to handle it. With SuperOffice you can user SCIM to automate user provisioning from Azure AD.
-
-![cover image][1]
 
 ## What is SCIM?
 

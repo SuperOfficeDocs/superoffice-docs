@@ -1,14 +1,10 @@
 ---
-# This basic template provides core metadata fields for Markdown articles on docs.superoffice.com.
-
-# Mandatory fields.
-title: federated_id_and_identity_providers       # (Required) Very important for SEO. Intent in a unique string of 43-59 chars including spaces.
-description: Federated ID and identity providers                 # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
+title: federated_id_and_identity_providers
+description: Federated ID and identity providers
 author:              # Your GitHub alias.
+so.date:
 keywords: 
-so.topic: concept                   # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
+so.topic: concept                   # article, howto, reference, concept, guide\
 so.envir: cloud                # cloud or onsite
 so.client: online                # online, web, win, pocket, or mobile
 ---
@@ -83,4 +79,4 @@ It is easier for the user to sign in and it increases the security of your ident
 [2]: single-sign-on/index.md
 [3]: https://docs.microsoft.com/en-us/azure/active-directory/hybrid/whatis-azure-ad-connect
 [4]: https://docs.microsoft.com/en-us/azure/active-directory/hybrid/whatis-hybrid-identity
-[5]: superid/register-idp.md
+[5]: superid/howto/register-idp.md

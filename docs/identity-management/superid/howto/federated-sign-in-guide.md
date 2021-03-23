@@ -1,14 +1,10 @@
 ---
-# This basic template provides core metadata fields for Markdown articles on docs.superoffice.com.
-
-# Mandatory fields.
-title: federated_sign_in_guide       # (Required) Very important for SEO. Intent in a unique string of 43-59 chars including spaces.
-description: Guide to federated sign-in  # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
-author: {github-id}             # Your GitHub alias.
+title: federated_sign_in_guide
+description: Guide to federated sign-in
+author: Bergfrid Dias
+so.date:
 keywords:
 so.topic: guide                     # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
 so.envir: cloud          # cloud or onsite
 so.client: online               # online, web, win, pocket, or mobile
 ---
@@ -62,12 +58,12 @@ Does the user's browser session **have an active session** from the identity pro
 [2]: map-idp-usernames.md
 [3]: register-idp.md
 [4]: complete-user-transition.md
-[5]: index.md
-[6]: ../user/add-user-in-admin-client.md
-[7]: ../user/reset-password.md
-[8]: ../user/index.md
-[9]: sign-in-services.md
-[10]: ../federated-id-and-identity-providers.md
+[5]: ../index.md
+[6]: ../../user/add-user-in-admin-client.md
+[7]: ../../user/reset-password.md
+[8]: ../../user/index.md
+[9]: ../sign-in-services.md
+[10]: ../../federated-id-and-identity-providers.md
 
 <!-- Referenced images -->
 [img1]: media/superidlogin.png

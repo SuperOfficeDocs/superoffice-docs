@@ -1,9 +1,6 @@
 ---
-# This basic template provides core metadata fields for Markdown articles on docs.superoffice.com.
-
-# Mandatory fields.
-title: complete_user_transition       # (Required) Very important for SEO. Intent in a unique string of 43-59 chars including spaces.
-description: Complete user account transition from password to federated login # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
+title: complete_user_transition
+description: Complete user account transition from password to federated login
 author: {github-id}             # Your GitHub alias.
 keywords:
 so.topic: guide                 # article, howto, reference, concept, guide
@@ -21,7 +18,7 @@ The 1st time an existing password user tries to sign in after an [identity provi
 
 ## Pre-requisites
 
-* The user has signed in to SuperOffice account with password
+* The user has signed in to SuperOffice account with a password
 
 * [Username has been mapped][2]
 
@@ -51,7 +48,7 @@ The 1st time an existing password user tries to sign in after an [identity provi
 **This completes the transition of the user account.**
 
 <!-- Referenced links -->
-[1]: ../federated-id-and-identity-providers.md
+[1]: ../../federated-id-and-identity-providers.md
 [2]: map-idp-usernames.md
 [3]: register-idp.md
 

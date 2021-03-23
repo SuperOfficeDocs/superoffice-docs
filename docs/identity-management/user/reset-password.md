@@ -20,13 +20,15 @@ Resetting a password is done differently depending on the sign-in service used.
 
 2. Follow the instructions in the email to set a new password.
 
-SuperOffice administrators can't reset SuperID passwords on users' behalf. The admin can only initiate a reset, which will have the same effect as if the user clicked **Forgot password** themselves.
+> [!NOTE]
+> SuperOffice administrators can't reset SuperID passwords on users' behalf. The admin can only initiate a reset, which will have the same effect as if the user clicked **Forgot password** themselves.
 
 ## Reset password for SuperID - federated (IDP)
 
 Use the identity provider's reset password feature to reset your password. Look for a link that says **Forgot password** or **Reset password** in the IDP sign-in dialog.
 
-SuperOffice administrators can't reset federated passwords on users' behalf. They must contact the identity provider's admin to resolve the issue.
+> [!NOTE]
+> SuperOffice administrators can't reset federated passwords on users' behalf. They must contact the identity provider's admin to resolve the issue.
 
 Read more about [SuperID accounts and passwords][1].
 

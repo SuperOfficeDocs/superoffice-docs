@@ -1,14 +1,10 @@
 ---
-# This basic template provides core metadata fields for Markdown articles on docs.superoffice.com.
-
-# Mandatory fields.
-title: register_idp       # (Required) Very important for SEO. Intent in a unique string of 43-59 chars including spaces.
-description: Register identity provider (domain name) # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
+title: register_idp
+description: Register identity provider (domain name)
 author: {github-id}             # Your GitHub alias.
+so.date:
 keywords:
 so.topic: guide                      # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
 so.envir: cloud           # cloud or onsite
 so.client: online               # online, web, win, pocket, or mobile
 ---
@@ -95,11 +91,11 @@ You can find additional domains in your Azure Active Directory under **Custom d
 
 **To register a sub-domain:**
 
-* Submit form below and we will add it manually. For example, for our main domain `SuperOffice.**com**`, we have a sub-domain `SuperOffice.**no**`.
+* Submit the form below and we will add it manually. For example, for our main domain `SuperOffice.**com**`, we have a sub-domain `SuperOffice.**no**`.
 
 **To register a custom domain name:**
 
-* Submit form below and we will add it manually. For example, for our main domain `SuperOffice.com`, we have a custom domain `suocrm.com`
+* Submit the form below and we will add it manually. For example, for our main domain `SuperOffice.com`, we have a custom domain `suocrm.com`
 
 ![image9lq1a.png][img9]
 
@@ -109,7 +105,8 @@ You can find additional domains in your Azure Active Directory under **Custom d
 4. We will manually add those subdomains and custom domain names
 5. Repeat the process for other top-level domain
 
-**Note:** For those who do not use a custom domain name or subdomain name for your UPN/SuperOffice usernames, do not need to fill out the form for subdomains and custom domain names below.
+> [!NOTE]
+> If you do not use a custom domain name or subdomain name for your UPN/SuperOffice usernames, you do not need to fill out the form for subdomains and custom domain names.
 
 <!-- Referenced links -->
 [1]: map-idp-usernames.md

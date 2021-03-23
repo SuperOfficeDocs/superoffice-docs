@@ -1,14 +1,10 @@
 ---
-# This basic template provides core metadata fields for Markdown articles on docs.superoffice.com.
-
-# Mandatory fields.
-title: known_challanges_with_superid       # (Required) Very important for SEO. Intent in a unique string of 43-59 chars including spaces.
-description: Known challenges with SuperID                   # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
+title: known_challanges_with_superid
+description: Known challenges with SuperID
 author:    # Your GitHub alias.
+so.date:
 keywords: 
 so.topic: reference                     # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
 so.envir: cloud               # cloud or onsite
 so.client: online                 # online, web, win, pocket, or mobile
 ---
@@ -28,7 +24,7 @@ A user might have multiple email addresses on their person record. Only 1 of the
 > [!NOTE]
 > The admin can fix this by editing the **Username** field in the Admin client.
 
-Issues related to multiple associate records pointing to new/old username apply (see next scenario).
+Issues related to multiple associate records pointing to the new/old username apply (see next scenario).
 
 ## Users with multiple associate records in the same tenant
 

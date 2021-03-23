@@ -1,14 +1,10 @@
 ---
-# This basic template provides core metadata fields for Markdown articles on docs.superoffice.com.
-
-# Mandatory fields.
-title: sign_in_services       # (Required) Very important for SEO. Intent in a unique string of 43-59 chars including spaces.
-description: Sign-in services # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
+title: sign_in_services
+description: Sign-in services
 author:              # Your GitHub alias.
 keywords: SuperID
+so.date:
 so.topic: concept                    # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
 so.envir: cloud                 # cloud or onsite
 so.client: online                 # online, web, win, pocket, or mobile
 ---
@@ -58,4 +54,4 @@ To use federated sign-in, [register your domain name][3] (so the sign-in servic
 <!-- Referenced links -->
 [1]: index.md
 [2]: ../federated-id-and-identity-providers.md
-[3]: register-idp.md
+[3]: howto/register-idp.md

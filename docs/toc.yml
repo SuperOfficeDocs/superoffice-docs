@@ -295,6 +295,8 @@ items:
     href: documents/odf.md
   - name: Quote template variables
     href: documents/quote-template-variables.md
+  - name: Set up cloud document integration
+    href: documents/set-up-cloud-document-integration.md
   - name: G suite document integration
     href: documents/g-suite-document-integration/index.md
     items:
@@ -431,8 +433,6 @@ items:
     href: identity-management/id-transfer-tickets.md
   - name: Multi factor authentication
     href: identity-management/multi-factor-authentication.md
-  - name: Set up cloud document integration
-    href: identity-management/set-up-cloud-document-integration.md
   - name: Ad
     href: identity-management/ad/index.md
     items:
@@ -479,32 +479,35 @@ items:
     - name: Onsite sso
       href: identity-management/single-sign-on/onsite-sso.md
   - name: Superid
-    href: identity-management/superid/check-idp-domain.md
+    href: identity-management/superid/idp-and-doc-handling.md
     items:
-    - name: Check idp domain
-      href: identity-management/superid/check-idp-domain.md
-    - name: Complete user transition
-      href: identity-management/superid/complete-user-transition.md
-    - name: Federated sign in guide
-      href: identity-management/superid/federated-sign-in-guide.md
     - name: Idp and doc handling
       href: identity-management/superid/idp-and-doc-handling.md
-    - name: Known challenges with superid
-      href: identity-management/superid/known-challenges-with-superid.md
-    - name: Map idp usernames
-      href: identity-management/superid/map-idp-usernames.md
+    - name: Known challenges
+      href: identity-management/superid/known-challenges.md
     - name: Primary tenant
       href: identity-management/superid/primary-tenant.md
-    - name: Register idp
-      href: identity-management/superid/register-idp.md
     - name: Sign in services
       href: identity-management/superid/sign-in-services.md
-    - name: Superid terms and conditions
-      href: identity-management/superid/superid-terms-and-conditions.md
     - name: Superid webtools maillink pocket
       href: identity-management/superid/superid-webtools-maillink-pocket.md
+    - name: Terms and conditions
+      href: identity-management/superid/terms-and-conditions.md
     - name: User accounts and passwords
       href: identity-management/superid/user-accounts-and-passwords.md
+    - name: Howto
+      href: identity-management/superid/howto/check-idp-domain.md
+      items:
+      - name: Check idp domain
+        href: identity-management/superid/howto/check-idp-domain.md
+      - name: Complete user transition
+        href: identity-management/superid/howto/complete-user-transition.md
+      - name: Federated sign in guide
+        href: identity-management/superid/howto/federated-sign-in-guide.md
+      - name: Map idp usernames
+        href: identity-management/superid/howto/map-idp-usernames.md
+      - name: Register idp
+        href: identity-management/superid/howto/register-idp.md
   - name: User
     href: identity-management/user/add-user-in-admin-client.md
     items:
