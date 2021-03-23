@@ -12,10 +12,7 @@ This is a CRMScript you can add under the menu System design in the screen Syste
 
 Here you can add ejScript code that will be run for all mailboxes before the mail is taken by any mail filter, and also before it is saved.
 
-There are several variables available in this context.
-
-* To get a variable: `getVariable("xxx")`
-* To set a variable: `setVariable("xxx", <value>)`, where \<value> is a valid value for the field you are trying to set.
+[!include[ALT](../includes/get-set-variable.md)]
 
 Here follows a list of all available variables that are possible to modify.
 
