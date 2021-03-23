@@ -100,7 +100,7 @@ You can find additional domains in your Azure Active Directory under **Custom d
 ![image9lq1a.png][img9]
 
 1. [Register identity provider][1]
-2. Your primary domain will be registered in SuperId
+2. Your primary domain will be registered in SuperID
 3. Fill out the form for subdomains and custom domain names
 4. We will manually add those subdomains and custom domain names
 5. Repeat the process for other top-level domain

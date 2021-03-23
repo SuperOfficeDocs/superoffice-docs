@@ -44,10 +44,10 @@ This guide will take you briefly through the steps to set up automatic user prov
 6. When everything works as expected, [enable automatic sync][7].
 
 <!-- Referenced links -->
-[1]: ../superid/howto/register-idp.md
-[2]: sign-in-to-scim.md
+[1]: ../../superid/howto/register-idp.md
+[2]: ../sign-in-to-scim.md
 [3]: create-azure-enterprise-app.md
-[4]: add-scim-rule.md
-[5]: preview-sync.md
-[6]: sync-company.md
+[4]: ../provisioning/add-scim-rule.md
+[5]: ../provisioning/preview-sync.md
+[6]: ../provisioning/sync-company.md
 [7]: enable-auto-sync.md

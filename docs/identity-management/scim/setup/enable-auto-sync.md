@@ -38,10 +38,10 @@ Automatic sync is a powerful tool for when you have set up your mapping.
 
 <!-- Referenced links -->
 [1]: create-azure-enterprise-app.md
-[2]: sign-in-to-scim.md
-[3]: add-scim-rule.md
-[4]: preview-sync.md
-[5]: activate-deactivate-rules.md
+[2]: ../sign-in-to-scim.md
+[3]: ../provisioning/add-scim-rule.md
+[4]: ../provisioning/preview-sync.md
+[5]: ../provisioning/activate-deactivate-rules.md
 
 <!-- Referenced images -->
 [img1]: media/user-sync-active.png

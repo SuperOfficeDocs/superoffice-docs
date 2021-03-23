@@ -32,7 +32,7 @@ When setting up an Azure enterprise application for SCIM, you need to fetch the 
     ![SCIM sync config][img1]
 
 <!-- Referenced links -->
-[1]: sign-in-to-scim.md
+[1]: ../sign-in-to-scim.md
 
 <!-- Referenced images -->
 [img1]: media/scim-sync-config.png

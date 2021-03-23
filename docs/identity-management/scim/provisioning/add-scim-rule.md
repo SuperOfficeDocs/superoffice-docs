@@ -44,8 +44,8 @@ Let's look at how you can add a [SCIM rule][1] to map Azure AD users to SuperOff
 > You can choose if the selected mapping shall be applied only if the value is empty **(Is not set)** or applied as an override to all matched users **(Always).**
 
 <!-- Referenced links -->
-[1]: scim-rules.md
-[2]: sign-in-to-scim.md
+[1]: ../scim-rules.md
+[2]: ../sign-in-to-scim.md
 
 <!-- Referenced images -->
 [img1]: media/add-scim-rule.png

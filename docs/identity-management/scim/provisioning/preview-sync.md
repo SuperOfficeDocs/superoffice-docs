@@ -83,7 +83,7 @@ A filter consists of a string and an operator and is located directly below the 
 1. Click the stroked-through funnel icon.
 
 <!-- Referenced links -->
-[1]: sign-in-to-scim.md
+[1]: ../sign-in-to-scim.md
 
 <!-- Referenced images -->
 [img1]: media/scim-preview-sync-company.png

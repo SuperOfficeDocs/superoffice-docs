@@ -144,4 +144,3 @@ SuperID is used for authenticating both the admin configuring the endpoint and u
 [2]: https://tools.ietf.org/html/rfc7644
 
 <!-- Referenced images -->
-[img1]: media/scim-cover.png

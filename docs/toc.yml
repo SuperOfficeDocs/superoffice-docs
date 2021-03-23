@@ -441,38 +441,44 @@ items:
     - name: Set up ad auth
       href: identity-management/ad/set-up-ad-auth.md
   - name: Scim
-    href: identity-management/scim/activate-deactivate-rules.md
+    href: identity-management/scim/identity-management-gw.md
     items:
-    - name: Activate deactivate rules
-      href: identity-management/scim/activate-deactivate-rules.md
-    - name: Add scim rule
-      href: identity-management/scim/add-scim-rule.md
-    - name: Create azure enterprise app
-      href: identity-management/scim/create-azure-enterprise-app.md
-    - name: Enable auto sync
-      href: identity-management/scim/enable-auto-sync.md
-    - name: Get scim config
-      href: identity-management/scim/get-scim-config.md
-    - name: Get sync error messages
-      href: identity-management/scim/get-sync-error-messages.md
     - name: Identity management gw
       href: identity-management/scim/identity-management-gw.md
-    - name: Preview sync
-      href: identity-management/scim/preview-sync.md
-    - name: Restart sync
-      href: identity-management/scim/restart-sync.md
     - name: Scim rules
       href: identity-management/scim/scim-rules.md
-    - name: Setup guide
-      href: identity-management/scim/setup-guide.md
     - name: Sign in to scim
       href: identity-management/scim/sign-in-to-scim.md
-    - name: Sync company
-      href: identity-management/scim/sync-company.md
-    - name: Sync user
-      href: identity-management/scim/sync-user.md
     - name: User provisioning
       href: identity-management/scim/user-provisioning.md
+    - name: Provisioning
+      href: identity-management/scim/provisioning/activate-deactivate-rules.md
+      items:
+      - name: Activate deactivate rules
+        href: identity-management/scim/provisioning/activate-deactivate-rules.md
+      - name: Add scim rule
+        href: identity-management/scim/provisioning/add-scim-rule.md
+      - name: Preview sync
+        href: identity-management/scim/provisioning/preview-sync.md
+      - name: Restart sync
+        href: identity-management/scim/provisioning/restart-sync.md
+      - name: Sync company
+        href: identity-management/scim/provisioning/sync-company.md
+      - name: Sync user
+        href: identity-management/scim/provisioning/sync-user.md
+    - name: Setup
+      href: identity-management/scim/setup/create-azure-enterprise-app.md
+      items:
+      - name: Create azure enterprise app
+        href: identity-management/scim/setup/create-azure-enterprise-app.md
+      - name: Enable auto sync
+        href: identity-management/scim/setup/enable-auto-sync.md
+      - name: Get scim config
+        href: identity-management/scim/setup/get-scim-config.md
+      - name: Get sync error messages
+        href: identity-management/scim/setup/get-sync-error-messages.md
+      - name: Setup guide
+        href: identity-management/scim/setup/setup-guide.md
   - name: Single sign on
     href: identity-management/single-sign-on/index.md
     items:

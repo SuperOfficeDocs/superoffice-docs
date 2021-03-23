@@ -36,7 +36,7 @@ You can manually synchronize 1 selected user. This is useful when you update SC
     ![scim preview pane][img1]
 
 <!-- Referenced links -->
-[1]: sign-in-to-scim.md
+[1]: ../sign-in-to-scim.md
 
 <!-- Referenced images -->
 [img1]: media/preview-sync-shereen.png

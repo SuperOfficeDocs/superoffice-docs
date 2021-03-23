@@ -1,9 +1,6 @@
 ---
-# This basic template provides core metadata fields for Markdown articles on docs.superoffice.com.
-
-# Mandatory fields.
-title: activate_deactivate_scim_rules       # (Required) Very important for SEO. Intent in a unique string of 43-59 chars including spaces.
-description: Activate and deactivate scim rules # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
+title: activate_deactivate_scim_rules
+description: Activate and deactivate SCIM rules
 author: {github-id}             # Your GitHub alias.
 keywords:
 so.topic: howto            # article, howto, reference, concept, guide
@@ -13,7 +10,7 @@ so.envir: cloud               # cloud or onsite
 so.client: online               # online, web, win, pocket, or mobile
 ---
 
-# Activate and deactivate scim rules
+# Activate and deactivate SCIM rules
 
 You can turn SCIM rules on and off and also rearrange the order in which they are applied.
 
@@ -42,7 +39,7 @@ You can turn SCIM rules on and off and also rearrange the order in which they ar
     ![user sync rules][img1]
 
 <!-- Referenced links -->
-[1]: sign-in-to-scim.md
+[1]: ../sign-in-to-scim.md
 
 <!-- Referenced images -->
-[img1]: media/image84sls.png
+[img1]: ../media/image84sls.png

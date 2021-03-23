@@ -106,8 +106,8 @@ The Azure portal allows mapping to the `id` attribute. However, this is **not**
 [2]: https://aad.portal.azure.com/
 [3]: https://docs.microsoft.com/en-us/azure/active-directory/app-provisioning/use-scim-to-provision-users-and-groups#step-4-integrate-your-scim-endpoint-with-the-azure-ad-scim-client
 [4]: get-scim-config.md
-[5]: preview-sync.md
-[6]: add-scim-rule.md
+[5]: ../provisioning/preview-sync.md
+[6]: ../provisioning/add-scim-rule.md
 [7]: get-sync-error-messages.md
 
 <!-- Referenced images -->

@@ -32,7 +32,7 @@ You can sign up to get email notifications for critical SCIM synchronization err
     ![SCIM email notifications][img1]
 
 <!-- Referenced links -->
-[1]: sign-in-to-scim.md
+[1]: ../sign-in-to-scim.md
 
 <!-- Referenced images -->
 [img1]: media/scim-email-notifications.png
