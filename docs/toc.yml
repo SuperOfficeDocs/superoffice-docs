@@ -792,6 +792,11 @@ items:
   items:
   - name: System templates
     href: reply-templates/system-templates.md
+- name: Reports
+  href: reports/index.md
+  items:
+  - name: Parameters
+    href: reports/parameters.md
 - name: Search
   href: search/expand-quick-search.md
   items:
