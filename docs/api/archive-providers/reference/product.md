@@ -84,7 +84,7 @@ This is the archive Provider for the Product Archive is SoAdmin.
 ## Sample
 
 ```http!
-GET /api/v1/archive/Product?$select=productFamilyKey,updatedBy
+GET /api/v1/archive/Product?$select=registeredDate,productFamilyKey,updatedBy
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

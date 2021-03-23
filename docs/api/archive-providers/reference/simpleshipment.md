@@ -182,7 +182,7 @@ Archive provider for the list of mailings
 ## Sample
 
 ```http!
-GET /api/v1/archive/simpleshipment?$select=project/updatedDate,associate/isActive,project/activeErpLinks
+GET /api/v1/archive/simpleshipment?$select=associate/isActiveText,project/completed,project/projectAssociate/associateDbId,project/saintSaleStatus
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

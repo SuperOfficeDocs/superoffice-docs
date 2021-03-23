@@ -617,7 +617,7 @@ Activity archive provider for the Company card
 ## Sample
 
 ```http!
-GET /api/v1/archive/ContactActivity?$select=person/hasInfoText,person/personAssociateId,contact/hasInterests,contact/deletedDate,project/projectAssociate/middleName
+GET /api/v1/archive/ContactActivity?$select=contact/updatedBy,userGroup,person/restrictionAddress/formattedMultiLineAddress,contact/contactPhone/formattedNumber,contact/restrictionAddress/wgs84latitude
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -1,7 +1,7 @@
 ---
 uid: AllUsers
 title: AllUsers
-description: Concrete provider for all kinds of users, unfiltered. See <see cref="T-SuperOffice.CRM.ArchiveLists.UsersProviderBase" /> for
+description: Concrete provider for all kinds of users, unfiltered. See <see cref="T -SuperOffice.CRM.ArchiveLists.UsersProviderBase" /> for
 keywords:
   - "archive"
   - "provider"
@@ -93,7 +93,7 @@ the actual functionality of the provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/AllUsers?$select=superoffice_superlicense-marketing-pro,title
+GET /api/v1/archive/AllUsers?$select=superoffice_admin-anonymous-user,superoffice_superlicense-marketing-pro,title
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

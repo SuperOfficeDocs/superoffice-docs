@@ -607,7 +607,7 @@ Shadow contact provider for the static quoteline provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/QuoteLineShadowStaticSelection?$select=vat,alternative/version/quote/sale/person/personInfo/infoText,alternative/version/quote/sale/person/restrictionAddress/line2,alternative/version/quote/sale/person/personUdef/SuperOffice:3,alternative/version/quote/sale/contact/contactAssociate/userName
+GET /api/v1/archive/QuoteLineShadowStaticSelection?$select=priceUnit,updatedDate,alternative/version/quote/sale/person/restrictionAddress/line2,alternative/version/quote/sale/contact/hasInfoText,alternative/version/quote/sale/contact/NumberOfNotCompletedTicketsInPeriod
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

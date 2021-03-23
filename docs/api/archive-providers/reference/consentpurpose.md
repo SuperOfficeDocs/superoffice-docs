@@ -154,7 +154,7 @@ and for GDPR relations to person, if you join and restrict on person
 ## Sample
 
 ```http!
-GET /api/v1/archive/ConsentPurpose?$select=consentPerson/hasComment,consentPerson/person/personActiveErpLinks,consentPerson/person/useAsMailingAddress
+GET /api/v1/archive/ConsentPurpose?$select=tooltip,consentPerson/person/rank,consentPerson/person/retired,consentPerson/person/hasCompany,consentPerson/person/email/emailBounceCount
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

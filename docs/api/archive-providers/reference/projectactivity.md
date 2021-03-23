@@ -603,7 +603,7 @@ Activity archive provider for the Project card
 ## Sample
 
 ```http!
-GET /api/v1/archive/ProjectActivity?$select=project/saintIntention,person/restrictionAddress/wgs84latitude,contact/restrictionAddress/state,contact/contactAssociate/assocType,contact/contactUdef/SuperOffice:10
+GET /api/v1/archive/ProjectActivity?$select=associate/assocType,project/projectAssociate/isActiveText,person/email/emailDescription,person/restrictionAddress/wgs84latitude,sale/source
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

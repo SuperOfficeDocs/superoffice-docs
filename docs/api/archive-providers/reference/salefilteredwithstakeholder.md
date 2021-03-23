@@ -843,7 +843,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaleFilteredWithStakeholder?$select=person/birthMonth,person/kanaLastName,contact/NumberOfNotCompletedTickets,project/projectAssociate/associateDbId,saleStakeholder/person/email/emailId
+GET /api/v1/archive/SaleFilteredWithStakeholder?$select=person/restrictionAddress/formattedAddress,person/legalBaseEmarketing,associate/isActive,saleStakeholder/person/middleName,saleStakeholder/contact/contactUdef/SuperOffice:7
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

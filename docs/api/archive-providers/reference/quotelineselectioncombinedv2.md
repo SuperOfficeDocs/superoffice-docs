@@ -607,7 +607,7 @@ Implementation of the provider for the combined selection
 ## Sample
 
 ```http!
-GET /api/v1/archive/QuoteLineSelectionCombinedV2?$select=alternative/description,alternative/reason,alternative/version/quote/sale/registeredBy,alternative/version/quote/sale/contact/email/emailLastBounce,alternative/version/quote/sale/contact/NumberOfActivities
+GET /api/v1/archive/QuoteLineSelectionCombinedV2?$select=alternative/version/quote/sale/earning,alternative/version/quote/sale/saleNumber,alternative/version/quote/sale/person/kanaLastName,alternative/version/quote/sale/person/personAddress/state,alternative/version/quote/sale/person/personUdef/SuperOffice:9
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

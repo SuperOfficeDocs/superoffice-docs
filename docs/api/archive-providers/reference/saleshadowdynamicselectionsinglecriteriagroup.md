@@ -1000,7 +1000,7 @@ Shadow contact provider for the dynamic sale provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaleShadowDynamicSelectionSingleCriteriaGroup?$select=reopenDate,person/personId,contact/contactAssociate/portraitThumbnail,contact/NumberOfActivitiesInPeriod,contact/LastActivity
+GET /api/v1/archive/SaleShadowDynamicSelectionSingleCriteriaGroup?$select=person/personInfo/textId,contact/business,associate/usergroup,project/associateId,saleStakeholder/person/personPager/description
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

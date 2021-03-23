@@ -560,7 +560,7 @@ table data; this will also pull in contact udef and related fields.
 ## Sample
 
 ```http!
-GET /api/v1/archive/Person?$select=personContact/registeredDate,personContact/contactAssociate/firstName,personContact/postAddress/line3
+GET /api/v1/archive/Person?$select=personContact/postAddress/city,projectMembers/projectEvent/hasSignOn,personAppointment/appointmentPublish/publishedFrom,personAppointment/associate/contactName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

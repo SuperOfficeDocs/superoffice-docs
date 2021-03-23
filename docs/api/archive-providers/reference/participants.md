@@ -220,7 +220,7 @@ in through the externalPersonRestrictionId are actually associates, then that to
 ## Sample
 
 ```http!
-GET /api/v1/archive/Participants?$select=isActive,kanaFirstName,personContact/contactId,personContact/email/emailBounceCount
+GET /api/v1/archive/Participants?$select=personContact/email/emailAddress,otherGroups,kanaFirstName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

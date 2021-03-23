@@ -592,7 +592,7 @@ Activity archive provider that performs no filtering. This archive is not presen
 ## Sample
 
 ```http!
-GET /api/v1/archive/Activity?$select=person/birthMonth,person/personUdef/SuperOffice:1,contact/streetAddress/zip,contact/restrictionAddress/formattedMultiLineAddress,project/projectAssociate/credentialDisplayValue
+GET /api/v1/archive/Activity?$select=person/isMailingRecipient,contact/postAddress/zip,contact/contactAssociate/associateDbId,contact/LastCompletedSale,project/type
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

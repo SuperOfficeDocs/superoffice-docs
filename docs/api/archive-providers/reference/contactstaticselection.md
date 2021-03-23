@@ -893,7 +893,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/ContactStaticSelection?$select=orgnr,postAddress/formattedAddress,contactAssociate/portraitThumbnail,SaintStatus2,sale/associate/assocTooltip
+GET /api/v1/archive/ContactStaticSelection?$select=mainContact,restrictionAddress/line2,sourceRelation/name,sale/associate/ejStatus,appointment/who
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

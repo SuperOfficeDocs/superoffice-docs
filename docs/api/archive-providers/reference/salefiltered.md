@@ -842,7 +842,7 @@ Sale archive provider for the Contact/Project card
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaleFiltered?$select=text,contact/country,associate/contactCategory,saleStakeholder/person/birthMonth,saleStakeholder/contact/restrictionAddress/line1
+GET /api/v1/archive/SaleFiltered?$select=saleUdef/SuperOffice:8,saleStakeholder/person/personPager/description,saleStakeholder/contact/deletedDate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

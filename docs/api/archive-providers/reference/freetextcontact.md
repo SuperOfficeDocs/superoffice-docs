@@ -307,7 +307,7 @@ as well as before any ORDER BY, are applied.
 ## Sample
 
 ```http!
-GET /api/v1/archive/FreetextContact?$select=postAddress/line1,contactSupportPerson/consentSourceStore,restrictionAddress/formattedAddress
+GET /api/v1/archive/FreetextContact?$select=phone/formattedNumber,restrictionAddress/formattedAddress,saintSaleStatus
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

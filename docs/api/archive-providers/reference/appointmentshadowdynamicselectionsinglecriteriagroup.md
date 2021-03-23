@@ -566,7 +566,7 @@ Shadow contact provider for the dynamic appointmnet provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/AppointmentShadowDynamicSelectionSingleCriteriaGroup?$select=type,project/projectAssociate/otherGroups,contact/NumberOfNotCompletedSalesInPeriod
+GET /api/v1/archive/AppointmentShadowDynamicSelectionSingleCriteriaGroup?$select=contact/LastDoByTicket,person/firstName,project/LastCompletedActivity,sale/associate/otherGroups,associate/contactCategory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

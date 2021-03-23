@@ -1,7 +1,7 @@
 ---
 uid: ProjectShadowDynamicSelectionV2
 title: ProjectShadowDynamicSelectionV2
-description: Project shadow selection archive with OR-able selection groups. Each group is represented with the <see cref="T:SuperOffice.CRM.ArchiveLists.Archive.ProjectShadowSelectionDynamicProviderSingleCriteriaGroup" />.
+description: Project shadow selection archive with OR-able selection groups. Each group is represented with the <see cref="T -SuperOffice.CRM.ArchiveLists.Archive.ProjectShadowSelectionDynamicProviderSingleCriteriaGroup" />.
 keywords:
   - "archive"
   - "provider"
@@ -629,7 +629,7 @@ Project shadow selection archive with OR-able selection groups. Each group is re
 ## Sample
 
 ```http!
-GET /api/v1/archive/ProjectShadowDynamicSelectionV2?$select=appointment/completed,appointment/who,document/visibleFor
+GET /api/v1/archive/ProjectShadowDynamicSelectionV2?$select=projectMember/projectId,appointment/who,document/visibleFor
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

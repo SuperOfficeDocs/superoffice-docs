@@ -890,7 +890,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/SelectionDynamicContactProvider?$select=document/document/description,request/timeSpentQueue,projectMembers/text,personAppointment/appointment/textId
+GET /api/v1/archive/SelectionDynamicContactProvider?$select=contactAssociate/mrMrs,NumberOfActivities,targetRelation/stop,sale/associate/contactName,position
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -1005,7 +1005,7 @@ Static archive Provider for the Selection sale archive.
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaleStaticSelectionV2?$select=appointment/location,appointment/visibleInDiary,appointment/visibleFor,appointment/associate/userName,project/projectAssociate/credentialType
+GET /api/v1/archive/SaleStaticSelectionV2?$select=person/legalBaseEmarketing,contact/contactAssociate/title,contact/LastDoByTicket,appointment/associate/personId,project/projectUdef/SuperOffice:8
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

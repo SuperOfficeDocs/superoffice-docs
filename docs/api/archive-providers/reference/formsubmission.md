@@ -145,7 +145,7 @@ Archive provider for listing form submissions
 ## Sample
 
 ```http!
-GET /api/v1/archive/FormSubmission?$select=associate/ejStatus,person/position
+GET /api/v1/archive/FormSubmission?$select=associate/personEmail,person/ticketPriority,associate/ejStatus
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

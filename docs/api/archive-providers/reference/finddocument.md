@@ -557,7 +557,7 @@ Archive provider for finding documents
 ## Sample
 
 ```http!
-GET /api/v1/archive/FindDocument?$select=person/hasStoreConsent,project/imageThumbnail,project/NumberOfActivities,associate/fullName
+GET /api/v1/archive/FindDocument?$select=person/phone/formattedNumber,person/searchPhone/formattedNumber,person/restrictionAddress/addressId,contact/postAddress/zip,project/projectEvent/eventDate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

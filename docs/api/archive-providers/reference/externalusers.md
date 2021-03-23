@@ -1,7 +1,7 @@
 ---
 uid: ExternalUsers
 title: ExternalUsers
-description: Concrete provider for External Users - our customer, vendors etc (Audience, eJournal Customer Care Centre). See <see cref="T-SuperOffice.CRM.ArchiveLists.UsersProviderBase" /> for
+description: Concrete provider for External Users - our customer, vendors etc (Audience, eJournal Customer Care Centre). See <see cref="T -SuperOffice.CRM.ArchiveLists.UsersProviderBase" /> for
 keywords:
   - "archive"
   - "provider"

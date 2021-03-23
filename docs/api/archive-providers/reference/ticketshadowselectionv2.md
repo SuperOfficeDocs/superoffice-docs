@@ -403,7 +403,7 @@ Shadow contact provider for the ticket provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/TicketShadowSelectionV2?$select=person/birthMonth,person/restrictionAddress/city
+GET /api/v1/archive/TicketShadowSelectionV2?$select=personId,createdBy/personEmail,ownedBy/contactCategory,person/supportLanguage,contact/contactAssociate/credentialDisplayValue
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

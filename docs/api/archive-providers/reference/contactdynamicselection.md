@@ -892,7 +892,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/ContactDynamicSelection?$select=postAddress/zip,saintTicketCategory,sale/associate/ejUserId,document/isMail,ticketPriority
+GET /api/v1/archive/ContactDynamicSelection?$select=hasInfoText,contactAssociate/fullName,NumberOfSalesInPeriod,targetRelation/business,document/date
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

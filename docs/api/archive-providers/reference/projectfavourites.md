@@ -129,7 +129,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/projectfavourites?$select=nextMilestone,LastDoByActivity,projectUrl/URLAddress
+GET /api/v1/archive/projectfavourites?$select=type,projectAssociate/isActive,projectUrl/URLAddress
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

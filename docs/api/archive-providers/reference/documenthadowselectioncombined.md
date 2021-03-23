@@ -562,7 +562,7 @@ Implementation of the provider for the combined selection
 ## Sample
 
 ```http!
-GET /api/v1/archive/DocumenthadowSelectionCombined?$select=contactId,person/associateType,contact/restrictionAddress/wgs84latitude,project/projectAssociate/associateDbId,associate/usergroup
+GET /api/v1/archive/DocumenthadowSelectionCombined?$select=mailMergeDraft,person/isStakeholder,project/icon,project/projectUdef/SuperOffice:7,sale/type
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

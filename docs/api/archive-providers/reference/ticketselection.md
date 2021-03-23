@@ -403,7 +403,7 @@ This is the archive Provider for the Selection ticket archive.
 ## Sample
 
 ```http!
-GET /api/v1/archive/TicketSelection?$select=status,person/email/emailProtocol,person/personUdef/SuperOffice:10
+GET /api/v1/archive/TicketSelection?$select=createdBy/lastName,person/personInfo/textId,person/birthMonth
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

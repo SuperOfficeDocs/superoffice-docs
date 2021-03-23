@@ -581,7 +581,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/FindContactWithoutPhoneAddressEmail?$select=streetAddress/county,appointment/associate/personId,appointment/appointment/textId
+GET /api/v1/archive/FindContactWithoutPhoneAddressEmail?$select=sourceRelation/number,sale/salePublish/publishedTo,sale/associate/contactId,sale/associate/isActive,personActiveErpLinks
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

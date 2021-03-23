@@ -1108,7 +1108,7 @@ This provider is a trivial aggregation of the Appointment and Document providers
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaleGuide?$select=appointmentInstance/endTime,appointmentInstance/contact/restrictionAddress/state,appointmentInstance/contact/saintTicketCategory,appointmentInstance/person/email/emailHasBounced,appointmentInstance/project/name
+GET /api/v1/archive/SaleGuide?$select=appointmentInstance/appointmentId,appointmentInstance/sale/associate/portraitThumbnail,appointmentInstance/associate/simultaneousEjUser,documentInstance/contact/contactUdef/SuperOffice:9,documentInstance/project/projectAssociate/credentialType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

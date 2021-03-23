@@ -843,7 +843,7 @@ Archive provider for Sale type activities. This provider can be used on its own,
 ## Sample
 
 ```http!
-GET /api/v1/archive/Sale?$select=contact/contactAssociate/lastName,associate/contactDepartment,saleStakeholder/person/personSource,saleStakeholder/person/personBusiness,saleStakeholder/person/searchPhone/formattedNumber
+GET /api/v1/archive/Sale?$select=person/email/emailLastBounce,person/restrictionAddress/formattedAddress,person/legalBaseStore,contact/saintActivityType,associate/ejStatus
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

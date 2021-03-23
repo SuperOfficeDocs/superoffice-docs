@@ -600,7 +600,7 @@ QuoteLine provider for Find
 ## Sample
 
 ```http!
-GET /api/v1/archive/FindQuoteLine?$select=alternative/version/quote/sale/contact/department,alternative/version/quote/sale/contact/contactFax/description,alternative/version/quote/sale/contact/restrictionAddress/line1,alternative/version/quote/sale/contact/restrictionAddress/line2,alternative/version/quote/sale/contact/contactAssociate/fullName
+GET /api/v1/archive/FindQuoteLine?$select=alternative/version/state,alternative/version/quote/sale/saleStatus,alternative/version/quote/sale/contact/updatedDate,alternative/version/quote/sale/contact/postAddress/formattedAddress,alternative/version/quote/sale/contact/LastSale
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

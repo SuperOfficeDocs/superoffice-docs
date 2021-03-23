@@ -592,7 +592,7 @@ Activity archive provider for the Sale card
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaleActivity?$select=person/isStakeholder,person/personInterestIds,person/legalBaseEmarketing,contact/contactPhone/description,contact/contactFax/formattedNumber
+GET /api/v1/archive/SaleActivity?$select=person/personAddress/state,contact/category,contact/restrictionAddress/state,contact/contactAssociate/portraitThumbnail,contact/NumberOfNotCompletedSales
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

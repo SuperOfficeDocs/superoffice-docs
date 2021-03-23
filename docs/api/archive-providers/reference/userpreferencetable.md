@@ -1,7 +1,7 @@
 ---
 uid: UserPreferenceTable
 title: UserPreferenceTable
-description: Archive provider for preferences that live in the <b>userpreference</b> table. <see cref="T-SuperOffice.CRM.ArchiveLists.MappedPreferenceProvider" /> for those that
+description: Archive provider for preferences that live in the <b>userpreference</b> table. <see cref="T -SuperOffice.CRM.ArchiveLists.MappedPreferenceProvider" /> for those that
 keywords:
   - "archive"
   - "provider"

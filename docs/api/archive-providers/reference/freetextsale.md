@@ -853,7 +853,7 @@ as well as before any ORDER BY, are applied.
 ## Sample
 
 ```http!
-GET /api/v1/archive/FreetextSale?$select=heading,associate/isActiveText,saleStakeholder/person/middleName,saleStakeholder/person/personAddress/wgs84latitude,saleStakeholder/person/legalBaseEmarketing
+GET /api/v1/archive/FreetextSale?$select=contact/restrictionAddress/wgs84latitude,contact/contactAssociate/personId,associate/credentialDisplayValue,project/projectAssociate/middleName,project/projectAssociate/contactDepartment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

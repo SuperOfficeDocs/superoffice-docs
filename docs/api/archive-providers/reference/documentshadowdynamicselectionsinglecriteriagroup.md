@@ -557,7 +557,7 @@ Shadow contact provider for the dynamic document provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/DocumentShadowDynamicSelectionSingleCriteriaGroup?$select=contact/contactAssociate/credentialType,associate/ejUserId,sale/saleUdef/SuperOffice:4
+GET /api/v1/archive/DocumentShadowDynamicSelectionSingleCriteriaGroup?$select=person/hasInterests,contact/nameDepartment,contact/hasInterests,contact/email/emailHasBounced,contact/contactAssociate/contactId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

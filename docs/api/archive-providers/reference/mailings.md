@@ -182,7 +182,7 @@ Archive provider for the list of mailings
 ## Sample
 
 ```http!
-GET /api/v1/archive/Mailings?$select=mailingSent,project/status,project/projectUdef/SuperOffice:7
+GET /api/v1/archive/Mailings?$select=associate/fullName,project/completed,associate/isActive
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

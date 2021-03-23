@@ -617,7 +617,7 @@ Activity archive provider for the Person card
 ## Sample
 
 ```http!
-GET /api/v1/archive/PersonActivity?$select=person/personNoMail,contact/restrictionAddress/addressId,contact/contactUdef/SuperOffice:8,contact/NumberOfNotCompletedSales
+GET /api/v1/archive/PersonActivity?$select=project/registeredBy,project/projectAssociate/mrMrs,person/personAddress/formattedMultiLineAddress,booking,appointmentUdef/SuperOffice:5
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -627,7 +627,7 @@ Provider for searching in projects
 ## Sample
 
 ```http!
-GET /api/v1/archive/FindProject?$select=NumberOfNotCompletedActivitiesInPeriod,sale/activeErpLinks,appointment/appointmentUdef/SuperOffice:3,document/projectId,document/snum
+GET /api/v1/archive/FindProject?$select=text,hasGuide,projectAssociate/isActive,projectUdef/SuperOffice:7,LastActivity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

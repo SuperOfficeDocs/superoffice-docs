@@ -852,7 +852,7 @@ Link data provider for sales, handles both addressing by source or by destinatio
 ## Sample
 
 ```http!
-GET /api/v1/archive/LinksSales?$select=sourceDocumentRestrictionId,person/personPrivate/description,person/email/emailBounceCount,contact/number,contact/restrictionAddress/line1
+GET /api/v1/archive/LinksSales?$select=saleStakeholder/person/personMobilePhone/description,saleStakeholder/person/email/emailProtocol,saleStakeholder/contact/postAddress/county,quote/version/alternative/quoteline/subscriptionQuantity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

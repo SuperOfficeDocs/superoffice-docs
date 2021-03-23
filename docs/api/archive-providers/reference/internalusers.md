@@ -1,7 +1,7 @@
 ---
 uid: InternalUsers
 title: InternalUsers
-description: Concrete provider for Internal Users - our own employees. See <see cref="T-SuperOffice.CRM.ArchiveLists.UsersProviderBase" /> for
+description: Concrete provider for Internal Users - our own employees. See <see cref="T -SuperOffice.CRM.ArchiveLists.UsersProviderBase" /> for
 keywords:
   - "archive"
   - "provider"
@@ -94,7 +94,7 @@ the actual functionality of the provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/InternalUsers?$select=firstName,title
+GET /api/v1/archive/InternalUsers?$select=simultaneousEjUser,firstName,title
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

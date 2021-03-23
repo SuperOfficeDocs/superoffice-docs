@@ -550,7 +550,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/InnerSelectionStaticContactProvider?$select=postAddress/county,contactAssociate/middleName,contactUdef/SuperOffice:1,targetRelation/code,targetRelation/stop
+GET /api/v1/archive/InnerSelectionStaticContactProvider?$select=postAddress/line2,sale/description,sale/associate/otherGroups,sale/saleUdef/SuperOffice:8,appointment/associate/credentialDisplayValue
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

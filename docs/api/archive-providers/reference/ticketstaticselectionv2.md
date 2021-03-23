@@ -403,7 +403,7 @@ Static archive Provider for a Selection of tickets archive.
 ## Sample
 
 ```http!
-GET /api/v1/archive/TicketStaticSelectionV2?$select=ownedBy/ejDisplayName,person/personUpdatedDate,person/personUdef/SuperOffice:1,person/personUdef/SuperOffice:6,person/subscription
+GET /api/v1/archive/TicketStaticSelectionV2?$select=ownedBy,ownedBy/lastName,selectionId,targetRecordId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

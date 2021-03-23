@@ -634,7 +634,7 @@ This is the archive Provider for the Selection Project archive.
 ## Sample
 
 ```http!
-GET /api/v1/archive/AssociateProjectSelection?$select=sale/competitor,sale/saleUdef/SuperOffice:3,appointment/appointmentUdef/SuperOffice:1
+GET /api/v1/archive/AssociateProjectSelection?$select=appointment/invitedPersonId,appointment/appointmentUdef/SuperOffice:8,appointment/associate/personId,appointment/associate/mrMrs,projectMember/personSource
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

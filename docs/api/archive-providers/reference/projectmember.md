@@ -407,7 +407,7 @@ from the result.
 ## Sample
 
 ```http!
-GET /api/v1/archive/ProjectMember?$select=project/NumberOfActivities,project/NumberOfNotCompletedSales,person/email/emailId,person/personAddress/county,contact/hasInfoText
+GET /api/v1/archive/ProjectMember?$select=contact/saintDirection,person/useAsMailingAddress,person/restrictionAddress/line1
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

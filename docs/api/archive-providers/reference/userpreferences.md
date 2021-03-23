@@ -57,7 +57,7 @@ Service settings that are mapped into preferences, retrieved by <see cref="T:Sup
 ## Sample
 
 ```http!
-GET /api/v1/archive/UserPreferences?$select=deflevel,deflevel,maxlevelname
+GET /api/v1/archive/UserPreferences?$select=userpreferenceId,prefkey,deflevel
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -1,7 +1,7 @@
 ---
 uid: SaleDynamicSelectionV2
 title: SaleDynamicSelectionV2
-description: Sale selection archive with OR-able selection groups. Each group is represented with the <see cref="T:SuperOffice.CRM.ArchiveLists.Archive.SaleSelectionDynamicProviderSingleCriteriaGroup" />.
+description: Sale selection archive with OR-able selection groups. Each group is represented with the <see cref="T -SuperOffice.CRM.ArchiveLists.Archive.SaleSelectionDynamicProviderSingleCriteriaGroup" />.
 keywords:
   - "archive"
   - "provider"
@@ -1002,7 +1002,7 @@ Sale selection archive with OR-able selection groups. Each group is represented 
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaleDynamicSelectionV2?$select=competitor,contact/contactId,associate/middleName,appointment/appointmentPublish/isPublished,document/associate/assocName
+GET /api/v1/archive/SaleDynamicSelectionV2?$select=contact/hasInterests,contact/contactAssociate/contactFullName,contact/NumberOfSales,document/recordType,document/personId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

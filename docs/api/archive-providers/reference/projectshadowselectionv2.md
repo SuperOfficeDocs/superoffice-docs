@@ -634,7 +634,7 @@ Shadow contact provider for the Project provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/ProjectShadowSelectionV2?$select=text,NumberOfSales,sale/associate/credentialType,appointment/time,appointment/completedDate
+GET /api/v1/archive/ProjectShadowSelectionV2?$select=projectAssociate/contactFullName,document/subject,projectMember/projectMemberId,projectMember/personUdef/SuperOffice:9,projectMember/department
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

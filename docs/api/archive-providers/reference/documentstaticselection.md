@@ -560,7 +560,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/DocumentStaticSelection?$select=person/isStakeholder,person/personAddress/line3,person/legalBaseEmarketing,contact/streetAddress/line2,contact/streetAddress/city
+GET /api/v1/archive/DocumentStaticSelection?$select=person/rank,contact/contactPhone/description,contact/streetAddress/wgs84latitude,contact/contactUdef/SuperOffice:3,sale/description
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

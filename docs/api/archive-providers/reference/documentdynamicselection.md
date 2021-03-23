@@ -559,7 +559,7 @@ Document selection archive using the selectionId as criterionmapping.
 ## Sample
 
 ```http!
-GET /api/v1/archive/DocumentDynamicSelection?$select=contact/contactAssociate/assocTooltip,project/NumberOfSalesInPeriod,documentUdef/SuperOffice:6,sale/originalStage,sale/nextDueDate
+GET /api/v1/archive/DocumentDynamicSelection?$select=person/personUpdatedDate,person/personActiveErpLinks,contact/contactFax/formattedNumber,contact/restrictionAddress/line2,contact/contactAssociate/ejUserId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

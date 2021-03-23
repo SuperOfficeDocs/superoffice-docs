@@ -629,7 +629,7 @@ Project selection archive using the selectionId as criterionmapping.
 ## Sample
 
 ```http!
-GET /api/v1/archive/ProjectDynamicSelection?$select=projectAssociate/usergroup,sale/registeredBy,sale/associate/contactId,projectMember/email/emailDescription
+GET /api/v1/archive/ProjectDynamicSelection?$select=text,sale/probPercent,document/completed
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

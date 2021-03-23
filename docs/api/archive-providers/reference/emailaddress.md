@@ -440,7 +440,7 @@ the email_id.
 ## Sample
 
 ```http!
-GET /api/v1/archive/EmailAddress?$select=personContact/restrictionAddress/line3,restrictionPostalAddress/formattedMultiLineAddress
+GET /api/v1/archive/EmailAddress?$select=who,personContact/restrictionAddress/line2,restrictionPostalAddress/line2,contactSupportPerson/rank,NumberOfTickets
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

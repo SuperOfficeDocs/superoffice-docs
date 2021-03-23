@@ -240,7 +240,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/DocumentQuoteLineInnerData?$select=quantity,PriceUnitSubscriptionQuantityUnit,alternative/version/quote/connection/erpConnection/connector/registeredBy
+GET /api/v1/archive/DocumentQuoteLineInnerData?$select=alternative/name,alternative/version/number,alternative/version/quote/sale/saleId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

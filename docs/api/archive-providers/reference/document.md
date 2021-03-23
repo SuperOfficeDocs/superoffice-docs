@@ -558,7 +558,7 @@ Archive provider for Document type activities. This provider can be used on its 
 ## Sample
 
 ```http!
-GET /api/v1/archive/Document?$select=person/personPrivate/formattedNumber,contact/email/emailHasBounced,contact/contactAssociate/lastName,contact/NumberOfTickets,sale/credited
+GET /api/v1/archive/Document?$select=registeredBy,project/associateId,documentUdef/SuperOffice:6,sale/currencyId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

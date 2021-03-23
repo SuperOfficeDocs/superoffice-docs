@@ -451,7 +451,7 @@ Messages on support tickets. Messages are typically e-mail messages with attachm
 ## Sample
 
 ```http!
-GET /api/v1/archive/TicketMessage?$select=ticket/contact/registeredBy,ticket/contact/streetAddress/formattedMultiLineAddress,ticket/person/personUpdatedDate
+GET /api/v1/archive/TicketMessage?$select=ticket/contact/restrictionAddress/zip,ticket/contact/NumberOfActivities,ticket/person/personUpdatedDate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

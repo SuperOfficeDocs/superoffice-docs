@@ -400,7 +400,7 @@ Shadow contact provider for the dynamic ticket provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/TicketShadowDynamicSelection?$select=createdBy/mrMrs,ownedBy/associateDbId,person/restrictionAddress/city
+GET /api/v1/archive/TicketShadowDynamicSelection?$select=ownedBy/otherGroups,person/legalBaseStore,contact/restrictionAddress/state
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

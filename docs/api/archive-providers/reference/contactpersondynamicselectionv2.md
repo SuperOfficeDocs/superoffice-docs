@@ -1,7 +1,7 @@
 ---
 uid: ContactPersonDynamicSelectionV2
 title: ContactPersonDynamicSelectionV2
-description: Contact + Person selection archive with OR-able selection groups. Each group is represented with the <see cref="T:SuperOffice.CRM.ArchiveLists.Archive.SaleSelectionDynamicProviderSingleCriteriaGroup" />.
+description: Contact + Person selection archive with OR-able selection groups. Each group is represented with the <see cref="T -SuperOffice.CRM.ArchiveLists.Archive.SaleSelectionDynamicProviderSingleCriteriaGroup" />.
 keywords:
   - "archive"
   - "provider"
@@ -896,7 +896,7 @@ Contact + Person selection archive with OR-able selection groups. Each group is 
 ## Sample
 
 ```http!
-GET /api/v1/archive/ContactPersonDynamicSelectionV2?$select=email/emailLastSent,contactAssociate/associateDbId,document/associate/lastName,request/realTimeSpentQueue,request/ownedBy/lastName
+GET /api/v1/archive/ContactPersonDynamicSelectionV2?$select=getAllRows,sale/associate/role,document/icon,personAssociate/lastName,personAssociate/middleName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

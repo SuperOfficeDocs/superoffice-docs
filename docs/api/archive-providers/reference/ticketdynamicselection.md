@@ -400,7 +400,7 @@ Ticket selection archive using the selectionId as criterionmapping.
 ## Sample
 
 ```http!
-GET /api/v1/archive/TicketDynamicSelection?$select=person/personUdef/SuperOffice:5,person/personSource,person/restrictionAddress/line1
+GET /api/v1/archive/TicketDynamicSelection?$select=createdBy/usergroup,contact/searchPhone/description,contact/streetAddress/formattedMultiLineAddress
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

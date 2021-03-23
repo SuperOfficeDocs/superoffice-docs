@@ -559,7 +559,7 @@ Shadow contact provider for the dynamic document provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/DocumentShadowDynamicSelection?$select=person/personAddress/state,contact/department,sale/salePublish/publishedTo,sale/associate/firstName
+GET /api/v1/archive/DocumentShadowDynamicSelection?$select=attention,contact/contactAssociate/mrMrs,contact/contactAssociate/contactName,contact/NumberOfNotCompletedTickets,project/number
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

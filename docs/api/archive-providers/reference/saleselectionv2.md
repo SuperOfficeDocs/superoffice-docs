@@ -1005,7 +1005,7 @@ This is the archive Provider for the Selection sale archive.
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaleSelectionV2?$select=contact/restrictionAddress/line3,associate/simultaneousEjUser,document/documentPublish/publishedTo,document/associate/contactId,project/saintAmountClass
+GET /api/v1/archive/SaleSelectionV2?$select=person/personAddress/county,contact/contactSource,contact/contactAssociate/fullName,associate/associateDbId,appointment/associate/title
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

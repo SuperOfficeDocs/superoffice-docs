@@ -403,7 +403,7 @@ Implementation of the provider for the combined selection
 ## Sample
 
 ```http!
-GET /api/v1/archive/TicketShadowSelectionCombinedV2?$select=closedAt,person/hasInterests,person/personUpdatedDate,contact/NumberOfTicketsInPeriod
+GET /api/v1/archive/TicketShadowSelectionCombinedV2?$select=createdBy/isActive,person/restrictionAddress/city,contact/NumberOfNotCompletedTickets
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

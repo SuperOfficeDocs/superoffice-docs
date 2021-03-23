@@ -385,7 +385,7 @@ Provides populated mail envelope rows as an archive
 ## Sample
 
 ```http!
-GET /api/v1/archive/Mail2?$select=person/restrictionAddress/city,contact/email/emailAddress,person/restrictionAddress/formattedAddress
+GET /api/v1/archive/Mail2?$select=person/personUpdatedBy,person/personUdef/SuperOffice:6,person/personAssociate/personId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -49,7 +49,7 @@ the string in either subject, sender, recipient or date are returned
 ## Sample
 
 ```http!
-GET /api/v1/archive/Mail?$select=to,size
+GET /api/v1/archive/Mail?$select=attachment,to,size
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

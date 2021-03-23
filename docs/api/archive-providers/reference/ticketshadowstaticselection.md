@@ -403,7 +403,7 @@ Shadow contact provider for the static ticket provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/TicketShadowStaticSelection?$select=person/hasCompany,contact/email/emailDescription,contact/postAddress/formattedMultiLineAddress,contact/streetAddress/wgs84longitude,contact/restrictionAddress/line3
+GET /api/v1/archive/TicketShadowStaticSelection?$select=ownedBy/assocType,person/hasEmarketingConsent,person/subscription,contact/contactAssociate/contactId,contact/contactInterestIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

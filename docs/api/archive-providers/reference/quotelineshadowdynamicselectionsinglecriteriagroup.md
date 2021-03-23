@@ -600,7 +600,7 @@ Shadow contact provider for the dynamic quoteline provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/QuoteLineShadowDynamicSelectionSingleCriteriaGroup?$select=alternative/version/quote/sale/person/position,alternative/version/quote/sale/contact/mainContact,alternative/version/quote/sale/project/projectAssociate/contactName,alternative/version/quote/sale/project/projectAssociate/simultaneousEjUser,alternative/version/quote/sale/project/project/textId
+GET /api/v1/archive/QuoteLineShadowDynamicSelectionSingleCriteriaGroup?$select=vat,alternative/version/quote/sale/type,alternative/version/quote/sale/source,alternative/version/quote/sale/person/restrictionAddress/formattedAddress,alternative/version/quote/sale/contact/contactUdef/SuperOffice:6
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

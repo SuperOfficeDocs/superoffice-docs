@@ -899,7 +899,7 @@ This is the archive Provider for the Selection contact/person archive.
 ## Sample
 
 ```http!
-GET /api/v1/archive/ContactPersonSelectionV2?$select=contactAssociate/isActiveText,NumberOfNotCompletedTicketsInPeriod,sale/saleUdef/SuperOffice:8,appointment/associate/contactFullName,appointment/associate/credentialDisplayValue
+GET /api/v1/archive/ContactPersonSelectionV2?$select=contactAssociate/isActiveText,contactUdef/SuperOffice:1,appointment/recordTypeText,appointment/associate/associateDbId,appointment/associate/contactName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -562,7 +562,7 @@ Shadow contact provider for the Document provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/DocumentShadowSelection?$select=who,person/personRegisteredBy,person/personUdef/SuperOffice:11,contact/contactAssociate/contactDepartment,contact/contactAssociate/role
+GET /api/v1/archive/DocumentShadowSelection?$select=person/contactId,associate/contactCategory,contact/contactPhone/description
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

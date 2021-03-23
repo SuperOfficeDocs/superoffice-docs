@@ -842,7 +842,7 @@ Sale archive provider for the Diary card
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaleDiary?$select=probPercent,originalStage,person/hasInterests,contact/url/URLAddress,project/hasInfoText
+GET /api/v1/archive/SaleDiary?$select=person/personRegisteredBy,contact/NumberOfActivitiesInPeriod,project/number,project/projectUdef/SuperOffice:5,saleStakeholder/person/consentSourceStore
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

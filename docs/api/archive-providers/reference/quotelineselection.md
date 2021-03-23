@@ -607,7 +607,7 @@ This is the archive Provider for the Selection QuoteLine archive.
 ## Sample
 
 ```http!
-GET /api/v1/archive/QuoteLineSelection?$select=updatedBy,alternative/version/state,alternative/version/quote/sale/type,alternative/version/quote/sale/currencyId,alternative/version/quote/sale/person/hasEmarketingConsent
+GET /api/v1/archive/QuoteLineSelection?$select=alternative/version/quote/sale/person/supportAssociate,alternative/version/quote/sale/person/restrictionAddress/zip,alternative/version/quote/sale/contact/NumberOfTicketsInPeriod,alternative/version/quote/sale/associate/assocType,alternative/version/quote/connection/erpConnection/erpId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

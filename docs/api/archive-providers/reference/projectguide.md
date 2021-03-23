@@ -1111,7 +1111,7 @@ This provider is a trivial aggregation of the Appointment and Document providers
 ## Sample
 
 ```http!
-GET /api/v1/archive/ProjectGuide?$select=appointmentInstance/contact/streetAddress/state,appointmentInstance/contact/restrictionAddress/line2,appointmentInstance/contact/contactUdef/SuperOffice:1,appointmentInstance/person/position,appointmentInstance/person/restrictionAddress/formattedMultiLineAddress
+GET /api/v1/archive/ProjectGuide?$select=appointmentInstance/isMilestone,appointmentInstance/contact/contactUdef/SuperOffice:4,appointmentInstance/contact/NumberOfActivities,appointmentInstance/person/personAddress/line3,appointmentInstance/project/projectUdef/SuperOffice:5
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

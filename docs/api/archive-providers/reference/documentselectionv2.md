@@ -562,7 +562,7 @@ This is the archive Provider for the Selection document archive.
 ## Sample
 
 ```http!
-GET /api/v1/archive/DocumentSelectionV2?$select=contact/url/URLAddress,contact/contactPhone/description,contact/contactUdef/SuperOffice:7
+GET /api/v1/archive/DocumentSelectionV2?$select=person/personUdef/SuperOffice:4,contact/streetAddress/wgs84longitude,contact/contactAssociate/contactCategory,project/projectAssociate/title,project/NumberOfSales
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

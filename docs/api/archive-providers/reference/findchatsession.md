@@ -150,7 +150,7 @@ ChatSession provider for Find
 ## Sample
 
 ```http!
-GET /api/v1/archive/FindChatSession?$select=associate/ejUserId,person/hasInterests
+GET /api/v1/archive/FindChatSession?$select=associate/fullName,associate/contactFullName,associate/ejUserId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

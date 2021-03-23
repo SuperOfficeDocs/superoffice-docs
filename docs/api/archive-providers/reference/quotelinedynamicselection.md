@@ -602,7 +602,7 @@ Quoteline selection archive using the selectionId as criterionmapping.
 ## Sample
 
 ```http!
-GET /api/v1/archive/QuoteLineDynamicSelection?$select=alternative/version/quote/sale/person/searchPhone/formattedNumber,alternative/version/quote/sale/person/personUdef/SuperOffice:9,alternative/version/quote/sale/person/hasStoreConsent,alternative/version/quote/sale/person/withdrawnEmarketingConsent,alternative/version/quote/sale/contact/postAddress/wgs84latitude
+GET /api/v1/archive/QuoteLineDynamicSelection?$select=quoteLineThumbnailLarge,totalPriceIncVAT,alternative/vatAmount,alternative/version/expiration,alternative/version/quote/sale/person/rank
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

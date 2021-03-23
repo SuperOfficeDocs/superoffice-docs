@@ -629,7 +629,7 @@ Shadow contact provider for the dynamic Project provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/ProjectShadowDynamicSelection?$select=associateId,document/suggestedDocumentId,document/associate/mrMrs,projectMember/birthdate,projectMember/category
+GET /api/v1/archive/ProjectShadowDynamicSelection?$select=appointment/who,document/visibleFor
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -54,7 +54,7 @@ blah....
 ## Sample
 
 ```http!
-GET /api/v1/archive/ListItems?$select=listItemsRank,listItemsName,listItemsTooltip
+GET /api/v1/archive/ListItems?$select=listItemsName,listItemsTooltip
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

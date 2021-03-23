@@ -895,7 +895,7 @@ Implementation of the provider for the combined selection
 ## Sample
 
 ```http!
-GET /api/v1/archive/ContactSelectionCombined?$select=email/emailDescription,appointment/recurrenceRuleId,personPager/formattedNumber,request/realTimeSpentExternally,request/createdBy/assocType
+GET /api/v1/archive/ContactSelectionCombined?$select=contactId,sale/associate/assocTooltip,document/associate/contactCategory,ticketPriority,personDirectPhone/description
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
