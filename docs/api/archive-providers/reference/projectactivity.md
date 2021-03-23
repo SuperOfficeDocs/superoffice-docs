@@ -1,7 +1,7 @@
 ---
 uid: ProjectActivity
 title: ProjectActivity
-description: Activity archive provider for the Project card
+description: 
 keywords:
   - "archive"
   - "provider"
@@ -603,7 +603,7 @@ Activity archive provider for the Project card
 ## Sample
 
 ```http!
-GET /api/v1/archive/ProjectActivity?$select=project/projectAssociate/lastName,project/projectUdef/SuperOffice:2,project/projectUdef/SuperOffice:10,person/portraitThumbnail,contact/streetAddress/state
+GET /api/v1/archive/ProjectActivity?$select=contact/streetAddress/county,contact/contactAssociate/firstName,sale/userGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

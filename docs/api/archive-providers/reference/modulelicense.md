@@ -1,7 +1,7 @@
 ---
 uid: ModuleLicense
 title: ModuleLicense
-description: Simple provider for module licences. This provider will return a flat list with
+description: 
 keywords:
   - "archive"
   - "provider"

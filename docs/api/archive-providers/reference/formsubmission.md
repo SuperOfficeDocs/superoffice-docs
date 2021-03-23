@@ -1,7 +1,7 @@
 ---
 uid: FormSubmission
 title: FormSubmission
-description: Archive provider for listing form submissions
+description: 
 keywords:
   - "archive"
   - "provider"
@@ -145,7 +145,7 @@ Archive provider for listing form submissions
 ## Sample
 
 ```http!
-GET /api/v1/archive/FormSubmission?$select=person/birthYear,associate/ejStatus,person/position
+GET /api/v1/archive/FormSubmission?$select=person/firstName,associate/ejStatus,person/position
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -1,7 +1,7 @@
 ---
 uid: SelectionMemberStatic
 title: SelectionMemberStatic
-description: Provider for the Selection Member table
+description: 
 keywords:
   - "archive"
   - "provider"

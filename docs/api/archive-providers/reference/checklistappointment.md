@@ -1,7 +1,7 @@
 ---
 uid: ChecklistAppointment
 title: ChecklistAppointment
-description: Archive provider for Appointment activities, of the Diary type (not followup or booking). This provider can be used on its own, or can form part of the
+description: 
 keywords:
   - "archive"
   - "provider"
@@ -567,7 +567,7 @@ Archive provider for Appointment activities, of the Diary type (not followup or 
 ## Sample
 
 ```http!
-GET /api/v1/archive/ChecklistAppointment?$select=person/personCountry,person/personInfo/textId,project/saintIntention
+GET /api/v1/archive/ChecklistAppointment?$select=contact/streetAddress/zip,contact/contactAssociate/otherGroups,associate/userName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

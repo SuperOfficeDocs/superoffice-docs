@@ -1,7 +1,7 @@
 ---
 uid: ContactPersonSelectionCombinedV2
 title: ContactPersonSelectionCombinedV2
-description: Implementation of the provider for the combined selection
+description: 
 keywords:
   - "archive"
   - "provider"
@@ -895,7 +895,7 @@ Implementation of the provider for the combined selection
 ## Sample
 
 ```http!
-GET /api/v1/archive/ContactPersonSelectionCombinedV2?$select=streetAddress/formattedAddress,url/URLAddress,sourceRelation/who,sale/contactId,sale/associate/ejStatus
+GET /api/v1/archive/ContactPersonSelectionCombinedV2?$select=contactUdef/SuperOffice:5,sale/contactId,appointment/associate/role,document/documentUdef/SuperOffice:2,document/document/description
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

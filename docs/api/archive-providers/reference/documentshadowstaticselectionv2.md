@@ -1,7 +1,7 @@
 ---
 uid: DocumentShadowStaticSelectionV2
 title: DocumentShadowStaticSelectionV2
-description: Shadow contact provider for the static Document provider.
+description: 
 keywords:
   - "archive"
   - "provider"
@@ -562,7 +562,7 @@ Shadow contact provider for the static Document provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/DocumentShadowStaticSelectionV2?$select=person/birthMonth,person/personDeletedDate,contact/name,contact/postAddress/formattedAddress,contact/restrictionAddress/zip
+GET /api/v1/archive/DocumentShadowStaticSelectionV2?$select=person/legalBaseStore,contact/updatedDate,project/projectPublish/publishedFrom,documentUdef/SuperOffice:5,documentUdef/SuperOffice:8
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

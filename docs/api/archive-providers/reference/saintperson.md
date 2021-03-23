@@ -1,7 +1,7 @@
 ---
 uid: SaintPerson
 title: SaintPerson
-description: Archive provider for Contact Saint Status - same as Find Contact, but adds ability to call up stored definitions via a statusDefId column
+description: 
 keywords:
   - "archive"
   - "provider"
@@ -584,7 +584,7 @@ Archive provider for Contact Saint Status - same as Find Contact, but adds abili
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaintPerson?$select=email/emailAddress,sourceRelation/updatedDate,sale/associate/assocTooltip,appointment/appointmentUdef/SuperOffice:4,personEmail/emailAddress
+GET /api/v1/archive/SaintPerson?$select=streetAddress/addressId,appointment/appointmentUdef/SuperOffice:5,appointment/associate/firstName,document/associate/contactDepartment,document/documentUdef/SuperOffice:3
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

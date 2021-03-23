@@ -1,7 +1,7 @@
 ---
 uid: SaleShadowDynamicSelection
 title: SaleShadowDynamicSelection
-description: Shadow contact provider for the dynamic sale provider.
+description: 
 keywords:
   - "archive"
   - "provider"
@@ -1002,7 +1002,7 @@ Shadow contact provider for the dynamic sale provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaleShadowDynamicSelection?$select=person/mrMrs,contact/streetAddress/addressId,contact/LastDoByTicket,appointment/associate/ejUserId,saleStakeholder/person/title
+GET /api/v1/archive/SaleShadowDynamicSelection?$select=type,person/personAddress/formattedAddress,contact/NumberOfTickets,appointment/appointmentUdef/SuperOffice:1,document/contactId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

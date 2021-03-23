@@ -1,7 +1,7 @@
 ---
 uid: FreetextPerson
 title: FreetextPerson
-description: Archive provider for freetext search on the Person entity.
+description: 
 keywords:
   - "archive"
   - "provider"
@@ -728,7 +728,7 @@ as well as before any ORDER BY, are applied.
 ## Sample
 
 ```http!
-GET /api/v1/archive/FreetextPerson?$select=personContact/contactPhone/formattedNumber,personContact/streetAddress/formattedMultiLineAddress,personContact/contactUdef/SuperOffice:7,request/author,projectMembers/projectUrl/URLAddress
+GET /api/v1/archive/FreetextPerson?$select=personContact/contactSupportPerson/hasCompany,personContact/contactSupportPerson/hasStoreConsent,personAppointment/recordType,personAppointment/alarm,personAppointment/associate/assocName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

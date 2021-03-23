@@ -1,7 +1,7 @@
 ---
 uid: ListItems
 title: ListItems
-description: Archive provider for the list of ListItems
+description: 
 keywords:
   - "archive"
   - "provider"

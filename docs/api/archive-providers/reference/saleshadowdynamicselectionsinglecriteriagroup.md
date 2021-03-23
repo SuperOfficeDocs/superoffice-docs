@@ -1,7 +1,7 @@
 ---
 uid: SaleShadowDynamicSelectionSingleCriteriaGroup
 title: SaleShadowDynamicSelectionSingleCriteriaGroup
-description: Shadow contact provider for the dynamic sale provider.
+description: 
 keywords:
   - "archive"
   - "provider"
@@ -1000,7 +1000,7 @@ Shadow contact provider for the dynamic sale provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaleShadowDynamicSelectionSingleCriteriaGroup?$select=person/personMobilePhone/formattedNumber,person/searchPhone/description,associate/simultaneousEjUser,appointment/appointmentPublish/publishedBy,saleStakeholder/person/personUdef/SuperOffice:3
+GET /api/v1/archive/SaleShadowDynamicSelectionSingleCriteriaGroup?$select=contact/contactAssociate/assocType,saleUdef/SuperOffice:4,appointment/booking,appointment/appointmentUdef/SuperOffice:3,saleStakeholder/contact/phone/formattedNumber
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

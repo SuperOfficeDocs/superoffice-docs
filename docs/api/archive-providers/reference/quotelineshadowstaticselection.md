@@ -1,7 +1,7 @@
 ---
 uid: QuoteLineShadowStaticSelection
 title: QuoteLineShadowStaticSelection
-description: Shadow contact provider for the static quoteline provider.
+description: 
 keywords:
   - "archive"
   - "provider"
@@ -607,7 +607,7 @@ Shadow contact provider for the static quoteline provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/QuoteLineShadowStaticSelection?$select=totalPriceIncVAT,alternative/version/quote/sale/lossReason,alternative/version/quote/sale/person/personDirectFax/formattedNumber,alternative/version/quote/sale/person/personUdef/SuperOffice:11,alternative/version/quote/sale/contact/contactAssociate/middleName
+GET /api/v1/archive/QuoteLineShadowStaticSelection?$select=url,updatedBy,alternative/version/approvedDate,alternative/version/quote/sale/person/personAddress/county,alternative/version/quote/sale/person/personUdef/SuperOffice:2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

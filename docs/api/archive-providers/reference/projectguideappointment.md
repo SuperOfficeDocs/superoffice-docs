@@ -1,7 +1,7 @@
 ---
 uid: ProjectGuideAppointment
 title: ProjectGuideAppointment
-description: Specific provider for Project Guide Items of type Appointment
+description: 
 keywords:
   - "archive"
   - "provider"
@@ -588,7 +588,7 @@ to drive the sentry calculations, as well as the specialization with the correct
 ## Sample
 
 ```http!
-GET /api/v1/archive/ProjectGuideAppointment?$select=appointmentInstance/recurrenceRuleId,appointmentInstance/appointmentUdef/SuperOffice:8,appointmentInstance/sale/associate/credentialDisplayValue
+GET /api/v1/archive/ProjectGuideAppointment?$select=appointmentInstance/rawType,appointmentInstance/contact/registeredBy,appointmentInstance/contact/postAddress/line2,appointmentInstance/contact/LastDoByActivity,appointmentInstance/person/personSource
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

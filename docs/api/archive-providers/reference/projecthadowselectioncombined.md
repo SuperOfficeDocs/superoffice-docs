@@ -1,7 +1,7 @@
 ---
 uid: ProjecthadowSelectionCombined
 title: ProjecthadowSelectionCombined
-description: Implementation of the provider for the combined selection
+description: 
 keywords:
   - "archive"
   - "provider"
@@ -626,7 +626,7 @@ Implementation of the provider for the combined selection
 ## Sample
 
 ```http!
-GET /api/v1/archive/ProjecthadowSelectionCombined?$select=NumberOfSalesInPeriod,appointment/alarm,appointment/updatedBy
+GET /api/v1/archive/ProjecthadowSelectionCombined?$select=projectPublish/publishedBy,projectAssociate/personId,appointment/associateId,appointment/associate/lastName,projectMember/hasInfoText
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

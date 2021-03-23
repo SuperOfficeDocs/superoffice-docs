@@ -1,7 +1,7 @@
 ---
 uid: ReportLabelLayout
 title: ReportLabelLayout
-description: This archive provider enables access to the information regarding report label layout.
+description: 
 keywords:
   - "archive"
   - "provider"

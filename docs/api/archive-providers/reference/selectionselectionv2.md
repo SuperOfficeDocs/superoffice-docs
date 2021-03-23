@@ -1,7 +1,7 @@
 ---
 uid: SelectionSelectionV2
 title: SelectionSelectionV2
-description: This is the archive Provider for the Selection selection archive.
+description: 
 keywords:
   - "archive"
   - "provider"
@@ -84,7 +84,7 @@ This is the archive Provider for the Selection selection archive.
 ## Sample
 
 ```http!
-GET /api/v1/archive/SelectionSelectionV2?$select=lastMembershipChangeBy,selectionAssociate/personId
+GET /api/v1/archive/SelectionSelectionV2?$select=lastLoadedBy,lastMembershipChangeBy,selectionAssociate/personId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

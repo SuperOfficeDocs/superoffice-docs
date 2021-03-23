@@ -1,7 +1,7 @@
 ---
 uid: ProjectMember
 title: ProjectMember
-description: Provider for the Project Member archive under Project
+description: 
 keywords:
   - "archive"
   - "provider"
@@ -407,7 +407,7 @@ from the result.
 ## Sample
 
 ```http!
-GET /api/v1/archive/ProjectMember?$select=person/supportAssociate,person/personUdef/SuperOffice:10,person/useAsMailingAddress
+GET /api/v1/archive/ProjectMember?$select=person/supportAssociate,person/email/emailHasBounced,contact/saintTicketCategory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

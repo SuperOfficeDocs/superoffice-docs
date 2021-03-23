@@ -1,7 +1,7 @@
 ---
 uid: SaleActivity
 title: SaleActivity
-description: Activity archive provider for the Sale card
+description: 
 keywords:
   - "archive"
   - "provider"
@@ -592,7 +592,7 @@ Activity archive provider for the Sale card
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaleActivity?$select=person/personUdef/SuperOffice:2,contact/postAddress/formattedMultiLineAddress,contact/restrictionAddress/wgs84latitude,project/status,project/projectUrl/URLDescription
+GET /api/v1/archive/SaleActivity?$select=contact/restrictionAddress/state,contact/NumberOfActivities,contact/email/emailBounceCount
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

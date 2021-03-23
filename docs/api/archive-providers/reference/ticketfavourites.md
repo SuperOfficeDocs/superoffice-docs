@@ -400,7 +400,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/ticketfavourites?$select=firstReadByOwner,entityIcon,contact/contactUdef/SuperOffice:2,contact/NumberOfSalesInPeriod
+GET /api/v1/archive/ticketfavourites?$select=person/personUdef/SuperOffice:10,person/consentSourceEmarketing,contact/LastSale
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

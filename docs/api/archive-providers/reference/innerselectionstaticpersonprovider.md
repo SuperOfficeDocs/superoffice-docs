@@ -555,7 +555,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/InnerSelectionStaticPersonProvider?$select=personPrivate/description,contactUdef/SuperOffice:12,request/firstReadByUser,projectMembers/endDate,projectMembers/projectAssociate/assocName
+GET /api/v1/archive/InnerSelectionStaticPersonProvider?$select=postAddress/line3,restrictionAddress/line1,contactAssociate/contactName,contactUdef/SuperOffice:4,request/createdBy/usergroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

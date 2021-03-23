@@ -1,7 +1,7 @@
 ---
 uid: Activity
 title: Activity
-description: Activity archive provider that performs no filtering. This archive is not present anywhere in the standard six.web GUI.
+description: 
 keywords:
   - "archive"
   - "provider"
@@ -592,7 +592,7 @@ Activity archive provider that performs no filtering. This archive is not presen
 ## Sample
 
 ```http!
-GET /api/v1/archive/Activity?$select=person/rank,person/personRegisteredDate,person/isProjectMember,person/personDirectFax/formattedNumber,contact/postAddress/line3
+GET /api/v1/archive/Activity?$select=person/personRegisteredDate,contact/contactAssociate/associateDbId,associate/title,associate/assocType,sale/currencyId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

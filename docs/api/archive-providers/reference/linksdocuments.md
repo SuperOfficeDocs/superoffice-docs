@@ -1,7 +1,7 @@
 ---
 uid: LinksDocuments
 title: LinksDocuments
-description: Link data provider for documents, handles both addressing by source or by destination (not both at the same time!)
+description: 
 keywords:
   - "archive"
   - "provider"
@@ -567,7 +567,7 @@ Link data provider for documents, handles both addressing by source or by destin
 ## Sample
 
 ```http!
-GET /api/v1/archive/LinksDocuments?$select=mailMergeDraft,person/birthdate,contact/postAddress/line2,contact/NumberOfSales,project/icon
+GET /api/v1/archive/LinksDocuments?$select=contact/restrictionAddress/zip,contact/saintIntention,contact/contactSource
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -1,7 +1,7 @@
 ---
 uid: Role
 title: Role
-description: Archive of Roles  - used by the web api.
+description: 
 keywords:
   - "archive"
   - "provider"
@@ -48,7 +48,7 @@ Lists all Roles in table.
 ## Sample
 
 ```http!
-GET /api/v1/archive/Role?$select=description,useCategories
+GET /api/v1/archive/Role?$select=isDeleted,description,useCategories
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -1,7 +1,7 @@
 ---
 uid: DocumentDynamicSelection
 title: DocumentDynamicSelection
-description: Document selection archive using the selectionId as criterionmapping.
+description: 
 keywords:
   - "archive"
   - "provider"
@@ -559,7 +559,7 @@ Document selection archive using the selectionId as criterionmapping.
 ## Sample
 
 ```http!
-GET /api/v1/archive/DocumentDynamicSelection?$select=person/personCategory,person/isProjectMember,person/personAddress/line3
+GET /api/v1/archive/DocumentDynamicSelection?$select=type,person/fullName,person/personDeletedDate,person/personAddress/formattedAddress,project/projectUdef/SuperOffice:3
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

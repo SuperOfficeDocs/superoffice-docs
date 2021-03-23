@@ -1,7 +1,7 @@
 ---
 uid: FindProject
 title: FindProject
-description: Provider for searching in projects
+description: 
 keywords:
   - "archive"
   - "provider"
@@ -627,7 +627,7 @@ Provider for searching in projects
 ## Sample
 
 ```http!
-GET /api/v1/archive/FindProject?$select=number,projectUdef/SuperOffice:4,sale/associate/userName,appointment/associate/personId,appointment/associate/otherGroups
+GET /api/v1/archive/FindProject?$select=document/associate/assocName,projectMember/NumberOfTicketsInPeriod,project/textId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

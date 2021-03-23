@@ -1,7 +1,7 @@
 ---
 uid: ContactPersonDynamicSelectionSingleCriteriaGroup
 title: ContactPersonDynamicSelectionSingleCriteriaGroup
-description: Contact + Person selection archive using the selectionId as criterionmapping.
+description: 
 keywords:
   - "archive"
   - "provider"
@@ -894,7 +894,7 @@ Contact + Person selection archive using the selectionId as criterionmapping.
 ## Sample
 
 ```http!
-GET /api/v1/archive/ContactPersonDynamicSelectionSingleCriteriaGroup?$select=streetAddress/line1,contactAssociate/assocTooltip,appointment/appointmentPublish/publishedFrom,personRegisteredDate,personMobilePhone/description
+GET /api/v1/archive/ContactPersonDynamicSelectionSingleCriteriaGroup?$select=targetRelation/registeredBy,sale/associate/contactId,sale/saleUdef/SuperOffice:3,appointment/date,appointment/endTime
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -1,7 +1,7 @@
 ---
 uid: Relation
 title: Relation
-description: Data provider class for the 'Relation' archive under the company card. This class combines output from
+description: 
 keywords:
   - "archive"
   - "provider"
@@ -484,7 +484,7 @@ the up to eight basic sub-providers (CC, PC, PP and CP plus their reversed cousi
 ## Sample
 
 ```http!
-GET /api/v1/archive/Relation?$select=source/portraitThumbnail,source/orgnr,source/mainContact,target/personPager/formattedNumber,source/contactAssociate/personEmail
+GET /api/v1/archive/Relation?$select=source/personDirectPhone/formattedNumber,source/personPrivate/formattedNumber,target/streetAddress/formattedMultiLineAddress,target/contactAssociate/contactName,source/postAddress/wgs84longitude
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

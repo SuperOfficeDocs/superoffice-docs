@@ -1,7 +1,7 @@
 ---
 uid: FreetextSelection
 title: FreetextSelection
-description: Archive provider for freetext search on the Selection entity.
+description: 
 keywords:
   - "archive"
   - "provider"
@@ -94,7 +94,7 @@ as well as before any ORDER BY, are applied.
 ## Sample
 
 ```http!
-GET /api/v1/archive/FreetextSelection?$select=targetTableNumber,lastMembershipChange,selectionAssociate/contactId
+GET /api/v1/archive/FreetextSelection?$select=lastMembershipChange,selectionAssociate/contactId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

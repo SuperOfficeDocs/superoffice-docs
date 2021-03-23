@@ -1,7 +1,7 @@
 ---
 uid: AppointmentShadowSelection
 title: AppointmentShadowSelection
-description: Shadow contact provider for the appointment provider.
+description: 
 keywords:
   - "archive"
   - "provider"
@@ -571,7 +571,7 @@ Shadow contact provider for the appointment provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/AppointmentShadowSelection?$select=contact/email/emailBounceCount,contact/postAddress/line2,contact/postAddress/zip,contact/LastActivity,sale/associate/contactId
+GET /api/v1/archive/AppointmentShadowSelection?$select=project/updatedDate,sale/completed,sale/earningPercent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

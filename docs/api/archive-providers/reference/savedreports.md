@@ -1,7 +1,7 @@
 ---
 uid: SavedReports
 title: SavedReports
-description: Specialized provider for the archive in the Reporter panel. It subclasses the <see cref="T:SuperOffice.CRM.ArchiveLists.DocumentProvider" /> class,
+description: 
 keywords:
   - "archive"
   - "provider"
@@ -562,7 +562,7 @@ documents that represent saved reports are shown</description></item></list>
 ## Sample
 
 ```http!
-GET /api/v1/archive/SavedReports?$select=date,yourref,contact/contactAssociate/mrMrs,project/projectPublish/publishedTo,project/projectAssociate/isActive
+GET /api/v1/archive/SavedReports?$select=person/personUpdatedDate,contact/SaintStatus1,associate/contactName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -1,7 +1,7 @@
 ---
 uid: Invitation
 title: Invitation
-description: Invitation provider multichannel combiner, consisting of simple, cancelled, rejected, repeating and response invitations. You can also
+description: 
 keywords:
   - "archive"
   - "provider"
@@ -579,7 +579,7 @@ because someone may explicitly request an instance an a recurring booking, so th
 ## Sample
 
 ```http!
-GET /api/v1/archive/Invitation?$select=registeredDate,contact/streetAddress/addressId,contact/streetAddress/zip,project/updatedDate,project/projectUdef/SuperOffice:2
+GET /api/v1/archive/Invitation?$select=contact/LastActivity,person/isMailingRecipient,project/saintAmountClass,associate/ejStatus
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

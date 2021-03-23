@@ -1,7 +1,7 @@
 ---
 uid: QuoteLine
 title: QuoteLine
-description: This is the archive Provider for the QuoteLine Archive.
+description: 
 keywords:
   - "archive"
   - "provider"

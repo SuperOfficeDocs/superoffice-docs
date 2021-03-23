@@ -1,7 +1,7 @@
 ---
 uid: ForeignKeys
 title: ForeignKeys
-description: Archive of Foreign Keys - used by the web api and partners.
+description: 
 keywords:
   - "archive"
   - "provider"

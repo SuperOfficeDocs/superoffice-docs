@@ -1,7 +1,7 @@
 ---
 uid: FindChatSession
 title: FindChatSession
-description: ChatSession provider for Find
+description: 
 keywords:
   - "archive"
   - "provider"
@@ -150,7 +150,7 @@ ChatSession provider for Find
 ## Sample
 
 ```http!
-GET /api/v1/archive/FindChatSession?$select=contact/hasInfoText,associate/ejUserId,person/hasInterests
+GET /api/v1/archive/FindChatSession?$select=associate/ejUserId,person/hasInterests
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

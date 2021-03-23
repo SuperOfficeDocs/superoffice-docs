@@ -1,7 +1,7 @@
 ---
 uid: LinksSales
 title: LinksSales
-description: Link data provider for sales, handles both addressing by source or by destination (not both at the same time!)
+description: 
 keywords:
   - "archive"
   - "provider"
@@ -852,7 +852,7 @@ Link data provider for sales, handles both addressing by source or by destinatio
 ## Sample
 
 ```http!
-GET /api/v1/archive/LinksSales?$select=person/useAsMailingAddress,contact/postAddress/county,contact/streetAddress/addressId,contact/streetAddress/state,saleStakeholder/contact/deletedDate
+GET /api/v1/archive/LinksSales?$select=contact/streetAddress/line1,contact/contactAssociate/assocTooltip,contact/contactUdef/SuperOffice:13,saleStakeholder/contact/LastDoByTicket,saleStakeholder/contact/saintAmountClass
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

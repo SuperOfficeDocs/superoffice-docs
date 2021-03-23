@@ -52,7 +52,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/UsageStats?$select=associateId,functionHiWord,uses
+GET /api/v1/archive/UsageStats?$select=functionHiWord,uses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

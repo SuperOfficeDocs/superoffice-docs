@@ -480,7 +480,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/SimpleSale?$select=person/title,person/personAddress/formattedAddress,contact/nameDepartment,contact/contactAssociate/ejUserId
+GET /api/v1/archive/SimpleSale?$select=person/lastName,contact/registeredDate,contact/contactAssociate/fullName,contact/contactAssociate/userName,project/projectAssociate/personEmail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

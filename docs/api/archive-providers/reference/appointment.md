@@ -1,7 +1,7 @@
 ---
 uid: Appointment
 title: Appointment
-description: Activity archive provider which handles appointments
+description: 
 keywords:
   - "archive"
   - "provider"
@@ -569,7 +569,7 @@ subchannels, each split by a <see cref="!:DoneNotDoneSplitter" /> to get appoint
 ## Sample
 
 ```http!
-GET /api/v1/archive/Appointment?$select=project/projectAssociate/personId,contact/NumberOfNotCompletedSalesInPeriod,person/personAddress/line2
+GET /api/v1/archive/Appointment?$select=projectId,visibleInDiary,appointmentPublish/isPublished,contact/contactUdef/SuperOffice:5,person/personDeletedDate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

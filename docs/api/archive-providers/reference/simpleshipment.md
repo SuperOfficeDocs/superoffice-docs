@@ -1,7 +1,7 @@
 ---
 uid: simpleshipment
 title: simpleshipment
-description: Archive provider for the list of mailings
+description: 
 keywords:
   - "archive"
   - "provider"

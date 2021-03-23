@@ -1,7 +1,7 @@
 ---
 uid: FindQuoteLine
 title: FindQuoteLine
-description: QuoteLine provider for Find
+description: 
 keywords:
   - "archive"
   - "provider"
@@ -600,7 +600,7 @@ QuoteLine provider for Find
 ## Sample
 
 ```http!
-GET /api/v1/archive/FindQuoteLine?$select=alternative/version/quote/sale/contact/searchPhone/description,alternative/version/quote/sale/contact/streetAddress/zip,alternative/version/quote/sale/project/projectAssociate/usergroup
+GET /api/v1/archive/FindQuoteLine?$select=updatedDate,alternative/version/quote/sale/person/personHasInterests,alternative/version/quote/sale/person/personDirectFax/formattedNumber,alternative/version/quote/sale/project/projectEvent/isExternalEvent,alternative/version/quote/sale/project/NumberOfActivitiesInPeriod
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

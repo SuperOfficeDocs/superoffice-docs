@@ -1,7 +1,7 @@
 ---
 uid: DocumentDynamicSelectionV2
 title: DocumentDynamicSelectionV2
-description: Document selection archive with OR-able selection groups. Each group is represented with the <see cref="T:SuperOffice.CRM.ArchiveLists.Archive.DocumentSelectionDynamicProviderSingleCriteriaGroup" />.
+description: 
 keywords:
   - "archive"
   - "provider"
@@ -559,7 +559,7 @@ Document selection archive with OR-able selection groups. Each group is represen
 ## Sample
 
 ```http!
-GET /api/v1/archive/DocumentDynamicSelectionV2?$select=project/LastCompletedActivity,sale/amount,contact/deletedDate
+GET /api/v1/archive/DocumentDynamicSelectionV2?$select=documentId,contact/contactAssociate/fullName,contact/deletedDate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

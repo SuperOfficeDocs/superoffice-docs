@@ -1,7 +1,7 @@
 ---
 uid: SystemEvents
 title: SystemEvents
-description: Archive provider
+description: 
 keywords:
   - "archive"
   - "provider"

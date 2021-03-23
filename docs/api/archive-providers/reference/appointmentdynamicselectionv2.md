@@ -1,7 +1,7 @@
 ---
 uid: AppointmentDynamicSelectionV2
 title: AppointmentDynamicSelectionV2
-description: Appointment selection archive with OR-able selection groups. Each group is represented with the <see cref="T:SuperOffice.CRM.ArchiveLists.Archive.AppointmentSelectionDynamicProviderSingleCriteriaGroup" />.
+description: 
 keywords:
   - "archive"
   - "provider"
@@ -568,7 +568,7 @@ Appointment selection archive with OR-able selection groups. Each group is repre
 ## Sample
 
 ```http!
-GET /api/v1/archive/AppointmentDynamicSelectionV2?$select=person/personUrl/URLDescription,sale/text,sale/associate/simultaneousEjUser,sale/saleUdef/SuperOffice:8
+GET /api/v1/archive/AppointmentDynamicSelectionV2?$select=contact/postAddress/zip,person/subscription,project/saintIntention,sale/saleUdef/SuperOffice:7
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

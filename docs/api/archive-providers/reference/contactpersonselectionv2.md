@@ -1,7 +1,7 @@
 ---
 uid: ContactPersonSelectionV2
 title: ContactPersonSelectionV2
-description: This is the archive Provider for the Selection contact/person archive.
+description: 
 keywords:
   - "archive"
   - "provider"
@@ -899,7 +899,7 @@ This is the archive Provider for the Selection contact/person archive.
 ## Sample
 
 ```http!
-GET /api/v1/archive/ContactPersonSelectionV2?$select=contactAssociate/usergroup,sourceRelation/category,request/createdBy/personId,projectMembers/projectAssociate/isActiveText,personAppointment/associate/personId
+GET /api/v1/archive/ContactPersonSelectionV2?$select=NumberOfNotCompletedActivities,sale/recordType,sale/probPercent,appointment/registeredBy,appointment/appointmentPublish/publishedFrom
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

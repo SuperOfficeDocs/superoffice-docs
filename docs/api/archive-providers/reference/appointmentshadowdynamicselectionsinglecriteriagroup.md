@@ -1,7 +1,7 @@
 ---
 uid: AppointmentShadowDynamicSelectionSingleCriteriaGroup
 title: AppointmentShadowDynamicSelectionSingleCriteriaGroup
-description: Shadow contact provider for the dynamic appointmnet provider.
+description: 
 keywords:
   - "archive"
   - "provider"
@@ -566,7 +566,7 @@ Shadow contact provider for the dynamic appointmnet provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/AppointmentShadowDynamicSelectionSingleCriteriaGroup?$select=contact/streetAddress/addressId,contact/contactAssociate/ejDisplayName,person/personUdef/SuperOffice:1,sale/associate/contactCategory
+GET /api/v1/archive/AppointmentShadowDynamicSelectionSingleCriteriaGroup?$select=cautionWarning,contact/postAddress/zip,contact/contactAssociate/personEmail,contact/saintTicketStatus,appointmentUdef/SuperOffice:7
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

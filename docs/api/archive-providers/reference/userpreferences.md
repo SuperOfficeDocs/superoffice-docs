@@ -1,7 +1,7 @@
 ---
 uid: UserPreferences
 title: UserPreferences
-description: User (and system) preference settings, at all levels
+description: 
 keywords:
   - "archive"
   - "provider"

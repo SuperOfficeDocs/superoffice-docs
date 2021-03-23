@@ -1,7 +1,7 @@
 ---
 uid: InternalUsers
 title: InternalUsers
-description: Concrete provider for Internal Users - our own employees. See <see cref="T:SuperOffice.CRM.ArchiveLists.UsersProviderBase" /> for
+description: 
 keywords:
   - "archive"
   - "provider"

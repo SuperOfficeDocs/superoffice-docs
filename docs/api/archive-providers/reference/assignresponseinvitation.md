@@ -1,7 +1,7 @@
 ---
 uid: AssignResponseInvitation
 title: AssignResponseInvitation
-description: This is the query provider for invitations, of subtype 'Response'
+description: 
 keywords:
   - "archive"
   - "provider"
@@ -572,7 +572,7 @@ must be &gt;= start of today. This is an optional entity and is fetched if the u
 ## Sample
 
 ```http!
-GET /api/v1/archive/AssignResponseInvitation?$select=completed,rawType,person/legalBaseStore,sale/associate/assocType,sale/associate/simultaneousEjUser
+GET /api/v1/archive/AssignResponseInvitation?$select=endDate,contact/email/emailHasBounced,contact/streetAddress/addressId,contact/LastCompletedSale,person/personPrivate/formattedNumber
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -1,7 +1,7 @@
 ---
 uid: AssociateProjectSelection
 title: AssociateProjectSelection
-description: This is the archive Provider for the Selection Project archive.
+description: 
 keywords:
   - "archive"
   - "provider"
@@ -634,7 +634,7 @@ This is the archive Provider for the Selection Project archive.
 ## Sample
 
 ```http!
-GET /api/v1/archive/AssociateProjectSelection?$select=SaintStatus3,sale/recordType,sale/earningPercent,sale/sale/description,document/text
+GET /api/v1/archive/AssociateProjectSelection?$select=projectAssociate/assocName,sale/associateId,sale/amountWeighted,document/associate/mrMrs,document/document/textId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -1,7 +1,7 @@
 ---
 uid: Mailings
 title: Mailings
-description: Archive provider for the list of mailings
+description: 
 keywords:
   - "archive"
   - "provider"
@@ -182,7 +182,7 @@ Archive provider for the list of mailings
 ## Sample
 
 ```http!
-GET /api/v1/archive/Mailings?$select=associate/usergroup,project/saintTicketCategory,associate/isActive
+GET /api/v1/archive/Mailings?$select=associate/isActive,project/activeErpLinks
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

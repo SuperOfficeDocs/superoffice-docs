@@ -1,7 +1,7 @@
 ---
 uid: SimpleInvitation
 title: SimpleInvitation
-description: This is the query provider for invitations, of subtype 'Simple'
+description: 
 keywords:
   - "archive"
   - "provider"
@@ -571,7 +571,7 @@ This entity is mandatory. Simple bookings have no 'overdue' checks.
 ## Sample
 
 ```http!
-GET /api/v1/archive/SimpleInvitation?$select=contact/contactUdef/SuperOffice:4,contact/NumberOfNotCompletedActivitiesInPeriod,person/lastName,person/personUrl/URLAddress,person/personUdef/SuperOffice:8
+GET /api/v1/archive/SimpleInvitation?$select=contact/category,contact/email/emailProtocol,contact/email/emailId,contact/streetAddress/formattedAddress,person/firstName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

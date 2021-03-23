@@ -75,7 +75,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/AssociateProjects?$select=project/textId,updatedDate,projectPublish/isPublished
+GET /api/v1/archive/AssociateProjects?$select=hasInfoText,projectEvent/hasSignOn,projectEvent/hasSignOff
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

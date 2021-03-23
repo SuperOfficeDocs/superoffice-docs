@@ -1,7 +1,7 @@
 ---
 uid: TicketMessage
 title: TicketMessage
-description: Messages on support tickets. Messages are typically e-mail messages with attachments, but not always.
+description: 
 keywords:
   - "archive"
   - "provider"
@@ -451,7 +451,7 @@ Messages on support tickets. Messages are typically e-mail messages with attachm
 ## Sample
 
 ```http!
-GET /api/v1/archive/TicketMessage?$select=ticket/ownedBy/fullName,ticket/ownedBy/contactFullName,ticket/person/lastName,ticket/contact/contactAssociate/portraitThumbnail
+GET /api/v1/archive/TicketMessage?$select=ticketId,ticket/ownedBy/role,ticket/person/kanaLastName,ticket/person/personPrivate/description,ticket/person/personAddress/formattedMultiLineAddress
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

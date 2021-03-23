@@ -1,7 +1,7 @@
 ---
 uid: DocumenthadowSelectionCombinedV2
 title: DocumenthadowSelectionCombinedV2
-description: Implementation of the provider for the combined selection
+description: 
 keywords:
   - "archive"
   - "provider"
@@ -562,7 +562,7 @@ Implementation of the provider for the combined selection
 ## Sample
 
 ```http!
-GET /api/v1/archive/DocumenthadowSelectionCombinedV2?$select=ourref,person/personUpdatedBy,person/email/emailLastBounce,contact/contactPhone/formattedNumber
+GET /api/v1/archive/DocumenthadowSelectionCombinedV2?$select=person/searchPhone/description,project/projectUrl/URLAddress,associate/title,associate/simultaneousEjUser
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

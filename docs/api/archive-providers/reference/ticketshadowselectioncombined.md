@@ -1,7 +1,7 @@
 ---
 uid: TicketShadowSelectionCombined
 title: TicketShadowSelectionCombined
-description: Implementation of the provider for the combined selection
+description: 
 keywords:
   - "archive"
   - "provider"
@@ -403,7 +403,7 @@ Implementation of the provider for the combined selection
 ## Sample
 
 ```http!
-GET /api/v1/archive/TicketShadowSelectionCombined?$select=person/personRegisteredBy,person/personPrivate/description,contact/postAddress/formattedAddress,contact/contactAssociate/contactName
+GET /api/v1/archive/TicketShadowSelectionCombined?$select=origin,createdBy/fullName,person/firstName,person/personInfo/infoText,person/legalBaseStore
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -1,7 +1,7 @@
 ---
 uid: TicketSelection
 title: TicketSelection
-description: This is the archive Provider for the Selection ticket archive.
+description: 
 keywords:
   - "archive"
   - "provider"
@@ -403,7 +403,7 @@ This is the archive Provider for the Selection ticket archive.
 ## Sample
 
 ```http!
-GET /api/v1/archive/TicketSelection?$select=createdBy/isActiveText,person/personUdef/SuperOffice:4,person/birthMonth
+GET /api/v1/archive/TicketSelection?$select=categoryFullName,person/personUdef/SuperOffice:3,contact/NumberOfActivities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

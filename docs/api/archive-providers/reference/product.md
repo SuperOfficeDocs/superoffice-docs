@@ -1,7 +1,7 @@
 ---
 uid: Product
 title: Product
-description: This is the archive Provider for the Product Archive is SoAdmin.
+description: 
 keywords:
   - "archive"
   - "provider"

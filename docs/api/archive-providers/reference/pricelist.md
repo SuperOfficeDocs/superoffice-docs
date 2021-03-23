@@ -1,7 +1,7 @@
 ---
 uid: PriceList
 title: PriceList
-description: Archive of Pricelists - used by the web api.
+description: 
 keywords:
   - "archive"
   - "provider"

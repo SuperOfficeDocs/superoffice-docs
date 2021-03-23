@@ -1,7 +1,7 @@
 ---
 uid: ProjectShadowSelection
 title: ProjectShadowSelection
-description: Shadow contact provider for the Project provider.
+description: 
 keywords:
   - "archive"
   - "provider"
@@ -634,7 +634,7 @@ Shadow contact provider for the Project provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/ProjectShadowSelection?$select=type,projectUdef/SuperOffice:2,document/associate/isActive,document/document/description,projectMember/personUdef/SuperOffice:7
+GET /api/v1/archive/ProjectShadowSelection?$select=associateId,projectMember/restrictionAddress/wgs84longitude,projectMember/personUdef/SuperOffice:6,projectMember/streetAddress/city,projectMember/contactEmail/emailAddress
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

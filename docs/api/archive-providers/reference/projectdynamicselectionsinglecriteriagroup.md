@@ -1,7 +1,7 @@
 ---
 uid: ProjectDynamicSelectionSingleCriteriaGroup
 title: ProjectDynamicSelectionSingleCriteriaGroup
-description: Project selection archive using the selectionId as criterionmapping.
+description: 
 keywords:
   - "archive"
   - "provider"
@@ -627,7 +627,7 @@ Project selection archive using the selectionId as criterionmapping.
 ## Sample
 
 ```http!
-GET /api/v1/archive/ProjectDynamicSelectionSingleCriteriaGroup?$select=hasInfoText,projectUrl/URLAddress,sale/credited,projectMember/contactId,projectMember/kanaFirstName
+GET /api/v1/archive/ProjectDynamicSelectionSingleCriteriaGroup?$select=projectUdef/SuperOffice:7,appointment/associate/contactCategory,appointment/associate/assocTooltip,appointment/associate/personEmail,projectMember/hasInterests
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

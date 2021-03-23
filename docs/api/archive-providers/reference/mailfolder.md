@@ -1,7 +1,7 @@
 ---
 uid: MailFolder
 title: MailFolder
-description: Provides list of subscribed and unsubscribed mail folders available for an account
+description: 
 keywords:
   - "archive"
   - "provider"

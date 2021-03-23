@@ -1,7 +1,7 @@
 ---
 uid: EmailAddress
 title: EmailAddress
-description: Special purpose archive provider used to search for email addresses.
+description: 
 keywords:
   - "archive"
   - "provider"
@@ -440,7 +440,7 @@ the email_id.
 ## Sample
 
 ```http!
-GET /api/v1/archive/EmailAddress?$select=personCategory,personContact/postAddress/wgs84longitude,orgnr,contactSupportPerson/legalBaseStore
+GET /api/v1/archive/EmailAddress?$select=postAddress/wgs84latitude,contactSupportPerson/who,contactUdef/SuperOffice:10
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

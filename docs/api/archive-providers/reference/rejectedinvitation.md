@@ -1,7 +1,7 @@
 ---
 uid: RejectedInvitation
 title: RejectedInvitation
-description: This is the query provider for invitations, of subtype 'Rejected'
+description: 
 keywords:
   - "archive"
   - "provider"
@@ -571,7 +571,7 @@ This is an optional entity and is fetched only if the user checks the correspond
 ## Sample
 
 ```http!
-GET /api/v1/archive/RejectedInvitation?$select=contact/contactUdef/SuperOffice:13,person/mrMrs,person/personBusiness,person/isProjectMember,person/personMobilePhone/formattedNumber
+GET /api/v1/archive/RejectedInvitation?$select=visibleFor,contact/code,person/lastName,person/personAddress/line1,associate/contactId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -1,7 +1,7 @@
 ---
 uid: FreetextContact
 title: FreetextContact
-description: Archive provider for freetext search on the Contact (company) entity.
+description: 
 keywords:
   - "archive"
   - "provider"
@@ -307,7 +307,7 @@ as well as before any ORDER BY, are applied.
 ## Sample
 
 ```http!
-GET /api/v1/archive/FreetextContact?$select=updatedDate,restrictionPostalAddress/state,contactAssociate/ejUserId,contactAssociate/credentialDisplayValue,NumberOfSalesInPeriod
+GET /api/v1/archive/FreetextContact?$select=contactPhone/formattedNumber,contactSupportPerson/personActiveErpLinks,restrictionAddress/formattedAddress
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

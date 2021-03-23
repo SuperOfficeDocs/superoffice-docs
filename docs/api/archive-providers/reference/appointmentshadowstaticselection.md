@@ -1,7 +1,7 @@
 ---
 uid: AppointmentShadowStaticSelection
 title: AppointmentShadowStaticSelection
-description: Shadow contact provider for the static appointment provider.
+description: 
 keywords:
   - "archive"
   - "provider"
@@ -570,7 +570,7 @@ Shadow contact provider for the static appointment provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/AppointmentShadowStaticSelection?$select=contact/restrictionAddress/line3,contact/contactAssociate/title,contact/contactAssociate/credentialDisplayValue,person/email/emailHasBounced,project/NumberOfActivities
+GET /api/v1/archive/AppointmentShadowStaticSelection?$select=person/useAsMailingAddress,person/kanaFirstName,person/personPrivate/formattedNumber,sale/lossReason,sale/associate/ejStatus
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

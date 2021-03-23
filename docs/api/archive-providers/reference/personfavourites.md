@@ -719,7 +719,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/personfavourites?$select=personAssociate/contactDepartment,personAssociate/isActiveText,personContact/contactAssociate/associateDbId,personContact/NumberOfActivities,personContact/NumberOfNotCompletedSalesInPeriod
+GET /api/v1/archive/personfavourites?$select=personAssociate/contactCategory,personContact/contactPhone/description,personContact/contactSupportAssociate/credentialDisplayValue,personContact/contactSupportPerson/personHasInterests,personContact/contactSupportPerson/personUdef/SuperOffice:7
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

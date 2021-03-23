@@ -1,7 +1,7 @@
 ---
 uid: QuoteLineSelectionCombined
 title: QuoteLineSelectionCombined
-description: Implementation of the provider for the combined selection
+description: 
 keywords:
   - "archive"
   - "provider"
@@ -607,7 +607,7 @@ Implementation of the provider for the combined selection
 ## Sample
 
 ```http!
-GET /api/v1/archive/QuoteLineSelectionCombined?$select=UnitListPriceSubscriptionQuantity,alternative/version/quote/registeredDate,alternative/version/quote/sale/person/personBusiness,alternative/version/quote/sale/person/personAddress/line3
+GET /api/v1/archive/QuoteLineSelectionCombined?$select=alternative/version/quote/sale/person/personMobilePhone/description,alternative/version/quote/sale/contact/business,alternative/version/quote/sale/contact/contactUdef/SuperOffice:11,alternative/version/quote/sale/associate/personId,alternative/version/quote/sale/project/NumberOfNotCompletedSalesInPeriod
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

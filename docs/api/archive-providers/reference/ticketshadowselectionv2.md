@@ -1,7 +1,7 @@
 ---
 uid: TicketShadowSelectionV2
 title: TicketShadowSelectionV2
-description: Shadow contact provider for the ticket provider.
+description: 
 keywords:
   - "archive"
   - "provider"
@@ -403,7 +403,7 @@ Shadow contact provider for the ticket provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/TicketShadowSelectionV2?$select=person/personAddress/line3,person/birthMonth,person/restrictionAddress/city
+GET /api/v1/archive/TicketShadowSelectionV2?$select=readByOwner,ownedBy/ejStatus,person/personUdef/SuperOffice:9,contact/streetAddress/formattedAddress
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -1,7 +1,7 @@
 ---
 uid: QuoteLineStaticSelectionV2
 title: QuoteLineStaticSelectionV2
-description: Static archive Provider for the Selection quoteline archive.
+description: 
 keywords:
   - "archive"
   - "provider"
@@ -607,7 +607,7 @@ Static archive Provider for the Selection quoteline archive.
 ## Sample
 
 ```http!
-GET /api/v1/archive/QuoteLineStaticSelectionV2?$select=alternative/version/quote/sale/contact/restrictionAddress/line2,alternative/version/quote/sale/contact/url/URLDescription,alternative/version/quote/sale/project/projectAssociate/isActive
+GET /api/v1/archive/QuoteLineStaticSelectionV2?$select=alternative/version/paymentTerms,alternative/version/quote/sale/recordType,alternative/version/quote/sale/person/personDirectFax/description,alternative/version/quote/sale/person/personUdef/SuperOffice:9,alternative/version/quote/sale/contact/nameDepartment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

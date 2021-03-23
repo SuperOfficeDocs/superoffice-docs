@@ -1,7 +1,7 @@
 ---
 uid: TicketShadowStaticSelection
 title: TicketShadowStaticSelection
-description: Shadow contact provider for the static ticket provider.
+description: 
 keywords:
   - "archive"
   - "provider"
@@ -403,7 +403,7 @@ Shadow contact provider for the static ticket provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/TicketShadowStaticSelection?$select=readStatus,realTimeSpentExternally,createdBy/lastName,person/personId,person/personAddress/state
+GET /api/v1/archive/TicketShadowStaticSelection?$select=person/personDirectPhone/formattedNumber,person/hasEmarketingConsent,contact/LastCompletedActivity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -1,7 +1,7 @@
 ---
 uid: OwnerContacts
 title: OwnerContacts
-description: Archive provider for the list of own contacts in SoAdmin
+description: 
 keywords:
   - "archive"
   - "provider"
@@ -298,7 +298,7 @@ Archive provider for the list of own contacts in SoAdmin
 ## Sample
 
 ```http!
-GET /api/v1/archive/OwnerContacts?$select=email/emailHasBounced,contactAssociate/contactName,contactAssociate/isActiveText,contactSupportAssociate/contactDepartment,contactSupportPerson/hasEmarketingConsent
+GET /api/v1/archive/OwnerContacts?$select=email/emailHasBounced,saintAmountClass,restrictionAddress/wgs84longitude
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -1,7 +1,7 @@
 ---
 uid: QuoteLineShadowSelectionCombinedV2
 title: QuoteLineShadowSelectionCombinedV2
-description: Implementation of the provider for the combined selection
+description: 
 keywords:
   - "archive"
   - "provider"
@@ -607,7 +607,7 @@ Implementation of the provider for the combined selection
 ## Sample
 
 ```http!
-GET /api/v1/archive/QuoteLineShadowSelectionCombinedV2?$select=priceUnit,alternative/version/quote/sale/person/personUpdatedBy,alternative/version/quote/sale/person/supportLanguage,alternative/version/quote/sale/person/personPrivate/description,alternative/version/quote/sale/person/personAddress/formattedAddress
+GET /api/v1/archive/QuoteLineShadowSelectionCombinedV2?$select=priceUnit,alternative/version/quote/sale/hasGuide,alternative/version/quote/sale/contact/updatedBy,alternative/version/quote/sale/contact/postAddress/wgs84longitude,alternative/version/quote/sale/associate/portraitThumbnail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

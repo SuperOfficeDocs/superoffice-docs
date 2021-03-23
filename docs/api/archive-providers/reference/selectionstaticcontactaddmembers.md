@@ -1,7 +1,7 @@
 ---
 uid: SelectionStaticContactAddMembers
 title: SelectionStaticContactAddMembers
-description: This is the provider used when searching for potential new members of a static selection. It is actually
+description: 
 keywords:
   - "archive"
   - "provider"
@@ -920,7 +920,7 @@ a non-null value for those contacts or persons that exist in the given static se
 ## Sample
 
 ```http!
-GET /api/v1/archive/SelectionStaticContactAddMembers?$select=updatedBy,streetAddress/wgs84latitude,contactUdef/SuperOffice:3,targetRelation/hasInterests,sale/contactId
+GET /api/v1/archive/SelectionStaticContactAddMembers?$select=contactAssociate/title,document/isReport,document/documentUdef/SuperOffice:8,personAssociate/ejStatus,request/content
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

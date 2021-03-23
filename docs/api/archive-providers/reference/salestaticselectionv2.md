@@ -1,7 +1,7 @@
 ---
 uid: SaleStaticSelectionV2
 title: SaleStaticSelectionV2
-description: Static archive Provider for the Selection sale archive.
+description: 
 keywords:
   - "archive"
   - "provider"
@@ -1005,7 +1005,7 @@ Static archive Provider for the Selection sale archive.
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaleStaticSelectionV2?$select=person/kanaFirstName,contact/contactPhone/formattedNumber,contact/contactAssociate/middleName,contact/contactUdef/SuperOffice:12,project/projectAssociate/credentialDisplayValue
+GET /api/v1/archive/SaleStaticSelectionV2?$select=contact/category,contact/postAddress/state,contact/contactAssociate/middleName,contact/contactAssociate/personEmail,appointment/associate/contactName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

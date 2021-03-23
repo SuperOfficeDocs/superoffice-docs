@@ -1,7 +1,7 @@
 ---
 uid: ProjectShadowDynamicSelection
 title: ProjectShadowDynamicSelection
-description: Shadow contact provider for the dynamic Project provider.
+description: 
 keywords:
   - "archive"
   - "provider"
@@ -629,7 +629,7 @@ Shadow contact provider for the dynamic Project provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/ProjectShadowDynamicSelection?$select=sale/type,sale/sale/textId,appointment/userGroup,document/mailMergeDraft,projectMember/projectId
+GET /api/v1/archive/ProjectShadowDynamicSelection?$select=projectAssociate/fullName,projectUdef/SuperOffice:2,projectMember/personAddress/line3
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

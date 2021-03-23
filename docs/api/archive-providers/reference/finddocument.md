@@ -1,7 +1,7 @@
 ---
 uid: FindDocument
 title: FindDocument
-description: Archive provider for finding documents
+description: 
 keywords:
   - "archive"
   - "provider"
@@ -557,7 +557,7 @@ Archive provider for finding documents
 ## Sample
 
 ```http!
-GET /api/v1/archive/FindDocument?$select=project/projectUdef/SuperOffice:8,contact/mainContact,contact/contactUdef/SuperOffice:5
+GET /api/v1/archive/FindDocument?$select=person/retired,person/email/emailHasBounced,person/personUdef/SuperOffice:3,contact/contactAssociate/ejUserId,contact/contactUdef/SuperOffice:9
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

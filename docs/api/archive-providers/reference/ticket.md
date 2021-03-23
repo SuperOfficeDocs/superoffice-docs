@@ -1,7 +1,7 @@
 ---
 uid: Ticket
 title: Ticket
-description: This is the archive Provide for the Person Archive of the Contact Panel - or to use GUI terminology, the Contact archive of the Company panel.
+description: 
 keywords:
   - "archive"
   - "provider"
@@ -401,7 +401,7 @@ table data; this will also pull in contact udef and related fields.
 ## Sample
 
 ```http!
-GET /api/v1/archive/Ticket?$select=contact/number,contact/streetAddress/wgs84longitude,contact/restrictionAddress/wgs84longitude
+GET /api/v1/archive/Ticket?$select=createdBy/contactFullName,person/personAddress/formattedAddress,person/restrictionAddress/state,contact/postAddress/zip
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

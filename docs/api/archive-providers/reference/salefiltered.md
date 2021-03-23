@@ -1,7 +1,7 @@
 ---
 uid: SaleFiltered
 title: SaleFiltered
-description: Sale archive provider for the Contact/Project card
+description: 
 keywords:
   - "archive"
   - "provider"
@@ -842,7 +842,7 @@ Sale archive provider for the Contact/Project card
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaleFiltered?$select=currency,person/mrMrs,person/email/emailDescription,person/personUdef/SuperOffice:4,contact/restrictionAddress/line2
+GET /api/v1/archive/SaleFiltered?$select=person/personDirectPhone/formattedNumber,contact/updatedDate,contact/contactAssociate/portraitThumbnail,associate/assocTooltip,saleStakeholder/person/personBusiness
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

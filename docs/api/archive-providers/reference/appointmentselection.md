@@ -1,7 +1,7 @@
 ---
 uid: AppointmentSelection
 title: AppointmentSelection
-description: This is the archive Provider for the Selection appouintment archive.
+description: 
 keywords:
   - "archive"
   - "provider"
@@ -571,7 +571,7 @@ This is the archive Provider for the Selection appouintment archive.
 ## Sample
 
 ```http!
-GET /api/v1/archive/AppointmentSelection?$select=person/retired,person/hasEmarketingConsent,person/consentSourceStore,project/projectAssociate/contactName,project/saintTicketCategory
+GET /api/v1/archive/AppointmentSelection?$select=person/lastName,person/title,person/personDirectFax/formattedNumber,person/personUrl/URLAddress,project/projectUdef/SuperOffice:3
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

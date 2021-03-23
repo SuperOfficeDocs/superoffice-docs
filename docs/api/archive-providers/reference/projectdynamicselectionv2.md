@@ -1,7 +1,7 @@
 ---
 uid: ProjectDynamicSelectionV2
 title: ProjectDynamicSelectionV2
-description: Project selection archive with OR-able selection groups. Each group is represented with the <see cref="T:SuperOffice.CRM.ArchiveLists.Archive.ProjectSelectionDynamicProviderSingleCriteriaGroup" />.
+description: 
 keywords:
   - "archive"
   - "provider"
@@ -629,7 +629,7 @@ Project selection archive with OR-able selection groups. Each group is represent
 ## Sample
 
 ```http!
-GET /api/v1/archive/ProjectDynamicSelectionV2?$select=status,projectAssociate/ejUserId,sale/associate/associateDbId,appointment/personId,appointment/appointmentPublish/publishedTo
+GET /api/v1/archive/ProjectDynamicSelectionV2?$select=sale/originalStage,sale/associate/lastName,appointment/associate/assocTooltip,appointment/associate/ejUserId,appointment/associate/ejStatus
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

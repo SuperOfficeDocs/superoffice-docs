@@ -1,7 +1,7 @@
 ---
 uid: DocumentShadowSelection
 title: DocumentShadowSelection
-description: Shadow contact provider for the Document provider.
+description: 
 keywords:
   - "archive"
   - "provider"
@@ -562,7 +562,7 @@ Shadow contact provider for the Document provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/DocumentShadowSelection?$select=visibleFor,person/restrictionAddress/addressId,person/restrictionAddress/state,contact/department,contact/searchPhone/formattedNumber
+GET /api/v1/archive/DocumentShadowSelection?$select=contact/streetAddress/state,contact/NumberOfNotCompletedSales,associate/assocTooltip
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

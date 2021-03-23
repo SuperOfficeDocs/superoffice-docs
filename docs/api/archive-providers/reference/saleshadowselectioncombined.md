@@ -1,7 +1,7 @@
 ---
 uid: SaleShadowSelectionCombined
 title: SaleShadowSelectionCombined
-description: Implementation of the provider for the combined selection
+description: 
 keywords:
   - "archive"
   - "provider"
@@ -1005,7 +1005,7 @@ Implementation of the provider for the combined selection
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaleShadowSelectionCombined?$select=updatedBy,contact/streetAddress/line3,contact/contactInterestIds,contact/NumberOfNotCompletedTicketsInPeriod,contact/SaintStatus1
+GET /api/v1/archive/SaleShadowSelectionCombined?$select=saleNumber,person/restrictionAddress/wgs84latitude,contact/postAddress/line3,contact/contactAssociate/title,contact/contactUdef/SuperOffice:13
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

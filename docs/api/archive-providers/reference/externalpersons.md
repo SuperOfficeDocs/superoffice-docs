@@ -457,7 +457,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/ExternalPersons?$select=subscription,projectMembers/projectAssociate/userName,hasEmarketingConsent
+GET /api/v1/archive/ExternalPersons?$select=personSource,hasEmarketingConsent,request/createdBy/isActiveText
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

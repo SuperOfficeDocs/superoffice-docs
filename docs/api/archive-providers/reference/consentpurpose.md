@@ -1,7 +1,7 @@
 ---
 uid: ConsentPurpose
 title: ConsentPurpose
-description: This is the archive Consent Purpose Provider for GDPR Admin
+description: 
 keywords:
   - "archive"
   - "provider"
@@ -154,7 +154,7 @@ and for GDPR relations to person, if you join and restrict on person
 ## Sample
 
 ```http!
-GET /api/v1/archive/ConsentPurpose?$select=consentPerson/person/kanaFirstName,consentPerson/consentPurpose/rank,consentPerson/person/useAsMailingAddress
+GET /api/v1/archive/ConsentPurpose?$select=consentPerson/person/personDirectFax/formattedNumber,consentPerson/person/useAsMailingAddress,consentPerson/person/personDeletedDate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
