@@ -1,8 +1,6 @@
 items:
-- name: Overview
-  href: index.md
 - name: Archive providers
-  href: archive-providers/index.md
+  href: archive-providers/add-columns.md
   items:
   - name: Add columns
     href: archive-providers/add-columns.md
@@ -37,7 +35,7 @@ items:
   - name: Scenarios
     href: archive-providers/scenarios.md
   - name: Reference
-    href: archive-providers/reference/index.md
+    href: archive-providers/reference/activity.md
     items:
     - name: Activity
       href: archive-providers/reference/activity.md
@@ -616,13 +614,11 @@ items:
   items:
   - name: Downloads
     href: assets/downloads.md
-  - name: Download
-    href: assets/download/blob-image.zip
+  - name: Downloads
+    href: assets/downloads/blob-image.zip
 - name: Authentication
-  href: authentication/index.md
+  href: authentication/anonymous-vs-external-user.md
   items:
-  - name: Active directory
-    href: authentication/active-directory.md
   - name: Anonymous vs external user
     href: authentication/anonymous-vs-external-user.md
   - name: Auth and soap calls
@@ -661,7 +657,7 @@ items:
     - name: Superoffice username and password
       href: authentication/in-web-api/superoffice-username-and-password.md
   - name: Session handling
-    href: authentication/session-handling/index.md
+    href: authentication/session-handling/create-session.md
     items:
     - name: Create session
       href: authentication/session-handling/create-session.md
@@ -669,18 +665,11 @@ items:
       href: authentication/session-handling/suspend-session.md
     - name: Switch sessions
       href: authentication/session-handling/switch-sessions.md
-  - name: Tickets
-    href: authentication/tickets/index.md
-    items:
-    - name: Issue ticket
-      href: authentication/tickets/issue-ticket.md
-    - name: Renew ticket
-      href: authentication/tickets/renew-ticket.md
 - name: Bulk operations
   href: bulk-operations/index.md
   items:
   - name: Bulk update
-    href: bulk-operations/bulk-update/index.md
+    href: bulk-operations/bulk-update/entities-field-types.md
     items:
     - name: Entities field types
       href: bulk-operations/bulk-update/entities-field-types.md
@@ -714,7 +703,7 @@ items:
       - name: User defined fields
         href: bulk-operations/bulk-update/reference/user-defined-fields.md
   - name: Mass operations
-    href: bulk-operations/mass-operations/index.md
+    href: bulk-operations/mass-operations/delete.md
     items:
     - name: Delete
       href: bulk-operations/mass-operations/delete.md
@@ -885,7 +874,7 @@ items:
   href: documents/index.md
   items:
   - name: Agents web api
-    href: documents/agents-web-api/index.md
+    href: documents/agents-web-api/add-document-template.md
     items:
     - name: Add document template
       href: documents/agents-web-api/add-document-template.md
@@ -897,14 +886,14 @@ items:
     - name: Soarc document plugin
       href: documents/plugins/soarc-document-plugin.md
   - name: Rest
-    href: documents/rest/index.md
+    href: documents/rest/add-document-template.md
     items:
     - name: Add document template
       href: documents/rest/add-document-template.md
     - name: Generate document
       href: documents/rest/generate-document.md
   - name: Services
-    href: documents/services/index.md
+    href: documents/services/configure-access.md
     items:
     - name: Configure access
       href: documents/services/configure-access.md
@@ -915,7 +904,7 @@ items:
     - name: Update
       href: documents/services/update.md
 - name: Entities
-  href: entities/index.md
+  href: entities/activity-links.md
   items:
   - name: Activity links
     href: entities/activity-links.md
@@ -951,7 +940,7 @@ items:
     - name: Udef on contact
       href: entities/examples/udef-on-contact.md
 - name: Erp connectors
-  href: erp-connectors/index.md
+  href: erp-connectors/automatic-field-mapping.md
   items:
   - name: Automatic field mapping
     href: erp-connectors/automatic-field-mapping.md
@@ -978,7 +967,7 @@ items:
   - name: Tutorial
     href: erp-connectors/tutorial.md
   - name: Api
-    href: erp-connectors/api/index.md
+    href: erp-connectors/api/erp-actor-carrier.md
     items:
     - name: Erp actor carrier
       href: erp-connectors/api/erp-actor-carrier.md
@@ -991,7 +980,7 @@ items:
     - name: Pluginresponseinfo
       href: erp-connectors/api/pluginresponseinfo.md
   - name: Architecture
-    href: erp-connectors/architecture/index.md
+    href: erp-connectors/architecture/dotnet.md
     items:
     - name: Dotnet
       href: erp-connectors/architecture/dotnet.md
@@ -1011,7 +1000,7 @@ items:
     - name: Show fields in gui or search
       href: erp-connectors/search-and-gui/show-fields-in-gui-or-search.md
 - name: Foreign keys
-  href: foreign-keys/index.md
+  href: foreign-keys/erp-integration.md
   items:
   - name: Erp integration
     href: foreign-keys/erp-integration.md
@@ -1077,14 +1066,14 @@ items:
     - name: Translate strings
       href: globalization-and-localization/language/translate-strings.md
 - name: Lists
-  href: lists/index.md
+  href: lists/category-list.md
   items:
   - name: Category list
     href: lists/category-list.md
   - name: Mdo lists
     href: lists/mdo-lists.md
   - name: Entity
-    href: lists/entity/index.md
+    href: lists/entity/associate-list-and-cache.md
     items:
     - name: Associate list and cache
       href: lists/entity/associate-list-and-cache.md
@@ -1104,6 +1093,11 @@ items:
       href: lists/entity/typed-list.md
     - name: Udef list
       href: lists/entity/udef-list.md
+  - name: Osql
+    href: lists/osql/get-catlist-sodatareader.md
+    items:
+    - name: Get catlist sodatareader
+      href: lists/osql/get-catlist-sodatareader.md
   - name: Row
     href: lists/row/add-list-item.md
     items:
@@ -1122,7 +1116,7 @@ items:
   href: mdo-providers/index.md
   items:
   - name: Reference
-    href: mdo-providers/reference/index.md
+    href: mdo-providers/reference/activitystatus.md
     items:
     - name: Activitystatus
       href: mdo-providers/reference/activitystatus.md
@@ -1132,8 +1126,8 @@ items:
       href: mdo-providers/reference/allpersonsearch.md
     - name: Allpreferencekeys
       href: mdo-providers/reference/allpreferencekeys.md
-    - name: Amountclass
-      href: mdo-providers/reference/amountclass.md
+    - name: AmountClass
+      href: mdo-providers/reference/AmountClass.md
     - name: Appointment
       href: mdo-providers/reference/appointment.md
     - name: Appointmentcautionwarning
@@ -1163,9 +1157,9 @@ items:
     - name: Availablereports
       href: mdo-providers/reference/availablereports.md
     - name: Business
-      href: mdo-providers/reference/business.md
+      href: mdo-providers/reference/Business.md
     - name: Category
-      href: mdo-providers/reference/category.md
+      href: mdo-providers/reference/Category.md
     - name: Chatbot
       href: mdo-providers/reference/chatbot.md
     - name: Chatchannel
@@ -1179,7 +1173,7 @@ items:
     - name: Combinedcontactpersonsearch
       href: mdo-providers/reference/combinedcontactpersonsearch.md
     - name: Comptr
-      href: mdo-providers/reference/comptr.md
+      href: mdo-providers/reference/Comptr.md
     - name: Consentpurpose
       href: mdo-providers/reference/consentpurpose.md
     - name: Consentsource
@@ -1202,8 +1196,8 @@ items:
       href: mdo-providers/reference/contactwithpersonsearch.md
     - name: Contactwithpersonsearch_new
       href: mdo-providers/reference/contactwithpersonsearch_new.md
-    - name: Contint
-      href: mdo-providers/reference/contint.md
+    - name: ContInt
+      href: mdo-providers/reference/ContInt.md
     - name: Country
       href: mdo-providers/reference/country.md
     - name: Createdocumenttemplateplugin
@@ -1211,7 +1205,7 @@ items:
     - name: Credentialgroup
       href: mdo-providers/reference/credentialgroup.md
     - name: Credited
-      href: mdo-providers/reference/credited.md
+      href: mdo-providers/reference/Credited.md
     - name: Crmscript
       href: mdo-providers/reference/crmscript.md
     - name: Culture
@@ -1219,7 +1213,7 @@ items:
     - name: Culturesolanguage
       href: mdo-providers/reference/culturesolanguage.md
     - name: Currency
-      href: mdo-providers/reference/currency.md
+      href: mdo-providers/reference/Currency.md
     - name: Currentudeffields
       href: mdo-providers/reference/currentudeffields.md
     - name: Customerlanguage
@@ -1230,18 +1224,18 @@ items:
       href: mdo-providers/reference/dashboardtileentitytype.md
     - name: Dayofmonth
       href: mdo-providers/reference/dayofmonth.md
-    - name: Deliveryterms
-      href: mdo-providers/reference/deliveryterms.md
-    - name: Deliverytype
-      href: mdo-providers/reference/deliverytype.md
+    - name: DeliveryTerms
+      href: mdo-providers/reference/DeliveryTerms.md
+    - name: DeliveryType
+      href: mdo-providers/reference/DeliveryType.md
     - name: Diaryowner
       href: mdo-providers/reference/diaryowner.md
     - name: Direction
       href: mdo-providers/reference/direction.md
     - name: Disconnectpersonactions
       href: mdo-providers/reference/disconnectpersonactions.md
-    - name: Doctmpl
-      href: mdo-providers/reference/doctmpl.md
+    - name: DocTmpl
+      href: mdo-providers/reference/DocTmpl.md
     - name: Document
       href: mdo-providers/reference/document.md
     - name: Documentcompleted
@@ -1296,8 +1290,8 @@ items:
       href: mdo-providers/reference/executeonevent.md
     - name: Exporttemplate
       href: mdo-providers/reference/exporttemplate.md
-    - name: Extapp
-      href: mdo-providers/reference/extapp.md
+    - name: ExtApp
+      href: mdo-providers/reference/ExtApp.md
     - name: Faqcategory
       href: mdo-providers/reference/faqcategory.md
     - name: Faqreplytemplate
@@ -1369,7 +1363,7 @@ items:
     - name: Importproductfields
       href: mdo-providers/reference/importproductfields.md
     - name: Intent
-      href: mdo-providers/reference/intent.md
+      href: mdo-providers/reference/Intent.md
     - name: Iso639language
       href: mdo-providers/reference/iso639language.md
     - name: Kbentry
@@ -1406,24 +1400,24 @@ items:
       href: mdo-providers/reference/mergetags.md
     - name: Month
       href: mdo-providers/reference/month.md
-    - name: Mrmrs
-      href: mdo-providers/reference/mrmrs.md
+    - name: MrMrs
+      href: mdo-providers/reference/MrMrs.md
     - name: Nextavailabletime
       href: mdo-providers/reference/nextavailabletime.md
     - name: Ofmonth
       href: mdo-providers/reference/ofmonth.md
     - name: Ownercontact
       href: mdo-providers/reference/ownercontact.md
-    - name: Paymentterms
-      href: mdo-providers/reference/paymentterms.md
-    - name: Paymenttype
-      href: mdo-providers/reference/paymenttype.md
+    - name: PaymentTerms
+      href: mdo-providers/reference/PaymentTerms.md
+    - name: PaymentType
+      href: mdo-providers/reference/PaymentType.md
     - name: Period
       href: mdo-providers/reference/period.md
     - name: Periods
       href: mdo-providers/reference/periods.md
-    - name: Persint
-      href: mdo-providers/reference/persint.md
+    - name: PersInt
+      href: mdo-providers/reference/PersInt.md
     - name: Person
       href: mdo-providers/reference/person.md
     - name: Person_freetextsearch
@@ -1444,14 +1438,14 @@ items:
       href: mdo-providers/reference/personurl.md
     - name: Personwithmail
       href: mdo-providers/reference/personwithmail.md
-    - name: Perspos
-      href: mdo-providers/reference/perspos.md
+    - name: PersPos
+      href: mdo-providers/reference/PersPos.md
     - name: Phonesearch
       href: mdo-providers/reference/phonesearch.md
     - name: Plugin
       href: mdo-providers/reference/plugin.md
-    - name: Pmembtype
-      href: mdo-providers/reference/pmembtype.md
+    - name: PMembType
+      href: mdo-providers/reference/PMembType.md
     - name: Prefdescline
       href: mdo-providers/reference/prefdescline.md
     - name: Preferencekey
@@ -1464,22 +1458,22 @@ items:
       href: mdo-providers/reference/preferencesection.md
     - name: Pricelist
       href: mdo-providers/reference/pricelist.md
-    - name: Priceunit
-      href: mdo-providers/reference/priceunit.md
+    - name: PriceUnit
+      href: mdo-providers/reference/PriceUnit.md
     - name: Priority
-      href: mdo-providers/reference/priority.md
+      href: mdo-providers/reference/Priority.md
     - name: Privacytemplate
       href: mdo-providers/reference/privacytemplate.md
     - name: Prob
-      href: mdo-providers/reference/prob.md
-    - name: Productcategory
-      href: mdo-providers/reference/productcategory.md
-    - name: Productfamily
-      href: mdo-providers/reference/productfamily.md
+      href: mdo-providers/reference/Prob.md
+    - name: ProductCategory
+      href: mdo-providers/reference/ProductCategory.md
+    - name: ProductFamily
+      href: mdo-providers/reference/ProductFamily.md
     - name: Productimage
       href: mdo-providers/reference/productimage.md
-    - name: Producttype
-      href: mdo-providers/reference/producttype.md
+    - name: ProductType
+      href: mdo-providers/reference/ProductType.md
     - name: Project
       href: mdo-providers/reference/project.md
     - name: Project_freetextsearch
@@ -1500,10 +1494,10 @@ items:
       href: mdo-providers/reference/projecttype.md
     - name: Projecttypeflatlist
       href: mdo-providers/reference/projecttypeflatlist.md
-    - name: Projstatus
-      href: mdo-providers/reference/projstatus.md
-    - name: Projtype
-      href: mdo-providers/reference/projtype.md
+    - name: ProjStatus
+      href: mdo-providers/reference/ProjStatus.md
+    - name: ProjType
+      href: mdo-providers/reference/ProjType.md
     - name: Quotealternatives
       href: mdo-providers/reference/quotealternatives.md
     - name: Quoteapprovalassociate
@@ -1531,17 +1525,17 @@ items:
     - name: Quoteversionstate
       href: mdo-providers/reference/quoteversionstate.md
     - name: Reason
-      href: mdo-providers/reference/reason.md
-    - name: Reasonsold
-      href: mdo-providers/reference/reasonsold.md
-    - name: Reasonstalled
-      href: mdo-providers/reference/reasonstalled.md
+      href: mdo-providers/reference/Reason.md
+    - name: ReasonSold
+      href: mdo-providers/reference/ReasonSold.md
+    - name: ReasonStalled
+      href: mdo-providers/reference/ReasonStalled.md
     - name: Recordtype
       href: mdo-providers/reference/recordtype.md
     - name: Recurrenceweekcycle
       href: mdo-providers/reference/recurrenceweekcycle.md
-    - name: Rejectreason
-      href: mdo-providers/reference/rejectreason.md
+    - name: RejectReason
+      href: mdo-providers/reference/RejectReason.md
     - name: Relationdefinition
       href: mdo-providers/reference/relationdefinition.md
     - name: Relationssearchlistproviderappointmentactive
@@ -1662,18 +1656,18 @@ items:
       href: mdo-providers/reference/salestage.md
     - name: Salestatus
       href: mdo-providers/reference/salestatus.md
-    - name: Saletype
-      href: mdo-providers/reference/saletype.md
-    - name: Saletypecat
-      href: mdo-providers/reference/saletypecat.md
+    - name: SaleType
+      href: mdo-providers/reference/SaleType.md
+    - name: SaleTypeCat
+      href: mdo-providers/reference/SaleTypeCat.md
     - name: Saletypecategories
       href: mdo-providers/reference/saletypecategories.md
     - name: Salutation
-      href: mdo-providers/reference/salutation.md
+      href: mdo-providers/reference/Salutation.md
     - name: Satellites
       href: mdo-providers/reference/satellites.md
-    - name: Searchcat
-      href: mdo-providers/reference/searchcat.md
+    - name: SearchCat
+      href: mdo-providers/reference/SearchCat.md
     - name: Selection
       href: mdo-providers/reference/selection.md
     - name: Selection_freetextsearch
@@ -1703,19 +1697,19 @@ items:
     - name: Smsmailingtemplate
       href: mdo-providers/reference/smsmailingtemplate.md
     - name: Source
-      href: mdo-providers/reference/source.md
+      href: mdo-providers/reference/Source.md
     - name: Sourceproduct
       href: mdo-providers/reference/sourceproduct.md
-    - name: Stakeholderrole
-      href: mdo-providers/reference/stakeholderrole.md
+    - name: StakeholderRole
+      href: mdo-providers/reference/StakeholderRole.md
     - name: Statusdef
       href: mdo-providers/reference/statusdef.md
     - name: Statusmonitorimage
       href: mdo-providers/reference/statusmonitorimage.md
     - name: Stopword
       href: mdo-providers/reference/stopword.md
-    - name: Subscriptionunit
-      href: mdo-providers/reference/subscriptionunit.md
+    - name: SubscriptionUnit
+      href: mdo-providers/reference/SubscriptionUnit.md
     - name: Suggestedappointment
       href: mdo-providers/reference/suggestedappointment.md
     - name: Suggesteddocument
@@ -1725,9 +1719,9 @@ items:
     - name: Systemeventtype
       href: mdo-providers/reference/systemeventtype.md
     - name: Tags
-      href: mdo-providers/reference/tags.md
+      href: mdo-providers/reference/Tags.md
     - name: Task
-      href: mdo-providers/reference/task.md
+      href: mdo-providers/reference/Task.md
     - name: Ticket
       href: mdo-providers/reference/ticket.md
     - name: Ticketfavourite
@@ -1760,8 +1754,8 @@ items:
       href: mdo-providers/reference/udeffieldswithchanges.md
     - name: Udeffieldtype
       href: mdo-providers/reference/udeffieldtype.md
-    - name: Udlist
-      href: mdo-providers/reference/udlist.md
+    - name: UDList
+      href: mdo-providers/reference/UDList.md
     - name: Udlist28
       href: mdo-providers/reference/udlist28.md
     - name: Udlist29
@@ -1804,7 +1798,7 @@ items:
   - name: What is netserver part 2
     href: netserver/what-is-netserver-part-2.md
   - name: Config
-    href: netserver/config/index.md
+    href: netserver/config/batchservice.md
     items:
     - name: Batchservice
       href: netserver/config/batchservice.md
@@ -1871,7 +1865,7 @@ items:
     - name: Webservices
       href: netserver/config/webservices.md
 - name: Nuget
-  href: nuget/index.md
+  href: nuget/crm-online-core.md
   items:
   - name: Crm online core
     href: nuget/crm-online-core.md
@@ -1890,7 +1884,7 @@ items:
   - name: Update nuget
     href: nuget/update-nuget.md
 - name: Osql
-  href: osql/index.md
+  href: osql/alias.md
   items:
   - name: Alias
     href: osql/alias.md
@@ -2003,7 +1997,7 @@ items:
   - name: Preferences
     href: preferences/preferences.md
 - name: Project
-  href: project/index.md
+  href: project/add-project.md
   items:
   - name: Add project
     href: project/add-project.md
@@ -2016,7 +2010,7 @@ items:
   - name: Text table
     href: project/text-table.md
 - name: Quote connectors
-  href: quote-connectors/index.md
+  href: quote-connectors/addresses.md
   items:
   - name: Addresses
     href: quote-connectors/addresses.md
@@ -2062,7 +2056,7 @@ items:
     - name: Rights field
       href: quote-connectors/api/rights-field.md
     - name: Data carriers
-      href: quote-connectors/api/data-carriers/index.md
+      href: quote-connectors/api/data-carriers/addressinfo.md
       items:
       - name: Addressinfo
         href: quote-connectors/api/data-carriers/addressinfo.md
@@ -2129,7 +2123,7 @@ items:
     - name: Customer specific product codes
       href: quote-connectors/scenarios/customer-specific-product-codes.md
 - name: Rows
-  href: rows/index.md
+  href: rows/create-row-in-entity.md
   items:
   - name: Create row
     href: rows/create-row.md
@@ -2164,7 +2158,7 @@ items:
   - name: Stakeholders
     href: sales/stakeholders.md
   - name: Saint
-    href: sales/saint/index.md
+    href: sales/saint/counters.md
     items:
     - name: Counters
       href: sales/saint/counters.md
@@ -2193,12 +2187,12 @@ items:
       - name: Search saint values sql
         href: sales/saint/sql/search-saint-values-sql.md
 - name: Search
-  href: search/index.md
+  href: search/full-text-search.md
   items:
   - name: Full text search
     href: search/full-text-search.md
   - name: Iarchiveagent
-    href: search/iarchiveagent/index.md
+    href: search/iarchiveagent/iarchiveagent.md
     items:
     - name: Iarchiveagent
       href: search/iarchiveagent/iarchiveagent.md
@@ -2207,7 +2201,7 @@ items:
     - name: Using criteria
       href: search/iarchiveagent/using-criteria.md
   - name: Ifindagent
-    href: search/ifindagent/index.md
+    href: search/ifindagent/dump-result.md
     items:
     - name: Dump result
       href: search/ifindagent/dump-result.md
@@ -2216,7 +2210,7 @@ items:
     - name: Using criteria
       href: search/ifindagent/using-criteria.md
   - name: Odata
-    href: search/odata/index.md
+    href: search/odata/associate.md
     items:
     - name: Associate
       href: search/odata/associate.md
@@ -2237,7 +2231,7 @@ items:
     - name: Using filters
       href: search/odata/using-filters.md
   - name: Selection
-    href: search/selection/index.md
+    href: search/selection/dynamic-selections.md
     items:
     - name: Dynamic selections
       href: search/selection/dynamic-selections.md
@@ -2296,7 +2290,7 @@ items:
       - name: Visible for flag
         href: security/sentry/entity/visible-for-flag.md
     - name: Plugins
-      href: security/sentry/plugins/index.md
+      href: security/sentry/plugins/create-sentry-plugin.md
       items:
       - name: Create sentry plugin
         href: security/sentry/plugins/create-sentry-plugin.md
@@ -2305,14 +2299,14 @@ items:
       - name: Use sentry plugin
         href: security/sentry/plugins/use-sentry-plugin.md
     - name: Services
-      href: security/sentry/services/index.md
+      href: security/sentry/services/fieldproperties.md
       items:
       - name: Fieldproperties
         href: security/sentry/services/fieldproperties.md
       - name: Tableright
         href: security/sentry/services/tableright.md
 - name: Services
-  href: services/index.md
+  href: services/call-service-using-ns-binaries.md
   items:
   - name: Call service using ns binaries
     href: services/call-service-using-ns-binaries.md
@@ -2325,26 +2319,26 @@ items:
   - name: Wrapped or unwrapped proxy
     href: services/wrapped-or-unwrapped-proxy.md
   - name: Agents
-    href: services/agents/index.md
+    href: services/agents/agent-pattern.md
     items:
     - name: Agent pattern
       href: services/agents/agent-pattern.md
     - name: Reference
       href: services/agents/reference.md
   - name: Call ws from dotnet so tools
-    href: services/call-ws-from-dotnet-so-tools/index.md
+    href: services/call-ws-from-dotnet-so-tools/calling.md
     items:
     - name: Calling
       href: services/call-ws-from-dotnet-so-tools/calling.md
     - name: Config
       href: services/call-ws-from-dotnet-so-tools/config.md
   - name: Call ws from dotnet std tools
-    href: services/call-ws-from-dotnet-std-tools/index.md
+    href: services/call-ws-from-dotnet-std-tools/add-web-reference.md
     items:
     - name: Add web reference
       href: services/call-ws-from-dotnet-std-tools/add-web-reference.md
   - name: Call ws from java
-    href: services/call-ws-from-java/index.md
+    href: services/call-ws-from-java/auth-java.md
     items:
     - name: Auth java
       href: services/call-ws-from-java/auth-java.md
@@ -2355,14 +2349,14 @@ items:
     - name: Get entity
       href: services/call-ws-from-java/get-entity.md
   - name: Carriers
-    href: services/carriers/index.md
+    href: services/carriers/entity-carriers.md
     items:
     - name: Entity carriers
       href: services/carriers/entity-carriers.md
     - name: Read only carriers
       href: services/carriers/read-only-carriers.md
   - name: Scripting
-    href: services/scripting/index.md
+    href: services/scripting/basic-scripting.md
     items:
     - name: Basic scripting
       href: services/scripting/basic-scripting.md
@@ -2374,7 +2368,7 @@ items:
       href: services/scripting/reference/index.md
       items:
       - name: IAIAgent
-        href: services/scripting/reference/IAIAgent/index.md
+        href: services/scripting/reference/IAIAgent/detectlanguage.md
         items:
         - name: Detectlanguage
           href: services/scripting/reference/IAIAgent/detectlanguage.md
@@ -2389,7 +2383,7 @@ items:
         - name: Translate
           href: services/scripting/reference/IAIAgent/translate.md
       - name: IAppointmentAgent
-        href: services/scripting/reference/IAppointmentAgent/index.md
+        href: services/scripting/reference/IAppointmentAgent/accept.md
         items:
         - name: Accept
           href: services/scripting/reference/IAppointmentAgent/accept.md
@@ -2588,7 +2582,7 @@ items:
         - name: Willsendemail
           href: services/scripting/reference/IAppointmentAgent/willsendemail.md
       - name: IArchiveAgent
-        href: services/scripting/reference/IArchiveAgent/index.md
+        href: services/scripting/reference/IArchiveAgent/createdefaultarchivelistresult.md
         items:
         - name: Createdefaultarchivelistresult
           href: services/scripting/reference/IArchiveAgent/createdefaultarchivelistresult.md
@@ -2649,7 +2643,7 @@ items:
         - name: Setcolumnwidthsv2
           href: services/scripting/reference/IArchiveAgent/setcolumnwidthsv2.md
       - name: IAssociateAgent
-        href: services/scripting/reference/IAssociateAgent/index.md
+        href: services/scripting/reference/IAssociateAgent/getassociate.md
         items:
         - name: Getassociate
           href: services/scripting/reference/IAssociateAgent/getassociate.md
@@ -2666,7 +2660,7 @@ items:
         - name: Savenote
           href: services/scripting/reference/IAssociateAgent/savenote.md
       - name: IAudienceAgent
-        href: services/scripting/reference/IAudienceAgent/index.md
+        href: services/scripting/reference/IAudienceAgent/createdefaultaudiencelayoutentity.md
         items:
         - name: Createdefaultaudiencelayoutentity
           href: services/scripting/reference/IAudienceAgent/createdefaultaudiencelayoutentity.md
@@ -2721,7 +2715,7 @@ items:
         - name: Setlogoimage
           href: services/scripting/reference/IAudienceAgent/setlogoimage.md
       - name: IBatchAgent
-        href: services/scripting/reference/IBatchAgent/index.md
+        href: services/scripting/reference/IBatchAgent/deletebatchtask.md
         items:
         - name: Deletebatchtask
           href: services/scripting/reference/IBatchAgent/deletebatchtask.md
@@ -2746,7 +2740,7 @@ items:
         - name: Updatebatchtask
           href: services/scripting/reference/IBatchAgent/updatebatchtask.md
       - name: IBLOBAgent
-        href: services/scripting/reference/IBLOBAgent/index.md
+        href: services/scripting/reference/IBLOBAgent/changecontactimage.md
         items:
         - name: Changecontactimage
           href: services/scripting/reference/IBLOBAgent/changecontactimage.md
@@ -2821,7 +2815,7 @@ items:
         - name: Setprojectimage
           href: services/scripting/reference/IBLOBAgent/setprojectimage.md
       - name: IBulkUpdateAgent
-        href: services/scripting/reference/IBulkUpdateAgent/index.md
+        href: services/scripting/reference/IBulkUpdateAgent/executebyentityids.md
         items:
         - name: Executebyentityids
           href: services/scripting/reference/IBulkUpdateAgent/executebyentityids.md
@@ -2840,7 +2834,7 @@ items:
         - name: Removestoredfieldsandgetdefaultfields
           href: services/scripting/reference/IBulkUpdateAgent/removestoredfieldsandgetdefaultfields.md
       - name: IChatAgent
-        href: services/scripting/reference/IChatAgent/index.md
+        href: services/scripting/reference/IChatAgent/acceptchatsessiontransfer.md
         items:
         - name: Acceptchatsessiontransfer
           href: services/scripting/reference/IChatAgent/acceptchatsessiontransfer.md
@@ -2905,7 +2899,7 @@ items:
         - name: Updatechattopicuseragents
           href: services/scripting/reference/IChatAgent/updatechattopicuseragents.md
       - name: IContactAgent
-        href: services/scripting/reference/IContactAgent/index.md
+        href: services/scripting/reference/IContactAgent/addperson.md
         items:
         - name: Addperson
           href: services/scripting/reference/IContactAgent/addperson.md
@@ -2970,7 +2964,7 @@ items:
         - name: Validatecontactentity
           href: services/scripting/reference/IContactAgent/validatecontactentity.md
       - name: ICRMScriptAgent
-        href: services/scripting/reference/ICRMScriptAgent/index.md
+        href: services/scripting/reference/ICRMScriptAgent/createdefaultcrmscriptentity.md
         items:
         - name: Createdefaultcrmscriptentity
           href: services/scripting/reference/ICRMScriptAgent/createdefaultcrmscriptentity.md
@@ -3021,7 +3015,7 @@ items:
         - name: Validatetriggerscriptbyuniqueid
           href: services/scripting/reference/ICRMScriptAgent/validatetriggerscriptbyuniqueid.md
       - name: ICustomerServiceAgent
-        href: services/scripting/reference/ICustomerServiceAgent/index.md
+        href: services/scripting/reference/ICustomerServiceAgent/addmessagefrommaildata.md
         items:
         - name: Addmessagefrommaildata
           href: services/scripting/reference/ICustomerServiceAgent/addmessagefrommaildata.md
@@ -3086,7 +3080,7 @@ items:
         - name: Updatefeaturetoggles
           href: services/scripting/reference/ICustomerServiceAgent/updatefeaturetoggles.md
       - name: IDashboardAgent
-        href: services/scripting/reference/IDashboardAgent/index.md
+        href: services/scripting/reference/IDashboardAgent/createdefaultdashboard.md
         items:
         - name: Createdefaultdashboard
           href: services/scripting/reference/IDashboardAgent/createdefaultdashboard.md
@@ -3119,14 +3113,14 @@ items:
         - name: Settile
           href: services/scripting/reference/IDashboardAgent/settile.md
       - name: IDatabaseAgent
-        href: services/scripting/reference/IDatabaseAgent/index.md
+        href: services/scripting/reference/IDatabaseAgent/getstepsfromnetservercode.md
         items:
         - name: Getstepsfromnetservercode
           href: services/scripting/reference/IDatabaseAgent/getstepsfromnetservercode.md
         - name: Getstepsindatabase
           href: services/scripting/reference/IDatabaseAgent/getstepsindatabase.md
       - name: IDatabaseTableAgent
-        href: services/scripting/reference/IDatabaseTableAgent/index.md
+        href: services/scripting/reference/IDatabaseTableAgent/delete.md
         items:
         - name: Delete
           href: services/scripting/reference/IDatabaseTableAgent/delete.md
@@ -3145,7 +3139,7 @@ items:
         - name: Upsert
           href: services/scripting/reference/IDatabaseTableAgent/upsert.md
       - name: IDiagnosticsAgent
-        href: services/scripting/reference/IDiagnosticsAgent/index.md
+        href: services/scripting/reference/IDiagnosticsAgent/addwebappusage.md
         items:
         - name: Addwebappusage
           href: services/scripting/reference/IDiagnosticsAgent/addwebappusage.md
@@ -3176,7 +3170,7 @@ items:
         - name: Webappusageexistsinperiod
           href: services/scripting/reference/IDiagnosticsAgent/webappusageexistsinperiod.md
       - name: IDocumentAgent
-        href: services/scripting/reference/IDocumentAgent/index.md
+        href: services/scripting/reference/IDocumentAgent/checkindocument.md
         items:
         - name: Checkindocument
           href: services/scripting/reference/IDocumentAgent/checkindocument.md
@@ -3345,7 +3339,7 @@ items:
         - name: Verifygetdocumentstream
           href: services/scripting/reference/IDocumentAgent/verifygetdocumentstream.md
       - name: IEMailAgent
-        href: services/scripting/reference/IEMailAgent/index.md
+        href: services/scripting/reference/IEMailAgent/authenticate.md
         items:
         - name: Authenticate
           href: services/scripting/reference/IEMailAgent/authenticate.md
@@ -3542,7 +3536,7 @@ items:
         - name: Togglesubscription
           href: services/scripting/reference/IEMailAgent/togglesubscription.md
       - name: IErpSyncAgent
-        href: services/scripting/reference/IErpSyncAgent/index.md
+        href: services/scripting/reference/IErpSyncAgent/breakactorlink.md
         items:
         - name: Breakactorlink
           href: services/scripting/reference/IErpSyncAgent/breakactorlink.md
@@ -3637,7 +3631,7 @@ items:
         - name: Validatearchivecolumnconfig
           href: services/scripting/reference/IErpSyncAgent/validatearchivecolumnconfig.md
       - name: IFavouriteAgent
-        href: services/scripting/reference/IFavouriteAgent/index.md
+        href: services/scripting/reference/IFavouriteAgent/addfavourite.md
         items:
         - name: Addfavourite
           href: services/scripting/reference/IFavouriteAgent/addfavourite.md
@@ -3656,7 +3650,7 @@ items:
         - name: Togglefavourite
           href: services/scripting/reference/IFavouriteAgent/togglefavourite.md
       - name: IFindAgent
-        href: services/scripting/reference/IFindAgent/index.md
+        href: services/scripting/reference/IFindAgent/createrestrictiongroup.md
         items:
         - name: Createrestrictiongroup
           href: services/scripting/reference/IFindAgent/createrestrictiongroup.md
@@ -3731,7 +3725,7 @@ items:
         - name: Saverestrictionswithcontext2
           href: services/scripting/reference/IFindAgent/saverestrictionswithcontext2.md
       - name: IForeignSystemAgent
-        href: services/scripting/reference/IForeignSystemAgent/index.md
+        href: services/scripting/reference/IForeignSystemAgent/adddevicebyidentifier.md
         items:
         - name: Adddevicebyidentifier
           href: services/scripting/reference/IForeignSystemAgent/adddevicebyidentifier.md
@@ -3794,7 +3788,7 @@ items:
         - name: Saveforeignkey
           href: services/scripting/reference/IForeignSystemAgent/saveforeignkey.md
       - name: IFreeTextAgent
-        href: services/scripting/reference/IFreeTextAgent/index.md
+        href: services/scripting/reference/IFreeTextAgent/addwords.md
         items:
         - name: Addwords
           href: services/scripting/reference/IFreeTextAgent/addwords.md
@@ -3817,7 +3811,7 @@ items:
         - name: Setsinglewordoperator
           href: services/scripting/reference/IFreeTextAgent/setsinglewordoperator.md
       - name: IImportAgent
-        href: services/scripting/reference/IImportAgent/index.md
+        href: services/scripting/reference/IImportAgent/createdefaultimportline.md
         items:
         - name: Createdefaultimportline
           href: services/scripting/reference/IImportAgent/createdefaultimportline.md
@@ -3828,7 +3822,7 @@ items:
         - name: Saveimport
           href: services/scripting/reference/IImportAgent/saveimport.md
       - name: ILicenseAgent
-        href: services/scripting/reference/ILicenseAgent/index.md
+        href: services/scripting/reference/ILicenseAgent/activatelicenseinfo.md
         items:
         - name: Activatelicenseinfo
           href: services/scripting/reference/ILicenseAgent/activatelicenseinfo.md
@@ -3869,7 +3863,7 @@ items:
         - name: Validatelicenseinfo
           href: services/scripting/reference/ILicenseAgent/validatelicenseinfo.md
       - name: IListAgent
-        href: services/scripting/reference/IListAgent/index.md
+        href: services/scripting/reference/IListAgent/addfromlistdefinition.md
         items:
         - name: Addfromlistdefinition
           href: services/scripting/reference/IListAgent/addfromlistdefinition.md
@@ -4418,7 +4412,7 @@ items:
         - name: Updatehierarchyfrompath
           href: services/scripting/reference/IListAgent/updatehierarchyfrompath.md
       - name: IMarketingAgent
-        href: services/scripting/reference/IMarketingAgent/index.md
+        href: services/scripting/reference/IMarketingAgent/createdefaultformentity.md
         items:
         - name: Createdefaultformentity
           href: services/scripting/reference/IMarketingAgent/createdefaultformentity.md
@@ -4461,7 +4455,7 @@ items:
         - name: Verifygooglerecaptcha
           href: services/scripting/reference/IMarketingAgent/verifygooglerecaptcha.md
       - name: IMDOAgent
-        href: services/scripting/reference/IMDOAgent/index.md
+        href: services/scripting/reference/IMDOAgent/getlist.md
         items:
         - name: Getlist
           href: services/scripting/reference/IMDOAgent/getlist.md
@@ -4488,7 +4482,7 @@ items:
         - name: Setselected
           href: services/scripting/reference/IMDOAgent/setselected.md
       - name: INumberAllocationAgent
-        href: services/scripting/reference/INumberAllocationAgent/index.md
+        href: services/scripting/reference/INumberAllocationAgent/createdefaultrefcountentity.md
         items:
         - name: Createdefaultrefcountentity
           href: services/scripting/reference/INumberAllocationAgent/createdefaultrefcountentity.md
@@ -4505,7 +4499,7 @@ items:
         - name: Setnumbereachtemplate
           href: services/scripting/reference/INumberAllocationAgent/setnumbereachtemplate.md
       - name: IPartnerAgent
-        href: services/scripting/reference/IPartnerAgent/index.md
+        href: services/scripting/reference/IPartnerAgent/createorupdatewebpanel.md
         items:
         - name: Createorupdatewebpanel
           href: services/scripting/reference/IPartnerAgent/createorupdatewebpanel.md
@@ -4520,7 +4514,7 @@ items:
         - name: Suspendwebpanel
           href: services/scripting/reference/IPartnerAgent/suspendwebpanel.md
       - name: IPersonAgent
-        href: services/scripting/reference/IPersonAgent/index.md
+        href: services/scripting/reference/IPersonAgent/addbounce.md
         items:
         - name: Addbounce
           href: services/scripting/reference/IPersonAgent/addbounce.md
@@ -4623,7 +4617,7 @@ items:
         - name: Validatepersonentity
           href: services/scripting/reference/IPersonAgent/validatepersonentity.md
       - name: IPhoneListAgent
-        href: services/scripting/reference/IPhoneListAgent/index.md
+        href: services/scripting/reference/IPhoneListAgent/addtofavorites.md
         items:
         - name: Addtofavorites
           href: services/scripting/reference/IPhoneListAgent/addtofavorites.md
@@ -4642,7 +4636,7 @@ items:
         - name: Setpreferences
           href: services/scripting/reference/IPhoneListAgent/setpreferences.md
       - name: IPocketAgent
-        href: services/scripting/reference/IPocketAgent/index.md
+        href: services/scripting/reference/IPocketAgent/getpocketstartupdata.md
         items:
         - name: Getpocketstartupdata
           href: services/scripting/reference/IPocketAgent/getpocketstartupdata.md
@@ -4661,7 +4655,7 @@ items:
         - name: Setpushnotificationtagsforuser
           href: services/scripting/reference/IPocketAgent/setpushnotificationtagsforuser.md
       - name: IPreferenceAgent
-        href: services/scripting/reference/IPreferenceAgent/index.md
+        href: services/scripting/reference/IPreferenceAgent/createdefaultpreference.md
         items:
         - name: Createdefaultpreference
           href: services/scripting/reference/IPreferenceAgent/createdefaultpreference.md
@@ -4738,7 +4732,7 @@ items:
         - name: Updatenetservicesstatus
           href: services/scripting/reference/IPreferenceAgent/updatenetservicesstatus.md
       - name: IProjectAgent
-        href: services/scripting/reference/IProjectAgent/index.md
+        href: services/scripting/reference/IProjectAgent/addprojectmembers.md
         items:
         - name: Addprojectmembers
           href: services/scripting/reference/IProjectAgent/addprojectmembers.md
@@ -4841,7 +4835,7 @@ items:
         - name: Validateprojectentity
           href: services/scripting/reference/IProjectAgent/validateprojectentity.md
       - name: IQuoteAgent
-        href: services/scripting/reference/IQuoteAgent/index.md
+        href: services/scripting/reference/IQuoteAgent/addsaletypequoteattachment.md
         items:
         - name: Addsaletypequoteattachment
           href: services/scripting/reference/IQuoteAgent/addsaletypequoteattachment.md
@@ -5040,7 +5034,7 @@ items:
         - name: Validatequoteversion
           href: services/scripting/reference/IQuoteAgent/validatequoteversion.md
       - name: IRelationAgent
-        href: services/scripting/reference/IRelationAgent/index.md
+        href: services/scripting/reference/IRelationAgent/createdefaultcontactrelationentity.md
         items:
         - name: Createdefaultcontactrelationentity
           href: services/scripting/reference/IRelationAgent/createdefaultcontactrelationentity.md
@@ -5051,7 +5045,7 @@ items:
         - name: Savecontactrelation
           href: services/scripting/reference/IRelationAgent/savecontactrelation.md
       - name: IReplicationAgent
-        href: services/scripting/reference/IReplicationAgent/index.md
+        href: services/scripting/reference/IReplicationAgent/createdefaultsatellite.md
         items:
         - name: Createdefaultsatellite
           href: services/scripting/reference/IReplicationAgent/createdefaultsatellite.md
@@ -5070,7 +5064,7 @@ items:
         - name: Setfreetextsearchenabledonarea
           href: services/scripting/reference/IReplicationAgent/setfreetextsearchenabledonarea.md
       - name: IReportAgent
-        href: services/scripting/reference/IReportAgent/index.md
+        href: services/scripting/reference/IReportAgent/createdefaultreportentity.md
         items:
         - name: Createdefaultreportentity
           href: services/scripting/reference/IReportAgent/createdefaultreportentity.md
@@ -5099,7 +5093,7 @@ items:
         - name: Updatefavorite
           href: services/scripting/reference/IReportAgent/updatefavorite.md
       - name: IResourceAgent
-        href: services/scripting/reference/IResourceAgent/index.md
+        href: services/scripting/reference/IResourceAgent/activateresourcesubstitution.md
         items:
         - name: Activateresourcesubstitution
           href: services/scripting/reference/IResourceAgent/activateresourcesubstitution.md
@@ -5112,7 +5106,7 @@ items:
         - name: Setresourcesubstitution
           href: services/scripting/reference/IResourceAgent/setresourcesubstitution.md
       - name: ISaintAgent
-        href: services/scripting/reference/ISaintAgent/index.md
+        href: services/scripting/reference/ISaintAgent/createdefaultsaintconfiguration.md
         items:
         - name: Createdefaultsaintconfiguration
           href: services/scripting/reference/ISaintAgent/createdefaultsaintconfiguration.md
@@ -5143,7 +5137,7 @@ items:
         - name: Setrankonstatusmonitors
           href: services/scripting/reference/ISaintAgent/setrankonstatusmonitors.md
       - name: ISaleAgent
-        href: services/scripting/reference/ISaleAgent/index.md
+        href: services/scripting/reference/ISaleAgent/addsalestakeholders.md
         items:
         - name: Addsalestakeholders
           href: services/scripting/reference/ISaleAgent/addsalestakeholders.md
@@ -5224,7 +5218,7 @@ items:
         - name: Validatesaleentity
           href: services/scripting/reference/ISaleAgent/validatesaleentity.md
       - name: ISelectionAgent
-        href: services/scripting/reference/ISelectionAgent/index.md
+        href: services/scripting/reference/ISelectionAgent/addcontactselectionmembers.md
         items:
         - name: Addcontactselectionmembers
           href: services/scripting/reference/ISelectionAgent/addcontactselectionmembers.md
@@ -5335,7 +5329,7 @@ items:
         - name: Updatetypicalsearch
           href: services/scripting/reference/ISelectionAgent/updatetypicalsearch.md
       - name: ISentryAgent
-        href: services/scripting/reference/ISentryAgent/index.md
+        href: services/scripting/reference/ISentryAgent/cancreateappointmentinalldiaries.md
         items:
         - name: Cancreateappointmentinalldiaries
           href: services/scripting/reference/ISentryAgent/cancreateappointmentinalldiaries.md
@@ -5352,7 +5346,7 @@ items:
         - name: Hasfunctionright
           href: services/scripting/reference/ISentryAgent/hasfunctionright.md
       - name: ITicketAgent
-        href: services/scripting/reference/ITicketAgent/index.md
+        href: services/scripting/reference/ITicketAgent/addattachments.md
         items:
         - name: Addattachments
           href: services/scripting/reference/ITicketAgent/addattachments.md
@@ -5407,7 +5401,7 @@ items:
         - name: Uploadattachment
           href: services/scripting/reference/ITicketAgent/uploadattachment.md
       - name: ITimeZoneAgent
-        href: services/scripting/reference/ITimeZoneAgent/index.md
+        href: services/scripting/reference/ITimeZoneAgent/checknewtimezonedataavailable.md
         items:
         - name: Checknewtimezonedataavailable
           href: services/scripting/reference/ITimeZoneAgent/checknewtimezonedataavailable.md
@@ -5432,7 +5426,7 @@ items:
         - name: Updatetimezonedata
           href: services/scripting/reference/ITimeZoneAgent/updatetimezonedata.md
       - name: IUserAgent
-        href: services/scripting/reference/IUserAgent/index.md
+        href: services/scripting/reference/IUserAgent/addownercontact.md
         items:
         - name: Addownercontact
           href: services/scripting/reference/IUserAgent/addownercontact.md
@@ -5615,7 +5609,7 @@ items:
         - name: Validateuser
           href: services/scripting/reference/IUserAgent/validateuser.md
       - name: IUserDefinedFieldInfoAgent
-        href: services/scripting/reference/IUserDefinedFieldInfoAgent/index.md
+        href: services/scripting/reference/IUserDefinedFieldInfoAgent/changefieldtype.md
         items:
         - name: Changefieldtype
           href: services/scripting/reference/IUserDefinedFieldInfoAgent/changefieldtype.md
@@ -5682,7 +5676,7 @@ items:
         - name: Setuserdefinedpageonefield
           href: services/scripting/reference/IUserDefinedFieldInfoAgent/setuserdefinedpageonefield.md
       - name: IViewStateAgent
-        href: services/scripting/reference/IViewStateAgent/index.md
+        href: services/scripting/reference/IViewStateAgent/deletehistory.md
         items:
         - name: Deletehistory
           href: services/scripting/reference/IViewStateAgent/deletehistory.md
@@ -5713,7 +5707,7 @@ items:
         - name: Sethistorylengthprefvalue
           href: services/scripting/reference/IViewStateAgent/sethistorylengthprefvalue.md
       - name: IWebhookAgent
-        href: services/scripting/reference/IWebhookAgent/index.md
+        href: services/scripting/reference/IWebhookAgent/createdefaultwebhook.md
         items:
         - name: Createdefaultwebhook
           href: services/scripting/reference/IWebhookAgent/createdefaultwebhook.md
@@ -5741,7 +5735,7 @@ items:
   - name: Soap table rights
     href: soap/soap-table-rights.md
   - name: Services soap interface
-    href: soap/services-soap-interface/index.md
+    href: soap/services-soap-interface/compatibility.md
     items:
     - name: Compatibility
       href: soap/services-soap-interface/compatibility.md
@@ -5754,28 +5748,28 @@ items:
     - name: Notification types
       href: soap/services-soap-interface/notification-types.md
     - name: Admin port
-      href: soap/services-soap-interface/admin-port/index.md
+      href: soap/services-soap-interface/admin-port/checkagentversion.md
       items:
-      - name: CheckAgentVersion
-        href: soap/services-soap-interface/admin-port/checkAgentVersion.md
-      - name: GetAgent
-        href: soap/services-soap-interface/admin-port/getAgent.md
-      - name: GetErrorMessage
-        href: soap/services-soap-interface/admin-port/getErrorMessage.md
-      - name: GetModulePaths
-        href: soap/services-soap-interface/admin-port/getModulePaths.md
-      - name: GetTag
-        href: soap/services-soap-interface/admin-port/getTag.md
-      - name: GetUser
-        href: soap/services-soap-interface/admin-port/getUser.md
-      - name: GetUserById
-        href: soap/services-soap-interface/admin-port/getUserById.md
-      - name: GetUsers
-        href: soap/services-soap-interface/admin-port/getUsers.md
-      - name: SetUser
-        href: soap/services-soap-interface/admin-port/setUser.md
+      - name: Checkagentversion
+        href: soap/services-soap-interface/admin-port/checkagentversion.md
+      - name: Getagent
+        href: soap/services-soap-interface/admin-port/getagent.md
+      - name: Geterrormessage
+        href: soap/services-soap-interface/admin-port/geterrormessage.md
+      - name: Getmodulepaths
+        href: soap/services-soap-interface/admin-port/getmodulepaths.md
+      - name: Gettag
+        href: soap/services-soap-interface/admin-port/gettag.md
+      - name: Getuser
+        href: soap/services-soap-interface/admin-port/getuser.md
+      - name: Getuserbyid
+        href: soap/services-soap-interface/admin-port/getuserbyid.md
+      - name: Getusers
+        href: soap/services-soap-interface/admin-port/getusers.md
+      - name: Setuser
+        href: soap/services-soap-interface/admin-port/setuser.md
     - name: Customer port
-      href: soap/services-soap-interface/customer-port/index.md
+      href: soap/services-soap-interface/customer-port/addattachment.md
       items:
       - name: Addattachment
         href: soap/services-soap-interface/customer-port/addattachment.md
@@ -5844,7 +5838,7 @@ items:
       - name: Setcustomer
         href: soap/services-soap-interface/customer-port/setcustomer.md
     - name: Ticket port
-      href: soap/services-soap-interface/ticket-port/index.md
+      href: soap/services-soap-interface/ticket-port/addattachment.md
       items:
       - name: Addattachment
         href: soap/services-soap-interface/ticket-port/addattachment.md
@@ -5927,14 +5921,14 @@ items:
       - name: Setuseridletime
         href: soap/services-soap-interface/ticket-port/setuseridletime.md
 - name: Tooltip service
-  href: tooltip-service/index.md
+  href: tooltip-service/call-tooltip-service.md
   items:
   - name: Call tooltip service
     href: tooltip-service/call-tooltip-service.md
   - name: Create tooltip plugin
     href: tooltip-service/create-tooltip-plugin.md
 - name: Tutorials
-  href: tutorials/index.md
+  href: tutorials/auth-code-flow-quickstart.md
   items:
   - name: Auth code flow quickstart
     href: tutorials/auth-code-flow-quickstart.md
@@ -5981,21 +5975,21 @@ items:
     - name: Scenarios
       href: tutorials/minimal-php-app/scenarios.md
   - name: Web parts
-    href: tutorials/web-parts/index.md
+    href: tutorials/web-parts/authenticate-user.md
     items:
     - name: Authenticate user
       href: tutorials/web-parts/authenticate-user.md
     - name: Display open sales for user
       href: tutorials/web-parts/display-open-sales-for-user.md
 - name: Web api
-  href: web-api/index.md
+  href: web-api/get-version.md
   items:
   - name: Get version
     href: web-api/get-version.md
   - name: Agents
     href: web-api/agents/index.md
   - name: Headers
-    href: web-api/headers/index.md
+    href: web-api/headers/accept-language.md
     items:
     - name: Accept language
       href: web-api/headers/accept-language.md
@@ -6004,7 +5998,7 @@ items:
     - name: So timezone
       href: web-api/headers/so-timezone.md
   - name: Rest
-    href: web-api/rest/index.md
+    href: web-api/rest/headers.md
     items:
     - name: Headers
       href: web-api/rest/headers.md
@@ -6016,7 +6010,7 @@ items:
   href: web-extensions/index.md
   items:
   - name: Mailarchivehelper
-    href: web-extensions/mailarchivehelper/index.md
+    href: web-extensions/mailarchivehelper/archive-email.md
     items:
     - name: Archive email
       href: web-extensions/mailarchivehelper/archive-email.md
@@ -6035,7 +6029,7 @@ items:
     - name: Registry
       href: web-extensions/mailarchivehelper/registry.md
 - name: Webhooks
-  href: webhooks/index.md
+  href: webhooks/event-details.md
   items:
   - name: Event details
     href: webhooks/event-details.md
@@ -6048,7 +6042,7 @@ items:
   - name: Subscription
     href: webhooks/subscription.md
   - name: Reference
-    href: webhooks/reference/index.md
+    href: webhooks/reference/activity-events.md
     items:
     - name: Activity events
       href: webhooks/reference/activity-events.md
@@ -6079,7 +6073,7 @@ items:
     - name: Ticket events
       href: webhooks/reference/ticket-events.md
 - name: Whats new
-  href: whats-new/index.md
+  href: whats-new/80-to-80-sr-1.md
   items:
   - name: 80 to 80 sr 1
     href: whats-new/80-to-80-sr-1.md
@@ -6100,7 +6094,7 @@ items:
   - name: Ns 80
     href: whats-new/ns-80.md
   - name: Ns 70
-    href: whats-new/ns-70/index.md
+    href: whats-new/ns-70/aliasing-on-argumentfunctions.md
     items:
     - name: Aliasing on argumentfunctions
       href: whats-new/ns-70/aliasing-on-argumentfunctions.md
