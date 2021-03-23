@@ -377,18 +377,29 @@ items:
 - name: Custom fields
   href: custom-fields/index.md
 - name: Customer center
-  href: customer-center/call-script-in-cs-with-ajax.md
+  href: customer-center/access-script.md
   items:
+  - name: Access script
+    href: customer-center/access-script.md
   - name: Call script in cs with ajax
     href: customer-center/call-script-in-cs-with-ajax.md
   - name: Config
     href: customer-center/config.md
+  - name: Display kam picture
+    href: customer-center/display-kam-picture.md
   - name: Edit template
     href: customer-center/edit-template.md
   - name: Embed chat widget on external site
     href: customer-center/embed-chat-widget-on-external-site.md
-  - name: Inline crmscript and custom form
-    href: customer-center/inline-crmscript-and-custom-form.md
+  - name: Inline crmscript
+    href: customer-center/inline-crmscript.md
+  - name: Tutorials
+    href: customer-center/tutorials/custom-form-book-apt.md
+    items:
+    - name: Custom form book apt
+      href: customer-center/tutorials/custom-form-book-apt.md
+    - name: Custom form edit customer
+      href: customer-center/tutorials/custom-form-edit-customer.md
 - name: Documents
   href: documents/cloud-document-integrations.md
   items:
