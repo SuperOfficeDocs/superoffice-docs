@@ -1,10 +1,8 @@
 ---
-# This basic template provides core metadata fields for Markdown articles on docs.superoffice.com.
-
-# Mandatory fields.
-title: singel_sign_on       # (Required) Very important for SEO. Intent in a unique string of 43-59 chars including spaces.
-description: Single sign-on     # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
+title: singel_sign_on
+description: Single sign-on
 author: {github-id}             # Your GitHub alias.
+so.date:
 keywords: SSO
 so.topic: concept                      # article, howto, reference, concept, guide
 
@@ -50,6 +48,6 @@ Note that this is not the same as using the same username and password to sign i
 [Read more about our sign-in services][3]
 
 <!-- Referenced links -->
-[1]: federated-id-and-identity-providers.md
-[2]: ../onsite/crm-server/iis-web-server/sso.md
-[3]: superid/sign-in-services.md
+[1]: ../federated-id-and-identity-providers.md
+[2]: onsite-sso.md
+[3]: ../superid/sign-in-services.md

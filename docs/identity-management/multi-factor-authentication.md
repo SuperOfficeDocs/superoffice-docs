@@ -1,10 +1,8 @@
 ---
-# This basic template provides core metadata fields for Markdown articles on docs.superoffice.com.
-
-# Mandatory fields.
-title: multi_factor_authentication       # (Required) Very important for SEO. Intent in a unique string of 43-59 chars including spaces.
-description:  Multi-factor authentication                  # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
+title: multi_factor_authentication
+description:  Multi-factor authentication
 author: {github-id}             # Your GitHub alias.
+so.date:
 keywords: MFA,2FA
 so.topic: concept                       # article, howto, reference, concept, guide
 

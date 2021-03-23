@@ -1,16 +1,11 @@
 ---
-# This basic template provides core metadata fields for Markdown articles on docs.superoffice.com.
-
-# Mandatory fields.
-title: mapping_so_user_to_ad_v_7_1       # (Required) Very important for SEO. Intent in a unique string of 43-59 chars including spaces.
-description:                    # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
+title: mapping_so_user_to_ad_v_7_1
+description: Mapping SuperOffice users to Active Directory in 7.0 SR3 and 7.1
 author: Jens M. Glattetre             # Your GitHub alias.
 so.date: 03.30.2012
 keywords:
-so.topic: article             # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
-# so.envir:                     # cloud or onsite
+so.topic: howto             # article, howto, reference, concept, guide
+so.envir: onsite             # cloud or onsite
 # so.client:                    # online, web, win, pocket, or mobile
 ---
 
@@ -20,35 +15,37 @@ The new implementation is based on searching in the Active Directory – rather 
 
 This advanced configuration has to be tweaked manually in the SuperOffice.config file. These settings are not added by default when installing the Windows client, so they have to be added manually.
 
-The SuperOffice.config is a SuperOffice NetServer .NET Application Configuration file. Always keep a copy of your SuperOffice.config file before editing and using a tool like Notepad++ that gives syntax highlighting for XML files is always recommended when editing these files. The editor must be run as administrator when User Account Control (UAC) is enabled.
+The SuperOffice.config is a SuperOffice NetServer .NET Application Configuration file. Always keep a copy of your *SuperOffice.config* file before editing and using a tool like Notepad++ that gives syntax highlighting for XML files is always recommended when editing these files. The editor must be run as administrator when User Account Control (UAC) is enabled.
 
 ![image][img1]
 
-The SoAdmin.exe administration client uses user-administration implemented within NetServer. This implementation is plug-in based and the plug-in implementing the Active Directory support is called ActiveDirectoryCredentialPlugin. Two areas of the SuperOffice.config file need to be modified to provide a detailed configuration for this plugin.
+## Set up ActiveDirectoryCredentialPlugin
 
-The first part is to declare the existence of this configuration section. This has to be added within the SuperOffice `<sectionGroup>` declaration. A new section group security and a new section `ActiveDirectoryCredentialPlugin` have to be added.
+The SoAdmin.exe administration client uses user-administration implemented within NetServer. This implementation is plug-in-based and the plug-in implementing the Active Directory support is called **ActiveDirectoryCredentialPlugin**. Two areas of the *SuperOffice.config* file need to be modified to provide a detailed configuration for this plugin.
 
-```xml
-<sectionGroup name="Security">
-  <section name="ActiveDirectoryCredentialPlugin"
-           type="System.Configuration.NameValueSectionHandler, System, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"/>
-</sectionGroup>
-```
+1. Declare the existence of this configuration section. This has to be added within the SuperOffice `<sectionGroup>` declaration. A new section group security and a new section `ActiveDirectoryCredentialPlugin` have to be added.
 
-![image][img2]
+    ```xml
+    <sectionGroup name="Security">
+      <section name="ActiveDirectoryCredentialPlugin"
+               type="System.Configuration.NameValueSectionHandler, System, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"/>
+    </sectionGroup>
+    ```
 
-Secondly, the actual configuration has to be added as well.
+    ![image][img2]
 
-![image][img3]
+2. Add the actual configuration.
+
+    ![image][img3]
 
 | Key | Description |
 |-----|-------------|
-| Domain | The domain to use when looking up users. A value for this need to be provided when this is different from the domain of the logged-in user. The domain needs to be provided when logging in as a local user. |
+| Domain | The domain to use when looking up users. A value for this needs to be provided when this is different from the domain of the logged-in user. The domain needs to be provided when logging in as a local user. |
 | User | The user to use when looking up in this domain. This is required when the logged-in user has insufficient privileges on the domain. |
 | Password | Required when providing user. |
 | Container | Introduced in 7.1 RC, see explanation below. |
 
-SuperOffice NetServer uses the Microsoft .NET library System.DirectoryServices.AccountManagement when searching Active Directory. The minimum required permissions to Active Directory is Read and List content. The best way to verify that the right permissions are available is to use the ADSI Edit Snap-in to MMC.
+SuperOffice NetServer uses the Microsoft .NET library **System.DirectoryServices.AccountManagement** when searching Active Directory. The minimum required permissions to Active Directory is Read and List content. The best way to verify that the right permissions are available is to use the ADSI Edit Snap-in to MMC.
 
 ![image][img4]
 
@@ -56,17 +53,19 @@ You can select the root note of Active Directory, Properties, Advanced, and Effe
 
 ![image][img5]
 
-SuperOffice 7.1 (from RC and beyond) has additional improvements. Some of the error messages are replaced by warnings logged by NetServer. Support for specifying container is introduced as well.
+## Turn on logging warnings to a file (7.1)
+
+SuperOffice 7.1 (from RC and beyond) has additional improvements. Some of the error messages are replaced by warnings logged by NetServer. Support for specifying a container is introduced as well.
 
 Logging warnings to a file must be turned on to see the warnings produced by NetServer. Logging warnings to file should be the first action if a problem with Active Directory integration is observed.
 
-The first step is to make sure that `LogWarning` is turned on
+1. Make sure that `LogWarning` is turned on:
 
-![image][img6]
+    ![image][img6]
 
-Then the logging to file needs to be turned on to a folder where the logged-in user has write permissions.
+2. Turn on logging to file in a folder where the logged-in user has write permissions.
 
-![image][img7]
+    ![image][img7]
 
 If something goes wrong like if an invalid user is specified, a log file with today’s date will be produced.
 

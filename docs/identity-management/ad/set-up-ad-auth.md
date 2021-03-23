@@ -1,14 +1,9 @@
 ---
-# This basic template provides core metadata fields for Markdown articles on docs.superoffice.com.
-
-# Mandatory fields.
-title: set_up_ad_auth       # (Required) Very important for SEO. Intent in a unique string of 43-59 chars including spaces.
-description: How to setup AD autentication # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
+title: set_up_ad_auth
+description: How to setup AD authentication
 author: {github-id}             # Your GitHub alias.
 keywords:
 so.topic: howto             # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
 so.envir: onsite              # cloud or onsite
 so.client: web              # online, web, win, pocket, or mobile
 ---
@@ -21,7 +16,7 @@ SuperOffice integrates well with an existing Active Directory infrastructure all
 
 From SuperOffice 8.1 all user authentication is done by the Web client. In earlier versions both Web and Service had their own login making AD authentication a bit more difficult than from 8.1.
 
-If you have users from different domains, then make sure that the domain you want to add users from is set up in the [SuperOffice Web configurator][1] when you add users.
+If you have users from different domains, then make sure that the domain you want to add users from is set up in the [SuperOffice Web config][1] when you add users.
 
 > [!NOTE]
 > Our [recommended installation scenario #2][2] is to use [Reverse Proxy][3] in the DMZ. To get the Single Sign-on experience where the user does not get the login dialog at all, it would require that the Active Directory is exposed to the DMZ. This is NOT a recommended scenario and we strongly advise against that.
@@ -65,9 +60,9 @@ SuperOffice CRM uses SID (security identifier) value to link an Active Directo
 6. If it is different, delete the row of this user in the CREDENTIALS table and re-link the user in the SuperOffice administration client.
 
 <!-- Referenced links -->
-[1]: ../onsite/web-client/set-up.md
-[2]: ../onsite/security/deployment-scenarios.md
-[3]: ../onsite/crm-server/iis-web-server/set-up-reverse-proxy-on-iis.md
+[1]: ../../onsite/web-client/set-up.md
+[2]: ../../onsite/security/deployment-scenarios.md
+[3]: ../../onsite/crm-server/iis-web-server/set-up-reverse-proxy-on-iis.md
 
 <!-- Referenced images -->
 [img1]: media/ad-in-ns.png

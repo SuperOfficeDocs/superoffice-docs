@@ -1,14 +1,10 @@
 ---
-# This basic template provides core metadata fields for Markdown articles on docs.superoffice.com.
-
-# Mandatory fields.
-title: configure_sso_in_iis_onsite        # (Required) Very important for SEO. Intent in a unique string of 43-59 chars including spaces.
-description: Configure single sign-on in iis onsite # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
+title: configure_sso_in_iis_onsite
+description: Configure single sign-on in IIS onsite
 author: {github-id}             # Your GitHub alias.
+so.date:
 keywords:
 so.topic: howto               # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
 so.envir: onsite              # cloud or onsite
 so.client: web                # online, web, win, pocket, or mobile
 ---
@@ -28,7 +24,7 @@ SuperOffice CRM Web supports single sign-on using Windows Authentication.
 * You should now be able to test with your browser to see if SSO works for users.
 * To enable SSO with Mail Link and TrayApp, you will need to change the protocolMapping to use WindowsAuth in the *web.config* file.
 
-You will need to add the site to trusted sites in IE if you are using IE and if IE thinks that the site is not on local intranet. Other browsers don't need configuration to give an SSO experience.
+You will need to add the site to trusted sites in IE if you are using IE and if IE thinks that the site is not on a local intranet. Other browsers don't need configuration to give an SSO experience.
 
 Testing SSO on the same server as SuperOffice usually fails. Accessing the site from the internet will prompt the user for credentials since the KDC is unavailable.
 
@@ -114,9 +110,9 @@ Steps to configure in the *web.config* file:
 4. Apply the configuration changes related to bindings and WindowsAuth.
 
 <!-- Referenced links -->
-[1]: ../../service/set-up-guide.md
+[1]: ../../onsite/service/set-up-guide.md
 
 <!-- Referenced images -->
-[img1]: ../media/imagegb896.png
-[img2]: ../media/imagef1ptl.png
-[img3]: ../media/75sr1trayappwindowsauth.jpg
+[img1]: media/imagegb896.png
+[img2]: media/imagef1ptl.png
+[img3]: media/75sr1trayappwindowsauth.jpg

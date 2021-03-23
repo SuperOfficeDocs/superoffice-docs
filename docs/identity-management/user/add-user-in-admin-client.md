@@ -1,10 +1,7 @@
 ---
-# This basic template provides core metadata fields for Markdown articles on docs.superoffice.com.
-
-# Mandatory fields.
-title: add_user_in_admin_client       # (Required) Very important for SEO. Intent in a unique string of 43-59 chars including spaces.
-description: Add a user in the Admin client  # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
-author: {github-id}             # Your GitHub alias.
+title: add_user_in_admin_client
+description: Add a user in the Admin client
+author: Bergfrid Dias
 keywords:
 so.topic: howto                      # article, howto, reference, concept, guide
 
@@ -42,7 +39,7 @@ Administrators can add users one by one in the Admin client.
 
 <!-- Referenced links -->
 [1]: ../superid/sign-in-services.md
-[2]: ../user-accounts-and-roles.md
+[2]: index.md
 
 [img1]: media/soadm-add-user.png
 [img2]: media/googleinvite.png

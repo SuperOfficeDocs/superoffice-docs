@@ -431,14 +431,15 @@ items:
     href: identity-management/id-transfer-tickets.md
   - name: Multi factor authentication
     href: identity-management/multi-factor-authentication.md
-  - name: Set up ad auth
-    href: identity-management/set-up-ad-auth.md
   - name: Set up cloud document integration
     href: identity-management/set-up-cloud-document-integration.md
-  - name: Single sign on
-    href: identity-management/single-sign-on.md
-  - name: User accounts and roles
-    href: identity-management/user-accounts-and-roles.md
+  - name: Ad
+    href: identity-management/ad/index.md
+    items:
+    - name: Mapping so user to ad v 7 1
+      href: identity-management/ad/mapping-so-user-to-ad-v-7-1.md
+    - name: Set up ad auth
+      href: identity-management/ad/set-up-ad-auth.md
   - name: Scim
     href: identity-management/scim/activate-deactivate-rules.md
     items:
@@ -472,6 +473,11 @@ items:
       href: identity-management/scim/sync-user.md
     - name: User provisioning
       href: identity-management/scim/user-provisioning.md
+  - name: Single sign on
+    href: identity-management/single-sign-on/index.md
+    items:
+    - name: Onsite sso
+      href: identity-management/single-sign-on/onsite-sso.md
   - name: Superid
     href: identity-management/superid/check-idp-domain.md
     items:
@@ -506,8 +512,6 @@ items:
       href: identity-management/user/add-user-in-admin-client.md
     - name: Enforce password policy
       href: identity-management/user/enforce-password-policy.md
-    - name: Mapping so user to ad v 7 1
-      href: identity-management/user/mapping-so-user-to-ad-v-7-1.md
     - name: Reset password
       href: identity-management/user/reset-password.md
     - name: Send welcome emails
@@ -689,8 +693,6 @@ items:
         href: onsite/crm-server/iis-web-server/prepare.md
       - name: Set up reverse proxy on iis
         href: onsite/crm-server/iis-web-server/set-up-reverse-proxy-on-iis.md
-      - name: Sso
-        href: onsite/crm-server/iis-web-server/sso.md
   - name: Security
     href: onsite/security/deployment-scenarios.md
     items:

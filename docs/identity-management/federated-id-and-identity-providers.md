@@ -80,7 +80,7 @@ It is easier for the user to sign in and it increases the security of your ident
 
 <!-- Referenced links -->
 [1]: user/add-user-in-admin-client.md
-[2]: single-sign-on.md
+[2]: single-sign-on/index.md
 [3]: https://docs.microsoft.com/en-us/azure/active-directory/hybrid/whatis-azure-ad-connect
 [4]: https://docs.microsoft.com/en-us/azure/active-directory/hybrid/whatis-hybrid-identity
 [5]: superid/register-idp.md

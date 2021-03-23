@@ -65,7 +65,7 @@ Does the user's browser session **have an active session** from the identity pro
 [5]: index.md
 [6]: ../user/add-user-in-admin-client.md
 [7]: ../user/reset-password.md
-[8]: ../user-accounts-and-roles.md
+[8]: ../user/index.md
 [9]: sign-in-services.md
 [10]: ../federated-id-and-identity-providers.md
 
