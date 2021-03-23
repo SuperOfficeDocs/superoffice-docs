@@ -51,8 +51,10 @@ if(orgNr.isEmpty()) {
 
 ## How do I get started?
 
-* Subscribe to [Expander Services][1]
+* Subscribe to [Expander Services][1].
 * Your SuperOffice user must have administrator permissions.
+* [Study the fundamentals of CRMScript][2].
 
 <!-- Referenced links -->
 [1]: ../license/expander-services/index.md
+[2]: https://github.com/superofficedocs/crmscript/blob/main/docs/overview/getting-started.md
