@@ -999,6 +999,8 @@ items:
       href: erp-connectors/search-and-gui/search-operators.md
     - name: Show fields in gui or search
       href: erp-connectors/search-and-gui/show-fields-in-gui-or-search.md
+- name: Expander data exchange
+  href: expander-data-exchange/index.md
 - name: Foreign keys
   href: foreign-keys/erp-integration.md
   items:

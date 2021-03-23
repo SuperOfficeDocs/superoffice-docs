@@ -14,19 +14,7 @@ so.topic: tutorial
 
 # Creating a custom Data Exchange agent
 
-The SuperOffice Expander Data Exchange (EDE, formerly DBI) module is essentially an asynchronous service for updating/copying data to/from SuperOffice Service and some other source. Thanks to the columns `dbi_key` and `dbi_agent_id` on several central tables in CS, we can keep track of an entry's primary key in another system, which allows us to synchronize entities (keep track of which local entities correspond to the ones in the other system).
-
-The EDE is built up in a modular architecture, where the communication with the other system is managed using a plug-in system. These plug-ins are referred to as **agents**. The EDE-engine is communicating with an agent either using a File-pipe, or HTTP. In either case, the agent will receive input formatted as XML, perform some tasks, and then return output as XML. An agent may have any number of tasks, which will be executed according to various schedules (ranging from every minute to once a week). Normally, a single task will execute something resembling a single SQL query, transferring data one way (into CS or out from CS). A typical task is "Get all companies from an external source which has been updated lately". Inside Service, a task is interacting with a CRMScript to handle data mapping, transformations, and so on.
-
-Out of the box, we offer 3 agents:
-
-* **ODBCAgent:** allows you to connect to an ODBC DSN and perform standard SQL queries.
-
-* **SuperOfficeAgent:** uses the COM interface of the Sales & Marketing Windows client and supports methods for inserting/updating central SuperOffice CRM entities, such as person, contact, and project.
-
-* **LDAPAgent:** uses LDAP to connect to a directory (such as Microsoft Active Directory) to read data. It is normally used to retrieve users from AD to integrate them as persons (customers) or users in SuperOffice Service.
-
-**This tutorial will demonstrate how to create your own custom agent.**
+This tutorial will demonstrate how to create your own custom [data exchange agent][1].
 
 ## Architecture
 
@@ -138,7 +126,7 @@ Your output should (hopefully) look something like this:
 ![05][img5]
 
 <!-- Referenced links -->
-[1]:
+[1]: ../../expander-data-exchange/index.md
 
 <!-- Referenced images -->
 [img1]: media/image001.jpg
