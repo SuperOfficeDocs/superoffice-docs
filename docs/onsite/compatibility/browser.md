@@ -17,7 +17,7 @@ so.envir: onsite                # cloud or onsite
 
 Tested browsers to run both Win and Web applications.
 
-Want to know if a newly released browser is compatible? Check your [compatibility reports][1].
+Want to know if a newly released browser is compatible? Check the [compatibility reports][1].
 
 | Browsers             | 8.0 | 8.1 | 8.2 | 8.3 | 8.4 | 8.5 | 9.1 | 9.2 |
 |----------------------|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|

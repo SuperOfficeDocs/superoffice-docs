@@ -1,2 +1,2 @@
 > [!CAUTION]
-> For SuperOffice 9 and later, the Win client is not available.
+> For SuperOffice 9 and later, the SuperOffice Win client is not available.
