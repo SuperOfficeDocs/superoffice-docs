@@ -1,0 +1,130 @@
+items:
+- name: Install onsite
+  items:
+  - name: Pre-requisites
+    items:
+    - name: System requirements
+      href: ../onsite/system-requirements.md
+      items:
+      - name: CRM Server
+        href: ../onsite/crm-server/system-requirements.md
+      - name: Web client
+        href: ../onsite/web-client/system-requirements.md
+      - name: Windows client
+        href: ../onsite/win-client/system-requirements.md
+    - name: Compatibility
+      href: ../onsite/compatibility/index.md
+      items:
+      - name: Server OS
+        href: ../onsite/compatibility/server-os.md
+      - name: Client OS
+        href: ../onsite/compatibility/client-os.md
+      - name: Browser
+        href: ../onsite/compatibility/browser.md
+      - name: MS Office
+        href: ../onsite/compatibility/ms-office.md
+      - name: Database
+        href: ../onsite/compatibility/database.md
+      - name: MS SQL Server
+        href: ../onsite/compatibility/ms-sql-server.md
+      - name: Oracle
+        href: ../onsite/compatibility/oracle.md
+    - name: Security
+      href: ../onsite//security/index.md
+      items:
+      - name: Secure deployment guide
+        href: ../onsite//security/secure-deployment-guide.md
+      - name: Deployment scenarios
+        href: ../onsite//security/deployment-scenarios.md
+      - name: Network firewall config
+        href: ../onsite//security/network-firewall-config.md
+      - name: Set up EMET
+        href: ../onsite//security/set-up-emet.md
+      - name: Set up ModSecurity
+        href: ../onsite//security/set-up-modsecurity.md
+      - name: Secure HTTPS
+        href: ../onsite//security/secure-https.md
+  - name: Setup guide
+    href: ../onsite/crm-server/setup-guide.md
+  - name: Set up servers and database
+    items:
+    - name: IIS web server
+      href: ../onsite/crm-server/iis-web-server/index.md
+      items:
+      - name: Prepare
+        href: ../onsite/crm-server/iis-web-server/prepare.md
+      - name: Set up reverse proxy on iis
+        href: ../onsite/crm-server/iis-web-server/set-up-reverse-proxy-on-iis.md
+    - name: Database (one of)
+      items:
+      - name: Create MS SQL Server database
+        href: ../onsite/crm-server/create-ms-sql-server-db.md
+      - name: Create Oracle database
+        href: ../onsite/crm-server/create-oracle-db.md
+      - name: SQL server full-text search
+        href: ../onsite/crm-server/sql-server-full-text-search.md
+    - name: Install SuperOffice server (options)
+      items:
+      - name: Silent instal
+        href: ../onsite/crm-server/silent-serversetup.md
+      - name: Install on Citrix or Terminal server
+        href: ../onsite/crm-server/install-on-citrix.md
+        items:
+        - name: Considerations for MailLink, Ribbons, and Web Extensions
+          href: ../onsite/crm-server/deploy-on-citrix.md
+  - name: Install Windows client
+    items:
+    - name: Prepare
+      href: ../onsite/win-client/prepare-server.md
+    - name: Install Windows client (v8 only)
+      href: ../onsite/win-client/install.md
+    - name: Install Reporter Studio and Travel Gateway (v9 only)
+  - name: Install SuperOffice Web
+    items:
+    - name: Prepare
+    - name: Install Web client
+      href: ../onsite/web-client/set-up.md
+    - name: Set up Web Reports
+      href: ../onsite/web-client/set-up-web-and-report.md
+    - name: Install NetServer web services
+      href: ../onsite/web-client/install-netserver.md
+  - name: Install SuperOffice Service
+    items:
+    - name: Set up guide
+      href: ../onsite/service/set-up-guide.md
+    - name: Install manually
+      href: ../onsite/service/install-manually.md
+    - name: Install Service
+- name: Upgrade onsite
+  items:
+  - name: To version 8.0
+    items:
+    - name: Upgrade scenarios 75 to 8
+      href: ../onsite/upgrade-scenarios-75-to-8.md
+    - name: CRM Server
+      href: ../onsite/crm-server/upgrade-to-8.md
+      items:
+      - name: Move to new server
+        href: ../onsite/crm-server/move.md
+    - name: Web client
+      href: ../onsite/web-client/upgrade-to-8.md
+    - name: NetServer
+      href: ../onsite/web-client/upgrade-netserver-to-8.md
+    - name: Service
+      href: ../onsite/service/upgrade.md
+    - name: Windows client
+      href: ../onsite/win-client/upgrade.md
+  - name: To version 8.1
+    href: ../onsite/upgrade-to-8-1.md
+- name: Migrate to online
+  items:
+  - name: System requirements
+    href: ../online/system-requirements.md
+  - name: Migration guide
+    href: ../onsite/migration-guide.md
+- name: Version history
+  items:
+  - name: Onsite
+    href: ../online/version-history.md
+  - name: Online
+    href: ../onsite/version-history.md

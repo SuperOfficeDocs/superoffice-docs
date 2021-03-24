@@ -1,23 +1,20 @@
 ---
-# This basic template provides core metadata fields for Markdown articles on docs.superoffice.com.
-
-# Mandatory fields.
-title: deploy_on_citrix       # (Required) Very important for SEO. Intent in a unique string of 43-59 chars including spaces.
-description: Deploy MailLink/Ribbons in a Citrix/Terminal Server environment # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
+title: deploy_maillink_ribbons_webextensions_on_citrix
+description: Deploy MailLink/Ribbons in a Citrix or Terminal Server environment
 author: {github-id}             # Your GitHub alias.
 keywords:
-so.topic:                       # article, howto, reference, concept, guide
+so.topic: howto               # article, howto, reference, concept, guide
 
 # Optional fields. Don't forget to remove # if you need a field.
 so.envir: onsite              # cloud or onsite
 # so.client:                    # online, web, win, pocket, or mobile
 ---
 
-# Deploy MailLink/Ribbons in a Citrix/Terminal Server environment
+# Deploy MailLink/Ribbons in a Citrix or Terminal Server environment
 
 When installing SuperOffice in a Citrix environment, consider this to avoid problems when the customer starts to use our software.
 
-## MailLink/Ribbons/Web Extensions on Citrix/Terminal server
+## MailLink/Ribbons/Web Extensions on Citrix or Terminal server
 
 Ask: Will the customer deploy MailLink/Ribbons to ALL users running in the Citrix/Terminal Server environment?
 
@@ -37,7 +34,7 @@ The requirement to get the Ribbon components, a user needs to have the AddIns re
 
 The way we’ve solved this is to register the necessary keys under the `HKEY_LOCAL_MACHINE` hive in the registry (64-bit machine).
 
-These keys contain the values that will be copied to the `HKEY_CURRENT_USER` keys for a user when he/she starts a Microsoft Office program. **These keys will be written AFTER any login scripts has been run, so it is impossible to remove them using such a script**.
+These keys contain the values that will be copied to the `HKEY_CURRENT_USER` keys for a user when he/she starts a Microsoft Office program. **These keys will be written AFTER any login scripts have been run, so it is impossible to remove them using such a script**.
 
 The problem with the above solution is that for every user that logs in and starts any of the Microsoft Office programs, these registry keys will be copied to their local `HKEY_CURRENT_USER` registry hive and they will get a question asking them if they want to install SuperOffice Ribbons.
 
@@ -95,7 +92,7 @@ Windows Registry Editor Version 5.00
 "CommandLineSafe"=dword:00000001
 ```
 
-### The following file is to get MailLink deployed on 8.0 and newer:
+### The following file is to get MailLink deployed on 8.0 and newer
 
 ```text
 [HKEY_CURRENT_USER\Software\Microsoft\Office\Outlook\Addins\SuperOfficeRibbon-Outlook]
@@ -119,7 +116,7 @@ Windows Registry Editor Version 5.00
 
 #### Upgrade of Web Extensions on Citrix-server
 
-After upgrade of WebTools on the server remember to remove Web Extensions startup from  `C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup` again.
+After teh upgrade of WebTools on the server remember to remove Web Extensions startup from  `C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup` again.
 
 ### How to change the language of MailLink
 
@@ -130,7 +127,7 @@ Example: In Outlook the language is Norwegian, but the SuperOffice Ribbon is in
 Registry can have these values 0;1031;1033;1044;1043;1030;1053
 SuperOffice will choose the first valid value and if you have this language pack installed the SuperOffice Ribbon will be shown in this language.
 
-In this example this is 1031 and that is the code for German language. Norwegian is 1044.
+In this example, this is 1031 and that is the code for German language. Norwegian is 1044.
 
 You can find [here][2] a full list of languages.
 

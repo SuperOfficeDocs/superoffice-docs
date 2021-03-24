@@ -1,4 +1,6 @@
 items:
+- name: Setup
+  href: 01-setup/toc.yml
 - name: Admin
   href: admin/index.md
   items:
@@ -834,10 +836,7 @@ items:
     - name: Set up modsecurity
       href: onsite/security/set-up-modsecurity.md
   - name: Service
-    href: onsite/service/debug-automated-tasks.md
     items:
-    - name: Debug automated tasks
-      href: onsite/service/debug-automated-tasks.md
     - name: Install manually
       href: onsite/service/install-manually.md
     - name: Log files
@@ -921,6 +920,8 @@ items:
 - name: Service
   href: service/config-faq.md
   items:
+  - name: Debug automated tasks
+    href: service/debug-automated-tasks.md
   - name: Config faq
     href: service/config-faq.md
   - name: Set up facebook integration
