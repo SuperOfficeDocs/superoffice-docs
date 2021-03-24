@@ -13,7 +13,7 @@ so.envir: onsite                # cloud or onsite
 # so.client:                    # online, web, win, pocket, or mobile
 ---
 
-# System requirements - onsite
+# System requirements - Onsite
 
 Use this overview to get to the specific requirements.
 
@@ -22,7 +22,7 @@ Use this overview to get to the specific requirements.
 
 ## Requirements
 
-* [CMR Server][1]
+* [CRM Server][1]
 * [Web client][2]
 * [Win client][3]
 * [Pocket CRM host][4] and [device][5]
@@ -35,8 +35,7 @@ Use this overview to get to the specific requirements.
 * [Browser][9]
 * [Microsoft Office][10]
 * [Database][11]
-* [Microsoft SQL Server][12]
-* [Oracle][13]
+
 
 <!-- Referenced links -->
 [1]: crm-server/system-requirements.md
@@ -50,5 +49,3 @@ Use this overview to get to the specific requirements.
 [9]: compatibility/browser.md
 [10]: compatibility/ms-office.md
 [11]: compatibility/database.md
-[12]: compatibility/ms-sql-server.md
-[13]: compatibility/oracle.md

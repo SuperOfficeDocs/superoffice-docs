@@ -34,15 +34,15 @@ For Win app users, this folder must be shared, the user must be able to create a
 
 ### Prepare IIS web server
 
-* [How to configure ISS][3]
+* [How to configure IIS][3]
 
 ### Prepare the database
 
 The central database may be running on either Microsoft SQL Server or Oracle before you start the server installer. Please refer to the manufacturers' webpages for more information.
 
-* [list of supported databases][4]
-* [create Oracle database][5]
-* [create Microsoft SQL Server database][6]
+* [List of supported databases][4]
+* [Create Oracle database][5]
+* [Create Microsoft SQL Server database][6]
 
 > [!NOTE]
 > The ODBC data source must be set up as a 32-bit system DSN.
