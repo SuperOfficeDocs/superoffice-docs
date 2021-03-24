@@ -15,7 +15,7 @@ so.envir: onsite               # cloud or onsite
 
 # SuperOffice Onsite version history
 
-An overview of Release names, with Release number, Date, and Build number.
+An overview of Release names, with Release number, Date and Build number.
 
 It does not contain Red Alerts or [CRM Online release versions][1].
 
