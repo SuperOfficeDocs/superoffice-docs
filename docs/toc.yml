@@ -1,6 +1,6 @@
 items:
-- name: 01 setup
-  href: 01-setup/onsite.raw-yml
+- name: Setup
+  href: 01-setup/toc.yml
 - name: Admin
   href: admin/index.md
   items:
