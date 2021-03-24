@@ -31,9 +31,9 @@ If you have any problems going on travel after the prototype is generated, make 
 
 ## Sybase SQL Anywhere 12
 
-Our built-in database is Sybase 12 but is locked to the SuperOffice CRM client and requires both the application and database file to use special keys, preventing updates from other applications. If you have [Sybase 12][3] you may use this instead as the travel database.
+Our built-in database is Sybase 12 but is locked to the SuperOffice CRM client and requires both the application and database file to use special keys, preventing updates from other applications. If you have Sybase 12 you may use this instead as the travel database.
 
 <!-- Referenced links -->
 [1]: http://www.microsoft.com/
 [2]: create-update-prototype.md
-[3]: https://community.superoffice.com/en/technical/documentation/older-versions/documentation-7/SM/winclient/travel-client/travel-with-sybase-12/
+

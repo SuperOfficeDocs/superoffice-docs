@@ -31,7 +31,7 @@ Ask: Will the customer deploy MailLink/Ribbons to ALL users running in the Citri
 When deploying MailLink/Ribbons in a Terminal Server/Citrix environment, we use a registry mechanism called Registry propagation built into Microsoft Office.
 
 > [!NOTE]
-> Registry propagation does not work for Office 2013 in SuperOffice versions below 7.5. From version 7.5 you may use the SuperOffice.MailLink.ClientConfiguration to [register-user][1]
+> Registry propagation does not work for Office 2013 in SuperOffice versions below 7.5.
 
 The requirement to get the Ribbon components, a user needs to have the AddIns registered in the `HKEY_CURRENT_USER` hive of the registry. Since we don’t know who will log in (and new users can be added later on), there is no way for us to write anything to these areas in the registry when we install SuperOffice.
 
@@ -140,6 +140,5 @@ Another way how to change the language of the Mail Link is described in this [FA
 > You need to do this for every user on the server as the setting is user-specific.
 
 <!-- Referenced links -->
-[1]: https://community.superoffice.com/en/technical/documentation/older-versions/documentation-7/SM/mail-link/superofficemaillinkclientconfigurationexe/
 [2]: http://technet.microsoft.com/en-us/library/cc179219.aspx
 [3]: https://crm.superoffice.com/scripts/customer.fcgi?_sf=0&custSessionKey=&customerLang=en&noCookies=true&action=viewKbEntry&id=111721

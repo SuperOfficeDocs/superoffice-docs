@@ -32,7 +32,7 @@ We recommend using the same NetServer for both CRM Web and Service for a more l
 
 ## Run the Web installer
 
-1. Upon launching [the installer][3], you might be prompted to install some prerequisites, install these by clicking the **Install** button.
+1. Upon launching the installer, you might be prompted to install some prerequisites, install these by clicking the **Install** button.
 
 2. To start the installation you need to accept the license agreement.
 
@@ -70,5 +70,4 @@ We recommend using the same NetServer for both CRM Web and Service for a more l
 <!-- Referenced links -->
 [1]: ../crm-server/upgrade-to-8.md
 [2]: upgrade-to-8.md
-[3]: https://community.superoffice.com/en/technical/documentation/older-versions/documentation-7/SM/sales-marketing-web/install-seven-web/
 [4]: ../security/deployment-scenarios.md

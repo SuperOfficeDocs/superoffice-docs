@@ -57,7 +57,4 @@ To get full-text search capability, you need to enable the Microsoft Indexing Se
 
 ## Turn on full-text search on an existing database
 
-[Dbsetup][1] will detect if full-text search is set up or not. If you have turned on the full-text search on an existing database, you have to do a rebuild of the database to get the functionality working.
-
-<!-- Referenced links -->
-[1]: https://community.superoffice.com/en/technical/documentation/older-versions/documentation-7/onpremise/database-maintenance/
+Dbsetup will detect if full-text search is set up or not. If you have turned on the full-text search on an existing database, you have to do a rebuild of the database to get the functionality working.
