@@ -54,6 +54,12 @@ items:
         href: admin/user-preferences/reference/visual.md
 - name: Ai services
   href: ai-services/index.md
+  items:
+  - name: Configuration ai
+    href: ai-services/configuration-ai/getting-started.md
+    items:
+    - name: Getting started
+      href: ai-services/configuration-ai/getting-started.md
 - name: Apps
   href: apps/activate-custom-app.md
   items:
