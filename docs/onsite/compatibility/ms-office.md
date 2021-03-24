@@ -26,7 +26,7 @@ Want to know if a newly released Office version is compatible? Check the [compat
 | Microsoft Office 2016 64bit | ![i][img3] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] |
 | Microsoft Office 2016 32bit | ![i][img3] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] |
 | Microsoft Office 2013 64bit | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] |
-| Microsoft Office 2013 32bit | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] |
+| Microsoft Office 2013 32bit | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] |
 | Microsoft Office 2010 32bit | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img3]* | ![i][img1] | ![i][img1] | ![i][img3]* |
 
 > [!NOTE]
