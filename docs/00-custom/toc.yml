@@ -1,0 +1,370 @@
+items:
+- name: Apps
+  href: ../02-apps/toc.yml
+- name: Setup
+  href: ../01-setup/toc.yml
+- name: Admin
+  href: ../admin/index.md
+  items:
+  - name: User preferences
+    href: ../admin/user-preferences/index.md
+    items:
+    - name: Add prefdesc
+      href: ../admin/user-preferences/add-prefdesc.md
+    - name: Reference
+      items:
+      - name: Appointment dialog
+        href: ../admin/user-preferences/reference/appointment-dialog.md
+      - name: Associates
+        href: ../admin/user-preferences/reference/associates.md
+      - name: Cripple
+        href: ../admin/user-preferences/reference/cripple.md
+      - name: Defaults
+        href: ../admin/user-preferences/reference/defaults.md
+      - name: Diary view
+        href: ../admin/user-preferences/reference/diary-view.md
+      - name: Field labels
+        href: ../admin/user-preferences/reference/field-labels.md
+      - name: Field replication
+        href: ../admin/user-preferences/reference/field-replication.md
+      - name: Filter
+        href: ../admin/user-preferences/reference/filter.md
+      - name: Find contact
+        href: ../admin/user-preferences/reference/find-contact.md
+      - name: FreeText
+        href: ../admin/user-preferences/reference/freetext.md
+      - name: Functions
+        href: ../admin/user-preferences/reference/functions.md
+      - name: Mail
+        href: ../admin/user-preferences/reference/mail.md
+      - name: NetServices
+        href: ../admin/user-preferences/reference/netservices.md
+      - name: Numbering
+        href: ../admin/user-preferences/reference/numbering.md
+      - name: Phone
+        href: ../admin/user-preferences/reference/phone.md
+      - name: Scripting
+        href: ../admin/user-preferences/reference/scripting.md
+      - name: Sorting
+        href: ../admin/user-preferences/reference/sorting.md
+      - name: System
+        href: ../admin/user-preferences/reference/system.md
+      - name: Travel
+        href: ../admin/user-preferences/reference/travel.md
+      - name: Visual
+        href: ../admin/user-preferences/reference/visual.md
+- name: AI services
+  href: ../ai-services/index.md
+  items:
+  - name: Configuration AI
+    href: ../ai-services/configuration-ai/index.md
+    items:
+    - name: Getting started
+      href: ../ai-services/configuration-ai/getting-started.md
+- name: Authentication
+  href: ../authentication/access-token.md
+  items:
+  - name: Access token
+    href: ../authentication/access-token.md
+  - name: Auth header types
+    href: ../authentication/auth-header-types.md
+  - name: Auth user
+    href: ../authentication/auth-user.md
+  - name: Auth user legacy
+    href: ../authentication/auth-user-legacy.md
+  - name: Cookies
+    href: ../authentication/cookies.md
+  - name: Error codes
+    href: ../authentication/error-codes.md
+  - name: Federated auth
+    href: ../authentication/federated-auth.md
+  - name: Helper application
+    href: ../authentication/helper-application.md
+  - name: Id token
+    href: ../authentication/id-token.md
+  - name: Jwt intro
+    href: ../authentication/jwt-intro.md
+  - name: Oauth 2 intro
+    href: ../authentication/oauth-2-intro.md
+  - name: Refresh token
+    href: ../authentication/refresh-token.md
+  - name: Superid token
+    href: ../authentication/superid-token.md
+  - name: Certificates
+    href: ../authentication/certificates/add-certificate-snap-in.md
+    items:
+    - name: Add certificate snap in
+      href: ../authentication/certificates/add-certificate-snap-in.md
+    - name: Configure
+      href: ../authentication/certificates/configure.md
+    - name: Override resolver
+      href: ../authentication/certificates/override-resolver.md
+    - name: Override resolver saml
+      href: ../authentication/certificates/override-resolver-saml.md
+    - name: Validate security tokens
+      href: ../authentication/certificates/validate-security-tokens.md
+  - name: Oidc
+    href: ../authentication/oidc/auth-code-flow.md
+    items:
+    - name: Auth code flow
+      href: ../authentication/oidc/auth-code-flow.md
+    - name: Claims reference
+      href: ../authentication/oidc/claims-reference.md
+    - name: Claims scope
+      href: ../authentication/oidc/claims-scope.md
+    - name: Endpoints
+      href: ../authentication/oidc/endpoints.md
+    - name: Hybrid flow
+      href: ../authentication/oidc/hybrid-flow.md
+    - name: Iframe idp auth
+      href: ../authentication/oidc/iframe-idp-auth.md
+    - name: Implicit flow
+      href: ../authentication/oidc/implicit-flow.md
+    - name: Metadata document
+      href: ../authentication/oidc/metadata-document.md
+    - name: Native apps
+      href: ../authentication/oidc/native-apps.md
+  - name: System user
+    href: ../authentication/system-user/get-system-user-ticket.md
+    items:
+    - name: Get system user ticket
+      href: ../authentication/system-user/get-system-user-ticket.md
+    - name: Sign system user token
+      href: ../authentication/system-user/sign-system-user-token.md
+    - name: Soap envelope
+      href: ../authentication/system-user/soap-envelope.md
+    - name: System user flow
+      href: ../authentication/system-user/system-user-flow.md
+    - name: System user ticket
+      href: ../authentication/system-user/system-user-ticket.md
+    - name: System user token
+      href: ../authentication/system-user/system-user-token.md
+- name: Automation
+  items:
+  - name: Crmscript
+    href: ../automation/crmscript.md
+  - name: Event model
+    href: ../automation/event-model/index.md
+    items:
+    - name: Email filter
+      href: ../automation/event-model/email-filter.md
+    - name: Mailbox after save
+      href: ../automation/event-model/mailbox-after-save.md
+    - name: Mailbox before save
+      href: ../automation/event-model/mailbox-before-save.md
+    - name: Saving a request
+      href: ../automation/event-model/saving-a-request.md
+  - name: Trigger
+    href: ../automation/trigger/index.md
+    items:
+    - name: Create trigger - macro
+      href: ../automation/trigger/create-trigger-macro.md
+    - name: Create trigger - script
+      href: ../automation/trigger/create-trigger-script.md
+    - name: Set validation rules
+      href: ../automation/trigger/set-validation-rules.md
+    - name: Update value
+      href: ../automation/trigger/update-value.md
+  - name: Trigger scripts
+    href: ../automation/trigger-scripts/index.md
+    items:
+    - name: Reference
+      href: ../automation/trigger-scripts/reference/ChatAfterSaveNewMessage.md
+      items:
+      - name: ChatAfterSaveNewMessage
+        href: ../automation/trigger-scripts/reference/ChatAfterSaveNewMessage.md
+      - name: ChatBeforeSaveNewMessage
+        href: ../automation/trigger-scripts/reference/ChatBeforeSaveNewMessage.md
+      - name: ChatNewSession
+        href: ../automation/trigger-scripts/reference/ChatNewSession.md
+      - name: ChatSessionChangedStatus
+        href: ../automation/trigger-scripts/reference/ChatSessionChangedStatus.md
+      - name: CompactModeInjection
+        href: ../automation/trigger-scripts/reference/CompactModeInjection.md
+      - name: CustomerCenterAuthentication
+        href: ../automation/trigger-scripts/reference/CustomerCenterAuthentication.md
+      - name: CustomerSetSubscriptions
+        href: ../automation/trigger-scripts/reference/CustomerSetSubscriptions.md
+      - name: DbiTaskFailed
+        href: ../automation/trigger-scripts/reference/DbiTaskFailed.md
+      - name: ImportMailAfterProcessing
+        href: ../automation/trigger-scripts/reference/ImportMailAfterProcessing.md
+      - name: ImportMailBeforeProcessing
+        href: ../automation/trigger-scripts/reference/ImportMailBeforeProcessing.md
+      - name: MainMenu
+        href: ../automation/trigger-scripts/reference/MainMenu.md
+      - name: NewNotifyTicketFromForm
+        href: ../automation/trigger-scripts/reference/NewNotifyTicketFromForm.md
+      - name: NewTicket
+        href: ../automation/trigger-scripts/reference/NewTicket.md
+      - name: NewTicketFromCustomerCenter
+        href: ../automation/trigger-scripts/reference/NewTicketFromCustomerCenter.md
+      - name: NewTicketFromCustomerCenterBeforeSave
+        href: ../automation/trigger-scripts/reference/NewTicketFromCustomerCenterBeforeSave.md
+      - name: NewTicketFromEmail
+        href: ../automation/trigger-scripts/reference/NewTicketFromEmail.md
+      - name: NewTicketFromForm
+        href: ../automation/trigger-scripts/reference/NewTicketFromForm.md
+      - name: NewTicketFromSpmLink
+        href: ../automation/trigger-scripts/reference/NewTicketFromSpmLink.md
+      - name: SalesAfterSaveAppointment
+        href: ../automation/trigger-scripts/reference/SalesAfterSaveAppointment.md
+      - name: SalesAfterSaveStakeholder
+        href: ../automation/trigger-scripts/reference/SalesAfterSaveStakeholder.md
+      - name: SalesBeforeSaveAppointment
+        href: ../automation/trigger-scripts/reference/SalesBeforeSaveAppointment.md
+      - name: SalesBeforeSaveStakeholder
+        href: ../automation/trigger-scripts/reference/SalesBeforeSaveStakeholder.md
+      - name: ScheduledTaskFailed
+        href: ../automation/trigger-scripts/reference/ScheduledTaskFailed.md
+      - name: ServiceScreenEditCompanyLoad
+        href: ../automation/trigger-scripts/reference/ServiceScreenEditCompanyLoad.md
+      - name: ServiceScreenEditCustomerLoad
+        href: ../automation/trigger-scripts/reference/ServiceScreenEditCustomerLoad.md
+      - name: ServiceScreenEditExtraTableLoad
+        href: ../automation/trigger-scripts/reference/ServiceScreenEditExtraTableLoad.md
+      - name: ServiceScreenForwardLoad
+        href: ../automation/trigger-scripts/reference/ServiceScreenForwardLoad.md
+      - name: TicketActivated
+        href: ../automation/trigger-scripts/reference/TicketActivated.md
+      - name: TicketChangedCategory
+        href: ../automation/trigger-scripts/reference/TicketChangedCategory.md
+      - name: TicketChangedOwnedBy
+        href: ../automation/trigger-scripts/reference/TicketChangedOwnedBy.md
+      - name: TicketChangedPrimaryCustomer
+        href: ../automation/trigger-scripts/reference/TicketChangedPrimaryCustomer.md
+      - name: TicketChangedPriority
+        href: ../automation/trigger-scripts/reference/TicketChangedPriority.md
+      - name: TicketChangedSlevel
+        href: ../automation/trigger-scripts/reference/TicketChangedSlevel.md
+      - name: TicketChangedTicketStatus
+        href: ../automation/trigger-scripts/reference/TicketChangedTicketStatus.md
+      - name: TicketClosed
+        href: ../automation/trigger-scripts/reference/TicketClosed.md
+      - name: TicketDeleted
+        href: ../automation/trigger-scripts/reference/TicketDeleted.md
+      - name: TicketExternalMessageAdded
+        href: ../automation/trigger-scripts/reference/TicketExternalMessageAdded.md
+      - name: TicketInternalMessageAdded
+        href: ../automation/trigger-scripts/reference/TicketInternalMessageAdded.md
+      - name: TicketMessageAdded
+        href: ../automation/trigger-scripts/reference/TicketMessageAdded.md
+      - name: TicketPostponed
+        href: ../automation/trigger-scripts/reference/TicketPostponed.md
+      - name: TicketReopened
+        href: ../automation/trigger-scripts/reference/TicketReopened.md
+      - name: TicketReopenedFromCustomerCenter
+        href: ../automation/trigger-scripts/reference/TicketReopenedFromCustomerCenter.md
+      - name: TicketReopenedFromEmail
+        href: ../automation/trigger-scripts/reference/TicketReopenedFromEmail.md
+      - name: TicketSave
+        href: ../automation/trigger-scripts/reference/TicketSave.md
+  - name: Webhook
+    href: ../automation/webhook/index.md
+    items:
+    - name: Add msg to ticket with GitHub webhook
+      href: ../automation/webhook/add-msg-to-ticket-with-github-webhook.md
+  - name: In Windows client
+    href: ../automation/windows/win-script-event-system.md
+- name: Customer center
+  href: ../customer-center/index.md
+  items:
+  - name: Config
+    href: ../customer-center/config.md
+  - name: Edit template
+    href: ../customer-center/edit-template.md
+  - name: Inline CRMSCript
+    href: ../customer-center/inline-crmscript.md
+  - name: Access script
+    href: ../customer-center/access-script.md
+  - name: Call script in Service with AJAX
+    href: ../customer-center/call-script-in-cs-with-ajax.md
+  - name: Display KAM picture
+    href: ../customer-center/display-kam-picture.md
+  - name: Embed chat widget on external site
+    href: ../customer-center/embed-chat-widget-on-external-site.md
+  - name: Tutorials
+    items:
+    - name: Custom form - book appointment
+      href: ../customer-center/tutorials/custom-form-book-apt.md
+    - name: Custom form - edit customer
+      href: ../customer-center/tutorials/custom-form-edit-customer.md
+- name: License
+  href: ../license/index.md
+  items:
+  - name: User plans
+    href: ../license/user-plans.md
+  - name: Expander services
+    href: ../license/expander-services/index.md
+    items:
+    - name: Subscription
+      href: ../license/expander-services/subscription.md
+    - name: Tool box
+      href: ../license/expander-services/tool-box.md
+- name: Marketing
+  href: ../marketing/index.md
+  items:
+  - name: Forms
+    href: ../marketing/forms/index.md
+    items:
+    - name: Recaptcha
+      href: ../marketing/forms/recaptcha.md
+- name: Privacy
+  href: ../privacy/index.md
+  items:
+  - name: GDPR for app developer
+    href: ../privacy/gdpr-for-app-developer.md
+  - name: Consent management
+    href: ../privacy/consent-management.md
+  - name: E-marketing consent
+    href: ../privacy/e-marketing-consent.md
+  - name: Soft-delete
+    href: ../privacy/soft-delete.md
+- name: Reply templates
+  href: ../reply-templates/index.md
+  items:
+  - name: System templates
+    href: ../reply-templates/system-templates.md
+- name: Reports
+  items:
+  - name: Parameters
+    href: ../reports/parameters.md
+- name: Search
+  items:
+  - name: Expand quick search
+    href: ../search/expand-quick-search.md
+- name: Service
+  href: ../service/config-faq.md
+  items:
+  - name: Config FAQ
+    href: ../service/config-faq.md
+  - name: Attachments
+    items:
+    - name: Location
+      href: ../service/attachments/location.md
+  - name: Debug automated tasks
+    href: ../service/debug-automated-tasks.md
+  - name: Set up Facebook integration
+    href: ../service/set-up-facebook-integration.md
+  - name: SMS
+    href: ../service/sms/index.md
+    items:
+    - name: CM
+      href: ../service/sms/cm.md
+    - name: Compaya
+      href: ../service/sms/compaya.md
+    - name: Intelecom
+      href: ../service/sms/intelecom.md
+    - name: PSWinCom
+      href: ../service/sms/pswincom.md
+    - name: SMSTeknik
+      href: ../service/sms/smsteknik.md
+    - name: Twilio
+      href: ../service/sms/twilio.md
+    - name: TxtLocal
+      href: ../service/sms/txtlocal.md
+- name: Travel
+  href: ../travel/index.md
+  items:
+  - name: Create an update prototype
+    href: ../travel/create-update-prototype.md
