@@ -231,6 +231,6 @@ items:
 - name: API reference
   items:
   - name: Classes
-    href: classes/toc.yml
+    href: ../classes/toc.yml
   - name: Global functions
-    href: global-functions/toc.yml
+    href: ../global-functions/toc.yml
