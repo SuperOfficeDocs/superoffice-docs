@@ -24,7 +24,7 @@ First introduced in SuperOffice web, version 6.3, background computing plays an 
 
 The tasks are started by the IIS process and run on the web server rather than on a separate batch task service. This has simplified configuration and deployment a lot.
 
-On [DevNet - Developers Club][1] you'll find an article, which will also drill down into how built-in tasks get started and demonstrate how this extensibility point can be leveraged for other applications.
+[This article][1], which will also drill down into how built-in tasks get started and demonstrate how this extensibility point can be leveraged for other applications.
 
 The Batch task service is automatically set up during install of Sales & Marketing web, you'll find it running under services on the server where IIS is running. The name is the same as the website name + Batch Task Server. If you have more than one web installation, you will find one batch server service for each install.
 

@@ -33,9 +33,9 @@ Localization requirements are only relevant if your application supports more th
 
 ## Guidance
 
-The application should support the **SuperOffice core languages** in [category 1][1].
+The application should support the **SuperOffice core languages** in [group A][1].
 
 We recommend using a professional agency for translation. SuperOffice AS can offer partners access to the agency we use.
 
 <!-- Referenced links -->
-[1]: http://devnet.superoffice.com/Technical/Documentation/SM/Language-support/
+[1]: https://community.superoffice.com/en/product-releases/release-notes/language-support/
