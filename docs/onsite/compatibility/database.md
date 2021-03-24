@@ -21,7 +21,7 @@ Our experience tells us that other configurations also should work but SuperOffi
 
 For database-specific system requirements, check the vendor [Microsoft][1] or [Oracle][2].
 
-| Database |8.0, 8.0 SR1 | 8.0 SR2 - SR6 | 8.1 | 8.2 | 8.3 | 8.4 | 8.5 | 9.1 | 9.2 |
+| Database |8.0, SR1 | 8.0 SR2 - SR6 | 8.1 | 8.2 | 8.3 | 8.4 | 8.5 | 9.1 | 9.2 |
 |-------------------------|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
 | MS SQL Server 2019 | ![i][img3] | ![i][img3] | ![i][img3] | ![i][img3] | ![i][img3] | ![i][img3] | ![i][img1] | ![i][img1] | ![i][img1] |
 | MS SQL Server 2017 | ![i][img3] | ![i][img3]\* | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] |
@@ -29,7 +29,7 @@ For database-specific system requirements, check the vendor [Microsoft][1] or 
 | MS SQL Server 2014 | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] |
 | MS SQL Server 2012 SP1, SP2 | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] |
 | MS SQL Server 2008 R2\*\*\* | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img3] | ![i][img3] | ![i][img3] |
-| Oracle 18c | ![i][img3] | ![i][img3] | ![i][img3] | ![i][img3] | ![i][img3] | ![i][img3] | ![i][img1]\*\*| ![i][img1] | ![i][img1] |
+| Oracle 18c | ![i][img3] | ![i][img3] | ![i][img3] | ![i][img3] | ![i][img3] | ![i][img3] | ![i][img1]\*\*| ![i][img1]\*\* | ![i][img1]\*\* |
 | Oracle 12c | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] |
 | Oracle 11g | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img3] | ![i][img3] | ![i][img3] |
 
