@@ -80,9 +80,9 @@ Always keep in mind the [OWASP top ten list][13].
 [5]: ../custom.md
 [6]: ../validation/validate-app.md
 [7]: ../../authentication/federated-auth.md
-[8]: ../models.md
+[8]: ../getting-started/models.md
 [9]: ../client-id-secret.md
-[10]: ../user-contexts.md
+[10]: ../getting-started/user-contexts.md
 [11]: ../redirects/index.md
-[12]: ../app-envir.md
+[12]: ../getting-started/app-envir.md
 [13]: https://www.owasp.org/index.php/Category:OWASP_Top_Ten_Project

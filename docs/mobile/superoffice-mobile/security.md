@@ -120,7 +120,7 @@ This will redirect the user to the CRM Online login page for authentication. The
 <!-- Referenced links -->
 [1]:https://www.apple.com/business/docs/iOS_Security_Guide.pdf
 [2]: https://source.android.com/security/encryption/full-disk
-[3]: ../../apps/intro-to-superoffice-apis.md
+[3]: ../../apps/getting-started/intro-to-superoffice-apis.md
 [4]: ../../authentication/oauth-2-intro.md
 [5]: https://www.superoffice.com/trust-center/cloud-security/
 [6]: ../../identity-management/superid/user-accounts-and-passwords.md

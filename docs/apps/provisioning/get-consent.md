@@ -29,7 +29,7 @@ External consultants **MAY NOT** approve access to a customer's production data
 
 <!-- Referenced links -->
 [1]: ../../authentication/auth-user.md
-[2]: ../provisioning/index.md
+[2]: index.md
 
 <!-- Referenced images -->
 [img1]: media/superid_approve.png

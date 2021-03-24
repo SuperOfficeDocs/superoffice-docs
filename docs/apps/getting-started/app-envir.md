@@ -83,17 +83,17 @@ Use of the SOAP web services to get the company where id is equal to 3 in the de
 Both the REST and SOAP `base URL` endpoints are included as **claims** in the OpenID Connect `id_token`.
 
 <!-- Referenced links -->
-[1]: standard.md
-[2]: publish/get-listed.md
-[3]: validation/index.md
-[4]: certification/index.md
+[1]: ../standard.md
+[2]: ../publish/get-listed.md
+[3]: ../validation/index.md
+[4]: ../certification/index.md
 [5]: overview.md
-[6]: tenant-status/index.md
-[7]: app-store.md
-[8]: index.md
-[9]: ../authentication/federated-auth.md
-[10]: client-id-secret.md
-[11]: ../authentication/certificates/index.md
+[6]: ../tenant-status/index.md
+[7]: ../app-store.md
+[8]: ../index.md
+[9]: ../../authentication/federated-auth.md
+[10]: ../client-id-secret.md
+[11]: ../../authentication/certificates/index.md
 
 <!-- Referenced images -->
 [img1]: media/online-environments-sidebyside-650.png

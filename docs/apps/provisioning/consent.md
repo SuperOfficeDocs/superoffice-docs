@@ -42,7 +42,7 @@ During approval, the customer's administrator should accept the following change
 > to: full access to everything in a customer database
 
 <!-- Referenced links -->
-[1]: tenant-status/approval-sequence.md
-[2]: app-envir.md
-[3]: user-contexts.md
-[4]: ../mirroring/index.md
+[1]: approval-sequence.md
+[2]: ../getting-started/app-envir.md
+[3]: ../getting-started/user-contexts.md
+[4]: ../../mirroring/index.md

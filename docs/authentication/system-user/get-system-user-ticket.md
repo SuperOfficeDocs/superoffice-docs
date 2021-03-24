@@ -59,6 +59,6 @@ The following example code has an extensive amount of logging to the console. Th
 [2]: ../superid-token.md
 [3]: ../certificates/validate-security-tokens.md
 [5]: ../../apps/client-id-secret.md
-[6]: ../../apps/tenant-status/get-consent.md
+[6]: ../../apps/provisioning/get-consent.md
 [7]: soap-envelope.md
 [8]: sign-system-user-token.md

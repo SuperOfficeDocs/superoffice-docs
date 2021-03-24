@@ -39,7 +39,7 @@ Follow our [step-by-step guide][6], started by sending a certification request f
 <!-- Referenced links -->
 [1]: ../standard.md
 [2]: ../validation/index.md
-[3]: ../app-envir.md
+[3]: ../getting-started/app-envir.md
 [4]: initial-watchcom-eval.md
 [5]: ../requirements/index.md
 [6]: certify-app.md

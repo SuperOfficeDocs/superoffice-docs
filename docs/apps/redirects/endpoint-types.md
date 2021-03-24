@@ -64,6 +64,6 @@ so.client: online               # online, web, win, pocket, or mobile
 * Where we send [notifications when a tenant changes status][2]. Mandatory for standard applications.
 
 <!-- Referenced links -->
-[1]: ../revoke-app.md
+[1]: ../manage/revoke-app.md
 [2]: ../tenant-status/online-tenant-status.md
 [3]: ../../mirroring/mirroring-task.md

@@ -91,13 +91,13 @@ Creating an application for the SuperOffice App Store is not something to take l
 
 <!-- Referenced links -->
 [1]: app-envir.md
-[2]: tenant-status/index.md
-[3]: client-id-secret.md
-[4]: redirects/index.md
-[5]: ../authentication/certificates/index.md
-[6]: certification/certify-app.md
-[7]: validation/validate-app.md
-[8]: publish/get-listed.md
-[9]: publish/activate-custom-app.md
+[2]: ../tenant-status/index.md
+[3]: ../client-id-secret.md
+[4]: ../redirects/index.md
+[5]: ../../authentication/certificates/index.md
+[6]: ../certification/certify-app.md
+[7]: ../validation/validate-app.md
+[8]: ../publish/get-listed.md
+[9]: ../publish/activate-custom-app.md
 [10]: https://github.com/SuperOfficeDocs/data-access/blob/main/docs/tutorials/native-app-quickstart.md
 [11]: https://github.com/SuperOfficeDocs/data-access/blob/main/docs/tutorials/auth-code-flow-quickstart.md

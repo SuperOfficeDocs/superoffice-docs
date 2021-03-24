@@ -26,8 +26,8 @@ In practical terms, this means that you must build and host a page that receive
 Before you get to authorization, you must sign up to get your unique [client IDs and client secret][4]. You must tell us about your callback/redirect [URLs][5] when you [sign up][6].
 
 <!-- Referenced links -->
-[1]: provisioning/index.md
-[3]: ../authentication/certificates/validate-security-tokens.md
-[4]: client-id-secret.md
-[5]: redirects/index.md
+[1]: ../provisioning/index.md
+[3]: ../../authentication/certificates/validate-security-tokens.md
+[4]: ../client-id-secret.md
+[5]: ../redirects/index.md
 [6]: get-app-keys.md
