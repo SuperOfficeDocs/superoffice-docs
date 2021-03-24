@@ -31,6 +31,6 @@ Follow our [step-by-step guide][6], started by sending a validation request form
 [1]: ../standard.md
 [2]: ../custom.md
 [3]: ../app-envir.md
-[4]: ../activate-custom-app.md
+[4]: ../publish/activate-custom-app.md
 [5]: ../requirements/index.md
 [6]: validate-app.md

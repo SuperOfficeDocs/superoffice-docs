@@ -76,10 +76,10 @@ Always keep in mind the [OWASP top ten list][13].
 [1]: ../standard.md
 [2]: ../certification/certify-app.md
 [3]: ../certification/secure-app.md
-[4]: ../beta-period.md
+[4]: ../publish/beta-period.md
 [5]: ../custom.md
 [6]: ../validation/validate-app.md
-[7]: ../..//authentication/federated-auth.md
+[7]: ../../authentication/federated-auth.md
 [8]: ../models.md
 [9]: ../client-id-secret.md
 [10]: ../user-contexts.md

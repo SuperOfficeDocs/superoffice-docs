@@ -84,7 +84,7 @@ Both the REST and SOAP `base URL` endpoints are included as **claims** in the Op
 
 <!-- Referenced links -->
 [1]: standard.md
-[2]: get-listed.md
+[2]: publish/get-listed.md
 [3]: validation/index.md
 [4]: certification/index.md
 [5]: overview.md

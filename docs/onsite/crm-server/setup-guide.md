@@ -24,7 +24,7 @@ so.envir: onsite                # cloud or onsite
 
 This is where the server software will be installed. By default, we put this in *c:\\program files\\SuperOffice\\SuperOffice Server*. Here you will find the tools for database maintenance (*Dbsetup.exe*) and create and edit the install files (*SoCreateMST.exe*).
 
-In *SuperOffice Server* we also create a subfolder called *Client*, which must be available for all users who want to install the Win client. We recommend you share the Client folder, and not the SuperOffice Server folder.
+In *SuperOffice Server* we also create a subfolder called *Client*, which must be available for all users who want to install the Win client. We recommend you share the Client folder and not the SuperOffice Server folder.
 
 ### Prepare the document archive folder
 
@@ -77,17 +77,17 @@ For new customers, we recommend using Unicode. This removes all ambiguity of fut
 
 Prerequisites are available in the installation package.
 
-After you start the SuperOffice CRM Server installer you will find the **Install prerequisites**. Here you can click the Advanced button to see what will be installed, and select or unselect if you want to do it another way.
+After you start the SuperOffice CRM Server installer you will find the **Install prerequisites**. Here you can click the Advanced button to see what will be installed and select or unselect if you want to do it another way.
 
-To install the .Net Framework an internet connection is required. If the server where the installation is done don't have an internet connection, the [correct][2] .Net framework must be installed from another source.
+To install the .Net Framework an internet connection is required. If the server where the installation is done doesn't have an internet connection, the [correct][2] .Net framework must be installed from another source.
 
-A warning will be given when installing prerequisites if the installation of .Net framework fails, and ServerSetup will not start if .Net is not installed on the server.
+A warning will be given when installing prerequisites if the installation of the .Net framework fails, and ServerSetup will not start if .Net is not installed on the server.
 
 The reason is the prerequisites installation program on the installation package contains only the bootstrapper for the .Net installation and not the entire setup program (approx 2.5 MB vs 250MB).
 
 ### Automatic update of clients
 
-In the last screen of ServerSetup, **Installation is complete**, you can select to use automated update for client installations.
+In the last screen of ServerSetup, **Installation is complete**, you can select to use an automated update for client installations.
 
 The client setup file will be run from the location selected in ServerSetup, so this location must be available for the user and sufficient rights must have been granted.
 
@@ -95,11 +95,11 @@ If Active Directory is to be used for updates, the automatic update should not b
 
 The automatic client update feature replaces the use of SoLoader in earlier versions.
 
-Automated update for client installations will ask the user if she wants to update SuperOffice CRM client if the client setup files have been updated by ServerSetup. The check is done by comparing the version of SuperOffice CRM client with the highest version of ServerSetup installation on this database.
+Automated updates for client installations will ask the user if she wants to update SuperOffice CRM client if the client setup files have been updated by ServerSetup. The check is done by comparing the version of SuperOffice CRM client with the highest version of ServerSetup installation on this database.
 
 The user can select to not update, the question will then be asked again next time she starts SuperOffice CRM client.
 
-If the user selects to update, the SuperOffice CRM client will exit and client setup file will be run. When the installation is finished, SuperOffice CRM client must be started again.
+If the user selects to update, the SuperOffice CRM client will exit and the client setup file will be run. When the installation is finished, SuperOffice CRM client must be started again.
 
 ### Install with several languages
 

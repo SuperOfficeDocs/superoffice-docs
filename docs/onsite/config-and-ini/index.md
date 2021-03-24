@@ -61,4 +61,4 @@ Here's an overview of where you may find the different log files and how you ena
 [9]: ../../documents/ribbons/enable-debug.md
 [10]: ../service/log-files.md
 [11]: service-config.md
-[12]: ../service/debug-automated-tasks.md
+[12]: ../../service/debug-automated-tasks.md

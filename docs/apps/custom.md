@@ -50,6 +50,6 @@ When it is time to develop your application idea, you have 3 options:
 [3]: tenant-status/index.md
 [4]: app-envir.md
 [5]: validation/index.md
-[6]: activate-custom-app.md
+[6]: publish/activate-custom-app.md
 [7]: ../license/expander-services/index.md
 [8]: ../license/user-plans.md

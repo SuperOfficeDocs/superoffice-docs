@@ -1,4 +1,6 @@
 items:
+- name: 01 setup
+  href: 01-setup/onsite.raw-yml
 - name: Admin
   href: admin/index.md
   items:
@@ -7,61 +9,66 @@ items:
     items:
     - name: Add prefdesc
       href: admin/user-preferences/add-prefdesc.md
-    - name: Appointment dialog
-      href: admin/user-preferences/appointment-dialog.md
-    - name: Associates
-      href: admin/user-preferences/associates.md
-    - name: Cripple
-      href: admin/user-preferences/cripple.md
-    - name: Defaults
-      href: admin/user-preferences/defaults.md
-    - name: Diary view
-      href: admin/user-preferences/diary-view.md
-    - name: Field labels
-      href: admin/user-preferences/field-labels.md
-    - name: Field replication
-      href: admin/user-preferences/field-replication.md
-    - name: Filter
-      href: admin/user-preferences/filter.md
-    - name: Find contact
-      href: admin/user-preferences/find-contact.md
-    - name: Freetext
-      href: admin/user-preferences/freetext.md
-    - name: Functions
-      href: admin/user-preferences/functions.md
-    - name: Mail
-      href: admin/user-preferences/mail.md
-    - name: Netservices
-      href: admin/user-preferences/netservices.md
-    - name: Numbering
-      href: admin/user-preferences/numbering.md
-    - name: Phone
-      href: admin/user-preferences/phone.md
-    - name: Scripting
-      href: admin/user-preferences/scripting.md
-    - name: Sorting
-      href: admin/user-preferences/sorting.md
-    - name: System
-      href: admin/user-preferences/system.md
-    - name: Travel
-      href: admin/user-preferences/travel.md
-    - name: Visual
-      href: admin/user-preferences/visual.md
+    - name: Reference
+      href: admin/user-preferences/reference/appointment-dialog.md
+      items:
+      - name: Appointment dialog
+        href: admin/user-preferences/reference/appointment-dialog.md
+      - name: Associates
+        href: admin/user-preferences/reference/associates.md
+      - name: Cripple
+        href: admin/user-preferences/reference/cripple.md
+      - name: Defaults
+        href: admin/user-preferences/reference/defaults.md
+      - name: Diary view
+        href: admin/user-preferences/reference/diary-view.md
+      - name: Field labels
+        href: admin/user-preferences/reference/field-labels.md
+      - name: Field replication
+        href: admin/user-preferences/reference/field-replication.md
+      - name: Filter
+        href: admin/user-preferences/reference/filter.md
+      - name: Find contact
+        href: admin/user-preferences/reference/find-contact.md
+      - name: Freetext
+        href: admin/user-preferences/reference/freetext.md
+      - name: Functions
+        href: admin/user-preferences/reference/functions.md
+      - name: Mail
+        href: admin/user-preferences/reference/mail.md
+      - name: Netservices
+        href: admin/user-preferences/reference/netservices.md
+      - name: Numbering
+        href: admin/user-preferences/reference/numbering.md
+      - name: Phone
+        href: admin/user-preferences/reference/phone.md
+      - name: Scripting
+        href: admin/user-preferences/reference/scripting.md
+      - name: Sorting
+        href: admin/user-preferences/reference/sorting.md
+      - name: System
+        href: admin/user-preferences/reference/system.md
+      - name: Travel
+        href: admin/user-preferences/reference/travel.md
+      - name: Visual
+        href: admin/user-preferences/reference/visual.md
 - name: Ai services
   href: ai-services/index.md
-- name: Apps
-  href: apps/activate-custom-app.md
   items:
-  - name: Activate custom app
-    href: apps/activate-custom-app.md
+  - name: Configuration ai
+    href: ai-services/configuration-ai/getting-started.md
+    items:
+    - name: Getting started
+      href: ai-services/configuration-ai/getting-started.md
+- name: Apps
+  href: apps/app-envir.md
+  items:
   - name: App envir
     href: apps/app-envir.md
   - name: App store
     href: apps/app-store.md
   - name: Best practices
     href: apps/best-practices.md
-  - name: Beta period
-    href: apps/beta-period.md
   - name: Building apps
     href: apps/building-apps.md
   - name: Client id secret
@@ -74,12 +81,8 @@ items:
     href: apps/get-access-to-sod.md
   - name: Get app keys
     href: apps/get-app-keys.md
-  - name: Get listed
-    href: apps/get-listed.md
   - name: Hosting
     href: apps/hosting.md
-  - name: How to get noticed
-    href: apps/how-to-get-noticed.md
   - name: Integration points
     href: apps/integration-points.md
   - name: Intro to superoffice apis
@@ -90,8 +93,6 @@ items:
     href: apps/overview.md
   - name: Provisioning
     href: apps/provisioning.md
-  - name: Publish standard app
-    href: apps/publish-standard-app.md
   - name: Revoke app
     href: apps/revoke-app.md
   - name: Run website on iis localhost
@@ -124,6 +125,19 @@ items:
     items:
     - name: Example
       href: apps/provisioning/example.md
+  - name: Publish
+    href: apps/publish/activate-custom-app.md
+    items:
+    - name: Activate custom app
+      href: apps/publish/activate-custom-app.md
+    - name: Beta period
+      href: apps/publish/beta-period.md
+    - name: Get listed
+      href: apps/publish/get-listed.md
+    - name: How to get noticed
+      href: apps/publish/how-to-get-noticed.md
+    - name: Publish standard app
+      href: apps/publish/publish-standard-app.md
   - name: Redirects
     href: apps/redirects/add-update.md
     items:
@@ -834,10 +848,8 @@ items:
     - name: Set up modsecurity
       href: onsite/security/set-up-modsecurity.md
   - name: Service
-    href: onsite/service/debug-automated-tasks.md
+    href: onsite/service/index.md
     items:
-    - name: Debug automated tasks
-      href: onsite/service/debug-automated-tasks.md
     - name: Install manually
       href: onsite/service/install-manually.md
     - name: Log files
@@ -923,6 +935,8 @@ items:
   items:
   - name: Config faq
     href: service/config-faq.md
+  - name: Debug automated tasks
+    href: service/debug-automated-tasks.md
   - name: Set up facebook integration
     href: service/set-up-facebook-integration.md
   - name: Attachments
