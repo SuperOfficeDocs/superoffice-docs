@@ -13,11 +13,11 @@ so.envir: onsite               # cloud or onsite
 # so.client:                    # online, web, win, pocket, or mobile
 ---
 
-# SuperOffice version history overview
+# SuperOffice Onsite version history
 
-An overview of releases name, with release number, date, and build number
+An overview of Release names, with Release number, Date, and Build number.
 
-It does NOT contain Red Alerts or [CRM Online release versions][1].
+It does not contain Red Alerts or [CRM Online release versions][1].
 
 | Onsite Release Name | Release number | Date | Build number |
 |-----|-----|-----|-----|

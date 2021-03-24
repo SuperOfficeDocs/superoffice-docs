@@ -13,11 +13,11 @@ so.envir: cloud           # cloud or onsite
 so.client: online               # online, web, win, pocket, or mobile
 ---
 
-# SuperOffice CRM Online Version History
+# SuperOffice CRM Online version history
 
-An overview of CRM Online Releases, with Release number, Build number and Release Date
+An overview of CRM Online Releases, with Release number, Build number and Release Date.
 
-It does NOT contain Red Alerts or [Onsite release versions][1]
+It does not contain Red Alerts or [Onsite release versions][1].
 
 | Version | Date |
 |---------|------|
