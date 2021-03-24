@@ -19,7 +19,7 @@ Currently tested server operating systems if running SuperOffice Onsite.
 
 Want to know if a newly released operating system is compatible? Check the [compatibility reports](index.md).
 
-| Operating system | 8.0 SR1 - SR3 | 8.0 SR4 - SR6 | 8.1 | 8.2 | 8.3 R01 - R03 | 8.3 R04 | 8.4 | 8.5 | 9.1 | 9.2 |
+| Operating system | 8.0, SR1 - SR3 | 8.0 SR4 - SR6 | 8.1 | 8.2 | 8.3 R01 - R03 | 8.3 R04 | 8.4 | 8.5 | 9.1 | 9.2 |
 |---------------------|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
 | Windows Server 2019 | ![i][img3] | ![i][img3] | ![i][img3] | ![i][img3] | ![i][img3] | ![i][img3] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] |
 | Windows Server 2016 | ![i][img3] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] |
