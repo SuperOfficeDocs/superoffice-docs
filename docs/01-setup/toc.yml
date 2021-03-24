@@ -25,10 +25,11 @@ items:
         href: ../onsite/compatibility/ms-office.md
       - name: Database
         href: ../onsite/compatibility/database.md
-      - name: MS SQL Server
-        href: ../onsite/compatibility/ms-sql-server.md
-      - name: Oracle
-        href: ../onsite/compatibility/oracle.md
+        items:
+        - name: MS SQL Server
+          href: ../onsite/compatibility/ms-sql-server.md
+        - name: Oracle
+          href: ../onsite/compatibility/oracle.md
     - name: Security
       href: ../onsite//security/index.md
       items:
