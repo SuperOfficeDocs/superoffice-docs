@@ -859,8 +859,6 @@ items:
     items:
     - name: Install manually
       href: onsite/service/install-manually.md
-    - name: Log files
-      href: onsite/service/log-files.md
     - name: Set up guide
       href: onsite/service/set-up-guide.md
     - name: Upgrade
@@ -942,6 +940,8 @@ items:
   items:
   - name: Config faq
     href: service/config-faq.md
+  - name: Log files
+    href: service/log-files.md
   - name: Debug automated tasks
     href: service/debug-automated-tasks.md
   - name: Set up facebook integration
