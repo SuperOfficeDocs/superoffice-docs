@@ -24,7 +24,7 @@ First introduced in SuperOffice web, version 6.3, background computing plays an 
 
 The tasks are started by the IIS process and run on the web server rather than on a separate batch task service. This has simplified configuration and deployment a lot.
 
-[This article][1], which will also drill down into how built-in tasks get started and demonstrate how this extensibility point can be leveraged for other applications.
+[This tutorial][1], which will also drill down into how built-in tasks get started and demonstrate how this extensibility point can be leveraged for other applications.
 
 The Batch task service is automatically set up during install of Sales & Marketing web, you'll find it running under services on the server where IIS is running. The name is the same as the website name + Batch Task Server. If you have more than one web installation, you will find one batch server service for each install.
 
@@ -55,7 +55,7 @@ Whenever a task is running the area at the top right next to the free-text searc
 Task execution can timeout. This is handled in the batch processor in NetServer. If the queue of waiting tasks becomes too big, the administrator of the system should either increase the number of simultaneous tasks that can run in this service, install multiple instances of the service on one machine,  or set up more than one server running batch processing services. Tasks will be found in the database table `crm7.batchtask`.
 
 <!-- Referenced links -->
-[1]: background-computing-and-batch-processing.md
+[1]: https://github.com/SuperOfficeDocs/data-access/blob/main/docs/tutorials/sem-batch-processing/index.md
 
 <!-- Referenced images -->
 [img1]: media/runtaskinprocess.png

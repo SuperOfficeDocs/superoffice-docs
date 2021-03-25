@@ -868,8 +868,6 @@ items:
     items:
     - name: Admin
       href: onsite/web-client/admin.md
-    - name: Background computing and batch processing
-      href: onsite/web-client/background-computing-and-batch-processing.md
     - name: Batch task server
       href: onsite/web-client/batch-task-server.md
     - name: Debug
