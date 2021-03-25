@@ -885,8 +885,6 @@ items:
       href: onsite/web-client/upgrade-to-8.md
   - name: Win client
     items:
-    - name: Cached tables
-      href: onsite/win-client/cached-tables.md
     - name: Command line switches
       href: onsite/win-client/command-line-switches.md
     - name: Debug
