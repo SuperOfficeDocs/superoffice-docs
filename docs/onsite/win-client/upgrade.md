@@ -19,7 +19,7 @@ so.client: win               # online, web, win, pocket, or mobile
 
 In SuperOffice 8 the user needs a Windows App license to be able to log in to the Windows client. Read more in the [Help-file][1].
 
-The Maintenance and settings is only accessible from the [Admin client web][4].
+The Maintenance and settings is only accessible from the [Admin client web][3].
 
 Some settings for Travel / Remote Travel (Replication), Windows client scripting is configured from the [Admin client windows][3]. Here you also find a section called *Options* where you can set automatic update of SuperOffice client. Check this option if you want the SuperOffice client to be updated automatically when a new version becomes available. Read more in the [Help-file][2].
 
@@ -70,8 +70,7 @@ You may now start SuperOffice by clicking *START > All Programs > SuperOffice*
 <!-- Referenced links -->
 [1]: https://community.superoffice.com/Documentation/Help/EN/CRM/9.2/WebHelpAdmin/index.htm#t=chap07%2FAssociates.htm
 [2]: https://community.superoffice.com/Documentation/Help/EN/CRM/9.2/WebHelpAdmin/index.htm#t=chap06%2FSOLoader.htm
-[3]: admin.md
-[3]: ../web-client/admin.md
+[3]: ../../admin/index.md
 [5]: ../crm-server/setup-guide.md
 [6]: install.md
 [7]: find-superoffice-ini-file.md

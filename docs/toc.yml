@@ -864,10 +864,7 @@ items:
     - name: Upgrade
       href: onsite/service/upgrade.md
   - name: Web client
-    href: onsite/web-client/admin.md
     items:
-    - name: Admin
-      href: onsite/web-client/admin.md
     - name: Batch task server
       href: onsite/web-client/batch-task-server.md
     - name: Debug
@@ -887,10 +884,7 @@ items:
     - name: Upgrade to 8
       href: onsite/web-client/upgrade-to-8.md
   - name: Win client
-    href: onsite/win-client/admin.md
     items:
-    - name: Admin
-      href: onsite/win-client/admin.md
     - name: Cached tables
       href: onsite/win-client/cached-tables.md
     - name: Command line switches
