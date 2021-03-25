@@ -674,8 +674,6 @@ items:
   - name: Expander services
     href: license/expander-services/index.md
     items:
-    - name: Subscription
-      href: license/expander-services/subscription.md
     - name: Tool box
       href: license/expander-services/tool-box.md
 - name: Marketing

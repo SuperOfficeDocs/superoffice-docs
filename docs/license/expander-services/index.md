@@ -2,6 +2,7 @@
 title: expander_services       
 description: Expander Services
 author: {github-id}             # Your GitHub alias.
+so.topic: concept
 keywords:
 ---
 
@@ -38,7 +39,7 @@ No [custom application][5] will be made available to your SuperOffice CRM Online
 
 ## When do you need to buy Expander Services?
 
-If you need access to the SuperOffice APIs or any of the [advanced extensibility features][1], you probably need to subscribe to Expander Services.
+If you need access to the SuperOffice APIs or any of the [advanced extensibility features][1], you probably need to subscribe to Expander Services. Pricing is listed at [superoffice.com][3].
 
 | Scenario/envir | Online | On-premise |
 |----------------|--------|------------|
@@ -52,12 +53,19 @@ Furthermore, you *don't* need an Expander Services license if your company runs
 
 However, if you are running SuperOffice CRM on your premises, you *always* need to have Expander Services to add integrations or customizations to your solution, whether these are customized for you or standard add-ons.
 
-The same goes for all [custom SuperOffice CRM Online applications][5].
+The same goes for all [custom SuperOffice CRM Online applications][5]. You can either build your own or [contact vendors directly][8] and find out what options there are to create a tailored version of these applications for your business. The vendors can tell you whether an application is available for you if you run SuperOffice CRM on your premises.
+
+## How do I get Expander Services?
+
+Application developers get access to Expander Services [when registering][9]. Customers can contact their local SuperOffice partner or representative to get recommendations for their specific business needs.
 
 <!-- Referenced links -->
 [1]: tool-box.md
 [2]: ../../automation/crmscript.md
+[3]: https://www.superoffice.com/pricing/
 [4]: ../../apps/tenant-status/index.md
 [5]: ../../apps/custom.md
 [6]: ../../apps/standard.md
 [7]: https://online.superoffice.com/appstore/
+[8]: https://www.superoffice.com/company/partners/
+[9]: ../../apps/getting-started/get-access-to-sod.md
