@@ -91,10 +91,10 @@ Example:
 * `{pcvu}` variable is used as the display name for the Pocket configuration URL.
 
 <!-- Referenced links -->
-[1]: ../../onsite/web-client/debug.md
+[1]: ../../onsite-setup/web-client/debug.md
 [2]: https://community.superoffice.com/documentation/help/en/crm/9.2/webhelpadmin/index.htm#t=chap08%2FAdding_items.htm
 [3]: https://www.apple.com/business/docs/iOS_Security_Guide.pdf
 [4]: https://source.android.com/security/encryption/full-disk
-[5]: ../../onsite/security/deployment-scenarios.md
+[5]: ../../onsite-setup/security/deployment-scenarios.md
 [6]: upgrade-to-8.md
-[7]: ../../onsite/crm-server/iis-web-server/set-up-reverse-proxy-on-iis.md
+[7]: ../../onsite-setup/crm-server/iis-web-server/set-up-reverse-proxy-on-iis.md

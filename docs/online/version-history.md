@@ -113,4 +113,4 @@ It does NOT contain Red Alerts or [Onsite release versions][1]
 | 9.2 R06 - (2021.03.04-01)	| 09.03.2021 |
 
 <!-- Referenced links -->
-[1]: ../onsite/version-history.md
+[1]: ../onsite-setup/version-history.md
