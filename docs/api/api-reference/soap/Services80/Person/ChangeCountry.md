@@ -21,7 +21,7 @@ Change country regenerates the default values and localized information such as 
 
 [WSDL file for Services80/Person](../Services80-Person.md)
 
-Obtain a ticket from the [Services80/SoPrincipal.svc](../SoPrincipal/SoPrincipal.md)
+Obtain a ticket from the [Services80/SoPrincipal.svc](../SoPrincipal/index.md)
 
 Application tokens must be specified if calling an Online installation. ApplicationTokens are not checked for on-site installations.
 

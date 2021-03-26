@@ -21,7 +21,7 @@ Saves a complete preference object. Preference administrator rights are required
 
 [WSDL file for Services75/Preference](../Services75-Preference.md)
 
-Obtain a ticket from the [Services75/SoPrincipal.svc](../SoPrincipal/SoPrincipal.md)
+Obtain a ticket from the [Services75/SoPrincipal.svc](../SoPrincipal/index.md)
 
 Application tokens must be specified if calling an Online installation. ApplicationTokens are not checked for on-site installations.
 

@@ -20,7 +20,7 @@ Specify what kind of notification events a device should receive push notificati
 
 [WSDL file for Services84/Pocket](../Services84-Pocket.md)
 
-Obtain a ticket from the [Services84/SoPrincipal.svc](../SoPrincipal/SoPrincipal.md)
+Obtain a ticket from the [Services84/SoPrincipal.svc](../SoPrincipal/index.md)
 
 Application tokens must be specified if calling an Online installation. ApplicationTokens are not checked for on-site installations.
 

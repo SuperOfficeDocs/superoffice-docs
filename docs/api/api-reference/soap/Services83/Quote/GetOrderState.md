@@ -20,7 +20,7 @@ If there is a problem with a quoteline, the error description shall be placed in
 
 [WSDL file for Services83/Quote](../Services83-Quote.md)
 
-Obtain a ticket from the [Services83/SoPrincipal.svc](../SoPrincipal/SoPrincipal.md)
+Obtain a ticket from the [Services83/SoPrincipal.svc](../SoPrincipal/index.md)
 
 Application tokens must be specified if calling an Online installation. ApplicationTokens are not checked for on-site installations.
 

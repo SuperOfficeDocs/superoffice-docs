@@ -19,7 +19,7 @@ Returns true or false if Automatically create new counters for new document temp
 
 [WSDL file for Services85/NumberAllocation](../Services85-NumberAllocation.md)
 
-Obtain a ticket from the [Services85/SoPrincipal.svc](../SoPrincipal/SoPrincipal.md)
+Obtain a ticket from the [Services85/SoPrincipal.svc](../SoPrincipal/index.md)
 
 Application tokens must be specified if calling an Online installation. ApplicationTokens are not checked for on-site installations.
 

@@ -21,7 +21,7 @@ Get license assignments for an associate for licenses belonging to an other modu
 
 [WSDL file for Services83/License](../Services83-License.md)
 
-Obtain a ticket from the [Services83/SoPrincipal.svc](../SoPrincipal/SoPrincipal.md)
+Obtain a ticket from the [Services83/SoPrincipal.svc](../SoPrincipal/index.md)
 
 Application tokens must be specified if calling an Online installation. ApplicationTokens are not checked for on-site installations.
 

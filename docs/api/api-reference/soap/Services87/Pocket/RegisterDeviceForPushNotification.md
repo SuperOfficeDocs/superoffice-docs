@@ -19,7 +19,7 @@ Register a device that should receive push notifications when notable events occ
 
 [WSDL file for Services87/Pocket](../Services87-Pocket.md)
 
-Obtain a ticket from the [Services87/SoPrincipal.svc](../SoPrincipal/SoPrincipal.md)
+Obtain a ticket from the [Services87/SoPrincipal.svc](../SoPrincipal/index.md)
 
 Application tokens must be specified if calling an Online installation. ApplicationTokens are not checked for on-site installations.
 

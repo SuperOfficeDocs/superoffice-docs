@@ -21,7 +21,7 @@ Returns the previous current item. If no item exists a default value is returned
 
 [WSDL file for Services75/ViewState](../Services75-ViewState.md)
 
-Obtain a ticket from the [Services75/SoPrincipal.svc](../SoPrincipal/SoPrincipal.md)
+Obtain a ticket from the [Services75/SoPrincipal.svc](../SoPrincipal/index.md)
 
 Application tokens must be specified if calling an Online installation. ApplicationTokens are not checked for on-site installations.
 

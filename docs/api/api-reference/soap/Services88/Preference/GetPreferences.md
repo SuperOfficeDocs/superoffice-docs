@@ -25,7 +25,7 @@ You can also have askerisk as the section name. In that case the specification a
 
 [WSDL file for Services88/Preference](../Services88-Preference.md)
 
-Obtain a ticket from the [Services88/SoPrincipal.svc](../SoPrincipal/SoPrincipal.md)
+Obtain a ticket from the [Services88/SoPrincipal.svc](../SoPrincipal/index.md)
 
 Application tokens must be specified if calling an Online installation. ApplicationTokens are not checked for on-site installations.
 

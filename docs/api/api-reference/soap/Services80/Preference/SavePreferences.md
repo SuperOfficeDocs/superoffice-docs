@@ -19,7 +19,7 @@ Save this set of preferences all the way to the database.
 
 [WSDL file for Services80/Preference](../Services80-Preference.md)
 
-Obtain a ticket from the [Services80/SoPrincipal.svc](../SoPrincipal/SoPrincipal.md)
+Obtain a ticket from the [Services80/SoPrincipal.svc](../SoPrincipal/index.md)
 
 Application tokens must be specified if calling an Online installation. ApplicationTokens are not checked for on-site installations.
 

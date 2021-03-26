@@ -20,7 +20,7 @@ Updates the existing FormSubmissionEntity or creates a new FormSubmissionEntity 
 
 [WSDL file for Services85/Marketing](../Services85-Marketing.md)
 
-Obtain a ticket from the [Services85/SoPrincipal.svc](../SoPrincipal/SoPrincipal.md)
+Obtain a ticket from the [Services85/SoPrincipal.svc](../SoPrincipal/index.md)
 
 Application tokens must be specified if calling an Online installation. ApplicationTokens are not checked for on-site installations.
 

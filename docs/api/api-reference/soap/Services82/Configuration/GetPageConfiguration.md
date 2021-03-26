@@ -22,7 +22,7 @@ Get the configuration for one whole web page, including all its panels etc.  tot
 
 [WSDL file for Services82/Configuration](../Services82-Configuration.md)
 
-Obtain a ticket from the [Services82/SoPrincipal.svc](../SoPrincipal/SoPrincipal.md)
+Obtain a ticket from the [Services82/SoPrincipal.svc](../SoPrincipal/index.md)
 
 Application tokens must be specified if calling an Online installation. ApplicationTokens are not checked for on-site installations.
 

@@ -22,7 +22,7 @@ Return the TableRight from the relationship between the current user and the giv
 
 [WSDL file for Services87/Sentry](../Services87-Sentry.md)
 
-Obtain a ticket from the [Services87/SoPrincipal.svc](../SoPrincipal/SoPrincipal.md)
+Obtain a ticket from the [Services87/SoPrincipal.svc](../SoPrincipal/index.md)
 
 Application tokens must be specified if calling an Online installation. ApplicationTokens are not checked for on-site installations.
 

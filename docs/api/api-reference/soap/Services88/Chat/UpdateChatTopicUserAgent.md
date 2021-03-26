@@ -22,7 +22,7 @@ Update a user's role in a chat topic
 
 [WSDL file for Services88/Chat](../Services88-Chat.md)
 
-Obtain a ticket from the [Services88/SoPrincipal.svc](../SoPrincipal/SoPrincipal.md)
+Obtain a ticket from the [Services88/SoPrincipal.svc](../SoPrincipal/index.md)
 
 Application tokens must be specified if calling an Online installation. ApplicationTokens are not checked for on-site installations.
 

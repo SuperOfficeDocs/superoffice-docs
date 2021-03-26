@@ -21,7 +21,7 @@ Delete the specified role and move all users associated with the role to the rep
 
 [WSDL file for Services86/User](../Services86-User.md)
 
-Obtain a ticket from the [Services86/SoPrincipal.svc](../SoPrincipal/SoPrincipal.md)
+Obtain a ticket from the [Services86/SoPrincipal.svc](../SoPrincipal/index.md)
 
 Application tokens must be specified if calling an Online installation. ApplicationTokens are not checked for on-site installations.
 

@@ -22,7 +22,7 @@ Send an array of messages
 
 [WSDL file for Services86/Messaging](../Services86-Messaging.md)
 
-Obtain a ticket from the [Services86/SoPrincipal.svc](../SoPrincipal/SoPrincipal.md)
+Obtain a ticket from the [Services86/SoPrincipal.svc](../SoPrincipal/index.md)
 
 Application tokens must be specified if calling an Online installation. ApplicationTokens are not checked for on-site installations.
 

@@ -20,7 +20,7 @@ Wipe and regenerate the freetext index by scanning the database (freetext search
 
 [WSDL file for Services87/FreeText](../Services87-FreeText.md)
 
-Obtain a ticket from the [Services87/SoPrincipal.svc](../SoPrincipal/SoPrincipal.md)
+Obtain a ticket from the [Services87/SoPrincipal.svc](../SoPrincipal/index.md)
 
 Application tokens must be specified if calling an Online installation. ApplicationTokens are not checked for on-site installations.
 

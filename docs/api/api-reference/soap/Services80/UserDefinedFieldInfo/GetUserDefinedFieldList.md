@@ -20,7 +20,7 @@ Return information about all the user defined fields on a particular owner type 
 
 [WSDL file for Services80/UserDefinedFieldInfo](../Services80-UserDefinedFieldInfo.md)
 
-Obtain a ticket from the [Services80/SoPrincipal.svc](../SoPrincipal/SoPrincipal.md)
+Obtain a ticket from the [Services80/SoPrincipal.svc](../SoPrincipal/index.md)
 
 Application tokens must be specified if calling an Online installation. ApplicationTokens are not checked for on-site installations.
 

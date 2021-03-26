@@ -21,7 +21,7 @@ Get a list of custom commands valid for the specific document at this time. This
 
 [WSDL file for Services85/Document](../Services85-Document.md)
 
-Obtain a ticket from the [Services85/SoPrincipal.svc](../SoPrincipal/SoPrincipal.md)
+Obtain a ticket from the [Services85/SoPrincipal.svc](../SoPrincipal/index.md)
 
 Application tokens must be specified if calling an Online installation. ApplicationTokens are not checked for on-site installations.
 

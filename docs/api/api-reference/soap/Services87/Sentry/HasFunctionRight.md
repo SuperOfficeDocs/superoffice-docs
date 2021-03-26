@@ -19,7 +19,7 @@ Get a boolean value indicating if the current user has the functional right.
 
 [WSDL file for Services87/Sentry](../Services87-Sentry.md)
 
-Obtain a ticket from the [Services87/SoPrincipal.svc](../SoPrincipal/SoPrincipal.md)
+Obtain a ticket from the [Services87/SoPrincipal.svc](../SoPrincipal/index.md)
 
 Application tokens must be specified if calling an Online installation. ApplicationTokens are not checked for on-site installations.
 

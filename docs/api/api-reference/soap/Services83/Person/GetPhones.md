@@ -20,7 +20,7 @@ Returning all phones that belong to a person, ordered by the phone type.
 
 [WSDL file for Services83/Person](../Services83-Person.md)
 
-Obtain a ticket from the [Services83/SoPrincipal.svc](../SoPrincipal/SoPrincipal.md)
+Obtain a ticket from the [Services83/SoPrincipal.svc](../SoPrincipal/index.md)
 
 Application tokens must be specified if calling an Online installation. ApplicationTokens are not checked for on-site installations.
 

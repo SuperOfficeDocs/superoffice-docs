@@ -20,7 +20,7 @@ Update information about a BatchTask. Only the following properties can be updat
 
 [WSDL file for Services75/Batch](../Services75-Batch.md)
 
-Obtain a ticket from the [Services75/SoPrincipal.svc](../SoPrincipal/SoPrincipal.md)
+Obtain a ticket from the [Services75/SoPrincipal.svc](../SoPrincipal/index.md)
 
 Application tokens must be specified if calling an Online installation. ApplicationTokens are not checked for on-site installations.
 

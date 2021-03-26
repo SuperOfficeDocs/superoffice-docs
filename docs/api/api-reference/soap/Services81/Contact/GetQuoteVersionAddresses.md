@@ -20,7 +20,7 @@ Get the associated billing and invoice quote version addresses. These addresses 
 
 [WSDL file for Services81/Contact](../Services81-Contact.md)
 
-Obtain a ticket from the [Services81/SoPrincipal.svc](../SoPrincipal/SoPrincipal.md)
+Obtain a ticket from the [Services81/SoPrincipal.svc](../SoPrincipal/index.md)
 
 Application tokens must be specified if calling an Online installation. ApplicationTokens are not checked for on-site installations.
 

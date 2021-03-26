@@ -19,7 +19,7 @@ CanCreateAppointmentInAllDiaries will check if the current associate can create 
 
 [WSDL file for Services82/Sentry](../Services82-Sentry.md)
 
-Obtain a ticket from the [Services82/SoPrincipal.svc](../SoPrincipal/SoPrincipal.md)
+Obtain a ticket from the [Services82/SoPrincipal.svc](../SoPrincipal/index.md)
 
 Application tokens must be specified if calling an Online installation. ApplicationTokens are not checked for on-site installations.
 

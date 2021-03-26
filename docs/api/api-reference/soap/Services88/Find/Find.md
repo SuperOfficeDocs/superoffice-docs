@@ -24,7 +24,7 @@ Execute a Find operation and return a page of results. The criteria for the Find
 
 [WSDL file for Services88/Find](../Services88-Find.md)
 
-Obtain a ticket from the [Services88/SoPrincipal.svc](../SoPrincipal/SoPrincipal.md)
+Obtain a ticket from the [Services88/SoPrincipal.svc](../SoPrincipal/index.md)
 
 Application tokens must be specified if calling an Online installation. ApplicationTokens are not checked for on-site installations.
 

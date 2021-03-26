@@ -18,7 +18,7 @@ Get all licenses, with usage, from all module owners as they are stored in the d
 
 [WSDL file for Services80/License](../Services80-License.md)
 
-Obtain a ticket from the [Services80/SoPrincipal.svc](../SoPrincipal/SoPrincipal.md)
+Obtain a ticket from the [Services80/SoPrincipal.svc](../SoPrincipal/index.md)
 
 Application tokens must be specified if calling an Online installation. ApplicationTokens are not checked for on-site installations.
 

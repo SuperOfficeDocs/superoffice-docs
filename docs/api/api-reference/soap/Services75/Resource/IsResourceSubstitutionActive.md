@@ -21,7 +21,7 @@ Determine if resource substitution/override is active, globally or for a subset 
 
 [WSDL file for Services75/Resource](../Services75-Resource.md)
 
-Obtain a ticket from the [Services75/SoPrincipal.svc](../SoPrincipal/SoPrincipal.md)
+Obtain a ticket from the [Services75/SoPrincipal.svc](../SoPrincipal/index.md)
 
 Application tokens must be specified if calling an Online installation. ApplicationTokens are not checked for on-site installations.
 

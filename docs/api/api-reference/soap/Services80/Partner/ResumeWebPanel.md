@@ -20,7 +20,7 @@ Undo a Suspend, so that the Web Panel is visible to users again
 
 [WSDL file for Services80/Partner](../Services80-Partner.md)
 
-Obtain a ticket from the [Services80/SoPrincipal.svc](../SoPrincipal/SoPrincipal.md)
+Obtain a ticket from the [Services80/SoPrincipal.svc](../SoPrincipal/index.md)
 
 Application tokens must be specified if calling an Online installation. ApplicationTokens are not checked for on-site installations.
 

@@ -19,7 +19,7 @@ Get the name of the caches that can be flushed
 
 [WSDL file for Services81/Diagnostics](../Services81-Diagnostics.md)
 
-Obtain a ticket from the [Services81/SoPrincipal.svc](../SoPrincipal/SoPrincipal.md)
+Obtain a ticket from the [Services81/SoPrincipal.svc](../SoPrincipal/index.md)
 
 Application tokens must be specified if calling an Online installation. ApplicationTokens are not checked for on-site installations.
 

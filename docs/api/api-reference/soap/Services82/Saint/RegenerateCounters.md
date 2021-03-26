@@ -20,7 +20,7 @@ Regenerate the Saint counters - this can take several minutes
 
 [WSDL file for Services82/Saint](../Services82-Saint.md)
 
-Obtain a ticket from the [Services82/SoPrincipal.svc](../SoPrincipal/SoPrincipal.md)
+Obtain a ticket from the [Services82/SoPrincipal.svc](../SoPrincipal/index.md)
 
 Application tokens must be specified if calling an Online installation. ApplicationTokens are not checked for on-site installations.
 

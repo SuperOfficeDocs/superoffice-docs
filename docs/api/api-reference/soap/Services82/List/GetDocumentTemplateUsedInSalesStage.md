@@ -20,7 +20,7 @@ Get a String array of names in sales guide that this template is used in
 
 [WSDL file for Services82/List](../Services82-List.md)
 
-Obtain a ticket from the [Services82/SoPrincipal.svc](../SoPrincipal/SoPrincipal.md)
+Obtain a ticket from the [Services82/SoPrincipal.svc](../SoPrincipal/index.md)
 
 Application tokens must be specified if calling an Online installation. ApplicationTokens are not checked for on-site installations.
 

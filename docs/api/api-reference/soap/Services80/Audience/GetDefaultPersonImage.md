@@ -20,7 +20,7 @@ Returns the default person (sales rep) image that is displayed in Audience when 
 
 [WSDL file for Services80/Audience](../Services80-Audience.md)
 
-Obtain a ticket from the [Services80/SoPrincipal.svc](../SoPrincipal/SoPrincipal.md)
+Obtain a ticket from the [Services80/SoPrincipal.svc](../SoPrincipal/index.md)
 
 Application tokens must be specified if calling an Online installation. ApplicationTokens are not checked for on-site installations.
 

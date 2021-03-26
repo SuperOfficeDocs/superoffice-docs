@@ -20,7 +20,7 @@ Saves the history elements as the current value for their respective lists. If m
 
 [WSDL file for Services75/ViewState](../Services75-ViewState.md)
 
-Obtain a ticket from the [Services75/SoPrincipal.svc](../SoPrincipal/SoPrincipal.md)
+Obtain a ticket from the [Services75/SoPrincipal.svc](../SoPrincipal/index.md)
 
 Application tokens must be specified if calling an Online installation. ApplicationTokens are not checked for on-site installations.
 

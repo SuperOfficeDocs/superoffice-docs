@@ -20,7 +20,7 @@ Gets the next (not deleted) sale stage id if the current stage is deleted. If th
 
 [WSDL file for Services86/Sale](../Services86-Sale.md)
 
-Obtain a ticket from the [Services86/SoPrincipal.svc](../SoPrincipal/SoPrincipal.md)
+Obtain a ticket from the [Services86/SoPrincipal.svc](../SoPrincipal/index.md)
 
 Application tokens must be specified if calling an Online installation. ApplicationTokens are not checked for on-site installations.
 

@@ -20,7 +20,7 @@ Takes the input stream and create a report. This stream must be on a valid xml f
 
 [WSDL file for Services82/Report](../Services82-Report.md)
 
-Obtain a ticket from the [Services82/SoPrincipal.svc](../SoPrincipal/SoPrincipal.md)
+Obtain a ticket from the [Services82/SoPrincipal.svc](../SoPrincipal/index.md)
 
 Application tokens must be specified if calling an Online installation. ApplicationTokens are not checked for on-site installations.
 

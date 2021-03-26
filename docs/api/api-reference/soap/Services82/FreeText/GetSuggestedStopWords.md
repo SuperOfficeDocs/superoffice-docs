@@ -20,7 +20,7 @@ Returns the top used words in the freetext index table, sorted as most used firs
 
 [WSDL file for Services82/FreeText](../Services82-FreeText.md)
 
-Obtain a ticket from the [Services82/SoPrincipal.svc](../SoPrincipal/SoPrincipal.md)
+Obtain a ticket from the [Services82/SoPrincipal.svc](../SoPrincipal/index.md)
 
 Application tokens must be specified if calling an Online installation. ApplicationTokens are not checked for on-site installations.
 

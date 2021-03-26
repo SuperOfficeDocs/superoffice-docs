@@ -21,7 +21,7 @@ Gets a PreferenceDescription based on the section and key
 
 [WSDL file for Services86/Preference](../Services86-Preference.md)
 
-Obtain a ticket from the [Services86/SoPrincipal.svc](../SoPrincipal/SoPrincipal.md)
+Obtain a ticket from the [Services86/SoPrincipal.svc](../SoPrincipal/index.md)
 
 Application tokens must be specified if calling an Online installation. ApplicationTokens are not checked for on-site installations.
 

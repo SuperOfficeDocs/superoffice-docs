@@ -21,7 +21,7 @@ Add selection members to a static selection of type others than contacts.
 
 [WSDL file for Services83/Selection](../Services83-Selection.md)
 
-Obtain a ticket from the [Services83/SoPrincipal.svc](../SoPrincipal/SoPrincipal.md)
+Obtain a ticket from the [Services83/SoPrincipal.svc](../SoPrincipal/index.md)
 
 Application tokens must be specified if calling an Online installation. ApplicationTokens are not checked for on-site installations.
 

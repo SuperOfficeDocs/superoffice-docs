@@ -20,7 +20,7 @@ Check if we are right now within the opening hours of the given topic. Will use 
 
 [WSDL file for Services86/Chat](../Services86-Chat.md)
 
-Obtain a ticket from the [Services86/SoPrincipal.svc](../SoPrincipal/SoPrincipal.md)
+Obtain a ticket from the [Services86/SoPrincipal.svc](../SoPrincipal/index.md)
 
 Application tokens must be specified if calling an Online installation. ApplicationTokens are not checked for on-site installations.
 

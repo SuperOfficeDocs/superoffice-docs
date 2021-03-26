@@ -20,7 +20,7 @@ Search for contacts and persons with the specified e-mail address (exact match o
 
 [WSDL file for Services80/EMail](../Services80-EMail.md)
 
-Obtain a ticket from the [Services80/SoPrincipal.svc](../SoPrincipal/SoPrincipal.md)
+Obtain a ticket from the [Services80/SoPrincipal.svc](../SoPrincipal/index.md)
 
 Application tokens must be specified if calling an Online installation. ApplicationTokens are not checked for on-site installations.
 

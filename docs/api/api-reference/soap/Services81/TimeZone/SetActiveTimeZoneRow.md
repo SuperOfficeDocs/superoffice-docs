@@ -20,7 +20,7 @@ Set active state of singe row in the TZLocation table
 
 [WSDL file for Services81/TimeZone](../Services81-TimeZone.md)
 
-Obtain a ticket from the [Services81/SoPrincipal.svc](../SoPrincipal/SoPrincipal.md)
+Obtain a ticket from the [Services81/SoPrincipal.svc](../SoPrincipal/index.md)
 
 Application tokens must be specified if calling an Online installation. ApplicationTokens are not checked for on-site installations.
 

@@ -21,7 +21,7 @@ Gets all supported actor types, and all fields for each actor type, and save thi
 
 [WSDL file for Services86/ErpSync](../Services86-ErpSync.md)
 
-Obtain a ticket from the [Services86/SoPrincipal.svc](../SoPrincipal/SoPrincipal.md)
+Obtain a ticket from the [Services86/SoPrincipal.svc](../SoPrincipal/index.md)
 
 Application tokens must be specified if calling an Online installation. ApplicationTokens are not checked for on-site installations.
 

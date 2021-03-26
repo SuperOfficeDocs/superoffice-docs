@@ -22,7 +22,7 @@ Creates the report as favorite. The sourceId is the key to the report that the f
 
 [WSDL file for Services88/Report](../Services88-Report.md)
 
-Obtain a ticket from the [Services88/SoPrincipal.svc](../SoPrincipal/SoPrincipal.md)
+Obtain a ticket from the [Services88/SoPrincipal.svc](../SoPrincipal/index.md)
 
 Application tokens must be specified if calling an Online installation. ApplicationTokens are not checked for on-site installations.
 

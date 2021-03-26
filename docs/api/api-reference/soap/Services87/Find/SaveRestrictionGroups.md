@@ -24,7 +24,7 @@ Save and rerank an array of restriction groups, returning the possibly modified 
 
 [WSDL file for Services87/Find](../Services87-Find.md)
 
-Obtain a ticket from the [Services87/SoPrincipal.svc](../SoPrincipal/SoPrincipal.md)
+Obtain a ticket from the [Services87/SoPrincipal.svc](../SoPrincipal/index.md)
 
 Application tokens must be specified if calling an Online installation. ApplicationTokens are not checked for on-site installations.
 

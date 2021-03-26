@@ -21,7 +21,7 @@ Gets an array of BatchTaskInfo with state defined by a BatchTaskState and the ba
 
 [WSDL file for Services86/Batch](../Services86-Batch.md)
 
-Obtain a ticket from the [Services86/SoPrincipal.svc](../SoPrincipal/SoPrincipal.md)
+Obtain a ticket from the [Services86/SoPrincipal.svc](../SoPrincipal/index.md)
 
 Application tokens must be specified if calling an Online installation. ApplicationTokens are not checked for on-site installations.
 

@@ -20,7 +20,7 @@ Tests to see if we can establish a connection with the given config fields
 
 [WSDL file for Services82/ErpSync](../Services82-ErpSync.md)
 
-Obtain a ticket from the [Services82/SoPrincipal.svc](../SoPrincipal/SoPrincipal.md)
+Obtain a ticket from the [Services82/SoPrincipal.svc](../SoPrincipal/index.md)
 
 Application tokens must be specified if calling an Online installation. ApplicationTokens are not checked for on-site installations.
 

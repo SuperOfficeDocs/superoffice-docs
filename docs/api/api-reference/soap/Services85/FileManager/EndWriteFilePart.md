@@ -17,7 +17,7 @@ Implemented by the <see cref="M:SuperOffice.Services85.IFileManagerAgent.EndWrit
 
 [WSDL file for Services85/FileManager](../Services85-FileManager.md)
 
-Obtain a ticket from the [Services85/SoPrincipal.svc](../SoPrincipal/SoPrincipal.md)
+Obtain a ticket from the [Services85/SoPrincipal.svc](../SoPrincipal/index.md)
 
 Application tokens must be specified if calling an Online installation. ApplicationTokens are not checked for on-site installations.
 

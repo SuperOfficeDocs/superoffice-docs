@@ -21,7 +21,7 @@ Take an incoming set of minimally populated restrictions (name + operator is req
 
 [WSDL file for Services82/Find](../Services82-Find.md)
 
-Obtain a ticket from the [Services82/SoPrincipal.svc](../SoPrincipal/SoPrincipal.md)
+Obtain a ticket from the [Services82/SoPrincipal.svc](../SoPrincipal/index.md)
 
 Application tokens must be specified if calling an Online installation. ApplicationTokens are not checked for on-site installations.
 

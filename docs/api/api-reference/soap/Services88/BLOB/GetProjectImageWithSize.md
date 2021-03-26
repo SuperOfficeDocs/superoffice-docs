@@ -22,7 +22,7 @@ Returns the project image that is displayed in the CRM application with a specif
 
 [WSDL file for Services88/BLOB](../Services88-BLOB.md)
 
-Obtain a ticket from the [Services88/SoPrincipal.svc](../SoPrincipal/SoPrincipal.md)
+Obtain a ticket from the [Services88/SoPrincipal.svc](../SoPrincipal/index.md)
 
 Application tokens must be specified if calling an Online installation. ApplicationTokens are not checked for on-site installations.
 

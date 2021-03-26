@@ -20,7 +20,7 @@ Detect columnid changes to the admin version (for determining publish warning)
 
 [WSDL file for Services80/UserDefinedFieldInfo](../Services80-UserDefinedFieldInfo.md)
 
-Obtain a ticket from the [Services80/SoPrincipal.svc](../SoPrincipal/SoPrincipal.md)
+Obtain a ticket from the [Services80/SoPrincipal.svc](../SoPrincipal/index.md)
 
 Application tokens must be specified if calling an Online installation. ApplicationTokens are not checked for on-site installations.
 

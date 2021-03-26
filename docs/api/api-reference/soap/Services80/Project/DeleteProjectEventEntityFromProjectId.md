@@ -20,7 +20,7 @@ Delete a project event based on a project id. Does not delete the project, but d
 
 [WSDL file for Services80/Project](../Services80-Project.md)
 
-Obtain a ticket from the [Services80/SoPrincipal.svc](../SoPrincipal/SoPrincipal.md)
+Obtain a ticket from the [Services80/SoPrincipal.svc](../SoPrincipal/index.md)
 
 Application tokens must be specified if calling an Online installation. ApplicationTokens are not checked for on-site installations.
 

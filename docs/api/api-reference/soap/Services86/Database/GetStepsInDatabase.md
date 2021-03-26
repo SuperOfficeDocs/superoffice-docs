@@ -19,7 +19,7 @@ Get information about the dictionary steps that are in the currently-loggedon da
 
 [WSDL file for Services86/Database](../Services86-Database.md)
 
-Obtain a ticket from the [Services86/SoPrincipal.svc](../SoPrincipal/SoPrincipal.md)
+Obtain a ticket from the [Services86/SoPrincipal.svc](../SoPrincipal/index.md)
 
 Application tokens must be specified if calling an Online installation. ApplicationTokens are not checked for on-site installations.
 

@@ -23,7 +23,7 @@ Do the batchupdate on selected
 
 [WSDL file for Services87/BulkUpdate](../Services87-BulkUpdate.md)
 
-Obtain a ticket from the [Services87/SoPrincipal.svc](../SoPrincipal/SoPrincipal.md)
+Obtain a ticket from the [Services87/SoPrincipal.svc](../SoPrincipal/index.md)
 
 Application tokens must be specified if calling an Online installation. ApplicationTokens are not checked for on-site installations.
 

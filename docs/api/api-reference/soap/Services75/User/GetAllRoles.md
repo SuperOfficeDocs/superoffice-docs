@@ -20,7 +20,7 @@ Get a list of all roles for the given type of role. MDO List name = 'Roles', ext
 
 [WSDL file for Services75/User](../Services75-User.md)
 
-Obtain a ticket from the [Services75/SoPrincipal.svc](../SoPrincipal/SoPrincipal.md)
+Obtain a ticket from the [Services75/SoPrincipal.svc](../SoPrincipal/index.md)
 
 Application tokens must be specified if calling an Online installation. ApplicationTokens are not checked for on-site installations.
 

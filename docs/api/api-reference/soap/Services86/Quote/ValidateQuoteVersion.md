@@ -21,7 +21,7 @@ When the user changes one or more values in a quoteline or a quoteAlternative, t
 
 [WSDL file for Services86/Quote](../Services86-Quote.md)
 
-Obtain a ticket from the [Services86/SoPrincipal.svc](../SoPrincipal/SoPrincipal.md)
+Obtain a ticket from the [Services86/SoPrincipal.svc](../SoPrincipal/index.md)
 
 Application tokens must be specified if calling an Online installation. ApplicationTokens are not checked for on-site installations.
 

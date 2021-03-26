@@ -21,7 +21,7 @@ Used by the Admin clients. Testing if the connection data is sufficient to get a
 
 [WSDL file for Services87/Quote](../Services87-Quote.md)
 
-Obtain a ticket from the [Services87/SoPrincipal.svc](../SoPrincipal/SoPrincipal.md)
+Obtain a ticket from the [Services87/SoPrincipal.svc](../SoPrincipal/index.md)
 
 Application tokens must be specified if calling an Online installation. ApplicationTokens are not checked for on-site installations.
 

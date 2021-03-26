@@ -21,7 +21,7 @@ This methods generates the navigation URL to be used to navigate to the panel
 
 [WSDL file for Services87/List](../Services87-List.md)
 
-Obtain a ticket from the [Services87/SoPrincipal.svc](../SoPrincipal/SoPrincipal.md)
+Obtain a ticket from the [Services87/SoPrincipal.svc](../SoPrincipal/index.md)
 
 Application tokens must be specified if calling an Online installation. ApplicationTokens are not checked for on-site installations.
 

@@ -20,7 +20,7 @@ Remove the stored settings of the bulk update for this table from this context
 
 [WSDL file for Services87/BulkUpdate](../Services87-BulkUpdate.md)
 
-Obtain a ticket from the [Services87/SoPrincipal.svc](../SoPrincipal/SoPrincipal.md)
+Obtain a ticket from the [Services87/SoPrincipal.svc](../SoPrincipal/index.md)
 
 Application tokens must be specified if calling an Online installation. ApplicationTokens are not checked for on-site installations.
 

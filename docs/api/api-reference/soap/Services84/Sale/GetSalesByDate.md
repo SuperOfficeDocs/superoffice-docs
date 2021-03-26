@@ -23,7 +23,7 @@ Returns all sales within a time period. The sales array can be limited by amount
 
 [WSDL file for Services84/Sale](../Services84-Sale.md)
 
-Obtain a ticket from the [Services84/SoPrincipal.svc](../SoPrincipal/SoPrincipal.md)
+Obtain a ticket from the [Services84/SoPrincipal.svc](../SoPrincipal/index.md)
 
 Application tokens must be specified if calling an Online installation. ApplicationTokens are not checked for on-site installations.
 

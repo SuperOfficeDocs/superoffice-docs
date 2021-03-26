@@ -19,7 +19,7 @@ Creates a new or updates an existing contact relation.
 
 [WSDL file for Services75/Relation](../Services75-Relation.md)
 
-Obtain a ticket from the [Services75/SoPrincipal.svc](../SoPrincipal/SoPrincipal.md)
+Obtain a ticket from the [Services75/SoPrincipal.svc](../SoPrincipal/index.md)
 
 Application tokens must be specified if calling an Online installation. ApplicationTokens are not checked for on-site installations.
 

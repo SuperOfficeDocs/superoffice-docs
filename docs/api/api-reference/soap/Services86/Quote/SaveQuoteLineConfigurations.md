@@ -20,7 +20,7 @@ Save a collection of QuoteLineConfigurations. It is not possible to add a new co
 
 [WSDL file for Services86/Quote](../Services86-Quote.md)
 
-Obtain a ticket from the [Services86/SoPrincipal.svc](../SoPrincipal/SoPrincipal.md)
+Obtain a ticket from the [Services86/SoPrincipal.svc](../SoPrincipal/index.md)
 
 Application tokens must be specified if calling an Online installation. ApplicationTokens are not checked for on-site installations.
 

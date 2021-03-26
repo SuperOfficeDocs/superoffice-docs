@@ -25,7 +25,7 @@ Returning a foreign key string value by its key name and device identifier, that
 
 [WSDL file for Services85/ForeignSystem](../Services85-ForeignSystem.md)
 
-Obtain a ticket from the [Services85/SoPrincipal.svc](../SoPrincipal/SoPrincipal.md)
+Obtain a ticket from the [Services85/SoPrincipal.svc](../SoPrincipal/index.md)
 
 Application tokens must be specified if calling an Online installation. ApplicationTokens are not checked for on-site installations.
 

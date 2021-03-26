@@ -19,7 +19,7 @@ Returns all Items from the MrMrs table sorted by their value.
 
 [WSDL file for Services88/List](../Services88-List.md)
 
-Obtain a ticket from the [Services88/SoPrincipal.svc](../SoPrincipal/SoPrincipal.md)
+Obtain a ticket from the [Services88/SoPrincipal.svc](../SoPrincipal/index.md)
 
 Application tokens must be specified if calling an Online installation. ApplicationTokens are not checked for on-site installations.
 

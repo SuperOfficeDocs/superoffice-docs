@@ -20,7 +20,7 @@ Gets which page one fields have changed from the current version
 
 [WSDL file for Services81/UserDefinedFieldInfo](../Services81-UserDefinedFieldInfo.md)
 
-Obtain a ticket from the [Services81/SoPrincipal.svc](../SoPrincipal/SoPrincipal.md)
+Obtain a ticket from the [Services81/SoPrincipal.svc](../SoPrincipal/index.md)
 
 Application tokens must be specified if calling an Online installation. ApplicationTokens are not checked for on-site installations.
 

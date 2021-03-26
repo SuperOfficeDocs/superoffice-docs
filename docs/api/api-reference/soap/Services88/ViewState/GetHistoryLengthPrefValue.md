@@ -19,7 +19,7 @@ Get the logged on user's preferred history list length. Will return the system p
 
 [WSDL file for Services88/ViewState](../Services88-ViewState.md)
 
-Obtain a ticket from the [Services88/SoPrincipal.svc](../SoPrincipal/SoPrincipal.md)
+Obtain a ticket from the [Services88/SoPrincipal.svc](../SoPrincipal/index.md)
 
 Application tokens must be specified if calling an Online installation. ApplicationTokens are not checked for on-site installations.
 

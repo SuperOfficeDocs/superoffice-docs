@@ -21,7 +21,7 @@ Set the currently chosen entities for the given gui name/provider name combinati
 
 [WSDL file for Services85/Archive](../Services85-Archive.md)
 
-Obtain a ticket from the [Services85/SoPrincipal.svc](../SoPrincipal/SoPrincipal.md)
+Obtain a ticket from the [Services85/SoPrincipal.svc](../SoPrincipal/index.md)
 
 Application tokens must be specified if calling an Online installation. ApplicationTokens are not checked for on-site installations.
 

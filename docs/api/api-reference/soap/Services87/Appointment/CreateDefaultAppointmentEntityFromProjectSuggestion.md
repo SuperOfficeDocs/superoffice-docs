@@ -22,7 +22,7 @@ Implemented by the <see cref="M:SuperOffice.Services87.IAppointmentAgent.CreateD
 
 [WSDL file for Services87/Appointment](../Services87-Appointment.md)
 
-Obtain a ticket from the [Services87/SoPrincipal.svc](../SoPrincipal/SoPrincipal.md)
+Obtain a ticket from the [Services87/SoPrincipal.svc](../SoPrincipal/index.md)
 
 Application tokens must be specified if calling an Online installation. ApplicationTokens are not checked for on-site installations.
 

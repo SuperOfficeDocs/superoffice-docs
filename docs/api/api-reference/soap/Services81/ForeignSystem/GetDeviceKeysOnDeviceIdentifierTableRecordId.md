@@ -24,7 +24,7 @@ Returns all ForeignKeys that belong to a device with a given deviceIdentifier an
 
 [WSDL file for Services81/ForeignSystem](../Services81-ForeignSystem.md)
 
-Obtain a ticket from the [Services81/SoPrincipal.svc](../SoPrincipal/SoPrincipal.md)
+Obtain a ticket from the [Services81/SoPrincipal.svc](../SoPrincipal/index.md)
 
 Application tokens must be specified if calling an Online installation. ApplicationTokens are not checked for on-site installations.
 

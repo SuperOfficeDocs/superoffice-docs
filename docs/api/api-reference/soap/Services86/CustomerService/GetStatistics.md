@@ -20,7 +20,7 @@ Returns the calculated results for the required statistics for the Customer Serv
 
 [WSDL file for Services86/CustomerService](../Services86-CustomerService.md)
 
-Obtain a ticket from the [Services86/SoPrincipal.svc](../SoPrincipal/SoPrincipal.md)
+Obtain a ticket from the [Services86/SoPrincipal.svc](../SoPrincipal/index.md)
 
 Application tokens must be specified if calling an Online installation. ApplicationTokens are not checked for on-site installations.
 

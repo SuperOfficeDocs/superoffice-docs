@@ -21,7 +21,7 @@ Gets the persons working in the same company as the logged on user. The list of 
 
 [WSDL file for Services75/Person](../Services75-Person.md)
 
-Obtain a ticket from the [Services75/SoPrincipal.svc](../SoPrincipal/SoPrincipal.md)
+Obtain a ticket from the [Services75/SoPrincipal.svc](../SoPrincipal/index.md)
 
 Application tokens must be specified if calling an Online installation. ApplicationTokens are not checked for on-site installations.
 

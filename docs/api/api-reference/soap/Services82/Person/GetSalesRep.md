@@ -24,7 +24,7 @@ Returns the sales representative for an external user. If this method is accesse
 
 [WSDL file for Services82/Person](../Services82-Person.md)
 
-Obtain a ticket from the [Services82/SoPrincipal.svc](../SoPrincipal/SoPrincipal.md)
+Obtain a ticket from the [Services82/SoPrincipal.svc](../SoPrincipal/index.md)
 
 Application tokens must be specified if calling an Online installation. ApplicationTokens are not checked for on-site installations.
 

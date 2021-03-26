@@ -20,7 +20,7 @@ Updates the existing WebPanelEntity or creates a new WebPanelEntity if the id pa
 
 [WSDL file for Services80/List](../Services80-List.md)
 
-Obtain a ticket from the [Services80/SoPrincipal.svc](../SoPrincipal/SoPrincipal.md)
+Obtain a ticket from the [Services80/SoPrincipal.svc](../SoPrincipal/index.md)
 
 Application tokens must be specified if calling an Online installation. ApplicationTokens are not checked for on-site installations.
 

@@ -20,7 +20,7 @@ Copy contact selection members from selection into an existing selection.
 
 [WSDL file for Services80/Selection](../Services80-Selection.md)
 
-Obtain a ticket from the [Services80/SoPrincipal.svc](../SoPrincipal/SoPrincipal.md)
+Obtain a ticket from the [Services80/SoPrincipal.svc](../SoPrincipal/index.md)
 
 Application tokens must be specified if calling an Online installation. ApplicationTokens are not checked for on-site installations.
 
