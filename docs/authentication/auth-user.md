@@ -52,5 +52,5 @@ This procedure uses an [Implicit Flow][1] request. The **client ID** is necessar
 [1]: oidc/implicit-flow.md
 [2]: ../apps/client-id-secret.md
 [3]: ../apps/redirects/index.md
-[4]: ../apps/app-envir.md
+[4]: ../apps/getting-started/app-envir.md
 [5]: certificates/validate-security-tokens.md

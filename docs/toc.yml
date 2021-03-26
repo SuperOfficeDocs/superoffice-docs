@@ -1,6 +1,9 @@
 items:
+<<<<<<< HEAD
 - name: Setup
   href: 01-setup/toc.yml
+=======
+>>>>>>> a12779384562de24d810a9c2ad85c3acbda3739d
 - name: Admin
   href: admin/index.md
   items:
@@ -61,52 +64,20 @@ items:
     - name: Getting started
       href: ai-services/configuration-ai/getting-started.md
 - name: Apps
-  href: apps/app-envir.md
+  href: apps/app-store.md
   items:
-  - name: App envir
-    href: apps/app-envir.md
   - name: App store
     href: apps/app-store.md
   - name: Best practices
     href: apps/best-practices.md
-  - name: Building apps
-    href: apps/building-apps.md
   - name: Client id secret
     href: apps/client-id-secret.md
-  - name: Consent
-    href: apps/consent.md
   - name: Custom
     href: apps/custom.md
-  - name: Get access to sod
-    href: apps/get-access-to-sod.md
-  - name: Get app keys
-    href: apps/get-app-keys.md
-  - name: Hosting
-    href: apps/hosting.md
-  - name: Integration points
-    href: apps/integration-points.md
-  - name: Intro to superoffice apis
-    href: apps/intro-to-superoffice-apis.md
-  - name: Models
-    href: apps/models.md
-  - name: Overview
-    href: apps/overview.md
-  - name: Provisioning
-    href: apps/provisioning.md
-  - name: Revoke app
-    href: apps/revoke-app.md
-  - name: Run website on iis localhost
-    href: apps/run-website-on-iis-localhost.md
   - name: Security enhancements
     href: apps/security-enhancements.md
   - name: Standard
     href: apps/standard.md
-  - name: Update app
-    href: apps/update-app.md
-  - name: User contexts
-    href: apps/user-contexts.md
-  - name: What api to use
-    href: apps/what-api-to-use.md
   - name: Certification
     href: apps/certification/certify-app.md
     items:
@@ -120,11 +91,51 @@ items:
       href: apps/certification/secure-app.md
     - name: Watchcom testimonials
       href: apps/certification/watchcom-testimonials.md
-  - name: Provisioning
-    href: apps/provisioning/example.md
+  - name: Getting started
+    href: apps/getting-started/app-envir.md
     items:
+    - name: App envir
+      href: apps/getting-started/app-envir.md
+    - name: Building apps
+      href: apps/getting-started/building-apps.md
+    - name: Get access to sod
+      href: apps/getting-started/get-access-to-sod.md
+    - name: Get app keys
+      href: apps/getting-started/get-app-keys.md
+    - name: Hosting
+      href: apps/getting-started/hosting.md
+    - name: Integration points
+      href: apps/getting-started/integration-points.md
+    - name: Intro to superoffice apis
+      href: apps/getting-started/intro-to-superoffice-apis.md
+    - name: Models
+      href: apps/getting-started/models.md
+    - name: Overview
+      href: apps/getting-started/overview.md
+    - name: Run website on iis localhost
+      href: apps/getting-started/run-website-on-iis-localhost.md
+    - name: User contexts
+      href: apps/getting-started/user-contexts.md
+    - name: What api to use
+      href: apps/getting-started/what-api-to-use.md
+  - name: Manage
+    href: apps/manage/revoke-app.md
+    items:
+    - name: Revoke app
+      href: apps/manage/revoke-app.md
+    - name: Update app
+      href: apps/manage/update-app.md
+  - name: Provisioning
+    href: apps/provisioning/approval-sequence.md
+    items:
+    - name: Approval sequence
+      href: apps/provisioning/approval-sequence.md
+    - name: Consent
+      href: apps/provisioning/consent.md
     - name: Example
       href: apps/provisioning/example.md
+    - name: Get consent
+      href: apps/provisioning/get-consent.md
   - name: Publish
     href: apps/publish/activate-custom-app.md
     items:
@@ -161,14 +172,10 @@ items:
     - name: Technical
       href: apps/requirements/technical.md
   - name: Tenant status
-    href: apps/tenant-status/approval-sequence.md
+    href: apps/tenant-status/check-status.md
     items:
-    - name: Approval sequence
-      href: apps/tenant-status/approval-sequence.md
     - name: Check status
       href: apps/tenant-status/check-status.md
-    - name: Get consent
-      href: apps/tenant-status/get-consent.md
     - name: Get notifications
       href: apps/tenant-status/get-notifications.md
     - name: Manage status changes
@@ -423,8 +430,6 @@ items:
     href: documents/configure-cloud-document-handling.md
   - name: Odf
     href: documents/odf.md
-  - name: Quote template variables
-    href: documents/quote-template-variables.md
   - name: Set up cloud document integration
     href: documents/set-up-cloud-document-integration.md
   - name: G suite document integration
@@ -463,6 +468,15 @@ items:
     items:
     - name: Troubleshooting
       href: documents/templates/troubleshooting.md
+    - name: Quote
+      href: documents/templates/quote/add-template-var.md
+      items:
+      - name: Add template var
+        href: documents/templates/quote/add-template-var.md
+      - name: Lang culture
+        href: documents/templates/quote/lang-culture.md
+      - name: Mergefields
+        href: documents/templates/quote/mergefields.md
     - name: Variables
       href: documents/templates/variables/for-appointments.md
       items:
@@ -665,8 +679,6 @@ items:
   - name: Expander services
     href: license/expander-services/index.md
     items:
-    - name: Subscription
-      href: license/expander-services/subscription.md
     - name: Tool box
       href: license/expander-services/tool-box.md
 - name: Marketing
@@ -752,158 +764,156 @@ items:
     - name: Replace test envir
       href: online/test-environment/replace-test-envir.md
 - name: Onsite
-  href: onsite/index.md
+  href: onsite-setup/index.md
   items:
-  - name: Migration guide
-    href: onsite/migration-guide.md
   - name: System requirements
-    href: onsite/system-requirements.md
-  - name: Upgrade scenarios 75 to 8
-    href: onsite/upgrade-scenarios-75-to-8.md
-  - name: Upgrade to 8 1
-    href: onsite/upgrade-to-8-1.md
+    href: onsite-setup/system-requirements.md
   - name: Version history
-    href: onsite/version-history.md
+    href: onsite-setup/version-history.md
   - name: Compatibility
-    href: onsite/compatibility/browser.md
+    href: onsite-setup/compatibility/browser.md
     items:
     - name: Browser
-      href: onsite/compatibility/browser.md
+      href: onsite-setup/compatibility/browser.md
     - name: Client os
-      href: onsite/compatibility/client-os.md
+      href: onsite-setup/compatibility/client-os.md
     - name: Database
-      href: onsite/compatibility/database.md
+      href: onsite-setup/compatibility/database.md
     - name: Ms office
-      href: onsite/compatibility/ms-office.md
+      href: onsite-setup/compatibility/ms-office.md
     - name: Ms sql server
-      href: onsite/compatibility/ms-sql-server.md
+      href: onsite-setup/compatibility/ms-sql-server.md
     - name: Oracle
-      href: onsite/compatibility/oracle.md
+      href: onsite-setup/compatibility/oracle.md
     - name: Server os
-      href: onsite/compatibility/server-os.md
+      href: onsite-setup/compatibility/server-os.md
   - name: Config and ini
-    href: onsite/config-and-ini/index.md
+    href: onsite-setup/config-and-ini/index.md
     items:
     - name: Remotetravel ini
-      href: onsite/config-and-ini/remotetravel-ini.md
+      href: onsite-setup/config-and-ini/remotetravel-ini.md
     - name: Service config
-      href: onsite/config-and-ini/service-config.md
+      href: onsite-setup/config-and-ini/service-config.md
     - name: Sotables ini
-      href: onsite/config-and-ini/sotables-ini.md
+      href: onsite-setup/config-and-ini/sotables-ini.md
     - name: Souser ini
-      href: onsite/config-and-ini/souser-ini.md
+      href: onsite-setup/config-and-ini/souser-ini.md
     - name: Superoffice config
-      href: onsite/config-and-ini/superoffice-config.md
+      href: onsite-setup/config-and-ini/superoffice-config.md
     - name: Superoffice ini
-      href: onsite/config-and-ini/superoffice-ini.md
+      href: onsite-setup/config-and-ini/superoffice-ini.md
     - name: Username ini
-      href: onsite/config-and-ini/username-ini.md
+      href: onsite-setup/config-and-ini/username-ini.md
     - name: Web config
-      href: onsite/config-and-ini/web-config.md
+      href: onsite-setup/config-and-ini/web-config.md
   - name: Crm server
-    href: onsite/crm-server/create-ms-sql-server-db.md
+    href: onsite-setup/crm-server/create-ms-sql-server-db.md
     items:
     - name: Create ms sql server db
-      href: onsite/crm-server/create-ms-sql-server-db.md
+      href: onsite-setup/crm-server/create-ms-sql-server-db.md
     - name: Create oracle db
-      href: onsite/crm-server/create-oracle-db.md
+      href: onsite-setup/crm-server/create-oracle-db.md
     - name: Dbsetup exe
-      href: onsite/crm-server/dbsetup-exe.md
+      href: onsite-setup/crm-server/dbsetup-exe.md
     - name: Deploy on citrix
-      href: onsite/crm-server/deploy-on-citrix.md
+      href: onsite-setup/crm-server/deploy-on-citrix.md
     - name: Install on citrix
-      href: onsite/crm-server/install-on-citrix.md
+      href: onsite-setup/crm-server/install-on-citrix.md
     - name: Move
-      href: onsite/crm-server/move.md
+      href: onsite-setup/crm-server/move.md
     - name: Setup guide
-      href: onsite/crm-server/setup-guide.md
+      href: onsite-setup/crm-server/setup-guide.md
     - name: Silent serversetup
-      href: onsite/crm-server/silent-serversetup.md
+      href: onsite-setup/crm-server/silent-serversetup.md
     - name: Sql server full text search
-      href: onsite/crm-server/sql-server-full-text-search.md
+      href: onsite-setup/crm-server/sql-server-full-text-search.md
     - name: System requirements
-      href: onsite/crm-server/system-requirements.md
+      href: onsite-setup/crm-server/system-requirements.md
     - name: Upgrade to 8
-      href: onsite/crm-server/upgrade-to-8.md
+      href: onsite-setup/crm-server/upgrade-to-8.md
     - name: Iis web server
-      href: onsite/crm-server/iis-web-server/index.md
+      href: onsite-setup/crm-server/iis-web-server/index.md
       items:
       - name: Prepare
-        href: onsite/crm-server/iis-web-server/prepare.md
+        href: onsite-setup/crm-server/iis-web-server/prepare.md
       - name: Set up reverse proxy on iis
-        href: onsite/crm-server/iis-web-server/set-up-reverse-proxy-on-iis.md
+        href: onsite-setup/crm-server/iis-web-server/set-up-reverse-proxy-on-iis.md
+  - name: Migrate
+    href: onsite-setup/migrate/index.md
+    items:
+    - name: Service mailboxes
+      href: onsite-setup/migrate/service-mailboxes.md
+    - name: Run OMT
+      href: onsite-setup/migrate/run-omt.md
   - name: Security
-    href: onsite/security/deployment-scenarios.md
+    href: onsite-setup/security/deployment-scenarios.md
     items:
     - name: Deployment scenarios
-      href: onsite/security/deployment-scenarios.md
+      href: onsite-setup/security/deployment-scenarios.md
     - name: Network firewall config
-      href: onsite/security/network-firewall-config.md
+      href: onsite-setup/security/network-firewall-config.md
     - name: Secure deployment guide
-      href: onsite/security/secure-deployment-guide.md
+      href: onsite-setup/security/secure-deployment-guide.md
     - name: Secure https
-      href: onsite/security/secure-https.md
+      href: onsite-setup/security/secure-https.md
     - name: Set up emet
-      href: onsite/security/set-up-emet.md
+      href: onsite-setup/security/set-up-emet.md
     - name: Set up modsecurity
-      href: onsite/security/set-up-modsecurity.md
+      href: onsite-setup/security/set-up-modsecurity.md
   - name: Service
-    href: onsite/service/index.md
+    href: onsite-setup/service/index.md
     items:
     - name: Install manually
-      href: onsite/service/install-manually.md
-    - name: Log files
-      href: onsite/service/log-files.md
+      href: onsite-setup/service/install-manually.md
     - name: Set up guide
-      href: onsite/service/set-up-guide.md
+      href: onsite-setup/service/set-up-guide.md
     - name: Upgrade
-      href: onsite/service/upgrade.md
+      href: onsite-setup/service/upgrade.md
+  - name: Upgrade
+    href: onsite-setup/upgrade/upgrade-scenarios-75-to-8.md
+    items:
+    - name: Upgrade scenarios 75 to 8
+      href: onsite-setup/upgrade/upgrade-scenarios-75-to-8.md
+    - name: Upgrade to 8 1
+      href: onsite-setup/upgrade/upgrade-to-8-1.md
   - name: Web client
-    href: onsite/web-client/admin.md
+    href: onsite-setup/web-client/batch-task-server.md
     items:
-    - name: Admin
-      href: onsite/web-client/admin.md
-    - name: Background computing and batch processing
-      href: onsite/web-client/background-computing-and-batch-processing.md
     - name: Batch task server
-      href: onsite/web-client/batch-task-server.md
+      href: onsite-setup/web-client/batch-task-server.md
     - name: Debug
-      href: onsite/web-client/debug.md
+      href: onsite-setup/web-client/debug.md
     - name: Enable debug reporter
-      href: onsite/web-client/enable-debug-reporter.md
+      href: onsite-setup/web-client/debug-reporter.md
     - name: Install netserver
-      href: onsite/web-client/install-netserver.md
+      href: onsite-setup/web-client/install-netserver.md
     - name: Set up
-      href: onsite/web-client/set-up.md
+      href: onsite-setup/web-client/set-up.md
     - name: Set up web and report
-      href: onsite/web-client/set-up-web-and-report.md
+      href: onsite-setup/web-client/set-up-web-and-report.md
     - name: System requirements
-      href: onsite/web-client/system-requirements.md
+      href: onsite-setup/web-client/system-requirements.md
     - name: Upgrade netserver to 8
-      href: onsite/web-client/upgrade-netserver-to-8.md
+      href: onsite-setup/web-client/upgrade-netserver-to-8.md
     - name: Upgrade to 8
-      href: onsite/web-client/upgrade-to-8.md
+      href: onsite-setup/web-client/upgrade-to-8.md
   - name: Win client
-    href: onsite/win-client/admin.md
+    href: onsite-setup/win-client/command-line-switches.md
     items:
-    - name: Admin
-      href: onsite/win-client/admin.md
-    - name: Cached tables
-      href: onsite/win-client/cached-tables.md
     - name: Command line switches
-      href: onsite/win-client/command-line-switches.md
+      href: onsite-setup/win-client/command-line-switches.md
     - name: Debug
-      href: onsite/win-client/debug.md
+      href: onsite-setup/win-client/debug.md
     - name: Find superoffice ini file
-      href: onsite/win-client/find-superoffice-ini-file.md
+      href: onsite-setup/win-client/find-superoffice-ini-file.md
     - name: Install
-      href: onsite/win-client/install.md
+      href: onsite-setup/win-client/install.md
     - name: Prepare server
-      href: onsite/win-client/prepare-server.md
+      href: onsite-setup/win-client/prepare-server.md
     - name: System requirements
-      href: onsite/win-client/system-requirements.md
+      href: onsite-setup/win-client/system-requirements.md
     - name: Upgrade
-      href: onsite/win-client/upgrade.md
+      href: onsite-setup/win-client/upgrade.md
 - name: Privacy
   href: privacy/consent-management.md
   items:
@@ -937,6 +947,8 @@ items:
     href: service/config-faq.md
   - name: Debug automated tasks
     href: service/debug-automated-tasks.md
+  - name: Log files
+    href: service/log-files.md
   - name: Set up facebook integration
     href: service/set-up-facebook-integration.md
   - name: Attachments

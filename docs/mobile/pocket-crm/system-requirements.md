@@ -38,7 +38,7 @@ Business card scanner will work with all SuperOffice versions, both Onsite and O
 
 ## Which Services end point to use?
 
-[!include[Services end points table](../../onsite/includes/services-end-points.md)]
+[!include[Services end points table](../../onsite-setup/includes/services-end-points.md)]
 
 Pocket CRM will automatically pick up the correct Services folder.
 

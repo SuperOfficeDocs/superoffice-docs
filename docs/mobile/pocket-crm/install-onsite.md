@@ -114,7 +114,7 @@ If you need to either reset the settings or configure the client with another co
 <!-- Referenced links -->
 [1]: system-requirements.md
 [2]: configure.md
-[3]: ../../onsite/security/index.md
+[3]: ../../onsite-setup/security/index.md
 [4]: https://play.google.com/store/apps/details?id=no.superoffice.pocket.j2me.SuperOffice
 [5]: http://itunes.apple.com/no/app/superoffice/ce/id445355343
 

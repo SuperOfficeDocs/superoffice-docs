@@ -64,7 +64,7 @@ so.date: 06.12.2020
 ### O
 
 * [Online](online/index.md)
-* [Onsite](onsite/index.md)
+* [Onsite](onsite-setup/index.md)
 
 ### P
 

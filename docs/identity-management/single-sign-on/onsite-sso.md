@@ -110,7 +110,7 @@ Steps to configure in the *web.config* file:
 4. Apply the configuration changes related to bindings and WindowsAuth.
 
 <!-- Referenced links -->
-[1]: ../../onsite/service/set-up-guide.md
+[1]: ../../onsite-setup/service/set-up-guide.md
 
 <!-- Referenced images -->
 [img1]: media/imagegb896.png

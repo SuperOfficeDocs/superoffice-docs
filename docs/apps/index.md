@@ -50,7 +50,7 @@ Applications are either [built to fit many][4] and available in the SuperOffice 
 
 <!-- Referenced links -->
 [1]: client-id-secret.md
-[2]: hosting.md
+[2]: getting-started/hosting.md
 [3]: provisioning/index.md
 [4]: standard.md
 [5]: custom.md

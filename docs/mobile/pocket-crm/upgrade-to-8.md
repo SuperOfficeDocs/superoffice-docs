@@ -48,7 +48,7 @@ For the Pocket user it is possible to verify the redirection by checking **Task 
 > [!NOTE]
 > Server URLs must end with the correct *ServicesXX* folder.
 
-[!include[ALT](../../onsite/includes/services-end-points.md)]
+[!include[ALT](../../onsite-setup/includes/services-end-points.md)]
 
 ![x][img3]
 

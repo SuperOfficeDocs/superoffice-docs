@@ -92,7 +92,7 @@ SSO requires [configuration changes in IIS][2] and *web.config* file. Users must
 
 <!-- Referenced links -->
 [1]: doclink/registry-entries.md
-[2]: ../onsite/crm-server/iis-web-server/prepare.md
+[2]: ../onsite-setup/crm-server/iis-web-server/prepare.md
 
 <!-- Referenced images -->
 [img1]: media/11033-21660.jpg

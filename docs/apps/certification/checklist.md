@@ -99,8 +99,8 @@ My application is ready, what should I consider before I ask for a certification
 
 <!-- Referenced links -->
 [6]: https://community.superoffice.com/documentation/help/en/crm/9.2/webhelpadmin/index.htm#t=chap07%2FVisibility.htm
-[7]: ../tenant-status/get-consent.md
-[8]: ../revoke-app.md
+[7]: ../provisioning/get-consent.md
+[8]: ../manage/revoke-app.md
 [9]: ../tenant-status/check-status.md
 [11]: ../../privacy/consent-management.md
 [12]: ../../privacy/e-marketing-consent.md

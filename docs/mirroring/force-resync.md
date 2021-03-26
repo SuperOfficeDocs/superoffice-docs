@@ -42,5 +42,5 @@ This procedure is intended for a live system. If you want to debug mirroring in 
 
 <!-- Referenced links -->
 [1]: sync-manually.md
-[2]: ../apps/tenant-status/get-consent.md
+[2]: ../apps/provisioning/get-consent.md
 [3]: mirroring-task.md

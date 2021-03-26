@@ -58,4 +58,4 @@ The user does not authenticate directly with an online application itself. OAuth
 
 <!-- Referenced links -->
 [1]: ../apps/index.md
-[2]: ../apps/tenant-status/get-consent.md
+[2]: ../apps/provisioning/get-consent.md

@@ -23,6 +23,6 @@ All applications begin in our [sandbox environment][2]. Standard applications mu
 
 <!-- Referenced links -->
 [1]: index.md
-[2]: app-envir.md
+[2]: getting-started/app-envir.md
 [3]: certification/index.md
 [4]: certification/secure-app.md
