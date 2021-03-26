@@ -13,12 +13,58 @@ Sessions are created when a customer connects to the chat service.
 
 ![Chatbot session states](../media/chatbot-states.png)
 
-Depending on how the channel is configured, the initial state may be "in queue" or "pre-chat-form".
+Depending on how the channel is configured, the initial state may be "in queue"(4) or "pre-chat-form"(1), or "faq" (2).
 
 When a bot is active, the bot script takes over, and the message is not shown in the queue. 
 The bot prevents the session from going to the offline form state, since the bot is always present.
 
 When the bot hands off the session to humans, the session may go to `offline` status because there are no humans available.
+
+### Chat session status values
+
+* StatusInvalid = 0,
+* StatusPreChatForm = 1,
+* StatusFaq = 2,
+* StatusOfflineForm = 3,
+* StatusInQueue = 4,
+* StatusCustomerLast = 5,
+* StatusUserLast = 6,
+* StatusFinished = 7,
+* StatusDeleted = 8,
+* StatusClosed = 9,
+* StatusRequestPosted = 10,
+* StatusClosedFromQueue = 11
+
+### Bot first or form first?
+
+![Pre-chat states](../media/chatbot-states1.png)
+
+Usually the bot goes first, and then if the bot fails to come up with answer, then the session is handed off to a human, and then the pre-chat form happens. This is the easiest flow to implement. See the **Echobot** example.
+
+However, it is possible to have the pre-chat forms appear first, then the bot, then the human - it just requires a bit of care when programming the bot. See the **Echobot2** example.
+
+
+### Pre-chat form
+
+If a pre-chat form is configured, this will be the first state. This will prompt the user to fill in fields.
+
+If a FAQ category is configured, this will show the FAQ prompt and wait for the users question.
+Session state is 2.  The user's first message will trigger the `bot message received` script.
+The chat system will look up a suitable FAQ and send that as a response (if a match is found),
+then ask if the FAQ is ok. If the user clicks No, then the session is state forwarded from FAQ(2) to In-Queue(4).
+
+When the session is In-Queue, the bot should say hello.
+
+![Pre-chat states](../media/chatbot-states2.png)
+
+If the bot says hello before the session reaches In-Queue(4), the session will move to state UserLast(6), and skip the FAQ and pre-chat-form status.
+
+### Post-chat form
+
+If a post-chat form is configured, then the form is displayed when the state is set to Finished(7).
+When the session is in this state, the form fields are displayed to the user.
+
+The user may re-activate the chat from this state, but this cannot be detected until the user sends a message.
 
 ## Bot Session Created 
 
@@ -92,21 +138,6 @@ In addition to the bot script, these things also happen:
 * all CrmScript triggers defined for the **Chat Session Changed** event are run.
 * webhooks for **chatSession.changed** are dispatched.
 
-
-### Chat session status values
-
-* StatusInvalid = 0,
-* StatusPreChatForm = 1,
-* StatusFaq = 2,
-* StatusOfflineForm = 3,
-* StatusInQueue = 4,
-* StatusCustomerLast = 5,
-* StatusUserLast = 6,
-* StatusFinished = 7,
-* StatusDeleted = 8,
-* StatusClosed = 9,
-* StatusRequestPosted = 10,
-* StatusClosedFromQueue = 11
 
 ## Handing off session
 
