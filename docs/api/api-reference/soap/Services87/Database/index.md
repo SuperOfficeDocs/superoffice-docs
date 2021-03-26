@@ -1,0 +1,19 @@
+---
+uid: services87-database
+title: Services87.DatabaseAgent SOAP
+Generated: true
+---
+
+# Services87 Database SOAP
+
+SOAP request and response examples, and WSDL files for **Remote/Services87/Database.svc**
+
+Handled by the <see cref="T:SuperOffice.Services87.IDatabaseAgent">SuperOffice.Services87.IDatabaseAgent</see> interface.
+
+Interface for the Database Agent
+Database schema queries and changes
+
+Download [WSDL file for Services87/Database](../Services87-Database.md) if you need to generate your own proxy code.
+
+* [GetStepsFromNetServerCode](GetStepsFromNetServerCode.md)
+* [GetStepsInDatabase](GetStepsInDatabase.md)

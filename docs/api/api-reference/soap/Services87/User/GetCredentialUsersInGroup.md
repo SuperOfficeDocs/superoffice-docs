@@ -1,0 +1,90 @@
+---
+uid: services87-user-getcredentialusersingroup
+title: Services87.UserAgent.GetCredentialUsersInGroup SOAP
+Generated: true
+---
+
+# Services87 User GetCredentialUsersInGroup SOAP
+
+SOAP request and response examples **Remote/Services87/User.svc**
+Implemented by the <see cref="M:SuperOffice.Services87.IUserAgent.GetCredentialUsersInGroup">SuperOffice.Services87.IUserAgent.GetCredentialUsersInGroup</see> method.
+
+## GetCredentialUsersInGroup
+
+Get credential users within a user group
+<para /><b>Online Restricted:</b> The User agent is not available in Online by default. User management is not allowed for partner apps.
+
+* **type:** Type of credentials, corresponding to name of plugin and type in the credentials table.
+* **groupName:** Name of user group needed to discover the users.
+
+
+
+[WSDL file for Services87/User](../Services87-User.md)
+
+Obtain a ticket from the [Services87/SoPrincipal.svc](../SoPrincipal/SoPrincipal.md)
+
+Application tokens must be specified if calling an Online installation. ApplicationTokens are not checked for on-site installations.
+
+## GetCredentialUsersInGroup Request
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope
+ xmlns:SOAP-ENV="http://www.w3.org/2003/05/soap-envelope"
+ xmlns:SOAP-ENC="http://www.w3.org/2003/05/soap-encoding"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+ xmlns:NetServerServices872="http://schemas.microsoft.com/2003/10/Serialization/Arrays"
+ xmlns:NetServerServices871="http://schemas.microsoft.com/2003/10/Serialization/"
+ xmlns:User="http://www.superoffice.net/ws/crm/NetServer/Services87">
+  <User:ApplicationToken>1234567-1234-9876</User:ApplicationToken>
+  <User:Credentials>
+    <User:Ticket>7T:1234abcxyzExample==</User:Ticket>
+  </User:Credentials>
+ <SOAP-ENV:Body>
+   <User:GetCredentialUsersInGroup>
+    <User:Type xsi:type="xsd:string"></User:Type>
+    <User:GroupName xsi:type="xsd:string"></User:GroupName>
+   </User:GetCredentialUsersInGroup>
+
+ </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+```
+
+
+## GetCredentialUsersInGroup Response
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope
+ xmlns:SOAP-ENV="http://www.w3.org/2003/05/soap-envelope"
+ xmlns:SOAP-ENC="http://www.w3.org/2003/05/soap-encoding"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+ xmlns:NetServerServices872="http://schemas.microsoft.com/2003/10/Serialization/Arrays"
+ xmlns:NetServerServices871="http://schemas.microsoft.com/2003/10/Serialization/"
+ xmlns:User="http://www.superoffice.net/ws/crm/NetServer/Services87">
+ <SOAP-ENV:Body>
+  <User:GetCredentialUsersInGroupResponse>
+   <User:Response xsi:type="User:CredentialsGroupUsers">
+    <User:Headings xsi:type="NetServerServices872:ArrayOfstring">
+     <NetServerServices872:string xsi:type="xsd:string"></NetServerServices872:string>
+    </User:Headings>
+    <User:Users xsi:type="User:ArrayOfCredentialUser">
+     <User:CredentialUser xsi:type="User:CredentialUser">
+      <User:Value xsi:type="xsd:string"></User:Value>
+      <User:DisplayValue xsi:type="xsd:string"></User:DisplayValue>
+      <User:Columns xsi:type="NetServerServices872:ArrayOfstring">
+       <NetServerServices872:string xsi:type="xsd:string"></NetServerServices872:string>
+      </User:Columns>
+      <User:CanCreatePerson xsi:type="xsd:boolean">false</User:CanCreatePerson>
+     </User:CredentialUser>
+    </User:Users>
+   </User:Response>
+  </User:GetCredentialUsersInGroupResponse>
+ </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+```
+

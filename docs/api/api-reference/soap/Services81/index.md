@@ -1,0 +1,56 @@
+---
+uid: soap-services81
+title: Services81
+Generated: true
+---
+SOAP request and response examples, and WSDL files for **Services81**
+
+# SOAP web services Services81
+
+* [Appointment](Appointment/index.md)
+* [Archive](Archive/index.md)
+* [Associate](Associate/index.md)
+* [Audience](Audience/index.md)
+* [Batch](Batch/index.md)
+* [BLOB](BLOB/index.md)
+* [BlobManager](BlobManager/index.md)
+* [Configuration](Configuration/index.md)
+* [Contact](Contact/index.md)
+* [CustomerService](CustomerService/index.md)
+* [Dashboard](Dashboard/index.md)
+* [Diagnostics](Diagnostics/index.md)
+* [Document](Document/index.md)
+* [EMail](EMail/index.md)
+* [ErpSync](ErpSync/index.md)
+* [FileManager](FileManager/index.md)
+* [Find](Find/index.md)
+* [ForeignSystem](ForeignSystem/index.md)
+* [FreeText](FreeText/index.md)
+* [Import](Import/index.md)
+* [License](License/index.md)
+* [List](List/index.md)
+* [MDO](MDO/index.md)
+* [Messaging](Messaging/index.md)
+* [Navigator](Navigator/index.md)
+* [NumberAllocation](NumberAllocation/index.md)
+* [Person](Person/index.md)
+* [PhoneList](PhoneList/index.md)
+* [Pocket](Pocket/index.md)
+* [Preference](Preference/index.md)
+* [Project](Project/index.md)
+* [Quote](Quote/index.md)
+* [Relation](Relation/index.md)
+* [Replication](Replication/index.md)
+* [Report](Report/index.md)
+* [Resource](Resource/index.md)
+* [Saint](Saint/index.md)
+* [Sale](Sale/index.md)
+* [Selection](Selection/index.md)
+* [Sentry](Sentry/index.md)
+* [SoPrincipal](SoPrincipal/index.md)
+* [TimeZone](TimeZone/index.md)
+* [Tooltips](Tooltips/index.md)
+* [User](User/index.md)
+* [UserDefinedFieldInfo](UserDefinedFieldInfo/index.md)
+* [ViewState](ViewState/index.md)
+

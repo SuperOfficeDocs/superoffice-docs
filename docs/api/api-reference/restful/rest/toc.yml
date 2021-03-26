@@ -1,0 +1,2676 @@
+items:
+- name: Overview
+  href: index.md
+- name: Appointment
+  href: Appointment/index.md
+  items:
+  - name: DEL Appointment/{id}
+    href: Appointment/v1AppointmentEntity_DeleteAppointmentEntity.md
+  - name: DEL Appointment/UdefLayout/{progidOrLabel}
+    href: Appointment/v1AppointmentEntity_DeleteUdefFieldInfo.md
+  - name: GET Appointment
+    href: Appointment/v1AppointmentEntity_GetAll.md
+  - name: GET Appointment/{id}
+    href: Appointment/v1AppointmentEntity_GetAppointmentEntity.md
+  - name: GET Appointment/{id}/ForeignKey
+    href: Appointment/v1AppointmentEntity_GetAllForeignKeysOnEntity.md
+  - name: GET Appointment/{id}/Links
+    href: Appointment/v1AppointmentEntity_Links.md
+  - name: GET Appointment/{id}/Participants
+    href: Appointment/v1AppointmentEntity_Participants.md
+  - name: GET Appointment/{id}/Simple
+    href: Appointment/v1AppointmentEntity_Simple.md
+  - name: GET Appointment/CustomField
+    href: Appointment/v1AppointmentEntity_GetCustomFieldInfoList.md
+  - name: GET Appointment/CustomField/{fieldName}
+    href: Appointment/v1AppointmentEntity_GetCustomFieldInfo.md
+  - name: GET Appointment/default
+    href: Appointment/v1AppointmentEntity_DefaultAppointmentEntity.md
+  - name: GET Appointment/UdefLayout
+    href: Appointment/v1AppointmentEntity_GetUdefLayout.md
+  - name: GET Appointment/UdefLayout/{progidOrLabel}
+    href: Appointment/v1AppointmentEntity_GetUdefFieldInfo.md
+  - name: GET Appointment/UdefLayout/Changed
+    href: Appointment/v1AppointmentEntity_DetectUnpublishedChanges.md
+  - name: GET Appointment/UdefLayout/Publish
+    href: Appointment/v1AppointmentEntity_IsPublishUdefLayoutActive.md
+  - name: GET Appointment/UdefLayout/Published
+    href: Appointment/v1AppointmentEntity_GetPublishedUdefLayout.md
+  - name: GET Appointment/UdefLayout/Published/{progidOrLabel}
+    href: Appointment/v1AppointmentEntity_GetPublishedUdefFieldInfo.md
+  - name: PATCH Appointment/{id}
+    href: Appointment/v1AppointmentEntity_PatchAppointmentEntity.md
+  - name: POST Appointment
+    href: Appointment/v1AppointmentEntity_PostAppointmentEntity.md
+  - name: POST Appointment/UdefLayout
+    href: Appointment/v1AppointmentEntity_AddUdefField.md
+  - name: POST Appointment/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}
+    href: Appointment/v1AppointmentEntity_ChangeFieldType.md
+  - name: POST Appointment/UdefLayout/Publish
+    href: Appointment/v1AppointmentEntity_PublishUdefLayout.md
+  - name: POST Appointment/UdefLayout/Revert
+    href: Appointment/v1AppointmentEntity_RevertUdefLayout.md
+  - name: POST Appointment/Validate
+    href: Appointment/v1AppointmentEntity_ValidateAppointmentEntity.md
+  - name: PUT Appointment/{id}
+    href: Appointment/v1AppointmentEntity_PutAppointmentEntity.md
+  - name: PUT Appointment/UdefLayout
+    href: Appointment/v1AppointmentEntity_SaveUdefLayout.md
+- name: Archive
+  href: Archive/index.md
+  items:
+  - name: GET Archive
+    href: Archive/v1Archive_GetArchive.md
+  - name: GET Archive/{archiveProviderName}
+    href: Archive/v1Archive_GetArchive_GET.md
+- name: Attachment
+  href: Attachment/index.md
+  items:
+  - name: GET Attachment/{id}
+    href: Attachment/v1AttachmentEntity_GetAttachmentEntity.md
+  - name: GET Attachment/{id}/Content
+    href: Attachment/v1AttachmentEntity_GetAttachmentStream.md
+  - name: GET Attachment/default
+    href: Attachment/v1AttachmentEntity_DefaultAttachmentEntity.md
+  - name: PATCH Attachment/{id}
+    href: Attachment/v1AttachmentEntity_PatchAttachmentEntity.md
+  - name: POST Attachment
+    href: Attachment/v1AttachmentEntity_PostAttachmentEntity.md
+  - name: POST Attachment/{id}/Content
+    href: Attachment/v1AttachmentEntity_UploadAttachment.md
+  - name: PUT Attachment/{id}
+    href: Attachment/v1AttachmentEntity_PutAttachmentEntity.md
+- name: Batch
+  href: Batch/index.md
+  items:
+  - name: DEL BatchTask/{id}
+    href: Batch/v1Batch_DeleteBatchTask.md
+  - name: GET BatchTask
+    href: Batch/v1Batch_GetAll.md
+  - name: GET BatchTask/{id}
+    href: Batch/v1Batch_GetBatchTaskInfo.md
+  - name: GET BatchTask/{state}
+    href: Batch/v1Batch_GetBatchTaskInfosByState.md
+  - name: POST BatchTask
+    href: Batch/v1Batch_StartBatchJob.md
+  - name: POST BatchTask/{id}/Stop
+    href: Batch/v1Batch_StopBatchJob.md
+  - name: PUT BatchTask/{Id}
+    href: Batch/v1Batch_UpdateBatchTask.md
+- name: ChatPresence
+  href: ChatPresence/index.md
+  items:
+  - name: GET Presence/GetAll
+    href: ChatPresence/v1ChatPresence_GetChatPresence.md
+  - name: POST Presence/SaveAll
+    href: ChatPresence/v1ChatPresence_SaveChatPresence.md
+- name: ChatSession
+  href: ChatSession/index.md
+  items:
+  - name: DEL ChatSession/{id}
+    href: ChatSession/v1ChatSessionEntity_DeleteChatSessionEntity.md
+  - name: GET ChatSession
+    href: ChatSession/v1ChatSessionEntity_GetAll.md
+  - name: GET ChatSession/{id}
+    href: ChatSession/v1ChatSessionEntity_GetChatSessionEntity.md
+  - name: GET ChatSession/{id}/Messages
+    href: ChatSession/v1ChatSessionEntity_GetChatMessages.md
+  - name: GET ChatSession/default
+    href: ChatSession/v1ChatSessionEntity_DefaultChatSessionEntity.md
+  - name: GET ChatSession/ForCurrentUser
+    href: ChatSession/v1ChatSessionEntity_ChatSessionsForUser.md
+  - name: PATCH ChatSession/{id}
+    href: ChatSession/v1ChatSessionEntity_PatchChatSessionEntity.md
+  - name: POST ChatSession
+    href: ChatSession/v1ChatSessionEntity_PostChatSessionEntity.md
+  - name: POST ChatSession/{id}/AcceptTransfer
+    href: ChatSession/v1ChatSessionEntity_AcceptChatSessionTransfer.md
+  - name: POST ChatSession/{id}/Messages
+    href: ChatSession/v1ChatSessionEntity_AddChatMessage.md
+  - name: POST ChatSession/{id}/Pickup
+    href: ChatSession/v1ChatSessionEntity_PickUpChatSession.md
+  - name: POST ChatSession/{id}/RejectTransfer
+    href: ChatSession/v1ChatSessionEntity_RejectChatSessionTransfer.md
+  - name: POST ChatSession/{id}/Reset
+    href: ChatSession/v1ChatSessionEntity_ResetChatSession.md
+  - name: POST ChatSession/{id}/Transcript
+    href: ChatSession/v1ChatSessionEntity_GetChatTranscript.md
+  - name: POST ChatSession/{id}/TransferTo/{toAssociate}
+    href: ChatSession/v1ChatSessionEntity_TransferChatSession.md
+  - name: POST ChatSession/Pickup
+    href: ChatSession/v1ChatSessionEntity_PickUpFirstChatSession.md
+  - name: PUT ChatSession/{id}
+    href: ChatSession/v1ChatSessionEntity_PutChatSessionEntity.md
+- name: ChatTopic
+  href: ChatTopic/index.md
+  items:
+  - name: DEL ChatTopic/{id}
+    href: ChatTopic/v1ChatTopicEntity_DeleteChatTopicEntity.md
+  - name: DEL ChatTopic/{id}/UserAgent/{username}
+    href: ChatTopic/v1ChatTopicEntity_DeleteChatTopicUserAgent.md
+  - name: GET ChatTopic/{id}
+    href: ChatTopic/v1ChatTopicEntity_GetChatTopicEntity.md
+  - name: GET ChatTopic/{id}/IsOpen
+    href: ChatTopic/v1ChatTopicEntity_IsWithinOpeningHours.md
+  - name: GET ChatTopic/{id}/UserAgent
+    href: ChatTopic/v1ChatTopicEntity_GetChatTopicUserAgentList.md
+  - name: GET ChatTopic/{id}/UserAgent/{username}
+    href: ChatTopic/v1ChatTopicEntity_GetChatTopicUserAgent.md
+  - name: GET ChatTopic/default
+    href: ChatTopic/v1ChatTopicEntity_DefaultChatTopicEntity.md
+  - name: GET ChatTopic/ForCurrentUser
+    href: ChatTopic/v1ChatTopicEntity_ChatTopicsForUser.md
+  - name: GET ChatTopic/UserAgents
+    href: ChatTopic/v1ChatTopicEntity_GetUserAgentList.md
+  - name: PATCH ChatTopic/{id}
+    href: ChatTopic/v1ChatTopicEntity_PatchChatTopicEntity.md
+  - name: POST ChatTopic
+    href: ChatTopic/v1ChatTopicEntity_PostChatTopicEntity.md
+  - name: POST ChatTopic/{id}/UserAgent
+    href: ChatTopic/v1ChatTopicEntity_AddChatTopicUserAgent.md
+  - name: PUT ChatTopic/{id}
+    href: ChatTopic/v1ChatTopicEntity_PutChatTopicEntity.md
+  - name: PUT ChatTopic/{id}/UserAgent/{username}
+    href: ChatTopic/v1ChatTopicEntity_UpdateChatTopicUserAgent.md
+- name: Contact
+  href: Contact/index.md
+  items:
+  - name: DEL Contact/{id}
+    href: Contact/v1ContactEntity_DeleteContactEntity.md
+  - name: DEL Contact/{id}/Image
+    href: Contact/v1ContactEntity_DeleteImageContent.md
+  - name: DEL Contact/UdefLayout/{progidOrLabel}
+    href: Contact/v1ContactEntity_DeleteUdefFieldInfo.md
+  - name: GET Contact
+    href: Contact/v1ContactEntity_GetAll.md
+  - name: GET Contact/{id}
+    href: Contact/v1ContactEntity_GetContactEntity.md
+  - name: GET Contact/{id}/Activities
+    href: Contact/v1ContactEntity_Activities.md
+  - name: GET Contact/{id}/Appointments
+    href: Contact/v1ContactEntity_Appointments.md
+  - name: GET Contact/{id}/Documents
+    href: Contact/v1ContactEntity_Documents.md
+  - name: GET Contact/{id}/ForeignKey
+    href: Contact/v1ContactEntity_GetAllForeignKeysOnEntity.md
+  - name: GET Contact/{id}/Image
+    href: Contact/v1ContactEntity_GetImage.md
+  - name: GET Contact/{id}/Imageinfo
+    href: Contact/v1ContactEntity_GetImageInfo.md
+  - name: GET Contact/{id}/Persons
+    href: Contact/v1ContactEntity_Persons.md
+  - name: GET Contact/{id}/Projects
+    href: Contact/v1ContactEntity_Projects.md
+  - name: GET Contact/{id}/Relations
+    href: Contact/v1ContactEntity_Relations.md
+  - name: GET Contact/{id}/Sales
+    href: Contact/v1ContactEntity_Sales.md
+  - name: GET Contact/{id}/Simple
+    href: Contact/v1ContactEntity_Simple.md
+  - name: GET Contact/{id}/Summary
+    href: Contact/v1ContactEntity_GetContactSummary.md
+  - name: GET Contact/{id}/Tickets
+    href: Contact/v1ContactEntity_Tickets.md
+  - name: GET Contact/CustomField
+    href: Contact/v1ContactEntity_GetCustomFieldInfoList.md
+  - name: GET Contact/CustomField/{fieldName}
+    href: Contact/v1ContactEntity_GetCustomFieldInfo.md
+  - name: GET Contact/default
+    href: Contact/v1ContactEntity_DefaultContactEntity.md
+  - name: GET Contact/DuplicateRules
+    href: Contact/v1ContactEntity_GetDuplicateRules.md
+  - name: GET Contact/Duplicates/{name}
+    href: Contact/v1ContactEntity_GetNameDepartmentDuplicates.md
+  - name: GET Contact/UdefLayout
+    href: Contact/v1ContactEntity_GetUdefLayout.md
+  - name: GET Contact/UdefLayout/{progidOrLabel}
+    href: Contact/v1ContactEntity_GetUdefFieldInfo.md
+  - name: GET Contact/UdefLayout/Changed
+    href: Contact/v1ContactEntity_DetectUnpublishedChanges.md
+  - name: GET Contact/UdefLayout/Publish
+    href: Contact/v1ContactEntity_IsPublishUdefLayoutActive.md
+  - name: GET Contact/UdefLayout/Published
+    href: Contact/v1ContactEntity_GetPublishedUdefLayout.md
+  - name: GET Contact/UdefLayout/Published/{progidOrLabel}
+    href: Contact/v1ContactEntity_GetPublishedUdefFieldInfo.md
+  - name: PATCH Contact/{id}
+    href: Contact/v1ContactEntity_PatchContactEntity.md
+  - name: POST Contact
+    href: Contact/v1ContactEntity_PostContactEntity.md
+  - name: POST Contact/{id}/Image
+    href: Contact/v1ContactEntity_SaveImage_POST.md
+  - name: POST Contact/{id}/MergeTo/{id}
+    href: Contact/v1ContactEntity_Merge.md
+  - name: POST Contact/UdefLayout
+    href: Contact/v1ContactEntity_AddUdefField.md
+  - name: POST Contact/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}
+    href: Contact/v1ContactEntity_ChangeFieldType.md
+  - name: POST Contact/UdefLayout/Publish
+    href: Contact/v1ContactEntity_PublishUdefLayout.md
+  - name: POST Contact/UdefLayout/Revert
+    href: Contact/v1ContactEntity_RevertUdefLayout.md
+  - name: POST Contact/Validate
+    href: Contact/v1ContactEntity_ValidateContactEntity.md
+  - name: PUT Contact/{id}
+    href: Contact/v1ContactEntity_PutContactEntity.md
+  - name: PUT Contact/{id}/Image
+    href: Contact/v1ContactEntity_SaveImage.md
+  - name: PUT Contact/{id}/ImageInfo
+    href: Contact/v1ContactEntity_PutImageInfo.md
+  - name: PUT Contact/DuplicateRules
+    href: Contact/v1ContactEntity_SetDuplicateRulesStatus.md
+  - name: PUT Contact/UdefLayout
+    href: Contact/v1ContactEntity_SaveUdefLayout.md
+- name: ContactRelation
+  href: ContactRelation/index.md
+  items:
+  - name: DEL Relation/{id}
+    href: ContactRelation/v1ContactRelationEntity_DeleteContactRelationEntity.md
+  - name: GET Relation
+    href: ContactRelation/v1ContactRelationEntity_GetAll.md
+  - name: GET Relation/{id}
+    href: ContactRelation/v1ContactRelationEntity_GetContactRelationEntity.md
+  - name: GET Relation/default
+    href: ContactRelation/v1ContactRelationEntity_DefaultContactRelationEntity.md
+  - name: PATCH Relation/{id}
+    href: ContactRelation/v1ContactRelationEntity_PatchContactRelationEntity.md
+  - name: POST Relation
+    href: ContactRelation/v1ContactRelationEntity_PostContactRelationEntity.md
+  - name: PUT Relation/{id}
+    href: ContactRelation/v1ContactRelationEntity_PutContactRelationEntity.md
+- name: CRMScript
+  href: CRMScript/index.md
+  items:
+  - name: DEL CRMScript/{id}
+    href: CRMScript/v1CRMScriptEntity_DeleteCRMScriptEntity.md
+  - name: GET CRMScript
+    href: CRMScript/v1CRMScriptEntity_GetAll.md
+  - name: GET CRMScript/{id}
+    href: CRMScript/v1CRMScriptEntity_GetCRMScriptEntity.md
+  - name: GET CRMScript/{id}/Validate
+    href: CRMScript/v1CRMScriptEntity_ValidateScript.md
+  - name: GET CRMScript/default
+    href: CRMScript/v1CRMScriptEntity_DefaultCRMScriptEntity.md
+  - name: PATCH CRMScript/{id}
+    href: CRMScript/v1CRMScriptEntity_PatchCRMScriptEntity.md
+  - name: POST CRMScript
+    href: CRMScript/v1CRMScriptEntity_PostCRMScriptEntity.md
+  - name: POST CRMScript/{id}/Execute
+    href: CRMScript/v1CRMScriptEntity_ExecuteScript.md
+  - name: PUT CRMScript/{id}
+    href: CRMScript/v1CRMScriptEntity_PutCRMScriptEntity.md
+- name: Dashboard
+  href: Dashboard/index.md
+  items:
+  - name: DEL Dashboard/{id}
+    href: Dashboard/v1Dashboard_DeleteDashboard.md
+  - name: GET Dashboard/{id}
+    href: Dashboard/v1Dashboard_GetDashboard.md
+  - name: GET Dashboard/default
+    href: Dashboard/v1Dashboard_DefaultDashboard.md
+  - name: PATCH Dashboard/{id}
+    href: Dashboard/v1Dashboard_PatchDashboard.md
+  - name: POST Dashboard
+    href: Dashboard/v1Dashboard_PostDashboard.md
+  - name: PUT Dashboard/{id}
+    href: Dashboard/v1Dashboard_PutDashboard.md
+- name: DashboardTile
+  href: DashboardTile/index.md
+  items:
+  - name: DEL DashboardTile/{id}
+    href: DashboardTile/v1DashboardTile_DeleteDashboardTile.md
+  - name: GET DashboardTile/{id}
+    href: DashboardTile/v1DashboardTile_GetDashboardTile.md
+  - name: GET DashboardTile/default
+    href: DashboardTile/v1DashboardTile_DefaultDashboardTile.md
+  - name: PATCH DashboardTile/{id}
+    href: DashboardTile/v1DashboardTile_PatchDashboardTile.md
+  - name: POST DashboardTile
+    href: DashboardTile/v1DashboardTile_PostDashboardTile.md
+  - name: PUT DashboardTile/{id}
+    href: DashboardTile/v1DashboardTile_PutDashboardTile.md
+- name: Document
+  href: Document/index.md
+  items:
+  - name: DEL Document/{id}
+    href: Document/v1DocumentEntity_DeleteDocumentEntity.md
+  - name: DEL Document/{id}/Content
+    href: Document/v1DocumentEntity_DeletePhysicalDocument.md
+  - name: DEL Document/{id}/Lock
+    href: Document/v1DocumentEntity_UndoCheckoutDocument.md
+  - name: DEL Document/UdefLayout/{progidOrLabel}
+    href: Document/v1DocumentEntity_DeleteUdefFieldInfo.md
+  - name: GET Document
+    href: Document/v1DocumentEntity_GetAll.md
+  - name: GET Document/{id}
+    href: Document/v1DocumentEntity_GetDocumentEntity.md
+  - name: GET Document/{id}/Command
+    href: Document/v1DocumentEntity_GetDocumentCommands.md
+  - name: GET Document/{id}/Content
+    href: Document/v1DocumentEntity_GetDocumentStream.md
+  - name: GET Document/{id}/ForeignKey
+    href: Document/v1DocumentEntity_GetAllForeignKeysOnEntity.md
+  - name: GET Document/{id}/Links
+    href: Document/v1DocumentEntity_Links.md
+  - name: GET Document/{id}/Lock
+    href: Document/v1DocumentEntity_GetCheckoutState.md
+  - name: GET Document/{id}/Property
+    href: Document/v1DocumentEntity_GetDocumentProperties.md
+  - name: GET Document/{id}/SanitizedContent
+    href: Document/v1DocumentEntity_GetSanitizedDocumentStream.md
+  - name: GET Document/{id}/Url
+    href: Document/v1DocumentEntity_GetDocumentUrl.md
+  - name: GET Document/{id}/Version
+    href: Document/v1DocumentEntity_GetVersionList.md
+  - name: GET Document/CustomField
+    href: Document/v1DocumentEntity_GetCustomFieldInfoList.md
+  - name: GET Document/CustomField/{fieldName}
+    href: Document/v1DocumentEntity_GetCustomFieldInfo.md
+  - name: GET Document/default
+    href: Document/v1DocumentEntity_DefaultDocumentEntity.md
+  - name: GET Document/Plugin
+    href: Document/v1DocumentEntity_GetPluginList.md
+  - name: GET Document/Plugin/{id}
+    href: Document/v1DocumentEntity_GetPluginCapabilities.md
+  - name: GET Document/UdefLayout
+    href: Document/v1DocumentEntity_GetUdefLayout.md
+  - name: GET Document/UdefLayout/{progidOrLabel}
+    href: Document/v1DocumentEntity_GetUdefFieldInfo.md
+  - name: GET Document/UdefLayout/Changed
+    href: Document/v1DocumentEntity_DetectUnpublishedChanges.md
+  - name: GET Document/UdefLayout/Publish
+    href: Document/v1DocumentEntity_IsPublishUdefLayoutActive.md
+  - name: GET Document/UdefLayout/Published
+    href: Document/v1DocumentEntity_GetPublishedUdefLayout.md
+  - name: GET Document/UdefLayout/Published/{progidOrLabel}
+    href: Document/v1DocumentEntity_GetPublishedUdefFieldInfo.md
+  - name: PATCH Document/{id}
+    href: Document/v1DocumentEntity_PatchDocumentEntity.md
+  - name: POST Document
+    href: Document/v1DocumentEntity_PostDocumentEntity.md
+  - name: POST Document/{id}/Command/{command}
+    href: Document/v1DocumentEntity_ExecuteDocumentCommand.md
+  - name: POST Document/{id}/Content
+    href: Document/v1DocumentEntity_CreateNewPhysicalDocumentFromTemplateWithCustomTags2.md
+  - name: POST Document/{id}/Lock
+    href: Document/v1DocumentEntity_CheckoutDocument.md
+  - name: POST Document/UdefLayout
+    href: Document/v1DocumentEntity_AddUdefField.md
+  - name: POST Document/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}
+    href: Document/v1DocumentEntity_ChangeFieldType.md
+  - name: POST Document/UdefLayout/Publish
+    href: Document/v1DocumentEntity_PublishUdefLayout.md
+  - name: POST Document/UdefLayout/Revert
+    href: Document/v1DocumentEntity_RevertUdefLayout.md
+  - name: POST Document/Validate
+    href: Document/v1DocumentEntity_ValidateDocumentEntity.md
+  - name: PUT Document/{id}
+    href: Document/v1DocumentEntity_PutDocumentEntity.md
+  - name: PUT Document/{id}/Content
+    href: Document/v1DocumentEntity_SetDocumentStreamFromId.md
+  - name: PUT Document/{id}/Lock
+    href: Document/v1DocumentEntity_CheckinDocument.md
+  - name: PUT Document/UdefLayout
+    href: Document/v1DocumentEntity_SaveUdefLayout.md
+- name: FieldInfoBase
+  href: FieldInfoBase/index.md
+  items:
+  - name: GET Schema/{tableName}
+    href: FieldInfoBase/v1FieldInfoBase_GetCustomFieldInfoList.md
+  - name: GET Schema/{tableName}/{fieldName}
+    href: FieldInfoBase/v1FieldInfoBase_GetCustomFieldInfo.md
+- name: ForeignApp
+  href: ForeignApp/index.md
+  items:
+  - name: DEL ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}
+    href: ForeignApp/v1ForeignAppEntity_DeleteDeviceByIdentifier.md
+  - name: DEL ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key/{keyName}/{tableName}/{id}
+    href: ForeignApp/v1ForeignAppEntity_DeleteForeignKeyOnName.md
+  - name: DEL ForeignApp/{id}
+    href: ForeignApp/v1ForeignAppEntity_DeleteForeignAppEntity.md
+  - name: GET ForeignApp
+    href: ForeignApp/v1ForeignAppEntity_GetAll.md
+  - name: GET ForeignApp/{applicationName}
+    href: ForeignApp/v1ForeignAppEntity_GetAppByName.md
+  - name: GET ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}
+    href: ForeignApp/v1ForeignAppEntity_GetDeviceByIdentifier.md
+  - name: GET ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key/{keyName}/{tableName}
+    href: ForeignApp/v1ForeignAppEntity_GetKeyByValueAndIdentifier.md
+  - name: GET ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key/{keyName}/{tableName}/{id}
+    href: ForeignApp/v1ForeignAppEntity_GetKeyOnDeviceIdentifier.md
+  - name: GET ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key/{keyName}/{tableName}/{id}/Value
+    href: ForeignApp/v1ForeignAppEntity_GetKeyValueOnDeviceIdentifier.md
+  - name: GET ForeignApp/{applicationName}/{deviceName}/Key/{keyName}/{tableName}
+    href: ForeignApp/v1ForeignAppEntity_GetKeyByValue.md
+  - name: GET ForeignApp/{applicationName}/{deviceName}/Key/{keyName}/{tableName}/{id}
+    href: ForeignApp/v1ForeignAppEntity_GetKey.md
+  - name: GET ForeignApp/{applicationName}/{deviceName}/Key/{keyName}/{tableName}/{id}/Value
+    href: ForeignApp/v1ForeignAppEntity_GetKeyValue.md
+  - name: GET ForeignApp/{applicationName}/Devices
+    href: ForeignApp/v1ForeignAppEntity_GetApplicationDevices.md
+  - name: GET ForeignApp/{id}
+    href: ForeignApp/v1ForeignAppEntity_GetForeignAppEntity.md
+  - name: GET ForeignApp/default
+    href: ForeignApp/v1ForeignAppEntity_DefaultForeignAppEntity.md
+  - name: PATCH ForeignApp/{id}
+    href: ForeignApp/v1ForeignAppEntity_PatchForeignAppEntity.md
+  - name: POST ForeignApp
+    href: ForeignApp/v1ForeignAppEntity_PostForeignAppEntity.md
+  - name: POST ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}
+    href: ForeignApp/v1ForeignAppEntity_AddDeviceByIdentifier.md
+  - name: POST ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key
+    href: ForeignApp/v1ForeignAppEntity_AddForeignKey.md
+  - name: POST ForeignApp/{appName}
+    href: ForeignApp/v1ForeignAppEntity_PostForeignApp.md
+  - name: PUT ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}
+    href: ForeignApp/v1ForeignAppEntity_SaveDeviceByIdentifier.md
+  - name: PUT ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key
+    href: ForeignApp/v1ForeignAppEntity_SaveForeignKey.md
+  - name: PUT ForeignApp/{appName}
+    href: ForeignApp/v1ForeignAppEntity_PostForeignApp_PUT.md
+  - name: PUT ForeignApp/{id}
+    href: ForeignApp/v1ForeignAppEntity_PutForeignAppEntity.md
+- name: Hierarchy
+  href: Hierarchy/index.md
+  items:
+  - name: DEL Hierarchy/{domain}/{path}
+    href: Hierarchy/v1HierarchyEntity_DeleteHierarchyFromPath.md
+  - name: DEL Hierarchy/{id}
+    href: Hierarchy/v1HierarchyEntity_DeleteHierarchyEntity.md
+  - name: GET Hierarchy
+    href: Hierarchy/v1HierarchyEntity_GetAllDomains.md
+  - name: GET Hierarchy/{domain}
+    href: Hierarchy/v1HierarchyEntity_GetAllInDomain.md
+  - name: GET Hierarchy/{domain}/{path}
+    href: Hierarchy/v1HierarchyEntity_GetHierarchyFromPath.md
+  - name: GET Hierarchy/{id}
+    href: Hierarchy/v1HierarchyEntity_GetHierarchyEntity.md
+  - name: GET Hierarchy/default
+    href: Hierarchy/v1HierarchyEntity_DefaultHierarchyEntity.md
+  - name: PATCH Hierarchy/{id}
+    href: Hierarchy/v1HierarchyEntity_PatchHierarchyEntity.md
+  - name: POST Hierarchy
+    href: Hierarchy/v1HierarchyEntity_PostHierarchyEntity.md
+  - name: POST Hierarchy/{domain}/{path}
+    href: Hierarchy/v1HierarchyEntity_AddHierarchyToPath.md
+  - name: PUT Hierarchy/{domain}/{path}
+    href: Hierarchy/v1HierarchyEntity_UpdateHierarchyFromPath.md
+  - name: PUT Hierarchy/{id}
+    href: Hierarchy/v1HierarchyEntity_PutHierarchyEntity.md
+- name: License
+  href: License/index.md
+  items:
+  - name: DEL License/{moduleOwner}
+    href: License/v1License_RemoveLicenseFromDB.md
+  - name: DEL License/{moduleOwner}/{id}
+    href: License/v1License_UnassignThirdPartyLicenses.md
+  - name: GET License
+    href: License/v1License_GetLicenseForAllOwnersFromDB.md
+  - name: GET License/{moduleOwner}/{id}
+    href: License/v1License_GetThirdPartyLicenseAssignments.md
+  - name: GET License/{ownerName}
+    href: License/v1License_GetLicenseFromDB.md
+  - name: GET License/{ownerName}/{moduleName}
+    href: License/v1License_GetModuleLicenseFromDB.md
+  - name: GET License/{ownerName}/ShopUrl
+    href: License/v1License_GetShopUrl.md
+  - name: GET License/Site/{id}
+    href: License/v1License_GetSatelliteLicenses.md
+  - name: GET License/User/{id}
+    href: License/v1License_GetUserLicenses.md
+  - name: GET License/User/MdoList
+    href: License/v1License_GetUserLicensesMDOList.md
+  - name: POST License
+    href: License/v1License_AddLicenseFromFile.md
+  - name: POST License/ChangeSerialNumber
+    href: License/v1License_ChangeSerialNumber.md
+  - name: PUT License/{moduleOwner}/{id}
+    href: License/v1License_AssignThirdPartyLicenses.md
+- name: List
+  href: List/index.md
+  items:
+  - name: DEL List/{id}
+    href: List/v1ListEntity_DeleteListEntity.md
+  - name: DEL List/{name}
+    href: List/v1ListEntity_DeleteListEntityByName.md
+  - name: GET List
+    href: List/v1ListEntity_GetListDefinitions.md
+  - name: GET List/{id}
+    href: List/v1ListEntity_GetListEntity.md
+  - name: GET List/{name}
+    href: List/v1ListEntity_GetListEntityByName.md
+  - name: GET List/default
+    href: List/v1ListEntity_DefaultListEntity.md
+  - name: PATCH List/{id}
+    href: List/v1ListEntity_PatchListEntity.md
+  - name: POST List
+    href: List/v1ListEntity_PostListEntity.md
+  - name: PUT List/{id}
+    href: List/v1ListEntity_PutListEntity.md
+  - name: PUT List/{name}
+    href: List/v1ListEntity_SaveListEntityByName.md
+- name: List_Business
+  href: List_Business/index.md
+  items:
+  - name: DEL List/Business/Headings
+    href: List_Business/v1BusinessList_DeleteBusinessHeadings.md
+  - name: DEL List/Business/Items
+    href: List_Business/v1BusinessList_DeleteAllBusiness.md
+  - name: DEL List/Business/Items/{id}
+    href: List_Business/v1BusinessList_DeleteBusiness.md
+  - name: GET List/Business
+    href: List_Business/v1BusinessList_GetListDefinition.md
+  - name: GET List/Business/Headings
+    href: List_Business/v1BusinessList_GetBusinessHeadings.md
+  - name: GET List/Business/Items
+    href: List_Business/v1BusinessList_GetAll.md
+  - name: GET List/Business/Items/{id}
+    href: List_Business/v1BusinessList_GetBusiness.md
+  - name: GET List/Business/Items/{id}/Headings
+    href: List_Business/v1BusinessList_GetBusinessHeadingsForListItem.md
+  - name: GET List/Business/Items/{id}/UserGroups
+    href: List_Business/v1BusinessList_GetBusinessUserGroupsForListItem.md
+  - name: GET List/Business/Items/Default
+    href: List_Business/v1BusinessList_CreateDefaultBusiness.md
+  - name: GET List/Business/MDOItems
+    href: List_Business/v1BusinessList_GetMDOList.md
+  - name: POST List/Business/Headings
+    href: List_Business/v1BusinessList_PostBusinessHeading.md
+  - name: POST List/Business/Items
+    href: List_Business/v1BusinessList_PostBusiness.md
+  - name: PUT List/Business
+    href: List_Business/v1BusinessList_SetListDefinition.md
+  - name: PUT List/Business/Headings
+    href: List_Business/v1BusinessList_PutBusinessHeadings.md
+  - name: PUT List/Business/Items
+    href: List_Business/v1BusinessList_PutAllBusiness.md
+  - name: PUT List/Business/Items/{id}
+    href: List_Business/v1BusinessList_PutBusiness.md
+  - name: PUT List/Business/Items/{id}/Headings
+    href: List_Business/v1BusinessList_PutBusinessHeadingsForListItem.md
+  - name: PUT List/Business/Items/{id}/UserGroups
+    href: List_Business/v1BusinessList_PutBusinessUserGroupsForListItem.md
+- name: List_Category
+  href: List_Category/index.md
+  items:
+  - name: DEL List/Category/Headings
+    href: List_Category/v1CategoryList_DeleteCategoryHeadings.md
+  - name: DEL List/Category/Items
+    href: List_Category/v1CategoryList_DeleteAllCategory.md
+  - name: DEL List/Category/Items/{id}
+    href: List_Category/v1CategoryList_DeleteCategory.md
+  - name: GET List/Category
+    href: List_Category/v1CategoryList_GetListDefinition.md
+  - name: GET List/Category/Headings
+    href: List_Category/v1CategoryList_GetCategoryHeadings.md
+  - name: GET List/Category/Items
+    href: List_Category/v1CategoryList_GetAll.md
+  - name: GET List/Category/Items/{id}
+    href: List_Category/v1CategoryList_GetCategory.md
+  - name: GET List/Category/Items/{id}/Headings
+    href: List_Category/v1CategoryList_GetCategoryHeadingsForListItem.md
+  - name: GET List/Category/Items/{id}/UserGroups
+    href: List_Category/v1CategoryList_GetCategoryUserGroupsForListItem.md
+  - name: GET List/Category/Items/Default
+    href: List_Category/v1CategoryList_CreateDefaultCategory.md
+  - name: GET List/Category/MDOItems
+    href: List_Category/v1CategoryList_GetMDOList.md
+  - name: POST List/Category/Headings
+    href: List_Category/v1CategoryList_PostCategoryHeading.md
+  - name: POST List/Category/Items
+    href: List_Category/v1CategoryList_PostCategory.md
+  - name: PUT List/Category
+    href: List_Category/v1CategoryList_SetListDefinition.md
+  - name: PUT List/Category/Headings
+    href: List_Category/v1CategoryList_PutCategoryHeadings.md
+  - name: PUT List/Category/Items
+    href: List_Category/v1CategoryList_PutAllCategory.md
+  - name: PUT List/Category/Items/{id}
+    href: List_Category/v1CategoryList_PutCategory.md
+  - name: PUT List/Category/Items/{id}/Headings
+    href: List_Category/v1CategoryList_PutCategoryHeadingsForListItem.md
+  - name: PUT List/Category/Items/{id}/UserGroups
+    href: List_Category/v1CategoryList_PutCategoryUserGroupsForListItem.md
+- name: List_Competitor
+  href: List_Competitor/index.md
+  items:
+  - name: DEL List/Competitor/Headings
+    href: List_Competitor/v1CompetitorList_DeleteCompetitorHeadings.md
+  - name: DEL List/Competitor/Items
+    href: List_Competitor/v1CompetitorList_DeleteAllCompetitor.md
+  - name: DEL List/Competitor/Items/{id}
+    href: List_Competitor/v1CompetitorList_DeleteCompetitor.md
+  - name: GET List/Competitor
+    href: List_Competitor/v1CompetitorList_GetListDefinition.md
+  - name: GET List/Competitor/Headings
+    href: List_Competitor/v1CompetitorList_GetCompetitorHeadings.md
+  - name: GET List/Competitor/Items
+    href: List_Competitor/v1CompetitorList_GetAll.md
+  - name: GET List/Competitor/Items/{id}
+    href: List_Competitor/v1CompetitorList_GetCompetitor.md
+  - name: GET List/Competitor/Items/{id}/Headings
+    href: List_Competitor/v1CompetitorList_GetCompetitorHeadingsForListItem.md
+  - name: GET List/Competitor/Items/{id}/UserGroups
+    href: List_Competitor/v1CompetitorList_GetCompetitorUserGroupsForListItem.md
+  - name: GET List/Competitor/Items/Default
+    href: List_Competitor/v1CompetitorList_CreateDefaultCompetitor.md
+  - name: GET List/Competitor/MDOItems
+    href: List_Competitor/v1CompetitorList_GetMDOList.md
+  - name: POST List/Competitor/Headings
+    href: List_Competitor/v1CompetitorList_PostCompetitorHeading.md
+  - name: POST List/Competitor/Items
+    href: List_Competitor/v1CompetitorList_PostCompetitor.md
+  - name: PUT List/Competitor
+    href: List_Competitor/v1CompetitorList_SetListDefinition.md
+  - name: PUT List/Competitor/Headings
+    href: List_Competitor/v1CompetitorList_PutCompetitorHeadings.md
+  - name: PUT List/Competitor/Items
+    href: List_Competitor/v1CompetitorList_PutAllCompetitor.md
+  - name: PUT List/Competitor/Items/{id}
+    href: List_Competitor/v1CompetitorList_PutCompetitor.md
+  - name: PUT List/Competitor/Items/{id}/Headings
+    href: List_Competitor/v1CompetitorList_PutCompetitorHeadingsForListItem.md
+  - name: PUT List/Competitor/Items/{id}/UserGroups
+    href: List_Competitor/v1CompetitorList_PutCompetitorUserGroupsForListItem.md
+- name: List_ConsentPurpose
+  href: List_ConsentPurpose/index.md
+  items:
+  - name: DEL List/ConsentPurpose/Headings
+    href: List_ConsentPurpose/v1ConsentPurposeList_DeleteConsentPurposeHeadings.md
+  - name: DEL List/ConsentPurpose/Items/{id}
+    href: List_ConsentPurpose/v1ConsentPurposeList_DeleteConsentPurpose.md
+  - name: GET List/ConsentPurpose
+    href: List_ConsentPurpose/v1ConsentPurposeList_GetListDefinition.md
+  - name: GET List/ConsentPurpose/Headings
+    href: List_ConsentPurpose/v1ConsentPurposeList_GetConsentPurposeHeadings.md
+  - name: GET List/ConsentPurpose/Items
+    href: List_ConsentPurpose/v1ConsentPurposeList_GetAllConsentPurpose.md
+  - name: GET List/ConsentPurpose/Items/{id}
+    href: List_ConsentPurpose/v1ConsentPurposeList_GetConsentPurpose.md
+  - name: GET List/ConsentPurpose/Items/{id}/Headings
+    href: List_ConsentPurpose/v1ConsentPurposeList_GetConsentPurposeHeadingsForListItem.md
+  - name: GET List/ConsentPurpose/Items/{id}/UserGroups
+    href: List_ConsentPurpose/v1ConsentPurposeList_GetConsentPurposeUserGroupsForListItem.md
+  - name: GET List/ConsentPurpose/MDOItems
+    href: List_ConsentPurpose/v1ConsentPurposeList_GetMDOList.md
+  - name: POST List/ConsentPurpose/Headings
+    href: List_ConsentPurpose/v1ConsentPurposeList_PostConsentPurposeHeading.md
+  - name: POST List/ConsentPurpose/Items
+    href: List_ConsentPurpose/v1ConsentPurposeList_PostConsentPurpose.md
+  - name: PUT List/ConsentPurpose
+    href: List_ConsentPurpose/v1ConsentPurposeList_SetListDefinition.md
+  - name: PUT List/ConsentPurpose/Headings
+    href: List_ConsentPurpose/v1ConsentPurposeList_PutConsentPurposeHeadings.md
+  - name: PUT List/ConsentPurpose/Items/{id}
+    href: List_ConsentPurpose/v1ConsentPurposeList_PutConsentPurpose.md
+  - name: PUT List/ConsentPurpose/Items/{id}/Headings
+    href: List_ConsentPurpose/v1ConsentPurposeList_PutConsentPurposeHeadingsForListItem.md
+  - name: PUT List/ConsentPurpose/Items/{id}/UserGroups
+    href: List_ConsentPurpose/v1ConsentPurposeList_PutConsentPurposeUserGroupsForListItem.md
+- name: List_ConsentSource
+  href: List_ConsentSource/index.md
+  items:
+  - name: DEL List/ConsentSource/Headings
+    href: List_ConsentSource/v1ConsentSourceList_DeleteConsentSourceHeadings.md
+  - name: DEL List/ConsentSource/Items/{id}
+    href: List_ConsentSource/v1ConsentSourceList_DeleteConsentSource.md
+  - name: GET List/ConsentSource
+    href: List_ConsentSource/v1ConsentSourceList_GetListDefinition.md
+  - name: GET List/ConsentSource/Headings
+    href: List_ConsentSource/v1ConsentSourceList_GetConsentSourceHeadings.md
+  - name: GET List/ConsentSource/Items
+    href: List_ConsentSource/v1ConsentSourceList_GetAllConsentSource.md
+  - name: GET List/ConsentSource/Items/{id}
+    href: List_ConsentSource/v1ConsentSourceList_GetConsentSource.md
+  - name: GET List/ConsentSource/Items/{id}/Headings
+    href: List_ConsentSource/v1ConsentSourceList_GetConsentSourceHeadingsForListItem.md
+  - name: GET List/ConsentSource/Items/{id}/UserGroups
+    href: List_ConsentSource/v1ConsentSourceList_GetConsentSourceUserGroupsForListItem.md
+  - name: GET List/ConsentSource/MDOItems
+    href: List_ConsentSource/v1ConsentSourceList_GetMDOList.md
+  - name: POST List/ConsentSource/Headings
+    href: List_ConsentSource/v1ConsentSourceList_PostConsentSourceHeading.md
+  - name: POST List/ConsentSource/Items
+    href: List_ConsentSource/v1ConsentSourceList_PostConsentSource.md
+  - name: PUT List/ConsentSource
+    href: List_ConsentSource/v1ConsentSourceList_SetListDefinition.md
+  - name: PUT List/ConsentSource/Headings
+    href: List_ConsentSource/v1ConsentSourceList_PutConsentSourceHeadings.md
+  - name: PUT List/ConsentSource/Items/{id}
+    href: List_ConsentSource/v1ConsentSourceList_PutConsentSource.md
+  - name: PUT List/ConsentSource/Items/{id}/Headings
+    href: List_ConsentSource/v1ConsentSourceList_PutConsentSourceHeadingsForListItem.md
+  - name: PUT List/ConsentSource/Items/{id}/UserGroups
+    href: List_ConsentSource/v1ConsentSourceList_PutConsentSourceUserGroupsForListItem.md
+- name: List_Country
+  href: List_Country/index.md
+  items:
+  - name: DEL List/Country/Headings
+    href: List_Country/v1CountryList_DeleteCountryHeadings.md
+  - name: DEL List/Country/Items/{id}
+    href: List_Country/v1CountryList_DeleteCountry.md
+  - name: GET List/Country
+    href: List_Country/v1CountryList_GetListDefinition.md
+  - name: GET List/Country/Headings
+    href: List_Country/v1CountryList_GetCountryHeadings.md
+  - name: GET List/Country/Items
+    href: List_Country/v1CountryList_GetAllCountry.md
+  - name: GET List/Country/Items/{id}
+    href: List_Country/v1CountryList_GetCountry.md
+  - name: GET List/Country/Items/{id}/Headings
+    href: List_Country/v1CountryList_GetCountryHeadingsForListItem.md
+  - name: GET List/Country/Items/{id}/UserGroups
+    href: List_Country/v1CountryList_GetCountryUserGroupsForListItem.md
+  - name: GET List/Country/MDOItems
+    href: List_Country/v1CountryList_GetMDOList.md
+  - name: POST List/Country/Headings
+    href: List_Country/v1CountryList_PostCountryHeading.md
+  - name: POST List/Country/Items
+    href: List_Country/v1CountryList_PostCountry.md
+  - name: PUT List/Country
+    href: List_Country/v1CountryList_SetListDefinition.md
+  - name: PUT List/Country/Headings
+    href: List_Country/v1CountryList_PutCountryHeadings.md
+  - name: PUT List/Country/Items/{id}
+    href: List_Country/v1CountryList_PutCountry.md
+  - name: PUT List/Country/Items/{id}/Headings
+    href: List_Country/v1CountryList_PutCountryHeadingsForListItem.md
+  - name: PUT List/Country/Items/{id}/UserGroups
+    href: List_Country/v1CountryList_PutCountryUserGroupsForListItem.md
+- name: List_Credited
+  href: List_Credited/index.md
+  items:
+  - name: DEL List/Credited/Headings
+    href: List_Credited/v1CreditedList_DeleteCreditedHeadings.md
+  - name: DEL List/Credited/Items
+    href: List_Credited/v1CreditedList_DeleteAllCredited.md
+  - name: DEL List/Credited/Items/{id}
+    href: List_Credited/v1CreditedList_DeleteCredited.md
+  - name: GET List/Credited
+    href: List_Credited/v1CreditedList_GetListDefinition.md
+  - name: GET List/Credited/Headings
+    href: List_Credited/v1CreditedList_GetCreditedHeadings.md
+  - name: GET List/Credited/Items
+    href: List_Credited/v1CreditedList_GetAll.md
+  - name: GET List/Credited/Items/{id}
+    href: List_Credited/v1CreditedList_GetCredited.md
+  - name: GET List/Credited/Items/{id}/Headings
+    href: List_Credited/v1CreditedList_GetCreditedHeadingsForListItem.md
+  - name: GET List/Credited/Items/{id}/UserGroups
+    href: List_Credited/v1CreditedList_GetCreditedUserGroupsForListItem.md
+  - name: GET List/Credited/Items/Default
+    href: List_Credited/v1CreditedList_CreateDefaultCredited.md
+  - name: GET List/Credited/MDOItems
+    href: List_Credited/v1CreditedList_GetMDOList.md
+  - name: POST List/Credited/Headings
+    href: List_Credited/v1CreditedList_PostCreditedHeading.md
+  - name: POST List/Credited/Items
+    href: List_Credited/v1CreditedList_PostCredited.md
+  - name: PUT List/Credited
+    href: List_Credited/v1CreditedList_SetListDefinition.md
+  - name: PUT List/Credited/Headings
+    href: List_Credited/v1CreditedList_PutCreditedHeadings.md
+  - name: PUT List/Credited/Items
+    href: List_Credited/v1CreditedList_PutAllCredited.md
+  - name: PUT List/Credited/Items/{id}
+    href: List_Credited/v1CreditedList_PutCredited.md
+  - name: PUT List/Credited/Items/{id}/Headings
+    href: List_Credited/v1CreditedList_PutCreditedHeadingsForListItem.md
+  - name: PUT List/Credited/Items/{id}/UserGroups
+    href: List_Credited/v1CreditedList_PutCreditedUserGroupsForListItem.md
+- name: List_Currency
+  href: List_Currency/index.md
+  items:
+  - name: DEL List/Currency/Headings
+    href: List_Currency/v1CurrencyList_DeleteCurrencyEntityHeadings.md
+  - name: DEL List/Currency/Items/{id}
+    href: List_Currency/v1CurrencyList_DeleteCurrencyEntity.md
+  - name: GET List/Currency
+    href: List_Currency/v1CurrencyList_GetListDefinition.md
+  - name: GET List/Currency/Headings
+    href: List_Currency/v1CurrencyList_GetCurrencyEntityHeadings.md
+  - name: GET List/Currency/Items
+    href: List_Currency/v1CurrencyList_GetAllCurrencyEntity.md
+  - name: GET List/Currency/Items/{id}
+    href: List_Currency/v1CurrencyList_GetCurrencyEntity.md
+  - name: GET List/Currency/Items/{id}/Headings
+    href: List_Currency/v1CurrencyList_GetCurrencyEntityHeadingsForListItem.md
+  - name: GET List/Currency/Items/{id}/UserGroups
+    href: List_Currency/v1CurrencyList_GetCurrencyEntityUserGroupsForListItem.md
+  - name: GET List/Currency/Items/Default
+    href: List_Currency/v1CurrencyList_CreateDefaultCurrencyEntity.md
+  - name: GET List/Currency/MDOItems
+    href: List_Currency/v1CurrencyList_GetMDOList.md
+  - name: POST List/Currency/Headings
+    href: List_Currency/v1CurrencyList_PostCurrencyEntityHeading.md
+  - name: POST List/Currency/Items
+    href: List_Currency/v1CurrencyList_PostCurrencyEntity.md
+  - name: PUT List/Currency
+    href: List_Currency/v1CurrencyList_SetListDefinition.md
+  - name: PUT List/Currency/Headings
+    href: List_Currency/v1CurrencyList_PutCurrencyEntityHeadings.md
+  - name: PUT List/Currency/Items/{id}
+    href: List_Currency/v1CurrencyList_PutCurrencyEntity.md
+  - name: PUT List/Currency/Items/{id}/Headings
+    href: List_Currency/v1CurrencyList_PutCurrencyEntityHeadingsForListItem.md
+  - name: PUT List/Currency/Items/{id}/UserGroups
+    href: List_Currency/v1CurrencyList_PutCurrencyEntityUserGroupsForListItem.md
+- name: List_DeliveryTerms
+  href: List_DeliveryTerms/index.md
+  items:
+  - name: DEL List/DeliveryTerm/Headings
+    href: List_DeliveryTerms/v1DeliveryTermsList_DeleteDeliveryTermHeadings.md
+  - name: DEL List/DeliveryTerm/Items
+    href: List_DeliveryTerms/v1DeliveryTermsList_DeleteAllDeliveryTerm.md
+  - name: DEL List/DeliveryTerm/Items/{id}
+    href: List_DeliveryTerms/v1DeliveryTermsList_DeleteDeliveryTerm.md
+  - name: GET List/DeliveryTerm
+    href: List_DeliveryTerms/v1DeliveryTermsList_GetListDefinition.md
+  - name: GET List/DeliveryTerm/Headings
+    href: List_DeliveryTerms/v1DeliveryTermsList_GetDeliveryTermHeadings.md
+  - name: GET List/DeliveryTerm/Items
+    href: List_DeliveryTerms/v1DeliveryTermsList_GetAll.md
+  - name: GET List/DeliveryTerm/Items/{id}
+    href: List_DeliveryTerms/v1DeliveryTermsList_GetDeliveryTerm.md
+  - name: GET List/DeliveryTerm/Items/{id}/Headings
+    href: List_DeliveryTerms/v1DeliveryTermsList_GetDeliveryTermHeadingsForListItem.md
+  - name: GET List/DeliveryTerm/Items/{id}/UserGroups
+    href: List_DeliveryTerms/v1DeliveryTermsList_GetDeliveryTermUserGroupsForListItem.md
+  - name: GET List/DeliveryTerm/Items/Default
+    href: List_DeliveryTerms/v1DeliveryTermsList_CreateDefaultDeliveryTerm.md
+  - name: GET List/DeliveryTerm/MDOItems
+    href: List_DeliveryTerms/v1DeliveryTermsList_GetMDOList.md
+  - name: POST List/DeliveryTerm/Headings
+    href: List_DeliveryTerms/v1DeliveryTermsList_PostDeliveryTermHeading.md
+  - name: POST List/DeliveryTerm/Items
+    href: List_DeliveryTerms/v1DeliveryTermsList_PostDeliveryTerm.md
+  - name: PUT List/DeliveryTerm
+    href: List_DeliveryTerms/v1DeliveryTermsList_SetListDefinition.md
+  - name: PUT List/DeliveryTerm/Headings
+    href: List_DeliveryTerms/v1DeliveryTermsList_PutDeliveryTermHeadings.md
+  - name: PUT List/DeliveryTerm/Items
+    href: List_DeliveryTerms/v1DeliveryTermsList_PutAllDeliveryTerm.md
+  - name: PUT List/DeliveryTerm/Items/{id}
+    href: List_DeliveryTerms/v1DeliveryTermsList_PutDeliveryTerm.md
+  - name: PUT List/DeliveryTerm/Items/{id}/Headings
+    href: List_DeliveryTerms/v1DeliveryTermsList_PutDeliveryTermHeadingsForListItem.md
+  - name: PUT List/DeliveryTerm/Items/{id}/UserGroups
+    href: List_DeliveryTerms/v1DeliveryTermsList_PutDeliveryTermUserGroupsForListItem.md
+- name: List_DeliveryType
+  href: List_DeliveryType/index.md
+  items:
+  - name: DEL List/DeliveryType/Headings
+    href: List_DeliveryType/v1DeliveryTypeList_DeleteDeliveryTypeHeadings.md
+  - name: DEL List/DeliveryType/Items
+    href: List_DeliveryType/v1DeliveryTypeList_DeleteAllDeliveryType.md
+  - name: DEL List/DeliveryType/Items/{id}
+    href: List_DeliveryType/v1DeliveryTypeList_DeleteDeliveryType.md
+  - name: GET List/DeliveryType
+    href: List_DeliveryType/v1DeliveryTypeList_GetListDefinition.md
+  - name: GET List/DeliveryType/Headings
+    href: List_DeliveryType/v1DeliveryTypeList_GetDeliveryTypeHeadings.md
+  - name: GET List/DeliveryType/Items
+    href: List_DeliveryType/v1DeliveryTypeList_GetAll.md
+  - name: GET List/DeliveryType/Items/{id}
+    href: List_DeliveryType/v1DeliveryTypeList_GetDeliveryType.md
+  - name: GET List/DeliveryType/Items/{id}/Headings
+    href: List_DeliveryType/v1DeliveryTypeList_GetDeliveryTypeHeadingsForListItem.md
+  - name: GET List/DeliveryType/Items/{id}/UserGroups
+    href: List_DeliveryType/v1DeliveryTypeList_GetDeliveryTypeUserGroupsForListItem.md
+  - name: GET List/DeliveryType/Items/Default
+    href: List_DeliveryType/v1DeliveryTypeList_CreateDefaultDeliveryType.md
+  - name: GET List/DeliveryType/MDOItems
+    href: List_DeliveryType/v1DeliveryTypeList_GetMDOList.md
+  - name: POST List/DeliveryType/Headings
+    href: List_DeliveryType/v1DeliveryTypeList_PostDeliveryTypeHeading.md
+  - name: POST List/DeliveryType/Items
+    href: List_DeliveryType/v1DeliveryTypeList_PostDeliveryType.md
+  - name: PUT List/DeliveryType
+    href: List_DeliveryType/v1DeliveryTypeList_SetListDefinition.md
+  - name: PUT List/DeliveryType/Headings
+    href: List_DeliveryType/v1DeliveryTypeList_PutDeliveryTypeHeadings.md
+  - name: PUT List/DeliveryType/Items
+    href: List_DeliveryType/v1DeliveryTypeList_PutAllDeliveryType.md
+  - name: PUT List/DeliveryType/Items/{id}
+    href: List_DeliveryType/v1DeliveryTypeList_PutDeliveryType.md
+  - name: PUT List/DeliveryType/Items/{id}/Headings
+    href: List_DeliveryType/v1DeliveryTypeList_PutDeliveryTypeHeadingsForListItem.md
+  - name: PUT List/DeliveryType/Items/{id}/UserGroups
+    href: List_DeliveryType/v1DeliveryTypeList_PutDeliveryTypeUserGroupsForListItem.md
+- name: List_DocumentTemplate
+  href: List_DocumentTemplate/index.md
+  items:
+  - name: DEL List/DocumentTemplate/Headings
+    href: List_DocumentTemplate/v1DocumentTemplateList_DeleteDocumentTemplateEntityHeadings.md
+  - name: DEL List/DocumentTemplate/Items/{id}
+    href: List_DocumentTemplate/v1DocumentTemplateList_DeleteDocumentTemplateEntity.md
+  - name: DEL List/DocumentTemplate/Items/{id}/Content/{languageCode}
+    href: List_DocumentTemplate/v1DocumentTemplateList_DeleteDocumentTemplateLanguage.md
+  - name: GET List/DocumentTemplate
+    href: List_DocumentTemplate/v1DocumentTemplateList_GetListDefinition.md
+  - name: GET List/DocumentTemplate/Headings
+    href: List_DocumentTemplate/v1DocumentTemplateList_GetDocumentTemplateEntityHeadings.md
+  - name: GET List/DocumentTemplate/Items
+    href: List_DocumentTemplate/v1DocumentTemplateList_GetAllDocumentTemplateEntity.md
+  - name: GET List/DocumentTemplate/Items/{id}
+    href: List_DocumentTemplate/v1DocumentTemplateList_GetDocumentTemplateEntity.md
+  - name: GET List/DocumentTemplate/Items/{id}/Content/{languageCode}
+    href: List_DocumentTemplate/v1DocumentTemplateList_GetDocumentTemplateStreamFromId.md
+  - name: GET List/DocumentTemplate/Items/{id}/Extension
+    href: List_DocumentTemplate/v1DocumentTemplateList_GetDocumentTemplateExtension.md
+  - name: GET List/DocumentTemplate/Items/{id}/Headings
+    href: List_DocumentTemplate/v1DocumentTemplateList_GetDocumentTemplateEntityHeadingsForListItem.md
+  - name: GET List/DocumentTemplate/Items/{id}/Language
+    href: List_DocumentTemplate/v1DocumentTemplateList_GetDocumentTemplateLanguages.md
+  - name: GET List/DocumentTemplate/Items/{id}/Property
+    href: List_DocumentTemplate/v1DocumentTemplateList_GetDocumentTemplateProperties.md
+  - name: GET List/DocumentTemplate/Items/{id}/Url
+    href: List_DocumentTemplate/v1DocumentTemplateList_GetDocumentTemplateUrl.md
+  - name: GET List/DocumentTemplate/Items/{id}/UserGroups
+    href: List_DocumentTemplate/v1DocumentTemplateList_GetDocumentTemplateEntityUserGroupsForListItem.md
+  - name: GET List/DocumentTemplate/Items/Default
+    href: List_DocumentTemplate/v1DocumentTemplateList_CreateDefaultDocumentTemplateEntity.md
+  - name: GET List/DocumentTemplate/MDOItems
+    href: List_DocumentTemplate/v1DocumentTemplateList_GetMDOList.md
+  - name: GET List/DocumentTemplate/Plugin
+    href: List_DocumentTemplate/v1DocumentTemplateList_GetPluginList.md
+  - name: GET List/DocumentTemplate/Plugin/{id}
+    href: List_DocumentTemplate/v1DocumentTemplateList_GetPluginCapabilities.md
+  - name: GET List/DocumentTemplate/Plugin/{id}/DocumentTypes
+    href: List_DocumentTemplate/v1DocumentTemplateList_GetDocumentTypesForPlugin.md
+  - name: POST List/DocumentTemplate/Headings
+    href: List_DocumentTemplate/v1DocumentTemplateList_PostDocumentTemplateEntityHeading.md
+  - name: POST List/DocumentTemplate/Items
+    href: List_DocumentTemplate/v1DocumentTemplateList_PostDocumentTemplateEntity.md
+  - name: POST List/DocumentTemplate/Items/{id}/Content/{languageCode}
+    href: List_DocumentTemplate/v1DocumentTemplateList_CreateDefaultDocumentTemplateLanguage.md
+  - name: PUT List/DocumentTemplate
+    href: List_DocumentTemplate/v1DocumentTemplateList_SetListDefinition.md
+  - name: PUT List/DocumentTemplate/Headings
+    href: List_DocumentTemplate/v1DocumentTemplateList_PutDocumentTemplateEntityHeadings.md
+  - name: PUT List/DocumentTemplate/Items/{id}
+    href: List_DocumentTemplate/v1DocumentTemplateList_PutDocumentTemplateEntity.md
+  - name: PUT List/DocumentTemplate/Items/{id}/Content/{languageCode}
+    href: List_DocumentTemplate/v1DocumentTemplateList_SaveDocumentTemplateStream.md
+  - name: PUT List/DocumentTemplate/Items/{id}/Headings
+    href: List_DocumentTemplate/v1DocumentTemplateList_PutDocumentTemplateEntityHeadingsForListItem.md
+  - name: PUT List/DocumentTemplate/Items/{id}/UserGroups
+    href: List_DocumentTemplate/v1DocumentTemplateList_PutDocumentTemplateEntityUserGroupsForListItem.md
+- name: List_Item
+  href: List_Item/index.md
+  items:
+  - name: DEL List/{id}/Headings
+    href: List_Item/v1ListItemEntity_DeleteAllHeadingsFromListDefinition.md
+  - name: DEL List/{id}/Items
+    href: List_Item/v1ListItemEntity_DeleteAllFromListDefinition.md
+  - name: DEL List/{id}/Items/{id}
+    href: List_Item/v1ListItemEntity_DeleteFromListDefinition.md
+  - name: DEL List/{name}/Headings
+    href: List_Item/v1ListItemEntity_DeleteAllHeadingsFromName.md
+  - name: DEL List/{udListDefinitionName}/Items
+    href: List_Item/v1ListItemEntity_DeleteAllFromListName.md
+  - name: DEL List/{udListDefinitionName}/Items/{id}
+    href: List_Item/v1ListItemEntity_DeleteFromListName.md
+  - name: GET List/{id}/Headings
+    href: List_Item/v1ListItemEntity_GetHeadingsFromListDefinition.md
+  - name: GET List/{id}/Items
+    href: List_Item/v1ListItemEntity_GetAllFromListDefinition.md
+  - name: GET List/{id}/Items/{id}
+    href: List_Item/v1ListItemEntity_GetFromListDefinition.md
+  - name: GET List/{id}/Items/{id}/Headings
+    href: List_Item/v1ListItemEntity_GetHeadings.md
+  - name: GET List/{id}/Items/{id}/UserGroups
+    href: List_Item/v1ListItemEntity_GetVisibleForUserGroups.md
+  - name: GET List/{name}/Headings
+    href: List_Item/v1ListItemEntity_GetHeadingsFromName.md
+  - name: GET List/{udListDefinitionName}/Items
+    href: List_Item/v1ListItemEntity_GetAllFromListName.md
+  - name: GET List/{udListDefinitionName}/Items/{id}
+    href: List_Item/v1ListItemEntity_GetFromListName.md
+  - name: GET List/{udListDefinitionName}/Items/{id}/Headings
+    href: List_Item/v1ListItemEntity_GetHeadingsForListItemFromListName.md
+  - name: GET List/{udListDefinitionName}/Items/{id}/UserGroups
+    href: List_Item/v1ListItemEntity_GetVisibleForUserGroupsFromListName.md
+  - name: POST List/{id}/Headings
+    href: List_Item/v1ListItemEntity_SaveHeadingFromListDefinition.md
+  - name: POST List/{id}/Items
+    href: List_Item/v1ListItemEntity_AddFromListDefinition.md
+  - name: POST List/{name}/Headings
+    href: List_Item/v1ListItemEntity_SaveHeadingFromName.md
+  - name: POST List/{udListDefinitionName}/Items
+    href: List_Item/v1ListItemEntity_AddFromListName.md
+  - name: PUT List/{id}/Headings
+    href: List_Item/v1ListItemEntity_SaveHeadingsFromListDefinition.md
+  - name: PUT List/{id}/Items
+    href: List_Item/v1ListItemEntity_SaveAllFromListDefinition.md
+  - name: PUT List/{id}/Items/{id}
+    href: List_Item/v1ListItemEntity_SaveFromListDefinition.md
+  - name: PUT List/{id}/Items/{id}/Headings
+    href: List_Item/v1ListItemEntity_SaveHeadingsForListItemFromListDefinition.md
+  - name: PUT List/{id}/Items/{id}/UserGroups
+    href: List_Item/v1ListItemEntity_SetVisibleForUserGroups.md
+  - name: PUT List/{name}/Headings
+    href: List_Item/v1ListItemEntity_SaveHeadingsFromName.md
+  - name: PUT List/{udListDefinitionName}/Items
+    href: List_Item/v1ListItemEntity_SaveAllFromListName.md
+  - name: PUT List/{udListDefinitionName}/Items/{id}
+    href: List_Item/v1ListItemEntity_SaveFromListName.md
+  - name: PUT List/{udListDefinitionName}/Items/{id}/Headings
+    href: List_Item/v1ListItemEntity_SaveHeadingsForListItemFromListName.md
+  - name: PUT List/{udListDefinitionName}/Items/{id}/UserGroups
+    href: List_Item/v1ListItemEntity_SetVisibleForUserGroupsFromListName.md
+- name: List_LegalBase
+  href: List_LegalBase/index.md
+  items:
+  - name: DEL List/LegalBase/Headings
+    href: List_LegalBase/v1LegalBaseList_DeleteLegalBaseHeadings.md
+  - name: DEL List/LegalBase/Items/{id}
+    href: List_LegalBase/v1LegalBaseList_DeleteLegalBase.md
+  - name: GET List/LegalBase
+    href: List_LegalBase/v1LegalBaseList_GetListDefinition.md
+  - name: GET List/LegalBase/Headings
+    href: List_LegalBase/v1LegalBaseList_GetLegalBaseHeadings.md
+  - name: GET List/LegalBase/Items
+    href: List_LegalBase/v1LegalBaseList_GetAllLegalBase.md
+  - name: GET List/LegalBase/Items/{id}
+    href: List_LegalBase/v1LegalBaseList_GetLegalBase.md
+  - name: GET List/LegalBase/Items/{id}/Headings
+    href: List_LegalBase/v1LegalBaseList_GetLegalBaseHeadingsForListItem.md
+  - name: GET List/LegalBase/Items/{id}/UserGroups
+    href: List_LegalBase/v1LegalBaseList_GetLegalBaseUserGroupsForListItem.md
+  - name: GET List/LegalBase/MDOItems
+    href: List_LegalBase/v1LegalBaseList_GetMDOList.md
+  - name: POST List/LegalBase/Headings
+    href: List_LegalBase/v1LegalBaseList_PostLegalBaseHeading.md
+  - name: POST List/LegalBase/Items
+    href: List_LegalBase/v1LegalBaseList_PostLegalBase.md
+  - name: PUT List/LegalBase
+    href: List_LegalBase/v1LegalBaseList_SetListDefinition.md
+  - name: PUT List/LegalBase/Headings
+    href: List_LegalBase/v1LegalBaseList_PutLegalBaseHeadings.md
+  - name: PUT List/LegalBase/Items/{id}
+    href: List_LegalBase/v1LegalBaseList_PutLegalBase.md
+  - name: PUT List/LegalBase/Items/{id}/Headings
+    href: List_LegalBase/v1LegalBaseList_PutLegalBaseHeadingsForListItem.md
+  - name: PUT List/LegalBase/Items/{id}/UserGroups
+    href: List_LegalBase/v1LegalBaseList_PutLegalBaseUserGroupsForListItem.md
+- name: List_MDO
+  href: List_MDO/index.md
+  items:
+  - name: GET MDOList
+    href: List_MDO/v1MDOList_GetListOfLists.md
+  - name: GET MDOList/{listname}
+    href: List_MDO/v1MDOList_GetList.md
+  - name: GET MDOList/{listname}/selectable
+    href: List_MDO/v1MDOList_GetSelectableList.md
+- name: List_MrMrs
+  href: List_MrMrs/index.md
+  items:
+  - name: DEL List/MrMrs/Headings
+    href: List_MrMrs/v1MrMrsList_DeleteMrMrsHeadings.md
+  - name: DEL List/MrMrs/Items
+    href: List_MrMrs/v1MrMrsList_DeleteAllMrMrs.md
+  - name: DEL List/MrMrs/Items/{id}
+    href: List_MrMrs/v1MrMrsList_DeleteMrMrs.md
+  - name: GET List/MrMrs
+    href: List_MrMrs/v1MrMrsList_GetListDefinition.md
+  - name: GET List/MrMrs/Headings
+    href: List_MrMrs/v1MrMrsList_GetMrMrsHeadings.md
+  - name: GET List/MrMrs/Items
+    href: List_MrMrs/v1MrMrsList_GetAll.md
+  - name: GET List/MrMrs/Items/{id}
+    href: List_MrMrs/v1MrMrsList_GetMrMrs.md
+  - name: GET List/MrMrs/Items/{id}/Headings
+    href: List_MrMrs/v1MrMrsList_GetMrMrsHeadingsForListItem.md
+  - name: GET List/MrMrs/Items/{id}/UserGroups
+    href: List_MrMrs/v1MrMrsList_GetMrMrsUserGroupsForListItem.md
+  - name: GET List/MrMrs/Items/Default
+    href: List_MrMrs/v1MrMrsList_CreateDefaultMrMrs.md
+  - name: GET List/MrMrs/MDOItems
+    href: List_MrMrs/v1MrMrsList_GetMDOList.md
+  - name: POST List/MrMrs/Headings
+    href: List_MrMrs/v1MrMrsList_PostMrMrsHeading.md
+  - name: POST List/MrMrs/Items
+    href: List_MrMrs/v1MrMrsList_PostMrMrs.md
+  - name: PUT List/MrMrs
+    href: List_MrMrs/v1MrMrsList_SetListDefinition.md
+  - name: PUT List/MrMrs/Headings
+    href: List_MrMrs/v1MrMrsList_PutMrMrsHeadings.md
+  - name: PUT List/MrMrs/Items
+    href: List_MrMrs/v1MrMrsList_PutAllMrMrs.md
+  - name: PUT List/MrMrs/Items/{id}
+    href: List_MrMrs/v1MrMrsList_PutMrMrs.md
+  - name: PUT List/MrMrs/Items/{id}/Headings
+    href: List_MrMrs/v1MrMrsList_PutMrMrsHeadingsForListItem.md
+  - name: PUT List/MrMrs/Items/{id}/UserGroups
+    href: List_MrMrs/v1MrMrsList_PutMrMrsUserGroupsForListItem.md
+- name: List_PaymentTerms
+  href: List_PaymentTerms/index.md
+  items:
+  - name: DEL List/PaymentTerm/Headings
+    href: List_PaymentTerms/v1PaymentTermsList_DeletePaymentTermHeadings.md
+  - name: DEL List/PaymentTerm/Items
+    href: List_PaymentTerms/v1PaymentTermsList_DeleteAllPaymentTerm.md
+  - name: DEL List/PaymentTerm/Items/{id}
+    href: List_PaymentTerms/v1PaymentTermsList_DeletePaymentTerm.md
+  - name: GET List/PaymentTerm
+    href: List_PaymentTerms/v1PaymentTermsList_GetListDefinition.md
+  - name: GET List/PaymentTerm/Headings
+    href: List_PaymentTerms/v1PaymentTermsList_GetPaymentTermHeadings.md
+  - name: GET List/PaymentTerm/Items
+    href: List_PaymentTerms/v1PaymentTermsList_GetAll.md
+  - name: GET List/PaymentTerm/Items/{id}
+    href: List_PaymentTerms/v1PaymentTermsList_GetPaymentTerm.md
+  - name: GET List/PaymentTerm/Items/{id}/Headings
+    href: List_PaymentTerms/v1PaymentTermsList_GetPaymentTermHeadingsForListItem.md
+  - name: GET List/PaymentTerm/Items/{id}/UserGroups
+    href: List_PaymentTerms/v1PaymentTermsList_GetPaymentTermUserGroupsForListItem.md
+  - name: GET List/PaymentTerm/Items/Default
+    href: List_PaymentTerms/v1PaymentTermsList_CreateDefaultPaymentTerm.md
+  - name: GET List/PaymentTerm/MDOItems
+    href: List_PaymentTerms/v1PaymentTermsList_GetMDOList.md
+  - name: POST List/PaymentTerm/Headings
+    href: List_PaymentTerms/v1PaymentTermsList_PostPaymentTermHeading.md
+  - name: POST List/PaymentTerm/Items
+    href: List_PaymentTerms/v1PaymentTermsList_PostPaymentTerm.md
+  - name: PUT List/PaymentTerm
+    href: List_PaymentTerms/v1PaymentTermsList_SetListDefinition.md
+  - name: PUT List/PaymentTerm/Headings
+    href: List_PaymentTerms/v1PaymentTermsList_PutPaymentTermHeadings.md
+  - name: PUT List/PaymentTerm/Items
+    href: List_PaymentTerms/v1PaymentTermsList_PutAllPaymentTerm.md
+  - name: PUT List/PaymentTerm/Items/{id}
+    href: List_PaymentTerms/v1PaymentTermsList_PutPaymentTerm.md
+  - name: PUT List/PaymentTerm/Items/{id}/Headings
+    href: List_PaymentTerms/v1PaymentTermsList_PutPaymentTermHeadingsForListItem.md
+  - name: PUT List/PaymentTerm/Items/{id}/UserGroups
+    href: List_PaymentTerms/v1PaymentTermsList_PutPaymentTermUserGroupsForListItem.md
+- name: List_PaymentType
+  href: List_PaymentType/index.md
+  items:
+  - name: DEL List/PaymentType/Headings
+    href: List_PaymentType/v1PaymentTypeList_DeletePaymentTypeHeadings.md
+  - name: DEL List/PaymentType/Items
+    href: List_PaymentType/v1PaymentTypeList_DeleteAllPaymentType.md
+  - name: DEL List/PaymentType/Items/{id}
+    href: List_PaymentType/v1PaymentTypeList_DeletePaymentType.md
+  - name: GET List/PaymentType
+    href: List_PaymentType/v1PaymentTypeList_GetListDefinition.md
+  - name: GET List/PaymentType/Headings
+    href: List_PaymentType/v1PaymentTypeList_GetPaymentTypeHeadings.md
+  - name: GET List/PaymentType/Items
+    href: List_PaymentType/v1PaymentTypeList_GetAll.md
+  - name: GET List/PaymentType/Items/{id}
+    href: List_PaymentType/v1PaymentTypeList_GetPaymentType.md
+  - name: GET List/PaymentType/Items/{id}/Headings
+    href: List_PaymentType/v1PaymentTypeList_GetPaymentTypeHeadingsForListItem.md
+  - name: GET List/PaymentType/Items/{id}/UserGroups
+    href: List_PaymentType/v1PaymentTypeList_GetPaymentTypeUserGroupsForListItem.md
+  - name: GET List/PaymentType/Items/Default
+    href: List_PaymentType/v1PaymentTypeList_CreateDefaultPaymentType.md
+  - name: GET List/PaymentType/MDOItems
+    href: List_PaymentType/v1PaymentTypeList_GetMDOList.md
+  - name: POST List/PaymentType/Headings
+    href: List_PaymentType/v1PaymentTypeList_PostPaymentTypeHeading.md
+  - name: POST List/PaymentType/Items
+    href: List_PaymentType/v1PaymentTypeList_PostPaymentType.md
+  - name: PUT List/PaymentType
+    href: List_PaymentType/v1PaymentTypeList_SetListDefinition.md
+  - name: PUT List/PaymentType/Headings
+    href: List_PaymentType/v1PaymentTypeList_PutPaymentTypeHeadings.md
+  - name: PUT List/PaymentType/Items
+    href: List_PaymentType/v1PaymentTypeList_PutAllPaymentType.md
+  - name: PUT List/PaymentType/Items/{id}
+    href: List_PaymentType/v1PaymentTypeList_PutPaymentType.md
+  - name: PUT List/PaymentType/Items/{id}/Headings
+    href: List_PaymentType/v1PaymentTypeList_PutPaymentTypeHeadingsForListItem.md
+  - name: PUT List/PaymentType/Items/{id}/UserGroups
+    href: List_PaymentType/v1PaymentTypeList_PutPaymentTypeUserGroupsForListItem.md
+- name: List_Position
+  href: List_Position/index.md
+  items:
+  - name: DEL List/Position/Headings
+    href: List_Position/v1PositionList_DeletePositionHeadings.md
+  - name: DEL List/Position/Items
+    href: List_Position/v1PositionList_DeleteAllPosition.md
+  - name: DEL List/Position/Items/{id}
+    href: List_Position/v1PositionList_DeletePosition.md
+  - name: GET List/Position
+    href: List_Position/v1PositionList_GetListDefinition.md
+  - name: GET List/Position/Headings
+    href: List_Position/v1PositionList_GetPositionHeadings.md
+  - name: GET List/Position/Items
+    href: List_Position/v1PositionList_GetAll.md
+  - name: GET List/Position/Items/{id}
+    href: List_Position/v1PositionList_GetPosition.md
+  - name: GET List/Position/Items/{id}/Headings
+    href: List_Position/v1PositionList_GetPositionHeadingsForListItem.md
+  - name: GET List/Position/Items/{id}/UserGroups
+    href: List_Position/v1PositionList_GetPositionUserGroupsForListItem.md
+  - name: GET List/Position/Items/Default
+    href: List_Position/v1PositionList_CreateDefaultPosition.md
+  - name: GET List/Position/MDOItems
+    href: List_Position/v1PositionList_GetMDOList.md
+  - name: POST List/Position/Headings
+    href: List_Position/v1PositionList_PostPositionHeading.md
+  - name: POST List/Position/Items
+    href: List_Position/v1PositionList_PostPosition.md
+  - name: PUT List/Position
+    href: List_Position/v1PositionList_SetListDefinition.md
+  - name: PUT List/Position/Headings
+    href: List_Position/v1PositionList_PutPositionHeadings.md
+  - name: PUT List/Position/Items
+    href: List_Position/v1PositionList_PutAllPosition.md
+  - name: PUT List/Position/Items/{id}
+    href: List_Position/v1PositionList_PutPosition.md
+  - name: PUT List/Position/Items/{id}/Headings
+    href: List_Position/v1PositionList_PutPositionHeadingsForListItem.md
+  - name: PUT List/Position/Items/{id}/UserGroups
+    href: List_Position/v1PositionList_PutPositionUserGroupsForListItem.md
+- name: List_Price
+  href: List_Price/index.md
+  items:
+  - name: DEL Pricelist/{id}
+    href: List_Price/v1PriceList_DeletePriceList.md
+  - name: GET Pricelist
+    href: List_Price/v1PriceList_GetAll.md
+  - name: GET Pricelist/{id}
+    href: List_Price/v1PriceList_GetPriceList.md
+  - name: GET Pricelist/{id}/Products
+    href: List_Price/v1PriceList_Products.md
+  - name: GET Pricelist/default
+    href: List_Price/v1PriceList_DefaultPriceList.md
+  - name: PATCH Pricelist/{id}
+    href: List_Price/v1PriceList_PatchPriceList.md
+  - name: POST Pricelist
+    href: List_Price/v1PriceList_PostPriceList.md
+  - name: POST Pricelist/{id}/CopyTo/{newName}
+    href: List_Price/v1PriceList_CopySuperOfficePriceList.md
+  - name: PUT Pricelist/{id}
+    href: List_Price/v1PriceList_PutPriceList.md
+- name: List_Priority
+  href: List_Priority/index.md
+  items:
+  - name: DEL List/Priority/Headings
+    href: List_Priority/v1PriorityList_DeletePriorityHeadings.md
+  - name: DEL List/Priority/Items
+    href: List_Priority/v1PriorityList_DeleteAllPriority.md
+  - name: DEL List/Priority/Items/{id}
+    href: List_Priority/v1PriorityList_DeletePriority.md
+  - name: GET List/Priority
+    href: List_Priority/v1PriorityList_GetListDefinition.md
+  - name: GET List/Priority/Headings
+    href: List_Priority/v1PriorityList_GetPriorityHeadings.md
+  - name: GET List/Priority/Items
+    href: List_Priority/v1PriorityList_GetAll.md
+  - name: GET List/Priority/Items/{id}
+    href: List_Priority/v1PriorityList_GetPriority.md
+  - name: GET List/Priority/Items/{id}/Headings
+    href: List_Priority/v1PriorityList_GetPriorityHeadingsForListItem.md
+  - name: GET List/Priority/Items/{id}/UserGroups
+    href: List_Priority/v1PriorityList_GetPriorityUserGroupsForListItem.md
+  - name: GET List/Priority/Items/Default
+    href: List_Priority/v1PriorityList_CreateDefaultPriority.md
+  - name: GET List/Priority/MDOItems
+    href: List_Priority/v1PriorityList_GetMDOList.md
+  - name: POST List/Priority/Headings
+    href: List_Priority/v1PriorityList_PostPriorityHeading.md
+  - name: POST List/Priority/Items
+    href: List_Priority/v1PriorityList_PostPriority.md
+  - name: PUT List/Priority
+    href: List_Priority/v1PriorityList_SetListDefinition.md
+  - name: PUT List/Priority/Headings
+    href: List_Priority/v1PriorityList_PutPriorityHeadings.md
+  - name: PUT List/Priority/Items
+    href: List_Priority/v1PriorityList_PutAllPriority.md
+  - name: PUT List/Priority/Items/{id}
+    href: List_Priority/v1PriorityList_PutPriority.md
+  - name: PUT List/Priority/Items/{id}/Headings
+    href: List_Priority/v1PriorityList_PutPriorityHeadingsForListItem.md
+  - name: PUT List/Priority/Items/{id}/UserGroups
+    href: List_Priority/v1PriorityList_PutPriorityUserGroupsForListItem.md
+- name: List_ProductCategory
+  href: List_ProductCategory/index.md
+  items:
+  - name: DEL List/ProductCategory/Headings
+    href: List_ProductCategory/v1ProductCategoryList_DeleteProductCategoryHeadings.md
+  - name: DEL List/ProductCategory/Items
+    href: List_ProductCategory/v1ProductCategoryList_DeleteAllProductCategory.md
+  - name: DEL List/ProductCategory/Items/{id}
+    href: List_ProductCategory/v1ProductCategoryList_DeleteProductCategory.md
+  - name: GET List/ProductCategory
+    href: List_ProductCategory/v1ProductCategoryList_GetListDefinition.md
+  - name: GET List/ProductCategory/Headings
+    href: List_ProductCategory/v1ProductCategoryList_GetProductCategoryHeadings.md
+  - name: GET List/ProductCategory/Items
+    href: List_ProductCategory/v1ProductCategoryList_GetAll.md
+  - name: GET List/ProductCategory/Items/{id}
+    href: List_ProductCategory/v1ProductCategoryList_GetProductCategory.md
+  - name: GET List/ProductCategory/Items/{id}/Headings
+    href: List_ProductCategory/v1ProductCategoryList_GetProductCategoryHeadingsForListItem.md
+  - name: GET List/ProductCategory/Items/{id}/UserGroups
+    href: List_ProductCategory/v1ProductCategoryList_GetProductCategoryUserGroupsForListItem.md
+  - name: GET List/ProductCategory/Items/Default
+    href: List_ProductCategory/v1ProductCategoryList_CreateDefaultProductCategory.md
+  - name: GET List/ProductCategory/MDOItems
+    href: List_ProductCategory/v1ProductCategoryList_GetMDOList.md
+  - name: POST List/ProductCategory/Headings
+    href: List_ProductCategory/v1ProductCategoryList_PostProductCategoryHeading.md
+  - name: POST List/ProductCategory/Items
+    href: List_ProductCategory/v1ProductCategoryList_PostProductCategory.md
+  - name: PUT List/ProductCategory
+    href: List_ProductCategory/v1ProductCategoryList_SetListDefinition.md
+  - name: PUT List/ProductCategory/Headings
+    href: List_ProductCategory/v1ProductCategoryList_PutProductCategoryHeadings.md
+  - name: PUT List/ProductCategory/Items
+    href: List_ProductCategory/v1ProductCategoryList_PutAllProductCategory.md
+  - name: PUT List/ProductCategory/Items/{id}
+    href: List_ProductCategory/v1ProductCategoryList_PutProductCategory.md
+  - name: PUT List/ProductCategory/Items/{id}/Headings
+    href: List_ProductCategory/v1ProductCategoryList_PutProductCategoryHeadingsForListItem.md
+  - name: PUT List/ProductCategory/Items/{id}/UserGroups
+    href: List_ProductCategory/v1ProductCategoryList_PutProductCategoryUserGroupsForListItem.md
+- name: List_ProductFamily
+  href: List_ProductFamily/index.md
+  items:
+  - name: DEL List/ProductFamily/Headings
+    href: List_ProductFamily/v1ProductFamilyList_DeleteProductFamilyHeadings.md
+  - name: DEL List/ProductFamily/Items
+    href: List_ProductFamily/v1ProductFamilyList_DeleteAllProductFamily.md
+  - name: DEL List/ProductFamily/Items/{id}
+    href: List_ProductFamily/v1ProductFamilyList_DeleteProductFamily.md
+  - name: GET List/ProductFamily
+    href: List_ProductFamily/v1ProductFamilyList_GetListDefinition.md
+  - name: GET List/ProductFamily/Headings
+    href: List_ProductFamily/v1ProductFamilyList_GetProductFamilyHeadings.md
+  - name: GET List/ProductFamily/Items
+    href: List_ProductFamily/v1ProductFamilyList_GetAll.md
+  - name: GET List/ProductFamily/Items/{id}
+    href: List_ProductFamily/v1ProductFamilyList_GetProductFamily.md
+  - name: GET List/ProductFamily/Items/{id}/Headings
+    href: List_ProductFamily/v1ProductFamilyList_GetProductFamilyHeadingsForListItem.md
+  - name: GET List/ProductFamily/Items/{id}/UserGroups
+    href: List_ProductFamily/v1ProductFamilyList_GetProductFamilyUserGroupsForListItem.md
+  - name: GET List/ProductFamily/Items/Default
+    href: List_ProductFamily/v1ProductFamilyList_CreateDefaultProductFamily.md
+  - name: GET List/ProductFamily/MDOItems
+    href: List_ProductFamily/v1ProductFamilyList_GetMDOList.md
+  - name: POST List/ProductFamily/Headings
+    href: List_ProductFamily/v1ProductFamilyList_PostProductFamilyHeading.md
+  - name: POST List/ProductFamily/Items
+    href: List_ProductFamily/v1ProductFamilyList_PostProductFamily.md
+  - name: PUT List/ProductFamily
+    href: List_ProductFamily/v1ProductFamilyList_SetListDefinition.md
+  - name: PUT List/ProductFamily/Headings
+    href: List_ProductFamily/v1ProductFamilyList_PutProductFamilyHeadings.md
+  - name: PUT List/ProductFamily/Items
+    href: List_ProductFamily/v1ProductFamilyList_PutAllProductFamily.md
+  - name: PUT List/ProductFamily/Items/{id}
+    href: List_ProductFamily/v1ProductFamilyList_PutProductFamily.md
+  - name: PUT List/ProductFamily/Items/{id}/Headings
+    href: List_ProductFamily/v1ProductFamilyList_PutProductFamilyHeadingsForListItem.md
+  - name: PUT List/ProductFamily/Items/{id}/UserGroups
+    href: List_ProductFamily/v1ProductFamilyList_PutProductFamilyUserGroupsForListItem.md
+- name: List_ProductType
+  href: List_ProductType/index.md
+  items:
+  - name: DEL List/ProductType/Headings
+    href: List_ProductType/v1ProductTypeList_DeleteProductTypeHeadings.md
+  - name: DEL List/ProductType/Items
+    href: List_ProductType/v1ProductTypeList_DeleteAllProductType.md
+  - name: DEL List/ProductType/Items/{id}
+    href: List_ProductType/v1ProductTypeList_DeleteProductType.md
+  - name: GET List/ProductType
+    href: List_ProductType/v1ProductTypeList_GetListDefinition.md
+  - name: GET List/ProductType/Headings
+    href: List_ProductType/v1ProductTypeList_GetProductTypeHeadings.md
+  - name: GET List/ProductType/Items
+    href: List_ProductType/v1ProductTypeList_GetAll.md
+  - name: GET List/ProductType/Items/{id}
+    href: List_ProductType/v1ProductTypeList_GetProductType.md
+  - name: GET List/ProductType/Items/{id}/Headings
+    href: List_ProductType/v1ProductTypeList_GetProductTypeHeadingsForListItem.md
+  - name: GET List/ProductType/Items/{id}/UserGroups
+    href: List_ProductType/v1ProductTypeList_GetProductTypeUserGroupsForListItem.md
+  - name: GET List/ProductType/Items/Default
+    href: List_ProductType/v1ProductTypeList_CreateDefaultProductType.md
+  - name: GET List/ProductType/MDOItems
+    href: List_ProductType/v1ProductTypeList_GetMDOList.md
+  - name: POST List/ProductType/Headings
+    href: List_ProductType/v1ProductTypeList_PostProductTypeHeading.md
+  - name: POST List/ProductType/Items
+    href: List_ProductType/v1ProductTypeList_PostProductType.md
+  - name: PUT List/ProductType
+    href: List_ProductType/v1ProductTypeList_SetListDefinition.md
+  - name: PUT List/ProductType/Headings
+    href: List_ProductType/v1ProductTypeList_PutProductTypeHeadings.md
+  - name: PUT List/ProductType/Items
+    href: List_ProductType/v1ProductTypeList_PutAllProductType.md
+  - name: PUT List/ProductType/Items/{id}
+    href: List_ProductType/v1ProductTypeList_PutProductType.md
+  - name: PUT List/ProductType/Items/{id}/Headings
+    href: List_ProductType/v1ProductTypeList_PutProductTypeHeadingsForListItem.md
+  - name: PUT List/ProductType/Items/{id}/UserGroups
+    href: List_ProductType/v1ProductTypeList_PutProductTypeUserGroupsForListItem.md
+- name: List_ProjectStatus
+  href: List_ProjectStatus/index.md
+  items:
+  - name: DEL List/ProjectStatus/Headings
+    href: List_ProjectStatus/v1ProjectStatusList_DeleteProjectStatusHeadings.md
+  - name: DEL List/ProjectStatus/Items
+    href: List_ProjectStatus/v1ProjectStatusList_DeleteAllProjectStatus.md
+  - name: DEL List/ProjectStatus/Items/{id}
+    href: List_ProjectStatus/v1ProjectStatusList_DeleteProjectStatus.md
+  - name: GET List/ProjectStatus
+    href: List_ProjectStatus/v1ProjectStatusList_GetListDefinition.md
+  - name: GET List/ProjectStatus/Headings
+    href: List_ProjectStatus/v1ProjectStatusList_GetProjectStatusHeadings.md
+  - name: GET List/ProjectStatus/Items
+    href: List_ProjectStatus/v1ProjectStatusList_GetAll.md
+  - name: GET List/ProjectStatus/Items/{id}
+    href: List_ProjectStatus/v1ProjectStatusList_GetProjectStatus.md
+  - name: GET List/ProjectStatus/Items/{id}/Headings
+    href: List_ProjectStatus/v1ProjectStatusList_GetProjectStatusHeadingsForListItem.md
+  - name: GET List/ProjectStatus/Items/{id}/UserGroups
+    href: List_ProjectStatus/v1ProjectStatusList_GetProjectStatusUserGroupsForListItem.md
+  - name: GET List/ProjectStatus/Items/Default
+    href: List_ProjectStatus/v1ProjectStatusList_CreateDefaultProjectStatus.md
+  - name: GET List/ProjectStatus/MDOItems
+    href: List_ProjectStatus/v1ProjectStatusList_GetMDOList.md
+  - name: POST List/ProjectStatus/Headings
+    href: List_ProjectStatus/v1ProjectStatusList_PostProjectStatusHeading.md
+  - name: POST List/ProjectStatus/Items
+    href: List_ProjectStatus/v1ProjectStatusList_PostProjectStatus.md
+  - name: PUT List/ProjectStatus
+    href: List_ProjectStatus/v1ProjectStatusList_SetListDefinition.md
+  - name: PUT List/ProjectStatus/Headings
+    href: List_ProjectStatus/v1ProjectStatusList_PutProjectStatusHeadings.md
+  - name: PUT List/ProjectStatus/Items
+    href: List_ProjectStatus/v1ProjectStatusList_PutAllProjectStatus.md
+  - name: PUT List/ProjectStatus/Items/{id}
+    href: List_ProjectStatus/v1ProjectStatusList_PutProjectStatus.md
+  - name: PUT List/ProjectStatus/Items/{id}/Headings
+    href: List_ProjectStatus/v1ProjectStatusList_PutProjectStatusHeadingsForListItem.md
+  - name: PUT List/ProjectStatus/Items/{id}/UserGroups
+    href: List_ProjectStatus/v1ProjectStatusList_PutProjectStatusUserGroupsForListItem.md
+- name: List_ProjectType
+  href: List_ProjectType/index.md
+  items:
+  - name: DEL List/ProjectType/Headings
+    href: List_ProjectType/v1ProjectTypeList_DeleteProjectTypeHeadings.md
+  - name: DEL List/ProjectType/Items
+    href: List_ProjectType/v1ProjectTypeList_DeleteAllProjectType.md
+  - name: DEL List/ProjectType/Items/{id}
+    href: List_ProjectType/v1ProjectTypeList_DeleteProjectType.md
+  - name: GET List/ProjectType
+    href: List_ProjectType/v1ProjectTypeList_GetListDefinition.md
+  - name: GET List/ProjectType/Headings
+    href: List_ProjectType/v1ProjectTypeList_GetProjectTypeHeadings.md
+  - name: GET List/ProjectType/Items
+    href: List_ProjectType/v1ProjectTypeList_GetAll.md
+  - name: GET List/ProjectType/Items/{id}
+    href: List_ProjectType/v1ProjectTypeList_GetProjectType.md
+  - name: GET List/ProjectType/Items/{id}/Headings
+    href: List_ProjectType/v1ProjectTypeList_GetProjectTypeHeadingsForListItem.md
+  - name: GET List/ProjectType/Items/{id}/UserGroups
+    href: List_ProjectType/v1ProjectTypeList_GetProjectTypeUserGroupsForListItem.md
+  - name: GET List/ProjectType/Items/Default
+    href: List_ProjectType/v1ProjectTypeList_CreateDefaultProjectType.md
+  - name: GET List/ProjectType/MDOItems
+    href: List_ProjectType/v1ProjectTypeList_GetMDOList.md
+  - name: POST List/ProjectType/Headings
+    href: List_ProjectType/v1ProjectTypeList_PostProjectTypeHeading.md
+  - name: POST List/ProjectType/Items
+    href: List_ProjectType/v1ProjectTypeList_PostProjectType.md
+  - name: PUT List/ProjectType
+    href: List_ProjectType/v1ProjectTypeList_SetListDefinition.md
+  - name: PUT List/ProjectType/Headings
+    href: List_ProjectType/v1ProjectTypeList_PutProjectTypeHeadings.md
+  - name: PUT List/ProjectType/Items
+    href: List_ProjectType/v1ProjectTypeList_PutAllProjectType.md
+  - name: PUT List/ProjectType/Items/{id}
+    href: List_ProjectType/v1ProjectTypeList_PutProjectType.md
+  - name: PUT List/ProjectType/Items/{id}/Headings
+    href: List_ProjectType/v1ProjectTypeList_PutProjectTypeHeadingsForListItem.md
+  - name: PUT List/ProjectType/Items/{id}/UserGroups
+    href: List_ProjectType/v1ProjectTypeList_PutProjectTypeUserGroupsForListItem.md
+- name: List_Rating
+  href: List_Rating/index.md
+  items:
+  - name: DEL List/Rating/Headings
+    href: List_Rating/v1RatingList_DeleteSaleStageEntityHeadings.md
+  - name: DEL List/Rating/Items/{id}
+    href: List_Rating/v1RatingList_DeleteSaleStageEntity.md
+  - name: GET List/Rating
+    href: List_Rating/v1RatingList_GetListDefinition.md
+  - name: GET List/Rating/Headings
+    href: List_Rating/v1RatingList_GetSaleStageEntityHeadings.md
+  - name: GET List/Rating/Items
+    href: List_Rating/v1RatingList_GetAllSaleStageEntity.md
+  - name: GET List/Rating/Items/{id}
+    href: List_Rating/v1RatingList_GetSaleStageEntity.md
+  - name: GET List/Rating/Items/{id}/Headings
+    href: List_Rating/v1RatingList_GetSaleStageEntityHeadingsForListItem.md
+  - name: GET List/Rating/Items/{id}/UserGroups
+    href: List_Rating/v1RatingList_GetSaleStageEntityUserGroupsForListItem.md
+  - name: GET List/Rating/Items/Default
+    href: List_Rating/v1RatingList_CreateDefaultSaleStageEntity.md
+  - name: GET List/Rating/MDOItems
+    href: List_Rating/v1RatingList_GetMDOList.md
+  - name: POST List/Rating/Headings
+    href: List_Rating/v1RatingList_PostSaleStageEntityHeading.md
+  - name: POST List/Rating/Items
+    href: List_Rating/v1RatingList_PostSaleStageEntity.md
+  - name: PUT List/Rating
+    href: List_Rating/v1RatingList_SetListDefinition.md
+  - name: PUT List/Rating/Headings
+    href: List_Rating/v1RatingList_PutSaleStageEntityHeadings.md
+  - name: PUT List/Rating/Items/{id}
+    href: List_Rating/v1RatingList_PutSaleStageEntity.md
+  - name: PUT List/Rating/Items/{id}/Headings
+    href: List_Rating/v1RatingList_PutSaleStageEntityHeadingsForListItem.md
+  - name: PUT List/Rating/Items/{id}/UserGroups
+    href: List_Rating/v1RatingList_PutSaleStageEntityUserGroupsForListItem.md
+- name: List_Reason
+  href: List_Reason/index.md
+  items:
+  - name: DEL List/Reason/Headings
+    href: List_Reason/v1ReasonList_DeleteReasonHeadings.md
+  - name: DEL List/Reason/Items
+    href: List_Reason/v1ReasonList_DeleteAllReason.md
+  - name: DEL List/Reason/Items/{id}
+    href: List_Reason/v1ReasonList_DeleteReason.md
+  - name: GET List/Reason
+    href: List_Reason/v1ReasonList_GetListDefinition.md
+  - name: GET List/Reason/Headings
+    href: List_Reason/v1ReasonList_GetReasonHeadings.md
+  - name: GET List/Reason/Items
+    href: List_Reason/v1ReasonList_GetAll.md
+  - name: GET List/Reason/Items/{id}
+    href: List_Reason/v1ReasonList_GetReason.md
+  - name: GET List/Reason/Items/{id}/Headings
+    href: List_Reason/v1ReasonList_GetReasonHeadingsForListItem.md
+  - name: GET List/Reason/Items/{id}/UserGroups
+    href: List_Reason/v1ReasonList_GetReasonUserGroupsForListItem.md
+  - name: GET List/Reason/Items/Default
+    href: List_Reason/v1ReasonList_CreateDefaultReason.md
+  - name: GET List/Reason/MDOItems
+    href: List_Reason/v1ReasonList_GetMDOList.md
+  - name: POST List/Reason/Headings
+    href: List_Reason/v1ReasonList_PostReasonHeading.md
+  - name: POST List/Reason/Items
+    href: List_Reason/v1ReasonList_PostReason.md
+  - name: PUT List/Reason
+    href: List_Reason/v1ReasonList_SetListDefinition.md
+  - name: PUT List/Reason/Headings
+    href: List_Reason/v1ReasonList_PutReasonHeadings.md
+  - name: PUT List/Reason/Items
+    href: List_Reason/v1ReasonList_PutAllReason.md
+  - name: PUT List/Reason/Items/{id}
+    href: List_Reason/v1ReasonList_PutReason.md
+  - name: PUT List/Reason/Items/{id}/Headings
+    href: List_Reason/v1ReasonList_PutReasonHeadingsForListItem.md
+  - name: PUT List/Reason/Items/{id}/UserGroups
+    href: List_Reason/v1ReasonList_PutReasonUserGroupsForListItem.md
+- name: List_ReasonSold
+  href: List_ReasonSold/index.md
+  items:
+  - name: DEL List/ReasonSold/Headings
+    href: List_ReasonSold/v1ReasonSoldList_DeleteReasonSoldHeadings.md
+  - name: DEL List/ReasonSold/Items
+    href: List_ReasonSold/v1ReasonSoldList_DeleteAllReasonSold.md
+  - name: DEL List/ReasonSold/Items/{id}
+    href: List_ReasonSold/v1ReasonSoldList_DeleteReasonSold.md
+  - name: GET List/ReasonSold
+    href: List_ReasonSold/v1ReasonSoldList_GetListDefinition.md
+  - name: GET List/ReasonSold/Headings
+    href: List_ReasonSold/v1ReasonSoldList_GetReasonSoldHeadings.md
+  - name: GET List/ReasonSold/Items
+    href: List_ReasonSold/v1ReasonSoldList_GetAll.md
+  - name: GET List/ReasonSold/Items/{id}
+    href: List_ReasonSold/v1ReasonSoldList_GetReasonSold.md
+  - name: GET List/ReasonSold/Items/{id}/Headings
+    href: List_ReasonSold/v1ReasonSoldList_GetReasonSoldHeadingsForListItem.md
+  - name: GET List/ReasonSold/Items/{id}/UserGroups
+    href: List_ReasonSold/v1ReasonSoldList_GetReasonSoldUserGroupsForListItem.md
+  - name: GET List/ReasonSold/Items/Default
+    href: List_ReasonSold/v1ReasonSoldList_CreateDefaultReasonSold.md
+  - name: GET List/ReasonSold/MDOItems
+    href: List_ReasonSold/v1ReasonSoldList_GetMDOList.md
+  - name: POST List/ReasonSold/Headings
+    href: List_ReasonSold/v1ReasonSoldList_PostReasonSoldHeading.md
+  - name: POST List/ReasonSold/Items
+    href: List_ReasonSold/v1ReasonSoldList_PostReasonSold.md
+  - name: PUT List/ReasonSold
+    href: List_ReasonSold/v1ReasonSoldList_SetListDefinition.md
+  - name: PUT List/ReasonSold/Headings
+    href: List_ReasonSold/v1ReasonSoldList_PutReasonSoldHeadings.md
+  - name: PUT List/ReasonSold/Items
+    href: List_ReasonSold/v1ReasonSoldList_PutAllReasonSold.md
+  - name: PUT List/ReasonSold/Items/{id}
+    href: List_ReasonSold/v1ReasonSoldList_PutReasonSold.md
+  - name: PUT List/ReasonSold/Items/{id}/Headings
+    href: List_ReasonSold/v1ReasonSoldList_PutReasonSoldHeadingsForListItem.md
+  - name: PUT List/ReasonSold/Items/{id}/UserGroups
+    href: List_ReasonSold/v1ReasonSoldList_PutReasonSoldUserGroupsForListItem.md
+- name: List_ReasonStalled
+  href: List_ReasonStalled/index.md
+  items:
+  - name: DEL List/ReasonStalled/Headings
+    href: List_ReasonStalled/v1ReasonStalledList_DeleteReasonStalledHeadings.md
+  - name: DEL List/ReasonStalled/Items
+    href: List_ReasonStalled/v1ReasonStalledList_DeleteAllReasonStalled.md
+  - name: DEL List/ReasonStalled/Items/{id}
+    href: List_ReasonStalled/v1ReasonStalledList_DeleteReasonStalled.md
+  - name: GET List/ReasonStalled
+    href: List_ReasonStalled/v1ReasonStalledList_GetListDefinition.md
+  - name: GET List/ReasonStalled/Headings
+    href: List_ReasonStalled/v1ReasonStalledList_GetReasonStalledHeadings.md
+  - name: GET List/ReasonStalled/Items
+    href: List_ReasonStalled/v1ReasonStalledList_GetAll.md
+  - name: GET List/ReasonStalled/Items/{id}
+    href: List_ReasonStalled/v1ReasonStalledList_GetReasonStalled.md
+  - name: GET List/ReasonStalled/Items/{id}/Headings
+    href: List_ReasonStalled/v1ReasonStalledList_GetReasonStalledHeadingsForListItem.md
+  - name: GET List/ReasonStalled/Items/{id}/UserGroups
+    href: List_ReasonStalled/v1ReasonStalledList_GetReasonStalledUserGroupsForListItem.md
+  - name: GET List/ReasonStalled/Items/Default
+    href: List_ReasonStalled/v1ReasonStalledList_CreateDefaultReasonStalled.md
+  - name: GET List/ReasonStalled/MDOItems
+    href: List_ReasonStalled/v1ReasonStalledList_GetMDOList.md
+  - name: POST List/ReasonStalled/Headings
+    href: List_ReasonStalled/v1ReasonStalledList_PostReasonStalledHeading.md
+  - name: POST List/ReasonStalled/Items
+    href: List_ReasonStalled/v1ReasonStalledList_PostReasonStalled.md
+  - name: PUT List/ReasonStalled
+    href: List_ReasonStalled/v1ReasonStalledList_SetListDefinition.md
+  - name: PUT List/ReasonStalled/Headings
+    href: List_ReasonStalled/v1ReasonStalledList_PutReasonStalledHeadings.md
+  - name: PUT List/ReasonStalled/Items
+    href: List_ReasonStalled/v1ReasonStalledList_PutAllReasonStalled.md
+  - name: PUT List/ReasonStalled/Items/{id}
+    href: List_ReasonStalled/v1ReasonStalledList_PutReasonStalled.md
+  - name: PUT List/ReasonStalled/Items/{id}/Headings
+    href: List_ReasonStalled/v1ReasonStalledList_PutReasonStalledHeadingsForListItem.md
+  - name: PUT List/ReasonStalled/Items/{id}/UserGroups
+    href: List_ReasonStalled/v1ReasonStalledList_PutReasonStalledUserGroupsForListItem.md
+- name: List_SaleType
+  href: List_SaleType/index.md
+  items:
+  - name: DEL List/SaleType/Headings
+    href: List_SaleType/v1SaleTypeList_DeleteSaleTypeEntityHeadings.md
+  - name: DEL List/SaleType/Items/{id}
+    href: List_SaleType/v1SaleTypeList_DeleteSaleTypeEntity.md
+  - name: GET List/SaleType
+    href: List_SaleType/v1SaleTypeList_GetListDefinition.md
+  - name: GET List/SaleType/Headings
+    href: List_SaleType/v1SaleTypeList_GetSaleTypeEntityHeadings.md
+  - name: GET List/SaleType/Items
+    href: List_SaleType/v1SaleTypeList_GetAllSaleTypeEntity.md
+  - name: GET List/SaleType/Items/{id}
+    href: List_SaleType/v1SaleTypeList_GetSaleTypeEntity.md
+  - name: GET List/SaleType/Items/{id}/Headings
+    href: List_SaleType/v1SaleTypeList_GetSaleTypeEntityHeadingsForListItem.md
+  - name: GET List/SaleType/Items/{id}/UserGroups
+    href: List_SaleType/v1SaleTypeList_GetSaleTypeEntityUserGroupsForListItem.md
+  - name: GET List/SaleType/Items/Default
+    href: List_SaleType/v1SaleTypeList_CreateDefaultSaleTypeEntity.md
+  - name: GET List/SaleType/MDOItems
+    href: List_SaleType/v1SaleTypeList_GetMDOList.md
+  - name: POST List/SaleType/Headings
+    href: List_SaleType/v1SaleTypeList_PostSaleTypeEntityHeading.md
+  - name: POST List/SaleType/Items
+    href: List_SaleType/v1SaleTypeList_PostSaleTypeEntity.md
+  - name: PUT List/SaleType
+    href: List_SaleType/v1SaleTypeList_SetListDefinition.md
+  - name: PUT List/SaleType/Headings
+    href: List_SaleType/v1SaleTypeList_PutSaleTypeEntityHeadings.md
+  - name: PUT List/SaleType/Items/{id}
+    href: List_SaleType/v1SaleTypeList_PutSaleTypeEntity.md
+  - name: PUT List/SaleType/Items/{id}/Headings
+    href: List_SaleType/v1SaleTypeList_PutSaleTypeEntityHeadingsForListItem.md
+  - name: PUT List/SaleType/Items/{id}/UserGroups
+    href: List_SaleType/v1SaleTypeList_PutSaleTypeEntityUserGroupsForListItem.md
+- name: List_SelectionCategory
+  href: List_SelectionCategory/index.md
+  items:
+  - name: DEL List/SelectionCategory/Headings
+    href: List_SelectionCategory/v1SelectionCategoryList_DeleteSelectionCategoryHeadings.md
+  - name: DEL List/SelectionCategory/Items
+    href: List_SelectionCategory/v1SelectionCategoryList_DeleteAllSelectionCategory.md
+  - name: DEL List/SelectionCategory/Items/{id}
+    href: List_SelectionCategory/v1SelectionCategoryList_DeleteSelectionCategory.md
+  - name: GET List/SelectionCategory
+    href: List_SelectionCategory/v1SelectionCategoryList_GetListDefinition.md
+  - name: GET List/SelectionCategory/Headings
+    href: List_SelectionCategory/v1SelectionCategoryList_GetSelectionCategoryHeadings.md
+  - name: GET List/SelectionCategory/Items
+    href: List_SelectionCategory/v1SelectionCategoryList_GetAll.md
+  - name: GET List/SelectionCategory/Items/{id}
+    href: List_SelectionCategory/v1SelectionCategoryList_GetSelectionCategory.md
+  - name: GET List/SelectionCategory/Items/{id}/Headings
+    href: List_SelectionCategory/v1SelectionCategoryList_GetSelectionCategoryHeadingsForListItem.md
+  - name: GET List/SelectionCategory/Items/{id}/UserGroups
+    href: List_SelectionCategory/v1SelectionCategoryList_GetSelectionCategoryUserGroupsForListItem.md
+  - name: GET List/SelectionCategory/Items/Default
+    href: List_SelectionCategory/v1SelectionCategoryList_CreateDefaultSelectionCategory.md
+  - name: GET List/SelectionCategory/MDOItems
+    href: List_SelectionCategory/v1SelectionCategoryList_GetMDOList.md
+  - name: POST List/SelectionCategory/Headings
+    href: List_SelectionCategory/v1SelectionCategoryList_PostSelectionCategoryHeading.md
+  - name: POST List/SelectionCategory/Items
+    href: List_SelectionCategory/v1SelectionCategoryList_PostSelectionCategory.md
+  - name: PUT List/SelectionCategory
+    href: List_SelectionCategory/v1SelectionCategoryList_SetListDefinition.md
+  - name: PUT List/SelectionCategory/Headings
+    href: List_SelectionCategory/v1SelectionCategoryList_PutSelectionCategoryHeadings.md
+  - name: PUT List/SelectionCategory/Items
+    href: List_SelectionCategory/v1SelectionCategoryList_PutAllSelectionCategory.md
+  - name: PUT List/SelectionCategory/Items/{id}
+    href: List_SelectionCategory/v1SelectionCategoryList_PutSelectionCategory.md
+  - name: PUT List/SelectionCategory/Items/{id}/Headings
+    href: List_SelectionCategory/v1SelectionCategoryList_PutSelectionCategoryHeadingsForListItem.md
+  - name: PUT List/SelectionCategory/Items/{id}/UserGroups
+    href: List_SelectionCategory/v1SelectionCategoryList_PutSelectionCategoryUserGroupsForListItem.md
+- name: List_Source
+  href: List_Source/index.md
+  items:
+  - name: DEL List/Source/Headings
+    href: List_Source/v1SourceList_DeleteSourceHeadings.md
+  - name: DEL List/Source/Items
+    href: List_Source/v1SourceList_DeleteAllSource.md
+  - name: DEL List/Source/Items/{id}
+    href: List_Source/v1SourceList_DeleteSource.md
+  - name: GET List/Source
+    href: List_Source/v1SourceList_GetListDefinition.md
+  - name: GET List/Source/Headings
+    href: List_Source/v1SourceList_GetSourceHeadings.md
+  - name: GET List/Source/Items
+    href: List_Source/v1SourceList_GetAll.md
+  - name: GET List/Source/Items/{id}
+    href: List_Source/v1SourceList_GetSource.md
+  - name: GET List/Source/Items/{id}/Headings
+    href: List_Source/v1SourceList_GetSourceHeadingsForListItem.md
+  - name: GET List/Source/Items/{id}/UserGroups
+    href: List_Source/v1SourceList_GetSourceUserGroupsForListItem.md
+  - name: GET List/Source/Items/Default
+    href: List_Source/v1SourceList_CreateDefaultSource.md
+  - name: GET List/Source/MDOItems
+    href: List_Source/v1SourceList_GetMDOList.md
+  - name: POST List/Source/Headings
+    href: List_Source/v1SourceList_PostSourceHeading.md
+  - name: POST List/Source/Items
+    href: List_Source/v1SourceList_PostSource.md
+  - name: PUT List/Source
+    href: List_Source/v1SourceList_SetListDefinition.md
+  - name: PUT List/Source/Headings
+    href: List_Source/v1SourceList_PutSourceHeadings.md
+  - name: PUT List/Source/Items
+    href: List_Source/v1SourceList_PutAllSource.md
+  - name: PUT List/Source/Items/{id}
+    href: List_Source/v1SourceList_PutSource.md
+  - name: PUT List/Source/Items/{id}/Headings
+    href: List_Source/v1SourceList_PutSourceHeadingsForListItem.md
+  - name: PUT List/Source/Items/{id}/UserGroups
+    href: List_Source/v1SourceList_PutSourceUserGroupsForListItem.md
+- name: List_Task
+  href: List_Task/index.md
+  items:
+  - name: DEL List/Task/Headings
+    href: List_Task/v1TaskList_DeleteTaskListItemHeadings.md
+  - name: DEL List/Task/Items/{id}
+    href: List_Task/v1TaskList_DeleteTaskListItem.md
+  - name: GET List/Task
+    href: List_Task/v1TaskList_GetListDefinition.md
+  - name: GET List/Task/Headings
+    href: List_Task/v1TaskList_GetTaskListItemHeadings.md
+  - name: GET List/Task/Items
+    href: List_Task/v1TaskList_GetAllTaskListItem.md
+  - name: GET List/Task/Items/{id}
+    href: List_Task/v1TaskList_GetTaskListItem.md
+  - name: GET List/Task/Items/{id}/Headings
+    href: List_Task/v1TaskList_GetTaskListItemHeadingsForListItem.md
+  - name: GET List/Task/Items/{id}/UserGroups
+    href: List_Task/v1TaskList_GetTaskListItemUserGroupsForListItem.md
+  - name: GET List/Task/Items/Default
+    href: List_Task/v1TaskList_CreateDefaultTaskListItem.md
+  - name: GET List/Task/MDOItems
+    href: List_Task/v1TaskList_GetMDOList.md
+  - name: POST List/Task/Headings
+    href: List_Task/v1TaskList_PostTaskListItemHeading.md
+  - name: POST List/Task/Items
+    href: List_Task/v1TaskList_PostTaskListItem.md
+  - name: PUT List/Task
+    href: List_Task/v1TaskList_SetListDefinition.md
+  - name: PUT List/Task/Headings
+    href: List_Task/v1TaskList_PutTaskListItemHeadings.md
+  - name: PUT List/Task/Items/{id}
+    href: List_Task/v1TaskList_PutTaskListItem.md
+  - name: PUT List/Task/Items/{id}/Headings
+    href: List_Task/v1TaskList_PutTaskListItemHeadingsForListItem.md
+  - name: PUT List/Task/Items/{id}/UserGroups
+    href: List_Task/v1TaskList_PutTaskListItemUserGroupsForListItem.md
+- name: List_TicketCategory
+  href: List_TicketCategory/index.md
+  items:
+  - name: DEL List/TicketCategory/Headings
+    href: List_TicketCategory/v1TicketCategoryList_DeleteTicketCategoryEntityHeadings.md
+  - name: DEL List/TicketCategory/Items/{id}
+    href: List_TicketCategory/v1TicketCategoryList_DeleteTicketCategoryEntity.md
+  - name: GET List/TicketCategory
+    href: List_TicketCategory/v1TicketCategoryList_GetListDefinition.md
+  - name: GET List/TicketCategory/Headings
+    href: List_TicketCategory/v1TicketCategoryList_GetTicketCategoryEntityHeadings.md
+  - name: GET List/TicketCategory/Items
+    href: List_TicketCategory/v1TicketCategoryList_GetAllTicketCategoryEntity.md
+  - name: GET List/TicketCategory/Items/{id}
+    href: List_TicketCategory/v1TicketCategoryList_GetTicketCategoryEntity.md
+  - name: GET List/TicketCategory/Items/Default
+    href: List_TicketCategory/v1TicketCategoryList_CreateDefaultTicketCategoryEntity.md
+  - name: POST List/TicketCategory/Headings
+    href: List_TicketCategory/v1TicketCategoryList_PostTicketCategoryEntityHeading.md
+  - name: POST List/TicketCategory/Items
+    href: List_TicketCategory/v1TicketCategoryList_PostTicketCategoryEntity.md
+  - name: PUT List/TicketCategory
+    href: List_TicketCategory/v1TicketCategoryList_SetListDefinition.md
+  - name: PUT List/TicketCategory/Headings
+    href: List_TicketCategory/v1TicketCategoryList_PutTicketCategoryEntityHeadings.md
+  - name: PUT List/TicketCategory/Items/{id}
+    href: List_TicketCategory/v1TicketCategoryList_PutTicketCategoryEntity.md
+- name: List_TicketPriority
+  href: List_TicketPriority/index.md
+  items:
+  - name: DEL List/TicketPriority/Headings
+    href: List_TicketPriority/v1TicketPriorityList_DeleteTicketPriorityEntityHeadings.md
+  - name: DEL List/TicketPriority/Items/{id}
+    href: List_TicketPriority/v1TicketPriorityList_DeleteTicketPriorityEntity.md
+  - name: GET List/TicketPriority
+    href: List_TicketPriority/v1TicketPriorityList_GetListDefinition.md
+  - name: GET List/TicketPriority/Headings
+    href: List_TicketPriority/v1TicketPriorityList_GetTicketPriorityEntityHeadings.md
+  - name: GET List/TicketPriority/Items
+    href: List_TicketPriority/v1TicketPriorityList_GetAllTicketPriorityEntity.md
+  - name: GET List/TicketPriority/Items/{id}
+    href: List_TicketPriority/v1TicketPriorityList_GetTicketPriorityEntity.md
+  - name: GET List/TicketPriority/Items/Default
+    href: List_TicketPriority/v1TicketPriorityList_CreateDefaultTicketPriorityEntity.md
+  - name: POST List/TicketPriority/Headings
+    href: List_TicketPriority/v1TicketPriorityList_PostTicketPriorityEntityHeading.md
+  - name: POST List/TicketPriority/Items
+    href: List_TicketPriority/v1TicketPriorityList_PostTicketPriorityEntity.md
+  - name: PUT List/TicketPriority
+    href: List_TicketPriority/v1TicketPriorityList_SetListDefinition.md
+  - name: PUT List/TicketPriority/Headings
+    href: List_TicketPriority/v1TicketPriorityList_PutTicketPriorityEntityHeadings.md
+  - name: PUT List/TicketPriority/Items/{id}
+    href: List_TicketPriority/v1TicketPriorityList_PutTicketPriorityEntity.md
+- name: List_TicketStatus
+  href: List_TicketStatus/index.md
+  items:
+  - name: DEL List/TicketStatus/Headings
+    href: List_TicketStatus/v1TicketStatusList_DeleteTicketStatusEntityHeadings.md
+  - name: DEL List/TicketStatus/Items/{id}
+    href: List_TicketStatus/v1TicketStatusList_DeleteTicketStatusEntity.md
+  - name: GET List/TicketStatus
+    href: List_TicketStatus/v1TicketStatusList_GetListDefinition.md
+  - name: GET List/TicketStatus/{id}/ChangeTo/{id}
+    href: List_TicketStatus/v1TicketStatusList_GlobalChangeTicketStatus.md
+  - name: GET List/TicketStatus/Headings
+    href: List_TicketStatus/v1TicketStatusList_GetTicketStatusEntityHeadings.md
+  - name: GET List/TicketStatus/Items
+    href: List_TicketStatus/v1TicketStatusList_GetAllTicketStatusEntity.md
+  - name: GET List/TicketStatus/Items/{id}
+    href: List_TicketStatus/v1TicketStatusList_GetTicketStatusEntity.md
+  - name: GET List/TicketStatus/Items/Default
+    href: List_TicketStatus/v1TicketStatusList_CreateDefaultTicketStatusEntity.md
+  - name: POST List/TicketStatus/Headings
+    href: List_TicketStatus/v1TicketStatusList_PostTicketStatusEntityHeading.md
+  - name: POST List/TicketStatus/Items
+    href: List_TicketStatus/v1TicketStatusList_PostTicketStatusEntity.md
+  - name: PUT List/TicketStatus
+    href: List_TicketStatus/v1TicketStatusList_SetListDefinition.md
+  - name: PUT List/TicketStatus/Headings
+    href: List_TicketStatus/v1TicketStatusList_PutTicketStatusEntityHeadings.md
+  - name: PUT List/TicketStatus/Items/{id}
+    href: List_TicketStatus/v1TicketStatusList_PutTicketStatusEntity.md
+- name: List_UserGroup
+  href: List_UserGroup/index.md
+  items:
+  - name: DEL List/UserGroup/Headings
+    href: List_UserGroup/v1UserGroupList_DeleteUserGroupHeadings.md
+  - name: DEL List/UserGroup/Items/{id}
+    href: List_UserGroup/v1UserGroupList_DeleteUserGroup.md
+  - name: GET List/UserGroup
+    href: List_UserGroup/v1UserGroupList_GetListDefinition.md
+  - name: GET List/UserGroup/Headings
+    href: List_UserGroup/v1UserGroupList_GetUserGroupHeadings.md
+  - name: GET List/UserGroup/Items
+    href: List_UserGroup/v1UserGroupList_GetAllUserGroup.md
+  - name: GET List/UserGroup/Items/{id}
+    href: List_UserGroup/v1UserGroupList_GetUserGroup.md
+  - name: POST List/UserGroup/Headings
+    href: List_UserGroup/v1UserGroupList_PostUserGroupHeading.md
+  - name: POST List/UserGroup/Items
+    href: List_UserGroup/v1UserGroupList_PostUserGroup.md
+  - name: PUT List/UserGroup
+    href: List_UserGroup/v1UserGroupList_SetListDefinition.md
+  - name: PUT List/UserGroup/Headings
+    href: List_UserGroup/v1UserGroupList_PutUserGroupHeadings.md
+  - name: PUT List/UserGroup/Items/{id}
+    href: List_UserGroup/v1UserGroupList_PutUserGroup.md
+- name: List_WebPanel
+  href: List_WebPanel/index.md
+  items:
+  - name: DEL List/WebPanel/Headings
+    href: List_WebPanel/v1WebPanelEntityList_DeleteWebPanelEntityHeadings.md
+  - name: DEL List/WebPanel/Items/{id}
+    href: List_WebPanel/v1WebPanelEntityList_DeleteWebPanelEntity.md
+  - name: GET List/WebPanel
+    href: List_WebPanel/v1WebPanelEntityList_GetListDefinition.md
+  - name: GET List/WebPanel/Headings
+    href: List_WebPanel/v1WebPanelEntityList_GetWebPanelEntityHeadings.md
+  - name: GET List/WebPanel/Items
+    href: List_WebPanel/v1WebPanelEntityList_GetAllWebPanelEntity.md
+  - name: GET List/WebPanel/Items/{id}
+    href: List_WebPanel/v1WebPanelEntityList_GetWebPanelEntity.md
+  - name: GET List/WebPanel/Items/Default
+    href: List_WebPanel/v1WebPanelEntityList_CreateDefaultWebPanelEntity.md
+  - name: POST List/WebPanel/Headings
+    href: List_WebPanel/v1WebPanelEntityList_PostWebPanelEntityHeading.md
+  - name: POST List/WebPanel/Items
+    href: List_WebPanel/v1WebPanelEntityList_PostWebPanelEntity.md
+  - name: PUT List/WebPanel
+    href: List_WebPanel/v1WebPanelEntityList_SetListDefinition.md
+  - name: PUT List/WebPanel/Headings
+    href: List_WebPanel/v1WebPanelEntityList_PutWebPanelEntityHeadings.md
+  - name: PUT List/WebPanel/Items/{id}
+    href: List_WebPanel/v1WebPanelEntityList_PutWebPanelEntity.md
+- name: Person
+  href: Person/index.md
+  items:
+  - name: DEL Person/{id}
+    href: Person/v1PersonEntity_DeletePersonEntity.md
+  - name: DEL Person/{id}/Consent/{purpose}
+    href: Person/v1PersonEntity_RemoveConsent.md
+  - name: DEL Person/{id}/Image
+    href: Person/v1PersonEntity_DeleteImageContent.md
+  - name: DEL Person/UdefLayout/{progidOrLabel}
+    href: Person/v1PersonEntity_DeleteUdefFieldInfo.md
+  - name: GET Person
+    href: Person/v1PersonEntity_GetAll.md
+  - name: GET Person/{id}
+    href: Person/v1PersonEntity_GetPersonEntity.md
+  - name: GET Person/{id}/Activities
+    href: Person/v1PersonEntity_Activities.md
+  - name: GET Person/{id}/Appointments
+    href: Person/v1PersonEntity_Appointments.md
+  - name: GET Person/{id}/Consent
+    href: Person/v1PersonEntity_GetConsentInfos.md
+  - name: GET Person/{id}/Consent/{purpose}
+    href: Person/v1PersonEntity_HasConsent.md
+  - name: GET Person/{id}/Documents
+    href: Person/v1PersonEntity_Documents.md
+  - name: GET Person/{id}/ForeignKey
+    href: Person/v1PersonEntity_GetAllForeignKeysOnEntity.md
+  - name: GET Person/{id}/Image
+    href: Person/v1PersonEntity_GetImage.md
+  - name: GET Person/{id}/ImageInfo
+    href: Person/v1PersonEntity_GetImageInfo.md
+  - name: GET Person/{id}/Relations
+    href: Person/v1PersonEntity_Relations.md
+  - name: GET Person/{id}/Sales
+    href: Person/v1PersonEntity_Sales.md
+  - name: GET Person/{id}/Simple
+    href: Person/v1PersonEntity_Simple.md
+  - name: GET Person/{id}/Summary
+    href: Person/v1PersonEntity_GetPersonSummary.md
+  - name: GET Person/{id}/Tickets
+    href: Person/v1PersonEntity_Tickets.md
+  - name: GET Person/CustomField
+    href: Person/v1PersonEntity_GetCustomFieldInfoList.md
+  - name: GET Person/CustomField/{fieldName}
+    href: Person/v1PersonEntity_GetCustomFieldInfo.md
+  - name: GET Person/default
+    href: Person/v1PersonEntity_DefaultPersonEntity.md
+  - name: GET Person/UdefLayout
+    href: Person/v1PersonEntity_GetUdefLayout.md
+  - name: GET Person/UdefLayout/{progidOrLabel}
+    href: Person/v1PersonEntity_GetUdefFieldInfo.md
+  - name: GET Person/UdefLayout/Changed
+    href: Person/v1PersonEntity_DetectUnpublishedChanges.md
+  - name: GET Person/UdefLayout/Publish
+    href: Person/v1PersonEntity_IsPublishUdefLayoutActive.md
+  - name: GET Person/UdefLayout/Published
+    href: Person/v1PersonEntity_GetPublishedUdefLayout.md
+  - name: GET Person/UdefLayout/Published/{progidOrLabel}
+    href: Person/v1PersonEntity_GetPublishedUdefFieldInfo.md
+  - name: PATCH Person/{id}
+    href: Person/v1PersonEntity_PatchPersonEntity.md
+  - name: POST Person
+    href: Person/v1PersonEntity_PostPersonEntity.md
+  - name: POST Person/{id}/Image
+    href: Person/v1PersonEntity_SaveImage_POST.md
+  - name: POST Person/{id}/MergeTo/{id}
+    href: Person/v1PersonEntity_Merge.md
+  - name: POST Person/{id}/MoveTo/{id}
+    href: Person/v1PersonEntity_Move.md
+  - name: POST Person/UdefLayout
+    href: Person/v1PersonEntity_AddUdefField.md
+  - name: POST Person/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}
+    href: Person/v1PersonEntity_ChangeFieldType.md
+  - name: POST Person/UdefLayout/Publish
+    href: Person/v1PersonEntity_PublishUdefLayout.md
+  - name: POST Person/UdefLayout/Revert
+    href: Person/v1PersonEntity_RevertUdefLayout.md
+  - name: POST Person/Validate
+    href: Person/v1PersonEntity_ValidatePersonEntity.md
+  - name: PUT Person/{id}
+    href: Person/v1PersonEntity_PutPersonEntity.md
+  - name: PUT Person/{id}/Consent/{purpose}
+    href: Person/v1PersonEntity_SetConsent.md
+  - name: PUT Person/{id}/Image
+    href: Person/v1PersonEntity_SaveImage.md
+  - name: PUT Person/{id}/ImageInfo
+    href: Person/v1PersonEntity_PutImageInfo.md
+  - name: PUT Person/UdefLayout
+    href: Person/v1PersonEntity_SaveUdefLayout.md
+- name: Preference
+  href: Preference/index.md
+  items:
+  - name: GET Preference
+    href: Preference/v1Preference_GetSections.md
+  - name: GET Preference/{section}
+    href: Preference/v1Preference_GetKeysInSection.md
+  - name: GET Preference/{section}/{key}
+    href: Preference/v1Preference_GetPrefValue.md
+  - name: GET Preference/{section}/{key}/{prefLevel}
+    href: Preference/v1Preference_GetPrefValueAtLevel.md
+  - name: POST Preference/{section}/{key}
+    href: Preference/v1Preference_SetPrefValue_POST.md
+  - name: POST Preference/{section}/{key}/{prefLevel}
+    href: Preference/v1Preference_SetPrefValueAtLevel_POST.md
+  - name: PUT Preference/{section}/{key}
+    href: Preference/v1Preference_SetPrefValue.md
+  - name: PUT Preference/{section}/{key}/{prefLevel}
+    href: Preference/v1Preference_SetPrefValueAtLevel.md
+- name: PreferenceDescription
+  href: PreferenceDescription/index.md
+  items:
+  - name: DEL PreferenceDescription/{id}
+    href: PreferenceDescription/v1PreferenceDescription_DeletePreferenceDescription.md
+  - name: DEL PreferenceDescription/{section}/{key}
+    href: PreferenceDescription/v1PreferenceDescription_DeleteFromSectionAndKey.md
+  - name: GET PreferenceDescription
+    href: PreferenceDescription/v1PreferenceDescription_GetAll.md
+  - name: GET PreferenceDescription/{id}
+    href: PreferenceDescription/v1PreferenceDescription_GetPreferenceDescription.md
+  - name: GET PreferenceDescription/{section}
+    href: PreferenceDescription/v1PreferenceDescription_GetAllFromSection.md
+  - name: GET PreferenceDescription/{section}/{key}
+    href: PreferenceDescription/v1PreferenceDescription_GetFromSectionAndKey.md
+  - name: GET PreferenceDescription/default
+    href: PreferenceDescription/v1PreferenceDescription_DefaultPreferenceDescription.md
+  - name: PATCH PreferenceDescription/{id}
+    href: PreferenceDescription/v1PreferenceDescription_PatchPreferenceDescription.md
+  - name: POST PreferenceDescription
+    href: PreferenceDescription/v1PreferenceDescription_PostPreferenceDescription.md
+  - name: PUT PreferenceDescription/{id}
+    href: PreferenceDescription/v1PreferenceDescription_PutPreferenceDescription.md
+  - name: PUT PreferenceDescription/{section}/{key}
+    href: PreferenceDescription/v1PreferenceDescription_SaveFromSectionAndKey.md
+- name: Product
+  href: Product/index.md
+  items:
+  - name: DEL Product/{id}
+    href: Product/v1Product_DeleteProduct.md
+  - name: DEL Product/{id}/Image
+    href: Product/v1Product_DeleteImageContent.md
+  - name: GET Product
+    href: Product/v1Product_GetAll.md
+  - name: GET Product/{id}
+    href: Product/v1Product_GetProductFromDbId.md
+  - name: GET Product/{id}/Image
+    href: Product/v1Product_GetImage.md
+  - name: GET Product/{id}/ImageInfo
+    href: Product/v1Product_GetImageInfo.md
+  - name: GET Product/default
+    href: Product/v1Product_DefaultProduct.md
+  - name: POST Product
+    href: Product/v1Product_PostProduct.md
+  - name: POST Product/{id}/Image
+    href: Product/v1Product_SaveImage_POST.md
+  - name: PUT Product/{id}
+    href: Product/v1Product_PutProduct.md
+  - name: PUT Product/{id}/Image
+    href: Product/v1Product_SaveImage.md
+  - name: PUT Product/{id}/ImageInfo
+    href: Product/v1Product_PutImageInfo.md
+- name: Project
+  href: Project/index.md
+  items:
+  - name: DEL Project/{id}
+    href: Project/v1ProjectEntity_DeleteProjectEntity.md
+  - name: DEL Project/{id}/Image
+    href: Project/v1ProjectEntity_DeleteImageContent.md
+  - name: DEL Project/UdefLayout/{progidOrLabel}
+    href: Project/v1ProjectEntity_DeleteUdefFieldInfo.md
+  - name: GET Project
+    href: Project/v1ProjectEntity_GetAll.md
+  - name: GET Project/{id}
+    href: Project/v1ProjectEntity_GetProjectEntity.md
+  - name: GET Project/{id}/Activities
+    href: Project/v1ProjectEntity_Activities.md
+  - name: GET Project/{id}/Contacts
+    href: Project/v1ProjectEntity_Contacts.md
+  - name: GET Project/{id}/ForeignKey
+    href: Project/v1ProjectEntity_GetAllForeignKeysOnEntity.md
+  - name: GET Project/{id}/Guide
+    href: Project/v1ProjectEntity_Guide.md
+  - name: GET Project/{id}/HasGuide
+    href: Project/v1ProjectEntity_HasGuide.md
+  - name: GET Project/{id}/Image
+    href: Project/v1ProjectEntity_GetImage.md
+  - name: GET Project/{id}/Imageinfo
+    href: Project/v1ProjectEntity_GetImageInfo.md
+  - name: GET Project/{id}/IsNumberValid/{number}
+    href: Project/v1ProjectEntity_IsNumberValid.md
+  - name: GET Project/{id}/Links
+    href: Project/v1ProjectEntity_Links.md
+  - name: GET Project/{id}/Members
+    href: Project/v1ProjectEntity_Members.md
+  - name: GET Project/{id}/NextMilestone
+    href: Project/v1ProjectEntity_GetNextMilestone.md
+  - name: GET Project/{id}/Simple
+    href: Project/v1ProjectEntity_Simple.md
+  - name: GET Project/CustomField
+    href: Project/v1ProjectEntity_GetCustomFieldInfoList.md
+  - name: GET Project/CustomField/{fieldName}
+    href: Project/v1ProjectEntity_GetCustomFieldInfo.md
+  - name: GET Project/default
+    href: Project/v1ProjectEntity_DefaultProjectEntity.md
+  - name: GET Project/DuplicateRules
+    href: Project/v1ProjectEntity_GetDuplicateRules.md
+  - name: GET Project/Duplicates/{name}
+    href: Project/v1ProjectEntity_GetDuplicates.md
+  - name: GET Project/UdefLayout
+    href: Project/v1ProjectEntity_GetUdefLayout.md
+  - name: GET Project/UdefLayout/{progidOrLabel}
+    href: Project/v1ProjectEntity_GetUdefFieldInfo.md
+  - name: GET Project/UdefLayout/Changed
+    href: Project/v1ProjectEntity_DetectUnpublishedChanges.md
+  - name: GET Project/UdefLayout/Publish
+    href: Project/v1ProjectEntity_IsPublishUdefLayoutActive.md
+  - name: GET Project/UdefLayout/Published
+    href: Project/v1ProjectEntity_GetPublishedUdefLayout.md
+  - name: GET Project/UdefLayout/Published/{progidOrLabel}
+    href: Project/v1ProjectEntity_GetPublishedUdefFieldInfo.md
+  - name: PATCH Project/{id}
+    href: Project/v1ProjectEntity_PatchProjectEntity.md
+  - name: POST Project
+    href: Project/v1ProjectEntity_PostProjectEntity.md
+  - name: POST Project/{id}/Image
+    href: Project/v1ProjectEntity_SaveImage_POST.md
+  - name: POST Project/{id}/MergeTo/{id}
+    href: Project/v1ProjectEntity_Merge.md
+  - name: POST Project/UdefLayout
+    href: Project/v1ProjectEntity_AddUdefField.md
+  - name: POST Project/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}
+    href: Project/v1ProjectEntity_ChangeFieldType.md
+  - name: POST Project/UdefLayout/Publish
+    href: Project/v1ProjectEntity_PublishUdefLayout.md
+  - name: POST Project/UdefLayout/Revert
+    href: Project/v1ProjectEntity_RevertUdefLayout.md
+  - name: POST Project/Validate
+    href: Project/v1ProjectEntity_ValidateProjectEntity.md
+  - name: PUT Project/{id}
+    href: Project/v1ProjectEntity_PutProjectEntity.md
+  - name: PUT Project/{id}/Image
+    href: Project/v1ProjectEntity_SaveImage.md
+  - name: PUT Project/{id}/ImageInfo
+    href: Project/v1ProjectEntity_PutImageInfo.md
+  - name: PUT Project/DuplicateRules
+    href: Project/v1ProjectEntity_SetDuplicateRulesStatus.md
+  - name: PUT Project/UdefLayout
+    href: Project/v1ProjectEntity_SaveUdefLayout.md
+- name: ProjectMember
+  href: ProjectMember/index.md
+  items:
+  - name: DEL ProjectMember/{id}
+    href: ProjectMember/v1ProjectMember_DeleteProjectMember.md
+  - name: GET ProjectMember
+    href: ProjectMember/v1ProjectMember_GetAll.md
+  - name: GET ProjectMember/{id}
+    href: ProjectMember/v1ProjectMember_GetProjectMember.md
+  - name: GET ProjectMember/default
+    href: ProjectMember/v1ProjectMember_DefaultProjectMember.md
+  - name: PATCH ProjectMember/{id}
+    href: ProjectMember/v1ProjectMember_PatchProjectMember.md
+  - name: POST ProjectMember
+    href: ProjectMember/v1ProjectMember_PostProjectMember.md
+  - name: PUT ProjectMember/{id}
+    href: ProjectMember/v1ProjectMember_PutProjectMember.md
+- name: RelationDefinition
+  href: RelationDefinition/index.md
+  items:
+  - name: GET RelationDefinition/{id}
+    href: RelationDefinition/v1RelationDefinitionEntity_GetRelationDefinitionEntity.md
+  - name: GET RelationDefinition/default
+    href: RelationDefinition/v1RelationDefinitionEntity_DefaultRelationDefinitionEntity.md
+  - name: PATCH RelationDefinition/{id}
+    href: RelationDefinition/v1RelationDefinitionEntity_PatchRelationDefinitionEntity.md
+  - name: POST RelationDefinition
+    href: RelationDefinition/v1RelationDefinitionEntity_PostRelationDefinitionEntity.md
+  - name: PUT RelationDefinition/{id}
+    href: RelationDefinition/v1RelationDefinitionEntity_PutRelationDefinitionEntity.md
+- name: Role
+  href: Role/index.md
+  items:
+  - name: DEL Role/{roleIdToDelete}
+    href: Role/v1RoleEntity_DeleteRole.md
+  - name: GET Role
+    href: Role/v1RoleEntity_GetAll.md
+  - name: GET Role/{id}
+    href: Role/v1RoleEntity_GetRoleEntity.md
+  - name: GET Role/{id}/DataRight/{tableName}
+    href: Role/v1RoleEntity_GetDataRights.md
+  - name: GET Role/{id}/DataRight/{tableName}/{relationToOwner}
+    href: Role/v1RoleEntity_GetDataRight.md
+  - name: GET Role/{id}/FunctionRight
+    href: Role/v1RoleEntity_GetFunctionalRights.md
+  - name: GET Role/{roleType}
+    href: Role/v1RoleEntity_GetAllRoles.md
+  - name: GET Role/{roleType}/FunctionRight
+    href: Role/v1RoleEntity_GetAllFunctionalRights.md
+  - name: GET Role/{type}/Default
+    href: Role/v1RoleEntity_CreateDefaultRoleEntityFromType.md
+  - name: GET Role/default
+    href: Role/v1RoleEntity_DefaultRoleEntity.md
+  - name: GET Role/WithFunctionRight/{functionalRightName}
+    href: Role/v1RoleEntity_FindRolesWithFunctionalRight.md
+  - name: PATCH Role/{id}
+    href: Role/v1RoleEntity_PatchRoleEntity.md
+  - name: POST Role
+    href: Role/v1RoleEntity_PostRoleEntity.md
+  - name: PUT Role/{id}
+    href: Role/v1RoleEntity_PutRoleEntity.md
+  - name: PUT Role/{id}/DataRight/{tableName}/{relationToOwner}
+    href: Role/v1RoleEntity_SetDataRight.md
+  - name: PUT Role/{id}/FunctionRight
+    href: Role/v1RoleEntity_SetFunctionalRights.md
+- name: Sale
+  href: Sale/index.md
+  items:
+  - name: DEL Sale/{id}
+    href: Sale/v1SaleEntity_DeleteSaleEntity.md
+  - name: DEL Sale/UdefLayout/{progidOrLabel}
+    href: Sale/v1SaleEntity_DeleteUdefFieldInfo.md
+  - name: GET Sale
+    href: Sale/v1SaleEntity_GetAll.md
+  - name: GET Sale/{id}
+    href: Sale/v1SaleEntity_GetSaleEntity.md
+  - name: GET Sale/{id}/Activities
+    href: Sale/v1SaleEntity_Activities.md
+  - name: GET Sale/{id}/ForeignKey
+    href: Sale/v1SaleEntity_GetAllForeignKeysOnEntity.md
+  - name: GET Sale/{id}/Guide
+    href: Sale/v1SaleEntity_Guide.md
+  - name: GET Sale/{id}/HasGuide
+    href: Sale/v1SaleEntity_HasGuide.md
+  - name: GET Sale/{id}/History
+    href: Sale/v1SaleEntity_History.md
+  - name: GET Sale/{id}/IsNumberValid/{number}
+    href: Sale/v1SaleEntity_IsNumberValid.md
+  - name: GET Sale/{id}/Links
+    href: Sale/v1SaleEntity_Links.md
+  - name: GET Sale/{id}/NextDueDate
+    href: Sale/v1SaleEntity_GetNextDueDate.md
+  - name: GET Sale/{id}/Simple
+    href: Sale/v1SaleEntity_Simple.md
+  - name: GET Sale/{id}/Stakeholders
+    href: Sale/v1SaleEntity_Stakeholders.md
+  - name: GET Sale/CustomField
+    href: Sale/v1SaleEntity_GetCustomFieldInfoList.md
+  - name: GET Sale/CustomField/{fieldName}
+    href: Sale/v1SaleEntity_GetCustomFieldInfo.md
+  - name: GET Sale/default
+    href: Sale/v1SaleEntity_DefaultSaleEntity.md
+  - name: GET Sale/UdefLayout
+    href: Sale/v1SaleEntity_GetUdefLayout.md
+  - name: GET Sale/UdefLayout/{progidOrLabel}
+    href: Sale/v1SaleEntity_GetUdefFieldInfo.md
+  - name: GET Sale/UdefLayout/Changed
+    href: Sale/v1SaleEntity_DetectUnpublishedChanges.md
+  - name: GET Sale/UdefLayout/Publish
+    href: Sale/v1SaleEntity_IsPublishUdefLayoutActive.md
+  - name: GET Sale/UdefLayout/Published
+    href: Sale/v1SaleEntity_GetPublishedUdefLayout.md
+  - name: GET Sale/UdefLayout/Published/{progidOrLabel}
+    href: Sale/v1SaleEntity_GetPublishedUdefFieldInfo.md
+  - name: PATCH Sale/{id}
+    href: Sale/v1SaleEntity_PatchSaleEntity.md
+  - name: POST Sale
+    href: Sale/v1SaleEntity_PostSaleEntity.md
+  - name: POST Sale/NextDueDate
+    href: Sale/v1SaleEntity_BatchUpdateNextDueDate.md
+  - name: POST Sale/UdefLayout
+    href: Sale/v1SaleEntity_AddUdefField.md
+  - name: POST Sale/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}
+    href: Sale/v1SaleEntity_ChangeFieldType.md
+  - name: POST Sale/UdefLayout/Publish
+    href: Sale/v1SaleEntity_PublishUdefLayout.md
+  - name: POST Sale/UdefLayout/Revert
+    href: Sale/v1SaleEntity_RevertUdefLayout.md
+  - name: POST Sale/Validate
+    href: Sale/v1SaleEntity_ValidateSaleEntity.md
+  - name: PUT Sale/{id}
+    href: Sale/v1SaleEntity_PutSaleEntity.md
+  - name: PUT Sale/UdefLayout
+    href: Sale/v1SaleEntity_SaveUdefLayout.md
+- name: SaleStakeholder
+  href: SaleStakeholder/index.md
+  items:
+  - name: DEL SaleStakeholder/{id}
+    href: SaleStakeholder/v1SaleStakeholder_DeleteSaleStakeholder.md
+  - name: GET SaleStakeholder
+    href: SaleStakeholder/v1SaleStakeholder_GetAll.md
+  - name: GET SaleStakeholder/{id}
+    href: SaleStakeholder/v1SaleStakeholder_GetSaleStakeholder.md
+  - name: GET SaleStakeholder/default
+    href: SaleStakeholder/v1SaleStakeholder_DefaultSaleStakeholder.md
+  - name: PATCH SaleStakeholder/{id}
+    href: SaleStakeholder/v1SaleStakeholder_PatchSaleStakeholder.md
+  - name: POST SaleStakeholder
+    href: SaleStakeholder/v1SaleStakeholder_PostSaleStakeholder.md
+  - name: PUT SaleStakeholder/{id}
+    href: SaleStakeholder/v1SaleStakeholder_PutSaleStakeholder.md
+- name: Script
+  href: Script/index.md
+  items:
+  - name: DEL Script/{uniqueIdentifier}
+    href: Script/v1Script_DeleteCRMScriptByUniqueIdentifier.md
+  - name: GET Script
+    href: Script/v1Script_GetAll.md
+  - name: GET Script/{uniqueIdentifier}
+    href: Script/v1Script_GetCRMScriptByUniqueIdentifier.md
+  - name: PUT Script/{uniqueIdentifier}
+    href: Script/v1Script_SaveCRMScriptByUniqueIdentifier.md
+- name: Selection
+  href: Selection/index.md
+  items:
+  - name: DEL Selection/{id}
+    href: Selection/v1SelectionEntity_DeleteSelectionEntity.md
+  - name: GET Selection
+    href: Selection/v1SelectionEntity_GetAll.md
+  - name: GET Selection/{id}
+    href: Selection/v1SelectionEntity_GetSelectionEntity.md
+  - name: GET Selection/{id}/Criteria
+    href: Selection/v1SelectionEntity_GetDynamicSelectionCriteria.md
+  - name: GET Selection/{id}/CriteriaGroups
+    href: Selection/v1SelectionEntity_GetDynamicSelectionCriteriaGroups.md
+  - name: GET Selection/{id}/Members
+    href: Selection/v1SelectionEntity_GetSelectionMembersArchiveRows.md
+  - name: GET Selection/{id}/ShadowMembers
+    href: Selection/v1SelectionEntity_GetSelectionShadowMembersArchiveRows.md
+  - name: GET Selection/default
+    href: Selection/v1SelectionEntity_DefaultSelectionEntity.md
+  - name: GET Selection/DuplicateRules
+    href: Selection/v1SelectionEntity_GetDuplicateRules.md
+  - name: GET Selection/Duplicates/{name}
+    href: Selection/v1SelectionEntity_GetDuplicates.md
+  - name: PATCH Selection/{id}
+    href: Selection/v1SelectionEntity_PatchSelectionEntity.md
+  - name: POST Selection
+    href: Selection/v1SelectionEntity_PostSelectionEntity.md
+  - name: POST Selection/{id}/Members/Add
+    href: Selection/v1SelectionEntity_AddSelectionMembers.md
+  - name: POST Selection/{id}/Members/AddPerson
+    href: Selection/v1SelectionEntity_AddContactSelectionMembers.md
+  - name: POST Selection/{id}/Members/Remove
+    href: Selection/v1SelectionEntity_RemoveSelectionMembersById.md
+  - name: POST Selection/{id}/Members/RemovePerson
+    href: Selection/v1SelectionEntity_RemoveContactSelectionMembers.md
+  - name: PUT Selection/{id}
+    href: Selection/v1SelectionEntity_PutSelectionEntity.md
+  - name: PUT Selection/{id}/Criteria
+    href: Selection/v1SelectionEntity_SetDynamicSelectionCriteria3.md
+  - name: PUT Selection/{id}/CriteriaGroups
+    href: Selection/v1SelectionEntity_SetDynamicSelectionCriteriaGroups.md
+  - name: PUT Selection/DuplicateRules
+    href: Selection/v1SelectionEntity_SetDuplicateRulesStatus.md
+- name: ShipmentMessage
+  href: ShipmentMessage/index.md
+  items:
+  - name: DEL ShipmentMessage/{id}
+    href: ShipmentMessage/v1ShipmentMessageEntity_DeleteShipmentMessageEntity.md
+  - name: GET ShipmentMessage/{id}
+    href: ShipmentMessage/v1ShipmentMessageEntity_GetShipmentMessageEntity.md
+  - name: GET ShipmentMessage/default
+    href: ShipmentMessage/v1ShipmentMessageEntity_DefaultShipmentMessageEntity.md
+  - name: PATCH ShipmentMessage/{id}
+    href: ShipmentMessage/v1ShipmentMessageEntity_PatchShipmentMessageEntity.md
+  - name: POST ShipmentMessage
+    href: ShipmentMessage/v1ShipmentMessageEntity_PostShipmentMessageEntity.md
+  - name: PUT ShipmentMessage/{id}
+    href: ShipmentMessage/v1ShipmentMessageEntity_PutShipmentMessageEntity.md
+- name: ShipmentMessageBlock
+  href: ShipmentMessageBlock/index.md
+  items:
+  - name: DEL ShipmentMessageBlock/{id}
+    href: ShipmentMessageBlock/v1ShipmentMessageBlockEntity_DeleteShipmentMessageBlockEntity.md
+  - name: GET ShipmentMessageBlock/{id}
+    href: ShipmentMessageBlock/v1ShipmentMessageBlockEntity_GetShipmentMessageBlockEntity.md
+  - name: GET ShipmentMessageBlock/Associate/{id}
+    href: ShipmentMessageBlock/v1ShipmentMessageBlockEntity_GetUserBlocks.md
+  - name: GET ShipmentMessageBlock/default
+    href: ShipmentMessageBlock/v1ShipmentMessageBlockEntity_DefaultShipmentMessageBlockEntity.md
+  - name: PATCH ShipmentMessageBlock/{id}
+    href: ShipmentMessageBlock/v1ShipmentMessageBlockEntity_PatchShipmentMessageBlockEntity.md
+  - name: POST ShipmentMessageBlock
+    href: ShipmentMessageBlock/v1ShipmentMessageBlockEntity_PostShipmentMessageBlockEntity.md
+  - name: PUT ShipmentMessageBlock/{id}
+    href: ShipmentMessageBlock/v1ShipmentMessageBlockEntity_PutShipmentMessageBlockEntity.md
+- name: String
+  href: String/index.md
+  items:
+  - name: GET String
+    href: String/v1String_GetStringNames.md
+  - name: GET String/{sr_id}
+    href: String/v1String_GetStrings_GET.md
+  - name: GET String/{sr_id}/{isoLangCode}
+    href: String/v1String_GetString.md
+  - name: GET String/KnownLanguages
+    href: String/v1String_GetKnownLanguages.md
+  - name: POST String
+    href: String/v1String_GetStrings.md
+- name: SystemEvent
+  href: SystemEvent/index.md
+  items:
+  - name: DEL SystemEvent/{id}
+    href: SystemEvent/v1SystemEventEntity_DeleteSystemEventEntity.md
+  - name: GET SystemEvent
+    href: SystemEvent/v1SystemEventEntity_GetAll.md
+  - name: GET SystemEvent/{id}
+    href: SystemEvent/v1SystemEventEntity_GetSystemEventEntity.md
+  - name: GET SystemEvent/default
+    href: SystemEvent/v1SystemEventEntity_DefaultSystemEventEntity.md
+  - name: PATCH SystemEvent/{id}
+    href: SystemEvent/v1SystemEventEntity_PatchSystemEventEntity.md
+  - name: POST SystemEvent
+    href: SystemEvent/v1SystemEventEntity_PostSystemEventEntity.md
+  - name: PUT SystemEvent/{id}
+    href: SystemEvent/v1SystemEventEntity_PutSystemEventEntity.md
+- name: TableRecord
+  href: TableRecord/index.md
+  items:
+  - name: DEL Table/{tableName}/{id}
+    href: TableRecord/v1TableRecord_DeleteRow.md
+  - name: GET Table/{tableName}/{id}
+    href: TableRecord/v1TableRecord_ReadRow.md
+  - name: POST Table/{tableName}
+    href: TableRecord/v1TableRecord_InsertRow.md
+  - name: PUT Table/{tableName}/{id}
+    href: TableRecord/v1TableRecord_UpdateRow.md
+- name: Ticket
+  href: Ticket/index.md
+  items:
+  - name: DEL Ticket/{id}
+    href: Ticket/v1TicketEntity_DeleteTicketEntity.md
+  - name: GET Ticket
+    href: Ticket/v1TicketEntity_GetAll.md
+  - name: GET Ticket/{id}
+    href: Ticket/v1TicketEntity_GetTicketEntity.md
+  - name: GET Ticket/{id}/ForeignKey
+    href: Ticket/v1TicketEntity_GetAllForeignKeysOnEntity.md
+  - name: GET Ticket/{id}/Messages
+    href: Ticket/v1TicketEntity_Messages.md
+  - name: GET Ticket/{id}/Simple
+    href: Ticket/v1TicketEntity_Simple.md
+  - name: GET Ticket/CustomField
+    href: Ticket/v1TicketEntity_GetCustomFieldInfoList.md
+  - name: GET Ticket/CustomField/{fieldName}
+    href: Ticket/v1TicketEntity_GetCustomFieldInfo.md
+  - name: GET Ticket/default
+    href: Ticket/v1TicketEntity_DefaultTicketEntity.md
+  - name: PATCH Ticket/{id}
+    href: Ticket/v1TicketEntity_PatchTicketEntity.md
+  - name: POST Ticket
+    href: Ticket/v1TicketEntity_PostTicketEntity.md
+  - name: POST Ticket/{id}/NotifyNewMessage
+    href: Ticket/v1TicketEntity_NotifyNewTicketMessage.md
+  - name: POST Ticket/{id}/NotifyNewTicket
+    href: Ticket/v1TicketEntity_NotifyNewTicket.md
+  - name: PUT Ticket/{id}
+    href: Ticket/v1TicketEntity_PutTicketEntity.md
+- name: TicketMessage
+  href: TicketMessage/index.md
+  items:
+  - name: DEL TicketMessage/{id}
+    href: TicketMessage/v1TicketMessageEntity_DeleteTicketMessageEntity.md
+  - name: GET TicketMessage
+    href: TicketMessage/v1TicketMessageEntity_GetAll.md
+  - name: GET TicketMessage/{id}
+    href: TicketMessage/v1TicketMessageEntity_GetTicketMessageEntity.md
+  - name: GET TicketMessage/{id}/Attachment
+    href: TicketMessage/v1TicketMessageEntity_GetAttachmentInfo.md
+  - name: GET TicketMessage/{id}/ForeignKey
+    href: TicketMessage/v1TicketMessageEntity_GetAllForeignKeysOnEntity.md
+  - name: GET TicketMessage/CustomField
+    href: TicketMessage/v1TicketMessageEntity_GetCustomFieldInfoList.md
+  - name: GET TicketMessage/CustomField/{fieldName}
+    href: TicketMessage/v1TicketMessageEntity_GetCustomFieldInfo.md
+  - name: GET TicketMessage/default
+    href: TicketMessage/v1TicketMessageEntity_DefaultTicketMessageEntity.md
+  - name: PATCH TicketMessage/{id}
+    href: TicketMessage/v1TicketMessageEntity_PatchTicketMessageEntity.md
+  - name: POST TicketMessage
+    href: TicketMessage/v1TicketMessageEntity_PostTicketMessageEntity.md
+  - name: POST TicketMessage/{id}/Attachment
+    href: TicketMessage/v1TicketMessageEntity_AddAttachments.md
+  - name: POST TicketMessage/{id}/Send
+    href: TicketMessage/v1TicketMessageEntity_SendTicketMessage.md
+  - name: PUT TicketMessage/{id}
+    href: TicketMessage/v1TicketMessageEntity_PutTicketMessageEntity.md
+- name: TimeZone
+  href: TimeZone/index.md
+  items:
+  - name: GET TimeZone
+    href: TimeZone/v1TimeZone_GetTimeZonesArchive.md
+  - name: GET TimeZone/base
+    href: TimeZone/v1TimeZone_GetBaseTimeZone.md
+  - name: GET TimeZone/current
+    href: TimeZone/v1TimeZone_GetCurrentTimeZone.md
+- name: TriggerScript
+  href: TriggerScript/index.md
+  items:
+  - name: DEL TriggerScript/{id}
+    href: TriggerScript/v1TriggerScriptEntity_DeleteTriggerScriptByUniqueId.md
+  - name: DEL TriggerScript/{id}
+    href: TriggerScript/v1TriggerScriptEntity_DeleteTriggerScriptEntity.md
+  - name: GET TriggerScript
+    href: TriggerScript/v1TriggerScriptEntity_GetAll.md
+  - name: GET TriggerScript/{id}
+    href: TriggerScript/v1TriggerScriptEntity_GetTriggerScriptByUniqueId.md
+  - name: GET TriggerScript/{id}
+    href: TriggerScript/v1TriggerScriptEntity_GetTriggerScriptEntity.md
+  - name: GET TriggerScript/{id}/Validate
+    href: TriggerScript/v1TriggerScriptEntity_ValidateTriggerScript.md
+  - name: GET TriggerScript/{id}/Validate
+    href: TriggerScript/v1TriggerScriptEntity_ValidateTriggerScriptByUniqueId.md
+  - name: GET TriggerScript/default
+    href: TriggerScript/v1TriggerScriptEntity_DefaultTriggerScriptEntity.md
+  - name: PATCH TriggerScript/{id}
+    href: TriggerScript/v1TriggerScriptEntity_PatchTriggerScriptEntity.md
+  - name: POST TriggerScript
+    href: TriggerScript/v1TriggerScriptEntity_PostTriggerScriptEntity.md
+  - name: PUT TriggerScript/{id}
+    href: TriggerScript/v1TriggerScriptEntity_PutTriggerScriptEntity.md
+  - name: PUT TriggerScript/{id}
+    href: TriggerScript/v1TriggerScriptEntity_SaveTriggerScriptByUniqueId.md
+- name: User
+  href: User/index.md
+  items:
+  - name: DEL User/{id}
+    href: User/v1User_DeleteUser.md
+  - name: DEL User/{userName}
+    href: User/v1User_DeleteUserFromName.md
+  - name: GET User
+    href: User/v1User_GetAll.md
+  - name: GET User/{id}
+    href: User/v1User_GetUser.md
+  - name: GET User/{id}/CustomCommand
+    href: User/v1User_GetUserCommands.md
+  - name: GET User/{id}/ForeignKey
+    href: User/v1User_GetAllForeignKeysOnEntity.md
+  - name: GET User/{userName}
+    href: User/v1User_GetUserFromName.md
+  - name: GET User/CredentialTypes
+    href: User/v1User_GetCredentialTypes.md
+  - name: GET User/current
+    href: User/v1User_GetCurrentUser.md
+  - name: GET User/currentAssociate
+    href: User/v1User_GetCurrentAssociate.md
+  - name: GET User/currentPrincipal
+    href: User/v1User_GetCurrentPrincipal.md
+  - name: GET User/currentToken
+    href: User/v1User_GetCurrentToken.md
+  - name: GET User/CustomField
+    href: User/v1User_GetCustomFieldInfoList.md
+  - name: GET User/CustomField/{fieldName}
+    href: User/v1User_GetCustomFieldInfo.md
+  - name: GET User/Default
+    href: User/v1User_CreateDefaultUserFromUserTypeAndPersonId.md
+  - name: PATCH User/{id}
+    href: User/v1User_PatchUser.md
+  - name: POST User
+    href: User/v1User_PostUser.md
+  - name: POST User/{id}/CustomCommand/{commandName}
+    href: User/v1User_ExecuteUserCommand.md
+  - name: POST User/Validate
+    href: User/v1User_ValidateUser.md
+  - name: PUT User/{id}
+    href: User/v1User_PutUser.md
+  - name: PUT User/{userName}
+    href: User/v1User_SaveUserFromName.md
+- name: Webhook
+  href: Webhook/index.md
+  items:
+  - name: DEL Webhook/{id}
+    href: Webhook/v1Webhook_DeleteWebhook.md
+  - name: GET Webhook
+    href: Webhook/v1Webhook_GetAllWebhooks.md
+  - name: GET Webhook/{id}
+    href: Webhook/v1Webhook_GetWebhook.md
+  - name: GET Webhook/{id}/LastError
+    href: Webhook/v1Webhook_GetLastError.md
+  - name: GET Webhook/default
+    href: Webhook/v1Webhook_DefaultWebhook.md
+  - name: PATCH Webhook/{id}
+    href: Webhook/v1Webhook_PatchWebhook.md
+  - name: POST Webhook
+    href: Webhook/v1Webhook_PostWebhook.md
+  - name: POST Webhook/{eventName}/{primaryKey}
+    href: Webhook/v1Webhook_SignalEvent.md
+  - name: POST Webhook/Test
+    href: Webhook/v1Webhook_TestWebhook.md
+  - name: PUT Webhook/{id}
+    href: Webhook/v1Webhook_PutWebhook.md
