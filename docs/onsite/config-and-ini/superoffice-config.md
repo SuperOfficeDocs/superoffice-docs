@@ -46,7 +46,7 @@ If Oracle SQL server is used, there are extra config settings in *SuperOffice.co
 
 In *SuperOffice.config*, you do not actually need to specify the `DynamicLoadedConnectionType` and location of the Oracle driver DLLs, if they are properly installed and can be found by our algorithms. However you **can** specify them, and those specifications will be used.
 
-On the other hand, the Server and Database specifications are **always** overridden, both in-memory in the Win client and when writing the config file for the MailLink. The override is based on the registry settings created by the Oracle ODBC client setup, **not** on whatever values may be in the S*uperOffice.config* file; and Database will always (correctly) be set to blank since it is not used by the connection string.
+On the other hand, the Server and Database specifications are **always** overridden, both in-memory in the Win client and when writing the config file for the MailLink. The override is based on the registry settings created by the Oracle ODBC client setup, **not** on whatever values may be in the *SuperOffice.config* file; and Database will always (correctly) be set to blank since it is not used by the connection string.
 
 We have a multilevel algorithm to pick up the Oracle drivers. This is run no matter what so it should therefore work successful at the customer without this info in the *SuperOffice.config*.
 

@@ -879,7 +879,7 @@ items:
     - name: Debug
       href: onsite/web-client/debug.md
     - name: Enable debug reporter
-      href: onsite/web-client/enable-debug-reporter.md
+      href: onsite/web-client/debug-reporter.md
     - name: Install netserver
       href: onsite/web-client/install-netserver.md
     - name: Set up

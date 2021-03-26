@@ -1,14 +1,9 @@
 ---
-# This basic template provides core metadata fields for Markdown articles on docs.superoffice.com.
-
-# Mandatory fields.
-title: set_up_web_and_report    # (Required) Very important for SEO. Intent in a unique string of 43-59 chars including spaces.
-description:                    # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
+title: set_up_web_and_report
+description:                spaces.
 author: {github-id}             # Your GitHub alias.
 keywords:
 so.topic: howto               # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
 so.envir: onsite                # cloud or onsite
 so.client: web              # online, web, win, pocket, or mobile
 ---
@@ -47,16 +42,16 @@ In the SuperOffice Product Configuration Complete dialog, you get a summary of t
 
 ### We get "Error code: 3, Error: System.ApplicationException: Failed to impersonate user 'xxx'. Error message:, Last error; 87 at SuperOffice.Security.Util.WindowsIdentityHelper.LogonUser(String userName, String domain, String password, LogonType logonType"
 
-Reporter will use the Impersonate User from Archive domain, archive user and archive password (web.config), and this user must have access to log on to the server where the web client is running. This user or the group he belongs to must be members of the list **Log on locally** in security policy. If this right is missing we will receive error 87 from Windows.
+Reporter will use the Impersonate User from Archive domain, archive user, and archive password (web.config), and this user must have access to log on to the server where the web client is running. This user or the group he belongs to must be members of the list **Log on locally** in security policy. If this right is missing we will receive error 87 from Windows.
 
 ![x][img4]
 
-### All users receive a _Error message: Unable to get file stream._ when they try to preview a report
+### All users receive an "Error message: Unable to get file stream." when they try to preview a report
 
 Check the rights on the Web temporary path folder (location is found in the [web.config][1] file under the Documents section).
 
 ```xml
-<!-- Location of temporary folder for streaming files.
+<!-- Location of the temporary folder for streaming files.
 This path must resolve to the same location for farms/clusters. -->
 
 <add key="TemporaryPath" value="C:\\temp-path" />

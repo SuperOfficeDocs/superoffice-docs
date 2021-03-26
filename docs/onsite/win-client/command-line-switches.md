@@ -15,19 +15,19 @@ so.client: win              # online, web, win, pocket, or mobile
 
 # Command line and registry switches
 
-Overview of parameters for SOCRM.EXE, SOADMIN.EXE, SOEventServer.exe and some registry keys.
+Overview of parameters for SOCRM.EXE, SOADMIN.EXE, SOEventServer.exe, and some registry keys.
 
 > [!NOTE]
-> DbSetup may also be run with command line switches.
+> DbSetup may also be run with command-line switches.
 
-Command line switches are used to add parameters to Windows applications to run them with some predefined values and to change their standard behavior.
+Command-line switches are used to add parameters to Windows applications to run them with some predefined values and to change their standard behavior.
 
 ## SOCRM.EXE
 
 `SOCRM.EXE /lang= /inipath= /user= /password= ...`
 
 * /LANG=XX - Default US. Defines the language code (for example, US, NO, or SW). Overrides the *SOUSER.INI* setting.
-* /INIPATH=XXX - Defaults to folder that SOCRM.EXE is located in. Set path to load *SuperOffice.ini* from. See Registry keys section below for MailLink configuration.
+* /INIPATH=XXX - Defaults to the folder that SOCRM.EXE is located in. Set path to load *SuperOffice.ini* from. See Registry keys section below for MailLink configuration.
 * /USER=XXX - Defaults to blank. Set username. Overrides integrated login.
 * /PASSWORD=XXX - Set password.
 * Together with the USER switch this allows you to create an insecure shortcut that automatically logs in to SuperOffice.
