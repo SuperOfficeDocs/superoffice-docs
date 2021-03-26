@@ -126,6 +126,43 @@ items:
     href: ../onsite/migrate/service-mailboxes.md
   - name: Run OMT
     href: ../onsite/migrate/run-omt.md
+- name: Config
+  href: ../onsite/config-and-ini/index.md
+  items:
+  - name: How to find the superoffice.ini file
+    href: ../onsite/win-client/find-superoffice-ini-file.md
+  - name: DBSetup
+    href: ../onsite/crm-server/dbsetup-exe.md
+  - name: Batch task server
+    href: ../onsite/web-client/batch-task-server.md
+  - name: Command line switches
+    href: ../onsite/win-client/command-line-switches.md
+  - name: Files
+    items:
+    - name: Remotetravel.ini
+      href: ../onsite/config-and-ini/remotetravel-ini.md
+    - name: Service config
+      href: ../onsite/config-and-ini/service-config.md
+    - name: Sotables .ini
+      href: ../onsite/config-and-ini/sotables-ini.md
+    - name: Souser.ini
+      href: ../onsite/config-and-ini/souser-ini.md
+    - name: Superoffice.config
+      href: ../onsite/config-and-ini/superoffice-config.md
+    - name: Superoffice.ini
+      href: ../onsite/config-and-ini/superoffice-ini.md
+    - name: Username.ini
+      href: ../onsite/config-and-ini/username-ini.md
+    - name: Web.config
+      href: ../onsite/config-and-ini/web-config.md
+- name: Debug
+  items:
+  - name: Web client
+    href: ../onsite/web-client/debug.md
+  - name: Reporter
+    href: ../onsite/web-client/debug-reporter.md
+  - name: Windows client
+    href: ../onsite/win-client/debug.md
 - name: Version history
   items:
   - name: Onsite
