@@ -68,7 +68,7 @@ For all scenarios where the customer does not have Customer Service already inst
 3. [Upgrade CRM Web][3]
 4. [Install Service][4]
 
-## Upgrade CS or CS + Windows Client
+## Upgrade CS or CS + Windows client
 
 **For:**
 
@@ -113,11 +113,11 @@ SuperOffice 7.0 or 7.1 Server
 2. Then complete the upgrade to 8.
 
 <!-- Referenced links -->
-[1]: crm-server/upgrade-to-8.md
-[2]: win-client/upgrade.md
-[3]: web-client/upgrade-to-8.md
-[4]: service/set-up-guide.md
-[5]: web-client/upgrade-netserver-to-8.md
-[6]: service/upgrade.md
+[1]: ../crm-server/upgrade-to-8.md
+[2]: ../win-client/upgrade.md
+[3]: ../web-client/upgrade-to-8.md
+[4]: ../service/set-up-guide.md
+[5]: ../web-client/upgrade-netserver-to-8.md
+[6]: ../service/upgrade.md
 [7]: upgrade-to-8-1.md
 [8]: https://community.superoffice.com/en/technical/documentation/older-versions/documentation-7/onpremise/upgrade/

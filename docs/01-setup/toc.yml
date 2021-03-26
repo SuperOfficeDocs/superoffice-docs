@@ -101,7 +101,7 @@ items:
   - name: To version 8.0
     items:
     - name: Upgrade scenarios 75 to 8
-      href: ../onsite/upgrade-scenarios-75-to-8.md
+      href: ../onsite/upgrade/upgrade-scenarios-75-to-8.md
     - name: CRM Server
       href: ../onsite/crm-server/upgrade-to-8.md
       items:
@@ -116,13 +116,16 @@ items:
     - name: Windows client
       href: ../onsite/win-client/upgrade.md
   - name: To version 8.1
-    href: ../onsite/upgrade-to-8-1.md
+    href: ../onsite/upgrade/upgrade-to-8-1.md
 - name: Migrate to online
+  href: ../onsite/migrate/index.md
   items:
   - name: System requirements
     href: ../online/system-requirements.md
-  - name: Migration guide
-    href: ../onsite/migration-guide.md
+  - name: Service mailboxes
+    href: ../onsite/migrate/service-mailboxes.md
+  - name: Run OMT
+    href: ../onsite/migrate/run-omt.md
 - name: Version history
   items:
   - name: Onsite

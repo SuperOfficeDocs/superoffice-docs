@@ -761,14 +761,8 @@ items:
 - name: Onsite
   href: onsite/index.md
   items:
-  - name: Migration guide
-    href: onsite/migration-guide.md
   - name: System requirements
     href: onsite/system-requirements.md
-  - name: Upgrade scenarios 75 to 8
-    href: onsite/upgrade-scenarios-75-to-8.md
-  - name: Upgrade to 8 1
-    href: onsite/upgrade-to-8-1.md
   - name: Version history
     href: onsite/version-history.md
   - name: Compatibility
@@ -839,6 +833,13 @@ items:
         href: onsite/crm-server/iis-web-server/prepare.md
       - name: Set up reverse proxy on iis
         href: onsite/crm-server/iis-web-server/set-up-reverse-proxy-on-iis.md
+  - name: Migrate
+    href: onsite/migrate/index.md
+    items:
+    - name: Service mailboxes
+      href: onsite/migrate/service-mailboxes.md
+    - name: Run OMT
+      href: onsite/migrate/run-omt.md
   - name: Security
     href: onsite/security/deployment-scenarios.md
     items:
@@ -863,7 +864,15 @@ items:
       href: onsite/service/set-up-guide.md
     - name: Upgrade
       href: onsite/service/upgrade.md
+  - name: Upgrade
+    href: onsite/upgrade/upgrade-scenarios-75-to-8.md
+    items:
+    - name: Upgrade scenarios 75 to 8
+      href: onsite/upgrade/upgrade-scenarios-75-to-8.md
+    - name: Upgrade to 8 1
+      href: onsite/upgrade/upgrade-to-8-1.md
   - name: Web client
+    href: onsite/web-client/batch-task-server.md
     items:
     - name: Batch task server
       href: onsite/web-client/batch-task-server.md
@@ -884,6 +893,7 @@ items:
     - name: Upgrade to 8
       href: onsite/web-client/upgrade-to-8.md
   - name: Win client
+    href: onsite/win-client/command-line-switches.md
     items:
     - name: Command line switches
       href: onsite/win-client/command-line-switches.md
@@ -930,10 +940,10 @@ items:
   items:
   - name: Config faq
     href: service/config-faq.md
-  - name: Log files
-    href: service/log-files.md
   - name: Debug automated tasks
     href: service/debug-automated-tasks.md
+  - name: Log files
+    href: service/log-files.md
   - name: Set up facebook integration
     href: service/set-up-facebook-integration.md
   - name: Attachments
