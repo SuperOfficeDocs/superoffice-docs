@@ -141,29 +141,6 @@ items:
       href: ../authentication/system-user/system-user-token.md
 - name: Automation
   href: ../04-automation/toc.yml
-- name: Customer center
-  href: ../customer-center/index.md
-  items:
-  - name: Config
-    href: ../customer-center/config.md
-  - name: Edit template
-    href: ../customer-center/edit-template.md
-  - name: Inline CRMSCript
-    href: ../customer-center/inline-crmscript.md
-  - name: Access script
-    href: ../customer-center/access-script.md
-  - name: Call script in Service with AJAX
-    href: ../customer-center/call-script-in-cs-with-ajax.md
-  - name: Display KAM picture
-    href: ../customer-center/display-kam-picture.md
-  - name: Embed chat widget on external site
-    href: ../customer-center/embed-chat-widget-on-external-site.md
-  - name: Tutorials
-    items:
-    - name: Custom form - book appointment
-      href: ../customer-center/tutorials/custom-form-book-apt.md
-    - name: Custom form - edit customer
-      href: ../customer-center/tutorials/custom-form-edit-customer.md
 - name: License
   href: ../license/index.md
   items:
@@ -222,11 +199,6 @@ items:
     href: ../privacy/e-marketing-consent.md
   - name: Soft-delete
     href: ../privacy/soft-delete.md
-- name: Reply templates
-  href: ../reply-templates/index.md
-  items:
-  - name: System templates
-    href: ../reply-templates/system-templates.md
 - name: Reports
   items:
   - name: Parameters
@@ -236,35 +208,7 @@ items:
   - name: Expand quick search
     href: ../search/expand-quick-search.md
 - name: Service
-  href: ../service/config-faq.md
-  items:
-  - name: Config FAQ
-    href: ../service/config-faq.md
-  - name: Attachments
-    items:
-    - name: Location
-      href: ../service/attachments/location.md
-  - name: Debug automated tasks
-    href: ../service/debug-automated-tasks.md
-  - name: Set up Facebook integration
-    href: ../service/set-up-facebook-integration.md
-  - name: SMS
-    href: ../service/sms/index.md
-    items:
-    - name: CM
-      href: ../service/sms/cm.md
-    - name: Compaya
-      href: ../service/sms/compaya.md
-    - name: Intelecom
-      href: ../service/sms/intelecom.md
-    - name: PSWinCom
-      href: ../service/sms/pswincom.md
-    - name: SMSTeknik
-      href: ../service/sms/smsteknik.md
-    - name: Twilio
-      href: ../service/sms/twilio.md
-    - name: TxtLocal
-      href: ../service/sms/txtlocal.md
+  href: ../05-service/toc.yml
 - name: Travel
   href: ../travel/index.md
   items:
