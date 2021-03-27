@@ -131,16 +131,7 @@ items:
 - name: Mobile
   href: ../11-mobile/toc.yml
 - name: Privacy
-  href: ../privacy/index.md
-  items:
-  - name: GDPR for app developer
-    href: ../privacy/gdpr-for-app-developer.md
-  - name: Consent management
-    href: ../privacy/consent-management.md
-  - name: E-marketing consent
-    href: ../privacy/e-marketing-consent.md
-  - name: Soft-delete
-    href: ../privacy/soft-delete.md
+  href: ../13-privacy/toc.yml
 # TBD project, quote, sale, saint
 # Reports currently under documents (just 1 page)
 # only 1 page for search - goes to Service toc for now
@@ -152,3 +143,5 @@ items:
   items:
   - name: Create an update prototype
     href: ../travel/create-update-prototype.md
+- name: WebTools
+  href: ../12-webtools/toc.yml
