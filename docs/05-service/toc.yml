@@ -56,4 +56,8 @@
         href: ../customer-center/tutorials/custom-form-book-apt.md
       - name: Custom form - edit customer
         href: ../customer-center/tutorials/custom-form-edit-customer.md
-  
+  - name: Google reCaptcha in forms
+    href: ../marketing/forms/recaptcha.md
+  - name: Expand quick search
+    href: ../search/expand-quick-search.md
+# TBD Knowledge base

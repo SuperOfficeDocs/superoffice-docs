@@ -96,14 +96,9 @@ items:
   href: ../09-documents/toc.yml
 - name: Email
   href: ../10-email/toc.yml
-- name: Marketing
-  href: ../marketing/index.md
-  items:
-  - name: Forms
-    href: ../marketing/forms/index.md
-    items:
-    - name: Recaptcha
-      href: ../marketing/forms/recaptcha.md
+# TBD environment
+- name: Identity management
+  href: ../03-im/toc.yml
 - name: Mirroring
   href: ../mirroring/index.md
   items:
@@ -133,6 +128,8 @@ items:
     href: ../mirroring/i-mirror-client-service.md
   - name: Create WFC
     href: ../mirroring/create-wfc.md
+- name: Mobile
+  href: ../11-mobile/toc.yml
 - name: Privacy
   href: ../privacy/index.md
   items:
@@ -144,16 +141,12 @@ items:
     href: ../privacy/e-marketing-consent.md
   - name: Soft-delete
     href: ../privacy/soft-delete.md
-- name: Reports
-  items:
-  - name: Parameters
-    href: ../reports/parameters.md
-- name: Search
-  items:
-  - name: Expand quick search
-    href: ../search/expand-quick-search.md
+# TBD project, quote, sale, saint
+# Reports currently under documents (just 1 page)
+# only 1 page for search - goes to Service toc for now
 - name: Service
   href: ../05-service/toc.yml
+# Travel goes into database for now (set in build docs, keep lines here!)
 - name: Travel
   href: ../travel/index.md
   items:

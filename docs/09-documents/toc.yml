@@ -30,8 +30,10 @@ items:
       href: ../documents/office-365-document-integration/set-up.md
     - name: Troubleshooting
       href: ../documents/office-365-document-integration/troubleshooting.md
-- name: Odf
+- name: ODF
   href: ../documents/odf.md
+- name: Report parameters
+  href: ../reports/parameters.md
 - name: Ribbons
   href: ../documents/ribbons/index.md
   items:
