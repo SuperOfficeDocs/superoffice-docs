@@ -1,4 +1,6 @@
 items:
+- name: SOAP Web Services
+  href: index.md
 - name: Services75
   href: Services75/index.md
   items:
